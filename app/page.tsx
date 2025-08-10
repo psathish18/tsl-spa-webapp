@@ -215,7 +215,7 @@ export default function HomePage() {
                             </span>
                           </div>
                           
-                          <a href={`/song/${encodeURIComponent(slug)}`}>
+                          <a href={`/song/${encodeURIComponent(slug)}.html`}>
                             <h3 className="font-semibold text-lg text-gray-900 mb-2 hover:text-blue-600 transition-colors">
                               {songTitle}
                             </h3>
@@ -250,7 +250,7 @@ export default function HomePage() {
                           </p>
                           
                           <a 
-                            href={`/song/${encodeURIComponent(slug)}`}
+                            href={`/song/${encodeURIComponent(slug)}.html`}
                             className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm group"
                           >
                             Read Lyrics
@@ -317,7 +317,7 @@ export default function HomePage() {
                       return (
                         <div key={index} className="text-sm">
                           <a 
-                            href={`/song/${encodeURIComponent(slug)}`}
+                            href={`/song/${encodeURIComponent(slug)}.html`}
                             className="text-blue-600 hover:text-blue-700 block truncate"
                             title={songTitle}
                           >

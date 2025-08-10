@@ -10,6 +10,10 @@ const nextConfig = {
         source: '/api/proxy/:path*',
         destination: 'https://tsonglyricsapp.blogspot.com/:path*',
       },
+      {
+        source: '/song/:slug.html',
+        destination: '/song/:slug',
+      },
     ];
   },
   async headers() {
