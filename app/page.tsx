@@ -50,8 +50,48 @@ export default function HomePage() {
     fetchSongs()
   }, [])
 
+  const getSongTitle = (song: any) => {
+    // Priority 1: Use the API title (includes "lyrics" - better for SEO and consistency)
+    const apiTitle = song.title?.$t || song.title
+    if (apiTitle) {
+      return apiTitle
+    }
+    
+    // Priority 2: Use the enhanced songTitle with "Lyrics" appended
+    if (song.songTitle) {
+      return song.songTitle.includes('lyrics') || song.songTitle.includes('Lyrics') 
+        ? song.songTitle 
+        : `${song.songTitle} Lyrics`
+    }
+    
+    // Priority 3: Try to get category
+    if (song.category && Array.isArray(song.category)) {
+      for (const cat of song.category) {
+        if (cat.term && cat.term.startsWith('Song:')) {
+          const songName = cat.term.replace(/^Song:/, '').trim()
+          return songName.includes('lyrics') || songName.includes('Lyrics')
+            ? songName
+            : `${songName} Lyrics`
+        }
+      }
+    }
+    
+    // Final fallback
+    return 'Unknown Song Lyrics'
+  }
+
   const getSongSlug = (song: any) => {
-    // Use the enhanced songTitle if available
+    // Priority 1: Use the API title (includes "lyrics" - better for SEO and migration)
+    const apiTitle = song.title?.$t || song.title
+    if (apiTitle) {
+      return apiTitle.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+        .replace(/\s+/g, '-') // Replace spaces with hyphens
+        .replace(/-+/g, '-') // Replace multiple hyphens with single
+        .trim()
+    }
+    
+    // Priority 2: Use the enhanced songTitle if available
     if (song.songTitle) {
       return song.songTitle.toLowerCase()
         .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
@@ -60,7 +100,7 @@ export default function HomePage() {
         .trim()
     }
     
-    // Try to get category
+    // Priority 3: Try to get category (fallback)
     if (song.category && Array.isArray(song.category)) {
       for (const cat of song.category) {
         if (cat.term && cat.term.startsWith('Song:')) {
@@ -74,13 +114,8 @@ export default function HomePage() {
       }
     }
     
-    // Fallback to title-based slug
-    const title = song.title?.$t || song.title || 'unknown-song'
-    return title.toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-      .replace(/\s+/g, '-') // Replace spaces with hyphens
-      .replace(/-+/g, '-') // Replace multiple hyphens with single
-      .trim()
+    // Final fallback
+    return 'unknown-song'
   }
 
   const formatDate = (dateString: string) => {
@@ -158,7 +193,7 @@ export default function HomePage() {
               {!loading && !error && songs.length > 0 && (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {songs.map((song: any, index: number) => {
-                    const songTitle = song.songTitle || song.title?.$t || song.title || `Song ${index + 1}`
+                    const songTitle = getSongTitle(song)
                     const songContent = song.content?.$t || song.content || ''
                     const publishedDate = song.published?.$t || song.published || ''
                     const thumbnail = getThumbnail(song)
@@ -311,7 +346,7 @@ export default function HomePage() {
                 <div className="space-y-3">
                   {songs.length > 0 ? (
                     songs.slice(0, 5).map((song: any, index: number) => {
-                      const songTitle = song.title?.$t || song.title || `Song ${index + 1}`
+                      const songTitle = getSongTitle(song)
                       const slug = getSongSlug(song)
                       
                       return (
