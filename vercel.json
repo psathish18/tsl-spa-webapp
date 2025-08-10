@@ -4,7 +4,6 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "outputDirectory": ".next",
-  "regions": ["all"],
   "functions": {
     "app/api/**": {
       "maxDuration": 30
