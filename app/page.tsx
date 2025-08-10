@@ -11,16 +11,37 @@ export default function HomePage() {
     const fetchSongs = async () => {
       try {
         setLoading(true)
-        const response = await fetch('/api/songs')
+        setError('')
+        
+        console.log('Fetching songs from API...')
+        const response = await fetch('/api/songs', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        })
+        
+        console.log('Response status:', response.status)
+        
         if (response.ok) {
           const data = await response.json()
-          setSongs(data.feed?.entry || [])
+          console.log('API Response:', data)
+          
+          if (data.feed && data.feed.entry) {
+            setSongs(data.feed.entry)
+            console.log('Songs loaded:', data.feed.entry.length)
+          } else {
+            console.log('No entries found in feed')
+            setSongs([])
+          }
         } else {
-          setError('Failed to fetch songs')
+          const errorData = await response.json()
+          console.error('API Error:', errorData)
+          setError(`Failed to fetch songs: ${response.status} - ${errorData.error || 'Unknown error'}`)
         }
       } catch (error) {
-        console.error('Error fetching songs:', error)
-        setError('Network error occurred')
+        console.error('Network error:', error)
+        setError(`Network error: ${error instanceof Error ? error.message : 'Unknown error'}`)
       } finally {
         setLoading(false)
       }
@@ -30,53 +51,78 @@ export default function HomePage() {
   }, [])
 
   const getSongSlug = (song: any) => {
-    const category = song.category?.[0]?.term
-    if (category) {
-      return category.replace(/^Song:/, '').trim()
+    // Use the enhanced songTitle if available
+    if (song.songTitle) {
+      return song.songTitle.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+        .replace(/\s+/g, '-') // Replace spaces with hyphens
+        .replace(/-+/g, '-') // Replace multiple hyphens with single
+        .trim()
     }
-    return song.title.$t.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+    
+    // Try to get category
+    if (song.category && Array.isArray(song.category)) {
+      for (const cat of song.category) {
+        if (cat.term && cat.term.startsWith('Song:')) {
+          return cat.term.replace(/^Song:/, '').trim()
+            .toLowerCase()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .trim()
+        }
+      }
+    }
+    
+    // Fallback to title-based slug
+    const title = song.title?.$t || song.title || 'unknown-song'
+    return title.toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+      .replace(/\s+/g, '-') // Replace spaces with hyphens
+      .replace(/-+/g, '-') // Replace multiple hyphens with single
+      .trim()
   }
 
   const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    })
+    if (!dateString) return 'Unknown date'
+    try {
+      return new Date(dateString).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    } catch {
+      return 'Unknown date'
+    }
   }
 
   const extractDescription = (content: string) => {
-    const text = content.replace(/<[^>]*>/g, '')
+    if (!content) return 'No description available'
+    const text = content.replace(/<[^>]*>/g, '').trim()
     return text.length > 150 ? text.substring(0, 150) + '...' : text
+  }
+
+  const getThumbnail = (song: any) => {
+    // Try different possible thumbnail sources
+    if (song.media$thumbnail && song.media$thumbnail.url) {
+      return song.media$thumbnail.url
+    }
+    
+    if (song['media:thumbnail'] && song['media:thumbnail'].url) {
+      return song['media:thumbnail'].url
+    }
+    
+    // Look for images in content
+    const content = song.content?.$t || ''
+    const imgMatch = content.match(/<img[^>]+src="([^"]+)"/i)
+    if (imgMatch) {
+      return imgMatch[1]
+    }
+    
+    return null
   }
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Tamil Song Lyrics
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
-              Discover the latest Tamil songs with lyrics and translations
-            </p>
-            <p className="text-lg mb-8 text-blue-200 max-w-2xl mx-auto">
-              Your ultimate destination for Tamil music. Find the latest song lyrics, 
-              discover new artists, and enjoy the beauty of Tamil poetry.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">
-                Explore Latest Songs
-              </button>
-              <button className="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition-colors">
-                Subscribe for Updates
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -111,63 +157,111 @@ export default function HomePage() {
 
               {!loading && !error && songs.length > 0 && (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {songs.map((song: any, index: number) => (
-                    <article key={song.id?.$t || index} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
-                      <div className="relative h-48 bg-gray-200">
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="text-gray-400 text-sm">
-                            {song.media$thumbnail?.url ? (
-                              <img 
-                                src={song.media$thumbnail.url} 
-                                alt={song.title.$t}
-                                className="w-full h-full object-cover"
-                              />
-                            ) : (
+                  {songs.map((song: any, index: number) => {
+                    const songTitle = song.songTitle || song.title?.$t || song.title || `Song ${index + 1}`
+                    const songContent = song.content?.$t || song.content || ''
+                    const publishedDate = song.published?.$t || song.published || ''
+                    const thumbnail = getThumbnail(song)
+                    const slug = getSongSlug(song)
+                    
+                    // Get enhanced metadata
+                    const movieName = song.movieName || ''
+                    const singerName = song.singerName || ''
+                    const lyricistName = song.lyricistName || ''
+                    
+                    return (
+                      <article key={song.id?.$t || index} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+                        <div className="relative h-48 bg-gray-200">
+                          {thumbnail ? (
+                            <img 
+                              src={thumbnail} 
+                              alt={songTitle}
+                              className="w-full h-full object-cover"
+                              onError={(e) => {
+                                // Hide image if it fails to load
+                                e.currentTarget.style.display = 'none'
+                              }}
+                            />
+                          ) : (
+                            <div className="absolute inset-0 flex items-center justify-center">
                               <div className="text-center">
-                                <svg className="w-12 h-12 mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
+                                <svg className="w-12 h-12 mx-auto mb-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                   <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
                                 </svg>
-                                Song Image
+                                <span className="text-gray-400 text-sm">Tamil Song</span>
                               </div>
-                            )}
+                            </div>
+                          )}
+                          
+                          {/* Overlay for better readability */}
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute bottom-4 left-4 text-white">
+                              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                                </svg>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      
-                      <div className="p-6">
-                        <div className="flex items-center justify-between text-sm text-gray-500 mb-3">
-                          <time dateTime={song.published.$t}>
-                            {formatDate(song.published.$t)}
-                          </time>
-                          {song.category?.[0]?.term && (
+                        
+                        <div className="p-6">
+                          <div className="flex items-center justify-between text-sm text-gray-500 mb-3">
+                            <time dateTime={publishedDate}>
+                              {formatDate(publishedDate)}
+                            </time>
                             <span className="bg-blue-100 text-blue-600 px-2 py-1 rounded-full text-xs font-medium">
-                              Song
+                              Tamil Song
                             </span>
+                          </div>
+                          
+                          <a href={`/song/${encodeURIComponent(slug)}`}>
+                            <h3 className="font-semibold text-lg text-gray-900 mb-2 hover:text-blue-600 transition-colors">
+                              {songTitle}
+                            </h3>
+                          </a>
+                          
+                          {/* Show movie, singer, and lyricist info if available */}
+                          {(movieName || singerName || lyricistName) && (
+                            <div className="text-sm text-gray-600 mb-3 space-y-1">
+                              {movieName && (
+                                <div className="flex items-center">
+                                  <span className="font-medium text-gray-800">Movie:</span>
+                                  <span className="ml-1">{movieName}</span>
+                                </div>
+                              )}
+                              {singerName && (
+                                <div className="flex items-center">
+                                  <span className="font-medium text-gray-800">Singer:</span>
+                                  <span className="ml-1">{singerName}</span>
+                                </div>
+                              )}
+                              {lyricistName && (
+                                <div className="flex items-center">
+                                  <span className="font-medium text-gray-800">Lyrics:</span>
+                                  <span className="ml-1">{lyricistName}</span>
+                                </div>
+                              )}
+                            </div>
                           )}
+                          
+                          <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                            {extractDescription(songContent)}
+                          </p>
+                          
+                          <a 
+                            href={`/song/${encodeURIComponent(slug)}`}
+                            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm group"
+                          >
+                            Read Lyrics
+                            <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </a>
                         </div>
-                        
-                        <a href={`/song/${encodeURIComponent(getSongSlug(song))}`}>
-                          <h3 className="font-semibold text-lg text-gray-900 mb-2 hover:text-blue-600 transition-colors line-clamp-2">
-                            {song.title.$t}
-                          </h3>
-                        </a>
-                        
-                        <p className="text-gray-600 text-sm line-clamp-3 mb-4">
-                          {extractDescription(song.content.$t)}
-                        </p>
-                        
-                        <a 
-                          href={`/song/${encodeURIComponent(getSongSlug(song))}`}
-                          className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm group"
-                        >
-                          Read Lyrics
-                          <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                          </svg>
-                        </a>
-                      </div>
-                    </article>
-                  ))}
+                      </article>
+                    )
+                  })}
                 </div>
               )}
             </section>
@@ -215,16 +309,33 @@ export default function HomePage() {
                   Popular This Week
                 </h3>
                 <div className="space-y-3">
-                  {songs.slice(0, 5).map((song: any, index: number) => (
-                    <div key={index} className="text-sm">
-                      <a 
-                        href={`/song/${encodeURIComponent(getSongSlug(song))}`}
-                        className="text-blue-600 hover:text-blue-700 line-clamp-2"
-                      >
-                        {song.title?.$t || `Sample Tamil Song ${index + 1}`}
-                      </a>
-                    </div>
-                  ))}
+                  {songs.length > 0 ? (
+                    songs.slice(0, 5).map((song: any, index: number) => {
+                      const songTitle = song.title?.$t || song.title || `Song ${index + 1}`
+                      const slug = getSongSlug(song)
+                      
+                      return (
+                        <div key={index} className="text-sm">
+                          <a 
+                            href={`/song/${encodeURIComponent(slug)}`}
+                            className="text-blue-600 hover:text-blue-700 block truncate"
+                            title={songTitle}
+                          >
+                            {songTitle}
+                          </a>
+                        </div>
+                      )
+                    })
+                  ) : (
+                    // Show placeholder links when no songs are loaded
+                    [1, 2, 3, 4, 5].map((i) => (
+                      <div key={i} className="text-sm">
+                        <div className="text-gray-400">
+                          Loading song {i}...
+                        </div>
+                      </div>
+                    ))
+                  )}
                 </div>
               </div>
             </div>
