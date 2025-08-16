@@ -53,7 +53,7 @@ async function getSongData(slug: string): Promise<Song | null> {
     const cleanSlug = slug.replace('.html', '')
     
     // Use the dedicated song API endpoint
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/song?slug=${encodeURIComponent(cleanSlug)}`, {
+    const response = await fetch(`/api/song?slug=${encodeURIComponent(cleanSlug)}`, {
       next: { revalidate: 3600 } // Cache for 1 hour
     })
     
