@@ -52,32 +52,77 @@ async function getSongData(slug: string): Promise<Song | null> {
     // Remove .html extension if present
     const cleanSlug = slug.replace('.html', '')
     
-    // Use the dedicated song API endpoint
-    // For SSR, we need to use the full URL, for client-side we can use relative
-    const baseUrl = process.env.VERCEL_URL 
-      ? `https://${process.env.VERCEL_URL}` 
-      : process.env.NODE_ENV === 'production' 
-        ? 'https://tsl-spa-webapp.vercel.app'
-        : 'http://localhost:3000'
+    // Fetch directly from Blogger API instead of internal API
+    console.log(`Fetching song data for slug: ${cleanSlug}`)
     
-    const response = await fetch(`${baseUrl}/api/song?slug=${encodeURIComponent(cleanSlug)}`, {
-      next: { revalidate: 3600 } // Cache for 1 hour
+    const response = await fetch('https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50', {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
+        'Accept': 'application/json',
+        'Cache-Control': 'no-cache'
+      },
+      next: { revalidate: 3600 }
     })
-    
+
     if (!response.ok) {
-      if (response.status === 404) {
-        return null // Song not found
-      }
-      throw new Error('Failed to fetch song')
-    }
-    
-    const song = await response.json()
-    
-    if (!song || song.error) {
+      console.error(`Blogger API error: ${response.status}`)
       return null
     }
+
+    const data = await response.json()
+    const songs = data.feed?.entry || []
     
-    return song
+    // Filter songs and find matching slug
+    const songPosts = songs.filter((entry: any) => {
+      return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
+    })
+    
+    const targetSong = songPosts.find((song: any) => {
+      // Generate slug using same logic as home page
+      let songSlug = '';
+      
+      const apiTitle = song.title?.$t || song.title
+      if (apiTitle) {
+        songSlug = apiTitle.toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .replace(/\s+/g, '-')
+          .replace(/-+/g, '-')
+          .trim();
+      }
+      
+      console.log(`Comparing: "${songSlug}" === "${cleanSlug}"`)
+      return songSlug === cleanSlug;
+    })
+
+    if (!targetSong) {
+      console.log(`No song found for slug: ${cleanSlug}`)
+      return null
+    }
+
+    // Process the song data similar to /api/songs
+    const songCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Song:')
+    )
+    const movieCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Movie:')
+    )
+    const singerCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Singer:')
+    )
+    const lyricsCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Lyrics:')
+    )
+
+    const processedSong = {
+      ...targetSong,
+      songTitle: songCategory ? songCategory.term.replace('Song:', '') : targetSong.title?.$t,
+      movieName: movieCategory?.term?.replace('Movie:', '') || '',
+      singerName: singerCategory?.term?.replace('Singer:', '') || '',
+      lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
+    }
+    
+    console.log(`Found song: ${processedSong.title?.$t}`)
+    return processedSong
   } catch (error) {
     console.error('Error fetching song data:', error)
     return null
