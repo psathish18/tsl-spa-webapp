@@ -1,12 +1,20 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
-    // Remove the problematic label filter and fetch all posts, then filter on our side
-    const url = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50'
-    
-    console.log('Fetching from Blogger API...')
-    
+    // Check for ?category= or ?song= in the query
+    const { searchParams } = new URL(request.url)
+    const category = searchParams.get('category') || searchParams.get('song')
+    let url = ''
+    if (category) {
+      // Encode category for Blogger API (e.g., Song:Monica%20-%20Coolie)
+      url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=50`
+    } else {
+      url = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50'
+    }
+
+    console.log('Fetching from Blogger API:', url)
+
     const response = await fetch(url, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -27,7 +35,7 @@ export async function GET() {
 
     const data = await response.json()
     console.log('Raw data entries count:', data.feed?.entry?.length || 0)
-    
+
     // Process and filter the data to only include song posts
     const processedData = {
       ...data,
@@ -67,13 +75,13 @@ export async function GET() {
     }
 
     console.log('Processed songs count:', processedData.feed.entry.length)
-    
+
     // Add CORS headers to the response
     const jsonResponse = NextResponse.json(processedData)
     jsonResponse.headers.set('Access-Control-Allow-Origin', '*')
     jsonResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
     jsonResponse.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')
-    
+
     return jsonResponse
   } catch (error) {
     console.error('Error fetching songs:', error)
