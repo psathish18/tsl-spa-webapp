@@ -53,7 +53,14 @@ async function getSongData(slug: string): Promise<Song | null> {
     const cleanSlug = slug.replace('.html', '')
     
     // Use the dedicated song API endpoint
-    const response = await fetch(`/api/song?slug=${encodeURIComponent(cleanSlug)}`, {
+    // For SSR, we need to use the full URL, for client-side we can use relative
+    const baseUrl = process.env.VERCEL_URL 
+      ? `https://${process.env.VERCEL_URL}` 
+      : process.env.NODE_ENV === 'production' 
+        ? 'https://tsl-spa-webapp.vercel.app'
+        : 'http://localhost:3000'
+    
+    const response = await fetch(`${baseUrl}/api/song?slug=${encodeURIComponent(cleanSlug)}`, {
       next: { revalidate: 3600 } // Cache for 1 hour
     })
     
