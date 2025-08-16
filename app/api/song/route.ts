@@ -13,8 +13,8 @@ export async function GET(request: NextRequest) {
     let targetSong = null;
     
     if (category) {
-      // Direct category lookup
-      const url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/Song:${encodeURIComponent(category)}?alt=json`
+      // Direct category lookup - use the full category tag as provided
+      const url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json`
       
       const response = await fetch(url, {
         headers: {
@@ -32,10 +32,11 @@ export async function GET(request: NextRequest) {
         }
       }
     } else if (slug) {
-      // Slug-based lookup: fetch all songs and find matching one
+      // Slug-based lookup: use search API instead of fetching latest 50
       const cleanSlug = slug.replace('.html', '')
+      const searchTerms = cleanSlug.replace(/-/g, ' ')
       
-      const response = await fetch('https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50', {
+      const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
         headers: {
           'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
           'Accept': 'application/json',

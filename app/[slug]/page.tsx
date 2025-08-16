@@ -52,10 +52,22 @@ async function getSongData(slug: string): Promise<Song | null> {
     // Remove .html extension if present
     const cleanSlug = slug.replace('.html', '')
     
-    // Fetch directly from Blogger API instead of internal API
     console.log(`Fetching song data for slug: ${cleanSlug}`)
     
-    const response = await fetch('https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50', {
+    // First try to use the /api/song endpoint with slug
+    const apiResponse = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/song?slug=${encodeURIComponent(cleanSlug)}`)
+    
+    if (apiResponse.ok) {
+      const songData = await apiResponse.json()
+      if (songData && !songData.error) {
+        return songData
+      }
+    }
+    
+    // If API fails, fallback to direct Blogger search
+    const searchTerms = cleanSlug.replace(/-/g, ' ')
+    
+    const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
         'Accept': 'application/json',
