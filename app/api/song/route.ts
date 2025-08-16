@@ -2,34 +2,103 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
+  const slug = searchParams.get('slug')
   const category = searchParams.get('category')
   
-  if (!category) {
-    return NextResponse.json({ error: 'Category is required' }, { status: 400 })
+  if (!slug && !category) {
+    return NextResponse.json({ error: 'Either slug or category is required' }, { status: 400 })
   }
 
   try {
-    const url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/Song:${encodeURIComponent(category)}?alt=json`
+    let targetSong = null;
     
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
-        'Accept': 'application/json',
-        'Cache-Control': 'no-cache'
-      },
-      mode: 'cors',
-      cache: 'no-store'
-    })
+    if (category) {
+      // Direct category lookup
+      const url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/Song:${encodeURIComponent(category)}?alt=json`
+      
+      const response = await fetch(url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
+          'Accept': 'application/json',
+          'Cache-Control': 'no-cache'
+        },
+        next: { revalidate: 3600 }
+      })
 
-    if (!response.ok) {
-      console.error(`HTTP error! status: ${response.status}`)
-      throw new Error(`Failed to fetch song: ${response.status}`)
+      if (response.ok) {
+        const data = await response.json()
+        if (data.feed?.entry && data.feed.entry.length > 0) {
+          targetSong = data.feed.entry[0]
+        }
+      }
+    } else if (slug) {
+      // Slug-based lookup: fetch all songs and find matching one
+      const cleanSlug = slug.replace('.html', '')
+      
+      const response = await fetch('https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50', {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
+          'Accept': 'application/json',
+          'Cache-Control': 'no-cache'
+        },
+        next: { revalidate: 3600 }
+      })
+
+      if (response.ok) {
+        const data = await response.json()
+        const songs = data.feed?.entry || []
+        
+        // Filter songs and find matching slug
+        const songPosts = songs.filter((entry: any) => {
+          return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
+        })
+        
+        targetSong = songPosts.find((song: any) => {
+          // Generate slug using same logic as home page
+          let songSlug = '';
+          
+          const apiTitle = song.title?.$t || song.title
+          if (apiTitle) {
+            songSlug = apiTitle.toLowerCase()
+              .replace(/[^a-z0-9\s-]/g, '')
+              .replace(/\s+/g, '-')
+              .replace(/-+/g, '-')
+              .trim();
+          }
+          
+          return songSlug === cleanSlug;
+        })
+      }
     }
 
-    const data = await response.json()
+    if (!targetSong) {
+      return NextResponse.json({ error: 'Song not found' }, { status: 404 })
+    }
+
+    // Process the song data similar to /api/songs
+    const songCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Song:')
+    )
+    const movieCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Movie:')
+    )
+    const singerCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Singer:')
+    )
+    const lyricsCategory = targetSong.category?.find((cat: any) => 
+      cat.term?.startsWith('Lyrics:')
+    )
+
+    const processedSong = {
+      ...targetSong,
+      songTitle: songCategory ? songCategory.term.replace('Song:', '') : targetSong.title?.$t,
+      movieName: movieCategory?.term?.replace('Movie:', '') || '',
+      singerName: singerCategory?.term?.replace('Singer:', '') || '',
+      lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
+    }
     
     // Add CORS headers to the response
-    const jsonResponse = NextResponse.json(data)
+    const jsonResponse = NextResponse.json(processedSong)
     jsonResponse.headers.set('Access-Control-Allow-Origin', '*')
     jsonResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
     jsonResponse.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')

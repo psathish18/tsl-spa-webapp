@@ -52,64 +52,27 @@ async function getSongData(slug: string): Promise<Song | null> {
     // Remove .html extension if present
     const cleanSlug = slug.replace('.html', '')
     
-    // Fetch all songs to find the matching one
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/songs`, {
+    // Use the dedicated song API endpoint
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/song?slug=${encodeURIComponent(cleanSlug)}`, {
       next: { revalidate: 3600 } // Cache for 1 hour
     })
     
     if (!response.ok) {
-      throw new Error('Failed to fetch songs')
+      if (response.status === 404) {
+        return null // Song not found
+      }
+      throw new Error('Failed to fetch song')
     }
     
-    const data = await response.json()
-    const songs = data.feed?.entry || []
+    const song = await response.json()
     
-    // Find the song that matches our slug using the original slug generation logic
-    const matchingSong = songs.find((song: any) => {
-      // Use the same slug generation logic as the home page
-      let songSlug = '';
-      
-      // Priority 1: Use the API title (includes "lyrics" - better for SEO and migration)
-      const apiTitle = song.title?.$t || song.title
-      if (apiTitle) {
-        songSlug = apiTitle.toLowerCase()
-          .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-          .replace(/\s+/g, '-') // Replace spaces with hyphens
-          .replace(/-+/g, '-') // Replace multiple hyphens with single
-          .trim();
-      } else if (song.songTitle) {
-        // Priority 2: Use the enhanced songTitle if available
-        songSlug = song.songTitle.toLowerCase()
-          .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-          .replace(/\s+/g, '-') // Replace spaces with hyphens
-          .replace(/-+/g, '-') // Replace multiple hyphens with single
-          .trim();
-      } else if (song.category && Array.isArray(song.category)) {
-        // Priority 3: Try to get category (fallback)
-        for (const cat of song.category) {
-          if (cat.term && cat.term.startsWith('Song:')) {
-            songSlug = cat.term.replace(/^Song:/, '').trim()
-              .toLowerCase()
-              .replace(/[^a-z0-9\s-]/g, '')
-              .replace(/\s+/g, '-')
-              .replace(/-+/g, '-')
-              .trim();
-            break;
-          }
-        }
-      }
-      
-      // Final fallback
-      if (!songSlug) {
-        songSlug = 'unknown-song'
-      }
-      
-      return songSlug === cleanSlug
-    })
+    if (!song || song.error) {
+      return null
+    }
     
-    return matchingSong || null
+    return song
   } catch (error) {
-    console.error('Error fetching song:', error)
+    console.error('Error fetching song data:', error)
     return null
   }
 }
