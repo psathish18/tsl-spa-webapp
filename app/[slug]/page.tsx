@@ -64,7 +64,7 @@ async function getSongData(slug: string): Promise<Song | null> {
     const data = await response.json()
     const songs = data.feed?.entry || []
     
-    // Find the song that matches our slug
+    // Find the song that matches our slug using the original slug generation logic
     const matchingSong = songs.find((song: any) => {
       // Use the same slug generation logic as the home page
       let songSlug = '';
@@ -76,14 +76,14 @@ async function getSongData(slug: string): Promise<Song | null> {
           .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
           .replace(/\s+/g, '-') // Replace spaces with hyphens
           .replace(/-+/g, '-') // Replace multiple hyphens with single
-          .trim()
+          .trim();
       } else if (song.songTitle) {
         // Priority 2: Use the enhanced songTitle if available
         songSlug = song.songTitle.toLowerCase()
           .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
           .replace(/\s+/g, '-') // Replace spaces with hyphens
           .replace(/-+/g, '-') // Replace multiple hyphens with single
-          .trim()
+          .trim();
       } else if (song.category && Array.isArray(song.category)) {
         // Priority 3: Try to get category (fallback)
         for (const cat of song.category) {
@@ -93,8 +93,8 @@ async function getSongData(slug: string): Promise<Song | null> {
               .replace(/[^a-z0-9\s-]/g, '')
               .replace(/\s+/g, '-')
               .replace(/-+/g, '-')
-              .trim()
-            break
+              .trim();
+            break;
           }
         }
       }
@@ -162,7 +162,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       description: seoDescription,
     },
     alternates: {
-      canonical: `https://tsonglyrics.com/song/${params.slug.replace('.html', '')}.html`,
+      canonical: `https://tsonglyrics.com/${params.slug.replace('.html', '')}.html`,
     },
     robots: {
       index: true,
@@ -187,7 +187,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Song Lyrics Not Found</h1>
           <p className="text-gray-600 mb-6">
-            The song lyrics you're looking for might have been moved or doesn't exist.
+            The song lyrics you&apos;re looking for might have been moved or doesn&apos;t exist.
           </p>
           <Link href="/" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
             Browse All Songs

@@ -24,3 +24,18 @@ make use of Next.js for server-side rendering and API routes, Tailwind CSS for s
 should be high-performance and optimized for SEO.
 optimize images and assets for faster loading times.
 optimized for google ads integration and high user clicks
+
+## migration
+## Summary 
+migration of current tsonglyrics.com urls hosted in wordpress bluehost to new app once tsonglyrics.com is mapped to vercel domain.
+currently I have my website hosted in bluehost with wordpress hosting where I post lyrics manually, 
+## Manual steps that I follow 
+Here are the steps I follow 
+1)  I post lyrics first in tsonglryicsapp.blogspot.com 
+2)  then post same lyrics in tsonglyrics.com wordpress website hosted in bluehost
+3)  I copy the lyrics, categories and tag from blogger post but title and url might not match 
+4) now if I map my existing domain tsonglyrics.com to this new app, I need to make sure that the existing links are redirected to the new app's song details page without affecting SEO and "not found" 
+5) since content is same I dont need to migrate post content, meaning same number of posts are present in blogger and wordpress I only need to make sure once I map domain to this new app, all urls are working correctly
+6) one thing we can do is to update title of all posts in blogger to match the title in wordpress, so that when user clicks on the link from google search, it will take them to the correct song details page in the new app
+
+You task is to give me a migration plan and different options if any to accomplish above requirement.
