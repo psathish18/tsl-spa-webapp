@@ -27,7 +27,16 @@ function loadMigrationRedirects() {
 
 const nextConfig = {
   images: {
-    domains: ['blogger.googleusercontent.com', 'lh3.googleusercontent.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'blogger.googleusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+      },
+    ],
     formats: ['image/webp', 'image/avif'],
   },
   async rewrites() {
@@ -35,6 +44,11 @@ const nextConfig = {
       {
         source: '/api/proxy/:path*',
         destination: 'https://tsonglyricsapp.blogspot.com/:path*',
+      },
+      // Handle .html URLs by rewriting to dynamic route
+      {
+        source: '/:slug*.html',
+        destination: '/:slug*',
       },
     ];
   },

@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -115,6 +116,7 @@ export default function RootLayout({
           </div>
         </footer>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )

@@ -213,14 +213,27 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         <nav className="mb-6 text-sm" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-gray-500">
             <li><Link href="/" className="hover:text-blue-600">Home</Link></li>
-            <li>•</li>
-            <li><Link href="/songs" className="hover:text-blue-600">Tamil Songs</Link></li>
-            {movieName && (
-              <>
-                <li>•</li>
-                <li><span className="hover:text-blue-600">{movieName}</span></li>
-              </>
-            )}
+            {song.category && (() => {
+              // Find the actual movie category term from Blogger
+              const movieCategory = song.category.find(cat => cat.term.startsWith('Movie:'));
+              if (movieCategory) {
+                const movieName = movieCategory.term.replace('Movie:', '');
+                return (
+                  <>
+                    <li>•</li>
+                    <li>
+                      <Link 
+                        href={`/category?category=${encodeURIComponent(movieCategory.term)}`}
+                        className="hover:text-blue-600"
+                      >
+                        {movieName}
+                      </Link>
+                    </li>
+                  </>
+                );
+              }
+              return null;
+            })()}
             <li>•</li>
             <li className="text-gray-900">{cleanTitle} Lyrics</li>
           </ol>
@@ -228,55 +241,66 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
         <header className="mb-8">
           {/* SEO-optimized H1 with consistent title */}
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
             {fullTitle}
           </h1>
           
-          {/* Song metadata */}
-          <div className="bg-gray-50 rounded-lg p-6 mb-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {movieName && (
-                <div>
-                  <span className="font-semibold text-gray-700">Movie:</span>
-                  <span className="ml-2 text-gray-900">{movieName}</span>
-                </div>
-              )}
-              <div>
-                <span className="font-semibold text-gray-700">Singer:</span>
-                <span className="ml-2 text-gray-900">{singerName}</span>
-              </div>
-              {lyricistName && (
-                <div>
-                  <span className="font-semibold text-gray-700">Lyricist:</span>
-                  <span className="ml-2 text-gray-900">{lyricistName}</span>
-                </div>
-              )}
-              {publishedDate && (
-                <div>
-                  <span className="font-semibold text-gray-700">Published:</span>
-                  <time dateTime={song.published?.$t} className="ml-2 text-gray-900">
-                    {publishedDate.toLocaleDateString()}
-                  </time>
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* Tags/Categories */}
-          {song.category && song.category.length > 0 && (
-            <div className="mb-6">
-              <div className="flex flex-wrap gap-2">
-                {song.category.map((cat, index) => (
-                  <span 
-                    key={index}
-                    className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                  >
-                    {cat.term}
-                  </span>
-                ))}
-              </div>
+          {/* Published date on its own line */}
+          {publishedDate && (
+            <div className="mb-4">
+              <span className="text-gray-600 text-sm">
+                Published: {publishedDate.toLocaleDateString()}
+              </span>
             </div>
           )}
+          
+          {/* Tags/categories on the next line */}
+          <div className="mb-6">
+            <div className="flex flex-wrap gap-2">
+              {/* Display all category tags from Blogger API */}
+              {song.category && song.category.map((cat, index) => {
+                const term = cat.term;
+                
+                // Determine the style based on category type
+                let bgColor = 'bg-indigo-100';
+                let textColor = 'text-indigo-800';
+                let hoverColor = 'hover:bg-indigo-200';
+                
+                if (term.startsWith('Movie:')) {
+                  bgColor = 'bg-blue-100';
+                  textColor = 'text-blue-800';
+                  hoverColor = 'hover:bg-blue-200';
+                } else if (term.startsWith('Singer:')) {
+                  bgColor = 'bg-purple-100';
+                  textColor = 'text-purple-800';
+                  hoverColor = 'hover:bg-purple-200';
+                } else if (term.startsWith('Lyrics:') || term.startsWith('Lyricist:')) {
+                  bgColor = 'bg-orange-100';
+                  textColor = 'text-orange-800';
+                  hoverColor = 'hover:bg-orange-200';
+                } else if (term.startsWith('Music:') || term.startsWith('OldMusic:')) {
+                  bgColor = 'bg-green-100';
+                  textColor = 'text-green-800';
+                  hoverColor = 'hover:bg-green-200';
+                }
+                
+                // Only skip Song: categories as they're song-specific, not useful for filtering
+                if (term.startsWith('Song:')) {
+                  return null;
+                }
+                
+                return (
+                  <Link
+                    key={index}
+                    href={`/category?category=${encodeURIComponent(term)}`}
+                    className={`${bgColor} ${textColor} text-sm px-3 py-1 rounded-full font-medium ${hoverColor} transition-colors`}
+                  >
+                    {term}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
         </header>
         
         {/* Structured data for SEO */}
@@ -325,7 +349,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         {/* Main lyrics content */}
         <div className="bg-white rounded-lg border border-gray-200 p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
-            {cleanTitle} Tamil Lyrics
+            Tamil Lyrics
           </h2>
           
           <div 

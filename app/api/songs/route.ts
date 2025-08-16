@@ -58,9 +58,9 @@ export async function GET() {
           return {
             ...entry,
             songTitle,
-            movieName: movieCategory?.term?.replace('Movie:', '').trim() || '',
-            singerName: singerCategory?.term?.replace('Singer:', '').trim() || '',
-            lyricistName: lyricsCategory?.term?.replace('Lyrics:', '').trim() || '',
+            movieName: movieCategory?.term?.replace('Movie:', '') || '',
+            singerName: singerCategory?.term?.replace('Singer:', '') || '',
+            lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
           }
         }) || []
       }

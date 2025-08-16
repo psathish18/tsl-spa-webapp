@@ -34,4 +34,37 @@
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
+
+  /* Optimized image loading states */
+  .image-container {
+    @apply relative overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200;
+  }
+  
+  .image-container.loading {
+    position: relative;
+  }
+  
+  .image-container.loading::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent;
+    animation: shimmer 1.5s ease-in-out infinite;
+  }
+  
+  .image-container.error {
+    @apply bg-gradient-to-br from-red-50 to-red-100;
+  }
+  
+  .image-fade-in {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-fade-in.loaded {
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
 }

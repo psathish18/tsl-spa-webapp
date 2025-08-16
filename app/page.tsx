@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 export default function HomePage() {
   const [songs, setSongs] = useState([])
@@ -140,20 +141,33 @@ export default function HomePage() {
   const getThumbnail = (song: any) => {
     // Try different possible thumbnail sources
     if (song.media$thumbnail && song.media$thumbnail.url) {
-      return song.media$thumbnail.url
+      // Decode the URL and get higher resolution by replacing size parameter
+      let imageUrl = decodeURIComponent(song.media$thumbnail.url)
+      // Replace small thumbnail size (s72-c) with larger size (s400-c for better quality)
+      imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
+      console.log('Found media$thumbnail (enhanced):', imageUrl)
+      return imageUrl
     }
     
     if (song['media:thumbnail'] && song['media:thumbnail'].url) {
-      return song['media:thumbnail'].url
+      let imageUrl = decodeURIComponent(song['media:thumbnail'].url)
+      imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
+      console.log('Found media:thumbnail (enhanced):', imageUrl)
+      return imageUrl
     }
     
     // Look for images in content
     const content = song.content?.$t || ''
     const imgMatch = content.match(/<img[^>]+src="([^"]+)"/i)
     if (imgMatch) {
-      return imgMatch[1]
+      let imageUrl = decodeURIComponent(imgMatch[1])
+      // Also try to enhance resolution for content images
+      imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
+      console.log('Found image in content (enhanced):', imageUrl)
+      return imageUrl
     }
     
+    console.log('No thumbnail found for song:', song.title?.$t || 'Unknown')
     return null
   }
   return (
@@ -206,24 +220,46 @@ export default function HomePage() {
                     
                     return (
                       <article key={song.id?.$t || index} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
-                        <div className="relative h-48 bg-gray-200">
+                        <div className="relative h-48 overflow-hidden rounded-t-lg bg-gradient-to-br from-gray-100 to-gray-200">
                           {thumbnail ? (
-                            <img 
+                            <Image 
                               src={thumbnail} 
                               alt={songTitle}
-                              className="w-full h-full object-cover"
+                              fill
+                              className="object-cover transition-all duration-500 hover:scale-105"
+                              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                              priority={index < 6} // Prioritize first 6 images for above-the-fold loading
+                              onLoad={(e) => {
+                                console.log(`Image loaded successfully: ${thumbnail}`)
+                                e.currentTarget.style.opacity = '1'
+                                e.currentTarget.style.transform = 'scale(1)'
+                              }}
                               onError={(e) => {
-                                // Hide image if it fails to load
+                                console.error(`Image failed to load: ${thumbnail}`)
+                                // Fallback to placeholder on error
                                 e.currentTarget.style.display = 'none'
+                                const parent = e.currentTarget.parentElement
+                                if (parent && 'classList' in parent) {
+                                  parent.classList.add('error')
+                                  parent.style.background = 'linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)'
+                                }
+                              }}
+                              style={{ 
+                                opacity: 0, 
+                                transform: 'scale(1.05)',
+                                transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out'
                               }}
                             />
                           ) : (
-                            <div className="absolute inset-0 flex items-center justify-center">
+                            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
                               <div className="text-center">
-                                <svg className="w-12 h-12 mx-auto mb-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                                  <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-                                </svg>
-                                <span className="text-gray-400 text-sm">Tamil Song</span>
+                                <div className="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-full flex items-center justify-center">
+                                  <svg className="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                                  </svg>
+                                </div>
+                                <span className="text-blue-600 text-sm font-medium">Tamil Song Lyrics</span>
+                                <div className="mt-1 text-xs text-blue-400">Click to read lyrics</div>
                               </div>
                             </div>
                           )}
