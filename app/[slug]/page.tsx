@@ -69,7 +69,10 @@ async function getSongData(slug: string): Promise<Song | null> {
     // Use date-based cached fetch - direct Blogger API call
     const data = await cachedBloggerFetch(
       `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
-      next: { revalidate: 86400 } // Cache for 24 hours
+      next: { 
+        revalidate: 86400, // Cache for 24 hours
+        tags: [`song-${cleanSlug}`] // Tag for on-demand revalidation
+      }
     }
     )
 
@@ -129,6 +132,37 @@ async function getSongData(slug: string): Promise<Song | null> {
   } catch (error) {
     console.error('Error fetching song data:', error)
     return null
+  }
+}
+
+// Generate static params for popular/recent songs (optional)
+export async function generateStaticParams() {
+  try {
+    // Fetch recent songs to pre-generate popular routes
+    const data = await cachedBloggerFetch(
+      'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50'
+    )
+    
+    const songs = data.feed?.entry || []
+    const songPosts = songs.filter((entry: any) => {
+      return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
+    })
+    
+    return songPosts.map((song: any) => {
+      const apiTitle = song.title?.$t || song.title
+      if (apiTitle) {
+        const slug = apiTitle.toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .replace(/\s+/g, '-')
+          .replace(/-+/g, '-')
+          .trim()
+        return { slug }
+      }
+      return null
+    }).filter(Boolean)
+  } catch (error) {
+    console.error('Error generating static params:', error)
+    return []
   }
 }
 
