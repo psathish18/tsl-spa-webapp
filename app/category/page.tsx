@@ -33,7 +33,6 @@ const getEnhancedThumbnail = (thumbnail: string): string => {
     let imageUrl = decodeURIComponent(thumbnail)
     // Replace small thumbnail size (s72-c) with larger size (s400-c for better quality)
     imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
-    console.log('Enhanced thumbnail:', imageUrl)
     return imageUrl
   } catch (error) {
     console.error('Error enhancing thumbnail:', error)

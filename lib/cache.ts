@@ -13,19 +13,27 @@ interface CacheItem<T> {
 class AdvancedCache {
   private cache = new Map<string, CacheItem<any>>()
   private maxSize = 100 // Maximum cache entries
-  private cleanupInterval: NodeJS.Timeout
+  private cleanupInterval: NodeJS.Timeout | null = null
 
   constructor() {
-    // Cleanup expired entries every 5 minutes
-    this.cleanupInterval = setInterval(() => {
-      this.cleanup()
-    }, 5 * 60 * 1000)
+    // Cleanup will be initialized on first use
+  }
+
+  private ensureCleanupInterval() {
+    if (!this.cleanupInterval && typeof setInterval !== 'undefined') {
+      // Cleanup expired entries every 5 minutes
+      this.cleanupInterval = setInterval(() => {
+        this.cleanup()
+      }, 5 * 60 * 1000)
+    }
   }
 
   /**
    * Set cache item with TTL (Time To Live)
    */
   set<T>(key: string, data: T, ttl: number = 5 * 60 * 1000): void {
+    this.ensureCleanupInterval()
+    
     // If cache is full, remove least recently used item
     if (this.cache.size >= this.maxSize) {
       this.evictLRU()
@@ -43,6 +51,8 @@ class AdvancedCache {
    * Get cache item if not expired
    */
   get<T>(key: string): T | null {
+    this.ensureCleanupInterval()
+    
     const item = this.cache.get(key)
     
     if (!item) {
@@ -152,7 +162,10 @@ class AdvancedCache {
    * Destroy cache and cleanup interval
    */
   destroy(): void {
-    clearInterval(this.cleanupInterval)
+    if (this.cleanupInterval) {
+      clearInterval(this.cleanupInterval)
+      this.cleanupInterval = null
+    }
     this.cache.clear()
   }
 }
