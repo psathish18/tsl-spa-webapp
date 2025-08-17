@@ -82,7 +82,7 @@ export async function GET(request: NextRequest) {
     
     // Fetch from Blogger API with category filter
     const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(categoryTerm)}?alt=json&max-results=50`, {
-      next: { revalidate: 3600 } // Cache for 1 hour
+      next: { revalidate: 86400 } // Cache for 24 hour
     })
     
     if (!response.ok) {
