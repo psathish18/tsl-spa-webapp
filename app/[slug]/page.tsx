@@ -55,116 +55,84 @@ function getSongTitle(song: any): string {
   return 'Unknown Song Lyrics'
 }
 
-// Function to get song data for both page and metadata
+
+// In-memory memoization map for SSR request lifecycle
+const songDataPromiseMap = new Map<string, Promise<Song | null>>();
+
 async function getSongData(slug: string): Promise<Song | null> {
-  try {
-    // Remove .html extension if present
-    const cleanSlug = slug.replace('.html', '')
-    
-    console.log(`Fetching song data for slug: ${cleanSlug}`)
-    
-    // Use direct Blogger search API to find older songs
-    const searchTerms = cleanSlug.replace(/-/g, ' ')
-    
-    // Use date-based cached fetch - direct Blogger API call
-    const data = await cachedBloggerFetch(
-      `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
-      next: { 
-        revalidate: 86400, // Cache for 24 hours
-        tags: [`song-${cleanSlug}`] // Tag for on-demand revalidation
-      }
-    }
-    )
-
-    const songs = data.feed?.entry || []
-    
-    // Filter songs and find matching slug
-    const songPosts = songs.filter((entry: any) => {
-      return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
-    })
-    
-    const targetSong = songPosts.find((song: any) => {
-      // Generate slug using same logic as home page
-      let songSlug = '';
-      
-      const apiTitle = song.title?.$t || song.title
-      if (apiTitle) {
-        songSlug = apiTitle.toLowerCase()
-          .replace(/[^a-z0-9\s-]/g, '')
-          .replace(/\s+/g, '-')
-          .replace(/-+/g, '-')
-          .trim();
-      }
-      
-      console.log(`Comparing: "${songSlug}" === "${cleanSlug}"`)
-      return songSlug === cleanSlug;
-    })
-
-    if (!targetSong) {
-      console.log(`No song found for slug: ${cleanSlug}`)
-      return null
-    }
-
-    // Process the song data similar to /api/songs
-    const songCategory = targetSong.category?.find((cat: any) => 
-      cat.term?.startsWith('Song:')
-    )
-    const movieCategory = targetSong.category?.find((cat: any) => 
-      cat.term?.startsWith('Movie:')
-    )
-    const singerCategory = targetSong.category?.find((cat: any) => 
-      cat.term?.startsWith('Singer:')
-    )
-    const lyricsCategory = targetSong.category?.find((cat: any) => 
-      cat.term?.startsWith('Lyrics:')
-    )
-
-    const processedSong = {
-      ...targetSong,
-      songTitle: songCategory ? songCategory.term.replace('Song:', '') : targetSong.title?.$t,
-      movieName: movieCategory?.term?.replace('Movie:', '') || '',
-      singerName: singerCategory?.term?.replace('Singer:', '') || '',
-      lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
-    } as Song
-    
-    console.log(`Found song: ${processedSong.title?.$t}`)
-    return processedSong
-  } catch (error) {
-    console.error('Error fetching song data:', error)
-    return null
+  // Remove .html extension if present
+  const cleanSlug = slug.replace('.html', '');
+  if (songDataPromiseMap.has(cleanSlug)) {
+    return songDataPromiseMap.get(cleanSlug)!;
   }
+  const fetchPromise = (async () => {
+    try {
+      console.log(`Fetching song data for slug: ${cleanSlug}`);
+      // Use direct Blogger search API to find older songs
+      const searchTerms = cleanSlug.replace(/-/g, ' ');
+      // Use date-based cached fetch - direct Blogger API call
+      const data = await cachedBloggerFetch(
+        `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
+        next: {
+          revalidate: 86400, // Cache for 24 hours
+          tags: [`song-${cleanSlug}`] // Tag for on-demand revalidation
+        }
+      }
+      );
+      const songs = data.feed?.entry || [];
+      // Filter songs and find matching slug
+      const songPosts = songs.filter((entry: any) => {
+        return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'));
+      });
+      const targetSong = songPosts.find((song: any) => {
+        // Generate slug using same logic as home page
+        let songSlug = '';
+        const apiTitle = song.title?.$t || song.title;
+        if (apiTitle) {
+          songSlug = apiTitle.toLowerCase()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .trim();
+        }
+        console.log(`Comparing: "${songSlug}" === "${cleanSlug}"`);
+        return songSlug === cleanSlug;
+      });
+      if (!targetSong) {
+        console.log(`No song found for slug: ${cleanSlug}`);
+        return null;
+      }
+      // Process the song data similar to /api/songs
+      const songCategory = targetSong.category?.find((cat: any) =>
+        cat.term?.startsWith('Song:')
+      );
+      const movieCategory = targetSong.category?.find((cat: any) =>
+        cat.term?.startsWith('Movie:')
+      );
+      const singerCategory = targetSong.category?.find((cat: any) =>
+        cat.term?.startsWith('Singer:')
+      );
+      const lyricsCategory = targetSong.category?.find((cat: any) =>
+        cat.term?.startsWith('Lyrics:')
+      );
+      const processedSong = {
+        ...targetSong,
+        songTitle: songCategory ? songCategory.term.replace('Song:', '') : targetSong.title?.$t,
+        movieName: movieCategory?.term?.replace('Movie:', '') || '',
+        singerName: singerCategory?.term?.replace('Singer:', '') || '',
+        lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
+      } as Song;
+      console.log(`Found song: ${processedSong.title?.$t}`);
+      return processedSong;
+    } catch (error) {
+      console.error('Error fetching song data:', error);
+      return null;
+    }
+  })();
+  songDataPromiseMap.set(cleanSlug, fetchPromise);
+  return fetchPromise;
 }
 
-// Generate static params for popular/recent songs (optional)
-export async function generateStaticParams() {
-  try {
-    // Fetch recent songs to pre-generate popular routes
-    const data = await cachedBloggerFetch(
-      'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50'
-    )
-    
-    const songs = data.feed?.entry || []
-    const songPosts = songs.filter((entry: any) => {
-      return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
-    })
-    
-    return songPosts.map((song: any) => {
-      const apiTitle = song.title?.$t || song.title
-      if (apiTitle) {
-        const slug = apiTitle.toLowerCase()
-          .replace(/[^a-z0-9\s-]/g, '')
-          .replace(/\s+/g, '-')
-          .replace(/-+/g, '-')
-          .trim()
-        return { slug }
-      }
-      return null
-    }).filter(Boolean)
-  } catch (error) {
-    console.error('Error generating static params:', error)
-    return []
-  }
-}
 
 // SEO-optimized metadata generation
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
