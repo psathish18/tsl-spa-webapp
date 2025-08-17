@@ -22,8 +22,7 @@ export async function GET(request: NextRequest) {
         'Accept-Language': 'en-US,en;q=0.9',
         'Cache-Control': 'no-cache'
       },
-      mode: 'cors',
-      cache: 'no-store'
+      next: { revalidate: 300 }
     })
 
     console.log('Blogger API response status:', response.status)
