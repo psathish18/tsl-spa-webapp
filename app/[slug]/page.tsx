@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 
 interface Song {
   id: { $t: string }
@@ -57,21 +58,11 @@ async function getSongData(slug: string): Promise<Song | null> {
     // Use direct Blogger search API to find older songs
     const searchTerms = cleanSlug.replace(/-/g, ' ')
     
-    const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
-        'Accept': 'application/json',
-        'Cache-Control': 'no-cache'
-      },
-      next: { revalidate: 3600 }
-    })
+    // Use date-based cached fetch
+    const data = await cachedBloggerFetch(
+      `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`
+    )
 
-    if (!response.ok) {
-      console.error(`Blogger API error: ${response.status}`)
-      return null
-    }
-
-    const data = await response.json()
     const songs = data.feed?.entry || []
     
     // Filter songs and find matching slug
@@ -121,7 +112,7 @@ async function getSongData(slug: string): Promise<Song | null> {
       movieName: movieCategory?.term?.replace('Movie:', '') || '',
       singerName: singerCategory?.term?.replace('Singer:', '') || '',
       lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
-    }
+    } as Song
     
     console.log(`Found song: ${processedSong.title?.$t}`)
     return processedSong

@@ -29,6 +29,14 @@ Welcome to the Tamil Song Lyrics (TSL) project docume### 📞 Need Help?
 | **[DOCUMENTATION.md](DOCUMENTATION.md)** | General project documentation | ✅ Current |
 | **[OPTIMIZATION_GUIDE.md](OPTIMIZATION_GUIDE.md)** | Performance optimization guide | ✅ Current |
 
+### 🗂️ Caching Documentation
+| Document | Purpose | Location |
+|----------|---------|-----------|
+| **[Cache README](cache/README.md)** | Caching system overview and navigation | `/cache/` |
+| **[Cache Management Guide](cache/CACHE_MANAGEMENT_GUIDE.md)** | Complete cache management documentation | `/cache/` |
+| **[Vercel CDN Integration](cache/VERCEL_CDN_INTEGRATION.md)** | CDN integration and optimization | `/cache/` |
+| **[Lyrics Lifecycle Caching](cache/LYRICS_LIFECYCLE_CACHING.md)** | Content-specific caching strategies | `/cache/` |
+
 ### 🧪 Testing Documentation
 | Document | Purpose | Location |
 |----------|---------|-----------|
@@ -47,6 +55,12 @@ Welcome to the Tamil Song Lyrics (TSL) project docume### 📞 Need Help?
 1. **Redirect Testing**: Use [REDIRECT_TESTING_GUIDE.md](REDIRECT_TESTING_GUIDE.md)
 2. **Test Scripts**: Explore [testing/README.md](testing/README.md)
 3. **Performance**: Optimize with [OPTIMIZATION_GUIDE.md](OPTIMIZATION_GUIDE.md)
+
+### 💾 Caching & Performance
+1. **Caching Overview**: Start with [cache/README.md](cache/README.md)
+2. **Cache Management**: Use [cache/CACHE_MANAGEMENT_GUIDE.md](cache/CACHE_MANAGEMENT_GUIDE.md)
+3. **CDN Integration**: Review [cache/VERCEL_CDN_INTEGRATION.md](cache/VERCEL_CDN_INTEGRATION.md)
+4. **Content Strategy**: Check [cache/LYRICS_LIFECYCLE_CACHING.md](cache/LYRICS_LIFECYCLE_CACHING.md)
 
 ### 📊 Migration & Deployment
 1. **Migration Analysis**: [COMPREHENSIVE_MIGRATION_ANALYSIS.md](COMPREHENSIVE_MIGRATION_ANALYSIS.md)

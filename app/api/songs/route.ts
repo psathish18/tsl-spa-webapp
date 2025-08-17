@@ -1,4 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { cachedBloggerFetch } from '@/lib/dateBasedCache'
+
+// Enable Edge Runtime for better performance
+export const runtime = 'edge'
 
 export async function GET(request: NextRequest) {
   try {
@@ -15,24 +19,9 @@ export async function GET(request: NextRequest) {
 
     console.log('Fetching from Blogger API:', url)
 
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'application/json',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Cache-Control': 'no-cache'
-      },
-      next: { revalidate: 300 }
-    })
+    // Use date-based cached fetch
+    const data = await cachedBloggerFetch(url)
 
-    console.log('Blogger API response status:', response.status)
-
-    if (!response.ok) {
-      console.error(`HTTP error! status: ${response.status}`)
-      throw new Error(`Failed to fetch songs: ${response.status}`)
-    }
-
-    const data = await response.json()
     console.log('Raw data entries count:', data.feed?.entry?.length || 0)
 
     // Process and filter the data to only include song posts
@@ -75,11 +64,22 @@ export async function GET(request: NextRequest) {
 
     console.log('Processed songs count:', processedData.feed.entry.length)
 
-    // Add CORS headers to the response
+    // Add CORS and Cache-Control headers to the response
     const jsonResponse = NextResponse.json(processedData)
     jsonResponse.headers.set('Access-Control-Allow-Origin', '*')
     jsonResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
     jsonResponse.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+    
+    // Advanced caching headers optimized for Vercel CDN
+    jsonResponse.headers.set('Cache-Control', 's-maxage=300, stale-while-revalidate=3600')
+    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=300')
+    jsonResponse.headers.set('Vercel-CDN-Cache-Control', 'max-age=1800')
+    jsonResponse.headers.set('Vary', 'Accept-Encoding')
+    
+    // Add cache info for debugging
+    jsonResponse.headers.set('X-Cache-Layer', 'Application + Vercel CDN')
+    jsonResponse.headers.set('X-Cache-TTL', '300s (CDN) + Date-based (App)')
+    jsonResponse.headers.set('X-Cache-Strategy', 'stale-while-revalidate')
 
     return jsonResponse
   } catch (error) {

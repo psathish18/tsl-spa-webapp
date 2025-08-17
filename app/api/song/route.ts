@@ -1,4 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { cachedBloggerFetch } from '@/lib/dateBasedCache'
+
+// Enable Edge Runtime for better performance
+export const runtime = 'edge'
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
@@ -16,60 +20,44 @@ export async function GET(request: NextRequest) {
       // Direct category lookup - use the full category tag as provided
       const url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json`
       
-      const response = await fetch(url, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
-          'Accept': 'application/json',
-          'Cache-Control': 'no-cache'
-        },
-        next: { revalidate: 3600 }
-      })
+      // Use date-based cached fetch
+      const data = await cachedBloggerFetch(url)
 
-      if (response.ok) {
-        const data = await response.json()
-        if (data.feed?.entry && data.feed.entry.length > 0) {
-          targetSong = data.feed.entry[0]
-        }
+      if (data.feed?.entry && data.feed.entry.length > 0) {
+        targetSong = data.feed.entry[0]
       }
     } else if (slug) {
       // Slug-based lookup: use search API instead of fetching latest 50
       const cleanSlug = slug.replace('.html', '')
       const searchTerms = cleanSlug.replace(/-/g, ' ')
       
-      const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
-          'Accept': 'application/json',
-          'Cache-Control': 'no-cache'
-        },
-        next: { revalidate: 3600 }
-      })
+      // Use date-based cached fetch
+      const data = await cachedBloggerFetch(
+        `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`
+      )
 
-      if (response.ok) {
-        const data = await response.json()
-        const songs = data.feed?.entry || []
+      const songs = data.feed?.entry || []
         
-        // Filter songs and find matching slug
-        const songPosts = songs.filter((entry: any) => {
-          return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
-        })
+      // Filter songs and find matching slug
+      const songPosts = songs.filter((entry: any) => {
+        return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
+      })
+      
+      targetSong = songPosts.find((song: any) => {
+        // Generate slug using same logic as home page
+        let songSlug = '';
         
-        targetSong = songPosts.find((song: any) => {
-          // Generate slug using same logic as home page
-          let songSlug = '';
-          
-          const apiTitle = song.title?.$t || song.title
-          if (apiTitle) {
-            songSlug = apiTitle.toLowerCase()
-              .replace(/[^a-z0-9\s-]/g, '')
-              .replace(/\s+/g, '-')
-              .replace(/-+/g, '-')
-              .trim();
-          }
-          
-          return songSlug === cleanSlug;
-        })
-      }
+        const apiTitle = song.title?.$t || song.title
+        if (apiTitle) {
+          songSlug = apiTitle.toLowerCase()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .trim();
+        }
+        
+        return songSlug === cleanSlug;
+      })
     }
 
     if (!targetSong) {
@@ -98,11 +86,16 @@ export async function GET(request: NextRequest) {
       lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
     }
     
-    // Add CORS headers to the response
+    // Add CORS and Cache-Control headers to the response
     const jsonResponse = NextResponse.json(processedSong)
     jsonResponse.headers.set('Access-Control-Allow-Origin', '*')
     jsonResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
     jsonResponse.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+    
+    // Advanced caching headers for individual songs (longer cache since content is static)
+    jsonResponse.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=7200')
+    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=3600')
+    jsonResponse.headers.set('Vary', 'Accept-Encoding')
     
     return jsonResponse
   } catch (error) {

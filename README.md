@@ -30,7 +30,7 @@ A modern, SEO-optimized Next.js application for displaying Tamil song lyrics fet
 - **TypeScript**: Full type safety
 - **Tailwind CSS**: Modern, utility-first styling
 - **API Routes**: Proxy functionality for Blogger API
-- **Caching**: Smart caching for better performance
+- **Advanced Caching**: Multi-layer intelligent caching system ([Documentation](./cache/))
 - **Error Handling**: Robust error management
 
 ## Getting Started
@@ -132,9 +132,23 @@ npm start
 
 - **Image Optimization**: Next.js Image component with WebP/AVIF
 - **Code Splitting**: Automatic code splitting
-- **Caching**: Smart caching strategies
+- **Advanced Caching**: Multi-layer intelligent caching ([View Details](./cache/))
+  - Date-based TTL (2 minutes → 7 days)
+  - Vercel CDN integration
+  - Lyrics lifecycle optimization
 - **Bundle Analysis**: Webpack bundle analyzer
 - **Core Web Vitals**: Optimized for Google's metrics
+
+## Documentation
+
+### 📁 Documentation Structure
+- **[/cache/](./cache/)** - Comprehensive caching system documentation
+  - Cache management guides
+  - Vercel CDN integration
+  - Lyrics lifecycle optimization
+  - Performance testing results
+- **[OPTIMIZATION_GUIDE.md](./OPTIMIZATION_GUIDE.md)** - Performance optimization guide
+- **[DOCUMENTATION.md](./DOCUMENTATION.md)** - Technical documentation
 
 ## Contributing
 

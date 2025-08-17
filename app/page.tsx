@@ -1,9 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 
 // Enable static generation with revalidation
 export const revalidate = 300 // Revalidate every 5 minutes
+
+// Advanced revalidation config
+export const dynamic = 'force-static'
+export const dynamicParams = true
 
 interface Song {
   id: { $t: string }
@@ -27,21 +32,11 @@ interface BloggerResponse {
 
 async function getSongs(): Promise<Song[]> {
   try {
-    const response = await fetch('https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
-        'Accept': 'application/json',
-        'Cache-Control': 'no-cache'
-      },
-      next: { revalidate: 300 } // Cache for 5 minutes
-    })
+    // Use the date-based cached fetch
+    const data = await cachedBloggerFetch(
+      'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50'
+    )
 
-    if (!response.ok) {
-      console.error(`Blogger API error: ${response.status}`)
-      return []
-    }
-
-    const data: BloggerResponse = await response.json()
     const songs = data.feed?.entry || []
     
     // Filter and process songs

@@ -1,6 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
+// Bundle analyzer setup
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
+
 // Load migration redirects
 function loadMigrationRedirects() {
   try {
@@ -39,6 +44,13 @@ const nextConfig = {
     ],
     formats: ['image/webp', 'image/avif'],
   },
+  // Bundle optimization
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
+  // Advanced caching and compression
+  compress: true,
+  poweredByHeader: false,
   async rewrites() {
     return [
       {
@@ -71,6 +83,25 @@ const nextConfig = {
           },
         ],
       },
+      // Static assets caching
+      {
+        source: '/favicon.ico',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, s-maxage=86400',
+          },
+        ],
+      },
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
     ];
   },
   async redirects() {
@@ -92,4 +123,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = withBundleAnalyzer(nextConfig);

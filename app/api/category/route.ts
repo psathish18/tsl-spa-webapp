@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+// Enable Edge Runtime for better performance
+export const runtime = 'edge'
+
 interface BloggerEntry {
   id: { $t: string }
   title: { $t: string }
@@ -116,11 +119,18 @@ export async function GET(request: NextRequest) {
     
     console.log(`Processed songs count: ${songs.length}`)
     
-    return NextResponse.json({
+    const jsonResponse = NextResponse.json({
       category: categoryTerm,
       songs: songs,
       total: songs.length
     })
+    
+    // Advanced caching headers for category pages
+    jsonResponse.headers.set('Cache-Control', 's-maxage=1800, stale-while-revalidate=3600')
+    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=1800')
+    jsonResponse.headers.set('Vary', 'Accept-Encoding')
+    
+    return jsonResponse
     
   } catch (error) {
     console.error('Error fetching category songs:', error)
