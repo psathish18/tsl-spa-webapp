@@ -58,7 +58,7 @@ async function getSongData(slug: string): Promise<Song | null> {
     // Use direct Blogger search API to find older songs
     const searchTerms = cleanSlug.replace(/-/g, ' ')
     
-    // Use date-based cached fetch
+    // Use date-based cached fetch - direct Blogger API call
     const data = await cachedBloggerFetch(
       `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`
     )

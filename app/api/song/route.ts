@@ -92,9 +92,10 @@ export async function GET(request: NextRequest) {
     jsonResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
     jsonResponse.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')
     
-    // Advanced caching headers for individual songs (longer cache since content is static)
-    jsonResponse.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=7200')
-    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=3600')
+    // Advanced caching headers for individual songs - 24hr cache for lyrics
+    jsonResponse.headers.set('Cache-Control', 's-maxage=86400, stale-while-revalidate=604800')
+    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=86400')
+    jsonResponse.headers.set('Vercel-CDN-Cache-Control', 'max-age=86400')
     jsonResponse.headers.set('Vary', 'Accept-Encoding')
     
     return jsonResponse

@@ -32,7 +32,7 @@ interface BloggerResponse {
 
 async function getSongs(): Promise<Song[]> {
   try {
-    // Use the date-based cached fetch
+    // Use the date-based cached fetch - direct Blogger API call
     const data = await cachedBloggerFetch(
       'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50'
     )

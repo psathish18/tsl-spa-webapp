@@ -83,6 +83,50 @@ const nextConfig = {
           },
         ],
       },
+      // CDN Cache headers for pages (home and song pages)
+      {
+        source: '/',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 's-maxage=86400, stale-while-revalidate=604800',
+          },
+          {
+            key: 'CDN-Cache-Control',
+            value: 'max-age=86400',
+          },
+          {
+            key: 'Vercel-CDN-Cache-Control',
+            value: 'max-age=86400',
+          },
+          {
+            key: 'Vary',
+            value: 'Accept-Encoding',
+          },
+        ],
+      },
+      // CDN Cache headers for song pages
+      {
+        source: '/:slug*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 's-maxage=86400, stale-while-revalidate=604800',
+          },
+          {
+            key: 'CDN-Cache-Control',
+            value: 'max-age=86400',
+          },
+          {
+            key: 'Vercel-CDN-Cache-Control',
+            value: 'max-age=86400',
+          },
+          {
+            key: 'Vary',
+            value: 'Accept-Encoding',
+          },
+        ],
+      },
       // Static assets caching
       {
         source: '/favicon.ico',
