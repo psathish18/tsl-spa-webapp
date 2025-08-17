@@ -1,55 +1,99 @@
-'use client'
-
-import { useState, useEffect } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import { Metadata } from 'next'
 
-export default function HomePage() {
-  const [songs, setSongs] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState('')
+// Enable static generation with revalidation
+export const revalidate = 300 // Revalidate every 5 minutes
 
-  useEffect(() => {
-    const fetchSongs = async () => {
-      try {
-        setLoading(true)
-        setError('')
-        
-        console.log('Fetching songs from API...')
-        const response = await fetch('/api/songs', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        })
-        
-        console.log('Response status:', response.status)
-        
-        if (response.ok) {
-          const data = await response.json()
-          console.log('API Response:', data)
-          
-          if (data.feed && data.feed.entry) {
-            setSongs(data.feed.entry)
-            console.log('Songs loaded:', data.feed.entry.length)
-          } else {
-            console.log('No entries found in feed')
-            setSongs([])
-          }
-        } else {
-          const errorData = await response.json()
-          console.error('API Error:', errorData)
-          setError(`Failed to fetch songs: ${response.status} - ${errorData.error || 'Unknown error'}`)
-        }
-      } catch (error) {
-        console.error('Network error:', error)
-        setError(`Network error: ${error instanceof Error ? error.message : 'Unknown error'}`)
-      } finally {
-        setLoading(false)
-      }
+interface Song {
+  id: { $t: string }
+  title: { $t: string }
+  content: { $t: string }
+  published: { $t: string }
+  author: Array<{ name: { $t: string } }>
+  category?: Array<{ term: string }>
+  media$thumbnail?: { url: string }
+  songTitle?: string
+  movieName?: string
+  singerName?: string
+  lyricistName?: string
+}
+
+interface BloggerResponse {
+  feed: {
+    entry: Song[]
+  }
+}
+
+async function getSongs(): Promise<Song[]> {
+  try {
+    const response = await fetch('https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50', {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
+        'Accept': 'application/json',
+        'Cache-Control': 'no-cache'
+      },
+      next: { revalidate: 300 } // Cache for 5 minutes
+    })
+
+    if (!response.ok) {
+      console.error(`Blogger API error: ${response.status}`)
+      return []
     }
 
-    fetchSongs()
-  }, [])
+    const data: BloggerResponse = await response.json()
+    const songs = data.feed?.entry || []
+    
+    // Filter and process songs
+    const songPosts = songs.filter((entry: any) => {
+      return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'))
+    }).map((entry: any) => {
+      // Extract song title from categories
+      const songCategory = entry.category?.find((cat: any) => 
+        cat.term?.startsWith('Song:')
+      )
+      const songTitle = songCategory ? songCategory.term.replace('Song:', '').trim() : entry.title?.$t
+
+      // Extract other metadata
+      const movieCategory = entry.category?.find((cat: any) => 
+        cat.term?.startsWith('Movie:')
+      )
+      const singerCategory = entry.category?.find((cat: any) => 
+        cat.term?.startsWith('Singer:')
+      )
+      const lyricsCategory = entry.category?.find((cat: any) => 
+        cat.term?.startsWith('Lyrics:')
+      )
+
+      return {
+        ...entry,
+        songTitle,
+        movieName: movieCategory?.term?.replace('Movie:', '') || '',
+        singerName: singerCategory?.term?.replace('Singer:', '') || '',
+        lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
+      }
+    })
+
+    return songPosts
+  } catch (error) {
+    console.error('Error fetching songs:', error)
+    return []
+  }
+}
+
+export const metadata: Metadata = {
+  title: 'Tamil Song Lyrics - Latest Songs & Lyrics',
+  description: 'Discover the latest Tamil song lyrics, movie songs, and popular music. Read and enjoy beautiful Tamil poetry and lyrics from your favorite movies and artists.',
+  keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
+  openGraph: {
+    title: 'Tamil Song Lyrics - Latest Songs & Lyrics',
+    description: 'Discover the latest Tamil song lyrics, movie songs, and popular music.',
+    type: 'website',
+  },
+}
+
+export default async function HomePage() {
+  const songs = await getSongs()
 
   const getSongTitle = (song: any) => {
     // Priority 1: Use the API title (includes "lyrics" - better for SEO and consistency)
@@ -182,29 +226,12 @@ export default function HomePage() {
                 Latest Tamil Song Lyrics
               </h2>
               
-              {loading && (
-                <div className="text-center py-12">
-                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-                  <p className="text-gray-600">Loading latest songs...</p>
-                  <p className="text-sm text-gray-500 mt-2">Fetching from Blogger API...</p>
-                </div>
-              )}
-
-              {error && (
-                <div className="text-center py-12">
-                  <div className="text-red-500 text-lg mb-4">Error: {error}</div>
-                  <p className="text-gray-600">Please try again later</p>
-                </div>
-              )}
-
-              {!loading && !error && songs.length === 0 && (
+              {songs.length === 0 ? (
                 <div className="text-center py-12">
                   <div className="text-gray-500 text-lg">No songs found</div>
                   <p className="text-gray-400 mt-2">Check back later for new updates!</p>
                 </div>
-              )}
-
-              {!loading && !error && songs.length > 0 && (
+              ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {songs.map((song: any, index: number) => {
                     const songTitle = getSongTitle(song)
@@ -229,26 +256,6 @@ export default function HomePage() {
                               className="object-cover transition-all duration-500 hover:scale-105"
                               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               priority={index < 6} // Prioritize first 6 images for above-the-fold loading
-                              onLoad={(e) => {
-                                console.log(`Image loaded successfully: ${thumbnail}`)
-                                e.currentTarget.style.opacity = '1'
-                                e.currentTarget.style.transform = 'scale(1)'
-                              }}
-                              onError={(e) => {
-                                console.error(`Image failed to load: ${thumbnail}`)
-                                // Fallback to placeholder on error
-                                e.currentTarget.style.display = 'none'
-                                const parent = e.currentTarget.parentElement
-                                if (parent && 'classList' in parent) {
-                                  parent.classList.add('error')
-                                  parent.style.background = 'linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)'
-                                }
-                              }}
-                              style={{ 
-                                opacity: 0, 
-                                transform: 'scale(1.05)',
-                                transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out'
-                              }}
                             />
                           ) : (
                             <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
