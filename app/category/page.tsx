@@ -24,6 +24,29 @@ interface CategoryData {
   total: number
 }
 
+// Enhanced thumbnail function to get higher resolution images
+const getEnhancedThumbnail = (thumbnail: string): string => {
+  if (!thumbnail) return thumbnail
+  
+  try {
+    // Decode the URL and get higher resolution by replacing size parameter
+    let imageUrl = decodeURIComponent(thumbnail)
+    // Replace small thumbnail size (s72-c) with larger size (s400-c for better quality)
+    imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
+    console.log('Enhanced thumbnail:', imageUrl)
+    return imageUrl
+  } catch (error) {
+    console.error('Error enhancing thumbnail:', error)
+    return thumbnail
+  }
+}
+
+// Generate blur data URL for better loading experience
+const generateBlurDataURL = (color = '#f3f4f6') => {
+  // Simple base64 encoded 1x1 pixel image
+  return "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+}
+
 function CategoryPageContent() {
   const searchParams = useSearchParams()
   const category = searchParams.get('category')
@@ -125,11 +148,19 @@ function CategoryPageContent() {
               <div className="relative h-48 bg-gradient-to-br from-blue-50 to-indigo-100">
                 {song.thumbnail ? (
                   <Image
-                    src={song.thumbnail}
+                    src={getEnhancedThumbnail(song.thumbnail)}
                     alt={song.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    priority={categoryData.songs.indexOf(song) < 6} // Prioritize first 6 images
+                    placeholder="blur"
+                    blurDataURL={generateBlurDataURL()}
+                    onError={(e) => {
+                      console.error(`Image failed to load: ${song.thumbnail}`)
+                      // Hide the image on error and show fallback
+                      e.currentTarget.style.display = 'none'
+                    }}
                   />
                 ) : (
                   <div className="absolute inset-0 flex items-center justify-center">
