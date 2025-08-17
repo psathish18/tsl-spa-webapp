@@ -39,3 +39,24 @@ Here are the steps I follow
 6) one thing we can do is to update title of all posts in blogger to match the title in wordpress, so that when user clicks on the link from google search, it will take them to the correct song details page in the new app
 
 You task is to give me a migration plan and different options if any to accomplish above requirement.
+
+
+# aug 17, 2025
+# new feature
+HERE IS MY NEW REQUIREMENT - SNIPPET SHARING feature - lyrics content is basically divided into group of 4 or 5 lines - we can identify using two <br/></br/>, splitting lyrics based on two break tags and create twitter and whatsapp(if mobile) deeplink for the user to share easily and quickly, in my original site I use this
+<div class="share-this-new-snippet">Nilava sivappaakkum Thanjavoor Kaari <br>Manasa rendaakki vaaravaa killa <br>Erumbaa karumbaakkum pappaali lorry <br>Bhashaa kaipaththak konam illa <br><div><a class="fa fa-twitter" href="https://twitter.com/intent/tweet?via=tsongslyrics&amp;url=https%3A%2F%2Fwww.tsonglyrics.com%2Fmonica-coolie-lyrics.html&amp;text=%F0%9F%8C%9FNilava%20sivappaakkum%20Thanjavoor%20Kaari%0AManasa%20rendaakki%20vaaravaa%20killa%0AErumbaa%20karumbaakkum%20pappaali%20lorry%0ABhashaa%20kaipaththak%20konam%20illa%0A%F0%9F%8C%9F%0A%0A%23AnirudhRavichander%20%23Coolie%20%23Monica%20%23Sublahshini%0A%0Afull%20lyrics%20%F0%9F%91%89" rel="nofollow noreferrer" target="_blank"> tweet!</a></div></div>
+
+- retain line breaks in link sharing so that users can read it 
+- right light sharing links 
+- add star emoji to the beginning and end of each snippet, then add hasgtag of all category tags after ":"
+
+e.g 
+⭐kalangathe kanne enbayae
+en uyirin aadhi
+indreno maunam kondaye
+en peyarin paadhi
+ini unnai paarkka mudiyaadha
+un maarbil saaya mudiyaadha⭐ 
+
+#Heisenberg #Coolie2024 #Anirudh #SaiSmriti 
+http://localhost:3000/uyirnaadi-nanbane-lyrics-tamil.html via @tsongslyrics 

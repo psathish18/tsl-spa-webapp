@@ -18,6 +18,7 @@
     "next-seo": "^6.4.0",
     "react": "^18",
     "react-dom": "^18",
+    "sanitize-html": "^2.11.1",
     "sharp": "^0.33.0",
     "web-push": "^3.6.6"
   },
@@ -25,6 +26,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/sanitize-html": "^2.16.0",
     "@types/web-push": "^3.6.3",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",

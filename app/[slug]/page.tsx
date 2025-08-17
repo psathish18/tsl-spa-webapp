@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
+import sanitizeHtml from 'sanitize-html'
 
 interface Song {
   id: { $t: string }
@@ -214,6 +215,16 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   const content = song.content?.$t || ''
   const publishedDate = song.published?.$t ? new Date(song.published.$t) : null
 
+  // Remove image tags from Blogger HTML content to reduce page weight
+  // Images in lyrics posts are rarely essential and can be heavy; strip them
+  function stripImagesFromHtml(html: string): string {
+    if (!html) return html
+    // Remove <img ...> tags (self-closing or with closing tag)
+    return html.replace(/<img\b[^>]*>(?:<\/img>)?/gi, '')
+  }
+
+  const safeContent = stripImagesFromHtml(content)
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <article>
@@ -354,20 +365,110 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }}
         />
         
-        {/* Main lyrics content */}
+        {/* Main lyrics content split into stanzas with share buttons */}
         <div className="bg-white rounded-lg border border-gray-200 p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
             Tamil Lyrics
           </h2>
-          
-          <div 
-            className="prose prose-lg max-w-none leading-relaxed text-gray-800"
-            style={{ 
-              fontFamily: '"Noto Sans Tamil", "Tamil MN", "Latha", "Vijaya", sans-serif',
-              lineHeight: '2'
-            }}
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
+
+          {/* Stanza rendering:
+              - Split on 2+ <br> tags to create stanzas
+              - Render stanza HTML, and provide Tweet + WhatsApp share links
+          */}
+          {
+            (() => {
+              const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://tsonglyrics.com'
+              const pagePath = `${siteUrl}/${params.slug.replace('.html','')}.html`
+
+              const stanzaSeparator = /(?:<br\s*\/?>(?:\s|\n|\r)*){2,}/i
+              const rawStanzas = safeContent.split(stanzaSeparator).map(s => s.trim()).filter(Boolean)
+
+              function stanzaToText(html: string) {
+                // Convert <br> to newlines, remove other tags, preserve newlines
+                const withNewlines = html.replace(/<br\s*\/?>/gi, '\n')
+                const stripped = withNewlines.replace(/<[^>]+>/g, '')
+                // Normalize spaces but keep single newlines
+                return stripped.split('\n').map(line => line.replace(/\s+/g, ' ').trim()).join('\n').trim()
+              }
+
+              function truncateForTwitter(text: string, max = 240) {
+                if (text.length <= max) return text
+                return text.slice(0, max - 1).trim() + '…'
+              }
+
+              // Build hashtags from categories (exclude Song:)
+              const hashtagList = (song.category || [])
+                .map((c: any) => c.term || '')
+                .filter((t: string) => !t.startsWith('Song:') && !!t)
+                .map((t: string) => t.replace(/^[^:]*:/, '').trim())
+                .map((v: string) => v.replace(/[^a-zA-Z0-9]/g, ''))
+                .filter(Boolean)
+                .map((v: string) => `#${v}`)
+              const hashtagsStr = hashtagList.join(' ')
+
+              return (
+                <div className="prose prose-lg max-w-none leading-relaxed text-gray-800" style={{ fontFamily: '"Noto Sans Tamil", "Tamil MN", "Latha", "Vijaya", sans-serif', lineHeight: '2' }}>
+                  {rawStanzas.map((stanzaHtml, idx) => {
+                    // Sanitize stanza HTML to remove scripts/styles and unsafe attributes
+                    const cleanStanzaHtml = sanitizeHtml(stanzaHtml, {
+                      allowedTags: sanitizeHtml.defaults.allowedTags.concat([ 'br' ]),
+                      allowedAttributes: {
+                        a: [ 'href', 'title', 'target', 'rel' ]
+                      }
+                    })
+
+                    const plain = stanzaToText(cleanStanzaHtml)
+                    // Add star emoji around snippet
+                    const snippetWithStars = `⭐${plain}⭐`
+                    // Ensure two blank lines after the snippet, and one newline after hashtags
+                    const snippetWithBreaks = `${snippetWithStars}\n\n`
+                    const hashtagsLine = hashtagsStr ? `${hashtagsStr}\n` : ''
+                    // Append the page URL and a via attribution on its own line
+                    const pageWithVia = `${pagePath} via @tsongslyrics`
+                    const fullText = `${snippetWithBreaks}${hashtagsLine}${pageWithVia}`
+
+                    // For Twitter, avoid duplicating the URL: use the page URL as the `url` param
+                    // and exclude it from the tweet text. WhatsApp keeps the full text.
+                    const textForTweet = `${snippetWithBreaks}${hashtagsLine}`.trim()
+                    const tweetText = truncateForTwitter(textForTweet)
+                    const encodedUrl = encodeURIComponent(pagePath)
+                    const twitterHref = `https://twitter.com/intent/tweet?via=tsongslyrics&url=${encodedUrl}&text=${encodeURIComponent(tweetText)}`
+                    // Preserve line breaks for WhatsApp by including them in the text payload
+                    const whatsappHref = `https://api.whatsapp.com/send?text=${encodeURIComponent(fullText)}`
+
+                    return (
+                      <div key={idx} className="mb-6">
+                        <div dangerouslySetInnerHTML={{ __html: cleanStanzaHtml }} />
+            <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
+                          <a
+                            href={twitterHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90"
+                            aria-label={`Share stanza ${idx + 1} on Twitter`}
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.26 4.26 0 0 0 1.88-2.35 8.49 8.49 0 0 1-2.7 1.03 4.24 4.24 0 0 0-7.22 3.87A12.04 12.04 0 0 1 3.15 4.6a4.24 4.24 0 0 0 1.31 5.66c-.64-.02-1.24-.2-1.76-.49v.05c0 2.06 1.46 3.78 3.4 4.17a4.27 4.27 0 0 1-1.75.07c.49 1.53 1.92 2.64 3.61 2.67A8.5 8.5 0 0 1 2 19.54 12.02 12.02 0 0 0 8.29 21c7.55 0 11.68-6.26 11.68-11.69v-.53A8.36 8.36 0 0 0 22.46 6z"/></svg>
+                            <span>Tweet</span>
+                          </a>
+
+                          <a
+                            href={whatsappHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90"
+                            aria-label={`Share stanza ${idx + 1} on WhatsApp`}
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.81 11.81 0 0 0 12 0C5.37 0 .02 5.36.02 12c0 2.11.55 4.18 1.6 6.01L0 24l6.18-1.62A11.95 11.95 0 0 0 12 24c6.63 0 12-5.36 12-12 0-3.2-1.24-6.2-3.48-8.52zM12 21.6c-1.6 0-3.17-.42-4.56-1.22l-.33-.18-3.67.96.98-3.58-.21-.36A9.6 9.6 0 0 1 2.4 12C2.4 6.99 6.99 2.4 12 2.4S21.6 6.99 21.6 12 17.01 21.6 12 21.6zM17.1 14.7c-.28-.14-1.66-.82-1.92-.92-.26-.1-.45-.14-.64.14-.18.28-.7.92-.86 1.11-.16.18-.31.2-.59.07-.28-.14-1.18-.43-2.25-1.39-.83-.73-1.39-1.62-1.55-1.9-.16-.28-.02-.43.13-.57.13-.12.28-.31.42-.47.14-.16.18-.27.28-.45.09-.18.05-.34-.02-.47-.07-.12-.64-1.54-.88-2.12-.23-.56-.46-.48-.64-.49l-.55-.01c-.18 0-.47.07-.72.34-.25.27-.95.93-.95 2.28 0 1.34.98 2.64 1.12 2.82.14.18 1.93 3.12 4.68 4.36 3.24 1.46 3.24 1.03 3.82.97.59-.07 1.66-.68 1.9-1.34.25-.66.25-1.22.18-1.34-.07-.12-.26-.18-.54-.32z"/></svg>
+                            <span>WhatsApp</span>
+                          </a>
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              )
+            })()
+          }
         </div>
 
         {/* Related songs section placeholder */}
