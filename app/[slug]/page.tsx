@@ -54,10 +54,10 @@ async function getSongData(slug: string): Promise<Song | null> {
     
     console.log(`Fetching song data for slug: ${cleanSlug}`)
     
-    // Use direct Blogger search API
+    // Use direct Blogger search API to find older songs
     const searchTerms = cleanSlug.replace(/-/g, ' ')
-
-    const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(slug)}?alt=json`, {
+    
+    const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
         'Accept': 'application/json',
