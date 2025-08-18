@@ -141,6 +141,7 @@ function CategoryPageContent() {
             <Link 
               key={song.id} 
               href={`/${song.slug}.html`}
+              prefetch={false}
               className="group bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-200"
             >
               {/* Song Image */}
