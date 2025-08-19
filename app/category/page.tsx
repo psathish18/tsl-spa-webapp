@@ -82,6 +82,17 @@ function CategoryPageContent() {
     fetchCategoryData()
   }, [category])
 
+  // Update document title when category data is available so analytics records correct title
+  useEffect(() => {
+    if (categoryData && typeof document !== 'undefined') {
+      try {
+        document.title = `${categoryData.category} - Songs Lyrics`
+      } catch (e) {
+        // ignore in non-browser environments
+      }
+    }
+  }, [categoryData])
+
   if (loading) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-8">

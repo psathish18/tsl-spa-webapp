@@ -8,6 +8,7 @@ const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const SpeedInsights = dynamic(() => import('@vercel/speed-insights/next').then(mod => mod.SpeedInsights), { ssr: false })
 const Analytics = dynamic(() => import('@vercel/analytics/react').then(mod => mod.Analytics), { ssr: false })
+const GAClient = dynamic(() => import('../components/GAClient').then(mod => mod.default), { ssr: false })
 // const GA = dynamic(() => import('../components/GAClient').then(mod => mod.default), { ssr: false })
 // const ClientErrorCatcher = dynamic(() => import('../components/ClientErrorCatcher').then(mod => mod.default), { ssr: false })
 // const GA_ID = process.env.NEXT_PUBLIC_GA_ID
@@ -152,7 +153,7 @@ export default function RootLayout({
           </div>
         </footer>
   {/* Google Analytics - client-side helper (loaded dynamically) */}
-  {/* {GA_ID ? <GA gaId={GA_ID} /> : null} */}
+  {GTM_ID ? <GAClient gaId={GTM_ID} /> : null}
   <SpeedInsights />
   <Analytics />
   {/* <ClientErrorCatcher /> */}

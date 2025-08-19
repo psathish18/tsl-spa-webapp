@@ -8,6 +8,15 @@ const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').the
 // Client stanza renderer (client-only, interactive share buttons)
 const StanzaShareClient = dynamic(() => import('../../components/StanzaShareClient').then(mod => mod.default), { ssr: false });
 
+// Server-side metadata generator so page <title> is correct on first load (helps GA)
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  const song = await getSongData(params.slug)
+  const title = song ? getSongTitle(song) : 'Tamil Song Lyrics'
+  return {
+    title
+  }
+}
+
 // Declare gtag for TypeScript
 declare global {
   interface Window {
