@@ -27,28 +27,38 @@ export function ShareButton({
 				target="_blank"
 				rel="noopener noreferrer"
 				{...props}
-				onClick={() => {
-					// Google Analytics gtag event for share (for direct GA4 event tracking)
-					const method = platform === "whatsapp" ? "Whatsapp" : "Twitter";
-					const value = snippetWithStars.replace("WhatsApp!", "");
-					const hash_tags = hashtagsStr;
-					const item_id = pagePath;
-					const payload = {
-						method,
-						content_type: "text",
-						item_id,
-						value,
-						hash_tags,
-						item_cat: itemCat || undefined,
-					};
-					// Always log the payload
-					if (typeof window !== "undefined") {
-						console.log("Share event payload:", payload);
-						if (typeof (window as any).gtag === "function") {
-							(window as any).gtag("event", "share", payload);
-						} else {
-							console.warn("gtag function not found on window");
+				onClick={(e) => {
+					try {
+						// Google Analytics gtag event for share (for direct GA4 event tracking)
+						const method = platform === "whatsapp" ? "Whatsapp" : "Twitter";
+						const value = snippetWithStars ? snippetWithStars.replace("WhatsApp!", "") : "";
+						const hash_tags = hashtagsStr || "";
+						const item_id = pagePath || "";
+						const payload = {
+							method,
+							content_type: "text",
+							item_id,
+							value,
+							hash_tags,
+							item_cat: itemCat || undefined,
+						};
+						// Always log the payload
+						if (typeof window !== "undefined") {
+							console.log("Share event payload:", payload);
+							try {
+								const g = (window as any).gtag;
+								if (typeof g === "function") {
+									g("event", "share", payload);
+									console.log("gtag called for share event");
+								} else {
+									console.warn("gtag function not found on window");
+								}
+							} catch (innerErr) {
+								console.error("Error calling gtag:", innerErr);
+							}
 						}
+					} catch (err) {
+						console.error("ShareButton onClick error:", err);
 					}
 				}}
 			>

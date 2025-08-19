@@ -2,6 +2,11 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import sanitizeHtml from 'sanitize-html'
+import dynamic from 'next/dynamic'
+// Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
+const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
+// Client stanza renderer (client-only, interactive share buttons)
+const StanzaShareClient = dynamic(() => import('../../components/StanzaShareClient').then(mod => mod.default), { ssr: false });
 
 // Declare gtag for TypeScript
 declare global {
@@ -80,12 +85,12 @@ async function getSongData(slug: string): Promise<Song | null> {
       }
       );
       const songs = data.feed?.entry || [];
-      // Filter songs and find matching slug
+      // Filter posts that have Song: category
       const songPosts = songs.filter((entry: any) => {
         return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'));
       });
+      // Find matching slug
       const targetSong = songPosts.find((song: any) => {
-        // Generate slug using same logic as home page
         let songSlug = '';
         const apiTitle = song.title?.$t || song.title;
         if (apiTitle) {
@@ -95,26 +100,16 @@ async function getSongData(slug: string): Promise<Song | null> {
             .replace(/-+/g, '-')
             .trim();
         }
-        console.log(`Comparing: "${songSlug}" === "${cleanSlug}"`);
         return songSlug === cleanSlug;
       });
       if (!targetSong) {
         console.log(`No song found for slug: ${cleanSlug}`);
         return null;
       }
-      // Process the song data similar to /api/songs
-      const songCategory = targetSong.category?.find((cat: any) =>
-        cat.term?.startsWith('Song:')
-      );
-      const movieCategory = targetSong.category?.find((cat: any) =>
-        cat.term?.startsWith('Movie:')
-      );
-      const singerCategory = targetSong.category?.find((cat: any) =>
-        cat.term?.startsWith('Singer:')
-      );
-      const lyricsCategory = targetSong.category?.find((cat: any) =>
-        cat.term?.startsWith('Lyrics:')
-      );
+      const songCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Song:'));
+      const movieCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Movie:'));
+      const singerCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Singer:'));
+      const lyricsCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Lyrics:'));
       const processedSong = {
         ...targetSong,
         songTitle: songCategory ? songCategory.term.replace('Song:', '') : targetSong.title?.$t,
@@ -131,71 +126,6 @@ async function getSongData(slug: string): Promise<Song | null> {
   })();
   songDataPromiseMap.set(cleanSlug, fetchPromise);
   return fetchPromise;
-}
-
-
-// SEO-optimized metadata generation
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const song = await getSongData(params.slug)
-  
-  if (!song) {
-    return {
-      title: 'Song Lyrics Not Found | Tamil Song Lyrics',
-      description: 'The requested Tamil song lyrics could not be found.',
-    }
-  }
-
-  // Extract clean song title (remove "lyrics" if already present to avoid duplication)
-  const fullTitle = getSongTitle(song)
-  const cleanTitle = fullTitle.replace(/\s*lyrics?\s*/gi, '').trim()
-  const movieName = song.movieName || ''
-  
-  // SEO-optimized title with consistent naming
-  const seoTitle = `${fullTitle} | Tamil Song Lyrics`
-  const seoDescription = movieName 
-    ? `${fullTitle} in Tamil from ${movieName} movie. Read complete ${cleanTitle} song lyrics with meaning.`
-    : `${fullTitle} in Tamil. Read complete ${cleanTitle} song lyrics with meaning and translation.`
-
-  return {
-    title: seoTitle,
-    description: seoDescription,
-    keywords: [
-      `${cleanTitle} lyrics`,
-      `${cleanTitle} tamil lyrics`,
-      `${cleanTitle} song lyrics`,
-      ...(movieName ? [`${movieName} songs lyrics`, `${cleanTitle} ${movieName}`] : []),
-      'tamil song lyrics',
-      'tamil lyrics',
-      'song lyrics tamil'
-    ].join(', '),
-    openGraph: {
-      title: `${fullTitle}`,
-      description: seoDescription,
-      type: 'article',
-      publishedTime: song.published?.$t,
-      locale: 'ta_IN',
-      siteName: 'Tamil Song Lyrics',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: `${cleanTitle} Lyrics`,
-      description: seoDescription,
-    },
-    alternates: {
-      canonical: `https://tsonglyrics.com/${params.slug.replace('.html', '')}.html`,
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-  }
 }
 
 export default async function SongDetailsPage({ params }: { params: { slug: string } }) {
@@ -235,6 +165,43 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   }
 
   const safeContent = stripImagesFromHtml(content)
+
+  // Split into sanitized stanzas server-side to avoid importing server-only packages in client code
+  // Support multiple HTML patterns used by Blogger: <br>, <br/>, <br />, <br></br> and paragraph boundaries </p><p>
+  const stanzaSeparator = /(?:<br\b[^>]*>(?:\s*<\/br>)?\s*){2,}|<\/p>\s*<p\b[^>]*>/i
+  const rawStanzas = safeContent.split(stanzaSeparator).map(s => s.trim()).filter(Boolean)
+  const sanitizeOptions = {
+    allowedTags: sanitizeHtml.defaults.allowedTags.concat([ 'br' ]),
+    allowedAttributes: { a: [ 'href', 'title', 'target', 'rel' ] }
+  }
+  const stanzas = rawStanzas.map(s => sanitizeHtml(s, sanitizeOptions))
+
+  // Debugging: log sizes to help identify empty content issues in production builds
+  try {
+    console.log('DEBUG: safeContent length =', (safeContent || '').length)
+    console.log('DEBUG: rawStanzas count =', rawStanzas.length)
+    console.log('DEBUG: stanzas count =', stanzas.length)
+    if (stanzas.length > 0) {
+      console.log('DEBUG: first stanza preview:', stanzas[0].slice(0, 120))
+    }
+  } catch (e) {
+    console.warn('DEBUG: could not log stanza debug info', e)
+  }
+
+  // Build hashtag list and item_cat once on the server so we can render share anchors
+  const hashtagList = (song.category || [])
+    .map((c: any) => c.term || '')
+    .filter((t: string) => !t.startsWith('Song:') && !!t)
+    .map((t: string) => t.replace(/^[^:]*:/, '').trim())
+    .map((v: string) => v.replace(/[^a-zA-Z0-9]/g, ''))
+    .filter(Boolean)
+    .map((v: string) => `#${v}`);
+  const hashtagsStr = hashtagList.join(' ');
+  let itemCat = '';
+  if (song.category) {
+    const songCat = song.category.find((cat: any) => cat.term && cat.term.startsWith('Song:'));
+    if (songCat) itemCat = songCat.term;
+  }
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -381,123 +348,38 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           <h2 className="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
             Tamil Lyrics
           </h2>
-
-          {/* Inline stanza rendering to avoid hydration issues */}
-          <div className="prose prose-lg max-w-none leading-relaxed text-gray-800" style={{ fontFamily: '"Noto Sans Tamil", "Tamil MN", "Latha", "Vijaya", sans-serif', lineHeight: '2' }} suppressHydrationWarning>
-            {(() => {
-              const siteUrl = 'https://tsonglyrics.com'
-              const pagePath = `${siteUrl}/${params.slug.replace('.html','')}.html`
-              const stanzaSeparator = /(?:<br\s*\/?>(?:\s|\n|\r)*){2,}/i
-              const rawStanzas = safeContent.split(stanzaSeparator).map(s => s.trim()).filter(Boolean)
-
-              function stanzaToText(html: string) {
-                const withNewlines = html.replace(/<br\s*\/?>/gi, '\n')
-                const stripped = withNewlines.replace(/<[^>]+>/g, '')
-                return stripped.split('\n').map(line => line.replace(/\s+/g, ' ').trim()).join('\n').trim()
-              }
-
-              function truncateForTwitter(text: string, max = 240) {
-                if (text.length <= max) return text
-                return text.slice(0, max - 1).trim() + '…'
-              }
-
-              const hashtagList = (song.category || [])
-                .map((c: any) => c.term || '')
-                .filter((t: string) => !t.startsWith('Song:') && !!t)
-                .map((t: string) => t.replace(/^[^:]*:/, '').trim())
-                .map((v: string) => v.replace(/[^a-zA-Z0-9]/g, ''))
-                .filter(Boolean)
-                .map((v: string) => `#${v}`)
-              const hashtagsStr = hashtagList.join(' ')
-
-              return rawStanzas.map((stanzaHtml, idx) => {
-                const cleanStanzaHtml = sanitizeHtml(stanzaHtml, {
-                  allowedTags: sanitizeHtml.defaults.allowedTags.concat([ 'br' ]),
-                  allowedAttributes: {
-                    a: [ 'href', 'title', 'target', 'rel' ]
-                  }
-                })
-
-                const plain = stanzaToText(cleanStanzaHtml)
-                const snippetWithStars = `⭐${plain}⭐`
-                const snippetWithBreaks = `${snippetWithStars}\n\n`
-                const hashtagsLine = hashtagsStr ? `${hashtagsStr}\n` : ''
-                const pageWithVia = `${pagePath} via @tsongslyrics`
-                const fullText = `${snippetWithBreaks}${hashtagsLine}${pageWithVia}`
-
-                const textForTweet = `${snippetWithBreaks}${hashtagsLine}`.trim()
-                const tweetText = truncateForTwitter(textForTweet)
-                const encodedUrl = encodeURIComponent(pagePath)
-                const twitterHref = `https://twitter.com/intent/tweet?via=tsongslyrics&url=${encodedUrl}&text=${encodeURIComponent(tweetText)}`
-                const whatsappHref = `https://api.whatsapp.com/send?text=${encodeURIComponent(fullText)}`
-
-                // Use dynamic import for ShareButton Client Component
-                // Only render share buttons on the client to avoid server component errors
-                if (typeof window !== 'undefined') {
-                  const ShareButton = require('../../components/ShareButton').ShareButton;
-                  // Find Song: category for item_cat
-                  let itemCat = '';
-                  if (song.category) {
-                    const songCat = song.category.find((cat: any) => cat.term && cat.term.startsWith('Song:'));
-                    if (songCat) itemCat = songCat.term;
-                  }
-                  return (
-                    <div key={idx} className="mb-6" suppressHydrationWarning>
-                      <div dangerouslySetInnerHTML={{ __html: cleanStanzaHtml }} />
-                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
-                        <ShareButton
-                          href={twitterHref}
-                          platform="twitter"
-                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90"
-                          snippetWithStars={snippetWithStars}
-                          hashtagsStr={hashtagsStr}
-                          pagePath={pagePath}
-                          itemCat={itemCat}
-                        >
-                          Tweet
-                        </ShareButton>
-                        <ShareButton
-                          href={whatsappHref}
-                          platform="whatsapp"
-                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90"
-                          snippetWithStars={snippetWithStars}
-                          hashtagsStr={hashtagsStr}
-                          pagePath={pagePath}
-                          itemCat={itemCat}
-                        >
-                          WhatsApp
-                        </ShareButton>
-                      </div>
+          <div
+            className="prose prose-lg max-w-none leading-relaxed text-gray-800"
+            style={{ fontFamily: '"Noto Sans Tamil", "Tamil MN", "Latha", "Vijaya", sans-serif', lineHeight: '2' }}
+            data-server-stanzas-count={stanzas ? String(stanzas.length) : '0'}
+          >
+            {/* Server-rendered stanza blocks so content is visible immediately for SEO and UX */}
+            {stanzas && stanzas.length > 0 ? (
+              stanzas.map((stanzaHtml, idx) => {
+                // Build snippet and attributes for client enhancer
+                const plain = stanzaHtml.replace(/<br\s*\/?/gi, '\n').replace(/<[^>]+>/g, '').split('\n').map(l=>l.replace(/\s+/g,' ').trim()).join('\n').trim();
+                const snippetWithStars = `⭐${plain}⭐`;
+                const snippetForAttr = snippetWithStars;
+                const hashtagsAttr = hashtagsStr;
+                const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                const twitterHref = `https://twitter.com/intent/tweet?via=tsongslyrics&url=${encodeURIComponent(pageWithPath)}&text=${encodeURIComponent(snippetWithStars + (hashtagsAttr ? '\n' + hashtagsAttr : ''))}`;
+                const whatsappHref = `https://api.whatsapp.com/send?text=${encodeURIComponent(snippetWithStars + '\n\n' + (hashtagsAttr ? hashtagsAttr + '\n' : '') + pageWithPath + ' via @tsongslyrics')}`;
+                return (
+                  <div key={idx} className="mb-6">
+                    <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
+                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
+                      <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetForAttr} data-hashtags={hashtagsAttr} data-itemcat={itemCat} className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90">Tweet !!!</a>
+                      <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetForAttr} data-hashtags={hashtagsAttr} data-itemcat={itemCat} className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90">WhatsApp !!!</a>
                     </div>
-                  )
-                } else {
-                  // Fallback: just render the links without event handlers on the server
-                  return (
-                    <div key={idx} className="mb-6" suppressHydrationWarning>
-                      <div dangerouslySetInnerHTML={{ __html: cleanStanzaHtml }} />
-                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
-                        <a
-                          href={twitterHref}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90"
-                        >
-                          Tweet
-                        </a>
-                        <a
-                          href={whatsappHref}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90"
-                        >
-                          WhatsApp
-                        </a>
-                      </div>
-                    </div>
-                  )
-                }
+                  </div>
+                );
               })
-            })()}
+            ) : (
+              // Fallback: render sanitized full content if stanza splitting didn't produce fragments
+              <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(safeContent, sanitizeOptions) }} />
+            )}
+            {/* Client-side enhancer attaches GA events to the above share anchors */}
+            <ShareEnhancer />
           </div>
         </div>
 
