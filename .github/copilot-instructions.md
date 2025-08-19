@@ -60,3 +60,20 @@ un maarbil saaya mudiyaadha⭐
 
 #Heisenberg #Coolie2024 #Anirudh #SaiSmriti 
 http://localhost:3000/uyirnaadi-nanbane-lyrics-tamil.html via @tsongslyrics 
+
+//gtag("event", "share", {
+		  		method: "Whatsapp",
+		  		content_type: "text",
+		  		item_id: postUrl,
+				value: clearText.replace("WhatsApp!",""),
+				hash_tags: hashLists.sort().join(" "),
+				item_cat: item_cat
+			  });
+ #ga scripts
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9355FKMWRH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9355FKMWRH');
+</script>              

@@ -431,29 +431,71 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 const twitterHref = `https://twitter.com/intent/tweet?via=tsongslyrics&url=${encodedUrl}&text=${encodeURIComponent(tweetText)}`
                 const whatsappHref = `https://api.whatsapp.com/send?text=${encodeURIComponent(fullText)}`
 
-                return (
-                  <div key={idx} className="mb-6" suppressHydrationWarning>
-                    <div dangerouslySetInnerHTML={{ __html: cleanStanzaHtml }} />
-                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
-                      <a
-                        href={twitterHref}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90"
-                      >
-                        Tweet
-                      </a>
-                      <a
-                        href={whatsappHref}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90"
-                      >
-                        WhatsApp
-                      </a>
+                // Use dynamic import for ShareButton Client Component
+                // Only render share buttons on the client to avoid server component errors
+                if (typeof window !== 'undefined') {
+                  const ShareButton = require('../../components/ShareButton').ShareButton;
+                  // Find Song: category for item_cat
+                  let itemCat = '';
+                  if (song.category) {
+                    const songCat = song.category.find((cat: any) => cat.term && cat.term.startsWith('Song:'));
+                    if (songCat) itemCat = songCat.term;
+                  }
+                  return (
+                    <div key={idx} className="mb-6" suppressHydrationWarning>
+                      <div dangerouslySetInnerHTML={{ __html: cleanStanzaHtml }} />
+                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
+                        <ShareButton
+                          href={twitterHref}
+                          platform="twitter"
+                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90"
+                          snippetWithStars={snippetWithStars}
+                          hashtagsStr={hashtagsStr}
+                          pagePath={pagePath}
+                          itemCat={itemCat}
+                        >
+                          Tweet
+                        </ShareButton>
+                        <ShareButton
+                          href={whatsappHref}
+                          platform="whatsapp"
+                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90"
+                          snippetWithStars={snippetWithStars}
+                          hashtagsStr={hashtagsStr}
+                          pagePath={pagePath}
+                          itemCat={itemCat}
+                        >
+                          WhatsApp
+                        </ShareButton>
+                      </div>
                     </div>
-                  </div>
-                )
+                  )
+                } else {
+                  // Fallback: just render the links without event handlers on the server
+                  return (
+                    <div key={idx} className="mb-6" suppressHydrationWarning>
+                      <div dangerouslySetInnerHTML={{ __html: cleanStanzaHtml }} />
+                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
+                        <a
+                          href={twitterHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90"
+                        >
+                          Tweet
+                        </a>
+                        <a
+                          href={whatsappHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90"
+                        >
+                          WhatsApp
+                        </a>
+                      </div>
+                    </div>
+                  )
+                }
               })
             })()}
           </div>

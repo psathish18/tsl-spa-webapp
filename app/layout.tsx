@@ -1,8 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
+
 import dynamic from 'next/dynamic'
-// NOTE: using @next/third-parties GoogleAnalytics client helper
+
+const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const SpeedInsights = dynamic(() => import('@vercel/speed-insights/next').then(mod => mod.SpeedInsights), { ssr: false })
 const Analytics = dynamic(() => import('@vercel/analytics/react').then(mod => mod.Analytics), { ssr: false })
@@ -48,8 +50,21 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
-      <body className="min-h-screen bg-gray-50">
+    <html lang="en" className={`${inter.variable} ${poppins.variable}`}> 
+      {/* Google Tag Manager and Google Analytics (in <head>) */}
+      <head>
+        {/* Google Analytics gtag.js */}
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+          `
+        }} />
+      </head>
+  <body className="min-h-screen bg-gray-50">
         {/* Header */}
         <header className="bg-white shadow-sm sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
