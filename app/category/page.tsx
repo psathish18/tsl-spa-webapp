@@ -121,7 +121,7 @@ function CategoryPageContent() {
           </Link>
         </div>
       </div>
-    )
+    );
   }
 
   return (
@@ -156,7 +156,7 @@ function CategoryPageContent() {
               className="group bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-200"
             >
               {/* Song Image */}
-              <div className="relative h-48 bg-gradient-to-br from-blue-50 to-indigo-100">
+              <div className="relative h-48 image-fallback">
                 {song.thumbnail ? (
                   <Image
                     src={getEnhancedThumbnail(song.thumbnail)}
@@ -176,7 +176,7 @@ function CategoryPageContent() {
                 ) : (
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
-                      <div className="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-full flex items-center justify-center">
+                      <div className="w-16 h-16 mx-auto mb-3 image-fallback-circle rounded-full flex items-center justify-center">
                         <svg className="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
                         </svg>
@@ -206,9 +206,8 @@ function CategoryPageContent() {
 
                 <div className="flex justify-between items-center text-xs text-gray-400">
                   <span>{new Date(song.published).toLocaleDateString()}</span>
-                  <span className="text-blue-600 font-medium group-hover:underline">
-                    Read Lyrics →
-                  </span>
+                  {/* Removed explicit "Read Lyrics" text — entire card is clickable */}
+                  <span className="opacity-0 group-hover:opacity-100 text-blue-600 font-medium transition-opacity">&nbsp;</span>
                 </div>
               </div>
             </Link>

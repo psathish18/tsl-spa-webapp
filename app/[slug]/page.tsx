@@ -299,7 +299,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   <Link
                     key={index}
                     href={`/category?category=${encodeURIComponent(term)}`}
-                    className={`${bgColor} ${textColor} text-sm px-3 py-1 rounded-full font-medium ${hoverColor} transition-colors`}
+                    className={`category-pill ${bgColor} ${textColor} text-sm px-3 py-1 rounded-full font-medium ${hoverColor} transition-colors`}
                   >
                     {term}
                   </Link>
@@ -359,7 +359,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           </h2>
           <div
             className="prose prose-lg max-w-none leading-relaxed text-gray-800"
-            style={{ fontFamily: '"Noto Sans Tamil", "Tamil MN", "Latha", "Vijaya", sans-serif', lineHeight: '2' }}
+            style={{ lineHeight: '2' }}
             data-server-stanzas-count={stanzas ? String(stanzas.length) : '0'}
           >
             {/* Server-rendered stanza blocks so content is visible immediately for SEO and UX */}
@@ -377,8 +377,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   <div key={idx} className="mb-6">
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
                     <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
-                      <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetForAttr} data-hashtags={hashtagsAttr} data-itemcat={itemCat} className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors opacity-90">Tweet !!!</a>
-                      <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetForAttr} data-hashtags={hashtagsAttr} data-itemcat={itemCat} className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 hover:bg-green-100 transition-colors opacity-90">WhatsApp !!!</a>
+                      <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetForAttr} data-hashtags={hashtagsAttr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
+                        <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetForAttr} data-hashtags={hashtagsAttr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
                     </div>
                   </div>
                 );

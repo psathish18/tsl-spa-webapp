@@ -62,9 +62,342 @@
   .image-fade-in.loaded {
     opacity: 1;
   }
+
+  /* Lyrics font utility: use the primary UI font stack for consistent headings/tags look */
+  .lyrics-font {
+    font-family: Inter, Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  }
 }
 
 @keyframes shimmer {
   0% { transform: translateX(-100%); }
   100% { transform: translateX(100%); }
+}
+
+/* Theme palettes derived from attached badge colors (pastel tags) with a darker header for contrast */
+:root {
+  /* default to blue theme */
+  --bg: #f8fbff;
+  --card: #ffffff;
+  --text: #444;
+  --muted: #6b7280;
+  --primary: #1e40af; /* logo/primary accent */
+  --accent: #06b6d4;
+  /* use a light header by default so pills read like the attached pastel badges */
+  --header-bg: #fbfdff; /* kept for compatibility */
+  --header-surface: #f1f6ff; /* slightly deeper than pill background */
+  --header-text: var(--text);
+  --header-link: var(--primary);
+  --line-height-lyrics: 2;
+  --card-border: rgba(15,23,42,0.06);
+  /* image fallback gradient tokens (default) */
+  --img-from: #e6eefc;
+  --img-to: #e9f0ff;
+  --img-circle-from: #dbeafe;
+  --img-circle-to: #c7ddff;
+}
+
+.theme-blue {
+  --bg: #f8fbff;
+  --card: #ffffff;
+  --text: #444;
+  --muted: #475569;
+  --primary: #1e40af;
+  --accent: #60a5fa; /* light blue accent */
+  /* light header so badges sit on a pale surface like the design */
+  --header-bg: #fbfdff; /* pale blue surface */
+  --header-text: var(--text);
+  --header-link: var(--primary);
+  --header-link-hover: #1e40af;
+  --pill-bg: #dbeafe; /* blue-100 (pastel) */
+  --pill-text: #1e40af; /* blue-800 (darker text) */
+  --pill-hover: #bfdbfe; /* blue-200 */
+  --pill-hover-dark: #93b6fb; /* slightly darker blue for hover state */
+  --header-surface: #cfe3ff; /* slightly darker header surface */
+}
+
+.theme-green {
+  --bg: #f7fdf7;
+  --card: #ffffff;
+  --text: #444;
+  --muted: #4b5563;
+  --primary: #047857; /* emerald */
+  --accent: #10b981;
+  --header-bg: #f7fdf7; /* pale green surface */
+  --header-text: var(--text);
+  --header-link: var(--primary);
+  --header-link-hover: #065f46;
+  --pill-bg: #ecfdf5; /* green-100 (pastel) */
+  --pill-text: #065f46; /* green-800 */
+  --pill-hover: #bbf7d0;
+  --pill-hover-dark: #86efc1; /* slightly darker green hover */
+  --header-surface: #def7ec; /* slightly darker green surface */
+}
+
+.theme-orange {
+  --bg: #fffaf5;
+  --card: #ffffff;
+  --text: #444;
+  --muted: #6b4a3b;
+  --primary: #c2410c; /* dark orange */
+  --accent: #fb923c;
+  --header-bg: #fffaf5; /* pale orange surface */
+  --header-text: var(--text);
+  --header-link: var(--primary);
+  --header-link-hover: #7c2d12;
+  --pill-bg: #fff7ed; /* orange-100 (pastel) */
+  --pill-text: #7c2d12; /* orange-800-ish */
+  --pill-hover: #ffedd5;
+  --pill-hover-dark: #ffd6ac; /* slightly darker orange hover */
+  --header-surface: #fff1e0; /* slightly darker orange surface */
+}
+
+.theme-purple {
+  --bg: #faf6ff;
+  --card: #ffffff;
+  --text: #444;
+  --muted: #6b5b7a;
+  --primary: #6d28d9; /* purple */
+  --accent: #a78bfa;
+  --header-bg: #faf6ff; /* pale purple surface */
+  --header-text: var(--text);
+  --header-link: var(--primary);
+  --header-link-hover: #4c1d95;
+  --pill-bg: #faf5ff; /* purple-100 (pastel) */
+  --pill-text: #4c1d95; /* purple-800 */
+  --pill-hover: #f3e8ff;
+  --pill-hover-dark: #e5cfff; /* slightly darker purple hover */
+  --header-surface: #f3ecff; /* slightly darker purple surface */
+}
+
+.theme-dark {
+  /* dark mode: dark-gray background with yellow link accents */
+  --bg: #0f1115; /* dark gray page background */
+  --card: #0b0d10;
+  --text: #9b9a9a;
+  --muted: #9aa4b2;
+  --primary: #fbbf24; /* use yellow/amber for primary actions in dark */
+  --accent: #f59e0b;
+  /* header surface remains slightly darker than page bg */
+  --header-bg: #0b0d0f; /* very dark header */
+  --header-surface: #0d0f12;
+  --header-text: #f3edde; /* light warm text */
+  --header-link: #fbbf24; /* yellow links */
+  --header-link-hover: #f59e0b;
+  --pill-bg: rgba(255,255,255,0.04);
+  --pill-text: #fbbf24; /* yellow pill text in dark */
+  --pill-hover: rgba(255,255,255,0.06);
+  --pill-hover-dark: rgba(255,255,255,0.08);
+}
+
+/* New deep-indigo theme using rgb(111 36 172) as the primary accent */
+.theme-indigo {
+  --bg: #f7f5ff;
+  --card: #ffffff;
+  --text: #444;
+  --muted: #6b6375;
+  --primary: rgb(111 36 172); /* main accent */
+  --accent: #9f7aea; /* lighter purple accent */
+  --header-bg: #f3effb; /* pale indigo surface */
+  --header-text: var(--text);
+  --header-link: var(--primary);
+  --header-link-hover: #6f24b8;
+  --pill-bg: #f3e9ff; /* pastel indigo */
+  --pill-text: rgb(64 0 120);
+  --pill-hover: #e9ddff;
+  --pill-hover-dark: #d7c8ff;
+  --header-surface: #e6dbff; /* slightly darker header surface */
+}
+
+/* Make .card use theme variables so components adapt to dark mode */
+.card {
+  background-color: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 18px rgba(13,26,52,0.04);
+  transition: box-shadow 200ms ease, background-color 200ms ease;
+}
+
+/* Ensure prose/text content follows theme text color (helps dark mode) */
+.prose, .prose p, .prose li {
+  color: var(--text);
+}
+.prose a {
+  color: var(--header-link);
+}
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: var(--text);
+}
+
+/* Dark theme specific fallbacks so Tailwind utility classes like bg-white/text-gray-900 don't clash */
+.theme-dark .bg-white {
+  background-color: var(--card) !important;
+}
+.theme-dark .text-gray-900 {
+  color: var(--text) !important;
+}
+.theme-dark .text-gray-500 {
+  color: rgba(230,230,230,0.65) !important;
+}
+.theme-dark .border-gray-200 {
+  border-color: rgba(255,255,255,0.04) !important;
+}
+
+/* Category pill adjustments: in dark mode show border-only with colored text */
+.category-pill {
+  display: inline-block;
+}
+.theme-dark .category-pill {
+  background-color: transparent !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  color: var(--pill-text) !important; /* keep pill text colored */
+}
+
+/* WhatsApp share button: visible only on touch/mobile devices */
+.whatsapp-only { display: none; }
+@media (pointer: coarse), (max-width: 820px) {
+  .whatsapp-only { display: inline-flex !important; }
+}
+
+/* theme-specific image fallback tokens */
+:root {
+  --img-from: #e6eefc;
+  --img-to: #e9f0ff;
+  --img-circle-from: #dbeafe;
+  --img-circle-to: #c7ddff;
+}
+.theme-blue {
+  --img-from: #e6f0ff;
+  --img-to: #e0f2fe;
+  --img-circle-from: #dbeafe;
+  --img-circle-to: #c7ddff;
+}
+.theme-green {
+  --img-from: #f0fdf4;
+  --img-to: #ecfdf5;
+  --img-circle-from: #ecfdf5;
+  --img-circle-to: #bbf7d0;
+}
+.theme-orange {
+  --img-from: #fffaf5;
+  --img-to: #fff2e6;
+  --img-circle-from: #fff7ed;
+  --img-circle-to: #ffd6ac;
+}
+.theme-purple {
+  --img-from: #fbf7ff;
+  --img-to: #f7f0ff;
+  --img-circle-from: #faf5ff;
+  --img-circle-to: #e5cfff;
+}
+.theme-indigo {
+  --img-from: #f6f3ff;
+  --img-to: #efe8ff;
+  --img-circle-from: #f3e9ff;
+  --img-circle-to: #d7c8ff;
+}
+.theme-dark {
+  --img-from: #0b0d0f;
+  --img-to: #0d0f12;
+  --img-circle-from: rgba(255,255,255,0.02);
+  --img-circle-to: rgba(255,255,255,0.03);
+}
+
+/* theme-aware image fallback helper used when a post has no thumbnail */
+.image-fallback {
+  background: linear-gradient(135deg, var(--img-from), var(--img-to));
+}
+.image-fallback-circle {
+  background: linear-gradient(135deg, var(--img-circle-from), var(--img-circle-to));
+}
+
+/* Share button pills (Twitter / WhatsApp) - match category pill UX in dark mode */
+.share-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+}
+.share-pill.twitter {
+  background-color: #ebf8ff; /* light twitter-ish */
+  color: #1d9bf0;
+  border: 1px solid rgba(29,155,240,0.12);
+}
+.share-pill.whatsapp {
+  background-color: #ecfdf5; /* light whatsapp-ish */
+  color: #16a34a;
+  border: 1px solid rgba(16,163,82,0.12);
+}
+
+/* Dark mode: make share pills border-only like category pills and retain colored text */
+.theme-dark .share-pill.twitter {
+  background-color: transparent !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  color: #1d9bf0 !important; /* keep readable twitter blue on dark */
+}
+.theme-dark .share-pill.whatsapp {
+  background-color: transparent !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  color: #25d366 !important; /* whatsapp green */
+}
+
+/* Header/link/footer helper classes */
+.site-header {
+  /* use a slightly deeper header surface to separate header from pill background */
+  background-color: var(--header-surface, var(--pill-bg));
+  color: var(--pill-text);
+  /* subtle separation and padding like a soft navbar */
+  border-bottom: 1px solid rgba(15,23,42,0.03);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  /* padding to give the header a pill-like vertical space */
+  padding: 0.5rem 0;
+}
+.header-text { color: var(--header-text); }
+.header-link { color: var(--header-link); text-decoration: none; }
+.header-link:hover { color: var(--header-link-hover); }
+
+/* when header uses pill background, make links use pill text color for contrast */
+.site-header .header-link { color: var(--pill-text); }
+.site-header .header-link:hover { color: var(--pill-text); opacity: 0.9; }
+.site-footer { background-color: var(--header-bg); color: var(--header-text); }
+
+/* make the site title itself look like a pill that uses the hover color as its default background
+   and darkens slightly on hover (matches your requested behavior) */
+.site-header .site-title,
+.site-header .header-brand {
+  background-color: var(--pill-hover);
+  color: var(--pill-text);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  display: inline-block;
+  font-weight: 700;
+  transition: background-color 150ms ease-in-out, transform 120ms ease;
+}
+.site-header .site-title:hover,
+.site-header .header-brand:hover {
+  background-color: var(--pill-hover-dark);
+  transform: translateY(-1px);
+}
+
+/* Header/footer pill style similar to category tag links */
+.header-pill {
+  background-color: var(--pill-bg, #dbeafe);
+  color: var(--pill-text, #1e40af);
+  font-size: 0.875rem; /* text-sm */
+  padding: 0.25rem 0.75rem; /* px-3 py-1 */
+  border-radius: 9999px; /* rounded-full */
+  font-weight: 600; /* font-medium */
+  display: inline-block;
+  transition: background-color 150ms ease-in-out;
+  /* soft elevation and subtle border to match the pastel badge look */
+  box-shadow: 0 1px 0 rgba(16,24,40,0.04), 0 6px 18px rgba(13, 26, 52, 0.04);
+  border: 1px solid rgba(15,23,42,0.03);
+}
+.header-pill:hover {
+  background-color: var(--pill-hover, #bfdbfe);
 }

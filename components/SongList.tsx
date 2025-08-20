@@ -84,7 +84,7 @@ export function SongList({ songs }: SongListProps) {
                 {formatDate(song.published.$t)}
               </time>
               {song.category?.[0]?.term && (
-                <span className="bg-primary-100 text-primary-600 px-2 py-1 rounded-full text-xs font-medium">
+                <span className="category-pill bg-primary-100 text-primary-600 px-2 py-1 rounded-full text-xs font-medium">
                   Song
                 </span>
               )}
@@ -100,15 +100,7 @@ export function SongList({ songs }: SongListProps) {
               {extractDescription(song.content.$t)}
             </p>
             
-            <Link 
-              href={`/song/${encodeURIComponent(getSongSlug(song))}`}
-              className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium text-sm group"
-            >
-              Read Lyrics
-              <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
+            {/* Removed explicit "Read Lyrics" link; whole card is clickable via surrounding Link */}
           </div>
         </article>
       ))}

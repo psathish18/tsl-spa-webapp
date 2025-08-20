@@ -3,9 +3,6 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 
-// Enable static generation with revalidation
-export const revalidate = 300 // Revalidate every 5 minutes
-
 // Advanced revalidation config
 export const dynamic = 'force-static'
 export const dynamicParams = true
@@ -99,8 +96,8 @@ export default async function HomePage() {
     
     // Priority 2: Use the enhanced songTitle with "Lyrics" appended
     if (song.songTitle) {
-      return song.songTitle.includes('lyrics') || song.songTitle.includes('Lyrics') 
-        ? song.songTitle 
+      return song.songTitle.includes('lyrics') || song.songTitle.includes('Lyrics')
+        ? song.songTitle
         : `${song.songTitle} Lyrics`
     }
     
@@ -210,7 +207,7 @@ export default async function HomePage() {
     return null
   }
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -241,8 +238,13 @@ export default async function HomePage() {
                     const lyricistName = song.lyricistName || ''
                     
                     return (
-                      <article key={song.id?.$t || index} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
-                        <div className="relative h-48 overflow-hidden rounded-t-lg bg-gradient-to-br from-gray-100 to-gray-200">
+                      <Link
+                        key={song.id?.$t || index}
+                        href={`/${encodeURIComponent(slug)}.html`}
+                        className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden"
+                      >
+                        <article className="relative h-full">
+                        <div className="relative h-48 overflow-hidden rounded-t-lg image-fallback">
                           {thumbnail ? (
                             <Image 
                               src={thumbnail} 
@@ -253,15 +255,15 @@ export default async function HomePage() {
                               priority={index < 6} // Prioritize first 6 images for above-the-fold loading
                             />
                           ) : (
-                            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+                            <div className="absolute inset-0 flex items-center justify-center image-fallback">
                               <div className="text-center">
-                                <div className="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-full flex items-center justify-center">
+                                <div className="w-16 h-16 mx-auto mb-3 image-fallback-circle rounded-full flex items-center justify-center">
                                   <svg className="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
                                   </svg>
                                 </div>
                                 <span className="text-blue-600 text-sm font-medium">Tamil Song Lyrics</span>
-                                <div className="mt-1 text-xs text-blue-400">Click to read lyrics</div>
+                                
                               </div>
                             </div>
                           )}
@@ -279,20 +281,15 @@ export default async function HomePage() {
                         </div>
                         
                         <div className="p-6">
-                          <div className="flex items-center justify-between text-sm text-gray-500 mb-3">
+                          <div className="flex items-center justify-start text-sm text-gray-500 mb-3">
                             <time dateTime={publishedDate}>
                               {formatDate(publishedDate)}
                             </time>
-                            <span className="bg-blue-100 text-blue-600 px-2 py-1 rounded-full text-xs font-medium">
-                              Tamil Song
-                            </span>
                           </div>
                           
-                          <a href={`/${encodeURIComponent(slug)}.html`}>
-                            <h3 className="font-semibold text-lg text-gray-900 mb-2 hover:text-blue-600 transition-colors">
+                            <h3 className="font-semibold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                               {songTitle}
                             </h3>
-                          </a>
                           
                           {/* Show movie, singer, and lyricist info if available */}
                           {(movieName || singerName || lyricistName) && (
@@ -322,17 +319,10 @@ export default async function HomePage() {
                             {extractDescription(songContent)}
                           </p>
                           
-                          <a 
-                            href={`/${encodeURIComponent(slug)}.html`} 
-                            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm group"
-                          >
-                            Read Lyrics
-                            <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                            </svg>
-                          </a>
+                          {/* Intentionally removed explicit "Read Lyrics" text to make the whole card clickable */}
                         </div>
-                      </article>
+                        </article>
+                      </Link>
                     )
                   })}
                 </div>
