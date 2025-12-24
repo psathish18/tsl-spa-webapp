@@ -59,7 +59,7 @@ export default function DisclaimerPage() {
             No cookies are stored from this website.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Below third party's plugins may gather some user data and they have their own privacy policies:
+            Below third party&apos;s plugins may gather some user data and they have their own privacy policies:
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
             <li>Google Analytics</li>

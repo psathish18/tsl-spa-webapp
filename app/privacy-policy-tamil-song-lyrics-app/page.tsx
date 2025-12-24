@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
               <strong>AdMob</strong> - Used to display ads within the mobile app.
             </li>
             <li>
-              <strong>One Signal</strong> - This is used to provide push notification services. User may opt-out any time from "Settings" page within mobile app.
+              <strong>One Signal</strong> - This is used to provide push notification services. User may opt-out any time from &quot;Settings&quot; page within mobile app.
             </li>
           </ul>
         </section>
@@ -68,10 +68,10 @@ export default function PrivacyPolicyPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Cookies</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+            Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device&apos;s internal memory.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            This Service does not use these "cookies" explicitly. However, the app may use third party code and libraries that use "cookies" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+            This Service does not use these &quot;cookies&quot; explicitly. However, the app may use third party code and libraries that use &quot;cookies&quot; to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
           </p>
         </section>
 
