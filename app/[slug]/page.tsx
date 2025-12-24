@@ -177,10 +177,17 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
   const safeContent = stripImagesFromHtml(content)
 
+  // Check if song has EnglishTranslation category - skip stanza splitting if true
+  const hasEnglishTranslation = song.category?.some((cat: any) => 
+    cat.term && cat.term.toLowerCase().includes('englishtranslation')
+  );
+
   // Split into sanitized stanzas server-side to avoid importing server-only packages in client code
   // Support multiple HTML patterns used by Blogger: <br>, <br/>, <br />, <br></br> and paragraph boundaries </p><p>
   const stanzaSeparator = /(?:<br\b[^>]*>(?:\s*<\/br>)?\s*){2,}|<\/p>\s*<p\b[^>]*>/i
-  const rawStanzas = safeContent.split(stanzaSeparator).map(s => s.trim()).filter(Boolean)
+  const rawStanzas = hasEnglishTranslation 
+    ? [safeContent] // Don't split for English translations
+    : safeContent.split(stanzaSeparator).map(s => s.trim()).filter(Boolean);
   const sanitizeOptions = {
     allowedTags: sanitizeHtml.defaults.allowedTags.concat([ 'br' ]),
     allowedAttributes: { a: [ 'href', 'title', 'target', 'rel' ] }

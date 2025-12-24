@@ -11,6 +11,11 @@ interface StanzaShareProps {
 
 export function StanzaShareClient({ stanzas, song, pagePath }: StanzaShareProps) {
 
+  // Check if song has EnglishTranslation category - if so, skip stanza splitting
+  const hasEnglishTranslation = song.category?.some((cat: any) => 
+    cat.term && cat.term.toLowerCase().includes('englishtranslation')
+  );
+
   useEffect(() => {
     try {
       const container = document.querySelector('[data-server-stanzas-count]') as HTMLElement | null;
@@ -48,7 +53,14 @@ export function StanzaShareClient({ stanzas, song, pagePath }: StanzaShareProps)
 
   return (
     <>
-      {stanzas.map((stanzaHtml, idx) => {
+      {hasEnglishTranslation ? (
+        // Don't split into stanzas for English translations - render as single block
+        <div className="mb-6" suppressHydrationWarning>
+          <div dangerouslySetInnerHTML={{ __html: stanzas.join('<br/><br/>') }} />
+        </div>
+      ) : (
+        // Normal stanza splitting with share buttons
+        stanzas.map((stanzaHtml, idx) => {
         // stanzaHtml is pre-sanitized server-side
         const cleanStanzaHtml = stanzaHtml;
 
@@ -97,7 +109,8 @@ export function StanzaShareClient({ stanzas, song, pagePath }: StanzaShareProps)
             </div>
           </div>
         );
-      })}
+      })
+      )}
     </>
   );
 }
