@@ -57,7 +57,28 @@ const nextConfig = {
         source: '/api/proxy/:path*',
         destination: 'https://tsonglyricsapp.blogspot.com/:path*',
       },
-      // Handle .html URLs by rewriting to dynamic route
+      // Handle static pages with .html extension
+      {
+        source: '/privacy-policy-tamil-song-lyrics-app.html',
+        destination: '/privacy-policy-tamil-song-lyrics-app',
+      },
+      {
+        source: '/privacy',
+        destination: '/privacy-policy-tamil-song-lyrics-app',
+      },
+      {
+        source: '/about',
+        destination: '/about-tamil-song-lyrics',
+      },
+      {
+        source: '/terms',
+        destination: '/disclaimer',
+      },
+      {
+        source: '/tamil-song-lyrics-in-english.html',
+        destination: '/tamil-song-lyrics-in-english',
+      },
+      // Handle .html URLs by rewriting to dynamic route (must come after static pages)
       {
         source: '/:slug.html',
         destination: '/:slug',
@@ -149,7 +170,7 @@ const nextConfig = {
     ];
   },
   async redirects() {
-    console.log('🚫 Migration redirects disabled - using middleware for redirects');
+    // console.log('🚫 Migration redirects disabled - using middleware for redirects');
     
     return [
       // Legacy /song/ URLs redirect to root level  

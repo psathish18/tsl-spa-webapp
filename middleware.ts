@@ -53,7 +53,7 @@ class MiddlewareRedirectLookup {
 
 export function middleware(request: NextRequest) {
   // Middleware disabled - pass through all requests
-  console.log('🚫 Middleware disabled - all requests pass through');
+  // console.log('🚫 Middleware disabled - all requests pass through');
   return NextResponse.next();
 }
 
