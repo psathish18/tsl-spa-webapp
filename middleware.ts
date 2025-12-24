@@ -8,7 +8,7 @@ class MiddlewareRedirectLookup {
   private destinationMap: Map<string, any> | null = null;
 
   constructor() {
-    this.loadMappings();
+    // this.loadMappings();
   }
 
   static getInstance(): MiddlewareRedirectLookup {
@@ -52,31 +52,8 @@ class MiddlewareRedirectLookup {
 }
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  
-  // Only process potential song pages (skip API routes, static assets, etc.)
-  if (pathname.startsWith('/api') || 
-      pathname.startsWith('/_next') || 
-      pathname.startsWith('/favicon') ||
-      pathname.includes('.') && !pathname.endsWith('.html')) {
-    return NextResponse.next();
-  }
-
-  // Check for redirect mapping
-  const redirectLookup = MiddlewareRedirectLookup.getInstance();
-  const redirectDestination = redirectLookup.findRedirectDestination(pathname);
-  
-  if (redirectDestination) {
-    console.log(`🔄 Middleware redirect: ${pathname} → ${redirectDestination}`);
-    
-    // Return 308 permanent redirect (same as current redirect system)
-    const redirectUrl = request.nextUrl.clone();
-    redirectUrl.pathname = redirectDestination;
-    
-    return NextResponse.redirect(redirectUrl, 308);
-  }
-
-  // No redirect found, continue to page
+  // Middleware disabled - pass through all requests
+  console.log('🚫 Middleware disabled - all requests pass through');
   return NextResponse.next();
 }
 
