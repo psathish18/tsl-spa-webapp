@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import sanitizeHtml from 'sanitize-html'
 import dynamic from 'next/dynamic'
@@ -75,7 +76,15 @@ const songDataPromiseMap = new Map<string, Promise<Song | null>>();
 
 async function getSongData(slug: string): Promise<Song | null> {
   // Remove .html extension if present
-  const cleanSlug = slug.replace('.html', '');
+    console.log("Raw slug received:", JSON.stringify(slug));
+  const cleanSlug = slug.replace('.html', '')
+    .replace(/[_-]\d+(?=[_-])/g, '_') // Replace _digits_ or -digits- with just _ (preserve separation between words)
+    .replace(/[_-]\d+$/g, '') // Remove _digits or -digits at the end
+    .replace(/[^a-z0-9\s-_]/g, '') // Allow underscore to pass through
+    .replace(/[\s_]+/g, '-') // Convert spaces and underscores to single hyphen
+    .replace(/-+/g, '-') // Clean up multiple hyphens
+    .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
+  console.log("Clean slug after processing:", JSON.stringify(cleanSlug));
   if (songDataPromiseMap.has(cleanSlug)) {
     return songDataPromiseMap.get(cleanSlug)!;
   }
@@ -96,7 +105,7 @@ async function getSongData(slug: string): Promise<Song | null> {
       const songs = data.feed?.entry || [];
       // Filter posts that have Song: category
       const songPosts = songs.filter((entry: any) => {
-        return entry.category?.some((cat: any) => cat.term?.startsWith('Song:'));
+        return entry.category?.some((cat: any) => cat.term?.startsWith('Song:') || cat.term?.startsWith('OldSong:'));
       });
       // Find matching slug
       const targetSong = songPosts.find((song: any) => {
@@ -104,12 +113,16 @@ async function getSongData(slug: string): Promise<Song | null> {
         const apiTitle = song.title?.$t || song.title;
         if (apiTitle) {
           songSlug = apiTitle.toLowerCase()
-            .replace(/[^a-z0-9\s-]/g, '')
-            .replace(/\s+/g, '-')
-            .replace(/-+/g, '-')
-            .trim();
+            .trim()
+            .replace(/\b\d+\b/g, '') // Remove standalone digits (e.g., "2" in "2 Point 0")
+            .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+            .replace(/\s+/g, '-') // Convert spaces to hyphens
+            .replace(/-+/g, '-') // Clean up multiple hyphens
+            .replace(/^-+|-+$/g, '') // Remove leading/trailing hyphens
+
         }
-        return songSlug === cleanSlug;
+        console.log(`songSlug from posts: ${songSlug}`);
+        return songSlug === cleanSlug || songSlug.startsWith(`${cleanSlug}`);
       });
       if (!targetSong) {
         console.log(`No song found for slug: ${cleanSlug}`);
@@ -141,19 +154,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   const song = await getSongData(params.slug)
 
   if (!song) {
-    return (
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">Song Lyrics Not Found</h1>
-          <p className="text-gray-600 mb-6">
-            The song lyrics you&apos;re looking for might have been moved or doesn&apos;t exist.
-          </p>
-          <Link href="/" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-            Browse All Songs
-          </Link>
-        </div>
-      </div>
-    )
+    // Return 404 status instead of custom "not found" page
+    notFound()
   }
 
   // Extract clean data for display - use shared title function
@@ -185,17 +187,17 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   }
   const stanzas = rawStanzas.map(s => sanitizeHtml(s, sanitizeOptions))
 
-  // Debugging: log sizes to help identify empty content issues in production builds
-  try {
-    console.log('DEBUG: safeContent length =', (safeContent || '').length)
-    console.log('DEBUG: rawStanzas count =', rawStanzas.length)
-    console.log('DEBUG: stanzas count =', stanzas.length)
-    if (stanzas.length > 0) {
-      console.log('DEBUG: first stanza preview:', stanzas[0].slice(0, 120))
-    }
-  } catch (e) {
-    console.warn('DEBUG: could not log stanza debug info', e)
-  }
+  // // Debugging: log sizes to help identify empty content issues in production builds
+  // try {
+  //   console.log('DEBUG: safeContent length =', (safeContent || '').length)
+  //   console.log('DEBUG: rawStanzas count =', rawStanzas.length)
+  //   console.log('DEBUG: stanzas count =', stanzas.length)
+  //   if (stanzas.length > 0) {
+  //     console.log('DEBUG: first stanza preview:', stanzas[0].slice(0, 120))
+  //   }
+  // } catch (e) {
+  //   console.warn('DEBUG: could not log stanza debug info', e)
+  // }
 
   // Build hashtag list and item_cat once on the server so we can render share anchors
   const hashtagList = (song.category || [])

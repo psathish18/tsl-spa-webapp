@@ -59,8 +59,8 @@ const nextConfig = {
       },
       // Handle .html URLs by rewriting to dynamic route
       {
-        source: '/:slug*.html',
-        destination: '/:slug*',
+        source: '/:slug.html',
+        destination: '/:slug',
       },
     ];
   },
@@ -149,10 +149,7 @@ const nextConfig = {
     ];
   },
   async redirects() {
-    // Load migration redirects dynamically
-    const migrationRedirects = loadMigrationRedirects();
-    
-    console.log(`📊 Loaded ${migrationRedirects.length} migration redirects`);
+    console.log('🚫 Migration redirects disabled - using middleware for redirects');
     
     return [
       // Legacy /song/ URLs redirect to root level  
@@ -161,8 +158,7 @@ const nextConfig = {
         destination: '/:slug*',
         permanent: true,
       },
-      // WordPress to Next.js migration redirects
-      ...migrationRedirects
+      // WordPress to Next.js migration redirects now handled by middleware
     ];
   },
 };

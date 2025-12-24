@@ -50,6 +50,7 @@ export async function GET(request: NextRequest) {
         const apiTitle = song.title?.$t || song.title
         if (apiTitle) {
           songSlug = apiTitle.toLowerCase()
+            .trim()
             .replace(/[^a-z0-9\s-]/g, '')
             .replace(/\s+/g, '-')
             .replace(/-+/g, '-')
@@ -62,6 +63,8 @@ export async function GET(request: NextRequest) {
 
     if (!targetSong) {
       return NextResponse.json({ error: 'Song not found' }, { status: 404 })
+    }else{
+      console.log(`Found song: ${targetSong.title?.$t}`);
     }
 
     // Process the song data similar to /api/songs

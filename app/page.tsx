@@ -181,14 +181,14 @@ export default async function HomePage() {
       let imageUrl = decodeURIComponent(song.media$thumbnail.url)
       // Replace small thumbnail size (s72-c) with larger size (s400-c for better quality)
       imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
-      console.log('Found media$thumbnail (enhanced):', imageUrl)
+      // console.log('Found media$thumbnail (enhanced):', imageUrl)
       return imageUrl
     }
     
     if (song['media:thumbnail'] && song['media:thumbnail'].url) {
       let imageUrl = decodeURIComponent(song['media:thumbnail'].url)
       imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
-      console.log('Found media:thumbnail (enhanced):', imageUrl)
+      // console.log('Found media:thumbnail (enhanced):', imageUrl)
       return imageUrl
     }
     
@@ -199,7 +199,7 @@ export default async function HomePage() {
       let imageUrl = decodeURIComponent(imgMatch[1])
       // Also try to enhance resolution for content images
       imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
-      console.log('Found image in content (enhanced):', imageUrl)
+      // console.log('Found image in content (enhanced):', imageUrl)
       return imageUrl
     }
     

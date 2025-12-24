@@ -15,7 +15,7 @@ export function StanzaShareClient({ stanzas, song, pagePath }: StanzaShareProps)
     try {
       const container = document.querySelector('[data-server-stanzas-count]') as HTMLElement | null;
       const serverCount = container ? Number(container.getAttribute('data-server-stanzas-count')) : null;
-      console.log('StanzaShareClient mounted. serverCount=', serverCount, 'clientCount=', stanzas.length);
+      // console.log('StanzaShareClient mounted. serverCount=', serverCount, 'clientCount=', stanzas.length);
       if (serverCount !== null && serverCount !== stanzas.length) {
         console.warn('Hydration mismatch: server stanzas != client stanzas', { serverCount, clientCount: stanzas.length });
       }

@@ -23,7 +23,7 @@ export function ShareEnhancer() {
       const hash_tags = anchor.getAttribute('data-hashtags') || anchor.dataset?.hashtags || '';
       const item_cat = anchor.getAttribute('data-itemcat') || anchor.dataset?.itemcat || undefined;
       // Diagnostic logging
-      console.log('ShareEnhancer intercepted anchor:', { href, method, item_id, valueLength: (value||'').length, hash_tags, item_cat });
+      // console.log('ShareEnhancer intercepted anchor:', { href, method, item_id, valueLength: (value||'').length, hash_tags, item_cat });
           const payload: any = { method, content_type: 'text', item_id, value, hash_tags, item_cat };
           if (typeof (window as any).gtag === 'function') {
             try { (window as any).gtag('event', 'share', payload); } catch (err) { console.warn('gtag event failed', err); }

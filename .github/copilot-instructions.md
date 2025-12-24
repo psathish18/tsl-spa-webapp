@@ -77,3 +77,34 @@ http://localhost:3000/uyirnaadi-nanbane-lyrics-tamil.html via @tsongslyrics
   gtag('js', new Date());
   gtag('config', 'G-9355FKMWRH');
 </script>              
+
+
+
+# theme
+#dark theme 
+dark  theme 
+background color : #0f1115c9
+header background color - #0d0f1294
+header link color #eaac0cde
+
+footer background color - #0d0f1294
+footer font color #eaac0cde
+footer link color #eaac0cde
+
+article background color #0b0d1099
+article title h3 #ecbf4ab0 
+article text color text-gray-600
+
+remove tami
+
+
+## blue theme
+background color : #e8f2ff
+header background color  #cfe3ff
+
+article backgroun color #c4ddff
+header link color #116ae1
+footer link color  #116ae1
+footer font color #444
+
+
