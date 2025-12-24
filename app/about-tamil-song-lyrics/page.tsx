@@ -49,7 +49,7 @@ export default function AboutPage() {
             </div>
             <div className="bg-purple-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-purple-900 mb-2">🎵 Always Updated</h3>
-              <p className="text-gray-700">New songs added regularly as soon as they're released</p>
+              <p className="text-gray-700">New songs added regularly as soon as they&apos;re released</p>
             </div>
             <div className="bg-green-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-green-900 mb-2">📱 Mobile First</h3>
@@ -89,7 +89,7 @@ export default function AboutPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Contact Us</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            We'd love to hear from you! Whether you have questions, suggestions, or feedback:
+            We&apos;d love to hear from you! Whether you have questions, suggestions, or feedback:
           </p>
           <ul className="list-none text-gray-700 space-y-2">
             <li>📧 <strong>Email:</strong> <a href="mailto:contact@tsonglyrics.com" className="text-blue-600 hover:underline">contact@tsonglyrics.com</a></li>
@@ -100,7 +100,7 @@ export default function AboutPage() {
         <section className="mb-8 bg-blue-50 p-6 rounded-lg">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Stay Connected</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Don't miss out on the latest Tamil song lyrics! Subscribe to our push notifications and follow us on social media to stay updated.
+            Don&apos;t miss out on the latest Tamil song lyrics! Subscribe to our push notifications and follow us on social media to stay updated.
           </p>
           <Link 
             href="/"
