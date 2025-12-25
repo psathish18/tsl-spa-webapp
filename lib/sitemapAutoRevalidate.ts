@@ -1,3 +1,5 @@
+'use server'
+
 import { cookies } from 'next/headers'
 import { revalidatePath } from 'next/cache'
 
@@ -41,7 +43,7 @@ export async function checkAndRevalidateSitemap(
     const latestPostTitle = latestPost.title?.$t || 'Unknown Song'
 
     // Get last known post from cookie
-    const cookieStore = cookies()
+    const cookieStore = await cookies()
     const lastKnownPostId = cookieStore.get(LAST_POST_COOKIE)?.value
     const lastRevalidationTime = cookieStore.get(LAST_REVALIDATION_COOKIE)?.value
 
@@ -118,7 +120,7 @@ export async function checkAndRevalidateSitemap(
  * Manually reset tracking (useful for testing)
  */
 export async function resetSitemapTracking(): Promise<void> {
-  const cookieStore = cookies()
+  const cookieStore = await cookies()
   cookieStore.delete(LAST_POST_COOKIE)
   cookieStore.delete(LAST_REVALIDATION_COOKIE)
   console.log('🔄 Sitemap tracking reset')
