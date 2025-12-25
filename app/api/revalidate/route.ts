@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { revalidateTag } from 'next/cache'
 
 // Set a secret token for security (change this to a strong value and keep it secret)
-const REVALIDATE_SECRET = process.env.REVALIDATE_SECRET || 'changeme'
+const REVALIDATE_SECRET = process.env.REVALIDATE_SECRET || '9cQqqaV6l6OPYhslilv1RCXhsVRZ4CVQ3wTYV3Vcck5axiU4BPcCApHV9aT0yUhO'
 
 export async function POST(req: NextRequest) {
   const { tag, secret } = await req.json()

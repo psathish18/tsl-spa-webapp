@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
+import { checkAndRevalidateSitemap } from '@/lib/sitemapAutoRevalidate'
 
 // Advanced revalidation config
 export const dynamic = 'force-static'
@@ -86,6 +87,19 @@ export const metadata: Metadata = {
 
 export default async function HomePage() {
   const songs = await getSongs()
+
+  // Auto-check for new posts and revalidate sitemap if needed
+  const revalidationResult = await checkAndRevalidateSitemap(songs)
+  
+  // Log result for monitoring (visible in Vercel logs)
+  if (revalidationResult.revalidated) {
+    console.log('🔄 Home page triggered sitemap revalidation:', {
+      newPost: revalidationResult.newPostTitle,
+      timestamp: revalidationResult.timestamp,
+    })
+  } else if (revalidationResult.cooldownRemaining) {
+    console.log(`⏳ Sitemap revalidation cooldown active: ${revalidationResult.cooldownRemaining}s remaining`)
+  }
 
   const getSongTitle = (song: any) => {
     // Priority 1: Use the API title (includes "lyrics" - better for SEO and consistency)
