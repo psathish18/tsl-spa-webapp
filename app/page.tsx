@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
-import { checkAndRevalidateSitemap } from '@/lib/sitemapAutoRevalidate'
+import { AdBanner } from '@/components/GoogleAdsense'
 
 // Advanced revalidation config
 export const dynamic = 'force-static'
@@ -87,19 +87,6 @@ export const metadata: Metadata = {
 
 export default async function HomePage() {
   const songs = await getSongs()
-
-  // Auto-check for new posts and revalidate sitemap if needed
-  const revalidationResult = await checkAndRevalidateSitemap(songs)
-  
-  // Log result for monitoring (visible in Vercel logs)
-  if (revalidationResult.revalidated) {
-    console.log('🔄 Home page triggered sitemap revalidation:', {
-      newPost: revalidationResult.newPostTitle,
-      timestamp: revalidationResult.timestamp,
-    })
-  } else if (revalidationResult.cooldownRemaining) {
-    console.log(`⏳ Sitemap revalidation cooldown active: ${revalidationResult.cooldownRemaining}s remaining`)
-  }
 
   const getSongTitle = (song: any) => {
     // Priority 1: Use the API title (includes "lyrics" - better for SEO and consistency)
@@ -372,13 +359,10 @@ export default async function HomePage() {
               </div>
 
               {/* Sidebar Ad */}
-              <div className="bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-8 text-center h-96">
-                <div className="text-gray-500 text-sm mb-2">Advertisement</div>
-                <div className="text-gray-400 text-xs">Sidebar Ad</div>
-                <div className="text-gray-400 text-xs mt-2">
-                  Google AdSense will be integrated here
-                </div>
-              </div>
+              <AdBanner 
+                slot="sidebar-1" 
+                className="mb-6"
+              />
               
               {/* Popular Songs Section */}
               <div className="bg-white rounded-lg shadow-md p-6">
@@ -422,13 +406,10 @@ export default async function HomePage() {
       
       {/* Bottom Ad */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
-          <div className="text-gray-500 text-sm mb-2">Advertisement</div>
-          <div className="text-gray-400 text-xs">Bottom Banner Ad</div>
-          <div className="text-gray-400 text-xs mt-2">
-            Google AdSense will be integrated here
-          </div>
-        </div>
+        <AdBanner 
+          slot="bottom-banner-1" 
+          className=""
+        />
       </div>
     </div>
   )

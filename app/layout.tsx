@@ -65,6 +65,25 @@ export default function RootLayout({
             gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
           `
         }} />
+        
+        /* Google AdSense */
+        {process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (
+          <>
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+              crossOrigin="anonymous"
+            />
+            <script dangerouslySetInnerHTML={{
+              __html: `
+                (adsbygoogle = window.adsbygoogle || []).push({
+                  google_ad_client: "${process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID}",
+                  enable_page_level_ads: true
+                });
+              `
+            }} />
+          </>
+        )}
       </head>
   <body className="min-h-screen" style={{ backgroundColor: 'var(--bg)' }}>
         {/* Header */}
