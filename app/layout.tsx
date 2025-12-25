@@ -66,7 +66,7 @@ export default function RootLayout({
           `
         }} />
         
-        /* Google AdSense */
+        {/* Google AdSense */}
         {process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (
           <>
             <script
