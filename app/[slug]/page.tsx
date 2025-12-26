@@ -193,7 +193,6 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     allowedAttributes: { a: [ 'href', 'title', 'target', 'rel' ] }
   }
   const stanzas = rawStanzas.map(s => sanitizeHtml(s, sanitizeOptions))
-
   // // Debugging: log sizes to help identify empty content issues in production builds
   // try {
   //   console.log('DEBUG: safeContent length =', (safeContent || '').length)
@@ -375,7 +374,15 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
             {stanzas && stanzas.length > 0 ? (
               stanzas.map((stanzaHtml, idx) => {
                 // Build snippet and attributes for client enhancer
-                const plain = stanzaHtml.replace(/<br\s*\/?/gi, '\n').replace(/<[^>]+>/g, '').split('\n').map(l=>l.replace(/\s+/g,' ').trim()).join('\n').trim();
+                // Convert HTML to plain text (server-side compatible)
+                const plain = stanzaHtml
+                  .replace(/<br\s*\/?>/gi, '\n')
+                  .replace(/<[^>]+>/g, '')
+                  .split('\n')
+                  .map(l => l.replace(/^>\s*/g, '').replace(/\s+/g, ' ').trim())
+                  .filter(l => l.length > 0)
+                  .join('\n')
+                  .trim();
                 const snippetWithStars = `⭐${plain}⭐`;
                 const snippetForAttr = snippetWithStars;
                 const hashtagsAttr = hashtagsStr;
