@@ -387,8 +387,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 const snippetForAttr = snippetWithStars;
                 const hashtagsAttr = hashtagsStr;
                 const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
-                const twitterHref = `https://twitter.com/intent/tweet?via=tsongslyrics&url=${encodeURIComponent(pageWithPath)}&text=${encodeURIComponent(snippetWithStars + (hashtagsAttr ? '\n' + hashtagsAttr : ''))}`;
-                const whatsappHref = `https://api.whatsapp.com/send?text=${encodeURIComponent(snippetWithStars + '\n\n' + (hashtagsAttr ? hashtagsAttr + '\n' : '') + pageWithPath + ' via @tsongslyrics')}`;
+                const twitterHref = `https://twitter.com/intent/tweet?via=tsongslyrics&url=${encodeURIComponent(pageWithPath)}&text=${encodeURIComponent(snippetWithStars + '\n\n' + (hashtagsAttr ? '\n\n' + hashtagsAttr : ''))}`;
+                const whatsappHref = `https://api.whatsapp.com/send?text=${encodeURIComponent(snippetWithStars + '\n\n' + (hashtagsAttr ? hashtagsAttr + '\n\n' : '') + pageWithPath)}`;
                 return (
                   <div key={idx} className="mb-6">
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
