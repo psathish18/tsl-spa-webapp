@@ -1,14 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
+import urlMappings from './migration_analysis/url_mappings_clean.json'
 
 // Redirect lookup for middleware (runs before caching)
 class MiddlewareRedirectLookup {
   private static instance: MiddlewareRedirectLookup | null = null;
-  private destinationMap: Map<string, any> | null = null;
+  private destinationMap: Map<string, string> = new Map();
 
   constructor() {
-    // this.loadMappings();
+    this.loadMappings();
   }
 
   static getInstance(): MiddlewareRedirectLookup {
@@ -20,8 +19,8 @@ class MiddlewareRedirectLookup {
 
   private loadMappings() {
     try {
-      const mappingPath = path.join(process.cwd(), 'migration_analysis', 'url_mappings_clean.json');
-      const mappings = JSON.parse(fs.readFileSync(mappingPath, 'utf8'));
+      // Use imported JSON instead of fs.readFileSync (Edge Runtime compatible)
+      const mappings = urlMappings as any;
       
       // Create lookup map: source → destination
       this.destinationMap = new Map();
@@ -29,10 +28,8 @@ class MiddlewareRedirectLookup {
       mappings.redirects.forEach((redirect: any) => {
         // Normalize source path for consistent lookup
         const cleanSource = this.normalizePath(redirect.source);
-        this.destinationMap!.set(cleanSource, redirect.destination);
+        this.destinationMap.set(cleanSource, redirect.destination);
       });
-      
-      console.log(`🔄 Middleware loaded ${this.destinationMap.size} redirect mappings`);
     } catch (error) {
       console.error('Failed to load redirect mappings in middleware:', error);
       this.destinationMap = new Map();
@@ -65,14 +62,31 @@ export function middleware(request: NextRequest) {
     const newUrl = request.nextUrl.clone();
     newUrl.pathname = `/${songSlug}`;
     
-    console.log(`🔄 Redirecting: ${pathname} → ${newUrl.pathname}`);
-    
     // Return 301 permanent redirect
     return NextResponse.redirect(newUrl, 301);
   }
   
-  // Middleware disabled for other paths - pass through all requests
-  // console.log('🚫 Middleware disabled - all requests pass through');
+   // Only process potential song pages (skip API routes, static assets, etc.)
+  if (pathname.startsWith('/api') || 
+      pathname.startsWith('/_next') || 
+      pathname.startsWith('/favicon') ||
+      pathname.includes('.') && !pathname.endsWith('.html')) {
+    return NextResponse.next();
+  }
+
+  // Check for redirect mapping
+  const redirectLookup = MiddlewareRedirectLookup.getInstance();
+  const redirectDestination = redirectLookup.findRedirectDestination(pathname);
+  
+  if (redirectDestination) {
+    // Return 301 permanent redirect
+    const redirectUrl = request.nextUrl.clone();
+    redirectUrl.pathname = redirectDestination;
+    
+    return NextResponse.redirect(redirectUrl, 301);
+  }
+  
+  // Pass through all other requests
   return NextResponse.next();
 }
 
