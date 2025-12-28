@@ -94,6 +94,32 @@ export default function OneSignalButton() {
     }
   }
 
+  const handleUnsubscribe = async () => {
+    if (typeof window === 'undefined' || !window.oneSignalInitialized) {
+      console.warn('OneSignal not initialized yet');
+      return;
+    }
+    
+    setIsLoading(true);
+    try {
+      if (window.OneSignalDeferred) {
+        window.OneSignalDeferred.push(async function(OneSignal: any) {
+          try {
+            await OneSignal.User.PushSubscription.optOut();
+            setIsSubscribed(false);
+          } catch (error) {
+            console.error('Failed to unsubscribe:', error);
+          } finally {
+            setIsLoading(false);
+          }
+        });
+      }
+    } catch (error) {
+      console.error('Failed to unsubscribe:', error);
+      setIsLoading(false);
+    }
+  }
+
   if (isLoading) {
     return null // Don't show button while loading
   }
@@ -101,8 +127,10 @@ export default function OneSignalButton() {
   if (isSubscribed) {
     return (
       <button
-        className="flex items-center justify-center w-10 h-10 bg-green-100 text-green-800 rounded-full hover:bg-green-200 transition-colors"
-        aria-label="Notifications subscribed"
+        onClick={handleUnsubscribe}
+        className="flex items-center justify-center w-10 h-10 bg-green-100 text-green-800 rounded-full hover:bg-red-100 hover:text-red-800 transition-colors"
+        aria-label="Unsubscribe from notifications"
+        title="Click to unsubscribe"
       >
         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
           <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
