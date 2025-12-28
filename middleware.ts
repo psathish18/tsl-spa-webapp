@@ -52,7 +52,26 @@ class MiddlewareRedirectLookup {
 }
 
 export function middleware(request: NextRequest) {
-  // Middleware disabled - pass through all requests
+  const { pathname } = request.nextUrl;
+  
+  // Check if URL has YYYY/MM pattern (e.g., /2014/11/song-name.html)
+  const datePatternMatch = pathname.match(/^\/(\d{4})\/(\d{2})\/(.+)$/);
+  
+  if (datePatternMatch) {
+    // Extract the song slug without the date prefix
+    const songSlug = datePatternMatch[3];
+    
+    // Create new URL without the date pattern
+    const newUrl = request.nextUrl.clone();
+    newUrl.pathname = `/${songSlug}`;
+    
+    console.log(`🔄 Redirecting: ${pathname} → ${newUrl.pathname}`);
+    
+    // Return 301 permanent redirect
+    return NextResponse.redirect(newUrl, 301);
+  }
+  
+  // Middleware disabled for other paths - pass through all requests
   // console.log('🚫 Middleware disabled - all requests pass through');
   return NextResponse.next();
 }
