@@ -141,6 +141,8 @@ async function getSongData(slug: string): Promise<Song | null> {
       });
       if (!targetSong) {
         console.log(`No song found for slug: ${cleanSlug}`);
+        // Don't cache "not found" results - remove from memoization map
+        songDataPromiseMap.delete(cleanSlug);
         return null;
       }
       const songCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Song:'));
@@ -158,6 +160,8 @@ async function getSongData(slug: string): Promise<Song | null> {
       return processedSong;
     } catch (error) {
       console.error('Error fetching song data:', error);
+      // Don't cache errors - remove from memoization map
+      songDataPromiseMap.delete(cleanSlug);
       return null;
     }
   })();
@@ -190,6 +194,8 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
       const entries = data.feed?.entry || [];
       if (entries.length === 0) {
         console.log(`No Tamil lyrics found for: ${songCategory}`);
+        // Don't cache "not found" results - remove from memoization map
+        tamilLyricsPromiseMap.delete(songCategory);
         return null;
       }
       
@@ -199,6 +205,8 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
       return tamilSong as Song;
     } catch (error) {
       console.error('Error fetching Tamil lyrics:', error);
+      // Don't cache errors - remove from memoization map
+      tamilLyricsPromiseMap.delete(songCategory);
       return null;
     }
   })();
