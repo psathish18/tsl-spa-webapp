@@ -137,7 +137,7 @@ async function getSongData(slug: string): Promise<Song | null> {
 
         }
         console.log(`songSlug from posts: ${songSlug}`);
-        return songSlug === cleanSlug || songSlug.startsWith(`${cleanSlug}`);
+        return songSlug === cleanSlug || songSlug.startsWith(`${cleanSlug}`) || cleanSlug.startsWith(`${songSlug}`);
       });
       if (!targetSong) {
         console.log(`No song found for slug: ${cleanSlug}`);
