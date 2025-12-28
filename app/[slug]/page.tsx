@@ -299,7 +299,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
         <header className="mb-8">
           {/* SEO-optimized H1 with consistent title */}
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
             {fullTitle}
           </h1>
           

@@ -3,13 +3,14 @@ import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
 
 import dynamic from 'next/dynamic'
+import OneSignalButton from '../components/OneSignalButton'
 
 const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const SpeedInsights = dynamic(() => import('@vercel/speed-insights/next').then(mod => mod.SpeedInsights), { ssr: false })
 const Analytics = dynamic(() => import('@vercel/analytics/react').then(mod => mod.Analytics), { ssr: false })
-const GAClient = dynamic(() => import('../components/GAClient').then(mod => mod.default), { ssr: false })
-const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher').then(mod => mod.default), { ssr: false })
+const GAClient = dynamic(() => import('../components/GAClient'), { ssr: false })
+const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr: false })
 // const GA = dynamic(() => import('../components/GAClient').then(mod => mod.default), { ssr: false })
 // const ClientErrorCatcher = dynamic(() => import('../components/ClientErrorCatcher').then(mod => mod.default), { ssr: false })
 // const GA_ID = process.env.NEXT_PUBLIC_GA_ID
@@ -84,29 +85,41 @@ export default function RootLayout({
             }} />
           </>
         )}
+        
+        {/* OneSignal Push Notifications */}
+        {process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID && (
+          <>
+            <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+            <script dangerouslySetInnerHTML={{
+              __html: `
+                window.OneSignalDeferred = window.OneSignalDeferred || [];
+                OneSignalDeferred.push(async function(OneSignal) {
+                  await OneSignal.init({
+                    appId: "${process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID}",
+                    allowLocalhostAsSecureOrigin: true,
+                  });
+                });
+              `
+            }} />
+          </>
+        )}
       </head>
   <body className="min-h-screen" style={{ backgroundColor: 'var(--bg)' }}>
         {/* Header */}
         <header className="shadow-sm sticky top-0 z-50 site-header" style={{ backgroundColor: 'var(--header-surface)' }}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center h-16">
-              {/* Logo */}
-              <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-between h-16">
+              {/* Logo - Clickable to home */}
+              <a href="/" className="flex items-center space-x-3">
                 <img src="/favicon.png" alt="Tamil Song Lyrics" className="w-8 h-8 rounded" />
-                <span className="sr-only">Tamil Song Lyrics</span>
-              </div>
+                <span className="hidden md:block font-bold text-xl" style={{ color: 'var(--text)' }}>
+                  Lyrics of Tamil Songs
+                </span>
+              </a>
 
-              {/* Navigation */}
-              <nav className="flex items-center space-x-8 ml-8">
-                <a href="/" className="header-link font-medium transition-colors">
-                  Home
-                </a>
-                <a href="/about" className="header-link font-medium transition-colors">
-                  About
-                </a>
-              </nav>
-              {/* Theme switcher (visible on both mobile and desktop) */}
-              <div className="ml-auto">
+              {/* OneSignal notification button and theme switcher */}
+              <div className="flex items-center gap-3">
+                <OneSignalButton />
                 <ThemeSwitcher />
               </div>
             </div>

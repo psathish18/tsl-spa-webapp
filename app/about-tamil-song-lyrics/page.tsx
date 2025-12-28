@@ -96,19 +96,6 @@ export default function AboutPage() {
             <li>🐦 <strong>Twitter:</strong> <a href="https://twitter.com/tsongslyrics" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">@tsongslyrics</a></li>
           </ul>
         </section>
-
-        <section className="mb-8 bg-blue-50 p-6 rounded-lg">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Stay Connected</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Don&apos;t miss out on the latest Tamil song lyrics! Subscribe to our push notifications and follow us on social media to stay updated.
-          </p>
-          <Link 
-            href="/"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Subscribe for Updates
-          </Link>
-        </section>
       </article>
 
       {/* Back to Home Button */}

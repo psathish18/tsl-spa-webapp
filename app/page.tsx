@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import { AdBanner } from '@/components/GoogleAdsense'
+import OneSignalSubscriptionCard from '@/components/OneSignalSubscriptionCard'
 
 // Advanced revalidation config
 export const dynamic = 'force-static'
@@ -335,28 +336,7 @@ export default async function HomePage() {
           <div className="lg:col-span-1">
             <div className="sticky top-4 space-y-6">
               {/* Notification Subscription */}
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
-                    <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-5 5v-5zM12 7V3m0 18v-4m4-4h4m-8 0H8m-4 0H1m7-4V7m0 0L4 3m4 4l4-4" />
-                    </svg>
-                  </div>
-                  <h3 className="text-lg font-semibold text-gray-900">Stay Updated</h3>
-                </div>
-                
-                <p className="text-gray-600 text-sm mb-4">
-                  Get notified instantly when new Tamil song lyrics are added to our collection.
-                </p>
-                
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors">
-                  Subscribe to Notifications
-                </button>
-                
-                <p className="text-xs text-gray-500 mt-3">
-                  You can unsubscribe at any time. Your privacy is important to us.
-                </p>
-              </div>
+              <OneSignalSubscriptionCard />
 
               {/* Sidebar Ad */}
               <AdBanner 
