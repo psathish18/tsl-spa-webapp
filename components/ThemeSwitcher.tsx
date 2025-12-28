@@ -3,10 +3,10 @@
 import { useEffect, useState } from 'react'
 
 const THEMES = [
-  { id: 'blue', label: 'Blue' },
-  { id: 'green', label: 'Green' },
-  { id: 'indigo', label: 'Indigo' },
-  { id: 'dark', label: 'Dark' },
+  { id: 'blue', label: 'Blue', color: '#1e40af' },
+  { id: 'green', label: 'Green', color: '#059669' },
+  { id: 'indigo', label: 'Indigo', color: '#4f46e5' },
+  { id: 'dark', label: 'Dark', color: '#1f2937' },
 ]
 
 export default function ThemeSwitcher() {
@@ -32,16 +32,21 @@ export default function ThemeSwitcher() {
   }, [theme])
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-1.5">
       {THEMES.map(t => (
         <button
           key={t.id}
           aria-pressed={theme === t.id}
+          aria-label={`Switch to ${t.label} theme`}
           onClick={() => setTheme(t.id)}
-          className={`px-3 py-1 rounded-md text-sm ${theme === t.id ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'}`}
-        >
-          {t.label}
-        </button>
+          className={`w-6 h-6 rounded-full transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+            theme === t.id 
+              ? 'ring-2 ring-offset-2 ring-gray-400 scale-110' 
+              : 'opacity-70 hover:opacity-100'
+          }`}
+          style={{ backgroundColor: t.color }}
+          title={t.label}
+        />
       ))}
     </div>
   )

@@ -105,8 +105,8 @@ export default function RootLayout({
                   About
                 </a>
               </nav>
-              {/* Theme switcher (desktop only) */}
-              <div className="hidden md:block ml-auto">
+              {/* Theme switcher (visible on both mobile and desktop) */}
+              <div className="ml-auto">
                 <ThemeSwitcher />
               </div>
             </div>
