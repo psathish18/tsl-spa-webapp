@@ -16,6 +16,16 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-display;
   }
+  
+  /* Set all table elements to 100% width */
+  table {
+    width: 100%;
+  }
+  
+  /* Set first td with valign="top" to align to top */
+  td {
+    vertical-align: top;
+  }
 }
 
 @layer components {

@@ -12,8 +12,12 @@ export default function LyricsTabs({ tamilContent, tanglishContent, hasTamilLyri
   const [activeTab, setActiveTab] = useState<'tamil' | 'tanglish'>('tamil')
 
   if (!hasTamilLyrics) {
-    // If no Tamil lyrics available, show only Tanglish
-    return <div>{tanglishContent}</div>
+    // If no Tamil lyrics available, show only Tanglish without tabs
+    return (
+      <div className="bg-white rounded-lg border border-gray-200 p-8">
+        {tanglishContent}
+      </div>
+    );
   }
 
   return (

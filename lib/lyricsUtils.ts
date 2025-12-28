@@ -97,7 +97,7 @@ export const STANZA_SEPARATOR = /(?:<br\b[^>]*>(?:\s*<\/br>)?\s*){2,}|<\/p>\s*<p
  * Sanitize options for HTML cleaning
  */
 export const DEFAULT_SANITIZE_OPTIONS = {
-  allowedTags: ['p', 'br', 'strong', 'em', 'u', 'a', 'span', 'div'],
+  allowedTags: ['p', 'br', 'strong', 'em', 'u', 'a', 'span', 'div', 'table', 'tr', 'td', 'th', 'tbody', 'thead'],
   allowedAttributes: { a: ['href', 'title', 'target', 'rel'] }
 };
 
@@ -110,7 +110,6 @@ export function splitAndSanitizeStanzas(
   skipSplit: boolean = false
 ): string[] {
   if (!content) return [];
-  
   const rawStanzas = skipSplit
     ? [content]
     : content.split(STANZA_SEPARATOR).map(s => s.trim()).filter(Boolean);

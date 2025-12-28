@@ -21,7 +21,7 @@ const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').the
 // Client stanza renderer (client-only, interactive share buttons)
 const StanzaShareClient = dynamic(() => import('../../components/StanzaShareClient').then(mod => mod.default), { ssr: false });
 // Tab component for switching between Tamil and Tanglish lyrics
-const LyricsTabs = dynamic(() => import('../../components/LyricsTabs'), { ssr: false });
+const LyricsTabs = dynamic(() => import('../../components/LyricsTabs').then(mod => mod.default), { ssr: false });
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }) {
