@@ -122,8 +122,12 @@ async function getSongData(slug: string): Promise<Song | null> {
       const songPosts = songs.filter((entry: any) => {
         return entry.category?.some((cat: any) => cat.term?.startsWith('Song:') || cat.term?.startsWith('OldSong:'));
       });
-      // Find matching slug
-      const targetSong = songPosts.find((song: any) => {
+      
+      // If we get exactly one song result, use it immediately (exact match)
+      // Otherwise, find matching slug from multiple results
+      const targetSong = songPosts.length === 1 
+        ? songPosts[0]
+        : songPosts.find((song: any) => {
         let songSlug = '';
         const apiTitle = song.title?.$t || song.title;
         if (apiTitle) {
@@ -143,6 +147,9 @@ async function getSongData(slug: string): Promise<Song | null> {
         console.log(`No song found for slug: ${cleanSlug}`);
         // Don't cache "not found" results - remove from memoization map
         songDataPromiseMap.delete(cleanSlug);
+        // Revalidate the cache tag to force fresh data on next request
+        const { revalidateTag } = await import('next/cache');
+        revalidateTag(`song-${cleanSlug}`);
         return null;
       }
       const songCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Song:'));
@@ -196,6 +203,9 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
         console.log(`No Tamil lyrics found for: ${songCategory}`);
         // Don't cache "not found" results - remove from memoization map
         tamilLyricsPromiseMap.delete(songCategory);
+        // Revalidate the cache tag to force fresh data on next request
+        const { revalidateTag } = await import('next/cache');
+        revalidateTag(`tamil-lyrics-${songCategory}`);
         return null;
       }
       
@@ -411,6 +421,29 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
             })
           }}
         />
+        
+        {/* Google AdSense - Center Top Auto */}
+        <div className="my-8">
+          <ins 
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-4937682453427895"
+            data-ad-slot="9268051369"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                try {
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                  console.error('AdSense error:', e);
+                }
+              `
+            }}
+          />
+        </div>
         
         {/* Lyrics content with tabs */}
         <LyricsTabs
