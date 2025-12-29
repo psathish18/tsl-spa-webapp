@@ -318,27 +318,18 @@ const dateBasedCache = new DateBasedCache()
  */
 export async function cachedBloggerFetch(
   url: string, 
-  options: RequestInit = {}
+  options: RequestInit & { next?: { revalidate?: number; tags?: string[] } } = {}
 ): Promise<BloggerResponse> {
-  const cacheKey = `blogger:${url}`
+  console.log('Fetching from Blogger API:', url)
   
-  // Try to get from cache first
-  const cached = dateBasedCache.get<BloggerResponse>(cacheKey)
-  if (cached) {
-    console.log('Cache hit for:', url)
-    return cached
-  }
-
-  console.log('Cache miss, fetching from API:', url)
-  
-  // Fetch from API
+  // Use Next.js native cache with tags for proper revalidation support
   const response = await fetch(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
       'Accept': 'application/json',
-      'Cache-Control': 'no-cache',
       ...options.headers
     },
+    next: options.next, // Pass through Next.js cache options (revalidate, tags)
     ...options
   })
 
@@ -347,16 +338,6 @@ export async function cachedBloggerFetch(
   }
 
   const data: BloggerResponse = await response.json()
-  
-  // Cache with date-based TTL
-  if (data.feed?.entry?.length > 0) {
-    const newestPost = data.feed.entry[0]
-    dateBasedCache.set(cacheKey, data, newestPost.published.$t)
-    
-    // Also cache individual songs
-    dateBasedCache.setSongs(data.feed.entry)
-  }
-
   return data
 }
 
