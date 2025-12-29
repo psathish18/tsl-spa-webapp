@@ -99,7 +99,11 @@ async function getSongData(slug: string): Promise<Song | null> {
     .replace(/[\s_]+/g, '-') // Convert spaces and underscores to single hyphen
     .replace(/-+/g, '-') // Clean up multiple hyphens
     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
-  console.log("Clean slug after processing:", JSON.stringify(cleanSlug));
+    console.log("Clean slug after processing:", JSON.stringify(cleanSlug));
+    // convert to camel case for logging replacing hyphens with spaces and capitalizing each word
+    const camelCaseTitle = cleanSlug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    console.log("Clean slug to title :", camelCaseTitle);
+
   if (songDataPromiseMap.has(cleanSlug)) {
     return songDataPromiseMap.get(cleanSlug)!;
   }
