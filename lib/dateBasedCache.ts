@@ -320,21 +320,37 @@ export async function cachedBloggerFetch(
   url: string, 
   options: RequestInit & { next?: { revalidate?: number; tags?: string[] } } = {}
 ): Promise<BloggerResponse> {
-  console.log('Fetching from Blogger API:', url)
+  // In development, add cache-busting parameter to force fresh data from Blogger
+  const isDev = process.env.NODE_ENV === 'development'
+  const fetchUrl = isDev ? `${url}${url.includes('?') ? '&' : '?'}_=${Date.now()}` : url
+  
+  console.log(`Fetching from Blogger API (${isDev ? 'DEV - cache bust' : 'PROD'}):`, fetchUrl)
   
   // Use Next.js native cache with tags for proper revalidation support
-  const response = await fetch(url, {
+  const response = await fetch(fetchUrl, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
       'Accept': 'application/json',
       ...options.headers
     },
     next: options.next, // Pass through Next.js cache options (revalidate, tags)
+    cache: isDev ? 'no-store' : undefined, // Force no cache in development
     ...options
   })
 
   if (!response.ok) {
     throw new Error(`Blogger API error: ${response.status}`)
+  }
+
+  // Check if response came from cache
+  const cacheStatus = response.headers.get('x-vercel-cache') || 
+                      response.headers.get('x-nextjs-cache') || 
+                      'UNKNOWN'
+  
+  if (cacheStatus === 'HIT' || cacheStatus === 'STALE') {
+    console.log('✅ Cache HIT for:', url)
+  } else {
+    console.log('❌ Cache MISS for:', url, `(status: ${cacheStatus})`)
   }
 
   const data: BloggerResponse = await response.json()

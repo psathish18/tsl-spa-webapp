@@ -86,8 +86,23 @@ function getSongTitle(song: any): string {
 
 
 // In-memory memoization map for SSR request lifecycle
+// These maps are cleared after a timeout to prevent stale data in warm serverless containers
 const songDataPromiseMap = new Map<string, Promise<Song | null>>();
 const tamilLyricsPromiseMap = new Map<string, Promise<Song | null>>();
+
+// Clear memoization maps after 5 minutes to prevent stale data in production
+if (typeof global !== 'undefined') {
+  setInterval(() => {
+    if (songDataPromiseMap.size > 0) {
+      console.log(`Clearing ${songDataPromiseMap.size} memoized song promises`);
+      songDataPromiseMap.clear();
+    }
+    if (tamilLyricsPromiseMap.size > 0) {
+      console.log(`Clearing ${tamilLyricsPromiseMap.size} memoized Tamil lyrics promises`);
+      tamilLyricsPromiseMap.clear();
+    }
+  }, 5 * 60 * 1000); // 5 minutes
+}
 
 async function getSongData(slug: string): Promise<Song | null> {
   // Remove .html extension if present
@@ -104,7 +119,9 @@ async function getSongData(slug: string): Promise<Song | null> {
     const camelCaseTitle = cleanSlug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
     console.log("Clean slug to title :", camelCaseTitle);
 
-  if (songDataPromiseMap.has(cleanSlug)) {
+  // Skip in-memory cache in development to always fetch fresh data
+  const isDev = process.env.NODE_ENV === 'development';
+  if (!isDev && songDataPromiseMap.has(cleanSlug)) {
     return songDataPromiseMap.get(cleanSlug)!;
   }
   const fetchPromise = (async () => {
@@ -184,7 +201,9 @@ async function getSongData(slug: string): Promise<Song | null> {
 async function getTamilLyrics(songCategory: string): Promise<Song | null> {
   if (!songCategory) return null;
   
-  if (tamilLyricsPromiseMap.has(songCategory)) {
+  // Skip in-memory cache in development to always fetch fresh data
+  const isDev = process.env.NODE_ENV === 'development';
+  if (!isDev && tamilLyricsPromiseMap.has(songCategory)) {
     return tamilLyricsPromiseMap.get(songCategory)!;
   }
   
