@@ -276,7 +276,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
   // Extract clean data for display - use shared title function
   const fullTitle = getSongTitle(song)
-  const cleanTitle = fullTitle.replace(/\s*lyrics?\s*/gi, '').trim() // For breadcrumbs
+  const cleanTitle = fullTitle
   const movieName = song.movieName || ''
   const singerName = song.singerName || song.author?.[0]?.name?.$t || 'Unknown Artist'
   const lyricistName = song.lyricistName || ''
@@ -337,7 +337,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               return null;
             })()}
             <li>•</li>
-            <li className="text-gray-900">{cleanTitle} Lyrics</li>
+            <li className="text-gray-900">{cleanTitle}</li>
           </ol>
         </nav>
 
@@ -348,13 +348,13 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           </h1>
           
           {/* Published date on its own line */}
-          {publishedDate && (
+          {/* {publishedDate && (
             <div className="mb-4">
               <span className="text-gray-600 text-sm">
                 Published: {publishedDate.toLocaleDateString()}
               </span>
             </div>
-          )}
+          )} */}
           
           {/* Tags/categories on the next line */}
           <div className="mb-6">
@@ -413,7 +413,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               "@context": "https://schema.org",
               "@type": "MusicRecording",
               "name": cleanTitle,
-              "description": `Tamil lyrics for ${cleanTitle}${movieName ? ` from ${movieName} movie` : ''}`,
+              "description": `Tamil lyrics for ${cleanTitle} ${movieName ? ` from ${movieName} movie` : ''}`,
               "inLanguage": "ta",
               "genre": "Tamil Music",
               ...(movieName && {
@@ -440,7 +440,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               },
               "mainEntity": {
                 "@type": "CreativeWork",
-                "name": `${cleanTitle} Lyrics`,
+                "name": `${cleanTitle}`,
                 "text": content.replace(/<[^>]*>/g, ''), // Remove HTML tags for schema
                 "inLanguage": "ta"
               }

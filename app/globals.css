@@ -411,3 +411,68 @@
 .header-pill:hover {
   background-color: var(--pill-hover, #bfdbfe);
 }
+
+/* Lyrics Tabs Styling - Theme Aware */
+.lyrics-tab-container {
+  background: var(--card, #ffffff);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.theme-dark .lyrics-tab-container {
+  background: var(--card, #0b0d10);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lyrics-tab-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.theme-dark .lyrics-tab-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.lyrics-tab-active {
+  color: var(--primary, #3b82f6);
+  background: var(--card, #ffffff);
+}
+
+.theme-dark .lyrics-tab-active {
+  color: var(--primary, #fbbf24);
+  background: var(--card, #0b0d10);
+}
+
+.lyrics-tab-inactive {
+  color: var(--muted, #6b7280);
+}
+
+.lyrics-tab-inactive:hover {
+  color: var(--text, #374151);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.theme-dark .lyrics-tab-inactive {
+  color: var(--muted, #9aa4b2);
+}
+
+.theme-dark .lyrics-tab-inactive:hover {
+  color: var(--text, #e5e7eb);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.lyrics-tab-indicator {
+  background: var(--primary, #3b82f6);
+}
+
+.theme-dark .lyrics-tab-indicator {
+  background: var(--primary, #fbbf24);
+}
+
+.lyrics-tab-content {
+  color: var(--text, #374151);
+}
+
+.theme-dark .lyrics-tab-content {
+  color: var(--text, #9b9a9a);
+}

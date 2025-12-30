@@ -14,40 +14,46 @@ export default function LyricsTabs({ tamilContent, tanglishContent, hasTamilLyri
   if (!hasTamilLyrics) {
     // If no Tamil lyrics available, show only Tanglish without tabs
     return (
-      <div className="bg-white rounded-lg border border-gray-200 p-8">
+      <div className="lyrics-tab-container rounded-lg p-8">
         {tanglishContent}
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
+    <div className="lyrics-tab-container rounded-lg overflow-hidden">
       {/* Tab Headers */}
-      <div className="flex border-b border-gray-200 bg-gray-50">
+      <div className="flex lyrics-tab-header">
         <button
           onClick={() => setActiveTab('tamil')}
-          className={`flex-1 px-6 py-4 text-lg font-semibold transition-all ${
+          className={`flex-1 px-6 py-4 text-lg font-semibold transition-all relative ${
             activeTab === 'tamil'
-              ? 'bg-white text-blue-600 border-b-2 border-blue-600'
-              : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+              ? 'lyrics-tab-active'
+              : 'lyrics-tab-inactive'
           }`}
         >
           Tamil Lyrics
+          {activeTab === 'tamil' && (
+            <span className="absolute bottom-0 left-0 right-0 h-0.5 lyrics-tab-indicator" />
+          )}
         </button>
         <button
           onClick={() => setActiveTab('tanglish')}
-          className={`flex-1 px-6 py-4 text-lg font-semibold transition-all ${
+          className={`flex-1 px-6 py-4 text-lg font-semibold transition-all relative ${
             activeTab === 'tanglish'
-              ? 'bg-white text-blue-600 border-b-2 border-blue-600'
-              : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+              ? 'lyrics-tab-active'
+              : 'lyrics-tab-inactive'
           }`}
         >
           Lyrics
+          {activeTab === 'tanglish' && (
+            <span className="absolute bottom-0 left-0 right-0 h-0.5 lyrics-tab-indicator" />
+          )}
         </button>
       </div>
 
       {/* Tab Content */}
-      <div className="p-8">
+      <div className="p-8 lyrics-tab-content">
         {activeTab === 'tamil' ? tamilContent : tanglishContent}
       </div>
     </div>
