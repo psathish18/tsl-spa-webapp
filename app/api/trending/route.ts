@@ -3,11 +3,31 @@ import { google } from 'googleapis'
 
 export async function GET() {
   try {
+    // Validate environment variables
+    if (!process.env.GOOGLE_CLIENT_EMAIL || !process.env.GOOGLE_PRIVATE_KEY) {
+      console.warn('Google Analytics credentials not configured')
+      return NextResponse.json(
+        { trending: [] },
+        { 
+          status: 200,
+          headers: {
+            'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+          }
+        }
+      )
+    }
+
+    // Parse private key - handle both escaped and non-escaped newlines
+    let privateKey = process.env.GOOGLE_PRIVATE_KEY
+    if (privateKey.includes('\\n')) {
+      privateKey = privateKey.replace(/\\n/g, '\n')
+    }
+    
     // Initialize Google Analytics Data API
     const auth = new google.auth.GoogleAuth({
       credentials: {
         client_email: process.env.GOOGLE_CLIENT_EMAIL,
-        private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
+        private_key: privateKey,
       },
       scopes: ['https://www.googleapis.com/auth/analytics.readonly'],
     })
@@ -57,9 +77,15 @@ export async function GET() {
     )
   } catch (error) {
     console.error('Trending API error:', error)
+    // Return empty array with 200 status so frontend doesn't break
     return NextResponse.json(
-      { error: 'Failed to fetch trending posts', trending: [] },
-      { status: 500 }
+      { trending: [] },
+      { 
+        status: 200,
+        headers: {
+          'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+        }
+      }
     )
   }
 }
