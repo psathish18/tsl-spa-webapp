@@ -35,3 +35,13 @@ export function getSlugFromSong(song: Song): string {
   
   return ''
 }
+
+/**
+ * Format category name for display
+ * Removes Song:/OldSong: prefix and replaces dashes with spaces
+ */
+export function formatCategoryName(category: string): string {
+  return category
+    .replace(/^(Song:|OldSong:)/, '')
+    .replace(/-/g, ' ') + ' Lyrics'
+}
