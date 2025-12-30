@@ -1,11 +1,131 @@
 'use client'
 
+import { useEffect, useState } from 'react';
+
+declare global {
+  interface Window {
+    OneSignal?: any;
+    OneSignalDeferred?: any[];
+    oneSignalInitialized?: boolean;
+  }
+}
+
 export default function OneSignalSubscriptionCard() {
-  const handleSubscribe = () => {
-    // Trigger the OneSignal button in header
-    const bellButton = document.querySelector('[aria-label="Subscribe to notifications"]') as HTMLButtonElement;
-    if (bellButton) {
-      bellButton.click();
+  const [isSubscribed, setIsSubscribed] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    let mounted = true;
+
+    const initOneSignal = () => {
+      if (typeof window === 'undefined') return;
+
+      if (!window.OneSignalDeferred) {
+        console.warn('OneSignal SDK not loaded yet');
+        setIsLoading(false);
+        return;
+      }
+
+      window.OneSignalDeferred.push(async function(OneSignal: any) {
+        if (!mounted) return;
+
+        try {
+          await new Promise(resolve => setTimeout(resolve, 100));
+          
+          const isPushEnabled = await OneSignal.User.PushSubscription.optedIn;
+          
+          if (mounted) {
+            setIsSubscribed(isPushEnabled);
+            setIsLoading(false);
+
+            OneSignal.User.PushSubscription.addEventListener('change', (event: any) => {
+              if (mounted) {
+                setIsSubscribed(event.current.optedIn);
+              }
+            });
+          }
+        } catch (error) {
+          console.error('OneSignal initialization error:', error);
+          if (mounted) {
+            setIsLoading(false);
+          }
+        }
+      });
+    };
+
+    initOneSignal();
+
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  const handleSubscribe = async () => {
+    if (typeof window === 'undefined' || !window.OneSignalDeferred) {
+      console.warn('OneSignal not initialized yet');
+      return;
+    }
+    
+    setIsLoading(true);
+    try {
+      window.OneSignalDeferred.push(async function(OneSignal: any) {
+        try {
+          const permission = await OneSignal.Notifications.permission;
+          
+          if (permission === 'denied') {
+            alert('Notifications are blocked. Please enable them in your browser settings.');
+            setIsLoading(false);
+            return;
+          }
+          
+          const isPushEnabled = await OneSignal.User.PushSubscription.optedIn;
+          if (!isPushEnabled) {
+            await OneSignal.User.PushSubscription.optIn();
+            setIsSubscribed(true);
+          } else {
+            await OneSignal.Slidedown.promptPush();
+          }
+        } catch (error) {
+          console.error('Failed to subscribe:', error);
+          try {
+            await OneSignal.Slidedown.promptPush();
+          } catch (promptError) {
+            console.error('Failed to show prompt:', promptError);
+            alert('Failed to subscribe to notifications. Please try again.');
+          }
+        } finally {
+          setIsLoading(false);
+        }
+      });
+    } catch (error) {
+      console.error('Failed to subscribe:', error);
+      setIsLoading(false);
+    }
+  };
+
+  const handleUnsubscribe = async () => {
+    if (typeof window === 'undefined' || !window.OneSignalDeferred) {
+      console.warn('OneSignal not initialized yet');
+      return;
+    }
+    
+    setIsLoading(true);
+    try {
+      window.OneSignalDeferred.push(async function(OneSignal: any) {
+        try {
+          await OneSignal.User.PushSubscription.optOut();
+          setTimeout(() => {
+            setIsSubscribed(false);
+            setIsLoading(false);
+          }, 500);
+        } catch (error) {
+          console.error('Failed to unsubscribe:', error);
+          setIsLoading(false);
+        }
+      });
+    } catch (error) {
+      console.error('Failed to unsubscribe:', error);
+      setIsLoading(false);
     }
   };
 
@@ -24,15 +144,26 @@ export default function OneSignalSubscriptionCard() {
         Get notified instantly when new Tamil song lyrics are added to our collection.
       </p>
       
-      <button 
-        onClick={handleSubscribe}
-        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
-      >
-        Subscribe to Notifications
-      </button>
+      {!isSubscribed ? (
+        <button 
+          onClick={handleSubscribe}
+          disabled={isLoading}
+          className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+        >
+          {isLoading ? 'Subscribing...' : 'Subscribe to Notifications'}
+        </button>
+      ) : (
+        <button 
+          onClick={handleUnsubscribe}
+          disabled={isLoading}
+          className="w-full bg-red-600 hover:bg-red-700 disabled:bg-red-400 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+        >
+          {isLoading ? 'Unsubscribing...' : 'Unsubscribe'}
+        </button>
+      )}
       
       <p className="text-xs text-gray-500 mt-3">
-        You can unsubscribe at any time. Your privacy is important to us.
+        You can {isSubscribed ? 'unsubscribe' : 'unsubscribe'} at any time. Your privacy is important to us.
       </p>
     </div>
   );
