@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import sanitizeHtml from 'sanitize-html'
 import dynamic from 'next/dynamic'
+import NotFoundSuggestions from '@/components/NotFoundSuggestions'
 import {
   stripImagesFromHtml,
   htmlToPlainText,
@@ -255,8 +255,51 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   const song = await getSongData(params.slug)
 
   if (!song) {
-    // Return 404 status instead of custom "not found" page
-    notFound()
+    // Return custom 404 with smart suggestions based on the slug
+    return (
+      <div className="min-h-screen bg-white px-4 py-12">
+        <div className="max-w-6xl mx-auto">
+          {/* 404 Header */}
+          <div className="text-center mb-12">
+            <div className="mb-6">
+              <h1 className="text-8xl font-bold text-gray-200">404</h1>
+            </div>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Song Lyrics Not Found
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              We couldn&apos;t find the song lyrics you&apos;re looking for. The song might have been moved, 
+              renamed, or doesn&apos;t exist yet. Check out these suggestions below!
+            </p>
+          </div>
+
+          {/* Smart Suggestions with the actual slug */}
+          <NotFoundSuggestions searchSlug={params.slug} />
+
+          {/* Action Button */}
+          <div className="mt-12 flex justify-center items-center">
+            <Link
+              href="/"
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold 
+                       hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
+            >
+              Browse All Songs
+            </Link>
+          </div>
+
+          {/* Additional Help */}
+          <div className="mt-12 text-center text-sm text-gray-500">
+            <p>
+              Still can&apos;t find what you need? Try our{' '}
+              <Link href="/" className="text-blue-600 hover:underline">
+                homepage
+              </Link>{' '}
+              to discover the latest Tamil song lyrics.
+            </p>
+          </div>
+        </div>
+      </div>
+    )
   }
 
   // Fetch Tamil lyrics if Song: category exists

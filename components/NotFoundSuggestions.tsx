@@ -24,7 +24,7 @@ function extractKeywords(slug: string): string[] {
     .split(' ')
     .filter(word => 
       word.length > 2 && 
-      !['the', 'and', 'lyrics', 'song', 'tamil'].includes(word.toLowerCase())
+      !['the', 'and', 'lyrics', 'song', 'tamil', 'english', "meaning", "translation"].includes(word.toLowerCase())
     )
 }
 
@@ -96,10 +96,12 @@ export default async function NotFoundSuggestions({ searchSlug }: NotFoundSugges
   let keywords: string[] = []
   let popularPosts: Song[] = []
   
+  console.log("searchSlug:", searchSlug)
   // Try smart search if slug is provided
   if (searchSlug && searchSlug.trim()) {
     try {
       keywords = extractKeywords(searchSlug)
+      console.log("Extracted keywords:", keywords)
       if (keywords.length > 0) {
         searchResults = await searchSongs(keywords, 6)
       }
