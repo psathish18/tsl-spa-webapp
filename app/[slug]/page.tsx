@@ -140,9 +140,10 @@ async function getSongData(slug: string): Promise<Song | null> {
       );
       const songs = data.feed?.entry || [];
       // Filter posts that have Song: category
-      const songPosts = songs.filter((entry: any) => {
-        return entry.category?.some((cat: any) => cat.term?.startsWith('Song:') || cat.term?.startsWith('OldSong:'));
-      });
+      const songPosts = songs;
+      // .filter((entry: any) => {
+      //   return entry.category?.some((cat: any) => cat.term?.startsWith('Song:') || cat.term?.startsWith('OldSong:'));
+      // });
       
       // If we get exactly one song result, use it immediately (exact match)
       // Otherwise, find matching slug from multiple results
