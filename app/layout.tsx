@@ -4,6 +4,7 @@ import { Inter, Poppins } from 'next/font/google'
 
 import dynamic from 'next/dynamic'
 import OneSignalButton from '../components/OneSignalButton'
+import OneSignalSubscriptionCard from '../components/OneSignalSubscriptionCard'
 
 const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 
@@ -147,6 +148,8 @@ export default function RootLayout({
                   Discover new music, find your favorite songs, and enjoy the 
                   beauty of Tamil poetry and music.
                 </p>
+                {/* Stay Updated Section */}
+                <OneSignalSubscriptionCard />
               </div>
 
               {/* Quick Links */}
