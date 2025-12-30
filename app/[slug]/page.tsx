@@ -22,6 +22,8 @@ const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').the
 const StanzaShareClient = dynamic(() => import('../../components/StanzaShareClient').then(mod => mod.default), { ssr: false });
 // Tab component for switching between Tamil and Tanglish lyrics
 const LyricsTabs = dynamic(() => import('../../components/LyricsTabs').then(mod => mod.default), { ssr: false });
+// Related songs component
+import RelatedSongs from '@/components/RelatedSongs'
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }) {
@@ -552,18 +554,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }
         />
 
-        {/* Related songs section placeholder */}
-        <div className="mt-12">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">More Tamil Song Lyrics</h3>
-          <div className="text-center py-8">
-            <Link 
-              href="/"
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Browse All Songs
-            </Link>
-          </div>
-        </div>
+        {/* Related songs section */}
+        <RelatedSongs currentSongId={song.id.$t} categories={song.category || []} />
       </article>
     </div>
   )

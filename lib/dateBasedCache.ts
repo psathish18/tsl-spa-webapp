@@ -327,16 +327,23 @@ export async function cachedBloggerFetch(
   console.log(`Fetching from Blogger API (${isDev ? 'DEV - cache bust' : 'PROD'}):`, fetchUrl)
   
   // Use Next.js native cache with tags for proper revalidation support
-  const response = await fetch(fetchUrl, {
+  const fetchOptions: RequestInit = {
     headers: {
       'User-Agent': 'Mozilla/5.0 (compatible; TamilSongLyrics/1.0)',
       'Accept': 'application/json',
       ...options.headers
     },
-    next: options.next, // Pass through Next.js cache options (revalidate, tags)
-    cache: isDev ? 'no-store' : undefined, // Force no cache in development
     ...options
-  })
+  }
+  
+  // In development, use no-store; in production, use next revalidation
+  if (isDev) {
+    fetchOptions.cache = 'no-store'
+  } else if (options.next) {
+    fetchOptions.next = options.next
+  }
+  
+  const response = await fetch(fetchUrl, fetchOptions)
 
   if (!response.ok) {
     throw new Error(`Blogger API error: ${response.status}`)
