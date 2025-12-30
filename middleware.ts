@@ -3,6 +3,10 @@ import { NextRequest, NextResponse } from 'next/server'
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   
+  // Clone the request headers and add pathname for 404 handling
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-pathname', pathname)
+  
   // Check if URL has YYYY/MM pattern (e.g., /2014/11/song-name.html)
   const datePatternMatch = pathname.match(/^\/(\d{4})\/(\d{2})\/(.+)$/);
   
@@ -18,8 +22,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(newUrl, 301);
   }
   
-  // Pass through all other requests
-  return NextResponse.next();
+  // Pass through all other requests with headers
+  return NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
 }
 
 // Configure middleware to run on all paths except excluded ones
