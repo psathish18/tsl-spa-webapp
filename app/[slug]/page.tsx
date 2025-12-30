@@ -133,7 +133,7 @@ async function getSongData(slug: string): Promise<Song | null> {
       const searchTerms = cleanSlug.replace(/-/g, ' ');
       // Use date-based cached fetch - direct Blogger API call
       const data = await cachedBloggerFetch(
-        `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
+        `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=100`, {
         next: {
           revalidate: 86400, // Cache for 24 hours
           tags: [`song-${cleanSlug}`] // Tag for on-demand revalidation
