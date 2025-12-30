@@ -16,16 +16,31 @@ interface RelatedSongsProps {
   categories: Array<{ term: string }>
 }
 
-// Helper to generate slug from title
-function generateSlug(title: string): string {
-  return title
-    .toLowerCase()
-    .replace(/\s*lyrics?\s*/gi, '')
-    .replace(/\b\d+\b/g, '')
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-+|-+$/g, '')
+// Helper to extract slug from Blogger API link array (matches app/page.tsx getSongSlug logic)
+function generateSlug(song: Song): string {
+  // Extract slug from API link array (rel: alternate)
+  if ((song as any).link && Array.isArray((song as any).link)) {
+    const alternateLink = (song as any).link.find((l: any) => l.rel === 'alternate')
+    if (alternateLink?.href) {
+      // Extract slug.html from the full URL
+      // e.g., https://tsonglyricsapp.blogspot.com/p/song-name-lyrics.html -> song-name-lyrics
+      const match = alternateLink.href.match(/\/([^\/]+\.html)$/)
+      if (match) {
+        return match[1].replace('.html', '')
+      }
+    }
+  }
+  
+  // Fallback: Use the API title
+  const apiTitle = song.title?.$t
+  if (apiTitle) {
+    return apiTitle.toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+      .replace(/\s+/g, '-') // Replace spaces with hyphens
+      .replace(/-+/g, '-') // Replace multiple hyphens with single
+      .trim()
+  }
+  return ''
 }
 
 // Helper to get clean song title
@@ -104,7 +119,7 @@ export default async function RelatedSongs({ currentSongId, categories }: Relate
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {songs.map((song) => {
             const cleanTitle = getCleanTitle(song)
-            const slug = generateSlug(song.title.$t)
+            const slug = generateSlug(song)
             const thumbnail = song.media$thumbnail?.url
             const publishDate = new Date(song.published.$t).toLocaleDateString()
 
