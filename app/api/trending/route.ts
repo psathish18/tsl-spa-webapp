@@ -1,0 +1,91 @@
+import { NextResponse } from 'next/server'
+import { google } from 'googleapis'
+
+export async function GET() {
+  try {
+    // Validate environment variables
+    if (!process.env.GOOGLE_CLIENT_EMAIL || !process.env.GOOGLE_PRIVATE_KEY) {
+      console.warn('Google Analytics credentials not configured')
+      return NextResponse.json(
+        { trending: [] },
+        { 
+          status: 200,
+          headers: {
+            'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+          }
+        }
+      )
+    }
+
+    // Parse private key - handle both escaped and non-escaped newlines
+    let privateKey = process.env.GOOGLE_PRIVATE_KEY
+    if (privateKey.includes('\\n')) {
+      privateKey = privateKey.replace(/\\n/g, '\n')
+    }
+    
+    // Initialize Google Analytics Data API
+    const auth = new google.auth.GoogleAuth({
+      credentials: {
+        client_email: process.env.GOOGLE_CLIENT_EMAIL,
+        private_key: privateKey,
+      },
+      scopes: ['https://www.googleapis.com/auth/analytics.readonly'],
+    })
+
+    const analyticsDataClient = google.analyticsdata({
+      version: 'v1beta',
+      auth
+    })
+
+    const response = await analyticsDataClient.properties.runReport({
+      property: 'properties/315076100',
+      requestBody: {
+        dimensions: [
+          { name: 'pageTitle' },
+          { name: 'pagePath' }
+        ],
+        metrics: [
+          { name: 'screenPageViews' }
+        ],
+        dateRanges: [
+          { startDate: 'yesterday', endDate: 'yesterday' }
+        ],
+        orderBys: [
+          { metric: { metricName: 'screenPageViews' }, desc: true }
+        ],
+        limit: '10'
+      }
+    })
+
+    // Transform GA4 data to simple format and filter out home page
+    const trending = response.data.rows
+      ?.map((row) => ({
+        title: row.dimensionValues?.[0]?.value || '',
+        url: `https://www.tsonglyrics.com${row.dimensionValues?.[1]?.value || ''}`,
+        views: parseInt(row.metricValues?.[0]?.value || '0'),
+        pagePath: row.dimensionValues?.[1]?.value || ''
+      }))
+      .filter((post) => post.pagePath !== '/' && post.pagePath !== '') || []
+
+    return NextResponse.json(
+      { trending },
+      {
+        headers: {
+          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200'
+        }
+      }
+    )
+  } catch (error) {
+    console.error('Trending API error:', error)
+    // Return empty array with 200 status so frontend doesn't break
+    return NextResponse.json(
+      { trending: [] },
+      { 
+        status: 200,
+        headers: {
+          'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+        }
+      }
+    )
+  }
+}

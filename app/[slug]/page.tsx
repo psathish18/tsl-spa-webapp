@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import sanitizeHtml from 'sanitize-html'
 import dynamic from 'next/dynamic'
+import NotFoundSuggestions from '@/components/NotFoundSuggestions'
 import {
   stripImagesFromHtml,
   htmlToPlainText,
@@ -22,6 +22,8 @@ const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').the
 const StanzaShareClient = dynamic(() => import('../../components/StanzaShareClient').then(mod => mod.default), { ssr: false });
 // Tab component for switching between Tamil and Tanglish lyrics
 const LyricsTabs = dynamic(() => import('../../components/LyricsTabs').then(mod => mod.default), { ssr: false });
+// Related songs component
+import RelatedSongs from '@/components/RelatedSongs'
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }) {
@@ -131,7 +133,7 @@ async function getSongData(slug: string): Promise<Song | null> {
       const searchTerms = cleanSlug.replace(/-/g, ' ');
       // Use date-based cached fetch - direct Blogger API call
       const data = await cachedBloggerFetch(
-        `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=10`, {
+        `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=100`, {
         next: {
           revalidate: 86400, // Cache for 24 hours
           tags: [`song-${cleanSlug}`] // Tag for on-demand revalidation
@@ -140,9 +142,10 @@ async function getSongData(slug: string): Promise<Song | null> {
       );
       const songs = data.feed?.entry || [];
       // Filter posts that have Song: category
-      const songPosts = songs.filter((entry: any) => {
-        return entry.category?.some((cat: any) => cat.term?.startsWith('Song:') || cat.term?.startsWith('OldSong:'));
-      });
+      const songPosts = songs;
+      // .filter((entry: any) => {
+      //   return entry.category?.some((cat: any) => cat.term?.startsWith('Song:') || cat.term?.startsWith('OldSong:'));
+      // });
       
       // If we get exactly one song result, use it immediately (exact match)
       // Otherwise, find matching slug from multiple results
@@ -252,8 +255,51 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   const song = await getSongData(params.slug)
 
   if (!song) {
-    // Return 404 status instead of custom "not found" page
-    notFound()
+    // Return custom 404 with smart suggestions based on the slug
+    return (
+      <div className="min-h-screen bg-white px-4 py-12">
+        <div className="max-w-6xl mx-auto">
+          {/* 404 Header */}
+          <div className="text-center mb-12">
+            <div className="mb-6">
+              <h1 className="text-8xl font-bold text-gray-200">404</h1>
+            </div>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Song Lyrics Not Found
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              We couldn&apos;t find the song lyrics you&apos;re looking for. The song might have been moved, 
+              renamed, or doesn&apos;t exist yet. Check out these suggestions below!
+            </p>
+          </div>
+
+          {/* Smart Suggestions with the actual slug */}
+          <NotFoundSuggestions searchSlug={params.slug} />
+
+          {/* Action Button */}
+          <div className="mt-12 flex justify-center items-center">
+            <Link
+              href="/"
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold 
+                       hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
+            >
+              Browse All Songs
+            </Link>
+          </div>
+
+          {/* Additional Help */}
+          <div className="mt-12 text-center text-sm text-gray-500">
+            <p>
+              Still can&apos;t find what you need? Try our{' '}
+              <Link href="/" className="text-blue-600 hover:underline">
+                homepage
+              </Link>{' '}
+              to discover the latest Tamil song lyrics.
+            </p>
+          </div>
+        </div>
+      </div>
+    )
   }
 
   // Fetch Tamil lyrics if Song: category exists
@@ -273,7 +319,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
   // Extract clean data for display - use shared title function
   const fullTitle = getSongTitle(song)
-  const cleanTitle = fullTitle.replace(/\s*lyrics?\s*/gi, '').trim() // For breadcrumbs
+  const cleanTitle = fullTitle
   const movieName = song.movieName || ''
   const singerName = song.singerName || song.author?.[0]?.name?.$t || 'Unknown Artist'
   const lyricistName = song.lyricistName || ''
@@ -334,7 +380,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               return null;
             })()}
             <li>•</li>
-            <li className="text-gray-900">{cleanTitle} Lyrics</li>
+            <li className="text-gray-900">{cleanTitle}</li>
           </ol>
         </nav>
 
@@ -345,13 +391,13 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           </h1>
           
           {/* Published date on its own line */}
-          {publishedDate && (
+          {/* {publishedDate && (
             <div className="mb-4">
               <span className="text-gray-600 text-sm">
                 Published: {publishedDate.toLocaleDateString()}
               </span>
             </div>
-          )}
+          )} */}
           
           {/* Tags/categories on the next line */}
           <div className="mb-6">
@@ -410,7 +456,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               "@context": "https://schema.org",
               "@type": "MusicRecording",
               "name": cleanTitle,
-              "description": `Tamil lyrics for ${cleanTitle}${movieName ? ` from ${movieName} movie` : ''}`,
+              "description": `Tamil lyrics for ${cleanTitle} ${movieName ? ` from ${movieName} movie` : ''}`,
               "inLanguage": "ta",
               "genre": "Tamil Music",
               ...(movieName && {
@@ -437,7 +483,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               },
               "mainEntity": {
                 "@type": "CreativeWork",
-                "name": `${cleanTitle} Lyrics`,
+                "name": `${cleanTitle}`,
                 "text": content.replace(/<[^>]*>/g, ''), // Remove HTML tags for schema
                 "inLanguage": "ta"
               }
@@ -551,18 +597,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }
         />
 
-        {/* Related songs section placeholder */}
-        <div className="mt-12">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">More Tamil Song Lyrics</h3>
-          <div className="text-center py-8">
-            <Link 
-              href="/"
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Browse All Songs
-            </Link>
-          </div>
-        </div>
+        {/* Related songs section */}
+        <RelatedSongs currentSongId={song.id.$t} categories={song.category || []} />
       </article>
     </div>
   )

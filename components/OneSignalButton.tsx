@@ -80,9 +80,34 @@ export default function OneSignalButton() {
       if (window.OneSignalDeferred) {
         window.OneSignalDeferred.push(async function(OneSignal: any) {
           try {
-            await OneSignal.Slidedown.promptPush();
+            // Check if user has denied permission before
+            const permission = await OneSignal.Notifications.permission;
+            
+            if (permission === 'denied') {
+              alert('Notifications are blocked. Please enable them in your browser settings.');
+              setIsLoading(false);
+              return;
+            }
+            
+            // If user was previously subscribed and opted out, re-opt them in
+            const isPushEnabled = await OneSignal.User.PushSubscription.optedIn;
+            if (!isPushEnabled) {
+              // Try to opt in (for users who previously unsubscribed)
+              await OneSignal.User.PushSubscription.optIn();
+              setIsSubscribed(true);
+            } else {
+              // For first-time users, show the prompt
+              await OneSignal.Slidedown.promptPush();
+            }
           } catch (error) {
-            console.error('Failed to show prompt:', error);
+            console.error('Failed to subscribe:', error);
+            // If optIn fails, try showing the slidedown prompt
+            try {
+              await OneSignal.Slidedown.promptPush();
+            } catch (promptError) {
+              console.error('Failed to show prompt:', promptError);
+              alert('Failed to subscribe to notifications. Please try again.');
+            }
           } finally {
             setIsLoading(false);
           }
@@ -120,23 +145,8 @@ export default function OneSignalButton() {
     }
   }
 
-  if (isLoading) {
-    return null // Don't show button while loading
-  }
-
-  if (isSubscribed) {
-    return (
-      <button
-        onClick={handleUnsubscribe}
-        className="flex items-center justify-center w-10 h-10 bg-green-100 text-green-800 rounded-full hover:bg-red-100 hover:text-red-800 transition-colors"
-        aria-label="Unsubscribe from notifications"
-        title="Click to unsubscribe"
-      >
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
-        </svg>
-      </button>
-    )
+  if (isLoading || isSubscribed) {
+    return null // Don't show button while loading or when already subscribed
   }
 
   return (

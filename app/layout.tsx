@@ -4,7 +4,9 @@ import { Inter, Poppins } from 'next/font/google'
 
 import dynamic from 'next/dynamic'
 import OneSignalButton from '../components/OneSignalButton'
+import OneSignalSubscriptionCard from '../components/OneSignalSubscriptionCard'
 
+const FloatingSearchButton = dynamic(() => import('../components/FloatingSearchButton'), { ssr: false })
 const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const SpeedInsights = dynamic(() => import('@vercel/speed-insights/next').then(mod => mod.SpeedInsights), { ssr: false })
@@ -147,6 +149,8 @@ export default function RootLayout({
                   Discover new music, find your favorite songs, and enjoy the 
                   beauty of Tamil poetry and music.
                 </p>
+                {/* Stay Updated Section */}
+                <OneSignalSubscriptionCard />
               </div>
 
               {/* Quick Links */}
@@ -178,6 +182,10 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+  
+  {/* Floating Search Button */}
+  <FloatingSearchButton />
+  
   {/* Google Analytics - client-side helper (loaded dynamically) */}
   {GTM_ID ? <GAClient gaId={GTM_ID} /> : null}
   <SpeedInsights />

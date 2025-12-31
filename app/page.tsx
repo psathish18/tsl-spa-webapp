@@ -120,19 +120,23 @@ export default async function HomePage() {
   }
 
   const getSongSlug = (song: any) => {
-    // Priority 1: Use the API title (includes "lyrics" - better for SEO and migration)
+    // Priority 1: Extract slug from API link array (rel: alternate)
+    if (song.link && Array.isArray(song.link)) {
+      const alternateLink = song.link.find((l: any) => l.rel === 'alternate')
+      if (alternateLink?.href) {
+        // Extract slug.html from the full URL
+        // e.g., https://tsonglyricsapp.blogspot.com/p/song-name-lyrics.html -> song-name-lyrics
+        const match = alternateLink.href.match(/\/([^\/]+\.html)$/)
+        if (match) {
+          return match[1].replace('.html', '')
+        }
+      }
+    }
+    
+    // Fallback: Use the API title
     const apiTitle = song.title?.$t || song.title
     if (apiTitle) {
       return apiTitle.toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-        .replace(/\s+/g, '-') // Replace spaces with hyphens
-        .replace(/-+/g, '-') // Replace multiple hyphens with single
-        .trim()
-    }
-    
-    // Priority 2: Use the enhanced songTitle if available
-    if (song.songTitle) {
-      return song.songTitle.toLowerCase()
         .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
         .replace(/\s+/g, '-') // Replace spaces with hyphens
         .replace(/-+/g, '-') // Replace multiple hyphens with single
