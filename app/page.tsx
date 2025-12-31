@@ -209,7 +209,7 @@ export default async function HomePage() {
       return imageUrl
     }
     
-    console.log('No thumbnail found for song:', song.title?.$t || 'Unknown')
+    // console.log('No thumbnail found for song:', song.title?.$t || 'Unknown')
     return null
   }
   return (

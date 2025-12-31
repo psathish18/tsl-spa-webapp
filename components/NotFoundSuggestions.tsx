@@ -96,7 +96,6 @@ export default async function NotFoundSuggestions({ searchSlug }: NotFoundSugges
   let keywords: string[] = []
   let popularPosts: Song[] = []
   
-  console.log("searchSlug:", searchSlug)
   // Try smart search if slug is provided
   if (searchSlug && searchSlug.trim()) {
     try {

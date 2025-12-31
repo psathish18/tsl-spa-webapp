@@ -48,7 +48,7 @@ export async function GET() {
           { name: 'screenPageViews' }
         ],
         dateRanges: [
-          { startDate: 'yesterday', endDate: 'yesterday' }
+          { startDate: 'yesterday', endDate: 'today' }
         ],
         orderBys: [
           { metric: { metricName: 'screenPageViews' }, desc: true }
@@ -57,7 +57,7 @@ export async function GET() {
       }
     })
 
-    // Transform GA4 data to simple format and filter out home page
+    // Transform GA4 data to simple format and filter out home page and localhost
     const trending = response.data.rows
       ?.map((row) => ({
         title: row.dimensionValues?.[0]?.value || '',
@@ -65,7 +65,14 @@ export async function GET() {
         views: parseInt(row.metricValues?.[0]?.value || '0'),
         pagePath: row.dimensionValues?.[1]?.value || ''
       }))
-      .filter((post) => post.pagePath !== '/' && post.pagePath !== '') || []
+      .filter((post) => {
+        const path = post.pagePath.toLowerCase()
+        return path !== '/' && 
+               path !== '' && 
+               path !== '/search' &&
+               !path.includes('localhost') &&
+               !post.title.toLowerCase().includes('localhost')
+      }) || []
 
     return NextResponse.json(
       { trending },
