@@ -519,7 +519,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           hasTamilLyrics={tamilStanzas.length > 0}
           tamilContent={
             <div
-              className="prose prose-lg max-w-none leading-relaxed text-gray-800"
+              className="prose prose-lg max-w-none leading-relaxed text-gray-800 [&_p]:text-right [&_p]:italic"
               style={{ lineHeight: '2', fontSize: '1.25rem' }}
               data-server-stanzas-count={String(tamilStanzas.length)}
             >
@@ -556,7 +556,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }
           tanglishContent={
             <div
-              className="prose prose-lg max-w-none leading-relaxed text-gray-800"
+              className="prose prose-lg max-w-none leading-relaxed text-gray-800 [&_p]:text-right [&_p]:italic"
               style={{ lineHeight: '2' }}
               data-server-stanzas-count={stanzas ? String(stanzas.length) : '0'}
             >
