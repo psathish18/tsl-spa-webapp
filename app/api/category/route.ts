@@ -126,8 +126,8 @@ export async function GET(request: NextRequest) {
     })
     
     // Advanced caching headers for category pages
-    jsonResponse.headers.set('Cache-Control', 's-maxage=1800, stale-while-revalidate=3600')
-    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=1800')
+    jsonResponse.headers.set('Cache-Control', 's-maxage=86400, stale-while-revalidate=172800')
+    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=86400')
     jsonResponse.headers.set('Vary', 'Accept-Encoding')
     
     return jsonResponse

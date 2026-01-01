@@ -25,6 +25,9 @@ const LyricsTabs = dynamic(() => import('../../components/LyricsTabs').then(mod 
 // Related songs component
 import RelatedSongs from '@/components/RelatedSongs'
 
+// Enable ISR for song pages - revalidate every 24 hours
+export const revalidate = 86400
+
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const song = await getSongData(params.slug)
