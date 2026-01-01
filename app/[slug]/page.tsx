@@ -494,8 +494,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }}
         />
         
-        {/* Google AdSense - Center Top Auto */}
-        <div className="my-8">
+        {/* Google AdSense - Top of page after title */}
+        <div className="my-6">
           <ins 
             className="adsbygoogle"
             style={{ display: 'block' }}
@@ -599,6 +599,29 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
             </div>
           }
         />
+
+        {/* Google AdSense - After lyrics before related songs */}
+        <div className="my-8">
+          <ins 
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-4937682453427895"
+            data-ad-slot="1535095956"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                try {
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                  console.error('AdSense error:', e);
+                }
+              `
+            }}
+          />
+        </div>
 
         {/* Related songs section */}
         <RelatedSongs currentSongId={song.id.$t} categories={song.category || []} />
