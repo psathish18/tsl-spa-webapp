@@ -32,6 +32,7 @@ function loadMigrationRedirects() {
 
 const nextConfig = {
   images: {
+    unoptimized: true, // Disable Vercel image optimization to avoid limit
     remotePatterns: [
       {
         protocol: 'https',
@@ -46,7 +47,7 @@ const nextConfig = {
         hostname: 'img.youtube.com',
       },
     ],
-    formats: ['image/webp', 'image/avif'],
+    formats: ['image/webp'],
   },
   // Bundle optimization
   experimental: {
