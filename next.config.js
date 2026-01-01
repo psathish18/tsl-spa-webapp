@@ -92,6 +92,33 @@ const nextConfig = {
   },
   async headers() {
     return [
+      // Revalidate API - NO CACHE (must never be cached!)
+      {
+        source: '/api/revalidate',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+          },
+          {
+            key: 'CDN-Cache-Control',
+            value: 'no-store',
+          },
+          {
+            key: 'Vercel-CDN-Cache-Control',
+            value: 'no-store',
+          },
+          {
+            key: 'Pragma',
+            value: 'no-cache',
+          },
+          {
+            key: 'Expires',
+            value: '0',
+          },
+        ],
+      },
+      // Security headers for all routes
       {
         source: '/(.*)',
         headers: [
@@ -109,31 +136,9 @@ const nextConfig = {
           },
         ],
       },
-      // CDN Cache headers for pages (home and song pages)
+      // CDN Cache headers for all pages (home, search, songs) but NOT API routes
       {
-        source: '/',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 's-maxage=86400, stale-while-revalidate=604800',
-          },
-          {
-            key: 'CDN-Cache-Control',
-            value: 'max-age=86400',
-          },
-          {
-            key: 'Vercel-CDN-Cache-Control',
-            value: 'max-age=86400',
-          },
-          {
-            key: 'Vary',
-            value: 'Accept-Encoding',
-          },
-        ],
-      },
-      // CDN Cache headers for song pages
-      {
-        source: '/:slug*',
+        source: '/:path((?!api|_next/static|_next/image|favicon.ico).*)*',
         headers: [
           {
             key: 'Cache-Control',

@@ -5,11 +5,25 @@ import { dateBasedCache } from '@/lib/dateBasedCache'
 // Set a secret token for security (change this to a strong value and keep it secret)
 const REVALIDATE_SECRET = process.env.REVALIDATE_SECRET || '9cQqqaV6l6OPYhslilv1RCXhsVRZ4CVQ3wTYV3Vcck5axiU4BPcCApHV9aT0yUhO'
 
+// Helper to create no-cache response
+function createNoCacheResponse(data: any, status = 200) {
+  return new NextResponse(JSON.stringify(data), {
+    status,
+    headers: {
+      'Content-Type': 'application/json',
+      'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+      'Pragma': 'no-cache',
+      'Expires': '0',
+      'CDN-Cache-Control': 'no-store'
+    }
+  })
+}
+
 export async function POST(req: NextRequest) {
   const { tag, path, secret, clearAll } = await req.json()
 
   if (secret !== REVALIDATE_SECRET) {
-    return NextResponse.json({ error: 'Invalid secret' }, { status: 401 })
+    return createNoCacheResponse({ error: 'Invalid secret' }, 401)
   }
 
   // Clear ALL caches (emergency option)
@@ -30,7 +44,7 @@ export async function POST(req: NextRequest) {
       // Clear trending cache
       await revalidateTag('trending-posts')
       
-      return NextResponse.json({ 
+      return createNoCacheResponse({ 
         revalidated: true, 
         type: 'all', 
         message: 'All caches cleared',
@@ -38,7 +52,7 @@ export async function POST(req: NextRequest) {
       })
     } catch (err) {
       console.error('Clear all error:', err)
-      return NextResponse.json({ error: 'Failed to clear all caches', details: String(err) }, { status: 500 })
+      return createNoCacheResponse({ error: 'Failed to clear all caches', details: String(err) }, 500)
     }
   }
 
@@ -57,10 +71,10 @@ export async function POST(req: NextRequest) {
       await revalidateTag(tag)
       console.log(`  ✓ Cleared Next.js tag: ${tag}`)
       
-      return NextResponse.json({ revalidated: true, type: 'tag', tag, now: Date.now() })
+      return createNoCacheResponse({ revalidated: true, type: 'tag', tag, now: Date.now() })
     } catch (err) {
       console.error('Tag revalidation error:', err)
-      return NextResponse.json({ error: 'Failed to revalidate tag', details: String(err) }, { status: 500 })
+      return createNoCacheResponse({ error: 'Failed to revalidate tag', details: String(err) }, 500)
     }
   }
 
@@ -87,14 +101,14 @@ export async function POST(req: NextRequest) {
       revalidatePath(path, 'page')
       console.log(`  ✓ Cleared Next.js path: ${path}`)
       
-      return NextResponse.json({ revalidated: true, type: 'path', path, now: Date.now() })
+      return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
       console.error('Path revalidation error:', err)
-      return NextResponse.json({ error: 'Failed to revalidate path', details: String(err) }, { status: 500 })
+      return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
     }
   }
 
-  return NextResponse.json({ error: 'Missing tag, path, or clearAll parameter' }, { status: 400 })
+  return createNoCacheResponse({ error: 'Missing tag, path, or clearAll parameter' }, 400)
 }
 
 // GET endpoint for easy browser testing (development only)
@@ -106,10 +120,10 @@ export async function GET(req: NextRequest) {
   const clearAll = searchParams.get('clearAll') === 'true'
 
   if (secret !== REVALIDATE_SECRET) {
-    return NextResponse.json({ 
+    return createNoCacheResponse({ 
       error: 'Invalid or missing secret',
       usage: 'Add ?secret=YOUR_SECRET&path=/ or ?secret=YOUR_SECRET&clearAll=true'
-    }, { status: 401 })
+    }, 401)
   }
 
   // Same logic as POST
@@ -126,14 +140,14 @@ export async function GET(req: NextRequest) {
       
       await revalidateTag('trending-posts')
       
-      return NextResponse.json({ 
+      return createNoCacheResponse({ 
         revalidated: true, 
         type: 'all', 
         message: 'All caches cleared (GET)',
         now: Date.now() 
       })
     } catch (err) {
-      return NextResponse.json({ error: 'Failed to clear all', details: String(err) }, { status: 500 })
+      return createNoCacheResponse({ error: 'Failed to clear all', details: String(err) }, 500)
     }
   }
 
@@ -144,9 +158,9 @@ export async function GET(req: NextRequest) {
         dateBasedCache.clearByPattern(`*${slug}*`)
       }
       await revalidateTag(tag)
-      return NextResponse.json({ revalidated: true, type: 'tag', tag, now: Date.now() })
+      return createNoCacheResponse({ revalidated: true, type: 'tag', tag, now: Date.now() })
     } catch (err) {
-      return NextResponse.json({ error: 'Failed to revalidate tag', details: String(err) }, { status: 500 })
+      return createNoCacheResponse({ error: 'Failed to revalidate tag', details: String(err) }, 500)
     }
   }
 
@@ -163,16 +177,16 @@ export async function GET(req: NextRequest) {
       }
       
       revalidatePath(path, 'page')
-      return NextResponse.json({ revalidated: true, type: 'path', path, now: Date.now() })
+      return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
-      return NextResponse.json({ error: 'Failed to revalidate path', details: String(err) }, { status: 500 })
+      return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
     }
   }
 
-  return NextResponse.json({ 
+  return createNoCacheResponse({ 
     error: 'Missing parameter',
     usage: 'Use ?secret=SECRET&path=/ or ?secret=SECRET&tag=song-slug or ?secret=SECRET&clearAll=true'
-  }, { status: 400 })
+  }, 400)
 }
 
 export const dynamic = 'force-dynamic' // Ensure this route is always dynamic
