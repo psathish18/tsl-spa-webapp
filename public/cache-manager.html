@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cache Manager - Tamil Song Lyrics</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      margin-top: 0;
+    }
+    .button-group {
+      display: grid;
+      gap: 12px;
+      margin: 20px 0;
+    }
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-weight: 500;
+    }
+    .btn-danger {
+      background: #ef4444;
+      color: white;
+    }
+    .btn-danger:hover {
+      background: #dc2626;
+    }
+    .btn-primary {
+      background: #3b82f6;
+      color: white;
+    }
+    .btn-primary:hover {
+      background: #2563eb;
+    }
+    .btn-success {
+      background: #10b981;
+      color: white;
+    }
+    .btn-success:hover {
+      background: #059669;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 6px;
+      display: none;
+    }
+    .result.success {
+      background: #d1fae5;
+      color: #065f46;
+      border: 1px solid #10b981;
+    }
+    .result.error {
+      background: #fee2e2;
+      color: #991b1b;
+      border: 1px solid #ef4444;
+    }
+    .result.show {
+      display: block;
+    }
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 14px;
+    }
+    .info {
+      background: #dbeafe;
+      padding: 15px;
+      border-radius: 6px;
+      margin: 20px 0;
+      border-left: 4px solid #3b82f6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔄 Cache Manager</h1>
+    <p>Manage caches for Tamil Song Lyrics website</p>
+
+    <div class="info">
+      <strong>⚠️ Note:</strong> This clears both Next.js ISR cache and custom date-based cache.
+    </div>
+
+    <div style="margin: 20px 0;">
+      <label for="secretInput" style="font-weight: 500; display: block; margin-bottom: 8px;">
+        🔑 Secret Key:
+      </label>
+      <input 
+        type="password" 
+        id="secretInput" 
+        placeholder="Enter your secret key" 
+        style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 14px;"
+      >
+      <small style="color: #666; display: block; margin-top: 5px;">
+        Enter the REVALIDATE_SECRET to enable cache clearing
+      </small>
+    </div>
+
+    <div class="button-group">
+      <button class="btn-danger" onclick="clearAll()">
+        🔥 Clear ALL Caches (Nuclear Option)
+      </button>
+      
+      <button class="btn-primary" onclick="clearPath('/')">
+        🏠 Clear Home Page Cache
+      </button>
+      
+      <button class="btn-primary" onclick="clearPath('/search')">
+        🔍 Clear Search Page Cache
+      </button>
+      
+      <button class="btn-success" onclick="testConnection()">
+        ✅ Test Connection
+      </button>
+    </div>
+
+    <div>
+      <label for="songPath">Clear Specific Song:</label><br>
+      <input 
+        type="text" 
+        id="songPath" 
+        placeholder="/monica-coolie-lyrics-tamil.html" 
+        style="width: 70%; padding: 8px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px;"
+      >
+      <button class="btn-primary" onclick="clearSongPath()" style="width: 28%; margin-left: 2%;">
+        Clear Song
+      </button>
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
+      <h3>Bookmarklet (Optional)</h3>
+      <p>Drag this to your bookmarks bar for quick access (you'll need to update SECRET in the code):</p>
+      <a href="javascript:(function(){const secret=prompt('Enter secret:');if(!secret)return;const baseUrl=window.location.hostname==='localhost'?'http://localhost:3000':'https://tsonglyrics.com';fetch(baseUrl+'/api/revalidate?secret='+encodeURIComponent(secret)+'&clearAll=true').then(r=>r.json()).then(d=>alert('✅ Cache cleared!\n\n'+JSON.stringify(d,null,2))).catch(e=>alert('❌ Error: '+e.message))})();" 
+         style="display: inline-block; padding: 10px 20px; background: #ef4444; color: white; text-decoration: none; border-radius: 6px; font-weight: 500;">
+        🔥 Clear All Caches
+      </a>
+    </div>
+  </div>
+
+  <script>
+    const BASE_URL = window.location.hostname === 'localhost' 
+      ? 'http://localhost:3000' 
+      : 'https://tsonglyrics.com';
+
+    function getSecret() {
+      const secret = document.getElementById('secretInput').value.trim();
+      if (!secret) {
+        showResult(false, 'Please enter the secret key');
+        return null;
+      }
+      return secret;
+    }
+
+    function showResult(success, message, data = null) {
+      const result = document.getElementById('result');
+      result.className = `result ${success ? 'success' : 'error'} show`;
+      result.innerHTML = `
+        <strong>${success ? '✅ Success' : '❌ Error'}</strong><br>
+        ${message}
+        ${data ? `<br><br><code>${JSON.stringify(data, null, 2)}</code>` : ''}
+      `;
+    }
+
+    async function clearAll() {
+      const secret = getSecret();
+      if (!secret) return;
+      
+      try {
+        const response = await fetch(`${BASE_URL}/api/revalidate?secret=${encodeURIComponent(secret)}&clearAll=true`);
+        const data = await response.json();
+        if (response.ok) {
+          showResult(true, 'All caches cleared successfully!', data);
+        } else {
+          showResult(false, data.error || 'Failed to clear caches', data);
+        }
+      } catch (error) {
+        showResult(false, `Network error: ${error.message}`);
+      }
+    }
+
+    async function clearPath(path) {
+      const secret = getSecret();
+      if (!secret) return;
+      
+      try {
+        const response = await fetch(`${BASE_URL}/api/revalidate?secret=${encodeURIComponent(secret)}&path=${encodeURIComponent(path)}`);
+        const data = await response.json();
+        if (response.ok) {
+          showResult(true, `Cache cleared for: ${path}`, data);
+        } else {
+          showResult(false, data.error || 'Failed to clear cache', data);
+        }
+      } catch (error) {
+        showResult(false, `Network error: ${error.message}`);
+      }
+    }
+
+    async function clearSongPath() {
+      const secret = getSecret();
+      if (!secret) return;
+      
+      const path = document.getElementById('songPath').value.trim();
+      if (!path) {
+        showResult(false, 'Please enter a song path');
+        return;
+      }
+      await clearPath(path);
+    }
+
+    async function testConnection() {
+      const secret = getSecret();
+      if (!secret) return;
+      
+      try {
+        const response = await fetch(`${BASE_URL}/api/revalidate?secret=${encodeURIComponent(secret)}`);
+        const data = await response.json();
+        if (response.status === 400) {
+          // Expected - missing parameters but auth passed
+          showResult(true, 'Connection successful! Secret is valid.', { status: 'API ready', message: 'You can now clear caches' });
+        } else if (response.status === 401) {
+          showResult(false, 'Invalid secret key', data);
+        } else {
+          showResult(true, 'API responding correctly', data);
+        }
+      } catch (error) {
+        showResult(false, `Connection failed: ${error.message}`);
+      }
+    }
+  </script>
+</body>
+</html>
