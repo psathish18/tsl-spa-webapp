@@ -127,16 +127,19 @@ export async function GET(request: NextRequest) {
         { suggestions: matches },
         {
           headers: {
-            'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200'
+            // 24hr cache for autocomplete with manual revalidate option
+            'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=172800'
           }
         }
       )
     }
 
     let url: string
+    let isPopularRequest = false
 
     if (popular === 'true') {
       // Fetch popular/recent songs
+      isPopularRequest = true
       url = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=15'
     } else if (query) {
       // Check if query matches a category (user selected from autocomplete)
@@ -175,11 +178,16 @@ export async function GET(request: NextRequest) {
       )
     })
 
+    // Use 24hr cache for popular posts, 5min for regular search
+    const cacheControl = isPopularRequest 
+      ? 'public, s-maxage=86400, stale-while-revalidate=172800' 
+      : 'public, s-maxage=300, stale-while-revalidate=600'
+    
     return NextResponse.json(
       { results: songs },
       {
         headers: {
-          'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+          'Cache-Control': cacheControl
         }
       }
     )

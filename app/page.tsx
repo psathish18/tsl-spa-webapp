@@ -33,7 +33,13 @@ async function getSongs(): Promise<Song[]> {
   try {
     // Use the date-based cached fetch - direct Blogger API call
     const data = await cachedBloggerFetch(
-      'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50'
+      'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50',
+      {
+        next: {
+          revalidate: 86400, // 24 hours
+          tags: ['songs-latest', 'homepage']
+        }
+      }
     )
 
     const songs = data.feed?.entry || []

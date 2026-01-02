@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   description: 'Search and discover your favorite Tamil song lyrics. Find songs by name, movie, singer, or lyricist.',
 }
 
-// Revalidate every 1 hour to keep trending posts fresh
-export const revalidate = 3600
+// Disable page-level caching - cache only at API level
+export const dynamic = 'force-dynamic'
 
 export default function Search() {
   return <SearchPage />
