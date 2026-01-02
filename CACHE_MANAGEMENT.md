@@ -60,9 +60,22 @@ curl -X POST http://localhost:3000/api/revalidate \
 |--------|--------------|---------------|----------|
 | `clearAll=true` | ✅ ALL | ✅ /, /search, trending | New post added |
 | `path=/` | ✅ songs:latest | ✅ / | Home page update |
-| `path=/search` | ✅ search:*, popular:* | ✅ /search | Search/trending update |
+| `path=/search` | ✅ search:*, popular:* | ✅ /search, /api/trending | Search/trending update |
+| `path=/api/trending` | - | ✅ /api/trending | Trending API only |
+| `path=/api/search/autocomplete` | ✅ search:* | - | Autocomplete cache only |
+| `path=/api/search/popular` | ✅ popular:* | - | Popular posts cache only |
 | `path=/song.html` | ✅ *song* | ✅ /song.html | Specific song update |
 | `tag=song-slug` | ✅ *slug* | ✅ tag | Song page update |
+
+### Cache Durations
+
+| API/Page | Cache Duration | Auto-Refresh | Manual Clear Path |
+|----------|----------------|--------------|-------------------|
+| `/search` page | No cache | - | `/search` |
+| `/api/trending` | 1 hour | ✅ Every 1hr | `/api/trending` or `/search` |
+| `/api/search?autocomplete=true` | 24 hours | - | `/api/search/autocomplete` |
+| `/api/search?popular=true` | 24 hours | - | `/api/search/popular` |
+| `/api/search` (regular) | 5 minutes | - | - |
 
 ### When to Clear Cache
 

@@ -126,7 +126,19 @@
       </button>
       
       <button class="btn-primary" onclick="clearPath('/search')">
-        🔍 Clear Search Page Cache
+        🔍 Clear Search Page Cache (+ Trending)
+      </button>
+      
+      <button class="btn-primary" onclick="clearPath('/api/trending')">
+        📈 Clear Trending API Only
+      </button>
+      
+      <button class="btn-primary" onclick="clearPath('/api/search/autocomplete')">
+        🔤 Clear Autocomplete Cache
+      </button>
+      
+      <button class="btn-primary" onclick="clearPath('/api/search/popular')">
+        ⭐ Clear Popular Posts Cache
       </button>
       
       <button class="btn-success" onclick="testConnection()">

@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server'
 import { google } from 'googleapis'
 
+// Auto-revalidate every 1 hour (3600 seconds)
+export const revalidate = 3600
+
 export async function GET() {
   try {
     // Validate environment variables
