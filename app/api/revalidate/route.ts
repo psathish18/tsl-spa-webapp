@@ -119,8 +119,10 @@ export async function POST(req: NextRequest) {
       // Clear custom cache based on path
       clearCacheByPath(path)
       
-      revalidatePath(path, 'page')
-      console.log(`  ✓ Cleared Next.js path: ${path}`)
+      // Use 'route' type for API paths, 'page' type for page paths
+      const pathType = path.startsWith('/api/') ? 'route' : 'page'
+      revalidatePath(path, pathType)
+      console.log(`  ✓ Cleared Next.js path: ${path} (type: ${pathType})`)
       
       return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
@@ -188,7 +190,9 @@ export async function GET(req: NextRequest) {
   if (path) {
     try {
       clearCacheByPath(path)
-      revalidatePath(path, 'page')
+      // Use 'route' type for API paths, 'page' type for page paths
+      const pathType = path.startsWith('/api/') ? 'route' : 'page'
+      revalidatePath(path, pathType)
       return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
       return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
