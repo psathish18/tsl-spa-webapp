@@ -19,6 +19,39 @@ function createNoCacheResponse(data: any, status = 200) {
   })
 }
 
+// Helper to clear cache by path
+function clearCacheByPath(path: string) {
+  if (path === '/' || path === '/home') {
+    dateBasedCache.clearByPattern('songs:latest')
+    console.log('  ✓ Cleared custom cache for home page')
+  } else if (path === '/search') {
+    // Clear search-related caches
+    dateBasedCache.clearByPattern('search:*')
+    dateBasedCache.clearByPattern('popular:*')
+    console.log('  ✓ Cleared custom cache for search')
+    // Also clear trending API cache
+    revalidatePath('/api/trending', 'page')
+    console.log('  ✓ Cleared trending API cache')
+  } else if (path === '/api/trending') {
+    // Manual clear for trending API
+    revalidatePath('/api/trending', 'page')
+    console.log('  ✓ Cleared trending API cache')
+  } else if (path === '/api/search/autocomplete') {
+    // Manual clear for autocomplete cache
+    dateBasedCache.clearByPattern('search:*')
+    console.log('  ✓ Cleared autocomplete cache')
+  } else if (path === '/api/search/popular') {
+    // Manual clear for popular posts cache
+    dateBasedCache.clearByPattern('popular:*')
+    console.log('  ✓ Cleared popular posts cache')
+  } else if (path.includes('.html')) {
+    // Specific song page
+    const slug = path.replace(/^\//, '').replace('.html', '')
+    dateBasedCache.clearByPattern(`*${slug}*`)
+    console.log(`  ✓ Cleared custom cache for song: ${slug}`)
+  }
+}
+
 export async function POST(req: NextRequest) {
   const { tag, path, secret, clearAll } = await req.json()
 
@@ -84,36 +117,7 @@ export async function POST(req: NextRequest) {
       console.log(`Revalidating path: ${path}`)
       
       // Clear custom cache based on path
-      if (path === '/' || path === '/home') {
-        dateBasedCache.clearByPattern('songs:latest')
-        console.log('  ✓ Cleared custom cache for home page')
-      } else if (path === '/search') {
-        // Clear search-related caches
-        dateBasedCache.clearByPattern('search:*')
-        dateBasedCache.clearByPattern('popular:*')
-        console.log('  ✓ Cleared custom cache for search')
-        
-        // Also clear trending API cache
-        revalidatePath('/api/trending', 'page')
-        console.log('  ✓ Cleared trending API cache')
-      } else if (path === '/api/trending') {
-        // Manual clear for trending API
-        revalidatePath('/api/trending', 'page')
-        console.log('  ✓ Cleared trending API cache')
-      } else if (path === '/api/search/autocomplete') {
-        // Manual clear for autocomplete cache
-        dateBasedCache.clearByPattern('search:*')
-        console.log('  ✓ Cleared autocomplete cache')
-      } else if (path === '/api/search/popular') {
-        // Manual clear for popular posts cache
-        dateBasedCache.clearByPattern('popular:*')
-        console.log('  ✓ Cleared popular posts cache')
-      } else if (path.includes('.html')) {
-        // Specific song page
-        const slug = path.replace(/^\//, '').replace('.html', '')
-        dateBasedCache.clearByPattern(`*${slug}*`)
-        console.log(`  ✓ Cleared custom cache for song: ${slug}`)
-      }
+      clearCacheByPath(path)
       
       revalidatePath(path, 'page')
       console.log(`  ✓ Cleared Next.js path: ${path}`)
@@ -183,28 +187,7 @@ export async function GET(req: NextRequest) {
 
   if (path) {
     try {
-      if (path === '/' || path === '/home') {
-        dateBasedCache.clearByPattern('songs:latest')
-      } else if (path === '/search') {
-        // Clear search-related caches
-        dateBasedCache.clearByPattern('search:*')
-        dateBasedCache.clearByPattern('popular:*')
-        // Also clear trending API cache
-        revalidatePath('/api/trending', 'page')
-      } else if (path === '/api/trending') {
-        // Manual clear for trending API
-        revalidatePath('/api/trending', 'page')
-      } else if (path === '/api/search/autocomplete') {
-        // Manual clear for autocomplete cache
-        dateBasedCache.clearByPattern('search:*')
-      } else if (path === '/api/search/popular') {
-        // Manual clear for popular posts cache
-        dateBasedCache.clearByPattern('popular:*')
-      } else if (path.includes('.html')) {
-        const slug = path.replace(/^\//, '').replace('.html', '')
-        dateBasedCache.clearByPattern(`*${slug}*`)
-      }
-      
+      clearCacheByPath(path)
       revalidatePath(path, 'page')
       return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
