@@ -30,11 +30,11 @@ function clearCacheByPath(path: string) {
     dateBasedCache.clearByPattern('popular:*')
     console.log('  ✓ Cleared custom cache for search')
     // Also clear trending API cache
-    revalidatePath('/api/trending', 'page')
+    revalidatePath('/api/trending', 'route')
     console.log('  ✓ Cleared trending API cache')
   } else if (path === '/api/trending') {
     // Manual clear for trending API
-    revalidatePath('/api/trending', 'page')
+    revalidatePath('/api/trending', 'route')
     console.log('  ✓ Cleared trending API cache')
   } else if (path === '/api/search/autocomplete') {
     // Manual clear for autocomplete cache
