@@ -14,7 +14,8 @@ export async function GET() {
         { 
           status: 200,
           headers: {
-            'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+            'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
+            'x-vercel-cache-tags': 'trending-api'
           }
         }
       )
@@ -81,7 +82,8 @@ export async function GET() {
       { trending },
       {
         headers: {
-          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200'
+          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200',
+          'x-vercel-cache-tags': 'trending-api'  // Allows CDN cache clearing via revalidateTag
         }
       }
     )
@@ -93,7 +95,8 @@ export async function GET() {
       { 
         status: 200,
         headers: {
-          'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+          'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
+          'x-vercel-cache-tags': 'trending-api'
         }
       }
     )

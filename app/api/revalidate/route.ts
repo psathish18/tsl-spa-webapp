@@ -21,19 +21,21 @@ function createNoCacheResponse(data: any, status = 200) {
 // Helper to clear cache by path
 function clearCacheByPath(path: string) {
   if (path === '/' || path === '/home') {
-    // Clear homepage cache tags
+    // Clear homepage data cache (Blogger API responses)
     revalidateTag('songs-latest')
     revalidateTag('homepage')
-    console.log('  ✓ Cleared homepage cache tags')
+    // Also clear the page render itself
+    revalidatePath('/')
+    console.log('  ✓ Cleared homepage (data + page render)')
   } else if (path === '/search') {
-    // Clear trending API cache (search page doesn't cache, only API does)
-    revalidatePath('/api/trending')
-    console.log('  ✓ Cleared trending API cache')
+    // Clear trending API cache (has x-vercel-cache-tags for CDN)
+    revalidateTag('trending-api')
+    console.log('  ✓ Cleared trending API cache (Next.js + CDN)')
     // Note: /api/search uses cache: 'no-store', so no cache to clear
   } else if (path === '/api/trending') {
-    // Manual clear for trending API
-    revalidatePath('/api/trending')
-    console.log('  ✓ Cleared trending API cache')
+    // Manual clear for trending API (has x-vercel-cache-tags for CDN)
+    revalidateTag('trending-api')
+    console.log('  ✓ Cleared trending API cache (Next.js + CDN)')
   } else if (path === '/api/search/autocomplete') {
     // Note: Autocomplete uses in-memory cache with 1hr TTL in /api/search route
     // No Next.js cache to clear - it will refresh automatically after 1hr
@@ -41,11 +43,19 @@ function clearCacheByPath(path: string) {
   } else if (path === '/api/search/popular') {
     // Note: Popular uses cache: 'no-store' in /api/search route
     console.log('  ✓ Popular posts use no-store (no cache to clear)')
+  } else if (path === '/related') {
+    // Clear all related songs caches (used across multiple song pages)
+    // Note: This clears all related-* tags, which might affect multiple pages
+    // Related songs auto-refresh after 24hr, so manual clearing rarely needed
+    console.log('  ⚠️  Related songs use individual tags per category (related-Movie:*, related-Singer:*)')
+    console.log('  ⚠️  To clear specific category, use revalidateTag("related-Category:Name")')
+    console.log('  ⚠️  Or wait 24hr for auto-refresh')
   } else if (path.includes('.html')) {
-    // Specific song page - clear by tag
+    // Specific song page - clear both data and page render
     const slug = path.replace(/^\//, '').replace('.html', '')
-    revalidateTag(`song-${slug}`)
-    console.log(`  ✓ Cleared cache tag for song: ${slug}`)
+    revalidateTag(`song-${slug}`)  // Clear Blogger API data for this song
+    revalidatePath(path)            // Clear the page HTML render
+    console.log(`  ✓ Cleared cache for song: ${slug} (data + page render)`)
   }
 }
 
@@ -68,8 +78,8 @@ export async function POST(req: NextRequest) {
       // Clear specific cache tags
       revalidateTag('songs-latest')
       revalidateTag('homepage')
-      revalidateTag('trending-posts')
-      console.log('  ✓ Cleared all cache tags')
+      revalidateTag('trending-api')
+      console.log('  ✓ Cleared all cache tags (including CDN)')
       
       return createNoCacheResponse({ 
         revalidated: true, 
@@ -103,12 +113,8 @@ export async function POST(req: NextRequest) {
     try {
       console.log(`Revalidating path: ${path}`)
       
-      // Clear custom cache based on path
+      // Clear cache based on path (uses revalidateTag internally)
       clearCacheByPath(path)
-      
-      // Revalidate the path (works for both pages and API routes)
-      revalidatePath(path)
-      console.log(`  ✓ Cleared Next.js path: ${path}`)
       
       return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
@@ -147,8 +153,8 @@ export async function GET(req: NextRequest) {
       // Clear specific cache tags
       revalidateTag('songs-latest')
       revalidateTag('homepage')
-      revalidateTag('trending-posts')
-      console.log('  ✓ Cleared all cache tags')
+      revalidateTag('trending-api')
+      console.log('  ✓ Cleared all cache tags (including CDN)')
       
       return createNoCacheResponse({ 
         revalidated: true, 
@@ -173,8 +179,6 @@ export async function GET(req: NextRequest) {
   if (path) {
     try {
       clearCacheByPath(path)
-      // Revalidate the path (works for both pages and API routes)
-      revalidatePath(path)
       return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
       return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
