@@ -30,11 +30,11 @@ function clearCacheByPath(path: string) {
     dateBasedCache.clearByPattern('popular:*')
     console.log('  ✓ Cleared custom cache for search')
     // Also clear trending API cache
-    revalidatePath('/api/trending', 'route')
+    revalidatePath('/api/trending')
     console.log('  ✓ Cleared trending API cache')
   } else if (path === '/api/trending') {
     // Manual clear for trending API
-    revalidatePath('/api/trending', 'route')
+    revalidatePath('/api/trending')
     console.log('  ✓ Cleared trending API cache')
   } else if (path === '/api/search/autocomplete') {
     // Manual clear for autocomplete cache
@@ -119,10 +119,9 @@ export async function POST(req: NextRequest) {
       // Clear custom cache based on path
       clearCacheByPath(path)
       
-      // Use 'route' type for API paths, 'page' type for page paths
-      const pathType = path.startsWith('/api/') ? 'route' : 'page'
-      revalidatePath(path, pathType)
-      console.log(`  ✓ Cleared Next.js path: ${path} (type: ${pathType})`)
+      // Revalidate the path (works for both pages and API routes)
+      revalidatePath(path)
+      console.log(`  ✓ Cleared Next.js path: ${path}`)
       
       return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
@@ -190,9 +189,8 @@ export async function GET(req: NextRequest) {
   if (path) {
     try {
       clearCacheByPath(path)
-      // Use 'route' type for API paths, 'page' type for page paths
-      const pathType = path.startsWith('/api/') ? 'route' : 'page'
-      revalidatePath(path, pathType)
+      // Revalidate the path (works for both pages and API routes)
+      revalidatePath(path)
       return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
     } catch (err) {
       return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
