@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { revalidateTag, revalidatePath } from 'next/cache'
-import { dateBasedCache } from '@/lib/dateBasedCache'
 
 // Set a secret token for security (change this to a strong value and keep it secret)
 const REVALIDATE_SECRET = process.env.REVALIDATE_SECRET || '9cQqqaV6l6OPYhslilv1RCXhsVRZ4CVQ3wTYV3Vcck5axiU4BPcCApHV9aT0yUhO'
@@ -22,33 +21,31 @@ function createNoCacheResponse(data: any, status = 200) {
 // Helper to clear cache by path
 function clearCacheByPath(path: string) {
   if (path === '/' || path === '/home') {
-    dateBasedCache.clearByPattern('songs:latest')
-    console.log('  ✓ Cleared custom cache for home page')
+    // Clear homepage cache tags
+    revalidateTag('songs-latest')
+    revalidateTag('homepage')
+    console.log('  ✓ Cleared homepage cache tags')
   } else if (path === '/search') {
-    // Clear search-related caches
-    dateBasedCache.clearByPattern('search:*')
-    dateBasedCache.clearByPattern('popular:*')
-    console.log('  ✓ Cleared custom cache for search')
-    // Also clear trending API cache
+    // Clear trending API cache (search page doesn't cache, only API does)
     revalidatePath('/api/trending')
     console.log('  ✓ Cleared trending API cache')
+    // Note: /api/search uses cache: 'no-store', so no cache to clear
   } else if (path === '/api/trending') {
     // Manual clear for trending API
     revalidatePath('/api/trending')
     console.log('  ✓ Cleared trending API cache')
   } else if (path === '/api/search/autocomplete') {
-    // Manual clear for autocomplete cache
-    dateBasedCache.clearByPattern('search:*')
-    console.log('  ✓ Cleared autocomplete cache')
+    // Note: Autocomplete uses in-memory cache with 1hr TTL in /api/search route
+    // No Next.js cache to clear - it will refresh automatically after 1hr
+    console.log('  ✓ Autocomplete uses in-memory cache (will auto-refresh in 1hr)')
   } else if (path === '/api/search/popular') {
-    // Manual clear for popular posts cache
-    dateBasedCache.clearByPattern('popular:*')
-    console.log('  ✓ Cleared popular posts cache')
+    // Note: Popular uses cache: 'no-store' in /api/search route
+    console.log('  ✓ Popular posts use no-store (no cache to clear)')
   } else if (path.includes('.html')) {
-    // Specific song page
+    // Specific song page - clear by tag
     const slug = path.replace(/^\//, '').replace('.html', '')
-    dateBasedCache.clearByPattern(`*${slug}*`)
-    console.log(`  ✓ Cleared custom cache for song: ${slug}`)
+    revalidateTag(`song-${slug}`)
+    console.log(`  ✓ Cleared cache tag for song: ${slug}`)
   }
 }
 
@@ -64,23 +61,20 @@ export async function POST(req: NextRequest) {
     try {
       console.log('🔥 CLEARING ALL CACHES')
       
-      // Clear custom date-based cache
-      dateBasedCache.clear()
+      // Clear Next.js cache for the entire site
+      revalidatePath('/', 'layout')
+      console.log('  ✓ Cleared all pages')
       
-      // Clear Next.js cache for common paths
-      const paths = ['/', '/search']
-      paths.forEach(p => {
-        revalidatePath(p, 'page')
-        console.log(`  ✓ Cleared path: ${p}`)
-      })
-      
-      // Clear trending cache
-      await revalidateTag('trending-posts')
+      // Clear specific cache tags
+      revalidateTag('songs-latest')
+      revalidateTag('homepage')
+      revalidateTag('trending-posts')
+      console.log('  ✓ Cleared all cache tags')
       
       return createNoCacheResponse({ 
         revalidated: true, 
         type: 'all', 
-        message: 'All caches cleared',
+        message: 'All Next.js caches cleared',
         now: Date.now() 
       })
     } catch (err) {
@@ -93,13 +87,6 @@ export async function POST(req: NextRequest) {
   if (tag) {
     try {
       console.log(`Revalidating tag: ${tag}`)
-      
-      // Clear from custom cache if it's a song tag
-      if (tag.startsWith('song-')) {
-        const slug = tag.replace('song-', '')
-        dateBasedCache.clearByPattern(`*${slug}*`)
-        console.log(`  ✓ Cleared custom cache for: ${slug}`)
-      }
       
       await revalidateTag(tag)
       console.log(`  ✓ Cleared Next.js tag: ${tag}`)
@@ -152,20 +139,21 @@ export async function GET(req: NextRequest) {
   if (clearAll) {
     try {
       console.log('🔥 CLEARING ALL CACHES (via GET)')
-      dateBasedCache.clear()
       
-      const paths = ['/', '/search']
-      paths.forEach(p => {
-        revalidatePath(p, 'page')
-        console.log(`  ✓ Cleared path: ${p}`)
-      })
+      // Clear Next.js cache for the entire site
+      revalidatePath('/', 'layout')
+      console.log('  ✓ Cleared all pages')
       
-      await revalidateTag('trending-posts')
+      // Clear specific cache tags
+      revalidateTag('songs-latest')
+      revalidateTag('homepage')
+      revalidateTag('trending-posts')
+      console.log('  ✓ Cleared all cache tags')
       
       return createNoCacheResponse({ 
         revalidated: true, 
         type: 'all', 
-        message: 'All caches cleared (GET)',
+        message: 'All Next.js caches cleared (GET)',
         now: Date.now() 
       })
     } catch (err) {
@@ -175,10 +163,6 @@ export async function GET(req: NextRequest) {
 
   if (tag) {
     try {
-      if (tag.startsWith('song-')) {
-        const slug = tag.replace('song-', '')
-        dateBasedCache.clearByPattern(`*${slug}*`)
-      }
       await revalidateTag(tag)
       return createNoCacheResponse({ revalidated: true, type: 'tag', tag, now: Date.now() })
     } catch (err) {
