@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   description: 'Search and discover your favorite Tamil song lyrics. Find songs by name, movie, singer, or lyricist.',
 }
 
-// Disable page-level caching - cache only at API level
-export const dynamic = 'force-dynamic'
+// Cache search page for 24 hours (it's a static shell with client-side search)
+export const revalidate = 86400
 
 export default function Search() {
   return <SearchPage />

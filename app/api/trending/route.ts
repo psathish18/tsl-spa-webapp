@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server'
 import { google } from 'googleapis'
 
-// Auto-revalidate every 1 hour (3600 seconds)
-export const revalidate = 3600
+// Auto-revalidate every 6 hours (21600 seconds) to reduce CPU usage
+export const revalidate = 21600
 
 export async function GET() {
   try {
@@ -82,7 +82,7 @@ export async function GET() {
       { trending },
       {
         headers: {
-          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200',
+          'Cache-Control': 'public, s-maxage=21600, stale-while-revalidate=43200',
           'x-vercel-cache-tags': 'trending-api'  // Allows CDN cache clearing via revalidateTag
         }
       }
