@@ -523,7 +523,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           tamilContent={
             <div
               className="lyrics-container prose prose-lg max-w-none leading-relaxed"
-              style={{ lineHeight: '2', fontSize: '1.25rem' }}
+              style={{ lineHeight: '2', fontSize: '1.1rem' }}
               data-server-stanzas-count={String(tamilStanzas.length)}
             >
               {tamilStanzas.map((stanzaHtml, idx) => {
