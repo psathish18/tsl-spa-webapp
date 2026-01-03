@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { usePathname } from 'next/navigation'
 
 interface AdBannerProps {
   slot: string
@@ -9,19 +10,31 @@ interface AdBannerProps {
 
 export function AdBanner({ slot, className = '' }: AdBannerProps) {
   const adRef = useRef<HTMLModElement>(null)
-  const isAdPushed = useRef(false)
+  const pathname = usePathname() // Track route changes
+  const attemptedPush = useRef(false)
 
   useEffect(() => {
-    // Only push if not already pushed and element exists
-    if (isAdPushed.current || !adRef.current) return
+    // Reset on pathname change (handles client-side navigation to ISR pages)
+    attemptedPush.current = false
+  }, [pathname])
+
+  useEffect(() => {
+    // Only push once per pathname
+    if (attemptedPush.current || !adRef.current) return
 
     try {
       // Wait for next tick to ensure DOM is ready
       const timer = setTimeout(() => {
         if (adRef.current && typeof window !== 'undefined') {
+          // Clear existing ad content first (important for cached pages)
+          if (adRef.current.innerHTML.trim() !== '') {
+            adRef.current.innerHTML = ''
+          }
+          
+          // Push new ad request
           // @ts-ignore
           (window.adsbygoogle = window.adsbygoogle || []).push({})
-          isAdPushed.current = true
+          attemptedPush.current = true
         }
       }, 100)
 
@@ -29,7 +42,7 @@ export function AdBanner({ slot, className = '' }: AdBannerProps) {
     } catch (err) {
       console.error('AdSense error:', err)
     }
-  }, [slot])
+  }, [slot, pathname]) // Re-run when pathname changes
 
   return (
     <div className={`ad-container ${className}`}>
