@@ -69,23 +69,13 @@ export default function RootLayout({
           `
         }} />
         
-        {/* Google AdSense */}
+        {/* Google AdSense - Deferred to improve FCP */}
         {process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (
-          <>
-            <script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-              crossOrigin="anonymous"
-            />
-            <script dangerouslySetInnerHTML={{
-              __html: `
-                (adsbygoogle = window.adsbygoogle || []).push({
-                  google_ad_client: "${process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID}",
-                  enable_page_level_ads: true
-                });
-              `
-            }} />
-          </>
+          <link
+            rel="preconnect"
+            href="https://pagead2.googlesyndication.com"
+            crossOrigin="anonymous"
+          />
         )}
         
         {/* OneSignal Push Notifications */}
@@ -191,6 +181,31 @@ export default function RootLayout({
   <SpeedInsights />
   <Analytics />
   {/* <ClientErrorCatcher /> */}
+  
+  {/* Load AdSense after page content - improves FCP */}
+  {process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          (function() {
+            var script = document.createElement('script');
+            script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID}';
+            script.async = true;
+            script.crossOrigin = 'anonymous';
+            
+            // Load after a short delay to prioritize content
+            if (document.readyState === 'complete') {
+              setTimeout(function() { document.head.appendChild(script); }, 100);
+            } else {
+              window.addEventListener('load', function() {
+                setTimeout(function() { document.head.appendChild(script); }, 100);
+              });
+            }
+          })();
+        `
+      }}
+    />
+  )}
       </body>
     </html>
   )
