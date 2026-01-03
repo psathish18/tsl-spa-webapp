@@ -6,6 +6,14 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
+// Custom redirects - Add your manual redirects here
+const customRedirects = [
+  // Example:
+  // { source: '/old-url', destination: '/new-url', permanent: true },
+  // { source: '/old-post-title-lyrics', destination: '/new-post-title-lyrics.html', permanent: true },
+  { source: '/raavana-mavan-da-lyrics-in-tamil-jana-nayagan.html', destination: '/ravana-mavan-da-lyrics-in-tamil-jana-nayagan.html', permanent: true },
+];
+
 // Load migration redirects
 function loadMigrationRedirects() {
   try {
@@ -183,6 +191,9 @@ const nextConfig = {
     // console.log('🚫 Migration redirects disabled - using middleware for redirects');
     
     return [
+      // Custom manual redirects (defined at top of file)
+      ...customRedirects,
+      
       // Legacy /song/ URLs redirect to root level  
       {
         source: '/song/:slug*',
