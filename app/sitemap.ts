@@ -4,14 +4,20 @@ const BASE_URL = 'https://tsonglyrics.com'
 
 /**
  * Sitemap Index
- * Points to paginated sitemap files (sitemap/0.xml, sitemap/1.xml, etc.)
- * Each paginated sitemap contains up to 1000 URLs
+ * Fixed sitemap configuration for ~2000 songs
+ * - sitemap/0.xml: Static pages (5) + Songs 0-999 (1,005 URLs max)
+ * - sitemap/1.xml: Songs 1,000-1,999 (1,000 URLs)
+ * - sitemap/2.xml: Songs 2,000-2,999 (1,000 URLs)
+ * 
+ * Total capacity: 3,005 URLs
+ * 
+ * To update after posting new songs:
+ * curl -X POST https://tsonglyrics.com/api/revalidate-sitemap \
+ *   -H "x-revalidate-secret: YOUR_SECRET"
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  // Generate sitemap index entries
-  // Assuming max 3000 songs = 3 paginated sitemaps (0, 1, 2)
-  // Each contains 1000 songs + static pages in sitemap/0.xml
-  const sitemapIndexes: MetadataRoute.Sitemap = [
+  // Fixed 3 sitemaps for ~2000 songs (can handle up to 3000)
+  return [
     {
       url: `${BASE_URL}/sitemap/0.xml`,
       lastModified: new Date(),
@@ -24,13 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${BASE_URL}/sitemap/2.xml`,
       lastModified: new Date(),
     },
-    {
-      url: `${BASE_URL}/sitemap/3.xml`,
-      lastModified: new Date(),
-    },
   ]
-
-  return sitemapIndexes
 }
 
 // Revalidate sitemap index every 7 days (auto-revalidation handles immediate updates)

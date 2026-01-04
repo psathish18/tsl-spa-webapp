@@ -1,5 +1,6 @@
 import { revalidatePath } from 'next/cache'
 import { NextRequest, NextResponse } from 'next/server'
+import { clearSongCache } from '@/lib/songCache'
 
 /**
  * On-demand sitemap revalidation endpoint
@@ -24,10 +25,14 @@ export async function POST(request: NextRequest) {
       )
     }
     
+    // Clear in-memory song cache FIRST
+    clearSongCache()
+    
     // Revalidate the sitemap index
     revalidatePath('/sitemap.xml')
     
-    // Revalidate all paginated sitemaps (0-3 for up to 4000 songs)
+    // Revalidate all existing paginated sitemaps (0-3 for up to 4000 songs)
+    // With 2000+ songs, we'll have sitemap/0.xml, /1.xml, and /2.xml
     for (let i = 0; i <= 3; i++) {
       revalidatePath(`/sitemap/${i}.xml`)
     }
