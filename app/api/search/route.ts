@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { REVALIDATE_SEARCH_API, REVALIDATE_AUTOCOMPLETE, CDN_MAX_AGE, CDN_STALE_WHILE_REVALIDATE } from '@/lib/cacheConfig'
 
 interface Song {
   id: { $t: string }
@@ -96,7 +97,7 @@ export async function GET(request: NextRequest) {
         { results: entries },
         {
           headers: {
-            'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+            'Cache-Control': `public, s-maxage=${CDN_MAX_AGE}, stale-while-revalidate=${CDN_STALE_WHILE_REVALIDATE}`
           }
         }
       )
@@ -127,8 +128,8 @@ export async function GET(request: NextRequest) {
         { suggestions: matches },
         {
           headers: {
-            // 24hr cache for autocomplete with manual revalidate option
-            'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=172800'
+            // 30 days cache for autocomplete with manual revalidate option
+            'Cache-Control': `public, s-maxage=${CDN_MAX_AGE}, stale-while-revalidate=${CDN_STALE_WHILE_REVALIDATE}`
           }
         }
       )
@@ -178,10 +179,8 @@ export async function GET(request: NextRequest) {
       )
     })
 
-    // Use 24hr cache for popular posts, 5min for regular search
-    const cacheControl = isPopularRequest 
-      ? 'public, s-maxage=86400, stale-while-revalidate=172800' 
-      : 'public, s-maxage=300, stale-while-revalidate=600'
+    // Use 30 days cache for popular posts and search results
+    const cacheControl = `public, s-maxage=${CDN_MAX_AGE}, stale-while-revalidate=${CDN_STALE_WHILE_REVALIDATE}`
     
     return NextResponse.json(
       { results: songs },

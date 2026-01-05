@@ -4,9 +4,12 @@ import { Metadata } from 'next'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import { AdBanner } from '@/components/GoogleAdsense'
 import OneSignalSubscriptionCard from '@/components/OneSignalSubscriptionCard'
+import { REVALIDATE_HOMEPAGE, REVALIDATE_BLOGGER_FETCH } from '@/lib/cacheConfig'
 
 // Advanced revalidation config
-export const revalidate = 86400 // Revalidate every 24 hours
+// Extended to 30 days to reduce CPU usage on free tier
+// Use manual revalidation API for immediate updates: /api/revalidate?path=/
+export const revalidate = REVALIDATE_HOMEPAGE
 export const dynamicParams = true
 
 interface Song {
@@ -33,14 +36,14 @@ async function getSongs(): Promise<Song[]> {
   try {
     // Use the date-based cached fetch - direct Blogger API call
     const data = await cachedBloggerFetch(
-      'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=50',
+      `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=10`,
       {
         next: {
-          revalidate: 86400, // 24 hours
+          revalidate: REVALIDATE_BLOGGER_FETCH, // Match page revalidation - 30 days
           tags: ['songs-latest', 'homepage']
         }
       }
-    )
+    );
 
     const songs = data.feed?.entry || []
     

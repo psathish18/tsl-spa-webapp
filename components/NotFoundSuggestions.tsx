@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import { getSlugFromSong } from '@/lib/slugUtils'
+import { REVALIDATE_404_SEARCH, REVALIDATE_POPULAR_POSTS } from '@/lib/cacheConfig'
 
 interface Song {
   id: { $t: string }
@@ -38,7 +39,7 @@ async function searchSongs(keywords: string[], limit: number = 6): Promise<Song[
       `https://tsonglyricsapp.blogspot.com/feeds/posts/default?q=${encodeURIComponent(searchQuery)}&alt=json&max-results=${limit + 5}`,
       {
         next: {
-          revalidate: 3600, // Cache for 1 hour
+          revalidate: REVALIDATE_404_SEARCH, // Cache for 1 hour
           tags: ['404-search']
         }
       }
@@ -68,7 +69,7 @@ async function getPopularPosts(limit: number = 12): Promise<Song[]> {
       `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=${limit + 5}`,
       {
         next: {
-          revalidate: 3600, // Cache for 1 hour
+          revalidate: REVALIDATE_POPULAR_POSTS, // Cache for 1 hour
           tags: ['popular-posts']
         }
       }

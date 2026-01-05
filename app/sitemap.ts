@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { REVALIDATE_SITEMAP } from '@/lib/cacheConfig'
 
 const BASE_URL = 'https://tsonglyrics.com'
 
@@ -33,5 +34,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 }
 
-// Revalidate sitemap index every 7 days (auto-revalidation handles immediate updates)
-export const revalidate = 604800
+// Revalidate sitemap index every 30 days to minimize CPU usage
+// Use manual revalidation API for immediate updates: /api/revalidate-sitemap
+export const revalidate = REVALIDATE_SITEMAP

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import { getSlugFromSong } from '@/lib/slugUtils'
+import { REVALIDATE_RELATED_SONGS } from '@/lib/cacheConfig'
 
 interface Song {
   id: { $t: string }
@@ -30,7 +31,7 @@ async function fetchSongsByCategory(category: string, currentSongId: string, lim
       `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=${limit + 5}`,
       {
         next: {
-          revalidate: 86400, // Cache for 24 hours
+          revalidate: REVALIDATE_RELATED_SONGS, // Match page revalidation - 30 days
           tags: [`related-${category}`]
         }
       }

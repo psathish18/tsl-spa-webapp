@@ -1,11 +1,33 @@
-# How to Update Sitemap After Posting New Songs
+# How to Update Content After Posting New Songs
 
-## Quick Guide
+## ⚠️ Important: 30-Day Cache Strategy
 
-After posting new song lyrics to Blogger, update the sitemap by calling the revalidation API:
+All pages and APIs are now cached for **30 days** to minimize CPU usage on Vercel free tier (4 hours/month). 
 
+**This means:**
+- New songs won't appear automatically for 30 days
+- Trending posts update monthly
+- **You MUST manually revalidate** after posting new content
+
+## Quick Revalidation Guide
+
+After posting new song lyrics to Blogger, run these commands:
+
+### 1. Update Sitemap (includes homepage)
 ```bash
 curl -X POST https://tsonglyrics.com/api/revalidate-sitemap \
+  -H "x-revalidate-secret: YOUR_SECRET_TOKEN"
+```
+
+### 2. Update Trending API
+```bash
+curl -X POST https://tsonglyrics.com/api/revalidate?tag=trending-api \
+  -H "x-revalidate-secret: YOUR_SECRET_TOKEN"
+```
+
+### 3. Update Search Page (optional)
+```bash
+curl -X POST https://tsonglyrics.com/api/revalidate?path=/search \
   -H "x-revalidate-secret: YOUR_SECRET_TOKEN"
 ```
 

@@ -4,6 +4,7 @@ import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import sanitizeHtml from 'sanitize-html'
 import dynamic from 'next/dynamic'
 import NotFoundSuggestions from '@/components/NotFoundSuggestions'
+import { REVALIDATE_SONG_PAGE, REVALIDATE_BLOGGER_FETCH, REVALIDATE_TAMIL_LYRICS } from '@/lib/cacheConfig'
 import {
   stripImagesFromHtml,
   htmlToPlainText,
@@ -25,8 +26,10 @@ const LyricsTabs = dynamic(() => import('../../components/LyricsTabs').then(mod 
 // Related songs component
 import RelatedSongs from '@/components/RelatedSongs'
 
-// Enable ISR for song pages - revalidate every 24 hours
-export const revalidate = 86400
+// Enable ISR for song pages - revalidate every 30 days
+// Extended to reduce CPU usage on free tier
+// Use manual revalidation API for immediate updates: /api/revalidate?path=/song-slug.html
+export const revalidate = REVALIDATE_SONG_PAGE
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }) {
@@ -138,7 +141,7 @@ async function getSongData(slug: string): Promise<Song | null> {
       const data = await cachedBloggerFetch(
         `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(searchTerms)}&max-results=100`, {
         next: {
-          revalidate: 86400, // Cache for 24 hours
+          revalidate: REVALIDATE_BLOGGER_FETCH, // Match page revalidation - 30 days
           tags: [`song-${cleanSlug}`] // Tag for on-demand revalidation
         }
       }
@@ -221,7 +224,7 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
         `https://tsonglyricsapptamil.blogspot.com/feeds/posts/default/-/${encodeURIComponent(songCategory)}?alt=json&max-results=5`,
         {
           next: {
-            revalidate: 86400, // Cache for 24 hours
+            revalidate: REVALIDATE_TAMIL_LYRICS, // Match page revalidation - 30 days
             tags: [`tamil-lyrics-${songCategory}`]
           }
         }

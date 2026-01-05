@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { REVALIDATE_CATEGORY_API, CDN_MAX_AGE, CDN_STALE_WHILE_REVALIDATE } from '@/lib/cacheConfig'
 
 // Enable Edge Runtime for better performance
 export const runtime = 'edge'
@@ -82,7 +83,7 @@ export async function GET(request: NextRequest) {
     
     // Fetch from Blogger API with category filter
     const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(categoryTerm)}?alt=json&max-results=50`, {
-      next: { revalidate: 86400 } // Cache for 24 hour
+      next: { revalidate: REVALIDATE_CATEGORY_API } // Cache for 30 days
     })
     
     if (!response.ok) {
@@ -125,9 +126,9 @@ export async function GET(request: NextRequest) {
       total: songs.length
     })
     
-    // Advanced caching headers for category pages
-    jsonResponse.headers.set('Cache-Control', 's-maxage=86400, stale-while-revalidate=172800')
-    jsonResponse.headers.set('CDN-Cache-Control', 'max-age=86400')
+    // Advanced caching headers for category pages - 30 days
+    jsonResponse.headers.set('Cache-Control', `s-maxage=${CDN_MAX_AGE}, stale-while-revalidate=${CDN_STALE_WHILE_REVALIDATE}`)
+    jsonResponse.headers.set('CDN-Cache-Control', `max-age=${CDN_MAX_AGE}`)
     jsonResponse.headers.set('Vary', 'Accept-Encoding')
     
     return jsonResponse

@@ -20,12 +20,16 @@ const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr
 const inter = Inter({ 
   subsets: ['latin'],
   variable: '--font-inter',
+  display: 'swap', // Add font-display: swap for faster rendering
+  preload: true,
 })
 
 const poppins = Poppins({ 
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-poppins',
+  display: 'swap', // Add font-display: swap for faster rendering
+  preload: true,
 })
 
 export const metadata: Metadata = {
@@ -58,42 +62,17 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}> 
       {/* Google Tag Manager and Google Analytics (in <head>) */}
       <head>
-        {/* Google Analytics gtag.js */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
-          `
-        }} />
+        {/* Preconnect to critical domains */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         
-        {/* Google AdSense - Deferred to improve FCP */}
+        {/* Google AdSense - Preconnect early */}
         {process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (
           <link
             rel="preconnect"
             href="https://pagead2.googlesyndication.com"
             crossOrigin="anonymous"
           />
-        )}
-        
-        {/* OneSignal Push Notifications */}
-        {process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID && (
-          <>
-            <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-            <script dangerouslySetInnerHTML={{
-              __html: `
-                window.OneSignalDeferred = window.OneSignalDeferred || [];
-                OneSignalDeferred.push(async function(OneSignal) {
-                  await OneSignal.init({
-                    appId: "${process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID}",
-                    allowLocalhostAsSecureOrigin: true,
-                  });
-                });
-              `
-            }} />
-          </>
         )}
       </head>
   <body className="min-h-screen" style={{ backgroundColor: 'var(--bg)' }}>
@@ -176,11 +155,46 @@ export default function RootLayout({
   {/* Floating Search Button */}
   <FloatingSearchButton />
   
+  {/* Defer all analytics/tracking scripts to end of body */}
+  {/* Google Analytics - Deferred */}
+  {process.env.NEXT_PUBLIC_GA_ID && (
+    <>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}></script>
+      <script dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+            page_path: window.location.pathname,
+          });
+        `
+      }} />
+    </>
+  )}
+  
+  {/* OneSignal - Deferred */}
+  {process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID && (
+    <>
+      <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+      <script dangerouslySetInnerHTML={{
+        __html: `
+          window.OneSignalDeferred = window.OneSignalDeferred || [];
+          OneSignalDeferred.push(async function(OneSignal) {
+            await OneSignal.init({
+              appId: "${process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID}",
+              allowLocalhostAsSecureOrigin: true,
+            });
+          });
+        `
+      }} />
+    </>
+  )}
+  
   {/* Google Analytics - client-side helper (loaded dynamically) */}
   {GTM_ID ? <GAClient gaId={GTM_ID} /> : null}
   <SpeedInsights />
   <Analytics />
-  {/* <ClientErrorCatcher /> */}
   
   {/* Load AdSense after page content - improves FCP */}
   {process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (
@@ -193,12 +207,12 @@ export default function RootLayout({
             script.async = true;
             script.crossOrigin = 'anonymous';
             
-            // Load after a short delay to prioritize content
+            // Load after window load + 500ms to prioritize FCP
             if (document.readyState === 'complete') {
-              setTimeout(function() { document.head.appendChild(script); }, 100);
+              setTimeout(function() { document.head.appendChild(script); }, 500);
             } else {
               window.addEventListener('load', function() {
-                setTimeout(function() { document.head.appendChild(script); }, 100);
+                setTimeout(function() { document.head.appendChild(script); }, 500);
               });
             }
           })();

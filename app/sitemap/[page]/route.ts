@@ -1,5 +1,6 @@
 import { NextRequest } from 'next/server'
 import { getAllSongs } from '@/lib/songCache'
+import { REVALIDATE_SITEMAP } from '@/lib/cacheConfig'
 
 const BASE_URL = 'https://tsonglyrics.com'
 const ITEMS_PER_SITEMAP = 1000
@@ -152,5 +153,6 @@ ${urls
   }
 }
 
-// Revalidate every 7 days (auto-revalidation handles immediate updates)
-export const revalidate = 604800
+// Revalidate every 30 days to minimize CPU usage
+// Use manual revalidation API for immediate updates: /api/revalidate-sitemap
+export const revalidate = REVALIDATE_SITEMAP
