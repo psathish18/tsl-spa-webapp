@@ -33,10 +33,6 @@
     {
       "source": "/api/proxy/(.*)",
       "destination": "https://tsonglyricsapp.blogspot.com/$1"
-    },
-    {
-      "source": "/(.*).html",
-      "destination": "/$1"
     }
   ]
 }
