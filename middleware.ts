@@ -3,6 +3,33 @@ import { NextRequest, NextResponse } from 'next/server'
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   
+  // Block malicious/unwanted requests early to save CPU/memory
+  // These patterns are from old WordPress site or hacking attempts
+  const blockedPatterns = [
+    /^\/wp-/,                    // WordPress paths (wp-login.php, wp-content, wp-admin)
+    /^\/tag\//,                  // Old WordPress tag pages
+    /^\/search\/label\//,        // Old Blogger URL format
+    /^\/feeds\//,                // Blogger feeds
+    /^\/lyrics-tamil\/page\//,   // Old pagination format
+    /\.php$/,                    // PHP files (we're Next.js)
+    /\.asp$/,                    // ASP files
+    /\.(env|git|sql|backup)$/,   // Sensitive files
+    /sitemap\.txt$/,             // Wrong sitemap format (only .xml)
+  ];
+  
+  for (const pattern of blockedPatterns) {
+    if (pattern.test(pathname)) {
+      // Return 410 Gone (better than 404 for SEO - tells crawlers it's permanently removed)
+      return new NextResponse(null, {
+        status: 410,
+        statusText: 'Gone',
+        headers: {
+          'X-Robots-Tag': 'noindex',
+        }
+      });
+    }
+  }
+  
   // Clone the request headers and add pathname for 404 handling
   const requestHeaders = new Headers(request.headers)
   requestHeaders.set('x-pathname', pathname)
@@ -31,6 +58,7 @@ export function middleware(request: NextRequest) {
 }
 
 // Configure middleware to run on all paths except excluded ones
+// Allowlist approach: only allow legitimate patterns
 export const config = {
   matcher: [
     /*
@@ -38,8 +66,12 @@ export const config = {
      * - api (API routes)
      * - _next/static (static files)
      * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
+     * - favicon.ico, robots.txt, sitemap.xml (legitimate static files)
+     * - app-ads.txt (Google AdSense verification)
+     * - manifest.json (PWA manifest)
+     * 
+     * Everything else goes through middleware for validation
      */
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
+    '/((?!api|_next/static|_next/image|favicon|robots\\.txt|sitemap|app-ads\\.txt|manifest\\.json|android-chrome|apple-touch|icon).*)',
   ],
 }

@@ -55,24 +55,21 @@ async function fetchSongsByCategory(category: string, currentSongId: string, lim
 }
 
 export default async function RelatedSongs({ currentSongId, categories }: RelatedSongsProps) {
-  // Extract relevant categories
+  // Extract only movie category for related songs
   const movieCategory = categories.find(cat => cat.term.startsWith('Movie:'))
-  const singerCategory = categories.find(cat => cat.term.startsWith('Singer:'))
-  const lyricistCategory = categories.find(cat => cat.term.startsWith('Lyrics:') || cat.term.startsWith('Lyricist:'))
-  const musicCategory = categories.find(cat => cat.term.startsWith('Music:') || cat.term.startsWith('OldMusic:'))
+  
+  // Skip if no movie category
+  if (!movieCategory) {
+    return null
+  }
   
   // Helper to format category name (replace hyphens with spaces)
   const formatCategoryName = (term: string, prefix: string) => {
     return term.replace(prefix, '').replace(/-/g, ' ')
   }
 
-  // Fetch related songs in parallel
-  const [movieSongs, singerSongs, lyricistSongs, musicSongs] = await Promise.all([
-    movieCategory ? fetchSongsByCategory(movieCategory.term, currentSongId, 6) : Promise.resolve([]),
-    singerCategory ? fetchSongsByCategory(singerCategory.term, currentSongId, 6) : Promise.resolve([]),
-    lyricistCategory ? fetchSongsByCategory(lyricistCategory.term, currentSongId, 6) : Promise.resolve([]),
-    musicCategory ? fetchSongsByCategory(musicCategory.term, currentSongId, 6) : Promise.resolve([])
-  ])
+  // Fetch related songs from the same movie
+  const movieSongs = await fetchSongsByCategory(movieCategory.term, currentSongId, 6)
 
   // Helper to render a section
   const renderSection = (title: string, songs: Song[], categoryTerm?: string) => {
@@ -130,7 +127,7 @@ export default async function RelatedSongs({ currentSongId, categories }: Relate
   }
 
   // If no related songs found, return fallback
-  if (movieSongs.length === 0 && singerSongs.length === 0 && lyricistSongs.length === 0 && musicSongs.length === 0) {
+  if (movieSongs.length === 0) {
     return (
       <div className="mt-12">
         <h3 className="text-2xl font-bold text-gray-900 mb-6">More Tamil Song Lyrics</h3>
@@ -148,38 +145,11 @@ export default async function RelatedSongs({ currentSongId, categories }: Relate
 
   return (
     <div className="mt-12">
-      {/* Movie section - highest priority */}
-      {movieCategory && renderSection(
+      {/* Movie section only */}
+      {renderSection(
         `More from ${formatCategoryName(movieCategory.term, 'Movie:')}`,
         movieSongs,
         movieCategory.term
-      )}
-
-      {/* Singer section */}
-      {singerCategory && renderSection(
-        `More by ${formatCategoryName(singerCategory.term, 'Singer:')}`,
-        singerSongs,
-        singerCategory.term
-      )}
-
-      {/* Lyricist section */}
-      {lyricistCategory && renderSection(
-        `${formatCategoryName(
-          lyricistCategory.term, 
-          lyricistCategory.term.startsWith('Lyricist:') ? 'Lyricist:' : 'Lyrics:'
-        )} Hits`,
-        lyricistSongs,
-        lyricistCategory.term
-      )}
-
-      {/* Music Director section */}
-      {musicCategory && renderSection(
-        `Music by ${formatCategoryName(
-          musicCategory.term,
-          musicCategory.term.startsWith('OldMusic:') ? 'OldMusic:' : 'Music:'
-        )}`,
-        musicSongs,
-        musicCategory.term
       )}
     </div>
   )

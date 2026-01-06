@@ -101,8 +101,26 @@ export const DEFAULT_SANITIZE_OPTIONS = {
   allowedAttributes: { a: ['href', 'title', 'target', 'rel'] }
 };
 
+// Memoization cache for sanitized content
+const sanitizeCache = new Map<string, string>();
+
 /**
- * Split content into stanzas and sanitize
+ * Sanitize HTML content once (with memoization)
+ */
+function memoizedSanitize(content: string, sanitizeHtml: any): string {
+  if (sanitizeCache.has(content)) {
+    return sanitizeCache.get(content)!;
+  }
+  const sanitized = sanitizeHtml(content, DEFAULT_SANITIZE_OPTIONS);
+  // Only cache if content is reasonable size (avoid memory bloat)
+  if (content.length < 100000) {
+    sanitizeCache.set(content, sanitized);
+  }
+  return sanitized;
+}
+
+/**
+ * Split content into stanzas and sanitize (optimized: sanitize once, then split)
  */
 export function splitAndSanitizeStanzas(
   content: string,
@@ -110,9 +128,13 @@ export function splitAndSanitizeStanzas(
   skipSplit: boolean = false
 ): string[] {
   if (!content) return [];
-  const rawStanzas = skipSplit
-    ? [content]
-    : content.split(STANZA_SEPARATOR).map(s => s.trim()).filter(Boolean);
   
-  return rawStanzas.map(s => sanitizeHtml(s, DEFAULT_SANITIZE_OPTIONS));
+  // Sanitize entire content ONCE instead of per-stanza (MAJOR performance boost)
+  const sanitizedContent = memoizedSanitize(content, sanitizeHtml);
+  
+  const stanzas = skipSplit
+    ? [sanitizedContent]
+    : sanitizedContent.split(STANZA_SEPARATOR).map(s => s.trim()).filter(Boolean);
+  
+  return stanzas;
 }

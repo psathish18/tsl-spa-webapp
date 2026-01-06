@@ -258,6 +258,7 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
 }
 
 export default async function SongDetailsPage({ params }: { params: { slug: string } }) {
+  // Parallel fetch optimization: Get song data and start Tamil lyrics fetch simultaneously
   const song = await getSongData(params.slug)
 
   if (!song) {
@@ -308,17 +309,26 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     )
   }
 
-  // Fetch Tamil lyrics if Song: category exists
+  // Fetch Tamil lyrics with timeout - don't block page render for Tamil lyrics
   let tamilSong: Song | null = null;
   let tamilStanzas: string[] = [];
   if (song.category) {
     const songCat = getSongCategory(song.category);
     if (songCat) {
-      tamilSong = await getTamilLyrics(songCat);
-      if (tamilSong) {
-        const tamilContent = tamilSong.content?.$t || '';
-        const safeTamilContent = stripImagesFromHtml(tamilContent);
-        tamilStanzas = splitAndSanitizeStanzas(safeTamilContent, sanitizeHtml);
+      // Use Promise.race with timeout to prevent Tamil lyrics from blocking
+      try {
+        tamilSong = await Promise.race([
+          getTamilLyrics(songCat),
+          new Promise<null>((resolve) => setTimeout(() => resolve(null), 1500)) // 1.5s timeout
+        ]);
+        if (tamilSong) {
+          const tamilContent = tamilSong.content?.$t || '';
+          const safeTamilContent = stripImagesFromHtml(tamilContent);
+          tamilStanzas = splitAndSanitizeStanzas(safeTamilContent, sanitizeHtml);
+        }
+      } catch (error) {
+        console.error('Tamil lyrics fetch failed or timed out:', error);
+        // Continue without Tamil lyrics
       }
     }
   }

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { REVALIDATE_SEARCH_API, REVALIDATE_AUTOCOMPLETE, CDN_MAX_AGE, CDN_STALE_WHILE_REVALIDATE } from '@/lib/cacheConfig'
+import { REVALIDATE_30_DAYS, REVALIDATE_AUTOCOMPLETE, CDN_MAX_AGE, CDN_STALE_WHILE_REVALIDATE } from '@/lib/cacheConfig'
+import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 
 interface Song {
   id: { $t: string }
@@ -30,21 +31,18 @@ async function fetchCategories(): Promise<string[]> {
 
   console.log('Fetching fresh categories from Blogger API...')
   try {
-    const response = await fetch(
+    const data = await cachedBloggerFetch(
       'https://tsonglyricsapp.blogspot.com/feeds/posts/default/?alt=json&max-results=0',
       {
-        cache: 'no-store' // Don't use Next.js cache in API routes
+        next: {
+          revalidate: REVALIDATE_AUTOCOMPLETE, // 30 days
+          tags: ['autocomplete-categories']
+        }
       }
     )
 
-    if (!response.ok) {
-      console.error('Blogger API response not OK:', response.status)
-      throw new Error('Failed to fetch categories')
-    }
-
-    const data = await response.json()
     console.log('Blogger API response received')
-    const categories = data.feed?.category || []
+    const categories = (data.feed as any).category || []
     console.log('Total categories in feed:', categories.length)
     
     // Filter only Song: and OldSong: categories
@@ -82,15 +80,13 @@ export async function GET(request: NextRequest) {
       console.log('Fetching songs for category:', category)
       const url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=100`
       
-      const response = await fetch(url, {
-        cache: 'no-store'
+      const data = await cachedBloggerFetch(url, {
+        next: {
+          revalidate: REVALIDATE_30_DAYS,
+          tags: ['category', `category-${category}`]
+        }
       })
 
-      if (!response.ok) {
-        throw new Error('Failed to fetch category from Blogger API')
-      }
-
-      const data = await response.json()
       const entries = data.feed?.entry || []
 
       return NextResponse.json(
@@ -137,11 +133,13 @@ export async function GET(request: NextRequest) {
 
     let url: string
     let isPopularRequest = false
+    let cacheTag = 'search'
 
     if (popular === 'true') {
       // Fetch popular/recent songs
       isPopularRequest = true
-      url = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=15'
+      cacheTag = 'popular'
+      url = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=10'
     } else if (query) {
       // Check if query matches a category (user selected from autocomplete)
       const categories = await fetchCategories()
@@ -152,24 +150,24 @@ export async function GET(request: NextRequest) {
 
       if (matchedCategory) {
         // Fetch exact song by category
+        cacheTag = `song-${matchedCategory}`
         url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(matchedCategory)}?alt=json&max-results=1`
       } else {
         // Fallback to regular search
+        cacheTag = `search-${query}`
         url = `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&q=${encodeURIComponent(query)}&max-results=50`
       }
     } else {
       return NextResponse.json({ results: [] })
     }
 
-    const response = await fetch(url, {
-      cache: 'no-store'
+    const data = await cachedBloggerFetch(url, {
+      next: {
+        revalidate: REVALIDATE_30_DAYS,
+        tags: [cacheTag]
+      }
     })
 
-    if (!response.ok) {
-      throw new Error('Failed to fetch from Blogger API')
-    }
-
-    const data = await response.json()
     const entries = data.feed?.entry || []
 
     // Filter to only Song: categories

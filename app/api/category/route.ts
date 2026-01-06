@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { REVALIDATE_CATEGORY_API, CDN_MAX_AGE, CDN_STALE_WHILE_REVALIDATE } from '@/lib/cacheConfig'
+import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 
 // Enable Edge Runtime for better performance
 export const runtime = 'edge'
@@ -81,17 +82,18 @@ export async function GET(request: NextRequest) {
   try {
     console.log(`Fetching songs for category: ${categoryTerm}`)
     
-    // Fetch from Blogger API with category filter
-    const response = await fetch(`https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(categoryTerm)}?alt=json&max-results=50`, {
-      next: { revalidate: REVALIDATE_CATEGORY_API } // Cache for 30 days
-    })
+    // Fetch from Blogger API with category filter using cached fetch
+    const data = await cachedBloggerFetch(
+      `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(categoryTerm)}?alt=json&max-results=50`,
+      {
+        next: {
+          revalidate: REVALIDATE_CATEGORY_API, // Cache for 30 days
+          tags: [`related-${categoryTerm}`] // Same tag as RelatedSongs for shared cache
+        }
+      }
+    )
     
-    if (!response.ok) {
-      throw new Error(`Blogger API responded with status: ${response.status}`)
-    }
-    
-    const data = await response.json()
-    console.log(`Blogger API response status: ${response.status}`)
+    console.log(`Blogger API data fetched successfully`)
     
     const entries = data.feed?.entry || []
     console.log(`Raw data entries count: ${entries.length}`)

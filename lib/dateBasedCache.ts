@@ -339,8 +339,12 @@ export async function cachedBloggerFetch(
   // In development, use no-store; in production, use next revalidation
   if (isDev) {
     fetchOptions.cache = 'no-store'
-  } else if (options.next) {
-    fetchOptions.next = options.next
+  } else {
+    // In production, always use force-cache with revalidation
+    fetchOptions.cache = 'force-cache'
+    if (options.next) {
+      fetchOptions.next = options.next
+    }
   }
   
   const response = await fetch(fetchUrl, fetchOptions)
@@ -361,6 +365,31 @@ export async function cachedBloggerFetch(
   }
 
   const data: BloggerResponse = await response.json()
+  
+  // MEMORY OPTIMIZATION: Strip unnecessary feed metadata to reduce cache size
+  // Keep only feed.entry (songs) which is what we actually use
+  // Exception: If max-results=0, we're fetching categories only, so keep feed.category
+  const isCategoryRequest = url.includes('max-results=0')
+  
+  if (data.feed) {
+    const originalSize = JSON.stringify(data.feed).length
+    
+    if (!isCategoryRequest) {
+      // For regular requests: only keep feed.entry, remove everything else
+      const entries = data.feed.entry
+      data.feed = { entry: entries } as any
+      
+      const newSize = JSON.stringify(data.feed).length
+      const saved = originalSize - newSize
+      console.log(`🗑️ Removed feed metadata: ${(saved / 1024).toFixed(1)}KB saved (${((saved / originalSize) * 100).toFixed(0)}% reduction)`)
+    } else {
+      // For category requests (max-results=0): only keep feed.category
+      const categories = (data.feed as any).category
+      data.feed = { category: categories } as any
+      console.log(`📋 Keeping ${categories?.length || 0} categories for autocomplete`)
+    }
+  }
+  
   return data
 }
 
