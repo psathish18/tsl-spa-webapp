@@ -336,15 +336,13 @@ export async function cachedBloggerFetch(
     ...options
   }
   
-  // In development, use no-store; in production, use next revalidation
+  // In development, use no-store; in production, let Next.js handle caching via revalidate
   if (isDev) {
     fetchOptions.cache = 'no-store'
-  } else {
-    // In production, always use force-cache with revalidation
-    fetchOptions.cache = 'force-cache'
-    if (options.next) {
-      fetchOptions.next = options.next
-    }
+  } else if (options.next) {
+    // In production, only set next options (revalidate, tags)
+    // Don't set cache: 'force-cache' as it conflicts with revalidate
+    fetchOptions.next = options.next
   }
   
   const response = await fetch(fetchUrl, fetchOptions)

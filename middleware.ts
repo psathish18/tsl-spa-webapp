@@ -9,7 +9,8 @@ export function middleware(request: NextRequest) {
     /^\/wp-/,                    // WordPress paths (wp-login.php, wp-content, wp-admin)
     /^\/tag\//,                  // Old WordPress tag pages
     /^\/search\/label\//,        // Old Blogger URL format
-    /^\/feeds\//,                // Blogger feeds
+    /^\/feeds?\//,               // Blogger feeds (/feed/, /feeds/)
+    /^\/feed$/,                  // WordPress feed endpoint
     /^\/lyrics-tamil\/page\//,   // Old pagination format
     /\.php$/,                    // PHP files (we're Next.js)
     /\.asp$/,                    // ASP files
