@@ -2,6 +2,11 @@ import { NextRequest, NextResponse } from 'next/server'
 import { REVALIDATE_CATEGORY_API, CDN_MAX_AGE, CDN_STALE_WHILE_REVALIDATE } from '@/lib/cacheConfig'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 
+// DEPRECATED: This API route is no longer used by the category page.
+// The category page now fetches data directly from the Blogger API via the proxy
+// to reduce CPU usage and function invocations.
+// This endpoint is kept for backward compatibility but may be removed in the future.
+
 // Enable Edge Runtime for better performance
 export const runtime = 'edge'
 
