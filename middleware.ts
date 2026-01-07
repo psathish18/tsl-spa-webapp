@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
   const hostname = request.headers.get('host') || '';
   if (hostname === 'tsonglyrics.com' || hostname.startsWith('tsonglyrics.com:')) {
     const newUrl = request.nextUrl.clone();
-    newUrl.host = hostname.replace('tsonglyrics.com', 'www.tsonglyrics.com');
+    newUrl.host = 'www.' + hostname;
     return NextResponse.redirect(newUrl, 301);
   }
   
