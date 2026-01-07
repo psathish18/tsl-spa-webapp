@@ -69,6 +69,7 @@ const createSlug = (title: string): string => {
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
     .trim()
+    .replace(/^-+|-+$/g, '') // Remove leading/trailing dashes
 }
 
 // Helper function to extract song metadata from Blogger entry
@@ -105,8 +106,7 @@ const extractSongData = (entry: BloggerEntry) => {
 // Helper function to get thumbnail URL
 const getThumbnail = (entry: BloggerEntry): string | null => {
   if (entry.media$thumbnail && entry.media$thumbnail.url) {
-    let imageUrl = decodeURIComponent(entry.media$thumbnail.url)
-    imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
+    const imageUrl = decodeURIComponent(entry.media$thumbnail.url).replace(/\/s\d+-c\//, '/s400-c/')
     return imageUrl
   }
   return null
@@ -121,6 +121,10 @@ const processBloggerResponse = (data: BloggerResponse, categoryTerm: string): Ca
     const thumbnail = getThumbnail(entry)
     const slug = createSlug(entry.title?.$t || metadata.songTitle || '')
     
+    // Extract excerpt with proper null/undefined handling
+    const content = entry.content?.$t
+    const excerpt = content ? content.replace(/<[^>]*>/g, '').substring(0, 150) + '...' : ''
+    
     return {
       id: entry.id.$t,
       title: entry.title?.$t || metadata.songTitle,
@@ -131,7 +135,7 @@ const processBloggerResponse = (data: BloggerResponse, categoryTerm: string): Ca
       lyricistName: metadata.lyricistName,
       published: entry.published.$t,
       category: entry.category,
-      excerpt: entry.content?.$t?.replace(/<[^>]*>/g, '').substring(0, 150) + '...' || ''
+      excerpt: excerpt
     }
   })
   
