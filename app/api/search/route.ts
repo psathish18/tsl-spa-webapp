@@ -138,7 +138,7 @@ export async function GET(request: NextRequest) {
     if (popular === 'true') {
       // Fetch popular/recent songs
       isPopularRequest = true
-      cacheTag = 'popular'
+      cacheTag = 'songs-latest'
       url = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=10'
     } else if (query) {
       // Check if query matches a category (user selected from autocomplete)
