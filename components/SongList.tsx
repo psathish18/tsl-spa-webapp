@@ -57,7 +57,7 @@ export function SongList({ songs }: SongListProps) {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {songs.map((song, index) => (
         <article key={song.id.$t || index} className="card overflow-hidden animate-fade-in">
-          <Link href={`/song/${encodeURIComponent(getSongSlug(song))}`}>
+          <Link prefetch={false} href={`/song/${encodeURIComponent(getSongSlug(song))}`}>
             <div className="relative h-48 bg-gray-200">
               <Image
                 src={getThumbnail(song)}
@@ -90,7 +90,7 @@ export function SongList({ songs }: SongListProps) {
               )}
             </div>
             
-            <Link href={`/song/${encodeURIComponent(getSongSlug(song))}`}>
+            <Link prefetch={false} href={`/song/${encodeURIComponent(getSongSlug(song))}`}>
               <h3 className="font-semibold text-lg text-gray-900 mb-2 hover:text-primary-600 transition-colors line-clamp-2">
                 {song.title.$t}
               </h3>

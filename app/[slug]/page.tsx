@@ -461,6 +461,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 return (
                   <Link
                     key={index}
+                    prefetch={false}
                     href={`/category?category=${encodeURIComponent(term)}`}
                     className={`category-pill ${bgColor} ${textColor} text-sm px-3 py-1 rounded-full font-medium ${hoverColor} transition-colors`}
                   >
