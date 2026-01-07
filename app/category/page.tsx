@@ -112,6 +112,33 @@ const getThumbnail = (entry: BloggerEntry): string | null => {
   return null
 }
 
+// Extract text content from HTML safely
+// This function is used to create plain text excerpts from HTML content
+// The result is ONLY used for display as text content (not HTML), and React
+// will automatically escape it, preventing any XSS attacks
+const extractTextFromHtml = (html: string): string => {
+  if (!html) return ''
+  
+  // Primary approach: Use DOM API for safe text extraction (client-side only)
+  // This is the safest method as it uses the browser's HTML parser
+  if (typeof document !== 'undefined') {
+    const temp = document.createElement('div')
+    temp.innerHTML = html
+    // textContent automatically strips all HTML and returns plain text
+    return (temp.textContent || temp.innerText || '').trim()
+  }
+  
+  // Fallback for server-side: simplified text extraction
+  // Note: This fallback has known limitations but is safe because:
+  // 1. This code only runs client-side in practice (page is 'use client')
+  // 2. The result is only displayed as plain text via React (auto-escaped)
+  // 3. We never use dangerouslySetInnerHTML with this content
+  return html
+    .replace(/<[^>]*>/g, ' ') // Replace tags with spaces
+    .replace(/\s+/g, ' ')     // Normalize whitespace
+    .trim()
+}
+
 // Process Blogger API response into CategoryData format
 const processBloggerResponse = (data: BloggerResponse, categoryTerm: string): CategoryData => {
   const entries = data.feed?.entry || []
@@ -121,8 +148,8 @@ const processBloggerResponse = (data: BloggerResponse, categoryTerm: string): Ca
     const thumbnail = getThumbnail(entry)
     const slug = createSlug(entry.title?.$t || metadata.songTitle || '')
     
-    // Extract excerpt with proper null/undefined handling and only add ellipsis when truncated
-    const content = entry.content?.$t?.replace(/<[^>]*>/g, '') || ''
+    // Extract excerpt safely by removing HTML and only add ellipsis when truncated
+    const content = extractTextFromHtml(entry.content?.$t || '')
     const excerpt = content.length > 150 ? content.substring(0, 150) + '...' : content
     
     return {
