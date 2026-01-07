@@ -32,11 +32,19 @@ import RelatedSongs from '@/components/RelatedSongs'
 export const revalidate = REVALIDATE_SONG_PAGE
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
-export async function generateMetadata({ params }: { params: { slug: string } }) {
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const song = await getSongData(params.slug)
   const title = song ? getSongTitle(song) : 'Tamil Song Lyrics'
+  
+  // Ensure slug has .html extension for canonical URL
+  const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
+  const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+  
   return {
-    title
+    title,
+    alternates: {
+      canonical: canonicalUrl,
+    },
   }
 }
 

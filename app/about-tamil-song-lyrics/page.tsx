@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'About Us - Tamil Song Lyrics App',
   description: 'Learn about Tamil Song Lyrics app - your ultimate destination for discovering the latest Tamil song lyrics, movie songs, and music.',
   keywords: 'about, Tamil songs, Tamil lyrics, Tamil music, song lyrics app',
+  alternates: {
+    canonical: 'https://www.tsonglyrics.com/about-tamil-song-lyrics.html',
+  },
 }
 
 export default function AboutPage() {

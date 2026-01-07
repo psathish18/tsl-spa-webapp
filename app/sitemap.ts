@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { REVALIDATE_SITEMAP } from '@/lib/cacheConfig'
 
-const BASE_URL = 'https://tsonglyrics.com'
+const BASE_URL = 'https://www.tsonglyrics.com'
 
 /**
  * Sitemap Index

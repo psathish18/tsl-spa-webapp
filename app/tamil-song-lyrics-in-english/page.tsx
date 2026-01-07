@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: '100+ Tamil Song Lyrics with English Meaning | Translation',
   description: 'Discover 100+ amazing Tamil songs with English lyrics translation. Simple English meanings to help you understand beautiful Tamil songs easily.',
   keywords: 'Tamil songs English translation, Tamil lyrics English meaning, Tamil songs with English subtitles, Tamil to English lyrics',
+  alternates: {
+    canonical: 'https://www.tsonglyrics.com/tamil-song-lyrics-in-english.html',
+  },
 }
 
 interface Song {
