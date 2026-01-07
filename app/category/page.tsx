@@ -68,8 +68,8 @@ const createSlug = (title: string): string => {
     .replace(/[^a-z0-9\s-]/g, '')
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
+    .replace(/^-+|-+$/g, '') // Remove leading/trailing dashes before trim
     .trim()
-    .replace(/^-+|-+$/g, '') // Remove leading/trailing dashes
 }
 
 // Helper function to extract song metadata from Blogger entry
@@ -121,9 +121,9 @@ const processBloggerResponse = (data: BloggerResponse, categoryTerm: string): Ca
     const thumbnail = getThumbnail(entry)
     const slug = createSlug(entry.title?.$t || metadata.songTitle || '')
     
-    // Extract excerpt with proper null/undefined handling
-    const content = entry.content?.$t
-    const excerpt = content ? content.replace(/<[^>]*>/g, '').substring(0, 150) + '...' : ''
+    // Extract excerpt with proper null/undefined handling and only add ellipsis when truncated
+    const content = entry.content?.$t?.replace(/<[^>]*>/g, '') || ''
+    const excerpt = content.length > 150 ? content.substring(0, 150) + '...' : content
     
     return {
       id: entry.id.$t,
