@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Privacy policy for Tamil Song Lyrics app. Learn how we collect, use, and protect your personal information.',
   keywords: 'privacy policy, Tamil song lyrics, data protection, privacy',
   alternates: {
-    canonical: 'https://tsonglyrics.com/privacy-policy-tamil-song-lyrics-app.html',
+    canonical: 'https://www.tsonglyrics.com/privacy-policy-tamil-song-lyrics-app.html',
   },
 }
 

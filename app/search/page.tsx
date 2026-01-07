@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Search Tamil Song Lyrics | TSL',
   description: 'Search and discover your favorite Tamil song lyrics. Find songs by name, movie, singer, or lyricist.',
   alternates: {
-    canonical: 'https://tsonglyrics.com/search',
+    canonical: 'https://www.tsonglyrics.com/search',
   },
 }
 

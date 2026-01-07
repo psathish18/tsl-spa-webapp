@@ -89,7 +89,7 @@ export const metadata: Metadata = {
   description: 'Discover the latest Tamil song lyrics, movie songs, and popular music. Read and enjoy beautiful Tamil poetry and lyrics from your favorite movies and artists.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
   alternates: {
-    canonical: 'https://tsonglyrics.com/',
+    canonical: 'https://www.tsonglyrics.com/',
   },
   openGraph: {
     title: 'Tamil Song Lyrics - Latest Songs & Lyrics',

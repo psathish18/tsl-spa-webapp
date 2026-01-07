@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Learn about Tamil Song Lyrics app - your ultimate destination for discovering the latest Tamil song lyrics, movie songs, and music.',
   keywords: 'about, Tamil songs, Tamil lyrics, Tamil music, song lyrics app',
   alternates: {
-    canonical: 'https://tsonglyrics.com/about-tamil-song-lyrics.html',
+    canonical: 'https://www.tsonglyrics.com/about-tamil-song-lyrics.html',
   },
 }
 

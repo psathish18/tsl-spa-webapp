@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   
   // Ensure slug has .html extension for canonical URL
   const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
-  const canonicalUrl = `https://tsonglyrics.com/${canonicalSlug}`
+  const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
   
   return {
     title,

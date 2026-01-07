@@ -3,6 +3,14 @@ import { NextRequest, NextResponse } from 'next/server'
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   
+  // Redirect non-www to www (301 permanent redirect for SEO)
+  const hostname = request.headers.get('host') || '';
+  if (hostname === 'tsonglyrics.com' || hostname.startsWith('tsonglyrics.com:')) {
+    const newUrl = request.nextUrl.clone();
+    newUrl.host = hostname.replace('tsonglyrics.com', 'www.tsonglyrics.com');
+    return NextResponse.redirect(newUrl, 301);
+  }
+  
   // Block malicious/unwanted requests early to save CPU/memory
   // These patterns are from old WordPress site or hacking attempts
   const blockedPatterns = [
