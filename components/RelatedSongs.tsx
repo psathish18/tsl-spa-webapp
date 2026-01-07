@@ -28,7 +28,7 @@ function getCleanTitle(song: Song): string {
 async function fetchSongsByCategory(category: string, currentSongId: string, limit: number = 6): Promise<Song[]> {
   try {
     const data = await cachedBloggerFetch(
-      `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=${limit + 5}`,
+      `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=50}`,
       {
         next: {
           revalidate: REVALIDATE_RELATED_SONGS, // Match page revalidation - 30 days
