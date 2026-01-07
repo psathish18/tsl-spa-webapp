@@ -24,6 +24,21 @@ interface CategoryData {
   total: number
 }
 
+interface BloggerEntry {
+  id: { $t: string }
+  title: { $t: string }
+  content: { $t: string }
+  published: { $t: string }
+  category?: Array<{ term: string }>
+  media$thumbnail?: { url: string }
+}
+
+interface BloggerResponse {
+  feed: {
+    entry?: BloggerEntry[]
+  }
+}
+
 // Enhanced thumbnail function to get higher resolution images
 const getEnhancedThumbnail = (thumbnail: string): string => {
   if (!thumbnail) return thumbnail
@@ -46,6 +61,87 @@ const generateBlurDataURL = (color = '#f3f4f6') => {
   return "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
 }
 
+// Helper function to create slug from title
+const createSlug = (title: string): string => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .trim()
+}
+
+// Helper function to extract song metadata from Blogger entry
+const extractSongData = (entry: BloggerEntry) => {
+  const title = entry.title?.$t || ''
+  
+  // Extract metadata from categories
+  const songCategory = entry.category?.find((cat) => 
+    cat.term?.startsWith('Song:')
+  )
+  const movieCategory = entry.category?.find((cat) => 
+    cat.term?.startsWith('Movie:')
+  )
+  const singerCategory = entry.category?.find((cat) => 
+    cat.term?.startsWith('Singer:')
+  )
+  const lyricsCategory = entry.category?.find((cat) => 
+    cat.term?.startsWith('Lyrics:')
+  )
+
+  const songTitle = songCategory ? songCategory.term.replace('Song:', '') : title
+  const movieName = movieCategory?.term?.replace('Movie:', '') || ''
+  const singerName = singerCategory?.term?.replace('Singer:', '') || ''
+  const lyricistName = lyricsCategory?.term?.replace('Lyrics:', '') || ''
+  
+  return {
+    songTitle,
+    movieName,
+    singerName,
+    lyricistName
+  }
+}
+
+// Helper function to get thumbnail URL
+const getThumbnail = (entry: BloggerEntry): string | null => {
+  if (entry.media$thumbnail && entry.media$thumbnail.url) {
+    let imageUrl = decodeURIComponent(entry.media$thumbnail.url)
+    imageUrl = imageUrl.replace(/\/s\d+-c\//, '/s400-c/')
+    return imageUrl
+  }
+  return null
+}
+
+// Process Blogger API response into CategoryData format
+const processBloggerResponse = (data: BloggerResponse, categoryTerm: string): CategoryData => {
+  const entries = data.feed?.entry || []
+  
+  const songs = entries.map((entry) => {
+    const metadata = extractSongData(entry)
+    const thumbnail = getThumbnail(entry)
+    const slug = createSlug(entry.title?.$t || metadata.songTitle || '')
+    
+    return {
+      id: entry.id.$t,
+      title: entry.title?.$t || metadata.songTitle,
+      slug: slug,
+      thumbnail: thumbnail,
+      movieName: metadata.movieName,
+      singerName: metadata.singerName,
+      lyricistName: metadata.lyricistName,
+      published: entry.published.$t,
+      category: entry.category,
+      excerpt: entry.content?.$t?.replace(/<[^>]*>/g, '').substring(0, 150) + '...' || ''
+    }
+  })
+  
+  return {
+    category: categoryTerm,
+    songs: songs,
+    total: songs.length
+  }
+}
+
 function CategoryPageContent() {
   const searchParams = useSearchParams()
   const category = searchParams.get('category')
@@ -64,14 +160,22 @@ function CategoryPageContent() {
     const fetchCategoryData = async () => {
       try {
         setLoading(true)
-        const response = await fetch(`/api/category?category=${encodeURIComponent(category)}`)
+        
+        // Fetch directly from Blogger API via Vercel proxy
+        // This reduces CPU usage and function invocations by calling from browser
+        const response = await fetch(
+          `/api/proxy/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=50`
+        )
         
         if (!response.ok) {
           throw new Error('Failed to fetch category data')
         }
         
-        const data = await response.json()
-        setCategoryData(data)
+        const bloggerData: BloggerResponse = await response.json()
+        
+        // Process the Blogger API response on client-side
+        const processedData = processBloggerResponse(bloggerData, category)
+        setCategoryData(processedData)
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load category')
       } finally {
