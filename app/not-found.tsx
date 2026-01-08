@@ -1,12 +1,6 @@
 import Link from 'next/link'
-import NotFoundSuggestions from '@/components/NotFoundSuggestions'
 
 export default function NotFound() {
-  // For 404 pages, we cannot reliably get the pathname from headers
-  // because not-found.tsx is a special Next.js file that doesn't have access to dynamic route params
-  // We'll pass undefined and let the component show popular posts
-  const slug = undefined
-
   return (
     <div className="min-h-screen bg-white px-4 py-12">
       <div className="max-w-6xl mx-auto">
@@ -20,12 +14,9 @@ export default function NotFound() {
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             We couldn&apos;t find the song lyrics you&apos;re looking for. The song might have been moved, 
-            renamed, or doesn&apos;t exist yet. Check out these suggestions below!
+            renamed, or doesn&apos;t exist yet.
           </p>
         </div>
-
-        {/* Smart Suggestions */}
-        <NotFoundSuggestions searchSlug={slug} />
 
         {/* Action Button */}
         <div className="mt-12 flex justify-center items-center">

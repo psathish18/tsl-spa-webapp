@@ -66,11 +66,11 @@ async function searchSongs(keywords: string[], limit: number = 6): Promise<Song[
 async function getPopularPosts(limit: number = 12): Promise<Song[]> {
   try {
     const data = await cachedBloggerFetch(
-      `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=${limit + 5}`,
+      `https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json&max-results=10`,
       {
         next: {
           revalidate: REVALIDATE_POPULAR_POSTS, // Cache for 1 hour
-          tags: ['popular-posts']
+          tags: ['songs-latest']
         }
       }
     )

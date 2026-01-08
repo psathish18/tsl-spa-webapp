@@ -223,6 +223,7 @@ export default function SearchPage() {
 
     return (
       <Link
+      prefetch={false}
         key={song.id.$t}
         href={`/${slug}.html`}
         onClick={() => handleSongClick(title)}
@@ -356,6 +357,7 @@ export default function SearchPage() {
                 <div className="divide-y divide-gray-100 dark:divide-gray-700">
                   {trendingPosts.slice(0, 10).map((post, index) => (
                     <Link
+                    prefetch={false}
                       key={post.url}
                       href={post.url}
                       className="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 dark:hover:bg-gray-700/50 transition-colors group"

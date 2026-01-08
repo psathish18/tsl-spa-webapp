@@ -130,10 +130,10 @@ async function getSongData(slug: string): Promise<Song | null> {
     .replace(/[\s_]+/g, '-') // Convert spaces and underscores to single hyphen
     .replace(/-+/g, '-') // Clean up multiple hyphens
     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
-    console.log("Clean slug after processing:", JSON.stringify(cleanSlug));
+    // console.log("Clean slug after processing:", JSON.stringify(cleanSlug));
     // convert to camel case for logging replacing hyphens with spaces and capitalizing each word
     const camelCaseTitle = cleanSlug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-    console.log("Clean slug to title :", camelCaseTitle);
+    // console.log("Clean slug to title :", camelCaseTitle);
 
   // Skip in-memory cache in development to always fetch fresh data
   const isDev = process.env.NODE_ENV === 'development';
@@ -142,7 +142,7 @@ async function getSongData(slug: string): Promise<Song | null> {
   }
   const fetchPromise = (async () => {
     try {
-      console.log(`Fetching song data for slug: ${cleanSlug}`);
+      // console.log(`Fetching song data for slug: ${cleanSlug}`);
       // Use direct Blogger search API to find older songs
       const searchTerms = cleanSlug.replace(/-/g, ' ');
       // Use date-based cached fetch - direct Blogger API call
@@ -201,7 +201,7 @@ async function getSongData(slug: string): Promise<Song | null> {
         singerName: singerCategory?.term?.replace('Singer:', '') || '',
         lyricistName: lyricsCategory?.term?.replace('Lyrics:', '') || '',
       } as Song;
-      console.log(`Found song: ${processedSong.title?.$t}`);
+      // console.log(`Found song: ${processedSong.title?.$t}`);
       return processedSong;
     } catch (error) {
       console.error('Error fetching song data:', error);
@@ -226,7 +226,7 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
   
   const fetchPromise = (async () => {
     try {
-      console.log(`Fetching Tamil lyrics for: ${songCategory}`);
+      // console.log(`Fetching Tamil lyrics for: ${songCategory}`);
       // Search in Tamil blogger site using the Song: category
       const data = await cachedBloggerFetch(
         `https://tsonglyricsapptamil.blogspot.com/feeds/posts/default/-/${encodeURIComponent(songCategory)}?alt=json&max-results=5`,
@@ -251,7 +251,7 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
       
       // Return the first matching entry
       const tamilSong = entries[0];
-      console.log(`Found Tamil lyrics: ${tamilSong.title?.$t}`);
+      // console.log(`Found Tamil lyrics: ${tamilSong.title?.$t}`);
       return tamilSong as Song;
     } catch (error) {
       console.error('Error fetching Tamil lyrics:', error);
@@ -461,6 +461,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 return (
                   <Link
                     key={index}
+                    prefetch={false}
                     href={`/category?category=${encodeURIComponent(term)}`}
                     className={`category-pill ${bgColor} ${textColor} text-sm px-3 py-1 rounded-full font-medium ${hoverColor} transition-colors`}
                   >
@@ -503,7 +504,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               "publisher": {
                 "@type": "Organization",
                 "name": "Tamil Song Lyrics",
-                "url": "https://tsonglyrics.com"
+                "url": "https://www.tsonglyrics.com"
               },
               "mainEntity": {
                 "@type": "CreativeWork",

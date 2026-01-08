@@ -370,21 +370,16 @@ export async function cachedBloggerFetch(
   const isCategoryRequest = url.includes('max-results=0')
   
   if (data.feed) {
-    const originalSize = JSON.stringify(data.feed).length
     
     if (!isCategoryRequest) {
       // For regular requests: only keep feed.entry, remove everything else
       const entries = data.feed.entry
       data.feed = { entry: entries } as any
       
-      const newSize = JSON.stringify(data.feed).length
-      const saved = originalSize - newSize
-      console.log(`🗑️ Removed feed metadata: ${(saved / 1024).toFixed(1)}KB saved (${((saved / originalSize) * 100).toFixed(0)}% reduction)`)
     } else {
       // For category requests (max-results=0): only keep feed.category
       const categories = (data.feed as any).category
       data.feed = { category: categories } as any
-      console.log(`📋 Keeping ${categories?.length || 0} categories for autocomplete`)
     }
   }
   

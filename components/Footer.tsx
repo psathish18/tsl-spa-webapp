@@ -44,22 +44,22 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/" className="text-gray-400 hover:text-white transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/latest" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/latest" className="text-gray-400 hover:text-white transition-colors">
                   Latest Songs
                 </Link>
               </li>
               <li>
-                <Link href="/popular" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/popular" className="text-gray-400 hover:text-white transition-colors">
                   Popular Songs
                 </Link>
               </li>
               <li>
-                <Link href="/artists" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/artists" className="text-gray-400 hover:text-white transition-colors">
                   Artists
                 </Link>
               </li>
@@ -71,22 +71,22 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/about" className="text-gray-400 hover:text-white transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/contact" className="text-gray-400 hover:text-white transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/privacy" className="text-gray-400 hover:text-white transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
+                <Link prefetch={false} href="/terms" className="text-gray-400 hover:text-white transition-colors">
                   Terms of Service
                 </Link>
               </li>

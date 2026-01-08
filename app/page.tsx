@@ -40,7 +40,7 @@ async function getSongs(): Promise<Song[]> {
       {
         next: {
           revalidate: REVALIDATE_BLOGGER_FETCH, // Match page revalidation - 30 days
-          tags: ['songs-latest', 'homepage']
+          tags: ['songs-latest']
         }
       }
     );

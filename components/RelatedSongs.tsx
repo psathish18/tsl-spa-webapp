@@ -28,7 +28,7 @@ function getCleanTitle(song: Song): string {
 async function fetchSongsByCategory(category: string, currentSongId: string, limit: number = 6): Promise<Song[]> {
   try {
     const data = await cachedBloggerFetch(
-      `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=${limit + 5}`,
+      `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=50`,
       {
         next: {
           revalidate: REVALIDATE_RELATED_SONGS, // Match page revalidation - 30 days
@@ -81,6 +81,7 @@ export default async function RelatedSongs({ currentSongId, categories }: Relate
           <h3 className="text-2xl font-bold text-gray-900">{title}</h3>
           {categoryTerm && songs.length >= 6 && (
             <Link
+              prefetch={false}
               href={`/category?category=${encodeURIComponent(categoryTerm)}`}
               className="text-blue-600 hover:text-blue-700 text-sm font-medium"
             >
@@ -97,6 +98,7 @@ export default async function RelatedSongs({ currentSongId, categories }: Relate
 
             return (
               <Link
+                prefetch={false}
                 key={song.id.$t}
                 href={`/${slug}.html`}
                 className="group block bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden"
@@ -133,6 +135,7 @@ export default async function RelatedSongs({ currentSongId, categories }: Relate
         <h3 className="text-2xl font-bold text-gray-900 mb-6">More Tamil Song Lyrics</h3>
         <div className="text-center py-8">
           <Link 
+          prefetch={false}
             href="/"
             className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
           >
