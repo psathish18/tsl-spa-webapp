@@ -21,7 +21,8 @@ import {
   extractSnippet,
   getMeaningfulLabels,
   generateSongDescription,
-  formatSEOTitle
+  formatSEOTitle,
+  SONG_DESCRIPTION_SNIPPET_LENGTH
 } from '@/lib/seoUtils'
 // Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
 const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const labels = getMeaningfulLabels(song.category)
   
   // Get a snippet from the lyrics content
-  const snippet = extractSnippet(stripImagesFromHtml(content), 100)
+  const snippet = extractSnippet(stripImagesFromHtml(content), SONG_DESCRIPTION_SNIPPET_LENGTH)
   
   // Generate SEO-optimized description
   const description = generateSongDescription({

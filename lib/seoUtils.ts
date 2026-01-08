@@ -3,6 +3,16 @@
  * Helpers for generating optimized metadata for song and category pages
  */
 
+// Constants for snippet extraction
+const SENTENCE_BOUNDARY_BUFFER = 20; // Extra chars to look for sentence boundaries
+const MIN_SENTENCE_LENGTH = 80; // Minimum length for a complete sentence to use
+
+/**
+ * Maximum snippet length to use in song descriptions
+ * Exported for use in song page metadata generation
+ */
+export const SONG_DESCRIPTION_SNIPPET_LENGTH = 100;
+
 /**
  * Extract a clean snippet from lyrics content for meta descriptions
  * Returns the first stanza/paragraph, cleaned and truncated to optimal length
@@ -25,11 +35,11 @@ export function extractSnippet(content: string, maxLength: number = 155): string
   
   // Find the first natural break (period, newline, or double space) near maxLength
   const firstPeriod = text.indexOf('.', 0);
-  const firstSentence = firstPeriod > 0 && firstPeriod <= maxLength + 20 
+  const firstSentence = firstPeriod > 0 && firstPeriod <= maxLength + SENTENCE_BOUNDARY_BUFFER
     ? text.substring(0, firstPeriod + 1) 
     : null;
   
-  if (firstSentence && firstSentence.length >= 80) {
+  if (firstSentence && firstSentence.length >= MIN_SENTENCE_LENGTH) {
     return firstSentence;
   }
   
