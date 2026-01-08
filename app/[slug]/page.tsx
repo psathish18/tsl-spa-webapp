@@ -17,6 +17,12 @@ import {
   STANZA_SEPARATOR,
   DEFAULT_SANITIZE_OPTIONS
 } from '@/lib/lyricsUtils'
+import {
+  extractSnippet,
+  getMeaningfulLabels,
+  generateSongDescription,
+  formatSEOTitle
+} from '@/lib/seoUtils'
 // Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
 const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
 // Client stanza renderer (client-only, interactive share buttons)
@@ -34,17 +40,75 @@ export const revalidate = REVALIDATE_SONG_PAGE
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const song = await getSongData(params.slug)
-  const title = song ? getSongTitle(song) : 'Tamil Song Lyrics'
+  
+  if (!song) {
+    return {
+      title: 'Song Not Found - Tamil Song Lyrics',
+      description: 'The requested song lyrics could not be found. Browse our collection of latest Tamil song lyrics.',
+    }
+  }
+  
+  const title = getSongTitle(song)
+  const content = song.content?.$t || ''
+  
+  // Extract meaningful labels from categories
+  const labels = getMeaningfulLabels(song.category)
+  
+  // Get a snippet from the lyrics content
+  const snippet = extractSnippet(stripImagesFromHtml(content), 100)
+  
+  // Generate SEO-optimized description
+  const description = generateSongDescription({
+    title,
+    snippet,
+    movie: labels.movie,
+    singer: labels.singer,
+    lyricist: labels.lyricist
+  })
   
   // Ensure slug has .html extension for canonical URL
   const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
   const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
   
+  // Build keywords from categories
+  const keywords = song.category
+    ?.filter(cat => !cat.term.startsWith('Song:'))
+    .map(cat => cat.term.replace(/^[^:]*:/, '').trim())
+    .filter(Boolean)
+    .join(', ') || 'Tamil song lyrics'
+  
   return {
     title,
+    description,
+    keywords: `${keywords}, Tamil lyrics, Tamil songs`,
     alternates: {
       canonical: canonicalUrl,
     },
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      url: canonicalUrl,
+      siteName: 'Tamil Song Lyrics',
+      ...(song.media$thumbnail?.url && {
+        images: [
+          {
+            url: song.media$thumbnail.url.replace(/\/s\d+-c\//, '/s400-c/'),
+            width: 400,
+            height: 400,
+            alt: title,
+          }
+        ]
+      })
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+      ...(song.media$thumbnail?.url && {
+        images: [song.media$thumbnail.url.replace(/\/s\d+-c\//, '/s400-c/')]
+      })
+    }
   }
 }
 
