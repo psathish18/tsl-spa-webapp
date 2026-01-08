@@ -4,6 +4,7 @@ import { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useSearchParams } from 'next/navigation'
+import { cleanCategoryLabel, generateSEOTitle, generateCategoryDescription } from '@/lib/seoUtils'
 
 interface Song {
   id: string
@@ -221,7 +222,9 @@ function CategoryPageContent() {
   useEffect(() => {
     if (categoryData && typeof document !== 'undefined') {
       try {
-        document.title = `${categoryData.category} - Songs Lyrics`
+        const cleanLabel = cleanCategoryLabel(categoryData.category)
+        const seoTitle = generateSEOTitle(cleanLabel, categoryData.category)
+        document.title = seoTitle
       } catch (e) {
         // ignore in non-browser environments
       }
@@ -267,16 +270,16 @@ function CategoryPageContent() {
           <ol className="flex items-center space-x-2 text-gray-500">
             <li><Link href="/" className="hover:text-blue-600">Home</Link></li>
             <li>•</li>
-            <li><span className="text-gray-900">Category: {categoryData.category}</span></li>
+            <li><span className="text-gray-900">{cleanCategoryLabel(categoryData.category)}</span></li>
           </ol>
         </nav>
         
         <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-          {categoryData.category}
+          {generateSEOTitle(cleanCategoryLabel(categoryData.category), categoryData.category)}
         </h1>
         
-        <p className="text-gray-600">
-          {categoryData.total} song{categoryData.total !== 1 ? 's' : ''} found in this category
+        <p className="text-gray-600 mb-2">
+          {generateCategoryDescription(categoryData.category)}
         </p>
       </div>
 

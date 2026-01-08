@@ -64,9 +64,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     snippet,
     movie: labels.movie,
     singer: labels.singer,
-    lyricist: labels.lyricist
+    lyricist: labels.lyricist,
+    music: labels.music,
+    actor: labels.actor
   })
   
+  console.log("description", description)
   // Ensure slug has .html extension for canonical URL
   const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
   const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
@@ -409,13 +412,31 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Extract clean data for display - use shared title function
   const fullTitle = getSongTitle(song)
   const cleanTitle = fullTitle
-  const movieName = song.movieName || ''
-  const singerName = song.singerName || song.author?.[0]?.name?.$t || 'Unknown Artist'
-  const lyricistName = song.lyricistName || ''
   const content = song.content?.$t || ''
   const publishedDate = song.published?.$t ? new Date(song.published.$t) : null
 
   const safeContent = stripImagesFromHtml(content)
+  
+  // Extract meaningful labels for structured data (same as metadata)
+  const labels = getMeaningfulLabels(song.category)
+  const movieName = labels.movie || song.movieName || ''
+  const singerName = labels.singer || song.singerName || song.author?.[0]?.name?.$t || 'Unknown Artist'
+  const lyricistName = labels.lyricist || song.lyricistName || ''
+  const musicName = labels.music || ''
+  
+  // Get lyrics snippet for structured data description (same as metadata)
+  const lyricsSnippet = extractSnippet(safeContent, SONG_DESCRIPTION_SNIPPET_LENGTH)
+  
+  // Generate SEO-optimized description for structured data
+  const structuredDescription = generateSongDescription({
+    title: cleanTitle,
+    snippet: lyricsSnippet,
+    movie: movieName,
+    singer: singerName,
+    lyricist: lyricistName,
+    music: musicName,
+    actor: labels.actor
+  })
 
   // Check if song has EnglishTranslation category - skip stanza splitting if true
   const hasEnglishTranslation = song.category?.some((cat: any) => 
@@ -546,7 +567,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               "@context": "https://schema.org",
               "@type": "MusicRecording",
               "name": cleanTitle,
-              "description": `Tamil lyrics for ${cleanTitle} ${movieName ? ` from ${movieName} movie` : ''}`,
+              "description": structuredDescription,
               "inLanguage": "ta",
               "genre": "Tamil Music",
               ...(movieName && {
@@ -555,14 +576,22 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   "name": movieName
                 }
               }),
-              "byArtist": {
-                "@type": "Person",
-                "name": singerName
-              },
+              ...(singerName && singerName !== 'Unknown Artist' && {
+                "byArtist": {
+                  "@type": "Person",
+                  "name": singerName
+                }
+              }),
               ...(lyricistName && {
                 "lyricist": {
                   "@type": "Person", 
                   "name": lyricistName
+                }
+              }),
+              ...(musicName && {
+                "composer": {
+                  "@type": "Person",
+                  "name": musicName
                 }
               }),
               "datePublished": song.published?.$t,
@@ -573,8 +602,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               },
               "mainEntity": {
                 "@type": "CreativeWork",
-                "name": `${cleanTitle}`,
-                "text": content.replace(/<[^>]*>/g, ''), // Remove HTML tags for schema
+                "name": cleanTitle,
+                "text": lyricsSnippet,
                 "inLanguage": "ta"
               }
             })

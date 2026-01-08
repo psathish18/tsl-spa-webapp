@@ -1,12 +1,7 @@
 import { Metadata } from 'next'
 import { Suspense } from 'react'
 import CategoryPageClient from './CategoryPageClient'
-import { cachedBloggerFetch } from '@/lib/dateBasedCache'
-import { REVALIDATE_CATEGORY_API } from '@/lib/cacheConfig'
-import { generateCategoryDescription, cleanCategoryLabel } from '@/lib/seoUtils'
-
-// Enable ISR for category pages
-export const revalidate = REVALIDATE_CATEGORY_API
+import { generateCategoryDescription, cleanCategoryLabel, generateSEOTitle } from '@/lib/seoUtils'
 
 // Server-side metadata generation for better SEO
 export async function generateMetadata({ 
@@ -23,54 +18,39 @@ export async function generateMetadata({
     }
   }
   
-  try {
-    // Fetch category data to get accurate count
-    const data = await cachedBloggerFetch(
-      `https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/${encodeURIComponent(category)}?alt=json&max-results=50`,
-      {
-        next: {
-          revalidate: REVALIDATE_CATEGORY_API,
-          tags: [`category-meta-${category}`]
-        }
-      }
-    )
-    
-    const songCount = data.feed?.entry?.length || 0
-    const cleanLabel = cleanCategoryLabel(category)
-    
-    // Generate title and description
-    const title = `${cleanLabel} - Tamil Song Lyrics`
-    const description = generateCategoryDescription(category, songCount)
-    
-    // Build keywords
-    const keywords = `${cleanLabel}, Tamil songs, Tamil lyrics, ${category.match(/^Movie:/i) ? 'movie songs' : category.match(/^Singer:/i) ? 'singer songs' : 'Tamil music'}`
-    
-    return {
-      title,
+  const cleanLabel = cleanCategoryLabel(category)
+  
+  const seoTitle = generateSEOTitle(cleanLabel, category)
+  // Generate description without song count (client will fetch actual data)
+  const description = generateCategoryDescription(category)
+  
+  // Build keywords based on category type
+  const categoryType = category.match(/^Movie:/i) ? 'movie songs' 
+    : category.match(/^Singer:/i) ? 'singer songs'
+    : category.match(/^Lyricist:/i) ? 'lyricist songs'
+    : category.match(/^Music:/i) ? 'music director songs'
+    : 'Tamil music'
+  
+  const keywords = `${cleanLabel}, Tamil songs, Tamil lyrics, ${categoryType}`
+  
+  return {
+    title: seoTitle,
+    description,
+    keywords,
+    alternates: {
+      canonical: `https://www.tsonglyrics.com/category?category=${encodeURIComponent(category)}`,
+    },
+    openGraph: {
+      title: seoTitle,
       description,
-      keywords,
-      alternates: {
-        canonical: `https://www.tsonglyrics.com/category?category=${encodeURIComponent(category)}`,
-      },
-      openGraph: {
-        title,
-        description,
-        type: 'website',
-        url: `https://www.tsonglyrics.com/category?category=${encodeURIComponent(category)}`,
-        siteName: 'Tamil Song Lyrics',
-      },
-      twitter: {
-        card: 'summary',
-        title,
-        description,
-      }
-    }
-  } catch (error) {
-    console.error('Error generating category metadata:', error)
-    const cleanLabel = cleanCategoryLabel(category)
-    return {
-      title: `${cleanLabel} - Tamil Song Lyrics`,
-      description: `Browse Tamil song lyrics in ${cleanLabel} category.`,
+      type: 'website',
+      url: `https://www.tsonglyrics.com/category?category=${encodeURIComponent(category)}`,
+      siteName: 'Tamil Song Lyrics',
+    },
+    twitter: {
+      card: 'summary',
+      title: seoTitle,
+      description,
     }
   }
 }

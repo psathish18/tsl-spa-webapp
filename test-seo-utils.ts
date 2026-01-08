@@ -95,7 +95,7 @@ const categoryTests = [
 ]
 
 categoryTests.forEach(test => {
-  const desc = generateCategoryDescription(test.term, test.count)
+  const desc = generateCategoryDescription(test.term)
   console.log(`  ${test.term} (${test.count} songs):`)
   console.log(`    ${desc}`)
   console.log(`    Length: ${desc.length} chars`)

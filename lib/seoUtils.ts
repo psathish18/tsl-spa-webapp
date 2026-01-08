@@ -62,7 +62,7 @@ export function cleanCategoryLabel(label: string): string {
   
   // Remove common prefixes
   return label
-    .replace(/^(Movie|Song|Singer|Lyrics|Lyricist|Music|OldMusic|OldSong):\s*/i, '')
+    .replace(/^(Movie|Song|Singer|Lyrics|Lyricist|Music|MovieMusic|OldMusic|OldSong|Actor):\s*/i, '')
     .trim();
 }
 
@@ -75,21 +75,24 @@ export function getMeaningfulLabels(categories: Array<{ term: string }> | undefi
   singer: string;
   lyricist: string;
   music: string;
+  actor: string
 } {
   if (!categories) {
-    return { movie: '', singer: '', lyricist: '', music: '' };
+    return { movie: '', singer: '', lyricist: '', music: '', actor: '' };
   }
   
   const movieCat = categories.find(cat => cat.term?.match(/^Movie:/i));
   const singerCat = categories.find(cat => cat.term?.match(/^Singer:/i));
   const lyricistCat = categories.find(cat => cat.term?.match(/^(Lyrics|Lyricist):/i));
   const musicCat = categories.find(cat => cat.term?.match(/^(Music|OldMusic):/i));
+  const actorCat = categories.find(cat => cat.term?.match(/^Actor:/i));
   
   return {
     movie: movieCat ? cleanCategoryLabel(movieCat.term) : '',
     singer: singerCat ? cleanCategoryLabel(singerCat.term) : '',
     lyricist: lyricistCat ? cleanCategoryLabel(lyricistCat.term) : '',
     music: musicCat ? cleanCategoryLabel(musicCat.term) : '',
+    actor: actorCat ? cleanCategoryLabel(actorCat.term) : ''
   };
 }
 
@@ -102,27 +105,37 @@ export function generateSongDescription(params: {
   movie?: string;
   singer?: string;
   lyricist?: string;
+  music?:string;
+  actor?:string;
 }): string {
-  const { title, snippet, movie, singer, lyricist } = params;
+  const { title, snippet, movie, singer, lyricist, music, actor } = params;
   
   // Build a natural-sounding description
   const parts: string[] = [];
   
   // Start with the title
-  const cleanTitle = cleanCategoryLabel(title).replace(/\s+lyrics$/i, '').trim();
-  parts.push(cleanTitle);
+  // const cleanTitle = cleanCategoryLabel(title).replace(/\s+lyrics$/i, '').trim();
+  parts.push("Get the complete " + title);
   
   // Add context
   if (movie) {
-    parts.push(`from ${movie}`);
+    parts.push(`from ${actor ? actor + "'s " : ''}${movie}.`);
+  }
+  
+  if (lyricist) {
+    parts.push(`Read the lyrics penned by ${lyricist} and`);
+  }
+
+  if (music) {
+    parts.push(`composed by ${music} and`);
   }
   
   if (singer) {
-    parts.push(`sung by ${singer}`);
+    parts.push(`sung by ${singer}.`);
   }
   
   // Add lyrics keyword
-  parts.push('lyrics');
+  parts.push('Perfect for fans looking for the full Tamil text and song meaning');
   
   // Add snippet if we have room
   const baseDesc = parts.join(' ') + '.';
@@ -141,22 +154,25 @@ export function generateSongDescription(params: {
 /**
  * Generate SEO-optimized description for category page
  */
-export function generateCategoryDescription(categoryTerm: string, songCount: number): string {
+export function generateCategoryDescription(categoryTerm: string): string {
   const cleanLabel = cleanCategoryLabel(categoryTerm);
   
-  // Detect category type and generate appropriate description
   if (categoryTerm.match(/^Movie:/i)) {
-    return `Browse all ${songCount} song${songCount !== 1 ? 's' : ''} from ${cleanLabel} movie. Read Tamil lyrics and enjoy the music from this film.`;
-  } else if (categoryTerm.match(/^Singer:/i)) {
-    return `Explore ${songCount} song${songCount !== 1 ? 's' : ''} sung by ${cleanLabel}. Discover Tamil song lyrics performed by this talented artist.`;
-  } else if (categoryTerm.match(/^(Lyrics|Lyricist):/i)) {
-    return `View ${songCount} song${songCount !== 1 ? 's' : ''} written by ${cleanLabel}. Read beautiful Tamil lyrics penned by this lyricist.`;
-  } else if (categoryTerm.match(/^(Music|OldMusic):/i)) {
-    return `Listen to ${songCount} song${songCount !== 1 ? 's' : ''} composed by ${cleanLabel}. Enjoy Tamil music and lyrics from this music director.`;
-  }
-  
-  // Generic fallback
-  return `Browse ${songCount} Tamil song${songCount !== 1 ? 's' : ''} in ${cleanLabel} category. Read lyrics and discover new music.`;
+  // Focus: Completeness and the specific movie name
+  return `Explore full ${cleanLabel} songs lyrics in Tamil. Get all song lyrics, singer credits, and music details from this hit movie.`;
+} else if (categoryTerm.match(/^Singer:/i)) {
+  // Focus: Fan discovery and collection
+  return `Best of ${cleanLabel} Tamil songs lyrics collection. Browse and read the complete lyrics of hit songs performed by singer ${cleanLabel}.`;
+} else if (categoryTerm.match(/^(Lyrics|Lyricist):/i)) {
+  // Focus: Artistry and poetic value
+  return `Read all Tamil song lyrics penned by ${cleanLabel}. Discover the deep meaning and powerful verses of hit songs written by lyricist ${cleanLabel}.`;
+} else if (categoryTerm.match(/^(Music|OldMusic):/i)) {
+  // Focus: The composer's brand
+  return `Complete collection of Tamil song lyrics composed by ${cleanLabel}. Read the lyrics of your favorite hits from this legendary music director.`;
+}
+
+// Generic fallback - Cleaner and more professional
+return `Browse the latest ${cleanLabel} Tamil song lyrics. Read, sing along, and explore full lyrics from the ${cleanLabel} category on our site.`;
 }
 
 /**
@@ -172,4 +188,23 @@ export function formatSEOTitle(title: string): string {
   
   // Otherwise, append "Lyrics"
   return `${title} Lyrics`;
+}
+
+export function generateSEOTitle(cleanLabel:string, categoryTerm: string): string {
+  if (categoryTerm.match(/^Movie:/i)) {
+  // Focus: Movie name + "Tamil Songs Lyrics"
+  return `${cleanLabel} Tamil Songs Lyrics | Full Movie Song Lyrics`;
+} else if (categoryTerm.match(/^Singer:/i)) {
+  // Focus: Singer name + "Hit Songs"
+  return `${cleanLabel} Hit Tamil Songs Lyrics | Best Songs of ${cleanLabel}`;
+} else if (categoryTerm.match(/^(Lyrics|Lyricist):/i)) {
+  // Focus: Lyricist name + "All Songs"
+  return `Tamil Songs Written by ${cleanLabel} | All Song Lyrics`;
+} else if (categoryTerm.match(/^(Music|OldMusic):/i)) {
+  // Focus: Composer name + "Music Director"
+  return `${cleanLabel} Musical Hits - Tamil Song Lyrics | ${cleanLabel} Compositions`;
+}
+
+// Generic fallback
+return `${cleanLabel} Tamil Song Lyrics Collection`;
 }
