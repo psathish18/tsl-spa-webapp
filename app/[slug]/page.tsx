@@ -24,6 +24,8 @@ import {
   formatSEOTitle,
   SONG_DESCRIPTION_SNIPPET_LENGTH
 } from '@/lib/seoUtils'
+import { fetchFromBlob } from '@/lib/blobStorage'
+import type { SongBlobData } from '@/scripts/types/song-blob.types'
 // Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
 const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
 // Client stanza renderer (client-only, interactive share buttons)
@@ -40,7 +42,7 @@ export const revalidate = REVALIDATE_SONG_PAGE
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const song = await getSongData(params.slug)
+  const { song, fromBlob, blobData } = await getSongDataWithBlobPriority(params.slug)
   
   if (!song) {
     return {
@@ -49,6 +51,47 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     }
   }
   
+  // If data is from blob, use the optimized SEO metadata
+  if (fromBlob && blobData) {
+    const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
+    const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+    
+    return {
+      title: blobData.seo.title,
+      description: blobData.seo.description,
+      keywords: `${blobData.seo.keywords}, Tamil lyrics, Tamil songs`,
+      alternates: {
+        canonical: canonicalUrl,
+      },
+      openGraph: {
+        title: blobData.seo.title,
+        description: blobData.seo.description,
+        type: 'article',
+        url: canonicalUrl,
+        siteName: 'Tamil Song Lyrics',
+        ...(blobData.thumbnail && {
+          images: [
+            {
+              url: blobData.thumbnail.replace(/\/s\d+-c\//, '/s400-c/'),
+              width: 400,
+              height: 400,
+              alt: blobData.title,
+            }
+          ]
+        })
+      },
+      twitter: {
+        card: 'summary',
+        title: blobData.seo.title,
+        description: blobData.seo.description,
+        ...(blobData.thumbnail && {
+          images: [blobData.thumbnail.replace(/\/s\d+-c\//, '/s400-c/')]
+        })
+      }
+    }
+  }
+  
+  // Fallback: Use Blogger data (existing implementation)
   const title = getSongTitle(song)
   const content = song.content?.$t || ''
   
@@ -186,6 +229,54 @@ if (typeof global !== 'undefined') {
       tamilLyricsPromiseMap.clear();
     }
   }, 5 * 60 * 1000); // 5 minutes
+}
+
+/**
+ * Fetch song data with Blob Storage priority
+ * Strategy: Try blob storage first, fallback to Blogger API
+ * This reduces Vercel function invocations and improves performance
+ */
+async function getSongDataWithBlobPriority(slug: string): Promise<{ 
+  song: Song | null, 
+  fromBlob: boolean,
+  blobData?: SongBlobData 
+}> {
+  const cleanSlug = slug.replace('.html', '')
+  
+  // Step 1: Try to fetch from Vercel Blob storage first
+  try {
+    const blobData = await fetchFromBlob(cleanSlug)
+    
+    if (blobData) {
+      console.log(`✅ Using blob data for: ${cleanSlug}`)
+      
+      // Convert blob data to Song format for compatibility
+      // This allows the page to work with both data sources
+      const songFromBlob: Song = {
+        id: { $t: blobData.id },
+        title: { $t: blobData.title },
+        content: { $t: blobData.stanzas.join('<br /><br />') }, // Join stanzas with double line breaks
+        published: { $t: blobData.published },
+        author: [{ name: { $t: 'Tamil Song Lyrics' } }],
+        category: blobData.category.map(cat => ({ term: cat })),
+        media$thumbnail: blobData.thumbnail ? { url: blobData.thumbnail } : undefined,
+        songTitle: blobData.title,
+        movieName: blobData.movieName,
+        singerName: blobData.singerName,
+        lyricistName: blobData.lyricistName,
+      }
+      
+      return { song: songFromBlob, fromBlob: true, blobData }
+    }
+  } catch (error) {
+    console.error('Blob fetch failed, falling back to Blogger:', error)
+  }
+  
+  // Step 2: Fallback to Blogger API (existing implementation)
+  console.log(`📡 Falling back to Blogger API for: ${cleanSlug}`)
+  const bloggerSong = await getSongData(cleanSlug)
+  
+  return { song: bloggerSong, fromBlob: false }
 }
 
 async function getSongData(slug: string): Promise<Song | null> {
@@ -334,8 +425,8 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
 }
 
 export default async function SongDetailsPage({ params }: { params: { slug: string } }) {
-  // Parallel fetch optimization: Get song data and start Tamil lyrics fetch simultaneously
-  const song = await getSongData(params.slug)
+  // Fetch song data with blob storage priority
+  const { song, fromBlob, blobData } = await getSongDataWithBlobPriority(params.slug)
 
   if (!song) {
     // Return custom 404 with smart suggestions based on the slug
@@ -388,7 +479,13 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Fetch Tamil lyrics with timeout - don't block page render for Tamil lyrics
   let tamilSong: Song | null = null;
   let tamilStanzas: string[] = [];
-  if (song.category) {
+  
+  // If data is from blob, use the pre-processed Tamil stanzas
+  if (fromBlob && blobData && blobData.tamilStanzas.length > 0) {
+    console.log(`✅ Using Tamil lyrics from blob: ${blobData.tamilStanzas.length} stanzas`)
+    tamilStanzas = blobData.tamilStanzas
+  } else if (song.category) {
+    // Fallback: Fetch Tamil lyrics from Blogger API (existing implementation)
     const songCat = getSongCategory(song.category);
     if (songCat) {
       // Use Promise.race with timeout to prevent Tamil lyrics from blocking
@@ -443,8 +540,15 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     cat.term && cat.term.toLowerCase().includes('englishtranslation')
   );
 
-  // Split into sanitized stanzas using utility function
-  const stanzas = splitAndSanitizeStanzas(safeContent, sanitizeHtml, hasEnglishTranslation)
+  // Use blob stanzas if available, otherwise split content from Blogger
+  let stanzas: string[] = []
+  if (fromBlob && blobData) {
+    console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
+    stanzas = blobData.stanzas
+  } else {
+    // Fallback: Split into sanitized stanzas using utility function
+    stanzas = splitAndSanitizeStanzas(safeContent, sanitizeHtml, hasEnglishTranslation)
+  }
   // // Debugging: log sizes to help identify empty content issues in production builds
   // try {
   //   console.log('DEBUG: safeContent length =', (safeContent || '').length)
