@@ -216,6 +216,11 @@ function getSongTitle(song: any): string {
 // These maps are cleared after a timeout to prevent stale data in warm serverless containers
 const songDataPromiseMap = new Map<string, Promise<Song | null>>();
 const tamilLyricsPromiseMap = new Map<string, Promise<Song | null>>();
+const blobDataCache = new Map<string, Promise<{ 
+  song: Song | null, 
+  fromBlob: boolean,
+  blobData?: SongBlobData 
+}>>();
 
 // Clear memoization maps after 5 minutes to prevent stale data in production
 if (typeof global !== 'undefined') {
@@ -227,6 +232,10 @@ if (typeof global !== 'undefined') {
     if (tamilLyricsPromiseMap.size > 0) {
       console.log(`Clearing ${tamilLyricsPromiseMap.size} memoized Tamil lyrics promises`);
       tamilLyricsPromiseMap.clear();
+    }
+    if (blobDataCache.size > 0) {
+      console.log(`Clearing ${blobDataCache.size} memoized blob data`);
+      blobDataCache.clear();
     }
   }, 5 * 60 * 1000); // 5 minutes
 }
@@ -243,40 +252,55 @@ async function getSongDataWithBlobPriority(slug: string): Promise<{
 }> {
   const cleanSlug = slug.replace('.html', '')
   
-  // Step 1: Try to fetch from Vercel Blob storage first
-  try {
-    const blobData = await fetchFromBlob(cleanSlug)
-    
-    if (blobData) {
-      console.log(`✅ Using blob data for: ${cleanSlug}`)
-      
-      // Convert blob data to Song format for compatibility
-      // This allows the page to work with both data sources
-      const songFromBlob: Song = {
-        id: { $t: blobData.id },
-        title: { $t: blobData.title },
-        content: { $t: blobData.stanzas.join('<br /><br />') }, // Join stanzas with double line breaks
-        published: { $t: blobData.published },
-        author: [{ name: { $t: 'Tamil Song Lyrics' } }],
-        category: blobData.category.map(cat => ({ term: cat })),
-        media$thumbnail: blobData.thumbnail ? { url: blobData.thumbnail } : undefined,
-        songTitle: blobData.title,
-        movieName: blobData.movieName,
-        singerName: blobData.singerName,
-        lyricistName: blobData.lyricistName,
-      }
-      
-      return { song: songFromBlob, fromBlob: true, blobData }
-    }
-  } catch (error) {
-    console.error('Blob fetch failed, falling back to Blogger:', error)
+  // Check cache first to avoid duplicate fetches
+  const isDev = process.env.NODE_ENV === 'development';
+  if (!isDev && blobDataCache.has(cleanSlug)) {
+    console.log(`✅ Using cached blob data for: ${cleanSlug}`)
+    return blobDataCache.get(cleanSlug)!
   }
   
-  // Step 2: Fallback to Blogger API (existing implementation)
-  console.log(`📡 Falling back to Blogger API for: ${cleanSlug}`)
-  const bloggerSong = await getSongData(cleanSlug)
+  // Create the fetch promise
+  const fetchPromise = (async () => {
+    // Step 1: Try to fetch from Vercel Blob storage first
+    try {
+      const blobData = await fetchFromBlob(cleanSlug)
+      
+      if (blobData) {
+        console.log(`✅ Using blob data for: ${cleanSlug}`)
+        
+        // Convert blob data to Song format for compatibility
+        // This allows the page to work with both data sources
+        const songFromBlob: Song = {
+          id: { $t: blobData.id },
+          title: { $t: blobData.title },
+          content: { $t: blobData.stanzas.join('<br /><br />') }, // Join stanzas with double line breaks
+          published: { $t: blobData.published },
+          author: [{ name: { $t: 'Tamil Song Lyrics' } }],
+          category: blobData.category.map(cat => ({ term: cat })),
+          media$thumbnail: blobData.thumbnail ? { url: blobData.thumbnail } : undefined,
+          songTitle: blobData.title,
+          movieName: blobData.movieName,
+          singerName: blobData.singerName,
+          lyricistName: blobData.lyricistName,
+        }
+        
+        return { song: songFromBlob, fromBlob: true, blobData }
+      }
+    } catch (error) {
+      console.error('❌ Blob fetch failed, falling back to Blogger:', error)
+    }
+    
+    // Step 2: Fallback to Blogger API (existing implementation)
+    console.log(`📡 Falling back to Blogger API for: ${cleanSlug}`)
+    const bloggerSong = await getSongData(cleanSlug)
+    
+    return { song: bloggerSong, fromBlob: false }
+  })()
   
-  return { song: bloggerSong, fromBlob: false }
+  // Cache the promise
+  blobDataCache.set(cleanSlug, fetchPromise)
+  
+  return fetchPromise
 }
 
 async function getSongData(slug: string): Promise<Song | null> {
