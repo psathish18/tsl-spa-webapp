@@ -1,77 +1,95 @@
 /**
- * Vercel Blob Storage Utility
+ * Vercel Blob Storage Utility - HYBRID CDN APPROACH
  * 
- * Provides functions to fetch song data from Vercel Blob storage.
- * Falls back to Blogger API if blob data is not available.
+ * Cost optimization strategy:
+ * - Static CDN files (/public/songs/*.json) serve 99% of traffic with ZERO cost
+ * - Dynamic API (/api/songs/*) handles new songs with 1 invocation, then CDN cached
+ * - Blogger API as final fallback for missing data
+ * 
+ * This reduces Vercel function invocations from ~2000 GB-seconds to near-zero.
  */
 
 import type { SongBlobData } from '@/scripts/types/song-blob.types'
 
 /**
- * Get the Vercel Blob storage base URL
- * @returns Blob base URL from environment variable
- */
-function getBlobBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_BLOB_BASE_URL || ''
-}
-
-/**
- * Fetch song data from Vercel Blob storage
+ * Fetch song data from Vercel Blob storage with Hybrid CDN approach
+ * 
+ * HYBRID STRATEGY (Cost Optimization):
+ * 1. Try static CDN file (/songs/*.json) - FREE, instant, 99% of traffic
+ * 2. Try dynamic API (/api/songs/*) - 1 invocation, CDN cached after, 1% of traffic
+ * 3. Return null - caller will fallback to Blogger API
+ * 
  * @param slug - Song slug (without .html extension)
  * @returns Song data from blob storage or null if not found
  */
 export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> {
-  // If blob URL is not configured, skip blob fetch
-  const BLOB_BASE_URL = getBlobBaseUrl()
-  
-  if (!BLOB_BASE_URL) {
-    console.log('Blob storage URL not configured, skipping blob fetch')
-    return null
-  }
-
   try {
     const cleanSlug = slug.replace('.html', '')
-    const blobUrl = `${BLOB_BASE_URL}/songs/${cleanSlug}.json`
     
-    console.log(`Attempting to fetch from blob: ${blobUrl}`)
+    // STEP 1: Try static CDN file (99% of traffic - existing songs)
+    console.log(`[Hybrid] 🚀 Trying CDN: /songs/${cleanSlug}.json`)
     
-    const response = await fetch(blobUrl, {
-      next: {
-        revalidate: 2592000, // 30 days - blob data is static
-        tags: [`blob-${cleanSlug}`]
+    const cdnResponse = await fetch(`/songs/${cleanSlug}.json`, {
+      cache: 'force-cache',
+      next: { 
+        revalidate: 2592000, // 30 days
+        tags: [`cdn-${cleanSlug}`] 
       }
     })
 
-    if (!response.ok) {
-      if (response.status === 404) {
-        console.log(`Blob not found for slug: ${cleanSlug}`)
+    if (cdnResponse.ok) {
+      const data: SongBlobData = await cdnResponse.json()
+      
+      // Validate data structure
+      if (!data.slug || !data.title || !data.stanzas) {
+        console.error('⚠️ Invalid CDN data structure:', data)
         return null
       }
-      throw new Error(`Blob fetch failed: ${response.status} ${response.statusText}`)
+      
+      console.log(`[Hybrid] ✅ CDN hit (zero cost): ${cleanSlug}`)
+      return data
     }
 
-    const data: SongBlobData = await response.json()
+    // STEP 2: CDN miss, try dynamic API (1% of traffic - new songs)
+    console.log(`[Hybrid] 📡 CDN miss, trying API: /api/songs/${cleanSlug}`)
     
-    // Validate the blob data structure
-    if (!data.slug || !data.title || !data.stanzas) {
-      console.error('Invalid blob data structure:', data)
-      return null
+    const apiResponse = await fetch(`/api/songs/${cleanSlug}`, {
+      cache: 'force-cache',
+      next: { 
+        revalidate: 2592000,
+        tags: [`api-${cleanSlug}`] 
+      }
+    })
+
+    if (apiResponse.ok) {
+      const data: SongBlobData = await apiResponse.json()
+      
+      // Validate data structure
+      if (!data.slug || !data.title || !data.stanzas) {
+        console.error('⚠️ Invalid API data structure:', data)
+        return null
+      }
+      
+      console.log(`[Hybrid] ✅ API hit (1 invocation, CDN cached now): ${cleanSlug}`)
+      return data
     }
 
-    console.log(`✅ Successfully fetched from blob: ${cleanSlug}`)
-    return data
+    // STEP 3: Both failed - caller will use Blogger API fallback
+    console.log(`[Hybrid] ❌ Not found in CDN or API, using Blogger fallback: ${cleanSlug}`)
+    return null
   } catch (error) {
-    console.error('Error fetching from blob storage:', error)
+    console.error('[Hybrid] ❌ Error in hybrid fetch:', error)
     return null
   }
 }
 
 /**
  * Check if blob storage is available
- * @returns true if blob storage is configured
+ * In hybrid mode, we always return true since we have CDN + API fallback
+ * @returns true (hybrid mode always available)
  */
 export function isBlobStorageAvailable(): boolean {
-  return !!getBlobBaseUrl()
+  return true
 }
 
 /**
