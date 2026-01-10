@@ -477,20 +477,19 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   }
 
   // Fetch Tamil lyrics with timeout - don't block page render for Tamil lyrics
-  let tamilSong: Song | null = null;
   let tamilStanzas: string[] = [];
   
-  // If data is from blob, use the pre-processed Tamil stanzas
+  // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
   if (fromBlob && blobData && blobData.tamilStanzas.length > 0) {
-    console.log(`✅ Using Tamil lyrics from blob: ${blobData.tamilStanzas.length} stanzas`)
+    console.log(`✅ Using Tamil lyrics from blob: ${blobData.tamilStanzas.length} stanzas (no API call)`)
     tamilStanzas = blobData.tamilStanzas
   } else if (song.category) {
-    // Fallback: Fetch Tamil lyrics from Blogger API (existing implementation)
+    // Fallback: Fetch Tamil lyrics from Blogger API only if blob data not available
     const songCat = getSongCategory(song.category);
     if (songCat) {
       // Use Promise.race with timeout to prevent Tamil lyrics from blocking
       try {
-        tamilSong = await Promise.race([
+        const tamilSong = await Promise.race([
           getTamilLyrics(songCat),
           new Promise<null>((resolve) => setTimeout(() => resolve(null), 1500)) // 1.5s timeout
         ]);
@@ -564,6 +563,10 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Build hashtag list and item_cat once on the server so we can render share anchors
   const hashtagsStr = buildHashtags(song.category || []);
   const itemCat = getSongCategory(song.category || []) || '';
+
+  // Prepare related songs for structured data (ItemList)
+  // Use blob data if available, otherwise we'll fetch them later but won't include in structured data
+  const relatedSongsForSEO = fromBlob && blobData ? blobData.relatedSongs : [];
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -714,6 +717,74 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }}
         />
         
+        {/* ItemList structured data for related songs */}
+        {relatedSongsForSEO.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "name": `Related Songs ${movieName ? `from ${movieName}` : ''}`,
+                "description": `More Tamil song lyrics${movieName ? ` from the movie ${movieName}` : ''} similar to ${cleanTitle}`,
+                "numberOfItems": relatedSongsForSEO.length,
+                "itemListElement": relatedSongsForSEO.map((relatedSong, index) => ({
+                  "@type": "ListItem",
+                  "position": index + 1,
+                  "item": {
+                    "@type": "MusicRecording",
+                    "name": relatedSong.title,
+                    "url": `https://www.tsonglyrics.com/${relatedSong.slug}.html`,
+                    ...(relatedSong.movieName && {
+                      "inAlbum": {
+                        "@type": "MusicAlbum",
+                        "name": relatedSong.movieName
+                      }
+                    }),
+                    ...(relatedSong.thumbnail && {
+                      "image": relatedSong.thumbnail,
+                      "thumbnailUrl": relatedSong.thumbnail
+                    }),
+                    "inLanguage": "ta",
+                    "genre": "Tamil Music"
+                  }
+                }))
+              })
+            }}
+          />
+        )}
+        
+        {/* BreadcrumbList structured data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.tsonglyrics.com"
+                },
+                ...(movieName ? [{
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": movieName,
+                  "item": `https://www.tsonglyrics.com/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
+                }] : []),
+                {
+                  "@type": "ListItem",
+                  "position": movieName ? 3 : 2,
+                  "name": cleanTitle,
+                  "item": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`
+                }
+              ]
+            })
+          }}
+        />
+        
         {/* Google AdSense - Top of page after title */}
         <div className="my-6">
           <ins 
@@ -844,7 +915,11 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         </div>
 
         {/* Related songs section */}
-        <RelatedSongs currentSongId={song.id.$t} categories={song.category || []} />
+        <RelatedSongs 
+          currentSongId={song.id.$t} 
+          categories={song.category || []} 
+          blobRelatedSongs={fromBlob && blobData ? blobData.relatedSongs : undefined}
+        />
       </article>
     </div>
   )
