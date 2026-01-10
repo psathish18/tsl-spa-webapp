@@ -810,7 +810,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         />
         
         {/* Google AdSense - Top of page after title */}
-        <div className="my-6">
+        {/* <div className="my-6">
           <ins 
             className="adsbygoogle"
             style={{ display: 'block' }}
@@ -830,7 +830,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               `
             }}
           />
-        </div>
+        </div> */}
         
         {/* Lyrics content with tabs */}
         <LyricsTabs
