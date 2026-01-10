@@ -31,7 +31,7 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
 
   try {
     const cleanSlug = slug.replace('.html', '')
-    const blobUrl = `${BLOB_BASE_URL}/${cleanSlug}.json`
+    const blobUrl = `${BLOB_BASE_URL}/songs/${cleanSlug}.json`
     
     console.log(`Attempting to fetch from blob: ${blobUrl}`)
     
