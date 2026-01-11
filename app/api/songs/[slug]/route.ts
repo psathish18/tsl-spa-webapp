@@ -25,6 +25,8 @@ export async function GET(
 
     const blob = blobs[0];
     
+    console.log(`[API] Fetching from blob URL: ${blob.url}`)
+    
     // Fetch the blob data with cache tags for revalidation support
     const response = await fetch(blob.url, {
       next: { 

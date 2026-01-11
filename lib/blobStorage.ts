@@ -61,7 +61,7 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
         return null
       }
       
-      console.log(`[Hybrid] ✅ CDN hit (zero cost): ${cleanSlug}`)
+      // console.log(`[Hybrid] ✅ CDN hit (zero cost): ${cleanSlug}`)
       return data
     }
 

@@ -42,6 +42,7 @@ export const revalidate = REVALIDATE_SONG_PAGE
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  console.log("Raw slug received:", JSON.stringify(params.slug));
   const { song, fromBlob, blobData } = await getSongDataWithBlobPriority(params.slug)
   
   if (!song) {
@@ -255,7 +256,7 @@ async function getSongDataWithBlobPriority(slug: string): Promise<{
   // Check cache first to avoid duplicate fetches
   const isDev = process.env.NODE_ENV === 'development';
   if (!isDev && blobDataCache.has(cleanSlug)) {
-    console.log(`✅ Using cached blob data for: ${cleanSlug}`)
+    // console.log(`✅ Using cached blob data for: ${cleanSlug}`)
     return blobDataCache.get(cleanSlug)!
   }
   
@@ -305,7 +306,6 @@ async function getSongDataWithBlobPriority(slug: string): Promise<{
 
 async function getSongData(slug: string): Promise<Song | null> {
   // Remove .html extension if present
-    console.log("Raw slug received:", JSON.stringify(slug));
   const cleanSlug = slug.replace('.html', '')
     .replace(/[_-]\d+(?=[_-])/g, '_') // Replace _digits_ or -digits- with just _ (preserve separation between words)
     .replace(/[_-]\d+$/g, '') // Remove _digits or -digits at the end
@@ -506,7 +506,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
   if (fromBlob && blobData) {
     if(blobData.tamilStanzas.length > 0){
-    console.log(`✅ Using Tamil lyrics from blob: ${blobData.tamilStanzas.length} stanzas (no API call)`)
+    // console.log(`✅ Using Tamil lyrics from blob: ${blobData.tamilStanzas.length} stanzas (no API call)`)
     tamilStanzas = blobData.tamilStanzas
     }
   } else if (song.category) {
@@ -568,7 +568,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Use blob stanzas if available, otherwise split content from Blogger
   let stanzas: string[] = []
   if (fromBlob && blobData) {
-    console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
+    // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
     stanzas = blobData.stanzas
   } else {
     // Fallback: Split into sanitized stanzas using utility function
