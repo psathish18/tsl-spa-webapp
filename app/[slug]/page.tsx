@@ -504,9 +504,11 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   let tamilStanzas: string[] = [];
   
   // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
-  if (fromBlob && blobData && blobData.tamilStanzas.length > 0) {
+  if (fromBlob && blobData) {
+    if(blobData.tamilStanzas.length > 0){
     console.log(`✅ Using Tamil lyrics from blob: ${blobData.tamilStanzas.length} stanzas (no API call)`)
     tamilStanzas = blobData.tamilStanzas
+    }
   } else if (song.category) {
     // Fallback: Fetch Tamil lyrics from Blogger API only if blob data not available
     const songCat = getSongCategory(song.category);

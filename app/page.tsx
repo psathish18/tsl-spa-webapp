@@ -259,6 +259,7 @@ export default async function HomePage() {
                       <Link
                         key={song.id?.$t || index}
                         href={`/${encodeURIComponent(slug)}.html`}
+                        prefetch={false}
                         className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden"
                       >
                         <article className="relative h-full">
@@ -373,13 +374,14 @@ export default async function HomePage() {
                       
                       return (
                         <div key={index} className="text-sm">
-                          <a 
+                          <Link
                             href={`/${encodeURIComponent(slug)}.html`}
+                            prefetch={false}
                             className="text-blue-600 hover:text-blue-700 block truncate"
                             title={songTitle}
                           >
                             {songTitle}
-                          </a>
+                          </Link>
                         </div>
                       )
                     })
