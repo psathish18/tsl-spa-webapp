@@ -50,6 +50,8 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
       }
     })
 
+    console.log(`[Hybrid] CDN response status: ${cdnResponse.status} for ${cleanSlug}`)
+
     if (cdnResponse.ok) {
       const data: SongBlobData = await cdnResponse.json()
       
