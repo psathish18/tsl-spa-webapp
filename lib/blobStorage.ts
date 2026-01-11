@@ -12,6 +12,19 @@
 import type { SongBlobData } from '@/scripts/types/song-blob.types'
 
 /**
+ * Get the base URL for server-side fetches
+ * Server-side fetch requires absolute URLs
+ */
+function getBaseUrl(): string {
+  // In production (Vercel)
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`
+  }
+  // In development
+  return process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+}
+
+/**
  * Fetch song data from Vercel Blob storage with Hybrid CDN approach
  * 
  * HYBRID STRATEGY (Cost Optimization):
@@ -25,12 +38,12 @@ import type { SongBlobData } from '@/scripts/types/song-blob.types'
 export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> {
   try {
     const cleanSlug = slug.replace('.html', '')
+    const baseUrl = getBaseUrl()
     
     // STEP 1: Try static CDN file (99% of traffic - existing songs)
-    console.log(`[Hybrid] 🚀 Trying CDN: /songs/${cleanSlug}.json`)
+    console.log(`[Hybrid] 🚀 Trying CDN: ${baseUrl}/songs/${cleanSlug}.json`)
     
-    const cdnResponse = await fetch(`/songs/${cleanSlug}.json`, {
-      cache: 'force-cache',
+    const cdnResponse = await fetch(`${baseUrl}/songs/${cleanSlug}.json`, {
       next: { 
         revalidate: 2592000, // 30 days
         tags: [`cdn-${cleanSlug}`] 
@@ -51,10 +64,9 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
     }
 
     // STEP 2: CDN miss, try dynamic API (1% of traffic - new songs)
-    console.log(`[Hybrid] 📡 CDN miss, trying API: /api/songs/${cleanSlug}`)
+    console.log(`[Hybrid] 📡 CDN miss, trying API: ${baseUrl}/api/songs/${cleanSlug}`)
     
-    const apiResponse = await fetch(`/api/songs/${cleanSlug}`, {
-      cache: 'force-cache',
+    const apiResponse = await fetch(`${baseUrl}/api/songs/${cleanSlug}`, {
       next: { 
         revalidate: 2592000,
         tags: [`api-${cleanSlug}`] 

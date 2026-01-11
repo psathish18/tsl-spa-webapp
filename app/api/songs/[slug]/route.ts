@@ -25,10 +25,12 @@ export async function GET(
 
     const blob = blobs[0];
     
-    // Fetch the blob data
+    // Fetch the blob data with cache tags for revalidation support
     const response = await fetch(blob.url, {
-      cache: 'force-cache',
-      next: { revalidate: 2592000 }, // 30 days
+      next: { 
+        revalidate: 2592000, // 30 days
+        tags: [`api-${slug}`] // Enable tag-based revalidation
+      },
     });
 
     if (!response.ok) {
