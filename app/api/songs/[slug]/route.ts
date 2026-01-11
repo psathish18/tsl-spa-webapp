@@ -12,7 +12,7 @@ export async function GET(
   try {
     // List blobs to find the matching song
     const { blobs } = await list({
-      prefix: `${slug}.json`,
+      prefix: `json/${slug}.json`,
       limit: 1,
     });
 

@@ -8,7 +8,7 @@ import fs = require('fs/promises')
 import path = require('path')
 
 const BLOB_DIR = path.join(__dirname, '../blob-data')
-const BLOB_PREFIX = 'songs/' // All songs stored under songs/ prefix
+const BLOB_PREFIX = 'json/' // All songs stored under json/ prefix
 
 interface UploadStats {
   total: number
