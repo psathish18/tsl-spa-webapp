@@ -20,8 +20,8 @@ function getBaseUrl(): string {
   if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
   }
-  // In development - use localhost
-  return 'http://localhost:3000'
+  // In development - use configured base URL or localhost
+  return process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
 }
 
 /**
