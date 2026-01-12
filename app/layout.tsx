@@ -5,6 +5,7 @@ import { Inter, Poppins } from 'next/font/google'
 import dynamic from 'next/dynamic'
 import OneSignalButton from '../components/OneSignalButton'
 import OneSignalSubscriptionCard from '../components/OneSignalSubscriptionCard'
+import { BASE_URL } from '@/lib/constants'
 
 const FloatingSearchButton = dynamic(() => import('../components/FloatingSearchButton'), { ssr: false })
 const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
@@ -33,6 +34,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: 'Tamil Song Lyrics - Latest Tamil Songs',
   description: 'Discover the latest Tamil song lyrics with translations. Find your favorite Tamil songs, artists, and lyrics all in one place.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',

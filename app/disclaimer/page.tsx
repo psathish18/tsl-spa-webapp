@@ -1,12 +1,13 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { BASE_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Disclaimer - Tamil Song Lyrics',
   description: 'Disclaimer for Tamil Song Lyrics website. Learn about content ownership, copyright policies, and usage terms.',
   keywords: 'disclaimer, Tamil song lyrics, copyright, content policy',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/disclaimer.html',
+    canonical: `${BASE_URL}/disclaimer.html`,
   },
 }
 

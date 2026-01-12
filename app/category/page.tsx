@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { Suspense } from 'react'
 import CategoryPageClient from './CategoryPageClient'
 import { generateCategoryDescription, cleanCategoryLabel, generateSEOTitle } from '@/lib/seoUtils'
+import { BASE_URL } from '@/lib/constants'
 
 // Server-side metadata generation for better SEO
 export async function generateMetadata({ 
@@ -38,13 +39,13 @@ export async function generateMetadata({
     description,
     keywords,
     alternates: {
-      canonical: `https://www.tsonglyrics.com/category?category=${encodeURIComponent(category)}`,
+      canonical: `${BASE_URL}/category?category=${encodeURIComponent(category)}`,
     },
     openGraph: {
       title: seoTitle,
       description,
       type: 'website',
-      url: `https://www.tsonglyrics.com/category?category=${encodeURIComponent(category)}`,
+      url: `${BASE_URL}/category?category=${encodeURIComponent(category)}`,
       siteName: 'Tamil Song Lyrics',
     },
     twitter: {

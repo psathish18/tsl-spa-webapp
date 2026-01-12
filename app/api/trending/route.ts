@@ -65,7 +65,7 @@ export async function GET() {
     const trending = response.data.rows
       ?.map((row) => ({
         title: row.dimensionValues?.[0]?.value || '',
-        url: `https://www.tsonglyrics.com${row.dimensionValues?.[1]?.value || ''}`,
+        url: `${BASE_URL}${row.dimensionValues?.[1]?.value || ''}`,
         views: parseInt(row.metricValues?.[0]?.value || '0'),
         pagePath: row.dimensionValues?.[1]?.value || ''
       }))

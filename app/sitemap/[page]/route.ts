@@ -1,8 +1,8 @@
 import { NextRequest } from 'next/server'
 import { getAllSongs } from '@/lib/songCache'
 import { REVALIDATE_SITEMAP } from '@/lib/cacheConfig'
+import { BASE_URL } from '@/lib/constants'
 
-const BASE_URL = 'https://www.tsonglyrics.com'
 const ITEMS_PER_SITEMAP = 1000
 
 // Helper function to generate song slug (same logic as app/page.tsx)

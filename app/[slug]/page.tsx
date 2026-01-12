@@ -5,6 +5,7 @@ import sanitizeHtml from 'sanitize-html'
 import dynamic from 'next/dynamic'
 import NotFoundSuggestions from '@/components/NotFoundSuggestions'
 import { REVALIDATE_SONG_PAGE, REVALIDATE_BLOGGER_FETCH, REVALIDATE_TAMIL_LYRICS } from '@/lib/cacheConfig'
+import { BASE_URL } from '@/lib/constants'
 import {
   stripImagesFromHtml,
   htmlToPlainText,
@@ -72,7 +73,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   console.log("description", description)
   // Ensure slug has .html extension for canonical URL
   const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
-  const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+  const canonicalUrl = `${BASE_URL}/${canonicalSlug}`
   
   // Build keywords from categories
   const keywords = song.category
@@ -598,7 +599,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               "publisher": {
                 "@type": "Organization",
                 "name": "Tamil Song Lyrics",
-                "url": "https://www.tsonglyrics.com"
+                "url": BASE_URL
               },
               "mainEntity": {
                 "@type": "CreativeWork",
@@ -646,7 +647,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 // Build snippet and share URLs using utility functions
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
-                const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                const pageWithPath = `${BASE_URL}/${params.slug.replace('.html','')}.html`;
                 
                 const twitterHref = buildTwitterShareUrl({
                   snippet: snippetWithStars,
@@ -684,7 +685,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   // Build snippet and share URLs using utility functions
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
-                  const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                  const pageWithPath = `${BASE_URL}/${params.slug.replace('.html','')}.html`;
                   
                   const twitterHref = buildTwitterShareUrl({
                     snippet: snippetWithStars,
