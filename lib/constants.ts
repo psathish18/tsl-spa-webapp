@@ -19,7 +19,10 @@ export const API_BASE_URL = BASE_URL;
  * @param slug - The song slug (with or without .html extension)
  * @returns Full URL with proper formatting
  */
-export function buildSongUrl(slug: string): string {
+export function buildSongUrl(slug: string | undefined | null): string {
+  if (!slug) {
+    return BASE_URL;
+  }
   const cleanSlug = slug.replace('.html', '');
   return `${BASE_URL}/${cleanSlug}.html`;
 }

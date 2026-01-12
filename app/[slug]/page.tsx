@@ -461,6 +461,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Build hashtag list and item_cat once on the server so we can render share anchors
   const hashtagsStr = buildHashtags(song.category || []);
   const itemCat = getSongCategory(song.category || []) || '';
+  const pageWithPath = buildSongUrl(params.slug);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -647,7 +648,6 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 // Build snippet and share URLs using utility functions
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
-                const pageWithPath = buildSongUrl(params.slug);
                 
                 const twitterHref = buildTwitterShareUrl({
                   snippet: snippetWithStars,
@@ -685,7 +685,6 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   // Build snippet and share URLs using utility functions
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
-                  const pageWithPath = buildSongUrl(params.slug);
                   
                   const twitterHref = buildTwitterShareUrl({
                     snippet: snippetWithStars,
