@@ -5,7 +5,7 @@ import sanitizeHtml from 'sanitize-html'
 import dynamic from 'next/dynamic'
 import NotFoundSuggestions from '@/components/NotFoundSuggestions'
 import { REVALIDATE_SONG_PAGE, REVALIDATE_BLOGGER_FETCH, REVALIDATE_TAMIL_LYRICS } from '@/lib/cacheConfig'
-import { BASE_URL } from '@/lib/constants'
+import { BASE_URL, buildSongUrl } from '@/lib/constants'
 import {
   stripImagesFromHtml,
   htmlToPlainText,
@@ -647,7 +647,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 // Build snippet and share URLs using utility functions
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
-                const pageWithPath = `${BASE_URL}/${params.slug.replace('.html','')}.html`;
+                const pageWithPath = buildSongUrl(params.slug);
                 
                 const twitterHref = buildTwitterShareUrl({
                   snippet: snippetWithStars,
@@ -685,7 +685,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   // Build snippet and share URLs using utility functions
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
-                  const pageWithPath = `${BASE_URL}/${params.slug.replace('.html','')}.html`;
+                  const pageWithPath = buildSongUrl(params.slug);
                   
                   const twitterHref = buildTwitterShareUrl({
                     snippet: snippetWithStars,

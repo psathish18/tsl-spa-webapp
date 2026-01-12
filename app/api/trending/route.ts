@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { google } from 'googleapis'
+import { BASE_URL } from '@/lib/constants'
 
 // Auto-revalidate every 6 hours (21600 seconds) to reduce CPU usage
 export const revalidate = 21600
