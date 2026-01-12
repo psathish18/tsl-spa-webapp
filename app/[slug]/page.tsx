@@ -373,8 +373,12 @@ async function getSongData(slug: string): Promise<Song | null> {
         revalidateTag(`song-${cleanSlug}`);
         return null;
       }
+      
+      // Log CDN miss with matched Blogger entry details
       const songCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Song:'));
       const movieCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Movie:'));
+      console.log(`[CDN_MISS] Raw Slug: ${slug} | Clean Slug: ${cleanSlug} | Blob File: ${slug.replace('.html', '')}.json | Blogger Song: ${songCategory?.term || 'N/A'} | Blogger Movie: ${movieCategory?.term || 'N/A'}`);
+      
       const singerCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Singer:'));
       const lyricsCategory = targetSong.category?.find((cat: any) => cat.term?.startsWith('Lyrics:'));
       const processedSong = {
