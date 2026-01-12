@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import { getSlugFromSong } from '@/lib/slugUtils'
 import { REVALIDATE_RELATED_SONGS } from '@/lib/cacheConfig'
+import type { RelatedSong } from '@/scripts/types/song-blob.types'
 
 interface Song {
   id: { $t: string }
@@ -16,6 +17,7 @@ interface Song {
 interface RelatedSongsProps {
   currentSongId: string
   categories: Array<{ term: string }>
+  blobRelatedSongs?: RelatedSong[] // Pre-fetched related songs from blob storage
 }
 
 // Helper to get clean song title
@@ -54,7 +56,57 @@ async function fetchSongsByCategory(category: string, currentSongId: string, lim
   }
 }
 
-export default async function RelatedSongs({ currentSongId, categories }: RelatedSongsProps) {
+export default async function RelatedSongs({ currentSongId, categories, blobRelatedSongs }: RelatedSongsProps) {
+  // If blob data available, use pre-fetched related songs (no API call)
+  if (blobRelatedSongs && blobRelatedSongs.length > 0) {
+    console.log(`✅ Using ${blobRelatedSongs.length} related songs from blob (no API call)`)
+    
+    return (
+      <div className="mt-12">
+        <div className="mb-12">
+          <div className="flex items-center justify-between mb-6">
+            <h3 className="text-2xl font-bold text-gray-900">Related Songs</h3>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {blobRelatedSongs.map((relatedSong, idx) => {
+              return (
+                <Link
+                  prefetch={false}
+                  key={`blob-${idx}`}
+                  href={`/${relatedSong.slug}.html`}
+                  className="group block bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden"
+                >
+                  {relatedSong.thumbnail && (
+                    <div className="relative w-full h-48 bg-gray-200">
+                      <Image
+                        src={relatedSong.thumbnail.replace(/\/s\d+/, '/w400-h300')}
+                        alt={relatedSong.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    </div>
+                  )}
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 mb-2">
+                      {relatedSong.title}
+                    </h4>
+                    {relatedSong.movieName && (
+                      <p className="text-sm text-gray-500">{relatedSong.movieName}</p>
+                    )}
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      </div>
+    )
+  }
+  
+  // Fallback: Fetch from Blogger API (existing implementation)
+  console.log(`📡 Fetching related songs from API`)
+  
   // Extract only movie category for related songs
   const movieCategory = categories.find(cat => cat.term.startsWith('Movie:'))
   
