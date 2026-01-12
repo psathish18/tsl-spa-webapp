@@ -15,11 +15,24 @@ interface Song {
   lyricistName?: string;
 }
 
+/**
+ * Get the base URL for server-side fetches
+ */
+function getBaseUrl(): string {
+  // In production (Vercel) - use production domain
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  }
+  // In development - use configured base URL or localhost
+  return process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+}
+
 async function getSongData(slug: string): Promise<Song | null> {
   try {
     const cleanSlug = slug.replace('.html', '');
+    const baseUrl = getBaseUrl();
 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/songs`, {
+    const response = await fetch(`${baseUrl}/api/songs`, {
       next: { revalidate: 3600 },
     });
 

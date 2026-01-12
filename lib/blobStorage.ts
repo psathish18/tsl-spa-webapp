@@ -16,11 +16,11 @@ import type { SongBlobData } from '@/scripts/types/song-blob.types'
  * Server-side fetch requires absolute URLs
  */
 function getBaseUrl(): string {
-  // In production (Vercel)
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`
+  // In production (Vercel) - use production domain
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
   }
-  // In development
+  // In development - use configured base URL or localhost
   return process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
 }
 
