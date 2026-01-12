@@ -29,7 +29,7 @@ function getBaseUrl(): string {
  * 
  * HYBRID STRATEGY (Cost Optimization):
  * 1. Try static CDN file (/songs/*.json) - FREE, instant, 99% of traffic
- * 2. Try dynamic API (/api/songs/*) - 1 invocation, CDN cached after, 1% of traffic
+ * 2. Try blob storage API (optional, controlled by env) - For new songs not yet in CDN
  * 3. Return null - caller will fallback to Blogger API
  * 
  * @param slug - Song slug (without .html extension)
@@ -39,6 +39,9 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
   try {
     const cleanSlug = slug.replace('.html', '')
     const baseUrl = getBaseUrl()
+    
+    // Check if blob storage API is enabled (default: disabled to save costs)
+    const enableBlobStorageAPI = process.env.ENABLE_BLOB_STORAGE_API === 'true'
     
     // STEP 1: Try static CDN file (99% of traffic - existing songs)
     console.log(`[Hybrid] 🚀 Trying CDN: ${baseUrl}/songs/${cleanSlug}.json`)
@@ -65,31 +68,35 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
       return data
     }
 
-    // STEP 2: CDN miss, try dynamic API (1% of traffic - new songs)
-    console.log(`[Hybrid] 📡 CDN miss, trying API: ${baseUrl}/api/songs/${cleanSlug}`)
-    
-    const apiResponse = await fetch(`${baseUrl}/api/songs/${cleanSlug}`, {
-      next: { 
-        revalidate: 2592000,
-        tags: [`api-${cleanSlug}`] 
-      }
-    })
+    // STEP 2 (OPTIONAL): Try dynamic API from blob storage (disabled by default)
+    if (enableBlobStorageAPI) {
+      console.log(`[Hybrid] 📡 CDN miss, trying Blob Storage API: ${baseUrl}/api/songs/${cleanSlug}`)
+      
+      const apiResponse = await fetch(`${baseUrl}/api/songs/${cleanSlug}`, {
+        next: { 
+          revalidate: 2592000,
+          tags: [`api-${cleanSlug}`] 
+        }
+      })
 
-    if (apiResponse.ok) {
-      const data: SongBlobData = await apiResponse.json()
-      
-      // Validate data structure
-      if (!data.slug || !data.title || !data.stanzas) {
-        console.error('⚠️ Invalid API data structure:', data)
-        return null
+      if (apiResponse.ok) {
+        const data: SongBlobData = await apiResponse.json()
+        
+        // Validate data structure
+        if (!data.slug || !data.title || !data.stanzas) {
+          console.error('⚠️ Invalid API data structure:', data)
+          return null
+        }
+        
+        console.log(`[Hybrid] ✅ Blob Storage API hit: ${cleanSlug}`)
+        return data
       }
-      
-      console.log(`[Hybrid] ✅ API hit (1 invocation, CDN cached now): ${cleanSlug}`)
-      return data
+    } else {
+      console.log(`[Hybrid] ⏭️  Blob Storage API disabled (ENABLE_BLOB_STORAGE_API not set)`)
     }
 
-    // STEP 3: Both failed - caller will use Blogger API fallback
-    console.log(`[Hybrid] ❌ Not found in CDN or API, using Blogger fallback: ${cleanSlug}`)
+    // STEP 3: All failed - caller will use Blogger API fallback
+    console.log(`[Hybrid] ❌ Not found in CDN - using Blogger fallback: ${cleanSlug}`)
     return null
   } catch (error) {
     console.error('[Hybrid] ❌ Error in hybrid fetch:', error)
