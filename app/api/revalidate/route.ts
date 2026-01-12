@@ -18,49 +18,80 @@ function createNoCacheResponse(data: any, status = 200) {
   })
 }
 
-// Helper to clear cache by path
-function clearCacheByPath(path: string) {
+// Helper to clear cache by path with hybrid CDN support
+function clearCacheByPath(path: string, type?: string) {
+  const results: string[] = []
+  
   if (path === '/' || path === '/home') {
     // Clear homepage data cache (Blogger API responses)
     revalidateTag('songs-latest')
     revalidateTag('homepage')
     // Also clear the page render itself
     revalidatePath('/')
+    results.push('Cleared homepage (data + page render)')
     console.log('  ✓ Cleared homepage (data + page render)')
   } else if (path === '/search') {
     // Clear trending API cache (has x-vercel-cache-tags for CDN)
     revalidateTag('trending-api')
+    results.push('Cleared trending API cache (Next.js + CDN)')
     console.log('  ✓ Cleared trending API cache (Next.js + CDN)')
     // Note: /api/search uses cache: 'no-store', so no cache to clear
   } else if (path === '/api/trending') {
     // Manual clear for trending API (has x-vercel-cache-tags for CDN)
     revalidateTag('trending-api')
+    results.push('Cleared trending API cache (Next.js + CDN)')
     console.log('  ✓ Cleared trending API cache (Next.js + CDN)')
   } else if (path === '/api/search/autocomplete') {
     // Note: Autocomplete uses in-memory cache with 1hr TTL in /api/search route
     // No Next.js cache to clear - it will refresh automatically after 1hr
+    results.push('Autocomplete uses in-memory cache (will auto-refresh in 1hr)')
     console.log('  ✓ Autocomplete uses in-memory cache (will auto-refresh in 1hr)')
   } else if (path === '/api/search/popular') {
     // Note: Popular uses cache: 'no-store' in /api/search route
+    results.push('Popular posts use no-store (no cache to clear)')
     console.log('  ✓ Popular posts use no-store (no cache to clear)')
   } else if (path === '/related') {
     // Clear all related songs caches (used across multiple song pages)
     // Note: This clears all related-* tags, which might affect multiple pages
     // Related songs auto-refresh after 24hr, so manual clearing rarely needed
+    results.push('Related songs use individual tags per category (related-Movie:*, related-Singer:*)')
     console.log('  ⚠️  Related songs use individual tags per category (related-Movie:*, related-Singer:*)')
     console.log('  ⚠️  To clear specific category, use revalidateTag("related-Category:Name")')
     console.log('  ⚠️  Or wait 24hr for auto-refresh')
   } else if (path.includes('.html')) {
     // Specific song page - clear both data and page render
     const slug = path.replace(/^\//, '').replace('.html', '')
-    revalidateTag(`song-${slug}`)  // Clear Blogger API data for this song
-    revalidatePath(path)            // Clear the page HTML render
-    console.log(`  ✓ Cleared cache for song: ${slug} (data + page render)`)
+    
+    // Clear song page cache (always)
+    if (!type || type === 'page' || type === 'all') {
+      revalidateTag(`song-${slug}`)  // Clear Blogger API data for this song
+      revalidatePath(path)            // Clear the page HTML render
+      results.push(`Cleared song page cache: ${slug}`)
+      console.log(`  ✓ Cleared song page cache: ${slug} (data + page render)`)
+    }
+    
+    // 🆕 HYBRID CDN: Clear CDN static file cache (/public/songs/*.json)
+    if (!type || type === 'cdn' || type === 'all') {
+      revalidateTag(`cdn-${slug}`)
+      revalidatePath(`/songs/${slug}.json`)
+      results.push(`Cleared CDN static file: /songs/${slug}.json`)
+      console.log(`  ✓ Cleared CDN static file: /songs/${slug}.json`)
+    }
+    
+    // 🆕 HYBRID CDN: Clear API route cache (/api/songs/*)
+    if (!type || type === 'api' || type === 'all') {
+      revalidateTag(`api-${slug}`)
+      revalidatePath(`/api/songs/${slug}`)
+      results.push(`Cleared API route: /api/songs/${slug}`)
+      console.log(`  ✓ Cleared API route: /api/songs/${slug}`)
+    }
   }
+  
+  return results
 }
 
 export async function POST(req: NextRequest) {
-  const { tag, path, secret, clearAll } = await req.json()
+  const { tag, path, secret, clearAll, type } = await req.json()
 
   if (secret !== REVALIDATE_SECRET) {
     return createNoCacheResponse({ error: 'Invalid secret' }, 401)
@@ -108,15 +139,21 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Revalidate by path (for home page and other pages)
+  // Revalidate by path (for home page and other pages) - now supports type parameter
   if (path) {
     try {
-      console.log(`Revalidating path: ${path}`)
+      console.log(`Revalidating path: ${path} (type: ${type || 'all'})`)
       
       // Clear cache based on path (uses revalidateTag internally)
-      clearCacheByPath(path)
+      const results = clearCacheByPath(path, type)
       
-      return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
+      return createNoCacheResponse({ 
+        revalidated: true, 
+        type: type || 'all', 
+        path, 
+        results,
+        now: Date.now() 
+      })
     } catch (err) {
       console.error('Path revalidation error:', err)
       return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
@@ -132,12 +169,18 @@ export async function GET(req: NextRequest) {
   const secret = searchParams.get('secret')
   const path = searchParams.get('path')
   const tag = searchParams.get('tag')
+  const type = searchParams.get('type') // New: page, cdn, api, all
   const clearAll = searchParams.get('clearAll') === 'true'
 
   if (secret !== REVALIDATE_SECRET) {
     return createNoCacheResponse({ 
       error: 'Invalid or missing secret',
-      usage: 'Add ?secret=YOUR_SECRET&path=/ or ?secret=YOUR_SECRET&clearAll=true'
+      usage: {
+        clearAll: '?secret=SECRET&clearAll=true',
+        byPath: '?secret=SECRET&path=/song.html&type=all',
+        byTag: '?secret=SECRET&tag=song-slug',
+        types: ['page', 'cdn', 'api', 'all (default)']
+      }
     }, 401)
   }
 
@@ -178,8 +221,14 @@ export async function GET(req: NextRequest) {
 
   if (path) {
     try {
-      clearCacheByPath(path)
-      return createNoCacheResponse({ revalidated: true, type: 'path', path, now: Date.now() })
+      const results = clearCacheByPath(path, type || undefined)
+      return createNoCacheResponse({ 
+        revalidated: true, 
+        type: type || 'all', 
+        path,
+        results,
+        now: Date.now() 
+      })
     } catch (err) {
       return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
     }
@@ -187,7 +236,12 @@ export async function GET(req: NextRequest) {
 
   return createNoCacheResponse({ 
     error: 'Missing parameter',
-    usage: 'Use ?secret=SECRET&path=/ or ?secret=SECRET&tag=song-slug or ?secret=SECRET&clearAll=true'
+    usage: {
+      clearAll: '?secret=SECRET&clearAll=true',
+      byPath: '?secret=SECRET&path=/song.html&type=all',
+      byTag: '?secret=SECRET&tag=song-slug',
+      types: ['page', 'cdn', 'api', 'all (default)']
+    }
   }, 400)
 }
 

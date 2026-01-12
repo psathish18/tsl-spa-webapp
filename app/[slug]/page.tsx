@@ -24,6 +24,8 @@ import {
   formatSEOTitle,
   SONG_DESCRIPTION_SNIPPET_LENGTH
 } from '@/lib/seoUtils'
+import { fetchFromBlob } from '@/lib/blobStorage'
+import type { SongBlobData } from '@/scripts/types/song-blob.types'
 // Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
 const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
 // Client stanza renderer (client-only, interactive share buttons)
@@ -40,7 +42,8 @@ export const revalidate = REVALIDATE_SONG_PAGE
 
 // Server-side metadata generator so page <title> is correct on first load (helps GA)
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const song = await getSongData(params.slug)
+  console.log("Raw slug received:", JSON.stringify(params.slug));
+  const { song, fromBlob, blobData } = await getSongDataWithBlobPriority(params.slug)
   
   if (!song) {
     return {
@@ -49,6 +52,47 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     }
   }
   
+  // If data is from blob, use the optimized SEO metadata
+  if (fromBlob && blobData) {
+    const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
+    const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+    
+    return {
+      title: blobData.seo.title,
+      description: blobData.seo.description,
+      keywords: `${blobData.seo.keywords}, Tamil lyrics, Tamil songs`,
+      alternates: {
+        canonical: canonicalUrl,
+      },
+      openGraph: {
+        title: blobData.seo.title,
+        description: blobData.seo.description,
+        type: 'article',
+        url: canonicalUrl,
+        siteName: 'Tamil Song Lyrics',
+        ...(blobData.thumbnail && {
+          images: [
+            {
+              url: blobData.thumbnail.replace(/\/s\d+-c\//, '/s400-c/'),
+              width: 400,
+              height: 400,
+              alt: blobData.title,
+            }
+          ]
+        })
+      },
+      twitter: {
+        card: 'summary',
+        title: blobData.seo.title,
+        description: blobData.seo.description,
+        ...(blobData.thumbnail && {
+          images: [blobData.thumbnail.replace(/\/s\d+-c\//, '/s400-c/')]
+        })
+      }
+    }
+  }
+  
+  // Fallback: Use Blogger data (existing implementation)
   const title = getSongTitle(song)
   const content = song.content?.$t || ''
   
@@ -173,6 +217,11 @@ function getSongTitle(song: any): string {
 // These maps are cleared after a timeout to prevent stale data in warm serverless containers
 const songDataPromiseMap = new Map<string, Promise<Song | null>>();
 const tamilLyricsPromiseMap = new Map<string, Promise<Song | null>>();
+const blobDataCache = new Map<string, Promise<{ 
+  song: Song | null, 
+  fromBlob: boolean,
+  blobData?: SongBlobData 
+}>>();
 
 // Clear memoization maps after 5 minutes to prevent stale data in production
 if (typeof global !== 'undefined') {
@@ -185,12 +234,78 @@ if (typeof global !== 'undefined') {
       console.log(`Clearing ${tamilLyricsPromiseMap.size} memoized Tamil lyrics promises`);
       tamilLyricsPromiseMap.clear();
     }
+    if (blobDataCache.size > 0) {
+      console.log(`Clearing ${blobDataCache.size} memoized blob data`);
+      blobDataCache.clear();
+    }
   }, 5 * 60 * 1000); // 5 minutes
+}
+
+/**
+ * Fetch song data with Blob Storage priority
+ * Strategy: Try blob storage first, fallback to Blogger API
+ * This reduces Vercel function invocations and improves performance
+ */
+async function getSongDataWithBlobPriority(slug: string): Promise<{ 
+  song: Song | null, 
+  fromBlob: boolean,
+  blobData?: SongBlobData 
+}> {
+  const cleanSlug = slug.replace('.html', '')
+  
+  // Check cache first to avoid duplicate fetches
+  const isDev = process.env.NODE_ENV === 'development';
+  if (!isDev && blobDataCache.has(cleanSlug)) {
+    // console.log(`✅ Using cached blob data for: ${cleanSlug}`)
+    return blobDataCache.get(cleanSlug)!
+  }
+  
+  // Create the fetch promise
+  const fetchPromise = (async () => {
+    // Step 1: Try to fetch from Vercel Blob storage first
+    try {
+      const blobData = await fetchFromBlob(cleanSlug)
+      
+      if (blobData) {
+        console.log(`✅ Using blob data for: ${cleanSlug}`)
+        
+        // Convert blob data to Song format for compatibility
+        // This allows the page to work with both data sources
+        const songFromBlob: Song = {
+          id: { $t: blobData.id },
+          title: { $t: blobData.title },
+          content: { $t: blobData.stanzas.join('<br /><br />') }, // Join stanzas with double line breaks
+          published: { $t: blobData.published },
+          author: [{ name: { $t: 'Tamil Song Lyrics' } }],
+          category: blobData.category.map(cat => ({ term: cat })),
+          media$thumbnail: blobData.thumbnail ? { url: blobData.thumbnail } : undefined,
+          songTitle: blobData.title,
+          movieName: blobData.movieName,
+          singerName: blobData.singerName,
+          lyricistName: blobData.lyricistName,
+        }
+        
+        return { song: songFromBlob, fromBlob: true, blobData }
+      }
+    } catch (error) {
+      console.error('❌ Blob fetch failed, falling back to Blogger:', error)
+    }
+    
+    // Step 2: Fallback to Blogger API (existing implementation)
+    console.log(`📡 Falling back to Blogger API for: ${cleanSlug}`)
+    const bloggerSong = await getSongData(cleanSlug)
+    
+    return { song: bloggerSong, fromBlob: false }
+  })()
+  
+  // Cache the promise
+  blobDataCache.set(cleanSlug, fetchPromise)
+  
+  return fetchPromise
 }
 
 async function getSongData(slug: string): Promise<Song | null> {
   // Remove .html extension if present
-    console.log("Raw slug received:", JSON.stringify(slug));
   const cleanSlug = slug.replace('.html', '')
     .replace(/[_-]\d+(?=[_-])/g, '_') // Replace _digits_ or -digits- with just _ (preserve separation between words)
     .replace(/[_-]\d+$/g, '') // Remove _digits or -digits at the end
@@ -334,8 +449,8 @@ async function getTamilLyrics(songCategory: string): Promise<Song | null> {
 }
 
 export default async function SongDetailsPage({ params }: { params: { slug: string } }) {
-  // Parallel fetch optimization: Get song data and start Tamil lyrics fetch simultaneously
-  const song = await getSongData(params.slug)
+  // Fetch song data with blob storage priority
+  const { song, fromBlob, blobData } = await getSongDataWithBlobPriority(params.slug)
 
   if (!song) {
     // Return custom 404 with smart suggestions based on the slug
@@ -386,14 +501,21 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   }
 
   // Fetch Tamil lyrics with timeout - don't block page render for Tamil lyrics
-  let tamilSong: Song | null = null;
   let tamilStanzas: string[] = [];
-  if (song.category) {
+  
+  // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
+  if (fromBlob && blobData) {
+    if(blobData.tamilStanzas.length > 0){
+    // console.log(`✅ Using Tamil lyrics from blob: ${blobData.tamilStanzas.length} stanzas (no API call)`)
+    tamilStanzas = blobData.tamilStanzas
+    }
+  } else if (song.category) {
+    // Fallback: Fetch Tamil lyrics from Blogger API only if blob data not available
     const songCat = getSongCategory(song.category);
     if (songCat) {
       // Use Promise.race with timeout to prevent Tamil lyrics from blocking
       try {
-        tamilSong = await Promise.race([
+        const tamilSong = await Promise.race([
           getTamilLyrics(songCat),
           new Promise<null>((resolve) => setTimeout(() => resolve(null), 1500)) // 1.5s timeout
         ]);
@@ -443,8 +565,15 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     cat.term && cat.term.toLowerCase().includes('englishtranslation')
   );
 
-  // Split into sanitized stanzas using utility function
-  const stanzas = splitAndSanitizeStanzas(safeContent, sanitizeHtml, hasEnglishTranslation)
+  // Use blob stanzas if available, otherwise split content from Blogger
+  let stanzas: string[] = []
+  if (fromBlob && blobData) {
+    // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
+    stanzas = blobData.stanzas
+  } else {
+    // Fallback: Split into sanitized stanzas using utility function
+    stanzas = splitAndSanitizeStanzas(safeContent, sanitizeHtml, hasEnglishTranslation)
+  }
   // // Debugging: log sizes to help identify empty content issues in production builds
   // try {
   //   console.log('DEBUG: safeContent length =', (safeContent || '').length)
@@ -460,6 +589,10 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Build hashtag list and item_cat once on the server so we can render share anchors
   const hashtagsStr = buildHashtags(song.category || []);
   const itemCat = getSongCategory(song.category || []) || '';
+
+  // Prepare related songs for structured data (ItemList)
+  // Use blob data if available, otherwise we'll fetch them later but won't include in structured data
+  const relatedSongsForSEO = fromBlob && blobData ? blobData.relatedSongs : [];
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -610,8 +743,76 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }}
         />
         
+        {/* ItemList structured data for related songs */}
+        {relatedSongsForSEO.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "name": `Related Songs ${movieName ? `from ${movieName}` : ''}`,
+                "description": `More Tamil song lyrics${movieName ? ` from the movie ${movieName}` : ''} similar to ${cleanTitle}`,
+                "numberOfItems": relatedSongsForSEO.length,
+                "itemListElement": relatedSongsForSEO.map((relatedSong, index) => ({
+                  "@type": "ListItem",
+                  "position": index + 1,
+                  "item": {
+                    "@type": "MusicRecording",
+                    "name": relatedSong.title,
+                    "url": `https://www.tsonglyrics.com/${relatedSong.slug}.html`,
+                    ...(relatedSong.movieName && {
+                      "inAlbum": {
+                        "@type": "MusicAlbum",
+                        "name": relatedSong.movieName
+                      }
+                    }),
+                    ...(relatedSong.thumbnail && {
+                      "image": relatedSong.thumbnail,
+                      "thumbnailUrl": relatedSong.thumbnail
+                    }),
+                    "inLanguage": "ta",
+                    "genre": "Tamil Music"
+                  }
+                }))
+              })
+            }}
+          />
+        )}
+        
+        {/* BreadcrumbList structured data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.tsonglyrics.com"
+                },
+                ...(movieName ? [{
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": movieName,
+                  "item": `https://www.tsonglyrics.com/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
+                }] : []),
+                {
+                  "@type": "ListItem",
+                  "position": movieName ? 3 : 2,
+                  "name": cleanTitle,
+                  "item": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`
+                }
+              ]
+            })
+          }}
+        />
+        
         {/* Google AdSense - Top of page after title */}
-        <div className="my-6">
+        {/* <div className="my-6">
           <ins 
             className="adsbygoogle"
             style={{ display: 'block' }}
@@ -631,7 +832,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               `
             }}
           />
-        </div>
+        </div> */}
         
         {/* Lyrics content with tabs */}
         <LyricsTabs
@@ -740,7 +941,11 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         </div>
 
         {/* Related songs section */}
-        <RelatedSongs currentSongId={song.id.$t} categories={song.category || []} />
+        <RelatedSongs 
+          currentSongId={song.id.$t} 
+          categories={song.category || []} 
+          blobRelatedSongs={fromBlob && blobData ? blobData.relatedSongs : undefined}
+        />
       </article>
     </div>
   )

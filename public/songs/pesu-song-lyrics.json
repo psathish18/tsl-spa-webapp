@@ -1,0 +1,81 @@
+{
+  "slug": "pesu-song-lyrics",
+  "id": "tag:blogger.com,1999:blog-933118286952973473.post-6638823602964536678",
+  "title": "Pesu  Song Lyrics",
+  "movieName": "Pesu",
+  "singerName": "Sathish",
+  "lyricistName": "",
+  "musicName": "Yuvan",
+  "actorName": "",
+  "published": "2011-01-29T17:00:00.000+05:30",
+  "stanzas": [
+    "<div><div>Cast: J. Vignesh, Vibha, M. S. Baskar, Mahadevan, Ajay Ratnam, Sachu, Rajalakshmi<br />Music: Yuvan Shankar Raja<br />Directer: Ra. Ciril <br />Lyrics: Snehan, R.Cyril",
+    "1 Vennira Iravugal - <a href=\"http://the-blog-that-shares.blogspot.com/2011/02/vennira-iravugal-song-lyrics-pesu-song.html\">Click to View Lyrics</a><br /> singer: Yuvan Shankar Raja",
+    "5 Kettimelam - <a href=\"http://the-blog-that-shares.blogspot.com/2011/02/kettimelam-kottum-satham-lyrics-pesu.html\">Click to View Lyrics</a><br />singer: Vijay Jesudas  Priya",
+    "2 En Per Devathai<br />Hariharan ; Reshmi",
+    "3 Unthan Varthaiyil<br />Kerish Raialakshmi",
+    "4 Ithayam Pesuthey<br />Ragul Nambiar  Reeta",
+    "</div></div>"
+  ],
+  "hasTamilLyrics": false,
+  "tamilStanzas": [],
+  "category": [
+    "Movie:Pesu",
+    "MovieLyrics",
+    "Music:Yuvan"
+  ],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-8396013228365939501",
+      "title": "Kettimelam kottum satham lyrics pesu songs lyrics",
+      "slug": "kettimelam-kottum-satham-lyrics-pesu-songs-lyrics",
+      "thumbnail": null,
+      "movieName": "Pesu",
+      "singerName": "Priya",
+      "published": "2011-02-13T21:41:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-8838680951958887107",
+      "title": "Vennira Iravugal Song Lyrics Pesu Song Lyrics",
+      "slug": "vennira-iravugal-song-lyrics-pesu-song-lyrics",
+      "thumbnail": null,
+      "movieName": "Pesu",
+      "singerName": "Yuvan",
+      "published": "2011-02-02T22:56:00.000+05:30"
+    }
+  ],
+  "seo": {
+    "title": "Pesu  Song Lyrics",
+    "description": "Get the complete Pesu  Song Lyrics from Pesu. composed by Yuvan and Perfect for fans looking for the full Tamil text and song meaning.",
+    "keywords": "Pesu, MovieLyrics, Yuvan, Tamil lyrics, Tamil songs",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "name": "Pesu  Song Lyrics",
+      "description": "Get the complete Pesu  Song Lyrics from Pesu. composed by Yuvan and Perfect for fans looking for the full Tamil text and song meaning.",
+      "inLanguage": "ta",
+      "genre": "Tamil Music",
+      "datePublished": "2011-01-29T17:00:00.000+05:30",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tamil Song Lyrics",
+        "url": "https://www.tsonglyrics.com"
+      },
+      "inAlbum": {
+        "@type": "MusicAlbum",
+        "name": "Pesu"
+      },
+      "byArtist": {
+        "@type": "Person",
+        "name": "Sathish"
+      },
+      "composer": {
+        "@type": "Person",
+        "name": "Yuvan"
+      }
+    }
+  },
+  "thumbnail": null,
+  "generatedAt": "2026-01-09T17:57:41.579Z",
+  "version": 1
+}

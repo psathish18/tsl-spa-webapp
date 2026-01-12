@@ -63,14 +63,16 @@ function calculateDateBasedTTL(publishedDate) {
 
 ## Manual Cache Management
 
-### Understanding the Two-Layer System
+### Understanding the Cache Layers
 
-**🚨 IMPORTANT**: We have TWO separate cache layers:
+**🚨 IMPORTANT**: We have THREE cache layers in the hybrid CDN architecture:
 
-1. **Our Application Cache** (in-memory, date-based TTL)
-2. **Vercel CDN Cache** (global edge locations)
+1. **Application Cache** (in-memory, date-based TTL)
+2. **CDN Static Files** (`/public/songs/*.json` - served by Vercel CDN)
+3. **API Route Cache** (`/api/songs/*` - Next.js cache + Vercel CDN)
+4. **Vercel CDN Cache** (global edge locations for all assets)
 
-**They are INDEPENDENT!** Clearing one does NOT clear the other.
+**They are INDEPENDENT!** Clearing one does NOT automatically clear the others.
 
 ### 1. Cache Statistics and Monitoring
 
@@ -96,7 +98,41 @@ curl -X DELETE "http://localhost:3000/api/cache-clear?action=all"
 
 **Result**: ✅ Clears our app cache, Vercel CDN refreshes naturally
 
-### 3. Clear Vercel CDN (Emergency Only)
+### 3. Clear Hybrid CDN Caches (NEW - For Song Updates)
+
+#### 3a. Clear All Caches for a Song (Recommended after updates)
+```bash
+# Clear page + CDN static file + API route caches
+curl "https://tsonglyrics.com/api/revalidate?secret=YOUR_SECRET&path=/monica-coolie-lyrics.html&type=all"
+```
+
+**Result**: ✅ Clears all three cache layers for this song
+
+#### 3b. Clear Only CDN Static File Cache
+```bash
+# After updating /public/songs/*.json files
+curl "https://tsonglyrics.com/api/revalidate?secret=YOUR_SECRET&path=/monica-coolie-lyrics.html&type=cdn"
+```
+
+**Result**: ✅ Clears `/songs/monica-coolie-lyrics.json` cache only
+
+#### 3c. Clear Only API Route Cache
+```bash
+# After updating blob storage
+curl "https://tsonglyrics.com/api/revalidate?secret=YOUR_SECRET&path=/monica-coolie-lyrics.html&type=api"
+```
+
+**Result**: ✅ Clears `/api/songs/monica-coolie-lyrics` cache only
+
+#### 3d. Clear Only Page Cache
+```bash
+# For page-specific updates
+curl "https://tsonglyrics.com/api/revalidate?secret=YOUR_SECRET&path=/monica-coolie-lyrics.html&type=page"
+```
+
+**Result**: ✅ Clears song page HTML cache only
+
+### 4. Clear Vercel CDN (Emergency Only)
 
 For immediate global cache clearing:
 ```bash
@@ -110,14 +146,26 @@ curl -X PURGE "https://your-app.vercel.app/" \
 
 **Result**: ✅ Immediate global cache clear, but impacts performance
 
-### 4. Clear Multiple Songs Cache
+### 5. Clear Homepage and Category Caches
+
+```bash
+# Clear homepage
+curl "https://tsonglyrics.com/api/revalidate?secret=YOUR_SECRET&path=/home"
+
+# Clear category page
+curl -X POST "https://tsonglyrics.com/api/revalidate" \
+  -H "Content-Type: application/json" \
+  -d '{"secret":"YOUR_SECRET","path":"/","clearAll":false}'
+```
+
+### 6. Clear Multiple Songs Cache
 
 Remove cache for all songs:
 ```bash
 curl -X DELETE "http://localhost:3000/api/cache-clear?action=songs"
 ```
 
-### 5. Pattern-based Cache Clearing
+### 7. Pattern-based Cache Clearing
 
 Remove cache entries matching a pattern:
 ```bash
@@ -128,14 +176,79 @@ curl -X DELETE "http://localhost:3000/api/cache-clear?action=pattern&pattern=*Co
 curl -X DELETE "http://localhost:3000/api/cache-clear?action=pattern&pattern=songs_*"
 ```
 
-### 6. Force Refresh Specific URL
+### 8. Force Refresh Specific URL
 
 Force refresh and update cache for a specific endpoint:
 ```bash
 curl -X DELETE "http://localhost:3000/api/cache-clear?action=url&url=https://tsonglyricsapp.blogspot.com/feeds/posts/default?alt=json%26max-results=50"
 ```
 
-## Cache Management API Reference
+## Revalidation API Reference (Hybrid CDN)
+
+### Endpoint: `/api/revalidate`
+
+**Methods:** `GET` or `POST`
+
+**Parameters:**
+
+| Parameter | Type | Required | Description | Example |
+|-----------|------|----------|-------------|---------|
+| `secret` | string | ✅ Yes | Revalidation secret token | From `REVALIDATE_SECRET` env |
+| `path` | string | One of path/tag | Path to revalidate | `/monica-coolie-lyrics.html` |
+| `tag` | string | One of path/tag | Cache tag to revalidate | `song-monica-coolie-lyrics` |
+| `type` | string | No | Cache layer to clear | `all` (default), `page`, `cdn`, `api` |
+| `clearAll` | boolean | No | Clear all caches | `true` or `false` |
+
+**Type Options:**
+- `page` - Clear song page HTML cache only
+- `cdn` - Clear CDN static file (`/songs/*.json`) only
+- `api` - Clear API route (`/api/songs/*`) only  
+- `all` - Clear all three caches (default)
+
+**GET Examples:**
+```bash
+# Clear all caches for a song
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&path=/song.html&type=all"
+
+# Clear only CDN cache
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&path=/song.html&type=cdn"
+
+# Clear by tag
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&tag=song-slug"
+
+# Clear everything
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&clearAll=true"
+```
+
+**POST Examples:**
+```bash
+# Clear all caches for a song
+curl -X POST "https://tsonglyrics.com/api/revalidate" \
+  -H "Content-Type: application/json" \
+  -d '{"secret":"SECRET","path":"/song.html","type":"all"}'
+
+# Clear only API cache
+curl -X POST "https://tsonglyrics.com/api/revalidate" \
+  -H "Content-Type: application/json" \
+  -d '{"secret":"SECRET","path":"/song.html","type":"api"}'
+```
+
+**Response:**
+```json
+{
+  "revalidated": true,
+  "type": "all",
+  "path": "/monica-coolie-lyrics.html",
+  "results": [
+    "Cleared song page cache: monica-coolie-lyrics",
+    "Cleared CDN static file: /songs/monica-coolie-lyrics.json",
+    "Cleared API route: /api/songs/monica-coolie-lyrics"
+  ],
+  "now": 1704988800000
+}
+```
+
+## Cache Clear API Reference (Legacy)
 
 ### Endpoint: `/api/cache-clear`
 
@@ -163,17 +276,65 @@ curl -X DELETE "http://localhost:3000/api/cache-clear?action=url&url=https://tso
 
 ## Content Management Scenarios
 
-### Scenario 1: New Song Posted (RECOMMENDED)
+### Scenario 1: Update Existing Song in CDN (RECOMMENDED)
 ```bash
-# Step 1: Clear our application cache only
-curl -X DELETE "http://localhost:3000/api/cache-clear?action=pattern&pattern=*songs*"
+# Step 1: Update JSON file locally
+npm run generate-song-json -- --category="Movie:Coolie" --limit=1
 
-# Step 2: Let Vercel CDN refresh naturally (via stale-while-revalidate)
-# No manual action needed - happens automatically on next request
+# Step 2: Copy to /public/songs
+cp blob-data/monica-coolie-lyrics.json public/songs/
+
+# Step 3: Deploy (auto-clears CDN cache)
+git add public/songs/monica-coolie-lyrics.json
+git commit -m "Update Monica lyrics"
+git push
+
+# Step 4: Clear page cache for immediate effect (optional)
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&path=/monica-coolie-lyrics.html&type=page"
 ```
-**Result**: ✅ Smooth user experience, background refresh
+**Result**: ✅ Updated content live in 2-3 minutes, zero cost forever
 
-### Scenario 2: Song Lyrics Updated (RECOMMENDED)
+### Scenario 2: Add New Song via Blob Storage (RECOMMENDED)
+```bash
+# Step 1: Generate JSON
+npm run generate-song-json -- --category="Song:NewSong"
+
+# Step 2: Upload to blob
+npm run upload-to-blob
+
+# Step 3: Clear API cache (forces refetch from blob)
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&path=/new-song-lyrics.html&type=api"
+```
+**Result**: ✅ Song instantly available, will be CDN cached after first request
+
+### Scenario 3: Emergency Content Update (USE SPARINGLY)
+```bash
+# Step 1: Clear all caches for the song
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&path=/urgent-song.html&type=all"
+
+# Step 2: If needed, clear all site caches
+curl "https://tsonglyrics.com/api/revalidate?secret=SECRET&clearAll=true"
+```
+**Result**: ✅ Immediate effect, next request fetches fresh data
+
+### Scenario 4: Weekly Batch Update (AUTOMATED)
+```bash
+# Step 1: Generate all new songs
+npm run generate-song-json
+
+# Step 2: Move to CDN
+cp blob-data/*.json public/songs/
+
+# Step 3: Deploy once
+git add public/songs
+git commit -m "Weekly CDN update"
+git push
+
+# No cache clearing needed - deployment handles it
+```
+**Result**: ✅ All new songs on CDN, zero cost, automated
+
+### Scenario 5: Song Lyrics Updated (RECOMMENDED - Legacy)
 ```bash
 # Clear specific song from our application cache
 curl -X DELETE "http://localhost:3000/api/cache-clear?action=song&category=Song:Updated%20Song%20Title"
@@ -182,17 +343,7 @@ curl -X DELETE "http://localhost:3000/api/cache-clear?action=song&category=Song:
 ```
 **Result**: ✅ Updated content appears quickly, no performance impact
 
-### Scenario 3: Emergency Content Update (USE SPARINGLY)
-```bash
-# Step 1: Clear our application cache
-curl -X DELETE "http://localhost:3000/api/cache-clear?action=all"
-
-# Step 2: Force clear Vercel CDN
-vercel --prod --scope your-team
-```
-**Result**: ✅ Immediate global effect, ⚠️ temporary performance impact
-
-### Scenario 4: Performance Issues
+### Scenario 6: Performance Issues
 ```bash
 # Check our cache statistics first
 curl http://localhost:3000/api/cache-stats

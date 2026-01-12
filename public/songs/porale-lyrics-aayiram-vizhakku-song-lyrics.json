@@ -1,0 +1,74 @@
+{
+  "slug": "porale-lyrics-aayiram-vizhakku-song-lyrics",
+  "id": "tag:blogger.com,1999:blog-933118286952973473.post-8387723520594697056",
+  "title": "Porale Lyrics Aayiram Vizhakku song lyrics",
+  "movieName": "Aayiram Vilakku",
+  "singerName": "Karthik",
+  "lyricistName": "Vairamuthu",
+  "musicName": "Srikanth Deva",
+  "actorName": "",
+  "published": "2010-08-22T15:12:00.000+05:30",
+  "stanzas": [
+    "<div><span>Singers : Karthik</span>  <br /><span>Song    : Porale</span><br /><span>Movie   : Aayiram Vilakku</span><br /><span>Lyrics  : Vairamuthu</span>",
+    "<span>Porale</span><br /><span>Nenja killikitu killikittu killikitu porale</span><br /><span>Varaale</span><br /><span>Nenja ahllikitu ahllikitu ahllikitu Varaale</span>",
+    "<span>Kutti pola poona pola enna vandhu suthuraye</span><br /><span>Konda pota kozhi pola kitta vandhu kothuriye</span><br /><span>Unna pola enna kolla aralivedha thevayilla</span></div>"
+  ],
+  "hasTamilLyrics": false,
+  "tamilStanzas": [],
+  "category": [
+    "Lyrics:Vairamuthu",
+    "Movie:Aayiram Vilakku",
+    "Music:Srikanth Deva",
+    "Singer:Karthik",
+    "Song:Porale - Aayiram Vizhakku"
+  ],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-4342948563984269141",
+      "title": "Radhiye Radhiye Lyrics-Aayiram Vilakku song Lyrics",
+      "slug": "radhiye-radhiye-lyrics-aayiram-vilakku-song-lyrics",
+      "thumbnail": null,
+      "movieName": "Aayiram Vilakku",
+      "singerName": "Chinmayi",
+      "published": "2010-08-21T20:35:00.000+05:30"
+    }
+  ],
+  "seo": {
+    "title": "Porale Lyrics Aayiram Vizhakku song lyrics",
+    "description": "Get the complete Porale Lyrics Aayiram Vizhakku song lyrics from Aayiram Vilakku. Read the lyrics penned by Vairamuthu and composed by Srikanth Deva and sung by Karthik. Perfect for fans looking for the full Tamil text and song meaning.",
+    "keywords": "Vairamuthu, Aayiram Vilakku, Srikanth Deva, Karthik, Tamil lyrics, Tamil songs",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "name": "Porale Lyrics Aayiram Vizhakku song lyrics",
+      "description": "Get the complete Porale Lyrics Aayiram Vizhakku song lyrics from Aayiram Vilakku. Read the lyrics penned by Vairamuthu and composed by Srikanth Deva and sung by Karthik. Perfect for fans looking for the full Tamil text and song meaning.",
+      "inLanguage": "ta",
+      "genre": "Tamil Music",
+      "datePublished": "2010-08-22T15:12:00.000+05:30",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tamil Song Lyrics",
+        "url": "https://www.tsonglyrics.com"
+      },
+      "inAlbum": {
+        "@type": "MusicAlbum",
+        "name": "Aayiram Vilakku"
+      },
+      "byArtist": {
+        "@type": "Person",
+        "name": "Karthik"
+      },
+      "lyricist": {
+        "@type": "Person",
+        "name": "Vairamuthu"
+      },
+      "composer": {
+        "@type": "Person",
+        "name": "Srikanth Deva"
+      }
+    }
+  },
+  "thumbnail": null,
+  "generatedAt": "2026-01-09T17:58:23.872Z",
+  "version": 1
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "seedan-song-lyrics",
+  "id": "tag:blogger.com,1999:blog-933118286952973473.post-1268785624397897246",
+  "title": "Seedan Song Lyrics",
+  "movieName": "Seedan",
+  "singerName": "Sathish",
+  "lyricistName": "",
+  "musicName": "Dhina",
+  "actorName": "",
+  "published": "2011-01-29T17:03:00.000+05:30",
+  "stanzas": [
+    "<div><div>Cast: Krishna, Ananya, Dhanush (Cameo appearance), <br />Music: Dhina<br />Direction: Subramaniya Shiva<br />Production: Mohan<br />Lyrics: Pa. Vijay",
+    "1 Munpani - <a href=\"http://the-blog-that-shares.blogspot.com/2011/02/munpani-kaala-poovile-lyrics-seedan.html\">Click to view Lyrics</a><br />Singers: Shreya Ghosal",
+    "2 Valliamma<br />Singers: Shankar Mahadevan &amp; china Ponnu",
+    "3 Enadhu<br />Singers: Prasanna &amp; Janaki Iyer",
+    "4 Saravana Samayal<br />Singers: Hariharan ; Danush",
+    "5 Yadumaghiye<br />Singers: Shankar Mahadevan, Kavitha Krishnamoorthy Subramaniam",
+    "6 Oru Naal Mattum<br />Singers: KS Chithra</div></div>"
+  ],
+  "hasTamilLyrics": false,
+  "tamilStanzas": [],
+  "category": [
+    "Movie:Seedan",
+    "MovieLyrics",
+    "Music:Dhina"
+  ],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-2175242520440442156",
+      "title": "Munpani Kaala poovile lyrics Seedan Song Lyrics",
+      "slug": "munpani-kaala-poovile-lyrics-seedan-song-lyrics",
+      "thumbnail": null,
+      "movieName": "Seedan",
+      "singerName": "Shreya Goshal",
+      "published": "2011-02-06T12:49:00.000+05:30"
+    }
+  ],
+  "seo": {
+    "title": "Seedan Song Lyrics",
+    "description": "Get the complete Seedan Song Lyrics from Seedan. composed by Dhina and Perfect for fans looking for the full Tamil text and song meaning.",
+    "keywords": "Seedan, MovieLyrics, Dhina, Tamil lyrics, Tamil songs",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "name": "Seedan Song Lyrics",
+      "description": "Get the complete Seedan Song Lyrics from Seedan. composed by Dhina and Perfect for fans looking for the full Tamil text and song meaning.",
+      "inLanguage": "ta",
+      "genre": "Tamil Music",
+      "datePublished": "2011-01-29T17:03:00.000+05:30",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tamil Song Lyrics",
+        "url": "https://www.tsonglyrics.com"
+      },
+      "inAlbum": {
+        "@type": "MusicAlbum",
+        "name": "Seedan"
+      },
+      "byArtist": {
+        "@type": "Person",
+        "name": "Sathish"
+      },
+      "composer": {
+        "@type": "Person",
+        "name": "Dhina"
+      }
+    }
+  },
+  "thumbnail": null,
+  "generatedAt": "2026-01-09T17:57:40.706Z",
+  "version": 1
+}
