@@ -25,6 +25,39 @@ function getBaseUrl(): string {
 }
 
 /**
+ * Retry helper function with exponential backoff
+ */
+async function retryFetch(
+  url: string,
+  options: RequestInit,
+  maxRetries: number = 2,
+  initialDelay: number = 100
+): Promise<Response> {
+  let lastError: Error | null = null
+  
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await fetch(url, options)
+      // Return the response regardless of status - caller will check response.ok
+      return response
+    } catch (error) {
+      lastError = error as Error
+      console.error(`[Hybrid] Fetch attempt ${attempt + 1} failed for ${url}:`, error)
+      
+      // Don't retry on the last attempt
+      if (attempt < maxRetries) {
+        const delay = initialDelay * Math.pow(2, attempt)
+        console.log(`[Hybrid] Retrying in ${delay}ms...`)
+        await new Promise(resolve => setTimeout(resolve, delay))
+      }
+    }
+  }
+  
+  // If all retries failed, throw the last error
+  throw lastError || new Error('All fetch attempts failed')
+}
+
+/**
  * Fetch song data from Vercel Blob storage with Hybrid CDN approach
  * 
  * HYBRID STRATEGY (Cost Optimization):
@@ -36,72 +69,108 @@ function getBaseUrl(): string {
  * @returns Song data from blob storage or null if not found
  */
 export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> {
+  const cleanSlug = slug.replace('.html', '')
+  const baseUrl = getBaseUrl()
+  
+  // Check if blob storage API is enabled (default: disabled to save costs)
+  const enableBlobStorageAPI = process.env.ENABLE_BLOB_STORAGE_API === 'true'
+  
+  // STEP 1: Try static CDN file (99% of traffic - existing songs)
+  console.log(`[Hybrid] 🚀 Trying CDN: ${baseUrl}/songs/${cleanSlug}.json`)
+  
   try {
-    const cleanSlug = slug.replace('.html', '')
-    const baseUrl = getBaseUrl()
-    
-    // Check if blob storage API is enabled (default: disabled to save costs)
-    const enableBlobStorageAPI = process.env.ENABLE_BLOB_STORAGE_API === 'true'
-    
-    // STEP 1: Try static CDN file (99% of traffic - existing songs)
-    console.log(`[Hybrid] 🚀 Trying CDN: ${baseUrl}/songs/${cleanSlug}.json`)
-    
-    const cdnResponse = await fetch(`${baseUrl}/songs/${cleanSlug}.json`, {
-      next: { 
-        revalidate: 2592000, // 30 days
-        tags: [`cdn-${cleanSlug}`] 
-      }
-    })
+    const cdnResponse = await retryFetch(
+      `${baseUrl}/songs/${cleanSlug}.json`,
+      {
+        next: { 
+          revalidate: 2592000, // 30 days
+          tags: [`cdn-${cleanSlug}`] 
+        }
+      },
+      2, // Max 2 retries (3 total attempts)
+      100 // Start with 100ms delay
+    )
 
     console.log(`[Hybrid] CDN response status: ${cdnResponse.status} for ${cleanSlug}`)
 
     if (cdnResponse.ok) {
-      const data: SongBlobData = await cdnResponse.json()
-      
-      // Validate data structure
-      if (!data.slug || !data.title || !data.stanzas) {
-        console.error('⚠️ Invalid CDN data structure:', data)
-        return null
-      }
-      
-      // console.log(`[Hybrid] ✅ CDN hit (zero cost): ${cleanSlug}`)
-      return data
-    }
-
-    // STEP 2 (OPTIONAL): Try dynamic API from blob storage (disabled by default)
-    if (enableBlobStorageAPI) {
-      console.log(`[Hybrid] 📡 CDN miss, trying Blob Storage API: ${baseUrl}/api/songs/${cleanSlug}`)
-      
-      const apiResponse = await fetch(`${baseUrl}/api/songs/${cleanSlug}`, {
-        next: { 
-          revalidate: 2592000,
-          tags: [`api-${cleanSlug}`] 
+      try {
+        const data: SongBlobData = await cdnResponse.json()
+        
+        // Validate only required fields (be lenient with optional fields)
+        if (!data.slug || !data.title || !Array.isArray(data.stanzas)) {
+          console.error('⚠️ Invalid CDN data structure (missing required fields):', {
+            hasSlug: !!data.slug,
+            hasTitle: !!data.title,
+            hasStanzas: Array.isArray(data.stanzas),
+            stanzasLength: Array.isArray(data.stanzas) ? data.stanzas.length : 0
+          })
+          // Don't return null - try API fallback
+        } else {
+          console.log(`[Hybrid] ✅ CDN hit (zero cost): ${cleanSlug}`)
+          return data
         }
-      })
+      } catch (jsonError) {
+        console.error(`[Hybrid] ❌ Failed to parse CDN JSON for ${cleanSlug}:`, jsonError)
+        // Continue to try API fallback
+      }
+    } else if (cdnResponse.status === 404) {
+      // Legitimate 404 - file doesn't exist, no need to retry or check API
+      console.log(`[Hybrid] ℹ️ CDN 404 (file doesn't exist): ${cleanSlug}`)
+    } else {
+      // Other HTTP errors (5xx, etc.)
+      console.error(`[Hybrid] ⚠️ CDN returned error status ${cdnResponse.status} for ${cleanSlug}`)
+    }
+  } catch (cdnError) {
+    console.error(`[Hybrid] ❌ CDN fetch failed after retries for ${cleanSlug}:`, cdnError)
+  }
+
+  // STEP 2 (OPTIONAL): Try dynamic API from blob storage (disabled by default)
+  if (enableBlobStorageAPI) {
+    console.log(`[Hybrid] 📡 CDN miss, trying Blob Storage API: ${baseUrl}/api/songs/${cleanSlug}`)
+    
+    try {
+      const apiResponse = await retryFetch(
+        `${baseUrl}/api/songs/${cleanSlug}`,
+        {
+          next: { 
+            revalidate: 2592000,
+            tags: [`api-${cleanSlug}`] 
+          }
+        },
+        2, // Max 2 retries
+        100 // Start with 100ms delay
+      )
 
       if (apiResponse.ok) {
-        const data: SongBlobData = await apiResponse.json()
-        
-        // Validate data structure
-        if (!data.slug || !data.title || !data.stanzas) {
-          console.error('⚠️ Invalid API data structure:', data)
-          return null
+        try {
+          const data: SongBlobData = await apiResponse.json()
+          
+          // Validate only required fields
+          if (!data.slug || !data.title || !Array.isArray(data.stanzas)) {
+            console.error('⚠️ Invalid API data structure (missing required fields):', {
+              hasSlug: !!data.slug,
+              hasTitle: !!data.title,
+              hasStanzas: Array.isArray(data.stanzas)
+            })
+          } else {
+            console.log(`[Hybrid] ✅ Blob Storage API hit: ${cleanSlug}`)
+            return data
+          }
+        } catch (jsonError) {
+          console.error(`[Hybrid] ❌ Failed to parse API JSON for ${cleanSlug}:`, jsonError)
         }
-        
-        console.log(`[Hybrid] ✅ Blob Storage API hit: ${cleanSlug}`)
-        return data
       }
-    } else {
-      console.log(`[Hybrid] ⏭️  Blob Storage API disabled (ENABLE_BLOB_STORAGE_API not set)`)
+    } catch (apiError) {
+      console.error(`[Hybrid] ❌ API fetch failed after retries for ${cleanSlug}:`, apiError)
     }
-
-    // STEP 3: All failed - caller will use Blogger API fallback
-    console.log(`[Hybrid] ❌ Not found in CDN - using Blogger fallback: ${cleanSlug}`)
-    return null
-  } catch (error) {
-    console.error('[Hybrid] ❌ Error in hybrid fetch:', error)
-    return null
+  } else {
+    console.log(`[Hybrid] ⏭️  Blob Storage API disabled (ENABLE_BLOB_STORAGE_API not set)`)
   }
+
+  // STEP 3: All failed - caller will use Blogger API fallback
+  console.log(`[Hybrid] ❌ Not found in CDN/API - using Blogger fallback: ${cleanSlug}`)
+  return null
 }
 
 /**
