@@ -26,6 +26,7 @@ function getBaseUrl(): string {
 
 /**
  * Retry helper function with exponential backoff
+ * Retries only on network errors (fetch failures), not on HTTP status errors (404, 500, etc.)
  */
 async function retryFetch(
   url: string,
@@ -33,7 +34,7 @@ async function retryFetch(
   maxRetries: number = 2,
   initialDelay: number = 100
 ): Promise<Response> {
-  let lastError: Error | null = null
+  let lastNetworkError: Error | null = null
   
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
@@ -41,7 +42,7 @@ async function retryFetch(
       // Return the response regardless of status - caller will check response.ok
       return response
     } catch (error) {
-      lastError = error as Error
+      lastNetworkError = error as Error
       console.error(`[Hybrid] Fetch attempt ${attempt + 1} failed for ${url}:`, error)
       
       // Don't retry on the last attempt
@@ -54,7 +55,27 @@ async function retryFetch(
   }
   
   // If all retries failed, throw the last error
-  throw lastError || new Error('All fetch attempts failed')
+  throw lastNetworkError || new Error('All fetch attempts failed')
+}
+
+/**
+ * Validate song blob data structure
+ * Only checks required fields to be lenient with optional fields
+ */
+function validateBlobData(data: any, cleanSlug: string): data is SongBlobData {
+  const isValid = !!(data.slug && data.title && Array.isArray(data.stanzas))
+  
+  if (!isValid) {
+    console.error('⚠️ Invalid blob data structure (missing required fields):', {
+      slug: cleanSlug,
+      hasSlug: !!data.slug,
+      hasTitle: !!data.title,
+      hasStanzas: Array.isArray(data.stanzas),
+      stanzasLength: Array.isArray(data.stanzas) ? data.stanzas.length : 0
+    })
+  }
+  
+  return isValid
 }
 
 /**
@@ -97,19 +118,12 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
       try {
         const data: SongBlobData = await cdnResponse.json()
         
-        // Validate only required fields (be lenient with optional fields)
-        if (!data.slug || !data.title || !Array.isArray(data.stanzas)) {
-          console.error('⚠️ Invalid CDN data structure (missing required fields):', {
-            hasSlug: !!data.slug,
-            hasTitle: !!data.title,
-            hasStanzas: Array.isArray(data.stanzas),
-            stanzasLength: Array.isArray(data.stanzas) ? data.stanzas.length : 0
-          })
-          // Don't return null - try API fallback
-        } else {
+        // Validate required fields using shared validation function
+        if (validateBlobData(data, cleanSlug)) {
           console.log(`[Hybrid] ✅ CDN hit (zero cost): ${cleanSlug}`)
           return data
         }
+        // Validation failed, continue to API fallback
       } catch (jsonError) {
         console.error(`[Hybrid] ❌ Failed to parse CDN JSON for ${cleanSlug}:`, jsonError)
         // Continue to try API fallback
@@ -146,17 +160,12 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
         try {
           const data: SongBlobData = await apiResponse.json()
           
-          // Validate only required fields
-          if (!data.slug || !data.title || !Array.isArray(data.stanzas)) {
-            console.error('⚠️ Invalid API data structure (missing required fields):', {
-              hasSlug: !!data.slug,
-              hasTitle: !!data.title,
-              hasStanzas: Array.isArray(data.stanzas)
-            })
-          } else {
+          // Validate required fields using shared validation function
+          if (validateBlobData(data, cleanSlug)) {
             console.log(`[Hybrid] ✅ Blob Storage API hit: ${cleanSlug}`)
             return data
           }
+          // Validation failed, continue to Blogger fallback
         } catch (jsonError) {
           console.error(`[Hybrid] ❌ Failed to parse API JSON for ${cleanSlug}:`, jsonError)
         }
