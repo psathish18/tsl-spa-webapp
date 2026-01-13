@@ -97,7 +97,8 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
   const enableBlobStorageAPI = process.env.ENABLE_BLOB_STORAGE_API === 'true'
   
   // STEP 1: Try static CDN file (99% of traffic - existing songs)
-  console.log(`[Hybrid] 🚀 Trying CDN: ${baseUrl}/songs/${cleanSlug}.json`)
+  const cdnUrl = `${baseUrl}/songs/${cleanSlug}.json`
+  console.log(`[Hybrid] 🚀 Trying CDN: ${cdnUrl} [NODE_ENV=${process.env.NODE_ENV}]`)
   
   try {
     const cdnResponse = await retryFetch(
@@ -122,6 +123,8 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
         if (validateBlobData(data, cleanSlug)) {
           console.log(`[Hybrid] ✅ CDN hit (zero cost): ${cleanSlug}`)
           return data
+        } else {
+          console.error(`[Hybrid] ⚠️ Validation failed for ${cleanSlug}, continuing to fallback`)
         }
         // Validation failed, continue to API fallback
       } catch (jsonError) {
