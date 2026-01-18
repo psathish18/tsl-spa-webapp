@@ -1,9 +1,16 @@
 {
+  "slug": "kozhu-kozhu-lyrics-theeya-velai",
   "id": "tag:blogger.com,1999:blog-933118286952973473.post-7152039622224802474",
   "title": "Kozhu Kozhu Lyrics Theeya Velai Seiyyanum Kumaru Songs Lyrics",
-  "slug": "kozhu-kozhu-lyrics-theeya-velai",
+  "movieName": "Theeya Velai Seiyyanum Kumaru",
+  "singerName": "Priya Himesh, Vijay Prakash",
+  "lyricistName": "Pa Vijay",
+  "musicName": "Sathya C",
+  "actorName": "",
+  "published": "2013-05-04T23:41:00.001+05:30",
   "stanzas": [
-    "<div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\"><table><tbody><tr>  <td width=\"33%\"><br />Singers: Vijay Prakash, Priya Hemesh<br />Song: Kozhu Kozhu<br />Music : C. Sathya<br />Lyrics: Pa Vijay<br />Movie: Theeya Velai Seiyyanum Kumaru</td> <td width=\"33%\">.</td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxLU8NQd8cWs9NRWITkyGVpHqSZtWmQsvigkL7TwGYOtdfEQDJ4Ng7Aheuzbse55tsVXXeJ9WDJIZY4Y6IXPD_8MVN2iZjKsatK3VbinMoLObKx88K7qhsa1KwviERA0rWDMgTkWjA3Go/s1600/Theeya+Velai+Seiyyanum+Kumar.jpg\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em; text-align: center;\"></a></td></tr></tbody></table><table id=\"posttable\"><tbody><tr class=\"contenttr\"><td valign=\"top\" width=\"50%\"><b>Lyrics in Thanglish </b> <br />Exact translation of tamil words <br /><hr /><br />Kozhu kozhu porandhavaley<br />mozhu mozhunu valandhavaley<br />muzhusa nee kedaicha enna seiven",
+    "<div><table><tbody><tr>  <td><br />Singers: Vijay Prakash, Priya Hemesh<br />Song: Kozhu Kozhu<br />Music : C. Sathya<br />Lyrics: Pa Vijay<br />Movie: Theeya Velai Seiyyanum Kumaru</td> <td>.</td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxLU8NQd8cWs9NRWITkyGVpHqSZtWmQsvigkL7TwGYOtdfEQDJ4Ng7Aheuzbse55tsVXXeJ9WDJIZY4Y6IXPD_8MVN2iZjKsatK3VbinMoLObKx88K7qhsa1KwviERA0rWDMgTkWjA3Go/s1600/Theeya+Velai+Seiyyanum+Kumar.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish  <br />Exact translation of tamil words",
+    "Kozhu kozhu porandhavaley<br />mozhu mozhunu valandhavaley<br />muzhusa nee kedaicha enna seiven",
     "Kulu kulunu siripavaley<br />gilu gilunu irupavaley<br />sogusa nee kidacha enna seiven<br />kanna kuli inikka naan appadiye saapuduven<br />neju kuli neratha naa appadiye alliduven",
     "Nee thee thee, thoonda nee<br />ennthaan alliko<br />vazhiko ichiko pichiko vachiko",
     "Nee nee nee jill raani<br />mellathaan mennuko<br />munnuko pinnuko ennayum kattiko",
@@ -13,8 +20,9 @@
     "Tha thaa thaa kanpaarthu thaa<br />kandippa kandippa kannathil<br />kandippa muthathil vanjippaa",
     "Aithalakka nee ennaku nenjila sulukka<br />thummalukkaa unkanakkaa pogudhu erakka<br />adi ennadi ennadiyo<br />rendu kannadi kannadiyo<br />adhu meen kadiyo<br />thaen kadiyo<br />veesuraa vediyo",
     "Kozhu kozhu porandhavaley<br />mozhu mozhunu valandhavaley<br />muzhusa nee kedaicha enna seiven",
-    "kanna kuli inikka<br />naan appadiye appadiyesaapuduven<br />neju kuli neratha<br />naa appadiye appadiye alliduven</td><td valign=\"top\" width=\"50%\"><b>English Translation </b> <br />I tried my best :)  <br /><hr />[english lyric]  </td></tr></tbody></table></div>"
+    "kanna kuli inikka<br />naan appadiye appadiyesaapuduven<br />neju kuli neratha<br />naa appadiye appadiye alliduven</td><td>English Translation  <br />I tried my best :)  <br />[english lyric]  </td></tr></tbody></table></div>"
   ],
+  "hasTamilLyrics": false,
   "tamilStanzas": [],
   "category": [
     "Lyrics:Pa Vijay",
@@ -24,15 +32,41 @@
     "Singer:Vijay Prakash",
     "Song:Kozhu Kozhu - Theeya Velai Seiyyanum Kumaru"
   ],
-  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxLU8NQd8cWs9NRWITkyGVpHqSZtWmQsvigkL7TwGYOtdfEQDJ4Ng7Aheuzbse55tsVXXeJ9WDJIZY4Y6IXPD_8MVN2iZjKsatK3VbinMoLObKx88K7qhsa1KwviERA0rWDMgTkWjA3Go/s72-c/Theeya+Velai+Seiyyanum+Kumar.jpg",
-  "published": "2013-05-04T23:41:00.001+05:30",
-  "movieName": "Theeya Velai Seiyyanum Kumaru",
-  "singerName": "Priya Himesh",
-  "lyricistName": "Pa Vijay",
-  "relatedSongs": [],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-6356045183282697716",
+      "title": "Thirutu Pasanga Lyrics Theeya Velai Seiyyanum Kumaru Songs Lyrics",
+      "slug": "thirutu-pasanga-lyrics-theeya-velai",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxLU8NQd8cWs9NRWITkyGVpHqSZtWmQsvigkL7TwGYOtdfEQDJ4Ng7Aheuzbse55tsVXXeJ9WDJIZY4Y6IXPD_8MVN2iZjKsatK3VbinMoLObKx88K7qhsa1KwviERA0rWDMgTkWjA3Go/s400-c/Theeya+Velai+Seiyyanum+Kumar.jpg",
+      "movieName": "Theeya Velai Seiyyanum Kumaru",
+      "singerName": "Ranina Reddy, Saindhavi",
+      "published": "2013-05-04T23:43:00.002+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-6356133128195574341",
+      "title": "Theeya Velai Seiyyanum Kumaru Songs Lyrics",
+      "slug": "theeya-velai-seiyyanum-kumaru-songs",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxLU8NQd8cWs9NRWITkyGVpHqSZtWmQsvigkL7TwGYOtdfEQDJ4Ng7Aheuzbse55tsVXXeJ9WDJIZY4Y6IXPD_8MVN2iZjKsatK3VbinMoLObKx88K7qhsa1KwviERA0rWDMgTkWjA3Go/s400-c/Theeya+Velai+Seiyyanum+Kumar.jpg",
+      "movieName": "Theeya Velai Seiyyanum Kumaru",
+      "singerName": "",
+      "published": "2013-05-04T23:43:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-5814603521038975378",
+      "title": "Azhagendral Lyrics Theeya Velai Seiyyanum Kumaru Songs Lyrics",
+      "slug": "azhagendral-lyrics-theeya-velai",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxLU8NQd8cWs9NRWITkyGVpHqSZtWmQsvigkL7TwGYOtdfEQDJ4Ng7Aheuzbse55tsVXXeJ9WDJIZY4Y6IXPD_8MVN2iZjKsatK3VbinMoLObKx88K7qhsa1KwviERA0rWDMgTkWjA3Go/s400-c/Theeya+Velai+Seiyyanum+Kumar.jpg",
+      "movieName": "Theeya Velai Seiyyanum Kumaru",
+      "singerName": "Ranina Reddy, Sathya C",
+      "published": "2013-05-04T23:42:00.001+05:30"
+    }
+  ],
   "seo": {
     "title": "Kozhu Kozhu Lyrics Theeya Velai Seiyyanum Kumaru Songs Lyrics",
-    "description": "Kozhu Kozhu Lyrics Theeya Velai Seiyyanum Kumaru Songs Lyrics - Tamil song lyrics from Theeya Velai Seiyyanum Kumaru",
-    "keywords": "Lyrics:Pa Vijay, Movie:Theeya Velai Seiyyanum Kumaru, Music:Sathya C, Singer:Priya Himesh, Singer:Vijay Prakash"
-  }
+    "description": "Full Kozhu Kozhu songs lyrics, Theeya Velai Seiyyanum Kumaru Songs Lyrics. sharable lyrics snippets, Lyrics: Pa Vijay, Music: Sathya C, Singer(s): Priya Himesh, Vijay Prakash.",
+    "keywords": "Pa Vijay, Theeya Velai Seiyyanum Kumaru, Sathya C, Priya Himesh, Vijay Prakash, Kozhu Kozhu full lyrics, Theeya Velai Seiyyanum Kumaru songs lyrics, Kozhu Kozhu lyrics snippets, Kozhu Kozhu WhatsApp status lyrics snippets, share Kozhu Kozhu lyrics snippets with friends, Tamil lyrics, Tamil songs"
+  },
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxLU8NQd8cWs9NRWITkyGVpHqSZtWmQsvigkL7TwGYOtdfEQDJ4Ng7Aheuzbse55tsVXXeJ9WDJIZY4Y6IXPD_8MVN2iZjKsatK3VbinMoLObKx88K7qhsa1KwviERA0rWDMgTkWjA3Go/s400-c/Theeya+Velai+Seiyyanum+Kumar.jpg",
+  "generatedAt": "2026-01-18T13:04:09.909Z",
+  "version": 1
 }

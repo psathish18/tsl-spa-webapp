@@ -40,7 +40,7 @@
       "slug": "kadugu-songs-lyrics",
       "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJA8UmcKBRfWp1GY00PqgSiYaJei8Dmw7OKeOrvpfhRhe8mrHDF-RZgavI4Yd__FzxgTwIPfI5aZK-U339k4X0IdWb2l2TDGJ7hULto8s4xbGAf8gugDNKbFgXBCeRj6q_abpKLVGAUdk/s400-c/Kadugu.JPG",
       "movieName": "Kadugu",
-      "singerName": "Sathish",
+      "singerName": "",
       "published": "2017-03-15T12:51:00.001+05:30"
     },
     {
@@ -55,40 +55,10 @@
   ],
   "seo": {
     "title": "Kadugalavu Lyrics Kadugu",
-    "description": "Get the complete Kadugalavu Lyrics Kadugu from Kadugu. Read the lyrics penned by Karky and composed by SN Arunagiri and sung by Haricharan. Perfect for fans looking for the full Tamil text and song meaning.",
-    "keywords": "Karky, Kadugu, SN Arunagiri, Haricharan, Tamil lyrics, Tamil songs",
-    "structuredData": {
-      "@context": "https://schema.org",
-      "@type": "MusicRecording",
-      "name": "Kadugalavu Lyrics Kadugu",
-      "description": "Get the complete Kadugalavu Lyrics Kadugu from Kadugu. Read the lyrics penned by Karky and composed by SN Arunagiri and sung by Haricharan. Perfect for fans looking for the full Tamil text and song meaning.",
-      "inLanguage": "ta",
-      "genre": "Tamil Music",
-      "datePublished": "2017-03-15T12:51:00.000+05:30",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Tamil Song Lyrics",
-        "url": "https://www.tsonglyrics.com"
-      },
-      "inAlbum": {
-        "@type": "MusicAlbum",
-        "name": "Kadugu"
-      },
-      "byArtist": {
-        "@type": "Person",
-        "name": "Haricharan"
-      },
-      "lyricist": {
-        "@type": "Person",
-        "name": "Karky"
-      },
-      "composer": {
-        "@type": "Person",
-        "name": "SN Arunagiri"
-      }
-    }
+    "description": "Full Kadugalavu songs lyrics, Kadugu Songs Lyrics. sharable lyrics snippets, Lyrics: Karky, Music: SN Arunagiri, Singer(s): Haricharan.",
+    "keywords": "Karky, Kadugu, SN Arunagiri, Haricharan, Kadugalavu full lyrics, Kadugu songs lyrics, Kadugalavu lyrics snippets, Kadugalavu WhatsApp status lyrics snippets, share Kadugalavu lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEoyp9GAGUax_Ih5MLmvlDJrOnG_mDbc4uwUxd862UqjmjLtsiSd7vOfNh6o8GAyFvnAyVM1J-Dnb07tArF6dNVtJXzRWxI8bNlP2vqvQ5P7eSu-rG_S0wX9nRPgV7QK7TG0cTX9P_aPc/s400-c/Kadugalavu+Lyrics.JPG",
-  "generatedAt": "2026-01-09T17:33:02.552Z",
+  "generatedAt": "2026-01-18T12:46:07.282Z",
   "version": 1
 }

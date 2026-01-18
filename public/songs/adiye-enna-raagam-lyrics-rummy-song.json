@@ -1,9 +1,15 @@
 {
+  "slug": "adiye-enna-raagam-lyrics-rummy-song",
   "id": "tag:blogger.com,1999:blog-933118286952973473.post-4600709155187778081",
   "title": "Adiye Enna Raagam Lyrics Rummy Song Lyrics",
-  "slug": "adiye-enna-raagam-lyrics-rummy-song",
+  "movieName": "Rummy",
+  "singerName": "Abhay Jodhpurkar, Poornima Satish",
+  "lyricistName": "Yugabharathi",
+  "musicName": "D Imman",
+  "actorName": "",
+  "published": "2013-10-27T22:59:00.000+05:30",
   "stanzas": [
-    "<div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\"><div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7c7qxOMXsqLxTEjjw4lAQmN4E6ePE01lyNqXsGfmF09-BpIC4pZRyC24XA7KEBeHKSGww_4qe3260xsV2YEBGTLBakN_pdRcpvujrsYkoSHobWebhCxw76cEsjBJNOeo-0-a5emLkUI/s1600/Rummy_Poster.jpg\" imageanchor=\"1\" style=\"clear: right; float: right; margin-bottom: 1em; margin-left: 1em;\"></a>Song: Adiye Enna Raagam<br />Singer(s): Abhay Jodhpurkar, Poornima Satish<br />Movie: Rummy<br />Music: D Imman<br />Lyrics: Yugabharathi",
+    "<div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7c7qxOMXsqLxTEjjw4lAQmN4E6ePE01lyNqXsGfmF09-BpIC4pZRyC24XA7KEBeHKSGww_4qe3260xsV2YEBGTLBakN_pdRcpvujrsYkoSHobWebhCxw76cEsjBJNOeo-0-a5emLkUI/s1600/Rummy_Poster.jpg\"></a>Song: Adiye Enna Raagam<br />Singer(s): Abhay Jodhpurkar, Poornima Satish<br />Movie: Rummy<br />Music: D Imman<br />Lyrics: Yugabharathi",
     "Ethanai kodi ibam vaithaai iraivaa",
     "Adiye enna raagam neeyum paadura<br />azhagaa ulla poondhu saami aadura<br />vakkanayaa paakkura<br />vambugala koottura<br />sakkraya aadham pol ootura<br />enna ne yaeni mela yethura yethura",
     "Adiye enna raagam neeyum paadura<br />azhagaa neeyum poodhu saami aadura",
@@ -13,8 +19,9 @@
     "Palaguna nanbana vitten<br />padipayum pattunu vitten<br />adikadi theruva paakuren<br />varuvenu vazhiya paakuren<br />thaniyaa naanum kooda katureney paatu<br />mulusaa unnaala naan aanen pulla theetu",
     "Pasiyo mangi pochu<br />padukka thalli pochu<br />kaaranam neeyadi thookkava kaavadi",
     "Adiye enna raagam <br />Adiye enna raagam neeyum paadura<br />azhagaa ulla poondhu saami aadura<br />vakkanayaa paakkura<br />vambugala koottura<br />sakkraya aadham pol ootura<br />enna ne yaeni mela yethura yethura",
-    "<br /></div><h2>- +1 your favorite</h2><ul class=\"navcontentlinks\" id=\"relatedfeeddata\"></ul><script type=\"text/javascript\">//<![CDATA[ function processRelatedData(mdata) { var feed = mdata.responseData.feed; var item=\"\"; for ( i=0 ; i< feed.entries.length ;i++) { var entry =feed.entries[i]; var html = entry.content; //var img = $(html).find(\"img\")[0].outerHTML; //var img1 = \"\"; var gp = \"<g:plusone size='medium' href='\"+entry.link +\"'></g:plusone>\"; item = item + \" <li>\" + gp + \"<a href='\" + entry.link + \"'>\" +  entry.title + \"</a></li>\"; }  $(\"#relatedfeeddata\").append(item); }   //]]></script><script src=\"http://ajax.googleapis.com/ajax/services/feed/load?q=http://www.tsonglyrics.com/feeds/posts/default/-/Movie:Rummy&amp;num=10&amp;output=json&amp;v=1.0&amp;callback=processRelatedData\"></script></div>"
+    "</div>- +1 your favorite</div>"
   ],
+  "hasTamilLyrics": false,
   "tamilStanzas": [],
   "category": [
     "Lyrics:Yugabharathi",
@@ -24,15 +31,41 @@
     "Singer:Poornima Satish",
     "Song:Adiye Enna Raagam - Rummy"
   ],
-  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7c7qxOMXsqLxTEjjw4lAQmN4E6ePE01lyNqXsGfmF09-BpIC4pZRyC24XA7KEBeHKSGww_4qe3260xsV2YEBGTLBakN_pdRcpvujrsYkoSHobWebhCxw76cEsjBJNOeo-0-a5emLkUI/s72-c/Rummy_Poster.jpg",
-  "published": "2013-10-27T22:59:00.000+05:30",
-  "movieName": "Rummy",
-  "singerName": "Abhay Jodhpurkar",
-  "lyricistName": "Yugabharathi",
-  "relatedSongs": [],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-1159796942535130664",
+      "title": "Koodamela Koodavechi Lyrics in Tamil - Rummy",
+      "slug": "koodamela-koodavechi-lyrics-in-tamil",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCBio_O_Hqo4TzHq5u_LlempZrSnia2-rN6tE4fnSizt16wLhpgiMmxjvsB8VCheJvqoXvY6cGHGCn76ldz99i1Xdv8QKYfK_Zqp1y5Wqym-ab8ItwKcX6FZvGLIbyf9gZ7aK2itqcGNs/s400-c/Rummy+Koodamela+Koodavachi+Lyrics+in+Tamil.png",
+      "movieName": "Rummy",
+      "singerName": "",
+      "published": "2014-07-09T22:41:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-5675866610863770956",
+      "title": "Rummy Song Lyrics",
+      "slug": "rummy-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUvA4x1_Ftt_HFaADpPfYWDwCRXNrY4u6dLRj5rCu8aotZQizMcYaL0TUaVrXoi8GqkJHnnwdr3GEdxouivHg-5co3jmjQO03xC0EFWMNUlN2bJs8fHnSHQw5GWCJX3fePpAKqPy9vt78/s400-c/rummy-movie-photos-03+%281%29.jpg",
+      "movieName": "Rummy",
+      "singerName": "",
+      "published": "2014-01-30T23:59:00.001+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-3859473041917936393",
+      "title": "Koodamela Koodavechi Lyrics Rummy Song Lyrics",
+      "slug": "koodamela-koodavechi-lyrics-rummy-song",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYy1ftToHS5fdEWMmJz5o8REeHc4YlxB4XD_kDoEdf1I8w08FdeJeSaBajXaFpaDBFkHn302RjMVnW00nim18IWglETybUeQUZ0fVW_GkvsNZmaUxtJZphW1HCL10GQdMzi_73BxtyB7s/s400-c/rummy-movie-photos-03+(1).jpg",
+      "movieName": "Rummy",
+      "singerName": "V. V. Prasanna, Vandhana Srinivasan",
+      "published": "2013-10-28T23:43:00.000+05:30"
+    }
+  ],
   "seo": {
     "title": "Adiye Enna Raagam Lyrics Rummy Song Lyrics",
-    "description": "Adiye Enna Raagam Lyrics Rummy Song Lyrics - Tamil song lyrics from Rummy",
-    "keywords": "Lyrics:Yugabharathi, Movie:Rummy, Music:D Imman, Singer:Abhay Jodhpurkar, Singer:Poornima Satish"
-  }
+    "description": "Full Adiye Enna Raagam songs lyrics, Rummy Songs Lyrics. sharable lyrics snippets, Lyrics: Yugabharathi, Music: D Imman, Singer(s): Abhay Jodhpurkar, Poornima Satish.",
+    "keywords": "Yugabharathi, Rummy, D Imman, Abhay Jodhpurkar, Poornima Satish, Adiye Enna Raagam full lyrics, Rummy songs lyrics, Adiye Enna Raagam lyrics snippets, Adiye Enna Raagam WhatsApp status lyrics snippets, share Adiye Enna Raagam lyrics snippets with friends, Tamil lyrics, Tamil songs"
+  },
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7c7qxOMXsqLxTEjjw4lAQmN4E6ePE01lyNqXsGfmF09-BpIC4pZRyC24XA7KEBeHKSGww_4qe3260xsV2YEBGTLBakN_pdRcpvujrsYkoSHobWebhCxw76cEsjBJNOeo-0-a5emLkUI/s400-c/Rummy_Poster.jpg",
+  "generatedAt": "2026-01-18T13:02:27.507Z",
+  "version": 1
 }

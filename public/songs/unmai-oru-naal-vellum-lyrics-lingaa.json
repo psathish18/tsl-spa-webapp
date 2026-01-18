@@ -1,9 +1,15 @@
 {
+  "slug": "unmai-oru-naal-vellum-lyrics-lingaa",
   "id": "tag:blogger.com,1999:blog-933118286952973473.post-740351860828243528",
   "title": "Unmai Oru Naal Vellum Lyrics Lingaa Song Lyrics",
-  "slug": "unmai-oru-naal-vellum-lyrics-lingaa",
+  "movieName": "Lingaa",
+  "singerName": "Haricharan",
+  "lyricistName": "Vairamuthu",
+  "musicName": "AR Rahman",
+  "actorName": "",
+  "published": "2014-11-16T21:09:00.000+05:30",
   "stanzas": [
-    "<div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\"><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s1600/Lingaa.jpg\" imageanchor=\"1\" style=\"clear: right; float: right; margin-bottom: 1em; margin-left: 1em; text-align: center;\"></a>Lingaa Unmai Orunaal Vellum Song Lyrics</div><div><b>Lyrics</b>: Vairamuthu</div><div><b>Singers</b>: Haricharan",
+    "<div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s1600/Lingaa.jpg\"></a>Lingaa Unmai Orunaal Vellum Song Lyrics</div><div>Lyrics: Vairamuthu</div><div>Singers: Haricharan",
     "Unmai orunaal vellum<br />Indha ulagam un peyar sollum<br />Indha oorey pottrum<br />Manidhan neeye neeye<br />Neeyada neeyada",
     "Poigal por veesum<br />Aanaal unmai medhuvaai pesum<br />Andru neeye vazhvil velvaai<br />Kalangaadhey kalangaadhey<br />Kalangaadhey, karaiyaadhey<br />Karaiyadhey kalangaadhey",
     "Ramanum azhudhaan<br />Dharmanum azhudhaan<br />Neeyo azhavillai<br />Unaku alivillai.",
@@ -18,6 +24,7 @@
     "Unmai oru naal vellum ...",
     "</div><div></div></div>"
   ],
+  "hasTamilLyrics": false,
   "tamilStanzas": [],
   "category": [
     "Lyrics:Vairamuthu",
@@ -26,15 +33,50 @@
     "Singer:Haricharan",
     "Song:Unmai Oru Naal Vellum - Lingaa"
   ],
-  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s72-c/Lingaa.jpg",
-  "published": "2014-11-16T21:09:00.000+05:30",
-  "movieName": "Lingaa",
-  "singerName": "Haricharan",
-  "lyricistName": "Vairamuthu",
-  "relatedSongs": [],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-591927041927162075",
+      "title": "Mona Gasolina Lyrics Lingaa Song Lyrics",
+      "slug": "mona-gasolina-lyrics-lingaa-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s400-c/Lingaa.jpg",
+      "movieName": "Lingaa",
+      "singerName": "Mano, Neeti Mohan, Tanvi Shah",
+      "published": "2014-11-19T23:39:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-6113153572084326471",
+      "title": "Oh Nanba Lyrics Lingaa Song Lyrics",
+      "slug": "oh-nanba-lyrics-lingaa-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s400-c/Lingaa.jpg",
+      "movieName": "Lingaa",
+      "singerName": "Dinesh Kanakaratnam, SPB",
+      "published": "2014-11-17T23:23:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-1969276570190050806",
+      "title": "Indiane Vaa Lyrics Lingaa Song Lyrics",
+      "slug": "indiane-vaa-lyrics-lingaa-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s400-c/Lingaa.jpg",
+      "movieName": "Lingaa",
+      "singerName": "AR Rahman",
+      "published": "2014-11-16T19:30:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-3366591245764231986",
+      "title": "Lingaa Song Lyrics",
+      "slug": "lingaa-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s400-c/Lingaa.jpg",
+      "movieName": "Lingaa",
+      "singerName": "",
+      "published": "2014-11-15T12:59:00.000+05:30"
+    }
+  ],
   "seo": {
     "title": "Unmai Oru Naal Vellum Lyrics Lingaa Song Lyrics",
-    "description": "Unmai Oru Naal Vellum Lyrics Lingaa Song Lyrics - Tamil song lyrics from Lingaa",
-    "keywords": "Lyrics:Vairamuthu, Movie:Lingaa, Music:AR Rahman, Singer:Haricharan"
-  }
+    "description": "Full Unmai Oru Naal Vellum songs lyrics, Lingaa Songs Lyrics. sharable lyrics snippets, Lyrics: Vairamuthu, Music: AR Rahman, Singer(s): Haricharan.",
+    "keywords": "Vairamuthu, Lingaa, AR Rahman, Haricharan, Unmai Oru Naal Vellum full lyrics, Lingaa songs lyrics, Unmai Oru Naal Vellum lyrics snippets, Unmai Oru Naal Vellum WhatsApp status lyrics snippets, share Unmai Oru Naal Vellum lyrics snippets with friends, Tamil lyrics, Tamil songs"
+  },
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s400-c/Lingaa.jpg",
+  "generatedAt": "2026-01-18T12:57:07.295Z",
+  "version": 1
 }

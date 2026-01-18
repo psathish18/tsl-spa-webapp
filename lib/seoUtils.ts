@@ -67,39 +67,10 @@ export function cleanCategoryLabel(label: string): string {
 }
 
 /**
- * Get meaningful labels from categories array
- * Filters and cleans category terms for use in descriptions
- */
-export function getMeaningfulLabels(categories: Array<{ term: string }> | undefined): {
-  movie: string;
-  singer: string;
-  lyricist: string;
-  music: string;
-  actor: string
-} {
-  if (!categories) {
-    return { movie: '', singer: '', lyricist: '', music: '', actor: '' };
-  }
-  
-  const movieCat = categories.find(cat => cat.term?.match(/^Movie:/i));
-  const singerCat = categories.find(cat => cat.term?.match(/^Singer:/i));
-  const lyricistCat = categories.find(cat => cat.term?.match(/^(Lyrics|Lyricist):/i));
-  const musicCat = categories.find(cat => cat.term?.match(/^(Music|OldMusic):/i));
-  const actorCat = categories.find(cat => cat.term?.match(/^Actor:/i));
-  
-  return {
-    movie: movieCat ? cleanCategoryLabel(movieCat.term) : '',
-    singer: singerCat ? cleanCategoryLabel(singerCat.term) : '',
-    lyricist: lyricistCat ? cleanCategoryLabel(lyricistCat.term) : '',
-    music: musicCat ? cleanCategoryLabel(musicCat.term) : '',
-    actor: actorCat ? cleanCategoryLabel(actorCat.term) : ''
-  };
-}
-
-/**
  * Generate SEO-optimized description for song page
  */
 export function generateSongDescription(params: {
+  entry: any;
   title: string;
   snippet: string;
   movie?: string;
@@ -115,28 +86,41 @@ export function generateSongDescription(params: {
   
   // Start with the title
   // const cleanTitle = cleanCategoryLabel(title).replace(/\s+lyrics$/i, '').trim();
-  parts.push("Get the complete " + title);
+  const entryTitle = params.entry.title?.$t || '';
+  if(title.indexOf("-")!=-1 ){
+    const songName = title.split("-")[0].trim();
+    if(hasEnglishTranslationContent(params.entry.category || [])){
+      parts.push(entryTitle + '.');
+    }else{
+      if(['tamil lyrics','lyrics in tamil','lyrics tamil'].some(term => entryTitle.toLowerCase().includes(term))){
+        parts.push(`Full ${songName} songs lyrics in tamil (${snippet.split(" ").slice(0,5).join(" ")} ...)`);
+      }else
+       parts.push(`Full ${songName} songs lyrics,`);
+    }
+  }else{
+    parts.push("Full " + title + ",");
+  }
   
   // Add context
   if (movie) {
-    parts.push(`from ${actor ? actor + "'s " : ''}${movie}.`);
+    parts.push(`${movie} Songs Lyrics.`);
   }
-  
+  if(!hasEnglishTranslationContent(params.entry.category || [])){
+      parts.push("sharable lyrics snippets,");
+    }
   if (lyricist) {
-    parts.push(`Read the lyrics penned by ${lyricist} and`);
+    parts.push(`Lyrics: ${lyricist},`);
   }
 
   if (music) {
-    parts.push(`composed by ${music} and`);
+    parts.push(`Music: ${music},`);
   }
   
   if (singer) {
-    parts.push(`sung by ${singer}.`);
+    parts.push(`Singer(s): ${singer}`);
   }
   
-  // Add lyrics keyword
-  parts.push('Perfect for fans looking for the full Tamil text and song meaning');
-  
+  // Add lyrics keyword  
   // Add snippet if we have room
   const baseDesc = parts.join(' ') + '.';
   const remainingLength = 155 - baseDesc.length - 1; // -1 for space
@@ -190,6 +174,47 @@ export function formatSEOTitle(title: string): string {
   return `${title} Lyrics`;
 }
 
+/**
+ * Extract metadata from Blogger entry categories
+ */
+export function extractSongMetadata(categories: Array<{ term: string }> | undefined, title: string) {
+  if (!categories) {
+    return {
+      songTitle: title,
+      movieName: '',
+      singerName: '',
+      lyricistName: '',
+      musicName: '',
+      actorName: '',
+      songCategory: '',
+      movieTerm: ''
+    };
+  }
+  
+  const songCategory = categories.find(cat => cat.term?.startsWith('Song:'))
+  const movieCategory = categories.find(cat => cat.term?.startsWith('Movie:'))
+  const singerCategories = categories.filter(cat => cat.term?.startsWith('Singer:')) || []
+  const lyricsCategory = categories.find(cat => cat.term?.startsWith('Lyrics:') || cat.term?.startsWith('Lyricist:'))
+  const musicCategory = categories.find(cat => cat.term?.startsWith('Music:'))
+  const actorCategory = categories.find(cat => cat.term?.startsWith('Actor:'))
+  
+  // Extract and join multiple singer names
+  const singerNames = singerCategories
+    .map(cat => cat.term.replace('Singer:', '').trim())
+    .filter(name => name.length > 0)
+  
+  return {
+    songTitle: songCategory ? songCategory.term.replace('Song:', '') : title,
+    movieName: movieCategory?.term?.replace('Movie:', '') || '',
+    singerName: singerNames.length > 0 ? singerNames.join(', ') : '',
+    lyricistName: lyricsCategory?.term?.replace(/^(Lyrics|Lyricist):/, '') || '',
+    musicName: musicCategory?.term?.replace('Music:', '') || '',
+    actorName: actorCategory?.term?.replace('Actor:', '') || '',
+    songCategory: songCategory?.term || '',
+    movieTerm: movieCategory?.term || ''
+  }
+}
+
 export function generateSEOTitle(cleanLabel:string, categoryTerm: string): string {
   if (categoryTerm.match(/^Movie:/i)) {
   // Focus: Movie name + "Tamil Songs Lyrics"
@@ -207,4 +232,35 @@ export function generateSEOTitle(cleanLabel:string, categoryTerm: string): strin
 
 // Generic fallback
 return `${cleanLabel} Tamil Song Lyrics Collection`;
+}
+
+//has english translation 
+export function hasEnglishTranslationContent(categories: any): boolean {
+  return categories.some((cat: any) => 
+    cat.term && cat.term.toLowerCase().includes('englishtranslation')
+  );
+}
+
+/**
+ * Generate SEO keywords for song page
+ */
+export function generateKeywords(entry: any, metadata: any): string {
+  const title = metadata.songTitle;
+  const songName = title.indexOf("-") !== -1 ? title.split("-")[0].trim() : title;
+  const keywordList = (entry.category || [])
+    .filter((cat: any) => !cat.term.startsWith('Song:'))
+    .map((cat: any) => cat.term.replace(/^[^:]*:/, '').trim())
+    .filter(Boolean);
+
+  keywordList.push(
+    ...(hasEnglishTranslationContent(entry.category || []) ? [
+      `${songName} lyrics meaning`,
+      `${songName} Tamil to English translation`
+    ] : [`${songName} full lyrics`]),
+    `${metadata.movieName} songs lyrics`,
+    `${songName} lyrics snippets`,
+    `${songName} WhatsApp status lyrics snippets`,
+    `share ${songName} lyrics snippets with friends`
+  );
+  return keywordList.join(', ');
 }

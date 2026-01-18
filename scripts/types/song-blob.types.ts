@@ -59,18 +59,24 @@ export interface SEOMetadata {
   keywords: string                // Comma-separated keywords
   
   // Structured data (pre-computed JSON-LD) - only essential fields
-  structuredData: {
-    "@context": string
-    "@type": string
-    name: string
-    description: string
-    inLanguage: string
-    genre: string
-    inAlbum?: { "@type": string; name: string }
-    byArtist?: { "@type": string; name: string }
-    lyricist?: { "@type": string; name: string }
-    composer?: { "@type": string; name: string }
-    datePublished: string
-    publisher: { "@type": string; name: string; url: string }
-  }
+  // structuredData: {
+  //   "@context": string
+  //   "@type": string
+  //   name: string
+  //   url: string
+  //   keywords: string[]
+  //   byArtist?: { "@type": string; name: string }
+  //   inAlbum?: { "@type": string; name: string }
+  //   recordingOf: {
+  //     "@type": string
+  //     name: string
+  //     lyricist?: { "@type": string; name: string }
+  //     composer?: { "@type": string; name: string }
+  //     lyrics: { "@type": string; text: string; inLanguage: string }
+  //   }
+  //   inLanguage: string
+  //   genre: string
+  //   datePublished: string
+  //   publisher: { "@type": string; name: string; url: string }
+  // }
 }

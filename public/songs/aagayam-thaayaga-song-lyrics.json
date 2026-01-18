@@ -1,9 +1,15 @@
 {
+  "slug": "aagayam-thaayaga-song-lyrics",
   "id": "tag:blogger.com,1999:blog-933118286952973473.post-3515408739804212718",
   "title": "Aagayam Thaayaga Song Lyrics Yaadhumaagi Nindraai",
-  "slug": "aagayam-thaayaga-song-lyrics",
+  "movieName": "Yaadhumaagi Nindraai",
+  "singerName": "Sid Sriram",
+  "lyricistName": "Kabilan",
+  "musicName": "Ashwin Vinayagamoorthy",
+  "actorName": "",
+  "published": "2017-02-17T20:53:00.000+05:30",
   "stanzas": [
-    "<div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\">Aagayam Thaayaga Song Lyrics Yaadhumaagi Nindraai",
+    "<div>Aagayam Thaayaga Song Lyrics Yaadhumaagi Nindraai",
     "Aagayam Thaaiyaaga<br />nee naanum seiyaaga<br />nam kadhal aarariro",
     "kannodu kankoosa<br />kaatrodu kaiveesa<br />nam kadhal theeradhadho",
     "aadhaamum evaal<br />pesaadha varthai<br />kadhodu nam pesalaam",
@@ -16,8 +22,9 @@
     "Aagayam Thaaiyaaga<br />nee naanum seiyaaga<br />nam kadhal aarariro",
     "kannodu kankoosa<br />kaatrodu kaiveesa<br />nam kadhal theeradhadho",
     "aadhaamum evaal<br />pesaadha varthai<br />kadhodu nam pesalaam",
-    "poovodu thenaai<br />neerodu meenaai<br />ondraaga nam vazhalaam<br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkj9UDWaFq7gi4Lw5lH2SRX581gucvLVeE6wUEHKd-itlBo4z_0F4-CWatluZd12Og0XfneFMRT-zxbav9kxaO7xCfc8uughkVVEMwyCgQFjFYEB3FoY-gftnOJkPvPyGmCcOJIPQG25M/s1600/Yaadhumaagi+NIndraai.JPG\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"></a></div><br /></div>"
+    "poovodu thenaai<br />neerodu meenaai<br />ondraaga nam vazhalaam<br /><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkj9UDWaFq7gi4Lw5lH2SRX581gucvLVeE6wUEHKd-itlBo4z_0F4-CWatluZd12Og0XfneFMRT-zxbav9kxaO7xCfc8uughkVVEMwyCgQFjFYEB3FoY-gftnOJkPvPyGmCcOJIPQG25M/s1600/Yaadhumaagi+NIndraai.JPG\"></a></div><br /></div>"
   ],
+  "hasTamilLyrics": false,
   "tamilStanzas": [],
   "category": [
     "Lyrics:Kabilan",
@@ -26,15 +33,59 @@
     "Singer:Sid Sriram",
     "Song:Aagayam Thaayaga - Yaadhumaagi Nindraai"
   ],
-  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkj9UDWaFq7gi4Lw5lH2SRX581gucvLVeE6wUEHKd-itlBo4z_0F4-CWatluZd12Og0XfneFMRT-zxbav9kxaO7xCfc8uughkVVEMwyCgQFjFYEB3FoY-gftnOJkPvPyGmCcOJIPQG25M/s72-c/Yaadhumaagi+NIndraai.JPG",
-  "published": "2017-02-17T20:53:00.000+05:30",
-  "movieName": "Yaadhumaagi Nindraai",
-  "singerName": "Sid Sriram",
-  "lyricistName": "Kabilan",
-  "relatedSongs": [],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-3024771129058784608",
+      "title": "Kannurangu Song Lyrics Yaadhumaagi Nindraai",
+      "slug": "kannurangu-song-lyrics-yaadhumaagi",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkckZN0QCSxySypgpviyui8ahSDsr6eKiXNyAp7umuK3FFFGZ6PQVnlHqest0gUXCRpFfynT7g_sBBQxWj_cxFwCF2JoD3wnk2JlfqHrX7pdOsdmz9hyphenhyphenB4Po6T1dNeVA-5fVeU6nQ6qFg/s400-c/Yaadhumaagi+NIndraai.JPG",
+      "movieName": "Yaadhumaagi Nindraai",
+      "singerName": "Shakthisree Gopalan",
+      "published": "2017-02-20T13:35:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-7065720294207670702",
+      "title": "Yaadhumaagi Nindraayadi Lyrics Yaadhumaagi Nindraayadi ",
+      "slug": "yaadhumaagi-nindraayadi-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCxqRwurPxlojAtm6gA25UoVtq26FelcxMWSdkYqiIJdDsM1XfuRFKng7Egu78FrvNU5x_CwQETigvFB4dLLBvLuCadwqoBCs_HmMgPPEQrLbycmbkctwFW2U0y9f3VpwgnySNExRS5Qo/s400-c/Yaadhumaagi+NIndraai.JPG",
+      "movieName": "Yaadhumaagi Nindraai",
+      "singerName": "Achu",
+      "published": "2017-02-20T13:33:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-4783678197695159085",
+      "title": "Aritharam Poosi Song Lyrics Yaadhumaagi Nindraai",
+      "slug": "aritharam-poosi-song-lyrics-yaadhumaagi",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBNmcn4S9dH4LLcxlDLq3xm1Gy9fLdlQh5LvFyhkmpkuVl9rLGIzeAebgI3AVEQOeTgZFT9HkbjIX0yI-td3iA3Bz7Hfoqpaq6bItWcbUnGZxQOndnOPkph-9N1BFsf7veRdsD-BImXHw/s400-c/Yaadhumaagi+NIndraai.JPG",
+      "movieName": "Yaadhumaagi Nindraai",
+      "singerName": "Reeta Anthony",
+      "published": "2017-02-20T13:31:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-2592619385658381421",
+      "title": "Pudavai Nilave Lyrics Yaadhumaagi Nindraai",
+      "slug": "pudavai-nilave-lyrics-yaadhumaagi",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdgS5uwnuOb-yYvCVQ5kz5QWwMXbxd8_onnbw4ji3GfRvu0JwJjUNwqAMBUEBbUTcvMX4p7-oXJhXFfZNDQLZoSaPnmtPgb5PKnxy3a18QCRcPy5U-If6orjhqC8A1ED9bIQx3rVLLEF8/s400-c/Pudavai+Nilave+Lyircs.JPG",
+      "movieName": "Yaadhumaagi Nindraai",
+      "singerName": "Dhanush",
+      "published": "2017-02-17T12:18:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-8266066578407374706",
+      "title": "Yaadhumaagi Nindraai Songs Lyrics",
+      "slug": "yaadhumaagi-nindraai-songs-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidZw2HpcWgGGdPf_2ZtZbYLrPRUAGxfXEjR2TfIIQ6TLumkzo5BEu9xaP9vIE_Z073RiuSP0we9ylY8UCmYJ1pCX1lH9Y3TIiVEhMYdJ6fK44wUPKIc7uj6UwmUtE-Cb2qp9UA86W_xPI/s400-c/Yaadhumaagi+NIndraai.JPG",
+      "movieName": "Yaadhumaagi Nindraai",
+      "singerName": "",
+      "published": "2017-02-17T11:53:00.000+05:30"
+    }
+  ],
   "seo": {
     "title": "Aagayam Thaayaga Song Lyrics Yaadhumaagi Nindraai",
-    "description": "Aagayam Thaayaga Song Lyrics Yaadhumaagi Nindraai - Tamil song lyrics from Yaadhumaagi Nindraai",
-    "keywords": "Lyrics:Kabilan, Movie:Yaadhumaagi Nindraai, Music:Ashwin Vinayagamoorthy, Singer:Sid Sriram"
-  }
+    "description": "Full Aagayam Thaayaga songs lyrics, Yaadhumaagi Nindraai Songs Lyrics. sharable lyrics snippets, Lyrics: Kabilan, Music: Ashwin Vinayagamoorthy, Singer(s): Sid Sriram.",
+    "keywords": "Kabilan, Yaadhumaagi Nindraai, Ashwin Vinayagamoorthy, Sid Sriram, Aagayam Thaayaga full lyrics, Yaadhumaagi Nindraai songs lyrics, Aagayam Thaayaga lyrics snippets, Aagayam Thaayaga WhatsApp status lyrics snippets, share Aagayam Thaayaga lyrics snippets with friends, Tamil lyrics, Tamil songs"
+  },
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkj9UDWaFq7gi4Lw5lH2SRX581gucvLVeE6wUEHKd-itlBo4z_0F4-CWatluZd12Og0XfneFMRT-zxbav9kxaO7xCfc8uughkVVEMwyCgQFjFYEB3FoY-gftnOJkPvPyGmCcOJIPQG25M/s400-c/Yaadhumaagi+NIndraai.JPG",
+  "generatedAt": "2026-01-18T12:46:49.734Z",
+  "version": 1
 }

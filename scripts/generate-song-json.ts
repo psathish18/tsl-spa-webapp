@@ -22,11 +22,15 @@ const {
 
 const {
   extractSnippet,
-  getMeaningfulLabels,
   generateSongDescription,
   cleanCategoryLabel,
-  SONG_DESCRIPTION_SNIPPET_LENGTH
+  SONG_DESCRIPTION_SNIPPET_LENGTH,
+  extractSongMetadata,
+  hasEnglishTranslationContent,
+  generateKeywords
 } = require('../lib/seoUtils')
+
+const { getSlugFromSong } = require('../lib/slugUtils')
 
 // Constants
 const BLOGGER_API_BASE = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default'
@@ -52,20 +56,6 @@ interface BloggerResponse {
 }
 
 /**
- * Create slug from title (matching song page logic at line 250)
- */
-function createSlug(title: string): string {
-  return title
-    .toLowerCase()
-    .trim()
-    .replace(/\b\d+\b/g, '')           // Remove standalone digits (e.g., "2" in "2 Point 0")
-    .replace(/[^a-z0-9\s-]/g, '')      // Remove special characters
-    .replace(/\s+/g, '-')              // Convert spaces to hyphens
-    .replace(/-+/g, '-')               // Clean up multiple hyphens
-    .replace(/^-+|-+$/g, '')           // Remove leading/trailing hyphens
-}
-
-/**
  * Get enhanced thumbnail URL
  */
 function getEnhancedThumbnail(url: string | undefined): string | null {
@@ -82,7 +72,7 @@ function getEnhancedThumbnail(url: string | undefined): string | null {
  * Fetch all songs from Blogger API
  * @param category - Category to filter by (e.g., "Movie:Coolie", "Song:Test")
  */
-async function fetchAllSongs(category?: string): Promise<BloggerEntry[]> {
+async function fetchAllSongs(category?: string,testOne?: boolean): Promise<BloggerEntry[]> {
   console.log('📡 Fetching all songs from Blogger API...')
   
   if (category) {
@@ -117,7 +107,7 @@ async function fetchAllSongs(category?: string): Promise<BloggerEntry[]> {
         console.log(`      ✅ Fetched ${entries.length} songs (total: ${allEntries.length})`)
         
         // Check if we got fewer results than requested (last page)
-        if (entries.length < maxResults) {
+        if (entries.length < maxResults || testOne) {
           hasMore = false
           console.log(`      ✅ Last batch retrieved`)
         } else {
@@ -168,12 +158,12 @@ async function fetchRelatedSongs(movieTerm: string, currentSongId: string): Prom
       .filter(entry => entry.id.$t !== currentSongId)
       .slice(0, 10)
       .map(entry => {
-        const metadata = extractSongMetadata(entry)
+        const metadata = extractSongMetadata(entry.category, entry.title.$t)
         
         return {
           id: entry.id.$t,
           title: entry.title.$t,
-          slug: createSlug(entry.title.$t),
+          slug: getSlugFromSong(entry),
           thumbnail: getEnhancedThumbnail(entry.media$thumbnail?.url),
           movieName: metadata.movieName,
           singerName: metadata.singerName,
@@ -183,29 +173,6 @@ async function fetchRelatedSongs(movieTerm: string, currentSongId: string): Prom
   } catch (error) {
     console.warn(`  ⚠️  Failed to fetch related songs:`, error)
     return []
-  }
-}
-
-/**
- * Extract metadata from Blogger entry categories
- */
-function extractSongMetadata(entry: BloggerEntry) {
-  const songCategory = entry.category?.find(cat => cat.term?.startsWith('Song:'))
-  const movieCategory = entry.category?.find(cat => cat.term?.startsWith('Movie:'))
-  const singerCategory = entry.category?.find(cat => cat.term?.startsWith('Singer:'))
-  const lyricsCategory = entry.category?.find(cat => cat.term?.startsWith('Lyrics:') || cat.term?.startsWith('Lyricist:'))
-  const musicCategory = entry.category?.find(cat => cat.term?.startsWith('Music:'))
-  const actorCategory = entry.category?.find(cat => cat.term?.startsWith('Actor:'))
-  
-  return {
-    songTitle: songCategory ? songCategory.term.replace('Song:', '') : entry.title.$t,
-    movieName: movieCategory?.term?.replace('Movie:', '') || '',
-    singerName: singerCategory?.term?.replace('Singer:', '') || entry.author?.[0]?.name?.$t || 'Unknown Artist',
-    lyricistName: lyricsCategory?.term?.replace(/^(Lyrics|Lyricist):/, '') || '',
-    musicName: musicCategory?.term?.replace('Music:', '') || '',
-    actorName: actorCategory?.term?.replace('Actor:', '') || '',
-    songCategory: songCategory?.term || '',
-    movieTerm: movieCategory?.term || ''
   }
 }
 
@@ -229,78 +196,85 @@ function processStanzas(
 function generateSEOData(
   entry: BloggerEntry,
   metadata: ReturnType<typeof extractSongMetadata>,
-  content: string
+  content: string,
+  slug: string
 ): SEOMetadata {
   const title = entry.title.$t
-  const labels = getMeaningfulLabels(entry.category || [])
   const snippet = extractSnippet(content, SONG_DESCRIPTION_SNIPPET_LENGTH)
   
   const description = generateSongDescription({
-    title,
+    entry: entry,
+    title: metadata.songTitle,
     snippet,
-    movie: labels.movie,
-    singer: labels.singer,
-    lyricist: labels.lyricist,
-    music: labels.music,
-    actor: labels.actor
+    movie: metadata.movieName,
+    singer: metadata.singerName,
+    lyricist: metadata.lyricistName,
+    music: metadata.musicName,
+    actor: metadata.actorName
   })
   
-  const keywords = (entry.category || [])
-    .filter(cat => !cat.term.startsWith('Song:'))
-    .map(cat => cat.term.replace(/^[^:]*:/, '').trim())
-    .filter(Boolean)
-    .join(', ')
-  
-  // Generate structured data (JSON-LD) - minimal fields only
-  const structuredData: SEOMetadata['structuredData'] = {
-    "@context": "https://schema.org",
-    "@type": "MusicRecording",
-    "name": title,
-    "description": description,
-    "inLanguage": "ta",
-    "genre": "Tamil Music",
-    "datePublished": entry.published.$t,
-    "publisher": {
-      "@type": "Organization",
-      "name": "Tamil Song Lyrics",
-      "url": "https://www.tsonglyrics.com"
-    }
-  }
-  
-  // Add optional fields only if they exist
-  if (metadata.movieName) {
-    structuredData.inAlbum = {
-      "@type": "MusicAlbum",
-      "name": metadata.movieName
-    }
-  }
-  
-  if (metadata.singerName && metadata.singerName !== 'Unknown Artist') {
-    structuredData.byArtist = {
-      "@type": "Person",
-      "name": metadata.singerName
-    }
-  }
-  
-  if (metadata.lyricistName) {
-    structuredData.lyricist = {
-      "@type": "Person",
-      "name": metadata.lyricistName
-    }
-  }
-  
-  if (metadata.musicName) {
-    structuredData.composer = {
-      "@type": "Person",
-      "name": metadata.musicName
-    }
-  }
+  const keywords = generateKeywords(entry, metadata)
+
+  // Generate structured data (JSON-LD) - enhanced schema for rich search results
+  // const structuredData: SEOMetadata['structuredData'] = {
+  //   "@context": "https://schema.org",
+  //   "@type": "MusicRecording",
+  //   "name": title,
+  //   "url": `https://www.tsonglyrics.com/${slug}.html`,
+  //   "keywords": [
+  //     `${title} lyrics meaning`,
+  //     `${title} Tamil to English translation`,
+  //     `${metadata.movieName} movie songs lyrics`,
+  //     `${title} WhatsApp status lyrics`,
+  //     `${metadata.movieName} ${title} song credits`
+  //   ].filter(Boolean),
+  //   ...(metadata.singerName && metadata.singerName !== 'Unknown Artist' && {
+  //     "byArtist": {
+  //       "@type": "Person",
+  //       "name": metadata.singerName
+  //     }
+  //   }),
+  //   ...(metadata.movieName && {
+  //     "inAlbum": {
+  //       "@type": "MusicAlbum",
+  //       "name": metadata.movieName
+  //     }
+  //   }),
+  //   "recordingOf": {
+  //     "@type": "MusicComposition",
+  //     "name": title,
+  //     ...(metadata.lyricistName && {
+  //       "lyricist": {
+  //         "@type": "Person", 
+  //         "name": metadata.lyricistName
+  //       }
+  //     }),
+  //     ...(metadata.musicName && {
+  //       "composer": {
+  //         "@type": "Person",
+  //         "name": metadata.musicName
+  //       }
+  //     }),
+  //     "lyrics": {
+  //       "@type": "CreativeWork",
+  //       "text": content || snippet,
+  //       "inLanguage": "ta"
+  //     }
+  //   },
+  //   "inLanguage": "ta",
+  //   "genre": "Tamil Music",
+  //   "datePublished": entry.published.$t,
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "Tamil Song Lyrics",
+  //     "url": "https://www.tsonglyrics.com"
+  //   }
+  // }
   
   return {
     title,
     description,
-    keywords: `${keywords}, Tamil lyrics, Tamil songs`,
-    structuredData
+    keywords: `${keywords}, Tamil lyrics, Tamil songs`
   }
 }
 
@@ -315,8 +289,8 @@ function processCategories(categories: Array<{ term: string }> = []): string[] {
  * Generate complete JSON data for a single song (optimized)
  */
 async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
-  const slug = createSlug(entry.title.$t)
-  const metadata = extractSongMetadata(entry)
+  const slug = getSlugFromSong(entry)
+  const metadata = extractSongMetadata(entry.category, entry.title.$t)
   
   console.log(`\n🎵 Processing: ${entry.title.$t}`)
   console.log(`   Slug: ${slug}`)
@@ -334,14 +308,15 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
   
   // Process Tamil content
   let tamilStanzas: string[] = []
+  let tamilContent = '';
   if (tamilSong) {
-    const tamilContent = stripImagesFromHtml(tamilSong.content.$t)
+    tamilContent = stripImagesFromHtml(tamilSong.content.$t)
     tamilStanzas = processStanzas(tamilContent, categories)
   }
   
   // Generate SEO data
   const thumbnail = getEnhancedThumbnail(entry.media$thumbnail?.url)
-  const seo = generateSEOData(entry, metadata, safeContent)
+  const seo = generateSEOData(entry, metadata, tamilSong ? tamilContent : safeContent, slug)
   
   const songData: SongBlobData = {
     slug,
@@ -401,7 +376,7 @@ async function main() {
   console.log('🚀 Starting song JSON generation...\n')
   
   // Fetch all songs (with optional category filter)
-  const songs = await fetchAllSongs(category)
+  const songs = await fetchAllSongs(category,testOne)
   console.log(`✅ Found ${songs.length} songs\n`)
   
   if (songs.length === 0) {
@@ -414,7 +389,7 @@ async function main() {
   console.log(`📁 Output directory: ${OUTPUT_DIR}\n`)
   
   // Process songs (just first one if --test-one flag, or limit if specified)
-  let songsToProcess = testOne ? songs.slice(0, 1) : songs
+  let songsToProcess = testOne ? songs.slice(0, 20) : songs
   if (limit && !testOne) {
     songsToProcess = songs.slice(0, limit)
     console.log(`📌 Limiting to first ${limit} songs\n`)
