@@ -1,12 +1,13 @@
 import { Metadata } from 'next'
 import SearchPage from '@/components/SearchPage'
 import { REVALIDATE_SEARCH_PAGE } from '@/lib/cacheConfig'
+import { BASE_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Search Tamil Song Lyrics | TSL',
   description: 'Search and discover your favorite Tamil song lyrics. Find songs by name, movie, singer, or lyricist.',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/search',
+    canonical: `${BASE_URL}/search`,
   },
 }
 

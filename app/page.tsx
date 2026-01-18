@@ -5,6 +5,7 @@ import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import { AdBanner } from '@/components/GoogleAdsense'
 import OneSignalSubscriptionCard from '@/components/OneSignalSubscriptionCard'
 import { REVALIDATE_HOMEPAGE, REVALIDATE_BLOGGER_FETCH } from '@/lib/cacheConfig'
+import { BASE_URL } from '@/lib/constants'
 
 // Advanced revalidation config
 // Extended to 30 days to reduce CPU usage on free tier
@@ -89,7 +90,7 @@ export const metadata: Metadata = {
   description: 'Discover the latest Tamil song lyrics, movie songs, and popular music. Read and enjoy beautiful Tamil poetry and lyrics from your favorite movies and artists.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/',
+    canonical: `${BASE_URL}/`,
   },
   openGraph: {
     title: 'Tamil Song Lyrics - Latest Songs & Lyrics',

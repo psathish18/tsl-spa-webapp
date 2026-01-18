@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { google } from 'googleapis'
+import { BASE_URL } from '@/lib/constants'
 
 // Auto-revalidate every 6 hours (21600 seconds) to reduce CPU usage
 export const revalidate = 21600
@@ -65,7 +66,7 @@ export async function GET() {
     const trending = response.data.rows
       ?.map((row) => ({
         title: row.dimensionValues?.[0]?.value || '',
-        url: `https://www.tsonglyrics.com${row.dimensionValues?.[1]?.value || ''}`,
+        url: `${BASE_URL}${row.dimensionValues?.[1]?.value || ''}`,
         views: parseInt(row.metricValues?.[0]?.value || '0'),
         pagePath: row.dimensionValues?.[1]?.value || ''
       }))

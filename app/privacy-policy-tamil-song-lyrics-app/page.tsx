@@ -1,12 +1,13 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { BASE_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Tamil Song Lyrics App',
   description: 'Privacy policy for Tamil Song Lyrics app. Learn how we collect, use, and protect your personal information.',
   keywords: 'privacy policy, Tamil song lyrics, data protection, privacy',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/privacy-policy-tamil-song-lyrics-app.html',
+    canonical: `${BASE_URL}/privacy-policy-tamil-song-lyrics-app.html`,
   },
 }
 
