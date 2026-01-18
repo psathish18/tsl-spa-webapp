@@ -19,10 +19,11 @@ import {
 } from '@/lib/lyricsUtils'
 import {
   extractSnippet,
-  getMeaningfulLabels,
   generateSongDescription,
-  formatSEOTitle,
-  SONG_DESCRIPTION_SNIPPET_LENGTH
+  extractSongMetadata,
+  SONG_DESCRIPTION_SNIPPET_LENGTH,
+  hasEnglishTranslationContent,
+  generateKeywords
 } from '@/lib/seoUtils'
 import { fetchFromBlob } from '@/lib/blobStorage'
 import type { SongBlobData } from '@/scripts/types/song-blob.types'
@@ -60,7 +61,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
       title: blobData.seo.title,
       description: blobData.seo.description,
-      keywords: `${blobData.seo.keywords}, Tamil lyrics, Tamil songs`,
+      keywords: `${blobData.seo.keywords}`,
       alternates: {
         canonical: canonicalUrl,
       },
@@ -97,38 +98,34 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const content = song.content?.$t || ''
   
   // Extract meaningful labels from categories
-  const labels = getMeaningfulLabels(song.category)
+  const metadata = extractSongMetadata(song.category, song.title.$t)
   
   // Get a snippet from the lyrics content
   const snippet = extractSnippet(stripImagesFromHtml(content), SONG_DESCRIPTION_SNIPPET_LENGTH)
   
   // Generate SEO-optimized description
   const description = generateSongDescription({
-    title,
+    entry: song,
+    title: metadata.songTitle,
     snippet,
-    movie: labels.movie,
-    singer: labels.singer,
-    lyricist: labels.lyricist,
-    music: labels.music,
-    actor: labels.actor
+    movie: metadata.movieName,
+    singer: metadata.singerName,
+    lyricist: metadata.lyricistName,
+    music: metadata.musicName,
+    actor: metadata.actorName
   })
   
-  console.log("description", description)
+  // console.log("description", description)
   // Ensure slug has .html extension for canonical URL
   const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
   const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
   
   // Build keywords from categories
-  const keywords = song.category
-    ?.filter(cat => !cat.term.startsWith('Song:'))
-    .map(cat => cat.term.replace(/^[^:]*:/, '').trim())
-    .filter(Boolean)
-    .join(', ') || 'Tamil song lyrics'
   
   return {
     title,
     description,
-    keywords: `${keywords}, Tamil lyrics, Tamil songs`,
+    keywords: generateKeywords(song, metadata),
     alternates: {
       canonical: canonicalUrl,
     },
@@ -315,7 +312,7 @@ async function getSongData(slug: string): Promise<Song | null> {
     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
     // console.log("Clean slug after processing:", JSON.stringify(cleanSlug));
     // convert to camel case for logging replacing hyphens with spaces and capitalizing each word
-    const camelCaseTitle = cleanSlug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    // const camelCaseTitle = cleanSlug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
     // console.log("Clean slug to title :", camelCaseTitle);
 
   // Skip in-memory cache in development to always fetch fresh data
@@ -544,30 +541,30 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   const safeContent = stripImagesFromHtml(content)
   
   // Extract meaningful labels for structured data (same as metadata)
-  const labels = getMeaningfulLabels(song.category)
-  const movieName = labels.movie || song.movieName || ''
-  const singerName = labels.singer || song.singerName || song.author?.[0]?.name?.$t || 'Unknown Artist'
-  const lyricistName = labels.lyricist || song.lyricistName || ''
-  const musicName = labels.music || ''
+  const metadata = extractSongMetadata(song.category, song.title.$t)
+  const movieName = metadata.movieName || song.movieName || ''
+  const singerName = metadata.singerName || song.singerName || ''
+  const lyricistName = metadata.lyricistName || song.lyricistName || ''
+  const musicName = metadata.musicName || ''
+  const songName = metadata.songTitle || cleanTitle
   
   // Get lyrics snippet for structured data description (same as metadata)
   const lyricsSnippet = extractSnippet(safeContent, SONG_DESCRIPTION_SNIPPET_LENGTH)
   
   // Generate SEO-optimized description for structured data
   const structuredDescription = generateSongDescription({
+    entry: song,
     title: cleanTitle,
     snippet: lyricsSnippet,
     movie: movieName,
     singer: singerName,
     lyricist: lyricistName,
     music: musicName,
-    actor: labels.actor
+    actor: metadata.actorName
   })
 
   // Check if song has EnglishTranslation category - skip stanza splitting if true
-  const hasEnglishTranslation = song.category?.some((cat: any) => 
-    cat.term && cat.term.toLowerCase().includes('englishtranslation')
-  );
+  const hasEnglishTranslation = hasEnglishTranslationContent(song.category || []);
 
   // Use blob stanzas if available, otherwise split content from Blogger
   let stanzas: string[] = []
@@ -696,119 +693,110 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           </div>
         </header>
         
-        {/* Structured data for SEO */}
+        {/* Combined structured data for SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "MusicRecording",
-              "name": cleanTitle,
-              "description": structuredDescription,
-              "inLanguage": "ta",
-              "genre": "Tamil Music",
-              ...(movieName && {
-                "inAlbum": {
-                  "@type": "MusicAlbum",
-                  "name": movieName
-                }
-              }),
-              ...(singerName && singerName !== 'Unknown Artist' && {
-                "byArtist": {
-                  "@type": "Person",
-                  "name": singerName
-                }
-              }),
-              ...(lyricistName && {
-                "lyricist": {
-                  "@type": "Person", 
-                  "name": lyricistName
-                }
-              }),
-              ...(musicName && {
-                "composer": {
-                  "@type": "Person",
-                  "name": musicName
-                }
-              }),
-              "datePublished": song.published?.$t,
-              "publisher": {
-                "@type": "Organization",
-                "name": "Tamil Song Lyrics",
-                "url": "https://www.tsonglyrics.com"
-              },
-              "mainEntity": {
-                "@type": "CreativeWork",
-                "name": cleanTitle,
-                "text": lyricsSnippet,
-                "inLanguage": "ta"
-              }
-            })
-          }}
-        />
-        
-        {/* ItemList structured data for related songs */}
-        {relatedSongsForSEO.length > 0 && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "ItemList",
-                "name": `Related Songs ${movieName ? `from ${movieName}` : ''}`,
-                "description": `More Tamil song lyrics${movieName ? ` from the movie ${movieName}` : ''} similar to ${cleanTitle}`,
-                "numberOfItems": relatedSongsForSEO.length,
-                "itemListElement": relatedSongsForSEO.map((relatedSong, index) => ({
-                  "@type": "ListItem",
-                  "position": index + 1,
-                  "item": {
-                    "@type": "MusicRecording",
-                    "name": relatedSong.title,
-                    "url": `https://www.tsonglyrics.com/${relatedSong.slug}.html`,
-                    ...(relatedSong.movieName && {
-                      "inAlbum": {
-                        "@type": "MusicAlbum",
-                        "name": relatedSong.movieName
+              "@graph": [
+                {
+                  "@type": "MusicRecording",
+                  "name": cleanTitle,
+                  "url": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`,
+                  "description": structuredDescription,
+                  "keywords": generateKeywords(song, metadata),
+                  ...(singerName && singerName !== 'Unknown Artist' && {
+                    "byArtist": {
+                      "@type": "Person",
+                      "name": singerName
+                    }
+                  }),
+                  ...(movieName && {
+                    "inAlbum": {
+                      "@type": "MusicAlbum",
+                      "name": movieName
+                    }
+                  }),
+                  "recordingOf": {
+                    "@type": "MusicComposition",
+                    "name": songName,
+                    ...(lyricistName && {
+                      "lyricist": {
+                        "@type": "Person",
+                        "name": lyricistName
                       }
                     }),
-                    ...(relatedSong.thumbnail && {
-                      "image": relatedSong.thumbnail,
-                      "thumbnailUrl": relatedSong.thumbnail
+                    ...(musicName && {
+                      "composer": {
+                        "@type": "Person",
+                        "name": musicName
+                      }
                     }),
-                    "inLanguage": "ta",
-                    "genre": "Tamil Music"
+                    "lyrics": {
+                      "@type": "CreativeWork",
+                      "text": htmlToPlainText(safeContent || lyricsSnippet).replace(/<br\s*\/?>/gi, '\n'),
+                     "inLanguage": ["ta", "en"],
+                    }
+                  },
+                  "inLanguage": "ta",
+                  "genre": "Tamil Music",
+                  "datePublished": song.published?.$t,
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "Tamil Song Lyrics",
+                    "url": "https://www.tsonglyrics.com"
                   }
-                }))
-              })
-            }}
-          />
-        )}
-        
-        {/* BreadcrumbList structured data for SEO */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home",
-                  "item": "https://www.tsonglyrics.com"
                 },
-                ...(movieName ? [{
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": movieName,
-                  "item": `https://www.tsonglyrics.com/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
+                ...(relatedSongsForSEO.length > 0 ? [{
+                  "@type": "ItemList",
+                  "name": `Related Songs ${movieName ? `from ${movieName}` : ''}`,
+                  "description": `More Tamil song lyrics${movieName ? ` from the movie ${movieName}` : ''} similar to ${cleanTitle}`,
+                  "numberOfItems": relatedSongsForSEO.length,
+                  "itemListElement": relatedSongsForSEO.map((relatedSong, index) => ({
+                    "@type": "ListItem",
+                    "position": index + 1,
+                    "item": {
+                      "@type": "MusicRecording",
+                      "name": relatedSong.title,
+                      "url": `https://www.tsonglyrics.com/${relatedSong.slug}.html`,
+                      ...(relatedSong.movieName && {
+                        "inAlbum": {
+                          "@type": "MusicAlbum",
+                          "name": relatedSong.movieName
+                        }
+                      }),
+                      ...(relatedSong.thumbnail && {
+                        "image": encodeURI(relatedSong.thumbnail),
+                        "thumbnailUrl": encodeURI(relatedSong.thumbnail)
+                      }),
+                      "inLanguage": "ta",
+                      "genre": "Tamil Music"
+                    }
+                  }))
                 }] : []),
                 {
-                  "@type": "ListItem",
-                  "position": movieName ? 3 : 2,
-                  "name": cleanTitle,
-                  "item": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://www.tsonglyrics.com"
+                    },
+                    ...(movieName ? [{
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": movieName,
+                      "item": `https://www.tsonglyrics.com/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
+                    }] : []),
+                    {
+                      "@type": "ListItem",
+                      "position": movieName ? 3 : 2,
+                      "name": cleanTitle,
+                      "item": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`
+                    }
+                  ]
                 }
               ]
             })
