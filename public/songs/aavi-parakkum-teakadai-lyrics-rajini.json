@@ -1,9 +1,15 @@
 {
+  "slug": "aavi-parakkum-teakadai-lyrics-rajini",
   "id": "tag:blogger.com,1999:blog-933118286952973473.post-664701042271891609",
   "title": "Aavi Parakkum Teakadai Lyrics Rajini Murugan Song Lyrics",
-  "slug": "aavi-parakkum-teakadai-lyrics-rajini",
+  "movieName": "Rajini Murugan",
+  "singerName": "Badava Gopi, Mahalingam",
+  "lyricistName": "Yugabharathi",
+  "musicName": "D Imman",
+  "actorName": "",
+  "published": "2016-01-13T04:13:00.000+05:30",
   "stanzas": [
-    "<div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s1600/yennamma+ippadi+panreengalemma.jpg\" imageanchor=\"1\" style=\"clear: right; float: right; margin-bottom: 1em; margin-left: 1em;\"></a>Rajinimurugan Aavi Parakkum Teakadai Song Lyrics<br />Singer: V.M. Mahalingam &amp; Badava Gopi<br />Music: D. Imman<br />Lyrics: Yugabharathi",
+    "<div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s1600/yennamma+ippadi+panreengalemma.jpg\"></a>Rajinimurugan Aavi Parakkum Teakadai Song Lyrics<br />Singer: V.M. Mahalingam &amp; Badava Gopi<br />Music: D. Imman<br />Lyrics: Yugabharathi",
     "aavi, aa aavi<br />aavi parakkum<br />tea kada.<br />ava vandhadhanaala<br />pookkada.",
     "devi dhinusaa<br />paarthida.<br />naan marandhae<br />ponen saappida.",
     "Kadhalennum tea-yula<br />nenja bun-naa nenachutta",
@@ -34,6 +40,7 @@
     "ava paarthu sirichcha<br />piraguthaan.<br />aaneney saltum<br />seeniya seeniya<br />seeniya.",
     "aavi...</div>"
   ],
+  "hasTamilLyrics": false,
   "tamilStanzas": [],
   "category": [
     "Lyrics:Yugabharathi",
@@ -43,15 +50,59 @@
     "Singer:Mahalingam",
     "Song:Aavi Parakkum Teakadai - Rajini Murugan"
   ],
-  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s72-c/yennamma+ippadi+panreengalemma.jpg",
-  "published": "2016-01-13T04:13:00.000+05:30",
-  "movieName": "Rajini Murugan",
-  "singerName": "Badava Gopi",
-  "lyricistName": "Yugabharathi",
-  "relatedSongs": [],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-5065862939015441703",
+      "title": "Rajini Murugan (title track) Lyrics Rajini Murugan Song Lyrics",
+      "slug": "rajini-murugan-title-track-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s400-c/yennamma+ippadi+panreengalemma.jpg",
+      "movieName": "Rajini Murugan",
+      "singerName": "Siva Karthikeyan",
+      "published": "2016-01-13T04:18:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-3129576431186517045",
+      "title": "Jigiru Jigiru Lyrics Rajini Murugan Song Lyrics",
+      "slug": "jigiru-jigiru-lyrics-rajini-murugan",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s400-c/yennamma+ippadi+panreengalemma.jpg",
+      "movieName": "Rajini Murugan",
+      "singerName": "Diwakar, Kalpana Raghavendar",
+      "published": "2016-01-13T04:15:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-8946239755969007844",
+      "title": "Un Mele Oru Kannu Lyrics Rajini Murugan Song Lyrics",
+      "slug": "un-mele-oru-kannu-lyrics-rajini-murugan",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZdp3tZ8n1_KHvLkrZheR_GnAfRENFVfYGpQaF67TsqdCNDz2GHDcddHZkuFSB3jze26qknGIZp7rJ-8H436hIZQuzEwd3Es4qvJXWWjZphJks4a9hi9SOLRuwCF_D51BOaGoQHzgz-ho/s400-c/rajini_murugan.jpg",
+      "movieName": "Rajini Murugan",
+      "singerName": "Jithan Raj, Mahalakshmi Iyer",
+      "published": "2016-01-07T11:03:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-5583463836779153302",
+      "title": "Yennamma Ippadi Panreenglemma Lyrics Rajini Murugan Song Lyrics",
+      "slug": "yennamma-ippadi-panreenglemma-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s400-c/yennamma+ippadi+panreengalemma.jpg",
+      "movieName": "Rajini Murugan",
+      "singerName": "",
+      "published": "2015-06-01T02:22:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-4535524493795632139",
+      "title": "Rajini Murugan Song Lyrics",
+      "slug": "rajini-murugan-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s400-c/yennamma+ippadi+panreengalemma.jpg",
+      "movieName": "Rajini Murugan",
+      "singerName": "",
+      "published": "2015-06-01T02:21:00.000+05:30"
+    }
+  ],
   "seo": {
     "title": "Aavi Parakkum Teakadai Lyrics Rajini Murugan Song Lyrics",
-    "description": "Aavi Parakkum Teakadai Lyrics Rajini Murugan Song Lyrics - Tamil song lyrics from Rajini Murugan",
-    "keywords": "Lyrics:Yugabharathi, Movie:Rajini Murugan, Music:D Imman, Singer:Badava Gopi, Singer:Mahalingam"
-  }
+    "description": "Full Aavi Parakkum Teakadai songs lyrics, Rajini Murugan Songs Lyrics. sharable lyrics snippets, Lyrics: Yugabharathi, Music: D Imman, Singer(s): Badava Gopi, Mahalingam.",
+    "keywords": "Yugabharathi, Rajini Murugan, D Imman, Badava Gopi, Mahalingam, Aavi Parakkum Teakadai full lyrics, Rajini Murugan songs lyrics, Aavi Parakkum Teakadai lyrics snippets, Aavi Parakkum Teakadai WhatsApp status lyrics snippets, share Aavi Parakkum Teakadai lyrics snippets with friends, Tamil lyrics, Tamil songs"
+  },
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqwxRv_0bGGSOxB8Grah8_z8ylpcWXneBZZ0STda_usMp7zNSWiP0VyI4Rnl7z264ylotcK0C94K8-GYydyd8T2ALDAVZavhbqA0iozTa4urH8F_LFZcOv2TS8-wA31MJFPupyj6ncEZg/s400-c/yennamma+ippadi+panreengalemma.jpg",
+  "generatedAt": "2026-01-18T12:52:40.467Z",
+  "version": 1
 }
