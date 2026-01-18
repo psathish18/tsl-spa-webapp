@@ -58,8 +58,27 @@ async function fetchSongsByCategory(category: string, currentSongId: string, lim
 
 export default async function RelatedSongs({ currentSongId, categories, blobRelatedSongs }: RelatedSongsProps) {
   // If blob data available, use pre-fetched related songs (no API call)
-  if (blobRelatedSongs && blobRelatedSongs.length > 0) {
+  // Note: Even if empty array, we trust blob data and don't call API
+  if (blobRelatedSongs !== undefined) {
     console.log(`✅ Using ${blobRelatedSongs.length} related songs from blob (no API call)`)
+    
+    // If no related songs in blob, show fallback UI
+    if (blobRelatedSongs.length === 0) {
+      return (
+        <div className="mt-12">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">More Tamil Song Lyrics</h3>
+          <div className="text-center py-8">
+            <Link 
+              prefetch={false}
+              href="/"
+              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Browse All Songs
+            </Link>
+          </div>
+        </div>
+      )
+    }
     
     return (
       <div className="mt-12">

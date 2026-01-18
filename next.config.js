@@ -739,13 +739,19 @@ const nextConfig = {
     ],
     formats: ['image/webp'],
   },
-  // Bundle optimization
+  // Bundle optimization - optimize CSS and JS bundling to reduce edge requests
   experimental: {
-    optimizePackageImports: ['lucide-react'],
+    optimizePackageImports: ['lucide-react', '@vercel/analytics'],
+    // Enable optimized CSS bundling
+    optimizeCss: true,
   },
   // Advanced caching and compression
   compress: true,
   poweredByHeader: false,
+  // Optimize production builds
+  productionBrowserSourceMaps: false,
+  // Minimize CSS and JS chunks
+  swcMinify: true,
   async rewrites() {
     return [
       {
