@@ -36,3 +36,5 @@ migration_analysis/
 testing/
 scripts
 test-seo-utils.ts
+blob-data
+cdn-fix-output

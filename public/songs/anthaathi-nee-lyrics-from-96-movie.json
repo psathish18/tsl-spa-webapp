@@ -1,9 +1,15 @@
 {
+  "slug": "anthaathi-nee-lyrics-from-96-movie",
   "id": "tag:blogger.com,1999:blog-933118286952973473.post-3354853545279542850",
   "title": "Anthaathi Nee Lyrics From 96 Movie  ",
-  "slug": "anthaathi-nee-lyrics-from-96-movie",
+  "movieName": "96",
+  "singerName": "Govind Vasantha, Chinmayi",
+  "lyricistName": "Karthik Netha",
+  "musicName": "",
+  "actorName": "",
+  "published": "2018-08-24T22:25:00.001+05:30",
   "stanzas": [
-    "<div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\">\nperanbe kadhal<br />\nulnoki aadungindra aadal<br />\nsadhaa, aaraadha aaval<br />\nyedhedho saayal taetru<br />\nthririyum kadhal<br />\nprathyega thaedal",
+    "<div>\nperanbe kadhal<br />\nulnoki aadungindra aadal<br />\nsadhaa, aaraadha aaval<br />\nyedhedho saayal taetru<br />\nthririyum kadhal<br />\nprathyega thaedal",
     "theeya theeraadha kaatril<br />\npul poondil puluvil uladhu..",
     "thaane, ellaamum aagi<br />\nnaam kaanum aroobame<br />\nithiyaagi kadhal<br />\nillaatha podhum<br />\nthaedum thaedal<br />\nsadhaa, maaradhu kadhal<br />\nmandraadum podhum<br />\nmaatru karuthil modhum<br />\nmaalaadhu oodal.",
     "naam indha theeyil<br />\nveedu kattum theekuchi<br />\nnaam indha kaattil<br />\noonjal kattum thoosi",
@@ -15,10 +21,29 @@
     "kadhale kadhale<br />\nthaniperum thunaiye<br />\nkooda vaa kooda vaa<br />\npodhum podhum",
     "kadhale kadhale<br />\nvazhvin neelam<br />\nkooda va pogalaam<br />\nnee....",
     "ahh nilambu nee<br />\nvalambu nee<br />\nsuyambu nee nee<br />\naah prahaaram nee<br />\nprathaabam nee<br />\npramaanam nee<br />\nahh aahh<br />\nsingaaram nee<br />\naangaaram nee<br />\noangaaraam nee nee<br />\nanthaathi nee anthaathi nee<br />\nanthaathi nee nee..",
-    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7GPpI8CLTodYrSr484vNQlqoq6vJlOn7O8V3ES1dMYu_9xkZxACJi_caI8uG0Hneht7SvraYNMXUMtdxTAcFPXd3fboOXuw6tf6mW63X_hJHLvEhLtLR1v1MO8MG8FW_HOUlA715xmA/s1600/Peranbu+Kadhal+-+Anthaathi+Nee+Lyrics+From+96+Movie.jpeg\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em; text-align: center;\"></a>",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7GPpI8CLTodYrSr484vNQlqoq6vJlOn7O8V3ES1dMYu_9xkZxACJi_caI8uG0Hneht7SvraYNMXUMtdxTAcFPXd3fboOXuw6tf6mW63X_hJHLvEhLtLR1v1MO8MG8FW_HOUlA715xmA/s1600/Peranbu+Kadhal+-+Anthaathi+Nee+Lyrics+From+96+Movie.jpeg\"></a>",
     "</div>"
   ],
-  "tamilStanzas": [],
+  "hasTamilLyrics": true,
+  "tamilStanzas": [
+    "<div>\n<br />\nபேரன்பே காதல்<br />\nஉள்நோக்கி ஆடுகின்ற ஆடல்.<br />\nசதா, ஆறாத ஆவல்<br />\nஏதேதோ சாயல்<br />\nஏற்றி திரியும் காதல்<br />\nபிரத்யேக தேடல்",
+    "தீயில் தீராத காற்றில்<br />\nபுல்  பூண்டில் புழுவில்<br />\nஉளதில் இலதில் .",
+    "தானே, எல்லாமும் ஆகி<br />\nநாம் காணும் ரூபமே<br />\nஇத்தியாகி காதல்.<br />\nஇல்லாத போதும்<br />\nதேடும் தேடல்<br />\nசதா, மாறாது காதல்<br />\nமன்றாடும் போதும்<br />\nமாற்று கருத்தில் மோதும்<br />\nமாளாத ஊடல்.",
+    "நாம் இந்த தீயில்<br />\nவீடு கட்டும் தீக்குச்சி.<br />\nநாம் இந்த காற்றில்<br />\nஊஞ்சல் கட்டும் தூசி.<br />\nநாம் இந்த நீரில்<br />\nவாழ்க்கை ஓட்டும்  நீர் பூச்சி.<br />\nநாம் இந்த காம்பில்<br />\nகாமத்தின் ருசி.",
+    "காதல் கண்ணீரில்  சிலந்தி<br />\nகாதல் விண்மீனின் மெகந்தி<br />\nகாதல் மெய்யான வதந்தி<br />\nகாலந்தோறும் தொடரும் டைரி",
+    "காதல் தெய்வீக எதிரி<br />\nகாதல் சாத்தானின் விசிறி<br />\nகாதல் ஆன்மாவின்  புலரி<br />\nவாழ்ந்து பெட்ர டிகிரி",
+    "ஓர்  விடைகுள்ளே<br />\nவினாவெல்லாம் பதுங்குதே<br />\nஹா.. நாள் கரைந்ததே<br />\nமறைந்ததேமுடிந்ததே ஹா..",
+    "கொஞ்சும் பூரணமே வா<br />\nநீ கொஞ்சம் எழிலிசையே<br />\nபஞ்ச வர்ண பூதம்<br />\nநெஞ்சம் நெறையுதே<br />\nகாண்பதெல்லாம் காதலடி..",
+    "காதலே காதலே<br />\nதனிப்பெரும் துணையே<br />\nகூட வா கூட வா போதும் போதும்<br />\nகாதலே காதலே வாழ்வின் நீளம்<br />\nபோகலாம்  போகலாம் நீ....",
+    "ஆ திகம்பரி<br />\nவலம்புரி<br />\nசுயம்பு நீ<br />\nஆ..பிரகாரம் நீ<br />\nபிரபாவம் நீ<br />\nபிரபாகம்  நீ நீ",
+    "ஆ.. ஆ.. சிங்காரம் நீ<br />\nஆங்காரம் நீ<br />\nஓங்காரம் நீ நீ நீ<br />\nஅந்தாதி நீ அந்தாதி நீ<br />\nஅந்தாதி நீ நீ",
+    "ம்ம்ம் தேட வேண்டாம்<br />\nமுன் அறிவிப்பின்றி வரும்<br />\nஅதன் வருகையை<br />\nஇதயம் உரக்க சொல்லும்",
+    "காதல்..காதல்<br />\nஒரு நாள் உங்களை வந்தடையும்<br />\nஅதை அள்ளி அனைத்துக்கொள்ளுங்கள்<br />\nஅன்பாக பார்த்து கொள்ளுங்கள்",
+    "காதல் தங்கும்<br />\nகாதல் தயங்கும்<br />\nகாதல் சிரிக்கும்<br />\nகாதல் இனிக்கும்<br />\nகாதல் கவிதைகள் வரையும்<br />\nகாதல் கலங்கும்<br />\nகாதல் குழம்பும்<br />\nகாதல் ஓரளவுக்கு புரியும்",
+    "காதல் விலகும்<br />\nகாதல் பிரியும்<br />\nகதவுகளை மூடாமல் வழி அனுப்புங்கள்.<br />\nகாத்திருங்கள்.<br />\nஒரு வேலை காதல் திரும்பினால்<br />\nதூரத்தில் தயங்கி நின்றால்.<br />\nஅருகில் செல்லுங்கள்<br />\nஅன்புடன் பேசுங்கள்<br />\nபோதும் காதல் உங்கள் வசம்<br />\nஉள்ளம் காதல் வசம்",
+    "மாற்றங்களே வினா<br />\nமாற்றங்களே விடை<br />\nகாதல்..",
+    "</div>"
+  ],
   "category": [
     "Lyrics:Karthik Netha",
     "Movie:96",
@@ -26,15 +51,32 @@
     "Singer:Chinmayi",
     "Song:Anthaathi - 96 Movie"
   ],
-  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7GPpI8CLTodYrSr484vNQlqoq6vJlOn7O8V3ES1dMYu_9xkZxACJi_caI8uG0Hneht7SvraYNMXUMtdxTAcFPXd3fboOXuw6tf6mW63X_hJHLvEhLtLR1v1MO8MG8FW_HOUlA715xmA/s72-c/Peranbu+Kadhal+-+Anthaathi+Nee+Lyrics+From+96+Movie.jpeg",
-  "published": "2018-08-24T22:25:00.001+05:30",
-  "movieName": "96",
-  "singerName": " Govind Vasantha",
-  "lyricistName": "Karthik Netha",
-  "relatedSongs": [],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-4894947013802117863",
+      "title": "Kadhale Kadhale 96 Song Lyrics",
+      "slug": "kadhale-kadhale-96-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIvjMew1o5en2aCqE6Q7hSh-6sa5_KqLaVF0cVUny2qRa7lBW-8YcWl8RlXzAnt0QIwFXN34LAcD_pBMrO0RQOpC0QmarT-vWKyXjnkWNIfDQtTXIJPdL08zkWHX6XV2E7FrdKNWZAxCk/s400-c/Dh6IJdyU8AAWY-u.jpg",
+      "movieName": "96",
+      "singerName": "Govind Vasantha, Chinmayi",
+      "published": "2018-08-03T10:02:00.001+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-5036531191493541834",
+      "title": "Kadhale Kadhale Song Lyrics English Meaning From 96 Movie",
+      "slug": "kadhale-kadhale-song-lyrics-english",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTh6IfhAhyPjSfw-inKZyOpr6-6-IqDht9HyaSd6TFywUPwjUzn9v_PnErzVvvkPOA_nw9wExoJdE3wTtB9WhUb0Ckv_u0wcn6p0Zk1W-Ve0UOUzBjkJX_ErSnf2SNWwKdI_-gnnp96Q/s400-c/96+Songs+Teaser+Lyrics.jpeg",
+      "movieName": "96",
+      "singerName": "",
+      "published": "2018-07-31T12:32:00.002+05:30"
+    }
+  ],
   "seo": {
     "title": "Anthaathi Nee Lyrics From 96 Movie  ",
-    "description": "Anthaathi Nee Lyrics From 96 Movie   - Tamil song lyrics from 96",
-    "keywords": "Lyrics:Karthik Netha, Movie:96, Singer: Govind Vasantha, Singer:Chinmayi"
-  }
+    "description": "Full Anthaathi songs lyrics, 96 Songs Lyrics. sharable lyrics snippets, Lyrics: Karthik Netha, Singer(s): Govind Vasantha, Chinmayi.",
+    "keywords": "Karthik Netha, 96, Govind Vasantha, Chinmayi, Anthaathi full lyrics, 96 songs lyrics, Anthaathi lyrics snippets, Anthaathi WhatsApp status lyrics snippets, share Anthaathi lyrics snippets with friends, Tamil lyrics, Tamil songs"
+  },
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7GPpI8CLTodYrSr484vNQlqoq6vJlOn7O8V3ES1dMYu_9xkZxACJi_caI8uG0Hneht7SvraYNMXUMtdxTAcFPXd3fboOXuw6tf6mW63X_hJHLvEhLtLR1v1MO8MG8FW_HOUlA715xmA/s400-c/Peranbu+Kadhal+-+Anthaathi+Nee+Lyrics+From+96+Movie.jpeg",
+  "generatedAt": "2026-01-18T12:43:32.440Z",
+  "version": 1
 }

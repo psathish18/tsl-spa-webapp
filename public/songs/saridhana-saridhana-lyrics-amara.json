@@ -1,9 +1,15 @@
 {
+  "slug": "saridhana-saridhana-lyrics-amara",
   "id": "tag:blogger.com,1999:blog-933118286952973473.post-1887471644078593174",
   "title": "Saridhana Saridhana Lyrics Amara Kaaviyam Song Lyrics",
-  "slug": "saridhana-saridhana-lyrics-amara",
+  "movieName": "Amara Kaaviyam",
+  "singerName": "Thomson Andrews, Yazin",
+  "lyricistName": "",
+  "musicName": "M Ghibran",
+  "actorName": "",
+  "published": "2014-07-05T17:56:00.000+05:30",
   "stanzas": [
-    "<div dir=\"ltr\" style=\"text-align: left;\" trbidi=\"on\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s1600/amara-kaaviyam.jpg\" imageanchor=\"1\" style=\"clear: right; float: right; margin-bottom: 1em; margin-left: 1em;\"></a><b>Song</b>: Saridhana Saridhana<br /><b>Singer</b>(s): Yazin Nizar, Thomson Andrews<br /><b>Movie</b>:&nbsp;Amara Kaaviyam<br /><b>Music</b>: M Ghibran",
+    "<div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s1600/amara-kaaviyam.jpg\"></a>Song: Saridhana Saridhana<br />Singer(s): Yazin Nizar, Thomson Andrews<br />Movie: Amara Kaaviyam<br />Music: M Ghibran",
     "Idhan Munne Siruvan Naane<br />Inimaele Ilaignyan Naane<br />Irandirkum Naduvil Nee<br />Saridhaana?",
     "Idhan Munne Snehithi Nee<br />Inimaele Kaadhali Nee<br />Irandirkum Naduvil Naan<br />Saridhaana?",
     "Nizhal oviyangal Naandhaana?<br />Nigazhkindra Maayam Saridhaana?",
@@ -16,6 +22,7 @@
     "Nizhaloviyangal Naamdhaana?<br />Nigazhkindra Maayam Saridhaana?",
     "(Saridhaana....)</div>"
   ],
+  "hasTamilLyrics": false,
   "tamilStanzas": [],
   "category": [
     "Movie:Amara Kaaviyam",
@@ -24,15 +31,50 @@
     "Singer:Yazin",
     "Song:Saridhana Saridhana - Amara Kaaviyam"
   ],
-  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s72-c/amara-kaaviyam.jpg",
-  "published": "2014-07-05T17:56:00.000+05:30",
-  "movieName": "Amara Kaaviyam",
-  "singerName": "Thomson Andrews",
-  "lyricistName": "",
-  "relatedSongs": [],
+  "relatedSongs": [
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-8379955280456180998",
+      "title": "Mounam Pesum Lyrics Amara Kaaviyam Song Lyrics",
+      "slug": "mounam-pesum-lyrics-amara-kaaviyam-song",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s400-c/amara-kaaviyam.jpg",
+      "movieName": "Amara Kaaviyam",
+      "singerName": "K.S.Chitra, Sowmya Mahadevan",
+      "published": "2014-07-05T20:00:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-5796280683256506908",
+      "title": "Deva Devathai Lyrics Amara Kaaviyam Song Lyrics ",
+      "slug": "deva-devathai-lyrics-amara-kaaviyam",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s400-c/amara-kaaviyam.jpg",
+      "movieName": "Amara Kaaviyam",
+      "singerName": "K.G.Ranjith, Madhu Iyer",
+      "published": "2014-07-05T17:50:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-3479475965160618577",
+      "title": "Yedhedho Ennam Vandhu Lyrics  Amara Kaaviyam Song Lyrics",
+      "slug": "yedhedho-ennam-vandhu-lyrics-amara",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s400-c/amara-kaaviyam.jpg",
+      "movieName": "Amara Kaaviyam",
+      "singerName": "Haricharan, Padmalatha",
+      "published": "2014-06-29T22:57:00.000+05:30"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-933118286952973473.post-875325104517627558",
+      "title": " Amara Kaaviyam Song Lyrics",
+      "slug": "amara-kaaviyam-song-lyrics",
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s400-c/amara-kaaviyam.jpg",
+      "movieName": "Amara Kaaviyam",
+      "singerName": "",
+      "published": "2014-06-29T22:55:00.000+05:30"
+    }
+  ],
   "seo": {
     "title": "Saridhana Saridhana Lyrics Amara Kaaviyam Song Lyrics",
-    "description": "Saridhana Saridhana Lyrics Amara Kaaviyam Song Lyrics - Tamil song lyrics from Amara Kaaviyam",
-    "keywords": "Movie:Amara Kaaviyam, Music:M Ghibran, Singer:Thomson Andrews, Singer:Yazin"
-  }
+    "description": "Full Saridhana Saridhana songs lyrics, Amara Kaaviyam Songs Lyrics. sharable lyrics snippets, Music: M Ghibran, Singer(s): Thomson Andrews, Yazin.",
+    "keywords": "Amara Kaaviyam, M Ghibran, Thomson Andrews, Yazin, Saridhana Saridhana full lyrics, Amara Kaaviyam songs lyrics, Saridhana Saridhana lyrics snippets, Saridhana Saridhana WhatsApp status lyrics snippets, share Saridhana Saridhana lyrics snippets with friends, Tamil lyrics, Tamil songs"
+  },
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s400-c/amara-kaaviyam.jpg",
+  "generatedAt": "2026-01-18T12:58:49.500Z",
+  "version": 1
 }

@@ -47,7 +47,7 @@
       "slug": "saithan-song-lyrics",
       "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgihweu0Ft2lri7AFIwPJ9kVwyBXoDfHs5KLO8Ndx4jhxQweZbBWbAhmBs3oIuY-F3W1piS2IDJH7y-BSLlVegT_rBAVeg0rBmViprCWM7VG3eY88WL-0EX2vU8iOLhBppQTlEkI9L0lk/s400-c/Saithaan+Song+Lyrics.JPG",
       "movieName": "Saithan",
-      "singerName": "Sathish",
+      "singerName": "",
       "published": "2016-12-01T14:55:00.000+05:30"
     },
     {
@@ -62,40 +62,10 @@
   ],
   "seo": {
     "title": "Yededho Lyrics Saithan",
-    "description": "Get the complete Yededho Lyrics Saithan from Saithan. Read the lyrics penned by Eknaath and composed by Vijay Antony and sung by Vijay Antony. Perfect for fans looking for the full Tamil text and song meaning.",
-    "keywords": "Eknaath, Saithan, Vijay Antony, Vijay Antony, Tamil lyrics, Tamil songs",
-    "structuredData": {
-      "@context": "https://schema.org",
-      "@type": "MusicRecording",
-      "name": "Yededho Lyrics Saithan",
-      "description": "Get the complete Yededho Lyrics Saithan from Saithan. Read the lyrics penned by Eknaath and composed by Vijay Antony and sung by Vijay Antony. Perfect for fans looking for the full Tamil text and song meaning.",
-      "inLanguage": "ta",
-      "genre": "Tamil Music",
-      "datePublished": "2016-12-01T14:56:00.000+05:30",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Tamil Song Lyrics",
-        "url": "https://www.tsonglyrics.com"
-      },
-      "inAlbum": {
-        "@type": "MusicAlbum",
-        "name": "Saithan"
-      },
-      "byArtist": {
-        "@type": "Person",
-        "name": "Vijay Antony"
-      },
-      "lyricist": {
-        "@type": "Person",
-        "name": "Eknaath"
-      },
-      "composer": {
-        "@type": "Person",
-        "name": "Vijay Antony"
-      }
-    }
+    "description": "Full Yededho songs lyrics, Saithan Songs Lyrics. sharable lyrics snippets, Lyrics: Eknaath, Music: Vijay Antony, Singer(s): Vijay Antony.",
+    "keywords": "Eknaath, Saithan, Vijay Antony, Vijay Antony, Yededho full lyrics, Saithan songs lyrics, Yededho lyrics snippets, Yededho WhatsApp status lyrics snippets, share Yededho lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVTQtPRRiWpQ6cpvBaWj74Enxg6OFL7Imz2DdBg2dNgamGOS2kLUEsPB-K7Q-e6jvfKY6sCIos0ps9UoXF4uNeWLL8q1G67sc24mmGm2PkSa_WLjdc5cPqs5r2Pddvdja48RDwa_XMii0/s400-c/Yedhedho+Lyrics.JPG",
-  "generatedAt": "2026-01-09T17:35:22.638Z",
+  "generatedAt": "2026-01-18T12:48:34.368Z",
   "version": 1
 }

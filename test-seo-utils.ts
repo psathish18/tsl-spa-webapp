@@ -3,14 +3,14 @@
  * Run with: npx ts-node test-seo-utils.ts
  */
 
-import {
+const {
   extractSnippet,
   cleanCategoryLabel,
-  getMeaningfulLabels,
+  extractSongMetadata,
   generateSongDescription,
   generateCategoryDescription,
   formatSEOTitle
-} from './lib/seoUtils'
+} = require('./lib/seoUtils')
 
 console.log('=== Testing SEO Utilities ===\n')
 
@@ -38,8 +38,8 @@ testLabels.forEach(label => {
 })
 console.log('')
 
-// Test 3: getMeaningfulLabels
-console.log('3. Testing getMeaningfulLabels:')
+// Test 3: extractSongMetadata
+console.log('3. Testing extractSongMetadata:')
 const categories = [
   { term: 'Movie:Coolie' },
   { term: 'Singer:Anirudh' },
@@ -47,9 +47,9 @@ const categories = [
   { term: 'Music:Anirudh Ravichander' },
   { term: 'Song:Monica' }
 ]
-const labels = getMeaningfulLabels(categories)
+const metadata = extractSongMetadata(categories, 'Monica Song Lyrics')
 console.log('  Input categories:', categories.map(c => c.term).join(', '))
-console.log('  Extracted labels:', labels)
+console.log('  Extracted metadata:', metadata)
 console.log('  ✓ Should extract movie, singer, lyricist, music\n')
 
 // Test 4: generateSongDescription
