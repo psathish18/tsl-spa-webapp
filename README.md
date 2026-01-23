@@ -26,6 +26,13 @@ A modern, SEO-optimized Next.js application for displaying Tamil song lyrics fet
 - **Social Sharing**: Share songs on social media platforms
 - **Return User Optimization**: Features to encourage repeat visits
 
+### 🤖 Automated Lyrics Pipeline
+- **Mobile-First Workflow**: Add lyrics directly from your mobile device
+- **AI-Powered Extraction**: Gemini AI extracts lyrics from YouTube videos
+- **Human Review**: Edit and approve before publishing
+- **Automatic Publishing**: Posts to Blogger and updates website automatically
+- **Full Documentation**: See [AUTOMATED_LYRICS_WORKFLOW.md](./AUTOMATED_LYRICS_WORKFLOW.md)
+
 ### 🛠 Technical Features
 - **TypeScript**: Full type safety
 - **Tailwind CSS**: Modern, utility-first styling
@@ -118,6 +125,20 @@ npm start
 | `VAPID_PRIVATE_KEY` | VAPID private key | Yes |
 | `NEXT_PUBLIC_SITE_URL` | Your site URL | Yes |
 | `NEXT_PUBLIC_GA_ID` | Google Analytics ID | No |
+| `BLOB_READ_WRITE_TOKEN` | Vercel Blob Storage token | Yes (for workflow) |
+
+### GitHub Secrets (for Automated Lyrics Workflow)
+
+The following secrets need to be configured in GitHub repository settings:
+
+| Secret | Description | Required |
+|--------|-------------|----------|
+| `GEMINI_API_KEY` | Google Gemini API key for AI lyrics extraction | Yes |
+| `BLOGGER_API_KEY` | Google Blogger API v3 key | Yes |
+| `BLOG_ID` | Your Blogger blog ID | Yes |
+| `BLOB_READ_WRITE_TOKEN` | Vercel Blob Storage token | Yes |
+
+See [AUTOMATED_LYRICS_WORKFLOW.md](./AUTOMATED_LYRICS_WORKFLOW.md) for setup instructions.
 
 ## SEO Features
 

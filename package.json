@@ -17,8 +17,10 @@
     "upload-to-blob:dry-run": "ts-node scripts/upload-to-blob.ts --dry-run"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
     "@next/bundle-analyzer": "^15.4.6",
     "@next/third-parties": "^15.4.6",
+    "@octokit/rest": "^21.0.2",
     "@vercel/analytics": "^1.5.0",
     "@vercel/blob": "^1.1.1",
     "axios": "^1.6.2",
