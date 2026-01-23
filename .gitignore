@@ -35,6 +35,8 @@ next-env.d.ts
 migration_analysis/
 testing/
 scripts
+!scripts/requestReview.js
+!scripts/publishToBlogger.js
 test-seo-utils.ts
 blob-data
 cdn-fix-output
