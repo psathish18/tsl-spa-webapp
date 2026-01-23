@@ -38,7 +38,7 @@ Extract the lyrics for the song from the following YouTube video URL: ${process.
 
 Please provide the final output strictly as a single JSON object using the following keys and formatting rules:
 
-"title": The song name and movie/album name.
+"title": The song name and movie/album name in the format: "Song Name - Movie Name".
 
 "tags": A comma-separated string in this format: Song:<song name>, Movie:<movie name>, Singer:<singer 1, singer 2>, music:<music director>, lyrics:<lyricist>.
 
@@ -50,8 +50,6 @@ Please provide the final output strictly as a single JSON object using the follo
 - Provide the Thanglish lines first followed by a <br>.
 - Immediately follow with the English translation wrapped in this specific tag: <p style='text-align: right; border: 1px solid #ddd; padding: 2px;'>[English Translation Here]</p>.
 - Separate these combined blocks with a <br>.
-
-SEO Metadata Requirement: Inside the JSON, ensure the metadata is optimized. The title should be the song name. Provide a 2-3 line description for SEO purposes including the artists' names.
 
 Constraint: Output only the JSON. Do not include any conversational prose before or after the JSON code block.
 `;

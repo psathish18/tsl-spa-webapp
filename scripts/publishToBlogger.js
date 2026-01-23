@@ -111,10 +111,12 @@ async function run() {
 `;
 
     // Parse tags to extract labels for Blogger
-    const labels = [];
-    if (tags) {
+    const parseTagsToLabels = (tagsString) => {
+      const labels = [];
+      if (!tagsString) return labels;
+      
       // Extract individual components from tags
-      const tagParts = tags.split(',').map(t => t.trim());
+      const tagParts = tagsString.split(',').map(t => t.trim());
       tagParts.forEach(part => {
         const colonIndex = part.indexOf(':');
         if (colonIndex > -1) {
@@ -130,7 +132,11 @@ async function run() {
           }
         }
       });
-    }
+      
+      return labels;
+    };
+
+    const labels = parseTagsToLabels(tags);
 
     console.log('📌 Extracted data:');
     console.log(`   Title: ${title}`);
