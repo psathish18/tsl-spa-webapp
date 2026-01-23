@@ -47,7 +47,7 @@ async function run() {
 
     console.log('✅ Found proposed post comment');
 
-    // Parse the comment to extract title, content, categories, and labels
+    // Parse the comment to extract title, tags, tamil, thanglish, and translation
     const commentBody = reviewComment.body;
     
     // Extract title using a more robust approach
@@ -57,39 +57,95 @@ async function run() {
     }
     const title = titleMatch[1].trim();
 
-    // Extract categories
-    const categoriesSection = commentBody.split('**CATEGORIES:**')[1];
-    const categories = categoriesSection
-      ? categoriesSection.split('\n')[0].split(',').map(c => c.trim()).filter(c => c && c !== 'Not specified')
-      : [];
+    // Extract tags
+    const tagsSection = commentBody.split('**TAGS:**')[1];
+    const tags = tagsSection
+      ? tagsSection.split('\n')[0].trim()
+      : '';
 
-    // Extract labels
-    const labelsSection = commentBody.split('**LABELS:**')[1];
-    const labels = labelsSection 
-      ? labelsSection.split('\n')[0].split(',').map(l => l.trim()).filter(l => l && l !== 'Not specified')
-      : [];
-
-    // Extract content (everything after "**CONTENT:**" until "---")
-    const contentSections = commentBody.split('**CONTENT:**');
-    if (contentSections.length < 2) {
-      throw new Error('Could not extract content from comment');
+    // Extract tamil lyrics
+    const tamilSection = commentBody.split('**TAMIL:**')[1];
+    let tamil = '';
+    if (tamilSection) {
+      const tamilMatch = tamilSection.split(/\n\*\*THANGLISH:/)[0];
+      tamil = tamilMatch.trim();
     }
-    const contentPart = contentSections[1];
-    const contentMatch = contentPart.split(/\n---|\n###|\n\*\*Instructions/)[0];
-    const content = contentMatch.trim();
+
+    // Extract thanglish lyrics
+    const thanglishSection = commentBody.split('**THANGLISH:**')[1];
+    let thanglish = '';
+    if (thanglishSection) {
+      const thanglishMatch = thanglishSection.split(/\n\*\*TRANSLATION:/)[0];
+      thanglish = thanglishMatch.trim();
+    }
+
+    // Extract translation
+    const translationSection = commentBody.split('**TRANSLATION:**')[1];
+    let translation = '';
+    if (translationSection) {
+      const translationMatch = translationSection.split(/\n---|\n###|\n\*\*Instructions/)[0];
+      translation = translationMatch.trim();
+    }
+
+    // Build HTML content for Blogger
+    const content = `
+<div class="lyrics-container">
+  <h2>${title}</h2>
+  <div class="tags">${tags}</div>
+  
+  <h3>Tamil Lyrics</h3>
+  <div class="tamil-lyrics">
+    ${tamil}
+  </div>
+  
+  <h3>Thanglish Lyrics</h3>
+  <div class="thanglish-lyrics">
+    ${thanglish}
+  </div>
+  
+  <h3>English Translation</h3>
+  <div class="translation">
+    ${translation}
+  </div>
+</div>
+`;
+
+    // Parse tags to extract labels for Blogger
+    const labels = [];
+    if (tags) {
+      // Extract individual components from tags
+      const tagParts = tags.split(',').map(t => t.trim());
+      tagParts.forEach(part => {
+        const colonIndex = part.indexOf(':');
+        if (colonIndex > -1) {
+          const value = part.substring(colonIndex + 1).trim();
+          if (value && value !== 'Not specified') {
+            // Split multiple values (e.g., "Singer1, Singer2")
+            value.split(',').forEach(v => {
+              const trimmed = v.trim();
+              if (trimmed) {
+                labels.push(trimmed);
+              }
+            });
+          }
+        }
+      });
+    }
 
     console.log('📌 Extracted data:');
     console.log(`   Title: ${title}`);
-    console.log(`   Categories: ${categories.join(', ')}`);
+    console.log(`   Tags: ${tags}`);
     console.log(`   Labels: ${labels.join(', ')}`);
-    console.log(`   Content length: ${content.length} characters`);
+    console.log(`   Tamil length: ${tamil.length} characters`);
+    console.log(`   Thanglish length: ${thanglish.length} characters`);
+    console.log(`   Translation length: ${translation.length} characters`);
 
     // Prepare the Blogger post data
     const postData = {
       kind: "blogger#post",
       title: title,
       content: content,
-      labels: [...new Set([...categories, ...labels])].filter(l => l) // Combine and deduplicate
+      labels: [...new Set(labels)].filter(l => l) // Deduplicate and filter empty
     };
 
     console.log('📤 Publishing to Blogger...');

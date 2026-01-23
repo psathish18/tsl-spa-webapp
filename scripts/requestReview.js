@@ -34,30 +34,26 @@ async function run() {
 
     // Create prompt for lyrics extraction
     const prompt = `
-Extract the song lyrics from the following YouTube video URL: ${process.env.YT_URL}
+Extract the lyrics for the song from the following YouTube video URL: ${process.env.YT_URL}
 
-Please analyze the video and extract:
-1. Song title (in Tamil if available)
-2. Movie/Album name
-3. Singer(s) name
-4. Music Director name
-5. Lyricist name
-6. Complete lyrics in Tamil (with proper formatting using <br/> tags for line breaks)
+Please provide the final output strictly as a single JSON object using the following keys and formatting rules:
 
-Output ONLY a valid JSON object (no markdown formatting, no code blocks) with this structure:
-{
-  "title": "Song Title - Movie Name",
-  "content": "<h3>Song Title</h3><p><strong>Movie:</strong> Movie Name<br/><strong>Singer:</strong> Singer Name<br/><strong>Music:</strong> Music Director<br/><strong>Lyrics:</strong> Lyricist</p><p>[Tamil lyrics with <br/> tags for line breaks]</p>",
-  "labels": ["Song Title", "Movie Name", "Singer Name", "Music Director"],
-  "categories": ["Movie Name", "Singer Name", "Music Director", "Lyricist"]
-}
+"title": The song name and movie/album name.
 
-Important:
-- Use proper Tamil text encoding
-- Format lyrics with <br/> tags for line breaks and <br/><br/> for stanza breaks
-- Include all metadata in the content HTML
-- Make sure the JSON is valid and parseable
-- Do not include any markdown code blocks or formatting - just pure JSON
+"tags": A comma-separated string in this format: Song:<song name>, Movie:<movie name>, Singer:<singer 1, singer 2>, music:<music director>, lyrics:<lyricist>.
+
+"tamil": The full lyrics in Tamil script. Use <br> for line breaks and double <br><br> to separate stanzas. Do not include labels like 'Pallavi' or 'Charanam'.
+
+"thanglish": The transliterated Tamil lyrics (Roman script). Use <br> for line breaks and double <br><br> to separate stanzas.
+
+"translation": This section must interleave Thanglish and English. For every stanza:
+- Provide the Thanglish lines first followed by a <br>.
+- Immediately follow with the English translation wrapped in this specific tag: <p style='text-align: right; border: 1px solid #ddd; padding: 2px;'>[English Translation Here]</p>.
+- Separate these combined blocks with a <br>.
+
+SEO Metadata Requirement: Inside the JSON, ensure the metadata is optimized. The title should be the song name. Provide a 2-3 line description for SEO purposes including the artists' names.
+
+Constraint: Output only the JSON. Do not include any conversational prose before or after the JSON code block.
 `;
 
     console.log('🤖 Calling Gemini AI to extract lyrics...');
@@ -82,8 +78,8 @@ Important:
     }
 
     // Validate the response structure
-    if (!data.title || !data.content) {
-      throw new Error('AI response missing required fields (title or content)');
+    if (!data.title || !data.tamil) {
+      throw new Error('AI response missing required fields (title or tamil)');
     }
 
     console.log('✅ Successfully extracted lyrics');
@@ -94,12 +90,16 @@ Important:
 
 **TITLE:** ${data.title}
 
-**CATEGORIES:** ${data.categories ? data.categories.join(', ') : 'Not specified'}
+**TAGS:** ${data.tags || 'Not specified'}
 
-**LABELS:** ${data.labels ? data.labels.join(', ') : 'Not specified'}
+**TAMIL:**
+${data.tamil || 'Not specified'}
 
-**CONTENT:**
-${data.content}
+**THANGLISH:**
+${data.thanglish || 'Not specified'}
+
+**TRANSLATION:**
+${data.translation || 'Not specified'}
 
 ---
 **Instructions:**
