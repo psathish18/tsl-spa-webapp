@@ -50,7 +50,7 @@ async function run() {
     // Parse the comment to extract title, content, categories, and labels
     const commentBody = reviewComment.body;
     
-    // Extract title
+    // Extract title using a more robust approach
     const titleMatch = commentBody.match(/\*\*TITLE:\*\*\s*(.+?)(?:\n|$)/);
     if (!titleMatch) {
       throw new Error('Could not extract title from comment');
@@ -58,23 +58,25 @@ async function run() {
     const title = titleMatch[1].trim();
 
     // Extract categories
-    const categoriesMatch = commentBody.match(/\*\*CATEGORIES:\*\*\s*(.+?)(?:\n|$)/);
-    const categories = categoriesMatch 
-      ? categoriesMatch[1].split(',').map(c => c.trim()).filter(c => c && c !== 'Not specified')
+    const categoriesSection = commentBody.split('**CATEGORIES:**')[1];
+    const categories = categoriesSection
+      ? categoriesSection.split('\n')[0].split(',').map(c => c.trim()).filter(c => c && c !== 'Not specified')
       : [];
 
     // Extract labels
-    const labelsMatch = commentBody.match(/\*\*LABELS:\*\*\s*(.+?)(?:\n|$)/);
-    const labels = labelsMatch 
-      ? labelsMatch[1].split(',').map(l => l.trim()).filter(l => l && l !== 'Not specified')
+    const labelsSection = commentBody.split('**LABELS:**')[1];
+    const labels = labelsSection 
+      ? labelsSection.split('\n')[0].split(',').map(l => l.trim()).filter(l => l && l !== 'Not specified')
       : [];
 
     // Extract content (everything after "**CONTENT:**" until "---")
-    const contentMatch = commentBody.match(/\*\*CONTENT:\*\*\s*\n([\s\S]+?)(?:\n---|\n###|\n\*\*Instructions|$)/);
-    if (!contentMatch) {
+    const contentSections = commentBody.split('**CONTENT:**');
+    if (contentSections.length < 2) {
       throw new Error('Could not extract content from comment');
     }
-    const content = contentMatch[1].trim();
+    const contentPart = contentSections[1];
+    const contentMatch = contentPart.split(/\n---|\n###|\n\*\*Instructions/)[0];
+    const content = contentMatch.trim();
 
     console.log('📌 Extracted data:');
     console.log(`   Title: ${title}`);
@@ -155,11 +157,20 @@ The workflow will now automatically:
     if (process.env.GITHUB_TOKEN && process.env.ISSUE_NUMBER) {
       try {
         const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+        // Sanitize error message to avoid exposing sensitive API details
+        const sanitizedError = error.message.replace(/key|token|secret/gi, '[REDACTED]');
+        let errorDetails = `**Error:** ${sanitizedError}\n\n`;
+        
+        // Only include safe, non-sensitive error information
+        if (error.response?.status) {
+          errorDetails += `**Status Code:** ${error.response.status}\n`;
+        }
+        
         await octokit.issues.createComment({
           owner: process.env.REPO_OWNER,
           repo: process.env.REPO_NAME,
           issue_number: parseInt(process.env.ISSUE_NUMBER),
-          body: `### ❌ Error Publishing to Blogger\n\n**Error:** ${error.message}\n\n${error.response?.data ? `**API Response:** \`\`\`json\n${JSON.stringify(error.response.data, null, 2)}\n\`\`\`` : ''}\n\nPlease check:\n1. Blogger API key is valid\n2. Blog ID is correct\n3. API has necessary permissions`
+          body: `### ❌ Error Publishing to Blogger\n\n${errorDetails}\nPlease check:\n1. Blogger API key is valid\n2. Blog ID is correct\n3. API has necessary permissions`
         });
       } catch (commentError) {
         console.error('Failed to post error comment:', commentError);

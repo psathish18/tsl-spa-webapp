@@ -69,9 +69,10 @@ Important:
     // Parse the JSON response, removing any markdown code blocks if present
     let data;
     try {
+      // More precise regex to only match code blocks at start and end
       const cleanedResponse = responseText
-        .replace(/```json\n?/g, '')
-        .replace(/```\n?/g, '')
+        .replace(/^```json\s*/m, '')  // Remove starting code block
+        .replace(/\s*```$/m, '')      // Remove ending code block
         .trim();
       data = JSON.parse(cleanedResponse);
     } catch (parseError) {
@@ -130,11 +131,13 @@ ${data.content}
     if (process.env.GITHUB_TOKEN && process.env.ISSUE_NUMBER) {
       try {
         const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+        // Sanitize error message to avoid exposing sensitive information
+        const sanitizedError = error.message.replace(/key|token|secret/gi, '[REDACTED]');
         await octokit.issues.createComment({
           owner: process.env.REPO_OWNER,
           repo: process.env.REPO_NAME,
           issue_number: parseInt(process.env.ISSUE_NUMBER),
-          body: `### ❌ Error Extracting Lyrics\n\nFailed to extract lyrics from the video.\n\n**Error:** ${error.message}\n\nPlease check:\n1. The YouTube URL is valid and accessible\n2. The video contains Tamil song lyrics\n3. API keys are configured correctly`
+          body: `### ❌ Error Extracting Lyrics\n\nFailed to extract lyrics from the video.\n\n**Error:** ${sanitizedError}\n\nPlease check:\n1. The YouTube URL is valid and accessible\n2. The video contains Tamil song lyrics\n3. API keys are configured correctly`
         });
       } catch (commentError) {
         console.error('Failed to post error comment:', commentError);
