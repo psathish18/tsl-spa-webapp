@@ -23,6 +23,23 @@ npm run generate-song-json:test
 ```
 Generates JSON for the first song only (for testing and structure validation).
 
+### Generate Specific Song by Category
+```bash
+# Using npm command
+npm run generate-song-json -- --category="Song:Song Name - Movie Name"
+
+# Using helper script
+./scripts/generate-specific-song.sh "Song:Song Name - Movie Name"
+```
+Generates JSON for a specific song. Replace "Song Name - Movie Name" with the actual song category from Blogger.
+
+**Example:**
+```bash
+npm run generate-song-json -- --category="Song:Yetho Yetho - Gandhi Talks"
+# OR
+./scripts/generate-specific-song.sh "Song:Yetho Yetho - Gandhi Talks"
+```
+
 ### Full Generation (All Songs)
 ```bash
 npm run generate-song-json
