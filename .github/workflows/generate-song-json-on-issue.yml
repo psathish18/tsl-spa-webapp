@@ -35,7 +35,7 @@ jobs:
           # Scenario 1: "generate json for recent X song" -> --limit=X
           if echo "$ISSUE_TITLE" | grep -iq "generate json for recent.*song"; then
             # Extract number from the title (e.g., "5" from "generate json for recent 5 song")
-            LIMIT=$(echo "$ISSUE_TITLE" | sed -n 's/.*recent[[:space:]]*\([0-9]*\).*/\1/p')
+            LIMIT=$(echo "$ISSUE_TITLE" | grep -io "recent [0-9]*" | grep -o "[0-9]\+" || echo "")
             if [ -z "$LIMIT" ]; then
               LIMIT=5
             fi
@@ -46,7 +46,7 @@ jobs:
           # Scenario 2: "generate json for category CategoryName" -> --category="CategoryName"
           elif echo "$ISSUE_TITLE" | grep -iq "generate json for category"; then
             # Extract category after "category" keyword
-            CATEGORY=$(echo "$ISSUE_TITLE" | sed -n 's/.*category[[:space:]]*\(.*\)/\1/ip' | xargs)
+            CATEGORY=$(echo "$ISSUE_TITLE" | grep -io "category .*" | cut -d' ' -f2- | xargs)
             echo "Running with category: $CATEGORY"
             npm run generate-song-json -- --category="$CATEGORY"
             echo "Generated JSON for category: $CATEGORY"
