@@ -30,7 +30,7 @@ if [ $? -eq 0 ]; then
   echo "Next steps:"
   echo "  1. Verify the generated file: ls -lh blob-data/*.json | tail -5"
   echo "  2. Upload to Vercel Blob: npm run upload-to-blob"
-  echo "  3. Commit and push: git add blob-data/ && git commit -m \"Add JSON for $CATEGORY\" && git push"
+  echo "  3. Commit and push: git add blob-data/ && git commit -m 'Add JSON for $CATEGORY' && git push"
 else
   echo ""
   echo "❌ JSON generation failed!"

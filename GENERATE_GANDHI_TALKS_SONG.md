@@ -4,8 +4,18 @@
 
 To generate the JSON file for the song "Yetho Yetho - Gandhi Talks", run the following command in your local environment (with internet access):
 
+**Option 1: Using npm command directly**
 ```bash
 npm run generate-song-json -- --category="Song:Yetho Yetho - Gandhi Talks"
+```
+
+**Option 2: Using helper script**
+```bash
+# Make sure the script is executable (only needed once)
+chmod +x scripts/generate-specific-song.sh
+
+# Run the script
+./scripts/generate-specific-song.sh "Song:Yetho Yetho - Gandhi Talks"
 ```
 
 ## What This Does
