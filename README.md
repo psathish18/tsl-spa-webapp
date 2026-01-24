@@ -139,6 +139,14 @@ npm start
 - **Bundle Analysis**: Webpack bundle analyzer
 - **Core Web Vitals**: Optimized for Google's metrics
 
+## Automation & Workflows
+
+### GitHub Actions Workflows
+- **[Generate Song JSON Workflow](./docs/GENERATE_SONG_JSON_WORKFLOW.md)** - Automatic JSON generation via GitHub Issues
+  - Create an issue with title `generate json for recent X song` to generate JSON for recent songs
+  - Create an issue with title `generate json for category CategoryName` to generate JSON for specific category
+  - Files are automatically generated and committed to the repository
+
 ## Documentation
 
 ### 📁 Documentation Structure
@@ -147,6 +155,8 @@ npm start
   - Vercel CDN integration
   - Lyrics lifecycle optimization
   - Performance testing results
+- **[/docs/](./docs/)** - Additional documentation
+  - [Generate Song JSON Workflow](./docs/GENERATE_SONG_JSON_WORKFLOW.md) - Automated JSON generation guide
 - **[OPTIMIZATION_GUIDE.md](./OPTIMIZATION_GUIDE.md)** - Performance optimization guide
 - **[DOCUMENTATION.md](./DOCUMENTATION.md)** - Technical documentation
 
