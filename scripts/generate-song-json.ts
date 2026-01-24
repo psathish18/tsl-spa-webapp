@@ -3,13 +3,13 @@
  * Usage: ts-node scripts/generate-song-json.ts [--test-one]
  */
 
-import fs = require('fs/promises')
-import path = require('path')
-import sanitizeHtml = require('sanitize-html')
+import fs from 'fs/promises'
+import path from 'path'
+import sanitizeHtml from 'sanitize-html'
 import type { SongBlobData, RelatedSong, SEOMetadata } from './types/song-blob.types'
 
 // Import utility functions from lib
-const {
+import {
   stripImagesFromHtml,
   htmlToPlainText,
   formatSnippetWithStars,
@@ -18,9 +18,9 @@ const {
   buildTwitterShareUrl,
   buildWhatsAppShareUrl,
   splitAndSanitizeStanzas,
-} = require('../lib/lyricsUtils')
+} from '../lib/lyricsUtils'
 
-const {
+import {
   extractSnippet,
   generateSongDescription,
   cleanCategoryLabel,
@@ -28,9 +28,9 @@ const {
   extractSongMetadata,
   hasEnglishTranslationContent,
   generateKeywords
-} = require('../lib/seoUtils')
+} from '../lib/seoUtils'
 
-const { getSlugFromSong } = require('../lib/slugUtils')
+import { getSlugFromSong } from '../lib/slugUtils'
 
 // Constants
 const BLOGGER_API_BASE = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default'
