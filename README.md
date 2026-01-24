@@ -147,6 +147,11 @@ npm start
   - Create an issue with title `generate json for category CategoryName` to generate JSON for specific category
   - Files are automatically generated and committed to the repository
 
+- **[Upload to Blob Workflow](./docs/UPLOAD_TO_BLOB_WORKFLOW.md)** - Upload generated files to Vercel Blob Storage
+  - Comment `/approve` on any issue to trigger upload
+  - Uploads all JSON files from `blob-data/` directory to Vercel Blob
+  - Requires `BLOB_READ_WRITE_TOKEN` secret configured
+
 ## Documentation
 
 ### 📁 Documentation Structure
@@ -157,6 +162,9 @@ npm start
   - Performance testing results
 - **[/docs/](./docs/)** - Additional documentation
   - [Generate Song JSON Workflow](./docs/GENERATE_SONG_JSON_WORKFLOW.md) - Automated JSON generation guide
+  - [Upload to Blob Workflow](./docs/UPLOAD_TO_BLOB_WORKFLOW.md) - Upload files to Vercel Blob Storage guide
+  - [Workflow Examples](./docs/WORKFLOW_EXAMPLES.md) - Examples and testing scenarios
+  - [Testing Guide](./docs/TESTING_WORKFLOW.md) - Testing workflows before deployment
 - **[OPTIMIZATION_GUIDE.md](./OPTIMIZATION_GUIDE.md)** - Performance optimization guide
 - **[DOCUMENTATION.md](./DOCUMENTATION.md)** - Technical documentation
 
