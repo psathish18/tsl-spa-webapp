@@ -26,6 +26,7 @@ jobs:
         run: npm ci
 
       - name: Parse issue title and run script
+        id: generate
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
@@ -34,7 +35,10 @@ jobs:
           # Scenario 1: "generate json for recent X song" -> --limit=X
           if echo "$ISSUE_TITLE" | grep -iq "generate json for recent.*song"; then
             # Extract number from the title (e.g., "5" from "generate json for recent 5 song")
-            LIMIT=$(echo "$ISSUE_TITLE" | grep -oP 'recent\s+\K\d+' || echo "5")
+            LIMIT=$(echo "$ISSUE_TITLE" | sed -n 's/.*recent[[:space:]]*\([0-9]*\).*/\1/p')
+            if [ -z "$LIMIT" ]; then
+              LIMIT=5
+            fi
             echo "Running with limit: $LIMIT"
             npm run generate-song-json -- --limit=$LIMIT
             echo "Generated JSON for recent $LIMIT songs"
@@ -42,7 +46,7 @@ jobs:
           # Scenario 2: "generate json for category CategoryName" -> --category="CategoryName"
           elif echo "$ISSUE_TITLE" | grep -iq "generate json for category"; then
             # Extract category after "category" keyword
-            CATEGORY=$(echo "$ISSUE_TITLE" | sed -n 's/.*category[[:space:]]*\(.*\)/\1/iP' | xargs)
+            CATEGORY=$(echo "$ISSUE_TITLE" | sed -n 's/.*category[[:space:]]*\(.*\)/\1/ip' | xargs)
             echo "Running with category: $CATEGORY"
             npm run generate-song-json -- --category="$CATEGORY"
             echo "Generated JSON for category: $CATEGORY"
@@ -55,6 +59,7 @@ jobs:
           fi
 
       - name: Commit and push generated files
+        if: success()
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -70,16 +75,18 @@ jobs:
           fi
 
       - name: Add comment to issue
+        if: success()
         uses: actions/github-script@v7
         with:
           script: |
             const issueTitle = context.payload.issue.title;
             let comment = '';
             
-            if (issueTitle.toLowerCase().includes('generate json for recent')) {
+            // Use consistent regex patterns with bash step
+            if (/generate json for recent.*song/i.test(issueTitle)) {
               const limit = issueTitle.match(/recent\s+(\d+)/i)?.[1] || '5';
               comment = `✅ Successfully generated JSON files for the recent ${limit} songs.\n\nFiles have been committed to the \`blob-data/\` directory.`;
-            } else if (issueTitle.toLowerCase().includes('generate json for category')) {
+            } else if (/generate json for category/i.test(issueTitle)) {
               const category = issueTitle.replace(/.*category\s+/i, '').trim();
               comment = `✅ Successfully generated JSON files for category: **${category}**\n\nFiles have been committed to the \`blob-data/\` directory.`;
             } else {
@@ -95,7 +102,20 @@ jobs:
               body: comment
             });
 
+      - name: Add error comment to issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Failed to generate JSON files. Please check the workflow logs for details.'
+            });
+
       - name: Close issue
+        if: always()
         uses: actions/github-script@v7
         with:
           script: |
