@@ -151,8 +151,7 @@ jobs:
             --base blob-data-temp \
             --head "$BRANCH_NAME" \
             --title "Update public/songs with blob data from issue #${{ github.event.issue.number }}" \
-            --body "$PR_BODY" \
-            --label "automated-pr,blob-data-update"
+            --body "$PR_BODY"
 
       - name: Add comment to issue
         if: success()
