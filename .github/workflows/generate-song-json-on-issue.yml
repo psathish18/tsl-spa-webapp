@@ -32,6 +32,14 @@ jobs:
         run: |
           echo "Issue title: $ISSUE_TITLE"
           
+          # Check if upload is requested
+          if echo "$ISSUE_TITLE" | grep -iq "upload"; then
+            echo "should_upload=true" >> $GITHUB_OUTPUT
+            echo "Upload to blob requested"
+          else
+            echo "should_upload=false" >> $GITHUB_OUTPUT
+          fi
+          
           # Scenario 1: "generate json for recent X song" -> --limit=X
           if echo "$ISSUE_TITLE" | grep -iq "generate json for recent.*song"; then
             # Extract number from the title (e.g., "5" from "generate json for recent 5 song")
@@ -42,14 +50,18 @@ jobs:
             echo "Running with limit: $LIMIT"
             npm run generate-song-json -- --limit=$LIMIT
             echo "Generated JSON for recent $LIMIT songs"
+            echo "generation_type=recent" >> $GITHUB_OUTPUT
+            echo "generation_param=$LIMIT" >> $GITHUB_OUTPUT
             
           # Scenario 2: "generate json for category CategoryName" -> --category="CategoryName"
           elif echo "$ISSUE_TITLE" | grep -iq "generate json for category"; then
-            # Extract category after "category" keyword
-            CATEGORY=$(echo "$ISSUE_TITLE" | grep -io "category .*" | cut -d' ' -f2- | xargs)
+            # Extract category after "category" keyword, removing "and upload" if present
+            CATEGORY=$(echo "$ISSUE_TITLE" | grep -io "category .*" | cut -d' ' -f2- | sed 's/\s*and\s*upload.*//i' | xargs)
             echo "Running with category: $CATEGORY"
             npm run generate-song-json -- --category="$CATEGORY"
             echo "Generated JSON for category: $CATEGORY"
+            echo "generation_type=category" >> $GITHUB_OUTPUT
+            echo "generation_param=$CATEGORY" >> $GITHUB_OUTPUT
             
           else
             echo "Issue title does not match expected patterns:"
@@ -74,25 +86,49 @@ jobs:
             echo "No changes to commit"
           fi
 
+      - name: Upload to Vercel Blob
+        if: success() && steps.generate.outputs.should_upload == 'true'
+        env:
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+        run: |
+          if [ -z "$BLOB_READ_WRITE_TOKEN" ]; then
+            echo "❌ BLOB_READ_WRITE_TOKEN secret not configured"
+            exit 1
+          fi
+          echo "Uploading generated files to Vercel Blob Storage..."
+          npm run upload-to-blob
+
       - name: Add comment to issue
         if: success()
         uses: actions/github-script@v7
         with:
           script: |
             const issueTitle = context.payload.issue.title;
+            const shouldUpload = issueTitle.toLowerCase().includes('upload');
             let comment = '';
             
             // Use consistent regex patterns with bash step
             if (/generate json for recent.*song/i.test(issueTitle)) {
               const limit = issueTitle.match(/recent\s+(\d+)/i)?.[1] || '5';
               comment = `✅ Successfully generated JSON files for the recent ${limit} songs.\n\nFiles have been committed to the \`blob-data/\` directory.`;
+              
+              if (shouldUpload) {
+                comment += `\n\n📤 Files have been uploaded to Vercel Blob Storage.`;
+              }
             } else if (/generate json for category/i.test(issueTitle)) {
-              const category = issueTitle.replace(/.*category\s+/i, '').trim();
+              const category = issueTitle.replace(/.*category\s+/i, '').trim().replace(/\s+and\s+upload.*/i, '');
               comment = `✅ Successfully generated JSON files for category: **${category}**\n\nFiles have been committed to the \`blob-data/\` directory.`;
+              
+              if (shouldUpload) {
+                comment += `\n\n📤 Files have been uploaded to Vercel Blob Storage.`;
+              }
             } else {
               comment = '❌ Failed to parse issue title. Please use one of these formats:\n\n' +
                         '- `generate json for recent X song` (where X is a number)\n' +
-                        '- `generate json for category CategoryName`';
+                        '- `generate json for category CategoryName`\n\n' +
+                        'Add "and upload" to automatically upload to Vercel Blob Storage:\n' +
+                        '- `generate json for recent X song and upload`\n' +
+                        '- `generate json for category CategoryName and upload`';
             }
             
             github.rest.issues.createComment({
