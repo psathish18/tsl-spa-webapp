@@ -55,8 +55,8 @@ jobs:
             
           # Scenario 2: "generate json for category CategoryName" -> --category="CategoryName"
           elif echo "$ISSUE_TITLE" | grep -iq "generate json for category"; then
-            # Extract category after "category" keyword, removing "and upload" if present
-            CATEGORY=$(echo "$ISSUE_TITLE" | grep -io "category .*" | cut -d' ' -f2- | sed 's/\s*and\s*upload.*//i' | xargs)
+            # Extract category after "category" keyword, removing "and upload" if present at the end
+            CATEGORY=$(echo "$ISSUE_TITLE" | grep -io "category .*" | cut -d' ' -f2- | sed 's/\s*and\s*upload\s*$//i' | xargs)
             echo "Running with category: $CATEGORY"
             npm run generate-song-json -- --category="$CATEGORY"
             echo "Generated JSON for category: $CATEGORY"
@@ -116,7 +116,7 @@ jobs:
                 comment += `\n\n📤 Files have been uploaded to Vercel Blob Storage.`;
               }
             } else if (/generate json for category/i.test(issueTitle)) {
-              const category = issueTitle.replace(/.*category\s+/i, '').trim().replace(/\s+and\s+upload.*/i, '');
+              const category = issueTitle.replace(/.*category\s+/i, '').trim().replace(/\s+and\s+upload\s*$/i, '');
               comment = `✅ Successfully generated JSON files for category: **${category}**\n\nFiles have been committed to the \`blob-data/\` directory.`;
               
               if (shouldUpload) {
