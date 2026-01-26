@@ -72,8 +72,8 @@ function getEnhancedThumbnail(url: string | undefined): string | null {
  * Fetch all songs from Blogger API
  * @param category - Category to filter by (e.g., "Movie:Coolie", "Song:Test")
  */
-async function fetchAllSongs(category?: string,testOne?: boolean): Promise<BloggerEntry[]> {
-  console.log('📡 Fetching all songs from Blogger API...')
+async function fetchAllSongs(category?: string,testOne?: boolean, limitIndex?: number): Promise<BloggerEntry[]> {
+  console.log('📡 Fetching all songs from Blogger API...' + limitIndex)
   
   if (category) {
     // Category filtering - single request (max 9999 results)
@@ -107,7 +107,7 @@ async function fetchAllSongs(category?: string,testOne?: boolean): Promise<Blogg
         console.log(`      ✅ Fetched ${entries.length} songs (total: ${allEntries.length})`)
         
         // Check if we got fewer results than requested (last page)
-        if (entries.length < maxResults || testOne) {
+        if (entries.length < maxResults || testOne || (limitIndex &&  limitIndex < maxResults)) {
           hasMore = false
           console.log(`      ✅ Last batch retrieved`)
         } else {
@@ -376,7 +376,7 @@ async function main() {
   console.log('🚀 Starting song JSON generation...\n')
   
   // Fetch all songs (with optional category filter)
-  const songs = await fetchAllSongs(category,testOne)
+  const songs = await fetchAllSongs(category,testOne, limit)
   console.log(`✅ Found ${songs.length} songs\n`)
   
   if (songs.length === 0) {
