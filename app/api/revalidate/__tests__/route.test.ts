@@ -20,14 +20,20 @@ import { revalidateTag, revalidatePath } from 'next/cache'
 describe('Revalidate API Route', () => {
   const mockSecret = process.env.REVALIDATE_SECRET || '9cQqqaV6l6OPYhslilv1RCXhsVRZ4CVQ3wTYV3Vcck5axiU4BPcCApHV9aT0yUhO'
 
+  let consoleLogSpy: jest.SpyInstance
+  let consoleErrorSpy: jest.SpyInstance
+
   beforeEach(() => {
     jest.clearAllMocks()
     // Suppress console logs during tests
-    jest.spyOn(console, 'log').mockImplementation()
-    jest.spyOn(console, 'error').mockImplementation()
+    consoleLogSpy = jest.spyOn(console, 'log').mockImplementation()
+    consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation()
   })
 
   afterEach(() => {
+    // Explicitly restore console spies
+    consoleLogSpy.mockRestore()
+    consoleErrorSpy.mockRestore()
     jest.restoreAllMocks()
   })
 
@@ -137,7 +143,7 @@ describe('Revalidate API Route', () => {
         expect(revalidatePath).toHaveBeenCalledWith('/')
       })
 
-      it('should clear search page cache', async () => {
+      it('should clear trending API cache for search page', async () => {
         const request = new NextRequest('http://localhost:3000/api/revalidate', {
           method: 'POST',
           body: JSON.stringify({
