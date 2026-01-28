@@ -101,6 +101,16 @@
       <strong>⚠️ Note:</strong> This clears both Next.js ISR cache and custom date-based cache.
     </div>
 
+    <div class="info" style="background: #fef3c7; border-left-color: #f59e0b; margin-top: 10px;">
+      <strong>🔧 Troubleshooting:</strong>
+      <ul style="margin: 10px 0 0 0; padding-left: 20px;">
+        <li>If "Test Connection" fails, verify your secret matches REVALIDATE_SECRET in your environment variables</li>
+        <li>Check that the server is running and accessible at the BASE_URL</li>
+        <li>For localhost, ensure you're using the correct port (default: 3000)</li>
+        <li>For production, ensure CORS is properly configured</li>
+      </ul>
+    </div>
+
     <div style="margin: 20px 0;">
       <label for="secretInput" style="font-weight: 500; display: block; margin-bottom: 8px;">
         🔑 Secret Key:
@@ -188,11 +198,24 @@
     function showResult(success, message, data = null) {
       const result = document.getElementById('result');
       result.className = `result ${success ? 'success' : 'error'} show`;
+      
+      let dataDisplay = '';
+      if (data) {
+        if (typeof data === 'object') {
+          dataDisplay = `<br><br><code style="display: block; max-height: 300px; overflow-y: auto; white-space: pre-wrap; word-break: break-word;">${JSON.stringify(data, null, 2)}</code>`;
+        } else {
+          dataDisplay = `<br><br><code>${data}</code>`;
+        }
+      }
+      
       result.innerHTML = `
         <strong>${success ? '✅ Success' : '❌ Error'}</strong><br>
         ${message}
-        ${data ? `<br><br><code>${JSON.stringify(data, null, 2)}</code>` : ''}
+        ${dataDisplay}
       `;
+      
+      // Auto-scroll to result
+      result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
     async function clearAll() {
@@ -202,13 +225,20 @@
       try {
         const response = await fetch(`${BASE_URL}/api/revalidate?secret=${encodeURIComponent(secret)}&clearAll=true`);
         const data = await response.json();
+        
         if (response.ok) {
           showResult(true, 'All caches cleared successfully!', data);
+        } else if (response.status === 401) {
+          showResult(false, 'Invalid secret key. Please check your REVALIDATE_SECRET.', data);
         } else {
-          showResult(false, data.error || 'Failed to clear caches', data);
+          showResult(false, data.error || `Failed to clear caches (HTTP ${response.status})`, data);
         }
       } catch (error) {
-        showResult(false, `Network error: ${error.message}`);
+        showResult(false, `Network error: ${error.message}`, {
+          error: error.message,
+          hint: 'Check if the server is running and accessible',
+          baseUrl: BASE_URL
+        });
       }
     }
 
@@ -219,13 +249,20 @@
       try {
         const response = await fetch(`${BASE_URL}/api/revalidate?secret=${encodeURIComponent(secret)}&path=${encodeURIComponent(path)}`);
         const data = await response.json();
+        
         if (response.ok) {
           showResult(true, `Cache cleared for: ${path}`, data);
+        } else if (response.status === 401) {
+          showResult(false, 'Invalid secret key. Please check your REVALIDATE_SECRET.', data);
         } else {
-          showResult(false, data.error || 'Failed to clear cache', data);
+          showResult(false, data.error || `Failed to clear cache (HTTP ${response.status})`, data);
         }
       } catch (error) {
-        showResult(false, `Network error: ${error.message}`);
+        showResult(false, `Network error: ${error.message}`, {
+          error: error.message,
+          hint: 'Check if the server is running and accessible',
+          baseUrl: BASE_URL
+        });
       }
     }
 
@@ -247,17 +284,53 @@
       
       try {
         const response = await fetch(`${BASE_URL}/api/revalidate?secret=${encodeURIComponent(secret)}`);
+        
+        // Check if response is ok (status in 200-299 range)
+        if (!response.ok && response.status !== 400) {
+          // Handle non-ok responses (except 400 which we expect)
+          let errorData;
+          try {
+            errorData = await response.json();
+          } catch (e) {
+            errorData = { error: `HTTP ${response.status}: ${response.statusText}` };
+          }
+          
+          if (response.status === 401) {
+            showResult(false, 'Invalid secret key. Please check your REVALIDATE_SECRET.', errorData);
+          } else {
+            showResult(false, `API Error (${response.status}): ${errorData.error || response.statusText}`, errorData);
+          }
+          return;
+        }
+        
+        // Parse response data
         const data = await response.json();
+        
         if (response.status === 400) {
           // Expected - missing parameters but auth passed
-          showResult(true, 'Connection successful! Secret is valid.', { status: 'API ready', message: 'You can now clear caches' });
-        } else if (response.status === 401) {
-          showResult(false, 'Invalid secret key', data);
-        } else {
+          // This means the secret is valid
+          if (data.error && data.error.includes('Missing parameter')) {
+            showResult(true, 'Connection successful! Secret is valid.', { 
+              status: 'API ready', 
+              message: 'You can now clear caches',
+              apiVersion: 'v1',
+              endpoint: `${BASE_URL}/api/revalidate`
+            });
+          } else {
+            showResult(false, 'Unexpected API response', data);
+          }
+        } else if (response.ok) {
+          // Any 2xx response is also good
           showResult(true, 'API responding correctly', data);
+        } else {
+          showResult(false, 'Unexpected response', data);
         }
       } catch (error) {
-        showResult(false, `Connection failed: ${error.message}`);
+        showResult(false, `Connection failed: ${error.message}`, {
+          error: error.message,
+          hint: 'Check if the server is running and accessible',
+          baseUrl: BASE_URL
+        });
       }
     }
   </script>
