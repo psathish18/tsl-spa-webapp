@@ -97,8 +97,11 @@ export const STANZA_SEPARATOR = /(?:<br\b[^>]*>(?:\s*<\/br>)?\s*){2,}|<\/p>\s*<p
  * Sanitize options for HTML cleaning
  */
 export const DEFAULT_SANITIZE_OPTIONS = {
-  allowedTags: ['p', 'br', 'strong', 'em', 'u', 'a', 'span', 'div', 'table', 'tr', 'td', 'th', 'tbody', 'thead'],
-  allowedAttributes: { a: ['href', 'title', 'target', 'rel'] }
+  allowedTags: ['p', 'br', 'strong', 'em', 'u', 'a', 'span', 'div', 'table', 'tr', 'td', 'th', 'tbody', 'thead', 'h3', 'h4', 'ul', 'li'],
+  allowedAttributes: { 
+    a: ['href', 'title', 'target', 'rel'],
+    div: ['class']
+  }
 };
 
 // Memoization cache for sanitized content
@@ -137,4 +140,76 @@ export function splitAndSanitizeStanzas(
     : sanitizedContent.split(STANZA_SEPARATOR).map(s => s.trim()).filter(Boolean);
   
   return stanzas;
+}
+
+/**
+ * Content sections structure returned by parseContentSections
+ */
+export interface ContentSections {
+  intro: string;
+  easterEgg: string;
+  lyrics: string;
+  faq: string;
+}
+
+/**
+ * Parse blog post content into sections (intro, easter-egg, lyrics, faq)
+ * 
+ * Expected structure:
+ * 1. Intro: <p>...</p>
+ * 2. Easter-egg: <div class="easter-egg-list">...</div>
+ * 3. Lyrics: remaining content with <br> tags
+ * 4. FAQ: <div class="faqs-section">...</div>
+ */
+export function parseContentSections(content: string): ContentSections {
+  if (!content) {
+    return { intro: '', easterEgg: '', lyrics: '', faq: '' };
+  }
+
+  let remaining = content.trim();
+  
+  // Extract intro paragraph (first <p>...</p> tag)
+  const introMatch = remaining.match(/^<p\b[^>]*>[\s\S]*?<\/p>/i);
+  const intro = introMatch ? introMatch[0] : '';
+  if (intro) {
+    remaining = remaining.slice(intro.length).trim();
+  }
+
+  // Extract easter-egg section (<div class="easter-egg-list">...</div>)
+  const easterEggMatch = remaining.match(/<div\s+class=["']easter-egg-list["'][^>]*>[\s\S]*?<\/div>/i);
+  const easterEgg = easterEggMatch ? easterEggMatch[0] : '';
+  if (easterEgg) {
+    remaining = remaining.replace(easterEgg, '').trim();
+  }
+
+  // Extract FAQ section (<div class="faqs-section">...</div>)
+  // Look for it at the end of content
+  const faqMatch = remaining.match(/<div\s+class=["']faqs-section["'][^>]*>[\s\S]*?<\/div>\s*$/i);
+  const faq = faqMatch ? faqMatch[0] : '';
+  if (faq) {
+    remaining = remaining.slice(0, remaining.lastIndexOf(faq)).trim();
+  }
+
+  // What's left is the lyrics content
+  const lyrics = remaining;
+
+  return { intro, easterEgg, lyrics, faq };
+}
+
+/**
+ * Split content sections and sanitize
+ * Returns sections with sanitized HTML
+ */
+export function splitAndSanitizeSections(
+  content: string,
+  sanitizeHtml: any
+): ContentSections {
+  const sections = parseContentSections(content);
+  
+  return {
+    intro: sections.intro ? memoizedSanitize(sections.intro, sanitizeHtml) : '',
+    easterEgg: sections.easterEgg ? memoizedSanitize(sections.easterEgg, sanitizeHtml) : '',
+    lyrics: sections.lyrics ? memoizedSanitize(sections.lyrics, sanitizeHtml) : '',
+    faq: sections.faq ? memoizedSanitize(sections.faq, sanitizeHtml) : '',
+  };
 }
