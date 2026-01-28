@@ -174,7 +174,7 @@
     <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
       <h3>Bookmarklet (Optional)</h3>
       <p>Drag this to your bookmarks bar for quick access (you'll need to update SECRET in the code):</p>
-      <a href="javascript:(function(){const secret=prompt('Enter secret:');if(!secret)return;const baseUrl=window.location.hostname==='localhost'?'http://localhost:3000':'https://tsonglyrics.com';fetch(baseUrl+'/api/revalidate?secret='+encodeURIComponent(secret)+'&clearAll=true').then(r=>r.json()).then(d=>alert('✅ Cache cleared!\n\n'+JSON.stringify(d,null,2))).catch(e=>alert('❌ Error: '+e.message))})();" 
+      <a href="javascript:(function(){const secret=prompt('Enter secret:');if(!secret)return;const baseUrl=window.location.hostname==='localhost'?'http://localhost:3000':'https://www.tsonglyrics.com';fetch(baseUrl+'/api/revalidate?secret='+encodeURIComponent(secret)+'&clearAll=true').then(r=>r.json()).then(d=>alert('✅ Cache cleared!\n\n'+JSON.stringify(d,null,2))).catch(e=>alert('❌ Error: '+e.message))})();" 
          style="display: inline-block; padding: 10px 20px; background: #ef4444; color: white; text-decoration: none; border-radius: 6px; font-weight: 500;">
         🔥 Clear All Caches
       </a>
@@ -184,7 +184,7 @@
   <script>
     const BASE_URL = window.location.hostname === 'localhost' 
       ? 'http://localhost:3000' 
-      : 'https://tsonglyrics.com';
+      : 'https://www.tsonglyrics.com';
 
     function getSecret() {
       const secret = document.getElementById('secretInput').value.trim();
