@@ -148,7 +148,7 @@ export function splitAndSanitizeStanzas(
 export interface ContentSections {
   intro: string;
   easterEgg: string;
-  lyrics: string;
+  lyrics?: string;  // Optional since blob data doesn't include lyrics (uses stanzas instead)
   faq: string;
 }
 
