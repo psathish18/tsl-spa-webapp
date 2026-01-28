@@ -19,6 +19,7 @@ import {
   buildWhatsAppShareUrl,
   splitAndSanitizeStanzas,
   splitAndSanitizeSections,
+  DEFAULT_SANITIZE_OPTIONS,
 } from '../lib/lyricsUtils'
 
 import {
