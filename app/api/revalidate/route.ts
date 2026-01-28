@@ -85,164 +85,206 @@ function clearCacheByPath(path: string, type?: string) {
       results.push(`Cleared API route: /api/songs/${slug}`)
       console.log(`  ✓ Cleared API route: /api/songs/${slug}`)
     }
+  } else {
+    // Generic path - try to clear it anyway
+    try {
+      revalidatePath(path)
+      results.push(`Cleared cache for path: ${path}`)
+      console.log(`  ✓ Cleared cache for generic path: ${path}`)
+    } catch (err) {
+      results.push(`Warning: Path ${path} does not match known patterns, but attempted to clear. Error: ${String(err)}`)
+      console.log(`  ⚠️  Generic path clear attempted: ${path}`)
+    }
   }
   
   return results
 }
 
 export async function POST(req: NextRequest) {
-  const { tag, path, secret, clearAll, type } = await req.json()
+  try {
+    const body = await req.json()
+    const { tag, path, secret, clearAll, type } = body
 
-  if (secret !== REVALIDATE_SECRET) {
-    return createNoCacheResponse({ error: 'Invalid secret' }, 401)
-  }
+    // Log request for debugging
+    console.log('🔄 Revalidate POST request received:', { tag, path, clearAll, type, hasSecret: !!secret })
 
-  // Clear ALL caches (emergency option)
-  if (clearAll) {
-    try {
-      console.log('🔥 CLEARING ALL CACHES')
-      
-      // Clear Next.js cache for the entire site
-      revalidatePath('/', 'layout')
-      console.log('  ✓ Cleared all pages')
-      
-      // Clear specific cache tags
-      revalidateTag('songs-latest')
-      revalidateTag('homepage')
-      revalidateTag('trending-api')
-      console.log('  ✓ Cleared all cache tags (including CDN)')
-      
-      return createNoCacheResponse({ 
-        revalidated: true, 
-        type: 'all', 
-        message: 'All Next.js caches cleared',
-        now: Date.now() 
-      })
-    } catch (err) {
-      console.error('Clear all error:', err)
-      return createNoCacheResponse({ error: 'Failed to clear all caches', details: String(err) }, 500)
+    if (secret !== REVALIDATE_SECRET) {
+      console.log('❌ Invalid secret provided')
+      return createNoCacheResponse({ error: 'Invalid secret' }, 401)
     }
-  }
 
-  // Revalidate by tag (for song pages)
-  if (tag) {
-    try {
-      console.log(`Revalidating tag: ${tag}`)
-      
-      await revalidateTag(tag)
-      console.log(`  ✓ Cleared Next.js tag: ${tag}`)
-      
-      return createNoCacheResponse({ revalidated: true, type: 'tag', tag, now: Date.now() })
-    } catch (err) {
-      console.error('Tag revalidation error:', err)
-      return createNoCacheResponse({ error: 'Failed to revalidate tag', details: String(err) }, 500)
+    // Clear ALL caches (emergency option)
+    if (clearAll) {
+      try {
+        console.log('🔥 CLEARING ALL CACHES')
+        
+        // Clear Next.js cache for the entire site
+        revalidatePath('/', 'layout')
+        console.log('  ✓ Cleared all pages')
+        
+        // Clear specific cache tags
+        revalidateTag('songs-latest')
+        revalidateTag('homepage')
+        revalidateTag('trending-api')
+        console.log('  ✓ Cleared all cache tags (including CDN)')
+        
+        return createNoCacheResponse({ 
+          revalidated: true, 
+          type: 'all', 
+          message: 'All Next.js caches cleared',
+          now: Date.now() 
+        })
+      } catch (err) {
+        console.error('Clear all error:', err)
+        return createNoCacheResponse({ error: 'Failed to clear all caches', details: String(err) }, 500)
+      }
     }
-  }
 
-  // Revalidate by path (for home page and other pages) - now supports type parameter
-  if (path) {
-    try {
-      console.log(`Revalidating path: ${path} (type: ${type || 'all'})`)
-      
-      // Clear cache based on path (uses revalidateTag internally)
-      const results = clearCacheByPath(path, type)
-      
-      return createNoCacheResponse({ 
-        revalidated: true, 
-        type: type || 'all', 
-        path, 
-        results,
-        now: Date.now() 
-      })
-    } catch (err) {
-      console.error('Path revalidation error:', err)
-      return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
+    // Revalidate by tag (for song pages)
+    if (tag) {
+      try {
+        console.log(`Revalidating tag: ${tag}`)
+        
+        await revalidateTag(tag)
+        console.log(`  ✓ Cleared Next.js tag: ${tag}`)
+        
+        return createNoCacheResponse({ revalidated: true, type: 'tag', tag, now: Date.now() })
+      } catch (err) {
+        console.error('Tag revalidation error:', err)
+        return createNoCacheResponse({ error: 'Failed to revalidate tag', details: String(err) }, 500)
+      }
     }
-  }
 
-  return createNoCacheResponse({ error: 'Missing tag, path, or clearAll parameter' }, 400)
+    // Revalidate by path (for home page and other pages) - now supports type parameter
+    if (path) {
+      try {
+        console.log(`Revalidating path: ${path} (type: ${type || 'all'})`)
+        
+        // Clear cache based on path (uses revalidateTag internally)
+        const results = clearCacheByPath(path, type)
+        
+        return createNoCacheResponse({ 
+          revalidated: true, 
+          type: type || 'all', 
+          path, 
+          results,
+          now: Date.now() 
+        })
+      } catch (err) {
+        console.error('Path revalidation error:', err)
+        return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
+      }
+    }
+
+    return createNoCacheResponse({ error: 'Missing tag, path, or clearAll parameter' }, 400)
+  } catch (err) {
+    console.error('POST handler error:', err)
+    return createNoCacheResponse({ 
+      error: 'Request processing failed', 
+      details: String(err),
+      hint: 'Check if request body is valid JSON'
+    }, 500)
+  }
 }
 
 // GET endpoint for easy browser testing (development only)
 export async function GET(req: NextRequest) {
-  const { searchParams } = new URL(req.url)
-  const secret = searchParams.get('secret')
-  const path = searchParams.get('path')
-  const tag = searchParams.get('tag')
-  const type = searchParams.get('type') // New: page, cdn, api, all
-  const clearAll = searchParams.get('clearAll') === 'true'
+  try {
+    const { searchParams } = new URL(req.url)
+    const secret = searchParams.get('secret')
+    const path = searchParams.get('path')
+    const tag = searchParams.get('tag')
+    const type = searchParams.get('type') // New: page, cdn, api, all
+    const clearAll = searchParams.get('clearAll') === 'true'
 
-  if (secret !== REVALIDATE_SECRET) {
+    // Log request for debugging
+    console.log('🔄 Revalidate GET request received:', { tag, path, clearAll, type, hasSecret: !!secret })
+
+    if (secret !== REVALIDATE_SECRET) {
+      return createNoCacheResponse({ 
+        error: 'Invalid or missing secret',
+        usage: {
+          clearAll: '?secret=SECRET&clearAll=true',
+          byPath: '?secret=SECRET&path=/song.html&type=all',
+          byTag: '?secret=SECRET&tag=song-slug',
+          types: ['page', 'cdn', 'api', 'all (default)']
+        }
+      }, 401)
+    }
+
+    // Same logic as POST
+    if (clearAll) {
+      try {
+        console.log('🔥 CLEARING ALL CACHES (via GET)')
+        
+        // Clear Next.js cache for the entire site
+        revalidatePath('/', 'layout')
+        console.log('  ✓ Cleared all pages')
+        
+        // Clear specific cache tags
+        revalidateTag('songs-latest')
+        revalidateTag('homepage')
+        revalidateTag('trending-api')
+        console.log('  ✓ Cleared all cache tags (including CDN)')
+        
+        return createNoCacheResponse({ 
+          revalidated: true, 
+          type: 'all', 
+          message: 'All Next.js caches cleared (GET)',
+          now: Date.now() 
+        })
+      } catch (err) {
+        console.error('GET clearAll error:', err)
+        return createNoCacheResponse({ error: 'Failed to clear all', details: String(err) }, 500)
+      }
+    }
+
+    if (tag) {
+      try {
+        console.log(`GET: Revalidating tag: ${tag}`)
+        await revalidateTag(tag)
+        console.log(`  ✓ Cleared tag: ${tag}`)
+        return createNoCacheResponse({ revalidated: true, type: 'tag', tag, now: Date.now() })
+      } catch (err) {
+        console.error('GET tag revalidation error:', err)
+        return createNoCacheResponse({ error: 'Failed to revalidate tag', details: String(err) }, 500)
+      }
+    }
+
+    if (path) {
+      try {
+        console.log(`GET: Revalidating path: ${path} (type: ${type || 'all'})`)
+        const results = clearCacheByPath(path, type || undefined)
+        return createNoCacheResponse({ 
+          revalidated: true, 
+          type: type || 'all', 
+          path,
+          results,
+          now: Date.now() 
+        })
+      } catch (err) {
+        console.error('GET path revalidation error:', err)
+        return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
+      }
+    }
+
     return createNoCacheResponse({ 
-      error: 'Invalid or missing secret',
+      error: 'Missing parameter',
       usage: {
         clearAll: '?secret=SECRET&clearAll=true',
         byPath: '?secret=SECRET&path=/song.html&type=all',
         byTag: '?secret=SECRET&tag=song-slug',
         types: ['page', 'cdn', 'api', 'all (default)']
       }
-    }, 401)
+    }, 400)
+  } catch (err) {
+    console.error('GET handler error:', err)
+    return createNoCacheResponse({ 
+      error: 'Request processing failed', 
+      details: String(err),
+      hint: 'Check if URL parameters are valid'
+    }, 500)
   }
-
-  // Same logic as POST
-  if (clearAll) {
-    try {
-      console.log('🔥 CLEARING ALL CACHES (via GET)')
-      
-      // Clear Next.js cache for the entire site
-      revalidatePath('/', 'layout')
-      console.log('  ✓ Cleared all pages')
-      
-      // Clear specific cache tags
-      revalidateTag('songs-latest')
-      revalidateTag('homepage')
-      revalidateTag('trending-api')
-      console.log('  ✓ Cleared all cache tags (including CDN)')
-      
-      return createNoCacheResponse({ 
-        revalidated: true, 
-        type: 'all', 
-        message: 'All Next.js caches cleared (GET)',
-        now: Date.now() 
-      })
-    } catch (err) {
-      return createNoCacheResponse({ error: 'Failed to clear all', details: String(err) }, 500)
-    }
-  }
-
-  if (tag) {
-    try {
-      await revalidateTag(tag)
-      return createNoCacheResponse({ revalidated: true, type: 'tag', tag, now: Date.now() })
-    } catch (err) {
-      return createNoCacheResponse({ error: 'Failed to revalidate tag', details: String(err) }, 500)
-    }
-  }
-
-  if (path) {
-    try {
-      const results = clearCacheByPath(path, type || undefined)
-      return createNoCacheResponse({ 
-        revalidated: true, 
-        type: type || 'all', 
-        path,
-        results,
-        now: Date.now() 
-      })
-    } catch (err) {
-      return createNoCacheResponse({ error: 'Failed to revalidate path', details: String(err) }, 500)
-    }
-  }
-
-  return createNoCacheResponse({ 
-    error: 'Missing parameter',
-    usage: {
-      clearAll: '?secret=SECRET&clearAll=true',
-      byPath: '?secret=SECRET&path=/song.html&type=all',
-      byTag: '?secret=SECRET&tag=song-slug',
-      types: ['page', 'cdn', 'api', 'all (default)']
-    }
-  }, 400)
 }
 
 export const dynamic = 'force-dynamic' // Ensure this route is always dynamic
