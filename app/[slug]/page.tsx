@@ -17,6 +17,7 @@ import {
   splitAndSanitizeSections,
   STANZA_SEPARATOR,
   DEFAULT_SANITIZE_OPTIONS,
+  SECTIONS_SANITIZE_OPTIONS,
   ContentSections
 } from '@/lib/lyricsUtils'
 import {
@@ -577,8 +578,13 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   if (fromBlob && blobData) {
     // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
     stanzas = blobData.stanzas
-    // Use sections from blob data
-    contentSections = blobData.sections;
+    // Use sections from blob data - MUST sanitize to prevent SSR crashes
+    contentSections = {
+      intro: blobData.sections.intro ? sanitizeHtml(blobData.sections.intro, SECTIONS_SANITIZE_OPTIONS) : '',
+      easterEgg: blobData.sections.easterEgg ? sanitizeHtml(blobData.sections.easterEgg, SECTIONS_SANITIZE_OPTIONS) : '',
+      faq: blobData.sections.faq ? sanitizeHtml(blobData.sections.faq, SECTIONS_SANITIZE_OPTIONS) : '',
+      lyrics: '' // Blob data doesn't have lyrics in sections - uses stanzas instead
+    };
   } else {
     // Fallback: Parse and split content from Blogger
     // First, parse the content into sections
