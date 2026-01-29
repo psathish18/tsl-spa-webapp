@@ -9,7 +9,7 @@ export default function GlobalError({
   reset: () => void
 }) {
   return (
-    <html>
+    <html lang="en" suppressHydrationWarning>
       <body>
         <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
           <div className="max-w-lg w-full p-6 bg-white rounded-lg shadow">
