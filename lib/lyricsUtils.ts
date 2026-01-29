@@ -191,7 +191,9 @@ export function parseContentSections(content: string): ContentSections {
   const easterEggMatch = remaining.match(/<div\s+class=["']easter-egg-list["'][^>]*>[\s\S]*?<\/div>/i);
   const easterEgg = easterEggMatch ? easterEggMatch[0] : '';
   if (easterEgg) {
-    remaining = remaining.replace(easterEgg, '').trim();
+    // Use regex replace to handle any encoding differences
+    const escapedEasterEgg = easterEgg.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    remaining = remaining.replace(new RegExp(escapedEasterEgg), '').trim();
   }
 
   // Extract FAQ section (<div class="faqs-section">...</div>)
@@ -199,7 +201,11 @@ export function parseContentSections(content: string): ContentSections {
   const faqMatch = remaining.match(/<div\s+class=["']faqs-section["'][^>]*>[\s\S]*?<\/div>\s*$/i);
   const faq = faqMatch ? faqMatch[0] : '';
   if (faq) {
-    remaining = remaining.slice(0, remaining.lastIndexOf(faq)).trim();
+    // Fix: Check that lastIndexOf returns a valid index before slicing
+    const faqIndex = remaining.lastIndexOf(faq);
+    if (faqIndex >= 0) {
+      remaining = remaining.slice(0, faqIndex).trim();
+    }
   }
 
   // What's left is the lyrics content
