@@ -104,20 +104,32 @@ export const DEFAULT_SANITIZE_OPTIONS = {
   }
 };
 
+export const SECTIONS_SANITIZE_OPTIONS = {
+  allowedTags: ['p', 'br', 'strong', 'em', 'u', 'a', 'span', 'h3', 'h4', 'ul', 'li', 'div'],
+  allowedAttributes: { 
+    a: ['href', 'title', 'target', 'rel'],
+    div: ['class']
+  },
+  allowedClasses: {
+    'div': ['easter-egg-list', 'faqs-section', 'faq-item']
+  }
+};
+
 // Memoization cache for sanitized content
 const sanitizeCache = new Map<string, string>();
 
 /**
  * Sanitize HTML content once (with memoization)
  */
-function memoizedSanitize(content: string, sanitizeHtml: any): string {
-  if (sanitizeCache.has(content)) {
-    return sanitizeCache.get(content)!;
+function memoizedSanitize(content: string, sanitizeHtml: any, options = DEFAULT_SANITIZE_OPTIONS): string {
+  const cacheKey = `${content}:${JSON.stringify(options)}`;
+  if (sanitizeCache.has(cacheKey)) {
+    return sanitizeCache.get(cacheKey)!;
   }
-  const sanitized = sanitizeHtml(content, DEFAULT_SANITIZE_OPTIONS);
+  const sanitized = sanitizeHtml(content, options);
   // Only cache if content is reasonable size (avoid memory bloat)
   if (content.length < 100000) {
-    sanitizeCache.set(content, sanitized);
+    sanitizeCache.set(cacheKey, sanitized);
   }
   return sanitized;
 }
@@ -133,7 +145,7 @@ export function splitAndSanitizeStanzas(
   if (!content) return [];
   
   // Sanitize entire content ONCE instead of per-stanza (MAJOR performance boost)
-  const sanitizedContent = memoizedSanitize(content, sanitizeHtml);
+  const sanitizedContent = memoizedSanitize(content, sanitizeHtml, SECTIONS_SANITIZE_OPTIONS);
   
   const stanzas = skipSplit
     ? [sanitizedContent]
@@ -148,7 +160,7 @@ export function splitAndSanitizeStanzas(
 export interface ContentSections {
   intro: string;
   easterEgg: string;
-  lyrics: string;
+  lyrics?: string;  // Optional since blob data doesn't include lyrics (uses stanzas instead)
   faq: string;
 }
 
@@ -207,9 +219,9 @@ export function splitAndSanitizeSections(
   const sections = parseContentSections(content);
   
   return {
-    intro: sections.intro ? memoizedSanitize(sections.intro, sanitizeHtml) : '',
-    easterEgg: sections.easterEgg ? memoizedSanitize(sections.easterEgg, sanitizeHtml) : '',
-    lyrics: sections.lyrics ? memoizedSanitize(sections.lyrics, sanitizeHtml) : '',
-    faq: sections.faq ? memoizedSanitize(sections.faq, sanitizeHtml) : '',
+    intro: sections.intro ? memoizedSanitize(sections.intro, sanitizeHtml, SECTIONS_SANITIZE_OPTIONS) : '',
+    easterEgg: sections.easterEgg ? memoizedSanitize(sections.easterEgg, sanitizeHtml, SECTIONS_SANITIZE_OPTIONS) : '',
+    lyrics: sections.lyrics ? memoizedSanitize(sections.lyrics, sanitizeHtml, SECTIONS_SANITIZE_OPTIONS) : '',
+    faq: sections.faq ? memoizedSanitize(sections.faq, sanitizeHtml, SECTIONS_SANITIZE_OPTIONS) : '',
   };
 }

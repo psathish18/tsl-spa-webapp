@@ -19,6 +19,9 @@ export interface SongBlobData {
   // Publishing info
   published: string               // ISO date string
   
+  // Content sections (separated for better rendering)
+  sections: BlobContentSections       // Intro, easter egg, and FAQ sections (lyrics excluded - use stanzas)
+  
   // Main content (Tanglish) - stanzas only, no full HTML
   stanzas: string[]               // Pre-split sanitized HTML stanzas (share links built client-side)
   
@@ -51,6 +54,22 @@ export interface RelatedSong {
   movieName: string
   singerName: string
   published: string
+}
+
+export interface ContentSections {
+  intro: string;
+  easterEgg: string;
+  lyrics: string;
+  faq: string;
+}
+
+/**
+ * Optimized content sections for blob data (excludes lyrics since stanzas are pre-processed)
+ */
+export interface BlobContentSections {
+  intro: string;
+  easterEgg: string;
+  faq: string;
 }
 
 export interface SEOMetadata {

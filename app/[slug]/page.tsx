@@ -577,9 +577,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   if (fromBlob && blobData) {
     // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
     stanzas = blobData.stanzas
-    // For blob data, we don't have sections yet - treat entire content as lyrics
-    // TODO: Update blob generation script to include sections
-    contentSections = { intro: '', easterEgg: '', lyrics: '', faq: '' };
+    // Use sections from blob data
+    contentSections = blobData.sections;
   } else {
     // Fallback: Parse and split content from Blogger
     // First, parse the content into sections

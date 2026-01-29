@@ -63,28 +63,28 @@ function clearCacheByPath(path: string, type?: string) {
     const slug = path.replace(/^\//, '').replace('.html', '')
     
     // Clear song page cache (always)
-    if (!type || type === 'page' || type === 'all') {
+    // if (!type || type === 'page' || type === 'all') {
       revalidateTag(`song-${slug}`)  // Clear Blogger API data for this song
       revalidatePath(path)            // Clear the page HTML render
       results.push(`Cleared song page cache: ${slug}`)
       console.log(`  ✓ Cleared song page cache: ${slug} (data + page render)`)
-    }
+    // }
     
     // 🆕 HYBRID CDN: Clear CDN static file cache (/public/songs/*.json)
-    if (!type || type === 'cdn' || type === 'all') {
+    // if (!type || type === 'cdn' || type === 'all') {
       revalidateTag(`cdn-${slug}`)
       revalidatePath(`/songs/${slug}.json`)
       results.push(`Cleared CDN static file: /songs/${slug}.json`)
       console.log(`  ✓ Cleared CDN static file: /songs/${slug}.json`)
-    }
+    // }
     
     // 🆕 HYBRID CDN: Clear API route cache (/api/songs/*)
-    if (!type || type === 'api' || type === 'all') {
+    // if (!type || type === 'api' || type === 'all') {
       revalidateTag(`api-${slug}`)
       revalidatePath(`/api/songs/${slug}`)
       results.push(`Cleared API route: /api/songs/${slug}`)
       console.log(`  ✓ Cleared API route: /api/songs/${slug}`)
-    }
+    // }
   } else {
     // Generic path - try to clear it anyway
     try {
