@@ -276,7 +276,7 @@ async function getSongDataWithBlobPriority(slug: string): Promise<{
           content: { $t: blobData.stanzas.join('<br /><br />') }, // Join stanzas with double line breaks
           published: { $t: blobData.published },
           author: [{ name: { $t: 'Tamil Song Lyrics' } }],
-          category: blobData.category.map(cat => ({ term: cat })),
+          category: blobData.category?.map(cat => ({ term: cat })) || [],
           media$thumbnail: blobData.thumbnail ? { url: blobData.thumbnail } : undefined,
           songTitle: blobData.title,
           movieName: blobData.movieName,
@@ -750,12 +750,12 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                     "lyrics": {
                       "@type": "CreativeWork",
                       "text": htmlToPlainText(safeContent || lyricsSnippet).replace(/<br\s*\/?>/gi, '\n'),
-                      "inLanguage": ["ta", "en"]
+                      "inLanguage": "ta"
                     }
                   },
                   "inLanguage": "ta",
                   "genre": "Tamil Music",
-                  "datePublished": song.published?.$t,
+                  "datePublished": song.published?.$t || new Date().toISOString(),
                   "publisher": {
                     "@type": "Organization",
                     "name": "Tamil Song Lyrics",
