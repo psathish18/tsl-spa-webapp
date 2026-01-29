@@ -750,7 +750,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                     "lyrics": {
                       "@type": "CreativeWork",
                       "text": htmlToPlainText(safeContent || lyricsSnippet).replace(/<br\s*\/?>/gi, '\n'),
-                     "inLanguage": ["ta", "en"],
+                      "inLanguage": ["ta", "en"]
                     }
                   },
                   "inLanguage": "ta",
