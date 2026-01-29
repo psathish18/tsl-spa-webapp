@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { REVALIDATE_CATEGORY_API, CDN_MAX_AGE, CDN_STALE_WHILE_REVALIDATE } from '@/lib/cacheConfig'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
+import { extractSongMetadata, extractSnippet } from '@/lib/seoUtils'
+import { getSlugFromSong } from '@/lib/slugUtils'
 
 // DEPRECATED: This API route is no longer used by the category page.
 // The category page now fetches data directly from the Blogger API via the proxy
@@ -22,48 +24,6 @@ interface BloggerEntry {
   movieName?: string
   singerName?: string
   lyricistName?: string
-}
-
-// Helper function to create slug from title
-function createSlug(title: string): string {
-  return title
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim()
-}
-
-// Helper function to extract song metadata
-function extractSongData(entry: any): BloggerEntry {
-  const title = entry.title?.$t || ''
-  
-  // Extract metadata from categories (same logic as main songs API)
-  const songCategory = entry.category?.find((cat: any) => 
-    cat.term?.startsWith('Song:')
-  )
-  const movieCategory = entry.category?.find((cat: any) => 
-    cat.term?.startsWith('Movie:')
-  )
-  const singerCategory = entry.category?.find((cat: any) => 
-    cat.term?.startsWith('Singer:')
-  )
-  const lyricsCategory = entry.category?.find((cat: any) => 
-    cat.term?.startsWith('Lyrics:')
-  )
-
-  const songTitle = songCategory ? songCategory.term.replace('Song:', '') : title
-  const movieName = movieCategory?.term?.replace('Movie:', '') || ''
-  const singerName = singerCategory?.term?.replace('Singer:', '') || ''
-  const lyricistName = lyricsCategory?.term?.replace('Lyrics:', '') || ''
-  
-  return {
-    ...entry,
-    songTitle,
-    movieName,
-    singerName,
-    lyricistName
-  }
 }
 
 // Helper function to get thumbnail URL
@@ -105,23 +65,23 @@ export async function GET(request: NextRequest) {
     
     // Process and enhance each song entry
     const songs = entries.map((entry: any) => {
-      const processedSong = extractSongData(entry)
-      const thumbnail = getThumbnail(processedSong)
+      const metadata = extractSongMetadata(entry.category, entry.title?.$t || '')
+      const thumbnail = getThumbnail(entry)
       
-      // Generate slug for the song
-      const slug = createSlug(processedSong.title?.$t || processedSong.songTitle || '')
+      // Generate slug for the song from the alternate link
+      const slug = getSlugFromSong(entry)
       
       return {
-        id: processedSong.id.$t,
-        title: processedSong.title?.$t || processedSong.songTitle,
+        id: entry.id.$t,
+        title: entry.title?.$t || metadata.songTitle,
         slug: slug,
         thumbnail: thumbnail,
-        movieName: processedSong.movieName,
-        singerName: processedSong.singerName,
-        lyricistName: processedSong.lyricistName,
-        published: processedSong.published.$t,
-        category: processedSong.category,
-        excerpt: processedSong.content?.$t?.replace(/<[^>]*>/g, '').substring(0, 150) + '...' || ''
+        movieName: metadata.movieName,
+        singerName: metadata.singerName,
+        lyricistName: metadata.lyricistName,
+        published: entry.published.$t,
+        category: entry.category,
+        excerpt: extractSnippet(entry.content?.$t || '', 150)
       }
     })
     
