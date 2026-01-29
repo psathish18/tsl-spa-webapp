@@ -755,7 +755,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   },
                   "inLanguage": "ta",
                   "genre": "Tamil Music",
-                  "datePublished": song.published?.$t || new Date().toISOString(),
+                  ...(song.published?.$t && { "datePublished": song.published.$t }),
                   "publisher": {
                     "@type": "Organization",
                     "name": "Tamil Song Lyrics",
