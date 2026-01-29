@@ -22,6 +22,13 @@ export interface SongBlobData {
   // Main content (Tanglish) - stanzas only, no full HTML
   stanzas: string[]               // Pre-split sanitized HTML stanzas (share links built client-side)
   
+  // Content sections (optional, for SEO and enhanced content)
+  sections?: {
+    intro?: string                // Introduction paragraph
+    easterEgg?: string            // Easter egg/hidden details section
+    faq?: string                  // FAQ section
+  }
+  
   // Tamil lyrics
   hasTamilLyrics: boolean         // Whether Tamil lyrics are available
   tamilStanzas: string[]          // Pre-split Tamil stanzas (empty if not available)
