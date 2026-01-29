@@ -577,8 +577,14 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   if (fromBlob && blobData) {
     // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
     stanzas = blobData.stanzas
-    // Use sections from blob data
-    contentSections = blobData.sections;
+    // Use sections from blob data - note: BlobContentSections doesn't have 'lyrics' property
+    // because lyrics are pre-split into stanzas
+    contentSections = {
+      intro: blobData.sections.intro || '',
+      easterEgg: blobData.sections.easterEgg || '',
+      lyrics: '', // Not present in blob data - stanzas are used instead
+      faq: blobData.sections.faq || ''
+    };
   } else {
     // Fallback: Parse and split content from Blogger
     // First, parse the content into sections
