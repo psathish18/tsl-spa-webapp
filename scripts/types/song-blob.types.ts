@@ -60,6 +60,11 @@ export interface RelatedSong {
   published: string
 }
 
+export interface BlobContentSections {
+  intro: string;
+  easterEgg: string;
+  faq: string;
+}
 export interface SEOMetadata {
   title: string                   // SEO-optimized title
   description: string             // Rich description with movie, singer, etc.

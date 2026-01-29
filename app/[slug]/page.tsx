@@ -643,7 +643,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               return null;
             })()}
             <li>•</li>
-            <li className="text-gray-900">{cleanTitle}</li>
+            <li className="text-gray-900">{cleanTitle.split('|')[0].trim()}</li>
           </ol>
         </nav>
 

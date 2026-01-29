@@ -97,10 +97,11 @@ export const STANZA_SEPARATOR = /(?:<br\b[^>]*>(?:\s*<\/br>)?\s*){2,}|<\/p>\s*<p
  * Sanitize options for HTML cleaning
  */
 export const DEFAULT_SANITIZE_OPTIONS = {
-  allowedTags: ['p', 'br', 'strong', 'em', 'u', 'a', 'span', 'div', 'table', 'tr', 'td', 'th', 'tbody', 'thead', 'h3', 'h4', 'ul', 'li'],
+  allowedTags: ['p', 'br', 'strong', 'em', 'u', 'a', 'span', 'div', 'table', 'tr', 'td', 'th', 'tbody', 'thead', 'h3', 'h4', 'ul', 'li', 'iframe'],
   allowedAttributes: { 
     a: ['href', 'title', 'target', 'rel'],
-    div: ['class']
+    div: ['class', 'style'],
+    iframe: ['src', 'width', 'height', 'title', 'frameborder', 'allow', 'allowfullscreen', 'loading', 'referrerpolicy']
   }
 };
 

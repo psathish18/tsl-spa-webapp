@@ -6,7 +6,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import sanitizeHtml from 'sanitize-html'
-import type { SongBlobData, RelatedSong, SEOMetadata } from './types/song-blob.types'
+import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections } from './types/song-blob.types'
 
 // Import utility functions from lib
 import {
@@ -18,6 +18,8 @@ import {
   buildTwitterShareUrl,
   buildWhatsAppShareUrl,
   splitAndSanitizeStanzas,
+  splitAndSanitizeSections,
+  DEFAULT_SANITIZE_OPTIONS,
 } from '../lib/lyricsUtils'
 
 import {
@@ -304,14 +306,27 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
   // Process main content
   const safeContent = stripImagesFromHtml(entry.content.$t)
   const categories = processCategories(entry.category)
-  const stanzas = processStanzas(safeContent, categories)
+  
+  // Split content into sections (intro, easter egg, lyrics, faq)
+  const sections = splitAndSanitizeSections(safeContent, sanitizeHtml)
+  
+  // Process stanzas only from the lyrics section
+  const stanzas = processStanzas(sections.lyrics, categories)
+  
+  // Create optimized sections for blob data (exclude lyrics since we have stanzas)
+  const optimizedSections: BlobContentSections = {
+    intro: sections.intro,
+    easterEgg: sections.easterEgg,
+    faq: sections.faq
+  }
   
   // Process Tamil content
   let tamilStanzas: string[] = []
   let tamilContent = '';
   if (tamilSong) {
     tamilContent = stripImagesFromHtml(tamilSong.content.$t)
-    tamilStanzas = processStanzas(tamilContent, categories)
+    const tamilSections = splitAndSanitizeSections(tamilContent, sanitizeHtml)
+    tamilStanzas = processStanzas(tamilSections.lyrics, categories)
   }
   
   // Generate SEO data
@@ -328,6 +343,7 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
     musicName: metadata.musicName,
     actorName: metadata.actorName,
     published: entry.published.$t,
+    sections: optimizedSections,
     stanzas,
     hasTamilLyrics: !!tamilSong,
     tamilStanzas,
