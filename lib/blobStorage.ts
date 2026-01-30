@@ -10,6 +10,7 @@
  */
 
 import type { SongBlobData } from '@/scripts/types/song-blob.types'
+import { REVALIDATE_30_DAYS } from './cacheConfig'
 
 /**
  * Get the base URL for server-side fetches
@@ -105,7 +106,7 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
       `${baseUrl}/songs/${cleanSlug}.json`,
       {
         next: { 
-          revalidate: 2592000, // 30 days
+          revalidate: REVALIDATE_30_DAYS, // 30 days
           tags: [`cdn-${cleanSlug}`] 
         }
       },
@@ -151,7 +152,7 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
         `${baseUrl}/api/songs/${cleanSlug}`,
         {
           next: { 
-            revalidate: 2592000,
+            revalidate: REVALIDATE_30_DAYS,
             tags: [`api-${cleanSlug}`] 
           }
         },

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { promises as fs } from 'fs';
 import path from 'path';
+import { REVALIDATE_30_DAYS } from '@/lib/cacheConfig';
 
 export const runtime = 'edge';
 
@@ -20,28 +21,28 @@ export async function GET(
   const { slug } = params;
 
   try {
-    // In development, try to serve from local public/songs directory first
-    if (process.env.NODE_ENV === 'development') {
-      try {
-        const filePath = path.join(process.cwd(), 'public', 'songs', `${slug}.json`);
-        const fileContents = await fs.readFile(filePath, 'utf8');
-        const data = JSON.parse(fileContents);
+    // // In development, try to serve from local public/songs directory first
+    // if (process.env.NODE_ENV === 'development') {
+    //   try {
+    //     const filePath = path.join(process.cwd(), 'public', 'songs', `${slug}.json`);
+    //     const fileContents = await fs.readFile(filePath, 'utf8');
+    //     const data = JSON.parse(fileContents);
 
-        console.log(`[API] ✅ Served from local public/songs: ${slug}`);
+    //     console.log(`[API] ✅ Served from local public/songs: ${slug}`);
 
-        // Return with development-appropriate caching
-        return NextResponse.json(data, {
-          status: 200,
-          headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'X-Source': 'local-development',
-          },
-        });
-      } catch (localFileError) {
-        // File not found locally, continue to blob storage
-        console.log(`[API] Local file not found for ${slug}, trying blob storage`);
-      }
-    }
+    //     // Return with development-appropriate caching
+    //     return NextResponse.json(data, {
+    //       status: 200,
+    //       headers: {
+    //         'Cache-Control': 'no-cache, no-store, must-revalidate',
+    //         'X-Source': 'local-development',
+    //       },
+    //     });
+    //   } catch (localFileError) {
+    //     // File not found locally, continue to blob storage
+    //     console.log(`[API] Local file not found for ${slug}, trying blob storage`);
+    //   }
+    // }
 
     // Construct blob URL directly (no list() call = no Advanced Operation cost)
     const blobUrl = getBlobUrl(slug)
@@ -51,7 +52,7 @@ export async function GET(
     // Fetch the blob data with cache tags for revalidation support
     const response = await fetch(blobUrl, {
       next: { 
-        revalidate: 2592000, // 30 days
+        revalidate: REVALIDATE_30_DAYS, // 30 days
         tags: [`api-${slug}`] // Enable tag-based revalidation
       },
     });
@@ -73,9 +74,9 @@ export async function GET(
     return NextResponse.json(data, {
       status: 200,
       headers: {
-        'Cache-Control': 'public, max-age=2592000, s-maxage=2592000, stale-while-revalidate=86400, immutable',
-        'CDN-Cache-Control': 'max-age=2592000',
-        'Vercel-CDN-Cache-Control': 'max-age=2592000',
+        'Cache-Control': `public, max-age=${REVALIDATE_30_DAYS}, s-maxage=${REVALIDATE_30_DAYS}, stale-while-revalidate=86400, immutable`,
+        'CDN-Cache-Control': `max-age=${REVALIDATE_30_DAYS}`,
+        'Vercel-CDN-Cache-Control': `max-age=${REVALIDATE_30_DAYS}`,
       },
     });
   } catch (error) {
