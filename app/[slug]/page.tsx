@@ -536,6 +536,17 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     }
   }
 
+  // Fetch English lyrics with timeout - don't block page render for English lyrics
+  let englishStanzas: string[] = [];
+  
+  // If data is from blob, use the pre-processed English stanzas
+  if (fromBlob && blobData) {
+    englishStanzas = blobData.englishStanzas || []
+    if (englishStanzas.length > 0) {
+      console.log(`✅ Using ${englishStanzas.length} English lyrics from blob (no API call)`)
+    }
+  }
+
   // Extract clean data for display - use shared title function
   const fullTitle = getSongTitle(song)
   const cleanTitle = fullTitle
@@ -864,6 +875,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         {/* Lyrics content with tabs */}
         <LyricsTabs
           hasTamilLyrics={tamilStanzas.length > 0}
+          hasEnglishLyrics={englishStanzas.length > 0}
           tamilContent={
             <div
               className="lyrics-container prose prose-lg max-w-none leading-relaxed"
@@ -939,6 +951,42 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               ) : (
                 <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(safeContent, DEFAULT_SANITIZE_OPTIONS) }} />
               )}
+              <ShareEnhancer />
+            </div>
+          }
+          englishContent={
+            <div
+              className="lyrics-container prose prose-lg max-w-none leading-relaxed"
+              style={{ lineHeight: '2' }}
+              data-server-stanzas-count={String(englishStanzas.length)}
+            >
+              {englishStanzas.map((stanzaHtml, idx) => {
+                const plainText = htmlToPlainText(stanzaHtml);
+                const snippetWithStars = formatSnippetWithStars(plainText);
+                const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                
+                const twitterHref = buildTwitterShareUrl({
+                  snippet: snippetWithStars,
+                  hashtags: hashtagsStr,
+                  pageUrl: pageWithPath
+                });
+                
+                const whatsappHref = buildWhatsAppShareUrl({
+                  snippet: snippetWithStars,
+                  hashtags: hashtagsStr,
+                  pageUrl: pageWithPath
+                });
+                
+                return (
+                  <div key={idx} className="mb-6">
+                    <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
+                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
+                      <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
+                      <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
+                    </div>
+                  </div>
+                );
+              })}
               <ShareEnhancer />
             </div>
           }
