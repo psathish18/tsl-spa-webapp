@@ -1,6 +1,6 @@
 /**
  * Upload song JSON files to Vercel Blob Storage
- * Usage: BLOB_READ_WRITE_TOKEN=xxx ts-node scripts/upload-to-blob.ts [--dry-run]
+ * Usage: BLOB_READ_WRITE_TOKEN=xxx ts-node scripts/upload-to-blob.ts [--dry-run] [--force]
  */
 
 import { put, list, del } from '@vercel/blob'
@@ -54,7 +54,8 @@ async function getExistingBlobs(): Promise<Set<string>> {
 async function uploadFile(
   filePath: string,
   filename: string,
-  dryRun: boolean
+  dryRun: boolean,
+  force: boolean = false
 ): Promise<{ success: boolean; size: number }> {
   try {
     const content = await fs.readFile(filePath, 'utf-8')
@@ -71,6 +72,7 @@ async function uploadFile(
       addRandomSuffix: false,
       token: process.env.BLOB_READ_WRITE_TOKEN!,
       contentType: 'application/json',
+      allowOverwrite: force,
     })
     
     console.log(`   ✅ Uploaded: ${filename} (${(size / 1024).toFixed(2)} KB)`)
@@ -157,7 +159,7 @@ async function main() {
       continue
     }
     
-    const result = await uploadFile(filePath, filename, dryRun)
+    const result = await uploadFile(filePath, filename, dryRun, force)
     
     if (result.success) {
       stats.uploaded++

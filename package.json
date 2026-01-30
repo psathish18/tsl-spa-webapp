@@ -14,7 +14,7 @@
     "generate-song-json": "tsx scripts/generate-song-json.ts",
     "generate-song-json:test": "tsx scripts/generate-song-json.ts --test-one",
     "copy-files": "cp blob-data/*.json public/songs/",
-    "upload-to-blob": "tsx scripts/upload-to-blob.ts",
+    "upload-to-blob": "tsx scripts/upload-to-blob.ts --force",
     "upload-to-blob:dry-run": "tsx scripts/upload-to-blob.ts --dry-run"
   },
   "dependencies": {

@@ -14,8 +14,10 @@ import {
   buildTwitterShareUrl,
   buildWhatsAppShareUrl,
   splitAndSanitizeStanzas,
+  splitAndSanitizeSections,
   STANZA_SEPARATOR,
-  DEFAULT_SANITIZE_OPTIONS
+  DEFAULT_SANITIZE_OPTIONS,
+  ContentSections
 } from '@/lib/lyricsUtils'
 import {
   extractSnippet,
@@ -568,14 +570,29 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Check if song has EnglishTranslation category - skip stanza splitting if true
   const hasEnglishTranslation = hasEnglishTranslationContent(song.category || []);
 
-  // Use blob stanzas if available, otherwise split content from Blogger
+  // Parse content into sections (intro, easter-egg, lyrics, faq)
+  let contentSections: ContentSections = { intro: '', easterEgg: '', lyrics: '', faq: '' };
   let stanzas: string[] = []
+  
   if (fromBlob && blobData) {
     // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
     stanzas = blobData.stanzas
+    // Use sections from blob if present, otherwise set empty
+    contentSections = {
+      intro: blobData.sections?.intro || '',
+      easterEgg: blobData.sections?.easterEgg || '',
+      lyrics: '',  // Lyrics are stored as stanzas in blob, not in sections
+      faq: blobData.sections?.faq || ''
+    };
   } else {
-    // Fallback: Split into sanitized stanzas using utility function
-    stanzas = splitAndSanitizeStanzas(safeContent, sanitizeHtml, hasEnglishTranslation)
+    // Fallback: Parse and split content from Blogger
+    // First, parse the content into sections
+    contentSections = splitAndSanitizeSections(safeContent, sanitizeHtml);
+    
+    // Then split only the lyrics section into stanzas
+    if (contentSections.lyrics) {
+      stanzas = splitAndSanitizeStanzas(contentSections.lyrics, sanitizeHtml, hasEnglishTranslation);
+    }
   }
   // // Debugging: log sizes to help identify empty content issues in production builds
   // try {
@@ -626,7 +643,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               return null;
             })()}
             <li>•</li>
-            <li className="text-gray-900">{cleanTitle}</li>
+            <li className="text-gray-900">{cleanTitle.split('|')[0].trim()}</li>
           </ol>
         </nav>
 
@@ -828,6 +845,22 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           />
         </div> */}
         
+        {/* Intro section - if present */}
+        {contentSections.intro && (
+          <div 
+            className="intro-section mb-8 prose prose-lg max-w-none text-gray-700"
+            dangerouslySetInnerHTML={{ __html: contentSections.intro }}
+          />
+        )}
+
+        {/* Easter-egg section - if present */}
+        {contentSections.easterEgg && (
+          <div 
+            className="easter-egg-section mb-8 bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg border border-yellow-200"
+            dangerouslySetInnerHTML={{ __html: contentSections.easterEgg }}
+          />
+        )}
+        
         {/* Lyrics content with tabs */}
         <LyricsTabs
           hasTamilLyrics={tamilStanzas.length > 0}
@@ -910,6 +943,14 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
             </div>
           }
         />
+
+        {/* FAQ section - if present */}
+        {contentSections.faq && (
+          <div 
+            className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200"
+            dangerouslySetInnerHTML={{ __html: contentSections.faq }}
+          />
+        )}
 
         {/* Google AdSense - After lyrics before related songs */}
         <div className="my-8">

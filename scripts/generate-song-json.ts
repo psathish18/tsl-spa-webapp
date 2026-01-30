@@ -6,7 +6,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import sanitizeHtml from 'sanitize-html'
-import type { SongBlobData, RelatedSong, SEOMetadata } from './types/song-blob.types'
+import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections } from './types/song-blob.types'
 
 // Import utility functions from lib
 import {
@@ -18,6 +18,8 @@ import {
   buildTwitterShareUrl,
   buildWhatsAppShareUrl,
   splitAndSanitizeStanzas,
+  splitAndSanitizeSections,
+  DEFAULT_SANITIZE_OPTIONS,
 } from '../lib/lyricsUtils'
 
 import {
@@ -72,8 +74,8 @@ function getEnhancedThumbnail(url: string | undefined): string | null {
  * Fetch all songs from Blogger API
  * @param category - Category to filter by (e.g., "Movie:Coolie", "Song:Test")
  */
-async function fetchAllSongs(category?: string,testOne?: boolean): Promise<BloggerEntry[]> {
-  console.log('📡 Fetching all songs from Blogger API...')
+async function fetchAllSongs(category?: string,testOne?: boolean, limitIndex?: number): Promise<BloggerEntry[]> {
+  console.log('📡 Fetching all songs from Blogger API...' + limitIndex)
   
   if (category) {
     // Category filtering - single request (max 9999 results)
@@ -107,7 +109,7 @@ async function fetchAllSongs(category?: string,testOne?: boolean): Promise<Blogg
         console.log(`      ✅ Fetched ${entries.length} songs (total: ${allEntries.length})`)
         
         // Check if we got fewer results than requested (last page)
-        if (entries.length < maxResults || testOne) {
+        if (entries.length < maxResults || testOne || (limitIndex &&  limitIndex < maxResults)) {
           hasMore = false
           console.log(`      ✅ Last batch retrieved`)
         } else {
@@ -304,14 +306,27 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
   // Process main content
   const safeContent = stripImagesFromHtml(entry.content.$t)
   const categories = processCategories(entry.category)
-  const stanzas = processStanzas(safeContent, categories)
+  
+  // Split content into sections (intro, easter egg, lyrics, faq)
+  const sections = splitAndSanitizeSections(safeContent, sanitizeHtml)
+  
+  // Process stanzas only from the lyrics section
+  const stanzas = processStanzas(sections.lyrics, categories)
+  
+  // Create optimized sections for blob data (exclude lyrics since we have stanzas)
+  const optimizedSections: BlobContentSections = {
+    intro: sections.intro,
+    easterEgg: sections.easterEgg,
+    faq: sections.faq
+  }
   
   // Process Tamil content
   let tamilStanzas: string[] = []
   let tamilContent = '';
   if (tamilSong) {
     tamilContent = stripImagesFromHtml(tamilSong.content.$t)
-    tamilStanzas = processStanzas(tamilContent, categories)
+    const tamilSections = splitAndSanitizeSections(tamilContent, sanitizeHtml)
+    tamilStanzas = processStanzas(tamilSections.lyrics, categories)
   }
   
   // Generate SEO data
@@ -328,6 +343,7 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
     musicName: metadata.musicName,
     actorName: metadata.actorName,
     published: entry.published.$t,
+    sections: optimizedSections,
     stanzas,
     hasTamilLyrics: !!tamilSong,
     tamilStanzas,
@@ -376,7 +392,7 @@ async function main() {
   console.log('🚀 Starting song JSON generation...\n')
   
   // Fetch all songs (with optional category filter)
-  const songs = await fetchAllSongs(category,testOne)
+  const songs = await fetchAllSongs(category,testOne, limit)
   console.log(`✅ Found ${songs.length} songs\n`)
   
   if (songs.length === 0) {

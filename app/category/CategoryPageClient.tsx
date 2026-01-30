@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useSearchParams } from 'next/navigation'
 import { cleanCategoryLabel, generateSEOTitle, generateCategoryDescription } from '@/lib/seoUtils'
+import { getSlugFromSong } from '@/lib/slugUtils'
 
 interface Song {
   id: string
@@ -60,17 +61,6 @@ const getEnhancedThumbnail = (thumbnail: string): string => {
 const generateBlurDataURL = (color = '#f3f4f6') => {
   // Simple base64 encoded 1x1 pixel image
   return "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
-}
-
-// Helper function to create slug from title
-const createSlug = (title: string): string => {
-  return title
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-+|-+$/g, '') // Remove leading/trailing dashes before trim
-    .trim()
 }
 
 // Helper function to extract song metadata from Blogger entry
@@ -147,7 +137,7 @@ const processBloggerResponse = (data: BloggerResponse, categoryTerm: string): Ca
   const songs = entries.map((entry) => {
     const metadata = extractSongData(entry)
     const thumbnail = getThumbnail(entry)
-    const slug = createSlug(entry.title?.$t || metadata.songTitle || '')
+    const slug = getSlugFromSong(entry)
     
     // Extract excerpt safely by removing HTML and only add ellipsis when truncated
     const content = extractTextFromHtml(entry.content?.$t || '')
