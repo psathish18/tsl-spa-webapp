@@ -417,13 +417,13 @@
 .lyrics-tab-container {
   background: var(--card, #ffffff);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0.5rem;
+  padding: 0rem;
 }
 
 .theme-dark .lyrics-tab-container {
   background: var(--card, #0b0d10);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0.5rem;
+  padding: 0rem;
 }
 
 .lyrics-tab-header {

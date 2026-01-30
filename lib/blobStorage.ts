@@ -94,7 +94,7 @@ export async function fetchFromBlob(slug: string): Promise<SongBlobData | null> 
   const baseUrl = getBaseUrl()
   
   // Check if blob storage API is enabled (default: disabled to save costs)
-  const enableBlobStorageAPI = process.env.ENABLE_BLOB_STORAGE_API === 'true'
+  const enableBlobStorageAPI = process.env.ENABLE_BLOB_STORAGE_API === 'true' || process.env.NODE_ENV === 'development'
   
   // STEP 1: Try static CDN file (99% of traffic - existing songs)
   const cdnUrl = `${baseUrl}/songs/${cleanSlug}.json`

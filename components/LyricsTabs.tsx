@@ -28,11 +28,11 @@ export default function LyricsTabs({ tamilContent, tanglishContent, hasTamilLyri
   return (
     <div className="lyrics-tab-container rounded-lg overflow-hidden">
       {/* Tab Headers */}
-      <div className="flex lyrics-tab-header">
+      <div className="flex lyrics-tab-header flex-nowrap">
         {hasTamilLyrics && (
           <button
             onClick={() => setActiveTab('tamil')}
-            className={`flex-1 px-6 py-4 text-lg font-semibold transition-all relative ${
+            className={`flex-1 px-2 sm:px-4 md:px-6 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold transition-all relative whitespace-nowrap ${
               activeTab === 'tamil'
                 ? 'lyrics-tab-active'
                 : 'lyrics-tab-inactive'
@@ -46,13 +46,13 @@ export default function LyricsTabs({ tamilContent, tanglishContent, hasTamilLyri
         )}
         <button
           onClick={() => setActiveTab('tanglish')}
-          className={`flex-1 px-6 py-4 text-lg font-semibold transition-all relative ${
+          className={`flex-1 px-2 sm:px-4 md:px-6 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold transition-all relative whitespace-nowrap ${
             activeTab === 'tanglish'
               ? 'lyrics-tab-active'
               : 'lyrics-tab-inactive'
           }`}
         >
-          Lyrics
+          Thanglish
           {activeTab === 'tanglish' && (
             <span className="absolute bottom-0 left-0 right-0 h-0.5 lyrics-tab-indicator" />
           )}
@@ -60,13 +60,13 @@ export default function LyricsTabs({ tamilContent, tanglishContent, hasTamilLyri
         {hasEnglishLyrics && englishContent && (
           <button
             onClick={() => setActiveTab('english')}
-            className={`flex-1 px-6 py-4 text-lg font-semibold transition-all relative ${
+            className={`flex-1 px-2 sm:px-4 md:px-6 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold transition-all relative whitespace-nowrap ${
               activeTab === 'english'
                 ? 'lyrics-tab-active'
                 : 'lyrics-tab-inactive'
             }`}
           >
-            Lyrics Meaning
+            English Meaning
             {activeTab === 'english' && (
               <span className="absolute bottom-0 left-0 right-0 h-0.5 lyrics-tab-indicator" />
             )}

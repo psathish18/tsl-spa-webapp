@@ -505,7 +505,9 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
   // Fetch Tamil lyrics with timeout - don't block page render for Tamil lyrics
   let tamilStanzas: string[] = [];
-  
+    // Fetch English lyrics with timeout - don't block page render for English lyrics
+  let englishStanzas: string[] = [];
+
   // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
   // Note: Trust blob data even if tamilStanzas is empty - don't fall back to API
   if (fromBlob && blobData) {
@@ -513,6 +515,12 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     if (tamilStanzas.length > 0) {
       console.log(`✅ Using ${tamilStanzas.length} Tamil lyrics from blob (no API call)`)
     }
+
+    englishStanzas = blobData.englishStanzas || []
+    if (englishStanzas.length > 0) {
+      console.log(`✅ Using ${englishStanzas.length} English lyrics from blob (no API call)`)
+    }
+
     // No else - if empty, we trust blob data and don't fetch from API
   } else if (song.category) {
     // Fallback: Fetch Tamil lyrics from Blogger API only if blob data not available
@@ -536,16 +544,6 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     }
   }
 
-  // Fetch English lyrics with timeout - don't block page render for English lyrics
-  let englishStanzas: string[] = [];
-  
-  // If data is from blob, use the pre-processed English stanzas
-  if (fromBlob && blobData) {
-    englishStanzas = blobData.englishStanzas || []
-    if (englishStanzas.length > 0) {
-      console.log(`✅ Using ${englishStanzas.length} English lyrics from blob (no API call)`)
-    }
-  }
 
   // Extract clean data for display - use shared title function
   const fullTitle = getSongTitle(song)
@@ -961,29 +959,9 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               data-server-stanzas-count={String(englishStanzas.length)}
             >
               {englishStanzas.map((stanzaHtml, idx) => {
-                const plainText = htmlToPlainText(stanzaHtml);
-                const snippetWithStars = formatSnippetWithStars(plainText);
-                const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
-                
-                const twitterHref = buildTwitterShareUrl({
-                  snippet: snippetWithStars,
-                  hashtags: hashtagsStr,
-                  pageUrl: pageWithPath
-                });
-                
-                const whatsappHref = buildWhatsAppShareUrl({
-                  snippet: snippetWithStars,
-                  hashtags: hashtagsStr,
-                  pageUrl: pageWithPath
-                });
-                
                 return (
                   <div key={idx} className="mb-6">
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
-                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
-                      <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
-                      <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
-                    </div>
                   </div>
                 );
               })}
