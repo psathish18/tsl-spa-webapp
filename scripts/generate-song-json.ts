@@ -37,6 +37,7 @@ import { getSlugFromSong } from '../lib/slugUtils'
 // Constants
 const BLOGGER_API_BASE = 'https://tsonglyricsapp.blogspot.com/feeds/posts/default'
 const BLOGGER_TAMIL_API_BASE = 'https://tsonglyricsapptamil.blogspot.com/feeds/posts/default'
+const BLOGGER_ENGLISH_API_BASE = 'https://tslmeaning.blogspot.com/feeds/posts/default'
 const OUTPUT_DIR = './blob-data'
 const SCHEMA_VERSION = 1
 
@@ -138,6 +139,23 @@ async function fetchTamilLyrics(songCategory: string): Promise<BloggerEntry | nu
     return data.feed?.entry?.[0] || null
   } catch (error) {
     console.warn(`  ⚠️  No Tamil lyrics found for: ${songCategory}`)
+    return null
+  }
+}
+
+/**
+ * Fetch English translation for a song
+ */
+async function fetchEnglishTranslation(songCategory: string): Promise<BloggerEntry | null> {
+  try {
+    console.log(`  🌐 Fetching English translation for: ${songCategory}`)
+    const response = await fetch(
+      `${BLOGGER_ENGLISH_API_BASE}/-/${encodeURIComponent(songCategory)}?alt=json&max-results=5`
+    )
+    const data = await response.json() as BloggerResponse
+    return data.feed?.entry?.[0] || null
+  } catch (error) {
+    console.warn(`  ⚠️  No English translation found for: ${songCategory}`)
     return null
   }
 }
@@ -298,9 +316,10 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
   console.log(`   Slug: ${slug}`)
   
   // Fetch related data in parallel
-  const [tamilSong, relatedSongs] = await Promise.all([
+  const [tamilSong, relatedSongs, englishSong] = await Promise.all([
     metadata.songCategory ? fetchTamilLyrics(metadata.songCategory) : Promise.resolve(null),
-    metadata.movieTerm ? fetchRelatedSongs(metadata.movieTerm, entry.id.$t) : Promise.resolve([])
+    metadata.movieTerm ? fetchRelatedSongs(metadata.movieTerm, entry.id.$t) : Promise.resolve([]),
+    metadata.songCategory ? fetchEnglishTranslation(metadata.songCategory) : Promise.resolve(null)
   ])
   
   // Process main content
@@ -329,6 +348,15 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
     tamilStanzas = processStanzas(tamilSections.lyrics, categories)
   }
   
+  // Process English translation content
+  let englishStanzas: string[] = []
+  let englishContent = '';
+  if (englishSong) {
+    englishContent = stripImagesFromHtml(englishSong.content.$t)
+    const englishSections = splitAndSanitizeSections(englishContent, sanitizeHtml)
+    englishStanzas = processStanzas(englishSections.lyrics, categories)
+  }
+  
   // Generate SEO data
   const thumbnail = getEnhancedThumbnail(entry.media$thumbnail?.url)
   const seo = generateSEOData(entry, metadata, tamilSong ? tamilContent : safeContent, slug)
@@ -347,6 +375,8 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
     stanzas,
     hasTamilLyrics: !!tamilSong,
     tamilStanzas,
+    hasEnglishLyrics: !!englishSong,
+    englishStanzas,
     category: categories,
     relatedSongs,
     seo,

@@ -505,7 +505,9 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
   // Fetch Tamil lyrics with timeout - don't block page render for Tamil lyrics
   let tamilStanzas: string[] = [];
-  
+    // Fetch English lyrics with timeout - don't block page render for English lyrics
+  let englishStanzas: string[] = [];
+
   // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
   // Note: Trust blob data even if tamilStanzas is empty - don't fall back to API
   if (fromBlob && blobData) {
@@ -513,6 +515,12 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     if (tamilStanzas.length > 0) {
       console.log(`✅ Using ${tamilStanzas.length} Tamil lyrics from blob (no API call)`)
     }
+
+    englishStanzas = blobData.englishStanzas || []
+    if (englishStanzas.length > 0) {
+      console.log(`✅ Using ${englishStanzas.length} English lyrics from blob (no API call)`)
+    }
+
     // No else - if empty, we trust blob data and don't fetch from API
   } else if (song.category) {
     // Fallback: Fetch Tamil lyrics from Blogger API only if blob data not available
@@ -535,6 +543,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
       }
     }
   }
+
 
   // Extract clean data for display - use shared title function
   const fullTitle = getSongTitle(song)
@@ -864,6 +873,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         {/* Lyrics content with tabs */}
         <LyricsTabs
           hasTamilLyrics={tamilStanzas.length > 0}
+          hasEnglishLyrics={englishStanzas.length > 0}
           tamilContent={
             <div
               className="lyrics-container prose prose-lg max-w-none leading-relaxed"
@@ -939,6 +949,22 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               ) : (
                 <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(safeContent, DEFAULT_SANITIZE_OPTIONS) }} />
               )}
+              <ShareEnhancer />
+            </div>
+          }
+          englishContent={
+            <div
+              className="lyrics-container prose prose-lg max-w-none leading-relaxed"
+              style={{ lineHeight: '2' }}
+              data-server-stanzas-count={String(englishStanzas.length)}
+            >
+              {englishStanzas.map((stanzaHtml, idx) => {
+                return (
+                  <div key={idx} className="mb-6">
+                    <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
+                  </div>
+                );
+              })}
               <ShareEnhancer />
             </div>
           }

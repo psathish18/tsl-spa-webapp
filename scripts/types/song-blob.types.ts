@@ -33,6 +33,10 @@ export interface SongBlobData {
   hasTamilLyrics: boolean         // Whether Tamil lyrics are available
   tamilStanzas: string[]          // Pre-split Tamil stanzas (empty if not available)
   
+  // English translation lyrics
+  hasEnglishLyrics: boolean       // Whether English translation is available
+  englishStanzas: string[]        // Pre-split English translation stanzas (empty if not available)
+  
   // Categories (minimal - for SEO and filtering)
   category: string[]              // Just the term strings (e.g., ["Movie:Coolie", "Singer:Anirudh"])
   
