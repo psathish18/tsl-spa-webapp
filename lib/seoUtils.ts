@@ -92,8 +92,9 @@ export function generateSongDescription(params: {
     if(hasEnglishTranslationContent(params.entry.category || [])){
       parts.push(entryTitle + '.');
     }else{
+      const hasMeaning = ['meaning','translation'].some(term => entryTitle.toLowerCase().includes(term));
       if(['tamil lyrics','lyrics in tamil','lyrics tamil'].some(term => entryTitle.toLowerCase().includes(term))){
-        parts.push(`Full ${songName} songs lyrics in tamil (${snippet.split(" ").slice(0,5).join(" ")} ...)`);
+        parts.push(`Full ${songName} song lyrics in tamil ${hasMeaning ? 'with english meaning' : ''} (${snippet.split(" ").slice(0,5).join(" ")} ...)`);
       }else
        parts.push(`Full ${songName} songs lyrics,`);
     }
