@@ -8,11 +8,16 @@
   "musicName": "",
   "actorName": "",
   "published": "2013-11-21T12:11:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><br /></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Irandam Ulagam",
@@ -103,10 +108,10 @@
   ],
   "seo": {
     "title": "Kanimozhiye Lyrics in Tamil",
-    "description": "Full Kanimozhiye in Tamil songs lyrics in tamil ( ...) Irandam Ulagam Songs Lyrics. sharable lyrics snippets,.",
+    "description": "Full Kanimozhiye in Tamil song lyrics in tamil  ( ...) Irandam Ulagam Songs Lyrics. sharable lyrics snippets,.",
     "keywords": "lyricsintamil, Irandam Ulagam, Kanimozhiye in Tamil full lyrics, Irandam Ulagam songs lyrics, Kanimozhiye in Tamil lyrics snippets, Kanimozhiye in Tamil WhatsApp status lyrics snippets, share Kanimozhiye in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLKBBEyuET6i_LY6HLtQIwlNw-09FJaA4_tg_gFUG3py4z7PgADsxMGAlh-ifBHXOpnA3bmMfj1bxxiVsyio4VytcTx4pqDfcje2fzZ8y9fO7Y1vKXS-mulqYQ01BFVoZNx7yw2J9Aw_M/s400-c/Kanimozhiye.png",
-  "generatedAt": "2026-01-18T13:02:08.198Z",
+  "generatedAt": "2026-02-01T13:00:40.007Z",
   "version": 1
 }

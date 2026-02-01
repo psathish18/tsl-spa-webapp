@@ -8,16 +8,22 @@
   "musicName": "Harrish Jeyaraj",
   "actorName": "",
   "published": "2001-02-18T19:42:00.001+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>Poopol Poopol Lyrics Minnale",
+    "Poopol Poopol Lyrics Minnale",
     "Poopol poopol<br />en nenjai koithaval<br />minnalaai minnalai<br />en paarvai pariththaval",
-    "<div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgavENedCyZS45Ok5QDTfmQj_9nDB06uR4LnnmOXqZbsl0fhyphenhyphenJOr_wJXSljQIA6ZpCOTAWbmSCppJG0fn51I8O2O7pBFo5eBnMe7x0uWGoKQdMVzjnVdnBFyOuzWuVKKXIm1tJSaMg5Kgg/s1600/Pooppol+Pooppol+Lyrics.JPG\"></a></div><br /></div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgavENedCyZS45Ok5QDTfmQj_9nDB06uR4LnnmOXqZbsl0fhyphenhyphenJOr_wJXSljQIA6ZpCOTAWbmSCppJG0fn51I8O2O7pBFo5eBnMe7x0uWGoKQdMVzjnVdnBFyOuzWuVKKXIm1tJSaMg5Kgg/s1600/Pooppol+Pooppol+Lyrics.JPG\"></a>"
   ],
   "hasTamilLyrics": true,
   "tamilStanzas": [
-    "<div>\n<div>\nபூப்போல் பூப்போல்<br />\nஎன் நெஞ்சை கொய்தவள்<br />\nமின்னலாய் மின்னலாய்<br />\nஎன் பார்வை பறித்தவள்<br />\n<div>\n<br /></div>\n<div>\n<br /></div>\n</div>",
-    "</div>"
+    "பூப்போல் பூப்போல்<br />என் நெஞ்சை கொய்தவள்<br />மின்னலாய் மின்னலாய்<br />என் பார்வை பறித்தவள்"
   ],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Thamarai",
     "Movie:Minnale",
@@ -70,6 +76,6 @@
     "keywords": "Thamarai, Minnale, Harrish Jeyaraj, Karthik, Tipu, Poopol Poopol full lyrics, Minnale songs lyrics, Poopol Poopol lyrics snippets, Poopol Poopol WhatsApp status lyrics snippets, share Poopol Poopol lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgavENedCyZS45Ok5QDTfmQj_9nDB06uR4LnnmOXqZbsl0fhyphenhyphenJOr_wJXSljQIA6ZpCOTAWbmSCppJG0fn51I8O2O7pBFo5eBnMe7x0uWGoKQdMVzjnVdnBFyOuzWuVKKXIm1tJSaMg5Kgg/s400-c/Pooppol+Pooppol+Lyrics.JPG",
-  "generatedAt": "2026-01-18T13:17:12.551Z",
+  "generatedAt": "2026-02-01T14:31:19.670Z",
   "version": 1
 }

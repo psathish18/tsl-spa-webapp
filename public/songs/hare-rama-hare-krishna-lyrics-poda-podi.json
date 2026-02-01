@@ -8,12 +8,29 @@
   "musicName": "Dharan Kumar",
   "actorName": "",
   "published": "2012-10-12T21:35:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><table><tbody><tr>  <td><br />Song: Hare Rama Hare Krishna<br />Singers:  Dharan Kumar<br />Movie: Poda Podi<br />Music: Dharan<br />Lyrics : Vignesh Shivaa</td> <td><br />Other Songs Lyrics<br /><a href=\"http://www.tsonglyrics.com/2012/09/love-panlama-venama-lyrics-poda-podi.html\">Love Panlaama Venaama</a><a href=\"http://www.tsonglyrics.com/2012/10/aiyyayo-maattikittenae-lyrics-podaa.html\">Aiyyayo Maattikitteney</a><a href=\"http://www.tsonglyrics.com/2012/10/podaa-podi-lyrics-podaa-podi-songs.html\">Podaa Podi Kadhalai</a><a href=\"http://www.tsonglyrics.com/2012/10/un-paarvaiyilae-lyrics-podaa-podi-songs.html\">Un Paarvayilaye</a></td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-rWS7u3YvQO9U5M3wWGA5UpWoB5NFoPhkAFLtu9csm4LkH0YMaroWu8G83JxxdmJL5BpzdTSL0vJFTTMAE-TppItL06snJjgtBjwet4OxGAD2mVgVaiHc3nZyf2Mv8kb_Wuwj3a5aeM/s1600/poda-podi+lyrics.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish  <br />Exact translation of tamil words",
-    "<div>Yaar nee friend-ah no fling-ah no illa</div><div>ennaku nee yaar kanava no uravaa no illa</div><div><br /></div><div>kadhal endru sonnaaley </div><div>kadhil vandhu sonnaaley</div><div>kadhal endru sonnaaley yea yeah  ..</div><div><br /></div><div>kadhal endru solveney</div><div>kadhil vandhu solveney</div><div>kadhal endru solveney  yea yeah ..</div><div><br /></div><div>hare rama hare krishna save my love</div><div>hare rama hare krishna save my love</div><div>hare rama …hare krishna..</div><div>kanji kanji ketkuren save my love  (2)</div><div><br /></div><div>Naan unnai podi endraalum</div><div>meendum nee odi varuvaaye</div><div>cute-ah oru mutham thandhaale</div><div>podhum…</div><div><br /></div><div>kandhal nee indru unnai naan</div><div>wife alga convert seiya thaan</div><div>naan edho mindful selkindren</div><div>oh .. yeah .</div><div><br /></div><div>chinna chinna sandaigalai podaadhey</div><div>kandhal vandha joril scene podaadhey</div><div>kallaanaalum, pullaanaalum</div><div>ennudaya boy friend neethaaney</div><div><br /></div><div>Yaar nee friend-ah no fling-ah no illa</div><div>ennaku nee yaar uravaa no kanaava no illa</div><div><br /></div><div>neeyum naanum serndhaale </div><div>naatkal lodi pathaadhey</div><div>podhum endru thonaadhey.. yeah ..yeah ..</div><div><br /></div><div>kadhal endru sonnaaley (2)</div><div>kadhil vandhu sonnaaley (2)</div><div>meendum ennul vandhaaley (2)  yea yeah  ..</div><div><br /></div></td><td>English Translation  <br />I tried my best :)  <br />[english lyric]  </td></tr></tbody></table></div>"
+    "<table><tbody><tr><td><br />Song: Hare Rama Hare Krishna<br />Singers:  Dharan Kumar<br />Movie: Poda Podi<br />Music: Dharan<br />Lyrics : Vignesh Shivaa</td><td><br />Other Songs Lyrics<br /><ul><li><a href=\"http://www.tsonglyrics.com/2012/09/love-panlama-venama-lyrics-poda-podi.html\">Love Panlaama Venaama</a></li><li><a href=\"http://www.tsonglyrics.com/2012/10/aiyyayo-maattikittenae-lyrics-podaa.html\">Aiyyayo Maattikitteney</a></li><li><a href=\"http://www.tsonglyrics.com/2012/10/podaa-podi-lyrics-podaa-podi-songs.html\">Podaa Podi Kadhalai</a></li><li><a href=\"http://www.tsonglyrics.com/2012/10/un-paarvaiyilae-lyrics-podaa-podi-songs.html\">Un Paarvayilaye</a></li></ul></td><td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-rWS7u3YvQO9U5M3wWGA5UpWoB5NFoPhkAFLtu9csm4LkH0YMaroWu8G83JxxdmJL5BpzdTSL0vJFTTMAE-TppItL06snJjgtBjwet4OxGAD2mVgVaiHc3nZyf2Mv8kb_Wuwj3a5aeM/s1600/poda-podi+lyrics.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish<br />Exact translation of tamil words",
+    "Yaar nee friend-ah no fling-ah no illa<br />ennaku nee yaar kanava no uravaa no illa",
+    "kadhal endru sonnaaley<br />kadhil vandhu sonnaaley<br />kadhal endru sonnaaley yea yeah  ..",
+    "kadhal endru solveney<br />kadhil vandhu solveney<br />kadhal endru solveney  yea yeah ..",
+    "hare rama hare krishna save my love<br />hare rama hare krishna save my love<br />hare rama …hare krishna..<br />kanji kanji ketkuren save my love  (2)",
+    "Naan unnai podi endraalum<br />meendum nee odi varuvaaye<br />cute-ah oru mutham thandhaale<br />podhum…",
+    "kandhal nee indru unnai naan<br />wife alga convert seiya thaan<br />naan edho mindful selkindren<br />oh .. yeah .",
+    "chinna chinna sandaigalai podaadhey<br />kandhal vandha joril scene podaadhey<br />kallaanaalum, pullaanaalum<br />ennudaya boy friend neethaaney",
+    "Yaar nee friend-ah no fling-ah no illa<br />ennaku nee yaar uravaa no kanaava no illa",
+    "neeyum naanum serndhaale<br />naatkal lodi pathaadhey<br />podhum endru thonaadhey.. yeah ..yeah ..",
+    "kadhal endru sonnaaley (2)<br />kadhil vandhu sonnaaley (2)<br />meendum ennul vandhaaley (2)  yea yeah  ..",
+    "</td><td>English Translation<br />I tried my best :)<br />[english lyric]  </td></tr></tbody></table><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vignesh Shivan",
     "Movie:Poda Podi",
@@ -74,6 +91,6 @@
     "keywords": "Vignesh Shivan, Poda Podi, Dharan Kumar, Dharan Kumar, Hare Rama Hare Krishna full lyrics, Poda Podi songs lyrics, Hare Rama Hare Krishna lyrics snippets, Hare Rama Hare Krishna WhatsApp status lyrics snippets, share Hare Rama Hare Krishna lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-rWS7u3YvQO9U5M3wWGA5UpWoB5NFoPhkAFLtu9csm4LkH0YMaroWu8G83JxxdmJL5BpzdTSL0vJFTTMAE-TppItL06snJjgtBjwet4OxGAD2mVgVaiHc3nZyf2Mv8kb_Wuwj3a5aeM/s400-c/poda-podi+lyrics.jpg",
-  "generatedAt": "2026-01-18T13:05:46.450Z",
+  "generatedAt": "2026-02-01T14:30:07.396Z",
   "version": 1
 }

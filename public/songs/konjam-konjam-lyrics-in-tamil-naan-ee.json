@@ -8,11 +8,18 @@
   "musicName": "Maragatha Mani",
   "actorName": "",
   "published": "2012-07-28T08:30:00.001+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbOHFcoCbEwMwaxKzvrbUdLUigRDCffS5FMAS0banJNJvxhQ7ZNI27Mm_ezfGdZq8oVmOBx1W6iGVjCWJtHTJ7DqO4Dwy1vvvGgQrVnbb794yaBswh5UTm8th7Hg9Xu6ClfPdIkHxUKA/s1600/Naan+ee+Konjam+Konjam+Lyrics+in+Tamil.png\"></a></div>\n</div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbOHFcoCbEwMwaxKzvrbUdLUigRDCffS5FMAS0banJNJvxhQ7ZNI27Mm_ezfGdZq8oVmOBx1W6iGVjCWJtHTJ7DqO4Dwy1vvvGgQrVnbb794yaBswh5UTm8th7Hg9Xu6ClfPdIkHxUKA/s1600/Naan+ee+Konjam+Konjam+Lyrics+in+Tamil.png\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Karky",
     "lyricsintamil",
@@ -83,6 +90,6 @@
     "keywords": "Karky, lyricsintamil, Naan Ee, Maragatha Mani, Vijay Prakash, Konjam Konjam in Tamil Naan Ee full lyrics, Naan Ee songs lyrics, Konjam Konjam in Tamil Naan Ee lyrics snippets, Konjam Konjam in Tamil Naan Ee WhatsApp status lyrics snippets, share Konjam Konjam in Tamil Naan Ee lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbOHFcoCbEwMwaxKzvrbUdLUigRDCffS5FMAS0banJNJvxhQ7ZNI27Mm_ezfGdZq8oVmOBx1W6iGVjCWJtHTJ7DqO4Dwy1vvvGgQrVnbb794yaBswh5UTm8th7Hg9Xu6ClfPdIkHxUKA/s400-c/Naan+ee+Konjam+Konjam+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T13:06:59.377Z",
+  "generatedAt": "2026-02-01T13:02:15.451Z",
   "version": 1
 }

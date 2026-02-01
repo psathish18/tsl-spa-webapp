@@ -8,11 +8,18 @@
   "musicName": "Maragatha Mani",
   "actorName": "",
   "published": "2012-07-28T08:32:00.001+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW_pl9h0OH4eZGd-BUoLar8QMCPHYxENP6OsT42K_N0hhxOQtgY5LEWjgwYl57a7S9wIz-CCnjnxvbjHm1ShDh05x-0ZDLpgVcEXXq7UvX-7j6CXEp00wQZUBnHMyrbv8IVKTdutwStGI/s1600/Naan+Ee+Veesum+Velichathile+Lyrics+in+Tamil.png\"></a></div>\n</div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW_pl9h0OH4eZGd-BUoLar8QMCPHYxENP6OsT42K_N0hhxOQtgY5LEWjgwYl57a7S9wIz-CCnjnxvbjHm1ShDh05x-0ZDLpgVcEXXq7UvX-7j6CXEp00wQZUBnHMyrbv8IVKTdutwStGI/s1600/Naan+Ee+Veesum+Velichathile+Lyrics+in+Tamil.png\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Karky",
     "lyricsintamil",
@@ -84,6 +91,6 @@
     "keywords": "Karky, lyricsintamil, Naan Ee, Maragatha Mani, Karthik, Shaithi, Veesum Velichathile in Tamil Naan Ee full lyrics, Naan Ee songs lyrics, Veesum Velichathile in Tamil Naan Ee lyrics snippets, Veesum Velichathile in Tamil Naan Ee WhatsApp status lyrics snippets, share Veesum Velichathile in Tamil Naan Ee lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW_pl9h0OH4eZGd-BUoLar8QMCPHYxENP6OsT42K_N0hhxOQtgY5LEWjgwYl57a7S9wIz-CCnjnxvbjHm1ShDh05x-0ZDLpgVcEXXq7UvX-7j6CXEp00wQZUBnHMyrbv8IVKTdutwStGI/s400-c/Naan+Ee+Veesum+Velichathile+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T13:06:58.417Z",
+  "generatedAt": "2026-02-01T13:04:10.655Z",
   "version": 1
 }

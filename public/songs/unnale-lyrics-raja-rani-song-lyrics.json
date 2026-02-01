@@ -8,12 +8,20 @@
   "musicName": "GV PrakashKumar",
   "actorName": "",
   "published": "2013-08-24T00:32:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><table><tbody><tr>  <td>Song: Unnale<br />Singer: Vandhana Srinivasan<br />Music: G. V. Prakash Kumar<br />Movie: Raja Rani<br />Lyrics: Na. Muthukumar </td> <td><br /></td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg792ywhOIfyaNsoC69DEbE9uCuxEPzO4Gzu_1AWZNVn_nspSQyYxadqqyXlnrlh6pyr2lwTPsHGZ2HFzMw7rKFOLJJ-ZJoahdVHoxp8XghYeiQolZt5Id-mnpCWokkIIwrWpazJYPG448/s1600/raja_rani.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish  <br />Exact translation of tamil words <br />Unnale meimarandhu nindreney<br />mai vizhiyil maiyaludan vandheney<br />idai vidaadha nerukkangal<br />thodarumaa uyire<br />mozhi illaamal thavikiren<br />mounamaa ingae",
-    "un thozhil saaindhu kolla vandheney<br />idhu podhum .. eppodhum<br /><div><br /></div></td><td>English Translation  <br />I tried my best :)  <br />[english lyric]  </td></tr></tbody></table></div>"
+    "<table><tbody><tr><td>Song: Unnale<br />Singer: Vandhana Srinivasan<br />Music: G. V. Prakash Kumar<br />Movie: Raja Rani<br />Lyrics: Na. Muthukumar </td><td><br /></td><td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg792ywhOIfyaNsoC69DEbE9uCuxEPzO4Gzu_1AWZNVn_nspSQyYxadqqyXlnrlh6pyr2lwTPsHGZ2HFzMw7rKFOLJJ-ZJoahdVHoxp8XghYeiQolZt5Id-mnpCWokkIIwrWpazJYPG448/s1600/raja_rani.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish<br />Exact translation of tamil words<br />Unnale meimarandhu nindreney<br />mai vizhiyil maiyaludan vandheney<br />idai vidaadha nerukkangal<br />thodarumaa uyire<br />mozhi illaamal thavikiren<br />mounamaa ingae",
+    "un thozhil saaindhu kolla vandheney<br />idhu podhum .. eppodhum",
+    "</td><td>English Translation<br />I tried my best :)<br />[english lyric]  </td></tr></tbody></table><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Na Muthukumar",
     "Movie:Raja Rani",
@@ -92,6 +100,6 @@
     "keywords": "Na Muthukumar, Raja Rani, GV PrakashKumar, Vandhana Srinivasan, Unnale full lyrics, Raja Rani songs lyrics, Unnale lyrics snippets, Unnale WhatsApp status lyrics snippets, share Unnale lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg792ywhOIfyaNsoC69DEbE9uCuxEPzO4Gzu_1AWZNVn_nspSQyYxadqqyXlnrlh6pyr2lwTPsHGZ2HFzMw7rKFOLJJ-ZJoahdVHoxp8XghYeiQolZt5Id-mnpCWokkIIwrWpazJYPG448/s400-c/raja_rani.jpg",
-  "generatedAt": "2026-01-18T13:03:07.647Z",
+  "generatedAt": "2026-02-01T14:34:20.497Z",
   "version": 1
 }

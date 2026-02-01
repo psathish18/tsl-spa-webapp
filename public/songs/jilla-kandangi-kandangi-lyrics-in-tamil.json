@@ -8,11 +8,16 @@
   "musicName": "D Imman",
   "actorName": "",
   "published": "2013-12-22T09:44:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vairamuthu",
     "lyricsintamil",
@@ -102,6 +107,6 @@
     "keywords": "Vairamuthu, lyricsintamil, Jilla, D Imman, Shreya Goshal, Vijay, Jilla Kandangi Kandangi in Tamil full lyrics, Jilla songs lyrics, Jilla Kandangi Kandangi in Tamil lyrics snippets, Jilla Kandangi Kandangi in Tamil WhatsApp status lyrics snippets, share Jilla Kandangi Kandangi in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnJh_5lYf507Jid4n6SqP5eiw3UOx-oi0Bxoy8scfPtoUzFi0_1981ZXGkpRffSa72IShYCXL5-npixApPIs8D3QyayD7G0jtQNJEYQcgHF121PWFMkPhWfpY8yfkKvEvvBC-f9cU7SK0/s400-c/Jilla+Kandangi+Kandangi.png",
-  "generatedAt": "2026-01-18T13:01:36.818Z",
+  "generatedAt": "2026-02-01T13:02:59.781Z",
   "version": 1
 }

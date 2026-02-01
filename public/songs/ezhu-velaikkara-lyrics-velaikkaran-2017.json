@@ -8,11 +8,38 @@
   "musicName": "Anirudh",
   "actorName": "",
   "published": "2017-12-21T20:35:00.002+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\nEzhu Velaikkara</div>\n<div>\nEzhu Velaikkara Indre Indre</div>\n<div>\n<br /></div>\n<div>\nOyaadhe saayaadhe</div>\n<div>\nvaai moodi vazhaadhe</div>\n<div>\n<br /></div>\n<div>\nezhu vaikaikkara indre indre</div>\n<div>\nini seiyum velai nandre</div>\n<div>\nada melum keezhum ondre ondre</div>\n<div>\nvaralaarai maatru vendre.</div>\n<div>\n<br /></div>\n<div>\nvaervai theeye</div>\n<div>\ndhesam neeye. </div>\n<div>\nunsol kaettae</div>\n<div>\nveesum kaatre.</div>\n<div>\n<br /></div>\n<div>\nporaadu  oyaadhe</div>\n<div>\nthaeiyaadhe poraadu</div>\n<div>\nsaayaadhe..</div>\n<div>\n<br /></div>\n<div>\nporaadu aaraadhe </div>\n<div>\n soraadhe poraadu</div>\n<div>\n veezhaadhe. poraadu</div>\n<div>\n<br /></div>\n<div>\nporaadu </div>\n<div>\n<div>\nezhu vaikaikkara indre indre</div>\n<div>\nporaadu</div>\n<div>\nini seiyum velai nandre</div>\n<div>\n<br /></div>\n<div>\nada melum keezhum ondre ondre</div>\n<div>\nvaralaarai maatru vendre.</div>\n</div>\n<div>\n<br /></div>\n<div>\nmudiyaadha seyal yaadhume</div>\n<div>\npuvi meedhu kidaiyaadhu</div>\n<div>\nezhundhu vaa puyalai pole.</div>\n<div>\n<br /></div>\n<div>\nbalamirundhum puriyaamale</div>\n<div>\npanindhome kunindhome</div>\n<div>\nezhundhu vaa mele mele</div>\n<div>\n<br /></div>\n<div>\norumuraiye </div>\n<div>\ntharaiyinil vazhum vazhkai</div>\n<div>\nadhai muraiye</div>\n<div>\npayanulla vazhum vazhkai akku</div>\n<div>\n<br /></div>\n<div>\nuzhaippavane ezhudhida</div>\n<div>\nvendum theerppu.</div>\n<div>\nvidhaiththavane pasiyena</div>\n<div>\nponal engo thappaathu.</div>\n<div>\n<br /></div>\n<div>\n<div>\noyaadhe</div>\n<div>\nthaeiyaadhe poraadu</div>\n<div>\nsaayaadhe.. poraadu</div>\n<div>\n<br /></div>\n<div>\naaraadhe </div>\n<div>\n soraadhe poraadu</div>\n<div>\n veezhaadhe. poraadu</div>\n<div>\n<br /></div>\n<div>\nporaadu </div>\n<div>\n<div>\nezhu vaikaikkara indre indre</div>\n<div>\nporaadu</div>\n<div>\nini seiyum velai nandre</div>\n<div>\n<br /></div>\n<div>\nada melum keezhum ondre ondre</div>\n<div>\nvaralaarai maatru vendre.</div>\n</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nvaervai theeye</div>\n<div>\ndhesam neeye. </div>\n<div>\nunsol kaettae</div>\n<div>\nveesum kaatre.</div>\n<div>\n<br /></div>\n<div>\nporaadu  oyaadhe</div>\n<div>\nthaeiyaadhe poraadu</div>\n<div>\nsaayaadhe..</div>\n<div>\n<br /></div>\n<div>\nporaadu aaraadhe </div>\n<div>\n soraadhe poraadu</div>\n<div>\n veezhaadhe. poraadu</div>\n</div>\n<div>\n<br /></div>\n<div>\nporaadu...</div>\n<div>\nporaadu..</div>\n<div>\nporaadu..</div>\n<div>\nporaadu..</div>\n<div>\noyaadhe..saayaadhe</div>\n<div>\nvaai moodi vazhaadhe.</div>\n<div>\n<br /></div>\n<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiolwImnYEyMNOrfIKsZQYtyUHMHSWN7RsKsRNtg7xdB70bGgArs_C56qSrMMbwF4NDFa2Oqk2LpR2zkVLFMCvbHobFbIF32n0-98uYF2uBaSrhxkesFdqrrPO0J-OaDa63r2qjNMn7IpE/s1600/Velaikaran+Lyrics.JPG\"></a></div>\n</div>"
+    "Ezhu Velaikkara<br />Ezhu Velaikkara Indre Indre",
+    "Oyaadhe saayaadhe<br />vaai moodi vazhaadhe",
+    "ezhu vaikaikkara indre indre<br />ini seiyum velai nandre<br />ada melum keezhum ondre ondre<br />varalaarai maatru vendre.",
+    "vaervai theeye<br />dhesam neeye.<br />unsol kaettae<br />veesum kaatre.",
+    "poraadu  oyaadhe<br />thaeiyaadhe poraadu<br />saayaadhe..",
+    "poraadu aaraadhe<br />soraadhe poraadu<br />veezhaadhe. poraadu",
+    "poraadu<br />ezhu vaikaikkara indre indre<br />poraadu<br />ini seiyum velai nandre",
+    "ada melum keezhum ondre ondre<br />varalaarai maatru vendre.",
+    "mudiyaadha seyal yaadhume<br />puvi meedhu kidaiyaadhu<br />ezhundhu vaa puyalai pole.",
+    "balamirundhum puriyaamale<br />panindhome kunindhome<br />ezhundhu vaa mele mele",
+    "orumuraiye<br />tharaiyinil vazhum vazhkai<br />adhai muraiye<br />payanulla vazhum vazhkai akku",
+    "uzhaippavane ezhudhida<br />vendum theerppu.<br />vidhaiththavane pasiyena<br />ponal engo thappaathu.",
+    "oyaadhe<br />thaeiyaadhe poraadu<br />saayaadhe.. poraadu",
+    "aaraadhe<br />soraadhe poraadu<br />veezhaadhe. poraadu",
+    "poraadu<br />ezhu vaikaikkara indre indre<br />poraadu<br />ini seiyum velai nandre",
+    "ada melum keezhum ondre ondre<br />varalaarai maatru vendre.",
+    "vaervai theeye<br />dhesam neeye.<br />unsol kaettae<br />veesum kaatre.",
+    "poraadu  oyaadhe<br />thaeiyaadhe poraadu<br />saayaadhe..",
+    "poraadu aaraadhe<br />soraadhe poraadu<br />veezhaadhe. poraadu",
+    "poraadu...<br />poraadu..<br />poraadu..<br />poraadu..<br />oyaadhe..saayaadhe<br />vaai moodi vazhaadhe.",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiolwImnYEyMNOrfIKsZQYtyUHMHSWN7RsKsRNtg7xdB70bGgArs_C56qSrMMbwF4NDFa2Oqk2LpR2zkVLFMCvbHobFbIF32n0-98uYF2uBaSrhxkesFdqrrPO0J-OaDa63r2qjNMn7IpE/s1600/Velaikaran+Lyrics.JPG\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Viveka",
     "Movie:Velaikaran2017",
@@ -82,6 +109,6 @@
     "keywords": "Viveka, Velaikaran2017, Anirudh, Sidharth Mahadevan, Ezhu Velaikkara full lyrics, Velaikaran2017 songs lyrics, Ezhu Velaikkara lyrics snippets, Ezhu Velaikkara WhatsApp status lyrics snippets, share Ezhu Velaikkara lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiolwImnYEyMNOrfIKsZQYtyUHMHSWN7RsKsRNtg7xdB70bGgArs_C56qSrMMbwF4NDFa2Oqk2LpR2zkVLFMCvbHobFbIF32n0-98uYF2uBaSrhxkesFdqrrPO0J-OaDa63r2qjNMn7IpE/s400-c/Velaikaran+Lyrics.JPG",
-  "generatedAt": "2026-01-18T12:45:06.492Z",
+  "generatedAt": "2026-02-01T13:08:56.922Z",
   "version": 1
 }

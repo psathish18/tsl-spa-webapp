@@ -8,13 +8,27 @@
   "musicName": "Srikanth Deva",
   "actorName": "",
   "published": "2007-01-12T08:13:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><span></span><br /><div><span><span>pidikum unnai pidikum </span></span></div><span><div><span>azhaga unnai pidikum </span></div><div><span>aagaya vennilaavai pidikum </span></div><div><span>romba pidikum (2)</span></div><br /><div><span>azhagaai iruppai enakku pidikum </span></div><div><span>azhagaaga sirippai </span></div><div><span>ulagukku pidikum </span></div><div><span>azhagai anaippai enakku pidikum </span></div><div><span>azhaga unn Tamizhai </span></div><div><span>ulagukku pidikum </span></div><br /><div><span>pidikum unnai pidikum </span></div><div><span>azhaga unnai pidikum </span></div><div><span>aagaya vennilaavai pidikum </span></div><div><span>romba pidikum (2)</span></div>",
-    "<div><span>kabul thiraachai pondra </span></div><div><span>kangal pidikum </span></div><div><span>kashmir apple pondra </span></div><div><span>kannam pidikum </span></div><div><span>roja poo pondra unn </span></div><div><span>thegathai pidikum </span></div><div><span>race kaarai podra unn </span></div><div><span>vegathai pidikum </span></div><br /><div><span>thandham pole irukkum </span></div><div><span>unn tholai pidikum </span></div><div><span>thangam pole minnium </span></div><div><span>pon maarbai pidikum </span></div><div><span>unnoda paarvai </span></div><div><span>ovvondrum pidikum </span></div><div><span>unnoda vaarthaikal </span></div><div><span>ellame pidikum </span></div><br /><div><span>chinna pillai pondra </span></div><div><span>ullam pidikum </span></div><div><span>nee konchum pothu </span></div><div><span>sollum poikal pidikum </span></div><div><span>andradam nee seyyum </span></div><div><span>imsaikal pidikum </span></div><div><span>angange nee veikum </span></div><div><span>echukal pidikum </span></div><br /><div><span>kannathil seyyum </span></div><div><span>kaayangal pidikum </span></div><div><span>kaayangal solidum </span></div><div><span>vedhanigal pidikum </span></div><br /><div><span>appa appa naerum </span></div><div><span>oodalgal pidikum </span></div><div><span>oodalgal theerndhadhum </span></div><div><span>koodalgal pidikum </span></div>",
-    "<div><span>pidikum unnai pidikum </span></div><div><span>azhaga unnai pidikum </span></div><div><span>aagaya vennilaavai pidikum </span></div><div><span>romba pidikum (2)</span></div><br /><div><span>pidikum pidikum pidikum </span></div><div><span>pidikum pidkum </span></div></span></div>"
+    "<span></span><br /><span><span>pidikum unnai pidikum </span></span><br /><span><span>azhaga unnai pidikum </span><br /><span>aagaya vennilaavai pidikum </span><br /><span>romba pidikum (2)</span>",
+    "<span>azhagaai iruppai enakku pidikum </span><br /><span>azhagaaga sirippai </span><br /><span>ulagukku pidikum </span><br /><span>azhagai anaippai enakku pidikum </span><br /><span>azhaga unn Tamizhai </span><br /><span>ulagukku pidikum </span>",
+    "<span>pidikum unnai pidikum </span><br /><span>azhaga unnai pidikum </span><br /><span>aagaya vennilaavai pidikum </span><br /><span>romba pidikum (2)</span>",
+    "<span>kabul thiraachai pondra </span><br /><span>kangal pidikum </span><br /><span>kashmir apple pondra </span><br /><span>kannam pidikum </span><br /><span>roja poo pondra unn </span><br /><span>thegathai pidikum </span><br /><span>race kaarai podra unn </span><br /><span>vegathai pidikum </span>",
+    "<span>thandham pole irukkum </span><br /><span>unn tholai pidikum </span><br /><span>thangam pole minnium </span><br /><span>pon maarbai pidikum </span><br /><span>unnoda paarvai </span><br /><span>ovvondrum pidikum </span><br /><span>unnoda vaarthaikal </span><br /><span>ellame pidikum </span>",
+    "<span>chinna pillai pondra </span><br /><span>ullam pidikum </span><br /><span>nee konchum pothu </span><br /><span>sollum poikal pidikum </span><br /><span>andradam nee seyyum </span><br /><span>imsaikal pidikum </span><br /><span>angange nee veikum </span><br /><span>echukal pidikum </span>",
+    "<span>kannathil seyyum </span><br /><span>kaayangal pidikum </span><br /><span>kaayangal solidum </span><br /><span>vedhanigal pidikum </span>",
+    "<span>appa appa naerum </span><br /><span>oodalgal pidikum </span><br /><span>oodalgal theerndhadhum </span><br /><span>koodalgal pidikum </span>",
+    "<span>pidikum unnai pidikum </span><br /><span>azhaga unnai pidikum </span><br /><span>aagaya vennilaavai pidikum </span><br /><span>romba pidikum (2)</span>",
+    "<span>pidikum pidikum pidikum </span><br /><span>pidikum pidkum </span><br /></span><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vaali",
     "Movie:Alwar",
@@ -29,6 +43,6 @@
     "keywords": "Vaali, Alwar, Srikanth Deva, Madhusree, Pidikum Unnai Pidikum full lyrics, Alwar songs lyrics, Pidikum Unnai Pidikum lyrics snippets, Pidikum Unnai Pidikum WhatsApp status lyrics snippets, share Pidikum Unnai Pidikum lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T13:14:34.026Z",
+  "generatedAt": "2026-02-01T14:31:11.292Z",
   "version": 1
 }

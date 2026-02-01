@@ -8,11 +8,22 @@
   "musicName": "Thaman S",
   "actorName": "",
   "published": "2013-10-23T23:49:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl7zgQzb-QngBvIzf_1GYHJMstsIPDrq0lwdHFP5H9EyYGTFk1pAzmtj9O_E34s_IqDd2ZW0xal7HCLleZN0oY8qLXxTsZXePQkl2UXxqpXkoUxQ_84spj9NW52rO_OaS1U-YOs3n0AL8/s1600/aaa.jpg\"></a></div><div>Song: Ore Oru </div><div>Singer(s): Javed Ali</div><div>Movie: All In All Azhagu Raja </div><div>Music: Thamman S</div><div>Lyrics: Na Muthukumar</div><div><br /></div><div>Ore oru varam thandhal enna penney</div><div>inbam thunbam ellaam ini undhan pinney</div><div>iru puram siragulla</div><div><br /></div><div>azhagiya dhevadhai paarkudhey</div><div>idhu enna idhayathil idi mazhai puyal</div><div>vandhu thaakudhey</div><div><br /></div><div>Kannukulley..</div><div>serthuvacha kanavugal ellaam ippo kalayudhey</div><div>Nenjukulle</div><div>pooti vacha aasaiyellaam unna paarthu odayudhey</div><div><br /></div><div>yaaro nee yaaro</div><div>unnaala tholanjen naanu enna seiya, enna solla</div></div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl7zgQzb-QngBvIzf_1GYHJMstsIPDrq0lwdHFP5H9EyYGTFk1pAzmtj9O_E34s_IqDd2ZW0xal7HCLleZN0oY8qLXxTsZXePQkl2UXxqpXkoUxQ_84spj9NW52rO_OaS1U-YOs3n0AL8/s1600/aaa.jpg\"></a><br />Song: Ore Oru<br />Singer(s): Javed Ali<br />Movie: All In All Azhagu Raja<br />Music: Thamman S<br />Lyrics: Na Muthukumar",
+    "Ore oru varam thandhal enna penney<br />inbam thunbam ellaam ini undhan pinney<br />iru puram siragulla",
+    "azhagiya dhevadhai paarkudhey<br />idhu enna idhayathil idi mazhai puyal<br />vandhu thaakudhey",
+    "Kannukulley..<br />serthuvacha kanavugal ellaam ippo kalayudhey<br />Nenjukulle<br />pooti vacha aasaiyellaam unna paarthu odayudhey",
+    "yaaro nee yaaro<br />unnaala tholanjen naanu enna seiya, enna solla"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Na Muthukumar",
     "Movie:All In All Azhagu Raja",
@@ -55,6 +66,6 @@
     "keywords": "Na Muthukumar, All In All Azhagu Raja, Thaman S, Javed Ali, Ore Oru full lyrics, All In All Azhagu Raja songs lyrics, Ore Oru lyrics snippets, Ore Oru WhatsApp status lyrics snippets, share Ore Oru lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl7zgQzb-QngBvIzf_1GYHJMstsIPDrq0lwdHFP5H9EyYGTFk1pAzmtj9O_E34s_IqDd2ZW0xal7HCLleZN0oY8qLXxTsZXePQkl2UXxqpXkoUxQ_84spj9NW52rO_OaS1U-YOs3n0AL8/s400-c/aaa.jpg",
-  "generatedAt": "2026-01-18T13:02:36.908Z",
+  "generatedAt": "2026-02-01T13:01:10.116Z",
   "version": 1
 }

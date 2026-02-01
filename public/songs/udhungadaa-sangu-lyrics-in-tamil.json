@@ -8,11 +8,16 @@
   "musicName": "",
   "actorName": "",
   "published": "2014-07-17T14:42:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><br /></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Velaiyilla Pattathari",
@@ -113,10 +118,10 @@
   ],
   "seo": {
     "title": "Udhungadaa Sangu Lyrics in Tamil -  Velaiyilla Pattathari ",
-    "description": "Full Udhungadaa Sangu in Tamil songs lyrics in tamil ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Singer(s): Anirudh.",
+    "description": "Full Udhungadaa Sangu in Tamil song lyrics in tamil  ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Singer(s): Anirudh.",
     "keywords": "lyricsintamil, Velaiyilla Pattathari, Anirudh, Udhungadaa Sangu in Tamil full lyrics, Velaiyilla Pattathari songs lyrics, Udhungadaa Sangu in Tamil lyrics snippets, Udhungadaa Sangu in Tamil WhatsApp status lyrics snippets, share Udhungadaa Sangu in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh58qTvqzJdM3_fGJeF0w-xdGhvYCVTLXLfwxQYo0u03c6AqkzJ_pkxFRsNDsiVF3aUJ1e6J3d6tixtLznupeafM-qrsTl-RplxF5fuZP3BpNFIPF6lbVmnGFarq4pSYbM-7nnzdHftcYY/s400-c/VIP+Udhungada+Sangu+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T12:58:38.436Z",
+  "generatedAt": "2026-02-01T13:04:42.396Z",
   "version": 1
 }

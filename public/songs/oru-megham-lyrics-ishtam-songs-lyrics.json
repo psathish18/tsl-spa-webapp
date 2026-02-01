@@ -8,11 +8,31 @@
   "musicName": "Thaman S",
   "actorName": "",
   "published": "2012-04-27T08:55:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUPD81LKY01cVREbvZGZmIJ-wTppb85UOMJwQbjaMxC9pwI7nX5jrWqPF824amR-TXGPIoA4n6uanJb_gSwm3i7epxBno7EAwlW-Zg3uHonU_tF2CsDJH3wSDMfvF3vuCNY5g36VcwjO4/s1600/Ishtam+TMS.jpg\"></a>Singer(s): MLR Karthikeyan, Divya</div><div>Song: Oru Megham</div><div>Movie: Ishtam</div><div>Music by : Thaman S</div><div><br /></div><div>Naan indru naanai illai, yen endru ketkiren</div><div>Nee indri pona naatkal, veen endru solkiren (2)</div><div><br /></div><div><span>Oru megham illaamal</span></div><div>oru saaral illaamal</div><div>muludhaaga dhegam ninaikinrene naane</div><div>Vizhudhaaga kaatril aadum vazhkai dhaane</div><div><br /></div><div>Oru vaarthai illaamal</div><div>oru osai illaamal </div><div>oru paadal ondru paaadi vandhen naane</div><div>Idhu paadhi sorgam, paadhi naragam thaane</div><div><br /></div><div>Poi solli katrukonden </div><div>naakoosa villaye</div><div>Mun pola unnaal indru </div><div>naan pesa villaye (2)</div><div><br /></div><div>Oru vaarthai illaamal</div><div>oru osai illaamal </div><div>oru paadal ondru paaadi vandhen naane</div><div>Idhu paadhi sorgam, paadhi naragam thaane</div><div><br /></div><div>Oru thaeneeril naan kaanaadha </div><div>suvai un peril unardhene</div><div>Unnai paarthaale en melaadai</div><div>sari seidhene adhanaale enna maayamo</div><div><br /></div><div>Porukku povadhu pol thoongida selkiren</div><div>Peruku kannai moodi verodho seikiren</div><div><br /></div><div>Aalillaa theevukulle naan indru pogiren</div><div>Aaanaalum kaadhil yedho sangeedham ketkiren</div><div><br /></div><div>Oru vaarthai illaamal</div><div>oru osai illaamal </div><div>oru paadal ondru paaadi vandhen naane</div><div>Idhu paadhi sorgam, paadhi naragam thaane</div><div><br /></div><div>Vazhi theriyaadha mozhi puriyaadha</div><div>oru siruvan pol nadandhene</div><div>Ada idhuthaano idhu adhu dhaano</div><div>enna adayaalam theriyaamal naanum nindrene</div><div><br /></div><div>Thevaiku mele ingae thaen thuli sottudhe</div><div>Kai theendum dhooram vandhu vanamdhan muttudhe</div><div>Noorodu nootronrai ennaatkal ponadhe</div><div>Verodu maari indru veredho aagudhe</div><div><br /></div><div>Dheemthana naagerey </div><div>dheem dheem thana naagerey</div><div><br /></div><div>idhu paadhi sorgam paadhi naragamdhaane ..</div></div></div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUPD81LKY01cVREbvZGZmIJ-wTppb85UOMJwQbjaMxC9pwI7nX5jrWqPF824amR-TXGPIoA4n6uanJb_gSwm3i7epxBno7EAwlW-Zg3uHonU_tF2CsDJH3wSDMfvF3vuCNY5g36VcwjO4/s1600/Ishtam+TMS.jpg\"></a>Singer(s): MLR Karthikeyan, Divya<br />Song: Oru Megham<br />Movie: Ishtam<br />Music by : Thaman S",
+    "Naan indru naanai illai, yen endru ketkiren<br />Nee indri pona naatkal, veen endru solkiren (2)",
+    "<span>Oru megham illaamal</span><br />oru saaral illaamal<br />muludhaaga dhegam ninaikinrene naane<br />Vizhudhaaga kaatril aadum vazhkai dhaane",
+    "Oru vaarthai illaamal<br />oru osai illaamal<br />oru paadal ondru paaadi vandhen naane<br />Idhu paadhi sorgam, paadhi naragam thaane",
+    "Poi solli katrukonden<br />naakoosa villaye<br />Mun pola unnaal indru<br />naan pesa villaye (2)",
+    "Oru vaarthai illaamal<br />oru osai illaamal<br />oru paadal ondru paaadi vandhen naane<br />Idhu paadhi sorgam, paadhi naragam thaane",
+    "Oru thaeneeril naan kaanaadha<br />suvai un peril unardhene<br />Unnai paarthaale en melaadai<br />sari seidhene adhanaale enna maayamo",
+    "Porukku povadhu pol thoongida selkiren<br />Peruku kannai moodi verodho seikiren",
+    "Aalillaa theevukulle naan indru pogiren<br />Aaanaalum kaadhil yedho sangeedham ketkiren",
+    "Oru vaarthai illaamal<br />oru osai illaamal<br />oru paadal ondru paaadi vandhen naane<br />Idhu paadhi sorgam, paadhi naragam thaane",
+    "Vazhi theriyaadha mozhi puriyaadha<br />oru siruvan pol nadandhene<br />Ada idhuthaano idhu adhu dhaano<br />enna adayaalam theriyaamal naanum nindrene",
+    "Thevaiku mele ingae thaen thuli sottudhe<br />Kai theendum dhooram vandhu vanamdhan muttudhe<br />Noorodu nootronrai ennaatkal ponadhe<br />Verodu maari indru veredho aagudhe",
+    "Dheemthana naagerey<br />dheem dheem thana naagerey",
+    "idhu paadhi sorgam paadhi naragamdhaane .."
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Ishtam",
     "Music:Thaman S",
@@ -27,6 +47,6 @@
     "keywords": "Ishtam, Thaman S, Divya, MLR Karthikeyan, Oru Megham full lyrics, Ishtam songs lyrics, Oru Megham lyrics snippets, Oru Megham WhatsApp status lyrics snippets, share Oru Megham lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUPD81LKY01cVREbvZGZmIJ-wTppb85UOMJwQbjaMxC9pwI7nX5jrWqPF824amR-TXGPIoA4n6uanJb_gSwm3i7epxBno7EAwlW-Zg3uHonU_tF2CsDJH3wSDMfvF3vuCNY5g36VcwjO4/s400-c/Ishtam+TMS.jpg",
-  "generatedAt": "2026-01-18T13:07:36.899Z",
+  "generatedAt": "2026-02-01T13:06:29.876Z",
   "version": 1
 }

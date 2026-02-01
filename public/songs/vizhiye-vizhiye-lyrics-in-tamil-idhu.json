@@ -8,11 +8,16 @@
   "musicName": "Harrish Jeyaraj",
   "actorName": "",
   "published": "2014-01-27T22:36:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Thamarai",
     "Movie:Idhu Kathirvelan Kadhal",
@@ -78,10 +83,10 @@
   ],
   "seo": {
     "title": "Vizhiye Vizhiye Lyrics in Tamil - Idhu Kathirvelan Kadhal",
-    "description": "Full Vizhiye Vizhiye in Tamil songs lyrics in tamil ( ...) Idhu Kathirvelan Kadhal Songs Lyrics. sharable lyrics snippets, Lyrics: Thamarai, Music: Harrish Jeyaraj, Singer(s): Aalap Raju.",
+    "description": "Full Vizhiye Vizhiye in Tamil song lyrics in tamil  ( ...) Idhu Kathirvelan Kadhal Songs Lyrics. sharable lyrics snippets, Lyrics: Thamarai, Music: Harrish Jeyaraj, Singer(s): Aalap Raju.",
     "keywords": "Thamarai, Idhu Kathirvelan Kadhal, Harrish Jeyaraj, Aalap Raju, Vizhiye Vizhiye in Tamil full lyrics, Idhu Kathirvelan Kadhal songs lyrics, Vizhiye Vizhiye in Tamil lyrics snippets, Vizhiye Vizhiye in Tamil WhatsApp status lyrics snippets, share Vizhiye Vizhiye in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8kl1tbTl75QQ4s30_iqL-KA5EwtAmzsPoVLiKvSslc8fysA5LIWVn0pVCr8MThhR3bzJu_8QO-bJKL_HLjGVYzItpPEJgxk-nKfPn_NOrqIu1YX4EKOc6Js9sMQfPLB1vYSVH_Drsix4/s400-c/IKK+Vizhiye+Vizhiye+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T13:01:02.201Z",
+  "generatedAt": "2026-02-01T13:08:10.793Z",
   "version": 1
 }

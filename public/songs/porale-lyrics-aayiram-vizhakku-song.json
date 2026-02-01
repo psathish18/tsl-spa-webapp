@@ -8,13 +8,20 @@
   "musicName": "Srikanth Deva",
   "actorName": "",
   "published": "2010-08-22T15:12:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><span>Singers : Karthik</span>  <br /><span>Song    : Porale</span><br /><span>Movie   : Aayiram Vilakku</span><br /><span>Lyrics  : Vairamuthu</span>",
+    "<span>Singers : Karthik</span><br /><span>Song    : Porale</span><br /><span>Movie   : Aayiram Vilakku</span><br /><span>Lyrics  : Vairamuthu</span>",
     "<span>Porale</span><br /><span>Nenja killikitu killikittu killikitu porale</span><br /><span>Varaale</span><br /><span>Nenja ahllikitu ahllikitu ahllikitu Varaale</span>",
-    "<span>Kutti pola poona pola enna vandhu suthuraye</span><br /><span>Konda pota kozhi pola kitta vandhu kothuriye</span><br /><span>Unna pola enna kolla aralivedha thevayilla</span></div>"
+    "<span>Kutti pola poona pola enna vandhu suthuraye</span><br /><span>Konda pota kozhi pola kitta vandhu kothuriye</span><br /><span>Unna pola enna kolla aralivedha thevayilla</span><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vairamuthu",
     "Movie:Aayiram Vilakku",
@@ -39,6 +46,6 @@
     "keywords": "Vairamuthu, Aayiram Vilakku, Srikanth Deva, Karthik, Porale full lyrics, Aayiram Vilakku songs lyrics, Porale lyrics snippets, Porale WhatsApp status lyrics snippets, share Porale lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T13:11:58.906Z",
+  "generatedAt": "2026-02-01T14:31:26.355Z",
   "version": 1
 }

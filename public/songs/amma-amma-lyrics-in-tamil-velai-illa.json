@@ -8,11 +8,16 @@
   "musicName": "Anirudh",
   "actorName": "",
   "published": "2014-02-17T08:42:00.001+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Dhanush",
     "lyricsintamil",
@@ -115,10 +120,10 @@
   ],
   "seo": {
     "title": "Amma Amma Ne Enga Amma  Song Lyrics in Tamil",
-    "description": "Full Amma Amma in Tamil songs lyrics in tamil ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Lyrics: Dhanush, Music: Anirudh, Singer(s): S Janaki.",
+    "description": "Full Amma Amma in Tamil song lyrics in tamil  ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Lyrics: Dhanush, Music: Anirudh, Singer(s): S Janaki.",
     "keywords": "Dhanush, lyricsintamil, Velaiyilla Pattathari, Anirudh, S Janaki, Amma Amma in Tamil full lyrics, Velaiyilla Pattathari songs lyrics, Amma Amma in Tamil lyrics snippets, Amma Amma in Tamil WhatsApp status lyrics snippets, share Amma Amma in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcpDnhPUEuG7U2ZMVYfqJk27kv6G1FQO8s-Jzj2YrBK92sxuEjgIUFjZBrSG38LiGVZzHUV1ZD1CVonpOkIEyvehFBAao66heDX1q0WcSeEoEVulwKnC7dqUs0LQULS71z9g6GEJK5Hsk/s400-c/Amma+Amma+Lyrics+in+Tamil+Velai+illa+pattathaari1.png",
-  "generatedAt": "2026-01-18T13:00:31.276Z",
+  "generatedAt": "2026-02-01T13:07:17.637Z",
   "version": 1
 }

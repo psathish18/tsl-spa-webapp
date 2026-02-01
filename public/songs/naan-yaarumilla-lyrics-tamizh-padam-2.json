@@ -8,13 +8,63 @@
   "musicName": "Kannan",
   "actorName": "",
   "published": "2018-06-28T11:44:00.002+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\nenna vittudunga</div>\n<div>\nplease enna vittudunga</div>\n<div>\n<br /></div>\n<div>\nnaan yaarumilla</div>\n<div>\nnaan evanumilla</div>\n<div>\nnaan worththe illa</div>\n<div>\nnaan edhuvum seyya maaten</div>\n<div>\n<br /></div>\n<div>\nenakku oorum illa</div>\n<div>\noru pozhappu illa</div>\n<div>\nenakku arivum illa</div>\n<div>\nnaan edhuvum edhuvum</div>\n<div>\nkizhikka maatten</div>\n<div>\n<br /></div>\n<div>\nenakku mass illa</div>\n<div>\nenakku velocity illa</div>\n<div>\n..</div>\n<div>\ngravity illa</div>\n<div>\n<br /></div>\n<div>\nlion illa </div>\n<div>\ntiger illa</div>\n<div>\nGiraffee illa</div>\n<div>\nzebra-vum illa</div>\n<div>\n<br /></div>\n<div>\nparuppu daa...</div>\n<div>\n<br /></div>\n<div>\nPETA vandha enakenna</div>\n<div>\nmethane eduthaa enakenna</div>\n<div>\nnaan vaaya thorakka maaten</div>\n<div>\nvaaye thorakka maatten</div>\n<div>\n<br /></div>\n<div>\nennaku u venum,</div>\n<div>\ntax free venum,</div>\n<div>\nmass opening venum</div>\n<div>\nadhu mattum podhum (2)</div>\n<div>\n<br /></div>\n<div>\nneenga nalla irukkonum</div>\n<div>\nnaadu munnera</div>\n<div>\nindha naatil ulla</div>\n<div>\nyezhaigalin vazhvu</div>\n<div>\nmunnera</div>\n<div>\n<br /></div>\n<div>\nvarlaam va varlaam </div>\n<div>\nvarlaam vaa..</div>\n<div>\nvarren maaaaaaa.....</div>\n<div>\n<br /></div>\n<div>\nnaan eppa varuven</div>\n<div>\nenga varuven </div>\n<div>\nanga eppadi varuvenu</div>\n<div>\ntheriyaathu</div>\n<div>\nedhuku varuvenu</div>\n<div>\ntheriyaathu</div>\n<div>\nyaenaa? </div>\n<div>\nnaan varave maatten.</div>\n<div>\n<br /></div>\n<div>\nidhu thaana serndha</div>\n<div>\nkoottam illa</div>\n<div>\nellaam junior artist</div>\n<div>\n<br /></div>\n<div>\ntamil paalum illa</div>\n<div>\ntelugu paalum illa</div>\n<div>\nenna vazha vaithathu</div>\n<div>\naavin paalu</div>\n<div>\n<br /></div>\n<div>\nelection vandha pesamaatne</div>\n<div>\ntwitteril karuthu podamaaten</div>\n<div>\narasiyalil naan kuthikamaaten</div>\n<div>\nbeachla dhiyaanam panna maaten</div>\n<div>\n<br /></div>\n<div>\nenakku nadikka theriyathu</div>\n<div>\nengappaa enakku sollitharla</div>\n<div>\n<br /></div>\n<div>\nwell, </div>\n<div>\nodvaum mudiyaathu</div>\n<div>\noliyavum mudiyathu</div>\n<div>\nnaan US kelambi poiduven</div>\n<div>\n<br /></div>\n<div>\nvazhu vazhu vazhavidu</div>\n<div>\nslow motion walkula therikkavidu</div>\n<div>\nnaan neeyum nanbenda</div>\n<div>\n<br /></div>\n<div>\nnaan TVla irundhu </div>\n<div>\nvandhavandaa</div>\n<div>\nen producerku paavam</div>\n<div>\ncar-ey illadaa</div>\n<div>\n<br /></div>\n<div>\nen uyir moochu </div>\n<div>\nsangam daa</div>\n<div>\nmandabam kattituthaan</div>\n<div>\nkalyaanam daa</div>\n<div>\n<br /></div>\n<div>\nnaan thalaivan illada</div>\n<div>\nadhuku aasai illada</div>\n<div>\noru mandram illada</div>\n<div>\nadha kalaichitendaa</div>\n<div>\n<br /></div>\n<div>\nnaan romba pesithaan</div>\n<div>\nkaila padame illada</div>\n<div>\nthirumba vandhuten</div>\n<div>\nippo kalseat illadaa</div>\n<div>\n<br /></div>\n<div>\nivan adam panra siva</div>\n<div>\nivan thagaraar panra siva</div>\n<div>\nidhu damage panra siva</div>\n<div>\nidhu idea panra siva</div>\n<div>\nidhu asalt panra siva</div>\n<div>\nidhu attack panra siva</div>\n<div>\n<br /></div>\n<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicWneF53a7TuRkeKZ2JwvK7LeV8hyphenhyphenM7EemZAwgVXbN4vER_b5F9uGwQMAhbij091tZkvqemuEnFkq2nWSBR_6D_zny6e6-_7YrSU_S-AZ-pfTTX9etLGdhlEZ4Pcyl7RF4uSRXh97NspI/s1600/tamizh+padam+2+naan+yaarumilla.jpeg\"></a></div>\n<div>\n</div>\n<br />\n<div>\n</div>\n<br />\n<div>\n<div>\n<br /></div>\n</div>\n</div>"
+    "enna vittudunga<br />please enna vittudunga",
+    "naan yaarumilla<br />naan evanumilla<br />naan worththe illa<br />naan edhuvum seyya maaten",
+    "enakku oorum illa<br />oru pozhappu illa<br />enakku arivum illa<br />naan edhuvum edhuvum<br />kizhikka maatten",
+    "enakku mass illa<br />enakku velocity illa<br />..<br />gravity illa",
+    "lion illa<br />tiger illa<br />Giraffee illa<br />zebra-vum illa",
+    "paruppu daa...",
+    "PETA vandha enakenna<br />methane eduthaa enakenna<br />naan vaaya thorakka maaten<br />vaaye thorakka maatten",
+    "ennaku u venum,<br />tax free venum,<br />mass opening venum<br />adhu mattum podhum (2)",
+    "neenga nalla irukkonum<br />naadu munnera<br />indha naatil ulla<br />yezhaigalin vazhvu<br />munnera",
+    "varlaam va varlaam<br />varlaam vaa..<br />varren maaaaaaa.....",
+    "naan eppa varuven<br />enga varuven<br />anga eppadi varuvenu<br />theriyaathu<br />edhuku varuvenu<br />theriyaathu<br />yaenaa?<br />naan varave maatten.",
+    "idhu thaana serndha<br />koottam illa<br />ellaam junior artist",
+    "tamil paalum illa<br />telugu paalum illa<br />enna vazha vaithathu<br />aavin paalu",
+    "election vandha pesamaatne<br />twitteril karuthu podamaaten<br />arasiyalil naan kuthikamaaten<br />beachla dhiyaanam panna maaten",
+    "enakku nadikka theriyathu<br />engappaa enakku sollitharla",
+    "well,<br />odvaum mudiyaathu<br />oliyavum mudiyathu<br />naan US kelambi poiduven",
+    "vazhu vazhu vazhavidu<br />slow motion walkula therikkavidu<br />naan neeyum nanbenda",
+    "naan TVla irundhu<br />vandhavandaa<br />en producerku paavam<br />car-ey illadaa",
+    "en uyir moochu<br />sangam daa<br />mandabam kattituthaan<br />kalyaanam daa",
+    "naan thalaivan illada<br />adhuku aasai illada<br />oru mandram illada<br />adha kalaichitendaa",
+    "naan romba pesithaan<br />kaila padame illada<br />thirumba vandhuten<br />ippo kalseat illadaa",
+    "ivan adam panra siva<br />ivan thagaraar panra siva<br />idhu damage panra siva<br />idhu idea panra siva<br />idhu asalt panra siva<br />idhu attack panra siva",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicWneF53a7TuRkeKZ2JwvK7LeV8hyphenhyphenM7EemZAwgVXbN4vER_b5F9uGwQMAhbij091tZkvqemuEnFkq2nWSBR_6D_zny6e6-_7YrSU_S-AZ-pfTTX9etLGdhlEZ4Pcyl7RF4uSRXh97NspI/s1600/tamizh+padam+2+naan+yaarumilla.jpeg\"></a>"
   ],
   "hasTamilLyrics": true,
   "tamilStanzas": [
-    "<div>\nஎன்ன விட்டுடுங்க<br />\n<div>\nப்ளீஸ் என்ன விட்டுடுங்க<br />\n`<br />\nநான் யாருமில்ல </div>\n<div>\nநான் எவனுமில்லை </div>\n<div>\nநான் ஒர்த்தே இல்ல </div>\n<div>\nநான் எதுவும் செய்ய மாட்டேன்</div>\n<div>\n<br />\nஎனக்கு ஊரும் இல்ல </div>\n<div>\nஒரு பொழப்பு இல்ல </div>\n<div>\nஎனக்கு அறிவும் இல்ல </div>\n<div>\nநான் எதுவும் எதுவும் </div>\n<div>\nகிழிக்க மாட்டேன்<br />\n<div>\n<br /></div>\n<div>\n<div>\nஎனக்கு mass  இல்ல </div>\n<div>\nஎனக்கு velocity  இல்ல .. </div>\n<div>\ngravity இல்ல</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nLION இல்ல </div>\n<div>\nTIGER இல்ல</div>\n<div>\nGiraffe  இல்ல </div>\n<div>\nZebra-வும் இல்ல </div>\n<div>\n<br /></div>\n<div>\nபருப்பு டா...</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nPETA வந்தா  எனக்கென்ன </div>\n<div>\nMethane  எடுத்தா எனக்கென்ன </div>\n<div>\nநான் வாய தொறக்க மாட்டேன் </div>\n<div>\nவாயே தொறக்க மாட்டேன்</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஎன்னக்கு U  வேணும், </div>\n<div>\nTax free வேணும்  , </div>\n<div>\nmass  opening வேணும் </div>\n<div>\nஅது மட்டும் போதும் (2)</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nநீங்க நல்ல இருக்கோணும் </div>\n<div>\nநாடு முன்னேற </div>\n<div>\nஇந்த நாட்டில் உள்ள </div>\n<div>\nஏழைகளின் வாழ்வு முன்னேற</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nவரலாம் வ வரலாம் வரலாம் வா.. </div>\n<div>\nவர்றேன் மாஆஆ....</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nநான் எப்ப வருவேன் </div>\n<div>\nஎங்க வருவேன் </div>\n<div>\nஅங்க எப்படி வருவேன்னு தெரியாது </div>\n<div>\nஎதுக்கு வருவேன்னு தெரியாது </div>\n<div>\n<br /></div>\n<div>\nஏனா? </div>\n<div>\nநான் வரவே மாட்டேன்.</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஇது தானா சேர்ந்த கூட்டம் இல்ல </div>\n<div>\nஎல்லாம் ஜூனியர் ஆர்ட்டிஸ்ட்</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nதமிழ் பாலும் இல்ல </div>\n<div>\nதெலுங்கு பாலும் இல்ல </div>\n<div>\nஎன்ன வாழ வைத்தது </div>\n<div>\nஆவின் பாலு ..</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nElection வந்தா  பேசமாட்டனே </div>\n<div>\nட்விட்டரில் கருத்து போடமாட்டேன் </div>\n<div>\nஅரசியலில் நான் குதிகமாட்டேன் </div>\n<div>\nபீச்ல தியானம் பண்ண மாட்டேன்</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஎனக்கு நடிக்க தெரியாது </div>\n<div>\nஎங்கப்பா எனக்கு சொல்லித்தரல </div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nWell , ஓடவும் முடியாது </div>\n<div>\nஒழியவும் முடியாது </div>\n<div>\nநான் US  கெளம்பி போய்டுவேன்</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nவழு வழு வாழவிடு </div>\n<div>\nslow motion  walkகுல  தெறிக்கவிடு </div>\n<div>\nநானும் நீயும் நண்பேன்டா</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nநான் டிவில </div>\n<div>\nஇருந்து வந்தவண்டா </div>\n<div>\nஎன் producerருக்கு  </div>\n<div>\nபாவம் காரே  இல்லடா</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஎன் உயிர் மூச்சு </div>\n<div>\nசங்கம் டா </div>\n<div>\nமண்டபம் கட்டிட்டுதான் </div>\n<div>\nகல்யாணம் டா</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nநான் தலைவன் இல்ல  </div>\n<div>\nஅதுக்கு ஆசை இல்ல  </div>\n<div>\nஒரு மன்றம் இல்லடா </div>\n<div>\nஅத கலைச்சிடேண்டா</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nநான் ரொம்ப பேசித்தான் </div>\n<div>\nகைல படமே இல்லடா </div>\n<div>\nதிரும்பி வந்துட்டேன் </div>\n<div>\nஇப்போ கால்சீட்  இல்லடா</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஇது ஆடம் பண்ற சிவா </div>\n<div>\nஇது தகராறு பண்ற சிவா </div>\n<div>\nஇது டேமேஜ் பண்ற சிவா </div>\n<div>\nஇது ஐடியா பண்ற சிவா </div>\n<div>\nஇது அசால்ட் பண்ற சிவா </div>\n<div>\nஇது அட்டாக் பண்ற சிவா</div>\n</div>\n</div>\n</div>"
+    "என்ன விட்டுடுங்க<br />ப்ளீஸ் என்ன விட்டுடுங்க<br />`<br />நான் யாருமில்ல<br />நான் எவனுமில்லை<br />நான் ஒர்த்தே இல்ல<br />நான் எதுவும் செய்ய மாட்டேன்",
+    "எனக்கு ஊரும் இல்ல<br />ஒரு பொழப்பு இல்ல<br />எனக்கு அறிவும் இல்ல<br />நான் எதுவும் எதுவும்<br />கிழிக்க மாட்டேன்",
+    "எனக்கு mass  இல்ல<br />எனக்கு velocity  இல்ல ..<br />gravity இல்ல",
+    "LION இல்ல<br />TIGER இல்ல<br />Giraffe  இல்ல<br />Zebra-வும் இல்ல",
+    "பருப்பு டா...",
+    "PETA வந்தா  எனக்கென்ன<br />Methane  எடுத்தா எனக்கென்ன<br />நான் வாய தொறக்க மாட்டேன்<br />வாயே தொறக்க மாட்டேன்",
+    "என்னக்கு U  வேணும்,<br />Tax free வேணும்  ,<br />mass  opening வேணும்<br />அது மட்டும் போதும் (2)",
+    "நீங்க நல்ல இருக்கோணும்<br />நாடு முன்னேற<br />இந்த நாட்டில் உள்ள<br />ஏழைகளின் வாழ்வு முன்னேற",
+    "வரலாம் வ வரலாம் வரலாம் வா..<br />வர்றேன் மாஆஆ....",
+    "நான் எப்ப வருவேன்<br />எங்க வருவேன்<br />அங்க எப்படி வருவேன்னு தெரியாது<br />எதுக்கு வருவேன்னு தெரியாது",
+    "ஏனா?<br />நான் வரவே மாட்டேன்.",
+    "இது தானா சேர்ந்த கூட்டம் இல்ல<br />எல்லாம் ஜூனியர் ஆர்ட்டிஸ்ட்",
+    "தமிழ் பாலும் இல்ல<br />தெலுங்கு பாலும் இல்ல<br />என்ன வாழ வைத்தது<br />ஆவின் பாலு ..",
+    "Election வந்தா  பேசமாட்டனே<br />ட்விட்டரில் கருத்து போடமாட்டேன்<br />அரசியலில் நான் குதிகமாட்டேன்<br />பீச்ல தியானம் பண்ண மாட்டேன்",
+    "எனக்கு நடிக்க தெரியாது<br />எங்கப்பா எனக்கு சொல்லித்தரல",
+    "Well , ஓடவும் முடியாது<br />ஒழியவும் முடியாது<br />நான் US  கெளம்பி போய்டுவேன்",
+    "வழு வழு வாழவிடு<br />slow motion  walkகுல  தெறிக்கவிடு<br />நானும் நீயும் நண்பேன்டா",
+    "நான் டிவில<br />இருந்து வந்தவண்டா<br />என் producerருக்கு<br />பாவம் காரே  இல்லடா",
+    "என் உயிர் மூச்சு<br />சங்கம் டா<br />மண்டபம் கட்டிட்டுதான்<br />கல்யாணம் டா",
+    "நான் தலைவன் இல்ல<br />அதுக்கு ஆசை இல்ல<br />ஒரு மன்றம் இல்லடா<br />அத கலைச்சிடேண்டா",
+    "நான் ரொம்ப பேசித்தான்<br />கைல படமே இல்லடா<br />திரும்பி வந்துட்டேன்<br />இப்போ கால்சீட்  இல்லடா",
+    "இது ஆடம் பண்ற சிவா<br />இது தகராறு பண்ற சிவா<br />இது டேமேஜ் பண்ற சிவா<br />இது ஐடியா பண்ற சிவா<br />இது அசால்ட் பண்ற சிவா<br />இது அட்டாக் பண்ற சிவா"
   ],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:C.S.Amudhan",
     "Movie:Tamizh Padam 2",
@@ -30,6 +80,6 @@
     "keywords": "C.S.Amudhan, Tamizh Padam 2, Kannan, Kumaresan, Mark, Naan Yaarumilla full lyrics, Tamizh Padam 2 songs lyrics, Naan Yaarumilla lyrics snippets, Naan Yaarumilla WhatsApp status lyrics snippets, share Naan Yaarumilla lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicWneF53a7TuRkeKZ2JwvK7LeV8hyphenhyphenM7EemZAwgVXbN4vER_b5F9uGwQMAhbij091tZkvqemuEnFkq2nWSBR_6D_zny6e6-_7YrSU_S-AZ-pfTTX9etLGdhlEZ4Pcyl7RF4uSRXh97NspI/s400-c/tamizh+padam+2+naan+yaarumilla.jpeg",
-  "generatedAt": "2026-01-18T12:44:17.070Z",
+  "generatedAt": "2026-02-01T13:03:50.381Z",
   "version": 1
 }

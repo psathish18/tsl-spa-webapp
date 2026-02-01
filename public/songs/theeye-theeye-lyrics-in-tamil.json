@@ -8,11 +8,16 @@
   "musicName": "Harrish Jeyaraj",
   "actorName": "",
   "published": "2012-08-10T21:13:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Pa Vijay",
     "lyricsintamil",
@@ -113,6 +118,6 @@
     "keywords": "Pa Vijay, lyricsintamil, Maattrraan, Harrish Jeyaraj, Aalap Raju, Charulatha Mani, Franco, Sathyan, Theeye Theeye in Tamil Maattrraan full lyrics, Maattrraan songs lyrics, Theeye Theeye in Tamil Maattrraan lyrics snippets, Theeye Theeye in Tamil Maattrraan WhatsApp status lyrics snippets, share Theeye Theeye in Tamil Maattrraan lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQvlksLsHSu2fUqOMxihJYdDJO3oWdXowI074TTVZb8RPYMAMrSFFrZ_z8IyxRcwAUd_x0ZvMTgNOuUHx9VKrv7_Z150yzQNHBNFaz9LhShS5Zm6QN1MLZoexFMynoMNtFUmIAYf6FSa0/s400-c/Theeye+theeye+Lyrics+in+Tamil+-Maattrraan.png",
-  "generatedAt": "2026-01-18T13:06:40.914Z",
+  "generatedAt": "2026-02-01T13:05:51.919Z",
   "version": 1
 }

@@ -8,13 +8,32 @@
   "musicName": "GV PrakashKumar",
   "actorName": "",
   "published": "2012-11-24T22:45:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><table><tbody><tr>  <td><br />Singer:  Yasin, Vandana Srinivasan<br />Song: Avatha Paiyan<br />Movie: Paradesi<br />Music: GV Prakash<br />Lyrics Vairamuthu</td>  <td>",
+    "<table><tbody><tr><td><br />Singer:  Yasin, Vandana Srinivasan<br />Song: Avatha Paiyan<br />Movie: Paradesi<br />Music: GV Prakash<br />Lyrics Vairamuthu</td><td>",
     "Other Songs Lyrics<br />1. <a href=\"http://www.tsonglyrics.com/2012/11/thannai-thaane-lyrics-paradesi-songs.html\" target=\"_blank\">Thannai Thaane</a><br />2. <a href=\"http://www.tsonglyrics.com/2012/11/avatha-paiyan-lyrics-paradesi-songs.html\" target=\"_blank\">Avatha Paiyan</a><br />3. <a href=\"http://www.tsonglyrics.com/2012/11/or-mirugam-lyrics-paradesi-songs-lyrics.html\" target=\"_blank\">Or Mirugam</a> -- <a href=\"http://www.tsonglyrics.com/2012/11/or-mirugam-lyrics-in-tamil-paradesi.html\" target=\"_blank\">in Tamil</a><br />4. <a href=\"http://www.tsonglyrics.com/2012/11/senneer-thaana-lyrics-paradesi-songs.html\" target=\"_blank\">Senneer Thaana</a> --<a href=\"http://www.tsonglyrics.com/2012/11/senneer-thaana-lyrics-in-tamil-paradesi.html\" target=\"_blank\"> in Tamil</a>",
-    "</td>  <td><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQVrHMC8jn5KVIIHhlRe30498cKaFj-7gr5jMyWDf_MN_olXgTfQ-C_rCZdcAwiE-iwnytaFi_MdAntbqVTMC00Uxzcrd935VzVntrmVxnjUarWwl47RbL2JVmTAJLmKz4DjshkAkPEpc/s1600/Paradesi1.jpg\"></a></div></td> </tr></tbody></table><div><span><br /></span><span>Avatha paiyaa</span> sevatha paiyaa</div><div>alichatiyam yenada</div><div>Kavuchi mela aasapatta </div><div>karachaan kunju naanada</div><div><br /></div><div>Peratyil penja pera mazha pola</div><div>nenju kootula neranjiruka</div><div><br /></div><div>kanjiyil karanja uppu kallu pola</div><div>kannu kootula olinjiruka</div><div><br /></div><div>namma boomi varandurikku</div><div>un naaku eeram pattu</div><div>vazhka nenanjirukku</div><div><br /></div><div>Avatha ponney sevatha ponney</div><div>alichatiyam yenadi</div><div><br /></div><div>Venni thanni kaachava</div><div>un mela kaalu oothava</div><div>kaachu pona kaiyila</div><div>un kaanja moonji ketava</div><div><br /></div><div>kottaan kuchyil mel thechi kulikavaiyadi</div><div>yen akku pakka makkaporu aagudhey</div><div>nee thalli nilladi</div><div><span>aaraadhadi thoongaadhadi ..</span></div><div><br /></div><div>Avatha paiya sevatha paiya</div><div>alichatiyam yenada ..</div><div><br /></div><div>Koothu paaka pogalaam</div><div>kooda vaada vaariyaa</div><div>sollu pecha kekuren</div><div>konjam nellu choru thaariya</div><div><br /></div><div>ellu potta eesal thaaren</div><div>unna tharuviya</div><div>naan mundhi potu moodi vachi pookala</div><div>nee mondhu paathiya</div><div><span>muthadaya muttaa paiya</span></div><div><br /></div><div>Avatha ponney sevatha ponney</div><div>alichatiyam yenadi</div><div>iluthuvachi kalutharukka</div><div>elichavaayan naanadi</div><div><br /></div><div>kaiytha arutha kannukutti pola</div><div>sithan pokkil naan alanjen</div><div>karuva chiriki selayil irukki</div><div>katti potu sirikiriye</div><div><br /></div><div>un soolchi palichiriche</div><div>nellu sothu paanaikulla</div><div>poona vilundhiruchey</div><div><br /></div></div>"
+    "</td><td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQVrHMC8jn5KVIIHhlRe30498cKaFj-7gr5jMyWDf_MN_olXgTfQ-C_rCZdcAwiE-iwnytaFi_MdAntbqVTMC00Uxzcrd935VzVntrmVxnjUarWwl47RbL2JVmTAJLmKz4DjshkAkPEpc/s1600/Paradesi1.jpg\"></a><br /></td></tr></tbody></table><span><br /></span><span>Avatha paiyaa</span> sevatha paiyaa<br />alichatiyam yenada<br />Kavuchi mela aasapatta<br />karachaan kunju naanada",
+    "Peratyil penja pera mazha pola<br />nenju kootula neranjiruka",
+    "kanjiyil karanja uppu kallu pola<br />kannu kootula olinjiruka",
+    "namma boomi varandurikku<br />un naaku eeram pattu<br />vazhka nenanjirukku",
+    "Avatha ponney sevatha ponney<br />alichatiyam yenadi",
+    "Venni thanni kaachava<br />un mela kaalu oothava<br />kaachu pona kaiyila<br />un kaanja moonji ketava",
+    "kottaan kuchyil mel thechi kulikavaiyadi<br />yen akku pakka makkaporu aagudhey<br />nee thalli nilladi<br /><span>aaraadhadi thoongaadhadi ..</span>",
+    "Avatha paiya sevatha paiya<br />alichatiyam yenada ..",
+    "Koothu paaka pogalaam<br />kooda vaada vaariyaa<br />sollu pecha kekuren<br />konjam nellu choru thaariya",
+    "ellu potta eesal thaaren<br />unna tharuviya<br />naan mundhi potu moodi vachi pookala<br />nee mondhu paathiya<br /><span>muthadaya muttaa paiya</span>",
+    "Avatha ponney sevatha ponney<br />alichatiyam yenadi<br />iluthuvachi kalutharukka<br />elichavaayan naanadi",
+    "kaiytha arutha kannukutti pola<br />sithan pokkil naan alanjen<br />karuva chiriki selayil irukki<br />katti potu sirikiriye",
+    "un soolchi palichiriche<br />nellu sothu paanaikulla<br />poona vilundhiruchey"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vairamuthu",
     "Movie:Paradesi",
@@ -85,6 +104,6 @@
     "keywords": "Vairamuthu, Paradesi, GV PrakashKumar, Vandhana Srinivasan, Yasin, Avatha Paiyan full lyrics, Paradesi songs lyrics, Avatha Paiyan lyrics snippets, Avatha Paiyan WhatsApp status lyrics snippets, share Avatha Paiyan lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQVrHMC8jn5KVIIHhlRe30498cKaFj-7gr5jMyWDf_MN_olXgTfQ-C_rCZdcAwiE-iwnytaFi_MdAntbqVTMC00Uxzcrd935VzVntrmVxnjUarWwl47RbL2JVmTAJLmKz4DjshkAkPEpc/s400-c/Paradesi1.jpg",
-  "generatedAt": "2026-01-18T13:05:40.307Z",
+  "generatedAt": "2026-02-01T14:29:14.321Z",
   "version": 1
 }

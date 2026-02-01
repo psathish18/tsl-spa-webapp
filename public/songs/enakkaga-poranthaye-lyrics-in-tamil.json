@@ -8,11 +8,18 @@
   "musicName": "Justin Prabhakaran",
   "actorName": "",
   "published": "2014-02-09T09:13:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkjTOUbg-k4gg36rSh0GLlzrjRaU4iksnbyxDyWQk8C3knqs8jvKjWdVfTox5amQKqirbbyGr1gsP-53nzZ5afzTg8WQkowLZa6fBruJz9K6KAWLIHbyGPwspZXLMofU0wXParVpi1Kbs/s1600/Enakkaaga+Porandhaaye+-+Pannaiyaarum+Padhminiyum.png\"></a></div></div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkjTOUbg-k4gg36rSh0GLlzrjRaU4iksnbyxDyWQk8C3knqs8jvKjWdVfTox5amQKqirbbyGr1gsP-53nzZ5afzTg8WQkowLZa6fBruJz9K6KAWLIHbyGPwspZXLMofU0wXParVpi1Kbs/s1600/Enakkaaga+Porandhaaye+-+Pannaiyaarum+Padhminiyum.png\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Pannaiyarum Padminiyum",
     "Music:Justin Prabhakaran",
@@ -60,10 +67,10 @@
   ],
   "seo": {
     "title": "Enakkaga Poranthaye Lyrics in Tamil - Pannaiyarum Padminiyum ",
-    "description": "Full Enakkaga Poranthaye in Tamil songs lyrics in tamil ( ...) Pannaiyarum Padminiyum Songs Lyrics. sharable lyrics snippets, Music: Justin Prabhakaran, Singer(s): Anu Anand, SPB Charan.",
+    "description": "Full Enakkaga Poranthaye in Tamil song lyrics in tamil  ( ...) Pannaiyarum Padminiyum Songs Lyrics. sharable lyrics snippets, Music: Justin Prabhakaran, Singer(s): Anu Anand, SPB Charan.",
     "keywords": "Pannaiyarum Padminiyum, Justin Prabhakaran, Anu Anand, SPB Charan, Enakkaga Poranthaye in Tamil full lyrics, Pannaiyarum Padminiyum songs lyrics, Enakkaga Poranthaye in Tamil lyrics snippets, Enakkaga Poranthaye in Tamil WhatsApp status lyrics snippets, share Enakkaga Poranthaye in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkjTOUbg-k4gg36rSh0GLlzrjRaU4iksnbyxDyWQk8C3knqs8jvKjWdVfTox5amQKqirbbyGr1gsP-53nzZ5afzTg8WQkowLZa6fBruJz9K6KAWLIHbyGPwspZXLMofU0wXParVpi1Kbs/s400-c/Enakkaaga+Porandhaaye+-+Pannaiyaarum+Padhminiyum.png",
-  "generatedAt": "2026-01-18T13:00:54.129Z",
+  "generatedAt": "2026-02-01T13:03:21.809Z",
   "version": 1
 }
