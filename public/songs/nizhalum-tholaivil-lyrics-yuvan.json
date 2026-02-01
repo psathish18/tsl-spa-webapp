@@ -8,11 +8,25 @@
   "musicName": "Joshua Sridhar",
   "actorName": "",
   "published": "2011-09-14T23:20:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>Nizhalum Tholaivil <div>indru nadappadhai paarthaen</div><div>thaanaaga uyirum udaindhu</div><div>ingu viluvadhai paarthaen</div><div><br /></div><div>mudive theriyaa oru </div><div>thodarkadhai aanen</div><div>adadaa yeno ulagam</div><div>pudhir aanadhe</div><div><br /></div><div>thee ondrai pookkalendruthaan</div><div>thaeniyum moiththadhe</div><div>kaayangal nenjam engum</div><div>uruvaanadhe</div><div><br /></div><div>uravendru enni vandhadhu</div><div>kanvaagi ponadhe</div><div>kaalangal maaya velayai </div><div>kaattudhe</div><div><br /></div><div>naan vazhndha </div><div>naatkal ellaam sariyaa</div><div>venneeril poattu vaitha</div><div>vidhayaa</div><div><br /></div><div>vazhvengum kavidhai</div><div>noolin pilayaa</div><div>puriyaama thaane thavithaen</div><div><br /></div><div><div>thee ondrai pookkalendruthaan</div><div>thaeniyum moiththadhe</div><div>kaayangal nenjam engum</div><div>uruvaanadhe</div><div><br /></div><div>uravendru enni vandhadhu</div><div>kanvaagi ponadhe</div><div>kaalangal maaya velayai </div><div>kaattudhe</div></div><div><br /></div></div>"
+    "Nizhalum Tholaivil indru nadappadhai paarthaen<br />thaanaaga uyirum udaindhu<br />ingu viluvadhai paarthaen",
+    "mudive theriyaa oru<br />thodarkadhai aanen<br />adadaa yeno ulagam<br />pudhir aanadhe",
+    "thee ondrai pookkalendruthaan<br />thaeniyum moiththadhe<br />kaayangal nenjam engum<br />uruvaanadhe",
+    "uravendru enni vandhadhu<br />kanvaagi ponadhe<br />kaalangal maaya velayai<br />kaattudhe",
+    "naan vazhndha<br />naatkal ellaam sariyaa<br />venneeril poattu vaitha<br />vidhayaa",
+    "vazhvengum kavidhai<br />noolin pilayaa<br />puriyaama thaane thavithaen",
+    "thee ondrai pookkalendruthaan<br />thaeniyum moiththadhe<br />kaayangal nenjam engum<br />uruvaanadhe",
+    "uravendru enni vandhadhu<br />kanvaagi ponadhe<br />kaalangal maaya velayai<br />kaattudhe"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Viveka",
     "Movie:Yuvan",
@@ -82,6 +96,6 @@
     "keywords": "Viveka, Yuvan, Joshua Sridhar, Karthik, Nizhalum Tholaivil full lyrics, Yuvan songs lyrics, Nizhalum Tholaivil lyrics snippets, Nizhalum Tholaivil WhatsApp status lyrics snippets, share Nizhalum Tholaivil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T13:09:31.134Z",
+  "generatedAt": "2026-02-01T13:08:06.891Z",
   "version": 1
 }

@@ -8,11 +8,25 @@
   "musicName": "Thaman S",
   "actorName": "",
   "published": "2014-08-14T23:15:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqvOoVVzacIp3LmEgejFcGIGtgOU6snDibloPNN_83beMDBM-La49MxWgE30Lv364d0Gq4MbVlbshTzIWq040YoYii5JtJEXg3rt-O0UGRohorULsLbrCTvRPlsjV4_do-tlHt88yVe1c/s1600/Meaghamann.jpg\"></a>Song :Meaghamann</div><div>Movie : Meaghamann</div><div>Singer :M.M. Manasi &amp; M.M. Monissha</div><div>Music :SS Thaman</div><div>Lyrics :Karky</div><div><br /></div><div>Nizhalae illaan</div><div>engum puguvaan</div><div><br /></div><div>bayamae illaan</div><div>theeyayai anivaan</div><div><br /></div><div>Karaigal illaan</div><div>kaattraai virivaan</div><div><br /></div><div>Ezhum alaigalai </div><div>kizhiththeribavan evan ?</div><div><br /></div><div>Thadai thagarthadadhil</div><div>vidai adaibavan evan ?</div><div>meagha meaghamen</div><div>meagha meaghamen</div><div>meagha meaghamen thaanae</div><div><br /></div><div>Nizhalae illaan</div><div>bayamae illaan</div><div><br /></div><div>Source: https://www.youtube.com/watch?v=jYCMuYqo0gE</div></div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqvOoVVzacIp3LmEgejFcGIGtgOU6snDibloPNN_83beMDBM-La49MxWgE30Lv364d0Gq4MbVlbshTzIWq040YoYii5JtJEXg3rt-O0UGRohorULsLbrCTvRPlsjV4_do-tlHt88yVe1c/s1600/Meaghamann.jpg\"></a>Song :Meaghamann<br />Movie : Meaghamann<br />Singer :M.M. Manasi &amp; M.M. Monissha<br />Music :SS Thaman<br />Lyrics :Karky",
+    "Nizhalae illaan<br />engum puguvaan",
+    "bayamae illaan<br />theeyayai anivaan",
+    "Karaigal illaan<br />kaattraai virivaan",
+    "Ezhum alaigalai<br />kizhiththeribavan evan ?",
+    "Thadai thagarthadadhil<br />vidai adaibavan evan ?<br />meagha meaghamen<br />meagha meaghamen<br />meagha meaghamen thaanae",
+    "Nizhalae illaan<br />bayamae illaan",
+    "Source: https://www.youtube.com/watch?v=jYCMuYqo0gE"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Karky",
     "Movie:Meaghamann",
@@ -56,6 +70,6 @@
     "keywords": "Karky, Meaghamann, Thaman S, Manasi MM, Monissha MM, Meaghamann full lyrics, Meaghamann songs lyrics, Meaghamann lyrics snippets, Meaghamann WhatsApp status lyrics snippets, share Meaghamann lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqvOoVVzacIp3LmEgejFcGIGtgOU6snDibloPNN_83beMDBM-La49MxWgE30Lv364d0Gq4MbVlbshTzIWq040YoYii5JtJEXg3rt-O0UGRohorULsLbrCTvRPlsjV4_do-tlHt88yVe1c/s400-c/Meaghamann.jpg",
-  "generatedAt": "2026-01-18T12:58:20.257Z",
+  "generatedAt": "2026-02-01T13:08:36.074Z",
   "version": 1
 }

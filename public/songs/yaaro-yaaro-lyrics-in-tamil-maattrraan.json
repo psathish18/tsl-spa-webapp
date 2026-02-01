@@ -8,11 +8,16 @@
   "musicName": "Harrish Jeyaraj",
   "actorName": "",
   "published": "2012-08-10T21:10:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Thamarai",
     "lyricsintamil",
@@ -111,6 +116,6 @@
     "keywords": "Thamarai, lyricsintamil, Maattrraan, Harrish Jeyaraj, Karthik, Priya Himesh, Yaaro Yaaro in Tamil Maattrraan full lyrics, Maattrraan songs lyrics, Yaaro Yaaro in Tamil Maattrraan lyrics snippets, Yaaro Yaaro in Tamil Maattrraan WhatsApp status lyrics snippets, share Yaaro Yaaro in Tamil Maattrraan lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK4gSToLkJeRUL-wJMHLncqirV_MR5Sss1Y5ZDA1TpM7PVEuxmcRk_v5DNT3wRylJgXoIorbxcGpoeSZbHi1F6k6znhxczCWMRPDrhffierLY0OV-kT-srjwOkmSotmJNdV9GWonRToAI/s400-c/Yaaro+Yaaro+Lyrics+in+Tamil+-Maattrraan.png",
-  "generatedAt": "2026-01-18T13:06:41.794Z",
+  "generatedAt": "2026-02-01T13:02:07.361Z",
   "version": 1
 }

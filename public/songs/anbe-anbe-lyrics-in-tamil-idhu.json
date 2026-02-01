@@ -8,11 +8,16 @@
   "musicName": "Harrish Jeyaraj",
   "actorName": "",
   "published": "2014-01-27T22:24:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Thamarai",
     "lyricsintamil",
@@ -80,10 +85,10 @@
   ],
   "seo": {
     "title": "Anbe Anbe Lyrics in Tamil - Idhu Kathirvelan Kadhal",
-    "description": "Full Anbe Anbe in Tamil songs lyrics in tamil ( ...) Idhu Kathirvelan Kadhal Songs Lyrics. sharable lyrics snippets, Lyrics: Thamarai, Music: Harrish Jeyaraj, Singer(s): Harini, Harish Ragavendra.",
+    "description": "Full Anbe Anbe in Tamil song lyrics in tamil  ( ...) Idhu Kathirvelan Kadhal Songs Lyrics. sharable lyrics snippets, Lyrics: Thamarai, Music: Harrish Jeyaraj, Singer(s): Harini, Harish Ragavendra.",
     "keywords": "Thamarai, lyricsintamil, Idhu Kathirvelan Kadhal, Harrish Jeyaraj, Harini, Harish Ragavendra, Anbe Anbe in Tamil full lyrics, Idhu Kathirvelan Kadhal songs lyrics, Anbe Anbe in Tamil lyrics snippets, Anbe Anbe in Tamil WhatsApp status lyrics snippets, share Anbe Anbe in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1nEDXkDzu-2MxEcFpPrRP3xwAicl_EpBR3ZQnsStDS__-1D4zSBGjJHsYFqzr3TbAx-IElzU-fo3_m-UhGa6CVwVo3380FCYZOTb6wHVUe-CtHMxucnJmzACMBlgGllR0-7LczddnMrQ/s400-c/IKK+Anbe+Anbe+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T13:01:03.226Z",
+  "generatedAt": "2026-02-01T13:17:59.102Z",
   "version": 1
 }

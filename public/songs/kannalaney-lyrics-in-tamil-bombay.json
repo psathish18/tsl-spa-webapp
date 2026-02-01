@@ -8,11 +8,16 @@
   "musicName": "AR Rahman",
   "actorName": "",
   "published": "2014-05-11T12:32:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><div></div><br /></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vairamuthu",
     "lyricsintamil",
@@ -71,10 +76,10 @@
   ],
   "seo": {
     "title": "Kannalaney Lyrics in Tamil - Bombay",
-    "description": "Full Kannalaney Lyrics in Tamil songs lyrics in tamil ( ...) Bombay Songs Lyrics. sharable lyrics snippets, Lyrics: Vairamuthu, Music: AR Rahman, Singer(s): AR Rahman, K.S.Chitra.",
+    "description": "Full Kannalaney Lyrics in Tamil song lyrics in tamil  ( ...) Bombay Songs Lyrics. sharable lyrics snippets, Lyrics: Vairamuthu, Music: AR Rahman, Singer(s): AR Rahman, K.S.Chitra.",
     "keywords": "Vairamuthu, lyricsintamil, Bombay, AR Rahman, AR Rahman, K.S.Chitra, Kannalaney Lyrics in Tamil full lyrics, Bombay songs lyrics, Kannalaney Lyrics in Tamil lyrics snippets, Kannalaney Lyrics in Tamil WhatsApp status lyrics snippets, share Kannalaney Lyrics in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipIVcdRYNBy4m8uRlpxjCazVb0PnlTeZ1jj7XU8s9mTu9WhuwGd7Kknc5gbUhexVeUgfsB4YOMkkSuEYXXlWR75iHCvamDZswbOnMmJEjQxJD25qC-6tEuDuq0-H09kRaOnp0m5XEaVDg/s400-c/Bombay+Kannalaey+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T12:59:29.103Z",
+  "generatedAt": "2026-02-01T13:04:46.280Z",
   "version": 1
 }

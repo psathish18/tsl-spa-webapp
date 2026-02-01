@@ -8,13 +8,20 @@
   "musicName": "Yuvan",
   "actorName": "",
   "published": "2010-06-27T20:31:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><span></span><br /><div><span>Singers      : Udit Narayan<br />Composer : Yuvan Shankar Raja</span></div><div><span><br /></span></div><div><span>Oru Vaanavillin Pakkathilae<br />Vaazhdhu Paarkiren Naanae<br />En Vaasal Mattum Nanaikum<br />Mazhaiyaai Paarkiraenae</span></div><div><span>Ennai Sotta Sotta Nanaiyavaithaai<br />Nenjai Kittatatta Karayavaithaayae<br />Aval Azhagenum Nathiyil Vizhugiraen Thunaiyaai<br />Ennai Urumaatrinaai, Kaathal Kathai Aaetrinaai</span></div><div><span><br />Oru Vaanavillin Pakkathilae ....",
-    "Netru Varaiyil Naan Kaatru Veesinaal<br />Nindru Rasithadhu Illai..<br />Viralgal Koarkaiyil Viruppam Koduthidum<br />Neruppil Erinthadhu Illai..<br />Thottu Paesinaal Evano Aagiraen..<br />Unnai Vittu Pirigaiyil Konjamaai Saagiraen..<br />Mithakiraen Parakiraen Maegathai Pidikiraen<br />Arugilae Santhiya Yogathil Kuthikiraen<br />Ithupothum Pennae Ithupothum</span></div><div><span><br />Oru Vaanavillin Pakkathilae ...",
-    "Ithupothum Pennae Ithupothum<br />Ithupothum Pennae Ithupothum<br />Enga Nadakiraen Etharku Sirikiraen<br />Vazhathai Marakkiraen Naanae..<br />Kudaigal Irunthumae Mazhaiyil Nanaivathu<br />Kaathal Vanthapin Thaanae..</span></div><div><span><br />Thanthai Arugilae Ithuvarai Thoonginaen<br />Thannan Thanimaiyai Indru Naan Virumbinaen<br />Ithu Enna Ilamaigal Nadathidum Mothala<br />Ithayathil Kothikkira Kazhichalae Kaathala<br />Ithupothum Pennae Ithupothum</span></div><div><span><br />Oru Vaanavillin Pakkathilae ...</span></div></div>"
+    "<span></span><br /><span>Singers      : Udit Narayan<br />Composer : Yuvan Shankar Raja</span><br /><span><br /></span><br /><span>Oru Vaanavillin Pakkathilae<br />Vaazhdhu Paarkiren Naanae<br />En Vaasal Mattum Nanaikum<br />Mazhaiyaai Paarkiraenae</span><br /><span>Ennai Sotta Sotta Nanaiyavaithaai<br />Nenjai Kittatatta Karayavaithaayae<br />Aval Azhagenum Nathiyil Vizhugiraen Thunaiyaai<br />Ennai Urumaatrinaai, Kaathal Kathai Aaetrinaai</span><br /><span><br />Oru Vaanavillin Pakkathilae ....",
+    "Netru Varaiyil Naan Kaatru Veesinaal<br />Nindru Rasithadhu Illai..<br />Viralgal Koarkaiyil Viruppam Koduthidum<br />Neruppil Erinthadhu Illai..<br />Thottu Paesinaal Evano Aagiraen..<br />Unnai Vittu Pirigaiyil Konjamaai Saagiraen..<br />Mithakiraen Parakiraen Maegathai Pidikiraen<br />Arugilae Santhiya Yogathil Kuthikiraen<br />Ithupothum Pennae Ithupothum</span><br /><span><br />Oru Vaanavillin Pakkathilae ...",
+    "Ithupothum Pennae Ithupothum<br />Ithupothum Pennae Ithupothum<br />Enga Nadakiraen Etharku Sirikiraen<br />Vazhathai Marakkiraen Naanae..<br />Kudaigal Irunthumae Mazhaiyil Nanaivathu<br />Kaathal Vanthapin Thaanae..</span><br /><span><br />Thanthai Arugilae Ithuvarai Thoonginaen<br />Thannan Thanimaiyai Indru Naan Virumbinaen<br />Ithu Enna Ilamaigal Nadathidum Mothala<br />Ithayathil Kothikkira Kazhichalae Kaathala<br />Ithupothum Pennae Ithupothum</span><br /><span><br />Oru Vaanavillin Pakkathilae ...</span>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Na Muthukumar",
     "Movie:Kadhal Solla Vandhen",
@@ -48,6 +55,6 @@
     "keywords": "Na Muthukumar, Kadhal Solla Vandhen, Yuvan, Udit Narayan, Oru Vaanavillin Pakkathilae full lyrics, Kadhal Solla Vandhen songs lyrics, Oru Vaanavillin Pakkathilae lyrics snippets, Oru Vaanavillin Pakkathilae WhatsApp status lyrics snippets, share Oru Vaanavillin Pakkathilae lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T13:12:15.799Z",
+  "generatedAt": "2026-02-01T14:31:08.991Z",
   "version": 1
 }

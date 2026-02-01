@@ -8,11 +8,24 @@
   "musicName": "",
   "actorName": "",
   "published": "2018-06-29T18:47:00.002+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\nen kanmani unna parkaama<br />\n<div>\nunna parthathum uyir seraama</div>\n<div>\nada naanumthaan inga vazhaama</div>\n<div>\nkedanthen</div>\n<div>\n<br /></div>\n<div>\nunna parthathum vizhi </div>\n<div>\nfuse poga.</div>\n<div>\nada naanumthaan inga</div>\n<div>\nloose aaga.</div>\n<div>\nada neeyumthaan </div>\n<div>\nvittu pogaatha.</div>\n<div>\npenne</div>\n<div>\n<br /></div>\n<div>\npalanaalu kanvil naanum</div>\n<div>\noru maathiri unna paarthen</div>\n<div>\nkanmoodi thirakkum podhu</div>\n<div>\nneeyum engo poniyede</div>\n<div>\n<br /></div>\n<div>\nen nilavu engae </div>\n<div>\nadhi veezhnthathe</div>\n<div>\nen iravu engo adhu </div>\n<div>\nponathe.</div>\n<div>\n<br /></div>\n<div>\nen imaigal adhu</div>\n<div>\nengo theduthe</div>\n<div>\nen imaigal athai </div>\n<div>\ningu theduthe.</div>\n<div>\nadhu vidiyum varai</div>\n<div>\nengo ponathe</div>\n<div>\n<br /></div>\n<div>\noru naal unnai paarthenadi</div>\n<div>\nen kadhal unnai serthu vaika</div>\n<div>\n...</div>\n<div>\n<br /></div>\n<div>\nsource: <a href=\"https://www.youtube.com/watch?v=Hh362h2xrWI\">https://www.youtube.com/watch?v=Hh362h2xrWI</a></div>\n<div>\n<br /></div>\n</div>"
+    "en kanmani unna parkaama<br />unna parthathum uyir seraama<br />ada naanumthaan inga vazhaama<br />kedanthen",
+    "unna parthathum vizhi<br />fuse poga.<br />ada naanumthaan inga<br />loose aaga.<br />ada neeyumthaan<br />vittu pogaatha.<br />penne",
+    "palanaalu kanvil naanum<br />oru maathiri unna paarthen<br />kanmoodi thirakkum podhu<br />neeyum engo poniyede",
+    "en nilavu engae<br />adhi veezhnthathe<br />en iravu engo adhu<br />ponathe.",
+    "en imaigal adhu<br />engo theduthe<br />en imaigal athai<br />ingu theduthe.<br />adhu vidiyum varai<br />engo ponathe",
+    "oru naal unnai paarthenadi<br />en kadhal unnai serthu vaika<br />...",
+    "source: <a href=\"https://www.youtube.com/watch?v=Hh362h2xrWI\">https://www.youtube.com/watch?v=Hh362h2xrWI</a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Albums",
     "Song:En Kanmani Unna Pakkama - Album"
@@ -24,6 +37,6 @@
     "keywords": "Albums, En Kanmani Unna Pakkama full lyrics,  songs lyrics, En Kanmani Unna Pakkama lyrics snippets, En Kanmani Unna Pakkama WhatsApp status lyrics snippets, share En Kanmani Unna Pakkama lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T12:44:16.000Z",
+  "generatedAt": "2026-02-01T13:08:46.266Z",
   "version": 1
 }

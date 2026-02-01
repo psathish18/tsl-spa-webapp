@@ -8,12 +8,21 @@
   "musicName": "",
   "actorName": "",
   "published": "2018-07-31T12:31:00.003+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\nHey penne En Nenjai<br />\n<div>\nkondu selgiraai</div>\n<div>\nnee tholaivil </div>\n<div>\nirundhaalum kaayam</div>\n<div>\nseigiraai</div>\n<div>\n<br /></div>\n<div>\nsollada kanne</div>\n<div>\nneeyum enna kadhalan</div>\n<div>\nkanavugal kalaiya</div>\n<div>\nkandene.</div>\n<div>\n<br /></div>\n<div>\nPyaar Prema Kaadhal</div>\n<div>\nPyaar Prema Kaadhal</div>\n<div>\nPyaar Prema Kaadhal",
-    "<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn0e1t8ij6pI2kPlSG_dJohWbOXBPfQ-kq-Vhmrgt_OtMxCEgZr8YZOmheSBmD7aB6GktzN7WXQWPZLwppu4a8Riiq2AnUYg2wQsl3cle6rs9RykWchd5CbDd-iBX4RP7LVLaNJ9-jng/s1600/Pyaar+Prema+Kaadhal+Songs+Lyrics.jpeg\"></a></div>\n</div>\n<div>\n<br /></div>\n</div>"
+    "Hey penne En Nenjai<br />kondu selgiraai<br />nee tholaivil<br />irundhaalum kaayam<br />seigiraai",
+    "sollada kanne<br />neeyum enna kadhalan<br />kanavugal kalaiya<br />kandene.",
+    "Pyaar Prema Kaadhal<br />Pyaar Prema Kaadhal<br />Pyaar Prema Kaadhal",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn0e1t8ij6pI2kPlSG_dJohWbOXBPfQ-kq-Vhmrgt_OtMxCEgZr8YZOmheSBmD7aB6GktzN7WXQWPZLwppu4a8Riiq2AnUYg2wQsl3cle6rs9RykWchd5CbDd-iBX4RP7LVLaNJ9-jng/s1600/Pyaar+Prema+Kaadhal+Songs+Lyrics.jpeg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Elan",
     "Movie:Pyaar Prema Kadhal",
@@ -73,6 +82,6 @@
     "keywords": "Elan, Pyaar Prema Kadhal, Yuvan, Miss You Papa full lyrics, Pyaar Prema Kadhal songs lyrics, Miss You Papa lyrics snippets, Miss You Papa WhatsApp status lyrics snippets, share Miss You Papa lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn0e1t8ij6pI2kPlSG_dJohWbOXBPfQ-kq-Vhmrgt_OtMxCEgZr8YZOmheSBmD7aB6GktzN7WXQWPZLwppu4a8Riiq2AnUYg2wQsl3cle6rs9RykWchd5CbDd-iBX4RP7LVLaNJ9-jng/s400-c/Pyaar+Prema+Kaadhal+Songs+Lyrics.jpeg",
-  "generatedAt": "2026-01-18T12:43:49.179Z",
+  "generatedAt": "2026-02-01T14:30:50.611Z",
   "version": 1
 }

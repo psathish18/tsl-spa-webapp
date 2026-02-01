@@ -8,11 +8,16 @@
   "musicName": "",
   "actorName": "",
   "published": "2013-12-21T16:52:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><br /></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Veeram",
@@ -85,10 +90,10 @@
   ],
   "seo": {
     "title": "Nallavannu Solvaanga Lyrics in Tamil ",
-    "description": "Full Nallavannu Solvaanga in Tamil songs lyrics in tamil ( ...) Veeram Songs Lyrics. sharable lyrics snippets,.",
+    "description": "Full Nallavannu Solvaanga in Tamil song lyrics in tamil  ( ...) Veeram Songs Lyrics. sharable lyrics snippets,.",
     "keywords": "lyricsintamil, Veeram, Nallavannu Solvaanga in Tamil full lyrics, Veeram songs lyrics, Nallavannu Solvaanga in Tamil lyrics snippets, Nallavannu Solvaanga in Tamil WhatsApp status lyrics snippets, share Nallavannu Solvaanga in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwFxmjshUp7t9yOWhHuUzyjU7X72F4o-bDy_oscRQFt_cct89k4qcLYTmvWolhbufaWd8x_40BNDyVn4xI1_6OA8onyKlPJXKJ7JVGiT9d8YqmOWexc_Ak7nu5FVJ2UgOD2Fihqcl4zJI/s400-c/Veeram.png",
-  "generatedAt": "2026-01-18T13:01:37.680Z",
+  "generatedAt": "2026-02-01T13:02:57.026Z",
   "version": 1
 }

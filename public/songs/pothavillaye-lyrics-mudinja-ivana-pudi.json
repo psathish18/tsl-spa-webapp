@@ -8,12 +8,34 @@
   "musicName": "D Imman",
   "actorName": "",
   "published": "2016-08-12T21:55:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><span>pothavillaye pothavillaiye</span></div><div><span>unnaippola bhothai </span></div><div><span>yeathum illaiye (2)</span></div><div><br /></div><div><span>naal muzhukka unnai </span></div><div><span>kangal thindra pinnum</span></div><div><span>unthan sorkal reithu </span></div><div><span>naan nanaitha pinnum</span></div><div><br /></div><div><span>innum innum pakkam vanthum</span></div><div><span>kittathatta oddi kondum</span></div><div><span>moochil theeyum </span></div><div><span>patri kondum...mm</span></div><div><br /></div><div><span>pothavillaye pothavillaiye</span></div><div><span>unnaippola bhothai </span></div><div><span>yeathum illaiye (2)</span></div><div><br /></div><div><span>theaneerai naam urinjum </span></div><div><span>maalai pothathe</span></div><div><span>kai korthu poga intha </span></div><div><span>saalai pothathe</span></div><div><br /></div><div><span>en enana vinkalam naan sollave</span></div><div><span>kaipeasi minkalam pothathadi</span></div><div><span>un azhakai paruga en kangal pothathadi</span></div><div><span>en nilaiyai ezhutha vaanangal pothathadi</span></div><div><br /></div><div><span>nera mullai pin izhuthum</span></div><div><span>vaaram ettu naal koduthum</span></div><div><span>sutrum bhoomiyai thaduthathea</span></div><div><br /></div><div><span>yeh...!</span></div><div><br /></div><div><span>pothavillaye pothavillaiye</span></div><div><span>unnaippola bhothai </span></div><div><span>yeathum illaiye</span></div><div><br /></div><div><span>koozhangal koovugindra </span></div><div><span>gaanam pothathe</span></div><div><span>koosaamal koodugindra </span></div><div><span>naanam pothathe</span></div><div><br /></div><div><span>thonnooru aandugal nee keatkiroy</span></div><div><span>genmangal aayiram pothathada</span></div><div><span>nam kanavai sethukka </span></div><div><span>pearandam pothathada</span></div><div><span>ivvulagil irukkum </span></div><div><span>deivangal pothathada</span></div><div><br /></div><div><span>kuddi kuddi kobam kondu</span></div><div><span>kaddi muddi mothi kondu</span></div><div><span>thiddi thiddi theertha pinnum...mm</span></div><div><br /></div><div><span>pothavillaye pothavillaiye</span></div><div><span>unnaippola bhothai </span></div><div><span>yeathum illaiye</span></div><div><br /></div><div><span>shswasha paiyil unthan</span></div><div><span>vaasam pooddi vaithum</span></div><div><span>nencha yeaddil yeangum</span></div><div><span>un pearai theeddi vaithum</span></div><div><br /></div><div><span>paadal theerntha pona pinnum</span></div><div><span>mounam kooda theerntha pinnum</span></div><div><span>kodi muththam vaitha pinnum..mm</span></div><div><br /></div><div><span>pothavillaye pothavillaiye</span></div><div><span>unnaippola bhothai </span></div><span><span>yeathum illaiye </span></span>",
-    "<div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipog5c4C3fbX7H9WzGYVZnoUPHoPEp5c7yVjBE6_PafI_HmPFLyHNr65Vh3gIRHCG3pBvl1G0ybbQaltHch3scSkB-eMDvg0LjzgbXFrgmWPYlgVvYs_zO7CvMqWxYlh_KxlvyLstDUbo/s1600/Mudinja-Ivana-Pudi.jpg\"></a></div><span><span><br /></span></span></div>"
+    "<span>pothavillaye pothavillaiye</span><br /><span>unnaippola bhothai </span><br /><span>yeathum illaiye (2)</span>",
+    "<span>naal muzhukka unnai </span><br /><span>kangal thindra pinnum</span><br /><span>unthan sorkal reithu </span><br /><span>naan nanaitha pinnum</span>",
+    "<span>innum innum pakkam vanthum</span><br /><span>kittathatta oddi kondum</span><br /><span>moochil theeyum </span><br /><span>patri kondum...mm</span>",
+    "<span>pothavillaye pothavillaiye</span><br /><span>unnaippola bhothai </span><br /><span>yeathum illaiye (2)</span>",
+    "<span>theaneerai naam urinjum </span><br /><span>maalai pothathe</span><br /><span>kai korthu poga intha </span><br /><span>saalai pothathe</span>",
+    "<span>en enana vinkalam naan sollave</span><br /><span>kaipeasi minkalam pothathadi</span><br /><span>un azhakai paruga en kangal pothathadi</span><br /><span>en nilaiyai ezhutha vaanangal pothathadi</span>",
+    "<span>nera mullai pin izhuthum</span><br /><span>vaaram ettu naal koduthum</span><br /><span>sutrum bhoomiyai thaduthathea</span>",
+    "<span>yeh...!</span>",
+    "<span>pothavillaye pothavillaiye</span><br /><span>unnaippola bhothai </span><br /><span>yeathum illaiye</span>",
+    "<span>koozhangal koovugindra </span><br /><span>gaanam pothathe</span><br /><span>koosaamal koodugindra </span><br /><span>naanam pothathe</span>",
+    "<span>thonnooru aandugal nee keatkiroy</span><br /><span>genmangal aayiram pothathada</span><br /><span>nam kanavai sethukka </span><br /><span>pearandam pothathada</span><br /><span>ivvulagil irukkum </span><br /><span>deivangal pothathada</span>",
+    "<span>kuddi kuddi kobam kondu</span><br /><span>kaddi muddi mothi kondu</span><br /><span>thiddi thiddi theertha pinnum...mm</span>",
+    "<span>pothavillaye pothavillaiye</span><br /><span>unnaippola bhothai </span><br /><span>yeathum illaiye</span>",
+    "<span>shswasha paiyil unthan</span><br /><span>vaasam pooddi vaithum</span><br /><span>nencha yeaddil yeangum</span><br /><span>un pearai theeddi vaithum</span>",
+    "<span>paadal theerntha pona pinnum</span><br /><span>mounam kooda theerntha pinnum</span><br /><span>kodi muththam vaitha pinnum..mm</span>",
+    "<span>pothavillaye pothavillaiye</span><br /><span>unnaippola bhothai </span><br /><span><span>yeathum illaiye </span></span>",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipog5c4C3fbX7H9WzGYVZnoUPHoPEp5c7yVjBE6_PafI_HmPFLyHNr65Vh3gIRHCG3pBvl1G0ybbQaltHch3scSkB-eMDvg0LjzgbXFrgmWPYlgVvYs_zO7CvMqWxYlh_KxlvyLstDUbo/s1600/Mudinja-Ivana-Pudi.jpg\"></a><br /><span><span><br /></span></span><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Karky",
     "Movie:mudinja ivana pudi",
@@ -28,6 +50,6 @@
     "keywords": "Karky, mudinja ivana pudi, D Imman, Shreya Goshal, pothavillaye full lyrics, mudinja ivana pudi songs lyrics, pothavillaye lyrics snippets, pothavillaye WhatsApp status lyrics snippets, share pothavillaye lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipog5c4C3fbX7H9WzGYVZnoUPHoPEp5c7yVjBE6_PafI_HmPFLyHNr65Vh3gIRHCG3pBvl1G0ybbQaltHch3scSkB-eMDvg0LjzgbXFrgmWPYlgVvYs_zO7CvMqWxYlh_KxlvyLstDUbo/s400-c/Mudinja-Ivana-Pudi.jpg",
-  "generatedAt": "2026-01-18T12:50:23.444Z",
+  "generatedAt": "2026-02-01T14:33:27.070Z",
   "version": 1
 }

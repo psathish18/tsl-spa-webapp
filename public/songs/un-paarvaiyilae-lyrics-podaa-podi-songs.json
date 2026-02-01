@@ -8,13 +8,20 @@
   "musicName": "Dharan Kumar",
   "actorName": "",
   "published": "2012-10-12T20:29:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><table><tbody><tr>  <td>Song: Un Paarvaiyilae<br />Singers:  Sindhu, Moonisha, Pradeep<br />Movie: Poda Podi<br />Music: Dharan<br />Lyrics : Vignesh Shivan</td>   <td><br />Other Songs Lyrics<br /><a href=\"http://www.tsonglyrics.com/2012/09/love-panlama-venama-lyrics-poda-podi.html\">Love Panlaama Venaama</a><a href=\"http://www.tsonglyrics.com/2012/10/aiyyayo-maattikittenae-lyrics-podaa.html\">Aiyyayo Maattikitteney</a><a href=\"http://www.tsonglyrics.com/2012/10/podaa-podi-lyrics-podaa-podi-songs.html\">Podaa Podi Kadhalai</a><a href=\"http://www.tsonglyrics.com/2012/10/un-paarvaiyilae-lyrics-podaa-podi-songs.html\">Un Paarvayilaye</a><a href=\"http://www.tsonglyrics.com/2012/10/hare-rama-hare-krishna-lyrics-poda-podi.html\" target=\"_blank\">Hare Rama Hare Krishna</a></td>   <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-rWS7u3YvQO9U5M3wWGA5UpWoB5NFoPhkAFLtu9csm4LkH0YMaroWu8G83JxxdmJL5BpzdTSL0vJFTTMAE-TppItL06snJjgtBjwet4OxGAD2mVgVaiHc3nZyf2Mv8kb_Wuwj3a5aeM/s1600/poda-podi+lyrics.jpg\"></a></td></tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words <br />Un paarvayila naan modhi kondaeney<br />Un pechiniley naan paadi Kondeney<br />Unpol  evanayumey idhuvarai naan kandadhey illa",
+    "<table><tbody><tr><td>Song: Un Paarvaiyilae<br />Singers:  Sindhu, Moonisha, Pradeep<br />Movie: Poda Podi<br />Music: Dharan<br />Lyrics : Vignesh Shivan</td><td><br />Other Songs Lyrics<br /><ul><li><a href=\"http://www.tsonglyrics.com/2012/09/love-panlama-venama-lyrics-poda-podi.html\">Love Panlaama Venaama</a></li><li><a href=\"http://www.tsonglyrics.com/2012/10/aiyyayo-maattikittenae-lyrics-podaa.html\">Aiyyayo Maattikitteney</a></li><li><a href=\"http://www.tsonglyrics.com/2012/10/podaa-podi-lyrics-podaa-podi-songs.html\">Podaa Podi Kadhalai</a></li><li><a href=\"http://www.tsonglyrics.com/2012/10/un-paarvaiyilae-lyrics-podaa-podi-songs.html\">Un Paarvayilaye</a></li><li><a href=\"http://www.tsonglyrics.com/2012/10/hare-rama-hare-krishna-lyrics-poda-podi.html\" target=\"_blank\">Hare Rama Hare Krishna</a></li></ul></td><td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-rWS7u3YvQO9U5M3wWGA5UpWoB5NFoPhkAFLtu9csm4LkH0YMaroWu8G83JxxdmJL5BpzdTSL0vJFTTMAE-TppItL06snJjgtBjwet4OxGAD2mVgVaiHc3nZyf2Mv8kb_Wuwj3a5aeM/s1600/poda-podi+lyrics.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish<br />Exact translation of tamil words<br />Un paarvayila naan modhi kondaeney<br />Un pechiniley naan paadi Kondeney<br />Unpol  evanayumey idhuvarai naan kandadhey illa",
     "Un paarvaiyaale naan kadhal Kondeney<br />Un pechin meley naan podhi kondeney<br />Unpol evanayum idhuvarai naan kandadhey illai",
-    "Un moojin meley naan kadhal kondeney<br />Un kannai paarthu naan fever kondeney<br />Unpol evalayum idhuvarai naan kandadhey illai </td> <td>English Translation  <br />I tried my best :)  <br />[english lyric]  </td> </tr></tbody></table></div>"
+    "Un moojin meley naan kadhal kondeney<br />Un kannai paarthu naan fever kondeney<br />Unpol evalayum idhuvarai naan kandadhey illai </td><td>English Translation<br />I tried my best :)<br />[english lyric]  </td></tr></tbody></table><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vignesh Shivan",
     "Movie:Poda Podi",
@@ -77,6 +84,6 @@
     "keywords": "Vignesh Shivan, Poda Podi, Dharan Kumar, Moonisha, Pradeep, Sindhu, Un Paarvaiyilae full lyrics, Poda Podi songs lyrics, Un Paarvaiyilae lyrics snippets, Un Paarvaiyilae WhatsApp status lyrics snippets, share Un Paarvaiyilae lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-rWS7u3YvQO9U5M3wWGA5UpWoB5NFoPhkAFLtu9csm4LkH0YMaroWu8G83JxxdmJL5BpzdTSL0vJFTTMAE-TppItL06snJjgtBjwet4OxGAD2mVgVaiHc3nZyf2Mv8kb_Wuwj3a5aeM/s400-c/poda-podi+lyrics.jpg",
-  "generatedAt": "2026-01-18T13:05:47.405Z",
+  "generatedAt": "2026-02-01T14:34:16.719Z",
   "version": 1
 }

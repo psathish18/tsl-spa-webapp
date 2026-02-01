@@ -8,13 +8,29 @@
   "musicName": "Justin Prabhakaran",
   "actorName": "",
   "published": "2016-04-07T00:31:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>Bam Bam Bam Bambaram<br />Singer(s): Chinna Ponnu",
-    "Bam Bam Bam Bambaram<br /><div>konda vachcha bambaram</div><div>thambikkitta thoththuputta</div><div>variya oru aattam</div><div><br /></div><div>hey ram bam bam bam</div><div>bambaram</div><div>konda vachcha bambaram</div><div>summaakaachu thoththom</div><div>varalaam maruaattam</div><div><br /></div><div>pongadaa dey</div><div>naanga thaana serndha koottam</div><div>naanga yaarum vara maattom</div><div>vittu thara maattom</div><div>idhu yaaru vachcha sattam</div><div><br /></div><div>chella pulla </div><div>illa tholla</div><div>podaa kazhudha</div><div>neethaan ellaam</div><div><br /></div><div>kirukkupayaluga ivanga</div><div>oorru usura vaangudhunga</div><div>idhunga.</div><div><br /></div><div>enna adichchaalum</div><div>pudichchaalum</div><div>sanda vandhu</div><div>kadichchaalum</div><div>paasaththukku</div><div>panjamum illa.</div><div>indha anna thambi</div><div>oorula illa.</div><div><br /></div><div>Bam Bam Bam Bambaram<br /><div>konda vachcha bambaram</div></div><div>indha annan thambi</div><div>kadhaya kettaa</div><div>suththidum thala unakku.</div><div><br /></div><div>oor suththum kuruvinga</div><div>veettukku thirumba</div><div>peththa manasukulla varum</div><div>kannula aruvi.</div><div><br />..",
-    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaozxV-f7Xxra5t3QJqqV39lb_Mz9i7hlDkohtgFDjuVOEntq-IYwbM-jUBNnl_731iYV1ZEJHs-K7p1kN2nvi_cMgN5I3dIOk23RafQZRmrjyXSUpYZ659nX-lstpMWTAKEhTrC8W1qo/s1600/Raja+Mandhiri+Song+Lyrics.jpg\"></a></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div></div>"
+    "Bam Bam Bam Bambaram<br />Singer(s): Chinna Ponnu",
+    "Bam Bam Bam Bambaram<br />konda vachcha bambaram<br />thambikkitta thoththuputta<br />variya oru aattam",
+    "hey ram bam bam bam<br />bambaram<br />konda vachcha bambaram<br />summaakaachu thoththom<br />varalaam maruaattam",
+    "pongadaa dey<br />naanga thaana serndha koottam<br />naanga yaarum vara maattom<br />vittu thara maattom<br />idhu yaaru vachcha sattam",
+    "chella pulla<br />illa tholla<br />podaa kazhudha<br />neethaan ellaam",
+    "kirukkupayaluga ivanga<br />oorru usura vaangudhunga<br />idhunga.",
+    "enna adichchaalum<br />pudichchaalum<br />sanda vandhu<br />kadichchaalum<br />paasaththukku<br />panjamum illa.<br />indha anna thambi<br />oorula illa.",
+    "Bam Bam Bam Bambaram<br />konda vachcha bambaram",
+    "indha annan thambi<br />kadhaya kettaa<br />suththidum thala unakku.",
+    "oor suththum kuruvinga<br />veettukku thirumba<br />peththa manasukulla varum<br />kannula aruvi.",
+    "..",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaozxV-f7Xxra5t3QJqqV39lb_Mz9i7hlDkohtgFDjuVOEntq-IYwbM-jUBNnl_731iYV1ZEJHs-K7p1kN2nvi_cMgN5I3dIOk23RafQZRmrjyXSUpYZ659nX-lstpMWTAKEhTrC8W1qo/s1600/Raja+Mandhiri+Song+Lyrics.jpg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Raja Mandhiri",
     "Music:Justin Prabhakaran",
@@ -56,6 +72,6 @@
     "keywords": "Raja Mandhiri, Justin Prabhakaran, Chinna Ponnu, Bam Bam Bam Bambaram full lyrics, Raja Mandhiri songs lyrics, Bam Bam Bam Bambaram lyrics snippets, Bam Bam Bam Bambaram WhatsApp status lyrics snippets, share Bam Bam Bam Bambaram lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaozxV-f7Xxra5t3QJqqV39lb_Mz9i7hlDkohtgFDjuVOEntq-IYwbM-jUBNnl_731iYV1ZEJHs-K7p1kN2nvi_cMgN5I3dIOk23RafQZRmrjyXSUpYZ659nX-lstpMWTAKEhTrC8W1qo/s400-c/Raja+Mandhiri+Song+Lyrics.jpg",
-  "generatedAt": "2026-01-18T12:51:25.482Z",
+  "generatedAt": "2026-02-01T14:29:17.199Z",
   "version": 1
 }

@@ -8,12 +8,20 @@
   "musicName": "Abhijith Ramasamy",
   "actorName": "",
   "published": "2013-07-07T10:40:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><table><tbody><tr>  <td>Song: Chinna Kuzhandhai<br />Singer: Velmurugan<br />Movie: Vu<br />Lyrics: Murugan Manthiram<br />Music: Abhijith Ramasamy</td>  <td>.</td>  <td><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLKtT3DDTsE6f_A_AoCqigOClXBZ9tF9_7CbTZCUJCzQ0RRmZp-aM1tsZXdf1e6wSDOqhw9MKWzBemRX7fstmKPrMkB9dsRKY7oU7-8Fe9qd4wdFWe_xiInM-6aHyHScQhlkUHOV1KqTo/s1600/Vu.jpg\"></a></div><br /></td> </tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words <br />Chinna Kuzhandhai<br />slatilla  podum azhagu aanaa vu.<br />natpin pirivil kovatha marandhu<br />sirithaal adhuvum vu.<br />lesaa paatha pennoda paarva<br />adhuthaan kadhalil vu.",
-    "Thirumana naalil mudivila<br />thodangum iravu pozhudhum vu<br />Jeyikka pogum vettrik ellaam<br />mutti modhum muyarchigal vu<br />Thaayai pirindhu thaniyaa aaagum<br />mazhalai azhagai vazhkayil vu</td> <td>English Translation  <br />I tried my best :)  <br />[english lyric]  </td> </tr></tbody></table></div>"
+    "<table><tbody><tr><td>Song: Chinna Kuzhandhai<br />Singer: Velmurugan<br />Movie: Vu<br />Lyrics: Murugan Manthiram<br />Music: Abhijith Ramasamy</td><td>.</td><td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLKtT3DDTsE6f_A_AoCqigOClXBZ9tF9_7CbTZCUJCzQ0RRmZp-aM1tsZXdf1e6wSDOqhw9MKWzBemRX7fstmKPrMkB9dsRKY7oU7-8Fe9qd4wdFWe_xiInM-6aHyHScQhlkUHOV1KqTo/s1600/Vu.jpg\"></a>",
+    "</td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish<br />Exact translation of tamil words<br />Chinna Kuzhandhai<br />slatilla  podum azhagu aanaa vu.<br />natpin pirivil kovatha marandhu<br />sirithaal adhuvum vu.<br />lesaa paatha pennoda paarva<br />adhuthaan kadhalil vu.",
+    "Thirumana naalil mudivila<br />thodangum iravu pozhudhum vu<br />Jeyikka pogum vettrik ellaam<br />mutti modhum muyarchigal vu<br />Thaayai pirindhu thaniyaa aaagum<br />mazhalai azhagai vazhkayil vu</td><td>English Translation<br />I tried my best :)<br />[english lyric]  </td></tr></tbody></table><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Murugan Manthiram",
     "Movie:Vu",
@@ -47,6 +55,6 @@
     "keywords": "Murugan Manthiram, Vu, Abhijith Ramasamy, Velmurugan, Chinna Kuzhandhai full lyrics, Vu songs lyrics, Chinna Kuzhandhai lyrics snippets, Chinna Kuzhandhai WhatsApp status lyrics snippets, share Chinna Kuzhandhai lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLKtT3DDTsE6f_A_AoCqigOClXBZ9tF9_7CbTZCUJCzQ0RRmZp-aM1tsZXdf1e6wSDOqhw9MKWzBemRX7fstmKPrMkB9dsRKY7oU7-8Fe9qd4wdFWe_xiInM-6aHyHScQhlkUHOV1KqTo/s400-c/Vu.jpg",
-  "generatedAt": "2026-01-18T13:03:34.711Z",
+  "generatedAt": "2026-02-01T14:29:23.914Z",
   "version": 1
 }

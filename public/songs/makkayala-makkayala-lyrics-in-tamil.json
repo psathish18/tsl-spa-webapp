@@ -8,11 +8,16 @@
   "musicName": "Vijay Antony",
   "actorName": "",
   "published": "2012-08-29T07:56:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Priyan",
     "lyricsintamil",
@@ -63,10 +68,10 @@
   ],
   "seo": {
     "title": "Makkayala Makkayala Lyrics in Tamil",
-    "description": "Full Makkayala Makkayala in Tamil songs lyrics in tamil ( ...) Naan Songs Lyrics. sharable lyrics snippets, Lyrics: Priyan, Music: Vijay Antony, Singer(s): Krishan Maheson, Mark, Shakthisree Gopalan.",
+    "description": "Full Makkayala Makkayala in Tamil song lyrics in tamil  ( ...) Naan Songs Lyrics. sharable lyrics snippets, Lyrics: Priyan, Music: Vijay Antony, Singer(s): Krishan Maheson, Mark, Shakthisree Gopalan.",
     "keywords": "Priyan, lyricsintamil, Naan, Vijay Antony, Krishan Maheson, Mark, Shakthisree Gopalan, Makkayala Makkayala in Tamil full lyrics, Naan songs lyrics, Makkayala Makkayala in Tamil lyrics snippets, Makkayala Makkayala in Tamil WhatsApp status lyrics snippets, share Makkayala Makkayala in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhlLIddcoZtdG4Wfwz4rUE7fVL2dib0jNVYq5GjH6pOlh2mfQqFHvbYO2mTONaG_mXb-TVhUlHa70uI0hD-ng5bVj-Wc2VarrjyNJBNYJcSBZYNMVEDZjYT_YZVyBXl6DK7l44YnG1TJ8/s400-c/Makkayala+Naan+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T13:06:22.716Z",
+  "generatedAt": "2026-02-01T13:04:18.848Z",
   "version": 1
 }

@@ -8,11 +8,30 @@
   "musicName": "Devi Sri Prasad(DSP)",
   "actorName": "",
   "published": "2005-12-09T23:24:00.001+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><span>nenjam enum oorinilae</span></div><div><span>kaadhal enum theriuvinilae</span></div><div><span>kanavu enum vaasalilae</span></div><div><span>ennai katti kolla vandhaayae</span></div><br /><div><span>vaazhkai enum vaanthilae</span></div><div><span>manasu enum maegathilae</span></div><div><span>aasai enum maazhaiyinilae</span></div><div><span>enai chotta chotta nenaithaayae</span></div><br /><div><span>naan thaniyaai thaniyaai irundhanae</span></div><div><span>nee thunaiyaai thunaiyaai vandhaayae</span></div><div><span>indru idhamaai idhamaai tholaindhaanae</span></div><div><span>kaadhalae...</span></div><br /><div><span>nenjam enum oorinilae</span></div><div><span>kaadhal enum theriuvinilae</span></div><div><span>kanavu enum vaasalilae</span></div><div><span>ennai katti kolla vandhaayae</span></div><br /><div><span>hey kathula yaeni vechu</span></div><div><span>un moochula erangiduvaen</span></div><div><span>nerupula veedu katti</span></div><div><span>un nenpula vaazhndhiduvaen</span></div><br /><div><span>paena edutha thaana kaigal</span></div><div><span>un paerai thaan ezhuthiyathae.</span></div><div><span>koyila paatha thaana kaigal</span></div><div><span>unakaagathaan kumbiduthae</span></div><br /><div><span>nenjam enum oorinilae</span></div><div><span>kaadhal enum theriuvinilae</span></div><div><span>kanavu enum vaasalilae</span></div><div><span>ennai katti kolla vandhaayae</span></div><br /><div><span>b-o-y boy, boy-inna paiyyan</span></div><div><span>g-i-r-l girl, giril-unna ponnu</span></div><div><span>this girl is so hot </span></div><div><span>that will make him crazy</span></div><div><span>They are just gonna rock</span></div><div><span>so take it easy</span></div><br /><div><span>indha rendu paerukullaiyum</span></div><div><span>touching touching</span></div><div><span>ada anytime anywhere</span></div><div><span>kissing kissing</span></div><br /><div><span>kannula kaiyuru katti</span></div><div><span>un uruvatha pudichikuvaen.</span></div><div><span>mannula naan vizhundhu</span></div><div><span>un nizhalaiyum aendhikkuvaen.</span></div><br /><div><span>mazhai varum pothu</span></div><div><span>nee vandhu odhungina.</span></div><div><span>koondhala virichu kodai pudipaen</span></div><div><span>nee azha vaendaam india naatil</span></div><div><span>vengaayathai thadai vidhippaen</span></div><br /><div><span>nenjam enum oorinilae</span></div><div><span>kaadhal enum theriuvinilae</span></div><div><span>kanavu enum vaasalilae</span></div><div><span>ennai katti kolla vandhaayae</span></div><br /><div><span>b-o-y boy, boy-inna paiyyan</span></div><div><span>g-i-r-l girl, giril-unna ponnu</span></div><div><span>this girl is so hot </span></div><div><span>that will make him crazy</span></div><div><span>They are just gonna rock</span></div><div><span>so take it easy</span></div><br /></div>"
+    "<span>nenjam enum oorinilae</span><br /><span>kaadhal enum theriuvinilae</span><br /><span>kanavu enum vaasalilae</span><br /><span>ennai katti kolla vandhaayae</span>",
+    "<span>vaazhkai enum vaanthilae</span><br /><span>manasu enum maegathilae</span><br /><span>aasai enum maazhaiyinilae</span><br /><span>enai chotta chotta nenaithaayae</span>",
+    "<span>naan thaniyaai thaniyaai irundhanae</span><br /><span>nee thunaiyaai thunaiyaai vandhaayae</span><br /><span>indru idhamaai idhamaai tholaindhaanae</span><br /><span>kaadhalae...</span>",
+    "<span>nenjam enum oorinilae</span><br /><span>kaadhal enum theriuvinilae</span><br /><span>kanavu enum vaasalilae</span><br /><span>ennai katti kolla vandhaayae</span>",
+    "<span>hey kathula yaeni vechu</span><br /><span>un moochula erangiduvaen</span><br /><span>nerupula veedu katti</span><br /><span>un nenpula vaazhndhiduvaen</span>",
+    "<span>paena edutha thaana kaigal</span><br /><span>un paerai thaan ezhuthiyathae.</span><br /><span>koyila paatha thaana kaigal</span><br /><span>unakaagathaan kumbiduthae</span>",
+    "<span>nenjam enum oorinilae</span><br /><span>kaadhal enum theriuvinilae</span><br /><span>kanavu enum vaasalilae</span><br /><span>ennai katti kolla vandhaayae</span>",
+    "<span>b-o-y boy, boy-inna paiyyan</span><br /><span>g-i-r-l girl, giril-unna ponnu</span><br /><span>this girl is so hot </span><br /><span>that will make him crazy</span><br /><span>They are just gonna rock</span><br /><span>so take it easy</span>",
+    "<span>indha rendu paerukullaiyum</span><br /><span>touching touching</span><br /><span>ada anytime anywhere</span><br /><span>kissing kissing</span>",
+    "<span>kannula kaiyuru katti</span><br /><span>un uruvatha pudichikuvaen.</span><br /><span>mannula naan vizhundhu</span><br /><span>un nizhalaiyum aendhikkuvaen.</span>",
+    "<span>mazhai varum pothu</span><br /><span>nee vandhu odhungina.</span><br /><span>koondhala virichu kodai pudipaen</span><br /><span>nee azha vaendaam india naatil</span><br /><span>vengaayathai thadai vidhippaen</span>",
+    "<span>nenjam enum oorinilae</span><br /><span>kaadhal enum theriuvinilae</span><br /><span>kanavu enum vaasalilae</span><br /><span>ennai katti kolla vandhaayae</span>",
+    "<span>b-o-y boy, boy-inna paiyyan</span><br /><span>g-i-r-l girl, giril-unna ponnu</span><br /><span>this girl is so hot </span><br /><span>that will make him crazy</span><br /><span>They are just gonna rock</span><br /><span>so take it easy</span>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Aaru",
     "Music:Devi Sri Prasad(DSP)",
@@ -37,6 +56,6 @@
     "keywords": "Aaru, Devi Sri Prasad(DSP), Kalpana, Srinivas, Nenjam Enum Oorinilae full lyrics, Aaru songs lyrics, Nenjam Enum Oorinilae lyrics snippets, Nenjam Enum Oorinilae WhatsApp status lyrics snippets, share Nenjam Enum Oorinilae lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T13:14:55.547Z",
+  "generatedAt": "2026-02-01T13:04:49.084Z",
   "version": 1
 }
