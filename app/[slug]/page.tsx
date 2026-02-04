@@ -525,23 +525,23 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   } else if (song.category) {
     // Fallback: Fetch Tamil lyrics from Blogger API only if blob data not available
     const songCat = getSongCategory(song.category);
-    if (songCat) {
-      // Use Promise.race with timeout to prevent Tamil lyrics from blocking
-      try {
-        const tamilSong = await Promise.race([
-          getTamilLyrics(songCat),
-          new Promise<null>((resolve) => setTimeout(() => resolve(null), 1500)) // 1.5s timeout
-        ]);
-        if (tamilSong) {
-          const tamilContent = tamilSong.content?.$t || '';
-          const safeTamilContent = stripImagesFromHtml(tamilContent);
-          tamilStanzas = splitAndSanitizeStanzas(safeTamilContent, sanitizeHtml);
-        }
-      } catch (error) {
-        console.error('Tamil lyrics fetch failed or timed out:', error);
-        // Continue without Tamil lyrics
-      }
-    }
+    // if (songCat) {
+    //   // Use Promise.race with timeout to prevent Tamil lyrics from blocking
+    //   try {
+    //     const tamilSong = await Promise.race([
+    //       getTamilLyrics(songCat),
+    //       new Promise<null>((resolve) => setTimeout(() => resolve(null), 1500)) // 1.5s timeout
+    //     ]);
+    //     if (tamilSong) {
+    //       const tamilContent = tamilSong.content?.$t || '';
+    //       const safeTamilContent = stripImagesFromHtml(tamilContent);
+    //       tamilStanzas = splitAndSanitizeStanzas(safeTamilContent, sanitizeHtml);
+    //     }
+    //   } catch (error) {
+    //     console.error('Tamil lyrics fetch failed or timed out:', error);
+    //     // Continue without Tamil lyrics
+    //   }
+    // }
   }
 
 

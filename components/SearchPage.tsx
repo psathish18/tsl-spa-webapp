@@ -131,7 +131,7 @@ export default function SearchPage() {
     if (query.trim().length >= 2) {
       debounceTimer.current = setTimeout(() => {
         fetchSuggestions(query)
-      }, 300)
+      }, 150)
     } else {
       setSuggestions([])
       setShowSuggestions(false)
