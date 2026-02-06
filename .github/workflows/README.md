@@ -27,7 +27,8 @@ The workflow requires a `VERCEL_TOKEN` to fetch logs from your Vercel deployment
 
 #### Step 2: Add Token to GitHub Secrets
 
-1. Go to your repository settings: `https://github.com/psathish18/tsl-spa-webapp/settings/secrets/actions`
+1. Go to your repository settings: `https://github.com/<owner>/<repo>/settings/secrets/actions`
+   - For this repo: https://github.com/psathish18/tsl-spa-webapp/settings/secrets/actions
 2. Click **"New repository secret"**
 3. Name: `VERCEL_TOKEN`
 4. Value: Paste your Vercel token from Step 1
@@ -35,7 +36,8 @@ The workflow requires a `VERCEL_TOKEN` to fetch logs from your Vercel deployment
 
 #### Step 3: Test the Workflow
 
-1. Go to [Actions tab](https://github.com/psathish18/tsl-spa-webapp/actions)
+1. Go to the Actions tab: `https://github.com/<owner>/<repo>/actions`
+   - For this repo: https://github.com/psathish18/tsl-spa-webapp/actions
 2. Select **"Hourly Vercel Log Analysis"**
 3. Click **"Run workflow"** → **"Run workflow"**
 4. Wait 30-60 seconds and check the results
