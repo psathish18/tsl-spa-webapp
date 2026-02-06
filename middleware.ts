@@ -16,6 +16,7 @@ export function middleware(request: NextRequest) {
   const blockedPatterns = [
     /^\/wp-/,                    // WordPress paths (wp-login.php, wp-content, wp-admin)
     /^\/tag\//,                  // Old WordPress tag pages
+    /^\/author\//,               // Old WordPress author pages
     /^\/search\/label\//,        // Old Blogger URL format
     /^\/feeds?\//,               // Blogger feeds (/feed/, /feeds/)
     /^\/feed$/,                  // WordPress feed endpoint

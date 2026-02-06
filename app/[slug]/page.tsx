@@ -212,8 +212,10 @@ function getSongTitle(song: any): string {
 }
 
 
-// In-memory memoization map for SSR request lifecycle
-// These maps are cleared after a timeout to prevent stale data in warm serverless containers
+// In-memory memoization map for deduplicating requests within the same serverless invocation
+// These maps prevent duplicate API calls when generateMetadata() and the page component
+// both need the same song data. ISR handles cache invalidation via the revalidate config.
+// Note: Maps are automatically cleared when the serverless container is recycled by Vercel
 const songDataPromiseMap = new Map<string, Promise<Song | null>>();
 const tamilLyricsPromiseMap = new Map<string, Promise<Song | null>>();
 const blobDataCache = new Map<string, Promise<{ 
@@ -222,23 +224,8 @@ const blobDataCache = new Map<string, Promise<{
   blobData?: SongBlobData 
 }>>();
 
-// Clear memoization maps after 5 minutes to prevent stale data in production
-if (typeof global !== 'undefined') {
-  setInterval(() => {
-    if (songDataPromiseMap.size > 0) {
-      console.log(`Clearing ${songDataPromiseMap.size} memoized song promises`);
-      songDataPromiseMap.clear();
-    }
-    if (tamilLyricsPromiseMap.size > 0) {
-      console.log(`Clearing ${tamilLyricsPromiseMap.size} memoized Tamil lyrics promises`);
-      tamilLyricsPromiseMap.clear();
-    }
-    if (blobDataCache.size > 0) {
-      console.log(`Clearing ${blobDataCache.size} memoized blob data`);
-      blobDataCache.clear();
-    }
-  }, 5 * 60 * 1000); // 5 minutes
-}
+// No setInterval clearing needed - ISR revalidation (30 days) handles stale data
+// Clearing these maps would cause unnecessary re-fetches and waste serverless time
 
 /**
  * Fetch song data with Blob Storage priority
