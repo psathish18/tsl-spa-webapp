@@ -108,3 +108,8 @@ footer link color  #116ae1
 footer font color #444
 
 
+Remember I am in vercel Hoobby plan so I have limitations on server side code and db usage.
+always apply changes that will help in SEO and performance optimizations and allow to keep within hpbby plan limits 
+tota songs around 3000. 
+
+Application deployed in vercel.som under hobby plan. Optimize code / change for vercel hobby plan limits.

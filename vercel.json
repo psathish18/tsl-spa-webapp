@@ -34,5 +34,19 @@
       "source": "/api/proxy/(.*)",
       "destination": "https://tsonglyricsapp.blogspot.com/$1"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/wp-content/uploads/:path*",
+      "destination": "/",
+      "statusCode": 410,
+      "permanent": true
+    },
+    {
+      "source": "/wp-json/:path*",
+      "destination": "/",
+      "statusCode": 410,
+      "permanent": true
+    }
   ]
 }
