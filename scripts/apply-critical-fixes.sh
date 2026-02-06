@@ -22,9 +22,21 @@ if ! command -v vercel &> /dev/null; then
     exit 1
 fi
 
+# Check if VERCEL_TOKEN is set
+if [ -z "$VERCEL_TOKEN" ]; then
+    echo "❌ Error: VERCEL_TOKEN environment variable is not set"
+    echo ""
+    echo "📋 To enable automated fixes:"
+    echo "1. Create a Vercel token at: https://vercel.com/account/tokens"
+    echo "2. Export it: export VERCEL_TOKEN='your-token-here'"
+    echo "3. For CI/CD, add it to your GitHub Secrets"
+    echo ""
+    exit 1
+fi
+
 # Fetch logs from last hour
 echo "📥 Fetching logs for analysis..."
-vercel logs --since=1h 2>&1 > "$LOG_FILE"
+vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
 
 FIXES_APPLIED=0
 FIXES_LOG=""

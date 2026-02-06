@@ -27,22 +27,44 @@ jobs:
         run: npm install -g vercel@latest
       
       - name: Run hourly log analysis
+        id: analysis
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           CI: true
         run: |
+          # Check if VERCEL_TOKEN is set
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "⚠️ VERCEL_TOKEN is not set in repository secrets"
+            echo ""
+            echo "📋 To enable automated log analysis:"
+            echo "1. Create a Vercel token at: https://vercel.com/account/tokens"
+            echo "2. Add it to GitHub Secrets at:"
+            echo "   https://github.com/${{ github.repository }}/settings/secrets/actions"
+            echo "3. Name the secret: VERCEL_TOKEN"
+            echo ""
+            echo "ℹ️ Skipping log analysis for now..."
+            echo "token_available=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          echo "token_available=true" >> $GITHUB_OUTPUT
+          
           # Login to Vercel using token
-          vercel whoami --token $VERCEL_TOKEN || vercel login --token $VERCEL_TOKEN
+          vercel whoami --token "$VERCEL_TOKEN" || vercel login --token "$VERCEL_TOKEN"
           
           # Run analysis script
           ./scripts/analyze-hourly-logs.sh
       
       - name: Apply critical fixes
+        if: steps.analysis.outputs.token_available == 'true'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           # Run automated fix script
           ./scripts/apply-critical-fixes.sh
       
       - name: Commit and push to PR branch
+        if: steps.analysis.outputs.token_available == 'true'
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
@@ -52,7 +74,7 @@ jobs:
           git checkout automated-log-analysis 2>/dev/null || git checkout -b automated-log-analysis
           
           # Add analysis and any applied fixes
-          git add web-site-optimization/ANALYSIS_HISTORY.md
+          git add web-site-optimization/ANALYSIS_HISTORY.md 2>/dev/null || true
           git add web-site-optimization/missing-blob-files.txt 2>/dev/null || true
           git add web-site-optimization/SERVERLESS_ALERT.md 2>/dev/null || true
           git add middleware.ts 2>/dev/null || true
@@ -80,6 +102,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Create or update PR
+        if: steps.analysis.outputs.token_available == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
