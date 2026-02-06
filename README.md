@@ -1,4 +1,4 @@
-# Tamil Song Lyrics Web App
+# Tamil Song Lyrics Web App - 
 
 A modern, SEO-optimized Next.js application for displaying Tamil song lyrics fetched from a Blogger API. Built with performance, user experience, and monetization in mind.
 
