@@ -37,9 +37,9 @@ fi
 # Fetch logs from last hour
 echo "📥 Fetching logs from last 1 hour..."
 if [ -n "$VERCEL_PROJECT_ID" ]; then
-    vercel logs --since=1h --project="$VERCEL_PROJECT_ID" 2>&1 > "$LOG_FILE"
+    vercel logs --since=1h --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
 else
-    vercel logs --since=1h 2>&1 > "$LOG_FILE"
+    vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
 fi
 
 # Count total requests
