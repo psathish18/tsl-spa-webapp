@@ -36,7 +36,11 @@ fi
 
 # Fetch logs from last hour
 echo "📥 Fetching logs for analysis..."
-vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
+if [ -n "$VERCEL_PROJECT_ID" ]; then
+    vercel logs --since=1h --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
+else
+    vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
+fi
 
 FIXES_APPLIED=0
 FIXES_LOG=""

@@ -60,6 +60,7 @@ jobs:
         if: steps.analysis.outputs.token_available == 'true'
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_6Eejnjz5gfq1apxkLbrObHi07FCt
         run: |
           # Run automated fix script
           ./scripts/apply-critical-fixes.sh
