@@ -30,6 +30,7 @@ jobs:
         id: analysis
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_6Eejnjz5gfq1apxkLbrObHi07FCt
           CI: true
         run: |
           # Check if VERCEL_TOKEN is set
