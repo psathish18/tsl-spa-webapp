@@ -65,44 +65,6 @@ jobs:
           # Run automated fix script
           ./scripts/apply-critical-fixes.sh
       
-      - name: Commit and push to PR branch
-        if: steps.analysis.outputs.token_available == 'true'
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          
-          # Create or switch to automated analysis branch
-          git fetch origin
-          git checkout automated-log-analysis 2>/dev/null || git checkout -b automated-log-analysis
-          
-          # Add analysis and any applied fixes
-          git add web-site-optimization/ANALYSIS_HISTORY.md 2>/dev/null || true
-          git add web-site-optimization/missing-blob-files.txt 2>/dev/null || true
-          git add web-site-optimization/SERVERLESS_ALERT.md 2>/dev/null || true
-          git add middleware.ts 2>/dev/null || true
-          
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          
-          # Check if fixes were applied
-          FIXES_APPLIED=0
-          if git diff --staged --name-only | grep -q "middleware.ts"; then
-            FIXES_APPLIED=1
-          fi
-          
-          if [ $FIXES_APPLIED -eq 1 ]; then
-            git commit -m "chore: hourly analysis + critical fixes $(date +'%Y-%m-%d %H:%M UTC')"
-          else
-            git commit -m "chore: hourly log analysis $(date +'%Y-%m-%d %H:%M UTC')"
-          fi
-          
-          # Push to branch (creates/updates PR)
-          git push -u origin automated-log-analysis
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
       - name: Create or update PR
         if: steps.analysis.outputs.token_available == 'true'
         uses: peter-evans/create-pull-request@v6
@@ -110,6 +72,13 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: automated-log-analysis
           base: main
+          add-paths: |
+            web-site-optimization/ANALYSIS_HISTORY.md
+            web-site-optimization/missing-blob-files.txt
+            web-site-optimization/SERVERLESS_ALERT.md
+            middleware.ts
+          commit-message: |
+            chore: hourly log analysis $(date +'%Y-%m-%d %H:%M UTC')
           title: "📊 Automated Hourly Log Analysis"
           body: |
             ## 📊 Automated Vercel Log Analysis
