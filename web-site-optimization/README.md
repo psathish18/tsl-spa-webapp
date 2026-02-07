@@ -12,7 +12,7 @@ web-site-optimization/
 ├── VERCEL_OPTIMIZATION_PLAN.md        # Master optimization strategy
 ├── CACHE_LAYERS_EXPLAINED.md          # Cache hierarchy documentation
 ├── ANALYSIS_HISTORY.md                # Timestamped analysis results
-└── analyze-vercel-logs.py             # Python script for log analysis
+└── analyze-vercel-logs.py             # Unified log analysis script (CSV + JSON)
 ```
 
 ---
@@ -51,19 +51,30 @@ web-site-optimization/
 **Update Policy**: **ALWAYS append new analysis** with timestamp, NEVER create new files
 
 ### `analyze-vercel-logs.py`
-**Purpose**: Python script to analyze Vercel CSV log exports  
+**Purpose**: Unified Python script to analyze Vercel logs from any format  
+**Supports**:
+- CSV format (exported from Vercel Dashboard)
+- JSON Lines format (from Vercel CLI `vercel logs --json`)
+- Auto-detects format based on file extension and content
+
 **Usage**:
 ```bash
-python analyze-vercel-logs.py /path/to/vercel-logs.csv
+# CSV format (Dashboard export)
+python3 analyze-vercel-logs.py /path/to/vercel-export.csv
+
+# JSON Lines format (CLI output)
+python3 analyze-vercel-logs.py /path/to/logs.jsonl
 ```
 
 **Output**:
 - Request pattern analysis
 - Cache hit rate calculations
-- Bot traffic detection
+- Edge vs Serverless distribution
+- Bot traffic detection (CSV only)
 - Error analysis (404, 410, 500)
-- Performance metrics (slow routes, memory usage)
+- Performance metrics (slow routes, memory usage - CSV only)
 - Top 20 paths by requests
+- Optimization recommendations
 
 ---
 
@@ -72,14 +83,39 @@ python analyze-vercel-logs.py /path/to/vercel-logs.csv
 ### When Running New Analysis:
 
 1. **Export Vercel Logs**
+   
+   **Option A: CSV Format (Dashboard)**
    - Go to Vercel Dashboard → Deployments → Logs
    - Export logs as CSV
-   - Save with descriptive name: `vercel-logs-YYYY-MM-DD.csv`
+   - Save with descriptive name: `vercel-export-YYYY-MM-DD.csv`
+   
+   **Option B: JSON Lines Format (CLI)**
+   ```bash
+   # Install Vercel CLI if not already installed
+   npm i -g vercel
+   
+   # Login
+   vercel login
+   
+   # Fetch logs from last hour
+   vercel logs --since 1h --json --limit 1000 > vercel-logs-1h.jsonl
+   
+   # Fetch logs from last 7 days
+   vercel logs --since 7d --json --limit 5000 > vercel-logs-7d.jsonl
+   ```
 
 2. **Run Analysis Script**
    ```bash
    cd /Users/psathish18/Documents/Github/tsl-spa-webapp/web-site-optimization
-   python analyze-vercel-logs.py /path/to/vercel-logs-YYYY-MM-DD.csv > analysis-output.txt
+   
+   # For CSV format
+   python3 analyze-vercel-logs.py /path/to/vercel-export.csv
+   
+   # For JSON Lines format
+   python3 analyze-vercel-logs.py /path/to/vercel-logs.jsonl
+   
+   # Save output to file
+   python3 analyze-vercel-logs.py /path/to/logs.jsonl > analysis-results.txt
    ```
 
 3. **Update ANALYSIS_HISTORY.md**
@@ -177,16 +213,18 @@ vercel logs --since 1h
 
 ### Python Script Usage
 ```bash
-# Basic usage
-python analyze-vercel-logs.py /path/to/logs.csv
+# Auto-detects format (CSV or JSON Lines)
+python3 analyze-vercel-logs.py /path/to/logs.csv
+python3 analyze-vercel-logs.py /path/to/logs.jsonl
 
 # Save output to file
-python analyze-vercel-logs.py /path/to/logs.csv > analysis-results.txt
-
-# With custom thresholds (modify script)
-# Edit SLOW_THRESHOLD = 3.0 # seconds
-# Edit HIGH_MEMORY_THRESHOLD = 100 # MB
+python3 analyze-vercel-logs.py /path/to/logs.jsonl > analysis-results.txt
 ```
+
+**Note**: Some metrics only available in specific formats:
+- **CSV only**: Bot traffic, detailed duration/memory metrics, user agents
+- **JSON Lines only**: Precise timestamps, domain distribution, real-time logs
+- **Both**: Status codes, cache hit rates, path analysis, edge vs serverless distribution
 
 ---
 
