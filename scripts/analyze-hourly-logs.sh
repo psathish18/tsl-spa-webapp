@@ -9,7 +9,7 @@ set -e
 WORKSPACE_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ANALYSIS_FILE="$WORKSPACE_ROOT/web-site-optimization/ANALYSIS_HISTORY.md"
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
-LOG_FILE="/tmp/vercel-logs-$(date +%s).txt"
+LOG_FILE="$WORKSPACE_ROOT/web-site-optimization/hourly-vercel-logs-$TIMESTAMP.txt"
 
 echo "========================================"
 echo "Vercel Hourly Log Analysis"
@@ -153,15 +153,15 @@ cat >> "$ANALYSIS_FILE" << EOF
 - Serverless Usage: $SERVERLESS_STATUS ($SERVERLESS_REQUESTS invocations this hour)
 - Cache Hit Rate: ${EDGE_PERCENT}% (Target: >85%)
 
+### Raw Log Data
+The complete raw log data for this analysis period is available in: \`web-site-optimization/hourly-vercel-logs-$TIMESTAMP.txt\`
+
 ---
 
 EOF
 
 echo "✅ Analysis complete and saved!"
 echo ""
-
-# Cleanup
-rm -f "$LOG_FILE"
 
 # Optional: Commit and push if running locally (not in CI/CD)
 if [ "$CI" != "true" ] && [ "$GITHUB_ACTIONS" != "true" ]; then
