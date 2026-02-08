@@ -76,11 +76,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: automated-log-analysis
           base: main
-          add-paths: |
-            web-site-optimization/ANALYSIS_HISTORY.md
-            web-site-optimization/missing-blob-files.txt
-            web-site-optimization/SERVERLESS_ALERT.md
-            middleware.ts
           commit-message: |
             chore: hourly log analysis $(date +'%Y-%m-%d %H:%M UTC')
           title: "📊 Automated Hourly Log Analysis"
