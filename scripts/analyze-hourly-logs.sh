@@ -163,8 +163,8 @@ echo ""
 # Cleanup
 rm -f "$LOG_FILE"
 
-# Optional: Commit and push if running in CI/CD
-if [ "$CI" = "true" ] || [ "$GITHUB_ACTIONS" = "true" ]; then
+# Optional: Commit and push if running locally (not in CI/CD)
+if [ "$CI" != "true" ] && [ "$GITHUB_ACTIONS" != "true" ]; then
     echo "🔄 Committing analysis to git..."
     cd "$WORKSPACE_ROOT"
     git config --global user.name "Vercel Log Analyzer"
