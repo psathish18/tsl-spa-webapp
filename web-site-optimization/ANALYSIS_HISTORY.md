@@ -769,3 +769,36 @@ The complete raw log data for this analysis period is available in: `web-site-op
 
 ---
 
+
+## Hourly Analysis - 2026-02-08 20:11
+
+### Quick Stats:
+- **Total Requests**: 100
+- **Edge (ε)**: 67 (67.0%) → Monthly: 48240 / 1M ✅ Safe
+- **Serverless (λ)**: 13 (13.0%) → Monthly: 9360 🔴 Reduce
+- **Redirects (308/301)**: 20 (20.0%)
+- **Blocked (410)**: 0
+0
+- **Not Found (404)**: 0
+0
+
+### Serverless Endpoints (Potential Blob Misses):
+```
+/category
+/kannai-kasakkum-sooriyano-lyrics-red.html
+/karai-vandha-pirage-lyrics-96-movie.html
+/miruthan-song-lyrics.html
+/naan-kaathirundha-ponnu-lyrics-pazhaya.html
+/neeye-vaazhkai-enben-lyrics-pugazh-song.html
+```
+
+### Status:
+- Edge Usage: ✅ Safe (67.0% of traffic)
+- Serverless Usage: 🔴 Reduce (13 invocations this hour)
+- Cache Hit Rate: 67.0% (Target: >85%)
+
+### Raw Log Data
+The complete raw log data for this analysis period is available in: `web-site-optimization/hourly-vercel-logs-2026-02-08 20:11.txt`
+
+---
+
