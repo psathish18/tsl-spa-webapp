@@ -737,3 +737,35 @@ The complete raw log data for this analysis period is available in: `web-site-op
 
 ---
 
+
+## Hourly Analysis - 2026-02-08 15:11
+
+### Quick Stats:
+- **Total Requests**: 100
+- **Edge (ε)**: 68 (68.0%) → Monthly: 48960 / 1M ✅ Safe
+- **Serverless (λ)**: 14 (14.0%) → Monthly: 10080 🔴 Reduce
+- **Redirects (308/301)**: 18 (18.0%)
+- **Blocked (410)**: 0
+0
+- **Not Found (404)**: 2
+
+### Serverless Endpoints (Potential Blob Misses):
+```
+/category
+/kaadhodu-thaan-naan-paaduven-lyrics.html
+/malarnthum-malaratha-lyrics-pasamalar.html
+/oorellam-unnai-kandu-lyrics-nannbenda.html
+/punniyam-thedi-lyrics-kaasi.html
+/yenga-pulla-irukka-lyrics-kayal-song.html
+```
+
+### Status:
+- Edge Usage: ✅ Safe (68.0% of traffic)
+- Serverless Usage: 🔴 Reduce (14 invocations this hour)
+- Cache Hit Rate: 68.0% (Target: >85%)
+
+### Raw Log Data
+The complete raw log data for this analysis period is available in: `web-site-optimization/hourly-vercel-logs-2026-02-08 15:11.txt`
+
+---
+
