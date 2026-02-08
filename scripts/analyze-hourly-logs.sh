@@ -37,31 +37,34 @@ fi
 # Fetch logs from last hour
 echo "📥 Fetching logs from last 1 hour..."
 if [ -n "$VERCEL_PROJECT_ID" ]; then
-    vercel logs --since=1h --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
+    LOG_OUTPUT=$(vercel logs --since=1h --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1)
 else
-    vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
+    LOG_OUTPUT=$(vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1)
 fi
 
+# Write to temp file for debugging
+echo "$LOG_OUTPUT" > "$LOG_FILE"
+
 # Count total requests
-TOTAL_REQUESTS=$(grep -c "GET " "$LOG_FILE" || echo "0")
+TOTAL_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "GET " || echo "0")
 
 # Count Edge (ε) requests
-EDGE_REQUESTS=$(grep -c "ε GET" "$LOG_FILE" || echo "0")
+EDGE_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "ε GET" || echo "0")
 
 # Count Serverless (λ) requests
-SERVERLESS_REQUESTS=$(grep -c "λ GET" "$LOG_FILE" || echo "0")
+SERVERLESS_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "λ GET" || echo "0")
 
 # Count Redirects (308, 301)
-REDIRECTS=$(grep -E "308|301" "$LOG_FILE" | wc -l | tr -d ' ')
+REDIRECTS=$(echo "$LOG_OUTPUT" | grep -E "308|301" | wc -l | tr -d ' ')
 
 # Count 410 (blocked)
-BLOCKED_REQUESTS=$(grep -c "410" "$LOG_FILE" || echo "0")
+BLOCKED_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "410" || echo "0")
 
 # Count 404 errors
-NOT_FOUND=$(grep -c "404" "$LOG_FILE" || echo "0")
+NOT_FOUND=$(echo "$LOG_OUTPUT" | grep -c "404" || echo "0")
 
 # Extract unique serverless endpoints
-SERVERLESS_ENDPOINTS=$(grep "λ GET" "$LOG_FILE" | sed -E 's/.*λ GET ([^ ]+).*/\1/' | sort -u | head -10)
+SERVERLESS_ENDPOINTS=$(echo "$LOG_OUTPUT" | grep "λ GET" | sed -E 's/.*λ GET ([^ ]+).*/\1/' | sort -u | head -10)
 
 # Calculate percentages
 if [ "$TOTAL_REQUESTS" -gt 0 ]; then
