@@ -701,3 +701,39 @@ Edge is handling 95% of traffic with <0.5% of CPU time
 
 ---
 
+
+## Hourly Analysis - 2026-02-08 12:25
+
+### Quick Stats:
+- **Total Requests**: 100
+- **Edge (ε)**: 54 (54.0%) → Monthly: 38880 / 1M ✅ Safe
+- **Serverless (λ)**: 21 (21.0%) → Monthly: 15120 🔴 Reduce
+- **Redirects (308/301)**: 24 (24.0%)
+- **Blocked (410)**: 0
+0
+- **Not Found (404)**: 4
+
+### Serverless Endpoints (Potential Blob Misses):
+```
+/chithirai-nela-lyrics-kadal-songs-lyrics.html
+/common-girls-lyrics-3-songs-lyrics.html
+/dandanakka-lyrics-romeo-juliet-song.html
+/elay-keechan-lyrics-kadal-songs-lyrics.html
+/en-uyire-lyrics-mpm-songs-lyrics-in.html
+/enakenna-yaarumillaye-english-meaning.html
+/ennatha-solla-lyrics-endrendrum.html
+/kai-veesum-female-lyrics-strawberry.html
+/kalaivaaniyo-raniyo-lyrics-villu
+/maasila-unmai-kadhale-lyrics-alibabavum.html
+```
+
+### Status:
+- Edge Usage: ✅ Safe (54.0% of traffic)
+- Serverless Usage: 🔴 Reduce (21 invocations this hour)
+- Cache Hit Rate: 54.0% (Target: >85%)
+
+### Raw Log Data
+The complete raw log data for this analysis period is available in: `web-site-optimization/hourly-vercel-logs-2026-02-08 12:25.txt`
+
+---
+
