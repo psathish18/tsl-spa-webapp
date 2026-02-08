@@ -69,6 +69,10 @@ jobs:
           # Run automated fix script
           ./scripts/apply-critical-fixes.sh
       
+      - name: Set update timestamp
+        if: steps.analysis.outputs.token_available == 'true'
+        run: echo "LAST_UPDATED=$(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
+      
       - name: Create or update PR
         if: steps.analysis.outputs.token_available == 'true'
         uses: peter-evans/create-pull-request@v6
@@ -76,6 +80,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: automated-log-analysis
           base: main
+          update-pull-request-body: true
           commit-message: |
             chore: hourly log analysis $(date +'%Y-%m-%d %H:%M UTC')
           title: "📊 Automated Hourly Log Analysis"
@@ -95,7 +100,7 @@ jobs:
             - Merge when ready (daily or weekly)
             - A new PR will be created for the next batch
             
-            **Last Updated**: $(date +'%Y-%m-%d %H:%M UTC')
+            **Last Updated**: ${{ env.LAST_UPDATED }}
             
             ---
             *This PR is automatically updated every hour by GitHub Actions*
