@@ -769,3 +769,37 @@ The complete raw log data for this analysis period is available in: `web-site-op
 
 ---
 
+
+## Hourly Analysis - 2026-02-09 03:12
+
+### Quick Stats:
+- **Total Requests**: 100
+- **Edge (ε)**: 76 (76.0%) → Monthly: 54720 / 1M ✅ Safe
+- **Serverless (λ)**: 14 (14.0%) → Monthly: 10080 🔴 Reduce
+- **Redirects (308/301)**: 10 (10.0%)
+- **Blocked (410)**: 0
+0
+- **Not Found (404)**: 10
+
+### Serverless Endpoints (Potential Blob Misses):
+```
+/apple-touch-icon-precomposed.png
+/azhagae-azhagae-lyrics-kathakali-song.html
+/i-song-lyrics-with-english-meaning.html
+/latcham-calorie-lyrics-yaan-song-lyrics.html
+/or-naal-kaadhal-lyrics-kootathil-oruthan.html
+/sandi-kuthira-lyrics-kaaviya-thalaivan.html
+/sitemap/0.xml
+/thaarumaaru-thakkalisoru-lyrics-veera.html
+```
+
+### Status:
+- Edge Usage: ✅ Safe (76.0% of traffic)
+- Serverless Usage: 🔴 Reduce (14 invocations this hour)
+- Cache Hit Rate: 76.0% (Target: >85%)
+
+### Raw Log Data
+The complete raw log data for this analysis period is available in: `web-site-optimization/hourly-vercel-logs-2026-02-09 03:12.txt`
+
+---
+
