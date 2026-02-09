@@ -9,7 +9,9 @@ set -e
 WORKSPACE_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ANALYSIS_FILE="$WORKSPACE_ROOT/web-site-optimization/ANALYSIS_HISTORY.md"
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
-LOG_FILE="$WORKSPACE_ROOT/web-site-optimization/hourly-vercel-logs-$TIMESTAMP.txt"
+TIMESTAMP_SAFE=$(date "+%Y-%m-%d_%H-%M")
+LOG_FILE="$WORKSPACE_ROOT/web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.jsonl"
+CSV_FILE="$WORKSPACE_ROOT/web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.csv"
 
 echo "========================================"
 echo "Vercel Hourly Log Analysis"
@@ -34,16 +36,77 @@ if [ -z "$VERCEL_TOKEN" ]; then
     exit 1
 fi
 
-# Fetch logs from last hour
+# Fetch logs from last hour (JSONL for full messages)
 echo "📥 Fetching logs from last 1 hour..."
 if [ -n "$VERCEL_PROJECT_ID" ]; then
-    LOG_OUTPUT=$(vercel logs --since=1h --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1)
+    LOG_OUTPUT=$(vercel logs --since=1h --json --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1)
 else
-    LOG_OUTPUT=$(vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1)
+    LOG_OUTPUT=$(vercel logs --since=1h --json --token="$VERCEL_TOKEN" 2>&1)
 fi
 
-# Write to temp file for debugging
-echo "$LOG_OUTPUT" > "$LOG_FILE"
+# Persist raw JSONL output
+printf "%s\n" "$LOG_OUTPUT" > "$LOG_FILE"
+
+# Generate CSV with full log messages
+export LOG_FILE
+export CSV_FILE
+python3 - <<'PY'
+import csv, json, os
+
+log_file = os.environ.get('LOG_FILE')
+csv_file = os.environ.get('CSV_FILE')
+
+if not log_file or not csv_file:
+    raise SystemExit("Missing LOG_FILE or CSV_FILE env")
+
+fields = ["timestamp", "host", "level", "method", "path", "status", "message", "raw"]
+
+def parse_line(line):
+    try:
+        obj = json.loads(line)
+    except json.JSONDecodeError:
+        return None
+
+    # Best-effort extraction of common fields
+    timestamp = obj.get("timestamp") or obj.get("time") or obj.get("createdAt")
+    host = obj.get("host") or obj.get("hostname") or obj.get("requestHost")
+    level = obj.get("level")
+    message = obj.get("message") or obj.get("msg")
+
+    method = None
+    path = None
+    status = None
+
+    request = obj.get("request") or {}
+    response = obj.get("response") or {}
+
+    method = request.get("method") or obj.get("method")
+    path = request.get("path") or request.get("url") or obj.get("path") or obj.get("url")
+    status = response.get("status") or obj.get("status")
+
+    return {
+        "timestamp": timestamp,
+        "host": host,
+        "level": level,
+        "method": method,
+        "path": path,
+        "status": status,
+        "message": message,
+        "raw": json.dumps(obj, ensure_ascii=False),
+    }
+
+with open(csv_file, "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=fields)
+    writer.writeheader()
+    with open(log_file, "r", encoding="utf-8") as lf:
+        for line in lf:
+            line = line.strip()
+            if not line:
+                continue
+            row = parse_line(line)
+            if row:
+                writer.writerow(row)
+PY
 
 # Count total requests
 TOTAL_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "GET " || echo "0")
@@ -154,7 +217,8 @@ cat >> "$ANALYSIS_FILE" << EOF
 - Cache Hit Rate: ${EDGE_PERCENT}% (Target: >85%)
 
 ### Raw Log Data
-The complete raw log data for this analysis period is available in: \`web-site-optimization/hourly-vercel-logs-$TIMESTAMP.txt\`
+- JSONL (full log payloads): \`web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.jsonl\`
+- CSV (full messages): \`web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.csv\`
 
 ---
 
