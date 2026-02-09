@@ -73,6 +73,12 @@ jobs:
         if: steps.analysis.outputs.token_available == 'true'
         run: echo "LAST_UPDATED=$(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
       
+      - name: Set commit message
+        if: steps.analysis.outputs.token_available == 'true'
+        run: |
+          TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
+          echo "COMMIT_MESSAGE=chore: hourly log analysis $TIMESTAMP" >> $GITHUB_ENV
+      
       - name: Create or update PR
         if: steps.analysis.outputs.token_available == 'true'
         uses: peter-evans/create-pull-request@v6
@@ -80,9 +86,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: automated-log-analysis
           base: main
-          update-pull-request-body: true
-          commit-message: |
-            chore: hourly log analysis $(date +'%Y-%m-%d %H:%M UTC')
+          commit-message: ${{ env.COMMIT_MESSAGE }}
           title: "📊 Automated Hourly Log Analysis"
           body: |
             ## 📊 Automated Vercel Log Analysis
