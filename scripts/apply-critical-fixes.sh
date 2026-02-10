@@ -37,10 +37,14 @@ fi
 # Fetch logs from last hour
 echo "📥 Fetching logs for analysis..."
 if [ -n "$VERCEL_PROJECT_ID" ]; then
-    vercel logs --since=1h --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
+    vercel logs --since=1h --json --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
 else
-    vercel logs --since=1h --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
+    vercel logs --since=1h --json --token="$VERCEL_TOKEN" 2>&1 > "$LOG_FILE"
 fi
+
+# Filter only valid JSON lines (skip CLI headers)
+VALID_JSON_LOG="/tmp/vercel-logs-valid-$(date +%s).jsonl"
+grep '^{' "$LOG_FILE" > "$VALID_JSON_LOG" || touch "$VALID_JSON_LOG"
 
 FIXES_APPLIED=0
 FIXES_LOG=""
@@ -49,15 +53,32 @@ FIXES_LOG=""
 echo ""
 echo "🔍 Checking for new 404 patterns..."
 
-# Extract unique 404 URLs (excluding already handled patterns)
-NEW_404_PATTERNS=$(grep "404" "$LOG_FILE" | \
-  grep -oE "GET [^ ]+" | \
-  sed 's/GET //' | \
-  grep -v "/_next/" | \
-  grep -v "/favicon" | \
-  grep -v "/api/" | \
-  sort -u | \
-  head -10)
+# Extract unique 404 URLs using Python for proper JSON parsing
+export VALID_JSON_LOG
+NEW_404_PATTERNS=$(python3 - <<'PY404'
+import json
+import os
+
+paths = set()
+log_file = os.environ.get('VALID_JSON_LOG')
+if not log_file or not os.path.exists(log_file):
+    exit(0)
+
+with open(log_file, "r") as f:
+    for line in f:
+        try:
+            obj = json.loads(line)
+            if obj.get("responseStatusCode") == 404:
+                path = obj.get("requestPath", "")
+                if path and not any(x in path for x in ["/_next/", "/favicon", "/api/"]):
+                    paths.add(path)
+        except:
+            pass
+
+for path in sorted(paths)[:10]:
+    print(path)
+PY404
+)
 
 if [ -n "$NEW_404_PATTERNS" ]; then
   echo "Found 404 patterns:"
@@ -94,11 +115,32 @@ fi
 echo ""
 echo "🔍 Checking for missing blob files (serverless invocations)..."
 
-SERVERLESS_URLS=$(grep "λ GET" "$LOG_FILE" | \
-  grep -oE "GET [^ ]+" | \
-  sed 's/GET //' | \
-  grep "\.html$" | \
-  sort -u)
+# Extract serverless URLs using Python for proper JSON parsing
+export VALID_JSON_LOG
+SERVERLESS_URLS=$(python3 - <<'PYSERVERLESS'
+import json
+import os
+
+paths = []
+log_file = os.environ.get('VALID_JSON_LOG')
+if not log_file or not os.path.exists(log_file):
+    exit(0)
+
+with open(log_file, "r") as f:
+    for line in f:
+        try:
+            obj = json.loads(line)
+            if obj.get("source") == "serverless":
+                path = obj.get("requestPath", "")
+                if path and path.endswith(".html"):
+                    paths.append(path)
+        except:
+            pass
+
+for path in sorted(set(paths)):
+    print(path)
+PYSERVERLESS
+)
 
 MISSING_BLOBS=""
 MISSING_COUNT=0
@@ -132,12 +174,63 @@ fi
 echo ""
 echo "🔍 Checking serverless usage..."
 
-SERVERLESS_COUNT=$(grep -c "λ GET" "$LOG_FILE" || echo "0")
+# Count serverless invocations using Python
+export VALID_JSON_LOG
+SERVERLESS_COUNT=$(python3 - <<'PYCOUNT'
+import json
+import os
+
+count = 0
+log_file = os.environ.get('VALID_JSON_LOG')
+if not log_file or not os.path.exists(log_file):
+    print(0)
+    exit(0)
+
+with open(log_file, "r") as f:
+    for line in f:
+        try:
+            obj = json.loads(line)
+            if obj.get("source") == "serverless":
+                count += 1
+        except:
+            pass
+print(count)
+PYCOUNT
+)
+
 SERVERLESS_THRESHOLD=50
 
 if [ "$SERVERLESS_COUNT" -gt "$SERVERLESS_THRESHOLD" ]; then
   echo "⚠️ HIGH SERVERLESS USAGE: $SERVERLESS_COUNT invocations/hour"
   echo "   Monthly projection: $((SERVERLESS_COUNT * 24 * 30)) invocations"
+  
+  # Get serverless endpoints for the alert
+  export VALID_JSON_LOG
+  SERVERLESS_ENDPOINTS=$(python3 - <<'PYENDPOINTS'
+import json
+import os
+from collections import Counter
+
+paths = []
+log_file = os.environ.get('VALID_JSON_LOG')
+if not log_file or not os.path.exists(log_file):
+    exit(0)
+
+with open(log_file, "r") as f:
+    for line in f:
+        try:
+            obj = json.loads(line)
+            if obj.get("source") == "serverless":
+                path = obj.get("requestPath", "")
+                if path:
+                    paths.append(path)
+        except:
+            pass
+
+for path, count in Counter(paths).most_common(10):
+    print(f"{count:6d} {path}")
+PYENDPOINTS
+  )
   
   # Create alert file
   cat > "$WORKSPACE_ROOT/web-site-optimization/SERVERLESS_ALERT.md" << EOF
@@ -160,7 +253,7 @@ if [ "$SERVERLESS_COUNT" -gt "$SERVERLESS_THRESHOLD" ]; then
 
 ## 📊 Current Serverless Endpoints:
 \`\`\`
-$(grep "λ GET" "$LOG_FILE" | grep -oE "GET [^ ]+" | sed 's/GET //' | sort | uniq -c | sort -rn | head -10)
+$SERVERLESS_ENDPOINTS
 \`\`\`
 EOF
 
@@ -173,18 +266,27 @@ fi
 echo ""
 echo "🔍 Checking for bot patterns..."
 
-# Check for suspicious user agents or patterns
-BOT_PATTERNS=$(grep -E "(bot|crawler|spider|scraper)" "$LOG_FILE" -i | wc -l | tr -d ' ')
+# Check for suspicious user agents or patterns using Python
+BOT_PATTERNS=$(python3 - <<'PYBOT'
+import json
+
+count = 0
+with open("$VALID_JSON_LOG", "r") as f:
+    for line in f:
+        try:
+            obj = json.loads(line)
+            # Check message or path for bot patterns
+            msg = (obj.get("message", "") or "").lower()
+            if any(bot in msg for bot in ["bot", "crawler", "spider", "scraper"]):
+                count += 1
+        except:
+            pass
+print(count)
+PYBOT
+)
 
 if [ "$BOT_PATTERNS" -gt 20 ]; then
   echo "⚠️ Detected $BOT_PATTERNS bot requests (>20/hour)"
-  
-  # Extract common bot user agents
-  COMMON_BOTS=$(grep -oE "bot|crawler|spider|scraper" "$LOG_FILE" -i | sort | uniq -c | sort -rn | head -5)
-  
-  echo "Common bots detected:"
-  echo "$COMMON_BOTS"
-  
   FIXES_LOG="${FIXES_LOG}\n- Recommendation: Consider adding bot filtering in middleware"
 fi
 
@@ -196,6 +298,7 @@ fi
 
 # Cleanup
 rm -f "$LOG_FILE"
+rm -f "$VALID_JSON_LOG"
 
 # Summary
 echo ""

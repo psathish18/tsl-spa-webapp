@@ -47,6 +47,9 @@ fi
 # Persist raw JSONL output
 printf "%s\n" "$LOG_OUTPUT" > "$LOG_FILE"
 
+# Filter only valid JSON lines (skip Vercel CLI headers like "Fetching logs...")
+VALID_JSON_LOGS=$(echo "$LOG_OUTPUT" | grep '^{' || echo "")
+
 # Generate CSV with full log messages
 export LOG_FILE
 export CSV_FILE
@@ -67,22 +70,14 @@ def parse_line(line):
     except json.JSONDecodeError:
         return None
 
-    # Best-effort extraction of common fields
+    # Extract fields directly from Vercel log format
     timestamp = obj.get("timestamp") or obj.get("time") or obj.get("createdAt")
-    host = obj.get("host") or obj.get("hostname") or obj.get("requestHost")
+    host = obj.get("domain") or obj.get("host") or obj.get("hostname") or obj.get("requestHost")
     level = obj.get("level")
     message = obj.get("message") or obj.get("msg")
-
-    method = None
-    path = None
-    status = None
-
-    request = obj.get("request") or {}
-    response = obj.get("response") or {}
-
-    method = request.get("method") or obj.get("method")
-    path = request.get("path") or request.get("url") or obj.get("path") or obj.get("url")
-    status = response.get("status") or obj.get("status")
+    method = obj.get("requestMethod") or obj.get("method")
+    path = obj.get("requestPath") or obj.get("path") or obj.get("url")
+    status = obj.get("responseStatusCode") or obj.get("status")
 
     return {
         "timestamp": timestamp,
@@ -108,32 +103,91 @@ with open(csv_file, "w", newline="", encoding="utf-8") as f:
                 writer.writerow(row)
 PY
 
-# Count total requests
-TOTAL_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "GET " || echo "0")
-TOTAL_REQUESTS=$(echo "$TOTAL_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
+# Count metrics from CSV file (more reliable than grepping raw output)
+# CSV has format: timestamp,host,level,method,path,status,message,raw
+if [ -f "$CSV_FILE" ]; then
+    # Count using Python to properly parse the CSV
+    export CSV_FILE
+    read -r TOTAL_REQUESTS EDGE_REQUESTS SERVERLESS_REQUESTS REDIRECTS BLOCKED_REQUESTS NOT_FOUND <<< $(python3 - <<'PYCOUNT'
+import csv
+import json
+import os
 
-# Count Edge (ε) requests
-EDGE_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "ε GET" || echo "0")
-EDGE_REQUESTS=$(echo "$EDGE_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
+csv_file = os.environ.get('CSV_FILE')
+total = 0
+edge = 0
+serverless = 0
+redirects = 0
+blocked = 0
+not_found = 0
 
-# Count Serverless (λ) requests
-SERVERLESS_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "λ GET" || echo "0")
-SERVERLESS_REQUESTS=$(echo "$SERVERLESS_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
+with open(csv_file, 'r', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        total += 1
+        
+        # Parse the raw JSON to get source
+        try:
+            raw_data = json.loads(row['raw'])
+            source = raw_data.get('source', '')
+            
+            # Count by source
+            # Edge: edge-middleware, static, redirect (all handled at edge)
+            if source in ['edge-middleware', 'static', 'redirect']:
+                edge += 1
+            elif source == 'serverless':
+                serverless += 1
+        except:
+            pass
+        
+        # Count by status code
+        try:
+            status = int(row['status']) if row['status'] else 0
+            if status in [308, 301]:
+                redirects += 1
+            elif status == 410:
+                blocked += 1
+            elif status == 404:
+                not_found += 1
+        except:
+            pass
 
-# Count Redirects (308, 301)
-REDIRECTS=$(echo "$LOG_OUTPUT" | grep -E "308|301" | wc -l | tr -d ' ')
-REDIRECTS=$(echo "$REDIRECTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
+print(f"{total} {edge} {serverless} {redirects} {blocked} {not_found}")
+PYCOUNT
+    )
+    
+    # Extract unique serverless endpoints
+    SERVERLESS_ENDPOINTS=$(python3 - <<'PYENDPOINTS'
+import csv
+import json
+import os
 
-# Count 410 (blocked)
-BLOCKED_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "410" || echo "0")
-BLOCKED_REQUESTS=$(echo "$BLOCKED_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
+csv_file = os.environ.get('CSV_FILE')
+endpoints = set()
 
-# Count 404 errors
-NOT_FOUND=$(echo "$LOG_OUTPUT" | grep -c "404" || echo "0")
-NOT_FOUND=$(echo "$NOT_FOUND" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
+with open(csv_file, 'r', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        try:
+            raw_data = json.loads(row['raw'])
+            if raw_data.get('source') == 'serverless' and row['path']:
+                endpoints.add(row['path'])
+        except:
+            pass
 
-# Extract unique serverless endpoints
-SERVERLESS_ENDPOINTS=$(echo "$LOG_OUTPUT" | grep "λ GET" | sed -E 's/.*λ GET ([^ ]+).*/\1/' | sort -u | head -10)
+for endpoint in sorted(endpoints)[:10]:
+    print(endpoint)
+PYENDPOINTS
+    )
+else
+    TOTAL_REQUESTS=0
+    EDGE_REQUESTS=0
+    SERVERLESS_REQUESTS=0
+    REDIRECTS=0
+    BLOCKED_REQUESTS=0
+    NOT_FOUND=0
+    SERVERLESS_ENDPOINTS=""
+fi
 
 # Calculate percentages
 if [ "$TOTAL_REQUESTS" -gt 0 ]; then
@@ -151,7 +205,10 @@ MONTHLY_EDGE=$((EDGE_REQUESTS * 24 * 30))
 MONTHLY_SERVERLESS=$((SERVERLESS_REQUESTS * 24 * 30))
 
 # Status indicators
-if [ "$MONTHLY_EDGE" -lt 800000 ]; then
+if [ "$TOTAL_REQUESTS" -eq 0 ]; then
+    EDGE_STATUS="ℹ️ No data"
+    SERVERLESS_STATUS="ℹ️ No data"
+elif [ "$MONTHLY_EDGE" -lt 800000 ]; then
     EDGE_STATUS="✅ Safe"
 elif [ "$MONTHLY_EDGE" -lt 900000 ]; then
     EDGE_STATUS="⚠️ Monitor"
@@ -159,12 +216,14 @@ else
     EDGE_STATUS="🔴 Critical"
 fi
 
-if [ "$MONTHLY_SERVERLESS" -lt 2000 ]; then
-    SERVERLESS_STATUS="✅ Safe"
-elif [ "$MONTHLY_SERVERLESS" -lt 5000 ]; then
-    SERVERLESS_STATUS="⚠️ Monitor"
-else
-    SERVERLESS_STATUS="🔴 Reduce"
+if [ "$TOTAL_REQUESTS" -gt 0 ]; then
+    if [ "$MONTHLY_SERVERLESS" -lt 2000 ]; then
+        SERVERLESS_STATUS="✅ Safe"
+    elif [ "$MONTHLY_SERVERLESS" -lt 5000 ]; then
+        SERVERLESS_STATUS="⚠️ Monitor"
+    else
+        SERVERLESS_STATUS="🔴 Reduce"
+    fi
 fi
 
 # Print summary to console
