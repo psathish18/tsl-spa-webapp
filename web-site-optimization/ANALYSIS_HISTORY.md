@@ -872,3 +872,30 @@ The complete raw log data for this analysis period is available in: `web-site-op
 
 ---
 
+
+## Hourly Analysis - 2026-02-10 01:44
+
+### Quick Stats:
+- **Total Requests**: 0
+0
+- **Edge (ε)**: 0
+0 (0.0%) → Monthly:  / 1M 🔴 Critical
+- **Serverless (λ)**: 0
+0 (0.0%) → Monthly:  🔴 Reduce
+- **Redirects (308/301)**: 23 (0.0%)
+- **Blocked (410)**: 0
+0
+- **Not Found (404)**: 4
+
+### Status:
+- Edge Usage: 🔴 Critical (0.0% of traffic)
+- Serverless Usage: 🔴 Reduce (0
+0 invocations this hour)
+- Cache Hit Rate: 0.0% (Target: >85%)
+
+### Raw Log Data
+- JSONL (full log payloads): `web-site-optimization/hourly-vercel-logs-2026-02-10_01-44.jsonl`
+- CSV (full messages): `web-site-optimization/hourly-vercel-logs-2026-02-10_01-44.csv`
+
+---
+
