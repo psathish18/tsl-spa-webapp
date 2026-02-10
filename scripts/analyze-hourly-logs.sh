@@ -110,21 +110,27 @@ PY
 
 # Count total requests
 TOTAL_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "GET " || echo "0")
+TOTAL_REQUESTS=$(echo "$TOTAL_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
 
 # Count Edge (ε) requests
 EDGE_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "ε GET" || echo "0")
+EDGE_REQUESTS=$(echo "$EDGE_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
 
 # Count Serverless (λ) requests
 SERVERLESS_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "λ GET" || echo "0")
+SERVERLESS_REQUESTS=$(echo "$SERVERLESS_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
 
 # Count Redirects (308, 301)
 REDIRECTS=$(echo "$LOG_OUTPUT" | grep -E "308|301" | wc -l | tr -d ' ')
+REDIRECTS=$(echo "$REDIRECTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
 
 # Count 410 (blocked)
 BLOCKED_REQUESTS=$(echo "$LOG_OUTPUT" | grep -c "410" || echo "0")
+BLOCKED_REQUESTS=$(echo "$BLOCKED_REQUESTS" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
 
 # Count 404 errors
 NOT_FOUND=$(echo "$LOG_OUTPUT" | grep -c "404" || echo "0")
+NOT_FOUND=$(echo "$NOT_FOUND" | sed 's/[^0-9]*\([0-9]*\).*/\1/')
 
 # Extract unique serverless endpoints
 SERVERLESS_ENDPOINTS=$(echo "$LOG_OUTPUT" | grep "λ GET" | sed -E 's/.*λ GET ([^ ]+).*/\1/' | sort -u | head -10)
