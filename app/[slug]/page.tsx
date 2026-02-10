@@ -124,10 +124,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   
   // If song has link array from Blogger API, use the alternate link as canonical URL
   if (song.link && Array.isArray(song.link)) {
-    const alternateLink = song.link.find((l: any) => l.rel === 'alternate')
+    const alternateLink = song.link.find((l: { rel: string; href: string }) => l.rel === 'alternate')
     if (alternateLink?.href) {
       // Use the Blogger URL as canonical, but replace the domain with tsonglyrics.com
-      // Extract the path from Blogger URL (e.g., /p/song-name-lyrics.html)
+      // Extract the filename from Blogger URL (e.g., /p/song-name.html or /2023/05/song-name.html)
+      // We only need the .html filename as that's what we use in our routing
       const urlMatch = alternateLink.href.match(/\/([^\/]+\.html)$/)
       if (urlMatch) {
         canonicalUrl = `https://www.tsonglyrics.com/${urlMatch[1]}`
