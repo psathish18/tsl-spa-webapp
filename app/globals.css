@@ -472,12 +472,17 @@
   background: var(--primary, #fbbf24);
 }
 
+.lyrics-content {
+  padding: 0.5rem !important;
+}
 .lyrics-tab-content {
   color: var(--text, #374151);
+  padding: 1rem 0.5rem;
 }
 
 .theme-dark .lyrics-tab-content {
   color: var(--text, #9b9a9a);
+  padding: 1rem 0.5rem;
 }
 
 /* Lyrics paragraph styling */
