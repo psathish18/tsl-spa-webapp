@@ -871,7 +871,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 // Build snippet and share URLs using utility functions
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
-                const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
                 
                 const twitterHref = buildTwitterShareUrl({
                   snippet: snippetWithStars,
@@ -909,7 +909,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   // Build snippet and share URLs using utility functions
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
-                  const pageWithPath = `https://tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                  const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
                   
                   const twitterHref = buildTwitterShareUrl({
                     snippet: snippetWithStars,
