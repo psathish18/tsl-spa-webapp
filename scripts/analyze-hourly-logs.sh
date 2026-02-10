@@ -205,7 +205,10 @@ MONTHLY_EDGE=$((EDGE_REQUESTS * 24 * 30))
 MONTHLY_SERVERLESS=$((SERVERLESS_REQUESTS * 24 * 30))
 
 # Status indicators
-if [ "$MONTHLY_EDGE" -lt 800000 ]; then
+if [ "$TOTAL_REQUESTS" -eq 0 ]; then
+    EDGE_STATUS="ℹ️ No data"
+    SERVERLESS_STATUS="ℹ️ No data"
+elif [ "$MONTHLY_EDGE" -lt 800000 ]; then
     EDGE_STATUS="✅ Safe"
 elif [ "$MONTHLY_EDGE" -lt 900000 ]; then
     EDGE_STATUS="⚠️ Monitor"
@@ -213,12 +216,14 @@ else
     EDGE_STATUS="🔴 Critical"
 fi
 
-if [ "$MONTHLY_SERVERLESS" -lt 2000 ]; then
-    SERVERLESS_STATUS="✅ Safe"
-elif [ "$MONTHLY_SERVERLESS" -lt 5000 ]; then
-    SERVERLESS_STATUS="⚠️ Monitor"
-else
-    SERVERLESS_STATUS="🔴 Reduce"
+if [ "$TOTAL_REQUESTS" -gt 0 ]; then
+    if [ "$MONTHLY_SERVERLESS" -lt 2000 ]; then
+        SERVERLESS_STATUS="✅ Safe"
+    elif [ "$MONTHLY_SERVERLESS" -lt 5000 ]; then
+        SERVERLESS_STATUS="⚠️ Monitor"
+    else
+        SERVERLESS_STATUS="🔴 Reduce"
+    fi
 fi
 
 # Print summary to console
