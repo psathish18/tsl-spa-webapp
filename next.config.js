@@ -50,8 +50,8 @@ const nextConfig = {
   },
   // Bundle optimization - optimize CSS and JS bundling to reduce edge requests
   experimental: {
-    // Enhanced package imports optimization - removed @vercel/analytics as it's no longer used
-    optimizePackageImports: ['lucide-react', 'react', 'react-dom'],
+    // Enhanced package imports optimization - tree-shake React packages
+    optimizePackageImports: ['react', 'react-dom'],
     // Enable optimized CSS bundling to reduce CSS chunks
     optimizeCss: true,
   },
@@ -62,6 +62,38 @@ const nextConfig = {
   productionBrowserSourceMaps: false,
   // Minimize CSS and JS chunks
   swcMinify: true,
+  // Custom webpack configuration for aggressive code splitting
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Optimize client-side bundle splitting
+      config.optimization = {
+        ...config.optimization,
+        splitChunks: {
+          ...config.optimization.splitChunks,
+          chunks: 'all',
+          cacheGroups: {
+            ...config.optimization.splitChunks?.cacheGroups,
+            // Bundle all node_modules into a single vendor chunk
+            vendor: {
+              test: /[\\/]node_modules[\\/]/,
+              name: 'vendors',
+              chunks: 'all',
+              priority: 10,
+              reuseExistingChunk: true,
+            },
+            // Extract common code shared between pages
+            common: {
+              minChunks: 2,
+              priority: 5,
+              reuseExistingChunk: true,
+              enforce: true,
+            },
+          },
+        },
+      };
+    }
+    return config;
+  },
   async rewrites() {
     return [
       {
