@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { REVALIDATE_30_DAYS } from '@/lib/cacheConfig';
 
-export const runtime = 'edge';
+// Using Node.js runtime (default) instead of Edge to reduce edge requests
 
 // Construct blob URL directly without list() to avoid Advanced Operations cost
 function getBlobUrl(slug: string): string {

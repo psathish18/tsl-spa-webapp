@@ -1867,8 +1867,9 @@ const nextConfig = {
   },
   // Bundle optimization - optimize CSS and JS bundling to reduce edge requests
   experimental: {
-    optimizePackageImports: ['lucide-react', '@vercel/analytics'],
-    // Enable optimized CSS bundling
+    // Enhanced package imports optimization - removed @vercel/analytics as it's no longer used
+    optimizePackageImports: ['lucide-react', 'react', 'react-dom'],
+    // Enable optimized CSS bundling to reduce CSS chunks
     optimizeCss: true,
   },
   // Advanced caching and compression

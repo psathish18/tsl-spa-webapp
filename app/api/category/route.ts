@@ -9,8 +9,7 @@ import { getSlugFromSong } from '@/lib/slugUtils'
 // to reduce CPU usage and function invocations.
 // This endpoint is kept for backward compatibility but may be removed in the future.
 
-// Enable Edge Runtime for better performance
-export const runtime = 'edge'
+// Using Node.js runtime (default) instead of Edge to reduce edge requests
 
 interface BloggerEntry {
   id: { $t: string }
