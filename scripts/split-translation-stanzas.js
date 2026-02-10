@@ -63,12 +63,13 @@ function splitIntoStanzas(thanglish, english) {
     const tPart = thanglishParts[i] || '';
     const ePart = englishParts[i] || '';
     
-    // Create stanza with alternating paragraphs
-    // Each paragraph uses <p> tag, lines within paragraph use <br />
+    // Create stanza with Thanglish (no <p> tag) and English (with <p> tag)
+    // Thanglish: raw text with <br /> tags
+    // English: wrapped in <p> tag with <br /> tags for line breaks
     let stanza = '<div>\n';
     
     if (tPart) {
-      stanza += `<p>${tPart.replace(/<br\s*\/?>/gi, '<br />')}</p>\n`;
+      stanza += `${tPart.replace(/<br\s*\/?>/gi, '<br />')}\n`;
     }
     
     if (ePart) {
