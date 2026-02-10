@@ -1,4 +1,24 @@
 /** @type {import('tailwindcss').Config} */
+
+// System font stack - matches CSS custom property in globals.css
+const systemFonts = [
+  '-apple-system',
+  'BlinkMacSystemFont',
+  '"Segoe UI"',
+  'Roboto',
+  'Oxygen',
+  'Ubuntu',
+  'Cantarell',
+  '"Fira Sans"',
+  '"Droid Sans"',
+  '"Helvetica Neue"',
+  'Arial',
+  'sans-serif',
+  '"Apple Color Emoji"',
+  '"Segoe UI Emoji"',
+  '"Segoe UI Symbol"'
+];
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -24,9 +44,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        // High-performance system font stack - no external requests
-        sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial', 'sans-serif'],
-        display: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        // High-performance system font stack - matches globals.css --font-system
+        sans: systemFonts,
+        display: systemFonts,
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
