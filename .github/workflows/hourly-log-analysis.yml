@@ -22,6 +22,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0 # Fetch all history for proper commits
       
+      - name: Setup analysis branch
+        run: |
+          if git ls-remote --heads origin automated-log-analysis | grep -q automated-log-analysis; then
+            git checkout automated-log-analysis
+            git pull origin automated-log-analysis
+          else
+            git checkout -b automated-log-analysis
+          fi
+      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -29,6 +38,13 @@ jobs:
       
       - name: Install Vercel CLI
         run: npm install -g vercel@latest
+      
+      - name: Setup GitHub CLI
+        run: |
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          sudo apt update
+          sudo apt install gh
       
       - name: Run hourly log analysis
         id: analysis
@@ -79,17 +95,36 @@ jobs:
           TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
           echo "COMMIT_MESSAGE=chore: hourly log analysis $TIMESTAMP" >> $GITHUB_ENV
       
+      - name: Commit and push changes
+        if: steps.analysis.outputs.token_available == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "${{ env.COMMIT_MESSAGE }}"
+            git push origin HEAD:automated-log-analysis
+          fi
+      
       - name: Create or update PR
         if: steps.analysis.outputs.token_available == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: automated-log-analysis
-          base: main
-          commit-message: ${{ env.COMMIT_MESSAGE }}
-          title: "📊 Automated Hourly Log Analysis"
-          body: |
-            ## 📊 Automated Vercel Log Analysis
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Authenticate gh
+          gh auth setup-git
+          
+          # Check if PR already exists
+          PR_EXISTS=$(gh pr list --head automated-log-analysis --base main --json number --jq 'length')
+          if [ "$PR_EXISTS" -eq 0 ]; then
+            # Create new PR
+            gh pr create \
+              --head automated-log-analysis \
+              --base main \
+              --title "📊 Automated Hourly Log Analysis" \
+              --body "## 📊 Automated Vercel Log Analysis
             
             This PR contains hourly log analyses from the last 24 hours.
             
@@ -100,16 +135,17 @@ jobs:
             - Blob storage miss detection
             
             ### ✅ Review & Merge:
-            - Review the accumulated analyses in `ANALYSIS_HISTORY.md`
+            - Review the accumulated analyses in \`ANALYSIS_HISTORY.md\`
             - Merge when ready (daily or weekly)
             - A new PR will be created for the next batch
             
             **Last Updated**: ${{ env.LAST_UPDATED }}
             
             ---
-            *This PR is automatically updated every hour by GitHub Actions*
-          labels: |
-            automated
-            monitoring
-            analytics
-          draft: false
+            *This PR is automatically updated every hour by GitHub Actions*" \
+              --label automated \
+              --label monitoring \
+              --label analytics
+          else
+            echo "PR already exists, branch push will update it"
+          fi
