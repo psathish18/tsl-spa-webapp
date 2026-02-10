@@ -19,7 +19,7 @@ export default function LyricsTabs({ tamilContent, tanglishContent, hasTamilLyri
   if (!hasMultipleVersions) {
     // If no Tamil or English lyrics available, show only Tanglish without tabs
     return (
-      <div className="lyrics-tab-container rounded-lg p-8">
+      <div className="lyrics-tab-container rounded-lg p-8 pb-12 lyrics-content">
         {tanglishContent}
       </div>
     );
