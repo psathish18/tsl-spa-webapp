@@ -2,10 +2,18 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 import dynamic from 'next/dynamic'
-import OneSignalButton from '../components/OneSignalButton'
-import OneSignalSubscriptionCard from '../components/OneSignalSubscriptionCard'
 
+// Lazy load all non-critical components to reduce edge requests
 const FloatingSearchButton = dynamic(() => import('../components/FloatingSearchButton'), { ssr: false })
+const OneSignalButton = dynamic(() => import('../components/OneSignalButton'), { 
+  ssr: false,
+  loading: () => null // No loading state needed - appears when ready
+})
+const OneSignalSubscriptionCard = dynamic(() => import('../components/OneSignalSubscriptionCard'), { 
+  ssr: false,
+  loading: () => null
+})
+
 const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 // Removed Vercel Analytics to reduce edge requests
