@@ -145,21 +145,44 @@ export default function RootLayout({
   <FloatingSearchButton />
   
   {/* Defer all analytics/tracking scripts to end of body */}
-  {/* Google Analytics - Deferred */}
+  {/* Google Analytics - Lazy loaded after page interaction or 3 seconds */}
   {process.env.NEXT_PUBLIC_GA_ID && (
-    <>
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}></script>
-      <script dangerouslySetInnerHTML={{
-        __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
-            page_path: window.location.pathname,
+    <script dangerouslySetInnerHTML={{
+      __html: `
+        (function() {
+          var gaLoaded = false;
+          var gaId = '${process.env.NEXT_PUBLIC_GA_ID}';
+          
+          function loadGA() {
+            if (gaLoaded) return;
+            gaLoaded = true;
+            
+            // Load gtag script
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+            document.head.appendChild(script);
+            
+            // Initialize gtag
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', gaId, {
+              page_path: window.location.pathname,
+            });
+            window.gtag = gtag;
+          }
+          
+          // Load on first user interaction
+          ['mousedown', 'touchstart', 'keydown', 'scroll'].forEach(function(event) {
+            window.addEventListener(event, loadGA, { once: true, passive: true });
           });
-        `
-      }} />
-    </>
+          
+          // Fallback: load after 3 seconds if no interaction
+          setTimeout(loadGA, 3000);
+        })();
+      `
+    }} />
   )}
   
   {/* OneSignal - Deferred */}
