@@ -7,10 +7,9 @@
 set -e
 
 WORKSPACE_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-ANALYSIS_FILE="$WORKSPACE_ROOT/web-site-optimization/ANALYSIS_HISTORY.md"
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
 TIMESTAMP_SAFE=$(date "+%Y-%m-%d_%H-%M")
-LOG_FILE="$WORKSPACE_ROOT/web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.jsonl"
+# LOG_FILE="$WORKSPACE_ROOT/web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.jsonl"  # Not needed
 CSV_FILE="$WORKSPACE_ROOT/web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.csv"
 
 echo "========================================"
@@ -36,31 +35,23 @@ if [ -z "$VERCEL_TOKEN" ]; then
     exit 1
 fi
 
-# Fetch logs from last hour (JSONL for full messages)
-echo "📥 Fetching logs from last 1 hour..."
+# Fetch logs from last full hour with increased limit to capture all logs
+# Running at :55 minute but fetching 1hr ensures we don't miss any logs before retention expires
+echo "📥 Fetching logs from last 1 hour (up to 10000 entries)..."
 if [ -n "$VERCEL_PROJECT_ID" ]; then
-    LOG_OUTPUT=$(vercel logs --since=1h --json --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1)
+    LOG_OUTPUT=$(vercel logs --since=1h --limit=10000 --json --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1)
 else
-    LOG_OUTPUT=$(vercel logs --since=1h --json --token="$VERCEL_TOKEN" 2>&1)
+    LOG_OUTPUT=$(vercel logs --since=1h --limit=10000 --json --token="$VERCEL_TOKEN" 2>&1)
 fi
 
-# Persist raw JSONL output
-printf "%s\n" "$LOG_OUTPUT" > "$LOG_FILE"
-
-# Filter only valid JSON lines (skip Vercel CLI headers like "Fetching logs...")
-VALID_JSON_LOGS=$(echo "$LOG_OUTPUT" | grep '^{' || echo "")
-
-# Generate CSV with full log messages
-export LOG_FILE
+# Generate CSV directly from log output (no JSONL intermediate file needed)
 export CSV_FILE
-python3 - <<'PY'
-import csv, json, os
+echo "$LOG_OUTPUT" | python3 - <<'PY'
+import csv, json, sys, os
 
-log_file = os.environ.get('LOG_FILE')
 csv_file = os.environ.get('CSV_FILE')
-
-if not log_file or not csv_file:
-    raise SystemExit("Missing LOG_FILE or CSV_FILE env")
+if not csv_file:
+    raise SystemExit("Missing CSV_FILE env")
 
 fields = ["timestamp", "host", "level", "method", "path", "status", "message", "raw"]
 
@@ -93,14 +84,13 @@ def parse_line(line):
 with open(csv_file, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=fields)
     writer.writeheader()
-    with open(log_file, "r", encoding="utf-8") as lf:
-        for line in lf:
-            line = line.strip()
-            if not line:
-                continue
-            row = parse_line(line)
-            if row:
-                writer.writerow(row)
+    for line in sys.stdin:
+        line = line.strip()
+        if not line or not line.startswith('{'):
+            continue
+        row = parse_line(line)
+        if row:
+            writer.writerow(row)
 PY
 
 # Count metrics from CSV file (more reliable than grepping raw output)
@@ -248,59 +238,22 @@ if [ -n "$SERVERLESS_ENDPOINTS" ]; then
     echo ""
 fi
 
-# Append to ANALYSIS_HISTORY.md
-echo "📝 Appending to $ANALYSIS_FILE..."
-
-cat >> "$ANALYSIS_FILE" << EOF
-
-## Hourly Analysis - $TIMESTAMP
-
-### Quick Stats:
-- **Total Requests**: $TOTAL_REQUESTS
-- **Edge (ε)**: $EDGE_REQUESTS ($EDGE_PERCENT%) → Monthly: $MONTHLY_EDGE / 1M $EDGE_STATUS
-- **Serverless (λ)**: $SERVERLESS_REQUESTS ($SERVERLESS_PERCENT%) → Monthly: $MONTHLY_SERVERLESS $SERVERLESS_STATUS
-- **Redirects (308/301)**: $REDIRECTS ($REDIRECT_PERCENT%)
-- **Blocked (410)**: $BLOCKED_REQUESTS
-- **Not Found (404)**: $NOT_FOUND
-
-EOF
-
-if [ -n "$SERVERLESS_ENDPOINTS" ] && [ "$SERVERLESS_REQUESTS" -gt 0 ]; then
-    cat >> "$ANALYSIS_FILE" << EOF
-### Serverless Endpoints (Potential Blob Misses):
-\`\`\`
-$SERVERLESS_ENDPOINTS
-\`\`\`
-
-EOF
-fi
-
-cat >> "$ANALYSIS_FILE" << EOF
-### Status:
-- Edge Usage: $EDGE_STATUS (${EDGE_PERCENT}% of traffic)
-- Serverless Usage: $SERVERLESS_STATUS ($SERVERLESS_REQUESTS invocations this hour)
-- Cache Hit Rate: ${EDGE_PERCENT}% (Target: >85%)
-
-### Raw Log Data
-- JSONL (full log payloads): \`web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.jsonl\`
-- CSV (full messages): \`web-site-optimization/hourly-vercel-logs-$TIMESTAMP_SAFE.csv\`
-
----
-
-EOF
-
-echo "✅ Analysis complete and saved!"
+echo "✅ CSV saved: $CSV_FILE"
 echo ""
 
-# Optional: Commit and push if running locally (not in CI/CD)
+# Commit CSV file to git
 if [ "$CI" != "true" ] && [ "$GITHUB_ACTIONS" != "true" ]; then
-    echo "🔄 Committing analysis to git..."
+    echo "🔄 Committing CSV to git..."
     cd "$WORKSPACE_ROOT"
     git config --global user.name "Vercel Log Analyzer"
     git config --global user.email "noreply@github.com"
-    git add "$ANALYSIS_FILE"
-    git commit -m "chore: hourly log analysis - $TIMESTAMP" || echo "No changes to commit"
+    git add "$CSV_FILE"
+    git commit -m "chore: hourly vercel logs - $TIMESTAMP" || echo "No changes to commit"
     git push || echo "Push failed or no changes"
+else
+    echo "🔄 CI/CD mode: Committing CSV to git..."
+    cd "$WORKSPACE_ROOT"
+    git add "$CSV_FILE" 2>/dev/null || true
 fi
 
 echo "Done! 🎉"
