@@ -35,14 +35,24 @@ if [ -z "$VERCEL_TOKEN" ]; then
     exit 1
 fi
 
-# Fetch logs from last full hour with increased limit to capture all logs
+# Fetch logs from last full hour using Vercel REST API (CLI no longer supports historical logs)
 # Running at :55 minute but fetching 1hr ensures we don't miss any logs before retention expires
-echo "📥 Fetching logs from last 1 hour (up to 10000 entries)..."
-if [ -n "$VERCEL_PROJECT_ID" ]; then
-    LOG_OUTPUT=$(vercel logs --since=1h --limit=10000 --json --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1)
+echo "📥 Fetching logs from last 1 hour via Vercel API..."
+
+# Get project ID from .vercel/project.json
+if [ -f ".vercel/project.json" ]; then
+    PROJECT_ID=$(cat .vercel/project.json | python3 -c "import sys, json; print(json.load(sys.stdin).get('projectId', ''))")
 else
-    LOG_OUTPUT=$(vercel logs --since=1h --limit=10000 --json --token="$VERCEL_TOKEN" 2>&1)
+    echo "❌ Error: .vercel/project.json not found. Run 'vercel link' first."
+    exit 1
 fi
+
+# Calculate timestamp for 1 hour ago in milliseconds
+SINCE_MS=$(($(date +%s) * 1000 - 3600000))
+
+# Fetch logs via Vercel REST API
+LOG_OUTPUT=$(curl -s "https://api.vercel.com/v3/deployments/$PROJECT_ID/events?since=$SINCE_MS&limit=10000" \
+    -H "Authorization: Bearer $VERCEL_TOKEN" 2>&1)
 
 # Generate CSV directly from log output (no JSONL intermediate file needed)
 export CSV_FILE
