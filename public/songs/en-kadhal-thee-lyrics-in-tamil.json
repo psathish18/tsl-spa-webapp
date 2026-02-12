@@ -8,11 +8,16 @@
   "musicName": "",
   "actorName": "",
   "published": "2013-11-20T11:53:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><br /></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Irandam Ulagam",
@@ -103,10 +108,10 @@
   ],
   "seo": {
     "title": "En Kadhal Thee Lyrics in Tamil",
-    "description": "Full En Kadhal Thee in Tamil songs lyrics in tamil ( ...) Irandam Ulagam Songs Lyrics. sharable lyrics snippets,.",
+    "description": "Full En Kadhal Thee in Tamil song lyrics in tamil  ( ...) Irandam Ulagam Songs Lyrics. sharable lyrics snippets,.",
     "keywords": "lyricsintamil, Irandam Ulagam, En Kadhal Thee in Tamil full lyrics, Irandam Ulagam songs lyrics, En Kadhal Thee in Tamil lyrics snippets, En Kadhal Thee in Tamil WhatsApp status lyrics snippets, share En Kadhal Thee in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTMRHGzKECkbTg8JdxCE5tu7lQMeuXJhft5d5aU8n9DSaXRFK7hM-jidIjUnOFFP9-hGXjr6jQDrogn3B7XlTUGDurTpLd_y9Pe4_g0rvk3TtlmBvJpMupd1HvUHYQM8_Rf21QUyvj2V0/s400-c/En+Kadhal+Thee.png",
-  "generatedAt": "2026-01-18T13:02:09.212Z",
+  "generatedAt": "2026-02-01T13:05:39.914Z",
   "version": 1
 }

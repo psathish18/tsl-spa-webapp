@@ -8,11 +8,34 @@
   "musicName": "GV PrakashKumar",
   "actorName": "",
   "published": "2012-06-22T19:56:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\nPottadhu paththala mappula</div>\n<div>\ninnoru quateru sollundi</div>\n<div>\nappadiye matter keludaa</div>\n<div>\n<br /></div>\n<div>\nkannula rummu jinnu</div>\n<div>\nooththina aththa ponnu</div>\n<div>\nbodhaiya yethikinnu </div>\n<div>\naada porenda..</div>\n<div>\n<br /></div>\n<div>\nvenaandaa vettu kuthu</div>\n<div>\npodudaa dappaankuthu</div>\n<div>\nyenakku ellaarume</div>\n<div>\nsondhakaarandaa</div>\n<div>\n<br /></div>\n<div>\nPottadhu paththala mappula</div>\n<div>\ninnoru quateru sollundi</div>\n<div>\nappadiye matter keludaa</div>\n<div>\n<br /></div>\n<div>\nvenaam macha soru</div>\n<div>\nnee sollu rendu beeru</div>\n<div>\nada kuppathotti kooda</div>\n<div>\nnamakku panju methadaa</div>\n<div>\n<br /></div>\n<div>\nye kudikaaran pechu</div>\n<div>\nadhu vidunjiputta pochu</div>\n<div>\nada senja thappa</div>\n<div>\nmarandhu pogum</div>\n<div>\ndheivam naangadaa</div>\n<div>\n<br /></div>\n<div>\nkavalai ellaam veratta</div>\n<div>\nnee manasu vittu pesu</div>\n<div>\nne pesalana pottathellaam</div>\n<div>\nlossu thaanadaa.</div>\n<div>\n<br /></div>\n<div>\nada vaanam boomi sirusu</div>\n<div>\nindha baru thaanda perusu</div>\n<div>\nidhu kudika porandha</div>\n<div>\nmanushanukku sorgam thaanada</div>\n<div>\n<br /></div>\n<div>\noru pegu</div>\n<div>\nadida rendu pegu</div>\n<div>\nadichu yaethikittu</div>\n<div>\napathaa neeyum kinguda</div>\n<div>\n<br /></div>\n<div>\nPottadhu paththala mappula</div>\n<div>\ninnoru quateru sollundi</div>\n<div>\nappadiye matter kelud</div>\n<div>\n<br /></div>\n<div>\nenakkunuthaan porandhaa</div>\n<div>\nava yenda enna marandhaa</div>\n<div>\nye ninjil koodu kattiputtu</div>\n<div>\nparandhuputta daa</div>\n<div>\n<br /></div>\n<div>\nthandhen indha madiya</div>\n<div>\nava vachcha adhil vediya</div>\n<div>\nnaan thoolu thoolaa</div>\n<div>\nsukkunooraa sedhariputtenda</div>\n<div>\n<br /></div>\n<div>\nada thallaaduthu kaalu</div>\n<div>\nenna thaangikolla yaaru</div>\n<div>\nnaan polamburatha ketka</div>\n<div>\noru koottam venumdaa</div>\n<div>\n<br /></div>\n<div>\nye eththanayo sogam</div>\n<div>\nadha enna kooru podum</div>\n<div>\nada ennennamo nenaikuren</div>\n<div>\nvaartha valladaa</div>\n<div>\n<br /></div>\n<div>\nPottadhu paththala mappula</div>\n<div>\ninnoru quateru sollundi</div>\n<div>\nappadiye matter keludaa</div>\n<div>\n<br /></div>\n<div>\nkannula rummu jinnu</div>\n<div>\nooththina aththa ponnu</div>\n<div>\nbodhaiya yethikinnu </div>\n<div>\naada porenda..</div>\n<div>\n<br /></div>\n<div>\nvenaandaa vettu kuthu</div>\n<div>\npodudaa dappaankuthu</div>\n<div>\nyenakku ellaarume</div>\n<div>\nsondhakaarandaa</div>\n<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIJbiiJ9JHUXAS6Ml3KRmnKwgEXyMLy_qzTqdDTOIvGMZsPOoJfs3QXrD686QWirqcvx-1xXI4FN74MLcRi7ckqaH0LAUedaui5ZvOgKy1I5NanO5YiJMsPrdhW-QpG5jTaJCDCDQthg/s1600/pottadhu+paththala.jpg\"></a></div>\n<div>\n<br /></div>\n</div>"
+    "Pottadhu paththala mappula<br />innoru quateru sollundi<br />appadiye matter keludaa",
+    "kannula rummu jinnu<br />ooththina aththa ponnu<br />bodhaiya yethikinnu<br />aada porenda..",
+    "venaandaa vettu kuthu<br />podudaa dappaankuthu<br />yenakku ellaarume<br />sondhakaarandaa",
+    "Pottadhu paththala mappula<br />innoru quateru sollundi<br />appadiye matter keludaa",
+    "venaam macha soru<br />nee sollu rendu beeru<br />ada kuppathotti kooda<br />namakku panju methadaa",
+    "ye kudikaaran pechu<br />adhu vidunjiputta pochu<br />ada senja thappa<br />marandhu pogum<br />dheivam naangadaa",
+    "kavalai ellaam veratta<br />nee manasu vittu pesu<br />ne pesalana pottathellaam<br />lossu thaanadaa.",
+    "ada vaanam boomi sirusu<br />indha baru thaanda perusu<br />idhu kudika porandha<br />manushanukku sorgam thaanada",
+    "oru pegu<br />adida rendu pegu<br />adichu yaethikittu<br />apathaa neeyum kinguda",
+    "Pottadhu paththala mappula<br />innoru quateru sollundi<br />appadiye matter kelud",
+    "enakkunuthaan porandhaa<br />ava yenda enna marandhaa<br />ye ninjil koodu kattiputtu<br />parandhuputta daa",
+    "thandhen indha madiya<br />ava vachcha adhil vediya<br />naan thoolu thoolaa<br />sukkunooraa sedhariputtenda",
+    "ada thallaaduthu kaalu<br />enna thaangikolla yaaru<br />naan polamburatha ketka<br />oru koottam venumdaa",
+    "ye eththanayo sogam<br />adha enna kooru podum<br />ada ennennamo nenaikuren<br />vaartha valladaa",
+    "Pottadhu paththala mappula<br />innoru quateru sollundi<br />appadiye matter keludaa",
+    "kannula rummu jinnu<br />ooththina aththa ponnu<br />bodhaiya yethikinnu<br />aada porenda..",
+    "venaandaa vettu kuthu<br />podudaa dappaankuthu<br />yenakku ellaarume<br />sondhakaarandaa<br /><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIJbiiJ9JHUXAS6Ml3KRmnKwgEXyMLy_qzTqdDTOIvGMZsPOoJfs3QXrD686QWirqcvx-1xXI4FN74MLcRi7ckqaH0LAUedaui5ZvOgKy1I5NanO5YiJMsPrdhW-QpG5jTaJCDCDQthg/s1600/pottadhu+paththala.jpg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Saguni",
     "Music:GV PrakashKumar",
@@ -63,6 +86,6 @@
     "keywords": "Saguni, GV PrakashKumar, Anthonydasan, Pottadhu Paththala full lyrics, Saguni songs lyrics, Pottadhu Paththala lyrics snippets, Pottadhu Paththala WhatsApp status lyrics snippets, share Pottadhu Paththala lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIJbiiJ9JHUXAS6Ml3KRmnKwgEXyMLy_qzTqdDTOIvGMZsPOoJfs3QXrD686QWirqcvx-1xXI4FN74MLcRi7ckqaH0LAUedaui5ZvOgKy1I5NanO5YiJMsPrdhW-QpG5jTaJCDCDQthg/s400-c/pottadhu+paththala.jpg",
-  "generatedAt": "2026-01-18T13:07:16.001Z",
+  "generatedAt": "2026-02-01T13:02:27.305Z",
   "version": 1
 }

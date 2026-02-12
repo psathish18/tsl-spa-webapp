@@ -417,13 +417,13 @@
 .lyrics-tab-container {
   background: var(--card, #ffffff);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0.5rem;
+  padding: 0rem;
 }
 
 .theme-dark .lyrics-tab-container {
   background: var(--card, #0b0d10);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0.5rem;
+  padding: 0rem;
 }
 
 .lyrics-tab-header {
@@ -472,12 +472,17 @@
   background: var(--primary, #fbbf24);
 }
 
+.lyrics-content {
+  padding: 0.5rem !important;
+}
 .lyrics-tab-content {
   color: var(--text, #374151);
+  padding: 1rem 0.5rem;
 }
 
 .theme-dark .lyrics-tab-content {
   color: var(--text, #9b9a9a);
+  padding: 1rem 0.5rem;
 }
 
 /* Lyrics paragraph styling */

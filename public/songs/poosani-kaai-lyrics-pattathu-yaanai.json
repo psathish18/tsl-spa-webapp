@@ -8,13 +8,20 @@
   "musicName": "Thaman S",
   "actorName": "",
   "published": "2013-06-24T23:27:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><table><tbody><tr>  <td>Song: Poosani Kaai<br />Singer: Gaana Bala<br />Movie: Pattathu Yaanai<br />Music: Thaman S<br />Lyrics: Na Muthukumar</td> <td>.</td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJW5wQC3KFcuPpIU3tVRpPYrS2xQ_OOQiltQL7OM7mJAJcXcAaCAuVnGZjgL8-7PsGSFLGJteKtQjGtYKJk7dB0dWZ80phHCb2ZdDv9opjROk9AbkvAX33mwEDBtm9_aP3Duku5CWLi4/s1600/pattathu_yaanai.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish  <br />Exact translation of tamil words <br />Poosani Kaayi onnu sothula marayudhuda<br />unnoda idhayatha nee open panni pesu<br />pootuna veetukulla poochedi mulaikanumaa<br />thannaala valaya pinni kachidhama veesu",
+    "<table><tbody><tr><td>Song: Poosani Kaai<br />Singer: Gaana Bala<br />Movie: Pattathu Yaanai<br />Music: Thaman S<br />Lyrics: Na Muthukumar</td><td>.</td><td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJW5wQC3KFcuPpIU3tVRpPYrS2xQ_OOQiltQL7OM7mJAJcXcAaCAuVnGZjgL8-7PsGSFLGJteKtQjGtYKJk7dB0dWZ80phHCb2ZdDv9opjROk9AbkvAX33mwEDBtm9_aP3Duku5CWLi4/s1600/pattathu_yaanai.jpg\"></a></td></tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish<br />Exact translation of tamil words<br />Poosani Kaayi onnu sothula marayudhuda<br />unnoda idhayatha nee open panni pesu<br />pootuna veetukulla poochedi mulaikanumaa<br />thannaala valaya pinni kachidhama veesu",
     "Kadhal vandhuputta<br />vartha onnum kidaikaadhu<br />edhire kadal irundhum<br />kaal nanaikka mudiyaadhu (2)",
-    "Central jeyilukkula asandhu thoongayila<br />ennoda kanavil ava vandhu vandhu povaa<br />palanaal paarthirukom irundhum pesavilla<br />sollaadha kadhalapol sogamilla maamaa</td><td>English Translation  <br />I tried my best :)  <br />[english lyric]  </td></tr></tbody></table></div>"
+    "Central jeyilukkula asandhu thoongayila<br />ennoda kanavil ava vandhu vandhu povaa<br />palanaal paarthirukom irundhum pesavilla<br />sollaadha kadhalapol sogamilla maamaa</td><td>English Translation<br />I tried my best :)<br />[english lyric]  </td></tr></tbody></table><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Na Muthukumar",
     "Movie:Pattathu Yaanai",
@@ -57,6 +64,6 @@
     "keywords": "Na Muthukumar, Pattathu Yaanai, Thaman S, Gaana Bala, Poosani Kaai full lyrics, Pattathu Yaanai songs lyrics, Poosani Kaai lyrics snippets, Poosani Kaai WhatsApp status lyrics snippets, share Poosani Kaai lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJW5wQC3KFcuPpIU3tVRpPYrS2xQ_OOQiltQL7OM7mJAJcXcAaCAuVnGZjgL8-7PsGSFLGJteKtQjGtYKJk7dB0dWZ80phHCb2ZdDv9opjROk9AbkvAX33mwEDBtm9_aP3Duku5CWLi4/s400-c/pattathu_yaanai.jpg",
-  "generatedAt": "2026-01-18T13:03:38.783Z",
+  "generatedAt": "2026-02-01T14:31:23.557Z",
   "version": 1
 }

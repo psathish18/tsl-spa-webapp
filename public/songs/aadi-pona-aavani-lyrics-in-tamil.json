@@ -8,11 +8,16 @@
   "musicName": "Santhosh Narayanan",
   "actorName": "",
   "published": "2012-08-26T16:13:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Kabilan",
     "lyricsintamil",
@@ -34,10 +39,10 @@
   ],
   "seo": {
     "title": "Aadi Pona Aavani Lyrics in Tamil",
-    "description": "Full Aadi Pona Aavani in Tamil songs lyrics in tamil ( ...) Atta Kathi Songs Lyrics. sharable lyrics snippets, Lyrics: Kabilan, Music: Santhosh Narayanan, Singer(s): Gaana Bala.",
+    "description": "Full Aadi Pona Aavani in Tamil song lyrics in tamil  ( ...) Atta Kathi Songs Lyrics. sharable lyrics snippets, Lyrics: Kabilan, Music: Santhosh Narayanan, Singer(s): Gaana Bala.",
     "keywords": "Kabilan, lyricsintamil, Atta Kathi, Santhosh Narayanan, Gaana Bala, Aadi Pona Aavani in Tamil full lyrics, Atta Kathi songs lyrics, Aadi Pona Aavani in Tamil lyrics snippets, Aadi Pona Aavani in Tamil WhatsApp status lyrics snippets, share Aadi Pona Aavani in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGB401lAGN4LpsFQzy7KD_kzutHGjsYB0k52ycCTFGbZ1zG_vrwD7QPsXXEY3rxBATzZrH1f-DF49kbjC3-3iY1yxJTbblAcolupTbo4U_58SbCgAZTDDyVXcW-methrb_8jrJAZgbxsA/s400-c/Aadi+Pona+aavani+lyrics+in+tamil-+atta+kathi.png",
-  "generatedAt": "2026-01-18T13:06:29.396Z",
+  "generatedAt": "2026-02-01T13:06:09.177Z",
   "version": 1
 }

@@ -71,24 +71,25 @@ jobs:
             exit 1
           fi
 
-      # - name: Commit and push generated files
-      #   if: success()
-      #   run: |
-      #     git config --global user.name "github-actions[bot]"
-      #     git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-      #     # Check if there are changes
-      #     if [[ -n $(git status --porcelain) ]]; then
-      #       git add blob-data/
-      #       git commit -m "chore: generate song JSON files (triggered by issue #${{ github.event.issue.number }})"
-      #       git push
-      #       echo "Changes committed and pushed successfully"
-      #     else
-      #       echo "No changes to commit"
-      #     fi
+      - name: Check if files exist in public/songs
+        id: check
+        if: success() && steps.generate.outputs.should_upload == 'true'
+        run: |
+          FILES_MISSING=false
+          for file in blob-data/*.json; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              if [ ! -f "public/songs/$filename" ]; then
+                FILES_MISSING=true
+                echo "File $filename is missing in public/songs"
+                break
+              fi
+            fi
+          done
+          echo "files_missing=$FILES_MISSING" >> $GITHUB_OUTPUT
 
       - name: Upload to Vercel Blob
-        if: success() && steps.generate.outputs.should_upload == 'true'
+        if: success() && steps.generate.outputs.should_upload == 'true' && steps.check.outputs.files_missing == 'true'
         env:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
         run: |
@@ -98,6 +99,43 @@ jobs:
           fi
           echo "Uploading generated files to Vercel Blob Storage..."
           npm run upload-to-blob
+
+      - name: Revalidate song pages
+        if: success() && steps.generate.outputs.should_upload == 'true' && steps.check.outputs.files_missing == 'true'
+        env:
+          REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+        run: |
+          if [ -z "$REVALIDATE_SECRET" ]; then
+            echo "⚠️ REVALIDATE_SECRET not configured, skipping revalidation"
+            exit 0
+          fi
+          
+          # Assuming the domain is tsonglyrics.com, adjust if needed
+          DOMAIN="https://www.tsonglyrics.com"
+          
+          echo "Revalidating song pages after blob upload..."
+          
+          for file in blob-data/*.json; do
+            if [ -f "$file" ]; then
+              slug=$(jq -r '.slug' "$file" 2>/dev/null)
+              if [ -n "$slug" ] && [ "$slug" != "null" ]; then
+                path="/${slug}.html"
+                echo "Revalidating: $path"
+                
+                response=$(curl -s -X POST "$DOMAIN/api/revalidate" \
+                  -H "Content-Type: application/json" \
+                  -d "{\"path\": \"$path\", \"secret\": \"$REVALIDATE_SECRET\"}")
+                
+                if echo "$response" | jq -e '.revalidated' >/dev/null 2>&1; then
+                  echo "✅ Successfully revalidated: $path"
+                else
+                  echo "❌ Failed to revalidate: $path - Response: $response"
+                fi
+              else
+                echo "⚠️ Could not extract slug from $file"
+              fi
+            fi
+          done
 
       - name: Create PR to blob-data-temp with public/songs changes
         if: success() && steps.generate.outputs.should_upload == 'true'
@@ -157,10 +195,13 @@ jobs:
       - name: Add comment to issue
         if: success()
         uses: actions/github-script@v7
+        env:
+          FILES_MISSING: ${{ steps.check.outputs.files_missing }}
         with:
           script: |
             const issueTitle = context.payload.issue.title;
             const shouldUpload = issueTitle.toLowerCase().includes('upload');
+            const filesMissing = process.env.FILES_MISSING === 'true';
             let comment = '';
             
             // Use consistent regex patterns with bash step
@@ -169,7 +210,12 @@ jobs:
               comment = `✅ Successfully generated JSON files for the recent ${limit} songs.\n\nFiles have been committed to the \`blob-data/\` directory.`;
               
               if (shouldUpload) {
-                comment += `\n\n📤 Files have been uploaded to Vercel Blob Storage.`;
+                if (filesMissing) {
+                  comment += `\n\n📤 Files have been uploaded to Vercel Blob Storage.`;
+                  comment += `\n\n🔄 Song pages have been revalidated to reflect the latest content.`;
+                } else {
+                  comment += `\n\n📋 Files were already present in public/songs, skipped upload to Vercel Blob Storage.`;
+                }
                 comment += `\n\n🔄 A PR has been created against the \`blob-data-temp\` branch with the updated \`public/songs/\` files.`;
               }
             } else if (/generate json for category/i.test(issueTitle)) {
@@ -177,7 +223,12 @@ jobs:
               comment = `✅ Successfully generated JSON files for category: **${category}**\n\nFiles have been committed to the \`blob-data/\` directory.`;
               
               if (shouldUpload) {
-                comment += `\n\n📤 Files have been uploaded to Vercel Blob Storage.`;
+                if (filesMissing) {
+                  comment += `\n\n📤 Files have been uploaded to Vercel Blob Storage.`;
+                  comment += `\n\n🔄 Song pages have been revalidated to reflect the latest content.`;
+                } else {
+                  comment += `\n\n📋 Files were already present in public/songs, skipped upload to Vercel Blob Storage.`;
+                }
                 comment += `\n\n🔄 A PR has been created against the \`blob-data-temp\` branch with the updated \`public/songs/\` files.`;
               }
             } else {

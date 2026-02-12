@@ -8,11 +8,30 @@
   "musicName": "AR Rahman",
   "actorName": "",
   "published": "1999-11-07T22:40:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\nulunthu vedhaikaiyile</div>\n<div>\nsuthi oodha kaathu adikaiyile</div>\n<div>\nnaan appanukku kanji kondu</div>\n<div>\naathu maedu thaandi ponen</div>\n<div>\nkanda nalla nalla sagunathil</div>\n<div>\nnenjukuli poothu ponen.(2)</div>\n<div>\n<br /></div>\n<div>\nrekkapadappil gawuli kaththa</div>\n<div>\nvalibu pakkam garudan suththa</div>\n<div>\ntheruoram nera kudam paarkavum</div>\n<div>\nmani saththam kaetkavum</div>\n<div>\naanathe.</div>\n<div>\n<br /></div>\n<div>\noru pookkari edhuka vara</div>\n<div>\npasum paal maadu kadakkirathe</div>\n<div>\nini ennaagume yedhagumo</div>\n<div>\nindha sirikki vazhiyil</div>\n<div>\ndeivam pugundhu </div>\n<div>\nvaram tharumo...</div>\n<div>\n<br /></div>\n<div>\nulunthu vedhaikaiyile...</div>\n<div>\n<br /></div>\n<div>\nanichcham malar azhage</div>\n<div>\nachu achuvellam pechazhage</div>\n<div>\nen kannukulla koodu katti</div>\n<div>\nkaadhukulla koovum kuyile.</div>\n<div>\nnee etti etti pogaiyile</div>\n<div>\nvittu vittu pogum uyire.(2)</div>\n<div>\n<br /></div>\n<div>\noru thadava iluthu anaichapadi</div>\n<div>\nuyir moocha niruthu kanmaniye</div>\n<div>\nummudhuga tholaichu veliyera</div>\n<div>\ninnum konja irukku ennavane</div>\n<div>\n<br /></div>\n<div>\nmazhai adikkum siru pechu</div>\n<div>\nveyil adikkum siru paarvai.</div>\n<div>\nodambu mannu pudhaigira </div>\n<div>\nvaraiyil udan vara koodumo.</div>\n<div>\n<br /></div>\n<div>\nusur ennodu irukkaiyile</div>\n<div>\nnee mannodu povadhenge</div>\n<div>\nada un jeevane </div>\n<div>\ninge naanillaiyaa</div>\n<div>\nkolla vandha maranam kooda</div>\n<div>\nkuzhambumaiyaa ..</div>\n<div>\n<br /></div>\n<div>\nkurukku siruththavale</div>\n<div>\nenna kungumathil karaichavale</div>\n<div>\nmanja thaechi kulikaiyil</div>\n<div>\nenna konjam poosithaaye</div>\n<div>\nkolusukkul maniyaaga</div>\n<div>\nenna konjam maathu thaaye.</div>\n<div>\n<br /></div>\n<div>\noru kannil neer kasiya</div>\n<div>\nudhatu vazhi usur kasiya</div>\n<div>\nunnaala sila murai irakkavum</div>\n<div>\nsila murai pirakkavum aanathe</div>\n<div>\n<br /></div>\n<div>\nada aathoda vilundha ilai</div>\n<div>\nandha aathoda povadhu pol</div>\n<div>\nnenju unnoduthaan pinnoduthe</div>\n<div>\nada kaalam marandhu </div>\n<div>\nkaattu maramum pookkirathe.</div>\n<div>\n<br /></div>\n<div>\nkurukku siruththavale</div>\n<div>\nenna kungumathil karaichavale</div>\n<div>\nmanja thaechi kulikaiyil</div>\n<div>\nunna konjam poosuvenyaa</div>\n<div>\nkolusukkul maniyaaga</div>\n<div>\nenna konjam maathuvenyaa.</div>\n<br />\n<div>\n</div>\n<br />\n<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNw4tqnwhrGU3Crk594y9RiJNjq5H0_PZ0HsdRAQTjHUEbFoY2a4cAHItW5GKLNkPAzClBVuLWG_44YmRjOTWoIJ3WHQtxgcadPA9jUPkNRmqP9n1a1mgPO_7R4J1FFWrvVLQ6S2GgRg/s1600/Ulunthu+Vethakaiyile.jpg\"></a></div>\n</div>"
+    "ulunthu vedhaikaiyile<br />suthi oodha kaathu adikaiyile<br />naan appanukku kanji kondu<br />aathu maedu thaandi ponen<br />kanda nalla nalla sagunathil<br />nenjukuli poothu ponen.(2)",
+    "rekkapadappil gawuli kaththa<br />valibu pakkam garudan suththa<br />theruoram nera kudam paarkavum<br />mani saththam kaetkavum<br />aanathe.",
+    "oru pookkari edhuka vara<br />pasum paal maadu kadakkirathe<br />ini ennaagume yedhagumo<br />indha sirikki vazhiyil<br />deivam pugundhu<br />varam tharumo...",
+    "ulunthu vedhaikaiyile...",
+    "anichcham malar azhage<br />achu achuvellam pechazhage<br />en kannukulla koodu katti<br />kaadhukulla koovum kuyile.<br />nee etti etti pogaiyile<br />vittu vittu pogum uyire.(2)",
+    "oru thadava iluthu anaichapadi<br />uyir moocha niruthu kanmaniye<br />ummudhuga tholaichu veliyera<br />innum konja irukku ennavane",
+    "mazhai adikkum siru pechu<br />veyil adikkum siru paarvai.<br />odambu mannu pudhaigira<br />varaiyil udan vara koodumo.",
+    "usur ennodu irukkaiyile<br />nee mannodu povadhenge<br />ada un jeevane<br />inge naanillaiyaa<br />kolla vandha maranam kooda<br />kuzhambumaiyaa ..",
+    "kurukku siruththavale<br />enna kungumathil karaichavale<br />manja thaechi kulikaiyil<br />enna konjam poosithaaye<br />kolusukkul maniyaaga<br />enna konjam maathu thaaye.",
+    "oru kannil neer kasiya<br />udhatu vazhi usur kasiya<br />unnaala sila murai irakkavum<br />sila murai pirakkavum aanathe",
+    "ada aathoda vilundha ilai<br />andha aathoda povadhu pol<br />nenju unnoduthaan pinnoduthe<br />ada kaalam marandhu<br />kaattu maramum pookkirathe.",
+    "kurukku siruththavale<br />enna kungumathil karaichavale<br />manja thaechi kulikaiyil<br />unna konjam poosuvenyaa<br />kolusukkul maniyaaga<br />enna konjam maathuvenyaa.",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNw4tqnwhrGU3Crk594y9RiJNjq5H0_PZ0HsdRAQTjHUEbFoY2a4cAHItW5GKLNkPAzClBVuLWG_44YmRjOTWoIJ3WHQtxgcadPA9jUPkNRmqP9n1a1mgPO_7R4J1FFWrvVLQ6S2GgRg/s1600/Ulunthu+Vethakaiyile.jpg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Mudhalvan",
     "Music:AR Rahman",
@@ -64,6 +83,6 @@
     "keywords": "Mudhalvan, AR Rahman, Srinivas, Swarnalatha, Ulundhu Vithakkaiyile full lyrics, Mudhalvan songs lyrics, Ulundhu Vithakkaiyile lyrics snippets, Ulundhu Vithakkaiyile WhatsApp status lyrics snippets, share Ulundhu Vithakkaiyile lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNw4tqnwhrGU3Crk594y9RiJNjq5H0_PZ0HsdRAQTjHUEbFoY2a4cAHItW5GKLNkPAzClBVuLWG_44YmRjOTWoIJ3WHQtxgcadPA9jUPkNRmqP9n1a1mgPO_7R4J1FFWrvVLQ6S2GgRg/s400-c/Ulunthu+Vethakaiyile.jpg",
-  "generatedAt": "2026-01-18T13:17:49.780Z",
+  "generatedAt": "2026-02-01T13:00:10.790Z",
   "version": 1
 }

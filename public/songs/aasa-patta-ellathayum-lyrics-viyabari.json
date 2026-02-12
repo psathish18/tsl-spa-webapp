@@ -8,11 +8,36 @@
   "musicName": "Deva",
   "actorName": "",
   "published": "2007-07-13T11:30:00.001+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\naasa patta ellaathaiyum </div>\n<div>\nkaasu irundha vaangalaam</div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\nneeyum </div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\n<br /></div>\n<div>\naayiram uravu unna </div>\n<div>\nthaedi vandhe ninnaalum</div>\n<div>\nthaai pole </div>\n<div>\nthaanga mudiyuma?</div>\n<div>\n<br /></div>\n<div>\nunnaiyum ennaiyum </div>\n<div>\npadaichathinge yaaruda</div>\n<div>\ndeivam ovvoru veettilum</div>\n<div>\nirukkuthunaa thaaiyadaa</div>\n<div>\n<br /></div>\n<div>\naasa patta ellaathaiyum </div>\n<div>\nkaasu irundha vaangalaam</div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\nneeyum </div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\n<br /></div>\n<div>\npattiniya kedanthaalum</div>\n<div>\npillaiku paal koduppaa</div>\n<div>\npaal kudikkum pilla mugam</div>\n<div>\npaathu pasi marappaa</div>\n<div>\n<br /></div>\n<div>\nilavattam aana pinnum</div>\n<div>\nennai thaechi kulikkavaipa</div>\n<div>\nuchi mudham padham vara </div>\n<div>\nuchukotti magizhnthiduva</div>\n<div>\n<br /></div>\n<div>\nnenjile nadakkavaippa</div>\n<div>\nnilava pudikkavaippa</div>\n<div>\npinju viral nagam kadippaa</div>\n<div>\npillaiecha soru thinbaa</div>\n<div>\n<br /></div>\n<div>\npallu mulaika nellu mudiya</div>\n<div>\nmella mellathaan keerividuvaa</div>\n<div>\n<br /></div>\n<div>\n<div>\nunnaiyum ennaiyum </div>\n<div>\npadaichathinge yaaruda</div>\n<div>\ndeivam ovvoru veettilum</div>\n<div>\nirukkuthunaa thaaiyadaa</div>\n</div>\n<div>\n<br /></div>\n<div>\naasa patta ellaathaiyum </div>\n<div>\nkaasu irundha vaangalaam</div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\nnee</div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\n<br /></div>\n<div>\nmannil oru chedi mulaicha</div>\n<div>\nmannukathu prasavam thaan.</div>\n<div>\nunnai pera thudithudichaa</div>\n<div>\nannaikathu boogambamthaan</div>\n<div>\n<br /></div>\n<div>\nsooriyana suthikitte</div>\n<div>\nthannai suthum boomiyamma</div>\n<div>\npethedutha pillai suthi</div>\n<div>\npithukollum thaaimaiyammaa</div>\n<div>\n<br /></div>\n<div>\ngarpathil nelintha unnai </div>\n<div>\nnutpamaai thottu rasippa</div>\n<div>\npedhai pol aval iruppaa</div>\n<div>\nmedhaiyaai unai valarppaa</div>\n<div>\n<br /></div>\n<div>\nenna vendum ini unakku</div>\n<div>\nannai madiyil sorgam irukku.</div>\n<div>\n<br /></div>\n<div>\n<div>\nunnaiyum ennaiyum </div>\n<div>\npadaichathinge yaaruda</div>\n<div>\ndeivam ovvoru veettilum</div>\n<div>\nirukkuthunaa thaaiyadaa</div>\n</div>\n<div>\n<br /></div>\n<div>\naasa patta ellaathaiyum </div>\n<div>\nkaasu irundha vaangalaam</div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\nneeyum</div>\n<div>\nammaava vaanga mudiyuma?</div>\n<div>\n<br /></div>\n<div>\naayiram uravu unna </div>\n<div>\nthaedi vandhe ninnaalum</div>\n<div>\nthaai pole </div>\n<div>\nthaanga mudiyuma?</div>\n<div>\n<br /></div>\n<div>\n<div>\nunnaiyum ennaiyum </div>\n<div>\npadaichathinge yaaruda</div>\n<div>\ndeivam ovvoru veettilum</div>\n<div>\nirukkuthunaa thaaiyadaa</div>\n</div>\n<div>\n<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ZzsBxdHs5WIYsT4dz-jA9D65QmZtOv7uvKmP2cwJKdVqpg3ncz9_7W_c-CWU3UKdP4YsRjlJ9D2kPQga4kMs-mQDhPNxFPxF9BZjFo71rMygLWz1MTF3vV8jO1wMrNuqkUWH80hMSQ/s1600/maxresdefault+%25282%2529.jpg\"></a></div>\n</div>\n<div>\n<br /></div>\n</div>"
+    "aasa patta ellaathaiyum<br />kaasu irundha vaangalaam<br />ammaava vaanga mudiyuma?<br />neeyum<br />ammaava vaanga mudiyuma?",
+    "aayiram uravu unna<br />thaedi vandhe ninnaalum<br />thaai pole<br />thaanga mudiyuma?",
+    "unnaiyum ennaiyum<br />padaichathinge yaaruda<br />deivam ovvoru veettilum<br />irukkuthunaa thaaiyadaa",
+    "aasa patta ellaathaiyum<br />kaasu irundha vaangalaam<br />ammaava vaanga mudiyuma?<br />neeyum<br />ammaava vaanga mudiyuma?",
+    "pattiniya kedanthaalum<br />pillaiku paal koduppaa<br />paal kudikkum pilla mugam<br />paathu pasi marappaa",
+    "ilavattam aana pinnum<br />ennai thaechi kulikkavaipa<br />uchi mudham padham vara<br />uchukotti magizhnthiduva",
+    "nenjile nadakkavaippa<br />nilava pudikkavaippa<br />pinju viral nagam kadippaa<br />pillaiecha soru thinbaa",
+    "pallu mulaika nellu mudiya<br />mella mellathaan keerividuvaa",
+    "unnaiyum ennaiyum<br />padaichathinge yaaruda<br />deivam ovvoru veettilum<br />irukkuthunaa thaaiyadaa",
+    "aasa patta ellaathaiyum<br />kaasu irundha vaangalaam<br />ammaava vaanga mudiyuma?<br />nee<br />ammaava vaanga mudiyuma?",
+    "mannil oru chedi mulaicha<br />mannukathu prasavam thaan.<br />unnai pera thudithudichaa<br />annaikathu boogambamthaan",
+    "sooriyana suthikitte<br />thannai suthum boomiyamma<br />pethedutha pillai suthi<br />pithukollum thaaimaiyammaa",
+    "garpathil nelintha unnai<br />nutpamaai thottu rasippa<br />pedhai pol aval iruppaa<br />medhaiyaai unai valarppaa",
+    "enna vendum ini unakku<br />annai madiyil sorgam irukku.",
+    "unnaiyum ennaiyum<br />padaichathinge yaaruda<br />deivam ovvoru veettilum<br />irukkuthunaa thaaiyadaa",
+    "aasa patta ellaathaiyum<br />kaasu irundha vaangalaam<br />ammaava vaanga mudiyuma?<br />neeyum<br />ammaava vaanga mudiyuma?",
+    "aayiram uravu unna<br />thaedi vandhe ninnaalum<br />thaai pole<br />thaanga mudiyuma?",
+    "unnaiyum ennaiyum<br />padaichathinge yaaruda<br />deivam ovvoru veettilum<br />irukkuthunaa thaaiyadaa",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ZzsBxdHs5WIYsT4dz-jA9D65QmZtOv7uvKmP2cwJKdVqpg3ncz9_7W_c-CWU3UKdP4YsRjlJ9D2kPQga4kMs-mQDhPNxFPxF9BZjFo71rMygLWz1MTF3vV8jO1wMrNuqkUWH80hMSQ/s1600/maxresdefault+%25282%2529.jpg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Viyabari",
     "Music:Deva",
@@ -26,6 +51,6 @@
     "keywords": "Viyabari, Deva, Hariharan, Aasa Patta Ellathayum full lyrics, Viyabari songs lyrics, Aasa Patta Ellathayum lyrics snippets, Aasa Patta Ellathayum WhatsApp status lyrics snippets, share Aasa Patta Ellathayum lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ZzsBxdHs5WIYsT4dz-jA9D65QmZtOv7uvKmP2cwJKdVqpg3ncz9_7W_c-CWU3UKdP4YsRjlJ9D2kPQga4kMs-mQDhPNxFPxF9BZjFo71rMygLWz1MTF3vV8jO1wMrNuqkUWH80hMSQ/s400-c/maxresdefault+%282%29.jpg",
-  "generatedAt": "2026-01-18T13:14:23.638Z",
+  "generatedAt": "2026-02-01T13:08:26.554Z",
   "version": 1
 }

@@ -8,11 +8,16 @@
   "musicName": "",
   "actorName": "",
   "published": "2014-07-09T22:41:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Rummy",
@@ -49,10 +54,10 @@
   ],
   "seo": {
     "title": "Koodamela Koodavechi Lyrics in Tamil - Rummy",
-    "description": "Full Koodamela Koodavechi in Tamil songs lyrics in tamil ( ...) Rummy Songs Lyrics. sharable lyrics snippets,.",
+    "description": "Full Koodamela Koodavechi in Tamil song lyrics in tamil  ( ...) Rummy Songs Lyrics. sharable lyrics snippets,.",
     "keywords": "lyricsintamil, Rummy, Koodamela Koodavechi in Tamil full lyrics, Rummy songs lyrics, Koodamela Koodavechi in Tamil lyrics snippets, Koodamela Koodavechi in Tamil WhatsApp status lyrics snippets, share Koodamela Koodavechi in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCBio_O_Hqo4TzHq5u_LlempZrSnia2-rN6tE4fnSizt16wLhpgiMmxjvsB8VCheJvqoXvY6cGHGCn76ldz99i1Xdv8QKYfK_Zqp1y5Wqym-ab8ItwKcX6FZvGLIbyf9gZ7aK2itqcGNs/s400-c/Rummy+Koodamela+Koodavachi+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T12:58:45.261Z",
+  "generatedAt": "2026-02-01T13:03:05.405Z",
   "version": 1
 }

@@ -8,19 +8,20 @@
   "musicName": "Yuvan",
   "actorName": "",
   "published": "2019-05-03T22:50:00.005+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<br />\npothachaalum pothaiyala varuvendaa<br />\npogaiyanaalum poraali varuvendaa<br />\ntholodu thol serka varuvendaa<br />\ntamizhan nee sirikka<br />\nuyira tharuvendaa",
-    "pothachaalum pothayala varuvendaa<br />\npogaiyanaalum poraali varuvendaa<br />\ntholodu thol serka varuvendaa<br />\ntamizhan nee sirikka<br />\nuyira tharuvendaa",
-    "<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfImI3g20Tvbq8S7poeIpCgld2ugVW_NKVMaeVafpMeDtaRlcb4hyFcj4brxQyIZw8m6M4iDabAdP71JIrT_rgKGtjpSfKRjJrSCHGtosl3649oCecOA3SLnwyXv5xgTvURLrMcZkY-Mc/s1600/Pothachaalum+Lyrics+Tamil.jpg\"></a></div>\n<br /></div>"
+    "<br />pothachaalum pothaiyala varuvendaa<br />pogaiyanaalum poraali varuvendaa<br />tholodu thol serka varuvendaa<br />tamizhan nee sirikka<br />uyira tharuvendaa",
+    "pothachaalum pothayala varuvendaa<br />pogaiyanaalum poraali varuvendaa<br />tholodu thol serka varuvendaa<br />tamizhan nee sirikka<br />uyira tharuvendaa",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfImI3g20Tvbq8S7poeIpCgld2ugVW_NKVMaeVafpMeDtaRlcb4hyFcj4brxQyIZw8m6M4iDabAdP71JIrT_rgKGtjpSfKRjJrSCHGtosl3649oCecOA3SLnwyXv5xgTvURLrMcZkY-Mc/s1600/Pothachaalum+Lyrics+Tamil.jpg\"></a>"
   ],
-  "hasTamilLyrics": true,
-  "tamilStanzas": [
-    "<div>\n<br />\nபொதச்சாலும் புதையலா  வருவேண்டா<br />\nபுகையானாலும் போராளி வருவேண்டா",
-    "தோளோடு தோள் சேர்க்க வருவேண்டா<br />\nதமிழன் நீ சிரிக்க<br />\nஉயிரை தருவேண்டா",
-    "பொதச்சாலும் புதையலா  வருவேண்டா<br />\nபுகையானாலும் போராளி வருவேண்டா",
-    "தோளோடு தோள் சேர்க்க வருவேண்டா<br />\nதமிழன் நீ சிரிக்க<br />\nஉயிரை தருவேண்டா",
-    "</div>"
-  ],
+  "hasTamilLyrics": false,
+  "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Selvaraghavan",
     "Movie:NGK",
@@ -63,6 +64,6 @@
     "keywords": "Selvaraghavan, NGK, Yuvan, Sivam, Pothachaalum full lyrics, NGK songs lyrics, Pothachaalum lyrics snippets, Pothachaalum WhatsApp status lyrics snippets, share Pothachaalum lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfImI3g20Tvbq8S7poeIpCgld2ugVW_NKVMaeVafpMeDtaRlcb4hyFcj4brxQyIZw8m6M4iDabAdP71JIrT_rgKGtjpSfKRjJrSCHGtosl3649oCecOA3SLnwyXv5xgTvURLrMcZkY-Mc/s400-c/Pothachaalum+Lyrics+Tamil.jpg",
-  "generatedAt": "2026-01-18T12:42:31.487Z",
+  "generatedAt": "2026-02-01T14:33:22.909Z",
   "version": 1
 }

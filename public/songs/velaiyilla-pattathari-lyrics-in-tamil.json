@@ -8,11 +8,16 @@
   "musicName": "Anirudh",
   "actorName": "",
   "published": "2014-07-17T14:47:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><br /></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Velaiyilla Pattathari",
@@ -114,10 +119,10 @@
   ],
   "seo": {
     "title": "Velaiyilla Pattathari Lyrics in Tamil - Velaiyilla Pattathari",
-    "description": "Full Velaiyilla Pattathari in Tamil songs lyrics in tamil ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Music: Anirudh, Singer(s): Anirudh.",
+    "description": "Full Velaiyilla Pattathari in Tamil song lyrics in tamil  ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Music: Anirudh, Singer(s): Anirudh.",
     "keywords": "lyricsintamil, Velaiyilla Pattathari, Anirudh, Anirudh, Velaiyilla Pattathari in Tamil full lyrics, Velaiyilla Pattathari songs lyrics, Velaiyilla Pattathari in Tamil lyrics snippets, Velaiyilla Pattathari in Tamil WhatsApp status lyrics snippets, share Velaiyilla Pattathari in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehO0RDJDYUbJqg6RFOfa4gPGcFmKUW_WBJST9TDHna2crv7oQuklHFa5NxzPUpsD7CrwJKXgte_lwx5OvmcOMTSyfIPpLyc2hhs_91vCSVkToaFHyWFvPrLExEbJnXwDEYxhdE0u6iTY/s400-c/VIP+Velayilla+Pattathari+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T12:58:37.574Z",
+  "generatedAt": "2026-02-01T13:07:35.139Z",
   "version": 1
 }

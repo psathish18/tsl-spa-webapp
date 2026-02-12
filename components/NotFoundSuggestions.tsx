@@ -98,17 +98,17 @@ export default async function NotFoundSuggestions({ searchSlug }: NotFoundSugges
   let popularPosts: Song[] = []
   
   // Try smart search if slug is provided
-  if (searchSlug && searchSlug.trim()) {
-    try {
-      keywords = extractKeywords(searchSlug)
-      console.log("Extracted keywords:", keywords)
-      if (keywords.length > 0) {
-        searchResults = await searchSongs(keywords, 6)
-      }
-    } catch (error) {
-      console.error('Error in smart search:', error)
-    }
-  }
+  // if (searchSlug && searchSlug.trim()) {
+  //   try {
+  //     keywords = extractKeywords(searchSlug)
+  //     console.log("Extracted keywords:", keywords)
+  //     if (keywords.length > 0) {
+  //       searchResults = await searchSongs(keywords, 6)
+  //     }
+  //   } catch (error) {
+  //     console.error('Error in smart search:', error)
+  //   }
+  // }
   
   // Always fetch popular posts as fallback
   try {

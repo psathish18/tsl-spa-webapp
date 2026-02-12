@@ -8,11 +8,16 @@
   "musicName": "D Imman",
   "actorName": "",
   "published": "2014-07-09T22:28:00.000+05:30",
-  "stanzas": [
-    "<div><div></div></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Vairamuthu",
     "lyricsintamil",
@@ -61,10 +66,10 @@
   ],
   "seo": {
     "title": "Fy Fy Fy Kalaachify Lyrics in Tamil - Pandiya Naadu",
-    "description": "Full Fy Fy Fy Kalaachify in Tamil songs lyrics in tamil ( ...) Pandiya Nadu Songs Lyrics. sharable lyrics snippets, Lyrics: Vairamuthu, Music: D Imman, Singer(s): Ramya Nambeesan.",
+    "description": "Full Fy Fy Fy Kalaachify in Tamil song lyrics in tamil  ( ...) Pandiya Nadu Songs Lyrics. sharable lyrics snippets, Lyrics: Vairamuthu, Music: D Imman, Singer(s): Ramya Nambeesan.",
     "keywords": "Vairamuthu, lyricsintamil, Pandiya Nadu, D Imman, Ramya Nambeesan, Fy Fy Fy Kalaachify in Tamil full lyrics, Pandiya Nadu songs lyrics, Fy Fy Fy Kalaachify in Tamil lyrics snippets, Fy Fy Fy Kalaachify in Tamil WhatsApp status lyrics snippets, share Fy Fy Fy Kalaachify in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmqMVRT5gOc4x8JxQOtRwauu8DiGk6HgcfX4rJz8rFT3SS2LT3yVAolL1iQjlttk9mU3-cogMGnQANKZ2JBGr-EiL_ZWg0qlUbjwvP53nPNrBbxTD0aob-M2WPxDFcOeSyZRrmmcPSuc/s400-c/Pandiya+Naadu+Fy+Fy+Fy+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T12:58:46.378Z",
+  "generatedAt": "2026-02-01T13:06:51.315Z",
   "version": 1
 }

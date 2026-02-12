@@ -67,7 +67,7 @@ function clearCacheByPath(path: string, type?: string) {
       revalidateTag(`song-${slug}`)  // Clear Blogger API data for this song
       revalidatePath(path)            // Clear the page HTML render
       results.push(`Cleared song page cache: ${slug}`)
-      console.log(`  ✓ Cleared song page cache: ${slug} (data + page render)`)
+      // console.log(`  ✓ Cleared song page cache: ${slug} (data + page render)`)
     }
     
     // 🆕 HYBRID CDN: Clear CDN static file cache (/public/songs/*.json)
@@ -75,7 +75,7 @@ function clearCacheByPath(path: string, type?: string) {
       revalidateTag(`cdn-${slug}`)
       revalidatePath(`/songs/${slug}.json`)
       results.push(`Cleared CDN static file: /songs/${slug}.json`)
-      console.log(`  ✓ Cleared CDN static file: /songs/${slug}.json`)
+      // console.log(`  ✓ Cleared CDN static file: /songs/${slug}.json`)
     }
     
     // 🆕 HYBRID CDN: Clear API route cache (/api/songs/*)
@@ -83,17 +83,17 @@ function clearCacheByPath(path: string, type?: string) {
       revalidateTag(`api-${slug}`)
       revalidatePath(`/api/songs/${slug}`)
       results.push(`Cleared API route: /api/songs/${slug}`)
-      console.log(`  ✓ Cleared API route: /api/songs/${slug}`)
+      // console.log(`  ✓ Cleared API route: /api/songs/${slug}`)
     }
   } else {
     // Generic path - try to clear it anyway
     try {
       revalidatePath(path)
       results.push(`Cleared cache for path: ${path}`)
-      console.log(`  ✓ Cleared cache for generic path: ${path}`)
+      // console.log(`  ✓ Cleared cache for generic path: ${path}`)
     } catch (err) {
       results.push(`Warning: Path ${path} does not match known patterns, but attempted to clear. Error: ${String(err)}`)
-      console.log(`  ⚠️  Generic path clear attempted: ${path}`)
+      // console.log(`  ⚠️  Generic path clear attempted: ${path}`)
     }
   }
   

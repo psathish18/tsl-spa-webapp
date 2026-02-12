@@ -8,11 +8,19 @@
   "musicName": "Devi Sri Prasad(DSP)",
   "actorName": "",
   "published": "2014-01-09T22:33:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div></div><div></div><div><span><br /></span></div><div><span>tried my best in Tamil kindly correct me if am wrong by providing comments</span></div><div><br /></div><table><tbody><tr><td><br /></td><td><br /></td></tr></tbody></table></div>"
+    "<span><br /></span><br /><span>tried my best in Tamil kindly correct me if am wrong by providing comments</span>",
+    "<table><tbody><tr><td><br /></td><td><br /></td></tr></tbody></table><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Viveka",
     "lyricsintamil",
@@ -95,6 +103,6 @@
     "keywords": "Viveka, lyricsintamil, Veeram, Devi Sri Prasad(DSP), Anand, Deepak, Jagadish, Kousik, Veeram Theme Lyrics in Tamil full lyrics, Veeram songs lyrics, Veeram Theme Lyrics in Tamil lyrics snippets, Veeram Theme Lyrics in Tamil WhatsApp status lyrics snippets, share Veeram Theme Lyrics in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg3Em90Rl4r2qQjFOqFm64__R72B0M_cld2jZ5ngozw45UnkZnl8thzTVT8rX9xU9t2SX1e6Dxg4Jh_uUIw3boyDIxr17tUwvD1B8jT0Y-68SOYlD1l1QTpCKxbPro9qNlsMoFnUGRCX0/s400-c/Veeram+theme.png",
-  "generatedAt": "2026-01-18T13:01:26.252Z",
+  "generatedAt": "2026-02-01T14:34:31.778Z",
   "version": 1
 }

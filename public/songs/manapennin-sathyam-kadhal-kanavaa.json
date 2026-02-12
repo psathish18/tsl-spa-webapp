@@ -8,11 +8,18 @@
   "musicName": "",
   "actorName": "",
   "published": "2014-05-27T22:38:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><br /><div></div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNQhTFdXnhhABRyeCJyt0q7zrvEwIZowXn-f5RwcO_fH7BV_dZ3TuBQiaADdSk9acKFqaNTgcUREBwEvMPObwQe64zULnpxjdvirBti9Ayxpx09FDf5v8robZtcYeJA9LPtaNagUlkZkY/s1600/kochadaiyaan.jpg\"><br /></a></div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNQhTFdXnhhABRyeCJyt0q7zrvEwIZowXn-f5RwcO_fH7BV_dZ3TuBQiaADdSk9acKFqaNTgcUREBwEvMPObwQe64zULnpxjdvirBti9Ayxpx09FDf5v8robZtcYeJA9LPtaNagUlkZkY/s1600/kochadaiyaan.jpg\"><br /></a><br />"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Kochadaiiyaan",
@@ -112,10 +119,10 @@
   ],
   "seo": {
     "title": "Manapennin Sathyam (Kadhal Kanavaa) Lyrics in Tamil",
-    "description": "Full Manapenin Sathiaym Lyrics in Tamil songs lyrics in tamil ( ...) Kochadaiiyaan Songs Lyrics. sharable lyrics snippets,.",
+    "description": "Full Manapenin Sathiaym Lyrics in Tamil song lyrics in tamil  ( ...) Kochadaiiyaan Songs Lyrics. sharable lyrics snippets,.",
     "keywords": "lyricsintamil, Kochadaiiyaan, Manapenin Sathiaym Lyrics in Tamil full lyrics, Kochadaiiyaan songs lyrics, Manapenin Sathiaym Lyrics in Tamil lyrics snippets, Manapenin Sathiaym Lyrics in Tamil WhatsApp status lyrics snippets, share Manapenin Sathiaym Lyrics in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4bnMkPcKZVaJ7O2xaMm8YlhryCK45mkqsMDnzhA7_FpVh2E67EcjdsgPkRl361ZM25d644CX7CRqVXxUFSbAU4gXSCG_9TZVDjrS7D-HYhto1VF_LmtEW2HjBocOUFGBB630Y9CPDoNc/s400-c/Kadhal+Kanavaa+Lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T12:59:19.398Z",
+  "generatedAt": "2026-02-01T13:00:05.207Z",
   "version": 1
 }

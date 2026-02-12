@@ -8,11 +8,23 @@
   "musicName": "Sivamani",
   "actorName": "",
   "published": "2014-04-15T23:29:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9YJYfDsP-pF9gaJlRAuCZHzZjRtsEB9mYCwxo1cWGtljtFfJgdBExakVW2HvT5c9sEskiEZl4JDNyLqjuBzyrSthdHUOqII8_7IM_7sxGffhYMbm-DzS1QFgYYtF3pDFcGFIaiN8RX2U/s1600/Arima-Nambi.jpg\"></a>Song: Neeyae Neeyae </div><div>Singer(s): Shreya Ghosal</div><div>Movie:Arima Nambi</div><div>Music: Sivamani</div><div><br /></div><div>Neeyae Neeyae kattraai neeye</div><div>moochil moochil poothaai.</div><div>Nee nee , kattraai nee</div><div>paaindhaene netraai nee.</div><div>Vettai theeye nee.</div><div><br /></div><div>Minsaaramaai pandhaadinaai</div><div>ennodu nee, ondraaginaai</div><div>poraali neeyaaga paarthaen</div><div>yaareda yaareda adey adey </div><div>neeye da, uyir aanenda.</div><div><br /></div><div>Netru naan yaarovaai </div><div>irulinil kidandhaen.</div><div>Nee vaaithaai en thaayaai</div><div>uryirnil mudindhaen.</div><div><br /></div><div>Neeyaale naaney naan </div><div>marubadi pirandhaen.</div><div>Natkaatti thaalaipol</div><div>kilithida thunindhaen.</div><div><br /></div><div>Aaraariro.. neeyaagum neram.</div><div>naanaaga nee paarkiren</div><div>uyire uyire nilaavilae</div><div>viral korthaeney, oh..</div><div>mazhai paarthaeney.</div><div><br /></div></div>"
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9YJYfDsP-pF9gaJlRAuCZHzZjRtsEB9mYCwxo1cWGtljtFfJgdBExakVW2HvT5c9sEskiEZl4JDNyLqjuBzyrSthdHUOqII8_7IM_7sxGffhYMbm-DzS1QFgYYtF3pDFcGFIaiN8RX2U/s1600/Arima-Nambi.jpg\"></a>Song: Neeyae Neeyae<br />Singer(s): Shreya Ghosal<br />Movie:Arima Nambi<br />Music: Sivamani",
+    "Neeyae Neeyae kattraai neeye<br />moochil moochil poothaai.<br />Nee nee , kattraai nee<br />paaindhaene netraai nee.<br />Vettai theeye nee.",
+    "Minsaaramaai pandhaadinaai<br />ennodu nee, ondraaginaai<br />poraali neeyaaga paarthaen<br />yaareda yaareda adey adey<br />neeye da, uyir aanenda.",
+    "Netru naan yaarovaai<br />irulinil kidandhaen.<br />Nee vaaithaai en thaayaai<br />uryirnil mudindhaen.",
+    "Neeyaale naaney naan<br />marubadi pirandhaen.<br />Natkaatti thaalaipol<br />kilithida thunindhaen.",
+    "Aaraariro.. neeyaagum neram.<br />naanaaga nee paarkiren<br />uyire uyire nilaavilae<br />viral korthaeney, oh..<br />mazhai paarthaeney."
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Arima Nambi",
     "Music:Sivamani",
@@ -63,6 +75,6 @@
     "keywords": "Arima Nambi, Sivamani, Shreya Goshal, Neeyae Neeyae full lyrics, Arima Nambi songs lyrics, Neeyae Neeyae lyrics snippets, Neeyae Neeyae WhatsApp status lyrics snippets, share Neeyae Neeyae lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9YJYfDsP-pF9gaJlRAuCZHzZjRtsEB9mYCwxo1cWGtljtFfJgdBExakVW2HvT5c9sEskiEZl4JDNyLqjuBzyrSthdHUOqII8_7IM_7sxGffhYMbm-DzS1QFgYYtF3pDFcGFIaiN8RX2U/s400-c/Arima-Nambi.jpg",
-  "generatedAt": "2026-01-18T12:59:43.489Z",
+  "generatedAt": "2026-02-01T13:18:06.270Z",
   "version": 1
 }

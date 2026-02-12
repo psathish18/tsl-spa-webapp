@@ -1,11 +1,44 @@
 # Allow all crawlers
 User-agent: *
 Allow: /
+Crawl-delay: 2
 
 # Sitemap location
 Sitemap: https://tsonglyrics.com/sitemap.xml
 
-# Block unnecessary paths (if any)
+# Block unnecessary paths
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
+Disallow: /search?*
+Disallow: /*?nxtP*
+
+# Friendly bots - faster crawl
+User-agent: Googlebot
+Crawl-delay: 1
+Allow: /
+
+User-agent: Bingbot
+Crawl-delay: 2
+Allow: /
+
+User-agent: facebookexternalhit
+Crawl-delay: 1
+Allow: /
+
+User-agent: meta-externalagent
+Crawl-delay: 2
+Allow: /
+
+# Aggressive bots - slower crawl
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10

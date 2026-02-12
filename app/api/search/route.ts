@@ -41,9 +41,9 @@ async function fetchCategories(): Promise<string[]> {
       }
     )
 
-    console.log('Blogger API response received')
+    // console.log('Blogger API response received')
     const categories = (data.feed as any).category || []
-    console.log('Total categories in feed:', categories.length)
+    // console.log('Total categories in feed:', categories.length)
     
     // Filter only Song: and OldSong: categories
     const songCategories = categories
@@ -52,7 +52,7 @@ async function fetchCategories(): Promise<string[]> {
       )
       .map((cat: Category) => cat.term)
     
-    console.log('Filtered song categories:', songCategories.slice(0, 10)) // Log first 10 for brevity
+    // console.log('Filtered song categories:', songCategories.slice(0, 10)) // Log first 10 for brevity
     
     // Update cache
     categoriesCache = songCategories

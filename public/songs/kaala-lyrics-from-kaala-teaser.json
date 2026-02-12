@@ -8,11 +8,25 @@
   "musicName": "",
   "actorName": "",
   "published": "2018-03-02T03:53:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\n<div>\nKaala Lyrics From Kaala Teaser</div>\n<div>\nவா </div>\n<div>\nஉன்னையும் மண்ணையும் </div>\n<div>\nவென்று வா -தீராத<br />\nஓர் தேவையை </div>\n<div>\nகொண்டுவா -நூறாயிரம்<br />\nஆண்டுகள் போதுமே<br />\n ஒன்றாகவே  மாறுவாய்  சீறுவாய்</div>\n<div>\n<br /></div>\n<div>\n<div>\nகாலா ... தீ ....</div>\n<div>\n<br /></div>\n<div>\nகற்றவை பற்றவை</div>\n</div>\n<div>\n<br /></div>\n<div>\n<br /></div>\n<div>\n******************</div>\n<div>\nvaa</div>\nunnaiyum mannaiyum<br />\n<div>\nvendru vaa - theeradha<br />\nor thaevaiyai<br />\n kondu vaa - nooraayiram</div>\n<div>\naandugal podhume - onragave<br />\nmaaruvaai seeruvaai</div>\n<div>\n<br /></div>\n<div>\nkaalaa ... thee...</div>\n<div>\n<br /></div>\n<div>\nkattravai pattravai </div>\n<div>\n<br /></div>\n<div>\nSource: <a href=\"https://www.youtube.com/watch?v=Wm_vSSlVsV4\" target=\"_blank\" rel=\"noopener noreferrer\">Youtube</a></div>\n<div>\n<br /></div>\n<div>\n</div>\n<br />\n<div>\n<a href=\"https://www.tsonglyrics.com/wp-content/uploads/2018/03/1.jpeg\"></a></div>\n<div>\n<br /></div>\n<div>\n<br /></div>\n<div>\n<br /></div>\n</div>"
+    "Kaala Lyrics From Kaala Teaser<br />வா<br />உன்னையும் மண்ணையும்<br />வென்று வா -தீராத<br />ஓர் தேவையை<br />கொண்டுவா -நூறாயிரம்<br />ஆண்டுகள் போதுமே<br />ஒன்றாகவே  மாறுவாய்  சீறுவாய்",
+    "காலா ... தீ ....",
+    "கற்றவை பற்றவை",
+    "******************<br />vaa<br />unnaiyum mannaiyum<br />vendru vaa - theeradha<br />or thaevaiyai<br />kondu vaa - nooraayiram<br />aandugal podhume - onragave<br />maaruvaai seeruvaai",
+    "kaalaa ... thee...",
+    "kattravai pattravai",
+    "Source: <a href=\"https://www.youtube.com/watch?v=Wm_vSSlVsV4\" target=\"_blank\" rel=\"noopener noreferrer\">Youtube</a>",
+    "<a href=\"https://www.tsonglyrics.com/wp-content/uploads/2018/03/1.jpeg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Song:Kaala Teaser Lyrics - Kaala",
     "Tamil Lyrics"
@@ -24,6 +38,6 @@
     "keywords": "Tamil Lyrics, Kaala Teaser Lyrics full lyrics,  songs lyrics, Kaala Teaser Lyrics lyrics snippets, Kaala Teaser Lyrics WhatsApp status lyrics snippets, share Kaala Teaser Lyrics lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T12:44:42.316Z",
+  "generatedAt": "2026-02-01T13:16:27.118Z",
   "version": 1
 }

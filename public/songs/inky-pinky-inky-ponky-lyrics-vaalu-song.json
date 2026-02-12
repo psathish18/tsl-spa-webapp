@@ -8,13 +8,24 @@
   "musicName": "Thaman S",
   "actorName": "",
   "published": "2014-02-16T10:16:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7fxDj654xPsfg41zq5IPtcXBWONZeSGYF8BY6iJ7qo5yKuQXnswH1kukGlXYcOlfm7g3oYtPR1y5wqTUbNoaBB4WSmjNL2O3OXTEX4beDldkDFxkN8E1fAfN7PFrMX7ZVbDDbZHvernM/s1600/simbu_vaalu.jpg\"></a>Song: You are My Darling<br />Singer: Simbu<br />Movie: Vaalu<br />Music: Thaman S",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7fxDj654xPsfg41zq5IPtcXBWONZeSGYF8BY6iJ7qo5yKuQXnswH1kukGlXYcOlfm7g3oYtPR1y5wqTUbNoaBB4WSmjNL2O3OXTEX4beDldkDFxkN8E1fAfN7PFrMX7ZVbDDbZHvernM/s1600/simbu_vaalu.jpg\"></a>Song: You are My Darling<br />Singer: Simbu<br />Movie: Vaalu<br />Music: Thaman S",
     "<span>&lt;promo song lyrics&gt;</span>",
-    "Pink pinky pinky ponky</div><div>inga pottu paarthaen ponnu</div><div>father aaga donky enga</div><div>inga thaedi parthaen kannu</div><div><br /></div><div>Inky Pinky Inky Ponky</div><div>inga vittu pogaadha</div><div><br /></div><div>Hey nayanthara vena</div><div>andrea vum venaam</div><div>thamanaavum venaam</div><div>andha samanthaavum venaam</div><div>deepikaavum venaam </div><div>kattrina vum venaam</div><div><br /></div><div>Ye penne unai paarthaa podhum</div><div>yaarum venaamey</div><div><br /></div><div>you are my darling</div><div>you are my darling</div><div>you are my darling darling baby</div><div><br /></div></div>"
+    "Pink pinky pinky ponky<br />inga pottu paarthaen ponnu<br />father aaga donky enga<br />inga thaedi parthaen kannu",
+    "Inky Pinky Inky Ponky<br />inga vittu pogaadha",
+    "Hey nayanthara vena<br />andrea vum venaam<br />thamanaavum venaam<br />andha samanthaavum venaam<br />deepikaavum venaam<br />kattrina vum venaam",
+    "Ye penne unai paarthaa podhum<br />yaarum venaamey",
+    "you are my darling<br />you are my darling<br />you are my darling darling baby"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Vaalu",
     "Music:Thaman S",
@@ -56,6 +67,6 @@
     "keywords": "Vaalu, Thaman S, Simbu, Inky Pinky Inky Ponky full lyrics, Vaalu songs lyrics, Inky Pinky Inky Ponky lyrics snippets, Inky Pinky Inky Ponky WhatsApp status lyrics snippets, share Inky Pinky Inky Ponky lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7fxDj654xPsfg41zq5IPtcXBWONZeSGYF8BY6iJ7qo5yKuQXnswH1kukGlXYcOlfm7g3oYtPR1y5wqTUbNoaBB4WSmjNL2O3OXTEX4beDldkDFxkN8E1fAfN7PFrMX7ZVbDDbZHvernM/s400-c/simbu_vaalu.jpg",
-  "generatedAt": "2026-01-18T13:00:33.127Z",
+  "generatedAt": "2026-02-01T14:30:18.021Z",
   "version": 1
 }

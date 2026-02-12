@@ -102,6 +102,9 @@ export const DEFAULT_SANITIZE_OPTIONS = {
     a: ['href', 'title', 'target', 'rel'],
     div: ['class', 'style'],
     iframe: ['src', 'width', 'height', 'title', 'frameborder', 'allow', 'allowfullscreen', 'loading', 'referrerpolicy']
+  },
+  allowedClasses: {
+    'div': ['easter-egg-list', 'faqs-section', 'faq-item']
   }
 };
 

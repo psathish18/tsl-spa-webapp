@@ -8,11 +8,30 @@
   "musicName": "Darbuka Siva",
   "actorName": "",
   "published": "2016-09-02T10:10:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><span>vandiyila nellu varum</span></div><div><span>vandiyila nellu varum</span></div><div><span>vandiyila nellu varum</span></div><div><br /></div><div><span>ammavukku</span></div><div><span>vandiyila nellu varum</span></div><div><br /></div><div><span>vandiyila nellu varum</span></div><div><span>vandiyila nellu varum</span></div><div><span>vandiyila nellu varum</span></div><div><span>ammavukku</span></div><div><span>vandiyila nellu varum</span></div><div><br /></div><div><span>antha</span></div><div><span>vandinella oora vaikka</span></div><div><span>vandinella oora vaikka</span></div><div><span>vaigaiaathu thani varum</span></div><div><br /></div><div><span>ammavukku</span></div><div><span>vaigaiaathu thani varum</span></div><div><br /></div><div><span>gundaanila nellu varum</span></div><div><span>gundaanila nellu varum</span></div><div><span>gundaanila nellu varum</span></div><div><br /></div><div><span>ammavukku</span></div><div><span>gundaanila nellu varum</span></div><div><span>antha</span></div><div><span>gundaan nella oora vaikka</span></div><div><span>gundaan nella oora vaikka</span></div><div><span>kollidathu thani varum</span></div><div><br /></div><div><span>ammavukku</span></div><div><span>kollidathu thani varum</span></div><div><span>pottiyila nellu varum</span></div><div><span>pottiyila nellu varum</span></div><div><span>pottiyila nellu varum</span></div><div><br /></div><div><span>ammavukku</span></div><div><span>pottiyila nellu varum</span></div><div><span>viral thodum thoorathil varamirukku</span></div><div><span>pothum pothumae naa vaazha</span></div><div><span>vidiyum maranthidu raathiri</span></div><div><span>vera yethuvumae venaam</span></div><div><br /></div><div><span>uruvam paarthae</span></div><div><span>usuru pothae</span></div><div><span>enna maayanthaan</span></div><div><span>nee senjae</span></div><div><br /></div><div><span>yaathae thaangala</span></div><div><span>thootha kaattula</span></div><div><span>potha yethuthae mesa</span></div><div><span>theepam oomaiyaaka</span></div><div><span>poka saabanthaan</span></div><div><br /></div><div><span>naanum poda thaan aasa</span></div><div><span>vandiyila nellu varum….</span></div><div><span>vandiyila nellu varum..</span></div><div><span>vandiyila nellu varum.</span></div><div><span>vandinella oora vaikka</span></div><div><br /></div><div><span>vaigaiaathu thani varum….</span></div><div><span>vaigaiaathu thani varum…</span></div><div><span>vaigaiaathu thani varum..</span></div><span></span><br /><div><br /></div></div>"
+    "<span>vandiyila nellu varum</span><br /><span>vandiyila nellu varum</span><br /><span>vandiyila nellu varum</span>",
+    "<span>ammavukku</span><br /><span>vandiyila nellu varum</span>",
+    "<span>vandiyila nellu varum</span><br /><span>vandiyila nellu varum</span><br /><span>vandiyila nellu varum</span><br /><span>ammavukku</span><br /><span>vandiyila nellu varum</span>",
+    "<span>antha</span><br /><span>vandinella oora vaikka</span><br /><span>vandinella oora vaikka</span><br /><span>vaigaiaathu thani varum</span>",
+    "<span>ammavukku</span><br /><span>vaigaiaathu thani varum</span>",
+    "<span>gundaanila nellu varum</span><br /><span>gundaanila nellu varum</span><br /><span>gundaanila nellu varum</span>",
+    "<span>ammavukku</span><br /><span>gundaanila nellu varum</span><br /><span>antha</span><br /><span>gundaan nella oora vaikka</span><br /><span>gundaan nella oora vaikka</span><br /><span>kollidathu thani varum</span>",
+    "<span>ammavukku</span><br /><span>kollidathu thani varum</span><br /><span>pottiyila nellu varum</span><br /><span>pottiyila nellu varum</span><br /><span>pottiyila nellu varum</span>",
+    "<span>ammavukku</span><br /><span>pottiyila nellu varum</span><br /><span>viral thodum thoorathil varamirukku</span><br /><span>pothum pothumae naa vaazha</span><br /><span>vidiyum maranthidu raathiri</span><br /><span>vera yethuvumae venaam</span>",
+    "<span>uruvam paarthae</span><br /><span>usuru pothae</span><br /><span>enna maayanthaan</span><br /><span>nee senjae</span>",
+    "<span>yaathae thaangala</span><br /><span>thootha kaattula</span><br /><span>potha yethuthae mesa</span><br /><span>theepam oomaiyaaka</span><br /><span>poka saabanthaan</span>",
+    "<span>naanum poda thaan aasa</span><br /><span>vandiyila nellu varum….</span><br /><span>vandiyila nellu varum..</span><br /><span>vandiyila nellu varum.</span><br /><span>vandinella oora vaikka</span>",
+    "<span>vaigaiaathu thani varum….</span><br /><span>vaigaiaathu thani varum…</span><br /><span>vaigaiaathu thani varum..</span><br /><span></span>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Kidari",
     "Music:Darbuka Siva",
@@ -27,6 +46,6 @@
     "keywords": "Kidari, Darbuka Siva, Anthonydasan, Sanjana Kalmanje, Vandiyila nellu varum full lyrics, Kidari songs lyrics, Vandiyila nellu varum lyrics snippets, Vandiyila nellu varum WhatsApp status lyrics snippets, share Vandiyila nellu varum lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": null,
-  "generatedAt": "2026-01-18T12:50:06.963Z",
+  "generatedAt": "2026-02-01T13:01:35.643Z",
   "version": 1
 }

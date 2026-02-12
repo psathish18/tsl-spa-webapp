@@ -8,14 +8,50 @@
   "musicName": "Yuvan",
   "actorName": "",
   "published": "2004-11-12T11:39:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div>\nManmathane nee kalaignan thaan<br />\n<div>\nManmathane nee kavignan thaan</div>\n<div>\nManmathane nee kadhalan thaan</div>\n<div>\nManmathane nee kavalan thaan</div>\n<div>\n<br /></div>\n<div>\nennai unakkulle tholaithaen</div>\n<div>\nyeno theriyala</div>\n<div>\nunnai kanda nodi yeno </div>\n<div>\ninnum nagarala. </div>\n<div>\nundhan rasigai naanum</div>\n<div>\nunakken puriyavillai.</div>\n<div>\n<br /></div>\n<div>\neththanai aangalai</div>\n<div>\nkadanthu vandhen</div>\n<div>\nevanaiyum pudikkavillai.</div>\n<div>\n<br /></div>\n<div>\nirubathu varudam</div>\n<div>\nunaipol evanum </div>\n<div>\nennai mayakkavillai. (2)</div>\n<div>\n<br /></div>\n<div>\nManmathane nee kalaignan thaan<br />\n<div>\nManmathane nee kavignan thaan</div>\n<div>\nManmathane nee kadhalan thaan</div>\n<div>\nManmathane nee kavalan thaan</div>\n</div>\n<div>\n<br /></div>\n<div>\nnaanum or pennena</div>\n<div>\npirandha palanai </div>\n<div>\nindrethaan nadanthaen.</div>\n<div>\n<br /></div>\n<div>\nunnai naan paartha pin</div>\n<div>\naangal vargathai naanum</div>\n<div>\nmathiththaen.</div>\n<div>\n<br /></div>\n<div>\nendhan nenjil oonjal katti</div>\n<div>\naadikonde irukkiraai</div>\n<div>\nenakkul pugunthu</div>\n<div>\nengo neeyum</div>\n<div>\noadi konde irukkiraai</div>\n<div>\n<br /></div>\n<div>\nazhagaai naanum maarugiren</div>\n<div>\narivaai naanum pesugiren</div>\n<div>\nsugamaai naanum malarugiren</div>\n<div>\nunakkethum therigirathaa.</div>\n<div>\n<br /></div>\n<div>\norumurai paarthaal</div>\n<div>\npalamurai inikkiraai</div>\n<div>\nenna visithiramo.</div>\n<div>\n<br /></div>\n<div>\nnanbane enakku kadhalan</div>\n<div>\naanaal adhuthaan </div>\n<div>\nsarithiramo.  (2)</div>\n<div>\n<br /></div>\n<div>\nManmathane unnai paarkiren</div>\n<div>\nManmathane unnai rasikkiren.</div>\n<div>\nManmathane unnai rusikkiren</div>\n<div>\nManmathane unnai vasikkiren.</div>\n<div>\n<br /></div>\n<div>\nunnai muzhuthaaga</div>\n<div>\nnaanum mendu</div>\n<div>\nmilungavo.</div>\n<div>\nundhan munnaadi</div>\n<div>\nmattum vetkam</div>\n<div>\nvarattumo.</div>\n<div>\n<br /></div>\n<div>\nendhan padukkaraikku</div>\n<div>\nundhan peyarai vaikavo.</div>\n<div>\n<br /></div>\n<div>\nadimai saasanam ezhuthi</div>\n<div>\ntharugiren ennai yetrukollu.</div>\n<div>\naayul varaiyil unnudan</div>\n<div>\niruppen anbaai paarthukollu.(2)",
-    "<div>\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAk5f8dDWfRj4X2ayo_Bevu6SYRHD_QVy6WADph-xBUKhqNb4y4n31ORVwSKKwWKQ4VL0gQ8Z9yFJYZ-lBX9bQFhB-IzwKrLlx2C1hRQUHSG-TACTN_l1dooA9sGVzs-c6uN1PKyB2Ow/s1600/manmathane.jpg\"></a></div>\n</div>\n<div>\n<br /></div>\n</div>"
+    "Manmathane nee kalaignan thaan<br />Manmathane nee kavignan thaan<br />Manmathane nee kadhalan thaan<br />Manmathane nee kavalan thaan",
+    "ennai unakkulle tholaithaen<br />yeno theriyala<br />unnai kanda nodi yeno<br />innum nagarala.<br />undhan rasigai naanum<br />unakken puriyavillai.",
+    "eththanai aangalai<br />kadanthu vandhen<br />evanaiyum pudikkavillai.",
+    "irubathu varudam<br />unaipol evanum<br />ennai mayakkavillai. (2)",
+    "Manmathane nee kalaignan thaan<br />Manmathane nee kavignan thaan<br />Manmathane nee kadhalan thaan<br />Manmathane nee kavalan thaan",
+    "naanum or pennena<br />pirandha palanai<br />indrethaan nadanthaen.",
+    "unnai naan paartha pin<br />aangal vargathai naanum<br />mathiththaen.",
+    "endhan nenjil oonjal katti<br />aadikonde irukkiraai<br />enakkul pugunthu<br />engo neeyum<br />oadi konde irukkiraai",
+    "azhagaai naanum maarugiren<br />arivaai naanum pesugiren<br />sugamaai naanum malarugiren<br />unakkethum therigirathaa.",
+    "orumurai paarthaal<br />palamurai inikkiraai<br />enna visithiramo.",
+    "nanbane enakku kadhalan<br />aanaal adhuthaan<br />sarithiramo.  (2)",
+    "Manmathane unnai paarkiren<br />Manmathane unnai rasikkiren.<br />Manmathane unnai rusikkiren<br />Manmathane unnai vasikkiren.",
+    "unnai muzhuthaaga<br />naanum mendu<br />milungavo.<br />undhan munnaadi<br />mattum vetkam<br />varattumo.",
+    "endhan padukkaraikku<br />undhan peyarai vaikavo.",
+    "adimai saasanam ezhuthi<br />tharugiren ennai yetrukollu.<br />aayul varaiyil unnudan<br />iruppen anbaai paarthukollu.(2)",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAk5f8dDWfRj4X2ayo_Bevu6SYRHD_QVy6WADph-xBUKhqNb4y4n31ORVwSKKwWKQ4VL0gQ8Z9yFJYZ-lBX9bQFhB-IzwKrLlx2C1hRQUHSG-TACTN_l1dooA9sGVzs-c6uN1PKyB2Ow/s1600/manmathane.jpg\"></a>"
   ],
   "hasTamilLyrics": true,
   "tamilStanzas": [
-    "<div>\nமன்மதனே நீ கலைஞன் தான்<br />\nமன்மதனே நீ கவிஞன் தான்<br />\nமன்மதனே நீ காதலன் தான்<br />\nமன்மதனே நீ காவலன் தான்<br />\n<div>\n<br /></div>\n<div>\n<div>\nஎன்னை உனக்குள்ளே தொலைத்தேன் </div>\n<div>\nஏனோ தெரியல </div>\n<div>\nஉன்னை கண்ட நொடி ஏனோ </div>\n<div>\nஇன்னும் நகரல. </div>\n<div>\nஉந்தன் ரசிகை நானும் </div>\n<div>\nஉனக்கேன் புரியவில்லை.</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஎத்தனை ஆண்களை </div>\n<div>\nகடந்து வந்தேன்</div>\n<div>\nஎவனையும் புடிக்கவில்லை.</div>\n</div>\n<div>\n<div>\nஇருபது வருடம் </div>\n<div>\nஉன்னைப்போல் எவனும் </div>\n<div>\nஎன்னை மயக்கவில்லை. (2)</div>\n</div>\n<div>\n<br /></div>\n<div>\nமன்மதனே நீ கலைஞன் தான்<br />\nமன்மதனே நீ கவிஞன் தான்<br />\nமன்மதனே நீ காதலன் தான்<br />\nமன்மதனே நீ காவலன் தான்</div>\n<div>\n<br /></div>\n<div>\n<div>\nநானும் ஓர் பெண்ணென </div>\n<div>\nபிறந்த பலனை </div>\n<div>\nஇன்றேதான்  அடைந்தேன்.</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஉன்னை நான் பார்த்த பின் </div>\n<div>\nஆண்கள் வர்கத்தை</div>\n<div>\nநானும் மதித்தான்.</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஎந்தன் நெஞ்சில் </div>\n<div>\nஊஞ்சல் கட்டி </div>\n<div>\nஆடிக்கொண்டே இருக்கிறாய் </div>\n<div>\nஎனக்குள் புகுந்து </div>\n<div>\nஎங்கோ நீயும் </div>\n<div>\nஓடி கொண்டே இருக்கிறாய்</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஅழகாய் நானும் மாறுகிறேன் </div>\n<div>\nஅறிவாய் நானும் பேசுகிறேன் </div>\n<div>\nசுகமாய் நானும் மலருகிறேன் </div>\n<div>\nஉனக்கேதும் தெரிகிறதா.</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஒருமுறை பார்த்தால் </div>\n<div>\nபலமுறை இனிக்கிறாய் </div>\n<div>\nஎன்ன விசித்திரமோ.</div>\n</div>\n<div>\n<br /></div>\n<div>\nநண்பனே எனக்கு </div>\n<div>\nகாதலன் ஆனால் </div>\n<div>\nஅதுதான் சரித்திரமோ. (2)</div>\n<div>\n<br /></div>\n<div>\n<div>\nமன்மதனே உன்னை பார்க்கிறேன் </div>\n<div>\nமன்மதனே உன்னை ரசிக்கிறேன். </div>\n<div>\nமன்மதனே உன்னை ருசிக்கிறேன் </div>\n<div>\nமன்மதனே உன்னில் வசிக்கிறேன்.</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஉன்னை முழுதாக நானும் </div>\n<div>\nமெண்டு  மிழுங்கவோ . </div>\n<div>\nஉந்தன் முன்னாடி மட்டும் </div>\n<div>\nவெட்கம்  வரட்டுமோ .</div>\n</div>\n<div>\nஎந்தன் படுக்கரைக்கு </div>\n<div>\n<div>\nஉந்தன் பெயரை வைக்கவோ.</div>\n</div>\n<div>\n<br /></div>\n<div>\n<div>\nஅடிமை சாசனம் </div>\n<div>\nஎழுதித்  தருகிறேன் </div>\n<div>\nஎன்னை ஏற்றுக்கொள்ளு. </div>\n<div>\n<br /></div>\n<div>\nஆயுள் வரையில் </div>\n<div>\nஉன்னுடன் இருப்பேன் </div>\n<div>\nஅன்பாய் பார்த்துக்கொள்ளு</div>\n</div>\n<div>\n<br /></div>\n<div>\n<br /></div>\n<div>\n<br /></div>\n</div>"
+    "மன்மதனே நீ கலைஞன் தான்<br />மன்மதனே நீ கவிஞன் தான்<br />மன்மதனே நீ காதலன் தான்<br />மன்மதனே நீ காவலன் தான்",
+    "என்னை உனக்குள்ளே தொலைத்தேன்<br />ஏனோ தெரியல<br />உன்னை கண்ட நொடி ஏனோ<br />இன்னும் நகரல.<br />உந்தன் ரசிகை நானும்<br />உனக்கேன் புரியவில்லை.",
+    "எத்தனை ஆண்களை<br />கடந்து வந்தேன்<br />எவனையும் புடிக்கவில்லை.",
+    "இருபது வருடம்<br />உன்னைப்போல் எவனும்<br />என்னை மயக்கவில்லை. (2)",
+    "மன்மதனே நீ கலைஞன் தான்<br />மன்மதனே நீ கவிஞன் தான்<br />மன்மதனே நீ காதலன் தான்<br />மன்மதனே நீ காவலன் தான்",
+    "நானும் ஓர் பெண்ணென<br />பிறந்த பலனை<br />இன்றேதான்  அடைந்தேன்.",
+    "உன்னை நான் பார்த்த பின்<br />ஆண்கள் வர்கத்தை<br />நானும் மதித்தான்.",
+    "எந்தன் நெஞ்சில்<br />ஊஞ்சல் கட்டி<br />ஆடிக்கொண்டே இருக்கிறாய்<br />எனக்குள் புகுந்து<br />எங்கோ நீயும்<br />ஓடி கொண்டே இருக்கிறாய்",
+    "அழகாய் நானும் மாறுகிறேன்<br />அறிவாய் நானும் பேசுகிறேன்<br />சுகமாய் நானும் மலருகிறேன்<br />உனக்கேதும் தெரிகிறதா.",
+    "ஒருமுறை பார்த்தால்<br />பலமுறை இனிக்கிறாய்<br />என்ன விசித்திரமோ.",
+    "நண்பனே எனக்கு<br />காதலன் ஆனால்<br />அதுதான் சரித்திரமோ. (2)",
+    "மன்மதனே உன்னை பார்க்கிறேன்<br />மன்மதனே உன்னை ரசிக்கிறேன்.<br />மன்மதனே உன்னை ருசிக்கிறேன்<br />மன்மதனே உன்னில் வசிக்கிறேன்.",
+    "உன்னை முழுதாக நானும்<br />மெண்டு  மிழுங்கவோ .<br />உந்தன் முன்னாடி மட்டும்<br />வெட்கம்  வரட்டுமோ .",
+    "எந்தன் படுக்கரைக்கு<br />உந்தன் பெயரை வைக்கவோ.",
+    "அடிமை சாசனம்<br />எழுதித்  தருகிறேன்<br />என்னை ஏற்றுக்கொள்ளு.",
+    "ஆயுள் வரையில்<br />உன்னுடன் இருப்பேன்<br />அன்பாய் பார்த்துக்கொள்ளு"
   ],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Movie:Manmadhan",
     "Music:Yuvan",
@@ -39,6 +75,6 @@
     "keywords": "Manmadhan, Yuvan, Sadhana Sargam, Manmathane full lyrics, Manmadhan songs lyrics, Manmathane lyrics snippets, Manmathane WhatsApp status lyrics snippets, share Manmathane lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAk5f8dDWfRj4X2ayo_Bevu6SYRHD_QVy6WADph-xBUKhqNb4y4n31ORVwSKKwWKQ4VL0gQ8Z9yFJYZ-lBX9bQFhB-IzwKrLlx2C1hRQUHSG-TACTN_l1dooA9sGVzs-c6uN1PKyB2Ow/s400-c/manmathane.jpg",
-  "generatedAt": "2026-01-18T13:15:24.030Z",
+  "generatedAt": "2026-02-01T14:30:41.161Z",
   "version": 1
 }

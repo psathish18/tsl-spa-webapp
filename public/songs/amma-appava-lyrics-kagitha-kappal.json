@@ -8,11 +8,29 @@
   "musicName": "Nishant",
   "actorName": "",
   "published": "2016-09-23T22:41:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div>Ammaa appava </div><div>Kudumbatha paaru</div><div>Appaala thaane</div><div>Cinema star-u</div><div><br /></div><div>Sonnadhu yaaru</div><div>Thala thaaney</div><div>Suthamana manam </div><div>Idhu thaaney</div><div><br /></div><div>Manja vaikkum</div><div>Selavellaam edhukku</div><div>Anbu irundhaa</div><div>Adhu podhum enakku</div><div><br /></div><div>Sonnadhu yaaru</div><div>Thala thaaney</div><div>Suthamana manam </div><div>Idhu thaaney</div><div><br /></div><div>Spanner pudicha</div><div>Mechanic thodangi</div><div>Banner pudikkum</div><div>Ikkaalam varaikkum</div><div><br /></div><div>Thalayoda valarchi </div><div>Ye nesamaave magizhchi</div><div><br /></div><div>Ye thala ezhuthe maarun</div><div>Thala pola ulachi</div><div><br /></div><div>Thala pera solli paaru</div><div>Kallu kooda karaiyum</div><div>Kottra mazhaila yethivechcha</div><div>Karpuram kooda eriyum</div><div><br /></div><div>Paththaadhuda</div><div>Thalaikku thaaney </div><div>Nooru kodi vasulu</div><div><br /></div><div>Thala pera solli paaru</div><div>Kuzhandha adikkum Whistle </div><div>Kuzhandha adikkum Whistle </div><div>Kuzhandha adikkum Whistle </div><div><br /></div><div>Ye thanane thandhane</div><div>Thaane thandhaane</div><div><br /></div><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSAMg3FUkA_a1pJlL73i_SxtflzW7Ab6SrwncibvPOq0W-7a83hVhqRn-4adIOf8aw0AEsRG7a1zpgiKvkSsuc12hvxjORQTbiX5qJvIxkZPLuzWSCPB52XIIS8UlazsIueE0NAhX9QDk/s1600/Kagitha+Kappal.jpeg\"></a></div><div><br /></div></div>"
+    "Ammaa appava<br />Kudumbatha paaru<br />Appaala thaane<br />Cinema star-u",
+    "Sonnadhu yaaru<br />Thala thaaney<br />Suthamana manam<br />Idhu thaaney",
+    "Manja vaikkum<br />Selavellaam edhukku<br />Anbu irundhaa<br />Adhu podhum enakku",
+    "Sonnadhu yaaru<br />Thala thaaney<br />Suthamana manam<br />Idhu thaaney",
+    "Spanner pudicha<br />Mechanic thodangi<br />Banner pudikkum<br />Ikkaalam varaikkum",
+    "Thalayoda valarchi<br />Ye nesamaave magizhchi",
+    "Ye thala ezhuthe maarun<br />Thala pola ulachi",
+    "Thala pera solli paaru<br />Kallu kooda karaiyum<br />Kottra mazhaila yethivechcha<br />Karpuram kooda eriyum",
+    "Paththaadhuda<br />Thalaikku thaaney<br />Nooru kodi vasulu",
+    "Thala pera solli paaru<br />Kuzhandha adikkum Whistle<br />Kuzhandha adikkum Whistle<br />Kuzhandha adikkum Whistle",
+    "Ye thanane thandhane<br />Thaane thandhaane",
+    "<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSAMg3FUkA_a1pJlL73i_SxtflzW7Ab6SrwncibvPOq0W-7a83hVhqRn-4adIOf8aw0AEsRG7a1zpgiKvkSsuc12hvxjORQTbiX5qJvIxkZPLuzWSCPB52XIIS8UlazsIueE0NAhX9QDk/s1600/Kagitha+Kappal.jpeg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "Lyrics:Kalai Kumar",
     "Movie:Kagitha Kappal",
@@ -27,6 +45,6 @@
     "keywords": "Kalai Kumar, Kagitha Kappal, Nishant, Gana Vinoth, Amma Appava full lyrics, Kagitha Kappal songs lyrics, Amma Appava lyrics snippets, Amma Appava WhatsApp status lyrics snippets, share Amma Appava lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSAMg3FUkA_a1pJlL73i_SxtflzW7Ab6SrwncibvPOq0W-7a83hVhqRn-4adIOf8aw0AEsRG7a1zpgiKvkSsuc12hvxjORQTbiX5qJvIxkZPLuzWSCPB52XIIS8UlazsIueE0NAhX9QDk/s400-c/Kagitha+Kappal.jpeg",
-  "generatedAt": "2026-01-18T12:49:46.978Z",
+  "generatedAt": "2026-02-01T13:18:13.377Z",
   "version": 1
 }

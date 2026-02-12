@@ -1,0 +1,135 @@
+name: Hourly Vercel Log Analysis
+
+on:
+  schedule:
+    # Run every hour at minute 55 to capture full hour before Vercel's 1hr log retention limit
+    - cron: '55 * * * *'
+  
+  workflow_dispatch: # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  analyze-logs:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 # Fetch all history for proper commits
+      
+      - name: Setup analysis branch
+        run: |
+          if git ls-remote --heads origin automated-log-analysis | grep -q automated-log-analysis; then
+            git checkout automated-log-analysis
+            git pull origin automated-log-analysis
+          else
+            git checkout -b automated-log-analysis
+          fi
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install Vercel CLI
+        run: npm install -g vercel@latest
+      
+      - name: Run hourly log analysis
+        id: analysis
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_6Eejnjz5gfq1apxkLbrObHi07FCt
+          CI: true
+        run: |
+          # Check if VERCEL_TOKEN is set
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "⚠️ VERCEL_TOKEN is not set in repository secrets"
+            echo ""
+            echo "📋 To enable automated log analysis:"
+            echo "1. Create a Vercel token at: https://vercel.com/account/tokens"
+            echo "2. Add it to GitHub Secrets at:"
+            echo "   https://github.com/${{ github.repository }}/settings/secrets/actions"
+            echo "3. Name the secret: VERCEL_TOKEN"
+            echo ""
+            echo "ℹ️ Skipping log analysis for now..."
+            echo "token_available=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          echo "token_available=true" >> $GITHUB_OUTPUT
+          
+          # Login to Vercel using token
+          vercel whoami --token "$VERCEL_TOKEN" || vercel login --token "$VERCEL_TOKEN"
+          
+          # Make script executable and run
+          chmod +x ./scripts/analyze-hourly-logs.sh
+          bash ./scripts/analyze-hourly-logs.sh
+      
+      - name: Set update timestamp
+        if: steps.analysis.outputs.token_available == 'true'
+        run: echo "LAST_UPDATED=$(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
+      
+      - name: Set commit message
+        if: steps.analysis.outputs.token_available == 'true'
+        run: |
+          TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
+          echo "COMMIT_MESSAGE=chore: hourly log analysis $TIMESTAMP" >> $GITHUB_ENV
+      
+      - name: Commit and push changes
+        if: steps.analysis.outputs.token_available == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Only add CSV files from web-site-optimization folder
+          git add web-site-optimization/hourly-vercel-logs-*.csv 2>/dev/null || true
+          
+          if git diff --staged --quiet; then
+            echo "No CSV files to commit"
+          else
+            git commit -m "${{ env.COMMIT_MESSAGE }}"
+            git push origin HEAD:automated-log-analysis
+          fi
+      
+      - name: Create or update PR
+        if: steps.analysis.outputs.token_available == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Check if PR already exists
+          PR_EXISTS=$(gh pr list --head automated-log-analysis --base main --json number --jq 'length')
+          if [ "$PR_EXISTS" -eq 0 ]; then
+            # Create new PR
+            gh pr create \
+              --head automated-log-analysis \
+              --base main \
+              --title "📊 Automated Hourly Vercel Logs" \
+              --body "## 📊 Automated Vercel Log Collection
+            
+            This PR contains CSV files with hourly Vercel logs.
+            
+            ### 📈 What's Included:
+            - Hourly traffic CSV files (Edge vs Serverless metrics)
+            - Request counts, status codes, endpoints
+            - Raw log data for analysis
+            
+            ### ✅ Review & Merge:
+            - CSV files are in \`web-site-optimization/hourly-vercel-logs-*.csv\`
+            - Merge when ready (daily or weekly)
+            - A new PR will be created for the next batch
+            
+            **Last Updated**: ${{ env.LAST_UPDATED }}
+            
+            ---
+            *This PR is automatically updated every hour by GitHub Actions*" \
+              --label automated \
+              --label monitoring \
+              --label analytics
+          else
+            echo "PR already exists, branch push will update it"
+          fi

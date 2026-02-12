@@ -29,8 +29,8 @@ export const REVALIDATE_TAMIL_LYRICS = REVALIDATE_30_DAYS
 export const REVALIDATE_RELATED_SONGS = REVALIDATE_30_DAYS
 
 // 404 page suggestions (can be shorter since it's not hit as often)
-export const REVALIDATE_404_SEARCH = 3600 // 1 hour
-export const REVALIDATE_POPULAR_POSTS = 3600 // 1 hour
+export const REVALIDATE_404_SEARCH = 3600 * 24 // 1 day
+export const REVALIDATE_POPULAR_POSTS = 3600 * 24 // 1 day
 
 // In-memory cache for sitemap (1 hour TTL)
 export const SITEMAP_CACHE_TTL = 3600000 // 1 hour in milliseconds

@@ -8,11 +8,16 @@
   "musicName": "Anirudh",
   "actorName": "",
   "published": "2014-07-17T14:35:00.000+05:30",
-  "stanzas": [
-    "<div><div></div><br /></div>"
-  ],
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
+  "stanzas": [],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Velaiyilla Pattathari",
@@ -114,10 +119,10 @@
   ],
   "seo": {
     "title": " Ey Inga Paaru Lyrics in Tamil - Velaiyilla Pattathari",
-    "description": "Full Ey Inga Paaru in Tamil songs lyrics in tamil ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Music: Anirudh, Singer(s): Anirudh.",
+    "description": "Full Ey Inga Paaru in Tamil song lyrics in tamil  ( ...) Velaiyilla Pattathari Songs Lyrics. sharable lyrics snippets, Music: Anirudh, Singer(s): Anirudh.",
     "keywords": "lyricsintamil, Velaiyilla Pattathari, Anirudh, Anirudh, Ey Inga Paaru in Tamil full lyrics, Velaiyilla Pattathari songs lyrics, Ey Inga Paaru in Tamil lyrics snippets, Ey Inga Paaru in Tamil WhatsApp status lyrics snippets, share Ey Inga Paaru in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDwA6l6yCZ10RyIw_bttsRIp8KS_-nu1TCGKaCh8ty9iNgHeFxMQx8zHf53ouAx4uYwANt7BMjCozi8HZ93LvTTHgr12wyCoICDLvGld9bRihX8j10ag9jxqjxivS09-gXlw_EhSxhdm8/s400-c/VIP+Ye+inga+paaru+lyrics+in+Tamil.png",
-  "generatedAt": "2026-01-18T12:58:39.274Z",
+  "generatedAt": "2026-02-01T13:00:18.521Z",
   "version": 1
 }

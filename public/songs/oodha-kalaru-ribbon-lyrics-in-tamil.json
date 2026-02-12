@@ -8,11 +8,18 @@
   "musicName": "",
   "actorName": "",
   "published": "2013-11-11T16:43:00.000+05:30",
+  "sections": {
+    "intro": "",
+    "easterEgg": "",
+    "faq": ""
+  },
   "stanzas": [
-    "<div><div><br /></div><div></div><br />Varuthapadatha Valibar Sangam Lyrics- +1 your favorite<br /></div>"
+    "Varuthapadatha Valibar Sangam Lyrics- +1 your favorite<ul></ul>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
+  "hasEnglishLyrics": false,
+  "englishStanzas": [],
   "category": [
     "lyricsintamil",
     "Movie:Varuthapadatha Valibar Sangam",
@@ -67,10 +74,10 @@
   ],
   "seo": {
     "title": "Oodha Kalaru Ribbon Lyrics in Tamil",
-    "description": "Full Oodha Kalaru Ribbon in Tamil songs lyrics in tamil (Varuthapadatha Valibar Sangam Lyrics- +1 ...) Varuthapadatha Valibar Sangam Songs Lyrics. sharable lyrics snippets,.",
+    "description": "Full Oodha Kalaru Ribbon in Tamil song lyrics in tamil  (Varuthapadatha Valibar Sangam Lyrics- +1 ...) Varuthapadatha Valibar Sangam Songs Lyrics. sharable lyrics snippets,.",
     "keywords": "lyricsintamil, Varuthapadatha Valibar Sangam, Oodha Kalaru Ribbon in Tamil full lyrics, Varuthapadatha Valibar Sangam songs lyrics, Oodha Kalaru Ribbon in Tamil lyrics snippets, Oodha Kalaru Ribbon in Tamil WhatsApp status lyrics snippets, share Oodha Kalaru Ribbon in Tamil lyrics snippets with friends, Tamil lyrics, Tamil songs"
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYEjzxR7BhJhKdB2fLzxeuSogo6H-hGcAZMX27-Hq94KEx1MEzAhyphenhyphenMUrV2ibAxzGkRxs80OSyfJSh0wpgU9iF-_QP7BQtR7_nfl4LCuvtj32Az7Kr0AR-9dsmIqU-sYM8xxKYz6ln_X6Y/s400-c/Oodha.png",
-  "generatedAt": "2026-01-18T13:02:17.978Z",
+  "generatedAt": "2026-02-01T13:05:55.791Z",
   "version": 1
 }
