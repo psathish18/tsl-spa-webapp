@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 
-// Enable Edge Runtime for better performance
-export const runtime = 'edge'
+// Using Node.js runtime (default) instead of Edge to reduce edge requests
+// Edge runtime increases costs on Vercel Hobby plan
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams

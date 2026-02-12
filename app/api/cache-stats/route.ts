@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { dateBasedCache } from '@/lib/dateBasedCache'
 
-// Enable Edge Runtime for better performance
-export const runtime = 'edge'
+// Using Node.js runtime (default) instead of Edge to reduce edge requests
 
 export async function GET(request: NextRequest) {
   try {

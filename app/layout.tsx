@@ -1,35 +1,25 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Poppins } from 'next/font/google'
 
 import dynamic from 'next/dynamic'
-import OneSignalButton from '../components/OneSignalButton'
-import OneSignalSubscriptionCard from '../components/OneSignalSubscriptionCard'
 
+// Lazy load all non-critical components to reduce edge requests
 const FloatingSearchButton = dynamic(() => import('../components/FloatingSearchButton'), { ssr: false })
+const OneSignalButton = dynamic(() => import('../components/OneSignalButton'), { 
+  ssr: false,
+  loading: () => null // No loading state needed - appears when ready
+})
+const OneSignalSubscriptionCard = dynamic(() => import('../components/OneSignalSubscriptionCard'), { 
+  ssr: false,
+  loading: () => null
+})
+
 const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 
-const Analytics = dynamic(() => import('@vercel/analytics/react').then(mod => mod.Analytics), { ssr: false })
+// Removed Vercel Analytics to reduce edge requests
+// Using Google Analytics only for tracking
 const GAClient = dynamic(() => import('../components/GAClient'), { ssr: false })
 const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr: false })
-// const GA = dynamic(() => import('../components/GAClient').then(mod => mod.default), { ssr: false })
-// const ClientErrorCatcher = dynamic(() => import('../components/ClientErrorCatcher').then(mod => mod.default), { ssr: false })
-// const GA_ID = process.env.NEXT_PUBLIC_GA_ID
-
-const inter = Inter({ 
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap', // Add font-display: swap for faster rendering
-  preload: true,
-})
-
-const poppins = Poppins({ 
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-poppins',
-  display: 'swap', // Add font-display: swap for faster rendering
-  preload: true,
-})
 
 export const metadata: Metadata = {
   title: 'Tamil Song Lyrics - Latest Tamil Songs',
@@ -58,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable}`}> 
+    <html lang="en"> 
       {/* Google Tag Manager and Google Analytics (in <head>) */}
       <head>
         {/* Preconnect to critical domains */}
@@ -155,21 +145,44 @@ export default function RootLayout({
   <FloatingSearchButton />
   
   {/* Defer all analytics/tracking scripts to end of body */}
-  {/* Google Analytics - Deferred */}
+  {/* Google Analytics - Lazy loaded after page interaction or 3 seconds */}
   {process.env.NEXT_PUBLIC_GA_ID && (
-    <>
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}></script>
-      <script dangerouslySetInnerHTML={{
-        __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
-            page_path: window.location.pathname,
+    <script dangerouslySetInnerHTML={{
+      __html: `
+        (function() {
+          var gaLoaded = false;
+          var gaId = '${process.env.NEXT_PUBLIC_GA_ID}';
+          
+          function loadGA() {
+            if (gaLoaded) return;
+            gaLoaded = true;
+            
+            // Load gtag script
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+            document.head.appendChild(script);
+            
+            // Initialize gtag
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', gaId, {
+              page_path: window.location.pathname,
+            });
+            window.gtag = gtag;
+          }
+          
+          // Load on first user interaction
+          ['mousedown', 'touchstart', 'keydown', 'scroll'].forEach(function(event) {
+            window.addEventListener(event, loadGA, { once: true, passive: true });
           });
-        `
-      }} />
-    </>
+          
+          // Fallback: load after 3 seconds if no interaction
+          setTimeout(loadGA, 3000);
+        })();
+      `
+    }} />
   )}
   
   {/* OneSignal - Deferred */}
@@ -192,7 +205,6 @@ export default function RootLayout({
   
   {/* Google Analytics - client-side helper (loaded dynamically) */}
   {GTM_ID ? <GAClient gaId={GTM_ID} /> : null}
-  <Analytics />
   
   {/* Load AdSense after page content - improves FCP */}
   {process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (

@@ -2,20 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* REMOVED: Google Fonts @import - now handled by Next.js font optimization in layout.tsx */
-/* This was causing render-blocking and duplicate font loading */
+/* REMOVED: Google Fonts via Next.js font optimization to reduce edge requests */
+/* Using system font stack for better performance and 0 edge requests */
 
 @layer base {
+  /* CSS custom property for system font stack - single source of truth */
+  /* Only quote font names with spaces or special characters */
+  :root {
+    --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, 
+                   Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", 
+                   Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
   html {
     scroll-behavior: smooth;
   }
   
   body {
     @apply font-sans antialiased;
+    /* High-performance system font stack - no external requests */
+    font-family: var(--font-system);
   }
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-display;
+    /* Use same font stack as body for consistency, including emoji fallbacks */
+    font-family: var(--font-system);
   }
   
   /* Set all table elements to 100% width */
@@ -74,9 +86,9 @@
     opacity: 1;
   }
 
-  /* Lyrics font utility: use the primary UI font stack for consistent headings/tags look */
+  /* Lyrics font utility: use the system UI font stack for consistent headings/tags */
   .lyrics-font {
-    font-family: Inter, Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    font-family: var(--font-system);
   }
 }
 
