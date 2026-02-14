@@ -18,7 +18,12 @@ export default function HotPostOverlay() {
   useEffect(() => {
     // Client-side fetch from static JSON file (no server/edge request)
     fetch('/hot-post.json')
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`Failed to fetch hot post config: ${res.status} ${res.statusText}`)
+        }
+        return res.json()
+      })
       .then(data => {
         if (data.enabled) {
           setHotPost(data)
