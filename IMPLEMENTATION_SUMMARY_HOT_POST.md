@@ -34,13 +34,13 @@ Successfully implemented a sticky bottom overlay that displays a featured "hot" 
 ## 🏗️ Files Created/Modified
 
 ### New Files
-1. **components/HotPostOverlay.tsx** (116 lines)
+1. **components/HotPostOverlay.tsx** (103 lines)
    - Client-side React component
    - Fetches from `/hot-post.json`
    - Theme-aware styling
    - Responsive design
 
-2. **public/hot-post.json** (6 lines)
+2. **public/hot-post.json** (7 lines)
    - Configuration file
    - Contains featured post details
    - Easy to update manually

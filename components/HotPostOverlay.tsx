@@ -26,7 +26,7 @@ export default function HotPostOverlay() {
           setTimeout(() => setIsVisible(true), 500)
         }
       })
-      .catch(err => console.error('Failed to load hot post:', err))
+      .catch(err => console.error('Failed to load hot post configuration from /hot-post.json:', err))
   }, [])
 
   if (!hotPost || !isVisible) {
@@ -36,9 +36,6 @@ export default function HotPostOverlay() {
   return (
     <div 
       className="fixed bottom-0 left-0 right-0 z-40 animate-slide-up"
-      style={{
-        animation: 'slideUp 0.5s ease-out'
-      }}
     >
       <Link
         href={`/${encodeURIComponent(hotPost.slug)}.html`}
