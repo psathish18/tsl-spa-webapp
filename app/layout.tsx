@@ -20,6 +20,7 @@ const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 // Using Google Analytics only for tracking
 const GAClient = dynamic(() => import('../components/GAClient'), { ssr: false })
 const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr: false })
+const HotPostOverlay = dynamic(() => import('../components/HotPostOverlay'), { ssr: false })
 
 export const metadata: Metadata = {
   title: 'Tamil Song Lyrics - Latest Tamil Songs',
@@ -143,6 +144,9 @@ export default function RootLayout({
   
   {/* Floating Search Button */}
   <FloatingSearchButton />
+  
+  {/* Hot Post Overlay - Sticky bottom banner */}
+  <HotPostOverlay />
   
   {/* Defer all analytics/tracking scripts to end of body */}
   {/* Google Analytics - Lazy loaded after page interaction or 3 seconds */}
