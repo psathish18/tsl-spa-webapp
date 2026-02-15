@@ -4,7 +4,13 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 
 interface HotPost {
-  enabled: boolean
+  slug: string
+  title: string
+  movieName?: string
+  singerName?: string
+}
+
+interface HotPostItem {
   slug: string
   title: string
   movieName?: string
@@ -14,25 +20,93 @@ interface HotPost {
 export default function HotPostOverlay() {
   const [hotPost, setHotPost] = useState<HotPost | null>(null)
   const [isVisible, setIsVisible] = useState(false)
+  const [hotPostItems, setHotPostItems] = useState<HotPostItem[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0)
 
+  // Fetch hot posts from Blogger
   useEffect(() => {
-    // Client-side fetch from static JSON file (no server/edge request)
-    fetch('/hot-post.json')
-      .then(res => {
-        if (!res.ok) {
-          throw new Error(`Failed to fetch hot post config: ${res.status} ${res.statusText}`)
+    const fetchFromBlogger = async () => {
+      try {
+        // Fetch from Blogger API with hotpost category
+        const response = await fetch(
+          'https://tslappsetting.blogspot.com/feeds/posts/default/-/hotpost?alt=json&max-results=1'
+        )
+        
+        if (!response.ok) {
+          throw new Error(`Blogger API error: ${response.status}`)
         }
-        return res.json()
-      })
-      .then(data => {
-        if (data.enabled) {
-          setHotPost(data)
-          // Delay visibility for smooth animation
-          setTimeout(() => setIsVisible(true), 500)
+        
+        const data = await response.json()
+        const entries = data.feed?.entry || []
+        
+        if (entries.length === 0) {
+          // Fallback to static JSON if no Blogger post found
+          fallbackToStaticJSON()
+          return
         }
-      })
-      .catch(err => console.error('Failed to load hot post configuration from /hot-post.json:', err))
+        
+        const firstPost = entries[0]
+        const content = firstPost.content?.$t || ''
+        
+        // Parse content as JSON array of hot posts
+        try {
+          const parsed = JSON.parse(content)
+          const items = Array.isArray(parsed) ? parsed : [parsed]
+          
+          if (items.length > 0) {
+            setHotPostItems(items)
+            setHotPost(items[0])
+            setTimeout(() => setIsVisible(true), 500)
+          } else {
+            fallbackToStaticJSON()
+          }
+        } catch (parseError) {
+          console.error('Failed to parse Blogger content as JSON:', parseError)
+          fallbackToStaticJSON()
+        }
+      } catch (error) {
+        console.error('Failed to fetch from Blogger:', error)
+        fallbackToStaticJSON()
+      }
+    }
+    
+    const fallbackToStaticJSON = () => {
+      // Fallback to static JSON file
+      fetch('/hot-post.json')
+        .then(res => {
+          if (!res.ok) {
+            throw new Error(`Failed to fetch hot post config: ${res.status} ${res.statusText}`)
+          }
+          return res.json()
+        })
+        .then(data => {
+          if (data.enabled) {
+            const items = data.items || [data]
+            setHotPostItems(items)
+            setHotPost(items[0])
+            setTimeout(() => setIsVisible(true), 500)
+          }
+        })
+        .catch(err => console.error('Failed to load hot post configuration from /hot-post.json:', err))
+    }
+    
+    fetchFromBlogger()
   }, [])
+
+  // Rotate through hot posts if multiple items exist
+  useEffect(() => {
+    if (hotPostItems.length <= 1) return
+    
+    const interval = setInterval(() => {
+      setCurrentIndex(prev => {
+        const nextIndex = (prev + 1) % hotPostItems.length
+        setHotPost(hotPostItems[nextIndex])
+        return nextIndex
+      })
+    }, 10000) // Rotate every 10 seconds
+    
+    return () => clearInterval(interval)
+  }, [hotPostItems])
 
   if (!hotPost || !isVisible) {
     return null
