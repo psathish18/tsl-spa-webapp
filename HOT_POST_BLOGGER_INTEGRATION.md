@@ -137,8 +137,8 @@ If Blogger is unavailable or returns errors, the component falls back to:
 1. Edit the hotpost post in tslappsetting.blogspot.com
 2. Update the JSON content with new hot posts
 3. Publish changes
-4. **API proxy caches for 5 minutes** - new content appears within 5 minutes
-5. Force refresh: `/api/revalidate?path=/api/hotpost` (if revalidation endpoint configured)
+4. **Browser cache expires after 5 minutes** - users see new content on next visit
+5. Or users can force refresh (Ctrl+F5) to see updates immediately
 6. **No deployment needed!**
 
 ### Method 2: Via Static File
@@ -155,8 +155,9 @@ If Blogger is unavailable or returns errors, the component falls back to:
 
 - ✅ Update hot posts via Blogger without code changes
 - ✅ No waiting for Vercel deployment
-- ✅ Updates appear within 5 minutes (cache TTL)
+- ✅ Updates appear within 5 minutes (browser cache)
 - ✅ **No CORS issues** - uses server-side proxy
+- ✅ **No server cache** - avoids edge function revalidation overhead
 
 ### Multiple Hot Posts Rotation
 
@@ -201,21 +202,23 @@ If Blogger is unavailable or returns errors, the component falls back to:
 
 ### Performance
 
-- **Proxy Fetch**: ~200-500ms (first request)
-- **Cached Response**: ~10-50ms (subsequent requests within 5 min)
+- **Proxy Fetch**: ~200-500ms (each request)
+- **Browser Cached Response**: ~10-50ms (within 5 min)
 - **Fallback Load**: ~100ms (static file)
 - **Rotation**: 10 seconds interval
 - **Memory**: Minimal (~1KB per item)
-- **Cache Duration**: 5 minutes (300s) with stale-while-revalidate
+- **Browser Cache Duration**: 5 minutes (300s)
 
 ### API Proxy Details
 
 **Endpoint**: `/api/hotpost`
 
 **Caching Strategy**:
-- `revalidate: 300` - Cache for 5 minutes
-- `s-maxage=300` - CDN cache for 5 minutes  
-- `stale-while-revalidate=600` - Serve stale content while revalidating for 10 minutes
+- **No Server-Side Cache**: `export const dynamic = 'force-dynamic'`
+- **No Next.js Fetch Cache**: `cache: 'no-store'`
+- **Browser Cache Only**: `Cache-Control: public, max-age=300`
+- **Why?**: Avoids edge function invocations from server-side revalidation
+- **Impact**: Each client caches in browser for 5 minutes
 
 **CORS Headers**:
 - `Access-Control-Allow-Origin: *` - Allows requests from any origin
@@ -227,6 +230,11 @@ If Blogger is unavailable or returns errors, the component falls back to:
   "error": "Failed to fetch hot post data"
 }
 ```
+
+**Vercel Hobby Plan Optimization**:
+- No server-side caching to avoid revalidation invocations
+- Browser-side caching reduces repeated requests
+- Minimal edge function usage per unique client
 
 ## Example Blogger Post
 
