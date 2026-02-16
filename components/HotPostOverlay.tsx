@@ -22,19 +22,31 @@ export default function HotPostOverlay() {
   const [isVisible, setIsVisible] = useState(false)
   const [hotPostItems, setHotPostItems] = useState<HotPostItem[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [isDismissed, setIsDismissed] = useState(false)
 
   // Fetch hot posts from Blogger
   useEffect(() => {
+    const dismissedAt = localStorage.getItem('hotPostDismissedAt')
+    if (dismissedAt) {
+      const dismissedTime = parseInt(dismissedAt)
+      const now = Date.now()
+      if (now - dismissedTime < 24 * 60 * 60 * 1000) {
+        setIsDismissed(true)
+        return
+      }
+    }
+
     const fetchFromBlogger = async () => {
       try {
         // Fetch from our proxy API route (avoids CORS issues)
         const response = await fetch('/api/hotpost')
-        
+        console.log('Fetching hot post data from /api/hotpost')
         if (!response.ok) {
           throw new Error(`Proxy API error: ${response.status}`)
         }
         
         const data = await response.json()
+        console.log('Received hot post data from /api/hotpost:', data)
         
         // Check if error response from proxy
         if (data.error) {
@@ -55,6 +67,7 @@ export default function HotPostOverlay() {
         // Parse content as JSON array of hot posts
         try {
           const parsed = JSON.parse(content)
+          console.log('Parsed hot post content from Blogger:', parsed)
           const items = Array.isArray(parsed) ? parsed : [parsed]
           
           if (items.length > 0) {
@@ -112,7 +125,7 @@ export default function HotPostOverlay() {
     return () => clearInterval(interval)
   }, [hotPostItems])
 
-  if (!hotPost || !isVisible) {
+  if (!hotPost || !isVisible || isDismissed) {
     return null
   }
 
@@ -178,6 +191,29 @@ export default function HotPostOverlay() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </div>
+
+            {/* Close button */}
+            <button
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                setIsVisible(false)
+                setIsDismissed(true)
+                localStorage.setItem('hotPostDismissedAt', Date.now().toString())
+              }}
+              className="flex-shrink-0 ml-2 p-1 hover:bg-black/10 rounded transition-colors"
+              aria-label="Close hot post overlay"
+            >
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                style={{ color: 'var(--muted)' }}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
           </div>
         </div>
       </Link>
