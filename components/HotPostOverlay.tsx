@@ -27,16 +27,20 @@ export default function HotPostOverlay() {
   useEffect(() => {
     const fetchFromBlogger = async () => {
       try {
-        // Fetch from Blogger API with hotpost category
-        const response = await fetch(
-          'https://tslappsetting.blogspot.com/feeds/posts/default/-/hotpost?alt=json&max-results=1'
-        )
+        // Fetch from our proxy API route (avoids CORS issues)
+        const response = await fetch('/api/hotpost')
         
         if (!response.ok) {
-          throw new Error(`Blogger API error: ${response.status}`)
+          throw new Error(`Proxy API error: ${response.status}`)
         }
         
         const data = await response.json()
+        
+        // Check if error response from proxy
+        if (data.error) {
+          throw new Error(data.error)
+        }
+        
         const entries = data.feed?.entry || []
         
         if (entries.length === 0) {
@@ -65,7 +69,7 @@ export default function HotPostOverlay() {
           fallbackToStaticJSON()
         }
       } catch (error) {
-        console.error('Failed to fetch from Blogger:', error)
+        console.error('Failed to fetch from Blogger via proxy:', error)
         fallbackToStaticJSON()
       }
     }
