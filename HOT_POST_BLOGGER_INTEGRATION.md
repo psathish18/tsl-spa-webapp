@@ -2,13 +2,32 @@
 
 ## Overview
 
-The HotPostOverlay component now supports dynamic loading from Blogger with automatic fallback to static JSON configuration.
+The HotPostOverlay component now supports dynamic loading from Blogger with automatic fallback to static JSON configuration. **Uses a Next.js API proxy to avoid CORS issues.**
 
 ## How It Works
 
-1. **Primary Source**: Fetches from Blogger API (`https://tslappsetting.blogspot.com/feeds/posts/default/-/hotpost?alt=json&max-results=1`)
-2. **Fallback**: If Blogger fetch fails, falls back to `/public/hot-post.json`
-3. **Rotation**: If multiple items are found, automatically rotates every 10 seconds
+1. **Proxy Endpoint**: Component calls `/api/hotpost` (Next.js API route)
+2. **Server-Side Fetch**: Proxy fetches from Blogger API (`https://tslappsetting.blogspot.com/feeds/posts/default/-/hotpost?alt=json&max-results=1`)
+3. **No CORS Issues**: Server-side fetch bypasses browser CORS restrictions
+4. **Caching**: Results cached for 5 minutes to reduce API calls
+5. **Fallback**: If Blogger fetch fails, falls back to `/public/hot-post.json`
+6. **Rotation**: If multiple items are found, automatically rotates every 10 seconds
+
+## Architecture
+
+```
+Client (Browser)
+    ↓ fetch('/api/hotpost')
+Next.js API Route (/api/hotpost)
+    ↓ server-side fetch (no CORS)
+Blogger API
+    ↓ JSON response
+Cache (5 minutes)
+    ↓
+Client receives data
+    ↓ if error
+Fallback to /public/hot-post.json
+```
 
 ## Blogger Post Setup
 
@@ -118,8 +137,9 @@ If Blogger is unavailable or returns errors, the component falls back to:
 1. Edit the hotpost post in tslappsetting.blogspot.com
 2. Update the JSON content with new hot posts
 3. Publish changes
-4. Users see updates within ~30 seconds (browser cache)
-5. **No deployment needed!**
+4. **API proxy caches for 5 minutes** - new content appears within 5 minutes
+5. Force refresh: `/api/revalidate?path=/api/hotpost` (if revalidation endpoint configured)
+6. **No deployment needed!**
 
 ### Method 2: Via Static File
 
@@ -135,7 +155,8 @@ If Blogger is unavailable or returns errors, the component falls back to:
 
 - ✅ Update hot posts via Blogger without code changes
 - ✅ No waiting for Vercel deployment
-- ✅ Instant updates for all users
+- ✅ Updates appear within 5 minutes (cache TTL)
+- ✅ **No CORS issues** - uses server-side proxy
 
 ### Multiple Hot Posts Rotation
 
@@ -148,38 +169,64 @@ If Blogger is unavailable or returns errors, the component falls back to:
 - ✅ Automatic fallback ensures feature always works
 - ✅ Handles Blogger API errors gracefully
 - ✅ No single point of failure
+- ✅ Server-side caching reduces load
 
 ## Technical Details
 
 ### Data Flow
 
 ```
-1. Component Mount
+1. Component Mount (Client-Side)
    ↓
-2. Fetch from Blogger API
+2. Fetch from /api/hotpost (Proxy)
    ↓
-3. Parse JSON content
+3. Proxy: Server-Side Fetch to Blogger
    ↓
-4. Success? → Display & Rotate
+4. Parse JSON content
+   ↓
+5. Success? → Display & Rotate
    ↓ (if fails)
-5. Fallback to /hot-post.json
+6. Fallback to /public/hot-post.json
    ↓
 6. Display static configuration
 ```
 
 ### Error Handling
 
-- **Blogger API Error**: Falls back to static JSON
+- **Proxy API Error**: Falls back to static JSON
+- **Blogger API Error**: Proxy returns 500, triggers fallback
 - **Parse Error**: Falls back to static JSON
 - **Network Error**: Falls back to static JSON
 - **Empty Response**: Falls back to static JSON
 
 ### Performance
 
-- **Initial Load**: ~200-500ms (Blogger API)
+- **Proxy Fetch**: ~200-500ms (first request)
+- **Cached Response**: ~10-50ms (subsequent requests within 5 min)
 - **Fallback Load**: ~100ms (static file)
 - **Rotation**: 10 seconds interval
 - **Memory**: Minimal (~1KB per item)
+- **Cache Duration**: 5 minutes (300s) with stale-while-revalidate
+
+### API Proxy Details
+
+**Endpoint**: `/api/hotpost`
+
+**Caching Strategy**:
+- `revalidate: 300` - Cache for 5 minutes
+- `s-maxage=300` - CDN cache for 5 minutes  
+- `stale-while-revalidate=600` - Serve stale content while revalidating for 10 minutes
+
+**CORS Headers**:
+- `Access-Control-Allow-Origin: *` - Allows requests from any origin
+- `Access-Control-Allow-Methods: GET` - Only GET method allowed
+
+**Error Response**:
+```json
+{
+  "error": "Failed to fetch hot post data"
+}
+```
 
 ## Example Blogger Post
 
