@@ -11,6 +11,53 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(newUrl, 301);
   }
   
+  // Block non-essential bot crawlers to save edge requests
+  // These bots don't provide SEO value and consume ~30-40% of edge quota
+  // Source: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+  const userAgent = request.headers.get('user-agent')?.toLowerCase() || '';
+  const blocklistBots = [
+    // Ad Network & Analytics (High Volume, No SEO Value)
+    'criteobot',        // Ad network crawler - major consumer
+    'proximic',         // ComScore analytics crawler
+    
+    // AI Scrapers (Training Data Collection)
+    'gptbot',           // OpenAI GPT training
+    'chatgpt-user',     // ChatGPT user agent
+    'claudebot',        // Anthropic Claude
+    'ccbot',            // Common Crawl for AI training
+    'anthropic-ai',     // Anthropic AI crawler
+    'bytespider',       // TikTok/ByteDance crawler
+    
+    // SEO Tool Crawlers (Already rate-limited in robots.txt)
+    'semrushbot',       // SEO tool
+    'ahrefsbot',        // Backlink checker
+    'dotbot',           // SEO spider
+    'mj12bot',          // Majestic crawler
+    'blexbot',          // Webmeup crawler
+    'dataforseobot',    // SEO data collector
+    'dataforseo.com',   // SEO data variant
+    'serpstatbot',      // Serpstat SEO tool
+    'zoominfobot',      // B2B data collector
+    
+    // Search Engine Alternatives (Low Usage)
+    'petalbot',         // Huawei search crawler
+    
+    // Aggressive Scrapers
+    'barkrowler',       // Aggressive scraper
+    'botalot',          // Known bad bot
+    'aspiegel',         // Content scraper
+  ];
+  
+  if (blocklistBots.some(bot => userAgent.includes(bot))) {
+    return new NextResponse(null, {
+      status: 403,
+      statusText: 'Forbidden',
+      headers: {
+        'X-Robots-Tag': 'noindex',
+      }
+    });
+  }
+  
   // Block malicious/unwanted requests early to save CPU/memory
   // These patterns are from old WordPress site or hacking attempts
   const blockedPatterns = [

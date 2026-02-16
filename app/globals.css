@@ -90,6 +90,15 @@
   .lyrics-font {
     font-family: var(--font-system);
   }
+
+  /* Hot Post Overlay styles */
+  .hot-post-overlay {
+    transition: all 0.3s ease;
+  }
+  
+  .hot-post-overlay:hover {
+    transform: translateY(-2px);
+  }
 }
 
 @keyframes shimmer {

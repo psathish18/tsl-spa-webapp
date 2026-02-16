@@ -176,20 +176,21 @@ const nextConfig = {
       },
       // CDN Cache headers for all pages (home, search, songs) but NOT API routes
       // Extended to 30 days to minimize CPU usage on Vercel free tier
+      // CRITICAL: Query params like nxtPslug should NOT create separate cache keys
       {
         source: '/:path((?!api|_next/static|_next/image|favicon.ico).*)*',
         headers: [
           {
             key: 'Cache-Control',
-            value: 's-maxage=2592000, stale-while-revalidate=5184000',
+            value: 'public, s-maxage=2592000, stale-while-revalidate=5184000, immutable',
           },
           {
             key: 'CDN-Cache-Control',
-            value: 'max-age=2592000',
+            value: 'public, max-age=2592000, stale-while-revalidate=5184000',
           },
           {
             key: 'Vercel-CDN-Cache-Control',
-            value: 'max-age=2592000',
+            value: 'public, max-age=2592000, stale-while-revalidate=5184000',
           },
           {
             key: 'Vary',
