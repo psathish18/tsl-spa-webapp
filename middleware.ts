@@ -1,8 +1,39 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { get } from '@vercel/edge-config'
 
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  
+
+  // Handle hotpost API requests directly from Edge Config (zero serverless costs)
+  if (pathname === '/api/hotpost') {
+    try {
+      // This will run at the edge, not in serverless functions
+      const hotpostData = await get('hotpost')
+
+      if (hotpostData) {
+        return NextResponse.json(hotpostData, {
+          headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET',
+            'Cache-Control': 'public, max-age=2592000', // 30 days
+            'Content-Type': 'application/json'
+          }
+        })
+      }
+    } catch (error) {
+      console.error('Edge Config error in middleware:', error)
+    }
+
+    // Fallback to empty array if Edge Config fails
+    return NextResponse.json([], {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Cache-Control': 'no-cache',
+        'Content-Type': 'application/json'
+      }
+    })
+  }
+
   // Redirect non-www to www (301 permanent redirect for SEO)
   const hostname = request.headers.get('host') || '';
   if (hostname === 'tsonglyrics.com' || hostname.startsWith('tsonglyrics.com:')) {
@@ -107,15 +138,16 @@ export const config = {
   matcher: [
     /*
      * Match all request paths except for the ones starting with:
-     * - api (API routes)
+     * - api (API routes) - BUT allow /api/hotpost through middleware
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico, robots.txt, sitemap.xml (legitimate static files)
      * - app-ads.txt (Google AdSense verification)
      * - manifest.json (PWA manifest)
-     * 
+     *
      * Everything else goes through middleware for validation
+     * /api/hotpost is handled by middleware for zero-cost Edge Config access
      */
-    '/((?!api|_next/static|_next/image|favicon|robots\\.txt|sitemap|app-ads\\.txt|manifest\\.json|android-chrome|apple-touch|icon).*)',
+    '/((?!_next/static|_next/image|favicon|robots\\.txt|sitemap|app-ads\\.txt|manifest\\.json|android-chrome|apple-touch|icon).*)',
   ],
 }

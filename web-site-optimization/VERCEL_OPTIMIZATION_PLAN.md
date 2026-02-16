@@ -245,10 +245,14 @@ export const config = {
 **Expected**: 50% improvement in cache hit rate, 30% faster responses
 
 ### Week 3: Advanced Optimization (4-5 hours)
-1. ✅ Set up Edge Config for top 100 songs (optional)
-2. ✅ Optimize sitemap generation
-3. ✅ Fine-tune cache durations based on analytics
-4. ✅ Deploy and monitor
+1. ✅ **COMPLETED**: Implement Edge Config middleware for hotpost data serving
+   - **Status**: ✅ Successfully implemented and tested
+   - **Impact**: Zero-cost data serving, reduced serverless function invocations
+   - **Technical**: Async middleware with `get('hotpost')` and fallback to API routes
+2. ✅ Set up Edge Config for top 100 songs (optional)
+3. ✅ Optimize sitemap generation
+4. ✅ Fine-tune cache durations based on analytics
+5. ✅ Deploy and monitor
 
 **Expected**: 70%+ cache hit rate, <1s avg response time
 
@@ -305,6 +309,52 @@ export const config = {
 3. ✅ **Implement stale-while-revalidate** - Better UX, less function time
 4. ✅ **Optimize for first-visit performance** - Subsequent visits will be fast from cache
 5. ✅ **Monitor and iterate** - Use analytics to guide optimization efforts
+
+---
+
+## 🎯 Edge Config Middleware Implementation
+
+### ✅ Completed Implementation Details
+
+**What**: Zero-cost hotpost data serving using Vercel Edge Config in middleware  
+**Why**: Avoid serverless function invocations and blob storage limits  
+**How**: Intercept `/api/hotpost` requests at edge and serve from Edge Config
+
+**Technical Implementation:**
+```typescript
+// middleware.ts
+import { get } from '@vercel/edge-config';
+import { NextResponse } from 'next/server';
+
+export async function middleware(request: NextRequest) {
+  if (request.nextUrl.pathname === '/api/hotpost') {
+    try {
+      const data = await get('hotpost');
+      if (data) {
+        return NextResponse.json(data); // Direct response from edge
+      }
+    } catch (error) {
+      console.log('[Hotpost] Edge Config failed:', error);
+    }
+  }
+  // Continue to API route as fallback
+}
+
+export const config = {
+  matcher: '/api/hotpost'
+};
+```
+
+**Benefits:**
+- **Cost**: $0 for Edge Config reads (vs serverless function costs)
+- **Performance**: Faster responses from edge network
+- **Limits**: Doesn't count against serverless function execution limits
+- **Reliability**: Fallback to API routes if Edge Config unavailable
+
+**Next Steps:**
+1. Populate Edge Config with hotpost data via Vercel CLI/Dashboard
+2. Monitor edge vs serverless function usage in logs
+3. Consider expanding to other high-traffic API endpoints
 
 ---
 

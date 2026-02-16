@@ -15,12 +15,15 @@
     "generate-song-json:test": "tsx scripts/generate-song-json.ts --test-one",
     "copy-files": "cp blob-data/*.json public/songs/",
     "upload-to-blob": "tsx scripts/upload-to-blob.ts --force",
-    "upload-to-blob:dry-run": "tsx scripts/upload-to-blob.ts --dry-run"
+    "upload-to-blob:dry-run": "tsx scripts/upload-to-blob.ts --dry-run",
+    "upload-hotpost": "tsx scripts/upload-hotpost.ts",
+    "upload-hotpost:dry-run": "tsx scripts/upload-hotpost.ts --dry-run"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.4.6",
     "@next/third-parties": "^15.4.6",
     "@vercel/blob": "^1.1.1",
+    "@vercel/edge-config": "^1.4.0",
     "axios": "^1.6.2",
     "critters": "^0.0.23",
     "googleapis": "^169.0.0",
