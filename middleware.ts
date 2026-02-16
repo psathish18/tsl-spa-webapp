@@ -11,6 +11,33 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(newUrl, 301);
   }
   
+  // Block non-essential bot crawlers to save edge requests
+  // These bots don't provide SEO value and consume ~30-40% of edge quota
+  const userAgent = request.headers.get('user-agent')?.toLowerCase() || '';
+  const blocklistBots = [
+    'criteobot',        // Ad network crawler - no SEO value
+    'proximic',         // ComScore analytics crawler
+    'semrushbot',       // SEO tool (already rate-limited in robots.txt)
+    'ahrefsbot',        // Backlink checker (already rate-limited)
+    'dotbot',           // SEO spider (already rate-limited)
+    'mj12bot',          // Majestic crawler (already rate-limited)
+    'blexbot',          // Webmeup crawler
+    'dataforseobot',    // SEO data collector
+    'petalbot',         // Huawei search crawler
+    'gptbot',           // OpenAI crawler
+    'ccbot',            // Common Crawl
+  ];
+  
+  if (blocklistBots.some(bot => userAgent.includes(bot))) {
+    return new NextResponse(null, {
+      status: 403,
+      statusText: 'Forbidden',
+      headers: {
+        'X-Robots-Tag': 'noindex',
+      }
+    });
+  }
+  
   // Block malicious/unwanted requests early to save CPU/memory
   // These patterns are from old WordPress site or hacking attempts
   const blockedPatterns = [

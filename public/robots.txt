@@ -42,3 +42,26 @@ Crawl-delay: 10
 
 User-agent: MJ12bot
 Crawl-delay: 10
+
+# Block non-essential crawlers that don't provide SEO value
+# These bots consume edge requests without benefiting organic traffic
+User-agent: CriteoBot
+Disallow: /
+
+User-agent: proximic
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
