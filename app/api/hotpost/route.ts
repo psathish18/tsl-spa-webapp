@@ -1,17 +1,17 @@
 import { NextResponse } from 'next/server'
 
-// Cache for 5 minutes (300 seconds) to reduce Blogger API calls
-export const revalidate = 300
+// No server-side cache to avoid edge function invocations
+// Browser will cache responses based on Cache-Control headers
+export const dynamic = 'force-dynamic'
 
 export async function GET() {
   try {
     // Fetch from Blogger API (server-side, no CORS issue)
+    // No Next.js caching - each request is fresh
     const response = await fetch(
       'https://tslappsetting.blogspot.com/feeds/posts/default/-/hotpost?alt=json&max-results=1',
       {
-        next: {
-          revalidate: 300 // Cache for 5 minutes
-        }
+        cache: 'no-store' // Disable Next.js fetch cache
       }
     )
 
@@ -21,12 +21,13 @@ export async function GET() {
 
     const data = await response.json()
 
-    // Return the data with CORS headers
+    // Return the data with CORS headers and browser cache control
+    // Browser will cache for 5 minutes, but no server-side caching
     return NextResponse.json(data, {
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET',
-        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+        'Cache-Control': 'public, max-age=300' // Browser caches for 5 minutes
       }
     })
   } catch (error) {
