@@ -18,6 +18,7 @@ interface Song {
   published: { $t: string }
   category?: Array<{ term: string }>
   media$thumbnail?: { url: string }
+  link?: Array<{ rel: string; href: string }>
 }
 
 interface BloggerResponse {
