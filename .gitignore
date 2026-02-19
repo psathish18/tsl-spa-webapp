@@ -34,7 +34,7 @@ next-env.d.ts
 
 migration_analysis/
 testing/
-scripts
+# scripts
 test-seo-utils.ts
 # blob-data
 cdn-fix-output

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
+import { REVALIDATE_30_DAYS } from '@/lib/cacheConfig'
 
 export const metadata: Metadata = {
   title: '100+ Tamil Song Lyrics with English Meaning | Translation',
@@ -20,21 +21,39 @@ interface Song {
 
 async function getEnglishTranslationSongs() {
   try {
-    const data = await cachedBloggerFetch(
-      'https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/englishtranslation?alt=json&max-results=500',
-      {
-        next: {
-          revalidate: 86400, // Cache for 24 hours
+    // Fetch from both categories
+    const [englishTranslationData, meaningData] = await Promise.all([
+      cachedBloggerFetch(
+        'https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/englishtranslation?alt=json&max-results=500',
+        {
+          next: {
+            revalidate: REVALIDATE_30_DAYS, // Cache for 30 days
+          }
         }
-      }
-    )
+      ),
+      cachedBloggerFetch(
+        'https://tsonglyricsapp.blogspot.com/feeds/posts/default/-/meaning?alt=json&max-results=500',
+        {
+          next: {
+            revalidate: REVALIDATE_30_DAYS, // Cache for 30 days
+          }
+        }
+      )
+    ])
 
-    const songs = data.feed?.entry || []
+    const englishTranslationSongs = englishTranslationData.feed?.entry || []
+    const meaningSongs = meaningData.feed?.entry || []
     
-    // Filter and process songs with English Translation category
-    const englishSongs = songs.filter((entry: any) => {
+    // Combine all songs
+    const allSongs = [...englishTranslationSongs, ...meaningSongs]
+    
+    // Filter and process songs with either English Translation or Meaning category
+    const filteredSongs = allSongs.filter((entry: any) => {
       return entry.category?.some((cat: any) => 
-        cat.term && cat.term.toLowerCase().includes('englishtranslation')
+        cat.term && (
+          cat.term.toLowerCase().includes('englishtranslation') ||
+          cat.term.toLowerCase().includes('meaning')
+        )
       )
     }).map((entry: any) => ({
       id: entry.id?.$t,
@@ -43,9 +62,19 @@ async function getEnglishTranslationSongs() {
       category: entry.category || []
     }))
 
-    return englishSongs
+    // Remove duplicates based on ID
+    const uniqueSongs = filteredSongs.filter((song, index, self) => 
+      index === self.findIndex(s => s.id === song.id)
+    )
+
+    // Sort by published date (newest first) for consistent ordering
+    const sortedByDate = uniqueSongs.sort((a, b) => 
+      new Date(b.published).getTime() - new Date(a.published).getTime()
+    )
+
+    return sortedByDate
   } catch (error) {
-    console.error('Error fetching English translation songs:', error)
+    console.error('Error fetching English translation and meaning songs:', error)
     return []
   }
 }
@@ -64,8 +93,8 @@ function getSongSlug(song: any) {
 export default async function TamilSongsEnglishPage() {
   const allSongs = await getEnglishTranslationSongs()
   
-  // Recent 5 songs (newest first)
-  const recentSongs = allSongs.slice(0, 5)
+  // Top 10 recent songs (newest first)
+  const recentSongs = allSongs.slice(0, 10)
   
   // All songs sorted alphabetically by title
   const sortedSongs = [...allSongs].sort((a, b) => 
@@ -77,7 +106,7 @@ export default async function TamilSongsEnglishPage() {
       {/* Breadcrumbs */}
       <nav className="mb-6 text-sm" aria-label="Breadcrumb">
         <ol className="flex items-center space-x-2 text-gray-500">
-          <li><Link href="/" className="hover:text-blue-600">Home</Link></li>
+          <li><Link href="/" prefetch={false} className="hover:text-blue-600">Home</Link></li>
           <li>•</li>
           <li className="text-gray-900">Tamil Songs with English Translation</li>
         </ol>
@@ -96,7 +125,7 @@ export default async function TamilSongsEnglishPage() {
         {/* Recent Songs Section */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-gray-900 mb-6 pb-3 border-b-2 border-blue-500">
-            Recent Songs With English Meaning
+            Top 10 Recent Songs With English Meaning
           </h2>
           
           {recentSongs.length > 0 ? (
@@ -115,6 +144,7 @@ export default async function TamilSongsEnglishPage() {
                     <div className="flex-1">
                       <Link
                         href={`/${encodeURIComponent(slug)}.html`}
+                        prefetch={false}
                         className="text-blue-600 hover:text-blue-800 hover:underline font-medium text-lg"
                       >
                         {song.title}
@@ -159,6 +189,7 @@ export default async function TamilSongsEnglishPage() {
                   <li key={song.id || index} className="break-inside-avoid mb-3">
                     <Link
                       href={`/${encodeURIComponent(slug)}.html`}
+                      prefetch={false}
                       className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-start"
                     >
                       <span className="mr-2 text-gray-500">•</span>
@@ -189,6 +220,7 @@ export default async function TamilSongsEnglishPage() {
       <div className="mt-12 text-center">
         <Link 
           href="/"
+          prefetch={false}
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
         >
           Back to Home

@@ -39,6 +39,62 @@
   ],
   "redirects": [
     {
+      "source": "/apple-touch-icon-precomposed.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-120x120-precomposed.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-120x120.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-152x152-precomposed.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-152x152.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-180x180-precomposed.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-180x180.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-76x76-precomposed.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-76x76.png",
+      "destination": "/apple-touch-icon.png",
+      "permanent": true
+    },
+    {
+      "source": "/browserconfig.xml",
+      "destination": "/manifest.json",
+      "permanent": true
+    },
+
+    {
+      "source": "/enakenna-yaarumillaye-english-meaning.html",
+      "destination": "/enakena-lyrics-in-tamil-english-meaning.html",
+      "permanent": true
+    },
+    {
       "source": "/raavana-mavan-da-lyrics-in-tamil-jana-nayagan.html",
       "destination": "/ravana-mavan-da-lyrics-in-tamil-jana-nayagan.html",
       "permanent": true

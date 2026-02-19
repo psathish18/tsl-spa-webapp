@@ -3,6 +3,19 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 
+// Hardcoded hotpost data
+const hotpostData = {
+  enabled: true,
+  items: [
+    { 
+      slug: "enakena-lyrics-in-tamil-english-meaning",
+      title: "Enakena Lyrics in Tamil & English Meaning | LIK",
+      movieName: "LIK",
+      singerName: "Anirudh"
+    }
+  ]
+}
+
 interface HotPost {
   slug: string
   title: string
@@ -36,65 +49,13 @@ export default function HotPostOverlay() {
       }
     }
 
-    // Fetch fresh hot post data from Edge Config (no client-side caching needed)
-    const fetchFromBlogger = async () => {
-      try {
-        // Fetch from our proxy API route (served by Edge Config middleware)
-        const response = await fetch('/api/hotpost')
-        console.log('Fetching hot post data from /api/hotpost')
-        if (!response.ok) {
-          throw new Error(`Proxy API error: ${response.status}`)
-        }
-
-        const data = await response.json()
-        console.log('Received hot post data from /api/hotpost:', data)
-
-        processHotPostData(data)
-      } catch (error) {
-        console.error('Error fetching hot post:', error)
-      }
-    }
-
-    fetchFromBlogger()
-  }, [])
-
-  // Helper function to process the hot post data
-  const processHotPostData = (data: any) => {
-    // Check if error response from proxy
-    if (data.error) {
-      throw new Error(data.error)
-    }
-
-    // Data is now a simple array from blob storage
-    if (Array.isArray(data) && data.length > 0) {
-      setHotPostItems(data)
-      setHotPost(data[0])
+    // Use hardcoded hotpost data directly
+    if (hotpostData.enabled && Array.isArray(hotpostData.items) && hotpostData.items.length > 0) {
+      setHotPostItems(hotpostData.items)
+      setHotPost(hotpostData.items[0])
       setTimeout(() => setIsVisible(true), 500)
-    } else {
-      // Fallback to static JSON if no data
-      fallbackToStaticJSON()
     }
-  }
-
-  const fallbackToStaticJSON = () => {
-    // Fallback to static JSON file
-    fetch('/hot-post.json')
-      .then(res => {
-        if (!res.ok) {
-          throw new Error(`Failed to fetch hot post config: ${res.status} ${res.statusText}`)
-        }
-        return res.json()
-      })
-      .then(data => {
-        if (data.enabled) {
-          const items = data.items || [data]
-          setHotPostItems(items)
-          setHotPost(items[0])
-          setTimeout(() => setIsVisible(true), 500)
-        }
-      })
-      .catch(err => console.error('Failed to load hot post configuration from /hot-post.json:', err))
-  }
+  }, [])
 
   // Rotate through hot posts if multiple items exist
   useEffect(() => {
