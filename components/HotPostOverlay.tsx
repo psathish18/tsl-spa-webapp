@@ -9,7 +9,7 @@ const hotpostData = {
   items: [
     { 
       slug: "enakena-lyrics-in-tamil-english-meaning",
-      title: "Enakena Lyrics in Tamil & English Meaning | LIK ||",
+      title: "Enakena Lyrics in Tamil & English Meaning | LIK",
       movieName: "LIK",
       singerName: "Anirudh"
     }
