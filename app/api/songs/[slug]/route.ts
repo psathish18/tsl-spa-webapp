@@ -22,27 +22,27 @@ export async function GET(
 
   try {
     // // In development, try to serve from local public/songs directory first
-    // if (process.env.NODE_ENV === 'development') {
-    //   try {
-    //     const filePath = path.join(process.cwd(), 'public', 'songs', `${slug}.json`);
-    //     const fileContents = await fs.readFile(filePath, 'utf8');
-    //     const data = JSON.parse(fileContents);
+    if (process.env.NODE_ENV === 'development') {
+      try {
+        const filePath = path.join(process.cwd(), 'public', 'songs', `${slug}.json`);
+        const fileContents = await fs.readFile(filePath, 'utf8');
+        const data = JSON.parse(fileContents);
 
-    //     console.log(`[API] ✅ Served from local public/songs: ${slug}`);
+        console.log(`[API] ✅ Served from local public/songs: ${slug}`);
 
-    //     // Return with development-appropriate caching
-    //     return NextResponse.json(data, {
-    //       status: 200,
-    //       headers: {
-    //         'Cache-Control': 'no-cache, no-store, must-revalidate',
-    //         'X-Source': 'local-development',
-    //       },
-    //     });
-    //   } catch (localFileError) {
-    //     // File not found locally, continue to blob storage
-    //     console.log(`[API] Local file not found for ${slug}, trying blob storage`);
-    //   }
-    // }
+        // Return with development-appropriate caching
+        return NextResponse.json(data, {
+          status: 200,
+          headers: {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'X-Source': 'local-development',
+          },
+        });
+      } catch (localFileError) {
+        // File not found locally, continue to blob storage
+        console.log(`[API] Local file not found for ${slug}, trying blob storage`);
+      }
+    }
 
     // Construct blob URL directly (no list() call = no Advanced Operation cost)
     const blobUrl = getBlobUrl(slug)

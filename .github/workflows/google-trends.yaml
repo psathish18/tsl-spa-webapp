@@ -1,0 +1,34 @@
+name: Fetch Google Trends
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-trends:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch Google Trends
+        run: npm run trends
+
+      - name: Filter Keywords with Google AI
+        env:
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+        run: npm run trends-ai
+
+      - name: Print Filtered Keywords
+        run: |
+          echo "=== Filtered Tamil Song Lyrics Keywords ==="
+          cat filtered-keywords.txt || echo "No filtered-keywords.txt found"
