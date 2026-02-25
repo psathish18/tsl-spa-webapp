@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      models: read
     steps:
       - uses: actions/checkout@v4
 
@@ -23,12 +24,17 @@ jobs:
       - name: Fetch Google Trends
         run: npm run trends
 
-      - name: Filter Keywords with Google AI
+      - name: Filter Keywords and Generate Social Media Posts with GitHub Copilot
         env:
-          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run trends-ai
 
       - name: Print Filtered Keywords
         run: |
           echo "=== Filtered Tamil Song Lyrics Keywords ==="
-          cat filtered-keywords.txt || echo "No filtered-keywords.txt found"
+          cat filtered-keywords.json || echo "No filtered-keywords.json found"
+
+      - name: Print Social Media Posts
+        run: |
+          echo "=== Generated Social Media Posts ==="
+          cat social-media-posts.json || echo "No social-media-posts.json found"

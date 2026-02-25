@@ -1,9 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import OpenAI from 'openai';
 
-const GOOGLE_AI_API_KEY = process.env.GOOGLE_AI_API_KEY;
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const COPILOT_MODEL = 'gpt-4o';
+const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com';
 
 const SONGS_DIR = path.join(process.cwd(), 'public', 'songs');
 
@@ -106,12 +107,18 @@ Example:
 Keyword List:
 `;
 
-async function filterKeywordsWithAI(): Promise<void> {
-  if (!GOOGLE_AI_API_KEY) {
-    console.error('❌ GOOGLE_AI_API_KEY environment variable is not set.');
+function createCopilotClient(): OpenAI {
+  if (!GITHUB_TOKEN) {
+    console.error('❌ GITHUB_TOKEN environment variable is not set.');
     process.exit(1);
   }
+  return new OpenAI({
+    baseURL: GITHUB_MODELS_ENDPOINT,
+    apiKey: GITHUB_TOKEN,
+  });
+}
 
+async function filterKeywordsWithAI(): Promise<void> {
   const keywordsFile = path.join(process.cwd(), 'trends-keywords.txt');
   if (!fs.existsSync(keywordsFile)) {
     console.error('❌ trends-keywords.txt not found. Run "npm run trends" first.');
@@ -125,21 +132,23 @@ async function filterKeywordsWithAI(): Promise<void> {
   }
 
   console.log(`📋 Loaded ${keywords.split('\n').length} keywords from trends-keywords.txt`);
-  console.log('🤖 Calling Google Gemini API to filter song-related keywords...\n');
+  console.log('🤖 Calling GitHub Copilot SDK to filter song-related keywords...\n');
 
-  const prompt = FILTER_PROMPT + keywords;
+  const client = createCopilotClient();
 
-  const genAI = new GoogleGenerativeAI(GOOGLE_AI_API_KEY!);
-  const model = genAI.getGenerativeModel({
-    model: GEMINI_MODEL,
-    generationConfig: { temperature: 0.1, maxOutputTokens: 3024 },
+  const response = await client.chat.completions.create({
+    model: COPILOT_MODEL,
+    temperature: 0.1,
+    max_tokens: 3024,
+    messages: [
+      { role: 'user', content: FILTER_PROMPT + keywords },
+    ],
   });
 
-  const result = await model.generateContent(prompt);
-  const filteredText: string = result.response.text();
+  const filteredText = response.choices[0]?.message?.content ?? '';
 
   if (!filteredText) {
-    console.warn('⚠️  Gemini returned an empty response.');
+    console.warn('⚠️  Copilot returned an empty response.');
     return;
   }
 
@@ -149,7 +158,7 @@ async function filterKeywordsWithAI(): Promise<void> {
     const cleaned = filteredText.replace(/```json|```/g, '').trim();
     filteredItems = JSON.parse(cleaned);
   } catch {
-    console.error('❌ Failed to parse JSON from Gemini response. Raw output:');
+    console.error('❌ Failed to parse JSON from Copilot response. Raw output:');
     console.error(filteredText);
     process.exit(1);
   }
@@ -194,6 +203,67 @@ async function filterKeywordsWithAI(): Promise<void> {
   const missingPath = path.join(process.cwd(), 'missing-keywords.json');
   fs.writeFileSync(missingPath, JSON.stringify(missing, null, 2), 'utf8');
   console.log(`\n💾 Missing keywords saved to missing-keywords.json`);
+
+  // ── Generate social media posts for songs already in public/songs ─────────
+  if (present.length === 0) {
+    console.log('\nℹ️  No present songs to generate social media posts for.');
+    return;
+  }
+
+  console.log(`\n📣 Generating social media posts for ${present.length} present song(s)...\n`);
+
+  const agentFile = path.join(process.cwd(), '.github', 'agents', 'social-media-agent.md');
+  const systemPrompt = fs.existsSync(agentFile)
+    ? fs.readFileSync(agentFile, 'utf8')
+    : 'You are a Social Media Manager. Generate engaging social media posts for the given song.';
+
+  const allPosts: string[] = [];
+
+  for (const song of present) {
+    const songJsonPath = path.join(SONGS_DIR, song.matchedFile);
+    let songData: object = {};
+    try {
+      songData = JSON.parse(fs.readFileSync(songJsonPath, 'utf8'));
+    } catch {
+      console.warn(`⚠️  Could not read ${song.matchedFile}, skipping.`);
+      continue;
+    }
+
+    console.log(`  ✍️  Generating posts for: ${song.keyword} (${song.matchedFile})`);
+
+    const postResponse = await client.chat.completions.create({
+      model: COPILOT_MODEL,
+      temperature: 0.7,
+      max_tokens: 2048,
+      messages: [
+        { role: 'system', content: systemPrompt },
+        {
+          role: 'user',
+          content: `Generate social media posts for the following song JSON data. Return ONLY a raw JSON array of post strings — no markdown fences, no explanation.\n\n${JSON.stringify(songData, null, 2)}`,
+        },
+      ],
+    });
+
+    const postText = postResponse.choices[0]?.message?.content ?? '';
+    if (!postText) {
+      console.warn(`⚠️  Empty response for ${song.matchedFile}, skipping.`);
+      continue;
+    }
+
+    try {
+      const cleaned = postText.replace(/```json|```/g, '').trim();
+      const posts: string[] = JSON.parse(cleaned);
+      allPosts.push(...posts);
+      console.log(`     → ${posts.length} posts generated`);
+    } catch {
+      console.warn(`⚠️  Could not parse posts for ${song.matchedFile}. Raw output:`);
+      console.warn(postText);
+    }
+  }
+
+  const postsPath = path.join(process.cwd(), 'social-media-posts.json');
+  fs.writeFileSync(postsPath, JSON.stringify(allPosts, null, 2), 'utf8');
+  console.log(`\n🎉 ${allPosts.length} total social media post(s) saved to social-media-posts.json`);
 }
 
 filterKeywordsWithAI().catch((err: unknown) => {
