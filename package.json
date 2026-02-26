@@ -18,8 +18,10 @@
     "upload-to-blob:dry-run": "tsx scripts/upload-to-blob.ts --dry-run",
     "upload-hotpost": "tsx scripts/upload-hotpost.ts",
     "upload-hotpost:dry-run": "tsx scripts/upload-hotpost.ts --dry-run",
-    "trends": "tsx scripts/fetch-google-trends.ts",
-    "trends-ai": "tsx scripts/filter-with-ai.ts"
+    "trends": "tsx google-trends-workflow/scripts/1-fetch-google-trends.ts",
+    "trends-ai": "tsx google-trends-workflow/scripts/2-filter-with-ai.ts",
+    "social-posts": "tsx google-trends-workflow/scripts/3-generate-social-posts.ts",
+    "lyrics-prompts": "tsx google-trends-workflow/scripts/4-generate-lyrics-prompts.ts"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.4.6",

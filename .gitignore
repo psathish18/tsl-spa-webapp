@@ -38,3 +38,8 @@ testing/
 test-seo-utils.ts
 # blob-data
 cdn-fix-output
+
+# Google Trends Workflow - Generated data
+# google-trends-workflow/data/*.json
+# google-trends-workflow/data/*.txt
+# google-trends-workflow/output/*.json

@@ -84,26 +84,33 @@ function findInSongIndex(keyword: string, index: SongEntry[]): string | null {
   return null;
 }
 
-const FILTER_PROMPT = `Analyze the following list of keywords and filter them based on these strict rules:
+const FILTER_PROMPT = `Act as a Tamil Cinema Researcher. Your task is to output a raw JSON array of Tamil movie songs.
 
-1. Include ONLY keywords that represent a specific Tamil movie song title or track (e.g., 'roja roja song lyrics').
-2. Exclude all religious, devotional, or God-related keywords (e.g., 'kavasam', 'sivapuranam', 'chalisa', 'thirupugal', 'sahasranamam').
-3. Exclude generic/standalone phrases that do not name a specific song (e.g., 'song lyrics', 'tamil song lyrics', 'song lyrics in tamil').
-4. Remove duplicates: if multiple keywords refer to the same song, keep only the most complete/descriptive version.
-5. For each remaining keyword, identify the Tamil movie name the song belongs to.
+### STRICT FILTERING RULES:
+1. Include ONLY specific Tamil film song titles.
+2. REMOVE all devotional/God songs (Kavasam, Sivapuranam, etc.).
+3. REMOVE all generic terms (Tamil song lyrics, etc.).
+4. REMOVE duplicates (keep only the most descriptive version).
 
-Output ONLY a raw JSON array — no markdown fences, no explanation.
-Each item must have exactly these two fields:
-  - "keyword": the cleaned search keyword
-  - "movie": the Tamil movie name this song is from
+### DATA VERIFICATION RULES:
+For each song, verify the movie using these 2024-2026 facts:
+- "Mutta Kalakki" is from the movie 'Youth' (2026).
+- "Neelothi" is from the movie 'Sirai' (2025).
+- "Theekkoluthi" is from 'Bison'.
+- "Kanne Kanmaniye" (2025) is from 'Tere Ishk Mein'.
+- "Vittu Pona Vasalile" is from 'Dude'.
+- "Akkam Pakkam" is from 'Kireedam'.
+- "Aval" is from 'Manithan'.
+- "Kadhal Aasai" is from 'Anjaan'.
+- "Unna Vida" is from 'Virumaandi'.
 
-Example:
-[
-  { "keyword": "roja roja song lyrics", "movie": "Roja" },
-  { "keyword": "kannaana kanney lyrics", "movie": "Viswasam" }
-]
+DO NOT use "Maaran" as a placeholder for songs you don't know. If the song is NOT from Maaran, do not label it as such.
 
-Keyword List:
+### OUTPUT FORMAT:
+Raw JSON array only: [{"keyword": "...", "movie": "..."}]
+
+### KEYWORDS:
+[PASTE YOUR LIST HERE]
 `;
 
 async function filterKeywordsWithAI(): Promise<void> {
@@ -112,7 +119,7 @@ async function filterKeywordsWithAI(): Promise<void> {
     process.exit(1);
   }
 
-  const keywordsFile = path.join(process.cwd(), 'trends-keywords.txt');
+  const keywordsFile = path.join(__dirname, '../data/trends-keywords.txt');
   if (!fs.existsSync(keywordsFile)) {
     console.error('❌ trends-keywords.txt not found. Run "npm run trends" first.');
     process.exit(1);
@@ -132,7 +139,10 @@ async function filterKeywordsWithAI(): Promise<void> {
   const genAI = new GoogleGenerativeAI(GOOGLE_AI_API_KEY!);
   const model = genAI.getGenerativeModel({
     model: GEMINI_MODEL,
-    generationConfig: { temperature: 0.1, maxOutputTokens: 3024 },
+    generationConfig: { 
+      temperature: 0.0, // Force absolute determinism
+  topP: 0.1,        // Restrict the vocabulary even more
+  maxOutputTokens: 10024 },
   });
 
   const result = await model.generateContent(prompt);
@@ -157,7 +167,7 @@ async function filterKeywordsWithAI(): Promise<void> {
   console.log(`\n=== Filtered Tamil Movie Song Keywords (${filteredItems.length}) ===`);
   filteredItems.forEach(item => console.log(`  • [${item.movie}] ${item.keyword}`));
 
-  const outputPath = path.join(process.cwd(), 'filtered-keywords.json');
+  const outputPath = path.join(__dirname, '../data/filtered-keywords.json');
   fs.writeFileSync(outputPath, JSON.stringify(filteredItems, null, 2), 'utf8');
   console.log(`\n✅ Filtered keywords saved to filtered-keywords.json`);
 
@@ -191,9 +201,9 @@ async function filterKeywordsWithAI(): Promise<void> {
     missing.forEach(m => console.log(`   ✘ [${m.movie}] ${m.keyword}`));
   }
 
-  const missingPath = path.join(process.cwd(), 'missing-keywords.json');
+  const missingPath = path.join(__dirname, '../data/missing-keywords.json');
   fs.writeFileSync(missingPath, JSON.stringify(missing, null, 2), 'utf8');
-  console.log(`\n💾 Missing keywords saved to missing-keywords.json`);
+  console.log(`\n💾 Missing keywords saved to google-trends-workflow/data/missing-keywords.json`);
 }
 
 filterKeywordsWithAI().catch((err: unknown) => {

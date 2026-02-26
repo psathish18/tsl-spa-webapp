@@ -61,9 +61,9 @@ export function fetchTrendData(timeFrame: string = '4Hour'): Promise<void> {
         ...trendDataRaising.map((item: any) => item.query as string),
       ].filter((q, i, arr) => arr.indexOf(q) === i); // deduplicate
 
-      const outputPath = path.join(process.cwd(), 'trends-keywords.txt');
+      const outputPath = path.join(__dirname, '../data/trends-keywords.txt');
       fs.writeFileSync(outputPath, allKeywords.join('\n'), 'utf8');
-      console.log(`\nSaved ${allKeywords.length} keywords to trends-keywords.txt`);
+      console.log(`\nSaved ${allKeywords.length} keywords to google-trends-workflow/data/trends-keywords.txt`);
     })
     .catch((err: any) => {
       console.error('Error fetching trends:', err);

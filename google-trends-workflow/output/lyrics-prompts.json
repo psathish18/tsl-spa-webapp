@@ -1,0 +1,27 @@
+[
+  {
+    "songName": "Neelothi",
+    "movieName": "Sirai",
+    "prompt": "Give me the full Tamil lyrics for Neelothi from Sirai Tamil and Thanglish separately, without any labels like 'Pallavi' or 'Charanam'.\n    JSON format:\n    {\n  \"title\": \"[Song Name] Song Lyrics & English Meaning - [Movie Name] | [Starring] | [Music Director]\",\n  \"tags\": \"Song: [Name], Movie: [Name], Singer: [Name], Music: [Name], Lyrics: [Name]\",\n  \"tamil\": \"[Tamil script lyrics with <br> tags]\",\n  \"thanglish\": \"[Transliterated lyrics with <br> tags]\",\n  \"translation\": \"[Thanglish snippets followed by <p style='text-align: right; border: 1px solid #ddd; padding: 2px;'>English Translation</p>]\"\n}"
+  },
+  {
+    "songName": "Kanne Kanmaniye",
+    "movieName": "Tere Ishk Mein",
+    "prompt": "Give me the full Tamil lyrics for Kanne Kanmaniye from Tere Ishk Mein Tamil and Thanglish separately, without any labels like 'Pallavi' or 'Charanam'.\n    JSON format:\n    {\n  \"title\": \"[Song Name] Song Lyrics & English Meaning - [Movie Name] | [Starring] | [Music Director]\",\n  \"tags\": \"Song: [Name], Movie: [Name], Singer: [Name], Music: [Name], Lyrics: [Name]\",\n  \"tamil\": \"[Tamil script lyrics with <br> tags]\",\n  \"thanglish\": \"[Transliterated lyrics with <br> tags]\",\n  \"translation\": \"[Thanglish snippets followed by <p style='text-align: right; border: 1px solid #ddd; padding: 2px;'>English Translation</p>]\"\n}"
+  },
+  {
+    "songName": "Vittu Pona Vasalile",
+    "movieName": "Dude",
+    "prompt": "Give me the full Tamil lyrics for Vittu Pona Vasalile from Dude Tamil and Thanglish separately, without any labels like 'Pallavi' or 'Charanam'.\n    JSON format:\n    {\n  \"title\": \"[Song Name] Song Lyrics & English Meaning - [Movie Name] | [Starring] | [Music Director]\",\n  \"tags\": \"Song: [Name], Movie: [Name], Singer: [Name], Music: [Name], Lyrics: [Name]\",\n  \"tamil\": \"[Tamil script lyrics with <br> tags]\",\n  \"thanglish\": \"[Transliterated lyrics with <br> tags]\",\n  \"translation\": \"[Thanglish snippets followed by <p style='text-align: right; border: 1px solid #ddd; padding: 2px;'>English Translation</p>]\"\n}"
+  },
+  {
+    "songName": "Theekkoluthi",
+    "movieName": "Bison",
+    "prompt": "Give me the full Tamil lyrics for Theekkoluthi from Bison Tamil and Thanglish separately, without any labels like 'Pallavi' or 'Charanam'.\n    JSON format:\n    {\n  \"title\": \"[Song Name] Song Lyrics & English Meaning - [Movie Name] | [Starring] | [Music Director]\",\n  \"tags\": \"Song: [Name], Movie: [Name], Singer: [Name], Music: [Name], Lyrics: [Name]\",\n  \"tamil\": \"[Tamil script lyrics with <br> tags]\",\n  \"thanglish\": \"[Transliterated lyrics with <br> tags]\",\n  \"translation\": \"[Thanglish snippets followed by <p style='text-align: right; border: 1px solid #ddd; padding: 2px;'>English Translation</p>]\"\n}"
+  },
+  {
+    "songName": "Unna Vida",
+    "movieName": "Virumaandi",
+    "prompt": "Give me the full Tamil lyrics for Unna Vida from Virumaandi Tamil and Thanglish separately, without any labels like 'Pallavi' or 'Charanam'.\n    JSON format:\n    {\n  \"title\": \"[Song Name] Song Lyrics & English Meaning - [Movie Name] | [Starring] | [Music Director]\",\n  \"tags\": \"Song: [Name], Movie: [Name], Singer: [Name], Music: [Name], Lyrics: [Name]\",\n  \"tamil\": \"[Tamil script lyrics with <br> tags]\",\n  \"thanglish\": \"[Transliterated lyrics with <br> tags]\",\n  \"translation\": \"[Thanglish snippets followed by <p style='text-align: right; border: 1px solid #ddd; padding: 2px;'>English Translation</p>]\"\n}"
+  }
+]
