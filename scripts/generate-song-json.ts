@@ -6,7 +6,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import sanitizeHtml from 'sanitize-html'
-import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections } from './types/song-blob.types'
+import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections, EnrichedMetadata } from './types/song-blob.types'
 
 // Import utility functions from lib
 import {
@@ -40,6 +40,9 @@ const BLOGGER_TAMIL_API_BASE = 'https://tsonglyricsapptamil.blogspot.com/feeds/p
 const BLOGGER_ENGLISH_API_BASE = 'https://tslmeaning.blogspot.com/feeds/posts/default'
 const OUTPUT_DIR = './blob-data'
 const SCHEMA_VERSION = 1
+
+// Category terms excluded from enriched keywords
+const EXCLUDED_KEYWORD_CATEGORIES = ['MovieLyrics', 'AllOldSongs']
 
 // Blogger API response types
 interface BloggerEntry {
@@ -306,6 +309,114 @@ function processCategories(categories: Array<{ term: string }> = []): string[] {
 }
 
 /**
+ * Generate enriched metadata by analyzing song data (rule-based)
+ */
+function generateEnrichedMetadata(
+  entry: BloggerEntry,
+  metadata: ReturnType<typeof extractSongMetadata>,
+  categories: string[]
+): EnrichedMetadata {
+  // Release year: prefer year embedded in movie name (e.g. "Coolie - 2024"),
+  // fall back to the published (blog post) year as an approximation
+  const yearFromMovie = metadata.movieName?.match(/\b(19|20)\d{2}\b/)?.[0]
+  const releaseYear = yearFromMovie
+    ?? (entry.published?.$t ? new Date(entry.published.$t).getFullYear().toString() : undefined)
+
+  const titleLower = entry.title.$t.toLowerCase()
+  const lowerCats = categories.map(c => c.toLowerCase())
+
+  // Actress from optional "Actress:" category prefix
+  const actressCategory = (entry.category || []).find(c => c.term?.startsWith('Actress:'))
+  const actressName = actressCategory?.term?.replace('Actress:', '').trim() || undefined
+
+  // --- Mood detection (rule-based keyword matching) ---
+  const moodRules: Record<string, string[]> = {
+    romantic: ['love', 'kadhal', 'kaadhal', 'anbae', 'anbe', 'nenjil', 'romantic', 'priya', 'idhayam', 'heart'],
+    melancholic: ['sad', 'vilag', 'piriv', 'pain', 'tears', 'azhuge', 'kadavule', 'vizhiye', 'nenje', 'thanimai'],
+    upbeat: ['dance', 'beats', 'kuthu', 'mass', 'thala', 'vibe', 'item', 'fun', 'party', 'festive'],
+    devotional: ['devi', 'amman', 'murugan', 'ayya', 'siva', 'ganesha', 'prayer', 'temple', 'god'],
+    soothing: ['lullaby', 'thalattu', 'baby', 'sleep', 'cradle', 'soft'],
+    peppy: ['peppy', 'jolly', 'comedy', 'happy', 'celebration'],
+  }
+
+  const mood: string[] = []
+  for (const [moodType, keywords] of Object.entries(moodRules)) {
+    if (keywords.some(kw => titleLower.includes(kw) || lowerCats.some(c => c.includes(kw)))) {
+      mood.push(moodType)
+    }
+  }
+  if (mood.length === 0) mood.push('other')
+
+  // --- Song type detection ---
+  // Note: 'SInger:' (capital I) is a known typo present in some Blogger category data
+  const singerCount = (entry.category || []).filter(
+    c => c.term?.startsWith('Singer:') || c.term?.startsWith('SInger:')
+  ).length
+  const songType: string[] = []
+  if (singerCount > 1) songType.push('duet')
+  if (lowerCats.some(c => c === 'lyricsintamil')) songType.push('tamil lyrics')
+  if (lowerCats.some(c => c.includes('englishtranslation'))) songType.push('translation')
+  if (
+    titleLower.includes('melody') ||
+    titleLower.includes('kadhal') ||
+    titleLower.includes('love')
+  ) songType.push('melody')
+  if (
+    lowerCats.some(c => c.startsWith('oldmovie:') || c.startsWith('oldsong:') || c === 'alloldsongs')
+  ) songType.push('classic')
+  if (titleLower.includes('dance') || lowerCats.some(c => c.includes('dance'))) songType.push('dance')
+  if (songType.length === 0) songType.push('song')
+
+  // --- Occasions mapped from moods ---
+  const occasionMap: Record<string, string[]> = {
+    romantic: ["valentine's day", 'romantic date', 'anniversary', 'wedding'],
+    melancholic: ['heartbreak', 'breakup'],
+    devotional: ['festivals', 'puja', 'religious occasion'],
+    soothing: ['bedtime', 'relaxation'],
+    upbeat: ['party', 'celebration'],
+    peppy: ['celebration', 'birthday'],
+  }
+  const occasions: string[] = []
+  for (const m of mood) {
+    for (const occ of occasionMap[m] || []) {
+      if (!occasions.includes(occ)) occasions.push(occ)
+    }
+  }
+
+  // --- Keywords array ---
+  const keywordsSet = new Set<string>()
+  if (metadata.movieName) keywordsSet.add(metadata.movieName.toLowerCase())
+  if (metadata.singerName) {
+    metadata.singerName.split(',').forEach(s => {
+      const t = s.trim().toLowerCase()
+      if (t) keywordsSet.add(t)
+    })
+  }
+  if (metadata.lyricistName) keywordsSet.add(metadata.lyricistName.toLowerCase())
+  if (metadata.musicName) keywordsSet.add(metadata.musicName.toLowerCase())
+  if (metadata.actorName) keywordsSet.add(metadata.actorName.toLowerCase())
+  if (actressName) keywordsSet.add(actressName.toLowerCase())
+  categories
+    .filter(c => !c.startsWith('Song:') && !EXCLUDED_KEYWORD_CATEGORIES.includes(c))
+    .forEach(c => {
+      const cleaned = c.replace(/^[^:]*:/, '').trim().toLowerCase()
+      if (cleaned) keywordsSet.add(cleaned)
+    })
+  mood.forEach(m => keywordsSet.add(m))
+  const keywords = Array.from(keywordsSet).filter(Boolean)
+
+  return {
+    ...(metadata.actorName ? { actorName: metadata.actorName } : {}),
+    ...(actressName ? { actressName } : {}),
+    ...(releaseYear ? { releaseYear } : {}),
+    mood,
+    songType,
+    occasions,
+    keywords,
+  }
+}
+
+/**
  * Generate complete JSON data for a single song (optimized)
  */
 async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
@@ -360,7 +471,10 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
   // Generate SEO data
   const thumbnail = getEnhancedThumbnail(entry.media$thumbnail?.url)
   const seo = generateSEOData(entry, metadata, tamilSong ? tamilContent : safeContent, slug)
-  
+
+  // Generate enriched metadata
+  const enrichedMetadata = generateEnrichedMetadata(entry, metadata, categories)
+
   const songData: SongBlobData = {
     slug,
     id: entry.id.$t,
@@ -381,6 +495,7 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
     relatedSongs,
     seo,
     thumbnail,
+    enrichedMetadata,
     generatedAt: new Date().toISOString(),
     version: SCHEMA_VERSION
   }
