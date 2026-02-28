@@ -6,6 +6,8 @@
 import fs from 'fs/promises'
 import path from 'path'
 import sanitizeHtml from 'sanitize-html'
+import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai'
+import type { ResponseSchema } from '@google/generative-ai'
 import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections, EnrichedMetadata } from './types/song-blob.types'
 
 // Import utility functions from lib
@@ -416,10 +418,119 @@ function generateEnrichedMetadata(
   }
 }
 
+// JSON schema for Gemini structured output
+const ENRICHED_METADATA_SCHEMA: ResponseSchema = {
+  type: SchemaType.OBJECT,
+  properties: {
+    actorName: { type: SchemaType.STRING, description: 'Lead actor name, or empty string if unknown' },
+    actressName: { type: SchemaType.STRING, description: 'Lead actress name, or empty string if unknown' },
+    releaseYear: { type: SchemaType.STRING, description: 'Song/movie release year (YYYY), or empty string if unknown' },
+    mood: {
+      type: SchemaType.ARRAY,
+      items: { type: SchemaType.STRING },
+      description: 'Song moods: romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other'
+    },
+    songType: {
+      type: SchemaType.ARRAY,
+      items: { type: SchemaType.STRING },
+      description: 'Song type tags: duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song'
+    },
+    occasions: {
+      type: SchemaType.ARRAY,
+      items: { type: SchemaType.STRING },
+      description: "Occasions: valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout"
+    },
+    keywords: {
+      type: SchemaType.ARRAY,
+      items: { type: SchemaType.STRING },
+      description: 'Lowercase keywords for search/discovery (movie, artists, mood, genre, etc.)'
+    }
+  },
+  required: ['mood', 'songType', 'occasions', 'keywords']
+}
+
+/**
+ * Use Google Gemini to enrich song metadata with AI-generated attributes.
+ * Falls back to the rule-based baseline on any error.
+ */
+async function enrichMetadataWithAI(
+  entry: BloggerEntry,
+  metadata: ReturnType<typeof extractSongMetadata>,
+  categories: string[],
+  lyricsSnippet: string,
+  baseline: EnrichedMetadata
+): Promise<EnrichedMetadata> {
+  const apiKey = process.env.GOOGLE_AI_API_KEY
+  if (!apiKey) {
+    console.log('  ℹ️  GOOGLE_AI_API_KEY not set — skipping AI enrichment')
+    return baseline
+  }
+
+  try {
+    const genAI = new GoogleGenerativeAI(apiKey)
+    const model = genAI.getGenerativeModel({
+      model: 'gemini-2.5-flash-lite',
+      generationConfig: {
+        responseMimeType: 'application/json',
+        responseSchema: ENRICHED_METADATA_SCHEMA,
+        temperature: 0.2,
+      }
+    })
+
+    const prompt = `You are an expert in Tamil cinema and music. Analyze the following Tamil song and return enriched metadata as JSON.
+
+Song title: ${entry.title.$t}
+Movie: ${metadata.movieName || 'Unknown'}
+Singer(s): ${metadata.singerName || 'Unknown'}
+Lyricist: ${metadata.lyricistName || 'Unknown'}
+Music director: ${metadata.musicName || 'Unknown'}
+Actor: ${metadata.actorName || 'Unknown'}
+Categories: ${categories.join(', ')}
+Lyrics snippet (Tanglish/Tamil): ${lyricsSnippet}
+
+Return a JSON object with:
+- actorName: lead actor (string, empty if unknown)
+- actressName: lead actress (string, empty if unknown)  
+- releaseYear: release year YYYY (string, empty if unknown)
+- mood: array of moods that describe the song (romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other)
+- songType: array describing the song type (duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song)
+- occasions: array of occasions this song suits (valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout)
+- keywords: array of 8–15 lowercase search keywords (include movie, artists, mood, genre, year if known)`
+
+    console.log('  🤖 Calling Gemini AI for enrichment...')
+    const result = await model.generateContent(prompt)
+    const text = result.response.text()
+    const aiData = JSON.parse(text) as Partial<EnrichedMetadata>
+
+    // Merge AI result over baseline; skip empty string values from AI
+    const merged: EnrichedMetadata = {
+      ...baseline,
+      mood: aiData.mood?.length ? aiData.mood : baseline.mood,
+      songType: aiData.songType?.length ? aiData.songType : baseline.songType,
+      occasions: aiData.occasions?.length ? aiData.occasions : baseline.occasions,
+      keywords: aiData.keywords?.length ? aiData.keywords : baseline.keywords,
+    }
+    if (aiData.actorName || baseline.actorName) {
+      merged.actorName = aiData.actorName || baseline.actorName
+    }
+    if (aiData.actressName || baseline.actressName) {
+      merged.actressName = aiData.actressName || baseline.actressName
+    }
+    if (aiData.releaseYear || baseline.releaseYear) {
+      merged.releaseYear = aiData.releaseYear || baseline.releaseYear
+    }
+    console.log('  ✅ AI enrichment complete')
+    return merged
+  } catch (error) {
+    console.warn('  ⚠️  AI enrichment failed, using rule-based fallback:', (error as Error).message)
+    return baseline
+  }
+}
+
 /**
  * Generate complete JSON data for a single song (optimized)
  */
-async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
+async function generateSongJSON(entry: BloggerEntry, useAI: boolean = false): Promise<SongBlobData> {
   const slug = getSlugFromSong(entry)
   const metadata = extractSongMetadata(entry.category, entry.title.$t)
   
@@ -472,8 +583,15 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
   const thumbnail = getEnhancedThumbnail(entry.media$thumbnail?.url)
   const seo = generateSEOData(entry, metadata, tamilSong ? tamilContent : safeContent, slug)
 
-  // Generate enriched metadata
-  const enrichedMetadata = generateEnrichedMetadata(entry, metadata, categories)
+  // Generate enriched metadata (rule-based baseline, optionally upgraded with AI)
+  const baseline = generateEnrichedMetadata(entry, metadata, categories)
+  const enrichedMetadata = useAI
+    ? await enrichMetadataWithAI(
+        entry, metadata, categories,
+        htmlToPlainText(stanzas.slice(0, 2).join(' ')).substring(0, 300),
+        baseline
+      )
+    : baseline
 
   const songData: SongBlobData = {
     slug,
@@ -509,6 +627,7 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
 async function main() {
   const args = process.argv.slice(2)
   const testOne = args.includes('--test-one')
+  const useAI = args.includes('--use-ai')
   
   // Check for --limit flag
   const limitIndex = args.findIndex(arg => arg.startsWith('--limit'))
@@ -535,6 +654,13 @@ async function main() {
   }
   
   console.log('🚀 Starting song JSON generation...\n')
+  if (useAI) {
+    if (process.env.GOOGLE_AI_API_KEY) {
+      console.log('🤖 AI enrichment enabled (Gemini gemini-2.5-flash-lite)\n')
+    } else {
+      console.warn('⚠️  --use-ai flag set but GOOGLE_AI_API_KEY is not set. Falling back to rule-based enrichment.\n')
+    }
+  }
   
   // Fetch all songs (with optional category filter)
   const songs = await fetchAllSongs(category,testOne, limit)
@@ -560,7 +686,7 @@ async function main() {
     const song = songsToProcess[i]
     
     try {
-      const songData = await generateSongJSON(song)
+      const songData = await generateSongJSON(song, useAI)
       const filename = `${songData.slug}.json`
       const filepath = path.join(OUTPUT_DIR, filename)
       
