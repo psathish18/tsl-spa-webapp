@@ -19,7 +19,9 @@
     "upload-hotpost": "tsx scripts/upload-hotpost.ts",
     "upload-hotpost:dry-run": "tsx scripts/upload-hotpost.ts --dry-run",
     "trends": "tsx scripts/fetch-google-trends.ts",
-    "trends-ai": "tsx scripts/filter-with-ai.ts"
+    "trends-ai": "tsx scripts/filter-with-ai.ts",
+    "search-songs": "tsx scripts/search/search-songs.ts",
+    "enrich-songs": "tsx scripts/search/enrich-songs-metadata.ts"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.4.6",
