@@ -118,26 +118,29 @@ export default function RootLayout({
                 <ul className="space-y-2">
                   <li><a href="/" className="header-link transition-colors">Home</a></li>
                   <li>
-                <a href="/tamil-song-lyrics-in-english.html">
-                  Tamil Songs Lyrics With English Meaning
-                </a>
-              </li>
+                    <a href="/tamil-song-lyrics-in-english.html" className="header-link transition-colors">
+                      Tamil Songs With English Meaning
+                    </a>
+                  </li>
+                  <li><a href="/contact" className="header-link transition-colors">Contact Us</a></li>
                 </ul>
               </div>
 
-              {/* Support */}
+              {/* Legal */}
               <div>
-                <h3 className="font-semibold text-lg mb-4">Support</h3>
+                <h3 className="font-semibold text-lg mb-4">Legal</h3>
                 <ul className="space-y-2">
-                  <li><a href="/about" className="header-link transition-colors">About Us</a></li>
-                  <li><a href="/privacy" className="header-link transition-colors">Privacy Policy</a></li>
-                  <li><a href="/terms" className="header-link transition-colors">Terms of Service</a></li>
+                  <li><a href="/about-tamil-song-lyrics" className="header-link transition-colors">About Us</a></li>
+                  <li><a href="/privacy-policy-tamil-song-lyrics-app" className="header-link transition-colors">Privacy Policy</a></li>
+                  <li><a href="/terms-of-service" className="header-link transition-colors">Terms of Service</a></li>
+                  <li><a href="/disclaimer" className="header-link transition-colors">Disclaimer</a></li>
                 </ul>
               </div>
             </div>
 
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2026 Tamil Song Lyrics. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Tamil Song Lyrics (tsonglyrics.com). All rights reserved.</p>
+              <p className="text-sm mt-1">Lyrics are the property of their respective owners and are provided for educational and informational purposes only.</p>
             </div>
           </div>
         </footer>

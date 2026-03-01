@@ -39,6 +39,41 @@
   ],
   "redirects": [
     {
+      "source": "/about",
+      "destination": "/about-tamil-song-lyrics",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about-tamil-song-lyrics",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy-policy-tamil-song-lyrics-app",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy-policy-tamil-song-lyrics-app",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/terms.html",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
       "source": "/apple-touch-icon-precomposed.png",
       "destination": "/apple-touch-icon.png",
       "permanent": true

@@ -841,6 +841,55 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           />
         </div> */}
         
+        {/* Song metadata summary - adds editorial value and context for readers */}
+        {(movieName || singerName || lyricistName || musicName) && (
+          <div className="song-info-card mb-8 bg-gray-50 rounded-lg p-5 border border-gray-200">
+            <h2 className="text-lg font-semibold text-gray-800 mb-3">About This Song</h2>
+            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+              {movieName && (
+                <>
+                  <dt className="font-medium text-gray-600">Movie / Album</dt>
+                  <dd className="text-gray-800">{movieName}</dd>
+                </>
+              )}
+              {singerName && singerName !== 'Unknown Artist' && (
+                <>
+                  <dt className="font-medium text-gray-600">Singer(s)</dt>
+                  <dd className="text-gray-800">{singerName}</dd>
+                </>
+              )}
+              {lyricistName && (
+                <>
+                  <dt className="font-medium text-gray-600">Lyrics by</dt>
+                  <dd className="text-gray-800">{lyricistName}</dd>
+                </>
+              )}
+              {musicName && (
+                <>
+                  <dt className="font-medium text-gray-600">Music by</dt>
+                  <dd className="text-gray-800">{musicName}</dd>
+                </>
+              )}
+              {metadata.actorName && (
+                <>
+                  <dt className="font-medium text-gray-600">Starring</dt>
+                  <dd className="text-gray-800">{metadata.actorName}</dd>
+                </>
+              )}
+              {publishedDate && (
+                <>
+                  <dt className="font-medium text-gray-600">Published</dt>
+                  <dd className="text-gray-800">
+                    <time dateTime={song.published?.$t}>
+                      {publishedDate.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}
+                    </time>
+                  </dd>
+                </>
+              )}
+            </dl>
+          </div>
+        )}
+
         {/* Intro section - if present */}
         {contentSections.intro && (
           <div 

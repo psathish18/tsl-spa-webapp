@@ -226,8 +226,24 @@ export default async function HomePage() {
   }
   return (
     <div className="min-h-screen">
+      {/* Site Introduction - Helps AdSense understand content value */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
+        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 mb-2">
+          <h1 className="text-3xl font-bold text-gray-900 mb-3">Tamil Song Lyrics</h1>
+          <p className="text-gray-700 leading-relaxed max-w-3xl">
+            Your go-to destination for <strong>Tamil movie song lyrics</strong> — in Tanglish, Tamil script,
+            and English meaning. We manually curate and publish lyrics for the latest Tamil film releases
+            and independent music, with full credits for singers, lyricists, and music directors.
+          </p>
+          <p className="text-gray-600 mt-2 text-sm">
+            Over <strong>3,000 Tamil songs</strong> and counting. New lyrics added within hours of every
+            major release.
+          </p>
+        </div>
+      </div>
+
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-3">
