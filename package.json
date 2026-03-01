@@ -17,7 +17,14 @@
     "upload-to-blob": "tsx scripts/upload-to-blob.ts --force",
     "upload-to-blob:dry-run": "tsx scripts/upload-to-blob.ts --dry-run",
     "upload-hotpost": "tsx scripts/upload-hotpost.ts",
-    "upload-hotpost:dry-run": "tsx scripts/upload-hotpost.ts --dry-run"
+    "upload-hotpost:dry-run": "tsx scripts/upload-hotpost.ts --dry-run",
+    "trends": "tsx scripts/fetch-google-trends.ts",
+    "trends-ai": "tsx scripts/filter-with-ai.ts",
+    "setup-blogger-auth": "node scripts/setup-blogger-auth.js",
+    "get-github-secrets": "node scripts/get-secrets-for-github.js",
+    "post-social-media": "node scripts/post-social-media-to-blogger.js",
+    "search-songs": "tsx scripts/search/search-songs.ts",
+    "enrich-songs": "tsx scripts/search/enrich-songs-metadata.ts"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.4.6",
@@ -26,6 +33,7 @@
     "@vercel/edge-config": "^1.4.0",
     "axios": "^1.6.2",
     "critters": "^0.0.23",
+    "google-trends-api": "^4.9.0",
     "googleapis": "^169.0.0",
     "next": "14.2.35",
     "next-seo": "^6.4.0",
@@ -36,6 +44,7 @@
     "web-push": "^3.6.6"
   },
   "devDependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
     "@types/jest": "^30.0.0",
@@ -49,6 +58,7 @@
     "eslint-config-next": "14.0.4",
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
+    "openai": "^6.25.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "ts-node": "^10.9.2",
