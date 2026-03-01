@@ -19,7 +19,10 @@
     "upload-to-blob": "tsx scripts/upload-to-blob.ts --force",
     "upload-to-blob:dry-run": "tsx scripts/upload-to-blob.ts --dry-run",
     "upload-hotpost": "tsx scripts/upload-hotpost.ts",
-    "upload-hotpost:dry-run": "tsx scripts/upload-hotpost.ts --dry-run"
+    "upload-hotpost:dry-run": "tsx scripts/upload-hotpost.ts --dry-run",
+    "enrich-song-metadata": "tsx scripts/enrich-song-metadata.ts",
+    "enrich-song-metadata:dry-run": "tsx scripts/enrich-song-metadata.ts --dry-run",
+    "enrich-song-metadata:force": "tsx scripts/enrich-song-metadata.ts --force"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
