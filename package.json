@@ -25,6 +25,9 @@
     "enrich-song-metadata:force": "tsx scripts/enrich-song-metadata.ts --force",
     "trends": "tsx scripts/fetch-google-trends.ts",
     "trends-ai": "tsx scripts/filter-with-ai.ts",
+    "setup-blogger-auth": "node scripts/setup-blogger-auth.js",
+    "get-github-secrets": "node scripts/get-secrets-for-github.js",
+    "post-social-media": "node scripts/post-social-media-to-blogger.js",
     "search-songs": "tsx scripts/search/search-songs.ts",
     "enrich-songs": "tsx scripts/search/enrich-songs-metadata.ts"
   },
