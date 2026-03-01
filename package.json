@@ -24,7 +24,9 @@
     "enrich-song-metadata:dry-run": "tsx scripts/enrich-song-metadata.ts --dry-run",
     "enrich-song-metadata:force": "tsx scripts/enrich-song-metadata.ts --force",
     "trends": "tsx scripts/fetch-google-trends.ts",
-    "trends-ai": "tsx scripts/filter-with-ai.ts"
+    "trends-ai": "tsx scripts/filter-with-ai.ts",
+    "search-songs": "tsx scripts/search/search-songs.ts",
+    "enrich-songs": "tsx scripts/search/enrich-songs-metadata.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

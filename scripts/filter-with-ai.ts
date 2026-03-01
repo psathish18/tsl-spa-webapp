@@ -212,7 +212,7 @@ async function filterKeywordsWithAI(): Promise<void> {
 
   console.log(`\n📣 Generating social media posts for ${present.length} present song(s)...\n`);
 
-  const agentFile = path.join(process.cwd(), '.github', 'agents', 'social-media-agent.md');
+  const agentFile = path.join(process.cwd(), '.github', 'agents', 'social-media-agent-twitter.md');
   const systemPrompt = fs.existsSync(agentFile)
     ? fs.readFileSync(agentFile, 'utf8')
     : 'You are a Social Media Manager. Generate engaging social media posts for the given song.';
@@ -233,8 +233,8 @@ async function filterKeywordsWithAI(): Promise<void> {
 
     const postResponse = await client.chat.completions.create({
       model: COPILOT_MODEL,
-      temperature: 0.7,
-      max_tokens: 2048,
+      temperature: 0.3,
+      max_tokens: 3048,
       messages: [
         { role: 'system', content: systemPrompt },
         {
