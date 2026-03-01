@@ -1,8 +1,10 @@
-name: Fetch Google Trends
+name: Fetch Google Trends and Post to Blogger
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # Run daily at 6 PM UTC (adjust timezone as needed)
+    # For IST (6 PM = 12:30 PM UTC), use: '30 12 * * *'
+    - cron: '0 18 * * *'
   workflow_dispatch:
 
 jobs:
@@ -38,3 +40,31 @@ jobs:
         run: |
           echo "=== Generated Social Media Posts ==="
           cat social-media-posts.json || echo "No social-media-posts.json found"
+
+      - name: Setup Blogger Authentication
+        env:
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_TOKENS: ${{ secrets.BLOGGER_TOKENS }}
+        run: |
+          echo "🔐 Setting up Blogger authentication..."
+          # Create client secret file
+          echo "$BLOGGER_CLIENT_SECRET" > scripts/blogger-client-secret.json
+          # Create tokens file
+          echo "$BLOGGER_TOKENS" > scripts/.blogger-tokens.json
+          echo "✅ Authentication files created"
+
+      - name: Post Social Media Content to Blogger
+        run: |
+          echo "📱 Posting social media content to Blogger..."
+          npm run post-social-media
+
+      - name: Upload Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blogger-results
+          path: |
+            social-media-blogger-results.json
+            filtered-keywords.json
+            missing-keywords.json
+          retention-days: 30
