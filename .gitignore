@@ -25,6 +25,10 @@ yarn-error.log*
 # Local env files
 .env*.local
 
+# Blogger authentication tokens (sensitive)
+scripts/.blogger-tokens.json
+scripts/blogger-client-secret.json
+
 # Vercel
 .vercel
 

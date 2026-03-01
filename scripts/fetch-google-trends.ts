@@ -70,4 +70,4 @@ export function fetchTrendData(timeFrame: string = '4Hour'): Promise<void> {
     });
 }
 
-fetchTrendData('day');
+fetchTrendData('4Hour');

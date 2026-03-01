@@ -1,8 +1,10 @@
-name: Fetch Google Trends
+name: Fetch Google Trends and Post to Blogger
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # Run daily at 6 PM UTC (adjust timezone as needed)
+    # For IST (6 PM = 12:30 PM UTC), use: '30 12 * * *'
+    - cron: '0 18 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      models: read
     steps:
       - uses: actions/checkout@v4
 
@@ -23,12 +26,45 @@ jobs:
       - name: Fetch Google Trends
         run: npm run trends
 
-      - name: Filter Keywords with Google AI
+      - name: Filter Keywords and Generate Social Media Posts with GitHub Copilot
         env:
-          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run trends-ai
 
       - name: Print Filtered Keywords
         run: |
           echo "=== Filtered Tamil Song Lyrics Keywords ==="
-          cat filtered-keywords.txt || echo "No filtered-keywords.txt found"
+          cat filtered-keywords.json || echo "No filtered-keywords.json found"
+
+      - name: Print Social Media Posts
+        run: |
+          echo "=== Generated Social Media Posts ==="
+          cat social-media-posts.json || echo "No social-media-posts.json found"
+
+      - name: Setup Blogger Authentication
+        env:
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_TOKENS: ${{ secrets.BLOGGER_TOKENS }}
+        run: |
+          echo "🔐 Setting up Blogger authentication..."
+          # Create client secret file
+          echo "$BLOGGER_CLIENT_SECRET" > scripts/blogger-client-secret.json
+          # Create tokens file
+          echo "$BLOGGER_TOKENS" > scripts/.blogger-tokens.json
+          echo "✅ Authentication files created"
+
+      - name: Post Social Media Content to Blogger
+        run: |
+          echo "📱 Posting social media content to Blogger..."
+          npm run post-social-media
+
+      - name: Upload Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blogger-results
+          path: |
+            social-media-blogger-results.json
+            filtered-keywords.json
+            missing-keywords.json
+          retention-days: 30
