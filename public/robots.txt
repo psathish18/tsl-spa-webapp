@@ -4,7 +4,7 @@ Allow: /
 Crawl-delay: 2
 
 # Sitemap location
-Sitemap: https://tsonglyrics.com/sitemap.xml
+Sitemap: https://www.tsonglyrics.com/sitemap.xml
 
 # Block unnecessary paths
 Disallow: /api/

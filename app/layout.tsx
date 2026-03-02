@@ -27,6 +27,30 @@ export const metadata: Metadata = {
   description: 'Discover the latest Tamil song lyrics with translations. Find your favorite Tamil songs, artists, and lyrics all in one place.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
   manifest: '/manifest.json',
+  verification: {
+    google: '844c4581a035ef16',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'Tamil Song Lyrics',
+    title: 'Tamil Song Lyrics - Latest Tamil Songs',
+    description: 'Discover the latest Tamil song lyrics with translations. Find your favorite Tamil songs, artists, and lyrics all in one place.',
+    url: 'https://www.tsonglyrics.com',
+    images: [
+      {
+        url: 'https://www.tsonglyrics.com/android-chrome-192x192.png',
+        width: 192,
+        height: 192,
+        alt: 'Tamil Song Lyrics',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@tsongslyrics',
+    title: 'Tamil Song Lyrics - Latest Tamil Songs',
+    description: 'Discover the latest Tamil song lyrics with translations.',
+  },
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -41,6 +65,50 @@ export const metadata: Metadata = {
       },
     ],
   },
+}
+
+// Site-wide JSON-LD structured data (WebSite + Organization)
+const siteStructuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.tsonglyrics.com/#website',
+      'url': 'https://www.tsonglyrics.com',
+      'name': 'Tamil Song Lyrics',
+      'description': 'Latest Tamil movie song lyrics in Tanglish, Tamil script, and English meaning',
+      'inLanguage': ['ta', 'en'],
+      'potentialAction': {
+        '@type': 'SearchAction',
+        'target': {
+          '@type': 'EntryPoint',
+          'urlTemplate': 'https://www.tsonglyrics.com/search?q={search_term_string}',
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://www.tsonglyrics.com/#organization',
+      'name': 'Tamil Song Lyrics',
+      'url': 'https://www.tsonglyrics.com',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://www.tsonglyrics.com/android-chrome-192x192.png',
+        'width': 192,
+        'height': 192,
+      },
+      'sameAs': [
+        'https://twitter.com/tsongslyrics',
+        'https://tsonglyricsapp.blogspot.com',
+      ],
+      'contactPoint': {
+        '@type': 'ContactPoint',
+        'email': 'admin@tsonglyrics.com',
+        'contactType': 'customer support',
+      },
+    },
+  ],
 }
 
 export default function RootLayout({
@@ -64,6 +132,12 @@ export default function RootLayout({
             crossOrigin="anonymous"
           />
         )}
+
+        {/* Site-wide structured data: WebSite + Organization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteStructuredData) }}
+        />
       </head>
   <body className="min-h-screen" style={{ backgroundColor: 'var(--bg)' }}>
         {/* Header */}

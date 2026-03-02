@@ -93,8 +93,24 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Tamil Song Lyrics - Latest Songs & Lyrics',
-    description: 'Discover the latest Tamil song lyrics, movie songs, and popular music.',
+    description: 'Discover the latest Tamil song lyrics, movie songs, and popular music. Read and enjoy beautiful Tamil poetry and lyrics from your favorite movies and artists.',
     type: 'website',
+    url: 'https://www.tsonglyrics.com/',
+    siteName: 'Tamil Song Lyrics',
+    images: [
+      {
+        url: 'https://www.tsonglyrics.com/android-chrome-192x192.png',
+        width: 192,
+        height: 192,
+        alt: 'Tamil Song Lyrics',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@tsongslyrics',
+    title: 'Tamil Song Lyrics - Latest Songs & Lyrics',
+    description: 'Discover the latest Tamil song lyrics, movie songs, and popular music.',
   },
 }
 
@@ -226,6 +242,27 @@ export default async function HomePage() {
   }
   return (
     <div className="min-h-screen">
+      {/* HomePage WebPage structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            '@id': 'https://www.tsonglyrics.com/#webpage',
+            'url': 'https://www.tsonglyrics.com/',
+            'name': 'Tamil Song Lyrics - Latest Songs & Lyrics',
+            'description': 'Discover the latest Tamil song lyrics, movie songs, and popular music.',
+            'isPartOf': { '@id': 'https://www.tsonglyrics.com/#website' },
+            'about': {
+              '@type': 'Thing',
+              'name': 'Tamil Song Lyrics',
+            },
+            'inLanguage': ['ta', 'en'],
+          }),
+        }}
+      />
+
       {/* Site Introduction - Helps AdSense understand content value */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 mb-2">
