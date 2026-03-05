@@ -4,7 +4,7 @@ on:
   schedule:
     # Run daily at 6 PM UTC (adjust timezone as needed)
     # For IST (6 PM = 12:30 PM UTC), use: '30 12 * * *'
-    - cron: '0 18 * * *'
+    - cron: '30 12 * * *'
   workflow_dispatch:
 
 jobs:
