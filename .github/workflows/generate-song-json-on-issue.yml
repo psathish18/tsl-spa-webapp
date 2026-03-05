@@ -42,7 +42,7 @@ jobs:
           fi
           
           # Scenario 1: "generate json for recent X song" -> --limit=X
-          if echo "$ISSUE_TITLE" | grep -iq "generate json for recent.*song"; then
+          if echo "$ISSUE_TITLE" | grep -iq "generate json for recent"; then
             # Extract number from the title (e.g., "5" from "generate json for recent 5 song")
             LIMIT=$(echo "$ISSUE_TITLE" | grep -io "recent [0-9]*" | grep -o "[0-9]\+" || echo "")
             if [ -z "$LIMIT" ]; then
