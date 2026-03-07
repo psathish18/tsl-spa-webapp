@@ -17,6 +17,9 @@
 .DS_Store
 *.pem
 
+# Generated OG images
+/public/og-images/
+
 # Debug
 npm-debug.log*
 yarn-debug.log*
@@ -28,6 +31,12 @@ yarn-error.log*
 # Blogger authentication tokens (sensitive)
 scripts/.blogger-tokens.json
 scripts/blogger-client-secret.json
+
+# Google Cloud Storage credentials (sensitive)
+scripts/gcs/gcs-service-account.json
+scripts/gcs-service-account.json
+
+gcs-key-base64.txt
 
 # Vercel
 .vercel
