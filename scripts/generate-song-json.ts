@@ -6,8 +6,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import sanitizeHtml from 'sanitize-html'
-import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai'
-import type { ResponseSchema } from '@google/generative-ai'
+import OpenAI from 'openai'
 import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections, EnrichedMetadata } from './types/song-blob.types'
 
 // Import utility functions from lib
@@ -418,40 +417,45 @@ function generateEnrichedMetadata(
   }
 }
 
-// JSON schema for Gemini structured output
-const ENRICHED_METADATA_SCHEMA: ResponseSchema = {
-  type: SchemaType.OBJECT,
+/** GitHub Models endpoint — accepts standard GITHUB_TOKEN (PAT). Same pattern as filter-with-ai.ts */
+const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com'
+const GITHUB_MODELS_MODEL = 'gpt-4o'
+
+// JSON schema for structured output (OpenAI json_schema response format)
+const ENRICHED_METADATA_JSON_SCHEMA = {
+  type: 'object',
   properties: {
-    actorName: { type: SchemaType.STRING, description: 'Lead actor name, or empty string if unknown' },
-    actressName: { type: SchemaType.STRING, description: 'Lead actress name, or empty string if unknown' },
-    releaseYear: { type: SchemaType.STRING, description: 'Song/movie release year (YYYY), or empty string if unknown' },
+    actorName: { type: 'string', description: 'Lead actor name, or empty string if unknown' },
+    actressName: { type: 'string', description: 'Lead actress name, or empty string if unknown' },
+    releaseYear: { type: 'string', description: 'Song/movie release year (YYYY), or empty string if unknown' },
     mood: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
-      description: 'Song moods: romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other'
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Song moods: romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other',
     },
     songType: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
-      description: 'Song type tags: duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song'
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Song type tags: duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song',
     },
     occasions: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
-      description: "Occasions: valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout"
+      type: 'array',
+      items: { type: 'string' },
+      description: "Occasions: valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout",
     },
     keywords: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
-      description: 'Lowercase keywords for search/discovery (movie, artists, mood, genre, etc.)'
-    }
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Lowercase keywords for search/discovery (movie, artists, mood, genre, etc.)',
+    },
   },
-  required: ['mood', 'songType', 'occasions', 'keywords']
+  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords'],
+  additionalProperties: false,
 }
 
 /**
- * Use Google Gemini to enrich song metadata with AI-generated attributes.
- * Falls back to the rule-based baseline on any error.
+ * Use GitHub Models (GPT-4o via GITHUB_TOKEN) to enrich song metadata.
+ * Falls back to the rule-based baseline on any error or when GITHUB_TOKEN is not set.
  */
 async function enrichMetadataWithAI(
   entry: BloggerEntry,
@@ -460,22 +464,14 @@ async function enrichMetadataWithAI(
   lyricsSnippet: string,
   baseline: EnrichedMetadata
 ): Promise<EnrichedMetadata> {
-  const apiKey = process.env.GOOGLE_AI_API_KEY
-  if (!apiKey) {
-    console.log('  ℹ️  GOOGLE_AI_API_KEY not set — skipping AI enrichment')
+  const githubToken = process.env.GITHUB_TOKEN
+  if (!githubToken) {
+    console.log('  ℹ️  GITHUB_TOKEN not set — skipping AI enrichment')
     return baseline
   }
 
   try {
-    const genAI = new GoogleGenerativeAI(apiKey)
-    const model = genAI.getGenerativeModel({
-      model: 'gemini-2.5-flash-lite',
-      generationConfig: {
-        responseMimeType: 'application/json',
-        responseSchema: ENRICHED_METADATA_SCHEMA,
-        temperature: 0.2,
-      }
-    })
+    const client = new OpenAI({ baseURL: GITHUB_MODELS_ENDPOINT, apiKey: githubToken })
 
     const prompt = `You are an expert in Tamil cinema and music. Analyze the following Tamil song and return enriched metadata as JSON.
 
@@ -489,17 +485,31 @@ Categories: ${categories.join(', ')}
 Lyrics snippet (Tanglish/Tamil): ${lyricsSnippet}
 
 Return a JSON object with:
-- actorName: lead actor (string, empty if unknown)
-- actressName: lead actress (string, empty if unknown)  
-- releaseYear: release year YYYY (string, empty if unknown)
+- actorName: lead actor (string — use your Tamil cinema knowledge; empty string only if truly unknown)
+- actressName: lead actress (string — use your Tamil cinema knowledge; empty string only if truly unknown)
+- releaseYear: release year YYYY (string, empty string if unknown)
 - mood: array of moods that describe the song (romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other)
 - songType: array describing the song type (duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song)
 - occasions: array of occasions this song suits (valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout)
 - keywords: array of 8–15 lowercase search keywords (include movie, artists, mood, genre, year if known)`
 
-    console.log('  🤖 Calling Gemini AI for enrichment...')
-    const result = await model.generateContent(prompt)
-    const text = result.response.text()
+    console.log('  🤖 Calling GitHub Models (GPT-4o) for enrichment...')
+    const response = await client.chat.completions.create({
+      model: GITHUB_MODELS_MODEL,
+      temperature: 0.2,
+      response_format: {
+        type: 'json_schema',
+        json_schema: {
+          name: 'enriched_metadata',
+          strict: true,
+          schema: ENRICHED_METADATA_JSON_SCHEMA,
+        },
+      },
+      messages: [{ role: 'user', content: prompt }],
+    })
+
+    const text = response.choices[0]?.message?.content ?? ''
+    if (!text) throw new Error('GitHub Models returned an empty response')
     const aiData = JSON.parse(text) as Partial<EnrichedMetadata>
 
     // Merge AI result over baseline; skip empty string values from AI

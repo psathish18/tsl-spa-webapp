@@ -6,10 +6,14 @@
  *
  * Authentication — choose ONE of the following (in priority order):
  * ---------------------------------------------------------------
- * 1. OPENAI_API_KEY=sk-...          → OpenAI API (recommended, no extra setup)
+ * 1. GITHUB_TOKEN=ghp_...        → GitHub Models API (recommended; standard PAT works)
+ *       GITHUB_TOKEN=ghp_xxx tsx scripts/enrich-song-metadata.ts
+ *       Same pattern as filter-with-ai.ts
+ *
+ * 2. OPENAI_API_KEY=sk-...       → OpenAI API
  *       OPENAI_API_KEY=sk-xxx tsx scripts/enrich-song-metadata.ts
  *
- * 2. COPILOT_API_KEY=<oauth-token>  → GitHub Copilot API
+ * 3. COPILOT_API_KEY=<oauth-token> → GitHub Copilot API
  *       Obtain with: gh auth token  (needs `gh` CLI logged in with Copilot access)
  *       NOTE: Standard PATs (ghp_...) are NOT supported by the Copilot endpoint.
  *
@@ -28,9 +32,9 @@
  *
  * Usage
  * -----
- *   OPENAI_API_KEY=sk-xxx npm run enrich-song-metadata
- *   OPENAI_API_KEY=sk-xxx npm run enrich-song-metadata -- --force
- *   OPENAI_API_KEY=sk-xxx npm run enrich-song-metadata -- --limit=50
+ *   GITHUB_TOKEN=ghp_xxx npm run enrich-song-metadata
+ *   GITHUB_TOKEN=ghp_xxx npm run enrich-song-metadata -- --force
+ *   GITHUB_TOKEN=ghp_xxx npm run enrich-song-metadata -- --limit=50
  *   npm run enrich-song-metadata -- --dry-run   # no writes, no API calls
  */
 
@@ -46,6 +50,9 @@ import type { SongBlobData, EnrichedMetadata } from './types/song-blob.types'
 
 const SONGS_DIR = path.join(__dirname, '../public/songs')
 const MODEL_NAME = 'gpt-4o'
+
+/** GitHub Models endpoint — accepts standard GITHUB_TOKEN (PAT). Same pattern as filter-with-ai.ts */
+const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com'
 
 /** GitHub Copilot OpenAI-compatible base URL (requires OAuth token, not PAT) */
 const COPILOT_BASE_URL = 'https://api.githubcopilot.com'
@@ -71,17 +78,27 @@ interface ApiClientConfig {
 
 /**
  * Priority order:
- *  1. OPENAI_API_KEY          → standard OpenAI endpoint (sk-... key)
- *  2. COPILOT_API_KEY         → GitHub Copilot endpoint (must be an OAuth token,
+ *  1. GITHUB_TOKEN            → GitHub Models endpoint (models.inference.ai.azure.com)
+ *                               Standard PATs (ghp_...) work here — same as filter-with-ai.ts
+ *  2. OPENAI_API_KEY          → standard OpenAI endpoint (sk-... key)
+ *  3. COPILOT_API_KEY         → GitHub Copilot endpoint (must be an OAuth token,
  *                               NOT a PAT — obtain via `gh auth token`)
- *  3. gh auth token (auto)    → fetches the OAuth token from the GitHub CLI and
+ *  4. gh auth token (auto)    → fetches the OAuth token from the GitHub CLI and
  *                               uses the Copilot endpoint automatically
  *
- * Standard GitHub PATs (ghp_...) are rejected by api.githubcopilot.com with a
- * 400 "Personal Access Tokens are not supported" error — use option 1 or 3.
+ * Standard GitHub PATs (ghp_...) are rejected by api.githubcopilot.com but work fine
+ * with the GitHub Models endpoint — use GITHUB_TOKEN for the simplest setup.
  */
 function resolveApiClient(): ApiClientConfig {
-  // Option 1: standard OpenAI key
+  // Option 1: GITHUB_TOKEN → GitHub Models (works with standard PAT)
+  if (process.env.GITHUB_TOKEN) {
+    return {
+      client: new OpenAI({ baseURL: GITHUB_MODELS_ENDPOINT, apiKey: process.env.GITHUB_TOKEN }),
+      label: 'GitHub Models API (GITHUB_TOKEN)',
+    }
+  }
+
+  // Option 2: standard OpenAI key
   if (process.env.OPENAI_API_KEY) {
     return {
       client: new OpenAI({ apiKey: process.env.OPENAI_API_KEY }),
@@ -89,7 +106,7 @@ function resolveApiClient(): ApiClientConfig {
     }
   }
 
-  // Option 2: explicit Copilot OAuth token
+  // Option 3: explicit Copilot OAuth token
   if (process.env.COPILOT_API_KEY) {
     return {
       client: new OpenAI({ apiKey: process.env.COPILOT_API_KEY, baseURL: COPILOT_BASE_URL }),
@@ -97,8 +114,7 @@ function resolveApiClient(): ApiClientConfig {
     }
   }
 
-  // Option 3: auto-fetch OAuth token via `gh auth token`
-  // (GITHUB_TOKEN env var is treated as a hint that the user is logged in with gh CLI)
+  // Option 4: auto-fetch OAuth token via `gh auth token`
   try {
     const oauthToken = execSync('gh auth token', { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }).trim()
     // GitHub OAuth tokens start with 'gho_'; accept any non-empty token the CLI returns
@@ -117,11 +133,11 @@ function resolveApiClient(): ApiClientConfig {
   }
 
   console.error('❌  No API credentials found. Set one of:')
-  console.error('   OPENAI_API_KEY=sk-...         (recommended — standard OpenAI key)')
+  console.error('   GITHUB_TOKEN=ghp_...          (recommended — standard PAT, uses GitHub Models API)')
+  console.error('   OPENAI_API_KEY=sk-...          (standard OpenAI key)')
   console.error('   COPILOT_API_KEY=<oauth-token>  (GitHub Copilot — run: gh auth token)')
   console.error('')
-  console.error('   NOTE: Standard GitHub PATs (ghp_...) are NOT accepted by the Copilot endpoint.')
-  console.error('   Use `gh auth token` to get a compatible OAuth token, or use OPENAI_API_KEY.')
+  console.error('   Tip: GITHUB_TOKEN is the easiest option and works with any GitHub PAT.')
   process.exit(1)
 }
 
