@@ -3,6 +3,18 @@
  * This defines the complete data structure stored in Vercel Blob
  */
 
+export interface EnrichedMetadata {
+  actorName?: string              // Actor name (if available)
+  actressName?: string            // Actress name (if available)
+  releaseYear?: string            // Year derived from published date
+  mood: string[]                  // e.g. ["romantic", "melancholic"]
+  songType: string[]              // e.g. ["love song", "duet", "melody"]
+  occasions: string[]             // e.g. ["valentine's day", "anniversary"]
+  keywords: string[]              // Unique keyword array for search/discovery
+  high_ctr_intro?: string         // SEO-optimised 3-sentence blog header intro (HTML allowed)
+  stanzaMeanings?: string[]       // English meaning of each Tanglish stanza (parallel array — same index as SongBlobData.stanzas)
+}
+
 export interface SongBlobData {
   // Core identifiers
   slug: string                    // Clean slug matching song page routing
@@ -49,6 +61,9 @@ export interface SongBlobData {
   // Media
   thumbnail: string | null        // Enhanced thumbnail URL (s400-c) or null
   
+  // Enriched metadata (derived from song data for discovery and SEO)
+  enrichedMetadata?: EnrichedMetadata
+
   // Cache metadata
   generatedAt: string             // ISO date when JSON was generated
   version: number                 // Schema version (for future migrations)
