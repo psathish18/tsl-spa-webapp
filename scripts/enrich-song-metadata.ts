@@ -86,13 +86,35 @@ const RESPONSE_JSON_SCHEMA = {
       items: { type: 'string' },
       description: 'Lowercase keywords for search/discovery (movie, artists, mood, genre, etc.)',
     },
+    high_ctr_intro: {
+      type: 'string',
+      description: 'A powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., Anirudh\'s mass beats with Vijay\'s vocals). Use <strong> tags for the song name and <em> for the movie.',
+    },
   },
   // actorName, actressName, releaseYear are required in the schema so the API always
   // returns these fields; the description instructs the model to use an empty string
   // when the value is genuinely unknown, so "required" ≠ "non-empty" here.
-  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords'],
+  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords', 'high_ctr_intro'],
   additionalProperties: false,
 } as const
+
+// ---------------------------------------------------------------------------
+// Category filter
+// ---------------------------------------------------------------------------
+
+/**
+ * Returns true for individual song files (categories include a `Song:` or
+ * `OldSong:` prefix) while excluding tracklist / collection pages that carry
+ * the `MovieLyrics` category.
+ */
+function isSongFile(category: string[]): boolean {
+  // Normalise once to lowercase for all comparisons
+  const lower = category.map(c => c.toLowerCase())
+  return (
+    !lower.includes('movielyrics') &&
+    lower.some(c => c.startsWith('song:') || c.startsWith('oldsong:'))
+  )
+}
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -173,7 +195,8 @@ Return a JSON object with:
 - mood        : array of moods (romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other)
 - songType    : array of song type tags (duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song)
 - occasions   : array of suitable occasions (valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout)
-- keywords    : array of 8–15 lowercase search keywords (include movie, artists, mood, genre, year if known)`
+- keywords    : array of 8–15 lowercase search keywords (include movie, artists, mood, genre, year if known)
+- high_ctr_intro : a powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., "Anirudh's mass beats with Vijay's energy"). Use <strong> tags around the song name and <em> tags around the movie name. Make it compelling enough to drive clicks from search results.`
 }
 
 // ---------------------------------------------------------------------------
@@ -254,6 +277,9 @@ function mergeEnrichedMetadata(
   if (aiData.releaseYear || base.releaseYear) {
     merged.releaseYear = aiData.releaseYear || base.releaseYear
   }
+  if (aiData.high_ctr_intro || base.high_ctr_intro) {
+    merged.high_ctr_intro = aiData.high_ctr_intro || base.high_ctr_intro
+  }
   return merged
 }
 
@@ -316,14 +342,22 @@ async function main() {
   // Stats
   const stats = { processed: 0, enriched: 0, skipped: 0, failed: 0, total: 0 }
 
-  // Collect files to process (apply --skip and --limit after filtering)
+  // Collect files to process (apply category filter, then --skip and --limit)
   const pendingFiles: string[] = []
+  let notSongFile = 0
   for (const filename of allFiles) {
     const filepath = path.join(SONGS_DIR, filename)
     const raw = await fs.readFile(filepath, 'utf-8')
     const song: SongBlobData = JSON.parse(raw)
 
-    if (!force && song.enrichedMetadata) {
+    // Only process individual song files (Song: / OldSong: category, not MovieLyrics)
+    if (!isSongFile(song.category)) {
+      notSongFile++
+      continue
+    }
+
+    if (!force && song.enrichedMetadata?.high_ctr_intro) {
+      // Already fully enriched (has high_ctr_intro) — skip unless --force
       stats.skipped++
       continue
     }
@@ -333,9 +367,9 @@ async function main() {
   const filesToProcess = pendingFiles.slice(skipN, limit ? skipN + limit : undefined)
   stats.total = filesToProcess.length
 
-  console.log(`📋 To process: ${stats.total} | Already enriched (skipped): ${stats.skipped}`)
+  console.log(`📋 To process: ${stats.total} | Already enriched (skipped): ${stats.skipped} | Non-song files (excluded): ${notSongFile}`)
   if (stats.total === 0) {
-    console.log('\n✅ Nothing to do — all songs already have enrichedMetadata.')
+    console.log('\n✅ Nothing to do — all songs already have complete enrichedMetadata (including high_ctr_intro).')
     console.log('   Use --force to re-enrich existing data.')
     return
   }
@@ -379,6 +413,9 @@ async function main() {
       console.log(
         `       ✅ Enriched  actor="${enrichedMetadata.actorName || '—'}"  actress="${enrichedMetadata.actressName || '—'}"  mood=${JSON.stringify(enrichedMetadata.mood)}`,
       )
+      if (enrichedMetadata.high_ctr_intro) {
+        console.log(`       📝 Intro: ${enrichedMetadata.high_ctr_intro.substring(0, 100)}…`)
+      }
       stats.enriched++
     } else {
       console.log('       ⚠️  Skipped (AI returned no data)')
