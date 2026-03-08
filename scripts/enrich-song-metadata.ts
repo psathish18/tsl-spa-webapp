@@ -60,6 +60,9 @@ const COPILOT_BASE_URL = 'https://api.githubcopilot.com'
 /** Milliseconds to wait between successful requests (~13 RPM, well under the rate limit) */
 const REQUEST_DELAY_MS = 4_500
 
+/** Milliseconds to wait between the two API calls made for a single song (enrichment + translation) */
+const INTRA_SONG_DELAY_MS = 2_000
+
 /** Maximum retries on a 429 RPM error before skipping a song */
 const MAX_RETRIES = 4
 
@@ -285,8 +288,56 @@ Return a JSON object with:
 }
 
 // ---------------------------------------------------------------------------
-// Core enrichment with retry
+// JSON schema for structured output — per-stanza translation
 // ---------------------------------------------------------------------------
+
+const TRANSLATION_JSON_SCHEMA = {
+  type: 'object',
+  properties: {
+    meanings: {
+      type: 'array',
+      items: { type: 'string' },
+      description: 'English meaning of each stanza, one entry per stanza in the same order as input.',
+    },
+  },
+  required: ['meanings'],
+  additionalProperties: false,
+} as const
+
+// ---------------------------------------------------------------------------
+// Translation prompt builder
+// ---------------------------------------------------------------------------
+
+/**
+ * Builds a prompt that asks GPT-4o to translate every Tanglish stanza in
+ * `song.stanzas` to simple English.  Each entry in the returned "meanings"
+ * array must correspond to the stanza at the same index.
+ */
+function buildTranslationPrompt(song: SongBlobData): string {
+  const stanzaTexts = song.stanzas
+    .map((s, i) => `Stanza ${i + 1}:\n${stripHtml(s)}`)
+    .join('\n\n')
+
+  return `You are a Tamil song translator specialising in Tanglish (Tamil written in English letters) lyrics.
+
+Translate each stanza below into simple, natural English.
+- Preserve the original mood and feeling of the song.
+- Keep the language basic and easy for a general audience to understand.
+- Do NOT romanticise or over-poetise — stay true to the literal meaning.
+- Return one English meaning per stanza in the same order as the input.
+- If a stanza is already in English, return it as-is.
+
+Song title : ${song.title}
+Movie      : ${song.movieName || 'Unknown'}
+Singer(s)  : ${song.singerName || 'Unknown'}
+
+${stanzaTexts}
+
+Return a JSON object with a "meanings" array where meanings[i] is the English translation of Stanza i+1.
+The array must have exactly ${song.stanzas.length} elements.`
+}
+
+
 
 async function callCopilotWithRetry(
   client: OpenAI,
@@ -337,6 +388,69 @@ async function callCopilotWithRetry(
 }
 
 // ---------------------------------------------------------------------------
+// Translation with retry
+// ---------------------------------------------------------------------------
+
+/**
+ * Calls the AI to translate all stanzas of a song into English.
+ * Returns a `string[]` (one entry per stanza) or `null` on failure.
+ */
+async function callTranslationWithRetry(
+  client: OpenAI,
+  song: SongBlobData,
+): Promise<string[] | null> {
+  const prompt = buildTranslationPrompt(song)
+  const slug = song.slug
+
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await client.chat.completions.create({
+        model: MODEL_NAME,
+        temperature: 0.1,
+        response_format: {
+          type: 'json_schema',
+          json_schema: {
+            name: 'stanza_translations',
+            strict: true,
+            schema: TRANSLATION_JSON_SCHEMA,
+          },
+        },
+        messages: [
+          {
+            role: 'system',
+            content: 'You are a Tamil song translator. Always respond with valid JSON matching the requested schema.',
+          },
+          { role: 'user', content: prompt },
+        ],
+      })
+      const text = response.choices[0]?.message?.content ?? ''
+      const parsed = JSON.parse(text) as { meanings: string[] }
+      const meanings = parsed.meanings ?? []
+      // Guard: returned array must exactly match stanza count
+      if (meanings.length !== song.stanzas.length) {
+        console.warn(`  ⚠️  Translation length mismatch for "${slug}": expected ${song.stanzas.length}, got ${meanings.length} — skipping`)
+        return null
+      }
+      return meanings
+    } catch (err) {
+      if (isDailyQuotaError(err)) {
+        throw err
+      }
+      if (isRpmError(err) && attempt < MAX_RETRIES) {
+        const waitMs = BACKOFF_BASE_MS * Math.pow(2, attempt)
+        console.warn(`  ⏳ RPM limit hit (translation) for "${slug}" — waiting ${waitMs / 1000}s (attempt ${attempt + 1}/${MAX_RETRIES})`)
+        await sleep(waitMs)
+        continue
+      }
+      console.warn(`  ⚠️  Translation API error for "${slug}": ${(err as Error).message}`)
+      return null
+    }
+  }
+  console.warn(`  ⚠️  Exhausted translation retries for "${slug}", skipping`)
+  return null
+}
+
+// ---------------------------------------------------------------------------
 // Merge AI result with existing / baseline enrichedMetadata
 // ---------------------------------------------------------------------------
 
@@ -364,6 +478,11 @@ function mergeEnrichedMetadata(
   }
   if (aiData.high_ctr_intro || base.high_ctr_intro) {
     merged.high_ctr_intro = aiData.high_ctr_intro || base.high_ctr_intro
+  }
+  if (aiData.stanzaMeanings?.length) {
+    merged.stanzaMeanings = aiData.stanzaMeanings
+  } else if (base.stanzaMeanings?.length) {
+    merged.stanzaMeanings = base.stanzaMeanings
   }
   return merged
 }
@@ -438,9 +557,15 @@ async function main() {
     }
 
     if (!force && song.enrichedMetadata?.high_ctr_intro) {
-      // Already fully enriched (has high_ctr_intro) — skip unless --force
-      stats.skipped++
-      continue
+      // Already fully enriched (has high_ctr_intro) — skip unless --force or stanzaMeanings missing/incomplete
+      const meaningsComplete =
+        Array.isArray(song.enrichedMetadata.stanzaMeanings) &&
+        song.enrichedMetadata.stanzaMeanings.length === song.stanzas.length
+      if (meaningsComplete) {
+        stats.skipped++
+        continue
+      }
+      // high_ctr_intro present but stanzaMeanings missing/incomplete — still needs translation
     }
     pendingFiles.push(filename)
   }
@@ -450,7 +575,7 @@ async function main() {
 
   console.log(`📋 To process: ${stats.total} | Already enriched (skipped): ${stats.skipped} | Non-song files (excluded): ${notSongFile}`)
   if (stats.total === 0) {
-    console.log('\n✅ Nothing to do — all songs already have complete enrichedMetadata (including high_ctr_intro).')
+    console.log('\n✅ Nothing to do — all songs already have complete enrichedMetadata (including high_ctr_intro and stanzaMeanings).')
     console.log('   Use --force to re-enrich existing data.')
     return
   }
@@ -467,35 +592,80 @@ async function main() {
     console.log(`       Movie: ${song.movieName || '—'}  |  Singer: ${song.singerName || '—'}`)
 
     if (dryRun) {
-      console.log('       ✓ DRY RUN — would call AI here')
+      console.log('       ✓ DRY RUN — would call AI here (enrichment + translation)')
       stats.enriched++
       stats.processed++
       continue
     }
 
+    // ── Step 1: Metadata enrichment (skip if already complete) ──────────────
     let aiData: Partial<EnrichedMetadata> | null = null
-    try {
-      aiData = await callCopilotWithRetry(client!, buildPrompt(song), song.slug)
-    } catch (err) {
-      if (isDailyQuotaError(err)) {
-        console.error('\n🔴 Daily quota (RPD) exhausted!')
-        console.error(`   Processed ${stats.processed} songs this run (${stats.enriched} enriched, ${stats.failed} failed).`)
-        console.error(`   ${stats.total - stats.processed} songs remain — re-run tomorrow to continue automatically.`)
-        console.error(`   (Songs already enriched are skipped on re-run.)`)
-        process.exit(0) // exit 0 — not an error, just daily limit reached
+    const needsEnrichment = force || !song.enrichedMetadata?.high_ctr_intro
+    if (needsEnrichment) {
+      try {
+        aiData = await callCopilotWithRetry(client!, buildPrompt(song), song.slug)
+      } catch (err) {
+        if (isDailyQuotaError(err)) {
+          console.error('\n🔴 Daily quota (RPD) exhausted!')
+          console.error(`   Processed ${stats.processed} songs this run (${stats.enriched} enriched, ${stats.failed} failed).`)
+          console.error(`   ${stats.total - stats.processed} songs remain — re-run tomorrow to continue automatically.`)
+          console.error(`   (Songs already enriched are skipped on re-run.)`)
+          process.exit(0) // exit 0 — not an error, just daily limit reached
+        }
+        throw err // unexpected — let Node crash with stack trace
       }
-      throw err // unexpected — let Node crash with stack trace
     }
 
-    if (aiData) {
-      const enrichedMetadata = mergeEnrichedMetadata(song.enrichedMetadata, aiData)
+    // ── Step 2: Per-stanza English translation ────────────────────────────
+    const existingMeanings = song.enrichedMetadata?.stanzaMeanings
+    const needsTranslation =
+      force ||
+      !Array.isArray(existingMeanings) ||
+      existingMeanings.length !== song.stanzas.length
+
+    let translatedMeanings: string[] | null
+    if (needsTranslation) {
+      translatedMeanings = null // will be filled below
+    } else {
+      translatedMeanings = existingMeanings ?? null
+    }
+
+    if (needsTranslation && song.stanzas.length > 0) {
+      // Brief pause between the two API calls made for the same song
+      if (needsEnrichment) await sleep(INTRA_SONG_DELAY_MS)
+      try {
+        translatedMeanings = await callTranslationWithRetry(client!, song)
+      } catch (err) {
+        if (isDailyQuotaError(err)) {
+          console.error('\n🔴 Daily quota (RPD) exhausted during translation!')
+          console.error(`   Processed ${stats.processed} songs this run (${stats.enriched} enriched, ${stats.failed} failed).`)
+          console.error(`   Re-run tomorrow to continue automatically.`)
+          process.exit(0)
+        }
+        throw err
+      }
+    }
+
+    // ── Merge and write ────────────────────────────────────────────────────
+    const mergeInput: Partial<EnrichedMetadata> = {
+      ...(aiData ?? {}),
+      ...(translatedMeanings ? { stanzaMeanings: translatedMeanings } : {}),
+    }
+
+    if (aiData || translatedMeanings) {
+      const enrichedMetadata = mergeEnrichedMetadata(song.enrichedMetadata, mergeInput)
       const updated: SongBlobData = { ...song, enrichedMetadata }
       await fs.writeFile(filepath, JSON.stringify(updated, null, 2) + '\n')
-      console.log(
-        `       ✅ Enriched  actor="${enrichedMetadata.actorName || '—'}"  actress="${enrichedMetadata.actressName || '—'}"  mood=${JSON.stringify(enrichedMetadata.mood)}`,
-      )
-      if (enrichedMetadata.high_ctr_intro) {
-        console.log(`       📝 Intro: ${enrichedMetadata.high_ctr_intro.substring(0, 100)}…`)
+      if (aiData) {
+        console.log(
+          `       ✅ Enriched  actor="${enrichedMetadata.actorName || '—'}"  actress="${enrichedMetadata.actressName || '—'}"  mood=${JSON.stringify(enrichedMetadata.mood)}`,
+        )
+        if (enrichedMetadata.high_ctr_intro) {
+          console.log(`       📝 Intro: ${enrichedMetadata.high_ctr_intro.substring(0, 100)}…`)
+        }
+      }
+      if (translatedMeanings) {
+        console.log(`       🌐 Translated ${translatedMeanings.length} stanzas to English`)
       }
       stats.enriched++
     } else {
