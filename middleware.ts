@@ -111,11 +111,15 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico, robots.txt, sitemap.xml (legitimate static files)
-     * - app-ads.txt (Google AdSense verification)
+     * - ads.txt / app-ads.txt (IAB/AdSense publisher file - MUST be served without any redirect)
      * - manifest.json (PWA manifest)
+     *
+     * IMPORTANT: ads.txt must bypass middleware so the non-www→www redirect does NOT apply.
+     * IAB spec forbids following redirects to a subdomain for ads.txt; www is treated as
+     * a subdomain, so tsonglyrics.com/ads.txt → www.tsonglyrics.com/ads.txt causes "Not found".
      *
      * Everything else goes through middleware for validation
      */
-    '/((?!api|_next/static|_next/image|favicon|robots\\.txt|sitemap|app-ads\\.txt|manifest\\.json|android-chrome|apple-touch|icon).*)',
+    '/((?!api|_next/static|_next/image|favicon|robots\\.txt|sitemap|ads\\.txt|app-ads\\.txt|manifest\\.json|android-chrome|apple-touch|icon).*)',
   ],
 }
