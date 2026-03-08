@@ -71,5 +71,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfSTCKkpHSh8cc4T5gmBrr5sn_z5G23X9bSLYEyDZ2CYYUm-1_OHMBTQCYqRBGWBaj47AziV8zg27WPWtskAOwHX2cud1VSspbGz-ngIdG9N7yPv9idDRN4ZkE9VhlJL7Nx4yYhpgqmfk/s400-c/Yuvan_Yuvathi_300.jpg",
   "generatedAt": "2026-01-18T13:10:22.336Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "romantic"
+    ],
+    "songType": [
+      "dance number",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive",
+      "workout"
+    ],
+    "keywords": [
+      "yuvan yuvathi",
+      "bharath",
+      "rima kallingal",
+      "vijay antony",
+      "haricharan",
+      "annamalai",
+      "2011",
+      "tamil song",
+      "romantic",
+      "energetic",
+      "dance number",
+      "movie soundtrack",
+      "tamil cinema",
+      "youthful",
+      "party song"
+    ],
+    "actorName": "Bharath",
+    "actressName": "Rima Kallingal",
+    "releaseYear": "2011",
+    "high_ctr_intro": "Experience the vibrant energy of the song <strong>24 Hours</strong> from the movie <em>Yuvan Yuvathi</em>, featuring the melodious voice of Haricharan. Composed by the talented Vijay Antony, this track combines rhythmic beats with catchy lyrics by Annamalai. Dive into this musical journey that perfectly encapsulates youthful exuberance and modern vibes."
+  }
 }

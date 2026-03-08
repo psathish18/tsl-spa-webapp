@@ -1,20 +1,22 @@
 /**
  * Batch AI enrichment script for song JSON files in public/songs/
  *
- * Reads every JSON in public/songs/, calls GitHub Copilot API (GPT-4o)
+ * Reads every JSON in public/songs/, calls an OpenAI-compatible API (GPT-4o)
  * to populate/update enrichedMetadata, then writes the result back in-place.
  *
- * Authentication
- * --------------
- * Set GITHUB_TOKEN (a personal access token with Copilot access) or
- * COPILOT_API_KEY (a standalone Copilot API key) in your environment.
- * The script uses the GitHub Copilot OpenAI-compatible endpoint:
- *   https://api.githubcopilot.com
+ * Authentication — choose ONE of the following (in priority order):
+ * ---------------------------------------------------------------
+ * 1. OPENAI_API_KEY=sk-...          → OpenAI API (recommended, no extra setup)
+ *       OPENAI_API_KEY=sk-xxx tsx scripts/enrich-song-metadata.ts
+ *
+ * 2. COPILOT_API_KEY=<oauth-token>  → GitHub Copilot API
+ *       Obtain with: gh auth token  (needs `gh` CLI logged in with Copilot access)
+ *       NOTE: Standard PATs (ghp_...) are NOT supported by the Copilot endpoint.
  *
  * Resume behaviour
  * ----------------
- * Songs that already have `enrichedMetadata` are SKIPPED automatically, so you
- * can interrupt at any time and re-run — it will continue from where it left off.
+ * Songs that already have `enrichedMetadata.high_ctr_intro` are SKIPPED
+ * automatically, so you can interrupt at any time and re-run.
  * Use `--force` to re-enrich files that already have enrichedMetadata.
  *
  * Rate-limit handling
@@ -26,12 +28,13 @@
  *
  * Usage
  * -----
- *   GITHUB_TOKEN=xxx tsx scripts/enrich-song-metadata.ts
- *   GITHUB_TOKEN=xxx tsx scripts/enrich-song-metadata.ts --force
- *   GITHUB_TOKEN=xxx tsx scripts/enrich-song-metadata.ts --limit=50
- *   tsx scripts/enrich-song-metadata.ts --dry-run   # no writes, no API calls
+ *   OPENAI_API_KEY=sk-xxx npm run enrich-song-metadata
+ *   OPENAI_API_KEY=sk-xxx npm run enrich-song-metadata -- --force
+ *   OPENAI_API_KEY=sk-xxx npm run enrich-song-metadata -- --limit=50
+ *   npm run enrich-song-metadata -- --dry-run   # no writes, no API calls
  */
 
+import { execSync } from 'child_process'
 import fs from 'fs/promises'
 import path from 'path'
 import OpenAI from 'openai'
@@ -44,7 +47,7 @@ import type { SongBlobData, EnrichedMetadata } from './types/song-blob.types'
 const SONGS_DIR = path.join(__dirname, '../public/songs')
 const MODEL_NAME = 'gpt-4o'
 
-/** GitHub Copilot OpenAI-compatible base URL */
+/** GitHub Copilot OpenAI-compatible base URL (requires OAuth token, not PAT) */
 const COPILOT_BASE_URL = 'https://api.githubcopilot.com'
 
 /** Milliseconds to wait between successful requests (~13 RPM, well under the rate limit) */
@@ -55,6 +58,72 @@ const MAX_RETRIES = 4
 
 /** Base delay for exponential back-off (ms) */
 const BACKOFF_BASE_MS = 15_000
+
+// ---------------------------------------------------------------------------
+// API client factory — resolves credentials and chooses the right endpoint
+// ---------------------------------------------------------------------------
+
+interface ApiClientConfig {
+  client: OpenAI
+  /** Human-readable label shown in startup log */
+  label: string
+}
+
+/**
+ * Priority order:
+ *  1. OPENAI_API_KEY          → standard OpenAI endpoint (sk-... key)
+ *  2. COPILOT_API_KEY         → GitHub Copilot endpoint (must be an OAuth token,
+ *                               NOT a PAT — obtain via `gh auth token`)
+ *  3. gh auth token (auto)    → fetches the OAuth token from the GitHub CLI and
+ *                               uses the Copilot endpoint automatically
+ *
+ * Standard GitHub PATs (ghp_...) are rejected by api.githubcopilot.com with a
+ * 400 "Personal Access Tokens are not supported" error — use option 1 or 3.
+ */
+function resolveApiClient(): ApiClientConfig {
+  // Option 1: standard OpenAI key
+  if (process.env.OPENAI_API_KEY) {
+    return {
+      client: new OpenAI({ apiKey: process.env.OPENAI_API_KEY }),
+      label: 'OpenAI API (OPENAI_API_KEY)',
+    }
+  }
+
+  // Option 2: explicit Copilot OAuth token
+  if (process.env.COPILOT_API_KEY) {
+    return {
+      client: new OpenAI({ apiKey: process.env.COPILOT_API_KEY, baseURL: COPILOT_BASE_URL }),
+      label: 'GitHub Copilot API (COPILOT_API_KEY)',
+    }
+  }
+
+  // Option 3: auto-fetch OAuth token via `gh auth token`
+  // (GITHUB_TOKEN env var is treated as a hint that the user is logged in with gh CLI)
+  try {
+    const oauthToken = execSync('gh auth token', { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }).trim()
+    // GitHub OAuth tokens start with 'gho_'; accept any non-empty token the CLI returns
+    if (oauthToken && (oauthToken.startsWith('gho_') || oauthToken.startsWith('github_'))) {
+      return {
+        client: new OpenAI({ apiKey: oauthToken, baseURL: COPILOT_BASE_URL }),
+        label: 'GitHub Copilot API (gh auth token)',
+      }
+    }
+    if (oauthToken) {
+      console.warn('  ⚠️  `gh auth token` returned an unexpected token format — skipping Copilot auth path')
+    }
+  } catch (ghErr) {
+    const hint = ghErr instanceof Error ? ghErr.message.split('\n')[0] : String(ghErr)
+    console.warn(`  ⚠️  gh CLI unavailable or not authenticated (${hint}) — skipping Copilot auth path`)
+  }
+
+  console.error('❌  No API credentials found. Set one of:')
+  console.error('   OPENAI_API_KEY=sk-...         (recommended — standard OpenAI key)')
+  console.error('   COPILOT_API_KEY=<oauth-token>  (GitHub Copilot — run: gh auth token)')
+  console.error('')
+  console.error('   NOTE: Standard GitHub PATs (ghp_...) are NOT accepted by the Copilot endpoint.')
+  console.error('   Use `gh auth token` to get a compatible OAuth token, or use OPENAI_API_KEY.')
+  process.exit(1)
+}
 
 // ---------------------------------------------------------------------------
 // JSON schema for structured output (OpenAI JSON mode)
@@ -311,26 +380,22 @@ async function main() {
   }
 
   console.log('🎵 Tamil Song Lyrics — Batch AI Metadata Enrichment')
-  console.log(`   Model  : ${MODEL_NAME} (GitHub Copilot API)`)
+  console.log(`   Model  : ${MODEL_NAME}`)
   console.log(`   Source : ${SONGS_DIR}`)
   console.log(`   Mode   : ${dryRun ? 'DRY RUN (no writes)' : force ? 'FORCE (re-enrich all)' : 'INCREMENTAL (skip already enriched)'}`)
   if (limit) console.log(`   Limit  : ${limit} songs`)
   if (skipN) console.log(`   Skip   : first ${skipN} files`)
   console.log()
 
-  if (!dryRun && !process.env.GITHUB_TOKEN && !process.env.COPILOT_API_KEY) {
-    console.error('❌  No API key found. Set GITHUB_TOKEN or COPILOT_API_KEY.')
-    console.error('   Example:  GITHUB_TOKEN=your_token npm run enrich-song-metadata')
-    process.exit(1)
+  // Initialise the API client (resolves credentials; exits if none available)
+  // In dry-run mode we skip this so the script can run without any API key.
+  let client: OpenAI | null = null
+  if (!dryRun) {
+    const resolved = resolveApiClient()
+    client = resolved.client
+    console.log(`   API    : ${resolved.label}`)
+    console.log()
   }
-
-  // Initialise GitHub Copilot / OpenAI client (only when not in dry-run mode)
-  const client = dryRun
-    ? null
-    : new OpenAI({
-        apiKey: process.env.GITHUB_TOKEN ?? process.env.COPILOT_API_KEY!,
-        baseURL: COPILOT_BASE_URL,
-      })
 
   // Read all JSON files
   const allFiles = (await fs.readdir(SONGS_DIR))
