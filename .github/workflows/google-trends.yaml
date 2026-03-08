@@ -4,7 +4,7 @@ on:
   schedule:
     # Run daily at 6 PM UTC (adjust timezone as needed)
     # For IST (6 PM = 12:30 PM UTC), use: '30 12 * * *'
-    - cron: '0 18 * * *'
+    - cron: '30 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -54,6 +54,10 @@ jobs:
           echo "✅ Authentication files created"
 
       - name: Post Social Media Content to Blogger
+        env:
+          GCS_BUCKET_NAME: ${{ secrets.GCS_BUCKET_NAME }}
+          GCS_PROJECT_ID: ${{ secrets.GCS_PROJECT_ID }}
+          GCS_SERVICE_ACCOUNT_KEY: ${{ secrets.GCS_SERVICE_ACCOUNT_KEY }}
         run: |
           echo "📱 Posting social media content to Blogger..."
           npm run post-social-media
