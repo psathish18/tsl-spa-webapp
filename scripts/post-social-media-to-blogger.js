@@ -12,7 +12,8 @@ const SOCIAL_POSTS_JSON = path.join(__dirname, '../social-media-posts.json');
 const SONGS_DIR = path.join(__dirname, '../public/songs');
 const OG_IMAGES_DIR = path.join(__dirname, '../public/og-images');
 const OUTPUT_RESULTS = path.join(__dirname, '../social-media-blogger-results.json');
-const BLOG_ID = '4274710440628694122'; // tslshared.blogspot.com
+// const BLOG_ID = '4274710440628694122'; // tslshared.blogspot.com
+const BLOG_ID = '410491814635039034'; // https://tamilsonglyrics4all.blogspot.com/
 
 // Initialize GCS storage (optional - fallback to local if not configured)
 let gcsStorage = null;
