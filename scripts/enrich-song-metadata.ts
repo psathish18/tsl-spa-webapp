@@ -1,8 +1,15 @@
 /**
  * Batch AI enrichment script for song JSON files in public/songs/
  *
- * Reads every JSON in public/songs/, calls Google Gemini (gemini-2.5-flash-lite)
+ * Reads every JSON in public/songs/, calls GitHub Copilot API (GPT-4o)
  * to populate/update enrichedMetadata, then writes the result back in-place.
+ *
+ * Authentication
+ * --------------
+ * Set GITHUB_TOKEN (a personal access token with Copilot access) or
+ * COPILOT_API_KEY (a standalone Copilot API key) in your environment.
+ * The script uses the GitHub Copilot OpenAI-compatible endpoint:
+ *   https://api.githubcopilot.com
  *
  * Resume behaviour
  * ----------------
@@ -19,16 +26,15 @@
  *
  * Usage
  * -----
- *   GOOGLE_AI_API_KEY=xxx tsx scripts/enrich-song-metadata.ts
- *   GOOGLE_AI_API_KEY=xxx tsx scripts/enrich-song-metadata.ts --force
- *   GOOGLE_AI_API_KEY=xxx tsx scripts/enrich-song-metadata.ts --limit=50
+ *   GITHUB_TOKEN=xxx tsx scripts/enrich-song-metadata.ts
+ *   GITHUB_TOKEN=xxx tsx scripts/enrich-song-metadata.ts --force
+ *   GITHUB_TOKEN=xxx tsx scripts/enrich-song-metadata.ts --limit=50
  *   tsx scripts/enrich-song-metadata.ts --dry-run   # no writes, no API calls
  */
 
 import fs from 'fs/promises'
 import path from 'path'
-import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai'
-import type { ResponseSchema } from '@google/generative-ai'
+import OpenAI from 'openai'
 import type { SongBlobData, EnrichedMetadata } from './types/song-blob.types'
 
 // ---------------------------------------------------------------------------
@@ -36,9 +42,12 @@ import type { SongBlobData, EnrichedMetadata } from './types/song-blob.types'
 // ---------------------------------------------------------------------------
 
 const SONGS_DIR = path.join(__dirname, '../public/songs')
-const MODEL_NAME = 'gemini-2.5-flash-lite'
+const MODEL_NAME = 'gpt-4o'
 
-/** Milliseconds to wait between successful requests (~13 RPM, safely under the 15 RPM limit) */
+/** GitHub Copilot OpenAI-compatible base URL */
+const COPILOT_BASE_URL = 'https://api.githubcopilot.com'
+
+/** Milliseconds to wait between successful requests (~13 RPM, well under the rate limit) */
 const REQUEST_DELAY_MS = 4_500
 
 /** Maximum retries on a 429 RPM error before skipping a song */
@@ -48,50 +57,42 @@ const MAX_RETRIES = 4
 const BACKOFF_BASE_MS = 15_000
 
 // ---------------------------------------------------------------------------
-// Gemini response schema
+// JSON schema for structured output (OpenAI JSON mode)
 // ---------------------------------------------------------------------------
 
-const ENRICHED_METADATA_SCHEMA: ResponseSchema = {
-  type: SchemaType.OBJECT,
+const RESPONSE_JSON_SCHEMA = {
+  type: 'object',
   properties: {
-    actorName: {
-      type: SchemaType.STRING,
-      description: 'Lead actor / hero name for this Tamil movie. Use your Tamil cinema knowledge to fill this in accurately. Empty string if genuinely unknown.',
-    },
-    actressName: {
-      type: SchemaType.STRING,
-      description: 'Lead actress / heroine name for this Tamil movie. Use your Tamil cinema knowledge to fill this in accurately. Empty string if genuinely unknown.',
-    },
-    releaseYear: {
-      type: SchemaType.STRING,
-      description: 'Movie/song release year as a 4-digit string (YYYY). Empty string if unknown.',
-    },
+    actorName: { type: 'string', description: 'Lead actor / hero name. Use Tamil cinema knowledge. Empty string if unknown.' },
+    actressName: { type: 'string', description: 'Lead actress / heroine name. Use Tamil cinema knowledge. Empty string if unknown.' },
+    releaseYear: { type: 'string', description: 'Movie/song release year as YYYY. Empty string if unknown.' },
     mood: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
-      description:
-        'Song moods: romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other',
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Song moods: romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other',
     },
     songType: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
-      description:
-        'Song type tags: duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song',
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Song type tags: duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song',
     },
     occasions: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
-      description:
-        "Occasions the song suits: valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout",
+      type: 'array',
+      items: { type: 'string' },
+      description: "Occasions the song suits: valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout",
     },
     keywords: {
-      type: SchemaType.ARRAY,
-      items: { type: SchemaType.STRING },
+      type: 'array',
+      items: { type: 'string' },
       description: 'Lowercase keywords for search/discovery (movie, artists, mood, genre, etc.)',
     },
   },
-  required: ['mood', 'songType', 'occasions', 'keywords'],
-}
+  // actorName, actressName, releaseYear are required in the schema so the API always
+  // returns these fields; the description instructs the model to use an empty string
+  // when the value is genuinely unknown, so "required" ≠ "non-empty" here.
+  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords'],
+  additionalProperties: false,
+} as const
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -179,15 +180,33 @@ Return a JSON object with:
 // Core enrichment with retry
 // ---------------------------------------------------------------------------
 
-async function callGeminiWithRetry(
-  model: ReturnType<InstanceType<typeof GoogleGenerativeAI>['getGenerativeModel']>,
+async function callCopilotWithRetry(
+  client: OpenAI,
   prompt: string,
   slug: string,
 ): Promise<Partial<EnrichedMetadata> | null> {
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const result = await model.generateContent(prompt)
-      const text = result.response.text()
+      const response = await client.chat.completions.create({
+        model: MODEL_NAME,
+        temperature: 0.2,
+        response_format: {
+          type: 'json_schema',
+          json_schema: {
+            name: 'enriched_metadata',
+            strict: true,
+            schema: RESPONSE_JSON_SCHEMA,
+          },
+        },
+        messages: [
+          {
+            role: 'system',
+            content: 'You are an expert in Tamil cinema and music. Always respond with valid JSON matching the requested schema.',
+          },
+          { role: 'user', content: prompt },
+        ],
+      })
+      const text = response.choices[0]?.message?.content ?? ''
       return JSON.parse(text) as Partial<EnrichedMetadata>
     } catch (err) {
       if (isDailyQuotaError(err)) {
@@ -201,7 +220,7 @@ async function callGeminiWithRetry(
         continue
       }
       // Non-retriable error: log and return null (skip this song)
-      console.warn(`  ⚠️  Gemini error for "${slug}": ${(err as Error).message}`)
+      console.warn(`  ⚠️  Copilot API error for "${slug}": ${(err as Error).message}`)
       return null
     }
   }
@@ -266,31 +285,26 @@ async function main() {
   }
 
   console.log('🎵 Tamil Song Lyrics — Batch AI Metadata Enrichment')
-  console.log(`   Model  : ${MODEL_NAME}`)
+  console.log(`   Model  : ${MODEL_NAME} (GitHub Copilot API)`)
   console.log(`   Source : ${SONGS_DIR}`)
   console.log(`   Mode   : ${dryRun ? 'DRY RUN (no writes)' : force ? 'FORCE (re-enrich all)' : 'INCREMENTAL (skip already enriched)'}`)
   if (limit) console.log(`   Limit  : ${limit} songs`)
   if (skipN) console.log(`   Skip   : first ${skipN} files`)
   console.log()
 
-  if (!dryRun && !process.env.GOOGLE_AI_API_KEY) {
-    console.error('❌  GOOGLE_AI_API_KEY environment variable is not set.')
-    console.error('   Set it and re-run:  GOOGLE_AI_API_KEY=your_key npm run enrich-song-metadata')
+  if (!dryRun && !process.env.GITHUB_TOKEN && !process.env.COPILOT_API_KEY) {
+    console.error('❌  No API key found. Set GITHUB_TOKEN or COPILOT_API_KEY.')
+    console.error('   Example:  GITHUB_TOKEN=your_token npm run enrich-song-metadata')
     process.exit(1)
   }
 
-  // Initialise Gemini model
-  const genAI = dryRun ? null : new GoogleGenerativeAI(process.env.GOOGLE_AI_API_KEY!)
-  const model = genAI
-    ? genAI.getGenerativeModel({
-        model: MODEL_NAME,
-        generationConfig: {
-          responseMimeType: 'application/json',
-          responseSchema: ENRICHED_METADATA_SCHEMA,
-          temperature: 0.2,
-        },
+  // Initialise GitHub Copilot / OpenAI client (only when not in dry-run mode)
+  const client = dryRun
+    ? null
+    : new OpenAI({
+        apiKey: process.env.GITHUB_TOKEN ?? process.env.COPILOT_API_KEY!,
+        baseURL: COPILOT_BASE_URL,
       })
-    : null
 
   // Read all JSON files
   const allFiles = (await fs.readdir(SONGS_DIR))
@@ -346,7 +360,7 @@ async function main() {
 
     let aiData: Partial<EnrichedMetadata> | null = null
     try {
-      aiData = await callGeminiWithRetry(model!, buildPrompt(song), song.slug)
+      aiData = await callCopilotWithRetry(client!, buildPrompt(song), song.slug)
     } catch (err) {
       if (isDailyQuotaError(err)) {
         console.error('\n🔴 Daily quota (RPD) exhausted!')
