@@ -337,7 +337,7 @@ function formatPostWithImage(originalContent, songData, ogImageData = null) {
   }
   
   // Add song thumbnail if available
-  if (songData && songData.thumbnail) {
+  else if (songData && songData.thumbnail) {
     imageHtml += `<div class="separator" style="clear: both; text-align: center;">
 <a href="${songData.thumbnail}" style="margin-left: 1em; margin-right: 1em;">
 <img border="0" src="${songData.thumbnail}" width="400" alt="${songData.title || ''}" title="${songData.title || ''}" />
