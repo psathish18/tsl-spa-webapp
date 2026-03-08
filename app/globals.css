@@ -622,3 +622,132 @@
 .theme-dark .intro-section strong {
   color: var(--primary);
 }
+
+/* ── Copy button pill (matches share-pill style) ─────────────────────────── */
+.share-pill.copy {
+  background-color: #f0f4ff;
+  color: #4338ca;
+  border: 1px solid rgba(67,56,202,0.12);
+  cursor: pointer;
+}
+.share-pill.copy:hover {
+  background-color: #e0e7ff;
+}
+.theme-dark .share-pill.copy {
+  background-color: transparent !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  color: #818cf8 !important;
+}
+.theme-dark .share-pill.copy:hover {
+  background-color: rgba(255,255,255,0.05) !important;
+}
+
+/* ── Copy All Lyrics button ───────────────────────────────────────────────── */
+.copy-all-btn {
+  background-color: #f0f4ff;
+  color: #4338ca;
+  border: 1px solid rgba(67,56,202,0.14);
+  cursor: pointer;
+}
+.copy-all-btn:hover {
+  background-color: #e0e7ff;
+}
+.theme-dark .copy-all-btn {
+  background-color: transparent;
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #818cf8;
+}
+.theme-dark .copy-all-btn:hover {
+  background-color: rgba(255,255,255,0.05);
+}
+
+/* ── Stanza label badge ───────────────────────────────────────────────────── */
+.stanza-label {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.55rem;
+  border-radius: 9999px;
+  background-color: var(--pill-bg, #eff6ff);
+  color: var(--pill-text, #1e40af);
+  border: 1px solid rgba(30,64,175,0.12);
+  margin-bottom: 0.4rem;
+}
+.theme-dark .stanza-label {
+  background-color: rgba(255,255,255,0.05);
+  color: var(--pill-text, #fbbf24);
+  border-color: rgba(255,255,255,0.08);
+}
+
+/* ── Stanza meaning toggle ────────────────────────────────────────────────── */
+.meaning-toggle-btn {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.meaning-toggle-btn:hover {
+  color: #1d4ed8;
+}
+.theme-dark .meaning-toggle-btn {
+  color: #60a5fa;
+}
+.theme-dark .meaning-toggle-btn:hover {
+  color: #93c5fd;
+}
+.meaning-block {
+  border-left-color: #93c5fd;
+  color: #4b5563;
+}
+.theme-dark .meaning-block {
+  border-left-color: #3b82f6;
+  color: #9ca3af;
+}
+
+/* ── Mood tags ────────────────────────────────────────────────────────────── */
+.mood-tag {
+  /* inherits bg/text from Tailwind utility classes applied inline */
+  letter-spacing: 0.03em;
+}
+.theme-dark .mood-tag {
+  opacity: 0.9;
+}
+
+/* ── Auto-generated FAQ section ──────────────────────────────────────────── */
+.auto-faq-section {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.auto-faq-item {
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  padding: 1rem 1.25rem;
+}
+.auto-faq-item:last-child {
+  border-bottom: none;
+}
+.auto-faq-item h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.35rem;
+}
+.auto-faq-item p {
+  font-size: 0.875rem;
+  color: #475569;
+  margin: 0;
+  line-height: 1.6;
+}
+.theme-dark .auto-faq-item {
+  border-bottom-color: rgba(255,255,255,0.06);
+}
+.theme-dark .auto-faq-item h3 {
+  color: #e2e8f0;
+}
+.theme-dark .auto-faq-item p {
+  color: #94a3b8;
+}

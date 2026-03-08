@@ -14,6 +14,40 @@
   },
   "headers": [
     {
+      "source": "/ads.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/app-ads.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         {
@@ -38,6 +72,41 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/about",
+      "destination": "/about-tamil-song-lyrics",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about-tamil-song-lyrics",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy-policy-tamil-song-lyrics-app",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy-policy-tamil-song-lyrics-app",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/terms.html",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
     {
       "source": "/apple-touch-icon-precomposed.png",
       "destination": "/apple-touch-icon.png",
@@ -88,7 +157,6 @@
       "destination": "/manifest.json",
       "permanent": true
     },
-
     {
       "source": "/enakenna-yaarumillaye-english-meaning.html",
       "destination": "/enakena-lyrics-in-tamil-english-meaning.html",

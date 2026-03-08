@@ -29,12 +29,21 @@ import {
 } from '@/lib/seoUtils'
 import { fetchFromBlob } from '@/lib/blobStorage'
 import type { SongBlobData } from '@/scripts/types/song-blob.types'
+import {
+  getStanzaLabel,
+  generateAutoFAQ,
+} from '@/lib/songContentUtils'
+import MoodTags from '@/components/MoodTags'
 // Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
 const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
 // Client stanza renderer (client-only, interactive share buttons)
 const StanzaShareClient = dynamic(() => import('../../components/StanzaShareClient').then(mod => mod.default), { ssr: false });
 // Tab component for switching between Tamil and Tanglish lyrics
 const LyricsTabs = dynamic(() => import('../../components/LyricsTabs').then(mod => mod.default), { ssr: false });
+// Copy / meaning toggle (interactive, client-only)
+const CopyButton = dynamic(() => import('../../components/CopyButton').then(mod => mod.default), { ssr: false });
+const CopyAllLyricsButton = dynamic(() => import('../../components/CopyAllLyricsButton').then(mod => mod.default), { ssr: false });
+const StanzaMeaningToggle = dynamic(() => import('../../components/StanzaMeaningToggle').then(mod => mod.default), { ssr: false });
 // Related songs component
 import RelatedSongs from '@/components/RelatedSongs'
 
@@ -610,6 +619,22 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Use blob data if available, otherwise we'll fetch them later but won't include in structured data
   const relatedSongsForSEO = fromBlob && blobData ? blobData.relatedSongs : [];
 
+  // Auto-generated FAQ items (#11) — derived entirely from existing metadata
+  const autoFAQItems = generateAutoFAQ({
+    songName,
+    movieName,
+    singerName: singerName !== 'Unknown Artist' ? singerName : undefined,
+    lyricistName,
+    musicName,
+    actorName: metadata.actorName,
+    hasTamilLyrics: tamilStanzas.length > 0,
+    hasEnglishLyrics: englishStanzas.length > 0,
+  });
+
+  // Plain-text versions of each stanza for clipboard copy (#7, #8)
+  const stanzaPlainTexts = stanzas ? stanzas.map(s => htmlToPlainText(s)) : [];
+  const allLyricsText = stanzaPlainTexts.join('\n\n');
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <article>
@@ -705,6 +730,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 );
               })}
             </div>
+            {/* Mood tags – auto-detected from title / singer / music director */}
+            <MoodTags title={songName} singerName={singerName} musicName={musicName} />
           </div>
         </header>
         
@@ -812,7 +839,18 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                       "item": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`
                     }
                   ]
-                }
+                },
+                ...(autoFAQItems.length > 0 ? [{
+                  "@type": "FAQPage",
+                  "mainEntity": autoFAQItems.map(faq => ({
+                    "@type": "Question",
+                    "name": faq.question,
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": faq.answer
+                    }
+                  }))
+                }] : [])
               ]
             })
           }}
@@ -841,6 +879,55 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           />
         </div> */}
         
+        {/* Song metadata summary - adds editorial value and context for readers */}
+        {(movieName || singerName || lyricistName || musicName) && (
+          <div className="song-info-card mb-8 bg-gray-50 rounded-lg p-5 border border-gray-200">
+            <h2 className="text-lg font-semibold text-gray-800 mb-3">About This Song</h2>
+            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+              {movieName && (
+                <>
+                  <dt className="font-medium text-gray-600">Movie / Album</dt>
+                  <dd className="text-gray-800">{movieName}</dd>
+                </>
+              )}
+              {singerName && singerName !== 'Unknown Artist' && (
+                <>
+                  <dt className="font-medium text-gray-600">Singer(s)</dt>
+                  <dd className="text-gray-800">{singerName}</dd>
+                </>
+              )}
+              {lyricistName && (
+                <>
+                  <dt className="font-medium text-gray-600">Lyrics by</dt>
+                  <dd className="text-gray-800">{lyricistName}</dd>
+                </>
+              )}
+              {musicName && (
+                <>
+                  <dt className="font-medium text-gray-600">Music by</dt>
+                  <dd className="text-gray-800">{musicName}</dd>
+                </>
+              )}
+              {metadata.actorName && (
+                <>
+                  <dt className="font-medium text-gray-600">Starring</dt>
+                  <dd className="text-gray-800">{metadata.actorName}</dd>
+                </>
+              )}
+              {publishedDate && (
+                <>
+                  <dt className="font-medium text-gray-600">Published</dt>
+                  <dd className="text-gray-800">
+                    <time dateTime={song.published?.$t}>
+                      {publishedDate.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}
+                    </time>
+                  </dd>
+                </>
+              )}
+            </dl>
+          </div>
+        )}
+
         {/* Intro section - if present */}
         {contentSections.intro && (
           <div 
@@ -872,6 +959,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
                 const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                const label = getStanzaLabel(idx, tamilStanzas.length);
                 
                 const twitterHref = buildTwitterShareUrl({
                   snippet: snippetWithStars,
@@ -887,8 +975,12 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 
                 return (
                   <div key={idx} className="mb-6">
+                    {/* #6 Stanza label */}
+                    <span className="stanza-label">{label}</span>
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
-                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
+                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600 flex-wrap">
+                      {/* #7 Copy stanza */}
+                      <CopyButton text={plainText} label="Copy stanza" />
                       <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
                       <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
                     </div>
@@ -904,12 +996,17 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               style={{ lineHeight: '2' }}
               data-server-stanzas-count={stanzas ? String(stanzas.length) : '0'}
             >
+              {/* #8 Copy all lyrics button */}
+              {stanzas && stanzas.length > 0 && (
+                <CopyAllLyricsButton plainText={allLyricsText} songTitle={songName} />
+              )}
               {stanzas && stanzas.length > 0 ? (
                 stanzas.map((stanzaHtml, idx) => {
                   // Build snippet and share URLs using utility functions
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
                   const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                  const label = getStanzaLabel(idx, stanzas.length);
                   
                   const twitterHref = buildTwitterShareUrl({
                     snippet: snippetWithStars,
@@ -925,8 +1022,16 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   
                   return (
                     <div key={idx} className="mb-6">
+                      {/* #6 Stanza label */}
+                      <span className="stanza-label">{label}</span>
                       <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
-                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
+                      {/* #2 Inline English meaning toggle (shown only when English stanzas exist) */}
+                      {englishStanzas[idx] && (
+                        <StanzaMeaningToggle meaningHtml={englishStanzas[idx]} />
+                      )}
+                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600 flex-wrap">
+                        {/* #7 Copy stanza */}
+                        <CopyButton text={plainText} label="Copy stanza" />
                         <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
                           <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
                       </div>
@@ -946,8 +1051,11 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               data-server-stanzas-count={String(englishStanzas.length)}
             >
               {englishStanzas.map((stanzaHtml, idx) => {
+                const label = getStanzaLabel(idx, englishStanzas.length);
                 return (
                   <div key={idx} className="mb-6">
+                    {/* #6 Stanza label */}
+                    <span className="stanza-label">{label}</span>
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
                   </div>
                 );
@@ -963,6 +1071,23 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
             className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200"
             dangerouslySetInnerHTML={{ __html: contentSections.faq }}
           />
+        )}
+
+        {/* Auto-generated FAQ (#11) — adds unique editorial Q&A content for every song */}
+        {autoFAQItems.length > 0 && (
+          <div className="auto-faq-section mt-8 mb-8 bg-gray-50 border border-gray-200">
+            <h2 className="text-lg font-semibold px-5 pt-4 pb-3 border-b border-gray-200 text-gray-700">
+              Frequently Asked Questions
+            </h2>
+            <div>
+              {autoFAQItems.map((faq, i) => (
+                <div key={i} className="auto-faq-item">
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* Google AdSense - After lyrics before related songs */}
