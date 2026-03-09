@@ -186,7 +186,8 @@ const RESPONSE_JSON_SCHEMA = {
           question: { type: 'string' },
           answer: { type: 'string' }
         },
-        required: ['question', 'answer']
+        required: ['question', 'answer'],
+        additionalProperties: false,
       },
       description: 'Frequently asked questions about the song, including unique questions about the singer/music and contextual questions about the movie\'s plot/significance.'
     },
@@ -587,15 +588,17 @@ async function main() {
     }
 
     if (!force && song.enrichedMetadata?.high_ctr_intro) {
-      // Already fully enriched (has high_ctr_intro) — skip unless --force or stanzaMeanings missing/incomplete
+      // Already fully enriched — skip unless --force or any field is missing/incomplete
       const meaningsComplete =
         Array.isArray(song.enrichedMetadata.stanzaMeanings) &&
         song.enrichedMetadata.stanzaMeanings.length === song.stanzas.length
-      if (meaningsComplete) {
+      const faqComplete = Array.isArray(song.enrichedMetadata.faq) && song.enrichedMetadata.faq.length > 0
+      const summaryComplete = !!song.enrichedMetadata.summary
+      if (meaningsComplete && faqComplete && summaryComplete) {
         stats.skipped++
         continue
       }
-      // high_ctr_intro present but stanzaMeanings missing/incomplete — still needs translation
+      // high_ctr_intro present but other fields missing — still needs processing
     }
     pendingFiles.push(filename)
   }
@@ -605,7 +608,7 @@ async function main() {
 
   console.log(`📋 To process: ${stats.total} | Already enriched (skipped): ${stats.skipped} | Non-song files (excluded): ${notSongFile}`)
   if (stats.total === 0) {
-    console.log('\n✅ Nothing to do — all songs already have complete enrichedMetadata (including high_ctr_intro and stanzaMeanings).')
+    console.log('\n✅ Nothing to do — all songs already have complete enrichedMetadata (high_ctr_intro, faq, summary, and stanzaMeanings).')
     console.log('   Use --force to re-enrich existing data.')
     return
   }
