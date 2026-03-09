@@ -65,5 +65,62 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp-XWU8fjQiPId82cEwfrvB7Cb94EtiapdN7Vb2Xeq0uglHo-dFREADWJ-v2c84ZI0mkOAWDuy0Rzd8N5ZeRFeY1jGgfF_UJ_4Z9Ehnrmn7mErXj59hA36e9OzUOwea9EbLGD694IGKwQ/s400-c/Kathai-Thiraikathai-Vasanam-Iyakkam-stills-1.jpg",
   "generatedAt": "2026-01-18T12:59:12.478Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "peppy",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "kathai thiraikathai vasanam",
+      "a for azhaguirukku",
+      "ramya nsk",
+      "vijay antony",
+      "madhan karky",
+      "2014",
+      "peppy",
+      "dance number",
+      "tamil cinema",
+      "party song"
+    ],
+    "faq": [
+      {
+        "question": "Who composed the music for the song 'A for Azhaguirukku'?",
+        "answer": "The music for 'A for Azhaguirukku' was composed by Vijay Antony."
+      },
+      {
+        "question": "Which movie features the song 'A for Azhaguirukku'?",
+        "answer": "The song 'A for Azhaguirukku' is featured in the movie 'Kathai Thiraikathai Vasanam'."
+      },
+      {
+        "question": "Who is the lyricist of 'A for Azhaguirukku'?",
+        "answer": "The lyrics of 'A for Azhaguirukku' were penned by Madhan Karky."
+      }
+    ],
+    "summary": "The song 'A for Azhaguirukku' from the 2014 Tamil movie 'Kathai Thiraikathai Vasanam' is a lively and energetic track. Sung by Ramya NSK, with music composed by Vijay Antony and lyrics by Madhan Karky, this song exudes a playful and vibrant mood. Featuring the lead actors Santhosh Prathap and Akila Kishore, the song adds a dynamic and entertaining element to the film. Its catchy tune and rhythmic beats make it a perfect choice for celebrations and parties.",
+    "actorName": "Santhosh Prathap",
+    "actressName": "Akila Kishore",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>A for Azhaguirukku</strong> from the movie <em>Kathai Thiraikathai Vasanam</em> is a vibrant and energetic track that showcases the dynamic collaboration between composer Vijay Antony and lyricist Madhan Karky. Sung by the talented Ramya NSK, this song captivates listeners with its catchy lyrics and upbeat rhythm. Dive into this lively number and experience the zestful essence of Tamil cinema music.",
+    "stanzaMeanings": [
+      "A stands for beauty, sung by Ramya NSK, music by Vijay Antony, lyrics by Madhan Karky, from the movie Kathai Thiraikathai Vasanam.",
+      "A stands for beauty, B stands for fear, C stands for money, D stands for courage.",
+      "A red candy, I tied one to my saree. The devil noticed and the deity came to dance.",
+      "Don't wander the streets with lustful thoughts, and don't hunt down innocent creatures.",
+      "I will come with money and wealth. I will give you whatever you ask. Mix water with semolina and fix the girl.",
+      "A stands for beauty, B stands for fear, C stands for money, D stands for courage.",
+      "While I am here with a garland, the fresh flower buds shouldn't be plucked prematurely.",
+      "I am a firecracker ready to burst. Don't provoke a girl who says no.",
+      "Love, anger, and desire are all emotions.",
+      "A stands for beauty."
+    ]
+  }
 }
