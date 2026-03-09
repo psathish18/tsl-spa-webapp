@@ -13,7 +13,7 @@ export interface EnrichedMetadata {
   keywords: string[]              // Unique keyword array for search/discovery
   high_ctr_intro?: string         // SEO-optimised 3-sentence blog header intro (HTML allowed)
   stanzaMeanings?: string[]       // English meaning of each Tanglish stanza (parallel array — same index as SongBlobData.stanzas)
-  faq?: Faq[]                     // SEO-optimised FAQ section (HTML allowed)
+  faq?: string                    // SEO-optimised FAQ section as HTML string (rendered with dangerouslySetInnerHTML)
   summary?: string                // SEO-optimised concise summary (HTML allowed)
 }
 
@@ -69,11 +69,6 @@ export interface SongBlobData {
   // Cache metadata
   generatedAt: string             // ISO date when JSON was generated
   version: number                 // Schema version (for future migrations)
-}
-
-export interface Faq {
-  question: string
-  answer: string
 }
 
 export interface RelatedSong {

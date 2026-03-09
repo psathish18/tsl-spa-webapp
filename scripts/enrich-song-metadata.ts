@@ -178,18 +178,9 @@ const RESPONSE_JSON_SCHEMA = {
       type: 'string',
       description: 'A powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., Anirudh\'s mass beats with Vijay\'s vocals). Use <strong> tags for the song name and <em> for the movie.',
     },
-    faq:{
-      type: 'array',
-      items: {
-        type: 'object',
-        properties: {
-          question: { type: 'string' },
-          answer: { type: 'string' }
-        },
-        required: ['question', 'answer'],
-        additionalProperties: false,
-      },
-      description: 'Frequently asked questions about the song, including unique questions about the singer/music and contextual questions about the movie\'s plot/significance.'
+    faq: {
+      type: 'string',
+      description: 'FAQ section as an HTML string. Generate 3–5 question/answer pairs relevant to the song, movie, and artists. Format as: <div class="faq-section"><h3>Frequently Asked Questions</h3><div class="faq-item"><h4>First question?</h4><p>First answer.</p></div><div class="faq-item"><h4>Second question?</h4><p>Second answer.</p></div></div>. Use <strong> for key terms inside answers.',
     },
     summary: {
       type: 'string',
@@ -302,7 +293,9 @@ Return a JSON object with:
 - occasions   : array of suitable occasions (valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout)
 - keywords    : array of 8–15 lowercase search keywords (include movie, artists, mood, genre, year if known)
 - high_ctr_intro : a powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., "Anirudh's mass beats with Vijay's energy"). Use <strong> tags around the song name and <em> tags around the movie name. Make it compelling enough to drive clicks from search results.
-- faq         : an array of 3 to 5 frequently asked questions about the song, including unique questions about the singer/music and contextual questions about the movie's plot/significance.
+- faq         : 3 to 5 frequently asked questions about the song as an HTML string. Use this exact format (include all Q&A pairs inline):
+  <div class="faq-section"><h3>Frequently Asked Questions</h3><div class="faq-item"><h4>First question?</h4><p>First answer.</p></div><div class="faq-item"><h4>Second question?</h4><p>Second answer.</p></div></div>
+  Include questions about the song's meaning, the movie plot context, the singer/music director, actor/actress, and release year. Use <strong> for key terms in answers.
 - summary     : a 4 to 5 sentence summary of the song based on the situation in the movie, the theme of the song, what the song conveys, and the emotions it evokes.
 
 Strict rules:
@@ -311,7 +304,7 @@ Strict rules:
 3. If you cannot confidently identify the lead actor or actress, return an empty string for that field instead of guessing.
 4. For keywords, include a mix of movie name, singer, lyricist, music director, mood, genre, and release year (if known). Use only lowercase keywords without special characters.
 5. Ensure the high_ctr_intro is engaging and highlights what makes the song special. Use HTML tags as instructed.
-6. FAQs should be relevant and insightful, reflecting common curiosities about the song and its context in the movie.
+6. The faq field must be a valid HTML string following the exact format specified — do not return JSON objects or any other format.
 
 Respond with ONLY a JSON object matching this schema — no explanations or additional text.`
 }
@@ -487,7 +480,7 @@ function mergeEnrichedMetadata(
   existing: EnrichedMetadata | undefined,
   aiData: Partial<EnrichedMetadata>,
 ): EnrichedMetadata {
-  const base: EnrichedMetadata = existing ?? { mood: ['other'], songType: ['song'], occasions: [], keywords: [], faq: [], summary: '' }
+  const base: EnrichedMetadata = existing ?? { mood: ['other'], songType: ['song'], occasions: [], keywords: [], faq: '', summary: '' }
 
   const merged: EnrichedMetadata = {
     ...base,
@@ -495,7 +488,7 @@ function mergeEnrichedMetadata(
     songType: aiData.songType?.length ? aiData.songType : base.songType,
     occasions: aiData.occasions?.length ? aiData.occasions : base.occasions,
     keywords: aiData.keywords?.length ? aiData.keywords : base.keywords,
-    faq: aiData.faq?.length ? aiData.faq : base.faq,
+    faq: aiData.faq ? aiData.faq : base.faq,
     summary: aiData.summary?.length ? aiData.summary : base.summary,
   }
   if (aiData.actorName || base.actorName) {
@@ -592,7 +585,7 @@ async function main() {
       const meaningsComplete =
         Array.isArray(song.enrichedMetadata.stanzaMeanings) &&
         song.enrichedMetadata.stanzaMeanings.length === song.stanzas.length
-      const faqComplete = Array.isArray(song.enrichedMetadata.faq) && song.enrichedMetadata.faq.length > 0
+      const faqComplete = typeof song.enrichedMetadata.faq === 'string' && song.enrichedMetadata.faq.length > 0
       const summaryComplete = !!song.enrichedMetadata.summary
       if (meaningsComplete && faqComplete && summaryComplete) {
         stats.skipped++

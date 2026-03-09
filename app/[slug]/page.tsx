@@ -578,7 +578,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
       intro: blobData.sections?.intro || blobData.enrichedMetadata?.high_ctr_intro || '',
       easterEgg: blobData.sections?.easterEgg || '',
       lyrics: '',  // Lyrics are stored as stanzas in blob, not in sections
-      faq: blobData.sections?.faq || ''
+      faq: blobData.sections?.faq || blobData.enrichedMetadata?.faq || ''
     };
   } else {
     // Fallback: Parse and split content from Blogger
