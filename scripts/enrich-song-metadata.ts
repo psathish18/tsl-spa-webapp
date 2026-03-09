@@ -178,11 +178,27 @@ const RESPONSE_JSON_SCHEMA = {
       type: 'string',
       description: 'A powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., Anirudh\'s mass beats with Vijay\'s vocals). Use <strong> tags for the song name and <em> for the movie.',
     },
+    faq:{
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          question: { type: 'string' },
+          answer: { type: 'string' }
+        },
+        required: ['question', 'answer']
+      },
+      description: 'Frequently asked questions about the song, including unique questions about the singer/music and contextual questions about the movie\'s plot/significance.'
+    },
+    summary: {
+      type: 'string',
+      description: 'A 4 to 5 sentence summary of the song ( include actor name, actress name and release year) based on the situation in the movie, the theme / mood of the song, what the song conveys, and the emotions it evokes.'
+    }
   },
   // actorName, actressName, releaseYear are required in the schema so the API always
   // returns these fields; the description instructs the model to use an empty string
   // when the value is genuinely unknown, so "required" ≠ "non-empty" here.
-  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords', 'high_ctr_intro'],
+  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords', 'high_ctr_intro', 'faq', 'summary'],
   additionalProperties: false,
 } as const
 
@@ -257,7 +273,7 @@ function buildPrompt(song: SongBlobData): string {
   const categories = song.category.join(', ')
   const actorHint = song.actorName ? `\nKnown actor from song data: ${song.actorName}` : ''
 
-  return `You are an expert in Tamil cinema and music with deep knowledge of Tamil movies, actors, and actresses.
+  return `You are an expert in Tamil cinema and music with deep knowledge of Tamil movies inlcluding old tamil movies ( from 1950s to present), actors, and actresses.
 
 Analyze the following Tamil song details and return enriched metadata as JSON.
 
@@ -284,7 +300,19 @@ Return a JSON object with:
 - songType    : array of song type tags (duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song)
 - occasions   : array of suitable occasions (valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout)
 - keywords    : array of 8–15 lowercase search keywords (include movie, artists, mood, genre, year if known)
-- high_ctr_intro : a powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., "Anirudh's mass beats with Vijay's energy"). Use <strong> tags around the song name and <em> tags around the movie name. Make it compelling enough to drive clicks from search results.`
+- high_ctr_intro : a powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., "Anirudh's mass beats with Vijay's energy"). Use <strong> tags around the song name and <em> tags around the movie name. Make it compelling enough to drive clicks from search results.
+- faq         : an array of 3 to 5 frequently asked questions about the song, including unique questions about the singer/music and contextual questions about the movie's plot/significance.
+- summary     : a 4 to 5 sentence summary of the song based on the situation in the movie, the theme of the song, what the song conveys, and the emotions it evokes.
+
+Strict rules:
+1. Base all metadata on the song details and your knowledge of Tamil cinema. Do NOT make up information.
+2. If the movie name is unknown but you can infer the actor/actress from the song details, provide those names based on your Tamil cinema knowledge.
+3. If you cannot confidently identify the lead actor or actress, return an empty string for that field instead of guessing.
+4. For keywords, include a mix of movie name, singer, lyricist, music director, mood, genre, and release year (if known). Use only lowercase keywords without special characters.
+5. Ensure the high_ctr_intro is engaging and highlights what makes the song special. Use HTML tags as instructed.
+6. FAQs should be relevant and insightful, reflecting common curiosities about the song and its context in the movie.
+
+Respond with ONLY a JSON object matching this schema — no explanations or additional text.`
 }
 
 // ---------------------------------------------------------------------------
@@ -458,7 +486,7 @@ function mergeEnrichedMetadata(
   existing: EnrichedMetadata | undefined,
   aiData: Partial<EnrichedMetadata>,
 ): EnrichedMetadata {
-  const base: EnrichedMetadata = existing ?? { mood: ['other'], songType: ['song'], occasions: [], keywords: [] }
+  const base: EnrichedMetadata = existing ?? { mood: ['other'], songType: ['song'], occasions: [], keywords: [], faq: [], summary: '' }
 
   const merged: EnrichedMetadata = {
     ...base,
@@ -466,6 +494,8 @@ function mergeEnrichedMetadata(
     songType: aiData.songType?.length ? aiData.songType : base.songType,
     occasions: aiData.occasions?.length ? aiData.occasions : base.occasions,
     keywords: aiData.keywords?.length ? aiData.keywords : base.keywords,
+    faq: aiData.faq?.length ? aiData.faq : base.faq,
+    summary: aiData.summary?.length ? aiData.summary : base.summary,
   }
   if (aiData.actorName || base.actorName) {
     merged.actorName = aiData.actorName || base.actorName
@@ -477,7 +507,7 @@ function mergeEnrichedMetadata(
     merged.releaseYear = aiData.releaseYear || base.releaseYear
   }
   if (aiData.high_ctr_intro || base.high_ctr_intro) {
-    merged.high_ctr_intro = aiData.high_ctr_intro || base.high_ctr_intro
+    merged.high_ctr_intro =  base.high_ctr_intro || aiData.high_ctr_intro
   }
   if (aiData.stanzaMeanings?.length) {
     merged.stanzaMeanings = aiData.stanzaMeanings

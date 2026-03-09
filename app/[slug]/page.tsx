@@ -575,7 +575,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     stanzas = blobData.stanzas
     // Use sections from blob if present, otherwise set empty
     contentSections = {
-      intro: blobData.sections?.intro || '',
+      intro: blobData.sections?.intro || blobData.enrichedMetadata?.high_ctr_intro || '',
       easterEgg: blobData.sections?.easterEgg || '',
       lyrics: '',  // Lyrics are stored as stanzas in blob, not in sections
       faq: blobData.sections?.faq || ''
