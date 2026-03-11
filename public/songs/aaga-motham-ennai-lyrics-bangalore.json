@@ -114,5 +114,37 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinPqBrqB-F_Ur2Jt9Mw6jphPM6FbA5TLTuC99SH34PfoQyc5HLs5l1UkhQVyfOVIw9VyGgAnOS7q0ParP_UnMIFAUJhrvfq6GHbs5UO9FgTDkxQL7h05deLHZ8QEuAe_Cpblc4uaOZuJI/s400-c/Bangalore_Naatkal.jpg",
   "generatedAt": "2026-01-18T12:52:27.498Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "bangalore naatkal",
+      "aaga motham ennai",
+      "gopi sundar",
+      "pazhani bharathi",
+      "tamil melody",
+      "romantic song",
+      "2016 tamil movie",
+      "tamil cinema",
+      "soothing music",
+      "duet song",
+      "tamil lyrics"
+    ],
+    "actorName": "Arya",
+    "actressName": "Sri Divya",
+    "releaseYear": "2016",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Aaga Motham Ennai</strong> from the movie <em>Bangalore Naatkal</em>. This song, composed and sung by the talented Gopi Sundar with lyrics by Pazhani Bharathi, captures the essence of love and longing. Dive into this musical journey that beautifully complements the film's heartfelt narrative."
+  }
 }

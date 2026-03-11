@@ -45,5 +45,60 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz4f33i0_zLDwb63Uw3rDaimB6Zwh2B6mNkvSRpGICeSEpKBFEPDxpf6sz-4u6jGjQgOSHizQxL4LdoRMknRB5ORoLo_zJuSvK7TkSNZ3FmoV8t6mrpUjE76Nr6NXiz7wWiQowrI8hn54/s400-c/Aagaayam+Ithanai+Naal+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:14:45.268Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "aagaayam ithanai naal",
+      "unakkum enakkum",
+      "spb",
+      "devi sri prasad",
+      "jayam ravi",
+      "trisha",
+      "tamil melody",
+      "romantic song",
+      "2006 tamil movie",
+      "tamil cinema",
+      "love song",
+      "soothing music"
+    ],
+    "actorName": "Jayam Ravi",
+    "actressName": "Trisha",
+    "releaseYear": "2006",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Aagaayam Ithanai Naal</strong> from the movie <em>Unakkum Enakkum</em>, a timeless romantic classic. Sung by the legendary SPB and composed by the talented Devi Sri Prasad, this song beautifully encapsulates the essence of love and devotion. Dive into its soothing tunes and let it transport you to a world of heartfelt emotions.",
+    "stanzaMeanings": [
+      "The sky has been this way for so long, lyrics for you and me.",
+      "The sky has stood firm without falling to the earth, supported by love.",
+      "Year after year, the earth blooms with flowers; the beautiful reason is love.",
+      "All five elements are servants of love; all seven days are dedicated to love, and all nine planets revolve around it.",
+      "When a tree is climbed with a ladder, when a mountain is scaled with a flag raised, when a spinning top is given to the hand, a well is dug.",
+      "Ordinary stones are turned into precious gems by the gaze of love; even in water, love's fish will swim.",
+      "Love enjoys challenges; if it seeks victory, it will endure anything.",
+      "Locked doors will be knocked upon; the path will be cleared, and all roads will lead to success.",
+      "Without looking back, it will bring down the stars; without any support, it will achieve victory.",
+      "This is iron forged in fire; two hearts unite and strengthen, overcoming fears and doubts.",
+      "Roots will intertwine and love will always prevail; when it runs with passion, it breaks through obstacles.",
+      "When seawater is filtered, it turns into salt; when tears are wiped away, love transforms them into kisses.",
+      "Will love come when called? If a bird enters a garden, will a fence stop it?",
+      "Love, like a wild plant, will bloom even when rules are imposed.",
+      "In the cave where the tiger lives, it grants courage to the heart; that is love.",
+      "This path may be rough, but it leads to success.",
+      "This journey reaches the desired heart.",
+      "For every bird that crosses the sea, there are no trees on the way, yet its wings do not tire.",
+      "The legs of an ant climbing a mountain do not break; when love comes to the heart, what can stop a human?"
+    ]
+  }
 }

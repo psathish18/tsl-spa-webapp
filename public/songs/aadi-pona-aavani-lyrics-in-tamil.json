@@ -44,5 +44,37 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGB401lAGN4LpsFQzy7KD_kzutHGjsYB0k52ycCTFGbZ1zG_vrwD7QPsXXEY3rxBATzZrH1f-DF49kbjC3-3iY1yxJTbblAcolupTbo4U_58SbCgAZTDDyVXcW-methrb_8jrJAZgbxsA/s400-c/Aadi+Pona+aavani+lyrics+in+tamil-+atta+kathi.png",
   "generatedAt": "2026-02-01T13:06:09.177Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "folk",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "aadi pona aavani",
+      "atta kathi",
+      "gaana bala",
+      "santhosh narayanan",
+      "kabilan",
+      "tamil folk song",
+      "2012 tamil movie",
+      "dinesh ravi",
+      "nandita swetha",
+      "tamil cinema",
+      "energetic song",
+      "peppy track"
+    ],
+    "actorName": "Dinesh Ravi",
+    "actressName": "Nandita Swetha",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Aadi Pona Aavani</strong> from the movie <em>Atta Kathi</em> is a vibrant and energetic folk number that captures the essence of Tamil street culture. Sung by the talented Gaana Bala and composed by the innovative Santhosh Narayanan, this song is a celebration of rhythm and life. Dive into this captivating track that continues to resonate with fans of Tamil cinema."
+  }
 }

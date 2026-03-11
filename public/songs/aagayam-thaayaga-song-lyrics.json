@@ -87,5 +87,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkj9UDWaFq7gi4Lw5lH2SRX581gucvLVeE6wUEHKd-itlBo4z_0F4-CWatluZd12Og0XfneFMRT-zxbav9kxaO7xCfc8uughkVVEMwyCgQFjFYEB3FoY-gftnOJkPvPyGmCcOJIPQG25M/s400-c/Yaadhumaagi+NIndraai.JPG",
   "generatedAt": "2026-01-18T12:46:49.734Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "aagayam thaayaga",
+      "yaadhumaagi nindraai",
+      "sid sriram",
+      "kabilan",
+      "ashwin vinayagamoorthy",
+      "tamil melody",
+      "romantic song",
+      "2017 tamil movie",
+      "soothing music",
+      "tamil cinema"
+    ],
+    "actorName": "Mohan",
+    "actressName": "Gayathrie",
+    "releaseYear": "2017",
+    "high_ctr_intro": "Immerse yourself in the soulful melody of <strong>Aagayam Thaayaga</strong> from the movie <em>Yaadhumaagi Nindraai</em>. Sung by the mesmerizing Sid Sriram, this song beautifully captures the essence of love and longing. With lyrics by Kabilan and music composed by Ashwin Vinayagamoorthy, this track is a must-listen for all Tamil music enthusiasts.",
+    "stanzaMeanings": [
+      "The sky becomes a mother, and you stand as everything.",
+      "The sky becomes a mother, and you and I become creations; our love is a melody.",
+      "Eyes meet eyes, breeze touches hands; our love is endless.",
+      "Unspoken words, untold stories; we converse through them.",
+      "Like a flower and honey, like water and fish, we live as one.",
+      "Unquenchable thirst, love is the savior; you became me, and I went for love.",
+      "When shoulders lean on shoulders, our love sleeps day and night.",
+      "In your absence, the distance always crosses my path alone.",
+      "Within the heart, rain pours because of you; come and wipe my forehead with your lips.",
+      "Without answers, without gaps, we exist; which path will hide us?",
+      "The sky becomes a mother, and you and I become creations; our love is a melody.",
+      "Eyes meet eyes, breeze touches hands; our love is endless.",
+      "Unspoken words, untold stories; we converse through them.",
+      "Like a flower and honey, like water and fish, we live as one."
+    ]
+  }
 }

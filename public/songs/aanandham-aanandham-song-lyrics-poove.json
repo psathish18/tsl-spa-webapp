@@ -41,5 +41,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj57Sxlz15tKwFkat9F98NnOtJlfw_HvzzZu-Otjck2tnw-AisOJGmc8cRcBKj0dSPGXQJFQ25ULmU4brGNW-hkhLb2yWLUxmYAuzF3bcImay0agn0vObbOQF2W_4_Sb2MeSe_2uQOnolo/s400-c/Anantham+Anantham+Padum+Female+Song+Lyrics+in+Tamil.jpeg",
   "generatedAt": "2026-01-18T13:19:14.629Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "anantham anantham",
+      "poove unakkaga",
+      "vijay",
+      "sanghavi",
+      "s.a.rajkumar",
+      "tamil melody",
+      "romantic song",
+      "1996 tamil movie",
+      "tamil cinema",
+      "classic song",
+      "soothing music",
+      "old tamil songs",
+      "nostalgic tunes"
+    ],
+    "actorName": "Vijay",
+    "actressName": "Sanghavi",
+    "releaseYear": "1996",
+    "high_ctr_intro": "Experience the timeless charm of the Tamil melody <strong>Anantham Anantham</strong> from the classic movie <em>Poove Unakkaga</em>. Composed by the legendary S.A. Rajkumar, this song captures the essence of love and nostalgia. Immerse yourself in its soothing tunes and relive the golden era of Tamil cinema.",
+    "stanzaMeanings": [
+      "Blissful, blissful, the heart sings, swaying on the swing of desire. For thousands and thousands of moments, this memory showers like a rain of flowers.",
+      "I will sing like the drizzle in the breeze. I will search like the gentle wind among flowers.",
+      "On the path you walk, I will wait with my eyes in meditation.",
+      "Blissful, blissful, the heart sings, swaying on the swing of desire. For thousands and thousands of moments, this memory showers like a rain of flowers.",
+      "On the day I saw you, vision appeared in my eyes. By uttering your name, my language found its voice.",
+      "To close you within, my eyelids appeared. To adorn you and see, flowers became garlands.",
+      "Until you join me, my heart has no breath. Once you reside in my heart, there is no space for anyone else.",
+      "The bond that longed and longed has reached the doorstep.",
+      "Blissful, blissful, the heart sings, swaying on the swing of desire. For thousands and thousands of moments, this memory showers like a rain of flowers.",
+      "Separated from you, my life cannot thrive. One lifetime is not enough to live in your love.",
+      "With you in my heart, no other thought arises. Even if the wind stops, love will not cease.",
+      "The life I searched for everywhere, your bond has given me here. The words I sought in arguments have turned into music here.",
+      "When desire and love join hands, life becomes heaven.",
+      "Blissful, blissful, the heart sings, swaying on the swing of desire.",
+      ""
+    ]
+  }
 }

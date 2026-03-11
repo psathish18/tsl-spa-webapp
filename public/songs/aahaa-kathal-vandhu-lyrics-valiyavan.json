@@ -66,5 +66,61 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeVlSZqk8fg6qPrMXUIy9UhwdgyXeynDmd2EZrb-xulJ5-mcwSegLhZwaN0cquf4a-tdELoOJ2iP27aTbcLUVTUMB4GUrt-3OAOrZ6ROmiuArNS944pFFMbjxuoYeg-CTUxRn0Cit3zzY/s400-c/Valiyavan-Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:56:05.396Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "valiyavan",
+      "aahaa kathal vandhu",
+      "kg ranjith",
+      "na muthukumar",
+      "d imman",
+      "romantic song",
+      "tamil melody",
+      "2015",
+      "tamil cinema",
+      "love song",
+      "andrea jeremiah",
+      "jai",
+      "soothing music"
+    ],
+    "actorName": "Jai",
+    "actressName": "Andrea Jeremiah",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Aahaa Kathal Vandhu</strong> from the movie <em>Valiyavan</em>. Sung soulfully by K.G. Ranjith, with lyrics penned by Na. Muthukumar and music composed by D. Imman, this song captures the essence of love and longing. Dive into this romantic masterpiece and let its soothing tunes elevate your mood.",
+    "stanzaMeanings": [
+      "Aahaa, love has come, striking and stirring emotions.",
+      "Aahaa, love has come, striking and stirring emotions; I thought of escaping.",
+      "But a desire stirred in my heart; I got caught and immersed.",
+      "When she smiles beautifully, her eyes spin like tops, and I fall into them, feeling dizzy.",
+      "Knowing, I lost myself.",
+      "Aahaa, love has come, striking and stirring emotions; I thought of escaping.",
+      "But a desire stirred in my heart; I got caught and immersed.",
+      "In angelic beauty, she is fierce in love; she appears instantly and vanishes like lightning.",
+      "Her radiant charm puzzles and captivates; she opens the window to my mind.",
+      "You are my future; tell me if there's a place for me in your heart. I like your craziness.",
+      "Knowing, I lost myself.",
+      "Aahaa, love has come, striking and stirring emotions; I thought of escaping.",
+      "Often, sleep eludes me, and my heart feels restless. Is this pain or pleasure? Tell me.",
+      "The upper eyelid gives fever, the lower eyelid gives medicine. Why does your address hide? Give it to me.",
+      "I became an uninhabited island; if you come there, I will be revived. Come.",
+      "A nameless flower speaks with beauty.",
+      "Knowing, I lost myself.",
+      "Aahaa, love has come, striking and stirring emotions; I thought of escaping.",
+      "When she smiles beautifully, her eyes spin like tops, and I fall into them, feeling dizzy.",
+      "Knowing, I lost myself."
+    ]
+  }
 }

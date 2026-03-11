@@ -67,5 +67,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64h2UfkPwiuiWu9nOXz8KJM6_nBlub2K5U6QmzOE0namOgEw6We3_MVvccXH-ZhKxYTCaX0erw28nHKoTbny7ffjQLWRyfmB-G2zZDSixWLVdMLR0fnxd7hEGaAXSjH5uX7AHUJtfYWQ/s400-c/Aaalaala+Kandaa+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:18:08.447Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "folk"
+    ],
+    "songType": [
+      "folk",
+      "dance number"
+    ],
+    "occasions": [
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "sangamam",
+      "aalaala kandaa",
+      "ar rahman",
+      "hariharan",
+      "m.s.viswanathan",
+      "1999",
+      "folk",
+      "tamil cinema",
+      "dance",
+      "celebration"
+    ],
+    "actorName": "Rahman",
+    "actressName": "Vindhya",
+    "releaseYear": "1999",
+    "high_ctr_intro": "Experience the vibrant energy of the Tamil song <strong>Aalaala Kandaa</strong> from the movie <em>Sangamam</em>. Composed by the legendary A.R. Rahman and beautifully rendered by Hariharan and M.S. Viswanathan, this track captures the essence of traditional folk music with a modern twist. Dive into the rhythmic beats and celebrate the cultural richness it exudes.",
+    "stanzaMeanings": [
+      "Aalaala Kandaa Lyrics Sangamam.",
+      "Aalaala Kandaa.",
+      "Aalaala Kandaa, greetings to the father of dance.",
+      "Why not dance? Greetings to the one who set the rhythm.",
+      "Aalaala Kandaa, greetings to the father of dance.",
+      "Why not dance? Greetings to the one who set the rhythm.",
+      "My feet adorned with anklets, first greetings to your feet. My feet dance as per your commands.",
+      "Whether you are present or absent, the stage where you danced remains steadfast.",
+      "Greetings, greetings, ah greetings, greetings.",
+      "Aalaala Kandaa, greetings to the father of dance. Why not dance? Greetings to the one who set the rhythm.",
+      "My feet adorned with anklets, first greetings to your feet. My feet dance as per your commands.",
+      ""
+    ]
+  }
 }

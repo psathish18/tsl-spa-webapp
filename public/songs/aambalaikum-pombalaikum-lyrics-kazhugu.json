@@ -103,5 +103,36 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL5jim34_TWxcbaSKa927xtLGqj-YXCAwyTy7TbA2ng7jHdtQJx9sEIMktViZRoLiulm2yczF6Sx2v-Vd6Wcd0b4zI1ErwkeaGHhPUk4QhfCErX4ncDH82vSBU6RgPt3ZYzcta28Fckgw/s400-c/kazhugu_movie_wallpapers_501.jpg",
   "generatedAt": "2026-02-01T14:28:52.731Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "folk",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "kazhugu",
+      "aambalaikum pombalaikum",
+      "yuvan",
+      "krishnaraj",
+      "sathyan",
+      "velmurugan",
+      "snehan",
+      "folk",
+      "dance",
+      "2012",
+      "tamil cinema"
+    ],
+    "actorName": "Krishna",
+    "actressName": "Bindu Madhavi",
+    "releaseYear": "2012",
+    "high_ctr_intro": "Experience the vibrant energy of the Tamil song <strong>Aambalaikum Pombalaikum</strong> from the movie <em>Kazhugu</em>. Composed by the talented Yuvan Shankar Raja and brought to life by the dynamic vocals of Krishnaraj, Sathyan, and Velmurugan, this track is a celebration of rhythm and culture. Dive into its captivating beats and let the music transport you to a world of joy and festivity."
+  }
 }

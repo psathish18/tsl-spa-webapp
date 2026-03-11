@@ -88,5 +88,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuVqtHqPo4P311n6Hm5i7syQH677_QnUI9YA0ky6EKTd73N3BVi_EkKfJ9XQIoh1Amzmf7-cytD2iEl-pMNZu6fw0QbNnRdrzYpDCHQACdJp6lm-yeCJwlzwh16Z4Yskjx9iJn5Jt3BMc/s400-c/24+song+lyrics.jpg",
   "generatedAt": "2026-01-18T12:51:12.931Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "lullaby",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "aararoo",
+      "24",
+      "ar rahman",
+      "shakthisree gopalan",
+      "karky",
+      "suriya",
+      "samantha",
+      "tamil movie song",
+      "2016",
+      "melody",
+      "lullaby"
+    ],
+    "actorName": "Suriya",
+    "actressName": "Samantha Ruth Prabhu",
+    "releaseYear": "2016",
+    "high_ctr_intro": "The enchanting melody <strong>Aararoo</strong> from the movie <em>24</em> is a soulful creation by the legendary composer AR Rahman. Sung beautifully by Shakthisree Gopalan, this song captures a soothing and emotional essence that resonates deeply with listeners. Dive into this mesmerizing track that perfectly complements the film's captivating narrative.",
+    "stanzaMeanings": [
+      "Aaraaroo Song Lyrics 24 Singer(s): Sakthishree Gopalan Lyrics: Karky",
+      "Hush, my dear, you were born to rule. Hush, hmm, hush, hmm, hush, hmm. My dear, you were born to rule. Hush, my dear, hush, my dear. If you look into my eyes, all sorrows will fade. Hush, my dear, with the movement of your small hands, my world revolves. Hush, my dear, with the beat of your heart, my time stands still. Hush, hmm, hush, hmm, hush, hmm. My dear, you were born to rule.",
+      "Every life on earth has some meaning.",
+      "You are my meaning, you are my end. I will not part from this blessing; I have understood this truth. Hush.",
+      "Eternal moonlight, hush. Take me to sleep, hush. Eternal moonlight, hush. You are my eternity, hush.",
+      "Hush, hmm, hush, hmm, hush, hmm. My dear, you were born to rule."
+    ]
+  }
 }
