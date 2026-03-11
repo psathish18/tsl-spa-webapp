@@ -56,5 +56,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXLuIHIq5I9YFKsdzGUGaXklo8quE154N14v_ua3ZMFOkWkp8q9qtJ_TDBa5Hb1HeU_iX8EBWJ8_aMt31ic3Mxemqh613q1hKzeT8dR_ZzOXx15WL8ZAsnlnYMKIxsdt_SKJ5AqHQzIww/s400-c/thanga_meengal.jpg",
   "generatedAt": "2026-01-18T13:04:06.120Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "aanandha yazhai",
+      "thanga meengal",
+      "yuvan shankar raja",
+      "na muthukumar",
+      "sriram parthasarathy",
+      "2013",
+      "tamil melody",
+      "soothing song",
+      "nostalgic music",
+      "tamil cinema"
+    ],
+    "actorName": "Ram",
+    "actressName": "Sadhana",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Aanandha Yazhai</strong> from the critically acclaimed movie <em>Thanga Meengal</em> is a soul-stirring melody that resonates with deep emotions. Composed by the talented Yuvan Shankar Raja and beautifully sung by Sriram Parthasarathy, this song captures the essence of parental love and longing. Experience the heartfelt lyrics by Na Muthukumar that add a poetic charm to this unforgettable musical masterpiece.",
+    "stanzaMeanings": [
+      "Song: Aanandha Yazhai Singer: Sriram Parthasarathy Movie: Thanga Meengal Music: Yuvan Lyrics: Na MuthuKumar",
+      "You play the joyful lute, coloring my heart with hues. You extend the umbrella of love, gathering a thousand raindrops within.",
+      "When two hearts converse, no language is needed. The beauty of rain seen in the dew resting on a small blade of grass cannot be contained. The path your hands hold to walk is not enough; I desire more. It feels like no one else in this world lives as we do.",
+      "You play the joyful lute, coloring my heart with hues. You extend the umbrella of love, gathering a thousand raindrops within.",
+      "Distant trees seem to ask if you are an angel. Flowers that have forgotten themselves sway in the breeze, spreading fragrance.",
+      "Why temples and gods? Your smile is enough. It feels like no one else in this world lives as we do.",
+      "You play the joyful lute, coloring my heart with hues.",
+      "Seeing your face feels like the moon in the sky is small. Hidden behind clouds, it observes you, seeking light from you. Holding it in my hands, I send comfort and light to your home.",
+      "It feels like no one else in this world lives as we do.",
+      "You play the joyful lute, coloring my heart with hues."
+    ]
+  }
 }

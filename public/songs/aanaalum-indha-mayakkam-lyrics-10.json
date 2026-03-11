@@ -69,5 +69,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCGjzMp03Bg5oyXsyrNmHEm9TIyBvFHqqIhaowvZ44gHbdvZxHA6xWbk7BLfojfgQG-pf2Op11QKD9S-dZoguHg8OwRTO6jiulzGaDW9hPz2zOmG8wjhPUAHaJSYb-GOnENHNE1LgrlDk/s400-c/10_Enradhukulla.jpg",
   "generatedAt": "2026-01-18T12:53:29.708Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "10 endrathukulla",
+      "vikram",
+      "samantha",
+      "sathya prakash",
+      "mani amuthavan",
+      "d imman",
+      "tamil song",
+      "2015",
+      "aanaalum indha mayakkam",
+      "tamil cinema",
+      "movie song",
+      "energetic",
+      "melody",
+      "lyrics"
+    ],
+    "actorName": "Vikram",
+    "actressName": "Samantha Ruth Prabhu",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Aanaalum Indha Mayakkam</strong> from the movie <em>10 Endrathukulla</em>, a captivating track that showcases the mesmerizing vocals of Sathya Prakash. With lyrics penned by Mani Amuthavan and Jyothiraj, and music composed by D Imman, this song is a perfect blend of rhythm and emotion. Dive into the dynamic world of Tamil cinema with this unforgettable musical masterpiece.",
+    "stanzaMeanings": [
+      "This stanza lists the contributors to the song, including the singer, lyricists, and composer.",
+      "However, this intoxication won't leave your heart. Even if it tries to go, it stays and smiles. This madness won't depart.",
+      "The world appears beautiful to me, as if it's arranged attractively before me.",
+      "Thara rararara thaarararaa (musical expression).",
+      "I will stay close to you, amazed at your presence. Whether you speak or remain silent, I am captivated.",
+      "Every day brings good fortune, a new journey. This path leads to a destination.",
+      "I raise my head to look, solitude consumes me. You arrived to end this loneliness.",
+      "Thara rararara thaarararaa (musical expression).",
+      "However, this intoxication won't leave your heart. Even if it tries to go, it stays and smiles. This madness won't depart.",
+      "When you smile, I feel a rush. In the rain, I feel the sun's warmth. I told you that even if I leave, I won't truly go.",
+      "When I thought it would end, it continued. I changed myself because you didn't change.",
+      "There is no water within the moon. Look at the moon sleeping in the water. Our connection...",
+      "However, this intoxication won't leave your heart. Even if it tries to go, it stays and smiles. This madness won't depart.",
+      "Thara rararara thaarararaa (musical expression).",
+      "Before she speaks, my heart leaps with joy."
+    ]
+  }
 }

@@ -35,5 +35,47 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:55:02.590Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "motivational",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "vizhithru",
+      "aazhi alai",
+      "vaikom vijayalakshmi",
+      "sathyan mahalingam",
+      "tamil cinema",
+      "2017",
+      "motivational song",
+      "melody",
+      "tamil movie songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who is the singer of the song <strong>Aazhi Alai</strong>?</h4><p>The song is sung by the talented <strong>Vaikom Vijayalakshmi</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Vizhithru</em>?</h4><p>The movie was released in the year <strong>2017</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for the song?</h4><p>The music was composed by <strong>Sathyan Mahalingam</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song?</h4><p>The song carries a <strong>motivational</strong> and <strong>soothing</strong> theme.</p></div><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>Vizhithru</em>?</h4><p>The movie stars <strong>Vidharth</strong> and <strong>Dhansika</strong> in lead roles.</p></div></div>",
+    "summary": "The song <strong>Aazhi Alai</strong> from the movie <em>Vizhithru</em>, released in 2017, is a motivational and soothing melody sung by Vaikom Vijayalakshmi. Featuring actors Vidharth and Dhansika, the song's lyrics and composition by Sathyan Mahalingam evoke a sense of hope and perseverance. It beautifully captures the essence of striving for one's goals amidst challenges. The harmonious tune and heartfelt rendition make it a memorable addition to Tamil cinema's musical repertoire.",
+    "actorName": "Vidharth",
+    "actressName": "Dhansika",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Aazhi Alai</strong>, a captivating melody from the movie <em>Vizhithru</em>, showcases the soulful voice of Vaikom Vijayalakshmi. Composed by Sathyan Mahalingam, this song resonates with motivational and soothing vibes. Dive into this masterpiece to experience a blend of heartfelt lyrics and enchanting music.",
+    "stanzaMeanings": [
+      "Aazhi Alai Song Lyrics Vizhithru",
+      "The ocean waves endlessly search for the shore without rest.",
+      "Time passes as tears flow from the eyes, running and wandering.",
+      "A motherly figure, a divine gift from the heavens, supports me.",
+      "Even after my vision fades, a small crescent moon lights the path ahead.",
+      "I lost you, I withered; I searched for the path you would return on, my dear flower-like bird.",
+      "The ocean waves endlessly search for the shore without rest.",
+      "Time passes as tears flow from the eyes, running and wandering.",
+      ""
+    ]
+  }
 }

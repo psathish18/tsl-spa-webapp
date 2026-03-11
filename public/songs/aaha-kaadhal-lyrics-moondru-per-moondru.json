@@ -92,5 +92,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7QMpFianB3dtDRj1kei1vuW2Ohe0D1Oe2xGS5HCO4InQaAw3OhUscMJQqN3YGsqcEgTQL48PkhraXZ6Fz_RhysT1qeB2fM0jCj9DxKNQYgpfp8KZJUaLICHVOJh518h25cniHJiATlv4/s400-c/moondru-per-moondru-kaadhal.jpg",
   "generatedAt": "2026-01-18T13:05:28.860Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "anniversary"
+    ],
+    "keywords": [
+      "aaha kaadhal",
+      "moondru per moondru kadhal",
+      "yuvan shankar raja",
+      "na muthukumar",
+      "nandini erikar",
+      "romantic melody",
+      "tamil song",
+      "2013",
+      "tamil cinema",
+      "love song",
+      "soothing music",
+      "arjun",
+      "muktha bhanu"
+    ],
+    "actorName": "Arjun",
+    "actressName": "Muktha Bhanu",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Aaha Kaadhal</strong> from the movie <em>Moondru Per Moondru Kadhal</em>. This soulful track, composed by Yuvan Shankar Raja and penned by Na Muthukumar, captures the essence of love and longing. Let the soothing voice of Nandini Erikar transport you to a world of romance and serenity.",
+    "stanzaMeanings": [
+      "Ah, love, softly whispers, expressing its emotions.",
+      "Love, my love, I live for you. Ah, love, it gently showers like rain, making the heart flutter. Stop the song lyrics in Tanglish. Exact translation of Tamil words: Ah, love, softly speaks, teasingly showing its mischievous nature. A single name is uttered by the lips, and my name merges with it. In the depths of questions, victory dances. Is this the question love asks?",
+      "Ah, love, softly speaks, teasingly showing its mischievous nature.",
+      "A leaf falls into the river; is this love? Is it the first time it touches the shore? Was it me who fell? Will I rise again? Even if I rise, will I fall again?",
+      "I don't know if I see you, but I see you differently. Are you with me? Am I with you? Am I you? Are you me? What is this joy? Every day brings happiness.",
+      "Ah, love, softly speaks, teasingly showing its mischievous nature.",
+      "Something drew me to you, and that brought you to me. Was it me who surrendered? Will I achieve it? Even if I achieve it, will I surrender again?",
+      "The heart of women is like a swing; it doesn't move without a push. Are you the one to push it? Am I the one to come? Without knowing the direction, will I turn back? Swinging in the cradle of love brings happiness.",
+      "Ah, love, softly speaks, teasingly showing its mischievous nature. A single name is uttered by the lips, and my name merges with it. In the depths of questions, victory dances. Is this the question love asks?",
+      "Ah, love, teasingly showing its mischievous nature."
+    ]
+  }
 }

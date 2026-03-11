@@ -63,5 +63,59 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgInLLCQ9XuEbEePqQ33eryrVbz5X-tBPcI-As3DqqPpposuIgrnf1OiyqJMAp9AVwpmtYuEOjalUpt4yYdBJZokEeOx_GAVeK45tLZUWxNjewKfkICuq_657rTTTMoOlk7lA-iEAPavqI/s400-c/attakathi-gatead.jpg",
   "generatedAt": "2026-02-01T14:28:48.721Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "folk",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "atta kathi",
+      "aadi ponaa aavani",
+      "gaana bala",
+      "santhosh narayanan",
+      "kabilan",
+      "tamil folk song",
+      "2012 tamil movie",
+      "dinesh ravi",
+      "swetha ashok",
+      "kollywood",
+      "tamil cinema",
+      "peppy song",
+      "energetic track"
+    ],
+    "actorName": "Dinesh Ravi",
+    "actressName": "Swetha Ashok",
+    "releaseYear": "2012",
+    "high_ctr_intro": "Experience the vibrant energy of the Tamil song <strong>Aadi Ponaa Aavani</strong> from the movie <em>Atta Kathi</em>. Sung by the talented Gaana Bala and composed by the innovative Santhosh Narayanan, this track captures the essence of Tamil folk music. Dive into its rhythmic beats and celebrate the cultural richness it brings to the cinematic world.",
+    "stanzaMeanings": [
+      "",
+      "Song: Aadi Pona Aavani Singer: Gaana Bala Lyrics : Kabilan Movie Name : Atta Kathi Music Director : Santhosh Narayanan",
+      "The month of Aavani has passed, and she is a mesmerizing beauty. Just a glance from her eyes is enough to captivate me.",
+      "The month of Aavani has passed, and she is a mesmerizing beauty.",
+      "She shows her teeth like a snake and speaks sharply, circling around like a spinning top in her skirt.",
+      "The month of Aavani has passed, and she is a mesmerizing beauty.",
+      "The matchstick ignites, and my heart burns. Oh dear, what is she doing to me?",
+      "She shows her sparkling eyes, sways her braided hair, and spreads the fragrance of jasmine, enchanting me.",
+      "She lifted me up and placed me on the ground, my love is like a gypsy fish living in the water.",
+      "You and I are a pair, wandering like a kite without a tail.",
+      "The month of Aavani has passed, and she is a mesmerizing beauty.",
+      "Because of you, I soared to the sky. Because of you, I cried at times. Because of you, I even smile in my sleep.",
+      "I was once strong and firm, but your gaze melted me like sugar candy.",
+      "The time we spent together was like a drumbeat on the shoulder of a bull.",
+      "You and I are a pair, wandering like a kite without a tail.",
+      "The month of Aavani has passed, and she is a mesmerizing beauty. Just a glance from her eyes is enough to captivate me.",
+      "The month of Aavani has passed.",
+      "She shows her teeth like a snake and speaks sharply, circling around like a spinning top in her skirt.",
+      "The month of Aavani has passed."
+    ]
+  }
 }

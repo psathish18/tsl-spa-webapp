@@ -6,7 +6,8 @@
 import fs from 'fs/promises'
 import path from 'path'
 import sanitizeHtml from 'sanitize-html'
-import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections } from './types/song-blob.types'
+import OpenAI from 'openai'
+import type { SongBlobData, RelatedSong, SEOMetadata, BlobContentSections, EnrichedMetadata } from './types/song-blob.types'
 
 // Import utility functions from lib
 import {
@@ -40,6 +41,9 @@ const BLOGGER_TAMIL_API_BASE = 'https://tsonglyricsapptamil.blogspot.com/feeds/p
 const BLOGGER_ENGLISH_API_BASE = 'https://tslmeaning.blogspot.com/feeds/posts/default'
 const OUTPUT_DIR = './blob-data'
 const SCHEMA_VERSION = 1
+
+// Category terms excluded from enriched keywords
+const EXCLUDED_KEYWORD_CATEGORIES = ['MovieLyrics', 'AllOldSongs']
 
 // Blogger API response types
 interface BloggerEntry {
@@ -306,9 +310,237 @@ function processCategories(categories: Array<{ term: string }> = []): string[] {
 }
 
 /**
+ * Generate enriched metadata by analyzing song data (rule-based)
+ */
+function generateEnrichedMetadata(
+  entry: BloggerEntry,
+  metadata: ReturnType<typeof extractSongMetadata>,
+  categories: string[]
+): EnrichedMetadata {
+  // Release year: prefer year embedded in movie name (e.g. "Coolie - 2024"),
+  // fall back to the published (blog post) year as an approximation
+  const yearFromMovie = metadata.movieName?.match(/\b(19|20)\d{2}\b/)?.[0]
+  const releaseYear = yearFromMovie
+    ?? (entry.published?.$t ? new Date(entry.published.$t).getFullYear().toString() : undefined)
+
+  const titleLower = entry.title.$t.toLowerCase()
+  const lowerCats = categories.map(c => c.toLowerCase())
+
+  // Actress from optional "Actress:" category prefix
+  const actressCategory = (entry.category || []).find(c => c.term?.startsWith('Actress:'))
+  const actressName = actressCategory?.term?.replace('Actress:', '').trim() || undefined
+
+  // --- Mood detection (rule-based keyword matching) ---
+  const moodRules: Record<string, string[]> = {
+    romantic: ['love', 'kadhal', 'kaadhal', 'anbae', 'anbe', 'nenjil', 'romantic', 'priya', 'idhayam', 'heart'],
+    melancholic: ['sad', 'vilag', 'piriv', 'pain', 'tears', 'azhuge', 'kadavule', 'vizhiye', 'nenje', 'thanimai'],
+    upbeat: ['dance', 'beats', 'kuthu', 'mass', 'thala', 'vibe', 'item', 'fun', 'party', 'festive'],
+    devotional: ['devi', 'amman', 'murugan', 'ayya', 'siva', 'ganesha', 'prayer', 'temple', 'god'],
+    soothing: ['lullaby', 'thalattu', 'baby', 'sleep', 'cradle', 'soft'],
+    peppy: ['peppy', 'jolly', 'comedy', 'happy', 'celebration'],
+  }
+
+  const mood: string[] = []
+  for (const [moodType, keywords] of Object.entries(moodRules)) {
+    if (keywords.some(kw => titleLower.includes(kw) || lowerCats.some(c => c.includes(kw)))) {
+      mood.push(moodType)
+    }
+  }
+  if (mood.length === 0) mood.push('other')
+
+  // --- Song type detection ---
+  // Note: 'SInger:' (capital I) is a known typo present in some Blogger category data
+  const singerCount = (entry.category || []).filter(
+    c => c.term?.startsWith('Singer:') || c.term?.startsWith('SInger:')
+  ).length
+  const songType: string[] = []
+  if (singerCount > 1) songType.push('duet')
+  if (lowerCats.some(c => c === 'lyricsintamil')) songType.push('tamil lyrics')
+  if (lowerCats.some(c => c.includes('englishtranslation'))) songType.push('translation')
+  if (
+    titleLower.includes('melody') ||
+    titleLower.includes('kadhal') ||
+    titleLower.includes('love')
+  ) songType.push('melody')
+  if (
+    lowerCats.some(c => c.startsWith('oldmovie:') || c.startsWith('oldsong:') || c === 'alloldsongs')
+  ) songType.push('classic')
+  if (titleLower.includes('dance') || lowerCats.some(c => c.includes('dance'))) songType.push('dance')
+  if (songType.length === 0) songType.push('song')
+
+  // --- Occasions mapped from moods ---
+  const occasionMap: Record<string, string[]> = {
+    romantic: ["valentine's day", 'romantic date', 'anniversary', 'wedding'],
+    melancholic: ['heartbreak', 'breakup'],
+    devotional: ['festivals', 'puja', 'religious occasion'],
+    soothing: ['bedtime', 'relaxation'],
+    upbeat: ['party', 'celebration'],
+    peppy: ['celebration', 'birthday'],
+  }
+  const occasions: string[] = []
+  for (const m of mood) {
+    for (const occ of occasionMap[m] || []) {
+      if (!occasions.includes(occ)) occasions.push(occ)
+    }
+  }
+
+  // --- Keywords array ---
+  const keywordsSet = new Set<string>()
+  if (metadata.movieName) keywordsSet.add(metadata.movieName.toLowerCase())
+  if (metadata.singerName) {
+    metadata.singerName.split(',').forEach(s => {
+      const t = s.trim().toLowerCase()
+      if (t) keywordsSet.add(t)
+    })
+  }
+  if (metadata.lyricistName) keywordsSet.add(metadata.lyricistName.toLowerCase())
+  if (metadata.musicName) keywordsSet.add(metadata.musicName.toLowerCase())
+  if (metadata.actorName) keywordsSet.add(metadata.actorName.toLowerCase())
+  if (actressName) keywordsSet.add(actressName.toLowerCase())
+  categories
+    .filter(c => !c.startsWith('Song:') && !EXCLUDED_KEYWORD_CATEGORIES.includes(c))
+    .forEach(c => {
+      const cleaned = c.replace(/^[^:]*:/, '').trim().toLowerCase()
+      if (cleaned) keywordsSet.add(cleaned)
+    })
+  mood.forEach(m => keywordsSet.add(m))
+  const keywords = Array.from(keywordsSet).filter(Boolean)
+
+  return {
+    ...(metadata.actorName ? { actorName: metadata.actorName } : {}),
+    ...(actressName ? { actressName } : {}),
+    ...(releaseYear ? { releaseYear } : {}),
+    mood,
+    songType,
+    occasions,
+    keywords,
+  }
+}
+
+/** GitHub Models endpoint — accepts standard GITHUB_TOKEN (PAT). Same pattern as filter-with-ai.ts */
+const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com'
+const GITHUB_MODELS_MODEL = 'gpt-4o'
+
+// JSON schema for structured output (OpenAI json_schema response format)
+const ENRICHED_METADATA_JSON_SCHEMA = {
+  type: 'object',
+  properties: {
+    actorName: { type: 'string', description: 'Lead actor name, or empty string if unknown' },
+    actressName: { type: 'string', description: 'Lead actress name, or empty string if unknown' },
+    releaseYear: { type: 'string', description: 'Song/movie release year (YYYY), or empty string if unknown' },
+    mood: {
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Song moods: romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other',
+    },
+    songType: {
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Song type tags: duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song',
+    },
+    occasions: {
+      type: 'array',
+      items: { type: 'string' },
+      description: "Occasions: valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout",
+    },
+    keywords: {
+      type: 'array',
+      items: { type: 'string' },
+      description: 'Lowercase keywords for search/discovery (movie, artists, mood, genre, etc.)',
+    },
+  },
+  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords'],
+  additionalProperties: false,
+}
+
+/**
+ * Use GitHub Models (GPT-4o via GITHUB_TOKEN) to enrich song metadata.
+ * Falls back to the rule-based baseline on any error or when GITHUB_TOKEN is not set.
+ */
+async function enrichMetadataWithAI(
+  entry: BloggerEntry,
+  metadata: ReturnType<typeof extractSongMetadata>,
+  categories: string[],
+  lyricsSnippet: string,
+  baseline: EnrichedMetadata
+): Promise<EnrichedMetadata> {
+  const githubToken = process.env.GITHUB_TOKEN
+  if (!githubToken) {
+    console.log('  ℹ️  GITHUB_TOKEN not set — skipping AI enrichment')
+    return baseline
+  }
+
+  try {
+    const client = new OpenAI({ baseURL: GITHUB_MODELS_ENDPOINT, apiKey: githubToken })
+
+    const prompt = `You are an expert in Tamil cinema and music. Analyze the following Tamil song and return enriched metadata as JSON.
+
+Song title: ${entry.title.$t}
+Movie: ${metadata.movieName || 'Unknown'}
+Singer(s): ${metadata.singerName || 'Unknown'}
+Lyricist: ${metadata.lyricistName || 'Unknown'}
+Music director: ${metadata.musicName || 'Unknown'}
+Actor: ${metadata.actorName || 'Unknown'}
+Categories: ${categories.join(', ')}
+Lyrics snippet (Tanglish/Tamil): ${lyricsSnippet}
+
+Return a JSON object with:
+- actorName: lead actor (string — use your Tamil cinema knowledge; empty string only if truly unknown)
+- actressName: lead actress (string — use your Tamil cinema knowledge; empty string only if truly unknown)
+- releaseYear: release year YYYY (string, empty string if unknown)
+- mood: array of moods that describe the song (romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other)
+- songType: array describing the song type (duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song)
+- occasions: array of occasions this song suits (valentine's day, anniversary, wedding, heartbreak, breakup, party, celebration, birthday, relaxation, festivals, morning, night drive, workout)
+- keywords: array of 8–15 lowercase search keywords (include movie, artists, mood, genre, year if known)`
+
+    console.log('  🤖 Calling GitHub Models (GPT-4o) for enrichment...')
+    const response = await client.chat.completions.create({
+      model: GITHUB_MODELS_MODEL,
+      temperature: 0.2,
+      response_format: {
+        type: 'json_schema',
+        json_schema: {
+          name: 'enriched_metadata',
+          strict: true,
+          schema: ENRICHED_METADATA_JSON_SCHEMA,
+        },
+      },
+      messages: [{ role: 'user', content: prompt }],
+    })
+
+    const text = response.choices[0]?.message?.content ?? ''
+    if (!text) throw new Error('GitHub Models returned an empty response')
+    const aiData = JSON.parse(text) as Partial<EnrichedMetadata>
+
+    // Merge AI result over baseline; skip empty string values from AI
+    const merged: EnrichedMetadata = {
+      ...baseline,
+      mood: aiData.mood?.length ? aiData.mood : baseline.mood,
+      songType: aiData.songType?.length ? aiData.songType : baseline.songType,
+      occasions: aiData.occasions?.length ? aiData.occasions : baseline.occasions,
+      keywords: aiData.keywords?.length ? aiData.keywords : baseline.keywords,
+    }
+    if (aiData.actorName || baseline.actorName) {
+      merged.actorName = aiData.actorName || baseline.actorName
+    }
+    if (aiData.actressName || baseline.actressName) {
+      merged.actressName = aiData.actressName || baseline.actressName
+    }
+    if (aiData.releaseYear || baseline.releaseYear) {
+      merged.releaseYear = aiData.releaseYear || baseline.releaseYear
+    }
+    console.log('  ✅ AI enrichment complete')
+    return merged
+  } catch (error) {
+    console.warn('  ⚠️  AI enrichment failed, using rule-based fallback:', (error as Error).message)
+    return baseline
+  }
+}
+
+/**
  * Generate complete JSON data for a single song (optimized)
  */
-async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
+async function generateSongJSON(entry: BloggerEntry, useAI: boolean = false): Promise<SongBlobData> {
   const slug = getSlugFromSong(entry)
   const metadata = extractSongMetadata(entry.category, entry.title.$t)
   
@@ -360,7 +592,17 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
   // Generate SEO data
   const thumbnail = getEnhancedThumbnail(entry.media$thumbnail?.url)
   const seo = generateSEOData(entry, metadata, tamilSong ? tamilContent : safeContent, slug)
-  
+
+  // Generate enriched metadata (rule-based baseline, optionally upgraded with AI)
+  const baseline = generateEnrichedMetadata(entry, metadata, categories)
+  const enrichedMetadata = useAI
+    ? await enrichMetadataWithAI(
+        entry, metadata, categories,
+        htmlToPlainText(stanzas.slice(0, 2).join(' ')).substring(0, 300),
+        baseline
+      )
+    : baseline
+
   const songData: SongBlobData = {
     slug,
     id: entry.id.$t,
@@ -381,6 +623,7 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
     relatedSongs,
     seo,
     thumbnail,
+    enrichedMetadata,
     generatedAt: new Date().toISOString(),
     version: SCHEMA_VERSION
   }
@@ -394,6 +637,7 @@ async function generateSongJSON(entry: BloggerEntry): Promise<SongBlobData> {
 async function main() {
   const args = process.argv.slice(2)
   const testOne = args.includes('--test-one')
+  const useAI = args.includes('--use-ai')
   
   // Check for --limit flag
   const limitIndex = args.findIndex(arg => arg.startsWith('--limit'))
@@ -420,6 +664,13 @@ async function main() {
   }
   
   console.log('🚀 Starting song JSON generation...\n')
+  if (useAI) {
+    if (process.env.GOOGLE_AI_API_KEY) {
+      console.log('🤖 AI enrichment enabled (Gemini gemini-2.5-flash-lite)\n')
+    } else {
+      console.warn('⚠️  --use-ai flag set but GOOGLE_AI_API_KEY is not set. Falling back to rule-based enrichment.\n')
+    }
+  }
   
   // Fetch all songs (with optional category filter)
   const songs = await fetchAllSongs(category,testOne, limit)
@@ -445,7 +696,7 @@ async function main() {
     const song = songsToProcess[i]
     
     try {
-      const songData = await generateSongJSON(song)
+      const songData = await generateSongJSON(song, useAI)
       const filename = `${songData.slug}.json`
       const filepath = path.join(OUTPUT_DIR, filename)
       
