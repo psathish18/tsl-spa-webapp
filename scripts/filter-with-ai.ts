@@ -262,7 +262,7 @@ async function filterKeywordsWithAI(): Promise<void> {
   }
 
   const postsPath = path.join(process.cwd(), 'social-media-posts.json');
-  fs.writeFileSync(postsPath, JSON.stringify(allPosts, null, 2), 'utf8');
+  fs.writeFileSync(postsPath, JSON.stringify(allPosts.slice(0,2), null, 2), 'utf8');
   console.log(`\n🎉 ${allPosts.length} total social media post(s) saved to social-media-posts.json`);
 }
 
