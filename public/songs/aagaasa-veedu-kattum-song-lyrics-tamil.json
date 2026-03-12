@@ -44,5 +44,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQakKAW9EHSCGbvxI484n1BrMxU66i-OHsfnBychXNyHYl-mmztcILEaCLeethTfup7jj3Ox60PTUNYbK5cPqGrc6EvisO_4zjKzA7k-P7q4nRBBigyoacPQ79utrvvCAh4JAlXv1MNCs/s400-c/Aagaasa+Veedu+Kattum+Lyrics+Tamil+Dear+Comrade.jpeg",
   "generatedAt": "2026-01-18T12:42:34.929Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "dear comrade",
+      "aagaasa veedu kattum",
+      "vijay deverakonda",
+      "rashmika mandanna",
+      "justin prabhakaran",
+      "karthik netha",
+      "gowtham bharadwaj",
+      "2019",
+      "romantic song",
+      "melody"
+    ],
+    "actorName": "Vijay Deverakonda",
+    "actressName": "Rashmika Mandanna",
+    "releaseYear": "2019",
+    "high_ctr_intro": "Experience the heartfelt emotions of <strong>Aagaasa Veedu Kattum</strong>, a soul-stirring melody from the movie <em>Dear Comrade</em>. Composed by Justin Prabhakaran and beautifully sung by Gowtham Bharadwaj, this song captures the essence of love and longing. Dive into this musical masterpiece that resonates with the tender moments of life.",
+    "stanzaMeanings": [
+      "Building a house in the sky, I came to build a nest in your eyes.",
+      "Enchanted by the melody of musical kites, I came to your doorstep.",
+      "In the love of your lotus-like smile, I would build a home among the stars today.",
+      "To see you, every desire stands on one leg, and for that, my life settles on the doorstep.",
+      "Does anyone see the depth of his suffering, the rhythm of waves in his heart's beat?",
+      "Desiring to enjoy the blooming of eyes, sleep leaves and returns home.",
+      "Building a house in the sky, enchanted by the melody of musical kites.",
+      ""
+    ]
+  }
 }

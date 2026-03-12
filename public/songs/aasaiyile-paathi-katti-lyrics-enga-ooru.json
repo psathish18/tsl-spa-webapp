@@ -46,5 +46,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsQVa2GPHb6NEtAAe1MtPLVEp0GbK-NUk966tXGHb62YgLG1hAdP2Fy4XtfLwiUdLQGR73iH3xczwln0irfDoFwZTwyTf6lNO3x9UymFhR9ra-dz4ApKipRjrhm6RmymXXZIlSgZ0nJ0c/s400-c/Aasaiyila+Paathi+Katti+lyrics.JPG",
   "generatedAt": "2026-01-18T13:20:29.808Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "aasaiyile paathi katti",
+      "enga ooru kavalkaran",
+      "ramarajan",
+      "gouthami",
+      "ilaiyaraaja",
+      "p. susheela",
+      "tamil melody",
+      "1988 tamil songs",
+      "classic tamil cinema"
+    ],
+    "actorName": "Ramarajan",
+    "actressName": "Gouthami",
+    "releaseYear": "1988",
+    "high_ctr_intro": "Experience the timeless charm of the Tamil classic <strong>Aasaiyile Paathi Katti</strong> from the movie <em>Enga Ooru Kavalkaran</em>. This melodious duet, composed by the legendary Ilaiyaraaja and sung by the iconic P. Susheela, captures the essence of love and nostalgia. Dive into the golden era of Tamil cinema with this unforgettable musical gem.",
+    "stanzaMeanings": [
+      "Desire is tied halfway, lyrics of our village guardian.",
+      "Tie the desire halfway and plant a seed, come like a flower.",
+      "Searching for affection, I composed a song, come my mother.",
+      "I sing the song, you are the one who made me sing.",
+      "Tie the desire halfway and plant a seed, come like a flower.",
+      "Eyes do not sleep, the reason is unclear. You are a girl with caste, not a garland.",
+      "Virgin, you are the seed, Krishna, I am waiting, but we are not united.",
+      "A torn saree, I will buy it. Put on a garland, tell me about tomorrow.",
+      "I am waiting for you, give me an answer, flower.",
+      "Tie the desire halfway and plant a seed, come like a flower.",
+      "Searching for affection, I composed a song, come my mother.",
+      "The bird that sings on its own, has it become sad? The heart is distressed and has become mute.",
+      "Tears in the eyes, who is the reason? Virgin, tell me.",
+      "Like a single tree, I stand at this moment. What to say and sing, my arguments are endless.",
+      "This will not continue anymore, I will continue, flower.",
+      "Tie the desire halfway and plant a seed, I have come, flower.",
+      "Searching for affection, I composed a song, I have come, flower.",
+      "I sing the song, you are the one who made me sing.",
+      "Tie the desire halfway and plant a seed, I have come, flower."
+    ]
+  }
 }

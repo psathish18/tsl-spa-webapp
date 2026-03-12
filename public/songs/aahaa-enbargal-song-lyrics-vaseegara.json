@@ -50,5 +50,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Z2_b_aqzyWB4gWGqj3cXOFYZohJWD9qb3UlpAc4w1ipLQpl9_AP02y9CwlU9Ko9EQNJnTERW2i41MKBxx1hLzkPbvnBZX2TVEhPjuwpcLPMvI8H2cerQYW2rB0Dt5XOPArJ3qxnkOKo/s400-c/Aahaa+Enbargal+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:16:14.449Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "vaseegara",
+      "aahaa enbargal",
+      "vijay",
+      "sneha",
+      "shankar mahadevan",
+      "s.a.rajkumar",
+      "tamil melody",
+      "romantic song",
+      "2003 tamil movie",
+      "soothing music"
+    ],
+    "actorName": "Vijay",
+    "actressName": "Sneha",
+    "releaseYear": "2003",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Aahaa Enbargal</strong> from the movie <em>Vaseegara</em>, a timeless romantic tune that captures the essence of love and admiration. Sung soulfully by Shankar Mahadevan and composed by the talented S.A. Rajkumar, this song resonates with its heartfelt lyrics and soothing rhythm. Immerse yourself in this classic piece that continues to touch hearts and evoke cherished memories.",
+    "stanzaMeanings": [
+      "Aahaa, they exclaim, referring to the song lyrics of Vaseegara.",
+      "Calling her ordinary is like calling the sun a crescent moon.",
+      "Aahaa, they exclaim, and Adadaa, they marvel; everyone who sees her is captivated within three seconds, as her presence electrifies the heart.",
+      "No one has seen a rose exhale its breath, but when they see her, all their worries vanish.",
+      "Aahaa, they exclaim...",
+      "From the age of seventeen to eighteen, her beauty has undergone remarkable transformations.",
+      "The place her gaze touches becomes radiant, and the places she overlooks are filled with her essence, igniting a fire within the eyes.",
+      "Her lips, adorned with vermilion, resemble honey dripping from a flower.",
+      "Aahaa, they exclaim...",
+      "Her eyes are like twin fish, her lips like conjoined shells, and her beauty is unparalleled.",
+      "Her face is like a glowing lamp, her waist like a slender thread, and her body is graceful like a sculpture.",
+      "The word 'beauty' itself begins with her, and all I say is just a fraction of her charm.",
+      "Aahaa, they exclaim, and Adadaa, they marvel; everyone who sees her is captivated within three seconds, as her presence electrifies the heart.",
+      "No one has seen a rose exhale its breath, but when they see her, all their worries vanish."
+    ]
+  }
 }

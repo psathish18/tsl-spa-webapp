@@ -30,5 +30,41 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:22.224Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "aagaya vennilave",
+      "arangetra velai",
+      "ilayaraja",
+      "kj yesudas",
+      "uma ramanan",
+      "vaali",
+      "tamil melody",
+      "romantic song",
+      "1990",
+      "prabhu",
+      "revathi"
+    ],
+    "actorName": "Prabhu",
+    "actressName": "Revathi",
+    "releaseYear": "1990",
+    "high_ctr_intro": "Experience the timeless charm of the classic Tamil melody <strong>Aagaya Vennilave</strong> from the movie <em>Arangetra Velai</em>. Composed by the legendary Ilaiyaraaja, this duet features the soulful voices of KJ Yesudas and Uma Ramanan, with heartfelt lyrics penned by Vaali. Dive into this enchanting musical journey that beautifully captures the essence of romance and nostalgia.",
+    "stanzaMeanings": [
+      "Oh, moon in the sky, have you descended to the earth? Adorned in beautiful attire, are you here to grace this occasion? The flower-adorned hair resembles clouds of the mountain season. The eyes that embrace resemble two silver fish dancing."
+    ]
+  }
 }

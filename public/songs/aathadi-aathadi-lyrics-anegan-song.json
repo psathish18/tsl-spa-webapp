@@ -103,5 +103,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEged9Fn7gDU38U1fQxU7Jwuvsh_vse-3UNFgRwMxtyRs__SxY1agC_8VyotWChnink9I3oVqvQypJh5yKlcRSzwbLgWFsrOzhC68UPv50RuVfvlGIfvBWVgxrWITUui-qxtmwvMwYcjG5A/s400-c/Anegan_Poster.jpg",
   "generatedAt": "2026-01-18T12:57:21.375Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "anegan",
+      "aathadi aathadi",
+      "dhanush",
+      "amyra dastur",
+      "abhay jodhpurkar",
+      "bhavatharini",
+      "tipu",
+      "vairamuthu",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil cinema",
+      "movie song"
+    ],
+    "actorName": "Dhanush",
+    "actressName": "Amyra Dastur",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Aathadi Aathadi</strong> from the movie <em>Anegan</em>, featuring the soulful voices of Abhay Jodhpurkar, Bhavatharini, Dhanush, and Tipu. This romantic track, penned by the legendary Vairamuthu, beautifully captures the essence of love and longing. Immerse yourself in this musical masterpiece that resonates with heartfelt emotions and timeless charm.",
+    "stanzaMeanings": [
+      "Oh my dear, you are like a hibiscus flower that has blossomed with desire. Your prince, the prince of Rangoon, is waiting for you day and night. This is the first thrilling sensation in my spine. Can you explain this feeling to me? There is comfort in my heart but fear in my stomach—can you provide a remedy for this?"
+    ]
+  }
 }

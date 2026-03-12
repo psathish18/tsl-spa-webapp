@@ -48,5 +48,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIDntrRJXH2K37T05DH6RCxf7FJ60wbu7cWDwJePxGhV4qWp2DcAr19tMuDr3T-W3kwj5mPBiLIBAUK6as32Px_RoZ8qcSpAY8TkI2cuFcdo-YeqRhhluPm_687cCAGHWVb-PmtWYoWCU/s400-c/Ram+-+Aarariraaro+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:15:18.828Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "lullaby",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "aarariraaro",
+      "ram",
+      "yuvan shankar raja",
+      "k.j.yesudas",
+      "snehan",
+      "tamil lullaby",
+      "melancholic song",
+      "soothing melody",
+      "2005 tamil movie",
+      "jiiva",
+      "saranya ponvannan",
+      "tamil cinema",
+      "yuvan music",
+      "emotional song"
+    ],
+    "actorName": "Jiiva",
+    "actressName": "Saranya Ponvannan",
+    "releaseYear": "2005",
+    "high_ctr_intro": "<strong>Aarariraaro</strong> from the movie <em>Ram</em> is a soul-stirring lullaby that resonates with deep emotions and maternal love. Composed by the talented Yuvan Shankar Raja and beautifully sung by the legendary K.J. Yesudas, this song captures the essence of a heartfelt bond. Its soothing melody and poignant lyrics by Snehan make it a timeless classic in Tamil cinema.",
+    "stanzaMeanings": [
+      "Lullaby, I sing here, mother, you close your eyes and rest on my lap.",
+      "The entire life is the mother's feet, heaven itself; the scriptures say this, and I understand it.",
+      "The word 'mother' is a magical chant that governs the entire world, lullaby.",
+      "Like a tree without roots, you planted me on this earth; when the world hurt me, your life trembled in pain.",
+      "You taught me all the bonds of the world and guided me through the path between birth and death.",
+      "I must build a cradle for you and transform into a mother myself, lullaby.",
+      "The words spoken by a mother are like medicine that cures ailments; isn't the life that doesn't sleep due to desires on the golden heart?",
+      "In the calculations of time, the expenses and income are you; on this spinning earth, you are the unspinning earth.",
+      "Oh God, give the command, mother, to change my daughter.",
+      "Lullaby, I sing here, mother, you close your eyes and rest on my lap."
+    ]
+  }
 }

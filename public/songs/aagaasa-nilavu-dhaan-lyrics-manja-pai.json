@@ -65,5 +65,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:59:48.155Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "anniversary"
+    ],
+    "keywords": [
+      "manjapai",
+      "aagaasa nilavu dhaan",
+      "spb",
+      "yugabharathi",
+      "n r raghunanthan",
+      "tamil melody",
+      "romantic song",
+      "2014 tamil movie",
+      "vimal",
+      "lakshmi menon",
+      "tamil cinema",
+      "soothing music"
+    ],
+    "actorName": "Vimal",
+    "actressName": "Lakshmi Menon",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Aagaasa Nilavu Dhaan</strong> from the movie <em>Manjapai</em> is a melodious track that beautifully captures the essence of love and serenity. Sung by the legendary SPB, with lyrics penned by Yugabharathi and music composed by N. R. Raghunanthan, this song resonates deeply with its heartfelt emotions. Experience the magic of Tamil cinema's musical brilliance through this timeless piece.",
+    "stanzaMeanings": [
+      "The moon in the sky doesn't appear beautiful, the pearl also doesn't seem beautiful. There's nothing as beautiful as you in this world. You possess all the beauty and reside in my heart.",
+      "You are the blessing given by God to me. You must live and show greatness in this world.",
+      "The moon in the sky doesn't appear beautiful, the pearl also doesn't seem beautiful.",
+      "Ask for the sun, I will bring it to you. Ask for the moon, I will fetch it for you. Tell me to bring the ocean into a small bowl, I will do it. I will make a lion and a tiger bow down to you. Even if the world ends, I will protect you. My pride is seeing you in your form.",
+      "The moon in the sky doesn't appear beautiful, the pearl also doesn't seem beautiful.",
+      "You are always my soul. You must achieve many titles and be a genius. There is no treasure or happiness greater than you in this world. Thinking of you as my eye's pupil, I will hold you and cherish you. I will say and do anything for you. If you say goodbye, I will leave immediately.",
+      "The moon in the sky doesn't appear beautiful, the pearl also doesn't seem beautiful.",
+      "There's nothing as beautiful as you in this world. You possess all the beauty and reside in my heart.",
+      "You are the blessing given by God to me. You must live and show greatness in this world.",
+      "You are the blessing given by God to me. You must live and show greatness in this world."
+    ]
+  }
 }
