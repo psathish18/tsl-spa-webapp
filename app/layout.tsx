@@ -120,6 +120,22 @@ export default function RootLayout({
     <html lang="en"> 
       {/* Google Tag Manager and Google Analytics (in <head>) */}
       <head>
+        {/* Theme initialization script - runs before page render to prevent FOUC */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var theme = localStorage.getItem('theme') || 'blue';
+                  document.documentElement.classList.add('theme-' + theme);
+                } catch (e) {
+                  document.documentElement.classList.add('theme-blue');
+                }
+              })();
+            `,
+          }}
+        />
+        
         {/* Preconnect to critical domains */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />

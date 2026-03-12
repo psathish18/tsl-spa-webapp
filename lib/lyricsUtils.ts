@@ -154,6 +154,7 @@ export interface ContentSections {
   easterEgg: string;
   lyrics: string;
   faq: string;
+  summary?: string; // Optional summary section for future use
 }
 
 /**

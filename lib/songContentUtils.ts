@@ -24,7 +24,7 @@ export function getStanzaLabel(index: number, total: number): string {
 
 // ─── #3: Mood Tags ───────────────────────────────────────────────────────────
 
-type MoodTag = 'Romantic' | 'Sad' | 'Devotional' | 'Peppy / Dance' | 'Motivational' | 'Melody' | 'Folk' | 'Lullaby';
+export type MoodTag = 'Romantic' | 'Sad' | 'Devotional' | 'Peppy / Dance' | 'Motivational' | 'Melody' | 'Folk' | 'Lullaby' | 'Soothing' | 'Energetic' | 'Calm' | 'Intense';
 
 interface MoodRule {
   mood: MoodTag;
@@ -103,7 +103,7 @@ const MOOD_RULES: MoodRule[] = [
 export function getMoodTags(
   title: string,
   singerName?: string,
-  musicName?: string
+  musicName?: string,
 ): MoodTag[] {
   const lowerTitle = (title || '').toLowerCase();
   const lowerSinger = (singerName || '').toLowerCase();
@@ -121,21 +121,6 @@ export function getMoodTags(
   }
 
   return matched;
-}
-
-/** Tailwind color classes per mood tag */
-export function getMoodTagStyle(mood: MoodTag): { bg: string; text: string } {
-  const styles: Record<MoodTag, { bg: string; text: string }> = {
-    Romantic:        { bg: 'bg-pink-100',   text: 'text-pink-800' },
-    Sad:             { bg: 'bg-blue-100',   text: 'text-blue-800' },
-    Devotional:      { bg: 'bg-yellow-100', text: 'text-yellow-800' },
-    'Peppy / Dance': { bg: 'bg-orange-100', text: 'text-orange-800' },
-    Motivational:    { bg: 'bg-green-100',  text: 'text-green-800' },
-    Melody:          { bg: 'bg-purple-100', text: 'text-purple-800' },
-    Folk:            { bg: 'bg-amber-100',  text: 'text-amber-800' },
-    Lullaby:         { bg: 'bg-teal-100',   text: 'text-teal-800' },
-  };
-  return styles[mood] ?? { bg: 'bg-gray-100', text: 'text-gray-700' };
 }
 
 // ─── #11: Auto-generated FAQ ─────────────────────────────────────────────────

@@ -512,7 +512,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
       console.log(`✅ Using ${tamilStanzas.length} Tamil lyrics from blob (no API call)`)
     }
 
-    englishStanzas = blobData.englishStanzas || []
+    englishStanzas = blobData.englishStanzas || blobData.enrichedMetadata?.stanzaMeanings || []
     if (englishStanzas.length > 0) {
       console.log(`✅ Using ${englishStanzas.length} English lyrics from blob (no API call)`)
     }
@@ -575,8 +575,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Check if song has EnglishTranslation category - skip stanza splitting if true
   const hasEnglishTranslation = hasEnglishTranslationContent(song.category || []);
 
-  // Parse content into sections (intro, easter-egg, lyrics, faq)
-  let contentSections: ContentSections = { intro: '', easterEgg: '', lyrics: '', faq: '' };
+  // Parse content into sections (intro, easter-egg, lyrics, faq, summary)
+  let contentSections: ContentSections = { intro: '', easterEgg: '', lyrics: '', faq: '', summary: '' };
   let stanzas: string[] = []
   
   if (fromBlob && blobData) {
@@ -587,7 +587,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
       intro: blobData.sections?.intro || blobData.enrichedMetadata?.high_ctr_intro || '',
       easterEgg: blobData.sections?.easterEgg || '',
       lyrics: '',  // Lyrics are stored as stanzas in blob, not in sections
-      faq: blobData.sections?.faq || blobData.enrichedMetadata?.faq || ''
+      faq: blobData.sections?.faq || blobData.enrichedMetadata?.faq || '',
+      summary: blobData.enrichedMetadata?.summary || '',
     };
   } else {
     // Fallback: Parse and split content from Blogger
@@ -634,6 +635,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Plain-text versions of each stanza for clipboard copy (#7, #8)
   const stanzaPlainTexts = stanzas ? stanzas.map(s => htmlToPlainText(s)) : [];
   const allLyricsText = stanzaPlainTexts.join('\n\n');
+ const stanzaPlainTextsTamil = tamilStanzas ? tamilStanzas.map(s => htmlToPlainText(s)) : [];
+  const allLyricsTextTamil = stanzaPlainTextsTamil.join('\n\n');
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -668,7 +671,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           </ol>
         </nav>
 
-        <header className="mb-8">
+        <header className="mb-4">
           {/* SEO-optimized H1 with consistent title */}
           <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
             {fullTitle}
@@ -731,7 +734,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               })}
             </div>
             {/* Mood tags – auto-detected from title / singer / music director */}
-            <MoodTags title={songName} singerName={singerName} musicName={musicName} />
+            <MoodTags title={songName} singerName={singerName} musicName={musicName} tags={blobData?.enrichedMetadata?.mood} />
           </div>
         </header>
         
@@ -880,7 +883,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
         </div> */}
         
         {/* Song metadata summary - adds editorial value and context for readers */}
-        {(movieName || singerName || lyricistName || musicName) && (
+        {/* {(movieName || singerName || lyricistName || musicName) && (
           <div className="song-info-card mb-8 bg-gray-50 rounded-lg p-5 border border-gray-200">
             <h2 className="text-lg font-semibold text-gray-800 mb-3">About This Song</h2>
             <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
@@ -926,12 +929,12 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               )}
             </dl>
           </div>
-        )}
+        )} */}
 
         {/* Intro section - if present */}
         {contentSections.intro && (
           <div 
-            className="intro-section mb-8 prose prose-lg max-w-none text-gray-700"
+            className="intro-section mb-4 prose prose-lg max-w-none text-gray-700"
             dangerouslySetInnerHTML={{ __html: contentSections.intro }}
           />
         )}
@@ -954,12 +957,17 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               style={{ lineHeight: '2', fontSize: '1.1rem' }}
               data-server-stanzas-count={String(tamilStanzas.length)}
             >
+              
+              {/* #8 Copy all lyrics button */}
+              {tamilStanzas && tamilStanzas.length > 0 && (
+                <CopyAllLyricsButton plainText={allLyricsTextTamil} songTitle={songName} />
+              )}
               {tamilStanzas.map((stanzaHtml, idx) => {
                 // Build snippet and share URLs using utility functions
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
                 const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
-                const label = getStanzaLabel(idx, tamilStanzas.length);
+                // const label = getStanzaLabel(idx, tamilStanzas.length);
                 
                 const twitterHref = buildTwitterShareUrl({
                   snippet: snippetWithStars,
@@ -976,11 +984,11 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 return (
                   <div key={idx} className="mb-6">
                     {/* #6 Stanza label */}
-                    <span className="stanza-label">{label}</span>
+                    {/* <span className="stanza-label">{label}</span> */}
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
                     <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600 flex-wrap">
                       {/* #7 Copy stanza */}
-                      <CopyButton text={plainText} label="Copy stanza" />
+                      {/* <CopyButton text={plainText} label="Copy stanza" /> */}
                       <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
                       <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
                     </div>
@@ -1006,7 +1014,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
                   const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
-                  const label = getStanzaLabel(idx, stanzas.length);
+                  // const label = getStanzaLabel(idx, stanzas.length);
                   
                   const twitterHref = buildTwitterShareUrl({
                     snippet: snippetWithStars,
@@ -1023,7 +1031,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   return (
                     <div key={idx} className="mb-6">
                       {/* #6 Stanza label */}
-                      <span className="stanza-label">{label}</span>
+                      {/* <span className="stanza-label">{label}</span> */}
                       <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
                       {/* #2 Inline English meaning toggle (shown only when English stanzas exist) */}
                       {englishStanzas[idx] && (
@@ -1031,7 +1039,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                       )}
                       <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600 flex-wrap">
                         {/* #7 Copy stanza */}
-                        <CopyButton text={plainText} label="Copy stanza" />
+                        {/* <CopyButton text={plainText} label="Copy stanza" /> */}
                         <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
                           <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
                       </div>
@@ -1051,11 +1059,11 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               data-server-stanzas-count={String(englishStanzas.length)}
             >
               {englishStanzas.map((stanzaHtml, idx) => {
-                const label = getStanzaLabel(idx, englishStanzas.length);
+                // const label = getStanzaLabel(idx, englishStanzas.length);
                 return (
                   <div key={idx} className="mb-6">
                     {/* #6 Stanza label */}
-                    <span className="stanza-label">{label}</span>
+                    {/* <span className="stanza-label">{label}</span> */}
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
                   </div>
                 );
@@ -1072,11 +1080,23 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
             dangerouslySetInnerHTML={{ __html: contentSections.faq }}
           />
         )}
+        {/* FAQ section - if present */}
+        {contentSections.summary && (
+          <div className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200">
+            <h2 className="text-lg font-semibold pt-1 pb-3 border-b border-gray-200 text-gray-700">
+              Song Summary
+            </h2>
+            <div 
+            dangerouslySetInnerHTML={{ __html: contentSections.summary }}
+          />
+          </div>
+        )}
+
 
         {/* Auto-generated FAQ (#11) — adds unique editorial Q&A content for every song */}
-        {autoFAQItems.length > 0 && (
-          <div className="auto-faq-section mt-8 mb-8 bg-gray-50 border border-gray-200">
-            <h2 className="text-lg font-semibold px-5 pt-4 pb-3 border-b border-gray-200 text-gray-700">
+        {!contentSections.faq && autoFAQItems.length > 0 && (
+          <div className="auto-faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200">
+            <h2 className="text-lg font-semibold pt-1 pb-3 border-b border-blue-200 text-gray-700">
               Frequently Asked Questions
             </h2>
             <div>

@@ -127,6 +127,11 @@
   --img-to: #e9f0ff;
   --img-circle-from: #dbeafe;
   --img-circle-to: #c7ddff;
+  /* mood tag colors */
+  --mood-bg: #dbeafe;
+  --mood-text: #1e40af;
+  --mood-border: rgba(30, 64, 175, 0.12);
+  --mood-hover: #bfdbfe;
 }
 
 .theme-blue {
@@ -146,6 +151,11 @@
   --pill-hover: #bfdbfe; /* blue-200 */
   --pill-hover-dark: #93b6fb; /* slightly darker blue for hover state */
   --header-surface: #cfe3ff; /* slightly darker header surface */
+  /* mood tag colors */
+  --mood-bg: #dbeafe;
+  --mood-text: #1e40af;
+  --mood-border: rgba(30, 64, 175, 0.12);
+  --mood-hover: #bfdbfe;
 }
 
 .theme-green {
@@ -164,6 +174,11 @@
   --pill-hover: #bbf7d0;
   --pill-hover-dark: #86efc1; /* slightly darker green hover */
   --header-surface: #def7ec; /* slightly darker green surface */
+  /* mood tag colors */
+  --mood-bg: #d1fae5;
+  --mood-text: #065f46;
+  --mood-border: rgba(6, 95, 70, 0.12);
+  --mood-hover: #a7f3d0;
 }
 
 .theme-orange {
@@ -182,6 +197,11 @@
   --pill-hover: #ffedd5;
   --pill-hover-dark: #ffd6ac; /* slightly darker orange hover */
   --header-surface: #fff1e0; /* slightly darker orange surface */
+  /* mood tag colors */
+  --mood-bg: #fed7aa;
+  --mood-text: #7c2d12;
+  --mood-border: rgba(194, 65, 12, 0.12);
+  --mood-hover: #fdba74;
 }
 
 .theme-purple {
@@ -200,6 +220,11 @@
   --pill-hover: #f3e8ff;
   --pill-hover-dark: #e5cfff; /* slightly darker purple hover */
   --header-surface: #f3ecff; /* slightly darker purple surface */
+  /* mood tag colors */
+  --mood-bg: #e9d5ff;
+  --mood-text: #4c1d95;
+  --mood-border: rgba(76, 29, 149, 0.12);
+  --mood-hover: #d8b4fe;
 }
 
 .theme-dark {
@@ -220,6 +245,11 @@
   --pill-text: #fbbf24; /* yellow pill text in dark */
   --pill-hover: rgba(255,255,255,0.06);
   --pill-hover-dark: rgba(255,255,255,0.08);
+  /* mood tag colors */
+  --mood-bg: transparent;
+  --mood-text: #fbbf24;
+  --mood-border: rgba(251, 191, 36, 0.2);
+  --mood-hover: rgba(255,255,255,0.08);
 }
 
 /* New deep-indigo theme using rgb(111 36 172) as the primary accent */
@@ -239,6 +269,11 @@
   --pill-hover: #e9ddff;
   --pill-hover-dark: #d7c8ff;
   --header-surface: #e6dbff; /* slightly darker header surface */
+  /* mood tag colors */
+  --mood-bg: #e9d5ff;
+  --mood-text: rgb(64 0 120);
+  --mood-border: rgba(111, 36, 172, 0.12);
+  --mood-hover: #d8b4fe;
 }
 
 /* Make .card use theme variables so components adapt to dark mode */
@@ -560,6 +595,15 @@
 }
 
 /* FAQ section styling */
+.faq-section h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+
 .faq-section h3 {
   color: #1e40af;
   font-size: 1.25rem;
@@ -586,6 +630,11 @@
 .theme-dark .faq-section {
   background: rgba(59, 130, 246, 0.1) !important;
   border-color: rgba(59, 130, 246, 0.2) !important;
+}
+
+.theme-dark .faq-section h2 {
+  border-bottom-color: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
 }
 
 .theme-dark .faq-section h3 {
@@ -711,17 +760,42 @@
 
 /* ── Mood tags ────────────────────────────────────────────────────────────── */
 .mood-tag {
-  /* inherits bg/text from Tailwind utility classes applied inline */
+  background-color: var(--mood-bg);
+  color: var(--mood-text);
+  border: 1px solid var(--mood-border);
   letter-spacing: 0.03em;
+  transition: background-color 150ms ease, transform 120ms ease;
+  box-shadow: 0 1px 0 rgba(16,24,40,0.04), 0 4px 12px rgba(13, 26, 52, 0.03);
+}
+.mood-tag:hover {
+  background-color: var(--mood-hover);
+  transform: translateY(-1px);
 }
 .theme-dark .mood-tag {
-  opacity: 0.9;
+  background-color: transparent;
+  border: 1px solid var(--mood-border);
+  box-shadow: none;
 }
 
 /* ── Auto-generated FAQ section ──────────────────────────────────────────── */
 .auto-faq-section {
   border-radius: 0.75rem;
   overflow: hidden;
+}
+.theme-dark .auto-faq-section {
+  background: rgba(59, 130, 246, 0.1) !important;
+  border-color: rgba(59, 130, 246, 0.2) !important;
+}
+.auto-faq-section h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 0.25rem 0 0.75rem;
+  border-bottom: 1px solid #dbeafe;
+  color: #374151;
+}
+.theme-dark .auto-faq-section h2 {
+  border-bottom-color: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
 }
 .auto-faq-item {
   border-bottom: 1px solid rgba(0,0,0,0.06);
