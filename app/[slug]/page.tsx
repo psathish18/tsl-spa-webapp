@@ -118,9 +118,23 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   })
   
   // console.log("description", description)
-  // Ensure slug has .html extension for canonical URL
-  const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
-  const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+  
+  // Extract canonical URL from Blogger API response if available
+  let canonicalUrl = `https://www.tsonglyrics.com/${params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`}`
+  
+  // If song has link array from Blogger API, use the alternate link as canonical URL
+  if (song.link && Array.isArray(song.link)) {
+    const alternateLink = song.link.find((l: { rel: string; href: string }) => l.rel === 'alternate')
+    if (alternateLink?.href) {
+      // Use the Blogger URL as canonical, but replace the domain with tsonglyrics.com
+      // Extract the filename from Blogger URL (e.g., /p/song-name.html or /2023/05/song-name.html)
+      // We only need the .html filename as that's what we use in our routing
+      const urlMatch = alternateLink.href.match(/\/([^\/]+\.html)$/)
+      if (urlMatch) {
+        canonicalUrl = `https://www.tsonglyrics.com/${urlMatch[1]}`
+      }
+    }
+  }
   
   // Build keywords from categories
   
@@ -174,6 +188,7 @@ interface Song {
   author: Array<{ name: { $t: string } }>
   category?: Array<{ term: string }>
   media$thumbnail?: { url: string }
+  link?: Array<{ rel: string; href: string }>
   songTitle?: string
   movieName?: string
   singerName?: string
