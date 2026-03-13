@@ -52,5 +52,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfF3c8PGnwBT2fGr1GtJ1qRz5atZQsg3ep5khBrLBcbD5jHRh8y-Q3mdWT4KnR3EeZIzNRbW8uj9N6cEamohGdFM1cdjK2K-ENpt8H_SJBgbs9ky_qLZHfrN1l3SZ7ya1AJkwu3pyCXdM/s400-c/Naiyaandiposter.jpg",
   "generatedAt": "2026-01-18T13:02:49.461Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "wedding"
+    ],
+    "keywords": [
+      "naiyaandi",
+      "ae le le etti paarthale",
+      "dhanush",
+      "nazriya nazim",
+      "m ghibran",
+      "arivumathi",
+      "leon d'souza",
+      "sundar narayana rao",
+      "romantic",
+      "melody",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>Naiyaandi</em>?</h4><p>The lead actors are <strong>Dhanush</strong> and <strong>Nazriya Nazim</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for the song <strong>Ae Le Le Etti Paarthale</strong>?</h4><p>The music was composed by <strong>M Ghibran</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Ae Le Le Etti Paarthale</strong>?</h4><p>The song conveys romantic and soothing emotions, reflecting the love story in the movie.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Naiyaandi</em> released?</h4><p>The movie was released in the year <strong>2013</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for the song <strong>Ae Le Le Etti Paarthale</strong>?</h4><p>The lyrics were penned by <strong>Arivumathi</strong>.</p></div></div>",
+    "summary": "The song <strong>Ae Le Le Etti Paarthale</strong> from the 2013 Tamil movie <em>Naiyaandi</em>, starring <strong>Dhanush</strong> and <strong>Nazriya Nazim</strong>, is a melodious and romantic track. Composed by <strong>M Ghibran</strong> with lyrics by <strong>Arivumathi</strong>, the song is beautifully rendered by <strong>Leon D'Souza</strong> and <strong>Sundar Narayana Rao</strong>. It captures the essence of love and tenderness, reflecting the emotions of the characters in the film. The soothing melody and heartfelt lyrics make it a memorable addition to Tamil cinema's musical repertoire.",
+    "actorName": "Dhanush",
+    "actressName": "Nazriya Nazim",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Ae Le Le Etti Paarthale</strong>, a melodious track from the movie <em>Naiyaandi</em>, captivates listeners with its soothing tune and heartfelt lyrics. Composed by the talented <strong>M Ghibran</strong> and sung beautifully by <strong>Leon D'Souza</strong> and <strong>Sundar Narayana Rao</strong>, this song perfectly complements the romantic essence of the film. Experience the magic of music that resonates with emotions and love.",
+    "stanzaMeanings": [
+      "Oh, when I see you, it feels like a sweet kiss, the gentle breeze blows and takes away my life, what is it that you call me?",
+      "In your eyes, there is a hidden treasure, touching my heart, are you tied to my heart? Today, our eyes meet and smile, oh dear, you seem to be teasing me.",
+      "You are the beautiful color, like rain pouring down, pouring down, even poetry is blooming, blooming...",
+      "With a sparkle in your eyes, there is a spark in your heart, we will release our feelings from our hearts...",
+      "Oh, when I see you, the gentle breeze blows and takes away my life, what is it that you call me?"
+    ]
+  }
 }

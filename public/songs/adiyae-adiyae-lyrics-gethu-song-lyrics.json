@@ -90,5 +90,56 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV8rMkDJFVz3F5Ok0WsG8ySkZ9x9hnXwiDgLfE6IKEA0MyixNhn1BOGAbO5jxr380WAYLXEj0JnbI4-C0JrlOL9-LtiJtc0H2lheIJ4oPZb9yLrMdx9spY85_2nKrC59nbrz3HfaQiVQ8/s400-c/Gethu.jpg",
   "generatedAt": "2026-01-18T12:53:05.819Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "gethu",
+      "adiyae adiyae",
+      "karthik",
+      "shalini",
+      "thamarai",
+      "harrish jeyaraj",
+      "romantic",
+      "melody",
+      "2016",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who are the singers of the song <strong>Adiyae Adiyae</strong>?</h4><p>The song is sung by <strong>Karthik</strong> and <strong>Shalini</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for the movie <em>Gethu</em>?</h4><p>The music was composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Adiyae Adiyae</strong>?</h4><p>The song portrays themes of love and longing, set against a melodious tune.</p></div><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>Gethu</em>?</h4><p>The lead roles are played by <strong>Udhayanidhi Stalin</strong> and <strong>Amy Jackson</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Gethu</em> released?</h4><p>The movie was released in the year <strong>2016</strong>.</p></div></div>",
+    "summary": "The song <strong>Adiyae Adiyae</strong> from the movie <em>Gethu</em>, released in 2016, features the lead pair Udhayanidhi Stalin and Amy Jackson. This melodious duet, sung by Karthik and Shalini, with lyrics by Thamarai and music by Harrish Jeyaraj, beautifully captures the emotions of love and longing. The song's soothing composition and heartfelt lyrics make it a memorable addition to Tamil cinema's musical repertoire. It resonates deeply with listeners, evoking feelings of romance and introspection.",
+    "actorName": "Udhayanidhi Stalin",
+    "actressName": "Amy Jackson",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Adiyae Adiyae</strong> from the movie <em>Gethu</em> is a mesmerizing melody that captures the essence of love and longing. Sung beautifully by Karthik and Shalini, with lyrics penned by Thamarai and music composed by Harrish Jeyaraj, this song is a perfect blend of emotion and artistry. Experience the heartfelt emotions and soothing tunes that make this track unforgettable.",
+    "stanzaMeanings": [
+      "This stanza introduces the song and its contributors.",
+      "For the first time, I step out alone into the night to observe.",
+      "The colors are dark, the shadows are dark, and my feet are drenched in the dew.",
+      "With her eyes, she shatters my heart, which is like a mirror, Kokila!",
+      "With her mind, she smiles, and the pale moon continues to watch.",
+      "Day by day, my heart desires to wander and explore.",
+      "Day by day, I wish for the same moment under the moonlight.",
+      "Something is anticipated, the blooming breeze turns into rain and transforms the fire.",
+      "If you are near, I am like a flowing stream; if you go far, I fall and fail.",
+      "My throbbing heart surpasses you; are you a peacock feather? Looking at you, I shed tears.",
+      "For the first time, I step out alone into the night to observe.",
+      "Beyond the moon, clouds, and stars, I see something my heart desires.",
+      "With her eyes, she shatters my heart, which is like a mirror, Kokila!",
+      "With her mind, she smiles, and the pale moon continues to watch.",
+      "Day by day, my heart desires to wander and explore.",
+      "Day by day, I wish for the same moment under the moonlight."
+    ]
+  }
 }

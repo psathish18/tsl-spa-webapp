@@ -125,5 +125,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcpDnhPUEuG7U2ZMVYfqJk27kv6G1FQO8s-Jzj2YrBK92sxuEjgIUFjZBrSG38LiGVZzHUV1ZD1CVonpOkIEyvehFBAao66heDX1q0WcSeEoEVulwKnC7dqUs0LQULS71z9g6GEJK5Hsk/s400-c/Amma+Amma+Lyrics+in+Tamil+Velai+illa+pattathaari1.png",
   "generatedAt": "2026-02-01T13:07:17.637Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning",
+      "heartbreak"
+    ],
+    "keywords": [
+      "amma amma",
+      "velaiyilla pattathari",
+      "dhanush",
+      "amala paul",
+      "anirudh",
+      "s janaki",
+      "2014",
+      "melancholic",
+      "soothing",
+      "melody",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who is the lead actor in the movie <em>Velaiyilla Pattathari</em>?</h4><p>The lead actor in the movie is <strong>Dhanush</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Amma Amma</strong>?</h4><p>The song is a heartfelt tribute to a mother's love and the emotional bond shared with her child.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Velaiyilla Pattathari</em>?</h4><p>The music was composed by the talented <strong>Anirudh Ravichander</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Velaiyilla Pattathari</em> released?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>Who performed the vocals for the song <strong>Amma Amma</strong>?</h4><p>The song was soulfully sung by <strong>S Janaki</strong>.</p></div></div>",
+    "summary": "The song \"Amma Amma\" from the 2014 Tamil movie \"Velaiyilla Pattathari\" is a deeply emotional and touching melody. Featuring Dhanush and Amala Paul in the lead roles, the song is a heartfelt tribute to the love and sacrifices of a mother. Sung by the legendary S Janaki and composed by Anirudh Ravichander, the lyrics penned by Dhanush beautifully convey the emotions of loss and gratitude. This song resonates with anyone who cherishes the bond with their mother, making it a timeless classic.",
+    "actorName": "Dhanush",
+    "actressName": "Amala Paul",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Amma Amma</strong>, a heartfelt melody from the movie <em>Velaiyilla Pattathari</em>, beautifully captures the essence of a son's love and longing for his mother. Composed by the talented Anirudh and sung soulfully by S Janaki, this song resonates deeply with its emotional lyrics penned by Dhanush. Experience the touching tribute to maternal love through this iconic track."
+  }
 }

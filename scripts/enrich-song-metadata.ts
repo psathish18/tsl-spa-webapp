@@ -49,7 +49,8 @@ import type { SongBlobData, EnrichedMetadata } from './types/song-blob.types'
 // ---------------------------------------------------------------------------
 
 const SONGS_DIR = path.join(__dirname, '../public/songs')
-const MODEL_NAME = 'gpt-4o'
+const ENRICHMENT_MODEL = 'gpt-4o'      // Use full model for metadata enrichment
+const TRANSLATION_MODEL = 'gpt-4o-mini' // Use mini model for translation (cost optimization)
 
 /** GitHub Models endpoint — accepts standard GITHUB_TOKEN (PAT). Same pattern as filter-with-ai.ts */
 const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com'
@@ -265,9 +266,9 @@ function buildPrompt(song: SongBlobData): string {
   const categories = song.category.join(', ')
   const actorHint = song.actorName ? `\nKnown actor from song data: ${song.actorName}` : ''
 
-  return `You are an expert in Tamil cinema and music with deep knowledge of Tamil movies inlcluding old tamil movies ( from 1950s to present), actors, and actresses.
+  return `You are an expert in Tamil cinema and music with deep knowledge of Tamil movies including old Tamil movies (from 1950s to present), actors, and actresses.
 
-Analyze the following Tamil song details and return enriched metadata as JSON.
+Analyze the following Tamil song details and return enriched metadata as JSON. Use your extensive knowledge of Tamil cinema to identify the lead actor and actress accurately. If the movie name is provided, cross-reference it with your knowledge to ensure correctness. If the movie name is unknown, use the singer, lyricist, or music director details as hints to infer the actor/actress.
 
 Song title : ${song.title}
 Movie      : ${song.movieName || 'Unknown'}
@@ -280,9 +281,9 @@ Lyrics snippet (Tanglish/Tamil):
 ${lyricsSnippet}
 
 IMPORTANT: Use your knowledge of Tamil cinema to identify:
-- actorName: the lead actor/hero of the movie "${song.movieName || 'this movie'}". Do NOT leave blank if you know it.
-- actressName: the lead actress/heroine of the movie "${song.movieName || 'this movie'}". Do NOT leave blank if you know it.
-- releaseYear: the release year of the movie/song.
+- actorName: the lead actor/hero of the Tamil movie "${song.movieName || 'this movie'}". Do NOT leave blank if you know it.
+- actressName: the lead actress/heroine of the Tamil movie "${song.movieName || 'this movie'}". Do NOT leave blank if you know it.
+- releaseYear: the release year of the Tamil movie/song.
 
 Return a JSON object with:
 - actorName   : lead actor name (string — use your Tamil film knowledge, empty only if truly unknown)
@@ -306,7 +307,7 @@ Strict rules:
 5. Ensure the high_ctr_intro is engaging and highlights what makes the song special. Use HTML tags as instructed.
 6. The faq field must be a valid HTML string following the exact format specified — do not return JSON objects or any other format.
 
-Respond with ONLY a JSON object matching this schema — no explanations or additional text.`
+Respond with ONLY a JSON object matching this schema — no explanations or additional text.`;
 }
 
 // ---------------------------------------------------------------------------
@@ -356,20 +357,19 @@ Singer(s)  : ${song.singerName || 'Unknown'}
 ${stanzaTexts}
 
 Return a JSON object with a "meanings" array where meanings[i] is the English translation of Stanza i+1.
-The array must have exactly ${song.stanzas.length} elements.`
+The array must have exactly ${song.stanzas.length} elements.`;
 }
-
-
 
 async function callCopilotWithRetry(
   client: OpenAI,
   prompt: string,
   slug: string,
+  model: string = ENRICHMENT_MODEL,
 ): Promise<Partial<EnrichedMetadata> | null> {
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
       const response = await client.chat.completions.create({
-        model: MODEL_NAME,
+        model,
         temperature: 0.2,
         response_format: {
           type: 'json_schema',
@@ -408,7 +408,6 @@ async function callCopilotWithRetry(
   console.warn(`  ⚠️  Exhausted retries for "${slug}", skipping`)
   return null
 }
-
 // ---------------------------------------------------------------------------
 // Translation with retry
 // ---------------------------------------------------------------------------
@@ -420,6 +419,7 @@ async function callCopilotWithRetry(
 async function callTranslationWithRetry(
   client: OpenAI,
   song: SongBlobData,
+  model: string = TRANSLATION_MODEL,
 ): Promise<string[] | null> {
   const prompt = buildTranslationPrompt(song)
   const slug = song.slug
@@ -427,7 +427,7 @@ async function callTranslationWithRetry(
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
       const response = await client.chat.completions.create({
-        model: MODEL_NAME,
+        model,
         temperature: 0.1,
         response_format: {
           type: 'json_schema',
@@ -539,8 +539,9 @@ async function main() {
   }
 
   console.log('🎵 Tamil Song Lyrics — Batch AI Metadata Enrichment')
-  console.log(`   Model  : ${MODEL_NAME}`)
-  console.log(`   Source : ${SONGS_DIR}`)
+  console.log(`   Enrichment Model : ${ENRICHMENT_MODEL}`)
+  console.log(`   Translation Model: ${TRANSLATION_MODEL}`)
+  console.log(`   Source           : ${SONGS_DIR}`)
   console.log(`   Mode   : ${dryRun ? 'DRY RUN (no writes)' : force ? 'FORCE (re-enrich all)' : 'INCREMENTAL (skip already enriched)'}`)
   if (limit) console.log(`   Limit  : ${limit} songs`)
   if (skipN) console.log(`   Skip   : first ${skipN} files`)
@@ -629,7 +630,7 @@ async function main() {
     const needsEnrichment = force || !song.enrichedMetadata?.high_ctr_intro
     if (needsEnrichment) {
       try {
-        aiData = await callCopilotWithRetry(client!, buildPrompt(song), song.slug)
+        aiData = await callCopilotWithRetry(client!, buildPrompt(song), song.slug, ENRICHMENT_MODEL)
       } catch (err) {
         if (isDailyQuotaError(err)) {
           console.error('\n🔴 Daily quota (RPD) exhausted!')
@@ -640,6 +641,8 @@ async function main() {
         }
         throw err // unexpected — let Node crash with stack trace
       }
+    } else {
+      console.log(`       ✓ Using existing enrichment data (high_ctr_intro, faq, summary)`)
     }
 
     // ── Step 2: Per-stanza English translation ────────────────────────────
@@ -649,18 +652,13 @@ async function main() {
       !Array.isArray(existingMeanings) ||
       existingMeanings.length !== song.stanzas.length
 
-    let translatedMeanings: string[] | null
-    if (needsTranslation) {
-      translatedMeanings = null // will be filled below
-    } else {
-      translatedMeanings = existingMeanings ?? null
-    }
+    let translatedMeanings: string[] | null = null
 
     if (needsTranslation && song.stanzas.length > 0) {
       // Brief pause between the two API calls made for the same song
       if (needsEnrichment) await sleep(INTRA_SONG_DELAY_MS)
       try {
-        translatedMeanings = await callTranslationWithRetry(client!, song)
+        translatedMeanings = await callTranslationWithRetry(client!, song, TRANSLATION_MODEL)
       } catch (err) {
         if (isDailyQuotaError(err)) {
           console.error('\n🔴 Daily quota (RPD) exhausted during translation!')
@@ -670,6 +668,10 @@ async function main() {
         }
         throw err
       }
+    } else if (!needsTranslation && existingMeanings) {
+      // Use existing translations instead of re-translating
+      translatedMeanings = existingMeanings
+      console.log(`       ✓ Using existing ${existingMeanings.length} stanza translations`)
     }
 
     // ── Merge and write ────────────────────────────────────────────────────

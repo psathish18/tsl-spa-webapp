@@ -44,5 +44,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:21.720Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "folk"
+    ],
+    "songType": [
+      "folk",
+      "dance number"
+    ],
+    "occasions": [
+      "festivals",
+      "celebration"
+    ],
+    "keywords": [
+      "kizhakku vaasal",
+      "karthik",
+      "revathi",
+      "ilaiyaraaja",
+      "vaali",
+      "1990",
+      "folk",
+      "dance",
+      "tamil cinema",
+      "old songs",
+      "classic",
+      "energetic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who composed the music for <strong>Ada Veetukku Veetukku</strong>?</h4><p>The music was composed by the legendary Ilaiyaraaja.</p></div><div class=\"faq-item\"><h4>Which movie features the song <strong>Ada Veetukku Veetukku</strong>?</h4><p>The song is from the Tamil movie <em>Kizhakku Vaasal</em>.</p></div><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>Kizhakku Vaasal</em>?</h4><p>The lead roles were played by Karthik and Revathi.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Ada Veetukku Veetukku</strong>?</h4><p>The song celebrates the vibrant and cultural aspects of Tamil folk traditions.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Kizhakku Vaasal</em> released?</h4><p>The movie was released in the year 1990.</p></div></div>",
+    "summary": "The song \"Ada Veetukku Veetukku\" from the 1990 Tamil movie \"Kizhakku Vaasal\" features the lead performances of Karthik and Revathi. Composed by Ilaiyaraaja with lyrics by Vaali, this energetic folk number captures the essence of Tamil cultural celebrations. The song's vibrant rhythm and engaging lyrics make it a standout piece in the movie's soundtrack. It evokes a sense of joy and festivity, making it a timeless classic in Tamil cinema.",
+    "actorName": "Karthik",
+    "actressName": "Revathi",
+    "releaseYear": "1990",
+    "high_ctr_intro": "<strong>Ada Veetukku Veetukku</strong>, a vibrant and energetic song from the movie <em>Kizhakku Vaasal</em>, showcases the brilliance of Ilaiyaraaja's musical composition. Featuring the dynamic performances of Karthik and Revathi, this track captures the essence of Tamil folk traditions. Its lively rhythm and engaging lyrics make it a timeless classic in Tamil cinema.",
+    "stanzaMeanings": [
+      "Each house needs a front entrance. Street performances and songs need a stage.",
+      "A house without a front entrance is like a dance without rhythm.",
+      "Each house needs a front entrance. Street performances and songs need a stage.",
+      "The vast ocean waves, but only the one who dives deep can find the pearls. This town doesn't understand that.",
+      "The heavy burdens in the heart are carried away by songs, but no one understands this.",
+      "Without one, there can't be two. Without men, there can't be women. Without women, there can't be anyone. Without sorrow, there can't be greatness.",
+      "A house without a front entrance is like a dance without rhythm.",
+      "Each house needs a front entrance. Street performances and songs need a stage.",
+      "Look at the new groom and bride, like two oxen yoked together. May they live long and prosper.",
+      "Placing a jasmine flower on the bed, show the seeds of love. I want to hear a lullaby.",
+      "Without clothes, there is no body. Without waves, there is no ocean. Without sound, there is no bell. Without a soul, there is no mind.",
+      "A house without a front entrance is like a dance without rhythm.",
+      "Each house needs a front entrance. Street performances and songs need a stage.",
+      "A house without a front entrance is like a dance without rhythm.",
+      "Each house needs a front entrance. Street performances and songs need a stage."
+    ]
+  }
 }

@@ -120,5 +120,42 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:00:34.072Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "emotional"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "amma amma",
+      "velaiyilla pattathari",
+      "dhanush",
+      "amala paul",
+      "anirudh",
+      "s janaki",
+      "2014",
+      "melancholic",
+      "emotional",
+      "melody",
+      "solo",
+      "lyrics by dhanush"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who composed the music for the song <strong>Amma Amma</strong>?</h4><p>The music for the song was composed by the talented Anirudh.</p></div><div class=\"faq-item\"><h4>Which movie features the song <strong>Amma Amma</strong>?</h4><p>The song is featured in the Tamil movie <em>Velaiyilla Pattathari</em>.</p></div><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>Velaiyilla Pattathari</em>?</h4><p>The lead roles are played by <strong>Dhanush</strong> and <strong>Amala Paul</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Amma Amma</strong>?</h4><p>The song expresses the deep emotional connection and love between a son and his mother.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Velaiyilla Pattathari</em> released?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div></div>",
+    "summary": "The song <strong>Amma Amma</strong> from the 2014 Tamil movie <em>Velaiyilla Pattathari</em>, starring Dhanush and Amala Paul, is a deeply emotional melody. Sung by S Janaki, composed by Anirudh, and penned by Dhanush, the song beautifully captures the profound love and longing of a son for his mother. The poignant lyrics and soulful music evoke a sense of nostalgia and heartfelt connection. This song remains a touching tribute to the eternal bond between a child and their mother.",
+    "actorName": "Dhanush",
+    "actressName": "Amala Paul",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Amma Amma</strong>, a soulful melody from the movie <em>Velaiyilla Pattathari</em>, captivates listeners with its profound emotional depth. Sung by the legendary S Janaki and composed by Anirudh, this song beautifully portrays the bond between a son and his mother. The heartfelt lyrics penned by Dhanush add an unparalleled poignancy to this masterpiece.",
+    "stanzaMeanings": [
+      "Mother, where are you? I have no one else but you. I searched for you, you're missing, don't play hide and seek? Come outside. Mother, you are dead, I am alone and helpless. I should sleep listening to your song. Now wake up by listening to my song, that's enough. Mother, where are you? I have no one else but you. Why did you die before I should? Are you angry with me? My sweet mother, God's child, you have to wipe the dirt from my eyes. Why all these curses? Is this because of sins I committed before? Day turned dark and I am afraid, mother, there is no help to wipe my darkness. My half soul is now dead, I am in a state of loneliness. Mother, where are you? I have no one else but you. After me, you should live, my breath is also within you. The sky is full of colors, flowers are full of fragrance. God is there in the world I live. You are my limitless pride, you made your father proud. Others' words aren't important in this world, my child. The world is a playground before your eyes. Time will pass and it will heal you. I'll be your child again. Mother, where are you? I have no one else but you. Wherever you go, I will come. Look in the mirror, I will be there. Mother, you are dead, you are my soul, my child. I have to sleep listening to your song today. You'll always hear this lullaby that I sing today."
+    ]
+  }
 }

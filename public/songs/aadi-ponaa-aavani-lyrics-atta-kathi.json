@@ -66,34 +66,31 @@
   "version": 1,
   "enrichedMetadata": {
     "mood": [
-      "energetic",
-      "peppy"
+      "romantic",
+      "happy",
+      "upbeat"
     ],
     "songType": [
-      "folk",
-      "solo"
+      "solo",
+      "melody"
     ],
     "occasions": [
-      "party",
-      "celebration"
+      "valentine's day",
+      "celebration",
+      "party"
     ],
     "keywords": [
       "atta kathi",
       "aadi ponaa aavani",
       "gaana bala",
-      "santhosh narayanan",
       "kabilan",
-      "tamil folk song",
-      "2012 tamil movie",
-      "dinesh ravi",
-      "swetha ashok",
-      "kollywood",
-      "tamil cinema",
-      "peppy song",
-      "energetic track"
+      "santhosh narayanan",
+      "romantic",
+      "2012",
+      "tamil song"
     ],
-    "actorName": "Dinesh Ravi",
-    "actressName": "Swetha Ashok",
+   "actorName": "Dinesh Ravi",
+    "actressName": "Nandita Swetha",
     "releaseYear": "2012",
     "high_ctr_intro": "Experience the vibrant energy of the Tamil song <strong>Aadi Ponaa Aavani</strong> from the movie <em>Atta Kathi</em>. Sung by the talented Gaana Bala and composed by the innovative Santhosh Narayanan, this track captures the essence of Tamil folk music. Dive into its rhythmic beats and celebrate the cultural richness it brings to the cinematic world.",
     "stanzaMeanings": [
@@ -116,6 +113,8 @@
       "The month of Aavani has passed.",
       "She shows her teeth like a snake and speaks sharply, circling around like a spinning top in her skirt.",
       "The month of Aavani has passed."
-    ]
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Aadi Ponaa Aavani?</h4><p>The song <strong>Aadi Ponaa Aavani</strong> expresses the feelings of love and attraction, highlighting the beauty of romantic moments.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie Atta Kathi?</h4><p><em>Atta Kathi</em> revolves around the life of a young man who navigates love and relationships in a humorous and engaging manner.</p></div><div class=\"faq-item\"><h4>Who is the singer of Aadi Ponaa Aavani?</h4><p>The song is sung by the talented <strong>Gaana Bala</strong>, known for his unique style and energetic performances.</p></div><div class=\"faq-item\"><h4>Who composed the music for Atta Kathi?</h4><p>The music for <em>Atta Kathi</em> was composed by <strong>Santhosh Narayanan</strong>, who is acclaimed for his innovative soundtracks.</p></div><div class=\"faq-item\"><h4>When was Aadi Ponaa Aavani released?</h4><p>The song <strong>Aadi Ponaa Aavani</strong> was released on <strong>August 26, 2012</strong>.</p></div></div>",
+    "summary": "The song <strong>Aadi Ponaa Aavani</strong> features Vijay Sethupathi and Swathi Reddy, released in 2012 as part of the movie <em>Atta Kathi</em>. This romantic melody encapsulates the feelings of love and attraction, showcasing the playful chemistry between the lead characters. The upbeat rhythm and engaging lyrics evoke a sense of joy and celebration, making it a perfect choice for romantic occasions. Overall, the song beautifully conveys the essence of youthful love and the excitement it brings."
   }
 }

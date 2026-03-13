@@ -34,6 +34,7 @@ import {
   generateAutoFAQ,
 } from '@/lib/songContentUtils'
 import MoodTags from '@/components/MoodTags'
+import SongIntro from '@/components/SongIntro'
 // Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
 const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
 // Client stanza renderer (client-only, interactive share buttons)
@@ -717,7 +718,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 }
                 
                 // Only skip Song: categories as they're song-specific, not useful for filtering
-                if (term.startsWith('Song:')) {
+                if (term.startsWith('Song:') || term.startsWith('OldSong:') || term.startsWith('Movie:')) {
                   return null;
                 }
                 
@@ -734,7 +735,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               })}
             </div>
             {/* Mood tags – auto-detected from title / singer / music director */}
-            <MoodTags title={songName} singerName={singerName} musicName={musicName} tags={blobData?.enrichedMetadata?.mood} />
+            {/* <MoodTags title={songName} singerName={singerName} musicName={musicName} tags={blobData?.enrichedMetadata?.mood} /> */}
           </div>
         </header>
         
@@ -750,7 +751,24 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   "name": cleanTitle,
                   "url": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`,
                   "description": structuredDescription,
-                  "keywords": generateKeywords(song, metadata),
+                  "keywords": (() => {
+                    const baseKeywords = generateKeywords(song, metadata);
+                    const enrichedKeywords: string[] = [];
+                    
+                    // Add songType to keywords
+                    if (blobData?.enrichedMetadata?.songType?.length) {
+                      enrichedKeywords.push(...blobData.enrichedMetadata.songType);
+                    }
+                    
+                    // Add occasions to keywords
+                    if (blobData?.enrichedMetadata?.occasions?.length) {
+                      enrichedKeywords.push(...blobData.enrichedMetadata.occasions);
+                    }
+                    
+                    return enrichedKeywords.length > 0 
+                      ? `${baseKeywords}, ${enrichedKeywords.join(', ')}`
+                      : baseKeywords;
+                  })(),
                   ...(singerName && singerName !== 'Unknown Artist' && {
                     "byArtist": {
                       "@type": "Person",
@@ -785,13 +803,27 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                     }
                   },
                   "inLanguage": "ta",
-                  "genre": "Tamil Music",
+                  "genre": (() => {
+                    const genres = ["Tamil Music"];
+                    // Add mood tags as genre classifications
+                    if (blobData?.enrichedMetadata?.mood?.length) {
+                      genres.push(...blobData.enrichedMetadata.mood);
+                    }
+                    return genres;
+                  })(),
                   "datePublished": song.published?.$t,
                   "publisher": {
                     "@type": "Organization",
                     "name": "Tamil Song Lyrics",
                     "url": "https://www.tsonglyrics.com"
-                  }
+                  },
+                  // Add occasion context for better search understanding
+                  ...(blobData?.enrichedMetadata?.occasions?.length && {
+                    "about": blobData.enrichedMetadata.occasions.map(occasion => ({
+                      "@type": "Thing",
+                      "name": occasion
+                    }))
+                  })
                 },
                 ...(relatedSongsForSEO.length > 0 ? [{
                   "@type": "ItemList",
@@ -933,9 +965,9 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
 
         {/* Intro section - if present */}
         {contentSections.intro && (
-          <div 
-            className="intro-section mb-4 prose prose-lg max-w-none text-gray-700"
-            dangerouslySetInnerHTML={{ __html: contentSections.intro }}
+          <SongIntro 
+            intro={contentSections.intro}
+            enrichedMetadata={blobData?.enrichedMetadata}
           />
         )}
 
