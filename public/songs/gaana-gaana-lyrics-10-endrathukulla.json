@@ -76,5 +76,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:53:30.703Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "10 endrathukulla",
+      "gaana gaana",
+      "anand aravindakshan",
+      "shreya goshal",
+      "karky",
+      "energetic",
+      "dance number",
+      "2015"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Gaana Gaana</strong> conveys a sense of joy and celebration, reflecting the carefree spirit of the characters in <em>10 Endrathukulla</em>.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>The song is featured during a lively sequence in <em>10 Endrathukulla</em>, emphasizing the fun and adventurous moments of the protagonists.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Anand Aravindakshan</strong> and <strong>Shreya Goshal</strong>, both of whom bring their unique styles to the track.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for Gaana Gaana?</h4><p>The lyrics were penned by <strong>Karky</strong>, known for his engaging and catchy songwriting.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Gaana Gaana</strong> was released on <strong>October 20, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Gaana Gaana</strong>, the lively duet by Anand Aravindakshan and Shreya Goshal, the characters celebrate life with infectious energy. The song captures the essence of joy and festivity, perfectly aligning with the adventurous spirit of <em>10 Endrathukulla</em>. Its upbeat tempo and catchy lyrics evoke feelings of happiness and excitement, making it a favorite for celebrations. This track is a vibrant addition to any party playlist, encouraging listeners to dance and enjoy the moment.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Gaana Gaana</strong> from <em>10 Endrathukulla</em> is a vibrant celebration of life and energy, featuring the dynamic voices of Anand Aravindakshan and Shreya Goshal. This upbeat track perfectly captures the essence of joy and festivity, making it a must-listen for any party playlist. With its catchy beats and lively lyrics, it's sure to get everyone on their feet!",
+    "stanzaMeanings": [
+      "",
+      "Vikram is going to have fun, and I am going to drive. My stomach is growling, so I need to eat something quickly.",
+      "I need to eat something. Oh, how sad! Why are you bothering me? Why do you need to bring all this trouble?",
+      "Right now, there is nothing. I can't go anywhere. I have become a member of our group.",
+      "The song is clear. Let's enjoy it. I am singing. The song is clear. No one is confused here, it's beautiful.",
+      "When I look with my eyes, everything is watery. My eyes are also watery.",
+      "All the boys are confused. They are messing around. They are playing tricks, and I am getting annoyed.",
+      "The song is clear. This person has come to disturb you. The song is clear. This person has come to take us away.",
+      "It is getting mixed up. Your time is going away. My mouth is getting dry.",
+      "The song is clear. This person is melting in the fire. The song is clear. This person is beautiful when crying.",
+      "Did you come from somewhere? Why did you come? Why are you bothering me? You are making me restless and running away.",
+      "Did you come from somewhere? Why did you come?",
+      "Why are you bothering me? He is coming forward. You are making me restless and running away.",
+      "Did you come from somewhere? Why did you come?",
+      "Without touching, he is taking it away.",
+      "The song is clear. This person has become a victorious king. The song is clear. Why did this person come to confuse me?",
+      "I asked for the address without knowing. I couldn't finish it, and I am confused.",
+      "The water is flowing. My time is going away. You are the one who is causing trouble in the town.",
+      "The song is clear. Those eyes are his. The song is clear. This person has come to take us away.",
+      "The song is clear. Now it's all fun and games. The song is clear."
+    ]
+  }
 }

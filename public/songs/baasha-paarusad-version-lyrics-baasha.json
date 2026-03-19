@@ -32,5 +32,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgro9Ck3X61H7A0ORj229cYUpH7Vto4ZaOYuIxfMS0BNYPyi8WX99NzCLBzIvguAg28osT28RL4ervwE5aTeH4ljP_Kywdd-4rF2M4ekysJuw6rP4kVbpQx6pV7m04Syev0T3vGoILBaKU/s400-c/Baasha+Paaru+Sad+Version+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:19:30.398Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "baasha",
+      "s. p. balasubrahmanyam",
+      "deva",
+      "vairamuthu",
+      "nostalgic",
+      "melody",
+      "1995",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song reflects themes of strength and resilience, showcasing the character's journey and emotions.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is from the movie <strong>Baasha</strong>, which is a cult classic in Tamil cinema.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the legendary <strong>S. P. Balasubrahmanyam</strong>, known for his powerful vocals.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by <strong>Deva</strong>, a prominent music director in Tamil films.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>January 12, 1995</strong>.</p></div></div>",
+    "summary": "The song <strong>Baasha Paarusad Version</strong> encapsulates the spirit of the protagonist in the movie <em>Baasha</em>, portraying a blend of nostalgia and energy. It conveys a sense of determination and strength, resonating deeply with listeners. The vibrant lyrics and S. P. Balasubrahmanyam's emotive singing evoke a powerful connection to the character's journey. This track remains a beloved classic, celebrated for its memorable melody and impactful delivery.",
+    "releaseYear": "1995",
+    "high_ctr_intro": "<strong>Baasha Paarusad Version</strong> is a nostalgic melody that captures the essence of the iconic film <em>Baasha</em>. With S. P. Balasubrahmanyam's soulful voice and Deva's enchanting composition, this song resonates with fans of Tamil cinema. Experience the vibrant energy and heartfelt lyrics that make this track a timeless classic.",
+    "stanzaMeanings": [
+      "Look at the king, look at the king, see the crown on his head, like a child who smiles when the green blood flows.",
+      "When a piece is broken, it feels like a loss, look at the body, everything will be fine when the flag is raised.",
+      "Who is the sinner who has changed his lineage?",
+      "In this mountain, has he thrown away the cloth?"
+    ]
+  }
 }

@@ -44,5 +44,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:15:06.605Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration"
+    ],
+    "keywords": [
+      "priyasakhi",
+      "chinna magaraniye",
+      "hariharan",
+      "bharadwaj",
+      "romantic",
+      "melody",
+      "2005",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Chinna Magaraniye'?</h4><p>The song expresses the joy and beauty of love, highlighting the happiness it brings to life.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Priyasakhi'?</h4><p>This song plays during a romantic moment, showcasing the deep connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Hariharan</strong> and composed by <strong>Bharadwaj</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Chinna Magaraniye' released?</h4><p>The song was released on <strong>July 22, 2005</strong>.</p></div></div>",
+    "summary": "In 'Chinna Magaraniye', the protagonist expresses the joy and warmth of love through heartfelt lyrics and a captivating melody. The song encapsulates the blissful moments shared between lovers, making it a perfect fit for romantic occasions. With its soothing tune and emotional depth, it evokes feelings of happiness and nostalgia. This track stands out as a celebration of love, making it a cherished piece in the film's soundtrack.",
+    "releaseYear": "2005",
+    "high_ctr_intro": "<strong>Chinna Magaraniye</strong> from <em>Priyasakhi</em> is a heartwarming melody that beautifully captures the essence of love and joy. With Hariharan's soulful voice and Bharadwaj's enchanting composition, this song resonates with anyone who has experienced the bliss of romance. Dive into the lyrical magic that makes this track a timeless favorite for celebrations and special moments.",
+    "stanzaMeanings": [
+      "",
+      "Little queen, you have come like a breeze. Your smile has brought happiness to my heart.",
+      "The work you came to do is like a window that opens. The path of life is filled with blooming flowers everywhere.",
+      "In our home, there is happiness all the time. Your love surrounds our world.",
+      "Little queen, you have come like a breeze. Your smile has brought happiness to my heart.",
+      "",
+      "In a woman's life, there is a hidden beauty. If she has the quality to give, it becomes art.",
+      "Until the end, there will be desires in this heart. If desires are life, then challenges will arise.",
+      "If you try to conquer the sky, will it be possible?",
+      "If you give a word, will it be possible to hold it back?",
+      "You and the rose flower are one; where is the beauty here?",
+      "Little queen, you have come like a breeze. Your smile has brought happiness to my heart.",
+      "If I listen to your mother, I must seek peace. I will give the light of dawn to the stars.",
+      "If I listen to the swing, I must give the sky. I will give the spring to the sky.",
+      "I will never forget your desires, nor will I forget your mother.",
+      "Look at my face, mother. Your blessings are the path to my life.",
+      "Little queen, you have come like a breeze. Your smile has brought happiness to my heart.",
+      "The work you came to do is like a window that opens. The path of life is filled with blooming flowers everywhere.",
+      "In our home, there is happiness all the time. Your love surrounds our world."
+    ]
+  }
 }

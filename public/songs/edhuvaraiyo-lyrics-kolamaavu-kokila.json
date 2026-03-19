@@ -78,5 +78,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYUCB7dcQ6BiVrbn8MzdFzhLAz-MmywyITdrV_W2grDC5Lf7h5YIP7DBFFdUP8_wQpXTHXevdoRoCyndookdkT6FeeGcOF2Ag4ZxT7TzTGqFe7vAOELvTqW8kkQxZhpu0o1MKlpZwX0A/s400-c/CoCo.jpeg",
   "generatedAt": "2026-01-18T12:44:40.378Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kolamaavu kokila",
+      "edhuvaraiyo",
+      "sean roldan",
+      "vivek",
+      "anirudh",
+      "melancholic",
+      "romantic",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Edhuvaraiyo</strong>?</h4><p>The song <strong>Edhuvaraiyo</strong> expresses feelings of longing and emotional pain, reflecting the struggles of love.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Kolamaavu Kokila</em> related to this song?</h4><p>This song plays during a pivotal moment in <em>Kolamaavu Kokila</em>, highlighting the protagonist's emotional journey.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of <strong>Edhuvaraiyo</strong>?</h4><p>The song is sung by <strong>Sean Roldan</strong> and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Edhuvaraiyo</strong> released?</h4><p>The song was released on March 5, 2018.</p></div></div>",
+    "summary": "In <strong>Edhuvaraiyo</strong>, the protagonist navigates the complexities of love and loss, evoking a deep sense of melancholy. The song's lyrics, penned by Vivek, beautifully articulate the pain of unfulfilled desires. With Sean Roldan's emotive vocals and Anirudh's enchanting music, it resonates with anyone who has experienced heartbreak. This poignant melody serves as a reminder of the bittersweet nature of love, making it a standout track in <em>Kolamaavu Kokila</em>.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Edhuvaraiyo</strong> from <em>Kolamaavu Kokila</em> captures the essence of longing and love with its haunting melody. Sean Roldan's soulful voice combined with Anirudh's captivating composition creates a mesmerizing experience. This song beautifully encapsulates the emotional turmoil of its characters, making it a must-listen for fans of Tamil cinema.",
+    "stanzaMeanings": [
+      "The beginning has come, the beginning has come, let it grow in the pit of sorrow.",
+      "Whatever is seen, the entire cloud writes love in a magical way.",
+      "The beginning has come, it brings a curse, let it grow in the pit of sorrow.",
+      "Whatever is seen, the entire cloud writes love in a magical way.",
+      ""
+    ]
+  }
 }

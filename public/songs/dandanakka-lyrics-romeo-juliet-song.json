@@ -84,5 +84,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMhqUEcD8MQ6xZE0vHD-Zrc5KRPhntzdnUIOAQCuAJ5Kn6mSTHA47je_I924FckvJPR7MgcCde6h3HpKgA76_QRCmmuwW18McEAtB7Hmr_AjwW803yPnijlTVA09_7TCkNeXHvlRycyAo/s400-c/romeo-juliet-song+lyrics.jpg",
   "generatedAt": "2026-01-18T12:55:59.448Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday",
+      "wedding"
+    ],
+    "keywords": [
+      "romeo juliet",
+      "anirudh",
+      "rokesh",
+      "d imman",
+      "upbeat",
+      "dance number",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What does the song Dandanakka mean?</h4><p>The term <strong>Dandanakka</strong> refers to music played after a person's death until the funeral ends, but in this context, it is used humorously by youths.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in Romeo Juliet?</h4><p>The song captures the fun and carefree moments of youth, reflecting the light-hearted spirit of the movie <strong>Romeo Juliet</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of Dandanakka?</h4><p>The song is sung by <strong>Anirudh</strong> and composed by <strong>D. Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was Dandanakka released?</h4><p>The song was released on <strong>February 28, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Dandanakka</strong>, the lively beats and catchy lyrics create an atmosphere of celebration and joy, making it a perfect party anthem. The song reflects the carefree spirit of youth and the excitement of love, resonating with the themes of the movie <em>Romeo Juliet</em>. With Anirudh's dynamic vocals and D. Imman's vibrant composition, it evokes feelings of happiness and energy. This track is sure to uplift your mood and get everyone dancing!",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Get ready to groove to <strong>Dandanakka</strong>, a vibrant track from the movie <em>Romeo Juliet</em> that perfectly captures the essence of youthful exuberance. With Anirudh's infectious energy and D. Imman's catchy beats, this song is sure to get you on your feet. Experience the fun and excitement as you dive into the lively world of this Tamil hit!",
+    "stanzaMeanings": [
+      "The song talks about the lively and carefree attitude of youth, expressing the desire for love and the fun of life without taking things too seriously. It emphasizes the importance of true love and enjoying life in a simple, local way."
+    ]
+  }
 }

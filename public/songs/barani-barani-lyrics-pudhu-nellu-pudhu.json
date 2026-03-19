@@ -40,5 +40,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:15.653Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "relaxation",
+      "festivals"
+    ],
+    "keywords": [
+      "pudhu nellu pudhu naathu",
+      "ilaiyaraaja",
+      "barani barani",
+      "nostalgic",
+      "soothing",
+      "1991",
+      "tamil song",
+      "old music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Barani Barani'?</h4><p>The song 'Barani Barani' conveys themes of beauty and nature, reflecting the simplicity and charm of rural life.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Pudhu Nellu Pudhu Naathu</em>, this song is a celebration of life and nature, showcasing the protagonist's connection to their surroundings.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Ilaiyaraaja</strong>, who is also the music director, known for his exceptional compositions in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was 'Barani Barani' released?</h4><p>'Barani Barani' was released on <strong>March 15, 1991</strong>, and has since become a beloved classic.</p></div></div>",
+    "summary": "The song 'Barani Barani' from the movie <em>Pudhu Nellu Pudhu Naathu</em> is a beautiful melody that evokes feelings of nostalgia and tranquility. It paints a vivid picture of nature's beauty and the simplicity of rural life, resonating deeply with listeners. The soothing voice of Ilaiyaraaja adds to the song's charm, making it a timeless classic. This song not only showcases the musical brilliance of its composer but also captures the essence of the emotions tied to the scenes it accompanies.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "<strong>Barani Barani</strong> from <em>Pudhu Nellu Pudhu Naathu</em> is a timeless melody that captures the essence of nostalgia and beauty. With the enchanting voice of Ilaiyaraaja, this song takes listeners on a journey through its soothing rhythms and heartfelt lyrics. Experience the magic of this classic that continues to resonate with audiences even today.",
+    "stanzaMeanings": [
+      "",
+      "Barani Barani is a song sung by Thaamira Barani.",
+      "This land is coming to sing with a purpose, Barani.",
+      "Stand tall, the land is beautiful, sing beautifully, oh beloved..",
+      "Wake up, it's a good time.",
+      "Barani Barani is a song sung by Thaamira Barani.",
+      "This land is coming to sing with a purpose, Barani.",
+      "Stand tall, the land is beautiful, sing beautifully, oh beloved..",
+      "Like a flower, the heart dances, the little cuckoo dances in the group.",
+      "Love has blossomed, this is a wonderful garden. Tears have fallen, now the time is not favorable.",
+      "A little bird has come, a flower has bloomed. It dances lightly, a good boat is here.",
+      "Barani Barani is a song sung by Thaamira Barani.",
+      "This land is coming to sing with a purpose, Barani.",
+      "Stand tall, the land is beautiful, sing beautifully, oh beloved..",
+      "Wake up, it's a good time."
+    ]
+  }
 }

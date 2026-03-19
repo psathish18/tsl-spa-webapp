@@ -86,5 +86,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaNoAUJpucX_-fCB4_snaaf3P1kyeQGQr5p2M61cpAWtIdPU64b6SICWlN0wMRQ5QJrCkcyELVLWSc5vxw-bhL6GiPZUOcCf7CxAjxcz5QsFnnS8B0H2_3r9zGFpPtTS30fuRWrl-HLR0/s400-c/Bagulu+Odayum+Dagulu+Mari+.jpg",
   "generatedAt": "2026-02-01T13:05:43.983Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "maari",
+      "anirudh",
+      "dhanush",
+      "energetic",
+      "dance number",
+      "2015",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Bagulu Odayum Dagulu Mari</strong> celebrates the carefree and lively spirit of the character Maari, showcasing his fun-loving nature.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is featured in the movie <strong>Maari</strong>, which revolves around the life of a local rowdy.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by popular artists <strong>Anirudh</strong> and <strong>Dhanush</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Bagulu Odayum Dagulu Mari</strong> was released on June 7, 2015.</p></div></div>",
+    "summary": "In <strong>Bagulu Odayum Dagulu Mari</strong>, the vibrant energy of the song reflects the playful and carefree attitude of Maari, the protagonist of <em>Maari</em>. The upbeat rhythm and catchy lyrics evoke feelings of joy and celebration, making it a perfect anthem for parties and gatherings. The collaboration between Anirudh and Dhanush adds a unique charm, enhancing the overall vibe of the track. This song not only entertains but also embodies the spirit of living life to the fullest.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Bagulu Odayum Dagulu Mari</strong> from <em>Maari</em> is a vibrant anthem that perfectly captures the essence of celebration and energy. With Anirudh's infectious beats and Dhanush's charismatic vocals, this track is sure to get everyone on their feet. Experience the joy and excitement that this song brings, making it a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "",
+      "The return of Maari is like a small child being born, it has come with a lot of understanding, that's our Maari.",
+      "If you look at it, the face of Maari will change into something else. Don't speak too much, live your life as you wish.",
+      "...the fierce Maari doesn't care about the beautiful things, the rowdy nature of Maari doesn't speak nicely.",
+      "that beautiful Maari... that Maari over there",
+      "The return of Maari is like a small child being born, it has come with a lot of understanding, that's our Maari.",
+      "that beautiful Maari.."
+    ]
+  }
 }

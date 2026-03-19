@@ -83,5 +83,39 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:29:21.095Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "festivals"
+    ],
+    "keywords": [
+      "chekka chivantha vaanam",
+      "bhoomi bhoomi",
+      "shakthisree gopalan",
+      "ar rahman",
+      "vairamuthu",
+      "energetic",
+      "2018",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Bhoomi Bhoomi?</h4><p>The song <strong>Bhoomi Bhoomi</strong> conveys themes of energy and motivation, celebrating the spirit of life.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Chekka Chivantha Vaanam</em>, the song reflects the characters' journey and their connection to the earth and their roots.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Shakthisree Gopalan</strong> and composed by <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was Bhoomi Bhoomi released?</h4><p><strong>Bhoomi Bhoomi</strong> was released on September 7, 2018.</p></div></div>",
+    "summary": "The song <strong>Bhoomi Bhoomi</strong> from <em>Chekka Chivantha Vaanam</em> is a vibrant and energetic piece that encapsulates the spirit of celebration. It showcases Shakthisree Gopalan's powerful vocals, which are perfectly complemented by A.R. Rahman's dynamic composition. The lyrics, penned by Vairamuthu, evoke a sense of motivation and connection to one's roots. Overall, the song serves as an anthem for those looking to embrace life with enthusiasm and joy.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Bhoomi Bhoomi</strong> from <em>Chekka Chivantha Vaanam</em> is a powerful anthem that resonates with energy and motivation. Shakthisree Gopalan's bold vocals combined with A.R. Rahman's masterful composition create an unforgettable listening experience. This song captures the essence of celebration and is sure to uplift your spirits!",
+    "stanzaMeanings": [
+      "",
+      "The lyrics of the Bhoomi Bhoomi song are written by Vairamuthu. It discusses existential questions about life and the universe, pondering if there are any conclusions or if everything is endless. It reflects on the nature of life and death, urging not to worry about the mind's turmoil. It compares the falling of leaves to the resilience of trees, suggesting that life should continue despite uncertainties.",
+      "The stanza questions if a fish crying in the sea can send a message to the shore, asking if the heart can endure the pain of life. It expresses the struggle of living, emphasizing that the heart must bear the weight of emotions and experiences. It also reflects on the inevitability of endings and the truth that brings tears, while contemplating the future and connection with others."
+    ]
+  }
 }

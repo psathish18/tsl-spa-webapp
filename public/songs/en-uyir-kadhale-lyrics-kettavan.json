@@ -53,5 +53,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:05.049Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "kettavan",
+      "en uyir kadhale",
+      "romantic",
+      "melancholic",
+      "2011",
+      "tamil song",
+      "lyrics",
+      "unknown artist"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, reflecting on the pain of separation.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>This song is featured in the movie <strong>Kettavan</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The singer of <strong>En Uyir Kadhale</strong> is currently unknown.</p></div><div class=\"faq-item\"><h4>What year was the song released?</h4><p>The song was released in <strong>2011</strong>.</p></div></div>",
+    "summary": "In <strong>En Uyir Kadhale</strong>, the protagonist expresses profound emotions of love and loss, encapsulating the essence of yearning for a beloved. The song's melancholic tone beautifully complements the narrative of the movie <em>Kettavan</em>, where love faces trials and tribulations. The lyrics evoke a sense of nostalgia and heartache, making it relatable to anyone who has experienced love's complexities. This melody serves as a poignant reminder of the bittersweet nature of relationships.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>En Uyir Kadhale</strong> from <em>Kettavan</em> is a hauntingly beautiful melody that captures the essence of love and longing. The poignant lyrics resonate deeply, making it a perfect choice for those reflective moments. Experience the emotional depth of this song that speaks to the heart's deepest feelings.",
+    "stanzaMeanings": [
+      "",
+      "My life, my love, where have you gone? Without you, life is suffering.",
+      "You have merged into my breath, now you have disappeared from my sight.",
+      "My beloved, do you not understand the pain of my love without you?",
+      "Without my love, my dear, why have you hurt my heart?",
+      "My life, my love, where have you gone? Without you, life is suffering.",
+      "You have merged into my breath, now you have disappeared from my sight.",
+      "Give me love, let me live, tell me once, you are my love today.",
+      "Look at my tears, make me smile a little.",
+      "My life, my love, where have you gone? Without you, life is suffering.",
+      "You have merged into my breath, now you have disappeared from my sight.",
+      "I have been living without you for a year. I think of you every day.",
+      "I will wait for the next birth, I will fight for my love.",
+      "My life, my love, where have you gone? Without you, life is suffering.",
+      "You have merged into my breath, now you have disappeared from my sight.",
+      "My beloved, do you not understand the pain of my love without you?",
+      "Without my love, my dear, why have you hurt my heart?",
+      "My life, my love, where have you gone? Without you, life is suffering.",
+      "You have merged into my breath, now you have disappeared from my sight."
+    ]
+  }
 }

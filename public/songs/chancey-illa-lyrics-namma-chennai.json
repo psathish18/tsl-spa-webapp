@@ -41,5 +41,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP0qFHsuKoqDWWMbpjvhNBfPvBmultEDX0ZjDlwixxSRM2JxrxCZQSicBTJBtQeNfSGBGO6uJRk8GfmGdPDGnCF4W8mxp6Am8pqXhV8nYjtoTusg1AlGuHcVWRqHx0Y_KgyTjrpFgr_dE/s400-c/Chancey+Illa+by+Anirudh.jpg",
   "generatedAt": "2026-01-18T12:58:31.776Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "chancey illa",
+      "anirudh",
+      "vignesh shivan",
+      "2014",
+      "upbeat",
+      "dance",
+      "tamil song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Chancey illa'?</h4><p>The song 'Chancey illa' celebrates the vibrant culture of Chennai and the carefree spirit of its people.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>The movie for this song is currently unknown.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Chancey illa' released?</h4><p>'Chancey illa' was released on August 2, 2014.</p></div></div>",
+    "summary": "The song 'Chancey illa' is an energetic celebration of Chennai's vibrant lifestyle, showcasing the joy and camaraderie among its residents. With its catchy beats and lively lyrics, it evokes feelings of happiness and excitement, making it perfect for parties and celebrations. The song captures the essence of urban life, encouraging listeners to embrace the spirit of their city. Anirudh's dynamic vocals and Vignesh Shivan's clever lyrics come together to create an unforgettable anthem for Chennai.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Chancey illa</strong> is a vibrant anthem that captures the essence of Chennai's lively spirit, brought to life by <strong>Anirudh's</strong> infectious energy and catchy beats. This song, penned by <strong>Vignesh Shivan</strong>, resonates with anyone who has experienced the joy of city life. Dive into the rhythm and let the music take you on a journey through the streets of Chennai!",
+    "stanzaMeanings": [
+      "",
+      "No matter which town you are from, this place will make you feel at home, that's what this town is all about.",
+      "Just look at our beach, it's enough to make you feel good, now you are a resident of Chennai.",
+      "Come, get in the auto, and see if you can feel the connection of our town.",
+      "In Mylapore, do you feel the vibe? Or is it just the traffic music on Mount Road that you hear?",
+      "Dude, there’s no chance, no chance at all, our Chennai is unlike any other place.",
+      "If you go to Kodambakkam, you’ll see, or if you go to T-Nagar, will you buy something?",
+      "That bodyguard Muneeswaran's blessings are what you need, just speed down ECR or OMR.",
+      "Come to the first day, first show of the SUPER STAR - or will you just watch the Chennai Super Kings play?",
+      "Let’s nurture our love, will you sing at Besant Nagar beach?",
+      "Dude, there’s no chance, no chance at all, our Chennai is unlike any other place.",
+      "Come on, friend, come dance, come join me, Chennai life is good, come enjoy it.",
+      "This is our town, let’s keep saying it, this life is never dull anywhere.",
+      "Dude, there’s no chance, no chance at all, our Chennai is unlike any other place.",
+      "",
+      ""
+    ]
+  }
 }

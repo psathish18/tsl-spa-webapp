@@ -87,5 +87,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW3MGCx4k-g3E7rR5qmOtI5v4t7i_7btMlLfX8UdYUBh0RtKI3_AiyTFjYK5r4GFHTuKFiJ6z3hF1mHdmpNSV9mpIqZq1C_xpsGmfAICF0pbsGc1aRtlzfr-n0vufFazmoBFc-ZRQyHOo/s400-c/Thozha+Song+Lyrics.jpg",
   "generatedAt": "2026-02-01T14:29:50.071Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "thozha",
+      "enadhuyire",
+      "vijay prakash",
+      "gopi sundar",
+      "romantic",
+      "soothing",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Enadhuyire'?</h4><p>The song 'Enadhuyire' expresses deep emotions of love and connection, highlighting the feelings of longing and affection.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Thozha'?</h4><p><strong>Thozha</strong> revolves around the friendship and bond between two individuals from different backgrounds, showcasing their journey and emotional experiences.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Enadhuyire'?</h4><p>The song is sung by <strong>Vijay Prakash</strong>, known for his powerful and emotive voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Enadhuyire'?</h4><p>The music for 'Enadhuyire' was composed by <strong>Gopi Sundar</strong>, who is acclaimed for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was 'Enadhuyire' released?</h4><p>'Enadhuyire' was released on <strong>March 26, 2016</strong>.</p></div></div>",
+    "summary": "In the movie <em>Thozha</em>, the song <strong>Enadhuyire</strong> serves as a poignant reflection of love and emotional connection. It beautifully conveys the feelings of longing and the depth of affection between the characters. The soothing melody, paired with Vijay Prakash's heartfelt vocals, evokes a sense of nostalgia and warmth. This song is a perfect accompaniment to romantic moments, encapsulating the essence of love in its purest form.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Enadhuyire</strong> is a mesmerizing melody that beautifully captures the essence of love and longing. With <em>Thozha</em> as its backdrop, Vijay Prakash's soulful rendition combined with Gopi Sundar's enchanting composition creates an unforgettable listening experience. This song is perfect for romantic moments and celebrations of love.",
+    "stanzaMeanings": [
+      "",
+      "In the moment of parting, I see everything clearly.",
+      "With the moment of parting, I can see everything around me.",
+      "In my heart, silence spreads, and I see it all clearly.",
+      "Who smiles, who looks at me, I see my smile in your eyes, my love.",
+      "Oh my life, please don't sleep, my life, I am calling you.",
+      "In the moment of parting, I see everything clearly.",
+      ""
+    ]
+  }
 }

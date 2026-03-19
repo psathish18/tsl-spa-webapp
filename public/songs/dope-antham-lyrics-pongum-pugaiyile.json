@@ -74,5 +74,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:42:54.776Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "dance number",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "simba",
+      "solar sai",
+      "subu",
+      "energetic",
+      "dance number",
+      "2018",
+      "tamil song",
+      "upbeat"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a sense of joy and celebration, highlighting the beauty of life and happiness.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Simba</em>, this song plays during a lively celebration scene, enhancing the festive atmosphere.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by <strong>Solar Sai</strong>, known for his energetic performances.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>October 8, 2018</strong>.</p></div></div>",
+    "summary": "The song <strong>Dope Antham Pongum Pugaiyile</strong> from <em>Simba</em> is a vibrant celebration of life and joy. It captures the essence of festive moments, encouraging listeners to embrace happiness and dance. The energetic beats and catchy lyrics evoke feelings of excitement and positivity, making it perfect for parties and celebrations. Overall, the song serves as an anthem for those looking to uplift their spirits and enjoy the moment.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Dope Antham Pongum Pugaiyile</strong> from <em>Simba</em> is an electrifying anthem that captures the essence of celebration and joy. With Solar Sai's vibrant vocals, this track is sure to get you on your feet and dancing. Experience the unique blend of catchy beats and engaging lyrics that make this song a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "In the blooming fragrance, there is a heavenly feeling.",
+      "On one side there is a breeze, on the other side there is fire, in the middle is heaven.",
+      "How much joy, how much happiness is rising in the sky.",
+      "Without a stream, without a flow, there is a beautiful art.",
+      "You are water, you are a fish, I am caught in the trap of illusion.",
+      "In this world, there is death in every hundred, there is death.",
+      "In pain and in life, in the embrace of fragrance.",
+      "In the blooming fragrance, there is a heavenly feeling. Huh haa. Ha ha haa... Huh haa. Ha ha haa... In the blooming fragrance, there is a heavenly feeling. In the blooming fragrance, there is a heavenly feeling."
+    ]
+  }
 }

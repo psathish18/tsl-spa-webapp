@@ -36,5 +36,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:19.013Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "folk"
+    ],
+    "occasions": [
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "vannakili",
+      "p. susheela",
+      "k.v. mahadevan",
+      "nostalgic",
+      "happy",
+      "1970",
+      "old music",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Chinna Paappa</strong>?</h4><p>The song <strong>Chinna Paappa</strong> conveys the innocence and joy of childhood, celebrating the playful nature of children.</p></div><div class=\"faq-item\"><h4>In which movie does <strong>Chinna Paappa</strong> appear?</h4><p><strong>Chinna Paappa</strong> is featured in the movie <em>Vannakili</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Chinna Paappa</strong>?</h4><p>The song is sung by the legendary singer <strong>P. Susheela</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Chinna Paappa</strong>?</h4><p>The music for <strong>Chinna Paappa</strong> was composed by <strong>K.V. Mahadevan</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Chinna Paappa</strong> released?</h4><p><strong>Chinna Paappa</strong> was released in the year <strong>1970</strong>.</p></div></div>",
+    "summary": "The song <strong>Chinna Paappa</strong> from <em>Vannakili</em> beautifully encapsulates the carefree spirit of childhood. It portrays a playful interaction, filled with joy and innocence, making it a cherished melody for many. The lyrics evoke a sense of nostalgia, reminding listeners of their own childhood experiences. With its soothing tune and heartfelt delivery, this song resonates deeply, making it a timeless classic.",
+    "releaseYear": "1970",
+    "high_ctr_intro": "<strong>Chinna Paappa</strong> from <em>Vannakili</em> is a delightful melody that captures the essence of childhood joy and innocence. With P. Susheela's enchanting vocals and K.V. Mahadevan's timeless composition, this song evokes a sense of nostalgia that resonates with listeners of all ages. Experience the charm of this classic as it takes you on a heartwarming journey down memory lane.",
+    "stanzaMeanings": [
+      "",
+      "Little baby, our dear baby, when you speak, it sounds good.",
+      "Little baby, our dear baby, when you speak, it sounds good.",
+      "Will you bring me some sweet candy to eat? Do you want a small toy balloon?",
+      "Will I tell you a fun game? Then you will laugh and see what I do.",
+      "Little baby, our dear baby, when you speak, it sounds good.",
+      "Little baby, our dear baby.",
+      "When you get angry, your father will call you. When you speak softly, they will feed you.",
+      "The chicken is pecking at your little face, don't let it go.",
+      "I will give you ripe fruit, don't cry, little baby, our dear baby."
+    ]
+  }
 }

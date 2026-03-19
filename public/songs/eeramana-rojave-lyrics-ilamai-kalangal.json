@@ -40,5 +40,47 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:55.265Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "eeramana rojave",
+      "ilamai kalangal",
+      "kj yesudas",
+      "s.janaki",
+      "ilaiyaraaja",
+      "romantic",
+      "melancholic",
+      "1983"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Eeramana Rojave'?</h4><p>The song expresses feelings of love and longing, highlighting the pain of separation.</p></div><div class=\"faq-item\"><h4>In which movie does 'Eeramana Rojave' appear?</h4><p>'Eeramana Rojave' is featured in the movie <strong>Ilamai Kalangal</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>KJ Yesudas</strong> and <strong>S. Janaki</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Eeramana Rojave'?</h4><p>The music for this song was composed by <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Eeramana Rojave' released?</h4><p>The song was released on <strong>August 19, 1983</strong>.</p></div></div>",
+    "summary": "The song 'Eeramana Rojave' from the movie *Ilamai Kalangal* beautifully encapsulates the emotions of love and longing. It conveys a sense of melancholy as the lyrics reflect on the pain of separation and the memories of a beloved. The soothing melody, paired with the heartfelt vocals of KJ Yesudas and S. Janaki, evokes deep feelings of nostalgia. This classic piece remains a favorite for those who appreciate the depth of Tamil music.",
+    "releaseYear": "1983",
+    "high_ctr_intro": "<strong>Eeramana Rojave</strong> from <em>Ilamai Kalangal</em> is a timeless melody that captures the essence of love and longing. With the soulful voices of KJ Yesudas and S. Janaki, this song resonates deeply with anyone who has experienced heartache. The enchanting composition by Ilaiyaraaja adds a layer of nostalgia, making it a must-listen for fans of classic Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "Don't look at me, Eeramana Rojave.",
+      "Don't look at me, Eeramana Rojave. The sorrow in my eyes is enough, my love, where are you?",
+      "Looking at me, a cloud will pass by the window.",
+      "If you don't embrace me at your doorstep, this is a curse, it seems.",
+      "In the water, the wind doesn't blow, come to me, my dear, sing.",
+      "Don't look at me, Eeramana Rojave. The sorrow in my eyes is enough, my love, where are you?",
+      "The time that has come is a job that you have closed in your heart.",
+      "In my heart, there is no blood anymore, I am not crying, my love....",
+      "Like you, my desire doesn't fade, the queen doesn't shed tears in the water.",
+      "Eeramana Rojave, what should I ask, my king? The sorrow in my eyes will not go away, my love, where are you?",
+      ""
+    ]
+  }
 }

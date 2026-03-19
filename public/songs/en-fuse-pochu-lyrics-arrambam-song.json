@@ -84,5 +84,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB4HaxE0Uoe3e_bOkRpXZ8ZEBTA1SS-R3gqVOVuBAN3wsKNlSLP0tDxnh_zmv0qZwHpXA7-S8-c_cB1MeENyxco2oMROeDtkSMyTKbuEqiMp_XHLxaWdH9vDF9im-eIfgR90JaWXHP1CA/s400-c/arrambam.jpg",
   "generatedAt": "2026-01-18T13:02:53.309Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "arrambam",
+      "en fuse poch",
+      "karthik",
+      "ramya nsk",
+      "pa vijay",
+      "yuvan",
+      "romantic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'En Fuse Pochu'?</h4><p>The song expresses feelings of confusion and excitement in love, highlighting the playful dynamics between the couple.</p></div><div class=\"faq-item\"><h4>How does 'En Fuse Pochu' fit into the plot of the movie Arrambam?</h4><p>This song showcases a light-hearted moment in the film, emphasizing the romantic relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features vocals by <strong>Karthik</strong> and <strong>Ramya NSK</strong>, with music composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'En Fuse Pochu' released?</h4><p>The song was released on <strong>September 18, 2013</strong>.</p></div></div>",
+    "summary": "In 'En Fuse Pochu', the playful banter between the singers encapsulates the thrill of young love and the confusion that often accompanies it. The upbeat tempo and catchy lyrics create a lively atmosphere, making it a perfect anthem for celebrations and romantic occasions. The song's vibrant energy reflects the emotions of infatuation and joy, resonating with listeners who have experienced similar feelings. Overall, it serves as a delightful reminder of the fun and excitement of being in love.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>En Fuse Pochu</strong> from <em>Arrambam</em> is a vibrant duet that perfectly captures the essence of youthful romance. With Karthik and Ramya NSK's captivating vocals, paired with Yuvan's infectious music, this song is sure to get you in the mood for love. Experience the delightful blend of playful lyrics and upbeat rhythms that make this track a must-listen!",
+    "stanzaMeanings": [
+      "My fuse is blown, my fuse is blown, I can't say it's over, my baby, I can't say it's over, my baby, I can't say it's over, my baby, I can't say it's over, my baby.",
+      "My fuse is blown, my fuse is blown, thinking of you has confused me, I felt it, my heart went from M size to double X, I loved you.",
+      "I can't say it's over, my baby, I can't say it's over, my baby.",
+      "I let you go like the moon, I said you were beautiful, I started like this, lovely darling, I made a movie out of poetry, I told her it's about her, my life is tied to her, I said lovely darling.",
+      "I won't say I'm Raman, but I won't let go of you, I can't say it's over...",
+      "I called you for a date, I asked for a meeting in mid-range, I called to share a drink, I asked about love.",
+      "On weekends, I called you home, I looked at you like a friend, I told you I love you.",
+      "If I say love, I can say it now, only then can it be over...",
+      "I can't say it's over, I can't say I love you and leave.",
+      "Because of you, my heart has burst, I don't know why I love you, I heard your sweet voice, and now I've started saying your name."
+    ]
+  }
 }

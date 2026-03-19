@@ -64,5 +64,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBUTr-P9Yp6mAhIT4Qp9JnW-gBx2sFAf070UJ93RiLUregxB1-HK5FhZGHQOFM5eRRB_6_OKiZrTvFtziXfoXeXralitsY2q7cZ1v_8ME1CEQSBpxZfya0_wkTbJvy4vieueRwbNcaJng/s400-c/salim2.jpg",
   "generatedAt": "2026-01-18T12:59:15.295Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "salim",
+      "emcee jazz",
+      "mahalingam",
+      "gaana bala",
+      "upbeat",
+      "dance number",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Avala Nambithan'?</h4><p>The song 'Avala Nambithan' expresses a playful and upbeat vibe, reflecting themes of love and celebration.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Salim'?</h4><p>The movie 'Salim' revolves around the life of a young man and his adventures, with the song capturing the essence of his joyful experiences.</p></div><div class=\"faq-item\"><h4>Who are the singers of the song?</h4><p>The song features vocals by Emcee Jazz and Mahalingam, who bring a lively energy to the track.</p></div><div class=\"faq-item\"><h4>When was 'Avala Nambithan' released?</h4><p>'Avala Nambithan' was released on June 9, 2014.</p></div></div>",
+    "summary": "In the movie *Salim*, the song 'Avala Nambithan' serves as a lively celebration of love and joy. The upbeat tempo and catchy lyrics evoke a sense of happiness and excitement, making it perfect for festive occasions. The playful nature of the song reflects the protagonist's carefree spirit and adds a vibrant touch to the film's narrative. Overall, it captures the essence of youthful exuberance and the joy of living in the moment.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Avala Nambithan</strong> from <em>Salim</em> is a vibrant and energetic track that showcases the unique collaboration between Emcee Jazz and Mahalingam. With catchy lyrics by Gaana Bala, this song is sure to get you moving and grooving. Dive into the lively beats and feel the infectious joy that this song brings!",
+    "stanzaMeanings": [
+      "",
+      "A song about a person named Sambo.",
+      "I trusted her, but it turned out to be a disaster. She showed her desires and changed her ways.",
+      "She posted a photo on Facebook, showing off. She showed her desires and changed her ways.",
+      "Oh no, if love starts, we will be in tension. She will call me her boyfriend, that's the new trend. If I give her my phone, it will be torture for me. Trusting her could ruin my future.",
+      "I was born for her, but she might go with someone else. Traveling on a bike, she will ask for a six-pack, and if I show it to her, she will leave quickly.",
+      "I trusted her, but it turned out to be a disaster. She showed her desires and changed her ways.",
+      "She posted a photo on Facebook, showing off. She showed her desires and changed her ways.",
+      ""
+    ]
+  }
 }

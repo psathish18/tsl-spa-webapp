@@ -1072,8 +1072,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                       <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600 flex-wrap">
                         {/* #7 Copy stanza */}
                         {/* <CopyButton text={plainText} label="Copy stanza" /> */}
-                        <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
-                          <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
+                        <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet</a>
+                          <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp</a>
                       </div>
                     </div>
                   );

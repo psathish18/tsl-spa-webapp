@@ -120,5 +120,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibHd7K7PqzwdSnyIgHSrLBpafkpBg2zwEpA3XgDIwS_53O9Hk70Y6OWWyRW1BcV3xGutRA9MnVSwfiVVkS4SZN5SMgHmnfiUYiUeY2CPnfQtyq11Kt-ENWy5I93S75hDrMOIMGYqgRq3I/s400-c/En+frienda+pola+yaaru+machan.jpg",
   "generatedAt": "2026-01-18T13:08:34.301Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "birthday"
+    ],
+    "keywords": [
+      "nanban",
+      "en nanban",
+      "krish",
+      "suchith suresan",
+      "viveka",
+      "harrish jeyaraj",
+      "upbeat",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>En Nanban ( Frienda ) Pola</strong> celebrates friendship and the joy it brings, highlighting the bond between friends.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Nanban</em>, this song is a lively celebration among friends, showcasing their camaraderie and fun moments together.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Krish</strong> and <strong>Suchith Suresan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>En Nanban ( Frienda ) Pola</strong> was composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>December 19, 2011</strong>.</p></div></div>",
+    "summary": "<strong>En Nanban ( Frienda ) Pola</strong> is a lively and energetic song from the movie <em>Nanban</em> that beautifully encapsulates the spirit of friendship. The upbeat tempo and catchy lyrics evoke feelings of joy and celebration, making it perfect for gatherings and parties. The song conveys the importance of camaraderie and the fun moments shared among friends. With its engaging melody and vibrant performances by Krish and Suchith Suresan, it leaves listeners feeling uplifted and nostalgic.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>En Nanban ( Frienda ) Pola</strong> from the movie <em>Nanban</em>, where the harmonious voices of Krish and Suchith Suresan come together to create an unforgettable musical journey. This song perfectly captures the essence of friendship and celebration, making it a must-listen for anyone looking to uplift their spirits. With Harrish Jeyaraj's captivating music and Viveka's engaging lyrics, this track is sure to resonate with listeners of all ages.",
+    "stanzaMeanings": [
+      "",
+      "Who is my friend? He has changed everything. Where have you gone, my friend? What have you done? Our friendship has made our hearts strong. You have placed tears in my eyes.",
+      "The friend’s friends are like a mother’s embrace. He has planted a garden nearby. Even love has its ups and downs, but friendship always rises above.",
+      "We have taken your friendship, so we all rise together like clouds in the sky.",
+      "You have shown me a new path, and I have lost my way. If you are not there, where will I go?",
+      "Who is my friend? He has changed everything. Where have you gone, my friend? What have you done? Our friendship has made our hearts strong. You have placed tears in my eyes.",
+      "Friend...",
+      "",
+      ""
+    ]
+  }
 }

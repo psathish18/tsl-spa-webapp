@@ -72,5 +72,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:06.996Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "wedding"
+    ],
+    "keywords": [
+      "endhiran",
+      "arima arima",
+      "benny dayal",
+      "hariharan",
+      "naresh iyer",
+      "sadhana sargam",
+      "vairamuthu",
+      "ar rahman",
+      "energetic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Arima Arima</strong>?</h4><p>The song <strong>Arima Arima</strong> celebrates the beauty of life and love, expressing emotions of joy and excitement.</p></div><div class=\"faq-item\"><h4>How does <strong>Arima Arima</strong> fit into the plot of <em>Endhiran</em>?</h4><p>This song showcases the vibrant moments in the film, highlighting the connection between the characters and their experiences.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Arima Arima</strong>?</h4><p>The song features the talented voices of <strong>Benny Dayal</strong>, <strong>Hariharan</strong>, <strong>Naresh Iyer</strong>, and <strong>Sadhana Sargam</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Arima Arima</strong>?</h4><p>The music for <strong>Arima Arima</strong> was composed by the legendary <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Arima Arima</strong> released?</h4><p>The song was released on <strong>August 3, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Arima Arima</strong>, the vibrant energy of the song reflects the joyous moments in the movie <em>Endhiran</em>. The collaboration of talented singers brings forth a melody that resonates with excitement and celebration. The lyrics by Vairamuthu beautifully capture the essence of love and life, making it a perfect anthem for festive occasions. This song evokes feelings of happiness and togetherness, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Arima Arima</strong> from the blockbuster <em>Endhiran</em> is a vibrant celebration of life and love, brought to life by the stellar voices of Benny Dayal, Hariharan, Naresh Iyer, and Sadhana Sargam. With AR Rahman's electrifying composition and Vairamuthu's poetic lyrics, this song captures the essence of joy and excitement. Experience the magic of this unique collaboration that resonates with every listener's heart.",
+    "stanzaMeanings": [
+      "He speaks of greatness and pride, the ocean and the waves, he crosses the world, the moon shines on high, beautiful and lovely, this creator called robot is a marvel.",
+      "Oh, I am a thousand wonders, if I get a golden deer like you, will I just let it go?",
+      "In the world, desire burns like fire... I have crossed the Atlantic, in the fiery heat, I have poured my green honey, my wishes burn like fire, oh, the sweet fruit is like a deer, placed on a bed of leaves.",
+      "Oh, I am... He speaks of greatness and pride...",
+      "The sound of the heart is like a sweet melody, it flows like honey in the body.",
+      "I don't want a demon, I need a fan, even the women are pulling you away.",
+      "I am not a human, I am a king of machines, I am a small heart that eats silicon, I am a lion.",
+      "robot robot robot robot robot robot",
+      "Oh, I am... He speaks of greatness and pride...",
+      "I am the lightning that breaks the clouds, don't put ice on me.",
+      "All the sounds are in the air, all the lives have desires, let the robot go away.",
+      "Oh, you are stealing the knowledge from my side, you are with life – you are the ultimate truth, whatever it is, that is what I am.",
+      "He speaks of greatness and pride, the ocean and the waves, he crosses the world, the moon shines on high, beautiful and lovely, this creator called robot is a marvel. Oh, I am a thousand wonders, if I get a golden deer like you, will I just let it go?",
+      "robot robot robot robot robot robot robot robot"
+    ]
+  }
 }

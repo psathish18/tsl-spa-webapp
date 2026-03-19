@@ -120,5 +120,37 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTA-VRNbvM5Es-iMmH2sVJNf_e1KKv_gBq_qoJMDfO2LHM81pqdAlBPoh89Bdqu-ZaWp2Pt5R6l9mBvXIu3qGI9Vh5s3te7loRz9n2-ZaH_RVi_NKCnVVVfhLWVoNC2-XMuaRA0mLp2jw/s400-c/kadal+12.jpg",
   "generatedAt": "2026-01-18T13:05:12.696Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "kadal",
+      "elai keechan",
+      "ar rahman",
+      "karky",
+      "energetic",
+      "upbeat",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What does the title 'Elay Keechan' mean?</h4><p>'Elay Keechan' translates to 'Tiger Fish', a rare freshwater fish found near Cuddalore and Thoothukudi.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Kadal?</h4><p>The song captures the vibrant emotions and energy of the characters, reflecting their journey and experiences in the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung and composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Elay Keechan' released?</h4><p>The song was released on <strong>December 9, 2012</strong>.</p></div></div>",
+    "summary": "In 'Elay Keechan', the vibrant energy of the song mirrors the lively spirit of the characters in <em>Kadal</em>. The upbeat tempo and catchy lyrics evoke feelings of joy and celebration, making it a perfect anthem for parties and gatherings. The song encapsulates the essence of youthful exuberance and the thrill of life. With AR Rahman's signature style, this track is a delightful addition to the film's soundtrack.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Elay Keechan</strong> from <em>Kadal</em> is a vibrant and energetic track that showcases AR Rahman's unique musical style. With its infectious beats and catchy lyrics, this song is sure to get you moving. Experience the magic of Rahman's composition paired with Karky's evocative lyrics in this unforgettable musical journey.",
+    "stanzaMeanings": [
+      "Hey girl Sheela, our sea mother is giving us plenty. Yes, Sheela, she laughs by throwing sea waves. Hey friend, Tiger Fish has boiled, our girl Soosha also came. Hey Jesus poured boon for us, come mate, bring mate, bring the boat to collect and bring fatty fishes."
+    ]
+  }
 }

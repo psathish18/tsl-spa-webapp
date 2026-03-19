@@ -43,5 +43,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:32.286Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "evada unna pethaa",
+      "ranina reddy",
+      "kannan",
+      "tamil padam 2",
+      "upbeat",
+      "dance number",
+      "2018",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Evada Unna Pethaa</strong> expresses a playful and lively vibe, focusing on youthful romance and fun interactions.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Tamil Padam 2</em>, the song adds a humorous and energetic element, reflecting the carefree spirit of the characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Ranina Reddy</strong> and composed by <strong>Kannan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Evada Unna Pethaa</strong> was released on March 26, 2018.</p></div></div>",
+    "summary": "The song <strong>Evada Unna Pethaa</strong> from <em>Tamil Padam 2</em> is a lively and upbeat number that resonates with the carefree spirit of youth. It conveys themes of playful romance and the excitement of young love, making it a perfect fit for celebrations and parties. The energetic beats and catchy lyrics evoke feelings of joy and happiness, inviting listeners to dance along. Overall, this track encapsulates the fun and vibrant essence of the movie.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Evada Unna Pethaa</strong> is a vibrant and energetic track that perfectly captures the essence of youthful exuberance. With <em>Tamil Padam 2</em> as its backdrop, this song showcases Ranina Reddy's captivating vocals paired with Kannan's dynamic composition. Get ready to groove to the infectious beats that make this song a party anthem!",
+    "stanzaMeanings": [
+      "Where are you born? Where are you born? If you get it in your hand, she will be set, set.",
+      "Leave him, he is not needed.",
+      "Where are you born? Where are you born? If you get it in your hand, she will be set, set (hey, outside).",
+      "For the money, we need a kiss, we need a girlfriend, we need to get you.",
+      "What love do I have on Sunday? What love do I have on Monday? What love do I have on Tuesday? What love do I have on Friday?",
+      "When I am with you, my friend is like a dog. They lecture me about culture.",
+      "You think you are a donkey. We listen to what you say and act like monkeys. Nonsense.",
+      "Leave him, he is not needed.",
+      "Where, where...",
+      "If you hit the water, you will be lost. Will I lose my life by fixing you?",
+      "What love do I have for my wife? What love do I have for my husband? What love do I have on Sunday? What love do I have for my friend?",
+      "You say it's a love failure and throw acid. You talk about Kolaveri with pride.",
+      "If you leave, I won't lose anything, your nonsense won't go away. Go away.",
+      "Leave him, he is not needed.",
+      "It's good, it's good, wherever you are, you are good."
+    ]
+  }
 }

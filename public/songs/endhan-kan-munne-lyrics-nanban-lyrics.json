@@ -114,5 +114,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg67Iv_rBt5PiPUXh4XhGaupUiNNCGCJr1d30L2HGe6irvS2biXdG4VTYoRlYckL7XjbnFtPBkh-adKUrTCf1JQnagK3XSPMs5BdBzHix7MhMVBIdY7ykb6xl1DaLgxf4Xl96HMmXdgEss/s400-c/Endhan+Kan+Munne-+nanban+lyrics.jpg",
   "generatedAt": "2026-01-18T13:08:32.498Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "nanban",
+      "aalap raju",
+      "karky",
+      "harrish jeyaraj",
+      "romantic",
+      "melody",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Endhan Kan Munne</strong>?</h4><p>The song expresses deep feelings of love and longing, portraying the emotions of a lover yearning for their beloved.</p></div><div class=\"faq-item\"><h4>How does <strong>Endhan Kan Munne</strong> fit into the plot of <em>Nanban</em>?</h4><p>This song captures a pivotal moment in the film where the protagonist reflects on love and relationships, enhancing the emotional narrative of the story.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Endhan Kan Munne</strong>?</h4><p>The song is sung by <strong>Aalap Raju</strong>, known for his expressive vocal style that perfectly complements the song's romantic theme.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Endhan Kan Munne</strong>?</h4><p>The music for this beautiful track was composed by <strong>Harrish Jeyaraj</strong>, a prominent figure in the Tamil music industry.</p></div><div class=\"faq-item\"><h4>When was <strong>Endhan Kan Munne</strong> released?</h4><p>The song was released on <strong>December 19, 2011</strong>, as part of the <em>Nanban</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Endhan Kan Munne</strong>, the protagonist expresses his heartfelt emotions as he navigates the complexities of love. The song's romantic melody and poignant lyrics evoke a sense of longing and joy, making it a perfect fit for moments of celebration and reflection. As part of the film <em>Nanban</em>, it enhances the narrative by highlighting the emotional connections between characters. This track resonates with anyone who has experienced the beauty of love.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Endhan Kan Munne</strong> from <em>Nanban</em> is a mesmerizing romantic track that beautifully captures the essence of love and longing. With Aalap Raju's soulful vocals and Harrish Jeyaraj's enchanting music, this song creates a captivating atmosphere that resonates with listeners. Dive into the emotional depth of this melody and experience the magic of Tamil cinema.",
+    "stanzaMeanings": [
+      "I went without seeing my eyes in front of me, no one could see me, like a fish in the sky.",
+      "I heard a sound that breaks the heart, oh! oh! I looked ahead.",
+      "I am listening to the rain, you are rising, I am listening to the sound, you are watching with your eyes. Is the dream, the dream, going to continue? Did you give me the paths to sleep?",
+      "",
+      ""
+    ]
+  }
 }

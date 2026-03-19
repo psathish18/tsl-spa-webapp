@@ -99,5 +99,38 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPjou7ggj8rftM0VL8aZnHP5Yoy3VxtGYQgp1x5BDviXuRs12TWbwquw8fyVxAaCYNSxbzEyiNnzM69oU6kR5kynfxX3ly-OzutZhMlCEjO12VL85wdb-5mgXe3xhK5zjmw9XuwlMPG94/s400-c/Anegan-Lyrics.jpg",
   "generatedAt": "2026-01-18T12:56:46.926Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "anegan",
+      "danga maari",
+      "dance number",
+      "upbeat",
+      "2014",
+      "unknown",
+      "happy",
+      "energetic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Danga Maari?</h4><p>The song <strong>Danga Maari</strong> conveys a playful and energetic vibe, celebrating love and joy through its lively lyrics.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in Anegan?</h4><p>In <strong>Anegan</strong>, the song is featured during a festive moment, enhancing the celebratory atmosphere of the movie.</p></div><div class=\"faq-item\"><h4>Who are the singers of Danga Maari?</h4><p>The song is performed by <strong>Dhanush</strong>, <strong>Marana Gana Viji</strong>, and <strong>Naveen Madhav</strong>.</p></div><div class=\"faq-item\"><h4>When was Danga Maari released?</h4><p><strong>Danga Maari</strong> was released on December 4, 2014.</p></div></div>",
+    "summary": "The song <strong>Danga Maari</strong> from <em>Anegan</em> is a lively and energetic dance number that encapsulates the spirit of celebration. It showcases the joy of love and the excitement of festivities, making it a perfect fit for parties and weddings. The upbeat tempo and catchy lyrics evoke feelings of happiness and enthusiasm, inviting listeners to join in the fun. Overall, it serves as a delightful addition to the film's vibrant soundtrack.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Danga Maari</strong> from <em>Anegan</em> is a vibrant dance number that perfectly captures the essence of celebration and joy. With its infectious beats and lively lyrics, this song is sure to get everyone on their feet. The unique collaboration of various artists brings a fresh energy that resonates with the audience.",
+    "stanzaMeanings": [
+      "Danga Maari, you are an awkward girl. I took a route and paved a line, danced on the road, and played games. Long ago, dirty-faced Meenakshi took a bath. Kamakshi ate food without brushing. If you caught up with them, you are dead. I went to play a game, and my mom chased me not to play. Foul-smelling food shop, break into two pieces. Mom prepared appam and vada, eat and be quiet. I’ll take my finger. If you take a weapon, I will beat you like hell. I've grown like a gunda man, just killed a man and got a big name. There is no opponent; I’m solo here. I’m not like before; I’ve changed a lot."
+    ]
+  }
 }

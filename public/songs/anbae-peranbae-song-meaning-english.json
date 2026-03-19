@@ -54,5 +54,38 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:42:24.454Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "ngk",
+      "anbae peranbae",
+      "romantic",
+      "melody",
+      "2019",
+      "tamil song",
+      "love",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Anbae Peranbae?</h4><p>The song <strong>Anbae Peranbae</strong> expresses deep feelings of love and longing, capturing the essence of romantic relationships.</p></div><div class=\"faq-item\"><h4>In which movie is Anbae Peranbae featured?</h4><p><strong>Anbae Peranbae</strong> is featured in the movie <strong>NGK</strong>, which explores themes of love and ambition.</p></div><div class=\"faq-item\"><h4>Who are the artists behind the song?</h4><p>The singer, lyricist, and music director for <strong>Anbae Peranbae</strong> are currently unknown.</p></div><div class=\"faq-item\"><h4>When was Anbae Peranbae released?</h4><p>The song <strong>Anbae Peranbae</strong> was released on May 19, 2019.</p></div></div>",
+    "summary": "In <strong>Anbae Peranbae</strong>, the protagonist expresses his deep affection and yearning for his beloved, reflecting the emotional turmoil of love. The song beautifully encapsulates the themes of romance and longing, making it a poignant moment in the film <em>NGK</em>. With its soothing melody and heartfelt lyrics, it evokes a sense of nostalgia and warmth. This track resonates with anyone who has experienced the highs and lows of love.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Anbae Peranbae</strong> from <em>NGK</em> is a beautifully crafted melody that captures the essence of love and longing. The song's soothing vibe resonates deeply, making it a perfect listen for romantic moments. With its heartfelt lyrics and enchanting tune, this track is sure to leave a lasting impression on listeners.",
+    "stanzaMeanings": [
+      "Love .. love .. my love ... Longing for a relationship to come out of darkness. Looking to fulfill her limitless desire. Like a rain, I’ll mix into the sea. honey..hey honey will there be an end to the anxiety of the girl’s dream ? Will her eye see his image with her mind ? or will fail ? while the rainy sky drizzles, does land tingles? when flowers gather together, does people abuse ? hey wave, sea wave your terrible love is crossing the limit, and kindles me. lust in my heart, Incenses my eyes. you’re an untold secret the world is waiting to hear. Your thoughts are with me when alone. Your aroma arises while remembering you. everything changes into one thought, to marry you.. Rainy clouds will shed during rainy season. Even in no man's forest poobalam tune is heard. Love, my love shadow of life path is changing colorfully. Our relationship ends when we aren’t together for a second. Does a language can bear ? if meaning of words isn’t understood ? Does one life enough, to live a life with full of love. ?"
+    ]
+  }
 }

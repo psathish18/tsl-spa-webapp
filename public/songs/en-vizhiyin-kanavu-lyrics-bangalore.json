@@ -101,5 +101,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinPqBrqB-F_Ur2Jt9Mw6jphPM6FbA5TLTuC99SH34PfoQyc5HLs5l1UkhQVyfOVIw9VyGgAnOS7q0ParP_UnMIFAUJhrvfq6GHbs5UO9FgTDkxQL7h05deLHZ8QEuAe_Cpblc4uaOZuJI/s400-c/Bangalore_Naatkal.jpg",
   "generatedAt": "2026-01-18T12:52:29.388Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "bangalore naatkal",
+      "anna katharina valayil chandy",
+      "gopi sunder",
+      "karky",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of longing and unfulfilled love, highlighting the emotional struggles of the protagonist.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Bangalore Naatkal</em>, this song reflects the inner feelings of the characters as they navigate their relationships and dreams.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of Anna Katharina Valayil Chandy and Gopi Sunder.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by the renowned lyricist <strong>Karky</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on January 24, 2016.</p></div></div>",
+    "summary": "In <strong>En Vizhiyin Kanavu</strong>, the characters in <em>Bangalore Naatkal</em> express their deep yearning for love and connection. The song's romantic and melancholic tones beautifully convey the emotions of longing and introspection. As the singers harmonize, listeners are taken on a journey through the complexities of relationships. This heartfelt melody resonates with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>En Vizhiyin Kanavu</strong> from <em>Bangalore Naatkal</em> is a beautifully crafted duet that captures the essence of longing and romance. With the soulful voices of Anna Katharina Valayil Chandy and Gopi Sunder, this song resonates with anyone who has ever dreamed of love. The poignant lyrics by Karky add depth to the emotional journey, making it a must-listen for fans of Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "In my dream, you are not there, so don't look for faults in it.",
+      "In my small world, there is no one like you. Why don't you ask? Don't put your foot in it.",
+      "I sing songs as myself. Am I thinking too much?",
+      "Should I live my life?",
+      "Should my hunger and thirst also come to you?",
+      "Are you my breath?",
+      "Again and again, you shower flowers on me.",
+      "Are you saying something?",
+      "In my eyes, your tears are making me feel something.",
+      "Your sorrow is entering my heart, why is that?",
+      "Why have you become like this? Even though I am myself.",
+      "I can't see you in me, you are me!!",
+      "You are so close. You come every day.",
+      "Who are we?",
+      "I have solved my heart's issues, but you have gone without saying anything.",
+      "Is my love not touching you? You are avoiding me without speaking!!",
+      "My love.. will you not see me? Will you not see me?",
+      ""
+    ]
+  }
 }

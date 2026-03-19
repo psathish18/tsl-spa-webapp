@@ -72,5 +72,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ0cqLmBI0p6a2tQFaVzOTxZiIGS2fZUoEQ12fxnhfKMJMKASR1IxN10dQYWM5aGgSdL983q0SP9GqlqaJg6pTA_oXuq8Kn8wdOHSG7Zqe4r9a1nWMdRtMdztGX0gXwP19v4YaYewn2PU/s400-c/Kathakali.jpg",
   "generatedAt": "2026-01-18T12:53:01.037Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kathakali",
+      "hip hop tamizha",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song",
+      "lyrics",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Azhagae Azhagae</strong> expresses feelings of love and longing, highlighting the emotional turmoil of separation.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Kathakali</em>, this song plays during a pivotal moment that showcases the protagonist's emotional struggles in love.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Hip Hop Tamizha</strong>, known for their unique style and impactful lyrics.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Azhagae Azhagae</strong> was released on December 31, 2015.</p></div></div>",
+    "summary": "The song <strong>Azhagae Azhagae</strong> from the movie <em>Kathakali</em> encapsulates the emotional depth of love and separation. It portrays the protagonist's inner turmoil as they navigate the complexities of their feelings. The soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it relatable to anyone who has faced heartbreak. This beautiful composition by Hip Hop Tamizha resonates with listeners, leaving a lasting impression.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Azhagae Azhagae</strong> from <em>Kathakali</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With Hip Hop Tamizha's soulful rendition, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. The enchanting lyrics and soothing composition make it a must-listen for fans of Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "In that street, a garland of time blooms in the light of his soul.",
+      "You and I walk together, holding hands, as you move ahead.",
+      "If you walk away from me, my heart will not understand the fear.",
+      "If you hold my hands, it will awaken a joy within me.",
+      "In your embrace, I need to live for a hundred years.",
+      "In your lap, I wish to be born seven times.",
+      "If you dream of beauty, the world will desire it.",
+      "Oh nectar, your essence is my voice.",
+      "Like a golden flower in the breeze, you come like a star.",
+      "I will wait, looking at the eyes that gather pearls.",
+      "Don't leave me as a shadow, don't let me fade away.",
+      "Even if I search, my love will always be a full moon.",
+      "In love, in love, there should be no regrets; even if I touch, my love won't fade.",
+      "In your lap, I wish to live for a hundred years.",
+      "In your embrace, I wish to be born seven times.",
+      "If you dream of beauty, the world will desire it.",
+      "Oh nectar, your essence is my voice.",
+      "",
+      "",
+      ""
+    ]
+  }
 }

@@ -81,5 +81,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBlf9IEuOJEgwXkt9nsbRyLe8khEAJ6qJAuzDwDLb2gzMLI1nwSEoHzpIPF4pjKgWqvCiCn-TkbcszIMVJARpNiedQLGU1rkrjr7A_JN2nSAYcZq8Y4Z-WfiVqhnPnkhx3aJJMFCTSy4w/s400-c/Haridas+Songs+Lyrics.jpg",
   "generatedAt": "2026-01-18T13:05:26.502Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "devotional"
+    ],
+    "occasions": [
+      "relaxation",
+      "festivals",
+      "wedding"
+    ],
+    "keywords": [
+      "haridas",
+      "shankar mahadevan",
+      "na muthukumar",
+      "vijay antony",
+      "devotional",
+      "soothing",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Annaiyin Karuvil'?</h4><p>The song conveys deep emotions of devotion and the bond between a mother and child, reflecting on life's challenges and victories.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Haridas'?</h4><p>In <em>Haridas</em>, the song plays during a poignant moment that highlights the protagonist's struggles and his connection to his roots.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Annaiyin Karuvil'?</h4><p>The song is sung by <strong>Shankar Mahadevan</strong> and composed by <strong>Vijay Antony</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Annaiyin Karuvil' released?</h4><p>The song was released on December 3, 2012.</p></div></div>",
+    "summary": "In the song <strong>Annaiyin Karuvil</strong> from the movie <em>Haridas</em>, Shankar Mahadevan's soulful rendition evokes a sense of nostalgia and devotion. The lyrics, penned by Na Muthukumar, reflect the struggles and triumphs of life, emphasizing the importance of maternal bonds. The soothing melody composed by Vijay Antony enhances the emotional depth of the song, making it a perfect fit for moments of reflection and celebration. Overall, this song beautifully captures the essence of love and resilience.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Annaiyin Karuvil</strong> is a soul-stirring melody that beautifully captures the essence of devotion and nostalgia. With <strong>Shankar Mahadevan's</strong> mesmerizing vocals and <strong>Vijay Antony's</strong> enchanting music, this song resonates deeply with listeners. Experience the heartfelt emotions woven into the lyrics by <strong>Na Muthukumar</strong> in the film <em>Haridas</em>.",
+    "stanzaMeanings": [
+      "",
+      "You were born without any obstacles, and from that moment, you have succeeded.",
+      "Life here is filled with challenges, but there is victory in overcoming them. Dreams are seen, and we walk with hope today.",
+      "",
+      "When the obstacles come, laugh at them, and they will go away.",
+      "The pure white flower blooms, and the essence within it is high.",
+      "Even if fate is against you, hard work will bring its rewards.",
+      "In the world of creation, the tree that sleeps does not know. It grows silently, and the people do not rest.",
+      "Do not stop the path you walk, as you seek the heights. Here, great hope will become a reality.",
+      "If you keep walking, the path will open up. Do not stop, as tomorrow will bring new opportunities.",
+      "Flowers bloom, and the need for them is recognized. Even if you search with your hands, do not stop working.",
+      "You were born without any obstacles, and from that moment, you have succeeded.",
+      "You do not know what you can achieve. If you understand your strength, there is nothing you cannot accomplish.",
+      "Efforts made will not go in vain. No one here can fall without trying.",
+      "Even the word 'no' does not exist. Tomorrow, do not let any misfortune come upon you.",
+      "Even if you fall, rise quickly and move forward. Do not stop your efforts from the past.",
+      "You were born without any obstacles, and from that moment, you have succeeded."
+    ]
+  }
 }

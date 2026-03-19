@@ -84,5 +84,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNemvJ-__-Wm1HGkiYe7vAYNoASP2RLbVUmi5_02iRo36oBzuawsKTIhm_kecgbiGAUST6T14e1Um6wkkvaJ0UK5cvHafkjE1jVlm993614mzCyAOc4nG2a-bVf-oDH573FqnRKMwyhGo/s400-c/Vedi+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T13:09:35.779Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "vedi",
+      "enna aachu",
+      "janaki iyer",
+      "vijay yesudas",
+      "na muthukumar",
+      "vijay antony",
+      "romantic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Enna Aachu'?</h4><p>The song 'Enna Aachu' expresses feelings of love and longing, questioning the changes in a relationship.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Vedi'?</h4><p>In 'Vedi', the song reflects the emotional turmoil of the characters as they navigate their romantic feelings.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Enna Aachu'?</h4><p>The song features the talented voices of <strong>Janaki Iyer</strong> and <strong>Vijay Yesudas</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Enna Aachu'?</h4><p>The music for 'Enna Aachu' was composed by <strong>Vijay Antony</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Enna Aachu' released?</h4><p>'Enna Aachu' was released on <strong>September 7, 2011</strong>.</p></div></div>",
+    "summary": "In the movie <em>Vedi</em>, the song <strong>Enna Aachu</strong> serves as a poignant reflection of love and emotional struggle. The lyrics, penned by Na Muthukumar, delve into the complexities of relationships, evoking a sense of nostalgia and longing. With the soulful rendition by Janaki Iyer and Vijay Yesudas, the song beautifully captures the essence of romantic emotions. It resonates with anyone who has experienced the bittersweet nature of love, making it a memorable addition to the film's soundtrack.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Enna Aachu</strong> from <em>Vedi</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Janaki Iyer and Vijay Yesudas, this song weaves a tale of emotions that resonates deeply with listeners. The unique collaboration of heartfelt lyrics by Na Muthukumar and captivating music by Vijay Antony makes this track a must-listen for any romantic occasion.",
+    "stanzaMeanings": [
+      "",
+      "Enna Aachu, what happened to me? I see your face everywhere. What happened to me? I hear your voice in silence. In this sky, the moonlight cannot bring your face to me. Is this love? Love...",
+      "Enna Aachu, what happened to me? I see your face everywhere.",
+      "In the nights, the blue sky, the goddess of love appears as a dream every day. I see you in the shadow of the sun during the time of the small breeze.",
+      "In the new soil, I planted in the morning, I have a thorn in my eye that speaks of love (Enna Aachu ....)",
+      "I have come home, but I am not able to stand. Will you come searching for me? I have seen without singing, without holding my life, the city is in chaos, I have seen that.",
+      "The moon needs a hundred stars, just like this, my body needs your life...",
+      "Enna Aachu, what happened to me? I see your face everywhere.",
+      "Enna Aachu, what happened to me? I hear your voice in silence. In this sky, the moonlight cannot bring your face to me. Is this love? Love...",
+      "",
+      "",
+      ""
+    ]
+  }
 }

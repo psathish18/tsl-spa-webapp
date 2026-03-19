@@ -59,5 +59,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEFP9A3lnMbZFWMfkWtX82VJ6YWFZtimsr3Q7NrfZLiJfzf08Bavbv6_guGk0Vkp_70UUe2AuqyVR4ho84KBJlKTT7uxEhXcr_8OFGTuMmMm-OKLSG9jg0a9dftYgkc4sYIXSCP5_f6gw/s400-c/Pizza_II_the_Villa.jpg",
   "generatedAt": "2026-01-18T13:03:02.027Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "pizza 2",
+      "boomiyil",
+      "pradeep kumar",
+      "arun raja",
+      "santhosh narayanan",
+      "romantic",
+      "melody",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Boomiyil'?</h4><p>The song 'Boomiyil' expresses deep romantic feelings and the beauty of love, as conveyed through its poetic lyrics.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of 'Pizza 2 - The Villa'?</h4><p>This song plays a significant role in highlighting the romantic moments between the lead characters in <strong>Pizza 2 - The Villa</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Boomiyil'?</h4><p>The song is sung by <strong>Pradeep Kumar</strong>, known for his emotive singing style.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Boomiyil' was composed by <strong>Santhosh Narayanan</strong>, who is acclaimed for his innovative sound.</p></div><div class=\"faq-item\"><h4>When was 'Boomiyil' released?</h4><p>'Boomiyil' was released on <strong>September 8, 2013</strong>.</p></div></div>",
+    "summary": "In 'Boomiyil', the protagonist expresses his heartfelt emotions and longing for love, beautifully encapsulated in the song's lyrics. The soothing melody, combined with Pradeep Kumar's captivating vocals, creates a romantic atmosphere that resonates with listeners. This song serves as a backdrop to pivotal moments in <em>Pizza 2 - The Villa</em>, enhancing the emotional depth of the narrative. It evokes feelings of nostalgia and warmth, making it a perfect choice for romantic occasions.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Boomiyil</strong> from <em>Pizza 2 - The Villa</em> is a mesmerizing romantic melody that beautifully captures the essence of love. With Pradeep Kumar's soulful voice and Santhosh Narayanan's enchanting composition, this song takes listeners on an emotional journey. The heartfelt lyrics by Arun Raja add depth, making it a must-listen for anyone in love.",
+    "stanzaMeanings": [
+      "",
+      "In this world, the sky blooms, and love speaks to me. When your breath is near, my dreams come alive, and my thoughts flow like the wind. A thousand feelings arise in my heart, and I seek the meanings of your gaze.",
+      "The breeze that touches me has made love blossom in my heart. A thousand feelings arise in my heart, and I seek the meanings of your gaze.",
+      "Both eyes sing new poems, and I too want to rest in this moment. Every day is enough, this is enough."
+    ]
+  }
 }

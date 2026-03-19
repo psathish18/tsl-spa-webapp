@@ -81,5 +81,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5Mav7T3mEJUM1idU7QqekAfUscMl-IaEznFELfY3mKjbVVU7vAjreO7lmV1DN1z9NV1FZGxNirQ0H4sD64sdXANA72ZKJXGYzVcPHl5ToaYE1o1Y6MA8Tc3t43VzkTb1epPe6-JMxiv4/s400-c/Anbe+Peranbe+NGK+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:42:32.457Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "ngk",
+      "anbae peranbae",
+      "shreya goshal",
+      "sid sriram",
+      "uma devi",
+      "yuvan",
+      "romantic",
+      "2019"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Anbae Peranbae</strong>, the singers express deep emotions of love and yearning, reflecting the romantic journey of the characters in <em>NGK</em>. The lyrics convey a sense of longing and hope, as they ponder the connection between love and destiny. The soothing melody, combined with heartfelt vocals, evokes feelings of warmth and nostalgia. This song serves as a beautiful backdrop to the unfolding love story, making it a perfect fit for romantic occasions.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Anbae Peranbae</strong> from <em>NGK</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Shreya Goshal and Sid Sriram, paired with Yuvan's soulful composition, this song is sure to resonate with anyone who has experienced the magic of romance. Dive into the lyrical depth and emotional richness that makes this track a standout in contemporary Tamil cinema.",
+    "stanzaMeanings": [
+      "Beloved, beloved.",
+      "I hear the sound of the night merging with the longing of this girl, will her desires be fulfilled?",
+      "I will bring the rain that falls on the sea.",
+      "Oh sweet one, will the dreams of a woman's heart be fulfilled?",
+      "Will his beauty be seen through the eyes of those who admire him?",
+      "When the rain clouds gather, will my heart rejoice? Will flowers bloom together with the blossoms?",
+      "The screen and the sea, your intense love has brought forth a wave.",
+      "The secret that cannot be spoken, where will you take it to be known?",
+      "In solitude, your thoughts are my companion. In memories, your fragrance lingers. Everything becomes one, the heart's rooster crows.",
+      "In the rainy season, the clouds gather. Even in the uninhabited forest, the sounds of nature can be heard.",
+      "Beloved, beloved, the shadows of long life are taking shape, our bond is becoming a part of the universe, it is becoming one.",
+      "Will the essence of unspoken words be contained here, will love find a way to flourish?"
+    ]
+  }
 }

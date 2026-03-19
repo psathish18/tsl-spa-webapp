@@ -39,7 +39,7 @@ export default function SongIntro({ intro, enrichedMetadata }: SongIntroProps) {
                 <span className="text-xs font-semibold uppercase tracking-wide" style={{ color: 'var(--muted)' }}>
                   Mood:
                 </span>
-                {enrichedMetadata.mood.map((mood, idx) => (
+                {enrichedMetadata.mood.filter((value)=> value!="devotional").map((mood, idx) => (
                   <span
                     key={idx}
                     className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium border transition-colors"

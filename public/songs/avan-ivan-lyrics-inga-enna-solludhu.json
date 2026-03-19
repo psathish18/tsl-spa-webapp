@@ -62,5 +62,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGe00ksVpBZQ52akp7z0coAO3J9YLagynjNTn6tarFa6qcrYW_i7Sh4lS1RdfGQ3mokfyfU2YAlG1x-4r2rX-DEG1WqDXjzgwHeXp6Rwsrh2zq4y8kEzzA9_7dzVYS68dzIUELcT51JeQ/s400-c/inga-enna-solludhu.jpg",
   "generatedAt": "2026-01-18T13:01:56.583Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "inga enna solludhu",
+      "avan ivan",
+      "ramya nsk",
+      "vtv ganesh",
+      "dharan kumar",
+      "upbeat",
+      "dance number",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Avan Ivan'?</h4><p>The song 'Avan Ivan' conveys a lively and festive spirit, encouraging listeners to let loose and enjoy the moment.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Inga Enna Solludhu'?</h4><p>The movie revolves around themes of friendship and fun, with this song highlighting the celebratory aspects of the characters' lives.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Ramya NSK</strong> and composed by <strong>Dharan Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Avan Ivan' released?</h4><p>'Avan Ivan' was released on <strong>December 8, 2013</strong>.</p></div></div>",
+    "summary": "In 'Avan Ivan', the characters celebrate life and friendship through an upbeat and energetic dance number. The song encapsulates the joy of partying and having fun, making it a perfect anthem for celebrations. With catchy lyrics and a lively rhythm, it evokes feelings of happiness and excitement. This vibrant track stands out in the movie, enhancing the overall festive atmosphere.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Avan Ivan</strong> from <em>Inga Enna Solludhu</em> is a vibrant dance number that perfectly captures the essence of celebration and joy. With Ramya NSK's energetic vocals and Dharan Kumar's catchy beats, this song is sure to get everyone on their feet. Experience the infectious vibe and let the music take you to a party atmosphere like no other!",
+    "stanzaMeanings": [
+      "",
+      "Let's go party, go party, go party, go party. Let's go party, go party, go party, go party and dance in a crazy way.",
+      "Go away, go away, sing away, go away. Go away, go away, listen away, go away.",
+      "Whoever he is, every day is a festival for you. Every dance and song is a festival for you.",
+      "Go away, run away, you troublemaker, just go away. Go away, disappear, no hepatitis B, just go away.",
+      "Whoever he is, every day is a festival for you. Every dance and song is a festival for you.",
+      "Whoever he is, every day is a festival for you."
+    ]
+  }
 }

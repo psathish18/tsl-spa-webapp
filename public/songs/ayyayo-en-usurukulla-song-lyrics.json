@@ -42,5 +42,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiohxJaNoS68CVJXVtBGS0pPaM_DJeIvjPAzrVgLu4xWeksXfKnRxa2JVq4lJ4g4xzINuapAPhsoAvjhv_6Z7V-SNAwbCLAeRiMF8hkW8OBR0wpNVuBXieAyBD728o0W7pqGpxe4LYJn_o/s400-c/Ayyayo+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:14:28.923Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "paruthiveeran",
+      "shreya goshal",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2007",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, reflecting the struggles and desires of the characters in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Paruthiveeran</em>, the song plays during a pivotal moment that highlights the protagonist's feelings for his love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Shreya Goshal</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>February 23, 2007</strong>.</p></div></div>",
+    "summary": "In <strong>Ayyayo En Usurukulla</strong>, the listener is taken on an emotional journey through the eyes of the protagonist in <em>Paruthiveeran</em>. The song beautifully encapsulates the feelings of love and yearning, making it a poignant moment in the film. Shreya Goshal's voice adds a layer of depth, evoking nostalgia and melancholy. This melody resonates with anyone who has experienced the complexities of love.",
+    "releaseYear": "2007",
+    "high_ctr_intro": "<strong>Ayyayo En Usurukulla</strong> from <em>Paruthiveeran</em> is a hauntingly beautiful melody that captures the essence of love and longing. Shreya Goshal's soulful voice, combined with Yuvan's enchanting composition, creates an emotional experience that resonates deeply. This song is a must-listen for anyone who appreciates the depth of Tamil music and its storytelling.",
+    "stanzaMeanings": [
+      "",
+      "I am singing with my head held high in your lap, I am telling you the truth, you come, you come.",
+      "I am waiting for the milk in my ten eyes, there is no need for a fuss, you come, you come.",
+      "I will take you away, little fruit, come to me.",
+      "Oh my life, you have set fire to my heart, oh my heart, there is pain in my mind, oh my.",
+      "With your love, I have become beautiful, even if you are a little rough, this boy will not be a problem if you say so.",
+      "Oh my shame, my embarrassment has gone away, oh my mustache has also disappeared, oh my.",
+      "Like a stone in a well, I am stuck in this situation, come and help me.",
+      "Like a shadow that follows, will you stay with me?",
+      "Oh my heart, my stomach has burst, oh my mustache has also twisted, oh my.",
+      "Like a lamp in a stone, I am stuck in this situation, come and help me.",
+      "When I see you, my heart is filled with joy, like a flower that blooms in the garden.",
+      "I will not go, you stay here.",
+      "You are like a sharp knife, cutting through my heart.",
+      "With your love, I have become beautiful, even if you are a little rough, this boy will not be a problem if you say so."
+    ]
+  }
 }

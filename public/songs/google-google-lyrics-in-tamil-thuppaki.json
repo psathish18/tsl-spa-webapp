@@ -117,5 +117,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-0nebPk5veUO09ptwyU_5zqSUb6b1xgKhkAiCGeQ0gHRlr__mtOpspEdjaCRfWdzkct4hO2uABwOl2R_tIuuWY4VORthHf-5XIocTU9CwY6mozOfFQ6_iXFI5o6EI_IvD9xemD0vvR8E/s400-c/Thuppaki+Google+Google+Lyrics+in+Tamil.png",
   "generatedAt": "2026-02-01T14:30:00.763Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "thuppaki",
+      "google google",
+      "harrish jeyaraj",
+      "upbeat",
+      "dance number",
+      "2012",
+      "tamil",
+      "song lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Google Google</strong>, the lively beats and catchy lyrics create a festive atmosphere that resonates with the audience. The song is featured in <em>Thuppaki</em>, where it enhances the celebratory moments of the film. It conveys a sense of joy and excitement, making it perfect for parties and weddings. The energetic vibe of the song evokes feelings of happiness and togetherness, inviting everyone to join in the fun.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Google Google</strong> from <em>Thuppaki</em> is an electrifying dance number that perfectly captures the vibrant energy of celebration. With Harrish Jeyaraj's catchy composition, this song is sure to get everyone on their feet. Experience the joy and excitement that this track brings to any festive occasion!",
+    "stanzaMeanings": [
+      "",
+      ""
+    ]
+  }
 }

@@ -104,5 +104,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:33.406Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "96 movie",
+      "anthathi",
+      "govind vasantha",
+      "chinmayi",
+      "karthik netha",
+      "romantic",
+      "melody",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Anthathi?</h4><p>The song <strong>Anthathi</strong> expresses deep emotions of love and longing, reflecting the complexities of relationships.</p></div><div class=\"faq-item\"><h4>How does Anthathi fit into the plot of 96 Movie?</h4><p>In <em>96 Movie</em>, <strong>Anthathi</strong> plays a crucial role in depicting the nostalgic moments between the lead characters, enhancing the emotional depth of the story.</p></div><div class=\"faq-item\"><h4>Who are the singers of Anthathi?</h4><p><strong>Govind Vasantha</strong> and <strong>Chinmayi</strong> are the talented singers who bring <strong>Anthathi</strong> to life with their captivating voices.</p></div><div class=\"faq-item\"><h4>When was Anthathi released?</h4><p><strong>Anthathi</strong> was released on <strong>August 24, 2018</strong>, and has since become a favorite among fans.</p></div></div>",
+    "summary": "The song <strong>Anthathi</strong> from <em>96 Movie</em> beautifully encapsulates the bittersweet feelings of love and nostalgia. It portrays the emotional journey of the characters as they reminisce about their past. The soothing melody, combined with heartfelt lyrics by Karthik Netha, evokes a sense of longing and tenderness. This duet, featuring the enchanting voices of Govind Vasantha and Chinmayi, resonates deeply with anyone who has experienced the complexities of love.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Anthathi</strong> from <em>96 Movie</em> is a mesmerizing duet that beautifully captures the essence of love and nostalgia. With the enchanting voices of Govind Vasantha and Chinmayi, this song takes listeners on an emotional journey filled with heartfelt lyrics. The collaboration between the singers and the poignant composition creates a vibe that resonates deeply with anyone who has experienced love.",
+    "stanzaMeanings": [
+      "Here is the Anthathi song lyrics from the 96 movie. The song is composed by Govind Vasantha and sung by Chinmayi Sripaada, Govind Vasantha, Bhadra Rajin (Carnatic portion) and M. Nassar. The lyrics are written by Karthik Netha.",
+      "In the unending wind, in the grass, in the worm, in the heart, in the absence.",
+      "Indeed, everything we see is the form of love that has become this. Even when love is absent, the search for it continues, and love remains unchanged, even when it faces different thoughts and conflicts.",
+      "We will build a home in this fire. We will swing in this breeze.",
+      "We will live in this water. We will taste love in this embrace.",
+      "Love is a tear, love is a star's brightness, love is a true story that continues through time, love is a divine enemy, love is the fan of the devil, love is the awakening of the soul, living in a degree of freedom.",
+      "Oh, all questions hide within the answer. The day has faded, disappeared, and ended.",
+      "Come, a little completeness, come, a little beauty, the five-colored essence fills the heart, everything is love.",
+      "Love, love, your unique companion, come, come, enough, enough.",
+      "Love, love, the length of life can go on, can you go...?",
+      "Ah, the self-born, you are the essence, you are the brilliance, you are...",
+      "Ah, you are the beauty, you are the essence, you are...",
+      "Mmm, don't search, it will come without prior notice, the heart will loudly announce its arrival.",
+      "Love, one day, will come to you, embrace it and accept it with love.",
+      "Love stays, love hesitates, love smiles, love sweetens, love writes poems, love stirs, love confuses, love is understood to a certain extent.",
+      "Love separates, love departs, send the paths without closing the doors. Wait.",
+      "If love returns from afar and hesitates, go closer and speak with love, enough, love is in your heart, love is in your possession.",
+      "Questions change, answers change, love...",
+      ""
+    ]
+  }
 }

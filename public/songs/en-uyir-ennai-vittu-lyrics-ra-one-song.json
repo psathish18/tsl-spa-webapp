@@ -45,5 +45,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWB69SxU9v8IKL8D3QvtXW6ki3ESHUtsv8djCvqs59_H6iaqG7cYNcDScFePRefvE3BeRS7AJrQUEgYB6ink9aZXSION4Kviqjc1gN7FpZXXpJj0AFB8ZDbtRbFxKrOnbK8LXUnWjPnaM/s400-c/ra_one_tamil.jpg",
   "generatedAt": "2026-01-18T13:09:15.166Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "ra one",
+      "chinmayi",
+      "vairamuthu",
+      "vishal-shekhar",
+      "romantic",
+      "melancholic",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and separation, reflecting the pain of losing a loved one.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Ra One</em>, this song plays during a pivotal moment that highlights the protagonist's emotional struggles and connections.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Chinmayi</strong> and composed by <strong>Vishal-Shekhar</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>En Uyir ennai vittu</strong> was released on <strong>October 15, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>En Uyir ennai vittu</strong>, the protagonist grapples with the pain of separation and the longing for love. The song beautifully conveys the emotions of heartbreak and nostalgia, making it a poignant moment in <em>Ra One</em>. With Chinmayi's soulful rendition and Vairamuthu's evocative lyrics, listeners are taken on an emotional journey. The melody resonates with anyone who has experienced love and loss, making it a timeless classic.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>En Uyir ennai vittu</strong> from <em>Ra One</em> is a soul-stirring melody that captures the essence of love and longing. Sung beautifully by Chinmayi, this song showcases the lyrical brilliance of Vairamuthu paired with the enchanting music of Vishal-Shekhar. Experience the emotional depth and romantic vibe that makes this track a timeless favorite.",
+    "stanzaMeanings": [
+      "",
+      "After you leave me, will my body continue to live? Will the fish in my tears survive? Isn't there a life in my body? Don't we all have just one life? Will the body live on, or will the life leave?",
+      "After the heart breaks, I can't bear this pain. Should I live my life or is it just meaningless?",
+      "On the earth, a mountain has fallen, what does that mean for me? The mountain that the sky carries, what does that mean for me?",
+      "When you go, when you leave, you take a little piece of me. There's a hole in my soul because you take a little piece of me.",
+      "I saw you in your eyes, if I lose my eyes, what will I see? I will listen to your voice, if I lose my voice, who will sing? There’s no shadow for the tears in my eyes, life will be lost if I don’t have tears. Oh, come back to life.",
+      "Life flows like a river, where does it lead? Who can say? Like the rainwater that falls on the leaves, life will go on without saying anything. What am I to do? You have no feelings, like a mirror that doesn’t reflect. There’s no way to escape death, you say...",
+      "On the earth, a mountain has fallen, what does that mean for me? The mountain that the sky carries, what does that mean for me?"
+    ]
+  }
 }

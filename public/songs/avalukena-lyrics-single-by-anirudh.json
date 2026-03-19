@@ -36,5 +36,37 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHZZV-k7UZtZw2bRKg0hBYK2lZTjlnnR97QrlI_LbnvpY4ckh9zrncZ8XG5MUJvv7vvh15-gI7Z-IlzspV_I_UhmcwtBiuS2IeCFgDHv3vvMWMnHGQlFUWfEW-psfjph-uphYcJ9LGFVo/s400-c/Avalukena+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:52:13.432Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "avalukena",
+      "anirudh",
+      "romantic",
+      "valentine's day",
+      "2016",
+      "melody",
+      "single",
+      "srinidhi venkatesh"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Avalukena</strong>?</h4><p>The song <strong>Avalukena</strong> expresses deep romantic feelings and the beauty of love, capturing the essence of longing and affection.</p></div><div class=\"faq-item\"><h4>In which movie is <strong>Avalukena</strong> featured?</h4><p><strong>Avalukena</strong> is featured in the movie <em>Avalukena</em>, which explores themes of love and relationships.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Avalukena</strong>?</h4><p>The song is sung by <strong>Anirudh</strong> and <strong>Srinidhi Venkatesh</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Avalukena</strong> released?</h4><p><strong>Avalukena</strong> was released on February 12, 2016.</p></div></div>",
+    "summary": "The song <strong>Avalukena</strong> beautifully portrays the emotions of love and longing, making it a perfect anthem for romantic occasions. It captures the essence of waiting and cherishing moments with a loved one. The heartfelt lyrics and melodious composition evoke a sense of happiness and nostalgia. This song is an ideal choice for Valentine's Day celebrations and weddings, resonating with anyone who has experienced the magic of love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Avalukena</strong> is a captivating romantic single that beautifully encapsulates the essence of love. With Anirudh's enchanting vocals and heartfelt lyrics, this song is perfect for celebrating special moments. Dive into the melodious world of <em>Avalukena</em> and let the emotions sweep you away.",
+    "stanzaMeanings": [
+      "Hey Valentine's day we’re waiting. to join hands we’re waiting. to touch the heart we’re waiting. to kiss the lips we’re waiting. we changed ourself for her. we blabbered poetry for her we leaped beyond seas for her just for her, just for her we slept without closing eyes for her we sustained pains for her we got used to live for her just for her, just for her she is not here I am not there but something is happening inside. she is not here I am not there but some thoughts are emerging inside me"
+    ]
+  }
 }

@@ -40,5 +40,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:07.595Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation",
+      "celebration"
+    ],
+    "keywords": [
+      "chandraare",
+      "amaran",
+      "k.j. yesudas",
+      "piraisudan",
+      "adithyan",
+      "romantic",
+      "nostalgic",
+      "1992"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Chandraare</strong>?</h4><p>The song <strong>Chandraare</strong> expresses deep romantic feelings and the beauty of love, evoking a sense of nostalgia.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie <em>Amaran</em>?</h4><p>The movie <em>Amaran</em> revolves around themes of love and sacrifice, showcasing the emotional journey of its characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Chandraare</strong>?</h4><p>The song is beautifully rendered by the legendary singer <strong>K. J. Yesudas</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Amaran</em>?</h4><p>The music for <em>Amaran</em> was composed by <strong>Adithyan</strong>, known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was <strong>Chandraare</strong> released?</h4><p>The song was released on <strong>January 15, 1992</strong>.</p></div></div>",
+    "summary": "In the song <strong>Chandraare</strong> from the movie <em>Amaran</em>, the lyrics beautifully depict the emotions of love and longing. The soothing melody, sung by <strong>K. J. Yesudas</strong>, creates a nostalgic atmosphere that resonates with listeners. This classic piece captures the essence of romantic moments, making it perfect for celebrations and intimate occasions. The heartfelt expressions in the song evoke a sense of warmth and connection, leaving a lasting impression.",
+    "releaseYear": "1992",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Chandraare</strong>, a timeless melody that captures the essence of romance and nostalgia. With the soulful voice of <strong>K. J. Yesudas</strong>, this song from the classic film <em>Amaran</em> transports listeners to a world of love and longing. Let the soothing lyrics and beautiful composition sweep you off your feet and evoke cherished memories.",
+    "stanzaMeanings": [
+      "Moon, Sun, Star, Leader.",
+      "Moon, Sun, Star, Leader, I will share a little of the immortal story.",
+      "He is a brave man, he will not forget his lineage.. he will not forget his lineage..",
+      "Moon, Sun, Star, Leader.",
+      "If there is courage, the ocean will also be at the right level, if the strength grows, everything will be in balance.",
+      "There is no one to oppose, he has written it down, he cannot read the heart, he is like a thief who came like a lover.",
+      "Moon, Sun, Star, Leader.",
+      "Like a brother, he will change the mind of the people, he will hunt down the lion.",
+      "In the prosperous land, even the waves will settle, he is a pure person in the village.",
+      "Look at his face, fill your heart, praise the flag of love.",
+      "Moon, Sun, Star, Leader."
+    ]
+  }
 }

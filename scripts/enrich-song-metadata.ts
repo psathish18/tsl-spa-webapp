@@ -49,7 +49,7 @@ import type { SongBlobData, EnrichedMetadata } from './types/song-blob.types'
 // ---------------------------------------------------------------------------
 
 const SONGS_DIR = path.join(__dirname, '../public/songs')
-const ENRICHMENT_MODEL = 'gpt-4o'      // Use full model for metadata enrichment
+const ENRICHMENT_MODEL = 'gpt-4o-mini'      // Use full model for metadata enrichment
 const TRANSLATION_MODEL = 'gpt-4o-mini' // Use mini model for translation (cost optimization)
 
 /** GitHub Models endpoint — accepts standard GITHUB_TOKEN (PAT). Same pattern as filter-with-ai.ts */
@@ -152,8 +152,6 @@ function resolveApiClient(): ApiClientConfig {
 const RESPONSE_JSON_SCHEMA = {
   type: 'object',
   properties: {
-    actorName: { type: 'string', description: 'Lead actor / hero name. Use Tamil cinema knowledge. Empty string if unknown.' },
-    actressName: { type: 'string', description: 'Lead actress / heroine name. Use Tamil cinema knowledge. Empty string if unknown.' },
     releaseYear: { type: 'string', description: 'Movie/song release year as YYYY. Empty string if unknown.' },
     mood: {
       type: 'array',
@@ -185,13 +183,10 @@ const RESPONSE_JSON_SCHEMA = {
     },
     summary: {
       type: 'string',
-      description: 'A 4 to 5 sentence summary of the song ( include actor name, actress name and release year) based on the situation in the movie, the theme / mood of the song, what the song conveys, and the emotions it evokes.'
+      description: 'A 4 to 5 sentence summary of the song based on the situation in the movie, the theme / mood of the song, what the song conveys, and the emotions it evokes.'
     }
   },
-  // actorName, actressName, releaseYear are required in the schema so the API always
-  // returns these fields; the description instructs the model to use an empty string
-  // when the value is genuinely unknown, so "required" ≠ "non-empty" here.
-  required: ['actorName', 'actressName', 'releaseYear', 'mood', 'songType', 'occasions', 'keywords', 'high_ctr_intro', 'faq', 'summary'],
+  required: ['releaseYear', 'mood', 'songType', 'occasions', 'keywords', 'high_ctr_intro', 'faq', 'summary'],
   additionalProperties: false,
 } as const
 
@@ -264,30 +259,23 @@ function isRpmError(err: unknown): boolean {
 function buildPrompt(song: SongBlobData): string {
   const lyricsSnippet = extractLyricsSnippet(song.stanzas)
   const categories = song.category.join(', ')
-  const actorHint = song.actorName ? `\nKnown actor from song data: ${song.actorName}` : ''
+  const actorHint = song.actorName ? `\nActor: ${song.actorName}` : ''
 
   return `You are an expert in Tamil cinema and music with deep knowledge of Tamil movies including old Tamil movies (from 1950s to present), actors, and actresses.
 
-Analyze the following Tamil song details and return enriched metadata as JSON. Use your extensive knowledge of Tamil cinema to identify the lead actor and actress accurately. If the movie name is provided, cross-reference it with your knowledge to ensure correctness. If the movie name is unknown, use the singer, lyricist, or music director details as hints to infer the actor/actress.
+Analyze the following Tamil song details and return enriched metadata as JSON.
 
 Song title : ${song.title}
 Movie      : ${song.movieName || 'Unknown'}
 Singer(s)  : ${song.singerName || 'Unknown'}
 Lyricist   : ${song.lyricistName || 'Unknown'}
-Music dir  : ${song.musicName || 'Unknown'}${actorHint}
+Music dir  : ${song.musicName || 'Unknown'}
 Published  : ${song.published ? song.published.substring(0, 10) : 'Unknown'}
 Categories : ${categories}
 Lyrics snippet (Tanglish/Tamil):
 ${lyricsSnippet}
 
-IMPORTANT: Use your knowledge of Tamil cinema to identify:
-- actorName: the lead actor/hero of the Tamil movie "${song.movieName || 'this movie'}". Do NOT leave blank if you know it.
-- actressName: the lead actress/heroine of the Tamil movie "${song.movieName || 'this movie'}". Do NOT leave blank if you know it.
-- releaseYear: the release year of the Tamil movie/song.
-
 Return a JSON object with:
-- actorName   : lead actor name (string — use your Tamil film knowledge, empty only if truly unknown)
-- actressName : lead actress name (string — use your Tamil film knowledge, empty only if truly unknown)
 - releaseYear : release year YYYY (string, empty if unknown)
 - mood        : array of moods (romantic, melancholic, upbeat, devotional, soothing, peppy, energetic, nostalgic, motivational, sad, happy, other)
 - songType    : array of song type tags (duet, solo, melody, dance number, item number, folk, classical, bgm, lullaby, classic, devotional, theme, song)
@@ -296,16 +284,14 @@ Return a JSON object with:
 - high_ctr_intro : a powerful 3-sentence intro paragraph for the blog header. Highlight the vibe of the song and mention the unique collaboration (e.g., "Anirudh's mass beats with Vijay's energy"). Use <strong> tags around the song name and <em> tags around the movie name. Make it compelling enough to drive clicks from search results.
 - faq         : 3 to 5 frequently asked questions about the song as an HTML string. Use this exact format (include all Q&A pairs inline):
   <div class="faq-section"><h3>Frequently Asked Questions</h3><div class="faq-item"><h4>First question?</h4><p>First answer.</p></div><div class="faq-item"><h4>Second question?</h4><p>Second answer.</p></div></div>
-  Include questions about the song's meaning, the movie plot context, the singer/music director, actor/actress, and release year. Use <strong> for key terms in answers.
-- summary     : a 4 to 5 sentence summary of the song based on the situation in the movie, the theme of the song, what the song conveys, and the emotions it evokes.
+  Include questions about the song's meaning, the movie plot context, the singer/music director, and release year. Use <strong> for key terms in answers.
+- summary     : a 4 to 5 sentence summary of the song based on the situation in the movie, the theme of the song, what the song conveys, and the emotions it evokes.${actorHint ? ' Include the actor/actress names in the summary where relevant.' : ''}
 
 Strict rules:
-1. Base all metadata on the song details and your knowledge of Tamil cinema. Do NOT make up information.
-2. If the movie name is unknown but you can infer the actor/actress from the song details, provide those names based on your Tamil cinema knowledge.
-3. If you cannot confidently identify the lead actor or actress, return an empty string for that field instead of guessing.
-4. For keywords, include a mix of movie name, singer, lyricist, music director, mood, genre, and release year (if known). Use only lowercase keywords without special characters.
-5. Ensure the high_ctr_intro is engaging and highlights what makes the song special. Use HTML tags as instructed.
-6. The faq field must be a valid HTML string following the exact format specified — do not return JSON objects or any other format.
+1. Base all metadata on the song details provided. Do NOT make up information.
+2. For keywords, include a mix of movie name, singer, lyricist, music director, mood, genre, and release year (if known). Use only lowercase keywords without special characters.
+3. Ensure the high_ctr_intro is engaging and highlights what makes the song special. Use HTML tags as instructed.
+4. The faq field must be a valid HTML string following the exact format specified — do not return JSON objects or any other format.
 
 Respond with ONLY a JSON object matching this schema — no explanations or additional text.`;
 }
@@ -349,6 +335,7 @@ Translate each stanza below into simple, natural English.
 - Do NOT romanticise or over-poetise — stay true to the literal meaning.
 - Return one English meaning per stanza in the same order as the input.
 - If a stanza is already in English, return it as-is.
+- if a stanza is not tranlatable (e.g., gibberish, non-Tamil words, img tags), return an empty string for that stanza.
 
 Song title : ${song.title}
 Movie      : ${song.movieName || 'Unknown'}
@@ -449,10 +436,10 @@ async function callTranslationWithRetry(
       const parsed = JSON.parse(text) as { meanings: string[] }
       const meanings = parsed.meanings ?? []
       // Guard: returned array must exactly match stanza count
-      if (meanings.length !== song.stanzas.length) {
-        console.warn(`  ⚠️  Translation length mismatch for "${slug}": expected ${song.stanzas.length}, got ${meanings.length} — skipping`)
-        return null
-      }
+      // if (meanings.length !== song.stanzas.length) {
+      //   console.warn(`  ⚠️  Translation length mismatch for "${slug}": expected ${song.stanzas.length}, got ${meanings.length} — skipping`)
+      //   return null
+      // }
       return meanings
     } catch (err) {
       if (isDailyQuotaError(err)) {
@@ -491,11 +478,12 @@ function mergeEnrichedMetadata(
     faq: aiData.faq ? aiData.faq : base.faq,
     summary: aiData.summary?.length ? aiData.summary : base.summary,
   }
-  if (aiData.actorName || base.actorName) {
-    merged.actorName = aiData.actorName || base.actorName
+  // Preserve existing actor/actress names (not updated by AI)
+  if (base.actorName) {
+    merged.actorName = base.actorName
   }
-  if (aiData.actressName || base.actressName) {
-    merged.actressName = aiData.actressName || base.actressName
+  if (base.actressName) {
+    merged.actressName = base.actressName
   }
   if (aiData.releaseYear || base.releaseYear) {
     merged.releaseYear = aiData.releaseYear || base.releaseYear
@@ -581,14 +569,14 @@ async function main() {
       continue
     }
 
-    if (!force && song.enrichedMetadata?.high_ctr_intro) {
+    if (!force) {
       // Already fully enriched — skip unless --force or any field is missing/incomplete
-      const meaningsComplete =
-        Array.isArray(song.enrichedMetadata.stanzaMeanings) &&
-        song.enrichedMetadata.stanzaMeanings.length === song.stanzas.length
-      const faqComplete = typeof song.enrichedMetadata.faq === 'string' && song.enrichedMetadata.faq.length > 0
-      const summaryComplete = !!song.enrichedMetadata.summary
-      if (meaningsComplete && faqComplete && summaryComplete) {
+      const meaningsComplete = Array.isArray(song.enrichedMetadata?.stanzaMeanings) 
+        // && song.enrichedMetadata.stanzaMeanings.length === song.stanzas.length
+      const faqComplete = !!song.enrichedMetadata?.faq
+      const summaryComplete = !!song.enrichedMetadata?.summary
+      const introComplete = !!song.enrichedMetadata?.high_ctr_intro
+      if (meaningsComplete && introComplete) {
         stats.skipped++
         continue
       }
@@ -647,10 +635,8 @@ async function main() {
 
     // ── Step 2: Per-stanza English translation ────────────────────────────
     const existingMeanings = song.enrichedMetadata?.stanzaMeanings
-    const needsTranslation =
-      force ||
-      !Array.isArray(existingMeanings) ||
-      existingMeanings.length !== song.stanzas.length
+    const needsTranslation = force || !Array.isArray(existingMeanings) 
+      // || existingMeanings.length !== song.stanzas.length
 
     let translatedMeanings: string[] | null = null
 
@@ -658,6 +644,7 @@ async function main() {
       // Brief pause between the two API calls made for the same song
       if (needsEnrichment) await sleep(INTRA_SONG_DELAY_MS)
       try {
+           console.log(`       ✓ calling callTranslationWithRetry for ${song.stanzas.length} stanzas...`)
         translatedMeanings = await callTranslationWithRetry(client!, song, TRANSLATION_MODEL)
       } catch (err) {
         if (isDailyQuotaError(err)) {

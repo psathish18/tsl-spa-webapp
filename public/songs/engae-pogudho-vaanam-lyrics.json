@@ -130,5 +130,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNQhTFdXnhhABRyeCJyt0q7zrvEwIZowXn-f5RwcO_fH7BV_dZ3TuBQiaADdSk9acKFqaNTgcUREBwEvMPObwQe64zULnpxjdvirBti9Ayxpx09FDf5v8robZtcYeJA9LPtaNagUlkZkY/s400-c/kochadaiyaan.jpg",
   "generatedAt": "2026-01-18T13:00:22.207Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "devotional"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "relaxation",
+      "celebration"
+    ],
+    "keywords": [
+      "kochaidaiaan",
+      "spb",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of longing and the search for love, beautifully captured through Vairamuthu's lyrics.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Kochadaiiyaan</em>, the song reflects the emotional struggles of the characters, enhancing the narrative of love and sacrifice.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by the legendary <strong>SPB</strong> and composed by <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Engae Pogudho Vaanam</strong> was released on March 1, 2014.</p></div></div>",
+    "summary": "In <strong>Engae Pogudho Vaanam</strong>, the listener is taken on a heartfelt journey through the emotions of love and longing. The song beautifully encapsulates the essence of the characters' struggles in <em>Kochadaiiyaan</em>, making it a poignant addition to the film's narrative. With SPB's soulful rendition and AR Rahman's captivating music, it evokes a sense of nostalgia and warmth. The lyrics by Vairamuthu resonate deeply, leaving a lasting impact on the audience.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Engae Pogudho Vaanam</strong> from <em>Kochadaiiyaan</em> is a mesmerizing melody that captures the essence of longing and love. With the legendary SPB's soulful voice and AR Rahman's enchanting composition, this song takes listeners on an emotional journey. Experience the magic of Vairamuthu's poignant lyrics that resonate with every heart.",
+    "stanzaMeanings": [
+      "Where is the sky going, where is the sky going, we are also going there, where is the sky going, we are also going there.",
+      "You have become a part of life, you have become a part of the world, there is no limit for you.",
+      "The songs of the wind never fade away, the victory flag never flies away, hey, your life has created a sun, oh oh hey... my friend, our motherland is golden.",
+      "If the sky breaks, we will become birds, if the clouds break, we will become rain.",
+      "If the crow breaks, we will go with the wind, if the sea breaks, we will become fish, oh dear, your heart, heart, will come and bite victory.",
+      "Every goal is born from pain, every victory is born from life.",
+      "Where is the sky going, we are also going there, you have become a part of life, you have become a part of the world, there is no limit for you.",
+      "My bow, whatever I say, it never goes away, oh young lion, get up and see, let’s go... oh dear, your heart, heart, will come and bite victory.",
+      "With your blessings, I have risen with life, I have embraced my path for the blessings of the world.",
+      "Hey, your life has created a sun, oh oh hey... my friend, our motherland is golden.",
+      "Where is the sky going, we are also going there, you have become a part of life, you have become a part of the world, there is no limit for you.",
+      "The songs of the wind never fade away, the victory flag never flies away."
+    ]
+  }
 }

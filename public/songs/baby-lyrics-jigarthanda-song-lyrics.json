@@ -68,5 +68,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqMzXD1yrgXE4hnnEUb66HITB10PJhZUnhHw4M5k2Lrh4UXipUxsp-VO1PKSt4JJk9vWirx5BhwcyUYLyRBMFlCozvCdpfEKLTzKIub9J9fTmoxI6ln5ZbSXrhLC388_rC3klFayIhms0/s400-c/jigarthanda.jpg",
   "generatedAt": "2026-02-01T13:05:47.939Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "jigarthanda",
+      "santhosh narayanan",
+      "upbeat",
+      "dance number",
+      "2014",
+      "tamil song",
+      "happy",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Baby'?</h4><p>The song 'Baby' conveys a playful and upbeat vibe, celebrating love and joy in life.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie Jigarthanda?</h4><p>This song captures the essence of celebration and happiness, reflecting the lighter moments in the film's narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung and composed by <strong>Santhosh Narayanan</strong>, known for his innovative music style.</p></div><div class=\"faq-item\"><h4>When was 'Baby' released?</h4><p>'Baby' was released on <strong>March 4, 2014</strong>, as part of the movie <strong>Jigarthanda</strong>.</p></div></div>",
+    "summary": "The song 'Baby' from the movie Jigarthanda is a lively and upbeat track that brings a sense of joy and celebration. It showcases the playful interactions and carefree moments between characters, making it a perfect fit for festive occasions. The music, composed and sung by Santhosh Narayanan, evokes feelings of happiness and excitement, inviting listeners to dance along. Overall, the song captures the essence of youthful exuberance and the thrill of life.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Baby</strong> from <em>Jigarthanda</em> is a vibrant and catchy track that perfectly encapsulates the joyous spirit of celebration. With Santhosh Narayanan's unique musical style and engaging vocals, this song is sure to get you moving. Experience the infectious energy and fun vibes that make this song a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "",
+      "Oh, desires have come and gone, baby. Now, the situation has changed, baby. If there is food in the pot, then it is not just about the taste.",
+      "Time does not change, and desires do not fade away. The illusions that no one sees remain strong, and every day the world seeks dreams, as time speaks.",
+      "The one who is a thief is now caught, and the one who is clever is now in trouble. Look, the dog is barking and the cat is meowing, and money is being wasted.",
+      "",
+      "Time does not change, and desires do not fade away. The illusions that no one sees remain strong, and every day the world seeks dreams, as time speaks.",
+      "If you were a king, what would I have to do? The little monkey has to show off, and the little one has to be careful.",
+      ""
+    ]
+  }
 }

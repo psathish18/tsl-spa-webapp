@@ -51,5 +51,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:53.245Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "relaxation",
+      "heartbreak"
+    ],
+    "keywords": [
+      "nallavanuku nallavan",
+      "chittukku",
+      "k. j. yesudas",
+      "ilayaraja",
+      "n. kama rajan",
+      "1984",
+      "old songs",
+      "nostalgic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Chittukku</strong>?</h4><p>The song <strong>Chittukku</strong> conveys themes of longing and emotional connection, reflecting on relationships and memories.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie <strong>Nallavanuku Nallavan</strong>?</h4><p>The movie <strong>Nallavanuku Nallavan</strong> revolves around themes of love and sacrifice, showcasing the struggles of the protagonist.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the legendary <strong>K. J. Yesudas</strong>, known for his soulful renditions.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Nallavanuku Nallavan</strong>?</h4><p>The music for <strong>Nallavanuku Nallavan</strong> was composed by the iconic <strong>Ilaiyaraaja</strong>, a master of melody.</p></div><div class=\"faq-item\"><h4>When was <strong>Chittukku</strong> released?</h4><p><strong>Chittukku</strong> was released on October 22, 1984.</p></div></div>",
+    "summary": "The song <strong>Chittukku</strong> from <em>Nallavanuku Nallavan</em> beautifully encapsulates the feelings of nostalgia and longing. It portrays a deep emotional connection, reflecting on the bonds that tie individuals together. The soothing melody, combined with poignant lyrics, evokes a sense of yearning and reminiscence. This classic track remains a cherished piece of Tamil music history, resonating with listeners across generations.",
+    "releaseYear": "1984",
+    "high_ctr_intro": "<strong>Chittukku</strong> from the classic film <em>Nallavanuku Nallavan</em> is a mesmerizing melody that captures the essence of nostalgia and longing. With the soulful voice of <strong>K. J. Yesudas</strong> and the enchanting music by <strong>Ilaiyaraaja</strong>, this song resonates deeply with listeners. Experience the emotional depth and lyrical beauty that makes this track a timeless favorite.",
+    "stanzaMeanings": [
+      "A small wing has sprouted for the small one, the bonds that came with the blood have broken apart.",
+      "There is no father, no mother, just a dream, merely a thought.",
+      "The bond that comes to the heart is a continuation of a small story.",
+      "A small wing has sprouted for the small one, the bonds that came with the blood have broken apart.",
+      "We are the stage where we can perform, we can go to the stage, the paper will flow.",
+      "Is love a disguise? Is it a form created by time?",
+      "Life that came searching for a shelter has run away.",
+      "Who is the one that caused the forest to seek the beginning of the song?",
+      "The garland called mother is singing above the stage.",
+      "A small wing has sprouted for the small one, the bonds that came with the blood have broken apart.",
+      "There is no father, no mother, just a dream, merely a thought.",
+      "The bond that comes to the heart is a continuation of a small story.",
+      "A small wing has sprouted for the small one.",
+      "The scenes that change with time are being narrated here.",
+      "The yellow and red adorn the beautiful maiden.",
+      "The lamp of love has come to light the path of work.",
+      "The joy of womanhood is like a mango that brings happiness.",
+      "Even if we fall, we will live with goodness.",
+      "A small wing has sprouted for the small one, the bonds that came with the blood have broken apart.",
+      "There is no father, no mother, just a dream, merely a thought.",
+      "The bond that comes to the heart is a continuation of a small story.",
+      "A small wing has sprouted for the small one."
+    ]
+  }
 }

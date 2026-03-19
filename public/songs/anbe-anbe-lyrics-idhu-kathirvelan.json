@@ -85,5 +85,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUDwqvmSUDKJjHDv_966oI5lQyqvfHTaIut-Df0973WTEmDitnJgZGAyj1ca5CZHAJw7HwhDx22dqvL55jSEtEd2WQSTG1LV1WDD3-esgCE2eRUF5mi57FmUxuJW91J-uTJb7RGnYBvoQ/s400-c/ikk.jpg",
   "generatedAt": "2026-01-18T13:01:13.871Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "idhu kathirvelan kadhal",
+      "anbe anbe",
+      "harini",
+      "harish ragavendra",
+      "thamarai",
+      "harrish jeyaraj",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Anbe Anbe'?</h4><p>The song 'Anbe Anbe' expresses deep feelings of love and affection, highlighting the beauty of being in love.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Idhu Kathirvelan Kadhal</em>, this song plays during a romantic moment, showcasing the lead characters' blossoming relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Anbe Anbe'?</h4><p>The song is sung by <strong>Harini</strong> and <strong>Harish Ragavendra</strong>, both of whom bring a unique charm to the duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Anbe Anbe' was composed by <strong>Harrish Jeyaraj</strong>, known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was 'Anbe Anbe' released?</h4><p>'Anbe Anbe' was released on <strong>January 20, 2014</strong>, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "The song 'Anbe Anbe' from the movie <em>Idhu Kathirvelan Kadhal</em> is a romantic duet that encapsulates the emotions of love and longing. Sung by Harini and Harish Ragavendra, the melody is soothing and enchanting, making it perfect for intimate moments. The lyrics by Thamarai beautifully convey the feelings of devotion and affection between lovers. This song evokes a sense of warmth and tenderness, making it a favorite for celebrations of love.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Anbe Anbe</strong> from <em>Idhu Kathirvelan Kadhal</em> is a mesmerizing romantic duet that beautifully captures the essence of love. With the enchanting voices of Harini and Harish Ragavendra, this song is a perfect blend of soothing melodies and heartfelt lyrics by Thamarai. Experience the magic of Harrish Jeyaraj's composition that makes this track a must-listen for all lovebirds!",
+    "stanzaMeanings": [
+      "Everything is my love. I came here for you. It's enough if you keep laughing, saying no to tears in your eyes. I brought a winter bedsheet for you. A flower pot on my table. You kept a flower pot on my table. You paved a way to see the sky. When I am depressed, you consoled me by showing the moon."
+    ]
+  }
 }

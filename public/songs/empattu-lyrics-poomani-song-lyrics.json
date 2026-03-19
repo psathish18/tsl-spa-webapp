@@ -51,5 +51,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:02.207Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "poomani",
+      "empattu",
+      "ilayaraja",
+      "melancholic",
+      "nostalgic",
+      "1996",
+      "old songs",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Empattu'?</h4><p>The song 'Empattu' expresses deep emotions of longing and heartache, reflecting the complexities of love.</p></div><div class=\"faq-item\"><h4>In which movie does 'Empattu' feature?</h4><p>'Empattu' is featured in the movie <em>Poomani</em>, which explores themes of love and relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Empattu'?</h4><p>The song is sung by the legendary <strong>Ilaiyaraaja</strong>, who is also the music director for this track.</p></div><div class=\"faq-item\"><h4>When was 'Empattu' released?</h4><p>'Empattu' was released on December 6, 1996, and has since become a cherished classic.</p></div></div>",
+    "summary": "The song 'Empattu' from <em>Poomani</em> encapsulates the feelings of heartbreak and yearning. It beautifully conveys the pain of separation and the memories that linger in the heart. With its melancholic tune and poignant lyrics, the song evokes a sense of nostalgia that resonates deeply with listeners. The masterful composition by <strong>Ilaiyaraaja</strong> adds to the emotional weight, making it a timeless piece in Tamil music history.",
+    "releaseYear": "1996",
+    "high_ctr_intro": "<strong>Empattu</strong> is a hauntingly beautiful melody that captures the essence of longing and nostalgia. With <em>Poomani</em> as its backdrop, this song showcases the unmatched brilliance of <strong>Ilaiyaraaja</strong> in music composition. The heartfelt lyrics and soulful rendition make it a timeless classic that resonates with listeners even today.",
+    "stanzaMeanings": [
+      "This is a song that touches the heart.",
+      "This is a song that touches the heart, it will come with a rhythm and a beat.",
+      "I want your moments to pass, I want to see your beauty, I want to see you and I want to end my tears inside.",
+      "This is the melody that cleanses your heart.",
+      "This is a song that touches the heart, it will come with a rhythm and a beat.",
+      "Two beautiful birds have come to the garden.",
+      "In it, one bird sings and the other feels the pain.",
+      "The little bird that was waiting has caught the attention of the heart, the bird that came yesterday has stirred the heart.",
+      "Oh my dear, the bird that is in the house is singing sweetly.",
+      "Will the shadow-seeking bird see the truth here?",
+      "This is a song that touches the heart, it will come with a rhythm and a beat.",
+      "I want your moments to pass, I want to see your beauty, I want to see you and I want to end my tears inside.",
+      "This is the melody that cleanses your heart.",
+      "This is a song that touches the heart, it will come with a rhythm and a beat.",
+      "I have built a beautiful garden in the open air, I have made it a paradise.",
+      "In it, beautiful flowers bloom and grow, I have nurtured them.",
+      "All the blooming flowers bring a new fragrance, but if they come, it will be a new trouble.",
+      "This is the pearl that should be held in the hand, it should be placed in the heart.",
+      "Even if a thread breaks, it will still be connected...",
+      "This is a song that touches the heart, it will come with a rhythm and a beat.",
+      "I want your moments to pass, I want to see your beauty, I want to see you and I want to end my tears inside.",
+      "This is the melody that cleanses your heart.",
+      "This is a song that touches the heart, it will come with a rhythm and a beat."
+    ]
+  }
 }

@@ -85,5 +85,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFYbFOVbUxVbu5oH32bOHPaRuVnIWTnbfr-lcGwGjua7gnhE6Y-1ZQwsp7JIuUfFwyVuwnJKoai16rDItCGEmcOSqGXDSao_YhnTQZchFpcTlz6VAaCGpZuhVUZIrafFHtzaRQiuD5VqU/s400-c/settai+stills1.jpg",
   "generatedAt": "2026-02-01T14:29:43.029Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "settai",
+      "gaana bala",
+      "thaman s",
+      "upbeat",
+      "dance number",
+      "2013",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses a playful and lively vibe, celebrating fun moments and carefree attitudes.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <strong>Settai</strong>, this song captures a joyful celebration, reflecting the characters' carefree spirit.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by <strong>Gaana Bala</strong>, known for his energetic and engaging singing style.</p></div><div class=\"faq-item\"><h4>Who composed the music for this track?</h4><p>The music for <strong>Edhathaan Kanduttey Nee Pudhusa</strong> was composed by <strong>Thaman S</strong>, who is renowned for his catchy and vibrant compositions.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>February 2, 2013</strong>.</p></div></div>",
+    "summary": "In <strong>Edhathaan Kanduttey Nee Pudhusa</strong>, the lively beats and catchy lyrics create an atmosphere of joy and celebration. The song is a perfect fit for party scenes in <em>Settai</em>, where characters indulge in carefree fun. It conveys a sense of excitement and happiness, making it a favorite among listeners. The energetic performance by Gaana Bala adds to the overall vibe, ensuring it resonates with audiences looking for a good time.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Edhathaan Kanduttey Nee Pudhusa</strong> from <em>Settai</em> is a vibrant and energetic track that showcases Gaana Bala's unique style. With Thaman S's catchy beats, this song is sure to get you on your feet and dancing. Experience the fun and excitement that this collaboration brings to the Tamil music scene!",
+    "stanzaMeanings": [
+      "",
+      "What have you changed for me? Why did you change your ways? You don't do what I say, you don't follow the rules, you don't even look at the path I showed you.",
+      "You are the one who is a nuisance, and I am the one who is treated like garbage.",
+      "Look at the rate, she talks as if she is the first owner, but I am the one who has the RC book, this is a car that has been made into an FC.",
+      "I tried my best :)"
+    ]
+  }
 }

@@ -58,5 +58,66 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:15.147Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "chinna thambi",
+      "s. p. balasubrahmanyam",
+      "gangai amaran",
+      "ilaiyaraaja",
+      "romantic",
+      "melody",
+      "1991",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Arachcha Sandhanam?</h4><p>The song <strong>Arachcha Sandhanam</strong> conveys themes of beauty and love, expressing admiration for a beloved's charm.</p></div><div class=\"faq-item\"><h4>In which movie is the song Arachcha Sandhanam featured?</h4><p>The song is featured in the movie <strong>Chinna Thambi</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of Arachcha Sandhanam?</h4><p>The song is sung by the legendary <strong>S. P. Balasubrahmanyam</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for Arachcha Sandhanam?</h4><p>The music for the song was composed by <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was Arachcha Sandhanam released?</h4><p>The song was released on <strong>April 12, 1991</strong>.</p></div></div>",
+    "summary": "In the movie <em>Chinna Thambi</em>, the song <strong>Arachcha Sandhanam</strong> serves as a heartfelt expression of love and admiration. The lyrics beautifully describe the enchanting qualities of a beloved, evoking feelings of nostalgia and romance. With its melodious composition by Ilaiyaraaja and the soulful rendition by S. P. Balasubrahmanyam, the song resonates with anyone who has experienced love. It captures a moment of joy and beauty, making it a cherished classic in Tamil cinema.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "<strong>Arachcha Sandhanam</strong> from the movie <em>Chinna Thambi</em> is a timeless classic that beautifully captures the essence of romance and nostalgia. With the enchanting voice of S. P. Balasubrahmanyam and the magical composition by Ilaiyaraaja, this song transports listeners to a world of love and beauty. Experience the lyrical brilliance of Gangai Amaran as it weaves a tale of affection and charm.",
+    "stanzaMeanings": [
+      "The beautiful red color of the flower shines brightly.",
+      "A beautiful new book is smiling in the corner.",
+      "Just like a full moon has arrived, a beautiful girl has come.",
+      "Just like a ring has been made, many wonders have been given.",
+      "Is this a flower blooming?",
+      "The beautiful red color of the flower shines brightly.",
+      "A beautiful new book is smiling in the corner.",
+      "The flower is like honey, searching for its golden place.",
+      "That honey-like divine girl is the queen of heaven.",
+      "The rhythm of the flower blows like a breeze, oh gods, do not miss seeing the seven worlds.",
+      "The beautiful flower has come to you, they will sing for you.",
+      "I am also three years old, listen to what I say.",
+      "Is this a flower blooming?",
+      "The beautiful red color of the flower shines brightly.",
+      "A beautiful new book is smiling in the corner.",
+      "Just like a full moon has arrived, a beautiful girl has come.",
+      "Just like a ring has been made, many wonders have been given.",
+      "Is this a flower blooming?",
+      "A sweet word from a human is a flower that brings joy.",
+      "When she smiles, she becomes a golden girl, a thought that brings happiness.",
+      "The seven flowers will create a beautiful form, many will come with their nets.",
+      "Today, the flowers have bloomed, and the stars have become girls.",
+      "I will sing, I will sing, I will play with my hands and sing.",
+      "Is this a flower blooming?",
+      "The beautiful red color of the flower shines brightly.",
+      "A beautiful new book is smiling in the corner.",
+      "Just like a full moon has arrived, a beautiful girl has come.",
+      "Just like a ring has been made, many wonders have been given.",
+      "Is this a flower blooming?"
+    ]
+  }
 }

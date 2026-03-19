@@ -64,5 +64,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEFP9A3lnMbZFWMfkWtX82VJ6YWFZtimsr3Q7NrfZLiJfzf08Bavbv6_guGk0Vkp_70UUe2AuqyVR4ho84KBJlKTT7uxEhXcr_8OFGTuMmMm-OKLSG9jg0a9dftYgkc4sYIXSCP5_f6gw/s400-c/Pizza_II_the_Villa.jpg",
   "generatedAt": "2026-01-18T13:02:16.860Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "pizza 2 villa",
+      "disco woman",
+      "dhee",
+      "ganeshkumar",
+      "santhosh narayanan",
+      "upbeat",
+      "dance",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Disco Woman</strong>, the lively beats and catchy lyrics create an atmosphere of joy and celebration, making it a perfect dance number for parties. The song features Dhee's energetic vocals, which complement the vibrant music composed by Santhosh Narayanan. The lyrics convey a sense of confidence and fun, inviting listeners to embrace their inner disco spirit. Overall, the song evokes feelings of happiness and excitement, making it a memorable track from <em>Pizza 2- Villa</em>.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Disco Woman</strong> from <em>Pizza 2- Villa</em> is a vibrant anthem that perfectly captures the essence of celebration and fun. With Dhee's electrifying vocals and Santhosh Narayanan's catchy beats, this song is sure to get everyone on the dance floor. Experience the joy and energy of this unique collaboration that brings a fresh twist to Tamil music!",
+    "stanzaMeanings": [
+      "",
+      "I have jumped in the sky like a shining star, without fear, I have grown up with confidence.",
+      "la la la la la I am disco woman la la la la la disco woman la la la la la I am disco woman la la la la la I am disco woman",
+      "oh man ..oh man ..",
+      "Like lightning, I have turned my life around, I have not seen the beauty of time.",
+      "la la la la la I am disco woman la la la la la disco woman la la la la la I am disco woman la la la la la I am disco woman",
+      "The dance of the crowd will break the silence and go away.",
+      "la la la la la disco woman la la la la la disco woman la la la la la I am disco woman la la la la la I am disco woman",
+      "oh man ..oh man .. I have grown up with confidence. Villa Lyrics- +1 your favorite"
+    ]
+  }
 }

@@ -55,5 +55,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:15.689Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "dhilip varman",
+      "ennavale ennai maranthathu yeno",
+      "romantic",
+      "melancholic",
+      "2018",
+      "tamil song",
+      "music",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, reflecting on memories of a cherished relationship.</p></div><div class=\"faq-item\"><h4>Is there a movie associated with this song?</h4><p>The movie associated with <strong>Ennavale Ennai Maranthathu Yeno</strong> is currently unknown.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Dhilip Varman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in <strong>2018</strong>.</p></div></div>",
+    "summary": "In <strong>Ennavale Ennai Maranthathu Yeno</strong>, the singer reminisces about a past love that continues to linger in his heart. The song's melancholic tone evokes feelings of nostalgia and longing, making it relatable for anyone who has faced heartbreak. It beautifully captures the essence of cherished memories and the pain of separation. This heartfelt melody serves as a reminder of the profound impact love can have on our lives.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Ennavale Ennai Maranthathu Yeno</strong> is a heartfelt melody that captures the essence of lost love and nostalgia. With Dhilip Varman's soulful vocals, this song resonates deeply with anyone who has experienced the bittersweet pangs of romance. Dive into the emotional journey of this track that beautifully intertwines love and longing.",
+    "stanzaMeanings": [
+      "Lend me your ears to this story, it's about a girl who stands out.",
+      "Who made me cry? I still love her beyond my life. I remember sitting in the park, looking at her smile, feeling lucky, and I never want to let her go. You are the reason I feel alive, reminiscing how our love grew.",
+      "Through all the ups and downs, I feel blessed to be touched by your grace. Every girl has a knight, and I think of you day and night. Time passes, but through my words, we will live beyond a lifetime.",
+      "Why have you forgotten me? I came to you with my memories. You were my comfort, and now you are everything to me.",
+      "Looking at your picture, I don't feel like going out. I see this artist and it pulls me in.",
+      "You keep coming back to me, girl, speak of love to me.",
+      "I placed a vermilion on your forehead, and you left me!",
+      "Who else can I call a girl like you? Come and listen to my heart, there's no time to wait, come and join me, my memories are overwhelming!",
+      "Why have you forgotten me? I came to you with my memories. You were my comfort, and now you are everything to me.",
+      "I feel incomplete without you, like a puzzle missing a piece. How can I live without my heart?",
+      "Every blink of my eye until my life is real, trust me when I say I truly miss you.",
+      "When our love comes together, your gaze is all I see, and I am yours.",
+      "This feeling is only in my heart, oh yeah, there's some magic in your eyes.",
+      "My heart searches for you. Today, you have left me, no, no.",
+      "Why have you forgotten me? I came to you with my memories. You were my comfort, and now you are everything to me.",
+      "You complete me, you make me whole. Without you, my world feels cold.",
+      "Flowers bloom on the path we walk, and every time you speak, I feel a connection.",
+      "I walk around like I'm in a daze, my soul feels empty; I want to feel your lips again, all I feel is pain, and I can't wait to hold your hands again."
+    ]
+  }
 }

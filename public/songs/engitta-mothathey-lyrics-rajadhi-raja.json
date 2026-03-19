@@ -31,5 +31,36 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:27.278Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "dance number",
+      "classic"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "engitta mothathey",
+      "rajadhi raja",
+      "k. s. chithra",
+      "mano",
+      "ilaiyaraaja",
+      "1989",
+      "tamil song",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Engitta Mothathey'?</h4><p>The song conveys a sense of pride and energy, celebrating the spirit of being a hero and enjoying life.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Rajadhi Raja'?</h4><p>The movie revolves around themes of heroism and valor, with the protagonist showcasing his bravery and charm.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>K. S. Chithra</strong> and <strong>Mano</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Engitta Mothathey'?</h4><p>The music for this energetic track was composed by the renowned <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Engitta Mothathey' released?</h4><p>The song was released on <strong>March 4, 1989</strong>.</p></div></div>",
+    "summary": "In 'Engitta Mothathey', the protagonist expresses his heroic spirit and zest for life through vibrant lyrics and an upbeat melody. The song serves as a celebration of bravery and joy, perfectly aligning with the themes of the movie <em>Rajadhi Raja</em>. Its energetic beats and catchy tune evoke feelings of excitement and happiness, making it a memorable classic in Tamil cinema. The collaboration of K. S. Chithra and Mano adds a unique charm, ensuring its place in the hearts of fans.",
+    "releaseYear": "1989",
+    "high_ctr_intro": "<strong>Engitta Mothathey</strong> from the <em>Rajadhi Raja</em> movie is a vibrant dance number that showcases the energetic vocals of K. S. Chithra and Mano. The song's lively beats, composed by the legendary Ilaiyaraaja, perfectly capture the spirit of celebration and joy. This classic track is sure to get everyone on their feet, making it a timeless favorite in Tamil cinema.",
+    "stanzaMeanings": [
+      "Where are you, my dear? I am the king of the kingdom, don't joke with me. I am a brave warrior, and now I won't dance to anyone's tune. Just look at my dance, it's a powerful beat. Where are you, my dear? I am the king of the kingdom, don't joke with me. I am a brave warrior, and in the past and future, I have become a hero. Everyone has a hero inside them. I have a little more than that. No matter what, I will always be a support. I will fight for justice. I will never lose. If there is a drink, just look at it. Don't talk nonsense. Why should I be afraid? Don't let your body shake. Don't let your house fall apart. Just keep your head up."
+    ]
+  }
 }

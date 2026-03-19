@@ -65,5 +65,47 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:51.120Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "uthama puthiran",
+      "en nenju chinna ilai",
+      "saindhavi",
+      "vijay prakash",
+      "priyan",
+      "vijay antony",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>En Nenju Chinna Ilai</strong> expresses deep feelings of love and destiny, highlighting the connection between two lovers.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Uthama Puthiran</em>, this song beautifully illustrates the romantic moments shared between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented voices of <strong>Saindhavi</strong> and <strong>Vijay Prakash</strong>, with music composed by <strong>Vijay Antony</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>En Nenju Chinna Ilai</strong> was released on October 9, 2010.</p></div></div>",
+    "summary": "In <strong>En Nenju Chinna Ilai</strong>, the romantic duet unfolds a beautiful narrative of love and longing, perfectly encapsulating the emotions of the lead characters in <em>Uthama Puthiran</em>. The song's lyrics, penned by Priyan, resonate with themes of destiny and affection, creating a soothing atmosphere that evokes happiness. With the melodious voices of Saindhavi and Vijay Prakash, the track becomes an anthem for lovers celebrating their bond. The enchanting music by Vijay Antony further elevates the song, making it a timeless piece for romantic occasions.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>En Nenju Chinna Ilai</strong> from the movie <em>Uthama Puthiran</em>, where the melodious voices of Saindhavi and Vijay Prakash blend seamlessly with Vijay Antony's captivating music. This romantic duet captures the essence of love and destiny, making it a perfect addition to your playlist. Dive into the heartfelt lyrics that resonate with anyone who has ever been in love!",
+    "stanzaMeanings": [
+      "Hey, you are my love. You are my destiny. My heart is a small leaf, you are the rain of my love, I need to think of you. My heart is a small flag, you are the flower of my love, I need to surround you.",
+      "New words of joy come, hearts are not troubled. Because of you, my moments are beautiful and the path is pleasant.",
+      "My heart is a small leaf, you are the rain of my love, I need to think of you. My heart is a small flag, you are the flower of my love, I need to surround you.",
+      "I gather words to speak with you, and I feel a thrill inside. I keep saying your name in my heart every day, today I forgot my own name. Yellow moon, sweet words, don’t let the excitement fade. Dreams of desire, playful breeze, you should always be in my music.",
+      "My heart is a small leaf... My heart is a small flag...",
+      "The fragrance of your breath is like flowers blooming. Your scent blows like a breeze. The moments I share with you are all precious. My heart feels like lightning, my eyes are like a splash of water, you are the little poem. The pearl is the only thing that brings me happiness.",
+      "My heart is a small leaf, you are the rain of my love, I need to think of you. My heart is a small flag, you are the flower of my love, I need to surround you.",
+      "New words of joy come, hearts are not troubled. Because of you, my moments are beautiful and the path is pleasant.",
+      "My heart is a small leaf... My heart is a small flag..."
+    ]
+  }
 }

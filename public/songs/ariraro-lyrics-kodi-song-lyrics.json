@@ -84,5 +84,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrgg2Bau-FU90mTEOj10AjWk9d2AZU1eexVW6cFVZWUHY3fGT9U6gg9QeFb7OPt456OtTDvYkFHaOEZAjORXB8H99yhR4yuawBMLboT0XX5ocV9nM0cc-LSog6rbJaT059Yg2g4imo-k8/s400-c/Ariraro.jpg",
   "generatedAt": "2026-01-18T12:49:32.791Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kodi",
+      "ariraro",
+      "k.s.chitra",
+      "vivek",
+      "santhosh narayanan",
+      "romantic",
+      "melancholic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Ariraro</strong>?</h4><p>The song <strong>Ariraro</strong> expresses deep emotions of love and longing, reflecting the beauty of a romantic relationship.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Kodi</em> related to this song?</h4><p>This song plays a significant role in <em>Kodi</em>, highlighting the protagonist's emotional journey and connection with love.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Ariraro</strong>?</h4><p>The song is sung by the talented K.S. Chitra, known for her melodious voice and emotional delivery.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Ariraro</strong>?</h4><p>The music for <strong>Ariraro</strong> was composed by Santhosh Narayanan, who is known for his innovative soundscapes.</p></div><div class=\"faq-item\"><h4>When was <strong>Ariraro</strong> released?</h4><p><strong>Ariraro</strong> was released on October 6, 2016, as part of the movie <em>Kodi</em>.</p></div></div>",
+    "summary": "In the song <strong>Ariraro</strong> from <em>Kodi</em>, K.S. Chitra's voice weaves a tale of love and yearning, perfectly encapsulating the emotions of the characters. The lyrics, penned by Vivek, reflect the beauty and pain of romantic relationships, making it relatable to many. The soothing melody composed by Santhosh Narayanan enhances the emotional depth of the song, creating a serene listening experience. This track resonates with anyone who has experienced love, making it a timeless piece in Tamil cinema.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Ariraro</strong> from <em>Kodi</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With K.S. Chitra's enchanting vocals and Santhosh Narayanan's soulful composition, this song is sure to tug at your heartstrings. Experience the emotional depth and lyrical beauty that makes this track a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "Ariraro Ariraro beautiful lotus, Ariraro Ariraro breath of life.",
+      "I will grow in the field after the rain, will you cry alone in my dreams?",
+      "My dear, I will come like a beautiful flower and join you, holding hands.",
+      "The eyes are like a beautiful temple, the eyes are the final poem.",
+      "When you walk, I will kiss you everywhere.",
+      "Your smile has filled my heart with joy.",
+      "Whenever you close your flower-like eyes, I feel like I am losing something.",
+      "Life is precious, life is precious, when will I close my eyes?",
+      "My garden's flag, my garden's flag, when will I close my eyes?",
+      "My only change is the blood that flows, the wind carries it away... when will you close your eyes, when will you close your eyes?"
+    ]
+  }
 }

@@ -72,5 +72,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgviWLivdLptTr17xWIRsNRm9n-OrJRa78uiAaTuefdTFB1hGWoeCNHjSSeDgnl-QHP-aHZCv4OzskZlfIeNGKZE9PbUqRt5dCCP04wbZhqE8XL6BEhnudvXZWuW8QImhGF8I7d-gW1DIw/s400-c/biriyani-05.jpg",
   "generatedAt": "2026-01-18T13:03:12.350Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "biriyani",
+      "gv prakash kumar",
+      "thaman s",
+      "vijay antony",
+      "yuvan",
+      "gangai amaran",
+      "upbeat",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Edhirthu Nil</strong>?</h4><p>The song conveys a sense of joy and celebration, emphasizing the importance of seizing the moment and enjoying life.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie <em>Biriyani</em>?</h4><p>This song is featured during a lively party scene, reflecting the carefree spirit of the characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Edhirthu Nil</strong>?</h4><p>The song is sung by G. V. Prakash Kumar, Thaman S, and Vijay Antony.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Edhirthu Nil</strong>?</h4><p>The music for this song was composed by Yuvan Shankar Raja.</p></div><div class=\"faq-item\"><h4>When was <strong>Edhirthu Nil</strong> released?</h4><p>The song was released on August 17, 2013.</p></div></div>",
+    "summary": "In <strong>Edhirthu Nil</strong>, the vibrant energy of the song encapsulates the carefree and celebratory moments of the movie <em>Biriyani</em>. The lively beats and catchy lyrics evoke feelings of happiness and excitement, making it a perfect anthem for parties and celebrations. The collaboration of talented singers adds to the song's charm, creating an infectious vibe that resonates with the audience. Overall, the song beautifully conveys the essence of enjoying life's moments to the fullest.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Edhirthu Nil</strong> is a vibrant celebration of life and joy, featuring an electrifying collaboration between G. V. Prakash Kumar, Thaman S, and Vijay Antony. With Yuvan's dynamic composition and Gangai Amaran's catchy lyrics, this song is sure to get you on your feet. Dive into the infectious energy of <em>Biriyani</em> and let the music take over!",
+    "stanzaMeanings": [
+      "Which direction is going back? Don't let it change. You should face it and not let it become a murder.",
+      "Your blood is always there, it will always win. There is no mistake, you are a son to your father.",
+      "Stay still, there is no direction. Trust is lost, there are no obstacles. At this moment, just think about it and let it go.",
+      "Just think about it and let it go.",
+      "Everything is given to you, the time to learn is not wasted. The sky touches your lineage.",
+      "Even if it is lost, it won't be a waste. When the time comes, it will come, so don't worry about it.",
+      "When the time comes, it will be given to you, we will be here, rising high.",
+      "Stay still, there is no direction. Trust is lost, there are no obstacles. At this moment, just think about it and let it go.",
+      "We are one, this is true. Don't let love fade away, that is the real blessing.",
+      "What we think will happen, let it be our guide. Whenever it happens, will it change? Everyone here will now have happiness, this is a constant beginning.",
+      "Which direction is going back? Don't let it change. You should face it and not let it become a murder.",
+      "Your blood is always there, it will always win. There is no mistake, you are a son to your father.",
+      "Stay still, there is no direction. Trust is lost, there are no obstacles. At this moment, just think about it and let it go.",
+      "Just think about it and let it go."
+    ]
+  }
 }

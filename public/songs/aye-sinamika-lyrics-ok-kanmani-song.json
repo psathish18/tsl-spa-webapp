@@ -102,5 +102,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9bOokY3_rNDBUPipd3CLnzcF8c-Y4XUNmKcpBwhZrruhN3WSNoOVxyeRADflH5su1dQyjeDJUageq4e9hViEj9gte0zcgKcg4Z57I5ZEKQdbU-GhAQTsm9vwqNpeZjZeGTnMXzdGCzd8/s400-c/Aye-Sinamika+Lyrics+with+English+Meaning.jpg",
   "generatedAt": "2026-01-18T12:55:36.506Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "ok kanmani",
+      "karthik",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Aye Sinamika?</h4><p>The song <strong>Aye Sinamika</strong> expresses deep feelings of love and longing, beautifully conveyed through its poetic lyrics.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie Ok Kanmani?</h4><p><em>Ok Kanmani</em> revolves around the lives of two young lovers navigating their relationship amidst modern challenges.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was Aye Sinamika released?</h4><p><strong>Aye Sinamika</strong> was released on April 3, 2015.</p></div></div>",
+    "summary": "In <strong>Aye Sinamika</strong>, the protagonist expresses his heartfelt emotions towards his beloved, encapsulating the essence of romantic longing. The song beautifully complements the narrative of <em>Ok Kanmani</em>, where love is explored in its various shades. With its soothing melody and poignant lyrics, it evokes feelings of nostalgia and affection. This track stands out as a testament to the magic of love, making it a favorite among listeners.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Aye Sinamika</strong> from <em>Ok Kanmani</em> is a mesmerizing melody that captures the essence of love and longing. With Karthik's soulful voice and AR Rahman's enchanting composition, this song takes listeners on an emotional journey. The poetic lyrics by Vairamuthu add depth, making it a must-listen for anyone who cherishes romantic tunes.",
+    "stanzaMeanings": [
+      "Hey Sinamika, hissing Sinamika, you walk away in verse, don’t go away from me. You, don’t go away from me. You, don’t go away from me. In the midst of eyelids and relaxed dresses, just to speak with me, you’re a cuckoo in your voice, in the dents of your dried lips. It’s nothing else than your love for me."
+    ]
+  }
 }

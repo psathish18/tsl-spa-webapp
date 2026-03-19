@@ -56,5 +56,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRZqs9MMVE4RL68vMpL0JASv-TStSwDE7c3eCBS1AVRQfNFb8Tc7zA1XhLwvKHAv0hagVkiBFyCihO_ahwD9ca7yNgERssjP31reAHzlDYviqkYjU5uWO1Sr2oWpszZvoUrAvr0Umuk8/s400-c/Saivam_Stils.jpg",
   "generatedAt": "2026-02-01T13:00:24.565Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "saivam",
+      "uthara",
+      "na muthukumar",
+      "gv prakashkumar",
+      "romantic",
+      "soothing",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Azhagae Azhagae?</h4><p>The song <strong>Azhagae Azhagae</strong> celebrates the beauty of love and nature, conveying deep emotions through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie Saivam?</h4><p><em>Saivam</em> revolves around the bond between a family and their pet, exploring themes of love, sacrifice, and the importance of relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer of Azhagae Azhagae?</h4><p>The song is sung by <strong>Uthara</strong>, whose voice adds a unique charm to the melody.</p></div><div class=\"faq-item\"><h4>Who composed the music for Saivam?</h4><p>The music for <em>Saivam</em> was composed by <strong>GV PrakashKumar</strong>, known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was Azhagae Azhagae released?</h4><p>The song <strong>Azhagae Azhagae</strong> was released on <strong>April 6, 2014</strong>.</p></div></div>",
+    "summary": "In the movie <em>Saivam</em>, the song <strong>Azhagae Azhagae</strong> beautifully encapsulates the theme of love and admiration for beauty in everyday life. The lyrics, penned by Na Muthukumar, evoke a sense of tranquility and joy, making it a perfect fit for romantic moments. Uthara's soulful rendition, combined with GV PrakashKumar's gentle composition, creates an emotional landscape that resonates deeply with listeners. This song serves as a reminder of the simple yet profound beauty that surrounds us.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Azhagae Azhagae</strong> from <em>Saivam</em> is a beautifully soothing melody that captures the essence of love and beauty. Uthara's enchanting vocals paired with GV PrakashKumar's delicate composition create a serene atmosphere that resonates with listeners. This song is a perfect blend of lyrical depth and musical elegance, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "Everything is beautiful, in the eyes of love, everything is beautiful. Even the rain is beautiful, the bright sun is beautiful. Flowers are beautiful, and even the leaves are beautiful.",
+      "The smiles that spread are beautiful, the words that are spoken are beautiful, the silences are beautiful. The good things that are said are beautiful, and in truth, everything is beautiful.",
+      "Is the song of the cuckoo needed? Are the dances of the peacock needed?",
+      "Is the path that the river flows needed? Is the language that the sea speaks needed?",
+      "When nature is in harmony, the whole world is beautiful. When all worries are forgotten, this life is beautiful.",
+      "",
+      "Everything is beautiful, in the eyes of love, everything is beautiful. Even the rain is beautiful, the bright sun is beautiful. Flowers are beautiful, and even the leaves are beautiful.",
+      "The smiles that spread are beautiful, the words that are spoken are beautiful, the silences are beautiful. The good things that are said are beautiful, and in truth, everything is beautiful."
+    ]
+  }
 }

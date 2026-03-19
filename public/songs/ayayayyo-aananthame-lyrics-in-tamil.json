@@ -118,5 +118,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuWmGa2ofeU2XbsSyqoARn-2ABhM5XqMGO0H-LgL8YglrkJbs27UBMdaKAqXCl57ua4_p8y5IDoLbrCPUKW8yvqJdNTfLBD3ujSyJvdX8w_2PFViiIQPBFMvd8aSi7oxKwEGvlH2RaAt0/s400-c/Ayyayyayo+kumki+song+lyrics+in+tamil.png",
   "generatedAt": "2026-02-01T13:01:59.304Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "kumki",
+      "ayayayyo aananthame",
+      "aditi paul",
+      "yugabharathi",
+      "d imman",
+      "romantic",
+      "melancholic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Ayayayyo Aananthame'?</h4><p>The song expresses deep emotions of love and longing, capturing the essence of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie Kumki?</h4><p>In <strong>Kumki</strong>, the song reflects the protagonist's feelings towards his love interest, enhancing the emotional depth of the storyline.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Aditi Paul</strong> and composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Ayayayyo Aananthame' released?</h4><p>The song was released on <strong>August 28, 2012</strong>.</p></div></div>",
+    "summary": "In <strong>Ayayayyo Aananthame</strong>, the protagonist expresses his heartfelt emotions towards his beloved, encapsulating the essence of love and yearning. The soothing melody, crafted by D Imman and beautifully rendered by Aditi Paul, evokes a sense of nostalgia and romance. This song serves as a pivotal moment in <em>Kumki</em>, enhancing the emotional landscape of the film. The lyrics, penned by Yugabharathi, resonate with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Ayayayyo Aananthame</strong> from <em>Kumki</em> is a mesmerizing melody that captures the essence of love and longing. Aditi Paul's enchanting vocals combined with D Imman's soulful composition create a captivating atmosphere that resonates deeply with listeners. This song is a perfect blend of romance and nostalgia, making it a must-listen for any music lover.",
+    "stanzaMeanings": [
+      "A lady with a violin is singing, and I don't understand when you will tell me about your love for her in every town."
+    ]
+  }
 }

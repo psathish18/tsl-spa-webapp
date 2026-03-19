@@ -90,5 +90,35 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeGpHxuQz5_omZlsXtbMNIiE6lYylKvPMbv4Geed4FpppJYQ2KX2cdEQ-dOeG-imNnK3VyqGB_6dYuSYxo5Q7yfVGhDcBy-gJ6d2kKfCVkYmsuv6BPefB7jZU6nDzeu6-YBq3eN217Rgs/s400-c/Halena+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:50:31.746Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "irumugan",
+      "halena",
+      "abhay jodhpurkar",
+      "christopher stanley",
+      "karky",
+      "harrish jeyaraj",
+      "romantic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Halena'?</h4><p>'Halena' expresses deep romantic feelings and the beauty of love, capturing the essence of emotions in a relationship.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Irumugan'?</h4><p>In <strong>Irumugan</strong>, 'Halena' is featured during a romantic sequence that highlights the chemistry between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of 'Halena'?</h4><p>The song is sung by <strong>Abhay Jodhpurkar</strong> and <strong>Christopher Stanley</strong>, with music composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Halena' released?</h4><p>'Halena' was released on August 2, 2016.</p></div></div>",
+    "summary": "The song 'Halena' from the movie <em>Irumugan</em> is a romantic duet that beautifully captures the essence of love and longing. It showcases the emotional connection between the characters, enhancing the narrative of the film. With its melodious tune and heartfelt lyrics, the song evokes feelings of joy and affection. The collaboration between the talented singers and the music director adds a unique charm to this enchanting track.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Halena</strong> from <em>Irumugan</em> is a captivating duet that beautifully blends the soulful voices of Abhay Jodhpurkar and Christopher Stanley. With enchanting lyrics by Karky and mesmerizing music by Harrish Jeyaraj, this song creates a romantic atmosphere that resonates with listeners. Experience the magic of love through this melodious track that is sure to leave you spellbound."
+  }
 }

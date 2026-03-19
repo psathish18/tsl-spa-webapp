@@ -34,5 +34,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmAPij60yYjRBDBwr20WB1AQ_wnnrFXdtHgKcuEgIq961_QF-PT6QfQfKC72PrlmP1wnLiJGmsHBs20sIfZTWGAXclNRNHZonbDgZ7xN8Eq9IELbMVzFlp5mBrWvnkxPsJYP5N5TpvDk/s400-c/Poovarasam_Peepee.jpg",
   "generatedAt": "2026-01-18T12:59:20.419Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "poovarasam peepee",
+      "gnayiru dhinagalin",
+      "abhay jodhpurkar",
+      "halitha shameem",
+      "aruldev",
+      "romantic",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Gnayiru Dhinagalin'?</h4><p>The song expresses themes of love and longing, reflecting on the emotions tied to relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Poovarasam Peepee'?</h4><p>This song plays a significant role in portraying the romantic feelings of the characters, enhancing the emotional depth of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Abhay Jodhpurkar</strong> and composed by <strong>Aruldev</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Gnayiru Dhinagalin' released?</h4><p>The song was released on <strong>May 27, 2014</strong>.</p></div></div>",
+    "summary": "In 'Gnayiru Dhinagalin', the protagonist reflects on love and the bittersweet moments that accompany it. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect fit for romantic occasions. It beautifully captures the essence of yearning and emotional connection, resonating with anyone who has experienced love's complexities. The song serves as a poignant reminder of the memories that linger in the heart.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Gnayiru Dhinagalin</strong> from <em>Poovarasam Peepee</em> is a beautifully crafted melody that captures the essence of love and longing. Abhay Jodhpurkar's soulful rendition combined with Halitha Shameem's poignant lyrics creates an enchanting vibe that resonates deeply with listeners. This song is a must-listen for anyone who appreciates heartfelt Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "When the day ends, what will my heart say as it fades away?",
+      "If I lose my past, the tears that come will make me wonder what I will do without you.",
+      "You will always be in my thoughts, even when the time is right. My heart doesn't know how to love without hesitation.",
+      "When you shine, I feel a coolness that comforts me, like the gaze of love.",
+      "We will love quickly, and the child of Kali will cry out in joy.",
+      "I have placed a seed in my heart to grow slowly. In this bustling town, I will protect you, no matter what happens."
+    ]
+  }
 }

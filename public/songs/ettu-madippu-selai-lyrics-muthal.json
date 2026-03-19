@@ -41,5 +41,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:06.076Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "muthal seethanam",
+      "ettu madippu selai",
+      "romantic",
+      "nostalgic",
+      "1992",
+      "old song",
+      "tamil cinema",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of love and longing, capturing the emotional nuances of relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Muthal Seethanam</em>, the song reflects the protagonist's feelings of love and the challenges faced in their romantic journey.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The details of the singer and music director are unknown, but the song is a classic from the 1992 film.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Ettu Madippu Selai</strong> was released on April 18, 1992.</p></div></div>",
+    "summary": "The song <strong>Ettu Madippu Selai</strong> from the movie <em>Muthal Seethanam</em> beautifully encapsulates the emotions of love and longing. It conveys a sense of nostalgia, making listeners reflect on their own romantic experiences. The soothing melody and heartfelt lyrics evoke deep feelings, resonating with anyone who has faced the complexities of love. This classic piece remains a cherished gem in Tamil cinema, perfect for moments of reflection and romance.",
+    "releaseYear": "1992",
+    "high_ctr_intro": "<strong>Ettu Madippu Selai</strong> from <em>Muthal Seethanam</em> is a timeless melody that captures the essence of love and longing. With its heartfelt lyrics and soothing composition, this song resonates deeply with anyone who has experienced the bittersweet nature of romance. Dive into the enchanting world of this classic and let the emotions wash over you.",
+    "stanzaMeanings": [
+      "",
+      "A garden that is arranged in a beautiful way is here.",
+      "The flag that was given to me still stands in my path.",
+      "The love flag that was given to me still stands in my path.",
+      "The desire you placed on me has made me feel like I am being pushed away, this heart is struggling.",
+      "Will love ever change? It comes and hits me, my heart is burning.",
+      "Our hearts have blossomed like flowers. They have blossomed.",
+      "",
+      "A garden that is arranged in a beautiful way is here.",
+      "The flag that was given to me still stands in my path.",
+      "The love flag that was given to me still stands in my path.",
+      "On the day love came, I forgot myself, without knowing your desires, I also offered my heart.",
+      "Listening to thoughts brings pain to the body.",
+      "A man should not be like a woman, who is responsible for the light that shines? Who is responsible for the light that shines?",
+      "A garden that is arranged in a beautiful way is here.",
+      "The flag that was given to me still stands in my path.",
+      "The love flag that was given to me still stands in my path.",
+      ""
+    ]
+  }
 }

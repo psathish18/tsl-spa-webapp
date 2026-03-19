@@ -120,5 +120,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:05:34.014Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "remO",
+      "inno genga",
+      "anirudh",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Come Closer'?</h4><p>The song expresses feelings of longing and the desire to reconnect with a loved one, highlighting the emotional turmoil of separation.</p></div><div class=\"faq-item\"><h4>How does 'Come Closer' fit into the plot of the movie Remo?</h4><p>In <em>Remo</em>, the song reflects the protagonist's emotional struggles and his yearning for love amidst challenges.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Come Closer'?</h4><p>The song is sung by <strong>Inno Genga</strong> and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Come Closer' released?</h4><p>'Come Closer' was released on <strong>September 5, 2016</strong>.</p></div></div>",
+    "summary": "In 'Come Closer', the protagonist expresses his deep feelings of love and longing for his partner, encapsulating the emotional essence of the movie <em>Remo</em>. The song's romantic and melancholic tones evoke a sense of nostalgia and yearning, making it relatable for anyone who has faced heartbreak. Through Inno Genga's heartfelt delivery and Anirudh's enchanting composition, the song beautifully conveys the complexities of love and the desire for closeness. It serves as a poignant reminder of the emotional highs and lows that come with relationships.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Come Closer</strong> from <em>Remo</em> is a heartfelt ballad that beautifully captures the essence of longing and love. With Inno Genga's soulful vocals and Anirudh's captivating music, this song resonates deeply with anyone who has experienced the bittersweet emotions of love. Dive into this melodic journey that perfectly blends romance and melancholy, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "We were so perfect, now I feel worthless and lost without you. Calm me down, I'm nervous.",
+      "Come closer, come closer. I know you missed how I hold you. Don't say it's over, don't say we're done.",
+      "Girl, I would do anything in my life for you, as long as it makes you smile. I would travel across the seven seas to be with you. All I want is for you to be my own.",
+      "Girl, you stole my heart like a criminal. My feelings for you are more than just physical. In my life, all I see is that you're perfect for me.",
+      "Hey, I just want to know what's up. God, are you listening? I'm in love. I want to know how you feel. Am I dreaming or is this real?",
+      "I've been thinking about all those times when I wondered if you would still be mine. I know you know you've always been on my mind. I always knew we were more than just friends.",
+      "I wish I could go back in time because I need you back in my life. Baby, stop and press rewind, just give me a sign.",
+      "You and me, you and me, I miss what we used to be. Baby, stay, please don't leave. Girl, we fit so perfectly together.",
+      "Come closer, come closer. I know you missed how I hold you. Don't say it's over, don't say we're done.",
+      "Girl, I would do anything in my life for you, as long as I make you smile. I would travel across the seven seas to be with you. All I want is for you to be my own.",
+      "Girl, you stole my heart like a criminal. My feelings for you are more than just physical. In my life, all I see is that you're perfect for me.",
+      "Hey, I just want to know what's up. God, are you listening? I'm in love. I want to know how you feel. Am I dreaming or is this real?",
+      "Just me and you together, always us forever. Oh, just me and you together. Am I dreaming or is this real?"
+    ]
+  }
 }
