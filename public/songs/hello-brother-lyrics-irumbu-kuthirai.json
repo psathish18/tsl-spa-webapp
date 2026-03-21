@@ -89,5 +89,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikjTmL8itl8Ko57iQ6XDx_R_eJmyKWLBTaSYZZkXmG883iI1BM9_vxpNHcfyXMqYYqC78Qe3qr2rLsc2bIc5DWMZ8rRQ87gnnqI_Mrfrj71e8ycG9ox24M-xqyl51Q44JLfjnzs7Brefo/s400-c/irumbu-kuthirai.jpg",
   "generatedAt": "2026-01-18T12:58:26.599Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "irumbu kudhirai",
+      "hello brother",
+      "chinna ponnu",
+      "k.g.ranjith",
+      "suchitra",
+      "gv prakashkumar",
+      "pa vijay",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Hello Brother'?</h4><p>The song 'Hello Brother' conveys a fun and lively party atmosphere, encouraging listeners to enjoy and celebrate life.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Irumbu Kudhirai'?</h4><p>The movie 'Irumbu Kudhirai' revolves around themes of friendship and adventure, with this song highlighting the joyous moments of celebration.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Hello Brother'?</h4><p>The song features the talented voices of Chinna Ponnu, K.G. Ranjith, and Suchitra.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Hello Brother'?</h4><p>The music for 'Hello Brother' was composed by the renowned GV Prakash Kumar.</p></div><div class=\"faq-item\"><h4>When was 'Hello Brother' released?</h4><p>'Hello Brother' was released on August 10, 2014.</p></div></div>",
+    "summary": "In 'Hello Brother', the characters celebrate life and friendship through a vibrant dance number that encapsulates the essence of joy and togetherness. The upbeat tempo and lively lyrics create an infectious energy that resonates with the audience. This song serves as a perfect backdrop for party scenes in the movie, inviting everyone to join in the fun. The collaboration of talented singers and a dynamic music director makes this track a memorable highlight of <em>Irumbu Kudhirai</em>.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Hello Brother</strong> from the movie <em>Irumbu Kudhirai</em> is an electrifying dance number that brings together the vibrant voices of Chinna Ponnu, K.G. Ranjith, and Suchitra. With GV Prakash Kumar's infectious beats and Pa Vijay's playful lyrics, this song is sure to get everyone on the dance floor. Experience the party vibe and let the music take over your senses!",
+    "stanzaMeanings": [
+      "",
+      "Hello Brother, shall we party? Hello Brother, shall we party? Just a sip of vodka, no water.",
+      "In my song, this bottle is like a wine rain falling in our area.",
+      "When standing on the dance floor, is everyone single? Or is it just the guys who are double?",
+      "Hey, it's a little bit of a mess, your little mess has made a big fuss.",
+      "Hey, touching and grabbing, is it just a playful touch? Nothing serious, just a glance.",
+      "In a magical world, is the body yours? Is the dance yours? Is the touch yours?",
+      "Hello Brother, shall we party?",
+      "Oh, my fate is to be caught in the trap, spinning around in the dance.",
+      "Does the whole world speak of me? Who am I? Who is asking about me?",
+      "The heart is changing, the dance is painful, let go of the sorrow and enjoy the happiness.",
+      "Hello Brother, shall we party? Hello Brother, shall we party? Just a sip of vodka, no water.",
+      "In my song, this bottle is like a wine rain falling in our area.",
+      "When standing on the dance floor, is everyone single? Or is it just the guys who are double?"
+    ]
+  }
 }

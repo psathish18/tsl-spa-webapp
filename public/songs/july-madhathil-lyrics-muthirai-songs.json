@@ -55,5 +55,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:16.308Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "muthirai",
+      "july madhathil",
+      "yuvan",
+      "na muthukumar",
+      "mohd aslam",
+      "priya",
+      "rahul nambiar",
+      "tanvi shah",
+      "romantic",
+      "2009",
+      "tamil song",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>July Madhathil</strong>?</h4><p>The song is a romantic melody that captures the essence of love and joy.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Muthirai</em>?</h4><p>The music for <em>Muthirai</em> was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>July Madhathil</strong>?</h4><p>The song is sung by <strong>Mohd. Aslam</strong>, <strong>Priya</strong>, <strong>Rahul Nambiar</strong>, and <strong>Tanvi Shah</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Muthirai</em>?</h4><p>The movie <em>Muthirai</em> was released in <strong>2009</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>July Madhathil</strong>?</h4><p>The lyrics were penned by <strong>Na Muthukumar</strong>.</p></div></div>",
+    "summary": "The song <strong>July Madhathil</strong> from the movie <em>Muthirai</em> is a vibrant romantic melody that beautifully captures the essence of love and excitement. Sung by a talented ensemble of Mohd. Aslam, Priya, Rahul Nambiar, and Tanvi Shah, the song is set against Yuvan's energetic and captivating music. The lyrics by Na Muthukumar add depth and emotion, making it a perfect choice for romantic occasions. The song evokes feelings of joy and passion, making it a memorable addition to any playlist.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>July Madhathil</strong> from the movie <em>Muthirai</em>, where Yuvan's captivating music meets the dynamic vocals of Mohd. Aslam, Priya, Rahul Nambiar, and Tanvi Shah. This romantic melody is a perfect blend of passion and rhythm, making it an unforgettable addition to any playlist. Dive into the enchanting world of <strong>July Madhathil</strong> and let its charm sweep you off your feet.",
+    "stanzaMeanings": [
+      "",
+      "In July, by the window, I saw a lightning flash. By the road, I saw a garden wrapped in a saree.",
+      "Little flowers swim in the eyes. Silk flowers bloom in the heart. Little flowers swim in the eyes. Silk flowers bloom in the heart.",
+      "Like the waves of the sea, love hits the heart. In the early morning and evening, the sky paints colors.",
+      "In July, by the window, I saw a lightning flash. By the road, I saw a garden wrapped in a saree.",
+      "The breeze touches and goes, what is this new fragrance? Thoughts circle around the world.",
+      "Time should be caught and put in a cage. Dreams should be caught and placed in the eyes.",
+      "Let's change like a little child, breaking all rules. Let's search for small joys, my friend.",
+      "In July, by the window, I saw a lightning flash. By the road, I saw a garden wrapped in a saree.",
+      "Looking for a place, will the clouds rain? Looking for a branch, will the birds gather?",
+      "Desire doesn't come to your mind. There's no barrier for a man and woman to unite.",
+      "The river is born in the hills to join the sea. Let's search for small joys, my friend.",
+      "In July, by the window, I saw a lightning flash. By the road, I saw a garden wrapped in a saree.",
+      "Little flowers swim in the eyes. Silk flowers bloom in the heart. Little flowers swim in the eyes. Silk flowers bloom in the heart.",
+      "Like the waves of the sea, love hits the heart. In the early morning and evening, the sky paints colors."
+    ]
+  }
 }

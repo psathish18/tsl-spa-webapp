@@ -39,5 +39,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1h3ezCTY83GmjfrfJT_a4w6SnabePYOsreaEtlKGwmVSFKsskfbWoOFiecQh_gBy_j__3vDAYu2MWm2kZvd1XjOAnjafgQzIZ7JOaJi8gpl0YU9Qpmd64elVdUM7rAxHa5Wa3CAcV8g/s400-c/Inkem+Inkem+kaavaale+Lyrics+English+Meaning.jpeg",
   "generatedAt": "2026-01-18T12:43:40.978Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "geetha govindam",
+      "sid sriram",
+      "ananta sriram",
+      "gopi sundar",
+      "romantic",
+      "melody",
+      "2018",
+      "telugu",
+      "love song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of <strong>Inkem Inkem</strong>?</h4><p>The song expresses the deep feelings of love and longing, asking what more is needed when love is already perfect.</p></div><div class=\"faq-item\"><h4>What is the context of the song in <em>Geetha Govindam</em>?</h4><p>The song is featured in a romantic setting where the protagonist expresses his admiration and love for the heroine.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Inkem Inkem</strong>?</h4><p>The song is sung by the talented <strong>Sid Sriram</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Inkem Inkem</strong>?</h4><p>The music was composed by <strong>Gopi Sundar</strong>.</p></div><div class=\"faq-item\"><h4>When was <em>Geetha Govindam</em> released?</h4><p>The movie was released in <strong>2018</strong>.</p></div></div>",
+    "summary": "The song 'Inkem Inkem' from the movie 'Geetha Govindam' is a beautiful romantic melody that captures the essence of love and admiration. Sung by Sid Sriram, the song conveys the protagonist's deep affection and longing for his beloved. The soothing music by Gopi Sundar complements the heartfelt lyrics by Ananta Sriram, creating a perfect atmosphere of romance. It evokes emotions of happiness and contentment, making it a favorite for romantic occasions.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Inkem Inkem</strong> from the film <em>Geetha Govindam</em>, where Sid Sriram's soulful voice meets Gopi Sundar's mesmerizing music. This romantic track beautifully captures the essence of love and longing. Dive into the soothing vibes and let the music take you on a heartfelt journey."
+  }
 }

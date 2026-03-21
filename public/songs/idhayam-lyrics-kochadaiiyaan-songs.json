@@ -130,5 +130,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNQhTFdXnhhABRyeCJyt0q7zrvEwIZowXn-f5RwcO_fH7BV_dZ3TuBQiaADdSk9acKFqaNTgcUREBwEvMPObwQe64zULnpxjdvirBti9Ayxpx09FDf5v8robZtcYeJA9LPtaNagUlkZkY/s400-c/kochadaiyaan.jpg",
   "generatedAt": "2026-01-18T13:00:10.712Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "kochadaiiyaan",
+      "idhayam",
+      "chinmayi",
+      "srinivas",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Idhayam'?</h4><p>The song 'Idhayam' conveys deep emotions of love and longing, beautifully expressed through its lyrics by <strong>Vairamuthu</strong>.</p></div><div class=\"faq-item\"><h4>What is the plot context of 'Idhayam' in the movie?</h4><p>'Idhayam' plays a significant role in <strong>Kochadaiiyaan</strong>, highlighting the romantic moments between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Idhayam'?</h4><p>The song is sung by <strong>Chinmayi</strong> and <strong>Srinivas</strong>, whose voices blend beautifully in this duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Idhayam'?</h4><p>The music for 'Idhayam' was composed by the renowned <strong>AR Rahman</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was 'Idhayam' released?</h4><p>'Idhayam' was released on <strong>March 9, 2014</strong>, as part of the <strong>Kochadaiiyaan</strong> soundtrack.</p></div></div>",
+    "summary": "In the movie <em>Kochadaiiyaan</em>, the song <strong>Idhayam</strong> serves as a poignant expression of love between the protagonists. The soothing melodies and heartfelt lyrics evoke a sense of romance and longing, making it a perfect backdrop for intimate moments. The collaboration of Chinmayi and Srinivas adds depth to the emotional landscape of the song. Overall, <strong>Idhayam</strong> beautifully encapsulates the essence of love, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Idhayam</strong> from <em>Kochadaiiyaan</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Chinmayi and Srinivas, combined with AR Rahman's magical composition, this song creates an unforgettable romantic atmosphere. Experience the soothing melodies and poetic lyrics that make this track a must-listen for every romantic occasion.",
+    "stanzaMeanings": [
+      "",
+      "The heart keeps moving and moving... Why, tell me why, why won't you say? Why won't you say?",
+      "The heart forgets the shores and loses direction... Why, tell me why, why won't you say? Why won't you say?",
+      "The flowers forgot to bloom, the vines forgot to smile, the lightning forgot to strike, the forest forgot its poetry.",
+      "I won't forget you, I won't forget you, I won't forget you.",
+      "The heart keeps moving and moving... Why, tell me why, why won't you say? Why won't you say?",
+      "The red Tamil parts, the red sea parts, the echoes part, the wind parts the sculpture.",
+      "What is this prison life?",
+      "I won't separate from you, I won't separate, I won't separate, I won't separate.",
+      "The small fruit hangs high, your life is small, but love is big.",
+      ""
+    ]
+  }
 }

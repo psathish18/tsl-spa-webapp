@@ -43,5 +43,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:02.641Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "theme",
+      "song"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "anjathe",
+      "mysskin",
+      "kabilan",
+      "nostalgic",
+      "melancholic",
+      "2008",
+      "tamil",
+      "lyrics",
+      "theme"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannadasan Karaikudi</strong>?</h4><p>The song reflects on nostalgia and introspection, capturing a deep sense of longing and reflection.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by <strong>Kabilan</strong>.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The song is featured in the movie <em>Anjathe</em>.</p></div><div class=\"faq-item\"><h4>Who performed <strong>Kannadasan Karaikudi</strong>?</h4><p>The song was performed by <strong>Mysskin</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Anjathe</em> released?</h4><p>The movie was released in <strong>2008</strong>.</p></div></div>",
+    "summary": "The song <strong>Kannadasan Karaikudi</strong> from the movie <em>Anjathe</em> is a reflective piece that delves into themes of nostalgia and introspection. Sung by Mysskin, the lyrics by Kabilan evoke a deep sense of longing and contemplation. The song's mood is melancholic yet soothing, making it perfect for moments of reflection. It captures the essence of looking back at one's past with a mix of emotions, making it a memorable addition to the film's soundtrack.",
+    "releaseYear": "2008",
+    "high_ctr_intro": "Dive into the reflective world of <strong>Kannadasan Karaikudi</strong> from the movie <em>Anjathe</em>. This song, penned by Kabilan and sung by Mysskin, captures a unique blend of nostalgia and introspection. Experience the evocative lyrics that resonate with the soul, making it a memorable piece in Tamil cinema.",
+    "stanzaMeanings": [
+      "Mention the name Kannadasan from Karaikudi and sing like Kunnakudi Machaan.",
+      "Close your eyes with glasses and swim. If you touch the wound, the fever will run away.",
+      "Intoxication is like snake venom. If you drink it together, it's like socialism.",
+      "",
+      "There is no place without wife and kids, this is the place.",
+      "If this place is not there, then it's the temple. The worker crosses the river and drinks, thinking of a girl.",
+      "Look over there, the director is complaining.",
+      "Even if you hit a hundred million, there's no intoxication. If you cross the town, there's no path to walk.",
+      "",
+      "If brothers come here, it's all about dancing. If it gets over, it's all about cutting and stabbing.",
+      "We don't have any problem with water. We don't have caste or religion. What happened to the political guy? His dhoti is gone.",
+      "Look at the man happily in the roadside shop. Look at the wife with the necklace in the shop.",
+      "Mention the name Kannadasan from Karaikudi and sing like Kunnakudi Machaan.",
+      "Close your eyes with glasses and swim. If you touch the wound, the fever will run away.",
+      "Intoxication is like snake venom. If you drink it together, it's like socialism.",
+      "",
+      ""
+    ]
+  }
 }

@@ -102,5 +102,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuxvQUc9SfufaRHBVX_hG6i9CaAR2rT-WOA0GDxHytlnFigqISw0I8D5n2Sge7RYtzc1Clu4P910dHsukuVzU_LPlEU1ljgkwY2OxIRzMJ5reNZ4UcZxumXhLQJeySEj8thYiUEtDzhBU/s400-c/raja_rani.jpg",
   "generatedAt": "2026-01-18T13:03:09.592Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "dance number"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "raja rani",
+      "hey baby",
+      "gv prakash kumar",
+      "gaana bala",
+      "aishwarya",
+      "na muthukumar",
+      "romantic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Hey Baby'?</h4><p>The song 'Hey Baby' expresses the playful and exciting aspects of love, comparing it to a roller coaster ride filled with ups and downs.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Raja Rani'?</h4><p><strong>Raja Rani</strong> revolves around the love stories of two individuals who navigate their past relationships while discovering new love.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of 'Hey Baby'?</h4><p>The song features vocals by <strong>Aishwarya</strong>, <strong>Gaana Bala</strong>, and <strong>GV Prakash Kumar</strong>, with music composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Hey Baby' released?</h4><p>'Hey Baby' was released on <strong>August 21, 2013</strong>.</p></div></div>",
+    "summary": "'Hey Baby' from the movie <em>Raja Rani</em> is a lively duet that encapsulates the joy and excitement of falling in love. The playful lyrics and upbeat melody create a festive atmosphere, making it perfect for celebrations and romantic occasions. The song conveys a sense of youthful exuberance and the thrill of romantic adventures, evoking feelings of happiness and nostalgia. With its catchy tune and engaging performances, it stands out as a memorable track in the film's soundtrack.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Hey Baby</strong> from <em>Raja Rani</em> is a vibrant celebration of love, featuring an electrifying collaboration between Aishwarya, Gaana Bala, and GV Prakash Kumar. The song's upbeat rhythm and catchy lyrics create an infectious vibe that captures the essence of youthful romance. Dive into this musical treat that perfectly blends playful energy with heartfelt emotions!",
+    "stanzaMeanings": [
+      "Hey baby, please take my heart for a while, one day, please take my life too.",
+      "Love is like Tom and Jerry, life is like a roller coaster. Who said marriage is made in heaven?",
+      "Just making noise, this lion is the one who sets the cycle gap right.",
+      "Hey baby, why are you going away? Why are you acting loose and single?",
+      "If you forget me, I will go to the pub. If you go to the club, I will drink water there. Marriage is a joke, my friend.",
+      "I have understood, she is pretending to be someone else. I believed her and became a fool. She shows her beauty, but it’s just a disguise. For a whole year, it’s only me for six months.",
+      "In this place, everyone supports you. We will give you a report and a one-year warranty.",
+      "There is no peace, my friend. If she goes home, I will go to the wine shop."
+    ]
+  }
 }

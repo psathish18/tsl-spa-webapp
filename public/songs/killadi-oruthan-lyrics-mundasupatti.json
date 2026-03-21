@@ -81,5 +81,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipD3wgMtQeZ4TlUHHtoj4kCpxeB9yozMJB4qFg_o8Es1So2tIf887aNt4P-l0wErt1LwMrzza3Cb7AlkByiaBDIk9Gh7CPsWOPCZNX7mxR2tPrkdFr1mwoIAQxgVhwf9_HIvqoIJmxrLs/s400-c/mundasupatti.jpg",
   "generatedAt": "2026-01-18T12:59:31.001Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "folk",
+      "song"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "mundasupatti",
+      "anthonydasan",
+      "sean roldan",
+      "folk",
+      "energetic",
+      "2014",
+      "tamil cinema",
+      "happy",
+      "peppy",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Killadi Oruthan</strong>?</h4><p>The song is energetic and peppy, celebrating life with vibrant folk beats.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Killadi Oruthan</strong>?</h4><p>The song is sung by <strong>Anthonydasan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Mundasupatti</em>?</h4><p>The music was composed by <strong>Sean Roldan</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Mundasupatti</em>?</h4><p>The movie was released in <strong>2014</strong>.</p></div></div>",
+    "summary": "The song <strong>Killadi Oruthan</strong> from <em>Mundasupatti</em> is a lively and energetic track that captures the essence of celebration and joy. Anthonydasan's spirited vocals combined with Sean Roldan's folk-inspired music create an infectious rhythm that resonates with happiness. The song's lyrics and upbeat tempo make it perfect for festive occasions, bringing a sense of fun and excitement. It reflects the vibrant spirit of the movie, adding to its overall charm and appeal.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Killadi Oruthan</strong> from the movie <em>Mundasupatti</em>. With Anthonydasan's dynamic vocals and Sean Roldan's catchy folk beats, this song is a celebration of life and joy. Dive into the lively rhythms that make this track an unforgettable part of Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "A clever guy, wandering around, someone who has turned around after eating.",
+      "A guy who plays ball, stands in front of the crowd. What will happen if you stay stubborn? It's up to me.",
+      "In this world where everything is ruled, show a good path. Without saying, you must get it, without giving, everything is yours.",
+      "He goes forward thinking of the past, bravely moving ahead. Falling with the soil, rising with gold, he will reach the sky.",
+      "A bad world, constant chaos, nothing goes without deceit. Whether he comes or goes, let's see what happens.",
+      "Born with a desire for women, forgetting everything, he forgets like a bow.",
+      "His hands and legs are enough. His eyes hide his sins. Acting crazy, beating like a child, he left like a pearl.",
+      "Each one is a burden. It's time for him to carry it. To feel joy, known all over the town, he became a clown."
+    ]
+  }
 }

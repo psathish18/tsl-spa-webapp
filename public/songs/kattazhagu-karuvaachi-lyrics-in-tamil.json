@@ -47,5 +47,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:00:56.703Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding"
+    ],
+    "keywords": [
+      "kattazhagu karuvaachi",
+      "gv prakash kumar",
+      "maya mahalingam",
+      "tamil lyrics",
+      "romantic",
+      "melody",
+      "2024",
+      "kalvan",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kattazhagu Karuvaachi</strong>?</h4><p>The song is a romantic melody that expresses deep love and affection.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p><strong>GV Prakash Kumar</strong> is the singer of this beautiful track.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by <strong>Maya Mahalingam</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song evoke?</h4><p>The song evokes feelings of love, happiness, and celebration.</p></div></div>",
+    "summary": "<strong>Kattazhagu Karuvaachi</strong> is a romantic melody that beautifully captures the essence of love and joy. Sung by GV Prakash Kumar, the song features heartfelt lyrics by Maya Mahalingam, creating a perfect blend of emotion and melody. The song conveys a sense of celebration and happiness, making it ideal for romantic occasions. Its soothing tune and expressive lyrics make it a memorable addition to any playlist.",
+    "high_ctr_intro": "<strong>Kattazhagu Karuvaachi</strong> from the movie <em>Kalvan</em> is a mesmerizing melody that captures the essence of romance and joy. Sung by the talented GV Prakash Kumar, this song beautifully blends heartfelt lyrics by Maya Mahalingam with soulful music. Experience the magic of love with this enchanting track that promises to leave you spellbound.",
+    "stanzaMeanings": [
+      "Kattazhagu Karuvaachi, love has formed for you. I have set my eyes on you, and made you fall for me.",
+      "Like a mountain of snow, you should fall on me. Like a small plant, you should grow on me, grow and be happy, and I should celebrate in joy.",
+      "What did you do to my stone heart? It became like a jasmine flower. Your thoughts come daily and make me sing like a rooster.",
+      "You took all my fears and talked to me, so I left all the bad words.",
+      "The fragrance that gave birth to me blows on you, the sky touches you. I became a good child who listens, so don't leave me.",
+      "Kattazhagu Karuvaachi, love has formed for you. I have set my eyes on you, and made you fall for me.",
+      "Kattazhagu Karuvaachi, love has formed for you. I have set my eyes on you, and made you fall for me.",
+      "Like a mountain of snow, you should fall on me. Like a small plant, you should grow on me, grow and be happy, and I should celebrate in joy.",
+      "What did you do to my stone heart? It became like a jasmine flower. Your thoughts come daily and make me sing like a rooster.",
+      "You took all my fears and talked to me, so I left all the bad words.",
+      "The fragrance that gave birth to me blows on you, the sky touches you. I became a good child who listens, so don't leave me.",
+      "Kattazhagu Karuvaachi, love has formed for you. I have set my eyes on you, and made you fall for me."
+    ]
+  }
 }

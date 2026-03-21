@@ -30,5 +30,38 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:02.842Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "moondram pirai",
+      "kamal",
+      "ilaiyaraaja",
+      "k j yesudas",
+      "kannadasan",
+      "1982",
+      "melancholic",
+      "classic",
+      "tamil cinema",
+      "old songs",
+      "nostalgic",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kanne Kalaimane</strong>?</h4><p>The song conveys themes of love, longing, and the beauty of simple moments.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Moondram Pirai</em>?</h4><p>The music was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Who sang <strong>Kanne Kalaimane</strong>?</h4><p>The song was sung by the renowned playback singer <strong>K. J. Yesudas</strong>.</p></div><div class=\"faq-item\"><h4>What is the significance of the song in the movie?</h4><p>The song reflects the emotional bond and the poignant moments shared between the lead characters.</p></div><div class=\"faq-item\"><h4>When was <em>Moondram Pirai</em> released?</h4><p>The movie was released in <strong>1982</strong>.</p></div></div>",
+    "summary": "<strong>Kanne Kalaimane</strong> is a beautifully composed song from the film <em>Moondram Pirai</em>, capturing the essence of love and longing. The song is set against the backdrop of a poignant relationship between the lead characters, portrayed by Kamal Haasan and Sridevi. Ilaiyaraaja's soothing melody combined with K. J. Yesudas's soulful voice and Kannadasan's evocative lyrics create an unforgettable experience. The song evokes a sense of nostalgia and deep emotional connection, making it a timeless classic in Tamil cinema.",
+    "releaseYear": "1982",
+    "high_ctr_intro": "<strong>Kanne Kalaimane</strong> from the iconic film <em>Moondram Pirai</em> is a timeless melody that captures the essence of love and longing. With the soulful voice of K. J. Yesudas and the legendary composition by Ilaiyaraaja, this song remains etched in the hearts of Tamil cinema lovers. Experience the magic of Kannadasan's poignant lyrics that beautifully convey deep emotions."
+  }
 }

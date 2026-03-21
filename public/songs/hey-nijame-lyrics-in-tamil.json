@@ -147,5 +147,59 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:30:10.160Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "enai nokki paayum thotta",
+      "hey nijame",
+      "bombay jayashree",
+      "karky",
+      "darbuka siva",
+      "romantic",
+      "melody",
+      "2019"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Hey Nijame</strong>?</h4><p>The song conveys deep emotions of love and longing, urging the beloved to come closer and cherish the moments together.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie <em>Enai Nokki Paayum Thotta</em>?</h4><p>This song reflects the protagonist's feelings and desires, enhancing the romantic narrative of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Hey Nijame</strong>?</h4><p>The song is sung by the talented Bombay Jayashree, known for her soulful renditions.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Enai Nokki Paayum Thotta</em>?</h4><p>The music for the film was composed by Darbuka Siva, who has a unique style that blends traditional and contemporary sounds.</p></div><div class=\"faq-item\"><h4>When was <strong>Hey Nijame</strong> released?</h4><p>The song was released on August 30, 2019.</p></div></div>",
+    "summary": "In <strong>Hey Nijame</strong>, the protagonist expresses a yearning for closeness and connection, beautifully encapsulated through the soothing melody. The song serves as a pivotal moment in <em>Enai Nokki Paayum Thotta</em>, highlighting the emotional depth of love and the desire to cherish fleeting moments. With Bombay Jayashree's mesmerizing voice, the lyrics evoke a sense of nostalgia and longing. The heartfelt composition by Darbuka Siva complements the romantic theme, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Hey Nijame</strong> from the movie <em>Enai Nokki Paayum Thotta</em>, beautifully rendered by the soulful voice of Bombay Jayashree. This melody, crafted by the talented Darbuka Siva and penned by Karky, captures the essence of love and longing. Let the soothing lyrics and captivating tune take you on a heartfelt journey.",
+    "stanzaMeanings": [
+      "",
+      "Hey truth, don't fade away, you are not a dream, don't try to part ways, there are a thousand paths.",
+      "I will tell you a way to come closer, if you come a little further, I will tell you, come near.",
+      "Don't spin around, world, I am living in a fish event, don't end, live in the leftover pearls, don't wander a bit.",
+      "In the stream of love, you are the blue, won't this change? Like a divine flower path, you are with me as an unending breeze.",
+      "As a song that doesn't stop, I won't fall in your ears, you are like a pouring stream of joy.",
+      "As an unchanging sweetness, I am an unending desire, you are one with me.",
+      "As the dream of your awake eyes, even if I am far away, you won't part from me.",
+      "I am the entrance of the home, the reason words sparkle is you.",
+      "As the night you asked for, I am a relationship unknown to anyone.",
+      "",
+      "Hey truth, don't fade away, you are not a dream, don't try to part ways, there are a thousand paths.",
+      "I will tell you a way to come closer, if you come a little further, I will tell you, come near.",
+      "Don't spin around, world, I am living in a fish event, don't end, live in the leftover pearls, don't wander a bit.",
+      "In the stream of love, you are the blue, won't this change?",
+      "Like a divine flower path, you are with me as an unending breeze.",
+      "As a song that doesn't stop, I won't fall in your ears, you are like a pouring stream of joy.",
+      "As an unchanging sweetness, I am an unending desire, you are one with me.",
+      "As the dream of your awake eyes, even if I am far away, you won't part from me.",
+      "I am the entrance of the home, the reason words sparkle is you.",
+      "As the night you asked for, I am a relationship unknown to anyone."
+    ]
+  }
 }

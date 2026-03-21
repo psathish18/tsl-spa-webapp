@@ -46,5 +46,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:15:29.217Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "vasool raja mbbs",
+      "hariharan",
+      "sadhana sargam",
+      "vairamuthu",
+      "bharadwaj",
+      "romantic",
+      "melody",
+      "2004",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaadu Thiranthe</strong>?</h4><p>The song explores themes of love and longing, capturing the emotional turmoil of the characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p><strong>Hariharan</strong> and <strong>Sadhana Sargam</strong> lend their voices to this beautiful duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Vasool Raja MBBS</em>?</h4><p>The music was composed by <strong>Bharadwaj</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Vasool Raja MBBS</em>?</h4><p>The movie was released in <strong>2004</strong>.</p></div></div>",
+    "summary": "In the movie <em>Vasool Raja MBBS</em>, the song <strong>Kaadu Thiranthe</strong> beautifully captures the emotional journey of love and heartbreak. Sung by Hariharan and Sadhana Sargam, the melody is soothing yet melancholic, reflecting the inner turmoil of the characters. Vairamuthu's poignant lyrics combined with Bharadwaj's soulful music create a memorable experience. The song evokes feelings of longing and introspection, making it a timeless piece in Tamil cinema.",
+    "releaseYear": "2004",
+    "high_ctr_intro": "Experience the soulful melody of <strong>Kaadu Thiranthe</strong> from the movie <em>Vasool Raja MBBS</em>, where Hariharan and Sadhana Sargam's enchanting voices bring Vairamuthu's poetic lyrics to life. Bharadwaj's music direction perfectly complements the emotional depth of the song. Dive into this romantic and melancholic tune that captures the essence of love and longing.",
+    "stanzaMeanings": [
+      "",
+      "The forest is open. The wind is breaking the flowers.",
+      "Eyes are open. Love is breaking the soul.",
+      "Oh... the pain of love in the heart is like a storm in a flower.",
+      "A word that left the heart got stuck in the throat.",
+      "Without you, my body is lifeless, and my legs are tired.",
+      "I am a drop of dew on the earth. Sun, please drink me up.",
+      "For ages, I have melted away. Dew, please embrace me.",
+      "Dear, the pain of love in the heart is like a storm in a flower.",
+      "Through the small door of little happiness, we will reach great joy.",
+      "In a world without obstacles, we will wander like the wind.",
+      "Thinking of the month of Chithirai, I will give you coolness in summer.",
+      "Burning the month of Margazhi, I will give you warmth in the early winter.",
+      "Oh dear, the pain of love in the heart is like a storm in a flower.",
+      "The forest is open. The wind is breaking the flowers.",
+      "Eyes are open. Love is breaking the soul.",
+      "Oh... the pain of love in the heart is like a storm in a flower.",
+      ""
+    ]
+  }
 }

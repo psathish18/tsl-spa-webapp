@@ -77,5 +77,36 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjme_dIe9sCpRfwZ8Cek8UQ0r1PEteiGFRrX5uE9JjSb6RrUl6dzSN2RRouiVT0qZkyIpCyb_cayU-1UTU2MxVlwmBgZeuEQzode4lbpi6mjxI877UeX_rT1hw69QWmz1eXewmbebu13jI/s400-c/David_tamil.jpg",
   "generatedAt": "2026-01-18T13:04:48.923Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "sad"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup"
+    ],
+    "keywords": [
+      "kanave kanave",
+      "david",
+      "anirudh",
+      "mohan rajan",
+      "2013",
+      "melancholic",
+      "sad",
+      "tamil song",
+      "lyrics",
+      "music director",
+      "singer"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kanave Kanave</strong>?</h4><p>The song explores themes of lost dreams and heartache, conveying deep emotions through its melancholic melody.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kanave Kanave</strong>?</h4><p>The song is sung by <strong>Anirudh</strong>, who also composed the music.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>David</em>?</h4><p>In the movie, the song reflects the protagonist's inner turmoil and the shattering of his aspirations.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kanave Kanave</strong>?</h4><p>The lyrics were penned by <strong>Mohan Rajan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Kanave Kanave</strong> released?</h4><p>The song was released in <strong>2013</strong>.</p></div></div>",
+    "summary": "<strong>Kanave Kanave</strong> is a poignant song from the movie <em>David</em>, capturing the essence of shattered dreams and emotional turmoil. Anirudh's haunting melody and soulful vocals bring Mohan Rajan's evocative lyrics to life. The song reflects the protagonist's struggles and the pain of unfulfilled aspirations. It evokes a deep sense of melancholy, making it a perfect fit for moments of introspection and heartache.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Kanave Kanave</strong> from the movie <em>David</em> is a haunting melody that captures the essence of lost dreams and heartache. Anirudh's soulful voice combined with his evocative music composition creates an unforgettable experience. Dive into the emotional depths of this song and feel the poignant lyrics penned by Mohan Rajan."
+  }
 }

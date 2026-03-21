@@ -116,5 +116,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYLJOjBGuYJUS00GlOjVJVZRZqWlDlwupMk18LAh0_7GHxDTk-kpHblc1fjXz8YtZIxw15tCF6X1AmmWdllBN-7kMrafc18SJXeq8TdeEJ7z8cc192dS7UWq0F7qLX9R5JadPsHdlTHAw/s400-c/Iandam+Ulagam.jpg",
   "generatedAt": "2026-01-18T13:02:11.168Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing",
+      "romantic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "irandam ulagam",
+      "chinmayi",
+      "vairamuthu",
+      "anirudh",
+      "melancholic",
+      "soothing",
+      "romantic",
+      "2013",
+      "tamil song",
+      "movie soundtrack"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Iravanil Oruvanai</strong>?</h4><p>The song explores themes of solitude and longing, capturing the emotional journey of the characters in the movie.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Irandam Ulagam</em>?</h4><p>The music for <em>Irandam Ulagam</em> was composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Iravanil Oruvanai</strong>?</h4><p>The lyrics were penned by the renowned lyricist <strong>Vairamuthu</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie?</h4><p>The song underscores the emotional depth and the mystical elements of the film's narrative.</p></div><div class=\"faq-item\"><h4>When was <em>Irandam Ulagam</em> released?</h4><p>The movie was released in <strong>2013</strong>.</p></div></div>",
+    "summary": "<strong>Iravanil Oruvanai</strong> is a soulful track from the movie <em>Irandam Ulagam</em>, capturing the essence of solitude and introspection. Sung by Chinmayi, the song's soothing melody and poignant lyrics by Vairamuthu evoke a sense of longing and emotional depth. Anirudh's composition enhances the mystical and ethereal quality of the film's narrative. The song beautifully conveys the inner turmoil and dreams of the characters, making it a memorable piece in the soundtrack.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Iravanil Oruvanai</strong> from <em>Irandam Ulagam</em> is a mesmerizing melody that beautifully captures the essence of solitude and longing. Chinmayi's soulful voice, combined with Anirudh's haunting composition, creates an ethereal experience. This collaboration with Vairamuthu's poignant lyrics makes it a standout track that resonates deeply with listeners.",
+    "stanzaMeanings": [
+      "",
+      "I met someone in the night, I met a divine being in my loneliness, I saw my life in him.",
+      "Does a woman's heart not know who to trust? Is swimming just a game for a fish?",
+      "He is the man who appears in dreams every day, he has everything, knowledge and skills.",
+      "When he looks, flowers bloom, when he speaks, the body feels alive. Oh woman, what is this excitement and the great desire for that gentleness?",
+      "Every morning I open my eyes, I slowly remember him, I shine in his gaze, I embrace his shoulders.",
+      "I met someone in the night, I met a divine being in my loneliness, I saw my life in him."
+    ]
+  }
 }

@@ -103,5 +103,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC4Ww0pJnePTgzcKCRpSW_TJGNFNTtDZtXcLfkAsZPLVfLgn_t0fhZNhNTGgfCTGqce4a7flsUDwuKFoDCvfM2RBmPPUycF2sIdMolvzXFsDWrD6Qj-JJ72xvbRbNYZwMMZZip8k8Png/s400-c/oru-kal-oru-kannadi.jpg",
   "generatedAt": "2026-01-18T13:07:55.163Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "oru kal oru kannadi",
+      "kadhal oru butterfly",
+      "aalap raju",
+      "hemachandran",
+      "sunitha sarathy",
+      "harrish jeyaraj",
+      "romantic",
+      "upbeat",
+      "2012",
+      "tamil song",
+      "movie song",
+      "na muthukumar"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadhal Oru Butterfly</strong>?</h4><p>The song captures the essence of love, comparing it to the delicate and beautiful nature of a butterfly.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Oru Kal Oru Kannadi</em>?</h4><p>The music for the movie was composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <strong>Kadhal Oru Butterfly</strong>?</h4><p>The song was released in the year <strong>2012</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kadhal Oru Butterfly</strong>?</h4><p>The song is sung by <strong>Aalap Raju</strong>, <strong>Hemachandran</strong>, and <strong>Sunitha Sarathy</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song is a vibrant expression of love and joy, fitting perfectly within the romantic narrative of the film.</p></div></div>",
+    "summary": "In the movie <em>Oru Kal Oru Kannadi</em>, <strong>Kadhal Oru Butterfly</strong> is a lively and romantic song that beautifully captures the fluttering emotions of love. The song's upbeat tempo and enchanting melody reflect the excitement and joy of falling in love. Sung by Aalap Raju, Hemachandran, and Sunitha Sarathy, the song conveys a sense of happiness and celebration. Harrish Jeyaraj's composition, combined with Na Muthukumar's poetic lyrics, makes it a memorable piece that resonates with anyone who has experienced the magic of love.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "Experience the fluttering sensation of love with <strong>Kadhal Oru Butterfly</strong> from the movie <em>Oru Kal Oru Kannadi</em>. This enchanting melody, brought to life by the harmonious voices of Aalap Raju, Hemachandran, and Sunitha Sarathy, is a testament to Harrish Jeyaraj's musical genius. Let the vibrant beats and romantic lyrics sweep you off your feet in this unforgettable musical journey."
+  }
 }

@@ -65,5 +65,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMoaxRke_cxSerJLmfN_fWUrgIhHBxfEZ5bzEZDwxGqtqYIZTzCvJrGVbjUy5a5dn38GeObbMhOpFVARIicQeHy5E9r4sWHE43JFvdeb2yz1OtDEdGdJJLHHnujANF3GUou_lCrOP-3TM/s400-c/ivan+vera+madhiri.jpg",
   "generatedAt": "2026-01-18T13:02:19.982Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "peppy"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "party"
+    ],
+    "keywords": [
+      "ivan vera madhiri",
+      "sathya c",
+      "viveka",
+      "romantic",
+      "2013",
+      "tamil song",
+      "melody",
+      "happy",
+      "peppy",
+      "love song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Lovulla</strong>?</h4><p>The song celebrates love and happiness, capturing the joyful emotions of being in love.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Lovulla</strong>?</h4><p>The song is sung by <strong>Sathya C</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie <em>Ivan Vera Madhiri</em>?</h4><p>The song adds a romantic and lively element to the film, enhancing the love story.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Lovulla</strong>?</h4><p>The lyrics were penned by <strong>Viveka</strong>.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Lovulla</strong> released?</h4><p>The song was released in <strong>2013</strong>.</p></div></div>",
+    "summary": "The song <strong>Lovulla</strong> from <em>Ivan Vera Madhiri</em> is a lively and romantic track that captures the essence of falling in love. Sung by Sathya C, the song's upbeat melody and joyful lyrics by Viveka convey the excitement and happiness of being in love. It is a celebration of romance, making it perfect for occasions like Valentine's Day and anniversaries. The song's vibrant energy and catchy tune make it a favorite among fans of Tamil cinema.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Lovulla</strong> from the movie <em>Ivan Vera Madhiri</em>. With Sathya C's captivating vocals and Viveka's heartfelt lyrics, this song is a celebration of love and joy. Dive into the rhythmic beats and let the melody sweep you off your feet.",
+    "stanzaMeanings": [
+      "",
+      "I fell in love, forgot all my worries, kept thinking about her, and now I've lost track of day and night.",
+      "I saw a statue made of butter, and I don't know what happened to me.",
+      "I became something else, went somewhere else.",
+      "I can't say you look like a statue, because statues don't have your charm. I can't say I'm like a river, because when you walk, it's like the sea follows you. Creating women and men is God's work, and your eyes and nose seem crafted by him.",
+      "My love made me jump like a fish. I don't know what happened, but something did.",
+      "A fire burns endlessly on my soul, and the wind knows my pain. Love is small like an ant but sometimes crushes like an elephant.",
+      "If dough breaks, you can fix it with a string. Love knows how to heal a broken heart.",
+      "The sky spins above my head, and everything below is clear. I became something else, went somewhere else.",
+      "I fell in love, kept thinking about her."
+    ]
+  }
 }

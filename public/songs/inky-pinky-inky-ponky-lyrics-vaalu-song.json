@@ -68,5 +68,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7fxDj654xPsfg41zq5IPtcXBWONZeSGYF8BY6iJ7qo5yKuQXnswH1kukGlXYcOlfm7g3oYtPR1y5wqTUbNoaBB4WSmjNL2O3OXTEX4beDldkDFxkN8E1fAfN7PFrMX7ZVbDDbZHvernM/s400-c/simbu_vaalu.jpg",
   "generatedAt": "2026-02-01T14:30:18.021Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "peppy",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "vaalu",
+      "simbu",
+      "thaman s",
+      "inky pinky inky ponky",
+      "2014",
+      "peppy",
+      "energetic",
+      "tamil song",
+      "dance number",
+      "party",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the release year of the song <strong>Inky Pinky Inky Ponky</strong>?</h4><p>The song was released in 2014.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by <strong>Simbu</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Vaalu</em>?</h4><p>The music for the movie was composed by <strong>Thaman S</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song?</h4><p>The song is a peppy and energetic dance number that adds a fun vibe to the movie.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song is featured as a lively and entertaining sequence, showcasing the playful side of the characters.</p></div></div>",
+    "summary": "<strong>Inky Pinky Inky Ponky</strong> from <em>Vaalu</em> is a vibrant and energetic song that captures the playful essence of the film. Sung by Simbu, the track is a lively dance number that adds a fun and celebratory mood to the movie. The catchy beats by Thaman S make it an ideal choice for parties and celebrations. The song's playful lyrics and upbeat tempo convey a sense of joy and excitement, making it a memorable part of the film's soundtrack.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "Get ready to groove with <strong>Inky Pinky Inky Ponky</strong> from the movie <em>Vaalu</em>. This energetic track features Simbu's vibrant vocals paired with Thaman S's catchy beats, creating a perfect party anthem. Dive into the lively spirit of this song and let the rhythm take over!",
+    "stanzaMeanings": [
+      "You are My Darling Singer: Simbu Movie: Vaalu Music: Thaman S",
+      "",
+      "Pink pinky pinky ponky, I looked here and saw, the girl's father is a donkey, I searched here and saw, dear.",
+      "Inky Pinky Inky Ponky, don't leave from here.",
+      "Hey, I don't want Nayanthara, I don't want Andrea, I don't want Tamanna, I don't want Samantha, I don't want Deepika, I don't want Katrina.",
+      "Hey girl, just looking at you is enough, I don't need anyone else.",
+      "you are my darling you are my darling you are my darling darling baby"
+    ]
+  }
 }

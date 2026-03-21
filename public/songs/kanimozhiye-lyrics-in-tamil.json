@@ -113,5 +113,37 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLKBBEyuET6i_LY6HLtQIwlNw-09FJaA4_tg_gFUG3py4z7PgADsxMGAlh-ifBHXOpnA3bmMfj1bxxiVsyio4VytcTx4pqDfcje2fzZ8y9fO7Y1vKXS-mulqYQ01BFVoZNx7yw2J9Aw_M/s400-c/Kanimozhiye.png",
   "generatedAt": "2026-02-01T13:00:40.007Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "theme",
+      "song"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "anniversary"
+    ],
+    "keywords": [
+      "irandam ulagam",
+      "kanimozhiye",
+      "tamil lyrics",
+      "romantic",
+      "melancholic",
+      "2013",
+      "soothing",
+      "melody",
+      "theme song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kanimozhiye</strong>?</h4><p>The song <strong>Kanimozhiye</strong> is a romantic and melancholic melody that evokes deep emotions.</p></div><div class=\"faq-item\"><h4>In which movie does <strong>Kanimozhiye</strong> appear?</h4><p>The song appears in the movie <em>Irandam Ulagam</em>.</p></div><div class=\"faq-item\"><h4>Who are the artists involved in <strong>Kanimozhiye</strong>?</h4><p>The specific artists for the song <strong>Kanimozhiye</strong> are unknown.</p></div><div class=\"faq-item\"><h4>When was <strong>Kanimozhiye</strong> released?</h4><p>The song was released on November 21, 2013.</p></div></div>",
+    "summary": "The song <strong>Kanimozhiye</strong> from <em>Irandam Ulagam</em> is a beautifully crafted melody that blends romance with a touch of melancholy. It captures the emotional depth of the characters in the movie, enhancing the narrative with its soothing and evocative tune. The song's gentle rhythm and heartfelt lyrics make it perfect for moments of reflection and relaxation. It stands out as a memorable piece that resonates with listeners long after the movie ends.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the ethereal charm of <strong>Kanimozhiye</strong> from the movie <em>Irandam Ulagam</em>. This song captures the essence of romance and melancholy, enveloping listeners in its soothing melody. Dive into a world of emotions with this unforgettable track."
+  }
 }

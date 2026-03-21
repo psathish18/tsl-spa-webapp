@@ -70,5 +70,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMurNhvq9TfG4si_j5CJtLYTks6d4sBocU3PD-70ynj6QnurLLLflFWj6rZ2AGveQoOhoirB70qByDHx5rtNXgxWt9xWofS5oGW72z4I8crO-XgiPacLKF3Yod0IyBPc9SVAQtJoTCzJk/s400-c/Irumugan+Audio+Release.jpg",
   "generatedAt": "2026-01-18T12:50:32.741Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "sad"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "irumugan",
+      "pravin saivi",
+      "srimathumitha",
+      "tipu",
+      "karky",
+      "harrish jeyaraj",
+      "melancholic",
+      "romantic",
+      "2016",
+      "tamil song",
+      "lyrics",
+      "sad song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannai Vittu</strong>?</h4><p>The song explores themes of love, loss, and emotional turmoil.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Irumugan</em>?</h4><p>The music for <em>Irumugan</em> was composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song reflects the protagonist's inner conflict and emotional struggles.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kannai Vittu</strong>?</h4><p>The song is sung by <strong>Pravin Saivi</strong>, <strong>Srimathumitha</strong>, and <strong>Tipu</strong>.</p></div><div class=\"faq-item\"><h4>When was <em>Irumugan</em> released?</h4><p>The movie <em>Irumugan</em> was released in <strong>2016</strong>.</p></div></div>",
+    "summary": "In the movie <em>Irumugan</em>, <strong>Kannai Vittu</strong> serves as a poignant reflection of the protagonist's emotional journey. The song's melancholic melody and heartfelt lyrics by Karky capture the essence of love and loss. Sung by Pravin Saivi, Srimathumitha, and Tipu, the track evokes a deep sense of longing and introspection. Harrish Jeyaraj's composition enhances the emotional depth, making it a memorable piece that resonates with anyone who has experienced heartache.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Kannai Vittu</strong> from the movie <em>Irumugan</em> is a haunting melody that beautifully captures the essence of love and loss. With the soulful voices of Pravin Saivi, Srimathumitha, and Tipu, combined with Harrish Jeyaraj's mesmerizing music, this song is a poignant reflection on emotional turmoil. Dive into the lyrical brilliance of Karky as you experience the depth of this unforgettable track."
+  }
 }

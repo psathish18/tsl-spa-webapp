@@ -66,5 +66,60 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNvMWI57uzifROyP9q1fhgW0L0YS3v-H5ucrpoZr59jV48KnEOGCxsKrD-we21QVSHRfrw1oVLujQ0RNAeiKg_b1Z-lb44P6EH4Ol2ZkZIDha379CPvuUvnyB5ZzZZzsJao4F4JEqq5PY/s400-c/Kadhal+Vaithu+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:14:30.985Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "deepavali",
+      "vijay yesudas",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2007",
+      "tamil song",
+      "love song",
+      "kadhal vaithu"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadhal Vaithu</strong>?</h4><p>The song revolves around themes of love and longing, capturing the emotions of waiting and yearning.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Deepavali</em>?</h4><p>The music for <em>Deepavali</em> was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kadhal Vaithu</strong>?</h4><p>The song is sung by <strong>Vijay Yesudas</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Deepavali</em>?</h4><p>The movie <em>Deepavali</em> was released in <strong>2007</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kadhal Vaithu</strong>?</h4><p>The lyrics were penned by <strong>Na Muthukumar</strong>.</p></div></div>",
+    "summary": "In the movie <em>Deepavali</em>, the song <strong>Kadhal Vaithu</strong> beautifully portrays the emotions of love and longing. Sung by Vijay Yesudas, the melody captures the essence of waiting for a loved one, with lyrics that evoke a sense of yearning and hope. Yuvan's composition adds a soothing yet melancholic touch, making it a perfect track for romantic occasions. The song's gentle rhythm and heartfelt lyrics make it a memorable piece that resonates with anyone who has experienced the depths of love.",
+    "releaseYear": "2007",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kadhal Vaithu</strong> from the movie <em>Deepavali</em>, where Vijay Yesudas's soulful voice meets Yuvan's mesmerizing composition. This romantic track beautifully captures the essence of love and longing. Dive into the lyrical magic penned by Na Muthukumar and let the music transport you to a world of emotions.",
+    "stanzaMeanings": [
+      "",
+      "I waited with love, I waited with love, I only listened for your voice in the wind.",
+      "You smiled, and I understood music. You walked, and I understood direction.",
+      "I fell into the ocean of love, even after reaching the shore, I floated.",
+      "You moved, my dear, I moved too, in beauty, oh, I got lost.",
+      "I waited with love, I waited with love, I only listened for your voice in the wind.",
+      "You moved, my dear, I moved too, in beauty, oh, I got lost.",
+      "I never thought all the stories about angels were true.",
+      "After seeing you in person, I believed and didn't deny it.",
+      "Every dawn, I was in a trance of seeing you. Every evening, I was in a craze of seeing you.",
+      "I waited with love, I waited with love, I only listened for your voice in the wind.",
+      "You moved, my dear, I moved too, in beauty, oh, I got lost.",
+      "Seeing you makes my mind spin like a wheel.",
+      "Everything I said to you echoes in my soul.",
+      "You made me talk to the sea, made the clock tick, made me bathe in the rain, and even enjoy the sun.",
+      "I waited with love, I waited with love, I only listened for your voice in the wind.",
+      "You smiled, and I understood music. You walked, and I understood direction.",
+      "I fell into the ocean of love, even after reaching the shore, I floated.",
+      "You moved, my dear, I moved too, in beauty, oh, I got lost.",
+      ""
+    ]
+  }
 }

@@ -75,5 +75,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK3WrKrqmmk9zgV5Mz6F4J8N8LrrUuDq27GAMBeQwzotAcBQ3KfqPS3F3YwUk5_DwFKEpgo5QpAflLdNRjrMBo-Sb6CGsNAMZOaQtZf53nhI_FIKL8ChEvWhJIdwBWyJBlpOYyN_CTyt0/s400-c/Kaakka+Muttai.jpg",
   "generatedAt": "2026-01-18T12:55:18.037Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "theme",
+      "song"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "kaakka muttai",
+      "gv prakash kumar",
+      "2015",
+      "energetic",
+      "motivational",
+      "theme",
+      "tamil movie",
+      "song",
+      "karuppu karuppu"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Karuppu Karuppu</strong>?</h4><p>The song focuses on themes of resilience and societal change, reflecting the struggles and aspirations of the characters in <em>Kaakka Muttai</em>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Karuppu Karuppu</strong>?</h4><p>The music was composed by <strong>GV Prakash Kumar</strong>, who also lent his voice to the song.</p></div><div class=\"faq-item\"><h4>What is the context of the song in <em>Kaakka Muttai</em>?</h4><p>The song underscores the children's journey and their determination to overcome societal barriers.</p></div><div class=\"faq-item\"><h4>When was <strong>Karuppu Karuppu</strong> released?</h4><p>The song was released in 2015 as part of the movie <em>Kaakka Muttai</em>.</p></div></div>",
+    "summary": "The song <strong>Karuppu Karuppu</strong> from <em>Kaakka Muttai</em> is a powerful anthem that captures the essence of change and resilience. Sung and composed by GV Prakash Kumar, it reflects the struggles faced by the protagonists in their quest for a better life. The energetic beats and motivational lyrics inspire listeners to push through obstacles. This track is a celebration of determination and the spirit of overcoming societal challenges.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the raw energy of <strong>Karuppu Karuppu</strong> from the acclaimed film <em>Kaakka Muttai</em>. GV Prakash Kumar's dynamic vocals and composition bring a powerful vibe to this motivational track. Dive into the vibrant beats and compelling lyrics that capture the essence of resilience and change.",
+    "stanzaMeanings": [
+      "",
+      "The world rejects the color black, but the crow's egg changes its color.",
+      "Just having a form doesn't make someone human. It's not about appearance or clothes.",
+      "Working hard day and night, thinking and dreaming, if you come with desire...",
+      "The world rejects the color black, but the crow's egg changes its color.",
+      "Just having a form doesn't make someone human. It's not about appearance or clothes.",
+      "Half of us is our body, the other half is our clothes. Who said this?",
+      "Because of him, our dignity flies away like a kite.",
+      "Until yesterday, we ate only when hungry. Who changed us today? We wander for taste...",
+      "The world rejects the color black, but the crow's egg changes its color.",
+      "Just having a form doesn't make someone human. It's not about appearance or clothes.",
+      "Working hard day and night, thinking and dreaming, if you come with desire..."
+    ]
+  }
 }

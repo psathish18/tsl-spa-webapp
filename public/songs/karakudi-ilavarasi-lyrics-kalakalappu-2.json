@@ -69,5 +69,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:36.176Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "peppy",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "song"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "kalakalappu 2",
+      "jassie gift",
+      "sudharsan ashok",
+      "peppy",
+      "dance number",
+      "2018",
+      "tamil cinema",
+      "energetic",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Karakudi Ilavarasi</strong>?</h4><p>The song is a peppy and energetic dance number that adds a fun element to the movie.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Karakudi Ilavarasi</strong>?</h4><p>The song is sung by <strong>Jassie Gift</strong> and <strong>Sudharsan Ashok</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in <em>Kalakalappu 2</em>?</h4><p>The song is featured in a lively and comedic setting, enhancing the film's entertaining vibe.</p></div><div class=\"faq-item\"><h4>When was <strong>Karakudi Ilavarasi</strong> released?</h4><p>The song was released in <strong>2018</strong>.</p></div></div>",
+    "summary": "The song <strong>Karakudi Ilavarasi</strong> from the movie <em>Kalakalappu 2</em> is a vibrant and energetic track that perfectly complements the film's comedic and lively atmosphere. Sung by Jassie Gift and Sudharsan Ashok, it features catchy lyrics and upbeat music that make it an ideal choice for parties and celebrations. The song captures the essence of fun and joy, encouraging listeners to dance along. Its playful tone and dynamic rhythm contribute to the overall entertainment value of the movie.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Get ready to groove with <strong>Karakudi Ilavarasi</strong> from the hilarious movie <em>Kalakalappu 2</em>. This energetic track features the vibrant vocals of Jassie Gift and Sudharsan Ashok, making it a perfect party anthem. Dive into the fun and lively beats that will surely lift your spirits!",
+    "stanzaMeanings": [
+      "The princess of Karakudi, you rule my heart. The queen of Thoothukudi, why are you making me suffer?",
+      "Your eyes are like a gun, your cheeks are like a bun, your gaze is like a gin, making me feel high.",
+      "Your nose is like a cone, your lips are like a burger, this girl is different, what have you done to me?",
+      "I was mesmerized and lost myself, I was laughing and got defeated.",
+      "Why, why did you gather all the beauty of the world in one person?",
+      "You made my heart restless like a goat, making it boil like a pot.",
+      "",
+      "The moment I saw you, my pulse raced. I will follow you without a GPS.",
+      "The princess of Karakudi, you rule my heart. The queen of Thoothukudi, why are you making me suffer?",
+      "I was mesmerized and lost myself, I was laughing and got defeated.",
+      "Why, why did you gather all the beauty of the world in one person?",
+      "You made my heart restless like a goat, making it boil like a pot.",
+      "Your eyes are like a gun, your cheeks are like a bun, your gaze is like a gin, making me feel high.",
+      "Your nose is like a cone, your lips are like a burger, this girl is different, what have you done to me?",
+      "The princess of Karakudi, you rule my heart. The queen of Thoothukudi, why are you making me suffer?"
+    ]
+  }
 }

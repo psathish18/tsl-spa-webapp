@@ -76,5 +76,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc9uvBwpeKbKk07LGYc4L9Uh1D1hzOIE036aJqLeeqF9fw36R5Z1SV7MPW0I9PzatWeHQpG1RcDs6aKSqaABsD6W_DnZ_gM2GmwO-4zAza8KNfSghRZqdh-p1NxWpWIEX10mr4xqlrMsg/s400-c/Ko+2+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:53:42.392Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "ko 2",
+      "leon james",
+      "neeti mohan",
+      "karky",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil song",
+      "lyrics",
+      "duet"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the release year of the song <strong>Kohila Kohila</strong>?</h4><p>The song was released in 2015.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kohila Kohila</strong>?</h4><p>The song is sung by <strong>Leon James</strong> and <strong>Neeti Mohan</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kohila Kohila</strong>?</h4><p>The lyrics were penned by <strong>Karky</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kohila Kohila</strong>?</h4><p>The song revolves around themes of romance and longing.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie <em>Ko 2</em>?</h4><p>The song adds a romantic dimension to the film, highlighting the emotional connection between the characters.</p></div></div>",
+    "summary": "<strong>Kohila Kohila</strong> is a romantic duet from the movie <em>Ko 2</em>, featuring the soothing voices of Leon James and Neeti Mohan. The song's lyrics, written by Karky, beautifully express themes of love and longing. Set against a melodic backdrop, it captures the tender emotions between the characters, enhancing the film's narrative. The track evokes a sense of warmth and intimacy, making it perfect for moments of reflection and romance.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Kohila Kohila</strong> from the movie <em>Ko 2</em> is a mesmerizing duet that beautifully captures the essence of romance. With Leon James' soothing composition and the enchanting vocals of Neeti Mohan, this song is a perfect blend of melody and emotion. Dive into this captivating track and experience the magic of love through its soulful lyrics.",
+    "stanzaMeanings": [
+      "",
+      "Hey eyes, don't look at me. Hey beauty, don't speak anymore. Your gaze moves like a wave. If your eyelids close, I will be fulfilled.",
+      "Your words are like a stormy wind. Don't open the small window of your lips, or I will be lost.",
+      "Kohila kohila, the lightning is because of you. Kohila kohila, the illusions are because of you. Kohila kohila, my world is upside down. Kohila kohila, everything is because of your words.",
+      "Hey eyes, don't look at me. Hey beauty, don't speak anymore.",
+      "In the stream and river, my legs think of you. You are the comfort. Like the shadow of a flower on the temple tower, you have become a part of me.",
+      "When your hands touch, even if anger arises, I become calm. The design with dots ties me, you have become my umbrella.",
+      "Kohila kohila, the lightning is because of you. Kohila kohila, the illusions are because of you. Kohila kohila, my world is upside down. Kohila kohila, everything is because of your words.",
+      "Did I see you with my eyes? Did I tell my heart? My heart moves like a wave. If your hands embrace me, I will reach my destination.",
+      "My desire is like a stormy wind. Through the window of my lips, I will be lost inside you.",
+      "Kohila kohila, the lightning is because of me. Kohila kohila, the illusions are because of me. Kohila kohila, your world is upside down. Kohila kohila, everything is because of my words."
+    ]
+  }
 }

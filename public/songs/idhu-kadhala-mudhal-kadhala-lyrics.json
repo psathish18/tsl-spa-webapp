@@ -80,5 +80,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9v7eoB5VcWWGyUb6VL_RrBMSsE5hsAH5ma5U1dVThzGVLKZRg_lklGXs0fEGbi43SKRbI90wC0oiMY1mJeKHT7xJR4sIZml6V9_iRVRnhflP3sdRfmmBUiaB54YWKzkRQrL3jLntYIgA/s400-c/Idhu+kadhala+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:16:38.675Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "thulluvadho ilamai",
+      "yuvan",
+      "pa vijay",
+      "romantic",
+      "melody",
+      "2002",
+      "tamil song",
+      "love"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses the emotions and experiences of first love, highlighting the beauty and innocence of romantic feelings.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p><strong>Idhu Kadhala Mudhal Kadhala</strong> is featured in the movie <strong>Thulluvadho Ilamai</strong>, which revolves around youthful love and relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Yuvan</strong>, who is also the music director, showcasing his unique style and creativity.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in <strong>2002</strong>, becoming an instant hit among fans of Tamil music.</p></div></div>",
+    "summary": "In <strong>Idhu Kadhala Mudhal Kadhala</strong>, the protagonist reflects on the feelings of first love, capturing the innocence and excitement that comes with it. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia, making it relatable to anyone who has experienced love. Set against the backdrop of <em>Thulluvadho Ilamai</em>, it beautifully conveys the emotions of longing and affection. This romantic track is perfect for special occasions like anniversaries and weddings, resonating with listeners' hearts.",
+    "releaseYear": "2002",
+    "high_ctr_intro": "<strong>Idhu Kadhala Mudhal Kadhala</strong> from <em>Thulluvadho Ilamai</em> is a mesmerizing melody that captures the essence of first love. With Yuvan's soulful voice and heartfelt lyrics by Pa Vijay, this song resonates deeply with anyone who has experienced the magic of romance. The enchanting composition makes it a timeless favorite for lovers and dreamers alike.",
+    "stanzaMeanings": [
+      "",
+      "Is this love, the first love, is it a creation of a girl, is it a moonlight, is it a dream, my heart?",
+      "In your gaze, in your touch, in your presence, in your anger, my heart is the reason for the trouble, tell me, girl.",
+      "",
+      "Is this love, the first love, is it a creation of a girl, is it a moonlight, is it a dream, my heart?",
+      "The night has taken away my sleep, a kind of longing has come, is my life in your hands?",
+      "When the new blood flows in my heart, at that time, some sound arises from somewhere.",
+      "In dreams, battles of reflections, my poetry is always meaningful to you.",
+      "Oh, the life is like a fleeting moment.",
+      "Is this love, the first love, will it come at this age? I am crying, crying, because of you, because of you, because of you, because of you.",
+      "What have I said, what am I thinking, where am I going, what am I doing, I don't understand, I don't know, I have become a new bride.",
+      "Now, what kind of spring is this, it is only sorrow, in the wind, I am turning around.",
+      "When the new blood flows in my heart, at that time, some sound arises from somewhere.",
+      "In dreams, battles of reflections, my poetry is always meaningful to you.",
+      "Oh, the life is like a fleeting moment.",
+      "When the new blood flows in my heart, at that time, some sound arises from somewhere.",
+      "In dreams, battles of reflections, my poetry is always meaningful to you."
+    ]
+  }
 }

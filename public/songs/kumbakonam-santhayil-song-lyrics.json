@@ -46,5 +46,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:18:26.708Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "kumbakonam santhayil",
+      "simmarasi",
+      "arunmozhi",
+      "sujatha mohan",
+      "s a rajkumar",
+      "romantic",
+      "melody",
+      "1998",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kumbakonam Santhayil</strong>?</h4><p>The song captures a lively and romantic encounter in a bustling marketplace.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Arunmozhi</strong> and <strong>Sujatha Mohan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Simmarasi</em>?</h4><p>The music for the movie was composed by <strong>S.A. Rajkumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on October 19, 1998.</p></div></div>",
+    "summary": "The song <strong>Kumbakonam Santhayil</strong> from the movie <em>Simmarasi</em> is a lively and romantic duet that takes place in a bustling marketplace. Sung by Arunmozhi and Sujatha Mohan, it conveys a playful and joyous interaction between the characters. The lyrics describe a charming encounter, filled with vibrant imagery and emotions. S.A. Rajkumar's composition enhances the song's peppy and celebratory mood, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "1998",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Kumbakonam Santhayil</strong> from the movie <em>Simmarasi</em>. This delightful duet, featuring the voices of Arunmozhi and Sujatha Mohan, captures the essence of a bustling marketplace with its peppy and romantic vibes. Let S.A. Rajkumar's melodious composition transport you to a world of joy and celebration.",
+    "stanzaMeanings": [
+      "",
+      "In the Kumbakonam market, I saw a young girl in a yellow saree, flying in the wind.",
+      "On Vandavasi road, someone came yesterday. I looked a bit and felt a connection.",
+      "Seeing the speed of the wind, your saree fluttered yesterday. I am teasing you, show some shyness.",
+      "",
+      "Golden chariot carrying water, can I come to lift you? Can I touch the place where the water pots are kept?",
+      "Your waist is shaking, the fire is cooling. Can I come close and touch? There are betel leaves, can I enchant you?",
+      "The forehead is shining, the breeze of desire is waiting. I am asking for your consent.",
+      "",
+      "There is a bed in the forest, will you bring the comfort? There is a cradle of seven generations, will you release it soon?",
+      "I will build a soft house for you, will you give me a little cheek?",
+      "For that house, will you join both lips as the door?",
+      "It's peak time for Simmarasi, the young girl should be tied. Tell me the time.",
+      "",
+      "On Vandavasi road, someone came yesterday. I looked a bit and felt a connection.",
+      "Seeing the speed of the wind, your saree fluttered yesterday. I am teasing you, show some shyness.",
+      "",
+      ""
+    ]
+  }
 }

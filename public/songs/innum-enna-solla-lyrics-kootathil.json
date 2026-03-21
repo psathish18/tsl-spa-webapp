@@ -69,5 +69,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU4iYHJAba2YCtOa66Uf1scF0jXT17iYBaH9QLnvwWANx9hmCAHlBi3ql2kNP2KkTSQBqNvPjEuBYF5nJWIfnuysQYJfN6-riFslWLc0QChGd7u9AfofCPVrkNIrlNNU8uYfI22UmXUhQ/s400-c/Capture.JPG",
   "generatedAt": "2026-01-18T12:48:26.637Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "kootathil oruthan",
+      "haricharan",
+      "nivas k prasanna",
+      "romantic",
+      "melody",
+      "2016",
+      "tamil song",
+      "movie song",
+      "soothing",
+      "love song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Innum Enna Solla</strong>?</h4><p>The song explores themes of love and longing, capturing the emotions of a romantic relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Innum Enna Solla</strong>?</h4><p>The song is sung by the talented <strong>Haricharan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Kootathil Oruthan</em>?</h4><p>The music for the movie was composed by <strong>Nivas K Prasanna</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Kootathil Oruthan</em>?</h4><p>The movie was released in the year <strong>2016</strong>.</p></div></div>",
+    "summary": "In the movie <em>Kootathil Oruthan</em>, the song <strong>Innum Enna Solla</strong> beautifully portrays the protagonist's feelings of love and admiration. Haricharan's emotive vocals and Nivas K Prasanna's soothing melody create a romantic atmosphere. The lyrics express the joy and transformation that love brings, making it a perfect song for moments of reflection and affection. It evokes a sense of longing and connection, resonating deeply with listeners.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Innum Enna Solla</strong> from the movie <em>Kootathil Oruthan</em>. Haricharan's soulful voice combined with Nivas K Prasanna's soothing composition creates a romantic ambiance. Dive into this musical journey that beautifully captures the essence of love and longing.",
+    "stanzaMeanings": [
+      "",
+      "#What else can I say, I'm not the same as before. After seeing her, it's all happiness.",
+      "With your sharp gaze, you struck me, turned me into a playful child.",
+      "You filled my life with love, changed my whole world.",
+      "What else can I say, I'm not the same as before. After seeing her, it's all happiness.",
+      "Just saying your name makes words sweet.",
+      "The brush of my eyelids brings you closer.",
+      "Are you the one born just for me, who introduced me to myself?",
+      "The first time I saw you, I forgot my loneliness.",
+      "Seeing your lightning-like eyes, I was reborn.",
+      "You filled my life with love, changed my whole world.",
+      "What else can I say, I'm not the same as before. After seeing her, it's all happiness.",
+      "I often look at her face, asking for answers, searching for a way to turn my night into day.",
+      "Every day you searched for me, changed all my directions.",
+      ""
+    ]
+  }
 }

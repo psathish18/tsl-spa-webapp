@@ -68,5 +68,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSLewLgIpWAfsirzHVUI4UlVq3lEHJHIk4D8kV4QuPnl3JgBnXlVv7CyWslN-Py2Th8tmlzD_2_QYZkM1bGGMQCM6Pc45Fnw6ucE9ht89YBj6jqsnBjLl8YXjRNWpF-Mlnl1E9GuOEzeU/s400-c/Om+Shanthi+Om.jpg",
   "generatedAt": "2026-02-01T13:17:12.360Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "om shanthi om",
+      "krish",
+      "na muthukumar",
+      "vijay ebenezer",
+      "romantic",
+      "melancholic",
+      "2014",
+      "tamil song",
+      "lyrics",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kalthondrum Munnamey</strong>?</h4><p>The song explores themes of love, longing, and the emotional complexities of relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kalthondrum Munnamey</strong>?</h4><p>The song is sung by the talented singer <strong>Krish</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Om Shanthi Om</em>?</h4><p>The music for the movie was composed by <strong>Vijay Ebenezer</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Om Shanthi Om</em>?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does <strong>Kalthondrum Munnamey</strong> evoke?</h4><p>The song evokes emotions of romance and melancholy, reflecting on the beauty and pain of love.</p></div></div>",
+    "summary": "<strong>Kalthondrum Munnamey</strong> is a poignant song from the movie <em>Om Shanthi Om</em>, capturing the bittersweet nature of love. The lyrics by Na Muthukumar delve into the feelings of longing and the emotional scars left by love. Krish's soulful voice brings out the depth of these emotions, while Vijay Ebenezer's music adds a soothing yet melancholic touch. The song resonates with anyone who has experienced the complexities of love, making it a memorable and touching melody.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Kalthondrum Munnamey</strong> from the movie <em>Om Shanthi Om</em> is a soulful melody that beautifully captures the essence of love and longing. Sung by the talented Krish, with lyrics by Na Muthukumar, this song is a perfect blend of emotion and melody. Vijay Ebenezer's music direction adds a soothing touch, making it a memorable piece for anyone who has experienced the magic of love.",
+    "stanzaMeanings": [
+      "",
+      "Before the stone forms, this is the wound that appeared first, this is the wound of love.",
+      "Does a woman's heart understand what a man's heart thinks? Even if told, does it understand? This is the magic of love.",
+      "The sea may dry up, the mountains may bow down, but will the memory of our love ever fade?",
+      "You may leave me, I may leave you, but will the memories in our hearts ever part?",
+      "Before the stone forms, this is the wound that appeared first, this is the wound of love."
+    ]
+  }
 }

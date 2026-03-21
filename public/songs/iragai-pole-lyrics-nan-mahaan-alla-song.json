@@ -54,5 +54,45 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:12.827Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "night drive"
+    ],
+    "keywords": [
+      "naan mahaan alla",
+      "iragai pole",
+      "yuvan",
+      "tanvi shah",
+      "yugabharathi",
+      "romantic",
+      "duet",
+      "2010",
+      "tamil cinema",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Iragai Pole</strong>?</h4><p>The song captures a romantic and energetic vibe, expressing the emotions of love and longing.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Iragai Pole</strong>?</h4><p>The song is sung by <strong>Tanvi Shah</strong> and <strong>Yuvan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Naan Mahaan Alla</em>?</h4><p>The music was composed by <strong>Yuvan</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Naan Mahaan Alla</em>?</h4><p>The movie was released in <strong>2010</strong>.</p></div></div>",
+    "summary": "In the movie <em>Naan Mahaan Alla</em>, the song <strong>Iragai Pole</strong> beautifully portrays the emotions of a budding romance. With its energetic melody and heartfelt lyrics by Yugabharathi, the song conveys the excitement and passion of love. Yuvan's composition, combined with the soulful voices of Tanvi Shah and Yuvan, creates a memorable experience. This track evokes feelings of joy and longing, making it a favorite among romantic Tamil songs.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "Experience the captivating blend of <strong>Iragai Pole</strong> from the movie <em>Naan Mahaan Alla</em>, where Yuvan's mesmerizing composition meets Tanvi Shah's enchanting vocals. This romantic duet captures the essence of love with its energetic and melodic vibe. Dive into the world of emotions with this unforgettable track that stands out in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "I am drifting like a feather, listening to your words. I am crawling like a child, touched by your gaze. I melted without fading when your hands touched me. I dissolved without disappearing when your breath touched me. Love came unexpectedly, bringing uncontrollable desires. Something like lightning struck inside me.",
+      "When love comes close, even tears taste sweet. Nothing else is needed, just you are enough. If you come with me, everything will fall into place. Nothing else is needed, just you are enough.",
+      "When you stand close, and I leave, it continues like a play. You say only half, the rest is in my heart. I understand the reason. Time is passing, speed is increasing. Flower, inside your eyes, the world spins.",
+      "When love comes close, even tears taste sweet. Nothing else is needed, just you are enough.",
+      "Hey, something is missing, sleep is gone. I am not myself without seeing you. I always feel your scent around me. Life is nothing without love. Seeing you is like seeing the sky. When I see you from afar, my heart showers with emotions.",
+      "When love comes close, even tears taste sweet. Nothing else is needed, just you are enough."
+    ]
+  }
 }

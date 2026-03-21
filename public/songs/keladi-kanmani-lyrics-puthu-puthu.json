@@ -44,5 +44,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:23.234Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic",
+      "solo"
+    ],
+    "occasions": [
+      "relaxation",
+      "anniversary",
+      "night drive"
+    ],
+    "keywords": [
+      "keladi kanmani",
+      "puthu puthu arthangal",
+      "sp balasubramaniam",
+      "ilaiyaraaja",
+      "vaali",
+      "romantic",
+      "melody",
+      "1989",
+      "tamil classic",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Keladi Kanmani</strong>?</h4><p>The song is a romantic and soothing melody that evokes feelings of love and nostalgia.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Puthu Puthu Arthangal</em>?</h4><p>The music was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Who sang <strong>Keladi Kanmani</strong>?</h4><p>The song was sung by the renowned playback singer <strong>S.P. Balasubramaniam</strong>.</p></div><div class=\"faq-item\"><h4>What is the significance of the song in the movie?</h4><p>The song captures the emotional depth and romantic essence of the film's narrative.</p></div><div class=\"faq-item\"><h4>When was <em>Puthu Puthu Arthangal</em> released?</h4><p>The movie was released in the year <strong>1989</strong>.</p></div></div>",
+    "summary": "The song <strong>Keladi Kanmani</strong> from <em>Puthu Puthu Arthangal</em> is a beautiful romantic melody that captures the essence of love and longing. Sung by S.P. Balasubramaniam, the song is a soothing and nostalgic piece that resonates with the listener's emotions. Ilaiyaraaja's composition, combined with Vaali's heartfelt lyrics, creates a timeless classic that remains etched in the hearts of Tamil music lovers. The song plays a significant role in the movie, enhancing the emotional depth of the storyline.",
+    "releaseYear": "1989",
+    "high_ctr_intro": "Experience the timeless charm of <strong>Keladi Kanmani</strong> from the movie <em>Puthu Puthu Arthangal</em>. This classic melody, beautifully rendered by S.P. Balasubramaniam, is a testament to Ilaiyaraaja's musical genius. Dive into a world of romance and nostalgia with Vaali's poignant lyrics.",
+    "stanzaMeanings": [
+      "Listen, dear, when you hear the singer's story, it brings peace to the heart.",
+      "All day long, I write a war story with my eyes, just to tell you.",
+      "I always climb up, singing for others is my screen song.",
+      "Today, I sang for myself, this is my first song for me.",
+      "The thirst that couldn't be quenched by mirage water was satisfied by the Ganges water.",
+      "The garland I made didn't reach the heart, but you bloomed a jasmine for me.",
+      "Listen, dear, when you hear the singer's story, it brings peace to the heart.",
+      "The burden that doesn't leave my heart, aren't you the one I search for to carry it?",
+      "When I wither, you are the mother who cradles me on your chest.",
+      "Some joyful tune plays only because of you.",
+      "When I walk the old paths, you are the one who holds my hand and guides me.",
+      "Listen, dear, when you hear the singer's story, it brings peace to the heart.",
+      "All day long, I write a war story with my eyes, just to tell you.",
+      "Listen, dear...",
+      ""
+    ]
+  }
 }

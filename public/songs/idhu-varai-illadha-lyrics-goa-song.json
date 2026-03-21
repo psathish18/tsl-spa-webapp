@@ -38,5 +38,47 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:31.895Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "goa",
+      "andrea jeremiah",
+      "vaali",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'idhu varai illadha'?</h4><p>The song conveys feelings of longing and unfulfilled love, reflecting the emotional struggles of the characters in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Goa'?</h4><p>'Goa' revolves around the adventures and misadventures of a group of friends who travel to Goa, exploring themes of love and friendship.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by <strong>Andrea Jeremiah</strong>, known for her powerful and emotive vocal delivery.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'idhu varai illadha'?</h4><p>The music for the song was composed by <strong>Yuvan Shankar Raja</strong>, a prominent figure in Tamil film music.</p></div><div class=\"faq-item\"><h4>When was 'idhu varai illadha' released?</h4><p>The song was released on <strong>February 27, 2010</strong>.</p></div></div>",
+    "summary": "In the movie <em>Goa</em>, the song <strong>idhu varai illadha</strong> serves as a poignant reflection of unfulfilled desires and emotional turmoil. The lyrics, penned by Vaali, beautifully articulate the struggles of love and longing, evoking a sense of nostalgia. Andrea Jeremiah's soulful rendition, paired with Yuvan's captivating composition, creates an atmosphere that resonates with listeners. This song encapsulates the essence of romance and melancholy, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>idhu varai illadha</strong> from <em>Goa</em> is a mesmerizing melody that captures the essence of longing and love. Andrea Jeremiah's soulful voice combined with Yuvan's enchanting music creates a captivating vibe that resonates deeply with listeners. This song is a perfect blend of emotion and artistry, making it a must-listen for any Tamil music lover.",
+    "stanzaMeanings": [
+      "",
+      "Until now, the feelings in your heart have been dreams that fade away when you wake up, have you heard the song?",
+      "Until now, the feelings...",
+      "It is hidden without any mood, it is coming like a flower, it is found without any search here.",
+      "It is hidden without any mood...",
+      "Here, happiness has come in plenty, always without knowing your true state, it keeps telling the days without sleep.",
+      "Without a home, the dream that comes every day cannot be caught, you must be the support to say that happiness is what I seek on this long journey.",
+      "There, there, it comes and creates chaos, like the bright clouds and the moonlight, who knows my thoughts, not like you, it is a strange state that cannot be understood.",
+      "This is not permanent, it will change, ohhh ohh.",
+      "In the heart, the feelings bloom, the true relationships open up, the doors are in front of us, in the heart, the feelings...",
+      "The body now feels the breeze falling on me, the fragrance is coming forward, the body now feels..."
+    ]
+  }
 }

@@ -41,5 +41,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:13.633Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "en rasavin manasula",
+      "ilayaraja",
+      "swarnalatha",
+      "kuyil pattu",
+      "melancholic",
+      "soothing",
+      "1991",
+      "tamil classic",
+      "old tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kuyil Pattu</strong>?</h4><p>The song captures a melancholic yet soothing theme, reflecting on emotions and memories.</p></div><div class=\"faq-item\"><h4>Who are the artists behind <strong>Kuyil Pattu</strong>?</h4><p>The song features the vocals of <strong>Swarnalatha</strong> with music composed by <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Kuyil Pattu</strong> released?</h4><p>The song was released in the year <strong>1991</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does <strong>Kuyil Pattu</strong> evoke?</h4><p>The song evokes feelings of nostalgia and introspection.</p></div></div>",
+    "summary": "The song <strong>Kuyil Pattu</strong> from the movie <em>En Rasavin Manasula</em> is a classic melody that delves into themes of longing and introspection. Swarnalatha's hauntingly beautiful voice, combined with Ilaiyaraaja's masterful composition, creates a soothing and melancholic atmosphere. The lyrics reflect on emotions and memories, making it a perfect track for moments of reflection. This song is a timeless piece that continues to resonate with listeners, evoking a deep sense of nostalgia.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "Experience the soulful melody of <strong>Kuyil Pattu</strong> from the movie <em>En Rasavin Manasula</em>. This classic track beautifully blends Swarnalatha's enchanting voice with Ilaiyaraaja's timeless music. Dive into a world of nostalgia and emotion with every note.",
+    "stanzaMeanings": [
+      "",
+      "What is this cuckoo song, oh young deer? Hearing it, why does the heart feel so rich?",
+      "What is this sorrow that came today? Seeing it, does the heart overflow?",
+      "Cuckoo, go away, now it's just me. Your tune is now my tune.",
+      "What is this cuckoo song, oh young deer? Hearing it, why does the heart feel so rich?",
+      "The mind dances with devotion, the crazy mind wanders. Now I will carry love in my heart.",
+      "With new freshness and comfort, I will give everything like a flower.",
+      "The path the groom walks on, I will spread fragrant jasmine flowers.",
+      "When it's time to give the answer, I will open the box of smiles.",
+      "Silence has become a sad song.",
+      "With the desire to live, it searches for the door, singing a song, searching for the door.",
+      "What is this cuckoo song, oh young deer? Hearing it, why does the heart feel so rich?",
+      "What is this sorrow that came today? Seeing it, does the heart overflow?",
+      "Cuckoo, go away, now it's just me. Your tune is now my tune.",
+      ""
+    ]
+  }
 }

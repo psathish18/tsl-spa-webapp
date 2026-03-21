@@ -58,5 +58,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIziiRsjOdZ-uoQaGDHAHujR1VAvI9RZ_G58q_EbzKKchCyRGH9qfhaphQy9sHqSmhKKgt7JUeQOBeIxEfr8PMbMIqRY1FbcEhEalR38c1KQlWmKjEmMc1lShO4xzSI9zt4Vg4PzwQVzU/s400-c/Naalu-Perukku-Nalladhuna-Edhuvum-Thapilla+Song+Lyrics.jpg",
   "generatedAt": "2026-02-01T13:16:48.356Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "song"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "naalu perukku nalladhuna edhuvum thapilla",
+      "anirudh",
+      "mc rude",
+      "velmurugan",
+      "beon surrao",
+      "navin",
+      "energetic",
+      "dance",
+      "2016",
+      "tamil movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kullanari Kootam</strong>?</h4><p>The song is an energetic and peppy number that brings a sense of fun and excitement.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kullanari Kootam</strong>?</h4><p>The song is sung by <strong>Anirudh</strong>, <strong>MC Rude</strong>, and <strong>Velmurugan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Naalu Perukku Nalladhuna Edhuvum Thapilla</em>?</h4><p>The music was composed by <strong>Beon Surrao</strong> and <strong>Navin</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Naalu Perukku Nalladhuna Edhuvum Thapilla</em>?</h4><p>The movie was released in <strong>2016</strong>.</p></div></div>",
+    "summary": "The song <strong>Kullanari Kootam</strong> from the movie <em>Naalu Perukku Nalladhuna Edhuvum Thapilla</em> is a lively and energetic track that captures the essence of fun and mischief. With its catchy beats and vibrant vocals by Anirudh, MC Rude, and Velmurugan, the song sets the perfect mood for a celebration. The lyrics convey a sense of camaraderie and adventure, making it an ideal choice for parties and festive occasions. The composition by Beon Surrao and Navin adds to the song's infectious energy, ensuring it remains a favorite among listeners.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "Get ready to groove with the electrifying beats of <strong>Kullanari Kootam</strong> from the movie <em>Naalu Perukku Nalladhuna Edhuvum Thapilla</em>. This vibrant track features the dynamic vocals of Anirudh, MC Rude, and Velmurugan, perfectly complemented by the energetic composition of Beon Surrao and Navin. Dive into this peppy number that promises to light up any celebration!",
+    "stanzaMeanings": [
+      "",
+      "Hello everyone, get ready. A fun and exciting song is about to come.",
+      "A group of cunning foxes is making a plan. They are going to steal a lot of money.",
+      "The thief is very clever and stylish. The street performer is a funny clown.",
+      "Standing without moving, eating. Spinning like a fierce flower.",
+      "",
+      "Friend, we have a great plan. Just like that, it's a game. Enjoy life, let's have fun. This is our song now.",
+      "yes, this is enough, no more explanation. Just sit back and watch us as we get into action.",
+      "That's why we wear the clown disguise, finish the work quickly, take the money, and escape without a trace.",
+      "When four people come together, it's teamwork. There's nothing like it in life, it's awesome. We just need a bit of luck.",
+      "Standing without moving, eating. Spinning like a fierce flower.",
+      "Friend pa pa paa paa paa paa",
+      "",
+      ""
+    ]
+  }
 }

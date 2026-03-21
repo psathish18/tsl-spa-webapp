@@ -60,5 +60,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:10.907Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "wedding",
+      "anniversary",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "pesu",
+      "kettimelam kottum satham",
+      "priya",
+      "vijay yesudas",
+      "snehan",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kettimelam Kottum Satham</strong>?</h4><p>The song is a romantic melody that captures the essence of love and celebration.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Priya</strong> and <strong>Vijay Yesudas</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Pesu</em>?</h4><p>The music was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie?</h4><p>In <em>Pesu</em>, the song adds a romantic and celebratory mood to the storyline.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in <strong>2011</strong>.</p></div></div>",
+    "summary": "The song <strong>Kettimelam Kottum Satham</strong> from the movie <em>Pesu</em> is a romantic duet that beautifully captures the joy and celebration of love. Sung by Priya and Vijay Yesudas, the song features soothing melodies composed by Yuvan Shankar Raja. The lyrics by Snehan evoke a sense of happiness and togetherness, making it perfect for weddings and anniversaries. This melody resonates with listeners, creating a warm and inviting atmosphere that enhances the film's romantic narrative.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kettimelam Kottum Satham</strong> from the movie <em>Pesu</em>, where Yuvan's soulful music meets the captivating voices of Priya and Vijay Yesudas. This romantic duet beautifully captures the essence of love and celebration. Dive into a world of soothing tunes and heartfelt lyrics that resonate with every listener.",
+    "stanzaMeanings": [
+      "The sound of wedding drums is softly heard in the heart. Oh, the shy heart is now dancing like a swing.",
+      "There are many desires in my heart. I will tell you when the time comes. When evening comes, that calculation will end. The king will give the evening.",
+      "",
+      "All over this earth, all the blooming flowers, today is the day they will adorn my hair. A rainbow will come and fall as a garland on my neck.",
+      "Your bangles are caught on my fingers, jingling today. In shyness, you bow your head, and that's the poem of blessings.",
+      "The desires that were tied are now flying free. My femininity spreads its wings. My king is always Krishna. He will come and hold my hand.",
+      "Today will become the second part of our life. Holding you is my fortune.",
+      "All over my sky, many memories surround me. In my heart, there is a palace for you.",
+      "In this world, I am going to make the most beautiful mine today. When I realized she is mine, I was amazed thinking about it.",
+      "Here, the earth feels new. I have never felt such happiness. Give the yellow thread, touch like a child, slowly I blush.",
+      "I will take you in a lightning chariot and go to the sky. I will build a house with clouds for you to live in.",
+      "The sound of wedding drums is softly heard in the heart. Oh, the shy heart is now dancing like a swing.",
+      "There are many desires in my heart. I will tell you when the time comes. When evening comes, that calculation will end. The king will give the evening."
+    ]
+  }
 }

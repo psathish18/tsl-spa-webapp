@@ -108,5 +108,59 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:06.831Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "nostalgic",
+      "sad"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "theme",
+      "song"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "96 movie",
+      "chinmayi",
+      "pradeep kumar",
+      "uma devi",
+      "govind vasantha",
+      "melancholic",
+      "romantic",
+      "2018",
+      "tamil song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Iravingu Thevai</strong>?</h4><p>The song explores themes of love, longing, and heartbreak, capturing the emotional turmoil of separation.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p><strong>Chinmayi</strong> and <strong>Pradeep Kumar</strong> lend their voices to this soulful track.</p></div><div class=\"faq-item\"><h4>What role does this song play in the <em>96 Movie</em>?</h4><p>The song underscores the emotional journey of the protagonists, highlighting their past memories and present feelings.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Iravingu Thevai</strong>?</h4><p>The music was composed by <strong>Govind Vasantha</strong>, known for his evocative and soulful compositions.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in 2018 as part of the <em>96 Movie</em> soundtrack.</p></div></div>",
+    "summary": "The song <strong>Iravingu Thevai</strong> from the <em>96 Movie</em> is a poignant exploration of love and separation. Sung by Chinmayi and Pradeep Kumar, it beautifully captures the emotional turmoil of the characters as they reminisce about their past. The lyrics by Uma Devi evoke a sense of nostalgia and longing, while Govind Vasantha's music adds depth to the melancholic mood. This track resonates with anyone who has experienced the bittersweet nature of love and loss.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the poignant beauty of <strong>Iravingu Thevai</strong> from the <em>96 Movie</em>, where Chinmayi and Pradeep Kumar's soulful voices blend seamlessly with Govind Vasantha's haunting melodies. This song captures the essence of love and longing, making it a timeless piece in Tamil cinema. Dive into the emotional depths of this track and let it resonate with your heart.",
+    "stanzaMeanings": [
+      "The night surrounds us like an island, even the dawn turns into darkness.",
+      "Memories crash like waves, burning, and the body writes its own end.",
+      "I melt away like a relationship in separation, leaving my soul behind.",
+      "Like rivers from mountains, you flowed into my heart. You gave many oceans to this drying land.",
+      "Let dreams leave as companions. The night surrounds us like an island, even the dawn turns into darkness.",
+      "This lotus pond overflows and stands alone. Its sun burns without daylight.",
+      "Two lives on one path search for companionship. Time overcomes obstacles and creates new ones.",
+      "Is life worth living without you? Life, come back, you are my soul, come back.",
+      "Every day the soul rises, the mind is amazed. Until life ends, the mind celebrates with you.",
+      "Even when trees bend and nests fall, the cuckoo sings its tune.",
+      "Even when the night ends and fades, the moon waits patiently.",
+      "Rain travels through paths, and the sky's love reaches the earth.",
+      "Even if separated from you, my love will always find you. Come back, come back.",
+      "",
+      "",
+      ""
+    ]
+  }
 }

@@ -44,5 +44,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9zn6fyIp6IPCbHIALMNCRzQOWPvjLpRjUYrPeXIG5nDW9hWnjI9X4qX3yHO_l7vT5U7TaziKKAiaY_a2ncZ2c8yyIcpb-5yKOfVGDVFsNJ_U9IfM1WdZnoCm7RMgQPb6e_dQF1HxWHR0/s400-c/Kadhal+Vanthal+Lyrics+Iyarkai.JPG",
   "generatedAt": "2026-01-18T13:15:44.251Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "sad"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "iyarkai",
+      "tipu",
+      "vidyasagar",
+      "melancholic",
+      "romantic",
+      "sad",
+      "2003",
+      "tamil",
+      "movie",
+      "song",
+      "kadhal vanthal"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadhal Vanthal Solli Anuppu</strong>?</h4><p>The song explores themes of love, longing, and heartbreak.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Iyarkai</em>?</h4><p>The music for <em>Iyarkai</em> was composed by <strong>Vidyasagar</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by <strong>Tipu</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Iyarkai</em>?</h4><p>The movie <em>Iyarkai</em> was released in <strong>2003</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song evoke?</h4><p>The song evokes feelings of melancholy and romantic longing.</p></div></div>",
+    "summary": "<strong>Kadhal Vanthal Solli Anuppu</strong> is a soulful melody from the movie <em>Iyarkai</em>, capturing the essence of unrequited love and longing. The song's lyrics express deep emotions of heartbreak and yearning, beautifully rendered by Tipu's evocative voice. Vidyasagar's composition enhances the melancholic mood, making it a memorable piece for those experiencing love's bittersweet moments. The song's poignant theme resonates with anyone who has felt the pangs of love and separation.",
+    "releaseYear": "2003",
+    "high_ctr_intro": "<strong>Kadhal Vanthal Solli Anuppu</strong> from the movie <em>Iyarkai</em> is a poignant melody that captures the essence of love and longing. Sung by Tipu and composed by Vidyasagar, this song beautifully conveys deep emotions through its soulful lyrics. Experience the magic of Vidyasagar's music as it intertwines with Tipu's heartfelt vocals, creating an unforgettable musical journey.",
+    "stanzaMeanings": [
+      "",
+      "If love comes, let me know, I will come if I am alive.",
+      "I am lying on the shore, melting away with tears flowing.",
+      "In the burnt sand, like a fish, my heart is struggling outside, mixed with tears, the sea level has risen.",
+      "If love comes, let me know, I will come if I am alive.",
+      "I have no relations except life itself. Before love, this world was mine. After love came.",
+      "I wrote a letter inviting death before love. After love, I ask for strength to bury a death.",
+      "Because of you, my sea waves don't rest. Because of you, my moon is not healthy.",
+      "The sea sleeping, the moon gaining its qualities, my life continuing, all depend on your words.",
+      "Your presence is killing me, killing me.",
+      "If love comes, let me know, I will come if I am alive.",
+      "",
+      "I gave away the land I was born on before seeing you. I gave away the land you walked on after seeing you.",
+      "I didn't see my parents after I was born. I saw all my relations after seeing you.",
+      "Girl, my journey hasn't started. It doesn't seem to have an end either.",
+      "I can't become the shore, or the foam, or the waves, it all depends on your words.",
+      "Your presence is killing me, killing me.",
+      ""
+    ]
+  }
 }

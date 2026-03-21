@@ -69,5 +69,66 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:17:30.601Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "peppy",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "vetri kodi kattu",
+      "anuradha sriram",
+      "deva",
+      "2000",
+      "upbeat",
+      "dance",
+      "tamil song",
+      "karupputhaan",
+      "movie song",
+      "tamil cinema",
+      "energetic",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Karupputhan Enakku Pudicha Coloru</strong>?</h4><p>The song celebrates the beauty and charm of a beloved, highlighting the singer's admiration and joy.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The song is featured in the movie <em>Vetri Kodi Kattu</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Anuradha Sriram</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music was composed by <strong>Deva</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in the year <strong>2000</strong>.</p></div></div>",
+    "summary": "<strong>Karupputhan Enakku Pudicha Coloru</strong> is a lively and upbeat song from the movie <em>Vetri Kodi Kattu</em>, capturing the joy and admiration of the protagonist for their beloved. Sung by Anuradha Sriram, the song's energetic beats and catchy lyrics make it a perfect fit for celebrations and parties. The vibrant music by Deva adds to the song's appeal, making it a memorable and fun track. The song conveys a sense of happiness and excitement, reflecting the festive mood of the film's narrative.",
+    "releaseYear": "2000",
+    "high_ctr_intro": "<strong>Karupputhan Enakku Pudicha Coloru</strong> from <em>Vetri Kodi Kattu</em> is a vibrant and energetic track that captures the essence of celebration and joy. Sung by the talented Anuradha Sriram, this song is a perfect blend of Deva's catchy music and lively beats. Dive into this peppy number and feel the infectious energy that makes it a timeless favorite!",
+    "stanzaMeanings": [
+      "Black is my favorite color. His eyes dazzle me like a thousand watts of power.",
+      "Black is my favorite color.",
+      "His eyes dazzle me like a thousand watts of power.",
+      "Black is my favorite color.",
+      "The deity is black, the statue is black, the elephant is black, and the singing cuckoo is black.",
+      "When he sings sweetly, his mustache is black, and his desires are black.",
+      "",
+      "The night set for the world to see the moon is black. The hardworking farmer is black.",
+      "Even diamonds in the earth are black. The sword in the hand of the brave warrior is black.",
+      "The first human born on earth was black.",
+      "The rain cloud that ends the people's famine is black.",
+      "The eyes that make you admire are black. The beauty is black.",
+      "The fetus in the mother's womb is black. Greetings to black.",
+      "",
+      "The dot I placed since the day I saw you is black.",
+      "The ribbon tied to the braided hair is black. I searched in the flower shop, but there was no black flower.",
+      "Since then, I have disliked flowers.",
+      "The path worn by the skirt is black.",
+      "The place waiting for a kiss is yours.",
+      "The heart that holds you close is black.",
+      "The ten children known to the village are black.",
+      "Our town's superstar Ranji Kanthu is black, beauty is black.",
+      "",
+      "The deity is black, the statue is black, the elephant is black, and the singing cuckoo is black.",
+      "When he sings sweetly, his mustache is black, and his desires are black."
+    ]
+  }
 }

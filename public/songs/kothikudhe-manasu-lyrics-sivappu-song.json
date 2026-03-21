@@ -75,5 +75,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnG9lQeeKkule1J8bw_Al_hZCCy1O-jsQDfr8SmXV7g104rqE9SFc6odgZfHH-LuRKqPMT-ciT-RxbeNqj-MzWIbvCvzRPGFadWFIIMpKUr283yiqU5-KCf4pNH_DiszVDusOHdFvmPXE/s400-c/Sivappu-Movie-Posters-4.jpg",
   "generatedAt": "2026-02-01T13:01:51.402Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "sivappu",
+      "karthik",
+      "n r raghunanthan",
+      "romantic",
+      "melancholic",
+      "2014",
+      "tamil",
+      "movie song",
+      "solo",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kothikudhe Manasu</strong>?</h4><p>The song explores themes of love and longing, capturing the emotional turmoil of a romantic relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kothikudhe Manasu</strong>?</h4><p>The song is sung by the talented <strong>Karthik</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Sivappu</em>?</h4><p>The music for the movie <em>Sivappu</em> was composed by <strong>N. R. Raghunanthan</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Sivappu</em>?</h4><p>The movie <em>Sivappu</em> was released in <strong>2014</strong>.</p></div></div>",
+    "summary": "The song <strong>Kothikudhe Manasu</strong> from the movie <em>Sivappu</em> beautifully captures the essence of love and emotional conflict. Sung by Karthik, the melody evokes a sense of longing and nostalgia, reflecting the inner turmoil of the characters. The lyrics express the deep connection and yearning between lovers, making it a poignant piece. N. R. Raghunanthan's music complements the heartfelt lyrics, creating a memorable listening experience.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "Experience the heartfelt emotions in <strong>Kothikudhe Manasu</strong> from the movie <em>Sivappu</em>. Karthik's soulful voice combined with N. R. Raghunanthan's evocative music creates a mesmerizing melody. Dive into this romantic and melancholic journey that captures the essence of love and longing.",
+    "stanzaMeanings": [
+      "",
+      "The heart is excited, is it okay? It feels completely overwhelmed. In this world, I found someone to call my own. I even gave my life to you, what is this connection?",
+      "Life left the palm tree, you gave me new breath. My heart beats to live here again.",
+      "",
+      "When others change, you are far away. I talk as if you are nearby.",
+      "I have many desires, but I don't tell anyone. I keep them hidden and grumble quietly.",
+      "Like a whirlwind, you gathered me and held me together. You are the one who can bear it.",
+      "A bird flew over the tree and came searching into my heart, building a nest and settling down.",
+      "",
+      "The river that came running to find its home stopped at your shore. I don't know the reason.",
+      "This vast ocean is restless, unable to bear you. How can I let go? My heart doesn't ask.",
+      "I buried all my desires in the colorful soil. After seeing you, I dig them up again.",
+      "You are my shadow, you are my steps. I will let you become a child here again, my life.",
+      ""
+    ]
+  }
 }

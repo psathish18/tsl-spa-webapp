@@ -56,5 +56,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIvjMew1o5en2aCqE6Q7hSh-6sa5_KqLaVF0cVUny2qRa7lBW-8YcWl8RlXzAnt0QIwFXN34LAcD_pBMrO0RQOpC0QmarT-vWKyXjnkWNIfDQtTXIJPdL08zkWHX6XV2E7FrdKNWZAxCk/s400-c/Dh6IJdyU8AAWY-u.jpg",
   "generatedAt": "2026-01-18T12:43:43.771Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "96",
+      "govind vasantha",
+      "chinmayi",
+      "karthik netha",
+      "romantic",
+      "melancholic",
+      "nostalgic",
+      "2018",
+      "tamil",
+      "melody",
+      "duet",
+      "theme"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kadhale Kadhale</strong>?</h4><p>The song captures the essence of nostalgia and unfulfilled love, evoking deep emotions.</p></div><div class=\"faq-item\"><h4>In which movie does the song <strong>Kadhale Kadhale</strong> appear?</h4><p>The song is featured in the Tamil movie <em>96</em>.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kadhale Kadhale</strong>?</h4><p>The song is sung by <strong>Govind Vasantha</strong> and <strong>Chinmayi</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kadhale Kadhale</strong>?</h4><p>The lyrics were penned by <strong>Karthik Netha</strong>.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Kadhale Kadhale</strong> released?</h4><p>The song was released in <strong>2018</strong>.</p></div></div>",
+    "summary": "The song <strong>Kadhale Kadhale</strong> from the movie <em>96</em> is a poignant exploration of love and nostalgia. Sung by Govind Vasantha and Chinmayi, it beautifully conveys the emotions of longing and reminiscence. The lyrics by Karthik Netha add depth to the melody, making it a perfect backdrop for moments of reflection. The song's soothing and melancholic tones evoke a sense of timeless romance, resonating with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the soulful journey of love with <strong>Kadhale Kadhale</strong> from the movie <em>96</em>. This mesmerizing duet by Govind Vasantha and Chinmayi captures the essence of nostalgia and romance. Let the poetic lyrics by Karthik Netha transport you to a world of heartfelt emotions.",
+    "stanzaMeanings": [
+      "Come, my little completeness, you are like sweet music.",
+      "The heart is filled with colorful emotions, everything I see is love.",
+      "Love, love, you are my greatest companion, come with me, it's enough, love, love, let's go through life's journey together.",
+      "Original Lyric Video",
+      ""
+    ]
+  }
 }

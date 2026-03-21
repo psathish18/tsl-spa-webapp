@@ -80,5 +80,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi06cKUzbIJbVVQCpyr79KR4zqY330YCkdfHg54Q6vpvCsIs71FNYFM94cQHm_XpQxSD06Ef2KIPSFb3MLtLgWv0p-UscOuaXAw-XK2yBFatw3fWCuGsmag6F1ES5Q7RxF7SdvtJLxRlxA/s400-c/nedunchalai.jpg",
   "generatedAt": "2026-01-18T13:03:28.959Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "nedunchalai",
+      "ivan yaaro",
+      "madhusree",
+      "mani amuthavan",
+      "sathya c",
+      "melancholic",
+      "soothing",
+      "2013",
+      "tamil",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Ivan Yaaro</strong>?</h4><p>The song explores themes of mystery and introspection, capturing the essence of longing.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Ivan Yaaro</strong>?</h4><p>The song is sung by the talented <strong>Madhusree</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Nedunchalai</em>?</h4><p>The music for the movie was composed by <strong>Sathya C</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Nedunchalai</em>?</h4><p>The movie was released in <strong>2013</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song reflects the protagonist's inner turmoil and the enigmatic nature of their journey.</p></div></div>",
+    "summary": "<strong>Ivan Yaaro</strong> is a poignant melody from the movie <em>Nedunchalai</em>, capturing the essence of mystery and introspection. Sung by Madhusree, the song's lyrics by Mani Amuthavan delve into themes of longing and uncertainty. The music by Sathya C complements the melancholic mood, creating a soothing yet haunting experience. This track beautifully conveys the protagonist's inner turmoil and the enigmatic nature of their journey, evoking deep emotions in the listener.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Ivan Yaaro</strong> from the movie <em>Nedunchalai</em> is a soulful melody that beautifully captures the essence of longing and mystery. Sung by the talented Madhusree, the song's haunting lyrics by Mani Amuthavan and the evocative music by Sathya C create an unforgettable experience. Dive into this mesmerizing track and let its soothing notes transport you to a world of introspection.",
+    "stanzaMeanings": [
+      "",
+      "Who is he, who is this person, I don't understand. Why did he come for me, I don't know.",
+      "Who is he, who is this person, I don't understand. Is he like tender coconut water or mountain water, I don't know. Are my eyes seeing the truth, is the crow really white? In my mind, is it kindness, when he comes closer, is it goodness?",
+      "Who is he, who is this person? Is he like tender coconut water or mountain water?",
+      "Who is he, who is this person, I don't understand. Why did he come for me, I don't know.",
+      "Who is he, who is this person, I don't understand. Why, for what reason, I don't know.",
+      "Who are the ones who know when it's time to sleep here? Who are the ones who calculated the weight of love? Oh no, this is love, my dear. On this long road, it will happen as a disaster."
+    ]
+  }
 }

@@ -82,5 +82,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjme_dIe9sCpRfwZ8Cek8UQ0r1PEteiGFRrX5uE9JjSb6RrUl6dzSN2RRouiVT0qZkyIpCyb_cayU-1UTU2MxVlwmBgZeuEQzode4lbpi6mjxI877UeX_rT1hw69QWmz1eXewmbebu13jI/s400-c/David_tamil.jpg",
   "generatedAt": "2026-01-18T13:04:46.181Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "david",
+      "naresh iyer",
+      "shweta pandit",
+      "yugabharathi",
+      "prashant pillai",
+      "romantic",
+      "melancholic",
+      "2013",
+      "tamil song",
+      "duet",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Iruvanil Ulavavaa</strong>?</h4><p>The song explores themes of romance and longing, with a soothing melody that evokes deep emotions.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p><strong>Naresh Iyer</strong> and <strong>Shweta Pandit</strong> lend their voices to this beautiful duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>David</em>?</h4><p>The music for the movie <em>David</em> was composed by <strong>Prashant Pillai</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>David</em>?</h4><p>The movie <em>David</em> was released in the year <strong>2013</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song convey?</h4><p>The song conveys emotions of love, longing, and a sense of soothing melancholy.</p></div></div>",
+    "summary": "The song <strong>Iruvanil Ulavavaa</strong> from the movie <em>David</em> is a romantic duet that beautifully captures the essence of love and longing. Sung by Naresh Iyer and Shweta Pandit, the melody is soothing and melancholic, perfectly complemented by Yugabharathi's poignant lyrics. Prashant Pillai's composition adds a layer of depth, making it a memorable piece that evokes a sense of nostalgia and tranquility. The song fits seamlessly into the film's narrative, enhancing the emotional depth of the characters' journey.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Iruvanil Ulavavaa</strong> from the movie <em>David</em>, where Naresh Iyer and Shweta Pandit's soulful voices blend seamlessly with Prashant Pillai's soothing composition. This song captures the essence of romance and longing, beautifully penned by Yugabharathi. Dive into a world of emotions with this captivating duet.",
+    "stanzaMeanings": [
+      "Come, moonlight, why do you stay away from me? Heart, will you give me what I want, or will you take it away?",
+      "Why does laughter fade, why do tears mix, why does suffering come?",
+      "Come wander in the night, let dreams bloom, let the dawn awaken, come dry your tears.",
+      "Come close the distance, come share anything, come continue the bond, my sky.",
+      "Can I stay thinking I will come? If lips ask, I will give, but if I am far, should I stay away? My eyes remain silent.",
+      "If you are the earth, I will be the shadow. If you are the rain, I will be like a peacock.",
+      "Come wander in the night, let dreams bloom, let the dawn awaken, come dry your tears.",
+      ""
+    ]
+  }
 }

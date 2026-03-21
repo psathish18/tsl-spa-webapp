@@ -143,5 +143,38 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjciD7q8iP1V6zvonJaCl8BgIelAhd3C3cSA212eCY8ImkQ2TllEf9w-1LvsiuPfpz3DS05lnpYOV8fK0ytBHVLxgMtNhcxYmkMUKnofdXXeFc-JmvsMrdBko-BIbcWJYA_7z2C5dAl-OuJ/s400-c/tsllogo-large1.png",
   "generatedAt": "2026-01-18T12:45:52.477Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "melancholic",
+      "romantic"
+    ],
+    "songType": [
+      "melody",
+      "theme",
+      "song"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "heartbreak"
+    ],
+    "keywords": [
+      "kaatru veliyidai",
+      "ar rahman",
+      "tejinder singh",
+      "shellee",
+      "2017",
+      "soothing",
+      "melancholic",
+      "romantic",
+      "melody",
+      "theme"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Jugni</strong>?</h4><p>The song captures themes of longing and love, with a soothing and melancholic vibe.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Jugni</strong>?</h4><p>The song is sung by <strong>AR Rahman</strong> and <strong>Tejinder Singh</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Kaatru Veliyidai</em>?</h4><p>The music for the movie was composed by <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Kaatru Veliyidai</em>?</h4><p>The movie was released in <strong>2017</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie?</h4><p>The song enhances the emotional depth of the film, reflecting the inner turmoil and romantic tension between the characters.</p></div></div>",
+    "summary": "The song <strong>Jugni</strong> from <em>Kaatru Veliyidai</em> is a soulful melody that explores themes of love and longing. Sung by AR Rahman and Tejinder Singh, the song's soothing and melancholic tones perfectly complement the film's narrative. The lyrics by Shellee add a layer of depth, capturing the emotional journey of the characters. This track evokes a sense of introspection and emotional resonance, making it a memorable part of the movie's soundtrack.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "Experience the ethereal charm of <strong>Jugni</strong> from <em>Kaatru Veliyidai</em>, where AR Rahman's soulful composition meets the haunting vocals of Tejinder Singh. This song beautifully captures the essence of longing and love, set against the backdrop of a poignant narrative. Let the mesmerizing lyrics by Shellee transport you to a world of emotions."
+  }
 }

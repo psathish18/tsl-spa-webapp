@@ -99,5 +99,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyQiv6vxj2luxmyyj86Ab9Z5LcQnc_R38v7PdOxctEzCU_bhYk_8fM4E2mag6EqK8e6T_GCQ_GvpNiBut9-WNwLV7llpwEeKHkrFCP9Hrjy7wZ_mbRNwRw1aFocqVzst3BT8wbwJv_skE/s400-c/Mariyaan1.jpg",
   "generatedAt": "2026-01-18T13:04:03.452Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "folk",
+      "theme"
+    ],
+    "occasions": [
+      "night drive",
+      "workout",
+      "celebration"
+    ],
+    "keywords": [
+      "mariyaan",
+      "yuvan",
+      "dhanush",
+      "ar rahman",
+      "2013",
+      "energetic",
+      "folk",
+      "motivational",
+      "tamil cinema",
+      "lyrics",
+      "song",
+      "movie",
+      "music director"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadal Raasa</strong>?</h4><p>The song captures themes of adventure and resilience, reflecting the protagonist's journey.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Mariyaan</em>?</h4><p><strong>AR Rahman</strong> composed the music for the film <em>Mariyaan</em>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kadal Raasa</strong>?</h4><p>The lyrics were penned by <strong>Dhanush</strong>.</p></div><div class=\"faq-item\"><h4>What year was <em>Mariyaan</em> released?</h4><p>The movie <em>Mariyaan</em> was released in <strong>2013</strong>.</p></div><div class=\"faq-item\"><h4>What is the significance of the song in the movie?</h4><p>The song underscores the protagonist's emotional and physical journey, highlighting his connection to the sea.</p></div></div>",
+    "summary": "<strong>Kadal Raasa</strong> from <em>Mariyaan</em> is an energetic and motivational song that reflects the protagonist's deep connection with the sea and his adventurous spirit. Sung by Yuvan and composed by AR Rahman, the song's powerful beats and evocative lyrics by Dhanush convey themes of resilience and longing. It captures the essence of the protagonist's journey, both physically and emotionally, as he navigates challenges. The song evokes a sense of nostalgia and determination, making it a memorable part of the film's narrative.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the raw energy of <strong>Kadal Raasa</strong> from the film <em>Mariyaan</em>, where Yuvan's powerful vocals meet the legendary AR Rahman's musical genius. This song, penned by Dhanush, captures the spirit of adventure and resilience. Dive into the rhythmic beats and let the waves of emotion carry you away.",
+    "stanzaMeanings": [
+      "",
+      "I am like a shark, hunting in the sea. I am the king of the sea, shedding blood and diving into pearls. I am Mariyaan.",
+      "The smell of fish curry, the wind blows by our shore. Even a single tree stone, with salt, cools the mind.",
+      "A sinner with sorrow cries, showing anger like a clown.",
+      "I am like a shark, hunting in the sea. I am the king of the sea, shedding blood and diving into pearls. I am Mariyaan.",
+      "I sing alone in the desert, in front of these rocks. Among the sinful people, my soul cries out.",
+      "I left my village and came to a new place, wandering alone. I remember my family tree, feeling cold like the winter flower.",
+      ""
+    ]
+  }
 }

@@ -111,5 +111,38 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji1XtiIElS8G1C9BhH5MpAiufJGpQlbxT0Of8NpXWjOIM_5UDbvaFNY1KlODoTXGyy2UZMDSAs4CN56lV6cq01BoFVpOZf_rU7Xwoyre12wBs8Eozq1xL592wF6in4AAXveXf-JUGYETI/s400-c/billa-2-stills-010.jpg",
   "generatedAt": "2026-01-18T13:07:27.346Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "billa 2",
+      "idhayam indha idhayam",
+      "shweta pandit",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, reflecting the complexities of relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <strong>Billa 2</strong>, the song plays during a pivotal moment that highlights the protagonist's emotional struggles and romantic connections.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Shweta Pandit</strong>, known for her melodious voice and emotional delivery.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music is composed by <strong>Yuvan Shankar Raja</strong>, a prominent figure in Tamil cinema known for his innovative sound.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on <strong>May 5, 2012</strong>, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "In <strong>Idhayam indha idhayam</strong>, the protagonist grapples with the intricacies of love, as portrayed in the film <em>Billa 2</em>. The song's romantic and melancholic tones evoke a sense of yearning and emotional depth, perfectly complementing the narrative. With its heartfelt lyrics and soothing melody, it captures the essence of longing and desire. This beautiful composition resonates with anyone who has experienced the highs and lows of love.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Idhayam indha idhayam</strong> from <em>Billa 2</em> is a mesmerizing romantic melody that beautifully captures the essence of love and longing. With Shweta Pandit's enchanting vocals and Yuvan Shankar Raja's soulful composition, this song takes listeners on an emotional journey. Experience the magic of heartfelt lyrics by Na Muthukumar that resonate deeply with every romantic soul.",
+    "stanzaMeanings": [
+      "Heart, this Heart bears how much happiness? Heart, this Heart bears how much sadness?"
+    ]
+  }
 }

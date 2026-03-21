@@ -60,5 +60,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieYkjEmpOdqNzHfKVM0c7Z3oB2cPf258rY2T9bhB3hyphenhyphene1QEXJQAiZi8uhcvwbSxzKhlPldoJG5r-EHNRULPJ3Bm1WLL5bcekdHJsrMVew5XnAqBn7TVJiiLzkpKsWxQ9ujqlJh_auPeH4/s400-c/Sarvam_Poster.jpg",
   "generatedAt": "2026-02-01T14:30:32.974Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "heartbreak"
+    ],
+    "keywords": [
+      "sarvam",
+      "yuvan",
+      "pa vijay",
+      "romantic",
+      "melancholic",
+      "2009",
+      "tamil song",
+      "melody",
+      "solo",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Katrukkulle</strong>?</h4><p>The song captures themes of love, longing, and emotional connection.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Sarvam</em>?</h4><p>The music for <em>Sarvam</em> was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Sarvam</em>?</h4><p>The movie <em>Sarvam</em> was released in <strong>2009</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Katrukkulle</strong>?</h4><p>The lyrics were penned by <strong>Pa Vijay</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song <strong>Katrukkulle</strong> evoke?</h4><p>The song evokes emotions of romance, melancholy, and serenity.</p></div></div>",
+    "summary": "The song <strong>Katrukkulle</strong> from the movie <em>Sarvam</em> is a soulful melody that explores themes of love and longing. Sung by Yuvan, who also composed the music, the song beautifully conveys the emotions of yearning and connection. The lyrics by Pa Vijay add depth to the narrative, making it a poignant piece that resonates with anyone who has experienced love. The soothing melody and heartfelt lyrics create a serene atmosphere, perfect for moments of reflection and relaxation.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Katrukkulle</strong> from the movie <em>Sarvam</em>, where Yuvan's soulful voice meets his own mesmerizing music composition. This song beautifully captures the essence of love and longing, making it a timeless piece in Tamil cinema. Dive into the soothing rhythms and let the lyrics by Pa Vijay transport you to a world of emotions.",
+    "stanzaMeanings": [
+      "",
+      "Singer: Yuvan Music: Yuvan Lyrics: Pa Vijay",
+      "You came like a fragrance in the air, and I am within you. Like rain in the wind, I am within you. Like the scent of rain on earth, you are in my heart forever. Like life in the eyes, you are always like me.",
+      "In the middle of the wind, loneliness came, beautiful desires gave feelings. The world changes, life seeks happiness. Without touching the leaves, flowers bloom everywhere, you are like that. New roots join hands, green water surrounds, you are like that.",
+      "The heart got caught in the sea breeze, it says your name strongly. The waves spread wide, they call you.",
+      "Cannot bear... the warmth of the earth. Your breath... brings heat.",
+      "Don't go away... colors never change. Your body, where is it going?"
+    ]
+  }
 }

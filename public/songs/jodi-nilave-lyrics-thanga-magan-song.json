@@ -66,5 +66,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUOeaXusKNAK8Ep_bH0FF1XivMNF2TL59sFowwccSqVfU1hT9_tAK6vLAzv8yRiJLQci_LPq1M60xHFAJl1MD4Lz0j3SCPKXvEVugpiQZXT3C1QQNuva9lKA-j7DaKxHwTXwN_lVXPiVg/s400-c/IMG_20151125_095605.jpg",
   "generatedAt": "2026-01-18T12:53:22.383Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "thanga magan",
+      "dhanush",
+      "shweta mohan",
+      "melancholic",
+      "romantic",
+      "2015",
+      "lyrics",
+      "tamil song",
+      "jodi nilave",
+      "duet",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Jodi Nilave</strong>?</h4><p>The song explores themes of love, longing, and emotional pain.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Jodi Nilave</strong>?</h4><p>The song is sung by <strong>Dhanush</strong> and <strong>Shweta Mohan</strong>.</p></div><div class=\"faq-item\"><h4>In which movie does <strong>Jodi Nilave</strong> feature?</h4><p>The song is part of the movie <em>Thanga Magan</em>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Jodi Nilave</strong>?</h4><p>The lyrics were penned by <strong>Dhanush</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Jodi Nilave</strong> released?</h4><p>The song was released in <strong>2015</strong>.</p></div></div>",
+    "summary": "In the movie <em>Thanga Magan</em>, the song <strong>Jodi Nilave</strong> beautifully captures the emotional turmoil of love and separation. Sung by Dhanush and Shweta Mohan, the song's lyrics delve into the pain and solace found in relationships. The melody evokes a sense of longing and reflection, making it a perfect accompaniment for moments of introspection. The soothing voices and poignant lyrics create a lasting impact, resonating with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the soulful melody of <strong>Jodi Nilave</strong> from the movie <em>Thanga Magan</em>, where Dhanush's heartfelt lyrics and vocals blend seamlessly with Shweta Mohan's soothing voice. This song captures the essence of love and longing, making it a timeless piece. Dive into the emotional journey that this beautiful duet offers."
+  }
 }

@@ -84,5 +84,38 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsVx4nUS7V4rkT6LL9FIflURMjcz1cWpyaLB09oempzGcHM6YVG8McSfsyGOcPsKvTObAqaQa-QL2lRzxEhiT074r-_46nngHaSDPFuDPtgRGzQTOWEDPaQk-rZj_A8wT4gzJ4yvVTc14/s400-c/Muppozhudhum+Un+Karpanaigal+stills.jpg",
   "generatedAt": "2026-01-18T13:08:01.251Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "muppozhudhum un karpanaigal",
+      "sittara",
+      "thamarai",
+      "gv prakashkumar",
+      "romantic",
+      "melody",
+      "2012",
+      "tamil song",
+      "lyrics",
+      "translation"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kangal Neeye</strong>?</h4><p>The song explores themes of love and longing, beautifully expressed through its lyrics and melody.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kangal Neeye</strong>?</h4><p>The song is sung by <strong>Sittara</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Muppozhudhum Un Karpanaigal</em>?</h4><p>The music was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>What is the significance of the song in the movie?</h4><p>In the movie, the song underscores the protagonist's deep emotional connection and longing for their beloved.</p></div><div class=\"faq-item\"><h4>When was <strong>Kangal Neeye</strong> released?</h4><p>The song was released in <strong>2012</strong>.</p></div></div>",
+    "summary": "In the movie <em>Muppozhudhum Un Karpanaigal</em>, <strong>Kangal Neeye</strong> serves as a poignant expression of love and yearning. The song's lyrics, penned by Thamarai, convey a deep emotional connection and longing for a loved one. Sittara's soulful rendition, combined with GV Prakash Kumar's soothing melody, creates a captivating and romantic atmosphere. This song beautifully captures the essence of love, making it a favorite for romantic occasions and moments of reflection.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Kangal Neeye</strong> from <em>Muppozhudhum Un Karpanaigal</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With Sittara's soulful voice and Thamarai's poetic lyrics, this song is a heartfelt expression of deep emotions. GV Prakash Kumar's music adds a soothing touch, making it a timeless romantic classic."
+  }
 }

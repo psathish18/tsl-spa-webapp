@@ -42,5 +42,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF0vGL8Ly7h2i7qZSOI1EPuCH6-fyEQ0bdlAy9XnpcOnC9l0gkGq-Cp4dMlUa1QPA03X1wixpLf0IdVofN5mcPUOngL9uF9ZVnkM_rD608jG8tH9Ydg8eQzcJc_emLH0afyzf-bzFDhlQ/s400-c/Itho+Itho+En+Pallavi.JPG",
   "generatedAt": "2026-01-18T13:20:18.688Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "idho idho en pallavi",
+      "sigaram",
+      "spb",
+      "ks chithra",
+      "romantic",
+      "melody",
+      "1991",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of love and longing, reflecting on the beauty and complexity of romantic relationships.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is featured in the movie <strong>Sigaram</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by the legendary duo <strong>K.S. Chithra</strong> and <strong>S.P. Balasubrahmanyam</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 11, 1991</strong>.</p></div></div>",
+    "summary": "In <strong>Idho Idho En Pallavi</strong>, the lyrics weave a tale of love that transcends time, evoking feelings of nostalgia and romance. The song captures the essence of longing, as the singers express their emotions through heartfelt melodies. It serves as a beautiful backdrop to the unfolding love story in <em>Sigaram</em>, making it a memorable piece in Tamil cinema. The soothing composition and poignant lyrics resonate deeply with listeners, making it a cherished classic.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "<strong>Idho Idho En Pallavi</strong> from <em>Sigaram</em> is a timeless melody that beautifully captures the essence of love and longing. With the enchanting voices of K.S. Chithra and S.P. Balasubrahmanyam, this song resonates with anyone who has ever experienced the magic of romance. Its soothing lyrics and captivating tune make it a must-listen for fans of classic Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "Is my song ever going to become a melody? If he is your refuge, will it then become a scripture?",
+      "",
+      "My sky is always full moon, what kind of magic is this? Will I see your love and my love together?",
+      "In my life, what kind of sky is this? Without any delay, what kind of trap is this?",
+      "Is hunger not a joy? Will it be resolved today?",
+      "Is my song ever going to become a melody? If she is your refuge, will it then become a scripture?",
+      "",
+      "Will that sky come to an end, will our life end? Will the seasons remain unchanged, will our love change?",
+      "If a song comes to sing, will it become your song? Will fate change, will the notes in your song change?",
+      "Will my prayer go without your praise?",
+      "Is my song ever going to become a melody? If she is your refuge, will it then become a scripture?",
+      ""
+    ]
+  }
 }

@@ -37,5 +37,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:42:30.517Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "energetic"
+    ],
+    "songType": [
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "night drive"
+    ],
+    "keywords": [
+      "ayogya",
+      "anirudh",
+      "sam cs",
+      "vivek",
+      "romantic",
+      "melody",
+      "2019",
+      "tamil",
+      "lyrics",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kanne Kanne</strong>?</h4><p>The song is a romantic melody that expresses love and longing.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kanne Kanne</strong>?</h4><p>The song is sung by <strong>Anirudh Ravichander</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kanne Kanne</strong>?</h4><p>The lyrics were penned by <strong>Vivek</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Ayogya</em>?</h4><p>The movie was released in <strong>2019</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Ayogya</em>?</h4><p>The song captures a moment of deep affection and connection between the lead characters.</p></div></div>",
+    "summary": "In the movie <em>Ayogya</em>, <strong>Kanne Kanne</strong> is a romantic melody that beautifully captures the emotions of love and longing. Sung by Anirudh, the song's soothing tune and heartfelt lyrics by Vivek convey a deep sense of affection. The music by Sam CS enhances the romantic atmosphere, making it a memorable track. This song evokes feelings of warmth and connection, perfect for intimate moments.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Kanne Kanne</strong> from <em>Ayogya</em> is a captivating melody that blends Anirudh's soulful voice with Sam CS's enchanting music. This romantic track captures the essence of love and longing, making it a perfect choice for special occasions. Dive into the mesmerizing lyrics penned by Vivek and let the music take you on a heartfelt journey.",
+    "stanzaMeanings": [
+      "",
+      "Without you coming to me, my heart can't bear it.",
+      "A desire I've never felt for anyone else, I feel for you, girl.",
+      "Dear, dear, let me carry you and go far away. Like a wild creature, let me jump and fulfill all my desires.",
+      "",
+      "Without you coming to me, my heart can't bear it.",
+      "A desire I've never felt for anyone else, I feel for you, girl.",
+      "Dear, dear, let me carry you and go far away. Like a wild creature, let me jump and fulfill all my desires.",
+      ""
+    ]
+  }
 }

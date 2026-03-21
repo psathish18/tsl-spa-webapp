@@ -42,5 +42,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:30:27.341Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "ratsasan",
+      "sean roldan",
+      "ram kumar",
+      "m ghibran",
+      "melancholic",
+      "romantic",
+      "melody",
+      "2018",
+      "tamil song",
+      "lyrics",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannamma Kanvizhi</strong>?</h4><p>The song explores themes of longing and emotional depth, capturing the essence of love and melancholy.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Kannamma Kanvizhi</strong>?</h4><p>The music was composed by <strong>M Ghibran</strong>, known for his evocative compositions.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kannamma Kanvizhi</strong>?</h4><p>The lyrics were penned by <strong>Ram Kumar</strong>, adding a poetic touch to the song.</p></div><div class=\"faq-item\"><h4>What is the release year of the song <strong>Kannamma Kanvizhi</strong>?</h4><p>The song was released in <strong>2018</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kannamma Kanvizhi</strong>?</h4><p>The song is sung by <strong>Sean Roldan</strong>, whose voice adds depth to the melody.</p></div></div>",
+    "summary": "<strong>Kannamma Kanvizhi</strong> is a poignant melody from the movie <em>Ratsasan</em>, capturing the emotional turmoil of love and longing. Sung by Sean Roldan, the song's soothing tune and melancholic lyrics by Ram Kumar evoke a deep sense of yearning. M Ghibran's composition enhances the emotional impact, making it a perfect backdrop for moments of introspection. The song beautifully conveys the pain of separation and the hope of reunion, resonating with anyone who has experienced love's complexities.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Kannamma Kanvizhi</strong> from the movie <em>Ratsasan</em> is a soul-stirring melody that beautifully captures the essence of longing and love. Sean Roldan's emotive vocals combined with M Ghibran's haunting composition create a mesmerizing experience. This collaboration brings out the depth of Ram Kumar's poignant lyrics, making it a must-listen for music lovers.",
+    "stanzaMeanings": [
+      "",
+      "Where are you? I will come there. What else do I need?",
+      "The house where stars rest. A cage built in the mist.",
+      "Because of you, the darkness in this forest fades.",
+      "In love, you surround me like the Ganges. In that river, my life breathes. From now on, because of you, I will become like the wind-blown body.",
+      "This is like a dream, hoping you will come every day, just for you.",
+      "Until then, life is a struggle. When will this earth gain life? Tell me.",
+      "My dear, my eyes are filled with tears. Without you, the sky is just blue, and that's my pain.",
+      "Where are you? I will come there. What else do I need?"
+    ]
+  }
 }

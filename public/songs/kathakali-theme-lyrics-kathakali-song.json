@@ -58,5 +58,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ0cqLmBI0p6a2tQFaVzOTxZiIGS2fZUoEQ12fxnhfKMJMKASR1IxN10dQYWM5aGgSdL983q0SP9GqlqaJg6pTA_oXuq8Kn8wdOHSG7Zqe4r9a1nWMdRtMdztGX0gXwP19v4YaYewn2PU/s400-c/Kathakali.jpg",
   "generatedAt": "2026-01-18T12:53:00.052Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "theme",
+      "bgm"
+    ],
+    "occasions": [
+      "workout",
+      "party",
+      "night drive"
+    ],
+    "keywords": [
+      "kathakali",
+      "hip hop tamizha",
+      "theme",
+      "energetic",
+      "motivational",
+      "2015",
+      "bgm",
+      "movie",
+      "song",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the <strong>Kathakali Theme</strong> song?</h4><p>The song is energetic and motivational, designed to evoke a sense of power and determination.</p></div><div class=\"faq-item\"><h4>Who is the music director of the <em>Kathakali</em> movie?</h4><p>The music director is <strong>Hip Hop Tamizha</strong>.</p></div><div class=\"faq-item\"><h4>What role does the <strong>Kathakali Theme</strong> play in the movie?</h4><p>The theme sets the tone for intense and action-packed scenes, enhancing the movie's dramatic moments.</p></div><div class=\"faq-item\"><h4>When was the <em>Kathakali</em> movie released?</h4><p>The movie was released in <strong>2015</strong>.</p></div></div>",
+    "summary": "The <strong>Kathakali Theme</strong> from the movie <em>Kathakali</em> is a high-energy track that captures the essence of action and intensity. Composed and sung by Hip Hop Tamizha, the song serves as a powerful backdrop for the film's dramatic sequences. Its motivational beats and commanding lyrics inspire a sense of strength and determination. This theme is perfect for moments requiring an adrenaline boost, making it a favorite for workouts and high-energy settings.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Feel the pulse of <strong>Kathakali Theme</strong> from the movie <em>Kathakali</em>, where Hip Hop Tamizha's electrifying beats meet intense lyrics. This track is a powerhouse of energy, perfect for those moments when you need a surge of motivation. Dive into the world of <em>Kathakali</em> and experience the adrenaline rush like never before.",
+    "stanzaMeanings": [
+      "Take up arms, break obstacles, dance like Kathakali.",
+      "Cut off the heads of enemies, dance like Kathakali.",
+      "Eyes like sharp blades that burn like the sea.",
+      ""
+    ]
+  }
 }

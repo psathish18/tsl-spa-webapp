@@ -90,5 +90,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7QMpFianB3dtDRj1kei1vuW2Ohe0D1Oe2xGS5HCO4InQaAw3OhUscMJQqN3YGsqcEgTQL48PkhraXZ6Fz_RhysT1qeB2fM0jCj9DxKNQYgpfp8KZJUaLICHVOJh518h25cniHJiATlv4/s400-c/moondru-per-moondru-kaadhal.jpg",
   "generatedAt": "2026-01-18T13:05:32.476Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "moondru per moondru kadhal",
+      "neha bhasin",
+      "na muthukumar",
+      "yuvan shankar raja",
+      "romantic",
+      "melody",
+      "2012",
+      "tamil cinema",
+      "love song",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaadhal Enthan Kaadhal</strong>?</h4><p>The song explores the depths of love and longing, capturing the emotional journey of the characters.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Moondru Per Moondru Kadhal</em>?</h4><p>The music was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by <strong>Na Muthukumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Moondru Per Moondru Kadhal</em> released?</h4><p>The movie was released in <strong>2012</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song evoke?</h4><p>The song evokes feelings of romance, longing, and a soothing sense of love.</p></div></div>",
+    "summary": "<strong>Kaadhal Enthan Kaadhal</strong> is a romantic melody from the movie <em>Moondru Per Moondru Kadhal</em>, capturing the essence of love and longing. Sung by Neha Bhasin, the song beautifully conveys the emotions of yearning and affection through its soothing tune. The lyrics by Na Muthukumar add depth to the song, making it a heartfelt expression of love. Yuvan Shankar Raja's composition enhances the emotional impact, creating a memorable listening experience.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Kaadhal Enthan Kaadhal</strong> from the movie <em>Moondru Per Moondru Kadhal</em> is a mesmerizing melody that beautifully captures the essence of love. Sung by Neha Bhasin, with heartfelt lyrics by Na Muthukumar and soulful music by Yuvan Shankar Raja, this song is a perfect blend of emotion and melody. Dive into the soothing tunes and let the romantic vibes take over your senses.",
+    "stanzaMeanings": [
+      "Love, my love, I live for you. Oh, love, the rain is pouring, my heart is fluttering. What will happen to my love? If fish jump in a mirage, it's happiness.",
+      "The moment I saw, he made me yearn for him.",
+      "There's nothing like the music of love. Life is like a snake and ladder game.",
+      "Once, I want to rest in your work. That joy is enough for me.",
+      "Give me the blessing to walk holding your fingers. That's all I need, my love, I will die for you.",
+      "Will the wind that touched you touch me without disappearing on the way? Will it give fragrance? Oh, what will happen?",
+      "What will happen to my love? If fish jump in a mirage, it's happiness.",
+      "I tried my best :)"
+    ]
+  }
 }

@@ -121,5 +121,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQHvNEFRD_5LY0Z64F6z3ywQuua90jD7GWQNqS6A8HXu3KpV9_yv77x8n2vYn8-DzzZmTabj-7-Mz6M4HQHg2h9ZmkN5K2MK_r1aRAFFJIihs1f1tBRoEN3-bvfqr8M_9ZKwUMVJOKKQ/s400-c/3-movie-stills.jpg",
   "generatedAt": "2026-01-18T13:08:25.311Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "3",
+      "dhanush",
+      "shruti haasan",
+      "anirudh",
+      "romantic",
+      "melody",
+      "2011",
+      "tamil",
+      "lyrics",
+      "translation",
+      "love song",
+      "duet"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of <strong>Kannazhaga</strong>?</h4><p>The song <strong>Kannazhaga</strong> translates to \"The Kiss of Love,\" expressing deep affection and admiration.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>3</em>?</h4><p>In the movie <em>3</em>, the song captures the romantic moments between the lead characters, highlighting their love story.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Kannazhaga</strong>?</h4><p>The music for <strong>Kannazhaga</strong> was composed by <strong>Anirudh</strong>, known for his innovative and captivating compositions.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Kannazhaga</strong> released?</h4><p>The song <strong>Kannazhaga</strong> was released on December 25, 2011.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kannazhaga</strong>?</h4><p>The song is sung by <strong>Dhanush</strong> and <strong>Shruti Haasan</strong>, adding a unique charm to the melody.</p></div></div>",
+    "summary": "The song <strong>Kannazhaga</strong> from the movie <em>3</em> is a romantic duet that beautifully captures the essence of love and affection. Sung by Dhanush and Shruti Haasan, it features heartfelt lyrics penned by Dhanush himself. Anirudh's soothing music complements the tender emotions conveyed in the song, making it a favorite for romantic occasions. The song evokes feelings of warmth and happiness, perfectly fitting the narrative of the movie's love story.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kannazhaga</strong> from the movie <em>3</em>, where Dhanush's heartfelt lyrics meet Anirudh's captivating music. This romantic duet, sung by Dhanush and Shruti Haasan, beautifully captures the essence of love. Dive into the soothing vibes and lyrical brilliance that make this song a timeless favorite."
+  }
 }

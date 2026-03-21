@@ -39,5 +39,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:26.152Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "classic",
+      "devotional",
+      "melody"
+    ],
+    "occasions": [
+      "festivals",
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "uthama puthiran",
+      "kaathiruppan kamalakannan",
+      "1958",
+      "old tamil songs",
+      "devotional",
+      "classic",
+      "leela p",
+      "ramanathan g",
+      "sundhara vathiyar",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaathiruppan Kamalakannan</strong>?</h4><p>The song is devotional, focusing on waiting for Lord Krishna with love and devotion.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The song is from the movie <em>Uthama Puthiran</em>, released in 1958.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music was composed by <strong>Ramanathan G</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kaathiruppan Kamalakannan</strong>?</h4><p>The song was sung by <strong>Leela P</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song evoke?</h4><p>The song evokes feelings of devotion, peace, and nostalgia.</p></div></div>",
+    "summary": "<strong>Kaathiruppan Kamalakannan</strong> is a devotional song from the 1958 film <em>Uthama Puthiran</em>. It beautifully expresses the anticipation and love for Lord Krishna, capturing the essence of devotion and longing. The soothing melody and heartfelt lyrics create a peaceful and nostalgic atmosphere. This classic piece is a testament to the timeless beauty of Tamil cinema's musical heritage.",
+    "releaseYear": "1958",
+    "high_ctr_intro": "Experience the divine melody of <strong>Kaathiruppan Kamalakannan</strong> from the classic film <em>Uthama Puthiran</em>. This song beautifully captures the devotional essence with its soothing tunes and heartfelt lyrics. Immerse yourself in the nostalgic charm of Tamil cinema's golden era.",
+    "stanzaMeanings": [
+      "",
+      "The lotus-eyed one will wait.",
+      "The lotus-eyed one will wait there. The lotus-eyed one will wait.",
+      "Thinking deeply with love, without closing his eyes, the lotus-eyed one will wait.",
+      "By the riverbank, at dusk, like a Tamil flower, the pure chariot will come, and the lotus-eyed one will wait.",
+      "The cowherd girls playfully tease, the music of the flute brings joy and beauty, the cowherd girls playfully tease.",
+      "He will leap and catch, he will stop the butter and curd pots. Sitting on the ground, he draws Radha's form, and the lotus-eyed one will wait.",
+      "He will decorate playfully, he will decorate playfully, asking the veena to play for a while. He will decorate playfully.",
+      "He will sing, and she will dance to it. After a while, he will sing, and she will dance to it again.",
+      "With concern, he wonders if her feet hurt, the hero who brings love and happiness comes, and the lotus-eyed one will wait.",
+      "Thinking deeply with love, without closing his eyes, the lotus-eyed one will wait.",
+      ""
+    ]
+  }
 }

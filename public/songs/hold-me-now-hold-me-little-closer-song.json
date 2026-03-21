@@ -83,5 +83,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaLYzQYbWJNYMp-Y1u8DZnN_4Q6KNlLe97pbEDQLiwZGlhfkHtZyqmRCLd20aZV5tIfNyhxwB8WlDxz9Us038ToGnMgLahrkK82r4uyKWxoV6gD15nRrIrWNiPJQoOlkfL_wa3vm38JQ/s400-c/Hold+Me+Now+-++Podhum+di+-+Mela+mela+parakkuren+Song+Lyrics+.jpeg",
   "generatedAt": "2026-01-18T12:43:50.202Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "pyaar prema kadhal",
+      "sanjith hegde",
+      "thurga",
+      "vivek",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and affection, capturing the emotions of being close to a loved one.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <strong>Pyaar Prema Kadhal</strong>, this song highlights the romantic moments between the lead characters, showcasing their chemistry and connection.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song is sung by <strong>Sanjith Hegde</strong> and <strong>Thurga</strong>, with music composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>July 31, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Hold Me Now Hold Me Little Closer</strong>, the romantic essence of love is beautifully portrayed through the heartfelt lyrics and melodious tune. The song encapsulates the emotions of longing and affection, making it a perfect fit for romantic occasions. As the characters express their feelings, listeners are drawn into a world of love and connection. This enchanting duet leaves a lasting impression, resonating with anyone who has experienced the magic of love.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Hold Me Now Hold Me Little Closer</strong> from <em>Pyaar Prema Kadhal</em> is a mesmerizing romantic duet that beautifully captures the essence of love and longing. With the enchanting voices of Sanjith Hegde and Thurga, paired with Yuvan's captivating music, this song creates an unforgettable vibe. Dive into the heartfelt lyrics and let the melody sweep you off your feet!",
+    "stanzaMeanings": [
+      "I am falling down from the lightning of your eyes. It's enough if I come and greet you, I will live. Come close, I will sing a little. The wind that comes with magic will blow. I get angry, I smile, I tease you a little. I am scared, I cover my eyes and look at you. I will give my life for you. I am flying higher and higher because of your love, my heart is beating. I am losing myself in your eyes. Hold me now, hold me a little closer.",
+      "What have you done to me? I won't change. Tell me, where am I going?",
+      "Darling, you came and played with my heart. I have changed my place with my boundaries.",
+      "I am sleeping in the shade, I am resting in the night.",
+      "You come and walk, where are you?",
+      "I enjoy a little, you give me a small kiss, it's amazing - I hold you tightly.",
+      "I am flying higher and higher because of your love, my heart is beating.",
+      "I forget the time when you leave me.",
+      "Hold me now, hold me a little closer."
+    ]
+  }
 }

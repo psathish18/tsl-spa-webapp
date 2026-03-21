@@ -83,5 +83,59 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:02:11.398Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "romantic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "endhiran",
+      "ar rahman",
+      "karky",
+      "kash n krissy",
+      "2010",
+      "energetic",
+      "romantic",
+      "dance",
+      "tamil cinema",
+      "robotic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Irumbile Oru Idhaiyam</strong>?</h4><p>The song blends themes of robotics and romance, capturing the futuristic essence of the movie <em>Endhiran</em>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Irumbile Oru Idhaiyam</strong>?</h4><p>The music was composed by the legendary <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Endhiran</em>?</h4><p>The song is featured in a sequence showcasing the robot's exploration of human emotions and love.</p></div><div class=\"faq-item\"><h4>When was <strong>Irumbile Oru Idhaiyam</strong> released?</h4><p>The song was released in 2010 as part of the <em>Endhiran</em> soundtrack.</p></div></div>",
+    "summary": "In the movie <em>Endhiran</em>, <strong>Irumbile Oru Idhaiyam</strong> plays during a pivotal moment where the robot character explores the concept of love for the first time. The song's energetic beats and romantic lyrics reflect the fusion of technology and emotion. AR Rahman's composition, combined with the unique vocals of Kash 'n' Krissy, creates a vibrant and futuristic atmosphere. This track captures the essence of innovation and romance, making it a standout piece in the film's soundtrack.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "Experience the electrifying fusion of <strong>Irumbile Oru Idhaiyam</strong> from the epic sci-fi movie <em>Endhiran</em>. With AR Rahman's pulsating beats and the dynamic vocals of Kash 'n' Krissy, this track is a futuristic dance anthem. Dive into the world of robotics and romance with this unforgettable musical masterpiece.",
+    "stanzaMeanings": [
+      ",",
+      "You want to feel my kiss. Boy you can't touch this. Robotic, hypnotic, super sonic superstar. Can't, can't, can't get this superstar. Can't, can't, can't get this.",
+      "In metal, a heart is sprouting. Is it calling for love for the first time? In metal, a heart is sprouting. Is it calling for love for the first time?",
+      "A zero becomes fragrant today. Stars with the sky, lightning with the eyes. Searches that Google can't find are with me. Dreams of love, flower girl, with you.",
+      "Oh..ohkokokoh Robo",
+      "IRobo, in your ear, shall I say I love you? IRobo, in your ear, shall I say I love you? I am a super girl, your love's wrapper girl. I am a super girl, your love's wrapper girl.",
+      "Inside me, everything is you. I will catch the spark from your blue eyes. I will smile with you in my blue waves. My engine will connect your heart to mine. When you sleep, I will embrace myself. Always, I will be a doll in your hands.",
+      "Watch me, robo, shake it. I know you want to break it. When you touch and talk, it gives a shock. When making love, the motor speed increases. In the middle of the night, the battery runs out.",
+      "In memory, I captured the maiden in a separate cell. Without shutting down, I trembled in the night. Oh..ohkokokoh Robo. I read you every day with sensors. Because of you, I forgot my fate.",
+      "Will you take my kiss without saliva, without evidence? Will you say love without blood and go? In the language of biology, I am the robot. In the language of physics, I am Indhiran.",
+      "Without death, I came to the earth with a curse. Without deceit, I came with love.",
+      "Hey robo, don't faint.",
+      "You wanna come and get it, boy, or are you just a robo toy? I don't want to break you, even if it takes a breakthrough. You don't even need a clue. You be my man's backup. I think you need a check-up. I can melt your heart down, maybe if you got one. We've been doing that for ages since the time of sages. Don't butt in, go away. You're the snake circling my leg. Love-making robo, I don't need you, go away.",
+      "In metal, a heart is sprouting...",
+      "A zero becomes fragrant today. Stars with the sky, lightning with the eyes. Searches that Google can't find are with me. Dreams of love, flower girl, with you.",
+      "IRobo, in your ear, shall I say I love you? I am a super girl, your love's rapper girl. I am a super girl, your love's rapper girl.",
+      "Robotic, hypnotic, super sonic superstar. Can't, can't, can't get this superstar. Can't, can't, can't get this.",
+      "You, you can't touch this...",
+      "",
+      ""
+    ]
+  }
 }

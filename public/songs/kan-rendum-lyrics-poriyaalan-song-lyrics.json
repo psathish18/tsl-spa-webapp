@@ -48,5 +48,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyHF5GkvJFV2MzOGF73F1vbBuZKXQhA22CF6roSFV_YiMgJyWHrRNwhpxk7IAT4BnuNj70yYrfd18C4NGWG0dgIfG6wipWjtvjw6BxgwWgIFRTkqbz6wW3ZPK5YUzQNaQw6tmC2Z0hjI4/s400-c/poriyalan.jpg",
   "generatedAt": "2026-01-18T12:59:17.258Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "poriyaalan",
+      "gv prakash kumar",
+      "saindhavi",
+      "ms jones",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil movie",
+      "tamil song",
+      "duet",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kan Rendum</strong>?</h4><p>The song revolves around themes of love and longing, capturing the emotions of waiting and anticipation.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kan Rendum</strong>?</h4><p>The song is sung by <strong>GV Prakash Kumar</strong> and <strong>Saindhavi</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Poriyaalan</em>?</h4><p>The music for the movie was composed by <strong>M.S. Jones</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Poriyaalan</em>?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div></div>",
+    "summary": "<strong>Kan Rendum</strong> is a melodious duet from the movie <em>Poriyaalan</em>, capturing the essence of love and longing. The song portrays the emotions of waiting for a loved one, with soothing music by M.S. Jones. Sung by GV Prakash Kumar and Saindhavi, it evokes a sense of calm and romance. The lyrics beautifully express the anticipation and joy of being with someone special.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Kan Rendum</strong> from the movie <em>Poriyaalan</em> is a captivating duet that beautifully blends the soothing vocals of GV Prakash Kumar and Saindhavi. With M.S. Jones's enchanting music, this song creates a romantic and calming atmosphere. Dive into the mesmerizing world of <strong>Kan Rendum</strong> and experience the magic of love and longing.",
+    "stanzaMeanings": [
+      "I waited with both eyes for you to come, watching your path, my dear, come forward.",
+      "Like a kite, my heart finds shelter in my hands, today, today it will pass through my heart.",
+      "I waited with both eyes for you to come, watching your path, my dear, come forward.",
+      "A man's heart speaks openly, a woman's heart speaks behind a screen, the fragrance inside a flower sends messages to the wind.",
+      "The language of silence is the address of love, the heart understands it today.",
+      "",
+      "Until where will you take me, I will come with you until then, let's forget the world and run away, let's wander in dreams.",
+      "Again and again, my heart likes to lose to you.",
+      "I waited with both eyes for you to come, watching your path, my dear, come forward.",
+      "Like a kite, my heart finds shelter in my hands, today, today it will pass through my heart.",
+      "my dear,"
+    ]
+  }
 }

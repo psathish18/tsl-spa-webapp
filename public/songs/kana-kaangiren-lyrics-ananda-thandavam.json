@@ -43,5 +43,59 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:20.414Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classic"
+    ],
+    "occasions": [
+      "wedding",
+      "anniversary",
+      "valentine's day",
+      "celebration"
+    ],
+    "keywords": [
+      "ananda thandavam",
+      "kana kaangiren",
+      "nithyashree",
+      "gv prakashkumar",
+      "romantic",
+      "melody",
+      "2009",
+      "tamil movie",
+      "love song",
+      "wedding",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kana Kaangiren</strong>?</h4><p>The song is a romantic melody that celebrates love and togetherness.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Ananda Thandavam</em>?</h4><p>The music for <em>Ananda Thandavam</em> was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kana Kaangiren</strong>?</h4><p>The song is sung by the talented <strong>Nithyashree</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Ananda Thandavam</em>?</h4><p>The movie <em>Ananda Thandavam</em> was released in <strong>2009</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does <strong>Kana Kaangiren</strong> evoke?</h4><p>The song evokes feelings of romance, happiness, and serenity.</p></div></div>",
+    "summary": "Kana Kaangiren is a beautiful romantic melody from the movie Ananda Thandavam, capturing the essence of love and commitment. Sung by Nithyashree, the song portrays a couple's journey of togetherness and joy. GV Prakash Kumar's music enhances the soothing and happy mood of the song. It is perfect for weddings and anniversaries, evoking emotions of love and celebration. The lyrics paint a vivid picture of a blissful union, making it a timeless classic.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kana Kaangiren</strong> from the movie <em>Ananda Thandavam</em>. Nithyashree's soulful voice combined with GV Prakash Kumar's mesmerizing music creates a romantic ambiance. Dive into this classic love song that beautifully captures the essence of togetherness.",
+    "stanzaMeanings": [
+      "",
+      "I see a dream, I see a dream, in the same place, on the same stage, it's just the two of us.",
+      "With the cloth that touches the earth, with the sacred thread that touches the chest, with the garland that touches the bell, I will be happy.",
+      "Every day, with fragrant flowers, decorating the entrance with designs, I will grow in the lap of my loving husband.",
+      "I see a dream, I see a dream, in the same place, on the same stage, it's just the two of us.",
+      "My friends and your friends tease us. My saree and your dhoti, and me.",
+      "You release the parrot, I jump up with joy, that's happiness and sadness, I release my fingers.",
+      "The drums of Thanjavur beat, Tamil Nadu praises, the sound of Sivakasi fireworks echoes in the town.",
+      "The southern fragrance, the Chettinad cooking smell, even across New York, it pierces the nose.",
+      "I see a dream, I see a dream, in the same place, on the same stage, it's just the two of us.",
+      "Our bedroom, our dear room, my love, there are flowers, without flower clothes, there are no other things.",
+      "Being male and female, oh, now it makes sense, you and me, there is no difference.",
+      "With the chest, with the pearls, counting them, building a house with the moon, I will love.",
+      "All the desires of the body, all the desires of life, before my life ends, I will succeed in life.",
+      "I see a dream, I see a dream, in the same place, on the same stage, it's just the two of us.",
+      "With the cloth that touches the earth, with the sacred thread that touches the chest, with the garland that touches the bell, I will be happy.",
+      "Every day, with fragrant flowers, decorating the entrance with designs, I will grow in the lap of my loving husband."
+    ]
+  }
 }

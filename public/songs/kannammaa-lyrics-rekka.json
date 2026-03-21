@@ -86,5 +86,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga6bEk5lrswHBljQPpHqARcpgD6cCnJkX9Mv7Nq4rXsjUKiJNVYOaqDJ97kzjBeOtluTG9_jDfoVVk26VOQN1K54egz3YUF95-STKtB9RRVgzQMIfHOIrlfqwwoK1uw2xpseLUSm2VyPU/s400-c/CqaPleAW8AAkr7R.jpg",
   "generatedAt": "2026-02-01T13:03:42.393Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "rekka",
+      "nandini erikar",
+      "yugabharathi",
+      "d imman",
+      "romantic",
+      "melody",
+      "2016",
+      "tamil song",
+      "lyrics",
+      "kannammaa"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kannammaa</strong>?</h4><p>The song <strong>Kannammaa</strong> is a romantic melody that expresses love and longing.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Rekka</em>?</h4><p>The music for <em>Rekka</em> was composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kannammaa</strong>?</h4><p>The song <strong>Kannammaa</strong> is sung by <strong>Nandini Erikar</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Rekka</em>?</h4><p>The movie <em>Rekka</em> was released in <strong>2016</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kannammaa</strong>?</h4><p>The lyrics for <strong>Kannammaa</strong> were penned by <strong>Yugabharathi</strong>.</p></div></div>",
+    "summary": "The song <strong>Kannammaa</strong> from the movie <em>Rekka</em> is a beautiful romantic melody that captures the essence of love and longing. Sung by Nandini Erikar, the song is composed by D Imman with lyrics by Yugabharathi. It evokes emotions of tenderness and affection, making it perfect for moments of reflection and romance. The soothing tune and heartfelt lyrics create an atmosphere of warmth and connection, resonating deeply with listeners.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kannammaa</strong> from the movie <em>Rekka</em>, where Nandini Erikar's soulful voice meets D Imman's mesmerizing composition. This romantic track, penned by Yugabharathi, captures the essence of love and longing. Dive into a world of soothing tunes and heartfelt lyrics that resonate with every listener.",
+    "stanzaMeanings": [
+      "",
+      "Kannamma, Kannamma, a beautiful flower, inside me, inside me, honey rain pours.",
+      "When I think of you, my heart jumps and dances, going everywhere.",
+      "The lamp that shines brightly, who are you... Kannamma, Kannamma, a beautiful flower, inside me, inside me, honey rain pours.",
+      "Like a hibiscus flower, your friendly words, dear, can they become a small umbrella in the month of Margazhi?",
+      "The milky moon in your hand is spreading like a feast, wearing a rainbow as a shawl.",
+      "Kannamma, Kannamma, stop, my heart is thinking of you.",
+      "Kannamma, Kannamma, a beautiful flower, inside me, inside me, honey rain pours.",
+      "Seeing your form, even the temple deity leaves.",
+      "Seeing the feet that conquered the earth, all the gardens of the land.",
+      "Bharathi will turn your shadow into a song, praising you as an angel.",
+      "Kannamma, Kannamma, what is this, shyness is pushing me away.",
+      "Kannamma, Kannamma, a beautiful flower, inside me, inside me, honey rain pours.",
+      "When I think of you, my heart jumps and dances, going everywhere.",
+      "The lamp that shines brightly, who are you..."
+    ]
+  }
 }

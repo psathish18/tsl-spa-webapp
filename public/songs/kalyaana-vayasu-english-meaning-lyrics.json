@@ -72,5 +72,36 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJSgJJsOz3PEngNj35fUivd73r8zJTZMW1cxwCO90DkP_bqfOmeUEzq8LCQ47c8YTCdofsQpIPc7BZ8nrLp2VAlUurA9t3PLWYhDvGpaA3JevIQly0Gf0v9DF1FSBe1GmYjEekFG75YA/s400-c/IMG_20180511_214053.jpg",
   "generatedAt": "2026-01-18T12:44:23.157Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "peppy",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "kolamaavu kokila",
+      "kalyaana vayasu",
+      "2018",
+      "tamil song",
+      "romantic",
+      "peppy",
+      "dance",
+      "movie song",
+      "english translation",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of <strong>Kalyaana Vayasu</strong>?</h4><p>The song humorously explores the feelings of a young man infatuated with a girl, capturing the essence of youthful love.</p></div><div class=\"faq-item\"><h4>What is the context of the song in <em>Kolamaavu Kokila</em>?</h4><p>The song appears in a light-hearted moment where the protagonist expresses his feelings in a playful manner.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kalyaana Vayasu</strong>?</h4><p>The singer's details are unknown from the provided information.</p></div><div class=\"faq-item\"><h4>When was <strong>Kalyaana Vayasu</strong> released?</h4><p>The song was released on May 18, 2018.</p></div></div>",
+    "summary": "<strong>Kalyaana Vayasu</strong> is a lively and playful song from the movie <em>Kolamaavu Kokila</em>, capturing the whimsical feelings of a young man smitten by love. The song's upbeat tempo and catchy lyrics make it a perfect fit for parties and celebrations. It reflects the protagonist's humorous and light-hearted approach to expressing his affection. The energetic vibe of the song adds a fun element to the movie's narrative, making it memorable for audiences.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Kalyaana Vayasu</strong> from the movie <em>Kolamaavu Kokila</em> is a peppy and energetic track that captures the essence of youthful romance. The song's catchy beats and playful lyrics make it an instant favorite for celebrations and parties. Dive into the vibrant world of <em>Kolamaavu Kokila</em> with this unforgettable musical number."
+  }
 }

@@ -65,5 +65,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:33.358Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "song"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive",
+      "workout"
+    ],
+    "keywords": [
+      "kalakalappu 2",
+      "hip hop tamizha",
+      "kaiya pudichaa tharumaru",
+      "2018",
+      "upbeat",
+      "dance",
+      "party",
+      "energetic",
+      "happy",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the release year of <strong>Kaiya Pudichaa Tharumaru</strong>?</h4><p>The song was released in 2018.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by <strong>Hip Hop Tamizha</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song?</h4><p>The song has an upbeat and energetic theme, perfect for parties and celebrations.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Kalakalappu 2</em>?</h4><p>The song is featured in a lively and fun sequence, adding to the film's comedic and entertaining vibe.</p></div></div>",
+    "summary": "The song <strong>Kaiya Pudichaa Tharumaru</strong> from <em>Kalakalappu 2</em> is a vibrant and energetic track that perfectly complements the film's comedic and lively atmosphere. Sung by Hip Hop Tamizha, the song's catchy beats and playful lyrics make it a favorite for parties and celebrations. It captures the essence of fun and joy, encouraging listeners to dance and enjoy the moment. The song's upbeat nature and engaging rhythm make it a standout number in the movie.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Get ready to groove with <strong>Kaiya Pudichaa Tharumaru</strong> from the lively film <em>Kalakalappu 2</em>. Hip Hop Tamizha's energetic beats and catchy lyrics make this track an instant hit for any celebration. Dive into the vibrant world of Tamil cinema with this unforgettable dance number!",
+    "stanzaMeanings": [
+      "If you hold my hand, it's amazing. If you hug me, it's amazing. If you smile a little, it's amazing. Because of you, girl, my heart feels like it's spinning around.",
+      "Ok, ok, now everything is ok, locked with you.",
+      "Oh beautiful one, but still, in beauty, no one surpasses you in this world.",
+      "Non-stop love can't be stopped. Even if you say hi or bye, it won't break my heart.",
+      "Tell me your height, tell me your weight. I'll lift you and go to the gym. I'll become like Arnold and live strong with you.",
+      "Ok, ok, now everything is ok, locked with you.",
+      "Oh beautiful one, but still, in beauty, no one surpasses you in this world. No one, no one, no one.",
+      "If you hold my hand, it's amazing. If you hug me, it's amazing. If you smile a little, it's amazing. Because of you, girl, my heart feels like it's spinning around.",
+      "Ok, ok, now everything is ok, locked with you.",
+      "Oh beautiful one, but still, in beauty, no one surpasses you in this world.",
+      "Common dance with me now I gotta show all this love to you."
+    ]
+  }
 }

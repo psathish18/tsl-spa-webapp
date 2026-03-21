@@ -95,5 +95,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinPqBrqB-F_Ur2Jt9Mw6jphPM6FbA5TLTuC99SH34PfoQyc5HLs5l1UkhQVyfOVIw9VyGgAnOS7q0ParP_UnMIFAUJhrvfq6GHbs5UO9FgTDkxQL7h05deLHZ8QEuAe_Cpblc4uaOZuJI/s400-c/Bangalore_Naatkal.jpg",
   "generatedAt": "2026-01-18T12:52:24.662Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "dreamy",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "bangalore naatkal",
+      "anna katharina valayil chandy",
+      "gopi sundar",
+      "romantic",
+      "melody",
+      "2016",
+      "song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'I Want To Fly'?</h4><p>The song expresses a deep longing for love and the desire to escape into a dreamlike state with a partner, symbolizing freedom and connection.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Bangalore Naatkal</em>?</h4><p>This song reflects the romantic aspirations of the characters, highlighting their emotional journeys and the importance of love in their lives.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Anna Katharina Valayil Chandy</strong> and composed by <strong>Gopi Sundar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'I Want To Fly' released?</h4><p>The song was released on <strong>January 24, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>I Want To Fly</strong>, the protagonist expresses a yearning for love and connection, beautifully encapsulated through the lyrics and melody. The song serves as a backdrop to the romantic moments in <em>Bangalore Naatkal</em>, evoking feelings of nostalgia and hope. With its soothing tune, it invites listeners to dream of flying away with their loved ones. The emotional depth of the song resonates with anyone who has experienced the highs and lows of love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>I Want To Fly</strong> from the movie <em>Bangalore Naatkal</em> captures the essence of longing and romance with its enchanting melody. Anna Katharina Valayil Chandy's soulful vocals combined with Gopi Sundar's captivating music create a dreamy atmosphere that resonates deeply. This song is perfect for anyone who has ever wished to soar above their worries with a loved one by their side.",
+    "stanzaMeanings": [
+      "",
+      "Baby, I need you. Some days I feel you. I lived to die with you.",
+      "All of the night's stars and the lights are dreamily far away, away from my arms.",
+      "I want to fly, conquer the sky. I want to fly, I want you by my side.",
+      "Baby, I need you. Some days I feel you. I lived to die with you.",
+      "All of the night's stars and the lights are dreamily far away, away from my arms.",
+      "Shall we just dance and make it alright for this moment.",
+      "I want the life I dreamt you into my life.",
+      "You are mine, you are mine, and I am yours. Forever mine, forever mine, and always... forever yours.",
+      "Baby, I need you. Some days I feel you. I lived to die with you.",
+      "All of the night's stars and the lights are dreamily far away, away from my arms.",
+      "I want to fly, conquer the sky. I want to fly, I want you by my side.",
+      ""
+    ]
+  }
 }

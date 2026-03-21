@@ -48,5 +48,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEifeSbo69hD1SY9o3jf2pj8c2z9uKI9mNoLYMo2iZUTshE35qDti7m6F5q33iCQkzIO6v83Eg-29owyDS_7JHVasTM5weowij9Gu7uOAoJZA_fkd_5hCwWzVLkSUrmKaJ3BmSAgCmZVbo8IvUNv_WpaOIgav_NTubCG5JmYhhOpj0soKtbFIOFIOgr9BA=s72-c",
   "generatedAt": "2026-02-04T14:41:49.508Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "dude",
+      "jonita gandhi",
+      "sai abhyankkar",
+      "adesh krishna",
+      "romantic",
+      "melody",
+      "2026",
+      "tamil song",
+      "lyrics",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannukulla</strong>?</h4><p>The song captures themes of love, longing, and emotional connection.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kannukulla</strong>?</h4><p>The song is sung by <strong>Jonita Gandhi</strong> and <strong>Sai Abhyankkar</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Dude</em>?</h4><p>The music for the movie <em>Dude</em> is composed by <strong>Sai Abhyankkar</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song evoke?</h4><p>The song evokes emotions of romance, nostalgia, and a soothing sense of longing.</p></div><div class=\"faq-item\"><h4>When was <strong>Kannukulla</strong> released?</h4><p>The song was released in <strong>2026</strong>.</p></div></div>",
+    "summary": "The song <strong>Kannukulla</strong> from the movie <em>Dude</em> is a romantic melody that beautifully captures the essence of love and longing. Sung by Jonita Gandhi and Sai Abhyankkar, the song's soothing composition by Sai Abhyankkar and heartfelt lyrics by Adesh Krishna create an emotional connection with listeners. The lyrics express the deep emotions of yearning and affection, making it perfect for moments of reflection and romance. This song is ideal for those quiet, introspective nights or a romantic evening drive.",
+    "releaseYear": "2026",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Kannukulla</strong> from the movie <em>Dude</em>, where Jonita Gandhi's soulful voice meets Sai Abhyankkar's mesmerizing composition. This romantic melody, penned by Adesh Krishna, captures the essence of love and longing. Dive into the soothing rhythms and heartfelt lyrics that make this song a must-listen.",
+    "stanzaMeanings": [
+      "In my eyes, it whispers. In my heart, it dances. Just say it.. Your words are enough..",
+      "My whole love is scattered. Anger has polished it. I want more.. Oh, I want more..",
+      "At the doorstep you left.. I'm waiting for life to end. All the love in my ears.. I'll gather and give it to you.",
+      "As I run, I lean on you. Isn't your shoulder always there? The tears gently fill the corner of my eyes..",
+      "Whose mistake.. Whose fault.. Whose dream was it.. For the question I asked.. only you have the answer.."
+    ]
+  }
 }

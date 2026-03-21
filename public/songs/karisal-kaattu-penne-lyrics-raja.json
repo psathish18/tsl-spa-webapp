@@ -45,5 +45,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:16:32.593Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "raja",
+      "ks chitra",
+      "sa rajkumar",
+      "melancholic",
+      "romantic",
+      "solo",
+      "melody",
+      "2002",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Karisal Kaattu Penne</strong>?</h4><p>The song explores themes of longing and love, with a melancholic yet romantic undertone.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the renowned playback singer <strong>K.S.Chitra</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Raja</em>?</h4><p>The music for the movie <em>Raja</em> was composed by <strong>S.A.Rajkumar</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Raja</em>?</h4><p>The movie <em>Raja</em> was released in the year <strong>2002</strong>.</p></div></div>",
+    "summary": "The song <strong>Karisal Kaattu Penne</strong> from the movie <em>Raja</em> is a poignant melody that delves into the emotions of longing and love. Sung by K.S.Chitra, the song's lyrics express a deep yearning for a loved one, set against the backdrop of a rural landscape. S.A.Rajkumar's music beautifully complements the melancholic yet romantic mood, making it a memorable piece. The song evokes a sense of nostalgia and emotional depth, resonating with anyone who has experienced love and separation.",
+    "releaseYear": "2002",
+    "high_ctr_intro": "Experience the haunting melody of <strong>Karisal Kaattu Penne</strong> from the movie <em>Raja</em>, where K.S.Chitra's soulful voice meets S.A.Rajkumar's evocative music. This song beautifully captures the essence of longing and love, making it a timeless classic. Dive into the emotional depth and lyrical beauty that has captivated audiences since its release.",
+    "stanzaMeanings": [
+      "In the middle of the forest, on a lonely path, who are you singing for, remembering him?",
+      "Girl from the dry lands, have you seen him? Eyes that speak poetry, have you seen him?",
+      "The one who lives between my eyes, have you seen him?",
+      "The one who cut the nerves of my heart, have you seen him?",
+      "The one who gave me dreams, stole my sleep and left me alone today.",
+      "The one who lives between my eyes, have you seen him?",
+      "The one who cut the nerves of your heart, have you seen him?",
+      "Girl from the dry lands, have you seen him? Eyes that speak poetry, have you seen him?",
+      "When I saw him once, I felt alive. His movements made me desire more, he consumed me.",
+      "If she comes here for a moment, I will give her half a dozen children.",
+      "I like his jasmine-like lips, his chest, his sandalwood scent, and his gentle walk.",
+      "For him alone, I grew strong like an elephant. With a touch of his finger, I nurtured my life.",
+      "Girl from the dry lands, have you seen him? Eyes that speak poetry, have you seen him?",
+      "I waited for years, hoping he would come in minutes.",
+      "Hearing his voice, I decorated all directions with new designs.",
+      "My youthful days are gone, a thousand crescent moons have passed, yet that demon hasn't come. The flower umbrella hasn't bent yet.",
+      "My twenties will pass, even my seventies, but I won't leave him.",
+      "One day, we will see the beauty of him resting his head on my lap and sleeping.",
+      "Girl from the dry lands, have you seen him? Eyes that speak poetry, have you seen him?"
+    ]
+  }
 }

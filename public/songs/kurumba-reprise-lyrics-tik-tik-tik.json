@@ -66,5 +66,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:59.760Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "morning"
+    ],
+    "keywords": [
+      "kurumba reprise",
+      "tik tik tik",
+      "mirthula siva",
+      "karky",
+      "d imman",
+      "2018",
+      "melody",
+      "soothing",
+      "nostalgic",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kurumba Reprise</strong>?</h4><p>The song captures themes of love, longing, and emotional introspection.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kurumba Reprise</strong>?</h4><p>The song is sung by <strong>Mirthula Siva</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Tik Tik Tik</em>?</h4><p>The music was composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Tik Tik Tik</em>?</h4><p>The movie was released in <strong>2018</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does <strong>Kurumba Reprise</strong> evoke?</h4><p>The song evokes feelings of nostalgia and soothing melancholy.</p></div></div>",
+    "summary": "In the movie <em>Tik Tik Tik</em>, <strong>Kurumba Reprise</strong> serves as a poignant reflection of the protagonist's emotional journey. The song, with its soothing melody and heartfelt lyrics by Karky, beautifully conveys themes of love and introspection. Mirthula Siva's soulful rendition adds depth to the emotions portrayed, making it a memorable piece. The music by D Imman enhances the nostalgic and melancholic mood, leaving a lasting impact on the listener.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the heartfelt emotions of <strong>Kurumba Reprise</strong> from the movie <em>Tik Tik Tik</em>, beautifully rendered by Mirthula Siva. D Imman's soulful composition combined with Karky's poignant lyrics creates a soothing melody that resonates deeply. Dive into this enchanting musical journey that captures the essence of love and longing.",
+    "stanzaMeanings": [
+      "Kurumba .. kurumba.. kurumba ..",
+      "I felt pain because of you, I laughed for many days because of you, I cried for some days because of you.",
+      "I understood myself because of you, I reduced my burdens because of you, I received blessings because of you.",
+      "When you get angry, you hit me, and I shrink. You hug and kiss me, and I melt, I melt.",
+      "Kurumba .. you are my world, kurumba ... you are my dawn. When you go to school, my heart feels victorious, but when your school holidays end, it fears. Even if you don't call me to eat, no matter how much bribe is given, half of it will remain in the plate. All my clothes get crumpled and torn because of you. My cheeks have kiss marks because of you. I don't know how you inherited this mischief. Kurumba .. you are my world, kurumba ... you are my dawn.",
+      "In the bathroom, there's a fight over cartoons, a fight to stop, daily fights between us.",
+      "In the cold, there's a fight to share, a fight to sleep at night, beautiful fights between us.",
+      "You came to me from the sky, cooling my heart, you gave me the title of mother, making me hold my head high, hold my head high.",
+      "Kurumba .. you are my world, kurumba ... you are my dawn.",
+      "Kurumba, you are my blood, kurumba, you are my life.",
+      ""
+    ]
+  }
 }

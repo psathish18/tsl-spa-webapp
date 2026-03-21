@@ -44,5 +44,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:36.884Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic",
+      "duet"
+    ],
+    "occasions": [
+      "relaxation",
+      "anniversary",
+      "morning"
+    ],
+    "keywords": [
+      "mella thiranthathu kathavu",
+      "mohan",
+      "ilaiyaraaja",
+      "vaali",
+      "k s chithra",
+      "romantic",
+      "melody",
+      "1986",
+      "classic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kuzhazhoothum Kannanukku</strong>?</h4><p>The song is a romantic melody that evokes feelings of love and nostalgia.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Mella Thiranthathu Kathavu</em>?</h4><p>The music was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is beautifully rendered by <strong>K.S. Chithra</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Mella Thiranthathu Kathavu</em>?</h4><p>The movie was released in the year <strong>1986</strong>.</p></div></div>",
+    "summary": "The song <strong>Kuzhazhoothum Kannanukku</strong> from the movie <em>Mella Thiranthathu Kathavu</em> is a soothing romantic melody that captures the essence of love and longing. Set against a backdrop of gentle music by Ilaiyaraaja, the song features the enchanting voice of K.S. Chithra. It beautifully portrays the emotions of yearning and affection, making it a timeless classic. The lyrics, penned by Vaali, add depth and emotion, creating a nostalgic experience for listeners.",
+    "releaseYear": "1986",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kuzhazhoothum Kannanukku</strong> from the timeless film <em>Mella Thiranthathu Kathavu</em>. This classic piece beautifully blends Ilaiyaraaja's musical genius with K.S. Chithra's soulful voice. Dive into a world of romance and nostalgia with every note.",
+    "stanzaMeanings": [
+      "Does the song sung by the cuckoo reach Krishna who plays the flute? Cuckoo, cuckoo, cuckoo.",
+      "Shall we have a contest between your flute sound and my voice?",
+      "Look, the leaves and flowers are swaying. Look, the leaves and flowers are swaying.",
+      "Does the song sung by the cuckoo reach Krishna who plays the flute? Cuckoo, cuckoo, cuckoo.",
+      "When the mountain breeze blows, won't the jasmine flower sing? When the mountain clouds gather, won't the colorful peacock dance?",
+      "My body is like honey, my song is like a flower. Friend, I have caught you and will keep you close.",
+      "Shall we sing happily with rhythm? You have one, I have one, we are a perfect pair, my friend.",
+      "",
+      "Krishna, your youthful heart is getting restless. Even sugar and candy taste bitter now.",
+      "The picture has come, sleep has gone. For the girl who became a flower, it's a sorrowful night.",
+      "Shall we sing softly and send a message? The heart is in pain, my friend.",
+      "Does the song sung by the cuckoo reach Krishna who plays the flute? Cuckoo, cuckoo, cuckoo.",
+      "Shall we have a contest between your flute sound and my voice?",
+      "Look, the leaves and flowers are swaying. Look, the leaves and flowers are swaying.",
+      "Does the song sung by the cuckoo reach Krishna who plays the flute?"
+    ]
+  }
 }
