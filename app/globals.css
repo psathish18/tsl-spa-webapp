@@ -677,6 +677,93 @@
   color: #bfdbfe;
 }
 
+/* Lyricist bio section styling */
+.lyricist-bio-section {
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.lyricist-bio-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #dbeafe;
+  color: #1e3a8a;
+}
+
+.lyricist-bio-description {
+  font-size: 0.95rem;
+  color: #334155;
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.85;
+  white-space: pre-line;
+}
+
+.lyricist-bio-subtitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  padding-bottom: 0.5rem;
+}
+
+.lyricist-bio-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.lyricist-bio-list-item {
+  font-size: 0.92rem;
+  color: #334155;
+}
+
+.lyricist-bio-link {
+  color: #1d4ed8;
+  text-decoration: none;
+  transition: color 0.18s ease, text-decoration-color 0.18s ease;
+}
+
+.lyricist-bio-link:hover {
+  color: #1e3a8a;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+.theme-dark .lyricist-bio-section {
+  background: rgba(30, 41, 59, 0.35);
+  border-color: rgba(251, 191, 36, 0.22);
+}
+
+.theme-dark .lyricist-bio-title {
+  border-bottom-color: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+}
+
+.theme-dark .lyricist-bio-description {
+  color: #d1d5db;
+}
+
+.theme-dark .lyricist-bio-subtitle {
+  color: #fbbf24;
+}
+
+.theme-dark .lyricist-bio-list-item {
+  color: #d1d5db;
+}
+
+.theme-dark .lyricist-bio-link {
+  color: #fbbf24;
+}
+
+.theme-dark .lyricist-bio-link:hover {
+  color: #f59e0b;
+}
+
 /* Intro section styling */
 .intro-section {
   font-size: 1.1rem;

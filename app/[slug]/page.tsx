@@ -27,6 +27,7 @@ import {
   hasEnglishTranslationContent,
   generateKeywords
 } from '@/lib/seoUtils'
+import { getLyricistBioByName } from '@/lib/lyricistBios'
 import { fetchFromBlob } from '@/lib/blobStorage'
 import type { SongBlobData } from '@/scripts/types/song-blob.types'
 import {
@@ -522,6 +523,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   const lyricistName = metadata.lyricistName || song.lyricistName || ''
   const musicName = metadata.musicName || ''
   const songName = metadata.songTitle || cleanTitle
+  const lyricistBio = lyricistName ? await getLyricistBioByName(lyricistName) : null
   
   // Get lyrics snippet for structured data description (same as metadata)
   const lyricsSnippet = extractSnippet(safeContent, SONG_DESCRIPTION_SNIPPET_LENGTH)
@@ -1183,14 +1185,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }
         />
 
-        {/* FAQ section - if present */}
-        {contentSections.faq && (
-          <div 
-            className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200"
-            dangerouslySetInnerHTML={{ __html: contentSections.faq }}
-          />
-        )}
-        {/* FAQ section - if present */}
+{/* FAQ section - if present */}
         {contentSections.summary && (
           <div className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200">
             <h2 className="text-lg font-semibold pt-1 pb-3 border-b border-gray-200 text-gray-700">
@@ -1205,7 +1200,48 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           </div>
         )}
 
+ {/* Lyricist mini bio section - direct name match from lib/data/lyricists-mini-bios.json */}
+        {lyricistBio && (
+          <section className="lyricist-bio-section mt-8 mb-8" aria-label="Lyricist mini bio">
+            <h2 className="lyricist-bio-title">
+              About Lyricist {lyricistBio.name}
+            </h2>
+            <p className="lyricist-bio-description">
+              {lyricistBio.description}
+            </p>
 
+            {lyricistBio.topSongs.length > 0 && (
+              <div className="pt-2">
+                <h3 className="lyricist-bio-subtitle">Popular Lyrics by {lyricistBio.name}</h3>
+                <ul className="lyricist-bio-list">
+                  {lyricistBio.topSongs.slice(0, 10).map((song, index) => (
+                    <li key={`${song.htmlPageUrl}-${index}`} className="lyricist-bio-list-item">
+                      <a
+                        href={song.htmlPageUrl}
+                        className="lyricist-bio-link"
+                      >
+                        {song.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </section>
+        )}
+
+        
+
+       
+
+
+        {/* FAQ section - if present */}
+        {contentSections.faq && (
+          <div 
+            className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200"
+            dangerouslySetInnerHTML={{ __html: contentSections.faq }}
+          />
+        )}
         {/* Auto-generated FAQ (#11) — adds unique editorial Q&A content for every song */}
         {!contentSections.faq && autoFAQItems.length > 0 && (
           <div className="auto-faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200">

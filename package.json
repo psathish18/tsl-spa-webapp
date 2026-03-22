@@ -34,7 +34,9 @@
     "test-language-detection": "node scripts/test-language-detection.js",
     "test-gcs-upload": "node scripts/gcs/test-gcs-upload.js",
     "search-songs": "tsx scripts/search/search-songs.ts",
-    "enrich-songs": "tsx scripts/search/enrich-songs-metadata.ts"
+    "enrich-songs": "tsx scripts/search/enrich-songs-metadata.ts",
+    "enrich-lyricists": "tsx scripts/search/enrich-lyricists-metadata.ts",
+    "enrich-lyricists:dry-run": "tsx scripts/search/enrich-lyricists-metadata.ts --dry-run"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
