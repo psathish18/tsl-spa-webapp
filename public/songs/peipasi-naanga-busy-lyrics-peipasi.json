@@ -45,5 +45,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinS_Pi1BvObxqKEo4ZfOvyUYZ9lDxdXAeHs69IkZjWSyNKpcye1Ojg9fbTLw7jt9BxA5tC7IS61KDGv9ZZPTdmeiAtOaH8c4ZJADu9JbMQiW2hVpE7FWEh4OCZEi_s_Gui60p4AvOm1A/s400-c/PeiPasi+Naanga+Busy+Lyrics.jpeg",
   "generatedAt": "2026-01-18T12:44:01.357Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "peipasi",
+      "yuvan",
+      "kaber vasuki",
+      "upbeat",
+      "dance",
+      "2018",
+      "tamil",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a sense of busyness and excitement in life, celebrating the hustle and energy of youth.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>PeiPasi</em>, the song reflects the carefree and vibrant lifestyle of the characters, enhancing the film's lively atmosphere.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by <strong>Yuvan</strong>, known for his unique musical style in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>PeiPasi Naanga Busy</strong> was released on July 26, 2018.</p></div></div>",
+    "summary": "In <strong>PeiPasi Naanga Busy</strong>, the upbeat tempo and lively lyrics reflect the carefree spirit of youth. The song captures the essence of being busy yet enjoying every moment, making it a perfect anthem for celebrations. Yuvan's energetic vocals and catchy beats create an infectious vibe that resonates with listeners. This track not only enhances the film's narrative but also evokes feelings of joy and excitement.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>PeiPasi Naanga Busy</strong> is an electrifying track that perfectly captures the vibrant energy of youth and celebration. With <em>PeiPasi</em> showcasing Yuvan's signature style, this song is a must-listen for anyone looking to elevate their mood. Dive into the catchy beats and lively lyrics that make this song a standout hit!",
+    "stanzaMeanings": [
+      "We are busy, busy, busy, busy, busy!!!",
+      "We are busy, busy, busy, busy...",
+      "Time is running fast, the heart beats quickly, quickly, quickly, quickly...",
+      "Surprising and scary, the situation is changing, running in all directions, the end is near.",
+      "We are busy, busy, busy, busy...",
+      "Not understanding, feeling restless, confusion is increasing, the story is getting complicated.",
+      "In the loop, fear arises, the mind is restless, the fear is overwhelming, tell me who can stand against this fear.",
+      "We are busy, busy, busy, busy..."
+    ]
+  }
 }

@@ -67,5 +67,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:06.606Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "yaaradi nee mohini",
+      "hariharan",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2008",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Venmegam Pennaaga'?</h4><p>The song expresses deep feelings of love and nostalgia, capturing the essence of cherished memories with a loved one.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of 'Yaaradi Nee Mohini'?</h4><p>This song plays during a pivotal romantic moment in the movie, highlighting the protagonist's emotions and connection with their love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Hariharan</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Venmegam Pennaaga' released?</h4><p>The song was released on <strong>February 9, 2008</strong>.</p></div></div>",
+    "summary": "In <strong>Venmegam Pennaaga</strong>, the protagonist reflects on their love and the memories shared with their partner, creating a poignant atmosphere. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect fit for romantic occasions. As the characters navigate their emotions, the song serves as a backdrop to their journey, enhancing the film's narrative. Overall, it beautifully encapsulates the essence of love and the bittersweet nature of memories.",
+    "releaseYear": "2008",
+    "high_ctr_intro": "<strong>Venmegam Pennaaga</strong> from <em>Yaaradi Nee Mohini</em> is a mesmerizing romantic ballad that beautifully captures the essence of love and longing. With Hariharan's soulful vocals and Yuvan's enchanting music, this song creates an unforgettable atmosphere that resonates with listeners. Dive into the emotional depths of this track and experience the magic it brings to your heart.",
+    "stanzaMeanings": [
+      "Is the red cloud taking shape as a girl? When I see you, my heart plays with many memories that come before me.",
+      "",
+      "In the yellow sunlight, you are like a lightning sound. Those who see you will be mesmerized by your beauty.",
+      "Girl, what is your truth? In a smile, why do you seem to be hurt?",
+      "There is no home to celebrate the divine; I am looking at the feet of the temple god, singing about your beauty.",
+      "I am lost in a dream, shedding tears; I am blind in this darkness.",
+      "Many memories come before me when I see you, my heart plays with them.",
+      "You have stolen my heart; where have these spells and charms taken you?",
+      "In the gaze of your eyes, you have spread a net; you have created obstacles to carry me away in a palanquin.",
+      "I wish to hold your hand; I want to live with my life, oh.",
+      "What will my love become? Will it be a blessing at your feet?",
+      "Is the red cloud ..."
+    ]
+  }
 }

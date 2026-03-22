@@ -104,5 +104,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiolwImnYEyMNOrfIKsZQYtyUHMHSWN7RsKsRNtg7xdB70bGgArs_C56qSrMMbwF4NDFa2Oqk2LpR2zkVLFMCvbHobFbIF32n0-98uYF2uBaSrhxkesFdqrrPO0J-OaDa63r2qjNMn7IpE/s400-c/Velaikaran+Lyrics.JPG",
   "generatedAt": "2026-02-01T13:06:18.581Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "velaikaran",
+      "shakthisree gopalan",
+      "anirudh",
+      "vivek",
+      "energetic",
+      "dance",
+      "2017",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Vaa Valaikkara'?</h4><p>The song conveys a message of ambition and the pursuit of dreams, encouraging listeners to rise and take action.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Velaikaran'?</h4><p>The movie revolves around social issues and the struggles of the working class, highlighting the importance of fighting for one's rights.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Vaa Valaikkara'?</h4><p>The song is sung by <strong>Shakthisree Gopalan</strong>, known for her powerful and energetic vocals.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Vaa Valaikkara'?</h4><p>The music is composed by <strong>Anirudh Ravichander</strong>, a prominent figure in contemporary Tamil cinema music.</p></div><div class=\"faq-item\"><h4>When was 'Vaa Valaikkara' released?</h4><p>The song was released on <strong>December 21, 2017</strong>.</p></div></div>",
+    "summary": "In <strong>Vaa Valaikkara</strong>, the protagonist's journey is underscored by a vibrant and energetic melody that inspires listeners to strive for their goals. The song encapsulates the essence of ambition, urging individuals to rise above challenges and make their mark. With its catchy beats and motivational lyrics, it serves as an anthem for those seeking to make a difference. The lively composition by Anirudh and the powerful vocals of Shakthisree Gopalan create an exhilarating listening experience.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Vaa Valaikkara</strong> from <em>Velaikaran</em> is an electrifying anthem that perfectly captures the spirit of ambition and determination. With Anirudh's pulsating beats and Shakthisree Gopalan's captivating vocals, this song is bound to get you on your feet. Dive into the vibrant world of this track that motivates you to chase your dreams!",
+    "stanzaMeanings": [
+      "Your hands will rise tomorrow, rise, rise...",
+      "Your name should not be written in vain, in vain.",
+      "You lift the earth with your shoulders, come, worker.",
+      "Oh God, you create in the palanquin, come, worker.",
+      "Only your mind matters, who said that? Come, worker.",
+      "Even today, your efforts will be celebrated, come, worker.",
+      "Your fingers will make the world, you are creating the world, worker.",
+      "You are the leader who makes paths by overcoming obstacles, worker.",
+      "",
+      "",
+      "",
+      "Your desires will be fulfilled in this new world, we will make it ours.",
+      "Your fingers will make the world, you are creating the world, worker.",
+      "You are the leader who makes paths by overcoming obstacles, worker.",
+      "Worker, worker, worker."
+    ]
+  }
 }

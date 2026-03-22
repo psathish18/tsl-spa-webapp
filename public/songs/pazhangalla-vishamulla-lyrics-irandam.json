@@ -116,5 +116,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPx8oSup872p1-5B5BAUvajtH4Ig6LtzWW0NffxhWTkmOprM0OX9V6lS0MLFVZq14-nMZM1lziziWJcGHcNO4zVAnFOd6CG4g3W2OtJm0WlbTR6mEVM58EYoIxgh6EY96SLBoLZMYdMSE/s400-c/Irandaam-Ulagam.jpg",
   "generatedAt": "2026-01-18T13:03:16.040Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "irandam ulagam",
+      "dhanush",
+      "harrish jeyaraj",
+      "melancholic",
+      "romantic",
+      "2013",
+      "tamil song",
+      "pazhangalla vishamulla"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Pazhangalla Vishamulla</strong> explores themes of love, heartbreak, and emotional turmoil, reflecting the struggles of relationships.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Irandam Ulagam</em>?</h4><p>In <em>Irandam Ulagam</em>, this song highlights the protagonist's emotional journey, emphasizing the complexities of love and connection.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Dhanush</strong> and composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Pazhangalla Vishamulla</strong> was released on August 5, 2013.</p></div></div>",
+    "summary": "In <strong>Pazhangalla Vishamulla</strong>, the listener is taken on an emotional ride through the complexities of love and heartbreak. The song's poignant lyrics and Dhanush's heartfelt rendition evoke a sense of nostalgia and longing. Set against the backdrop of <em>Irandam Ulagam</em>, it encapsulates the struggles of relationships, making it relatable to many. The melody, combined with the evocative lyrics, creates a soothing yet melancholic atmosphere that resonates deeply with the audience.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Pazhangalla Vishamulla</strong> from the movie <em>Irandam Ulagam</em> showcases Dhanush's soulful vocals paired with Harrish Jeyaraj's captivating music. This song beautifully captures the essence of love and heartbreak, resonating deeply with listeners. Experience the emotional journey as the lyrics unfold a poignant tale of longing and connection.",
+    "stanzaMeanings": [
+      "A strange wind is blowing, your anger is uncontrollable. Even if there is a bond or connection, the sinful heart burns. A madness has taken hold under the full moon, like a storm in the sky.",
+      "A girl's heart is like a wild animal, it has both beasts and gods living in it. What can be done? The beast dances, while the god is unaware of it, like a girl who is lost in her own thoughts.",
+      "You smile softly like someone else. What should I do? Should I forget? Will your heart remember? Will your words be true? Will you express your anger and enjoy it?",
+      "A strange wind is blowing, your anger is uncontrollable. Even if there is a bond or connection, the sinful heart burns. A madness has taken hold under the full moon, like a storm in the sky.",
+      "In this world, everything is connected. Some things come together outside, while only a few remain inside the house. Is this my fate? Is this for the great ones?",
+      "My night is burning, there is no sleep. Secrets are revealed. The love that was born from the warmth of the heart is now lost. Let it go, and let me live in the shadows.",
+      "Hey, hey... a strange wind is blowing, your anger is uncontrollable. Even if there is a bond or connection, it is what it is. A madness has taken hold under the full moon, hmm...",
+      "What should I say about this?"
+    ]
+  }
 }

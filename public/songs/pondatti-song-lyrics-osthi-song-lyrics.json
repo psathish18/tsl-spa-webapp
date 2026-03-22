@@ -83,5 +83,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdkXNcOKR_oiaGjdFrf5TztSyyRc41H8japekYDDR38fiKQ7yiBV1ke-IbzxNcwPyw0SMSZRf5iCSugew_17-pe4WYs_RGTidRl_r7wQJGigu0w1gYNGojKQkLOB4qmzalZ6QFR67M4Xk/s400-c/osthi+HQ+Stills1.jpg",
   "generatedAt": "2026-01-18T13:09:10.532Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "osthi",
+      "simbu",
+      "thaman s",
+      "romantic",
+      "upbeat",
+      "dance number",
+      "2011",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song celebrates love and affection, portraying a playful and romantic vibe between the couple.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Osthi</em>, the song highlights the protagonist's flirtatious and loving nature towards his partner, adding a fun element to the storyline.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Simbu</strong>, who is also the lyricist, while the music is composed by <strong>Thaman S</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Pondatti Song</strong> was released on October 19, 2011.</p></div></div>",
+    "summary": "In <strong>Pondatti Song</strong> from <em>Osthi</em>, Simbu delivers a lively and romantic track that captures the essence of youthful love. The song's playful lyrics and upbeat rhythm evoke feelings of joy and excitement, making it perfect for celebrations. It showcases the protagonist's affection for his partner, emphasizing the light-hearted and fun aspects of their relationship. Overall, the song is a delightful addition to the film, resonating with anyone who has experienced the thrill of love.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Pondatti Song</strong> from <em>Osthi</em> is a vibrant celebration of love and energy, perfectly encapsulating the playful spirit of romance. With Simbu's captivating vocals and Thaman S's infectious beats, this track is sure to get you dancing. Experience the charm of this catchy number that brings a smile to your face and warmth to your heart.",
+    "stanzaMeanings": [
+      "",
+      "Hey, my cute wife, I can't sleep without you. My hot wife, I can't sleep without you.",
+      "Wife, it's you, my sweet one, I will love you until you are old, there's no need for anything else.",
+      "I will be a good husband. I will take care of you. I will bear all your troubles, I won't let go of your eyes (hey, my cute wife...).",
+      "Wife.. Wife..",
+      "I will give you coffee. In the morning, I will wake you up. If I don't know how to cook, I will prepare food for you. I won't let you doubt me. I won't act like you have doubts. I will be your life, I will think of you, I will keep you in my heart. I will be like your shadow (hey, my cute wife...).",
+      "My wife, my wife... I don't want anything else.",
+      "Honestly, no one can take my life away from me. If I leave, no one should look at you as a widow. If I leave, they will say you are good. I will be like a father, I will be like a mother. I will act like a good friend. I will protect you like God (hey, my cute wife...).",
+      "Wife, wife, I love you until you are old, wife, wife, I don't need anything else...",
+      ""
+    ]
+  }
 }

@@ -55,5 +55,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:06.083Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "theneer viduthi",
+      "oru malai pozhuthil",
+      "sona mohapatra",
+      "na muthukumar",
+      "ss kumaran",
+      "romantic",
+      "melody",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oru Malai Pozhuthil'?</h4><p>The song expresses deep feelings of love and longing, highlighting the beauty of being in love.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Theneer Viduthi'?</h4><p>This song plays during a romantic moment, emphasizing the connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Oru Malai Pozhuthil'?</h4><p>The song is sung by the talented Sona Mohapatra.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Oru Malai Pozhuthil' was composed by SS Kumaran.</p></div><div class=\"faq-item\"><h4>When was 'Oru Malai Pozhuthil' released?</h4><p>The song was released on February 19, 2011.</p></div></div>",
+    "summary": "In 'Oru Malai Pozhuthil', the protagonist expresses profound love and devotion, beautifully encapsulated through Sona Mohapatra's soulful rendition. The song serves as a backdrop to a pivotal romantic moment in <em>Theneer Viduthi</em>, where emotions run high and connections deepen. With lyrics that evoke a sense of longing and tenderness, it resonates with anyone who has experienced love. The soothing melody complements the heartfelt lyrics, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Oru Malai Pozhuthil</strong> from <em>Theneer Viduthi</em> is a mesmerizing romantic ballad that captures the essence of love and longing. With Sona Mohapatra's enchanting vocals and SS Kumaran's soulful composition, this song creates a dreamy atmosphere that resonates deeply. Dive into the heartfelt lyrics penned by Na Muthukumar, and let the emotions sweep you away.",
+    "stanzaMeanings": [
+      "",
+      "In one night, I saw you. When I saw you, my love, I saw myself. Without sleeping, I keep looking at you.. oh.. I live for you.. oh...",
+      "In one night, I saw you. When I saw you, my love, I saw myself.",
+      "",
+      "Memories of the past will bring tears. Without fail, it will ignite like a fire. Your love's memory will rain down, and unfulfilled desires will remain. However, silence will break. In my love river, there will be no mistakes... This is the story of life, the beginning of love. In my heart, I will keep you in the depths of my heart.",
+      "In one night, I saw you..",
+      "Searching for me, the work that came was to take a path that was lost. If Kannan (Krishna) separates from Radha, is this the song of love in the heart? Tomorrow, I will come to your Gokula garden, will you touch me and steal all of me?",
+      "You are my life, you are my life now.",
+      "In one night, I saw you. When I saw you, my love, I saw myself."
+    ]
+  }
 }

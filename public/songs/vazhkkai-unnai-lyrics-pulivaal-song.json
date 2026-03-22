@@ -56,5 +56,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL3e71IToalsGEkVziSEbVLiwWiqkC1bHoQsH4kEWZZPjt_7CJwr_JozsDvM81b15zsToNkpDItifyscKklgYGzLLdidO2HnLvhMt2NiWumDtnCnCyE6oc_gOu_waB6lIYHG7I7CFqpBg/s400-c/pulivaal.jpg",
   "generatedAt": "2026-01-18T13:01:31.182Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pulivaal",
+      "vazhkkai unnai",
+      "hariharasudhan",
+      "n. r. raghunanthan",
+      "melancholic",
+      "soothing",
+      "2014",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Vazhkkai Unnai'?</h4><p>The song 'Vazhkkai Unnai' explores themes of longing and emotional connection, reflecting on the complexities of relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Pulivaal?</h4><p>In the movie <em>Pulivaal</em>, this song underscores a pivotal moment of emotional conflict, enhancing the narrative's depth.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Hariharasudhan</strong> and composed by <strong>N. R. Raghunanthan</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Vazhkkai Unnai' released?</h4><p>'Vazhkkai Unnai' was released on <strong>January 6, 2014</strong>.</p></div></div>",
+    "summary": "In 'Vazhkkai Unnai', the listener is taken on an emotional journey that reflects the struggles of love and longing. The song's soothing melody and poignant lyrics evoke a sense of nostalgia and melancholy, making it a perfect fit for moments of introspection. Set against the backdrop of the movie <em>Pulivaal</em>, it captures the essence of heartache and the complexities of relationships. This heartfelt composition resonates deeply, leaving a lasting impression on its audience.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Vazhkkai Unnai</strong> from the <em>Pulivaal</em> movie is a hauntingly beautiful melody that resonates with the depths of longing and introspection. With Hariharasudhan's soulful voice and N. R. Raghunanthan's evocative composition, this song captures the essence of emotional turmoil. Dive into the lyrical journey that speaks to the heart and soul, making it a must-listen for anyone who appreciates poignant music.",
+    "stanzaMeanings": [
+      "",
+      "Life will give you the strength to overcome challenges and will guide you in the right direction.",
+      "When you cross distances, you can connect with places. When you rise above, you can find peace.",
+      "Destinies cannot be changed by others. Success cannot be achieved without effort.",
+      "Searching for something is different from finding it. When you capture something, observe it carefully.",
+      "In human calculations, there are always mistakes. In the right calculations, there are only correct answers.",
+      "When your calculations and actions align, it is good.",
+      "You are always aware of your faults, and thinking about them makes you happy. All your eyes are closed to another fault.",
+      "The poor thing is your garbage; it always accumulates. Gather all the waste and use it for growth.",
+      "When an elephant enters a sugarcane field, nothing is left behind. When the elephant is trapped, it becomes a source of pain.",
+      "If there is no clarity in the mind, what is the point of the path?"
+    ]
+  }
 }

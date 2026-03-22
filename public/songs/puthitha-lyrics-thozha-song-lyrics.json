@@ -92,5 +92,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHLZahHqs2LrALwFbbUBvpFM5X5gDRR8o8K7fU9W0r5KYhnLmlhTdkA9WDJzenAfubBB3OFKPN_kRotB0GsCkF_tXsqm_P6zWNKFpVUQ6vyYGV4IxgEV4qwXZgRukt-2gRzXo3h1nynuY/s400-c/Thozha.jpeg",
   "generatedAt": "2026-02-01T13:08:22.666Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "thozha",
+      "karthik",
+      "gopi sundar",
+      "romantic",
+      "soothing",
+      "2016",
+      "tamil song",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Puthitha?</h4><p><strong>Puthitha</strong> conveys themes of renewal and the beauty of life, emphasizing the importance of living fully.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie Thozha?</h4><p>In <em>Thozha</em>, the song reflects the bond between the characters and their journey towards understanding and acceptance.</p></div><div class=\"faq-item\"><h4>Who is the singer of Puthitha?</h4><p>The song is sung by the talented <strong>Karthik</strong>, known for his emotive singing style.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Puthitha</strong> was composed by <strong>Gopi Sundar</strong>, who is celebrated for his melodic creations.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Puthitha</strong> was released on <strong>March 26, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Puthitha</strong>, the song beautifully encapsulates the journey of self-discovery and love. Set against the backdrop of <em>Thozha</em>, it conveys a sense of hope and renewal, inviting listeners to embrace life. The soothing melody and heartfelt lyrics evoke a range of emotions, making it a perfect choice for romantic occasions. Karthik's enchanting voice, combined with Gopi Sundar's composition, creates an unforgettable musical experience.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Puthitha</strong> from the <em>Thozha</em> soundtrack is a mesmerizing melody that captures the essence of love and life. With Karthik's soulful vocals and Gopi Sundar's enchanting composition, this song resonates deeply with listeners. Experience the magic of this beautiful collaboration that perfectly blends emotion and artistry.",
+    "stanzaMeanings": [
+      "",
+      "Is everything new in this world? Is everything new? Is the heart also new?",
+      "One body, one life, if I live that life, my friend...",
+      "A small nest, a small heart, what is the trash inside it, my friend...",
+      "Is everything new in this world? Is everything new? Is the heart also new?",
+      "Why am I thinking? There is nothing inside you, is there a dream in your eyes? There is no breath in the air.",
+      "In the colors of the painting, there is no gold. Loneliness is the only companion.",
+      "Your companionship will last until the end.",
+      "In the journey of leaving, wings spread. All the troubles are lifted away. Looking at the worries, just a little smile... na naana naa.",
+      "Is everything new in this world? Is everything new? Is the heart also new?",
+      "One body, one life, if I live that life, my friend...",
+      "A small nest, a small heart, what is the trash inside it, my friend...",
+      ""
+    ]
+  }
 }

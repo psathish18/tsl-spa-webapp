@@ -41,5 +41,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4X3W6U4Xsb8EnSUa_SXAdVo2RLTV4JtwAOsU1TedK-dWCn1xJtUNwTbhi8JajWglRCtEfVx_yjQ1sGY6jOjIWHOCt5DJ9_Ndr15gUuaI9y_ZIgWjU3zEY679BLJo1CmGyBXNVdIwIuhA/s400-c/TSL.JPG",
   "generatedAt": "2026-01-18T12:45:35.775Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "mattikkiten",
+      "padai veeran",
+      "haricharan",
+      "rita",
+      "dhana",
+      "karthik raja",
+      "romantic",
+      "2017"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Mattikkiten</strong>?</h4><p>The song <strong>Mattikkiten</strong> expresses deep emotions of love and longing, reflecting the feelings of the characters in the movie.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie <em>Padai Veeran</em>?</h4><p>This song plays a significant role in showcasing the romantic moments between the lead characters, enhancing the emotional depth of the film.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Mattikkiten</strong>?</h4><p>The song is sung by the talented Haricharan and Rita, whose voices complement each other beautifully.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Mattikkiten</strong>?</h4><p>The music for <strong>Mattikkiten</strong> was composed by <strong>Karthik Raja</strong>, known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was <strong>Mattikkiten</strong> released?</h4><p>The song was released on April 21, 2017.</p></div></div>",
+    "summary": "In <strong>Mattikkiten</strong>, the heartfelt lyrics convey a sense of yearning and love, perfectly encapsulating the emotions of the characters in <em>Padai Veeran</em>. The song's soothing melody, brought to life by Haricharan and Rita, creates an intimate atmosphere that resonates with listeners. It beautifully portrays the complexities of love, making it a perfect choice for romantic occasions. The evocative imagery in the lyrics enhances the overall emotional experience, leaving a lasting impression.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Mattikkiten</strong> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Haricharan and Rita, this song is a perfect blend of emotion and melody. Experience the magic of <em>Padai Veeran</em> as it takes you on a heartfelt journey through its captivating lyrics and soulful composition.",
+    "stanzaMeanings": [
+      "",
+      "Oh no, I have changed because of you. I can't show my feelings, and I don't know if my dreams are real or not.",
+      "What have you done? Where have you gone? I feel like a bird trapped in my eyes, and I still can't understand.",
+      "Oh no, I have changed. Oh no, I have changed.",
+      "I will keep my anger aside. The horse is tied, are you half of it?",
+      "The knife speaks, and I am waiting. The flower is blooming, are you half of it?",
+      "You, with your words, have cut me deeply. The knife is sharp, and you are hiding your true self.",
+      "Oh no, I have changed because of you. I can't show my feelings, and I don't know if my dreams are real or not.",
+      "You have left me, and I feel lost. I feel like a knife is stuck in my eyes, and I still can't understand.",
+      "I have fallen and turned around. When I look at you, my heart is restless.",
+      "In the beautiful garden, the girl is being admired and taken away.",
+      "I am a singer, my smile is like fire. My song is a trap, and it is hidden in the direction I go.",
+      "I have no strength like you. I feel like a thief caught in dreams, creating waves.",
+      "I have offered my prayers at the temple, but I don't know which way to go or what to do."
+    ]
+  }
 }

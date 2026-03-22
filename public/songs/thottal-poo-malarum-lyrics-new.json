@@ -53,5 +53,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:15:31.220Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "new",
+      "thottal poo malarum",
+      "hariharan",
+      "harini",
+      "vaali",
+      "ar rahman",
+      "romantic",
+      "2004"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Thottal Poo Malarum</strong> expresses deep romantic feelings and the complexities of love, highlighting the yearning and emotional connection between lovers.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>New</em>, this song plays during a pivotal romantic moment, showcasing the blossoming relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features the talented voices of <strong>Hariharan</strong> and <strong>Harini</strong>, with music composed by the legendary <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Thottal Poo Malarum</strong> was released on July 9, 2004.</p></div></div>",
+    "summary": "In <strong>Thottal Poo Malarum</strong>, the romantic essence of love is beautifully portrayed through the enchanting melodies of A.R. Rahman. The song captures the emotions of longing and connection, making it a perfect backdrop for intimate moments in the film <em>New</em>. With heartfelt lyrics by Vaali, it evokes a sense of nostalgia and warmth. This duet not only showcases the vocal prowess of Hariharan and Harini but also resonates deeply with anyone who has experienced love.",
+    "releaseYear": "2004",
+    "high_ctr_intro": "<strong>Thottal Poo Malarum</strong> from <em>New</em> is a mesmerizing duet that beautifully captures the essence of romance. With the soulful voices of Hariharan and Harini, combined with A.R. Rahman's enchanting music, this song creates an unforgettable listening experience. Dive into the lyrical depth crafted by Vaali, and let the emotions sweep you away.",
+    "stanzaMeanings": [
+      "",
+      "The flower that blooms in the garden, I have blossomed without hesitation. The golden light shines brightly, my eyes have opened.",
+      "Without the eyes, love cannot come, without the hands, love cannot come.",
+      "Without coming to the heart, desires cannot be fulfilled, desires cannot be fulfilled.",
+      "The flower that blooms in the garden, I have blossomed without hesitation. The golden light shines brightly, my eyes have opened.",
+      "The flower that blooms in the garden, I have blossomed without hesitation. The golden light shines brightly, my eyes have opened.",
+      "When two become one, or when one becomes two, the youth does not end, the youth does not end.",
+      "Even if you take and give, even if you take and give, the time does not end, the time does not end.",
+      "The flower that blooms in the garden, I have blossomed without hesitation. The golden light shines brightly, my eyes have opened.",
+      "Old garden of sweet flowers, old garden of sweet flowers, old garden of sweet flowers, Tam tam ...",
+      "Isn't it a beautiful face? Isn't it a beautiful face? Beautiful days have passed, beautiful days have passed.",
+      "Isn't it a thousand joys? Isn't it a thousand joys?",
+      "The flower that blooms in the garden, I have blossomed without hesitation. The golden light shines brightly, my eyes have opened.",
+      "Without the eyes, love cannot come, without the hands, love cannot come.",
+      "Without coming to the heart, desires cannot be fulfilled, desires cannot be fulfilled."
+    ]
+  }
 }

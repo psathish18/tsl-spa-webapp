@@ -65,5 +65,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiliK9NY0x2-AX3I-wHNgf1fp4fgu21R53uhTH5lZ9fBzYiskTq1B05mDYiYix5VCKdw10F0Zh5faqQ6miK8VUDkV8d-vAIHsjVY9HFdp7Yqrlvx1c7RkCmxPvkH3vu8WWoYpvolFdVO8s/s400-c/Santhosam+Santhosam+Song+Lyrics.jpeg",
   "generatedAt": "2026-01-18T13:16:27.574Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "nostalgic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "birthday",
+      "party",
+      "relaxation"
+    ],
+    "keywords": [
+      "youth",
+      "spb",
+      "vairamuthu",
+      "mani sharma",
+      "happy",
+      "nostalgic",
+      "upbeat",
+      "2002"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys the importance of happiness in life and reflects on the small joys that make life worthwhile.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Youth</em>, the song is a celebration of life and relationships, highlighting moments of joy among the characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by the legendary <strong>SPB</strong> and composed by <strong>Mani Sharma</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>July 19, 2002</strong>.</p></div></div>",
+    "summary": "In <strong>Santhosam Santhosam</strong>, the protagonist reflects on the essence of happiness and the small joys that life offers. The song is a vibrant celebration of life, encouraging listeners to appreciate every moment. With its catchy melody and uplifting lyrics, it evokes feelings of nostalgia and joy. This track perfectly encapsulates the spirit of youth and the importance of cherishing relationships.",
+    "releaseYear": "2002",
+    "high_ctr_intro": "<strong>Santhosam Santhosam</strong> from the <em>Youth</em> movie is a delightful melody that captures the essence of joy and celebration. With the legendary SPB's soulful voice and Mani Sharma's enchanting composition, this song resonates with anyone seeking happiness in life. Dive into the uplifting vibes of this classic track that beautifully conveys the message of cherishing life's little joys.",
+    "stanzaMeanings": [
+      "Happiness is the strength of life; if there is no happiness, what strength do people have?",
+      "When a storm comes, there is a mountain in the sky; what harm can it bring? There is some small goodness.",
+      "Like success, even a small failure is not good; even in a blooming flower, there is a small thorn.",
+      "Without saying a fault, there is no circle; with a smile, you are brightening the darkness.",
+      "Mistakes are made and corrected only after they happen; civilization is born from that.",
+      "Mistakes are not a crime; corrections are not a burden; singing brings joy.",
+      "The heart is not filled with worries; if the heart is like a flower, there will be no sorrow tomorrow.",
+      "In the beginning, God created this earth; like His desire, this earth is not peaceful.",
+      "If God's desire goes away, will human desires be fulfilled?",
+      "Goodness and badness are always spoken of; is there not a child of ours?",
+      "In the sculpture of pain, joy comes like a pearl; after resting, there is no fear.",
+      "In the tears, there are colors that create art; how did the shoes come to the feet? Thank the thorns.",
+      "When a storm comes, there is a mountain in the sky; what harm can it bring?",
+      ""
+    ]
+  }
 }

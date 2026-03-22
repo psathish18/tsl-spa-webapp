@@ -35,5 +35,45 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:24.533Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kannukulle",
+      "naan pirandha nerama",
+      "ilaiyaraaja",
+      "melancholic",
+      "nostalgic",
+      "2009",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of longing and reflection on life's experiences, capturing the essence of nostalgia.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Kannukulle</em>, the song plays during a pivotal moment that highlights the protagonist's emotional journey.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Naan Pirandha Nerama</strong> was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>February 22, 2009</strong>.</p></div></div>",
+    "summary": "In <strong>Naan Pirandha Nerama</strong>, the listener is taken on an emotional journey through the lens of nostalgia and longing. The song beautifully encapsulates the protagonist's reflections on life and relationships, making it a poignant piece in the film <em>Kannukulle</em>. With its soulful melody and heartfelt lyrics, it evokes a deep sense of yearning. This track is perfect for moments of introspection and relaxation.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Naan Pirandha Nerama</strong> from <em>Kannukulle</em> is a hauntingly beautiful melody that captures the essence of longing and nostalgia. With the masterful composition of Ilaiyaraaja, this song resonates deeply with anyone who has experienced the bittersweet moments of life. Its poignant lyrics and soulful tune make it a must-listen for fans of Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "When I was born, did you give birth to me?",
+      "How many people will I be for this world, how will I go through this life? Is this life really necessary?",
+      "When I was born, did you give birth to me?",
+      "Without seeing relationships and bonds, I saw those who show love.",
+      "I saw those who were born together and then left.",
+      "Can I understand what the world is at this young age?",
+      "You showed me another world, isn't that the truth? Is this pain really necessary?",
+      "When I was born, did you give birth to me?",
+      ""
+    ]
+  }
 }

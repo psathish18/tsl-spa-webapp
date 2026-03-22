@@ -46,5 +46,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:16:24.624Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "april mathathil",
+      "manase manase",
+      "karthik",
+      "pa vijay",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2002"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Manase Manase'?</h4><p>The song 'Manase Manase' explores themes of love and emotional connection, reflecting on the feelings that arise during romantic moments.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'April Mathathil'?</h4><p>In <strong>April Mathathil</strong>, the song plays during a pivotal moment that highlights the protagonist's emotional struggles and romantic aspirations.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Yuvan Shankar Raja</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was 'Manase Manase' released?</h4><p>'Manase Manase' was released on <strong>October 6, 2002</strong>, and has since become a beloved track in Tamil cinema.</p></div></div>",
+    "summary": "In 'Manase Manase', the protagonist expresses deep emotions tied to love and longing, making it a poignant melody in the film *April Mathathil*. The song beautifully encapsulates the complexities of relationships, evoking feelings of nostalgia and romance. With Karthik's soulful rendition and Yuvan's captivating music, it resonates with anyone who has experienced the highs and lows of love. This track serves as a reminder of the bittersweet nature of romantic connections.",
+    "releaseYear": "2002",
+    "high_ctr_intro": "<strong>Manase Manase</strong> from the <em>April Mathathil</em> movie is a soulful melody that beautifully captures the essence of love and longing. With Karthik's enchanting vocals and Yuvan's mesmerizing composition, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. Dive into this lyrical journey that showcases the emotional depth of relationships, making it a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "In the mind, in the mind, there is a burden when friends part ways.",
+      "In this world, all the feelings seem to be facing something.",
+      "This bond of friendship in this college is only about waiting for companionship.",
+      "In the mind, in the mind, there is a burden when friends part ways.",
+      "The dreams seen yesterday and the food eaten today have all been shared by everyone.",
+      "The sorrow that arises at home and the joy of friendship are forgotten as we dance with a light heart.",
+      "In the word 'friendship', we have lived and seen.",
+      "Is all this existence just a word called separation, or is there strength in the word we celebrate?",
+      "In the mind, in the mind, there is a burden when friends part ways.",
+      "Even after seven generations, we will still seek the face of a friend in the place where we lived.",
+      "The memories we see everywhere will come to us in the voice that speaks of the day.",
+      "Small fights and little joys, all of this will come to an end.",
+      "The love that is spoken and the love that is expressed are not just mere words.",
+      "In the mind, in the mind, there is a burden when friends part ways.",
+      "In the mind, in the mind, there is a burden when friends part ways.",
+      "In this world, all the feelings seem to be facing something.",
+      "This bond of friendship in this college is only about waiting for companionship.",
+      "In the mind, in the mind, ..."
+    ]
+  }
 }

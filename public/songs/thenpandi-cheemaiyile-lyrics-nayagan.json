@@ -35,5 +35,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9pg629XwvRlkrnGeD9GZPk4Uwc0YNlEm5S6fn66FMAtH9hI_mnJHw_Va_KMSKSIvXzzmFwWCdTyn8JTRNJ3PrtjmHMe-5JSK4EmxgwnBD5fdNjS3lmiclV4s1hrlqsI7cAPVewHcrQ3c/s400-c/Thenpandi+Cheemaiyile+lyrics.JPG",
   "generatedAt": "2026-01-18T13:20:32.840Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "sad"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "nayagan",
+      "ilayaraja",
+      "kamal haasan",
+      "melancholic",
+      "1987",
+      "tamil song",
+      "old music",
+      "classic song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Thenpandi Cheemaiyile</strong> explores themes of heartbreak and longing, reflecting the emotional struggles of the characters in <em>Nayagan</em>.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>This song plays a crucial role in <em>Nayagan</em>, highlighting the protagonist's emotional turmoil and connection to his past.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The song features the legendary <strong>Ilaiyaraaja</strong> as the music director and singer, with <strong>Kamal Haasan</strong> delivering a powerful vocal performance.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Thenpandi Cheemaiyile</strong> was released on <strong>October 21, 1987</strong>.</p></div></div>",
+    "summary": "In <strong>Thenpandi Cheemaiyile</strong>, the poignant lyrics and soulful melody encapsulate the protagonist's deep sense of loss and yearning. Set against the backdrop of <em>Nayagan</em>, this song serves as a reflection of the character's emotional struggles. The combination of Ilaiyaraaja's masterful composition and Kamal Haasan's heartfelt delivery evokes a profound sense of nostalgia. This classic track remains a testament to the timeless nature of love and heartbreak.",
+    "releaseYear": "1987",
+    "high_ctr_intro": "<strong>Thenpandi Cheemaiyile</strong> from <em>Nayagan</em> is a haunting melody that captures the essence of longing and sorrow. With Ilaiyaraaja's soulful composition and Kamal Haasan's evocative rendition, this song resonates deeply with listeners. Experience the emotional depth and lyrical beauty that make this track a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "Who hit the man who is like a moon on the street with the cart? Who hit him? Who hit him?",
+      "Don't let the growing moon cry anymore, don't let the heart that cries bear it anymore, don't let the heart that cries bear it anymore.",
+      "",
+      "Who hit the man who is like a moon on the street with the cart? Who hit him? Who hit him? Who hit him? Who hit him?",
+      "Don't let the growing moon cry anymore, don't let the heart that cries bear it anymore, don't let the heart that cries bear it anymore.",
+      "Who hit the man who is like a moon on the street with the cart? Who hit him? Who hit him? Who hit him? Who hit him? Who hit him?"
+    ]
+  }
 }

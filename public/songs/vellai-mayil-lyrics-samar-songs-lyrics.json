@@ -85,5 +85,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO6aiGzTMthlXLc_4mWjTeJi5Tgmc04MkIh8lWkJZz0fWlD5-PCUCtzyy_p2sBQCSy9tn3yCDZk50riueYJxNHEe88SIVIFXPlSVrCK_8AERCFSHAm3-MobMDjYdwZmZYGIzad3XXXDOY/s400-c/Samar++Songs+Lyrics.jpg",
   "generatedAt": "2026-01-18T13:05:21.240Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "samar",
+      "vellai mayil",
+      "shweta mohan",
+      "udit narayan",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Vellai Mayil</strong>?</h4><p>The song <strong>Vellai Mayil</strong> expresses themes of love and longing, portraying the beauty of romantic feelings through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie <em>Samar</em>?</h4><p>In <em>Samar</em>, the song plays during a pivotal romantic moment, highlighting the connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Vellai Mayil</strong>?</h4><p>The song is sung by <strong>Shweta Mohan</strong> and <strong>Udit Narayan</strong>, both renowned for their melodious voices.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Vellai Mayil</strong>?</h4><p>The music for <strong>Vellai Mayil</strong> was composed by <strong>Yuvan Shankar Raja</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was <strong>Vellai Mayil</strong> released?</h4><p><strong>Vellai Mayil</strong> was released on December 5, 2012, as part of the movie <em>Samar</em>.</p></div></div>",
+    "summary": "In <strong>Vellai Mayil</strong>, the enchanting duet unfolds a tale of love and admiration, perfectly encapsulating the emotions of the characters in <em>Samar</em>. The song's soothing melody and heartfelt lyrics evoke a sense of romance, making it a perfect fit for weddings and celebrations. As Shweta Mohan and Udit Narayan's voices blend seamlessly, listeners are transported to a dreamy world of affection. This track not only highlights the beauty of love but also showcases the exceptional musical prowess of Yuvan Shankar Raja.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Vellai Mayil</strong> from <em>Samar</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Shweta Mohan and Udit Narayan, paired with Yuvan Shankar Raja's magical composition, this song is sure to resonate with your heart. Dive into the lyrical beauty crafted by Na Muthukumar and let the soothing melodies transport you to a world of romance.",
+    "stanzaMeanings": [
+      "The white peacock dances in the moonlight, a gentle breeze whispers in the eyes of a girl, I sing by saying the words of love.",
+      "With seven colored butterflies, I wait for your words with my life, I want to live in the garden of love with you.",
+      "This is a sweet memory, like the crescent moon, seeing you for a moment, that is the first hunger. She kisses me softly.",
+      "After our hearts have joined, there will be no separation.",
+      "The white peacock dances in the moonlight, a gentle breeze whispers in the eyes of a girl, I sing by saying the words of love.",
+      "With seven colored butterflies, I wait for your words with my life, I want to live in the garden of love with you.",
+      "In Brindavan, the sky never sleeps, I want to hold the one who sings with my hands. The call of the night is sweet, the thread of fate has tied us together.",
+      "The moon always thinks of you, may it bless you with its light. Even if I am like an elephant caught in a trap, I need to bloom like a flower.",
+      "Even if the third moon is surrounded by clouds, this moon will be your mirror. But until then, the joy of love will become my sky.",
+      "When raindrops fall from the sky, will the sandy land become fertile? If I say comfort, the first kiss will be like a flower, will the parrot sing?",
+      "She kisses me softly. After our hearts have joined, there will be no separation."
+    ]
+  }
 }

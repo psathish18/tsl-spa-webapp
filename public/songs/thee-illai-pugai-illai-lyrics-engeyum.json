@@ -92,5 +92,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:43.026Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "engeyum kadhal",
+      "thee illai pugai illai",
+      "gopal rao",
+      "mahathi",
+      "mukesh",
+      "naresh iyer",
+      "vaali",
+      "harrish jeyaraj",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep romantic feelings and the beauty of love, highlighting the emotions associated with it.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Engeyum Kadhal</em>, the song plays during a pivotal romantic moment, enhancing the emotional connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features a collaboration of talented artists including Gopal Rao, Mahathi, Mukesh, and Naresh Iyer.</p></div><div class=\"faq-item\"><h4>Who is the music director of the song?</h4><p>The music for <strong>Thee Illai Pugai Illai</strong> is composed by Harrish Jeyaraj, known for his melodious compositions.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on November 13, 2010.</p></div></div>",
+    "summary": "In <strong>Thee Illai Pugai Illai</strong>, the singers weave a tapestry of love and longing, perfectly encapsulating the romantic essence of <em>Engeyum Kadhal</em>. The lyrics by Vaali resonate with heartfelt emotions, while Harrish Jeyaraj's composition elevates the mood to a dreamy state. This melody serves as a backdrop to a significant romantic moment in the film, making it a memorable experience for the audience. The song evokes feelings of joy and tenderness, making it ideal for celebrations of love.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Thee Illai Pugai Illai</strong> from <em>Engeyum Kadhal</em> is a captivating romantic melody that beautifully showcases the harmonious collaboration of talented singers Gopal Rao, Mahathi, Mukesh, and Naresh Iyer. With enchanting lyrics by Vaali and a mesmerizing composition by Harrish Jeyaraj, this song evokes a sense of love and longing. Dive into the melodious world of this track that perfectly captures the essence of romance.",
+    "stanzaMeanings": [
+      "",
+      "There is no fire, there is no smoke, you are making a statement with your eyes.",
+      "There is no thread, there is no loom, a love is growing in your heart.",
+      "There are no flowers, there is no veil, you are bringing new sweetness to life.",
+      "I am offering myself to you. I am not just existing,",
+      "I will keep it small, both in the past and the future, in small ways.",
+      "Ooohhh...ohhh... You have given me a game... Ooohhh...ohhh. I have taken you... Ooohhh...ohhh... I have captured the sweetness... Ooohhh...ohhh... Ooohhh...ohhh..ohhhooo",
+      "By being quick, I asked, if you fall, life will be ruined because of you ohhh...",
+      "Touching the hand without hesitation... touching the eyes without fear, life will write something new.",
+      "The ripe fruit has fallen, the heart that has fallen is overflowing... This is a test, are the eyes first or is love first?",
+      "There is no fire, there is no smoke, you are making a statement with your eyes.",
+      "There is no thread, there is no loom, a love is growing in your heart.",
+      "There are no flowers, there is no veil, you are bringing new sweetness to life.",
+      "I am offering myself to you. I am not just existing,",
+      "I will keep it small, both in the past and the future, in small ways.",
+      "Ooohhh...ohhh... You have given me a game... Ooohhh...ohhh. I have taken you... Ooohhh...ohhh... I have captured the sweetness... Ooohhh...ohhh... Ooohhh...ohhh..ohhhooo"
+    ]
+  }
 }

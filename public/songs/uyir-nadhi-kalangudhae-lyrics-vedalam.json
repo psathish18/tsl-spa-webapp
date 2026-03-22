@@ -86,5 +86,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHtT1gxvhov9NLe3KIN_07ywTvH7gwMzj3MX266xG3X8w6rR6ZK5Hht-crCitEU2B0M7Fqfk3CNtq58iRE6NfhG3JNjXOfMC2nTRzXQ2sOccc8hER8PgtIAGPPNijv_qY7xlSvlK_frpM/s400-c/Vedalam+.jpg",
   "generatedAt": "2026-01-18T12:53:32.691Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "vedalam",
+      "uyir nadhi kalangudhae",
+      "ravishankar",
+      "viveka",
+      "anirudh",
+      "romantic",
+      "melancholic",
+      "2015"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Uyir Nadhi Kalangudhae'?</h4><p>The song expresses deep emotions of love and longing, portraying the feelings of separation and yearning.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie 'Vedalam'?</h4><p>In <strong>Vedalam</strong>, the song reflects the protagonist's emotional struggles and his connection with his loved ones.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Ravishankar</strong> and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Uyir Nadhi Kalangudhae' released?</h4><p>The song was released on <strong>October 15, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Uyir Nadhi Kalangudhae</strong>, the protagonist expresses his deep emotional turmoil and longing for his beloved. The song beautifully captures the essence of love intertwined with melancholy, making it a poignant moment in <em>Vedalam</em>. With heartfelt lyrics by Viveka and a soothing melody by Anirudh, it evokes a sense of nostalgia and yearning. This track resonates with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Uyir Nadhi Kalangudhae</strong> from <em>Vedalam</em> is a mesmerizing melody that captures the essence of love and longing. With Ravishankar's soulful voice and Anirudh's enchanting composition, this song resonates deeply with its listeners. Experience the emotional depth and lyrical beauty that make this track a standout in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "When the time comes to find my soul, I will be like a cloud.",
+      "When she looks at me with love, I will beautifully disappear.",
+      "Without any hesitation, my soul dances. Flowers bloom in different places.",
+      "Don't let my heart be troubled, don't let my tears mix with the waves.",
+      "Don't disappear, don't disappear, don't let go of me.",
+      "Whether I win or lose, do you know what my fate is?",
+      "With a hundred and one, who is there on my life's path? Whatever it is, I will always remember you like a mark on my hand. I will not look at the sun's rays without you.",
+      "Don't let my heart be troubled, don't let my tears mix with the waves.",
+      "Don't disappear, don't disappear, don't let go of me.",
+      "Whether I win or lose, do you know what my fate is?",
+      "",
+      "But the light speaks, and everything inside is filled; this is the bond."
+    ]
+  }
 }

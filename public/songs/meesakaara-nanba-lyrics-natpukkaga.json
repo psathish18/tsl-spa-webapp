@@ -49,5 +49,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:18:34.280Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "natpukkaga",
+      "deva",
+      "kavignar kalidasan",
+      "nostalgic",
+      "happy",
+      "1998",
+      "tamil song",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Meesakaara Nanba</strong> conveys themes of friendship and affection, celebrating the joy of companionship.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Natpukkaga</em>, the song highlights the strong bonds between friends, enhancing the emotional depth of the narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Deva</strong>, who is also the <strong>music director</strong>, showcasing his multifaceted talent.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Meesakaara Nanba</strong> was released on June 25, 1998, making it a memorable track from the late 90s.</p></div></div>",
+    "summary": "In <strong>Meesakaara Nanba</strong>, the song beautifully encapsulates the spirit of friendship and the joy it brings. Set against the backdrop of <em>Natpukkaga</em>, it conveys a sense of nostalgia and happiness, resonating with listeners who value their relationships. The heartfelt lyrics by Kavignar Kalidasan, combined with Deva's melodious voice, evoke emotions that celebrate life's simple pleasures. This track is a perfect anthem for celebrations and gatherings, making it a cherished favorite among fans.",
+    "releaseYear": "1998",
+    "high_ctr_intro": "<strong>Meesakaara Nanba</strong> from <em>Natpukkaga</em> is a delightful melody that captures the essence of friendship and joy. With Deva's soulful voice and heartfelt lyrics by Kavignar Kalidasan, this song resonates with anyone who cherishes their bonds. Experience the nostalgic vibes that make this track a timeless favorite!",
+    "stanzaMeanings": [
+      "You have a lot of anger, my friend.",
+      "You have a lot of anger, my friend; there’s a lot of anger, and even more love.",
+      "We can’t forget our past; that time is now lost, and there are no more sights to see, still hiding from the eyes.",
+      "You have a lot of anger, my friend.",
+      "Look at that fish caught by the net; it tells a story.",
+      "Listen to that tale of the milk spilling; it tells a story.",
+      "Listen to that tale of the flag caught; it tells a story.",
+      "Listen to that tale of the tax collector; it tells a story when you see the film.",
+      "Thoughts bloom in the heart when you pour in memories.",
+      "Feelings awaken when you drink from the pot; the mustache also feels it.",
+      "We can’t forget our past; that time is now lost, and there are no more sights to see, still hiding from the eyes.",
+      "Like a father who has a child, all the work done is worthless.",
+      "That love-filled boy’s affection is not like yours for me…",
+      "This street is decorated for you; all the eyes are closed for that.",
+      "I need to live for the girl I gave birth to; you must live for me.",
+      "Like Karna, who was strong, day by day he grew stronger and stronger.",
+      "The singer Bharathi said, like a child born to me.",
+      "With both eyes, I am amazed; what good deed did I do to deserve you?",
+      "I will come to repay your kindness, as a worker in your field.",
+      "You have a lot of anger, my friend.",
+      "You have a lot of anger, my friend; there’s a lot of anger, and even more love.",
+      "We can’t forget our past; that time is now lost, and there are no more sights to see, still hiding from the eyes."
+    ]
+  }
 }

@@ -16,7 +16,6 @@ export default function SongIntro({ intro, enrichedMetadata }: SongIntroProps) {
   const hasSongType = enrichedMetadata?.songType && enrichedMetadata.songType.length > 0
   const hasOccasions = enrichedMetadata?.occasions && enrichedMetadata.occasions.length > 0
   const hasMetadata = hasMood || hasSongType || hasOccasions
-
   return (
     <div className="song-intro-section mb-6 rounded-lg border" style={{ 
       backgroundColor: 'var(--card)', 

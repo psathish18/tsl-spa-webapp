@@ -73,5 +73,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:34.329Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "kalakalappu 2",
+      "hip hop tamizha",
+      "upbeat",
+      "dance number",
+      "2018",
+      "tamil song",
+      "music",
+      "energetic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a light-hearted and playful vibe, focusing on carefree moments and youthful energy.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie?</h4><p>In <strong>Kalakalappu 2</strong>, the song enhances the fun and comedic elements, showcasing the characters' lively interactions.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung and composed by <strong>Hip Hop Tamizha</strong>, known for their unique style and energetic music.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Pudichiruka Illa Pudikalaya</strong> was released on March 19, 2018.</p></div></div>",
+    "summary": "In <strong>Pudichiruka Illa Pudikalaya</strong>, the lively beats and playful lyrics create an atmosphere of joy and celebration. The song reflects the carefree spirit of youth, making it a perfect fit for party scenes in <em>Kalakalappu 2</em>. It evokes feelings of happiness and energy, encouraging listeners to embrace fun moments. The catchy tune and vibrant delivery by Hip Hop Tamizha make it a memorable addition to the film's soundtrack.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Pudichiruka Illa Pudikalaya</strong> from <em>Kalakalappu 2</em> is a vibrant anthem that perfectly captures the essence of youthful exuberance. With Hip Hop Tamizha's infectious beats and catchy lyrics, this track is sure to get you on your feet. Dive into the energetic vibe of this song that celebrates fun and carefree moments!",
+    "stanzaMeanings": [
+      "There’s nothing to catch, nothing to hold; it’s like acting, laughing, or being silly without any reason.",
+      "Ah ah, I don’t understand anything; ah ah... I really don’t know; ah ah... Is there no other way? Can you tell me?",
+      "Why am I like a tubelight, my mind is white; you are my sight, can we get along? Why fight when you say it’s right? You are the light of my life.",
+      "Is everything alright? I am your uncle, can I not be?",
+      "Aishwarya, are you ready? Are you coming to my place?",
+      "Aishwarya, you are my girlfriend; I am laughing at the laughter you bring.",
+      "Is everything alright? I am your uncle, can I not be?",
+      "As soon as you see, you will like the figure; many people are coming to this world.",
+      "When talking, girls who are attractive are very rare.",
+      "A scooty or a Pulsar can make a sweet heart lose; her beauty can make your mind love life a lot.",
+      "The laughing statue and the fishing trap, only you are in my heart's thoughts.",
+      "The waves that are clear and the rain that falls, I have come to drink inside you.",
+      "In this world, girls who are attractive won’t fight with you. If there’s a gap, they will definitely come back.",
+      "Aishwarya, are you ready? Are you coming to my place?",
+      "Aishwarya, you are my girlfriend; I am laughing at the laughter you bring.",
+      "Is everything alright? I am your uncle, can I not be?",
+      "Ah ha, I am your uncle, can I not be?",
+      "Why am I like a tubelight, my mind is white; you are my sight, can we get along? Why fight when you say it’s right? You are the light of my life, Aishwarya...",
+      "Is everything alright? I am your uncle, can I not be?"
+    ]
+  }
 }

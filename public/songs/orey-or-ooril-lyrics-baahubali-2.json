@@ -48,5 +48,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXDMdIlWCQOKE8zgnDZ7E6QDUE5Ageu31b_HSP9Uh6qzw_NliIe79TzKRmOKsLJBleP76uYtYPzn07xHiQhSWH6iI96rHKkhkOXSVfX4m3J11HTNiDq_7-T3ADhu4l3SBwn8aZKXfVJKE/s400-c/Baahubali+21.JPG",
   "generatedAt": "2026-01-18T12:45:40.016Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "baahubali 2",
+      "mm keeravani",
+      "romantic",
+      "melody",
+      "2017",
+      "tamil song",
+      "movie",
+      "theme"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Orey Or Ooril</strong>, the lyrics beautifully express the feelings of love and yearning, reflecting the emotional landscape of the characters in <em>Baahubali 2</em>. The song serves as a poignant reminder of the deep connections that bind individuals together, even amidst challenges. Its soothing melody and heartfelt lyrics evoke a sense of nostalgia and warmth, making it a perfect fit for romantic occasions. Overall, this track encapsulates the essence of love, making it a memorable addition to the film's soundtrack.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Orey Or Ooril</strong> from <em>Baahubali 2</em> is a mesmerizing melody that captures the essence of love and longing. With MM Keeravani's enchanting composition, this song transports listeners to a realm of deep emotions and nostalgia. Experience the magic of this beautiful track that resonates with the heart and soul.",
+    "stanzaMeanings": [
+      "",
+      "In one town, in one kingdom, will my heart speak of love?",
+      "In one house, will one sound support me?",
+      "Is it a command to come? Will it be caught in the pearl? If caught, will I be Devasena?",
+      "With a sense of belonging, will my truth rise in my heart?",
+      "Will my flag rise, oh beautiful one?",
+      "In the front of the enemy, will I place kisses everywhere?",
+      "Will the lips show magic, oh beloved?",
+      "Oh ho ho... oh ho ho, has the time changed? Oh ho ho... oh ho ho, like fire, will it be about me?",
+      "Like a flame, will Devasena be?",
+      "",
+      "In one town, in one kingdom, will my heart speak of love?",
+      "In one house, will one sound support me?",
+      "In my heart, is there a thorn? Without it, will I also move forward? Speaking, will I be Devasena?"
+    ]
+  }
 }

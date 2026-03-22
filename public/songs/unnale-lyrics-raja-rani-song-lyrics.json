@@ -101,5 +101,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg792ywhOIfyaNsoC69DEbE9uCuxEPzO4Gzu_1AWZNVn_nspSQyYxadqqyXlnrlh6pyr2lwTPsHGZ2HFzMw7rKFOLJJ-ZJoahdVHoxp8XghYeiQolZt5Id-mnpCWokkIIwrWpazJYPG448/s400-c/raja_rani.jpg",
   "generatedAt": "2026-02-01T14:34:20.497Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "raja rani",
+      "unnale",
+      "vandhana srinivasan",
+      "na muthukumar",
+      "gv prakashkumar",
+      "romantic",
+      "2013",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Unnale'?</h4><p>'Unnale' conveys deep emotions of love and longing, reflecting the struggles and joys of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Raja Rani'?</h4><p>In <em>Raja Rani</em>, 'Unnale' is a pivotal moment that showcases the emotional connection between the lead characters, enhancing the narrative of love and sacrifice.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Unnale'?</h4><p>The song is beautifully sung by <strong>Vandhana Srinivasan</strong>, whose voice adds a unique charm to the melody.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Unnale'?</h4><p>The music for 'Unnale' was composed by <strong>GV Prakash Kumar</strong>, known for his innovative and soulful compositions.</p></div><div class=\"faq-item\"><h4>When was 'Unnale' released?</h4><p>'Unnale' was released on <strong>August 24, 2013</strong>, as part of the soundtrack for <em>Raja Rani</em>.</p></div></div>",
+    "summary": "In <strong>Unnale</strong>, the protagonist expresses profound feelings of love and yearning, encapsulating the essence of romantic relationships. The song serves as a backdrop to key moments in <em>Raja Rani</em>, where emotions run high and connections deepen. With its soothing melody and heartfelt lyrics by Na Muthukumar, it evokes a sense of nostalgia and longing. This enchanting track resonates with anyone who has experienced the complexities of love, making it a timeless piece in Tamil cinema.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Unnale</strong> from <em>Raja Rani</em> is a mesmerizing romantic melody that beautifully captures the essence of love and longing. With Vandhana Srinivasan's enchanting vocals and GV Prakash Kumar's soulful composition, this song resonates deeply with anyone who has experienced the magic of love. Dive into this lyrical journey that combines heartfelt emotions with stunning musicality.",
+    "stanzaMeanings": [
+      "I have come here with a pure heart, not to be separated from you. I am lost in silence, without words, in this moment.",
+      "I have come to take up your work; this is enough... always.",
+      ""
+    ]
+  }
 }

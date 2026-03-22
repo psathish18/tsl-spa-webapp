@@ -103,5 +103,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:07.740Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "96 movie",
+      "thabangale",
+      "chinmayi",
+      "pradeep kumar",
+      "uma devi",
+      "govind vasantha",
+      "romantic",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Thabangale?</h4><p>The song <strong>Thabangale</strong> expresses deep emotions of love and longing, reflecting the beauty of cherished memories.</p></div><div class=\"faq-item\"><h4>How does Thabangale fit into the plot of 96 Movie?</h4><p>In <strong>96 Movie</strong>, <strong>Thabangale</strong> serves as a poignant reminder of past relationships and the nostalgia associated with them.</p></div><div class=\"faq-item\"><h4>Who are the singers of Thabangale?</h4><p>The song features the talented voices of <strong>Chinmayi</strong> and <strong>Pradeep Kumar</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for Thabangale?</h4><p>The music for <strong>Thabangale</strong> was composed by <strong>Govind Vasantha</strong>, known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was Thabangale released?</h4><p><strong>Thabangale</strong> was released on <strong>September 21, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Thabangale</strong>, the characters in <em>96 Movie</em> reminisce about their past love, evoking a sense of nostalgia and longing. The song's soothing melody and heartfelt lyrics beautifully convey the emotions tied to cherished memories. It encapsulates the bittersweet essence of love, making listeners reflect on their own experiences. The collaboration between Chinmayi and Pradeep Kumar adds depth to the song, enhancing its romantic appeal.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Thabangale</strong> from the <em>96 Movie</em> is a mesmerizing duet that beautifully captures the essence of love and nostalgia. With Chinmayi's enchanting vocals paired with Pradeep Kumar's heartfelt rendition, this song is a perfect blend of emotion and melody. The exquisite composition by Govind Vasantha elevates the listening experience, making it a must-hear for romantic souls.",
+    "stanzaMeanings": [
+      "The beautiful one sings and plays, bringing forth beauty.",
+      "As a mother, she guides, and in the path of words, a story comes.",
+      "Time becomes a part of the night. That same dream, that same song.",
+      "The sky bends and dances. That same moon comes near.",
+      "The beautiful one sings and plays, bringing forth beauty.",
+      "As a mother, she guides, and in the path of words, a story comes.",
+      "Am I the moon that shines in your thoughts? Will I become the one who holds you?",
+      "Is love just a calculation? Or is it a feeling? Nearby, the heart melts and flows.",
+      "The beautiful one sings and plays, bringing forth beauty.",
+      "As a mother, she guides, and in the path of words, a story comes.",
+      ""
+    ]
+  }
 }

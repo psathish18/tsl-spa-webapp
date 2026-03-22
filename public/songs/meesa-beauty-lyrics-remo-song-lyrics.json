@@ -121,5 +121,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfZmyDlT6tcBpqdklDbJeZgHlRX0PljMQ_KAWTNPw0Op6nfUHBqu4PMn81AL9QCq_xaMbfZn4pgVwKxPanWi4tOFvIttTqATDcxiodppmSY9QMB1I0AfcU07tCF_q2yucsJO_75egWc5M/s400-c/Meesa+Beauty+.jpg",
   "generatedAt": "2026-01-18T12:50:01.652Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "remmo",
+      "anirudh",
+      "richard",
+      "vivek",
+      "upbeat",
+      "dance",
+      "2016",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Meesa Beauty</strong>, the lively atmosphere of a party is captured through playful and humorous lyrics. The song showcases the protagonist's admiration for a beautiful girl, blending fun and flirtation seamlessly. It evokes feelings of joy and excitement, making it a perfect fit for celebratory occasions. The energetic beats and catchy tune ensure that it remains a favorite among listeners, resonating with the carefree spirit of youth.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Meesa Beauty</strong> from <em>Remo</em> is a vibrant celebration of fun and energy, showcasing the unique collaboration between Anirudh's catchy beats and Richard's lively vocals. This song perfectly encapsulates the spirit of a party anthem, making it an instant favorite among fans. Get ready to groove to the infectious rhythm and playful lyrics that make this track a must-listen!",
+    "stanzaMeanings": [
+      "",
+      "This beauty is the life of the party, playful and sweet like a dessert from a factory.",
+      "Changing the plate, bringing glamour, she is a contestant in the Miss World pageant.",
+      "Showing off her style, she looks great in her salwar.",
+      "With a unique style, she walks around confidently.",
+      "With some magic, she makes the town lively after her arrival.",
+      "oooh o ho ho o ho ho remo remo (2)",
+      "Her hairstyle changes quickly, like a duck's movements.",
+      "The whole world is excited, every day she shines, her face is a blessing to behold.",
+      "Plans of the guys are failing, but there's a chance to dance, so let's move!",
+      "In acting, she shines, running to win, whether it's with me or without me, what will happen if there's no gun?",
+      "In my free time, I made a deal with God, asking what you want, and what about me?",
+      "oooh o ho ho o ho ho remo remo (2)",
+      "Beauty with a mustache.",
+      "This beauty is the life of the party, playful and sweet like a dessert from a factory.",
+      "Changing the plate, bringing glamour, she is a contestant in the Miss World pageant.",
+      "Showing off her style, she looks great in her salwar.",
+      "With a unique style, she walks around confidently.",
+      "With some magic, she makes the town lively after her arrival.",
+      "oooh o ho ho o ho ho remo remo (2)"
+    ]
+  }
 }

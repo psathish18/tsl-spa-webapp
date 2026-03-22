@@ -58,5 +58,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPPCdMQDWzi6VVQC9RGvusRT-9BjEIZFD5QQ4RnaaRUE1IhbZBIcP6Zt6dhVqGzI2Z9zmz4jPERzb9_W2Z7ym88rnWwdZ2BXQsHwcdImToiBavY1nEooQX4bRZAI_KnIVyTtR9adfTbcY/s400-c/Aadama-Jeichomada.jpg",
   "generatedAt": "2026-01-18T12:57:59.316Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "aadama jaichomada",
+      "alphonse",
+      "pa vijay",
+      "sean roldan",
+      "upbeat",
+      "dance",
+      "2014",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oneday Enum Match</strong> celebrates the joy of togetherness and the excitement of life, using playful metaphors related to matches and games.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Aadama Jaichomada</em>, this song reflects the carefree and fun-loving spirit of the characters, enhancing the overall festive mood of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Alphonse</strong> and composed by <strong>Sean Roldan</strong>, known for their vibrant and catchy musical styles.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oneday Enum Match</strong> was released on <strong>September 10, 2014</strong>, and has since become a favorite among fans.</p></div></div>",
+    "summary": "In <strong>Oneday Enum Match</strong>, the lively beats and catchy lyrics create an atmosphere of joy and celebration. The song captures the essence of youthful exuberance, inviting listeners to embrace the fun in life. It serves as a perfect backdrop for festive occasions, making it a go-to track for parties and celebrations. The playful metaphors and energetic delivery evoke feelings of happiness and togetherness, resonating with audiences of all ages.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Oneday Enum Match</strong> from <em>Aadama Jaichomada</em> is a vibrant celebration of life and joy, brought to life by Alphonse's captivating vocals. The infectious beats crafted by Sean Roldan perfectly complement Pa Vijay's playful lyrics, making it an instant party anthem. Dive into this energetic track that promises to get everyone on their feet!",
+    "stanzaMeanings": [
+      "",
+      "One day, this match will turn into a dance.",
+      "In the match, many pairs will come together and become one match.",
+      "Here in the town, there will be a dance in the 20-20 format. Some will play in the hands of the 20s.",
+      "In this dance, someone is dancing, and he is also bowling.",
+      "In the gathering, hands will clap outside. Money will be given as a prize.",
+      "During the day, a dance will happen live. At night, a solo dance will take place.",
+      "With a cocktail in hand, the season will rise. A little wine and a little rum will make it youthful.",
+      "This life is a dance, oh, it will be fun, and it will be a celebration.",
+      "When the night light comes, everything here will shine, and only the sound will laugh.",
+      "In this dance, someone is dancing, and he is also bowling.",
+      "In the gathering, hands will clap outside. Money will be given as a prize."
+    ]
+  }
 }

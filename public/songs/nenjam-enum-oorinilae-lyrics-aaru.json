@@ -57,5 +57,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:04:49.084Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "nenjam enum oorinilae",
+      "aaru",
+      "kalpana",
+      "srinivas",
+      "devi sri prasad",
+      "romantic",
+      "melody",
+      "2005"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and connection, portraying the beauty of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Aaru</em>, this song highlights the romantic moments between the lead characters, emphasizing their emotional bond.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Kalpana</strong> and <strong>Srinivas</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Nenjam Enum Oorinilae</strong> was composed by <strong>Devi Sri Prasad</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on <strong>December 9, 2005</strong>.</p></div></div>",
+    "summary": "In <strong>Nenjam Enum Oorinilae</strong>, the song beautifully encapsulates the emotions of love and longing, making it a standout track in the movie <em>Aaru</em>. The lyrics evoke a sense of nostalgia and warmth, as the singers express their heartfelt feelings. This romantic melody serves as a backdrop to pivotal moments in the film, enhancing the emotional depth of the narrative. With its soothing composition and heartfelt delivery, the song resonates with anyone who has experienced love.",
+    "releaseYear": "2005",
+    "high_ctr_intro": "<strong>Nenjam Enum Oorinilae</strong> from the movie <em>Aaru</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Kalpana and Srinivas, paired with Devi Sri Prasad's soulful composition, this song is sure to tug at your heartstrings. Experience the magic of romance as the lyrics unfold a tale of deep emotional connection.",
+    "stanzaMeanings": [
+      "In the town of my heart, in the knowledge of love, at the door of dreams, you came to bind me.",
+      "In the journey of life, in the clouds of the mind, in the rain of desires, you made me think little by little.",
+      "I was alone, and you came as my companion. Today, love has come and taken me away.",
+      "In the town of my heart, in the knowledge of love, at the door of dreams, you came to bind me.",
+      "Hey, with your eyes, I will make you fall for me. I will build a home in your heart and live there.",
+      "The hands that took me, wrote your name. The hands that saw the temple, are folded for you.",
+      "In the town of my heart, in the knowledge of love, at the door of dreams, you came to bind me.",
+      "B-O-Y boy, boy's a guy, G-I-R-L girl, girl's a girl, this girl is so hot that it will make him crazy. They are just gonna rock, so take it easy.",
+      "Between these two names, it's all about touching, anytime, anywhere, kissing.",
+      "I will hold your form with my hands. I will fall to the ground and reach for your shadow.",
+      "When the rain comes, you come and stop. I will spread my hair and you shouldn't cry. I will stop the mangoes in India.",
+      "In the town of my heart, in the knowledge of love, at the door of dreams, you came to bind me.",
+      "B-O-Y boy, boy's a guy, G-I-R-L girl, girl's a girl, this girl is so hot that it will make him crazy. They are just gonna rock, so take it easy."
+    ]
+  }
 }

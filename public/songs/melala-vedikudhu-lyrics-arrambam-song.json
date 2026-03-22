@@ -80,5 +80,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB4HaxE0Uoe3e_bOkRpXZ8ZEBTA1SS-R3gqVOVuBAN3wsKNlSLP0tDxnh_zmv0qZwHpXA7-S8-c_cB1MeENyxco2oMROeDtkSMyTKbuEqiMp_XHLxaWdH9vDF9im-eIfgR90JaWXHP1CA/s400-c/arrambam.jpg",
   "generatedAt": "2026-01-18T13:02:51.512Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "arrambam",
+      "melala vedikudhu",
+      "yuvan",
+      "pa vijay",
+      "vijay yesudas",
+      "shweta mohan",
+      "energetic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Melala Vedikudhu?</h4><p>The song conveys a sense of joy and celebration, highlighting the vibrancy of life and the excitement of togetherness.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Arrambam?</h4><p>In <strong>Arrambam</strong>, the song is featured during a lively sequence that emphasizes the characters' camaraderie and festive spirit.</p></div><div class=\"faq-item\"><h4>Who are the singers of Melala Vedikudhu?</h4><p>The song is sung by <strong>Ranjith</strong>, <strong>Shweta Mohan</strong>, and <strong>Vijay Yesudas</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Melala Vedikudhu</strong> was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was Melala Vedikudhu released?</h4><p>The song was released on <strong>September 18, 2013</strong>.</p></div></div>",
+    "summary": "In <strong>Melala Vedikudhu</strong>, the vibrant energy of the song reflects the joyous moments shared among friends and loved ones in the movie <em>Arrambam</em>. The upbeat tempo and catchy lyrics evoke feelings of celebration and excitement, making it a perfect anthem for parties. The collaboration of talented singers Ranjith, Shweta Mohan, and Vijay Yesudas adds a dynamic flair to the track. Overall, the song encapsulates the essence of togetherness and the thrill of life.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Melala Vedikudhu</strong> from <em>Arrambam</em> is an electrifying track that perfectly captures the essence of celebration and energy. With a unique collaboration between the dynamic voices of Ranjith, Shweta Mohan, and Vijay Yesudas, this song is sure to get you on your feet. Yuvan's vibrant composition combined with Pa Vijay's catchy lyrics makes this a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "Hey, it is flowing, mixing, and revealing; it is known, it is circling, it is ghee, it is color.",
+      "The top is shaking, everything is known; come on, look at the village, the bright sun, and the green tree.",
+      "No one is coming alone; if they fall, they will get up again; that leader is theirs.",
+      "Let's not be foolish; who is here, what is happening, what does it matter to me?",
+      "Go away, go away; it is a big noise; it is burning in the heart, it is a big trouble."
+    ]
+  }
 }

@@ -62,5 +62,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMbiJK7f6zfFaXDfUFdfliwXjn4xNHgsQXY8025IjaElgbxp-AdORovXpql54JBbxBwH3_n0TDMqFVhl_yHCfIuOkJZh5dUdWOtNLTMRePkIw4rC8hnhJDLaGLPVH0i-NS2oRDY09jycc/s400-c/Mayaa+Guru.jpg",
   "generatedAt": "2026-01-18T13:14:39.153Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "guru",
+      "chinmayi",
+      "ar rahman",
+      "romantic",
+      "soothing",
+      "2006",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Maiyaa Maiyaa'?</h4><p>The song conveys deep emotions of love and longing, beautifully expressed through its lyrics and melody.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Guru'?</h4><p>In <strong>Guru</strong>, the song reflects the romantic journey of the characters, highlighting their emotional connection.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Maiyaa Maiyaa'?</h4><p>The song is sung by <strong>Chinmayi</strong> and composed by the legendary <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Maiyaa Maiyaa' released?</h4><p>The song was released on <strong>November 18, 2006</strong>.</p></div></div>",
+    "summary": "In 'Maiyaa Maiyaa', the listener is taken on a melodic journey that encapsulates the essence of love and devotion. The song beautifully portrays the emotions of longing and affection, making it a perfect fit for romantic occasions. With its soothing composition by AR Rahman and heartfelt lyrics, it evokes a sense of nostalgia and warmth. This enchanting track is a standout moment in the film <em>Guru</em>, resonating with anyone who has experienced the magic of love.",
+    "releaseYear": "2006",
+    "high_ctr_intro": "<strong>Maiyaa Maiyaa</strong> from <em>Guru</em> is a mesmerizing melody that captures the essence of love and longing. With Chinmayi's enchanting vocals and AR Rahman's magical composition, this song transports listeners to a world of romance. Experience the beauty of this heartfelt track that resonates with emotions and memories.",
+    "stanzaMeanings": [
+      "I am the love that you created in your dreams, I am the love that you created in your dreams, in the white gold, I am the body you created in the white gold, I am your lover, I am love.",
+      "I am a flower that you kiss, I am the one who brings joy every day, in that dress fight.",
+      "I am a flower that you kiss, I am the one who brings joy every day, in that dress fight, I am the first to bring joy.",
+      "Even if there are shortcomings, your voice lights up, you bring forth the essence.",
+      "Oh God, my name is written on the path you take.",
+      "Mother, mother, I have painted the moon with colors.",
+      "Mother, mother, the flowers that bloomed in me are all false.",
+      "If I smile, it is enough, the directions will come together, my womb, my play.",
+      "When you look at me, my mirror loves me.",
+      "Oh, the girls steal many things, white weapons will come.",
+      "In the wind, my breath will blow for ages. From now on, many calls will echo in my heart.",
+      "Is this enough, my gaze will seek the times.",
+      "Mother, mother, mother, mother, mother.",
+      "I am a flower that you kiss, I am the one who brings joy every day, in that dress fight, I am the first to bring joy.",
+      "Even if there are shortcomings, your voice lights up, you bring forth the essence.",
+      "Oh God, my name is written on the path you take.",
+      "Mother, mother, mother, mother."
+    ]
+  }
 }

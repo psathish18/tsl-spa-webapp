@@ -52,5 +52,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSy6yD2BtUkeRSTydkXFD24AKvd9B6L4XGs8YIWBT3XBaBWu0qToz-3n20eufmQDRey7Fh1wrnDgca9_6nxKUoBDpXVUDYnsGPkZoHfb-pq5ReFygeCfPQL5g0VNChAXDi50_vBFrpHxE/s400-c/Thalattu+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:11:28.126Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "romantic"
+    ],
+    "songType": [
+      "lullaby",
+      "solo"
+    ],
+    "occasions": [
+      "wedding",
+      "relaxation",
+      "birthday"
+    ],
+    "keywords": [
+      "siruthai",
+      "thalattu",
+      "srivadhini",
+      "arivumathi",
+      "vidyasagar",
+      "soothing",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Thalattu</strong>?</h4><p>The song <strong>Thalattu</strong> conveys the tender emotions of a mother's love, often sung to soothe a child.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Siruthai</em> related to this song?</h4><p>In <em>Siruthai</em>, this song is featured in a heartfelt moment that emphasizes family bonds and affection.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Thalattu</strong>?</h4><p>The song is sung by the talented <strong>Srivadhini</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Siruthai</em>?</h4><p>The music for <em>Siruthai</em> was composed by <strong>Vidyasagar</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Thalattu</strong> released?</h4><p><strong>Thalattu</strong> was released on December 20, 2010.</p></div></div>",
+    "summary": "In <strong>Thalattu</strong>, the soothing lullaby encapsulates the deep emotional connection between a mother and her child, making it a poignant moment in <em>Siruthai</em>. The gentle melody and heartfelt lyrics evoke feelings of love and comfort, resonating with anyone who has experienced a mother's care. This song beautifully conveys the essence of nurturing and affection, making it a perfect choice for moments of relaxation and reflection. Its timeless appeal ensures that it remains a cherished piece in Tamil cinema.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Thalattu</strong> from <em>Siruthai</em> is a mesmerizing lullaby that captures the essence of maternal love and warmth. With Srivadhini's enchanting vocals and Vidyasagar's soulful composition, this song creates a serene atmosphere perfect for relaxation. Experience the emotional depth and soothing melodies that make this track a timeless favorite.",
+    "stanzaMeanings": [
+      "",
+      "Oh, little one, you are the precious child, the golden chariot is here for you.",
+      "I have kissed you, my dear, with a gentle touch.",
+      "I have kissed you, my dear, with a shadow's embrace.",
+      "Sleep, my child, like a lamp that doesn't flicker.",
+      "Sleep, my child, without any desires, like a lamp that stays still."
+    ]
+  }
 }

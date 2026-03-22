@@ -78,5 +78,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJcbPzcERxC4xKTGSwiextQa-pFjphYbqfESCh_Tg3oCOe26VY152nx892pWZwCsmbT-Gpm4b88d_qMCxt-2IE48VIIxVAHfWb-wxWgB4QDJHf1O4PMeyjXL2keoMEzQtyOMRYV2Jad0A/s400-c/Unakaga+Lyrics+Tamil.jpeg",
   "generatedAt": "2026-01-18T12:42:05.815Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "bigil",
+      "unakaaga",
+      "ar rahman",
+      "romantic",
+      "2019",
+      "tamil",
+      "movie",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Unakaaga'?</h4><p>'Unakaaga' expresses deep feelings of love and devotion, highlighting the importance of a loved one in one's life.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Bigil?</h4><p>In <em>Bigil</em>, the song plays during a pivotal moment that showcases the protagonist's emotional connection with his love interest.</p></div><div class=\"faq-item\"><h4>Who is the music director of 'Unakaaga'?</h4><p>The music for 'Unakaaga' is composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Unakaaga' released?</h4><p>'Unakaaga' was released on <strong>September 18, 2019</strong>.</p></div></div>",
+    "summary": "'Unakaaga' is a soulful melody that encapsulates the essence of love and longing in the film <em>Bigil</em>. The song conveys a deep emotional connection between the characters, evoking feelings of nostalgia and happiness. With AR Rahman's masterful composition, it resonates with anyone who has experienced love. The heartfelt lyrics further enhance the song's impact, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Unakaaga</strong> from <em>Bigil</em> is a heartwarming melody that beautifully captures the essence of love and longing. With AR Rahman's enchanting composition, the song resonates with emotions that linger long after the last note. Experience the magic of this collaboration that brings together soulful lyrics and captivating music.",
+    "stanzaMeanings": [
+      "I want to live for you, I enjoy the breath of life.",
+      "In the dress of my dreams, I have you in my thoughts; I will sleep for a hundred years, thinking of you.",
+      "For you, for you, for you, I want to live; I enjoy the breath of life.",
+      "If you ask, it's always you; every moment is you. When you sleep, my life is lost, and I can't bear to hear your words.",
+      "Will you come to me? Don't let the shadow fall; my eyes are waiting for you.",
+      "In the rain, we must go out, holding hands and making it through.",
+      "In the coolness, I want to kiss you; I want to see only you with my breath.",
+      "The moonlight and rain speak; in the darkness, you and I must enjoy together without hesitation.",
+      "I want to live for you, I enjoy the breath of life.",
+      "In the dress of my dreams, I have you in my thoughts; I will sleep for a hundred years, thinking of you.",
+      "For you, for you, for you, I want to live; I enjoy the breath of life. I enjoy the breath of life.",
+      ""
+    ]
+  }
 }

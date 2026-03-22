@@ -38,5 +38,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:22.645Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "raavanan",
+      "karthik",
+      "vairamuthu",
+      "ar rahman",
+      "melancholic",
+      "romantic",
+      "2010",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Usure Pogudhey'?</h4><p>The song conveys deep emotions of longing and heartache, reflecting the struggles of love.</p></div><div class=\"faq-item\"><h4>How does 'Usure Pogudhey' fit into the plot of <em>Raavanan</em>?</h4><p>This song encapsulates the protagonist's emotional turmoil and connection to his love interest within the film's narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Usure Pogudhey' released?</h4><p>The song was released on <strong>May 8, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Usure Pogudhey</strong>, the listener is drawn into a world of emotional depth and longing, perfectly encapsulated by Karthik's evocative voice. The song plays a pivotal role in <em>Raavanan</em>, highlighting the protagonist's inner struggles and romantic aspirations. With AR Rahman's enchanting music and Vairamuthu's poignant lyrics, it evokes a sense of nostalgia and melancholy. This track is not just a song; it's an experience that resonates with anyone who has faced the complexities of love.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Usure Pogudhey</strong> from the film <em>Raavanan</em> is a hauntingly beautiful melody that captures the essence of longing and love. With Karthik's soulful vocals and AR Rahman's mesmerizing composition, this song takes listeners on an emotional journey. The poignant lyrics by Vairamuthu add depth, making it a must-listen for any music lover.",
+    "stanzaMeanings": [
+      "",
+      "In this world, when you came, did you bring fire into my life? You are like a small spark in a vast forest, a tiny flame that can ignite everything. A small spark has fallen and it has caught fire, it has spread in the forest of compassion.",
+      "Let your life flow, let your life flow. I am a little lost, oh, I am confused. My heart is asking, even if you are in the depths of my heart, I think of you. Even if I know the fruit of fire, it is burning me.",
+      "The body and mind are far apart, they cannot think together. The heart speaks, but it cannot say good things. The body is not able to bear it, it is suffering. The sparrow is flying away, it is leaving me. Will this old crow ever stop? Will my dreams be shattered? The sun and moon are circling in the same sky, truth and lies are now mixing together.",
+      "Let your life flow, let your life flow... it is burning me.",
+      "In this world, nothing is new. One or two mistakes will happen in the flow of life. Destiny has set a path, but there is no light in the heart of destiny.",
+      "The sun is shining, the lotus is blooming. Even if I am far away, my family will not leave me. The snake is shedding its skin, but it does not know how to sing. Even if I am here, my heart is afraid.",
+      "Will my strength and my heart meet one day? Will your face come into my eyes? I will remember you in my heart.",
+      "The sun and moon are circling in the same sky, truth and lies are now mixing together.",
+      "Let your life flow, let your life flow... it is burning me.",
+      "Let your life flow, let your life flow. I am a little lost, oh, I am confused. My heart is asking, even if you are in the depths of my heart, I think of you. Even if I know the fruit of fire, it is burning me."
+    ]
+  }
 }

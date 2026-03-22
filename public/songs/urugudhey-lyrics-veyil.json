@@ -49,5 +49,60 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:38.176Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "veyl",
+      "urugudhey",
+      "shankar mahadevan",
+      "shreya goshal",
+      "na muthukumar",
+      "gv prakashkumar",
+      "romantic",
+      "2006"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Urugudhey'?</h4><p>'Urugudhey' expresses deep emotions of love and longing, reflecting the beauty of seeing a loved one.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Veyil'?</h4><p>The song plays during a pivotal moment in <strong>Veyil</strong>, highlighting the emotional connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Urugudhey'?</h4><p>The song features the talented voices of <strong>Shankar Mahadevan</strong> and <strong>Shreya Goshal</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Urugudhey'?</h4><p>The music for this beautiful song was composed by <strong>GV PrakashKumar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Urugudhey' released?</h4><p>'Urugudhey' was released on <strong>December 8, 2006</strong>.</p></div></div>",
+    "summary": "In the movie <em>Veyil</em>, the song <strong>Urugudhey</strong> serves as a poignant reflection of love and yearning. The lyrics, penned by <strong>Na Muthukumar</strong>, evoke a sense of nostalgia and deep emotional connection. With its soothing melody and heartfelt performances by <strong>Shankar Mahadevan</strong> and <strong>Shreya Goshal</strong>, the song beautifully conveys the essence of romantic longing. It resonates with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2006",
+    "high_ctr_intro": "<strong>Urugudhey</strong> from <em>Veyil</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the soulful voices of <strong>Shankar Mahadevan</strong> and <strong>Shreya Goshal</strong>, this song is a perfect blend of emotion and melody. The enchanting composition by <strong>GV PrakashKumar</strong> elevates the listening experience, making it a must-hear for romantic souls.",
+    "stanzaMeanings": [
+      "You are melting, you are changing, with just one glance. The whole world is spinning because of seeing you.",
+      "The precious gold melts and cries. The longing wears me down, the kiss continues.",
+      "I am blooming with joy, just a little while.",
+      "Hey... You are melting, you are changing, with just one glance. The whole world is spinning because of seeing you.",
+      "The precious gold melts and cries. The longing wears me down, the kiss continues.",
+      "I am blooming with joy, just a little while.",
+      "You are melting, you are changing, with just one glance. The whole world is spinning because of seeing you.",
+      "Hey, when I meet you in the light, love speaks and sparks fly at night.",
+      "Crossing seven seas, crossing seven mountains, my heart runs to you, my friend.",
+      "We live together in a gathering, looking at each other.",
+      "In every gathering, I am merging with love and moving forward.",
+      "When the tree bends down, you are the one in my heart.",
+      "You are melting, you are changing, with just one glance. The whole world is spinning because of seeing you.",
+      "I have left my place and am standing everywhere. I live only for you, my dear.",
+      "I am asking for the song to be sung, saying it out loud. Together we will wander in love, leaving our homes behind.",
+      "Will you ask God for mercy and bring you close to me?",
+      "Will you write your name on the thorny bush for me?",
+      "If I close my eyes, I will forget you and leave.",
+      "You are melting, you are changing, with just one glance. The whole world is spinning because of seeing you.",
+      "The precious gold melts and cries. The longing wears me down, the kiss continues.",
+      "I am blooming with joy, just a little while."
+    ]
+  }
 }

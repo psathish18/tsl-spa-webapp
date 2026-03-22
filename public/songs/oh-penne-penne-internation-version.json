@@ -100,5 +100,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:02:38.766Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "vanakkam chennai",
+      "anirudh",
+      "romantic",
+      "melody",
+      "2013",
+      "song",
+      "lyrics",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep romantic feelings, portraying a dreamlike connection between lovers.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Vanakkam Chennai</em>, this song highlights the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who is the music director of this song?</h4><p>The music for this song is composed by <strong>Anirudh</strong>, known for his catchy and melodious tunes.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>October 11, 2013</strong>.</p></div></div>",
+    "summary": "In <strong>Oh Penne Penne Internation Version</strong>, the lyrics beautifully convey the feelings of love and connection between two individuals. The song serves as a backdrop to romantic moments in <em>Vanakkam Chennai</em>, enhancing the emotional landscape of the film. With its soothing melody and heartfelt expressions, it evokes a sense of intimacy and warmth. This track is perfect for anyone looking to celebrate love and togetherness.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Oh Penne Penne Internation Version</strong> from <em>Vanakkam Chennai</em> encapsulates the essence of romance with its dreamy lyrics and soothing melody. Anirudh's enchanting composition creates a magical atmosphere that resonates with lovers. This song is a perfect blend of heartfelt emotions and captivating rhythms, making it a must-listen for anyone in love.",
+    "stanzaMeanings": [
+      "",
+      "I want to hold you, lie on your shoulder. You're all I see when I dream. You're the air that I breathe.",
+      "Girl, just close your eyes, put your hand with mine, and let the world fade away. Here it's just you and me.",
+      "That's enough. You spin my world into two, so my heart beats with your beat, singing my melody.",
+      "Under the candlelight, our bodies stand too close. What the world cannot see is what you found in me.",
+      "Oh girl, you show me the way. When I look in your eyes, you take my breath away.",
+      "Oh girl, you show me the way. When I look in your eyes, you take my breath away.",
+      "I never want to see us fighting. Forget the thunder and lightning. I hold you until we see the morning light. Never leave your side.",
+      "I crossed seven seas to come for you. This river meets the sea for you.",
+      "I will create a moonlight that will shine on you.",
+      "Those stars come down and settle on your eyes. They ask for a little space.",
+      "Today in your hand, I am like a doll that swings. That's your femininity.",
+      "Oh girl, you show me the way. When I look in your eyes, you take my breath away.",
+      "Oh girl, you show me the way. When I look in your eyes, you take my breath away.",
+      "I never want to see us fighting. Forget the thunder and lightning. I hold you to see the morning light. Never leave your side.",
+      "That's enough. You spin my world into two, so my heart beats with your beat, singing my melody.",
+      "Under the candlelight, our bodies stand too close. What the world cannot see is what you found in me.",
+      "Oh girl, you show me the way. When I look in your eyes, you take my breath away.",
+      "Take my breath away.",
+      "Take my breath away."
+    ]
+  }
 }

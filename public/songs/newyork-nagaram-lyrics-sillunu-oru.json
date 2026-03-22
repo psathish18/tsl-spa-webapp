@@ -52,5 +52,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:43.151Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "sillunu oru kadhal",
+      "newyork nagaram",
+      "ar rahman",
+      "vaali",
+      "romantic",
+      "melody",
+      "2006",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Newyork Nagaram?</h4><p>The song <strong>Newyork Nagaram</strong> expresses feelings of love and longing, depicting a romantic journey through the city of New York.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Sillunu Oru Kadhal?</h4><p>In <strong>Sillunu Oru Kadhal</strong>, this song highlights the protagonist's emotional connection and memories associated with love.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of Newyork Nagaram?</h4><p>The song is sung by <strong>AR Rahman</strong>, who is also the music director, showcasing his exceptional talent in both singing and composing.</p></div><div class=\"faq-item\"><h4>When was Newyork Nagaram released?</h4><p><strong>Newyork Nagaram</strong> was released on <strong>September 8, 2006</strong>, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "In <strong>Newyork Nagaram</strong>, the protagonist reflects on love and solitude amidst the bustling backdrop of New York City. The song beautifully conveys the emotions of longing and connection, enhanced by AR Rahman's soulful melody and Vaali's poignant lyrics. It evokes a sense of nostalgia, making it a perfect anthem for romantic moments. The enchanting composition resonates with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2006",
+    "high_ctr_intro": "<strong>Newyork Nagaram</strong> from <em>Sillunu Oru Kadhal</em> is a mesmerizing melody that captures the essence of love and longing. With AR Rahman's enchanting composition and heartfelt lyrics by Vaali, this song transports listeners to a dreamy world. Experience the magic of romance as the soothing vocals weave a tale of affection and nostalgia.",
+    "stanzaMeanings": [
+      "New York city is a place where loneliness is felt, the rain falls, and the ship sails, moving along the shore.",
+      "In the four mirrors of heaven, I too am alone, is it loneliness or suffering?",
+      "When we talk, it feels like a lullaby, you don't let me sleep.",
+      "Every day you don't give a kiss, you don't serve coffee in the morning.",
+      "You are not here to take the sigh that falls from my eyes.",
+      "You are not here to solve the troubles in my heart.",
+      "Am I here and you there, in this loneliness, has it been years?",
+      "Is the sky here and the earth there, is this comparison a light for both?",
+      "New York city is a place where loneliness is felt, the rain falls, and the ship sails, moving along the shore.",
+      "In the country notes, a hundred times, your name is written, my dear.",
+      "What is written is like a worm, is it a blessing or a curse?",
+      "Is this earth, where the spring of youth is, a season of warmth?",
+      "Come, my dear, if you come, even thoughts will change like a work of art....",
+      "New York city is a place where loneliness is felt, the rain falls, and the ship sails, moving along the shore.",
+      "",
+      ""
+    ]
+  }
 }

@@ -40,5 +40,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHTE_9MoMKoIMAvT0vaoqNgr4mcrlh-gbERYOfz5nb1wJ4V9Ne7gcD62LRRiZGIhPUXDGOip51c9855YqXJVese5JiSxslZCtT80dzfoIjZFW0BAqEa_jtySEfn1pKPxhT4cJN3SfRwbw/s400-c/Po+Po+En+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:46:38.952Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "po po yen",
+      "sid sriram",
+      "a h kaashif",
+      "romantic",
+      "melancholic",
+      "2017",
+      "tamil song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Po Po Yen'?</h4><p>The song conveys themes of love and longing, expressing deep emotional sentiments.</p></div><div class=\"faq-item\"><h4>In which movie does 'Po Po Yen' feature?</h4><p>The movie context is currently unknown.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Po Po Yen'?</h4><p>The song is sung by the talented <strong>Sid Sriram</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Po Po Yen'?</h4><p>The music is composed by <strong>A H Kaashif</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Po Po Yen' released?</h4><p>The song was released on <strong>February 22, 2017</strong>.</p></div></div>",
+    "summary": "The song 'Po Po Yen' is a heartfelt expression of love and solitude, encapsulating the emotional turmoil of separation. With its soothing melody and poignant lyrics, it evokes feelings of nostalgia and longing. The song beautifully illustrates the struggle between love and loneliness, making it relatable for anyone who has faced heartbreak. Sid Sriram's captivating voice adds depth to the song, making it a perfect choice for moments of reflection.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Po Po Yen</strong> is a mesmerizing melody that beautifully captures the essence of love and longing. With Sid Sriram's soulful vocals and A H Kaashif's enchanting composition, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. Dive into the emotional depths of this track and let it sweep you away.",
+    "stanzaMeanings": [
+      "",
+      "Go away, my heart should fall and find peace.",
+      "Go away, my shadow should separate and make me lonely.",
+      "Your anger takes away my peace. My eyes are filled with tears.",
+      "Enough, always your memories are troubling my heart without saying anything.",
+      "With my eyes, I can see the path, but there is no way to find it.",
+      "With the wind, I can’t create a picture, there is nothing to be done.",
+      "Isn't it difficult to understand the words of love when spoken?",
+      "Go away, my heart should fall and find peace.",
+      "Go away, my shadow should separate and make me lonely.",
+      "Why is life only taking me away? What can I do, everything is slipping away.",
+      "When you were near me, you were a wanderer, when you left, you became a burden.",
+      "Enough, I am crying because of you, enough, I am crying with you.",
+      "Let anything go away, if you live with my hand, that is enough."
+    ]
+  }
 }

@@ -94,5 +94,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLsi8FgWcSHiLffiwQ9wDw-Hxch-3LrENNnclaldUGAdeRvzDAzfNgz2nlhmqXuf5oit3MwtOoAIPj4rGJR-ejEhxg11mYNEcEd6nJ_M2nrG5_3xeocrKMLqsFHv4EJPC62_BTCgVoTm4/s400-c/Taramani+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:47:54.749Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "taramani",
+      "yuvan",
+      "sruthi s",
+      "na muthukumar",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, emphasizing that without the beloved, nothing else matters.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Taramani</em>, the song reflects the emotional struggles of the characters as they navigate their romantic relationships.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The song features the talented vocals of <strong>Sruthi S</strong> and <strong>Yuvan</strong>, who is also the music director.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Unnai Unnai Unnai</strong> was released on December 30, 2016.</p></div></div>",
+    "summary": "In <strong>Unnai Unnai Unnai</strong>, the characters in <em>Taramani</em> express their profound emotions of love and solitude. The song's lyrics delve into the depths of longing, portraying a sense of yearning that resonates with listeners. With a haunting melody composed by Yuvan and beautifully sung by Sruthi S, it evokes a bittersweet nostalgia. This track encapsulates the essence of romance, making it a poignant addition to the film's narrative.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Unnai Unnai Unnai</strong> from <em>Taramani</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With Yuvan's soulful composition paired with the enchanting vocals of Sruthi S, this song resonates deeply with anyone who has experienced the highs and lows of romance. Dive into this lyrical journey that showcases the unique collaboration of two talented artists, making it a must-listen for Tamil music lovers.",
+    "stanzaMeanings": [
+      "",
+      "I love you to the extent of the sea, and I desire you to the extent of the mountains.",
+      "There is nothing other than you. Should I accept this from you? No.",
+      "There is nothing other than loneliness. Should I accept this from you? There is no one to help me.",
+      "At what time will you come? I know today, but you won't come.",
+      "I know that if I turn back today, your home will come, but it won't come.",
+      "Thinking of you, I can hear your voice, but I can't ask you.",
+      "You, with your charming face, have taken my soul and written it down, and you will just like it.",
+      "But I am not the one who writes it down.",
+      "I love you to the extent of the sea, and I desire you to the extent of the mountains.",
+      "",
+      ""
+    ]
+  }
 }

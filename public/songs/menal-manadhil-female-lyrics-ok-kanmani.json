@@ -110,5 +110,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDDuU3Q8frv8kfi2j-6l0agxOcooiZOLi_9-fiXQPe-C_WH6pe4dq9pxSX2e657-r6tEsmek0yYpkLJa_FdMpzfLEc1sHat5iNL0Ra0Yfm_8SWrNfXWlnGJ4gTUFIz0eOjcD2-JL2sKVI/s400-c/Okay_Kanmani_film_poster.jpg",
   "generatedAt": "2026-01-18T12:55:34.594Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "ok kanmani",
+      "jonita gandhi",
+      "ar rahman",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Menal Manadhil</strong> conveys feelings of love and emotional connection, reflecting the romantic journey of the characters in <em>Ok Kanmani</em>.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>This song highlights the romantic moments between the protagonists, showcasing their deepening relationship throughout <em>Ok Kanmani</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Jonita Gandhi</strong> and composed by the legendary <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Menal Manadhil</strong> was released on <strong>April 4, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Menal Manadhil</strong>, the listener is taken on a melodic journey that encapsulates the essence of youthful love. The song's soothing rhythm and heartfelt lyrics resonate with the emotions of the characters in <em>Ok Kanmani</em>, making it a perfect backdrop for romantic moments. It evokes feelings of joy and nostalgia, inviting listeners to reflect on their own experiences of love. Jonita Gandhi's captivating voice, combined with A.R. Rahman's masterful composition, creates a memorable musical experience.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Menal Manadhil</strong> from <em>Ok Kanmani</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With Jonita Gandhi's enchanting vocals and A.R. Rahman's magical composition, this song creates an unforgettable atmosphere. Dive into the romantic vibes of this track that resonates with every heartbeat.",
+    "stanzaMeanings": [
+      "",
+      "In my mind, thoughts are swirling. In this age, there are many things to say. In the music that plays, my lover is in my heart.",
+      "Yesterday is not what it is today, tomorrow will be different. Just like your beloved, today we are like a king and queen.",
+      "In my mind, thoughts are swirling. In this age, there are many things to say. In the music that plays, my lover is in my heart, just like my beloved, just like your beloved.",
+      "We have come together, we have found a place, we have shared a space.",
+      "On top of that, it has been placed, and it is resting above.",
+      "Even if we separate, we won't understand the separation. Sometimes we laugh, sometimes we spread joy.",
+      "In my mind, thoughts are swirling. In this age, there are many things to say. In the music that plays, my lover is in my heart.",
+      "Yesterday is not what it is today, tomorrow will be different. Just like your beloved, today we are like a king and queen.",
+      "In my mind, thoughts are swirling.",
+      "",
+      ""
+    ]
+  }
 }

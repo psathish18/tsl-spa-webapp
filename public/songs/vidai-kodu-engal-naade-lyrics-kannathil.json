@@ -56,5 +56,47 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:16:43.500Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "devotional"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "classical"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "celebration"
+    ],
+    "keywords": [
+      "kannathil muthamittal",
+      "vidai kodu engal naade",
+      "balram",
+      "ms viswanathan",
+      "vairamuthu",
+      "ar rahman",
+      "melancholic",
+      "2002"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of longing and hope, reflecting the emotional journey of the characters in the movie.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie?</h4><p>In <em>Kannathil Muthamittal</em>, the song underscores the protagonist's struggles and aspirations, enhancing the narrative's emotional depth.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features the talented voices of <strong>Balram</strong> and <strong>M.S. Viswanathan</strong>, with music composed by <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Vidai Kọdu Engal Naade</strong> was released on <strong>February 14, 2002</strong>.</p></div></div>",
+    "summary": "In <strong>Vidai Kọdu Engal Naade</strong>, the characters express their deep emotions and aspirations amidst the backdrop of life's challenges. The song's melancholic yet hopeful tone resonates with the audience, evoking a sense of nostalgia and longing. It serves as a pivotal moment in <em>Kannathil Muthamittal</em>, highlighting the struggles faced by the protagonists. With its rich lyrics by Vairamuthu and the soulful rendition by Balram and M.S. Viswanathan, this track leaves a lasting impact on listeners.",
+    "releaseYear": "2002",
+    "high_ctr_intro": "<strong>Vidai Kọdu Engal Naade</strong> from <em>Kannathil Muthamittal</em> is a poignant melody that beautifully captures the essence of longing and hope. With the soulful voices of Balram and M.S. Viswanathan, combined with A.R. Rahman's enchanting composition, this song resonates deeply with listeners. Experience the emotional depth and lyrical brilliance that makes this track a timeless classic.",
+    "stanzaMeanings": [
+      "Let us give birth to our land, where the sea opens up, and the birds fly with the wind, let us see a new way of life.",
+      "In the morning, we smile and are born into life, we are just passing through with only a few connections.",
+      "Even if it is love, will there be a comfort like a mother's lap? Will there be a comfort like a mother's lap? Even if heaven is offered, will freedom come like a flower?",
+      "The land that is free is where we can see, the land that is free is where we can see.",
+      "We will part ways, but mistakes will come back to us. If we call for love again, tears will flow, we are looking at the earth born from the tears.",
+      "Let us give birth to our land, where the sea opens up, and the birds fly with the wind, let us see a new way of life. In the morning, we smile and are born into life, we are just passing through with only a few connections.",
+      "Our music is in the child's tears, our music is in the child's tears.",
+      "Our young moon is born on the stage, we are born in the morning light, later in the night we fall like thorns. If the sea water is there, we will meet, if the mountains live, we will meet. With a little on our heads, many thoughts are flowing in our hearts.",
+      "Let us give birth to our land, where the sea opens up, and the birds fly with the wind, let us see a new way of life. In the morning, we smile and are born into life, we are just passing through with only a few connections."
+    ]
+  }
 }

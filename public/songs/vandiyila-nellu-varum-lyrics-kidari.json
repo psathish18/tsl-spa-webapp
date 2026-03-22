@@ -47,5 +47,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:01:35.643Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number",
+      "folk"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "kidari",
+      "anthonydasan",
+      "sanjana kalmanje",
+      "darbuka siva",
+      "upbeat",
+      "dance",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Vandiyila nellu varum</strong> celebrates joy and togetherness, often reflecting festive themes.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Kidari</em>, this song is a lively number that enhances the festive atmosphere and showcases the characters' happiness.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented voices of <strong>Anthonydasan</strong> and <strong>Sanjana Kalmanje</strong>, with music composed by <strong>Darbuka Siva</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Vandiyila nellu varum</strong> was released on September 2, 2016.</p></div></div>",
+    "summary": "The song <strong>Vandiyila nellu varum</strong> from the movie <em>Kidari</em> is a lively and upbeat track that encapsulates the joy of celebration. It features a catchy melody that invites listeners to dance and enjoy the moment. The lyrics reflect themes of happiness and togetherness, making it perfect for festive occasions. With its vibrant energy, the song evokes feelings of joy and excitement, resonating well with audiences looking for a fun and engaging experience.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Vandiyila nellu varum</strong> from <em>Kidari</em> is a vibrant celebration of life and joy, brought to life by the dynamic voices of Anthonydasan and Sanjana Kalmanje. With Darbuka Siva's infectious beats, this song captures the essence of festive spirit and togetherness. Get ready to groove to this catchy tune that promises to uplift your mood!",
+    "stanzaMeanings": [
+      "",
+      "Rice will come in the cart.",
+      "Rice will come in the cart, rice will come in the cart, rice will come in the cart, rice will come in the cart for mother.",
+      "That cart will bring rice to the village, that cart will bring rice to the village, it will bring something special.",
+      "For mother, it will bring something special.",
+      "Rice will come in the cart, rice will come in the cart, rice will come in the cart.",
+      "For mother, rice will come in the cart, that rice will bring something special to the village, that rice will bring something special to the village.",
+      "For mother, it will bring something special, rice will come in the pot, rice will come in the pot, rice will come in the pot.",
+      "For mother, rice will come in the pot, when my finger touches it, it is enough, enough for me to live, I don't want anything else tonight.",
+      "Seeing the shape, my breath is taken away, what magic have you done?",
+      "Whatever you put in the basket, it will be enough, the lamp on the table will go out silently.",
+      "I too will go, the desire is for rice to come in the cart... rice will come in the cart... rice will come in the cart... the cart will bring something special.",
+      "It will bring something special... it will bring something special... it will bring something special.."
+    ]
+  }
 }

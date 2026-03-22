@@ -77,5 +77,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjme_dIe9sCpRfwZ8Cek8UQ0r1PEteiGFRrX5uE9JjSb6RrUl6dzSN2RRouiVT0qZkyIpCyb_cayU-1UTU2MxVlwmBgZeuEQzode4lbpi6mjxI877UeX_rT1hw69QWmz1eXewmbebu13jI/s400-c/David_tamil.jpg",
   "generatedAt": "2026-01-18T13:04:47.080Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "vazhkaiye",
+      "david",
+      "siddarth basrur",
+      "mohan rajan",
+      "melancholic",
+      "2013",
+      "tamil song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Vazhkaiye</strong>?</h4><p>The song <strong>Vazhkaiye</strong> reflects themes of life, longing, and emotional struggles, encapsulating the bittersweet moments of existence.</p></div><div class=\"faq-item\"><h4>How does <strong>Vazhkaiye</strong> fit into the plot of <em>David</em>?</h4><p>In <em>David</em>, <strong>Vazhkaiye</strong> serves as a poignant backdrop to the character's emotional journey, highlighting their internal conflicts and desires.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of <strong>Vazhkaiye</strong>?</h4><p>The song is sung by <strong>Siddarth Basrur</strong>, who is also the music director, showcasing his multifaceted talent.</p></div><div class=\"faq-item\"><h4>When was <strong>Vazhkaiye</strong> released?</h4><p><strong>Vazhkaiye</strong> was released on January 3, 2013, as part of the <em>David</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Vazhkaiye</strong>, the listener is taken on an emotional journey that reflects the struggles of life and the weight of memories. The song's melancholic tone, paired with Siddarth Basrur's evocative vocals, creates a deep sense of nostalgia. It beautifully conveys the essence of longing and introspection, making it a perfect fit for moments of reflection. As part of the movie <em>David</em>, it enhances the narrative by connecting the audience to the protagonist's emotional landscape.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Vazhkaiye</strong> from <em>David</em> is a hauntingly beautiful melody that resonates with the depths of human emotion. Siddarth Basrur's soulful voice, combined with Mohan Rajan's poignant lyrics, creates an unforgettable listening experience. This song captures the essence of nostalgia and longing, making it a must-listen for anyone who appreciates heartfelt music.",
+    "stanzaMeanings": [
+      "",
+      "Life is like a shore, changing directions and illusions. You have ignited a fire in our hearts, and I wonder who told this truth. Life is a friend, shedding tears.",
+      "The river flows, showing us our time. Every day, it reflects you, our dreams.",
+      "Everything here is like a dream, everyone is like a doll. There is nothing real, just a false grip in our hands. Life... Life... Life... Life..."
+    ]
+  }
 }

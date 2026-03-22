@@ -77,5 +77,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:42.151Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "dance number"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "engeyum kadhal",
+      "naveen madhav",
+      "rahul nambiar",
+      "richard",
+      "vaali",
+      "harrish jeyaraj",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Nangaai?</h4><p>The song <strong>Nangaai</strong> expresses the playful and joyful aspects of love, celebrating the beauty of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in Engeyum Kadhal?</h4><p>In <strong>Engeyum Kadhal</strong>, the song is featured during a light-hearted moment that showcases the chemistry between the lead characters, enhancing the romantic theme of the movie.</p></div><div class=\"faq-item\"><h4>Who are the singers of Nangaai?</h4><p>The song is sung by <strong>Naveen Madhav</strong>, <strong>Rahul Nambiar</strong>, and <strong>Richard</strong>, each bringing their unique style to the track.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Nangaai</strong> was composed by <strong>Harrish Jeyaraj</strong>, known for his catchy and vibrant compositions.</p></div><div class=\"faq-item\"><h4>When was Nangaai released?</h4><p><strong>Nangaai</strong> was released on <strong>November 13, 2010</strong>, as part of the movie <strong>Engeyum Kadhal</strong>.</p></div></div>",
+    "summary": "The song <strong>Nangaai</strong> from <em>Engeyum Kadhal</em> encapsulates the joyous and playful spirit of love. Set against a backdrop of vibrant melodies, it conveys the excitement and happiness of romantic relationships. The catchy lyrics and upbeat rhythm evoke feelings of youth and celebration, making it a perfect choice for weddings and festive occasions. This duet showcases the chemistry between the singers, enhancing the overall charm of the song.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Nangaai</strong> from the movie <em>Engeyum Kadhal</em> is a vibrant celebration of love, brought to life by the enchanting voices of Naveen Madhav, Rahul Nambiar, and Richard. The catchy beats crafted by Harrish Jeyaraj perfectly complement the playful lyrics by Vaali, making it an unforgettable romantic anthem. Dive into this melodious journey that captures the essence of youthful love and joy!",
+    "stanzaMeanings": [
+      "",
+      "Oh Mother, Mother, Oh! What a beautiful sight! Oh Mother, Mother, Oh! What a lovely sight! Oh Mother, Mother, Oh! What a beautiful sight! Oh Mother, Mother, Oh! What a lovely sight!",
+      "My girl, you are like the moon, You are my treasure, My friend, you are like a flower, You should not stand still. Oh beautiful one, come to me, You are my dream girl.",
+      "My girl, you are like the moon, You are my treasure, My friend, you are like a flower, You should not stand still. Oh Mother, Mother, Oh! What a beautiful sight! Oh Mother, Mother, Oh! What a lovely sight!",
+      "When I saw you, I forgot everything and ran away. SeaLight, the beautiful language, What is my language?",
+      "[Because of you, we are like Jone Harry, Because of you, I am now a treasure.] I will not let you go, I will hold on tight, You are my dear, I will not let go.",
+      "My girl, you are like the moon...",
+      "The pain is like a thorn in my eye, Like the sun, my heart is burning. Every day, I want to be with you. Can we be together, my dear? Can we be together, my dear?",
+      "Oh Mother, Mother, Oh! What a beautiful sight! Oh Mother, Mother, Oh! What a lovely sight!",
+      "My girl, you are like the moon, You are my treasure, My friend, you are like a flower, You should not stand still. Oh beautiful one, come to me, You are my dream girl!",
+      "Oh Mother, Mother, Oh! What a beautiful sight! Oh Mother, Mother, Oh! What a lovely sight!"
+    ]
+  }
 }

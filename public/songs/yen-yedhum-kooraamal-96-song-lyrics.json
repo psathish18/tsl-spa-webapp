@@ -90,5 +90,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:08.628Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "96 movie",
+      "gowri tp",
+      "karthik netha",
+      "govind vasantha",
+      "romantic",
+      "melancholic",
+      "2018",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, reflecting on the memories associated with a past relationship.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie 96?</h4><p>In <em>96</em>, this song captures the essence of nostalgia and the emotional journey of the characters as they reminisce about their past love.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Gowri TP</strong>, whose voice adds a unique depth to the emotional narrative of the track.</p></div><div class=\"faq-item\"><h4>Who composed the music for Yaen Yedhum Kooraamal?</h4><p>The music for this song was composed by <strong>Govind Vasantha</strong>, known for his ability to blend melodies with poignant lyrics.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on <strong>September 21, 2018</strong>, as part of the <em>96</em> movie soundtrack.</p></div></div>",
+    "summary": "In the movie <em>96</em>, the song <strong>Yaen Yedhum Kooraamal</strong> serves as a poignant reminder of lost love and cherished memories. It beautifully encapsulates the feelings of nostalgia and longing that the characters experience as they reflect on their past. The soothing melody, combined with heartfelt lyrics, evokes a deep emotional response, making it relatable for anyone who has loved and lost. This track stands out as a soulful expression of love's complexities, resonating with listeners long after the last note fades.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Yaen Yedhum Kooraamal</strong> from the <em>96</em> movie is a hauntingly beautiful melody that captures the essence of love and longing. With Gowri TP's soulful vocals and Govind Vasantha's enchanting composition, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. Dive into the emotional depths of this track that beautifully intertwines nostalgia and heartfelt expression.",
+    "stanzaMeanings": [
+      "Why did you leave without saying anything? Why did you go without looking back?",
+      "Where is the blessing of the clouds? The path that leads to freedom is filled with tears.",
+      "The song of love that has gone away. All the falling water is a prayer of longing.",
+      "If you cross the village, there will be a search for you everywhere.",
+      "If you go beyond the differences, the truth will also be revealed within you.",
+      "The song has ended, where is your sky? The burden of tears will come with the rain.",
+      "Where will your path lead tomorrow? The wings will fly and the day will come in the sky.",
+      ""
+    ]
+  }
 }

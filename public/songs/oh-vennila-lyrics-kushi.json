@@ -58,5 +58,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXw7zl7SVd0r-zgVy31P6ymiEmkGhBNDyo77yV-32mxOSj7lc8SCj2_p6SIeevnEuoMFGCQy4z46LMscLJlmtPgOoOx1FITOa4ZGrnoovidH7DDu2TNQDR9fm85SebdJzhu0p_yofTKnk/s400-c/oh+vennila+.jpg",
   "generatedAt": "2026-01-18T13:17:34.572Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kushi",
+      "oh vennila",
+      "anuradha sriram",
+      "unnikrishnan",
+      "vairamuthu",
+      "deva",
+      "romantic",
+      "2000"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oh Vennila'?</h4><p>'Oh Vennila' expresses deep emotions of love and longing, reflecting the complexities of relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Kushi?</h4><p>In <em>Kushi</em>, this song highlights the romantic feelings between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Oh Vennila'?</h4><p>The song features the melodious voices of <strong>Anuradha Sriram</strong> and <strong>Unnikrishnan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Oh Vennila' was composed by <strong>Deva</strong>, known for his catchy and melodious tunes.</p></div><div class=\"faq-item\"><h4>When was 'Oh Vennila' released?</h4><p>'Oh Vennila' was released on <strong>May 19, 2000</strong>.</p></div></div>",
+    "summary": "In <strong>Oh Vennila</strong>, the characters express their feelings of love and the struggles that come with it, making it a poignant moment in <em>Kushi</em>. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing. It beautifully captures the essence of romance, making it perfect for intimate occasions. The collaboration of Anuradha Sriram and Unnikrishnan adds a unique charm, making this song a timeless favorite.",
+    "releaseYear": "2000",
+    "high_ctr_intro": "<strong>Oh Vennila</strong> from <em>Kushi</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Anuradha Sriram and Unnikrishnan, this song weaves a magical atmosphere that resonates with every romantic heart. Experience the lyrical brilliance of Vairamuthu and the captivating melodies crafted by Deva in this timeless classic.",
+    "stanzaMeanings": [
+      "Oh moon, why are you angry with me? Living alone without the sky, what is it, what is it, what is it?",
+      "Oh beloved, is your name silent? Telling my heart, it grows in a moment, correctly, correctly, correctly..",
+      "In the midst of loss, it will touch the stage slowly. It will shine nearby. In both our hearts, something is there. If one sees, there will be a fight.",
+      "Oh woman, why the pride? Even if you come, words will change, what is it, what is it, what is it?",
+      "Oh breath, don't flow over me. Don't let my life go outside. Don't let go of you. Don't let anyone take you away. Whoever smiles, flowers will bloom.",
+      "Oh beloved, is your name silent? Without saying a word, love and words don't exist, no, no, no.",
+      "Oh beloved, don't say a line. If you say the first word, I will say the last word.",
+      "I will say daily, I will say my love. Living love without losing in a fight, I will say my love.",
+      ""
+    ]
+  }
 }

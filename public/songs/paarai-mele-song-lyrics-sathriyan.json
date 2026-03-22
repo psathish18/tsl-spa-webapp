@@ -52,5 +52,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhByOXf6kzSDvyMfgFRFedBy2_6oFR0WT62VCksWE7TFUIEDk2rTJoBB807CFVWO8ZtogWiKGb8uAospv9uvmJWFF4I3Cgpq8fr7iBksQ6y6ucILsYq6GX1sQESqiZEW_bdZXngagAwiio/s400-c/Paarai+Male+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:47:24.856Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "sathriyan",
+      "yuvan",
+      "snehan",
+      "romantic",
+      "melancholic",
+      "2017",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Paarai Mele</strong> conveys themes of love and longing, expressing deep emotions associated with romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song plays a crucial role in <em>Sathriyan</em>, highlighting the protagonist's emotional journey and connection with love.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Yuvan</strong>, who is also the music director, showcasing his unique style and creativity.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Paarai Mele</strong> was released on January 31, 2017, as part of the <em>Sathriyan</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Paarai Mele</strong>, the protagonist expresses profound feelings of love and yearning, beautifully captured through Yuvan's emotive singing. The song's lyrics, penned by Snehan, evoke a sense of nostalgia and longing, making it a perfect fit for romantic occasions. As it unfolds in <em>Sathriyan</em>, it highlights the emotional struggles faced in love, resonating with anyone who has experienced similar sentiments. The soothing melody and heartfelt lyrics create an atmosphere that is both reflective and deeply moving.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Paarai Mele</strong> from <em>Sathriyan</em> is a mesmerizing melody that captures the essence of love and longing. With Yuvan's soulful voice and poignant lyrics by Snehan, this song resonates deeply with anyone who has experienced the highs and lows of romance. Dive into the emotional depth of this track that beautifully blends heartfelt expressions with captivating music.",
+    "stanzaMeanings": [
+      "",
+      "Like a drizzle on the mountain, you have come and fallen on me.",
+      "Like a cloud that brings rain in the wind, you have broken me.",
+      "Don't let me fall, don't let my heart be disturbed.",
+      "Like a child, I am playing in the comfort of your sweetness.",
+      "My heart is pounding, lifting my head to see, I am asking about you and sharing my thoughts.",
+      "Like a doll left in the rain, I am trembling.",
+      "You are the new creation given by God, I have searched for the way to possess you and have endured many hardships.",
+      "Like a drizzle on the mountain, you have come and fallen on me.",
+      "Like a cloud that brings rain in the wind, you have broken me.",
+      "Both my legs are flying, my whole body is soaring, new wonders are emerging within me.",
+      "Your gaze gives the touch of motherhood, you are like a flame that burns for moments.",
+      "Until now, I have enjoyed the experiences that have come my way, this earth feels very new like a victorious planet.",
+      "",
+      ""
+    ]
+  }
 }

@@ -48,5 +48,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:37.353Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "nenjil maamazhai",
+      "nimir",
+      "haricharan",
+      "shweta mohan",
+      "thamarai",
+      "ajaneesh loknath",
+      "romantic",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nenjil Maamazhai'?</h4><p>The song conveys deep emotions of love and connection, reflecting the beauty of romantic moments.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Nimir'?</h4><p>'Nimir' revolves around themes of love and relationships, showcasing the journey of its characters through various emotional landscapes.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Nenjil Maamazhai'?</h4><p>The song features the melodious voices of <strong>Haricharan</strong> and <strong>Shweta Mohan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Nenjil Maamazhai'?</h4><p>The music for this beautiful track was composed by <strong>Ajaneesh Loknath</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Nenjil Maamazhai' released?</h4><p>The song was released on <strong>March 19, 2018</strong>.</p></div></div>",
+    "summary": "In 'Nenjil Maamazhai', the characters express their love through poetic lyrics and soothing melodies. The song beautifully encapsulates the feelings of affection and longing, making it a perfect backdrop for romantic moments in the movie. With its gentle rhythm and heartfelt delivery, it evokes a sense of nostalgia and warmth. The collaboration of talented artists brings forth a captivating experience that resonates with listeners.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Nenjil Maamazhai</strong> from <em>Nimir</em> is a beautifully crafted romantic duet that captures the essence of love and longing. With the enchanting voices of Haricharan and Shweta Mohan, this song is a melodic journey that resonates with heartfelt emotions. The collaboration of talented lyricist Thamarai and music director Ajaneesh Loknath adds a unique charm, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "In the heart, there's a gentle rain, bringing the sky together.",
+      "A little lotus, a little lotus, blooms everywhere.",
+      "How many days, how many days to see? Rising and falling, rising and falling.",
+      "The stone-like voice sings within. The eyes, the eyes sing harshly.",
+      "In the heart, there's a gentle rain, bringing the sky together.",
+      "A little lotus, a little lotus, blooms everywhere.",
+      "In the future, how many days to see? It comes to watch from afar.",
+      "Days pass without notice, causing disputes silently.",
+      "If I speak, my days will be colored, but you are the one who gives them.",
+      "Without jumping, you come like a fish in my sight.",
+      "How many days, how many days to see? Rising and falling, rising and falling.",
+      "The stone-like voice sings within. The eyes, the eyes sing harshly.",
+      "In the heart, there's a gentle rain...",
+      "Everything done in love is enough; the eyes will wander.",
+      "The rose petal rain is needed, without speaking, it will change.",
+      "In my house without women, you must come with a mark.",
+      "Without a breeze in my garden, you will come again, learning.",
+      "How many days, how many days to see? Rising and falling, rising and falling.",
+      "The stone-like voice sings within. The eyes, the eyes sing harshly.",
+      "In the heart, there's a gentle rain... in the heart, there's a gentle rain..."
+    ]
+  }
 }

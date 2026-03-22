@@ -50,5 +50,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrG8IbsA79xE8J6c0EiDqPPPgDC7SLsIoIg26fg_8OLr_m2p9xrCF1JBpbWemU_WtxLP1gD_5iwSopFVotPY_7nE2gxbiwlxs-uf_jEUaOOXQMfbzSQad2zA5o9TXCJVZzZATLYa_HXo0/s400-c/Nee+kaatru+naan+maram.JPG",
   "generatedAt": "2026-01-18T13:18:33.209Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "nee kaatru naan maram",
+      "nilave va",
+      "hariharan",
+      "k.s.chithra",
+      "vairamuthu",
+      "vidyasagar",
+      "romantic",
+      "1998"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, portraying the feelings of separation and connection.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>This song is featured in the movie <em>Nilave Va</em>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by renowned artists <strong>Hariharan</strong> and <strong>K.S. Chithra</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by <strong>Vidyasagar</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>August 14, 1998</strong>.</p></div></div>",
+    "summary": "In <strong>Nee Kaatru Naan Maram</strong>, the protagonists express their deep emotional connection amidst the trials of love. The song beautifully encapsulates the feelings of yearning and nostalgia, making it a poignant addition to the film's narrative. With its soothing melody and heartfelt lyrics, it evokes a sense of longing that resonates with listeners. This track serves as a reminder of the bittersweet nature of love, making it a timeless classic.",
+    "releaseYear": "1998",
+    "high_ctr_intro": "<strong>Nee Kaatru Naan Maram</strong> from <em>Nilave Va</em> is a timeless melody that beautifully captures the essence of love and longing. With enchanting vocals by Hariharan and K.S. Chithra, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. The collaboration of Vairamuthu's poignant lyrics and Vidyasagar's soulful composition makes this track a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "You are the wind, I am the tree, no matter what you say, I will bow down.",
+      "You are the wind, I am the tree, no matter what you say, I will bow down.",
+      "You are the rain, I will fall to the ground wherever you drop me.",
+      "You are the night, I am the sky, I will stay until you come.",
+      "You are the wind, I am the tree, no matter what you say, I will bow down.",
+      "You are the waves, I will rise even if you hit me.",
+      "You are the body, I am the shadow, I will not fall, I will fall only if you fall.",
+      "You are the rain, I will give you life until you come to me.",
+      "You are the eyes, I will wait until you come to me.",
+      "You are the breath, I am the body, I will only give life to you.",
+      "You are the sky, I am the earth, I have merged with you.",
+      "You are my thoughts, I will express whatever you say.",
+      "You are the sun, I am the cuckoo, I will sing when I see you coming.",
+      "You are the dress, I will give you rest when you sleep.",
+      "You are the day, I will always be with you.",
+      "You are the wind, I am the tree, no matter what you say, I will bow down.",
+      "You are the rain, I will fall to the ground wherever you drop me.",
+      "You are the night, I am the sky, I will stay until you come.",
+      "You are the wind, I am the tree, no matter what you say, I will bow down."
+    ]
+  }
 }

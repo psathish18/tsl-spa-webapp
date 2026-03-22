@@ -75,5 +75,59 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:18:05.538Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "classical"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "sangamam",
+      "shankar mahadevan",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melancholic",
+      "1999",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, capturing the essence of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Sangamam</em>, this song highlights the emotional connection between the lead characters, enhancing the narrative of love and sacrifice.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Shankar Mahadevan</strong> and composed by <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>July 16, 1999</strong>.</p></div></div>",
+    "summary": "In <strong>Varaha Nadhikara Oram</strong>, the listener is enveloped in a world of romantic nostalgia, where the lyrics evoke a sense of yearning and beauty. The song plays a pivotal role in <em>Sangamam</em>, reflecting the emotional turmoil and passion of the characters. Shankar Mahadevan's powerful rendition, combined with AR Rahman's masterful composition, creates a soothing atmosphere that resonates with anyone who has experienced love. This timeless piece captures the essence of longing, making it a cherished favorite among fans.",
+    "releaseYear": "1999",
+    "high_ctr_intro": "<strong>Varaha Nadhikara Oram</strong> from <em>Sangamam</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With Shankar Mahadevan's soulful vocals and AR Rahman's enchanting composition, this song takes listeners on an emotional journey. The poetic lyrics by Vairamuthu add depth, making it a timeless classic in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "All the sights that come to the eyes are sweet, your form is also sweet in my eyes.",
+      "I saw a single view of the Varaha Nadhikara, I said to the world, I will run towards you and die.",
+      "All the sights that come to the eyes are sweet, your form is also sweet in my eyes.",
+      "My eyes are blinking, my heart is beating, my mind is racing, I keep saying things.",
+      "I saw a single view of the Varaha Nadhikara, I said to the world, I will run towards you and die.",
+      "You are a five-colored parrot, even after being born, five colors remain in my heart.",
+      "Come flying and serve, it will satisfy the mind.",
+      "For the intoxication, give me a little, ohhh. If the Kaveri flows, it will be a different experience.",
+      "My hands are always in motion, but love is also a habit.",
+      "My eyes are blinking, my heart is beating, my mind is racing, I keep saying things.",
+      "I saw a single view of the Varaha Nadhikara, I said to the world, I will run towards you and die.",
+      "All the sights that come to the eyes are sweet, your form is also sweet in my eyes.",
+      "You have crossed over, I have caught your shadow.",
+      "I am living in the shadow, leaving my body and just holding on to my breath.",
+      "With a broken heart, I am also crying.",
+      "In one eye, I saw a view and realized the mistake, I realized the mistake.",
+      "My eyes are blinking, my heart is beating, my mind is racing, I keep saying things.",
+      "I saw a single view of the Varaha Nadhikara, I said to the world, I will run towards you and die.",
+      "All the sights that come to the eyes are sweet, your form is also sweet in my eyes."
+    ]
+  }
 }

@@ -120,5 +120,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTgA4CEtMHmfYIUuGyY0-PFAs3z2l-MPxzvgfy2bQDyIKMRwV4S48nz6eHX1YdE5PsBYJ232oO0rsCbh0IsfxmkdVvH6kAs7-cQdBU_FB77HKz3qS2SEzYkK0wTx2phUj1v9MzVTMyYH0/s400-c/Irandaam-Ulagam.jpg",
   "generatedAt": "2026-01-18T13:03:17.888Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "irandam ulagam",
+      "vijay prakash",
+      "harrish jeyaraj",
+      "romantic",
+      "melancholic",
+      "2013",
+      "tamil music",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Vinnaithaandi?</h4><p>The song <strong>Vinnaithaandi</strong> expresses themes of love and longing, reflecting the emotional journey of the characters in <em>Irandam Ulagam</em>.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Irandam Ulagam</em>, the song plays during a pivotal moment that highlights the protagonist's feelings of love and connection.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Vijay Prakash</strong> and composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>When was Vinnaithaandi released?</h4><p><strong>Vinnaithaandi</strong> was released on August 5, 2013.</p></div></div>",
+    "summary": "In <strong>Vinnaithaandi</strong>, the protagonist expresses deep emotions of love and yearning, making it a poignant moment in <em>Irandam Ulagam</em>. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and romance. It beautifully captures the essence of longing and connection, resonating with anyone who has experienced love. The combination of <strong>Vijay Prakash's</strong> voice and <strong>Harrish Jeyaraj's</strong> composition creates an unforgettable listening experience.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Vinnaithaandi</strong> is a mesmerizing melody that beautifully captures the essence of love and longing. With <strong>Vijay Prakash's</strong> soulful voice and <strong>Harrish Jeyaraj's</strong> enchanting composition, this song from the film <em>Irandam Ulagam</em> resonates deeply with listeners. Experience the emotional depth and lyrical beauty that make this track a standout in Tamil cinema.",
+    "stanzaMeanings": [
+      "You came to me from the sky, my heart beats again because of you. Will it start beating once more?",
+      "What is lost over there, what blooms over here, is it all an illusion? Is it true or just a shadow? What a joke this pain is.",
+      "You, you are standing there, are you really you? Is love just a lie that shines in the eyes?",
+      "Those sounds of work, will they not take me away? Is this real or just a shadow? What a joke this pain is.",
+      "Will I live by forgetting you? If I open my eyes, will all my dreams be sad?",
+      "In this troubled heart, will you meet love softly? Am I not in love or in reality, is love just a justice?",
+      "You came to me from the sky, my heart beats again because of you. Will it start beating once more?",
+      "This is a new world, that is a new sky, are there two moons over there? Is she the one? Is she the one? This question is in my heart. Is it true or false?",
+      "What is my name? What is my identity? Does he know my heart?",
+      "If love is true, does the sky and earth change? Is love a god?",
+      "You, you are standing there, are you really you? Is love just a lie that shines in the eyes? ... You came from the sky.",
+      "What is lost over there, what blooms over here, is it all an illusion? Is it true or just a shadow? What a joke this pain is."
+    ]
+  }
 }

@@ -86,5 +86,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDKuD7b6y_VPAOfB5Br9bpSVu1nzYxbdjp8lsJbpn_fh9a3biwA0QLXcfipFlPdh_anxs6tXZ6tkM5sGg2IYbhjCxSCshHGZsBEiEzrV-ZC-Z0WHv_5zDWimihDWsLiUv6DrUa0BoPuqM/s400-c/Rajapattai-Latest-Posters-1-342x467.jpg",
   "generatedAt": "2026-01-18T13:09:02.732Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "rajapattai",
+      "haricharan",
+      "yugabharathi",
+      "yuvan",
+      "romantic",
+      "upbeat",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Podi paiyyan polave</strong>?</h4><p>The song conveys the emotions of young love and the excitement that comes with it, highlighting the joy of finding someone special.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie <em>Rajapattai</em>?</h4><p>This song is featured in a romantic sequence, showcasing the chemistry between the lead characters as they express their feelings for each other.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Haricharan</strong> and composed by <strong>Yuvan Shankar Raja</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was <strong>Podi paiyyan polave</strong> released?</h4><p>The song was released on <strong>October 28, 2011</strong>, as part of the movie <em>Rajapattai</em>.</p></div></div>",
+    "summary": "In <strong>Podi paiyyan polave</strong>, the protagonist expresses his feelings of love and longing, set against the backdrop of youthful exuberance. The song's upbeat tempo and romantic lyrics create a lively atmosphere, making it a perfect anthem for celebrations. It captures the essence of love's thrill and the joy of connection, resonating deeply with listeners. Overall, this track beautifully encapsulates the emotions of young romance and the excitement of new relationships.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Podi paiyyan polave</strong> from <em>Rajapattai</em> is a vibrant and romantic track that captures the essence of youthful love. With Haricharan's soulful vocals and Yuvan's captivating music, this song creates an infectious energy that resonates with listeners. Dive into the melody that beautifully blends heartfelt lyrics with an upbeat rhythm, making it a must-listen for any celebration.",
+    "stanzaMeanings": [
+      "",
+      "Little boy, today my heart is jumping; it has come searching for you. Love is not enough; it is saying that it wants to see you, and it will create situations.",
+      "Wherever I go, I can't leave; love is coming after me. Without listening to the truth, it always gives me trouble.",
+      "When you walk, love follows like a mother. I can't hide it inside me; it makes me feel like I'm being pulled by a strong force. I see love going away in the morning and evening. I don't know the truth about it; it's always there, my dear.",
+      "Wherever I go, I can't leave; love is coming after me. Oh, without listening to the truth, it always gives me trouble.",
+      "I sing without sleeping, and when I wake up, I feel like honey. From now on, I will listen to you.",
+      "When you walk, flowers bloom on the path; your eyes will see me.",
+      "When it rains, I won't stand still; I will run away with fear. If you are inside, I won't be able to hide.",
+      "Wherever I go, I can't leave; love is coming after me. Oh, without listening to the truth, it always gives me trouble.",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
 }

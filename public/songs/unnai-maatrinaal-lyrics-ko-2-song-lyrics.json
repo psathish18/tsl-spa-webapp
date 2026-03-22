@@ -77,5 +77,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc0vxEVt5mc1UWS_X9uk9vw58RPrEzUOYxwF9dsg9QD9c75ESFOpieB5mOLb3QfCiXu3KgD3tzgPuPylRwim2PXOJVZdOA5yH9jUr1Mt-K0s1vHSFk-84YDY0dP3qBx__pMfc3JAJ7V3I/s400-c/Ko+2+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:54:05.718Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "ko 2",
+      "harish sivaramakrishnan",
+      "na muthukumar",
+      "leon james",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Unnai Maatrinaal'?</h4><p>The song explores themes of love and the emotional struggles that come with it, emphasizing the importance of connection and understanding.</p></div><div class=\"faq-item\"><h4>How does 'Unnai Maatrinaal' fit into the plot of the movie 'Ko 2'?</h4><p>In <em>Ko 2</em>, the song reflects the protagonist's emotional journey and the challenges faced in relationships, enhancing the narrative's depth.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Unnai Maatrinaal'?</h4><p>The song is sung by <strong>Harish Sivaramakrishnan</strong> and composed by <strong>Leon James</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Unnai Maatrinaal' released?</h4><p>The song was released on <strong>September 22, 2015</strong>.</p></div></div>",
+    "summary": "In the song 'Unnai Maatrinaal' from the movie <em>Ko 2</em>, the protagonist expresses deep emotions tied to love and longing. The lyrics, penned by Na Muthukumar, convey a sense of melancholy and hope, resonating with anyone who has faced heartache. Harish Sivaramakrishnan's soulful rendition adds a layer of depth, making it a memorable melody. This song beautifully encapsulates the complexities of relationships, evoking feelings of nostalgia and reflection.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Unnai Maatrinaal</strong> from <em>Ko 2</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With Harish Sivaramakrishnan's soulful vocals and Leon James's captivating composition, this song resonates deeply with anyone who has experienced the complexities of relationships. Dive into the emotional depth of this track that perfectly blends heartfelt lyrics with enchanting music.",
+    "stanzaMeanings": [
+      "You don't need to do anything else. Just doing your duty is enough. If the path is followed, will the rivers get disturbed? If the sea is searched, will the sea also get troubled?",
+      "Every day, if you change, you, you, you change. The places can change, the world can change through you. Tomorrow can change, today can change.",
+      "You change, you, you, you change. The places can change, the world can change through you. Tomorrow can change, today can change.",
+      "You don't need to do anything else. Just doing your duty is enough.",
+      "A single person here must decide what to do. Their family must protect that.",
+      "All leaders here must decide what to do. Their country must protect that.",
+      "In life, what is it? Is it not about fairness and justice?",
+      "You change, you, you, you change. The places can change, the world can change through you. Tomorrow can change, today can change.",
+      "You change, you, you, you change. The places can change, the world can change through you. Tomorrow can change, today can change.",
+      "Look around you. See how many directions there are. Even fire can be touched. Knowledge can be gained through learning.",
+      "Look around you. See how many directions there are. Even fire can be touched. Knowledge can be gained through learning.",
+      "Look around you. See how many directions there are. Even fire can be touched. Knowledge can be gained through learning.",
+      "Look around you. See how many directions there are. Even fire can be touched. Knowledge can be gained through learning."
+    ]
+  }
 }

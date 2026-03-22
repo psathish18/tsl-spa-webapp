@@ -85,5 +85,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbXlSE2LsXNDuvLY0SiG7VzlzlSTeRRxxTZIiRdHRIobncphbdYLbrcFBiNYiD86ZaqgtjVFdwlwPZYec2Bktf3DVlpBfoUbDBg4QTkQlcj0sW_GkLEQ0Y6swzHaZQt5j0rH4mcvs4ybM/s400-c/The+Boys+are+back+lyrics.JPG",
   "generatedAt": "2026-02-01T13:08:51.334Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "chennai 28 ii",
+      "yuvan",
+      "energetic",
+      "dance number",
+      "2016",
+      "happy",
+      "music",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>The Boys Are Back</strong> celebrates friendship and the joy of coming together after a long time.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>The song reflects the camaraderie and fun moments shared by the characters in <em>Chennai 28 II</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by <strong>Yuvan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 21, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>The Boys Are Back</strong>, the vibrant energy of Yuvan's music encapsulates the spirit of friendship and celebration. The song plays a pivotal role in <em>Chennai 28 II</em>, showcasing the joy of reuniting with friends. Its upbeat tempo and catchy lyrics evoke feelings of happiness and nostalgia, making it a perfect anthem for parties and celebrations. The lively vibe encourages listeners to embrace the moment and enjoy life with their loved ones.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>The Boys Are Back</strong> from <em>Chennai 28 II</em> is an electrifying anthem that captures the essence of friendship and celebration. With Yuvan's dynamic vocals and infectious beats, this track is sure to get you on your feet. Experience the joy and nostalgia as the boys reunite and bring the party to life!",
+    "stanzaMeanings": [
+      "",
+      "The boys are back, we can do things now, the boys are back, you know what I'm saying, man.",
+      "The boys are back, we are back again, the boys are back.",
+      "We will come, tell them to stop, buddy, this is our pitch, we can break it down.",
+      "Enjoy, friend, our trend, we can hit a free hit, a hat trick, and score six runs.",
+      ""
+    ]
+  }
 }

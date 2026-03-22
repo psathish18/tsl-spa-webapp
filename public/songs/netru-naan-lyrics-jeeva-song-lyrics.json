@@ -78,5 +78,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyFGcLbpzlthTAtw8v32XN_7f0dHTVxUzKIpEee7Sh4nF9XeCaLuOjnsfHBP9x27vxMcj0E_JKevvMedJCwBB0FgSZlCkmtqHErAL-e_PMqtCh9aB3WMTsermcLLJOlzrmIiJeNzDLdLU/s400-c/Jeeva+.jpg",
   "generatedAt": "2026-01-18T12:57:55.431Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "jeeva",
+      "sathya prakash",
+      "d imman",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song",
+      "netru naan"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Netru Naan</strong>?</h4><p>The song <strong>Netru Naan</strong> expresses feelings of love and nostalgia, reflecting on past moments shared with a loved one.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie <em>Jeeva</em>?</h4><p>In <em>Jeeva</em>, this song plays during a pivotal moment that highlights the protagonist's emotional journey and connection with their love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Netru Naan</strong>?</h4><p>The song is sung by <strong>Sathya Prakash</strong>, known for his melodious voice and emotive singing style.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Netru Naan</strong>?</h4><p>The music for <strong>Netru Naan</strong> was composed by <strong>D Imman</strong>, a renowned music director in the Tamil film industry.</p></div><div class=\"faq-item\"><h4>When was <strong>Netru Naan</strong> released?</h4><p><strong>Netru Naan</strong> was released on September 11, 2014, as part of the <em>Jeeva</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Netru Naan</strong>, the protagonist reflects on cherished memories with their beloved, evoking a sense of nostalgia and longing. The soothing melody, paired with Sathya Prakash's heartfelt vocals, creates an emotional atmosphere that resonates with listeners. The song beautifully captures the essence of love, making it a perfect fit for romantic occasions. As part of the movie <em>Jeeva</em>, it enhances the narrative by highlighting the emotional depth of the characters' relationship.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Netru Naan</strong> from the <em>Jeeva</em> movie is a heartfelt melody that beautifully captures the essence of love and longing. With Sathya Prakash's soulful voice and D Imman's enchanting composition, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. Dive into this musical journey that perfectly blends emotion and melody, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "Yesterday, I saw you, that's what I say. Today, I see you, that's what I say.",
+      "The way you change, the way you change, your beautiful hair never changes, your eyes never change. My eyes never change, they don't lie.",
+      "Yesterday, I saw you, that's what I say. Today, I see you, that's what I say.",
+      "The place where I used to live has been pushed away, the love has gone far away, your fragrance pulls me back.",
+      "Your gaze, your gaze, it draws me in, my heart listens."
+    ]
+  }
 }

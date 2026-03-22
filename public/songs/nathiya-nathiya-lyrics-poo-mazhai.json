@@ -45,5 +45,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:33.346Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation",
+      "celebration"
+    ],
+    "keywords": [
+      "poo mazhaipozhiyuthu",
+      "k.s.chitra",
+      "s.p.balasubrahmanyam",
+      "ilaiyaraaja",
+      "romantic",
+      "nostalgic",
+      "1987",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nathiya Nathiya'?</h4><p>The song expresses deep feelings of love and longing, capturing the beauty of romantic moments.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>The song is featured in the movie <em>Poo Mazhai Pozhiyuthu</em>, enhancing the romantic narrative between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Nathiya Nathiya'?</h4><p>The song is sung by the legendary artists <strong>K.S. Chitra</strong> and <strong>S.P. Balasubrahmanyam</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Nathiya Nathiya' released?</h4><p>The song was released on <strong>April 20, 1987</strong>.</p></div></div>",
+    "summary": "In the enchanting song <strong>Nathiya Nathiya</strong>, the lyrical beauty intertwines with the soulful voices of K.S. Chitra and S.P. Balasubrahmanyam. The song evokes a sense of nostalgia and romance, perfectly complementing the emotional landscape of the movie <em>Poo Mazhai Pozhiyuthu</em>. It captures the essence of love, making it a timeless classic that resonates with listeners. The soothing melody and heartfelt lyrics create an atmosphere of warmth and affection, inviting listeners to reminisce about their own romantic experiences.",
+    "releaseYear": "1987",
+    "high_ctr_intro": "<strong>Nathiya Nathiya</strong> is a timeless melody that beautifully captures the essence of love and nostalgia. Featuring the enchanting voices of K.S. Chitra and S.P. Balasubrahmanyam, this song is a classic from the legendary composer Ilaiyaraaja. Dive into the soothing vibes of <em>Poo Mazhai Pozhiyuthu</em> and let the music transport you to a world of romance.",
+    "stanzaMeanings": [
+      "",
+      "Like a river, flowing like a stream, I am not the one who can hold you tightly.",
+      "Like a river, flowing like a stream, you are not the one who can hold me tightly.",
+      "A flower shower is falling here, look at your smile in the reflection.",
+      "Honey rain is falling in your eyes, look at the vision you are giving.",
+      "What is the use of cooling the body in the rain and mist?",
+      "What is the use of you holding my hand and cooling off a bit?",
+      "In the night, in our kingdom, what is the use of a water flow? That is the dance for both of us.",
+      "Like a river, flowing like a stream, I am not the one who can hold you tightly.",
+      "You are writing a story for a journey, to learn about the heart.",
+      "Where are you, little lotus flower, to drink the honey?",
+      "A little bird comes to a shelter to sing in the rainy season.",
+      "Milk is there, the mountain has milk, to quench the thirst of hunger.",
+      "When the time starts, if you see the flower bloom, what will happen?",
+      "Will sweetness come, will sweetness come, one will become one.",
+      "Like a river, flowing like a stream, you are not the one who can hold me tightly.",
+      "Like a river, flowing like a stream, I am not the one who can hold you tightly."
+    ]
+  }
 }

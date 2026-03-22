@@ -92,5 +92,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:03.478Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "sarkar",
+      "simtaangaran",
+      "vipin aneja",
+      "bamba bakya",
+      "ar rahman",
+      "vivek",
+      "energetic",
+      "dance"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Simtaangaran?</h4><p>The song <strong>Simtaangaran</strong> celebrates the joy of life and the spirit of celebration, capturing the essence of fun and festivity.</p></div><div class=\"faq-item\"><h4>How does Simtaangaran fit into the plot of Sarkar?</h4><p>In <em>Sarkar</em>, <strong>Simtaangaran</strong> is used during a pivotal celebration scene, highlighting the protagonist's charisma and connection with the people.</p></div><div class=\"faq-item\"><h4>Who are the singers of Simtaangaran?</h4><p>The song features the talented voices of <strong>Vipin Aneja</strong> and <strong>Bamba Bakya</strong>, bringing a lively energy to the track.</p></div><div class=\"faq-item\"><h4>Who composed the music for Simtaangaran?</h4><p>The music for <strong>Simtaangaran</strong> was composed by the legendary <strong>AR Rahman</strong>, known for his innovative soundscapes.</p></div><div class=\"faq-item\"><h4>When was Simtaangaran released?</h4><p><strong>Simtaangaran</strong> was released on September 24, 2018, as part of the <em>Sarkar</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Simtaangaran</strong>, the vibrant energy of the song encapsulates the celebratory spirit of the movie <em>Sarkar</em>. The lively beats and catchy lyrics evoke feelings of joy and excitement, making it a perfect anthem for parties and celebrations. The song showcases the protagonist's charisma and connection with the crowd, enhancing the festive atmosphere in the film. Overall, it conveys a sense of togetherness and enjoyment, inviting listeners to join in the fun.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Simtaangaran</strong> from <em>Sarkar</em> is a vibrant celebration of energy and rhythm, showcasing the electrifying collaboration between singers Vipin Aneja and Bamba Bakya. With AR Rahman's dynamic composition and Vivek's catchy lyrics, this song is sure to get everyone on their feet. Experience the infectious vibe that makes <strong>Simtaangaran</strong> a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "The world is turning upside down, everything is chaotic and confusing, yet we are all just going along with it.",
+      "Are you picking up the pieces? Is everything okay? Are people just pretending to be fine?",
+      "Simtaangaran, I see you, I will go like this...",
+      "Simtaangaran, I will go like an artist, I will prepare a feast.",
+      "The world is turning upside down, everything is chaotic and confusing, yet we are all just going along with it.",
+      "Are you picking up the pieces? Is everything okay? Are people just pretending to be fine?",
+      "Everyone is doing their part, and here I am.",
+      "Come, come, you are the one who has broken the jewels, the moon has bloomed, is this a dream? Ha ha ha ha...",
+      "Are you picking up the pieces? Is everything okay? Are people just pretending to be fine?",
+      "Everyone is doing their part, and here I am.",
+      "Picking up the pieces... are you okay?",
+      "Jumping from heights, if you dive, it will be a blast.",
+      "We have no books, everyone is laughing at the mess we made.",
+      "Picking up the pieces, jumping, jumping, let's throw it all away.",
+      "The world is turning upside down, everything is chaotic and confusing, yet we are all just going along with it.",
+      "Are you picking up the pieces? Is everything okay? Are people just pretending to be fine?",
+      "Everyone is doing their part, and here I am.",
+      ""
+    ]
+  }
 }

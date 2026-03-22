@@ -76,5 +76,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7lyzhOqYQtDuBT4hF3mgmE_yHKWgC9-AdpJNMs0VgzAtpE3Ez3fbaYpKrRjz2tQFMjDhNY-VyeVp3DrhEfiGPYN50HbrZdXHHRrnh-I-TOlMlhOw6kDmnmLTEKeXx_sLY2UXfmuVnJ1A/s400-c/mayakkam_enna_stills.jpg",
   "generatedAt": "2026-01-18T13:09:18.242Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "mayakkam enna",
+      "pirai thedum",
+      "gv prakash kumar",
+      "saindhavi",
+      "dhanush",
+      "romantic",
+      "melancholic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Pirai Thedum</strong> conveys themes of love and yearning, expressing deep emotions associated with relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Mayakkam Enna</em>, the song reflects the protagonist's emotional struggles and romantic aspirations.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features vocals by <strong>GV Prakash Kumar</strong> and <strong>Saindhavi</strong>, with music composed by <strong>GV Prakash Kumar</strong> himself.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Pirai Thedum</strong> was released on <strong>October 15, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Pirai Thedum</strong>, the singers GV Prakash Kumar and Saindhavi deliver a poignant melody that resonates with the theme of love and longing. The song is a heartfelt expression of the protagonist's emotional turmoil, beautifully penned by Dhanush. It evokes a sense of nostalgia and tenderness, making it perfect for romantic occasions. The soothing composition enhances the lyrical depth, leaving listeners captivated by its charm.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Pirai Thedum</strong> from the movie <em>Mayakkam Enna</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With GV Prakash Kumar and Saindhavi's enchanting vocals, this song takes listeners on an emotional journey. The heartfelt lyrics by Dhanush add depth, making it a must-listen for anyone who appreciates soulful melodies.",
+    "stanzaMeanings": [
+      "",
+      "In the night where the moon searches, I seek life and tell the story of the waves. Come to me, my dear...",
+      "Why should there be tears in darkness? Isn't this sorrow because of you?",
+      "Only your heart lives for you. Until life ends, I am your servant (moon searching...).",
+      "Your gaze and your feet can remove sorrow from the depths of the heart. The shadow seeks the truth, and the soul seeks the reality, living in a joy given by God.",
+      "You are the reason for my life, my dear. You bring sweetness to my life. Only your heart lives for you. Until life ends, I am your servant (moon searching...).",
+      "If your eyes search, your heart will understand. I will bear seven lives for you.",
+      "But you live like a river flowing, without any reason, like a boy with a mustache.",
+      "To call this love is to hide in its shadow. Every day, this earth waits for you to come to this place...",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
 }

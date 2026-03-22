@@ -41,5 +41,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:14.910Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "thillalangadi",
+      "sol pechu ketkadha",
+      "chithra",
+      "shreya ghoshal",
+      "yuvan",
+      "na muthukumar",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Sol pechu ketkadha</strong> expresses the joy and excitement of love, highlighting playful interactions between lovers.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Thillalangadi</em>, the song captures a light-hearted moment that showcases the chemistry between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the beautiful voices of <strong>Chithra</strong> and <strong>Shreya Ghoshal</strong>, with music composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Sol pechu ketkadha</strong> was released on <strong>July 4, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Sol pechu ketkadha</strong>, the vibrant interplay of Chithra and Shreya Ghoshal's voices brings forth a delightful expression of love and joy. The song serves as a backdrop to a playful romantic scenario in <em>Thillalangadi</em>, where the characters revel in their affection for each other. With its catchy melody and lively beats, it evokes feelings of happiness and celebration. The lyrics, penned by Na Muthukumar, add a charming touch that resonates with listeners, making it a perfect anthem for weddings and festive gatherings.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Sol pechu ketkadha</strong> from <em>Thillalangadi</em> is a vibrant celebration of love and joy, featuring the enchanting voices of Chithra and Shreya Ghoshal alongside the talented Yuvan. This upbeat duet captures the essence of romance with its catchy melody and playful lyrics. Dive into the musical magic that makes this song a perfect addition to any festive occasion!",
+    "stanzaMeanings": [
+      "",
+      "Hey beautiful, do you hear my words? The breeze is dancing without stopping, and the light is shining brightly.",
+      "Don't let the troubles take you away. Don't let your eyes wander. Listen to what I say, Thillangadi.",
+      "Is he a good person or a bad one? I don't know, I can't understand. Something is happening slowly. I got caught in his gaze, and I got lost in his eyes. Who will I ask to find him?",
+      "Hey beautiful, do you hear my words? ...",
+      "Is it a girl or a boy? If it's a girl, why is she angry? Your steps are like fire, igniting this love. What kind of love is this? It seems to create a new world with my vision.",
+      "Fear, fear, without knowing it, he is a winner every day. Is he a beautiful stone or a loving arrow? That's why love is a game. Always, is there happiness that you have taken?",
+      "Don't let the troubles take you away. Don't let your eyes wander.",
+      "Hey beautiful, do you hear my words? ...",
+      "Wherever he goes, he takes my heart with him. He lifts my heart and takes it away with his memories. Like a bird, he flies away. You will leave with your thread... I see the mirror, and it comes in front of you. The love you have is not understood.",
+      "I got lost because of you, and because of you, I found the sweetness of love.",
+      "Hey beautiful, do you hear my words? Your words are making me feel alive..."
+    ]
+  }
 }

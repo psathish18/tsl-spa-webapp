@@ -73,5 +73,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnG9lQeeKkule1J8bw_Al_hZCCy1O-jsQDfr8SmXV7g104rqE9SFc6odgZfHH-LuRKqPMT-ciT-RxbeNqj-MzWIbvCvzRPGFadWFIIMpKUr283yiqU5-KCf4pNH_DiszVDusOHdFvmPXE/s400-c/Sivappu-Movie-Posters-4.jpg",
   "generatedAt": "2026-02-01T13:06:24.312Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "sivappu",
+      "orukanamvanam",
+      "nrraghunanthan",
+      "melancholic",
+      "romantic",
+      "2014",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru Kanam Vanam</strong> conveys themes of longing and connection, reflecting the emotional struggles of the characters in <em>Sivappu</em>.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>The song plays during a pivotal moment in <em>Sivappu</em>, highlighting the protagonist's emotional turmoil and desire for connection.</p></div><div class=\"faq-item\"><h4>Who is the music director of the song?</h4><p>The music for <strong>Oru Kanam Vanam</strong> is composed by <strong>N. R. Raghunanthan</strong>, known for his unique sound in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru Kanam Vanam</strong> was released on <strong>February 9, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Kanam Vanam</strong>, the lyrics express a deep sense of yearning and emotional connection, resonating with listeners who have experienced love and loss. The song serves as a poignant backdrop in <em>Sivappu</em>, enhancing the narrative's emotional weight. With its soothing melody, it evokes feelings of nostalgia and reflection. This track is a beautiful representation of the complexities of relationships, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Oru Kanam Vanam</strong> from <em>Sivappu</em> captures the essence of longing and nostalgia with its haunting melody. The unique composition by N. R. Raghunanthan beautifully complements the emotional depth of the lyrics. This song is a must-listen for anyone who appreciates heartfelt Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "You and I have come into this world together, having lost the sky and the earth.",
+      "The body becomes like paper, and it gets torn. When the moon changes, you will cross me. When the chaos begins, you will separate from me.",
+      "You and I have come into this world together..",
+      "Like droplets of water, you have filled my heart like an ocean. Look, look, you have moved from life to life without stopping.",
+      "I don't speak to anyone; that one word belongs to you. The sky doesn't look here; that new path belongs to you.",
+      "The beautiful silence is thinking of crying here. The thought of singing is here as a woman.",
+      "You and I have come into this world together..",
+      "I see the earth that is trembling, and the sky that is shaking for the first time. I see the shining moon and the blowing wind for the first time.",
+      "My shadow doesn't know how to say goodbye; every day it meets you. My eyes don't know how to say goodbye; they always look for you.",
+      "Words change into poetry beautifully here. The fragrance in the breath blows sweetly here.",
+      "You and I have come into this world together, having lost the sky and the earth.",
+      "The body becomes like paper, and it gets torn. When the moon changes, you will cross me. When the chaos begins, you will separate from me."
+    ]
+  }
 }

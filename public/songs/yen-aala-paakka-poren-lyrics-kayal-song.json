@@ -96,5 +96,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQZNTSET8bT8Zv5rWhhyphenhyphentNgQpUjLRK_YJY-_Q-UygUDI2akuTX2nJvReTmipUlDYXhigclrpwBN34n8P9qZZesdaskqa65OBhw-sDAbBFNDvIEq0beg19BSkYh3Vtgc7lOnHoRm-vCeRc/s400-c/Kayal-Movie-First-Look.jpg",
   "generatedAt": "2026-01-18T12:57:12.926Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kayal",
+      "yen aala paakka poren",
+      "k.g.ranjith",
+      "shreya goshal",
+      "yugabharathi",
+      "romantic",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, capturing the feelings of wanting to connect with a loved one.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Kayal</em>, this song plays during a pivotal moment that highlights the romantic relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>K.G.Ranjith</strong> and <strong>Shreya Goshal</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by <strong>Yugabharathi</strong>, known for his poetic expressions in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>November 13, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Yen Aala Paakka Poren</strong>, the characters express their deep feelings for each other through a heartfelt melody. The song's soothing rhythm and romantic lyrics create an atmosphere of longing and affection. It beautifully conveys the emotions of love, making it a perfect fit for moments of romance in the film <em>Kayal</em>. The collaboration between K.G.Ranjith and Shreya Goshal adds a unique charm, enhancing the overall experience for the listeners.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Yen Aala Paakka Poren</strong> from <em>Kayal</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of <strong>K.G.Ranjith</strong> and <strong>Shreya Goshal</strong>, this song takes listeners on an emotional journey. The heartfelt lyrics by <strong>Yugabharathi</strong> add depth to this romantic melody, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "I am going to see what is happening and talk about it.",
+      "What will he keep in his eyes? What will he hide in his heart?",
+      "I... what will I say...",
+      "I am going to see what is happening and talk about it.",
+      "I will say that I have left home. I will say that I have gone with friends.",
+      "This is why I have been lying down, saving my life.",
+      "He will not be satisfied with just words; he will be lost in love. That's why... I am crying....",
+      "I am going to see what is happening and talk about it.",
+      "I will say that you are sleeping. I will say that food and water are mixed together.",
+      "Without being too loud, I will say that you are going to become mine, oh poor me... I will come...",
+      "I am going to see what is happening and talk about it.",
+      "What will he keep in his eyes? What will he hide in his heart?",
+      "I... what will I say..."
+    ]
+  }
 }

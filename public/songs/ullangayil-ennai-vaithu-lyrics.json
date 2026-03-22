@@ -82,5 +82,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKd4SjMoEXCVLH3YuMGeC964lPq8YXVQ6pn-uDKzhkSCaT2prznEtnqK_OqiuebA3gmXQhraPVj02HAKOFSKTMPWeiCCM1VDD3fS1YV4FAXTVvWziEGumyK4NvF9i2w64ci0SIhFcAYB4/s400-c/vadacurry+title+.jpg",
   "generatedAt": "2026-01-18T12:59:41.638Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "vadacurry",
+      "siddharth mahadevan",
+      "snehan",
+      "vivek mervin",
+      "romantic",
+      "dance",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses the excitement and joy of love, portraying a playful interaction between lovers.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of Vadacurry?</h4><p>In <em>Vadacurry</em>, this song highlights the romantic moments between the lead characters, enhancing the film's lighthearted theme.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Siddharth Mahadevan</strong> and composed by the duo <strong>Vivek – Mervin</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 17, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Ullangayil Ennai Vaithu</strong>, the playful lyrics and upbeat rhythm encapsulate the thrill of young love. The song serves as a backdrop to romantic escapades in <em>Vadacurry</em>, making it a perfect anthem for celebrations. Siddharth Mahadevan's energetic vocals bring the lyrics to life, evoking feelings of joy and excitement. This lively track is not just a song; it's an experience that resonates with anyone who has felt the rush of love.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Ullangayil Ennai Vaithu</strong> from <em>Vadacurry</em> is a vibrant celebration of love and energy, brought to life by the dynamic vocals of Siddharth Mahadevan. This catchy dance number, composed by the talented duo Vivek – Mervin, perfectly captures the essence of youthful romance. With its infectious beats and playful lyrics, this song is sure to get you on your feet and dancing!",
+    "stanzaMeanings": [
+      "",
+      "You have trapped me in your world, thinking I would be defeated. You have turned me into a prey, making me your sacrifice.",
+      "You created me and then got scared when you saw me. You forgot your heart, and you just left...",
+      "Run, run, run, the world is small. Dance, dance, the human is a beast. Search, search, search for a new world. There is no fear here...",
+      "Run, run, dance, dance, search, search, there is nothing here.",
+      "Without knowing what is needed, you are searching for something. Why are you getting lost in life, entangled in paths?",
+      "I am, I am changing my knowledge. Oh ho ho... I have started to run away from you.",
+      "Run, run, run, the world is small. Dance, dance, the human is a beast. Search, search, search for a new world. There is no fear here...",
+      "Run, run, dance, dance, search, search, there is nothing here."
+    ]
+  }
 }

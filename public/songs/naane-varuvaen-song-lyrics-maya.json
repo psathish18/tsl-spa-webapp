@@ -42,5 +42,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOHcjZRo9XmOftEGCnVrETWy7unemKQQ6E2P7fV-88n9VI_XhvUMSeWRVmt2ZJr2nYnAZJbEnvUOlOJ0-f2U4G9LPgwUiZ8zXaJen_HgIl_m20NiaQZz8iMRBB-eRlqJ3k50f109eCucM/s400-c/Naane+Varuvaen+Song+Lyrics+Maya.JPG",
   "generatedAt": "2026-01-18T12:54:10.601Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "maya",
+      "shweta mohan",
+      "ron ethan yohann",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Naane Varuvaen'?</h4><p>The song conveys themes of love and longing, expressing deep emotional connections.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Maya?</h4><p>In <strong>Maya</strong>, this song highlights the protagonist's emotional struggles and romantic aspirations.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Naane Varuvaen'?</h4><p>The song is sung by the talented <strong>Shweta Mohan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Naane Varuvaen' is composed by <strong>Ron Ethan Yohann</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Naane Varuvaen' released?</h4><p>The song was released on <strong>September 17, 2015</strong>.</p></div></div>",
+    "summary": "In the movie <em>Maya</em>, the song <strong>Naane Varuvaen</strong> serves as a poignant reflection of the protagonist's emotional journey. It beautifully encapsulates the feelings of love and yearning, resonating with anyone who has experienced deep affection. The soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect fit for romantic occasions. This song stands out for its ability to convey complex emotions through simple yet powerful expressions.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Naane Varuvaen</strong> from <em>Maya</em> is a mesmerizing melody that captures the essence of love and longing. With Shweta Mohan's enchanting vocals and Ron Ethan Yohann's soulful composition, this song takes listeners on an emotional journey. Experience the beauty of romance through its heartfelt lyrics and soothing rhythm.",
+    "stanzaMeanings": [
+      "",
+      "You are the only one who has brought me here, my life is a path of struggles. Will life be a journey without forgetting the pain?",
+      "Come crossing the obstacles, grow and shine. Oh moon, my life is like a flower blooming. You are my nectar, oh mother, you sing for me. You are like a flower, and I will live like the rain in the sky, oh flower.",
+      "I will come, don’t stop the beautiful face. You are the first face, the dream of ages, you are my life.",
+      "You are the only one who has brought me here, it’s a life in the storm.",
+      "I have forgotten the pain today, the clouds of sorrow will bloom in your life."
+    ]
+  }
 }

@@ -100,5 +100,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsU0QSxLHvTOoYmDF-9as9RcL43fQ-pfOfthxklFc3sTKQ4gV7ZeN6dIIUAk1pNtJCt0QK_GshlAR7y2dNyc7HZ08exXRhEDIW02TG1_TWuwRzu4EWpzKld4-rZixFrzERN6R131mtZH4/s400-c/Maayam+Seidhaayo+Lyrics.jpg",
   "generatedAt": "2026-01-18T13:09:45.782Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "velayutham",
+      "maayam seidhaayo",
+      "sangeetha rajeshwaran",
+      "kabilan",
+      "vijay antony",
+      "energetic",
+      "dance",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Maayam Seidhayo'?</h4><p>The song conveys a sense of energy and motivation, encouraging listeners to take action and embrace life.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Velayutham'?</h4><p>In <strong>Velayutham</strong>, the song is a celebration of the protagonist's journey and his vibrant personality, reflecting the film's overall theme of heroism.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Maayam Seidhayo'?</h4><p>The song is sung by <strong>Sangeetha Rajeshwaran</strong> and composed by <strong>Vijay Antony</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Maayam Seidhayo' released?</h4><p>The song was released on <strong>August 20, 2011</strong>.</p></div></div>",
+    "summary": "In 'Maayam Seidhayo', the protagonist expresses a vibrant and energetic spirit, urging listeners to embrace life and take action. The song's upbeat tempo and lively lyrics create an atmosphere of celebration, making it perfect for parties and gatherings. It reflects the character's journey in the movie <em>Velayutham</em>, where he embodies positivity and motivation. Overall, the song evokes feelings of joy and enthusiasm, making it a memorable track in Tamil cinema.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Maayam Seidhayo</strong> from <em>Velayutham</em> is an electrifying track that perfectly captures the essence of celebration and energy. With Sangeetha Rajeshwaran's captivating vocals and Vijay Antony's dynamic composition, this song is sure to get you moving. Experience the vibrant beats and engaging lyrics that make this song a standout in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "Did you create a trick? Did you capture the heart? You got to do it. Did you come to take? Did you come to give an answer? You got to do it.",
+      "I looked at your eyes, I stood looking at your eyes. What did you do? I listened to you... (Did you create a trick...)",
+      "I became a garden that blooms. I became a story when the elephant came. I saw love blossom and I took life from the depths of the earth.",
+      "I flew like a bright light, shining far away. I seemed to forget my name and lay down like a forgotten thing... (Did you create a trick...)",
+      "In the face of the flower, there are diamond-like eyes. There are no words in Tamil to describe beauty. The mustache is a sign of health. Slowly, we can see everything around us.",
+      "Your presence is a beautiful secret. In your embrace, the fragrance of flowers blooms... (Did you create a trick...)",
+      "I looked at your eyes, I stood looking at your eyes. What did you do? I listened to you... (Did you create a trick...)",
+      "",
+      "",
+      ""
+    ]
+  }
 }

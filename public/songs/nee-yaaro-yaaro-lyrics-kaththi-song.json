@@ -111,5 +111,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8shl93uSPLKIhpgz5WpvLGslB8RPhpmpv5KdtCIlPt0-Qn2IE5iUZfHlUfIDeDDUjifHQdon54qDhqXzp3B5zGUn2q5YCiifveZsAWzWnhZYPmplpSq61zN3jfjrKwGEkycBgTCn1Vkc/s400-c/kaththi+.jpg",
   "generatedAt": "2026-01-18T12:57:42.164Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "kaththi",
+      "k.j.yesudas",
+      "anirudh",
+      "melancholic",
+      "2014",
+      "tamil",
+      "music",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nee Yaaro Yaaro'?</h4><p>The song expresses feelings of longing and nostalgia, reflecting on lost love and memories.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie Kaththi?</h4><p>In <em>Kaththi</em>, the song underscores the protagonist's emotional struggles and connections to his past.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>K.J. Yesudas</strong> and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Nee Yaaro Yaaro' released?</h4><p>The song was released on <strong>September 17, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Nee Yaaro Yaaro</strong>, K.J. Yesudas delivers a poignant performance that encapsulates the themes of love and loss prevalent in <em>Kaththi</em>. The song's melancholic tone and evocative lyrics create a deep emotional connection, making it a standout piece in the film's soundtrack. It beautifully conveys the protagonist's internal struggles and longing for a lost connection. This melody resonates with anyone who has experienced similar feelings, making it a timeless classic.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Nee Yaaro Yaaro</strong> from <em>Kaththi</em> is a hauntingly beautiful melody that captures the essence of longing and nostalgia. With K.J. Yesudas's soulful voice and Anirudh's masterful composition, this song resonates deeply with anyone who has experienced love and loss. Dive into this emotional journey that perfectly complements the film's narrative.",
+    "stanzaMeanings": [
+      "Who are you, who are you? This person is the one who brings joy to this place.",
+      "Is this place a result of mistakes? This person protects the land like a god.",
+      "There is no one to give strength to this place. You are not here when the flowers bloom.",
+      "Who are you, who are you? You bring happiness like tears of joy.",
+      "Who are you, who are you? This person is the one who brings joy to this place.",
+      "Where have you gone without saying who you are? You walked like a shadow without a word.",
+      "If I think of you when I see you, tears will fall from my eyes.",
+      "Who are you, who are you? You bring happiness like tears of joy.",
+      "Who are you, who are you? This person is the one who brings joy to this place.",
+      "There is no one to give strength to this place. You are not here when the flowers bloom.",
+      "Who are you, who are you? You bring happiness like tears of joy.",
+      "Who are you, who are you? This person is the one who brings joy to this place."
+    ]
+  }
 }

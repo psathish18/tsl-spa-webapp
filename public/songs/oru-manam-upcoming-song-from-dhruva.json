@@ -31,5 +31,43 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:35.347Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "other"
+    ],
+    "songType": [
+      "solo",
+      "theme"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "relaxation"
+    ],
+    "keywords": [
+      "dhruva natchathiram",
+      "harrish jeyaraj",
+      "oru manam",
+      "tamil",
+      "music",
+      "2018",
+      "upbeat",
+      "energetic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oru Manam'?</h4><p>The song 'Oru Manam' is expected to convey themes of love and connection, reflecting the emotional depth of the film.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie Dhruva Natchathiram?</h4><p><strong>Dhruva Natchathiram</strong> is anticipated to be an action-packed thriller, showcasing a gripping storyline that complements the song.</p></div><div class=\"faq-item\"><h4>Who is the music director for 'Oru Manam'?</h4><p>The music for 'Oru Manam' is composed by the renowned <strong>Harrish Jeyaraj</strong>, known for his innovative soundscapes.</p></div><div class=\"faq-item\"><h4>When was 'Oru Manam' released?</h4><p>'Oru Manam' was officially published on <strong>August 20, 2018</strong>.</p></div></div>",
+    "summary": "'Oru Manam' serves as the first single from the upcoming film <em>Dhruva Natchathiram</em>, showcasing the vibrant musical style of Harrish Jeyaraj. The song is expected to capture the essence of love and connection, resonating with listeners through its upbeat and energetic vibe. As anticipation builds for the film's release, this track is likely to evoke excitement and emotional engagement among fans. With its Hollywood-style trailer, the song sets high expectations for the cinematic experience.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Oru Manam</strong> is set to be a captivating single from the highly anticipated <em>Dhruva Natchathiram</em>, composed by the talented Harrish Jeyaraj. With its vibrant energy and engaging beats, this song promises to resonate with fans and elevate the film's narrative. The excitement surrounding its release is palpable, making it a must-listen for Tamil music enthusiasts.",
+    "stanzaMeanings": [
+      "'Oru Manam' is the first single from the Dhruva Natchathiram Tamil movie and is composed by Harrish Jeyaraj.",
+      "Although the first single named 'Oru Manam' was announced a long time ago, there have been no updates from the Dhruva Natchathiram team about the song until now.",
+      "However, we have a cool trailer that has millions of views, as it looks like a Hollywood movie trailer. Expectations are high.",
+      "Official Tease #1",
+      "Official Trailer #2",
+      "A moment from 'Oru Manam', the first single from Dhruva Natchathiram, which is releasing very soon!"
+    ]
+  }
 }

@@ -82,5 +82,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Lc1BitJGRtPRsMao_xwSekxzCNqtumQ2ehdSK1ImbpkCCN_ODlm7oCEaY_QtpTM_7pkAgvhVLjTjspCY450TeseSDq3oNyXIB98MqGpmj3u-dEFxsyYxmeEFZCn6CXpXyNG69FTO9yY/s400-c/maari+-+oru+vidha+aasai.jpg",
   "generatedAt": "2026-01-18T12:55:06.637Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "maari",
+      "dhanush",
+      "anirudh",
+      "upbeat",
+      "happy",
+      "2015",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru Vidha Aasai</strong> expresses the excitement of pursuing dreams and the joy of life, encapsulating a carefree spirit.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Maari</em>, this song highlights the protagonist's aspirations and adds a lively touch to the narrative.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The song features the talented <strong>Vineeth Sreenivasan</strong> as the singer, with lyrics by <strong>Dhanush</strong> and music composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru Vidha Aasai</strong> was released on <strong>June 7, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Vidha Aasai</strong>, the protagonist of <em>Maari</em> expresses his vibrant dreams and aspirations through lively lyrics and an infectious melody. The song captures a sense of youthful energy and joy, making it perfect for celebrations and parties. With Anirudh's upbeat composition and Dhanush's playful lyrics, it evokes feelings of happiness and excitement. This track is a delightful reminder of the carefree spirit of chasing one's dreams.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Oru Vidha Aasai</strong> from <em>Maari</em> is a vibrant celebration of dreams and aspirations, perfectly blending Anirudh's catchy tunes with the playful lyrics of Dhanush. This upbeat track captures the essence of youthful exuberance and is sure to get you dancing. Experience the magic of this unique collaboration that brings a fresh vibe to Tamil music!",
+    "stanzaMeanings": [
+      "",
+      "A certain desire is coming. A new kind of understanding is coming. A duet is coming in dreams, and foreign elements are coming. In this dance, the beats are for you, and you enjoy the melody.",
+      "A certain desire is coming. A new kind of understanding is coming.",
+      "Looking at the size is nice, and this moment is alive!",
+      "The light is shining bright, and the laughter is sweet!",
+      "The jasmine fragrance is coming to you from the other side!",
+      "The mustache is curling, and the hair is fragrant!",
+      "Don't dance without being noticed; even if you dance, don't let it end without chasing you.",
+      "A certain desire is coming. A new kind of understanding is coming. A duet is coming in dreams, and foreign elements are coming. In this dance, the beats are for you, and you enjoy the melody.",
+      ""
+    ]
+  }
 }

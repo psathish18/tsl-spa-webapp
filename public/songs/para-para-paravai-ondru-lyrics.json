@@ -42,5 +42,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1bl2JxEj1dWO6K3U-maE3kL5qb_aruVBUQwad-4epHATrfS3Ovfy7LCtT_MwqVXnvfrDHdC2es_hUFkB8yoc3q6ASZ_RY3b-NeBD926kuy1RYydvRoLIg-BI31OWfPp-lwGWgmJwt498/s400-c/neer-paravai-.jpg",
   "generatedAt": "2026-01-18T13:05:34.362Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "neer paravai",
+      "shreya ghoshal",
+      "vairamuthu",
+      "n. r. raghunanthan",
+      "romantic",
+      "melancholic",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of love and longing, reflecting the emotional journey of the characters in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Neer Paravai</em>, the song plays during a pivotal moment that highlights the romantic connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the talented <strong>Shreya Ghoshal</strong>, known for her melodious voice and emotional delivery.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Para Para Paravai Ondru</strong> was composed by <strong>N. R. Raghunanthan</strong>, who is known for his unique sound in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>December 1, 2012</strong>, as part of the film's soundtrack.</p></div></div>",
+    "summary": "In <strong>Para Para Paravai Ondru</strong>, the listener is taken on an emotional journey through the lens of love and longing. The song beautifully encapsulates the feelings of the characters in <em>Neer Paravai</em>, as they navigate their romantic relationship amidst life's challenges. With its soothing melody and heartfelt lyrics by <strong>Vairamuthu</strong>, the song evokes a sense of nostalgia and warmth. Shreya Ghoshal's captivating voice adds depth to the emotions, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Para Para Paravai Ondru</strong> is a mesmerizing melody that beautifully captures the essence of love and longing. With <strong>Shreya Ghoshal</strong>'s enchanting vocals and <strong>N. R. Raghunanthan</strong>'s soulful composition, this song from the film <em>Neer Paravai</em> resonates deeply with listeners. Dive into a world of emotions as the lyrics penned by <strong>Vairamuthu</strong> unfold a poignant tale of romance.",
+    "stanzaMeanings": [
+      "",
+      "A bird is standing on the shore, thinking about the sea with tears in its eyes.",
+      "In love, searching for the essence, the eyes are ignited with passion.",
+      "In the direction where my God has gone, I have sent my life; will my life come back to me? Will my body live again?",
+      "Here are my tears, will they come back to you in that call? (...A bird...)",
+      "In water, the ring stays; in water, it stays; my God always returns.",
+      "The wind knows Tamil; the lover knows the direction; the pain of the bond is expressed.",
+      "Your strength will not be lost; it will come back to me before my hunger for life fades.",
+      "When the sky and earth unite, it is hard for you and me to live apart... A bird...",
+      "There is no rain in the town; there is no storm; still, this pain is in my heart.",
+      "What is my state, oh lover? Tell me when you see love.",
+      "My son of the water is my lover; he lives in the grace of water; today, he will take my woman away.",
+      "When I am ignited again, the God of love will give me two nights.",
+      "",
+      "In the direction where my God has gone, I have sent my life."
+    ]
+  }
 }

@@ -39,5 +39,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3kniYnP0WpVMiHAwNesUGEKS3EqceNJZeB45nFt_zjDzaAjbqNH2KqECP8d79eNMjNZDv7urSR-QJplRcdm_RoEIijpRQZ7Eo7CvSNTMhSm4qFFtPk8ipDiR2-9VPkoOmI7HEkN_Si08/s400-c/Aaha_B.jpg",
   "generatedAt": "2026-01-18T13:18:45.373Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "aaha",
+      "mudhan mudhalil paarthen",
+      "hariharan",
+      "ks chitra",
+      "deva",
+      "romantic",
+      "1997",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of love and longing, reflecting on the feelings of missing someone special.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Aaha?</h4><p>In <em>Aaha</em>, this song highlights the emotional journey of the characters as they navigate their romantic feelings.</p></div><div class=\"faq-item\"><h4>Who are the singers of Mudhan Mudhalil Paarthen?</h4><p>The song features the talented voices of <strong>Hariharan</strong> and <strong>K.S. Chitra</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Mudhan Mudhalil Paarthen</strong> was composed by <strong>Deva</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>October 30, 1997</strong>.</p></div></div>",
+    "summary": "In <strong>Mudhan Mudhalil Paarthen</strong>, the characters in <em>Aaha</em> find themselves enveloped in the complexities of love and longing. The song conveys a deep sense of nostalgia, as the lyrics reflect on memories and emotions tied to a past romance. With its soothing melody and heartfelt vocals, it evokes feelings of both joy and sadness. This timeless piece resonates with anyone who has ever loved deeply, making it a cherished classic in Tamil cinema.",
+    "releaseYear": "1997",
+    "high_ctr_intro": "<strong>Mudhan Mudhalil Paarthen</strong> from <em>Aaha</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the soulful voices of <strong>Hariharan</strong> and <strong>K.S. Chitra</strong>, paired with <strong>Deva's</strong> enchanting composition, this song resonates deeply with anyone who has experienced the bittersweet nature of romance. Dive into this timeless classic that evokes nostalgia and emotion with every note.",
+    "stanzaMeanings": [
+      "",
+      "I saw love for the first time, forgetting myself as my shadow fades away.",
+      "Today, I am not here; there is nothing like love. Where has my heart gone, my dear?",
+      "I see this river; here is where I have seen my life.",
+      "My dear, I have placed my trust in the days ahead.",
+      "When I look at you, I think of you; every glance makes my heart feel alive.",
+      "",
+      "I will sing the beauty of love that I have embraced.",
+      "Wherever I look, I see you; you close my eyes with your gaze.",
+      "My heart is not beating; before this, I had nothing.",
+      "Everything I have seen is given by you, you have given it all.",
+      "",
+      ""
+    ]
+  }
 }

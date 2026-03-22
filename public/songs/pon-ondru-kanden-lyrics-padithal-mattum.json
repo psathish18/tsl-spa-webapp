@@ -44,5 +44,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehIdrBBtUBsZdLJCkScZIDtcOhzoKVTZ8Vr1pNox6UPL_-uK_tD8LCNKqJkdUJktQA5DK85LaJhw28YC2508SgKFhJiT5zCXWbdNffYnLlUycYPk606RbhFDbll0dDtBxVcccyYiZtUI/s400-c/Pon+Ondru+Kanden+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:21:25.647Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pon ondru kanden",
+      "padithal mattum podhuma",
+      "p.b.sreenivas",
+      "tms",
+      "kannadasan",
+      "viswanathan ramamoorthy",
+      "romantic",
+      "1970"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of love and longing, questioning the absence of a beloved and the emotions tied to it.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In the movie <em>Padithal Mattum Podhuma</em>, the song reflects the protagonist's emotional turmoil regarding love and relationships.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is beautifully rendered by renowned singers <strong>P.B. Sreenivas</strong> and <strong>T.M. Soundararajan (TMS)</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Pon Ondru Kanden</strong> was composed by the legendary duo <strong>Viswanathan–Ramamoorthy</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on <strong>April 14, 1970</strong>.</p></div></div>",
+    "summary": "In <strong>Pon Ondru Kanden</strong>, the lyrics delve into the depths of love and the pain of separation, making it a poignant piece in the film <em>Padithal Mattum Podhuma</em>. The song's soothing melody and heartfelt delivery evoke a sense of nostalgia, transporting listeners to moments of cherished memories. It beautifully captures the essence of longing and the complexities of romantic relationships. This classic track remains a favorite for its emotional resonance and lyrical depth.",
+    "releaseYear": "1970",
+    "high_ctr_intro": "<strong>Pon Ondru Kanden</strong> from the classic film <em>Padithal Mattum Podhuma</em> is a timeless melody that captures the essence of love and longing. With its enchanting lyrics and soulful rendition, this song resonates with anyone who has ever experienced the bittersweet nature of romance. The collaboration of legendary artists brings a unique charm that makes this track unforgettable.",
+    "stanzaMeanings": [
+      "",
+      "I saw gold, should I say that there is no girl there? Should I say that or should I not?",
+      "I saw a flower, but I can't see its face. Should I say that or should I not?",
+      "The moving cloud is like a beautiful little girl, shining like a star.",
+      "The moving wealth is like a divine blessing, shining like a life.",
+      "The shining silver moon dances, the shining silver moon dances.",
+      "The flag that falls down, the flag that falls down.",
+      "Is that girl playing with the sky?",
+      "I am here, I have come.",
+      "I saw gold, should I say that there is no girl there? Should I say that or should I not?",
+      "The girl I saw, you didn't see her. The girl I saw, I didn't see her.",
+      "Your gaze is not like my gaze. You didn't see the sight I saw.",
+      "If you were in my eyes, I would have been in your eyes.",
+      "You are not here, I am not here without you.",
+      "I am here, I have come."
+    ]
+  }
 }

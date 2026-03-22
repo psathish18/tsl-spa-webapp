@@ -43,5 +43,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:11.927Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "seedan",
+      "shreya ghoshal",
+      "pa vijay",
+      "dhina",
+      "romantic",
+      "soothing",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Munpani Kaala Poovile</strong> expresses deep romantic feelings and admiration, capturing the essence of love beautifully.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Seedan</em>, the song plays during a pivotal romantic moment, highlighting the connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Shreya Ghoshal</strong> and composed by <strong>Dhina</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Munpani Kaala Poovile</strong> was released on <strong>February 6, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Munpani Kaala Poovile</strong>, the listener is taken on a romantic journey filled with heartfelt emotions. The song beautifully conveys the essence of love and admiration, making it a perfect backdrop for intimate moments in the film <em>Seedan</em>. Shreya Ghoshal's soothing vocals combined with Pa Vijay's poignant lyrics evoke a sense of nostalgia and warmth. This melody is not just a song but an experience that resonates with anyone who has ever been in love.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Munpani Kaala Poovile</strong> from <em>Seedan</em> is a mesmerizing romantic ballad that showcases Shreya Ghoshal's enchanting vocals. The collaboration with lyricist Pa Vijay and music director Dhina brings a unique blend of emotions that resonates deeply with listeners. This song is perfect for those intimate moments, making it a must-listen for every romantic at heart.",
+    "stanzaMeanings": [
+      "In the dark flower of the past, your face shines, like the golden sunlight in a straight line, your beauty is evident. Oh, the rivers are flowing, the clouds are gathering, is it you who is coming? ... Oh, little cuckoo, say something...",
+      "In the dark flower of the past, your face shines, like the golden sunlight in a straight line, your beauty is evident.",
+      "In the green grass, the dew drops are your name. Oh, the little bird's wings flutter, it is your presence that remains. Oh, the heart steals and tells, in the spring breeze, it is your hand that touches. The sweet sound of music is your voice. Night and day, it is you...",
+      "Ahhhh.. In the sky, the round moon shines, your face is clear in the bright light. In the house, the light that shines is your presence. Oh, in my little heart, every day, there is a companion, it is you. In everything, I see your form. When I look around, it is your eyes that I see. Oh, tell me...",
+      "In the dark flower of the past, your face shines, like the golden sunlight in a straight line, your beauty is evident. Oh, the rivers are flowing, the clouds are gathering, is it you who is coming? ... Oh, little cuckoo, say something...",
+      "In the dark flower of the past, your face shines, like the golden sunlight in a straight line, your beauty is evident."
+    ]
+  }
 }

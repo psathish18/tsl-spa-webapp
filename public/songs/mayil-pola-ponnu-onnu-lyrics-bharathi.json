@@ -43,5 +43,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvwITJ2ddBhMRyCHZagZl7ZLdNvUg8FHMTvpInHU4T8j3N2HLtif2jhds14kDzIyECb6ZuHyEEBfc_8dW4VDTJ_nwxZC0vHyBsui2g6qIIc_ESI8UVx0nKCKKSfMP9nZdneT1nqKELZPU/s400-c/Mayil+Pola+Ponnu+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:17:28.474Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "mayil pola ponnu",
+      "bhavatharini",
+      "bharathi",
+      "ilayaraja",
+      "old songs",
+      "tamil music",
+      "romantic",
+      "2000"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of love and longing, using metaphors related to nature.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>The movie for this song is currently unknown.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Bhavatharini</strong>.</p></div><div class=\"faq-item\"><h4>What year was this song released?</h4><p>This song was released in <strong>2000</strong>.</p></div></div>",
+    "summary": "In <strong>Mayil Pola Ponnu</strong>, the lyrics evoke a deep sense of nostalgia and romance, painting a vivid picture of love's complexities. The song's soothing melody, combined with Bhavatharini's enchanting voice, creates an atmosphere of longing and beauty. It resonates with anyone who has experienced the bittersweet nature of love. This classic piece stands out for its poetic depth and emotional resonance.",
+    "releaseYear": "2000",
+    "high_ctr_intro": "<strong>Mayil Pola Ponnu</strong> is a mesmerizing melody that captures the essence of love and longing. With <em>Bharathi</em> as its backdrop, this song beautifully intertwines the poetic lyrics with Bhavatharini's soulful voice. Experience the nostalgia and romance that this classic brings to life, making it a timeless favorite.",
+    "stanzaMeanings": [
+      "",
+      "Like a peacock, a girl speaks like a parrot.",
+      "Like a peacock, a girl speaks like a parrot. I don't know where my heart has gone after hearing a song like a cuckoo's. That confusion is still unclear to me.",
+      "Like a peacock, a girl, a girl.",
+      "My heart is sweet like sugar, blooming like a mandhara flower, and I wonder if you are the flower that has bloomed in my heart.",
+      "Every day, I look at your golden face, and the sun may not rise. The moon may shine like a conch shell.",
+      "Like a cuckoo, I don't know where my heart has gone after hearing a song. That confusion is still unclear to me.",
+      "Like a peacock, a girl, a girl.",
+      "In the silver moon, like a cloud, who has come with the jasmine flower?",
+      "In a small breeze, I have written your name.",
+      "What is this breeze that has come and disturbed me?",
+      "Like a lamp, little moonlight, pearl-like light, will you give me a kiss?",
+      "Like a cuckoo, I don't know where my heart has gone after hearing a song. That confusion is still unclear to me.",
+      "Like a peacock, a girl speaks like a parrot.",
+      "Like a cuckoo, I don't know where my heart has gone after hearing a song. That confusion is still unclear to me.",
+      "Like a peacock, a girl, a girl."
+    ]
+  }
 }

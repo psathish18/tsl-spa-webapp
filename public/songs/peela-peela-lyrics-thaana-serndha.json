@@ -83,5 +83,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:47.720Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "thaana serndha koottam",
+      "peela peela",
+      "anirudh",
+      "mali manoj",
+      "nakash aziz",
+      "upbeat",
+      "dance number",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Peela Peela'?</h4><p>'Peela Peela' is a lively track that celebrates fun and carefree moments, making it perfect for parties and celebrations.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Thaana Serndha Koottam</em>, the song captures the essence of youthful exuberance and camaraderie among friends.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features talented singers Mali Manoj and Nakash Aziz, with music composed by the renowned Anirudh.</p></div><div class=\"faq-item\"><h4>When was 'Peela Peela' released?</h4><p>'Peela Peela' was released on January 21, 2018, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "In <strong>Peela Peela</strong>, the lively beats and catchy lyrics create an atmosphere of joy and celebration. The song is a perfect representation of friendship and carefree moments, resonating with the youthful spirit portrayed in <em>Thaana Serndha Koottam</em>. It invites listeners to let loose and enjoy life, making it an ideal track for parties and celebrations. The energetic performances by Mali Manoj and Nakash Aziz further elevate the song's vibrant mood.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Peela Peela</strong> from <em>Thaana Serndha Koottam</em> is a vibrant celebration of life and joy, perfectly encapsulated by Anirudh's infectious beats. The dynamic collaboration between singers Mali Manoj and Nakash Aziz brings an electrifying energy that is hard to resist. Get ready to dance along to this catchy tune that promises to uplift your spirits!",
+    "stanzaMeanings": [
+      "Hey, don't go away, I don't want this to end.",
+      "Don't leave me, don't leave me, don't leave me, don't leave me, I don't want this to end.",
+      "Don't leave me, don't leave me, don't leave me, don't leave me, I don't want this scene to end.",
+      "Hey, Romeo, you and I are a pair, come on, come on.",
+      "My dear, for my babies, come on, come on.",
+      "That moon, I will bring it down, I will make it shine, I have caught that cloud in my hands, just see.",
+      "Don't leave me, don't leave me, don't leave me, don't leave me, I don't want this to end.",
+      "Don't leave me, don't leave me, don't leave me, don't leave me, I don't want this scene to end.",
+      "Beautiful Nirma, like Poppins, your brightness is shining here.",
+      "Lifebuoy is health, boosting energy, it is a gold spot that is shining in my heart.",
+      "Come, come, my dear, I love you, when you come close, my thirst is not quenched.",
+      "Dynamo, my dear, I love you too, I am waiting on your Kawasaki bike seat.",
+      "Let's dance, let's dance, let's dance, honey, let's have fun.",
+      "Don't leave me, don't leave me, don't leave me, don't leave me, I don't want this scene to end.",
+      "Hey, Romeo, you and I are a pair, come on, come on.",
+      "My dear, for my babies, come on, come on. That moon, I will bring it down, I will make it shine, I have caught that cloud in my hands, just see.",
+      "Should I tell my dad? Let's have fun. Should I tell my mom? Let's not run away.",
+      "Don't leave me, don't leave me, don't leave me, don't leave me, I don't want this to end.",
+      "Don't leave me, don't leave me, don't leave me, don't leave me, I don't want this scene to end."
+    ]
+  }
 }

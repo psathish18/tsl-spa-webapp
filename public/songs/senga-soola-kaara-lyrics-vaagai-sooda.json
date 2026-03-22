@@ -65,5 +65,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFUbspzjB9p0QFospzLzlaIta5_PMOZGYamYqsWK4gOKjZJoG_uZqnObnc1z5kn6HXcqACBEp8o1sIVwz0HjYZsIEqHMWX8EUhBKAOwqqNMQk0PUus9Iqp2qzZJlAGRzsWXCnEl-H0980/s400-c/Vaagai+Sooda+Vaa+photos+_1_+-+Copy.jpg",
   "generatedAt": "2026-01-18T13:09:16.183Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "vaagai sooda va",
+      "anitha",
+      "vairamuthu",
+      "m ghibran",
+      "happy",
+      "energetic",
+      "dance",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Senga Soola Kaara</strong> is a lively song that celebrates joy and togetherness, reflecting the festive spirit of the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie?</h4><p><em>Vaagai Sooda Vaa</em> revolves around themes of love and community, showcasing the protagonist's journey in a vibrant village setting.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Anitha</strong> and composed by <strong>M Ghibran</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Senga Soola Kaara</strong> was released on <strong>October 15, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Senga Soola Kaara</strong>, the vibrant energy of Anitha's voice perfectly complements the lively composition by M Ghibran. The song encapsulates the joyous moments of celebration and togetherness, making it a perfect fit for festive occasions. Its catchy lyrics and upbeat rhythm evoke feelings of happiness and excitement, inviting listeners to join in the dance. This track stands out as a highlight in the film <em>Vaagai Sooda Vaa</em>, enhancing the overall festive atmosphere.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Senga Soola Kaara</strong> from <em>Vaagai Sooda Vaa</em> is a vibrant celebration of life and joy, brought to life by the enchanting voice of Anitha. With the masterful composition of M Ghibran and the poetic brilliance of Vairamuthu, this song captures the essence of festive spirit. Get ready to dance along to its infectious beats and uplifting lyrics!",
+    "stanzaMeanings": [
+      "",
+      "",
+      "Senga Soola Kaara, Senga Soola Kaara",
+      "The stones have come down, oh! The clouds have gathered, oh!",
+      "The soil has been burnt and scattered.. The stones have been spread all over.. Our waste has turned into fertile soil.. Different stones have come together.. The soil has become like a mound, our heritage has been lost.. The Lord has come down.. We have seen the end of the sorrow.. The Lord of the battlefield has come down.. We have faced the challenges, let the thorns and spikes come down..",
+      "Senga Soola Kaara, Senga Soola Kaara The stones have come down, oh! The clouds have gathered, oh!",
+      "Soil, soil, only soil will come, children will come and live here, rain will come and fill the soil, where will the children go.. This soil is not going to change, where will the roots of the soil live, which house will the soil worms live in..?",
+      "The Lord has come down.. Open your eyes and see where the path leads.. Who is there besides you.. In this time, keep everything ready for you..",
+      "I have given, I have given, I am the one who gives, the water in the house will light the lamp, let it come down.. The water in the house will light the lamp, let it come down..",
+      ""
+    ]
+  }
 }

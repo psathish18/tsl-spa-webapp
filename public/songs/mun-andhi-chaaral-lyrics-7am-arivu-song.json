@@ -92,5 +92,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk2CXdrrZC_RovV-qu0tnfkp8ePteF9HOO8D6pNKtT-xmpstD6dHX_KkDBAol2__yphbOzZw8dDLAGn4dXY16xY1fAob9RB_LQZDKD-CHxo_IJjq_WYBPvSnsnsCQgnh0p5o4-kCEXyQc/s400-c/Mun+Andhi+Chaaral.jpg",
   "generatedAt": "2026-01-18T13:09:27.400Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "7am arivu",
+      "mun andhi chaaral",
+      "karthik",
+      "megha",
+      "na muthukumar",
+      "harrish jeyaraj",
+      "romantic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Mun Andhi Chaaral</strong>, the protagonists express their deep emotional connection and yearning for each other. The song plays a pivotal role in <em>7am Arivu</em>, showcasing the beauty of love amidst life's challenges. With its soothing melody and romantic lyrics, it evokes feelings of nostalgia and warmth. The collaboration between Karthik and Megha adds a unique charm, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Mun Andhi Chaaral</strong> from <em>7am Arivu</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With Karthik and Megha's enchanting vocals, this song weaves a magical atmosphere that resonates with every listener. The collaboration of Na Muthukumar's heartfelt lyrics and Harrish Jeyaraj's soulful composition makes this track a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "You are the light of the dawn, searching for your past life. In my sleep, you come as a song from afar. You are the flower-filled street, you are the morning that breaks. Even if you leave, you are the dream that comes in my sleep.",
+      "Oh girl, oh girl, your presence makes my heart melt. Come, oh girl, if you come, happiness will bring words to express it (the dawn light...).",
+      "Oh beautiful one, your beauty is unmatched. Even if you fall, your shadow is beautiful. It is you that the clouds seek, bringing rain to quench the thirst. After touching you, the thirst is quenched in the sea, oh oh...",
+      "In the evening, I search for you, hoping to see you. When I find you, my days will pass by happily.",
+      "Like a beautiful girl, you have surrounded me. Without stopping, you keep me awake every day, without saying 'I love you' (oh hey girl...).",
+      "You are the light of the dawn, searching for your past life. In my sleep, you come as a song from afar. You are the flower-filled street, you are the morning that breaks. Even if you leave, you are the dream that comes in my sleep.",
+      "",
+      ""
+    ]
+  }
 }

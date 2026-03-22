@@ -63,5 +63,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8BbwJF-fqmwInb7dGYXiQYaUAHerP9dD9G385_IJcl8GCocUKXEZ1Oio5z2CilOBhGe1P-0E6su_1Z-6zOojUGBxD1wnpFHjxu1vJyGLFXeDe_UoRDy4hMSJgy9Bei1M58eVk_IemUJ0/s400-c/Thandalkaran+Paakkuran+Lyrics+Tamil.jpg",
   "generatedAt": "2026-01-18T12:42:28.901Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "ngk",
+      "thandalkaaran",
+      "k.g.ranjith",
+      "kabilan",
+      "yuvan",
+      "energetic",
+      "dance",
+      "2019"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Thandalkaaran</strong>?</h4><p>The song conveys themes of resilience and determination in the face of challenges.</p></div><div class=\"faq-item\"><h4>How does <strong>Thandalkaaran</strong> fit into the plot of <em>NGK</em>?</h4><p>It reflects the protagonist's journey and struggles, motivating him to rise against adversity.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Thandalkaaran</strong>?</h4><p>The song is sung by <strong>K.G. Ranjith</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Thandalkaaran</strong>?</h4><p>The music is composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Thandalkaaran</strong> released?</h4><p>The song was released on <strong>May 6, 2019</strong>.</p></div></div>",
+    "summary": "In <strong>Thandalkaaran</strong>, the protagonist's journey is encapsulated through energetic beats and motivating lyrics. The song serves as an anthem of resilience, encouraging listeners to overcome obstacles. With its vibrant composition by Yuvan and powerful delivery by K.G. Ranjith, it evokes feelings of empowerment and determination. This track is not just a song but a call to action, making it a perfect fit for celebrations and motivational moments.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Thandalkaaran</strong> from <em>NGK</em> is an electrifying anthem that perfectly captures the spirit of determination and resilience. With K.G. Ranjith's powerful vocals and Yuvan's dynamic composition, this track is sure to get you moving. Experience the vibrant energy and motivational vibes that make this song a must-listen!",
+    "stanzaMeanings": [
+      "The caretaker is watching and listening to the whispers, speaking softly like a child.",
+      "The butterfly has come here, and the village's fate is in the hands of the local leader.",
+      "The Indian's voice is heard, and he has come to take charge without any authority.",
+      "There is no one in the village; the one who brought love has been chased away from the streets.",
+      "Even after death, if you throw away the snake in the pot, it will still live in a group.",
+      "The caretaker is watching and listening to the whispers, speaking softly like a child.",
+      "The butterfly has come here, and the village's fate is in the hands of the local leader.",
+      ""
+    ]
+  }
 }

@@ -103,5 +103,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:09.618Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "96 movie",
+      "vasantha kalangal",
+      "govind vasantha",
+      "chinmayi",
+      "uma devi",
+      "romantic",
+      "melancholic",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Vasantha Kalangal</strong>?</h4><p>The song reflects themes of nostalgia and longing, capturing the essence of cherished memories and emotions.</p></div><div class=\"faq-item\"><h4>How does <strong>Vasantha Kalangal</strong> fit into the plot of <em>96 Movie</em>?</h4><p>This song plays a crucial role in expressing the characters' emotional journey and their past relationships.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Vasantha Kalangal</strong>?</h4><p>The song is beautifully sung by <strong>Govind Vasantha</strong> and <strong>Chinmayi</strong>.</p></div><div class=\"faq-item\"><h4>What year was <strong>Vasantha Kalangal</strong> released?</h4><p>The song was released in <strong>2018</strong>.</p></div></div>",
+    "summary": "In <strong>Vasantha Kalangal</strong>, the characters reminisce about their past, evoking a sense of nostalgia and longing. The song beautifully encapsulates the bittersweet emotions associated with love and memories. With its soothing melody and heartfelt lyrics, it resonates with anyone who has experienced the complexities of relationships. This duet serves as a poignant reminder of the moments that shape our lives.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Vasantha Kalangal</strong> from the <em>96 Movie</em> is a beautifully crafted duet that captures the essence of nostalgia and romance. With the enchanting voices of Govind Vasantha and Chinmayi, this song takes listeners on an emotional journey through memories and longing. The heartfelt lyrics by Uma Devi resonate deeply, making it a must-listen for anyone who cherishes love and reminiscence.",
+    "stanzaMeanings": [
+      "The spring days are passing by, my distances are not flowing away.",
+      "The breaths of life are settling down, will the lost days come back?",
+      "In the realm of sight, will my heart's words be like a melody that flows without rhythm?",
+      "The spring days are passing by, my distances are not flowing away.",
+      "In the pains of love, the truths are changing, our days are getting lost.",
+      "Come... the clouds are gathering, the paths are starting to appear... to be one with you.",
+      "As the moon of love, I will be your light in the morning, come, come.",
+      "In the darkness that consumes, you live, this love is our beauty.",
+      "The spring days are passing by, my distances are not flowing away.",
+      ""
+    ]
+  }
 }

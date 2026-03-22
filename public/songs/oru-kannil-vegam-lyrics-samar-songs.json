@@ -92,5 +92,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO6aiGzTMthlXLc_4mWjTeJi5Tgmc04MkIh8lWkJZz0fWlD5-PCUCtzyy_p2sBQCSy9tn3yCDZk50riueYJxNHEe88SIVIFXPlSVrCK_8AERCFSHAm3-MobMDjYdwZmZYGIzad3XXXDOY/s400-c/Samar++Songs+Lyrics.jpg",
   "generatedAt": "2026-01-18T13:04:39.375Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "samar",
+      "oru kannil vegam",
+      "k.g. ranjith",
+      "naveen madhav",
+      "suchitra",
+      "na muthukumar",
+      "yuvan shankar raja",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Kannil Vegam</strong>, the lyrics explore the journey of a man who embraces fear while embarking on a significant mission. The upbeat tempo and energetic vocals create a sense of excitement and determination, reflecting the character's resolve. This song serves as a motivational anthem, encouraging listeners to face challenges head-on. Set against the backdrop of the movie <em>Samar</em>, it resonates with themes of courage and adventure.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Oru Kannil Vegam</strong> from <em>Samar</em> is an electrifying track that perfectly captures the essence of adventure and thrill. With the dynamic vocals of K.G. Ranjith, Naveen Madhav, and Suchitra, this song is a celebration of life’s exhilarating moments. Yuvan Shankar Raja’s masterful composition adds a unique flavor, making it a must-listen for fans of Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "In one eye, there is speed; in another eye, there is desire. He is like a mountain stream.",
+      "He stands with the earth and reaches for the sky. He is like a hunting bird.",
+      "Like a cloud that doesn't rain, he is a thorny bush that gives a flower. He shows his strength.",
+      "Like a strong wind, he is a fierce bull. His height is unmatched, and he follows his own path.",
+      "samar samar samaran samar samar samaran samar samar samaran show the flower, he is samar samar samaran samar samar samaran samar samar samaran show the fire, he is.",
+      "In one eye, there is speed; in another eye, there is desire. He is like a mountain stream.",
+      "He stands with the earth and reaches for the sky. He is like a hunting bird.",
+      "When the sky sleeps, he is the one who doesn't sleep. He speaks with the earth.",
+      "When the stone breaks, the earth breaks too. He writes the ages and brings them to life.",
+      "In the cool season, he creates a view; in the sunny season, he works hard to create a garland.",
+      "Who is he? Who is he? Who is he?",
+      "samar samar samaran samar samar samaran samar samar samaran show the flower, he is samar samar samaran samar samar samaran samar samar samaran show the fire, he is.",
+      "Sometimes, I talk to the flowers; I bring the wind together with the rain. I will bring beauty to the wind, and if the storm comes, I will not back down.",
+      "I will learn the song; the forest will be my teacher. When I say my name, the cuckoo will sing in the gathering.",
+      "Who is he? Who is he? Who is he?",
+      "samar samar samaran samar samar samaran samar samar samaran show the flower, he is samar samar samaran samar samar samaran samar samar samaran show the fire, he is."
+    ]
+  }
 }

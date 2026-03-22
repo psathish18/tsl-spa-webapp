@@ -52,5 +52,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:06:15.847Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "wedding"
+    ],
+    "keywords": [
+      "madharasapattinam",
+      "udit narayan",
+      "na muthukumar",
+      "gv prakashkumar",
+      "upbeat",
+      "dance",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Vaama Duraiyamma</strong> is a lively song that celebrates welcoming and joy, reflecting the cultural essence of the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie?</h4><p><em>Madharasapattinam</em> is set in the backdrop of pre-independence India, exploring themes of love and cultural identity.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the talented <strong>Udit Narayan</strong>, known for his melodious voice in Tamil cinema.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Vaama Duraiyamma</strong> was composed by <strong>GV PrakashKumar</strong>, a prominent figure in Tamil film music.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 9, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Vaama Duraiyamma</strong>, the characters express their joy and excitement through a lively celebration, perfectly encapsulating the spirit of the film <em>Madharasapattinam</em>. The upbeat tempo and catchy lyrics invite listeners to join in the festivities, making it an ideal track for celebrations and parties. The song conveys a sense of warmth and community, evoking feelings of happiness and togetherness. With Udit Narayan's energetic vocals and GV PrakashKumar's vibrant composition, this song stands out as a memorable highlight of the movie.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Vaama Duraiyamma</strong> from <em>Madharasapattinam</em> is a vibrant celebration of joy and energy, brilliantly brought to life by Udit Narayan's captivating vocals. The infectious beats crafted by GV PrakashKumar perfectly complement the lively lyrics penned by Na Muthukumar. This song is sure to uplift your spirits and get you dancing along!",
+    "stanzaMeanings": [
+      "",
+      "What? This is a common white lady's thing...",
+      "We welcome with greetings. Oh, greetings! We will go to the place of the festival, we will go to the fire in the drum, we will go to the singing. The snake dances, oh! The elephant blesses with its trunk. Wow!",
+      "",
+      "What is this? Food for the little birds? Oh really? Yes, we will live here as brothers and sisters, but with different parents. Great! Thank you, thank you! We will eat at home... The one who comes to worship will just sleep... Mother and God are here... Lovely.",
+      "",
+      "Oh, the rooster will live and our Tamil language will flourish. Who is that? I don't understand who that is. Old poets wrote golden lines. You can go anywhere in this world. Here, only love can be seen. I love you. I beg your pardon. No, no, this is a land of love. The brave will live here. Is it fair to make this a slavery? Yeah, just like that, the rain fell on the ground.",
+      ""
+    ]
+  }
 }

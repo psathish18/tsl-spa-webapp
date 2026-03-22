@@ -43,5 +43,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifApgL3rjxlU8xu_oaDm8NUEqPrhWT08TKysNVvpc5bjsYvf6gniE916CYE1N0U1Q-kfmxjctvIAW3mbj3oCFyWqSp1zFSohbox7Tyd4EXjz9VyX7kFhkUU4jFFogfoGvOR90D_iB4IH0/s400-c/Nilave+vaa+Lyrics+Mouna+Ragam.jpg",
   "generatedAt": "2026-01-18T13:20:38.396Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "mouna ragam",
+      "nilave vaa",
+      "sp balasubrahmanyam",
+      "ilaiyaraaja",
+      "vaali",
+      "romantic",
+      "1986",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nilave Vaa'?</h4><p>'Nilave Vaa' expresses a deep yearning for a loved one, encapsulating the emotions of love and separation.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Mouna Ragam'?</h4><p>In <em>Mouna Ragam</em>, this song reflects the protagonist's feelings of love and nostalgia, enhancing the emotional depth of the narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Nilave Vaa'?</h4><p>The song is sung by the legendary S. P. Balasubrahmanyam and composed by the iconic Ilaiyaraaja.</p></div><div class=\"faq-item\"><h4>When was 'Nilave Vaa' released?</h4><p>'Nilave Vaa' was released in the year <strong>1986</strong>.</p></div></div>",
+    "summary": "In <strong>Nilave Vaa</strong>, the protagonist expresses a heartfelt longing for their beloved, beautifully encapsulated through the soulful rendition of S. P. Balasubrahmanyam. The song serves as a poignant reminder of love's complexities, blending nostalgia with a sense of yearning. Set against the backdrop of <em>Mouna Ragam</em>, it enhances the emotional narrative, making it a memorable piece in Tamil cinema. The melodic composition by Ilaiyaraaja further elevates the song's impact, leaving listeners enchanted.",
+    "releaseYear": "1986",
+    "high_ctr_intro": "<strong>Nilave Vaa</strong> from <em>Mouna Ragam</em> is a timeless melody that captures the essence of love and longing. With the enchanting voice of S. P. Balasubrahmanyam and the masterful composition by Ilaiyaraaja, this song resonates deeply with anyone who has experienced the bittersweet pangs of romance. Dive into this classic and let its soothing notes transport you to a world of nostalgia.",
+    "stanzaMeanings": [
+      "",
+      "Come, moon, don't stay away, I am your golden child.",
+      "Even if you leave me, I will always remember you.",
+      "Come, moon, don't stay away.",
+      "Come, moon, don't stay away.",
+      "Oh Kaveri, what is your truth? Stop for a moment, like the blooming jasmine flower.",
+      "Oh dear, you are still a little child. My heart can't bear it. You should say what you mean.",
+      "You have bloomed, and you have placed the jasmine in words.",
+      "Come, moon, don't stay away.",
+      "In the flower garden, the wind sings, but don't say that it can't be done. Flowers and life are above this world.",
+      "What sweetness did you give with just one glance? What did you say with just one word?",
+      "What is the cloud that doesn't reach the sky?",
+      "Come, moon, don't stay away, I am your golden child.",
+      "Even if you leave me, I will always remember you.",
+      "Come, moon, don't stay away, I am your golden child.",
+      ""
+    ]
+  }
 }

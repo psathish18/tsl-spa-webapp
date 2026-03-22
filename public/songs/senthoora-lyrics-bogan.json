@@ -140,5 +140,64 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgibILB7QbS9JoN34ItAdyNpboIevbo5SIRAWMI5TzejTsNX4G-CFfpwsuFGFruvp7fI59yHULSaLEiTe7VShx0yGYkQTAKPax_zyoGh8qkwYMxnyviHhcRf6SILFkzOLWZf7y9oYGTpU4/s400-c/Senthoora+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:48:24.709Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "bogan",
+      "senthoora",
+      "luksimi sivaneshwaralingam",
+      "thamarai",
+      "d imman",
+      "romantic",
+      "2016",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Senthoora</strong>?</h4><p>The song <strong>Senthoora</strong> expresses deep romantic feelings and longing, beautifully conveyed through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in <em>Bogan</em>?</h4><p>In <em>Bogan</em>, the song plays during a pivotal moment that highlights the emotional connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Senthoora</strong>?</h4><p>The song is sung by <strong>Luksimi Sivaneshwaralingam</strong>, known for her soulful voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Senthoora</strong>?</h4><p>The music for <strong>Senthoora</strong> was composed by <strong>D Imman</strong>, a renowned music director in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was <strong>Senthoora</strong> released?</h4><p><strong>Senthoora</strong> was released on December 3, 2016.</p></div></div>",
+    "summary": "In <strong>Senthoora</strong>, the protagonist expresses his deep affection and yearning for his beloved, encapsulating the essence of romance. The song's soothing melody and heartfelt lyrics resonate with anyone who has experienced love. It serves as a backdrop to a significant moment in <em>Bogan</em>, enhancing the emotional depth of the narrative. The collaboration of Luksimi Sivaneshwaralingam's voice and D Imman's composition creates a captivating listening experience.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Senthoora</strong> from <em>Bogan</em> is a mesmerizing melody that captures the essence of romance and longing. With Luksimi Sivaneshwaralingam's enchanting vocals and Thamarai's heartfelt lyrics, this song creates an unforgettable atmosphere. Experience the magic of D Imman's composition that beautifully complements the film's narrative.",
+    "stanzaMeanings": [
+      "",
+      "Even if you think about it again and again.",
+      "Even if you run without stopping under the moonlight.",
+      "You are the flower that my heart seeks, always my protector.",
+      "My beloved is what I desire.",
+      "",
+      "",
+      "Everyone should leave when it's time to walk.",
+      "Those who hide their fingers should speak.",
+      "When morning comes, you should be there. When sleep comes, you should be gone.",
+      "If you give me a blessing, that is enough.",
+      "",
+      "",
+      "Should we walk under the rain with an umbrella?",
+      "Should we tell stories under the shade of a tree?",
+      "Should we listen to songs or sing along? Is it necessary to go back?",
+      "All the happiness that no one sees has come to our hands.",
+      "Will you be able to stay without me from now on?",
+      "",
+      "",
+      "When I gather and leave, I will say that I will not stay.",
+      "Will you do good at home or will you just waste time?",
+      "If I lose you, will you find a way to come back?",
+      "",
+      "",
+      "Have the eyes made you sad? Will you say something with your hands?",
+      "Something has happened, the heat has gone away, and the troubles have disappeared."
+    ]
+  }
 }

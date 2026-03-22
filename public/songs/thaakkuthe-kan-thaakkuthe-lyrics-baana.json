@@ -46,5 +46,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:18.768Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "baana kaathadi",
+      "yuvan",
+      "vaali",
+      "romantic",
+      "melody",
+      "2010",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Thaakkuthe kan thaakkuthe</strong> expresses the feelings of love and longing, capturing the essence of romantic moments.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Baana Kaathadi</em>, this song plays during a pivotal moment that highlights the protagonist's emotional journey and connection with love.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by <strong>Yuvan</strong>, showcasing his unique style and musical talent.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Thaakkuthe kan thaakkuthe</strong> was released on <strong>May 18, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Thaakkuthe kan thaakkuthe</strong>, the protagonist reflects on love and the beauty of relationships, encapsulated in a melodious tune. The song's heartfelt lyrics by Vaali complement Yuvan's captivating voice, creating an emotional connection with the listeners. It evokes feelings of nostalgia and happiness, making it perfect for romantic occasions. This track beautifully illustrates the essence of love, making it a memorable part of the movie <em>Baana Kaathadi</em>.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Thaakkuthe kan thaakkuthe</strong> from <em>Baana Kaathadi</em> is a delightful melody that captures the essence of romance and nostalgia. With Yuvan's soulful voice and heartfelt lyrics by Vaali, this song resonates with anyone who has experienced love. Dive into the enchanting world of this beautiful track that perfectly blends emotion and melody.",
+    "stanzaMeanings": [
+      "Your eyes are beautiful, like flowers blooming. I see the flower, and it is in my hands.",
+      "The flower is raised, and sweet words come from it. In my view, life is not just about who is who, but who says what.",
+      "",
+      "At the moment of seeing, the fragrance is there. As it goes, the essence remains. The fragrance and essence bring happiness. The language of the streets is the language of women. Each one has its own workout. There’s good chemistry. Watching the sun set, love blooms and speaks, my flower, my flower.",
+      "",
+      "Every day chatting on the phone, meeting at the coffee shop. But the desire in the heart is not enough. The golden fire is nearby, standing without a newspaper. Looking at the earth, it’s not like this. We can connect with our fingers, and when we do, it protects our dignity. The relationship is a witness; the sky and earth are one.",
+      "Your eyes are beautiful, like flowers blooming. I see the flower, and it is in my hands.",
+      "The flower is raised, and sweet words come from it. In my view, life is not just about who is who, but who says what.",
+      ""
+    ]
+  }
 }

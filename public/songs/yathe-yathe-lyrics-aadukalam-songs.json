@@ -55,5 +55,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:41.081Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "aadukalam",
+      "gv prakash kumar",
+      "snehan",
+      "energetic",
+      "dance",
+      "2010",
+      "tamil",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yathe Yathe'?</h4><p>The song 'Yathe Yathe' expresses themes of joy and celebration, reflecting the carefree spirit of youth.</p></div><div class=\"faq-item\"><h4>How does 'Yathe Yathe' fit into the plot of <em>Aadukalam</em>?</h4><p>This song captures the protagonist's lively moments, emphasizing the vibrant culture and festivities depicted in the movie.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Yathe Yathe'?</h4><p>The song is sung by <strong>GV Prakash Kumar</strong>, who is also the music director, showcasing his dual talent.</p></div><div class=\"faq-item\"><h4>When was 'Yathe Yathe' released?</h4><p>'Yathe Yathe' was released on <strong>November 14, 2010</strong>, as part of the <em>Aadukalam</em> soundtrack.</p></div></div>",
+    "summary": "In 'Yathe Yathe', the protagonist revels in the joys of life, encapsulating a carefree and energetic spirit. The song serves as a backdrop to festive moments in <em>Aadukalam</em>, where the characters celebrate their youth and vibrancy. With its catchy beats and lively lyrics, it evokes feelings of happiness and excitement. The collaboration of GV Prakash Kumar's music and Snehan's lyrics creates an unforgettable anthem that resonates with audiences.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Yathe Yathe</strong> from <em>Aadukalam</em> is a vibrant celebration of life and energy, showcasing the unique musical flair of GV Prakash Kumar. This upbeat track captures the essence of youthful exuberance, making it a perfect anthem for any festive occasion. Dive into the infectious rhythm and let the lively beats elevate your spirits!",
+    "stanzaMeanings": [
+      "",
+      "What happened to you? What is going on?",
+      "Like a little fish, you are playful. The light has been set, and it shines bright. Are you not able to walk in the sunlight? I am standing on the ground without understanding. I am confused, oh me, oh me. What happened to you? What is going on?",
+      "The light has been set, and it shines bright. Are you not able to walk in the sunlight? I am standing on the ground without understanding. I am confused, oh me, oh me. I am circling around like a firefly. I am getting lost in the night. My heart is searching for you. Every day, I am learning. In the river of life, you are growing. You are watching me from a distance.",
+      "What happened to you? What is going on?",
+      "I am a simple person, what have I done? I went away happily, but then I realized. I am standing on the ground without understanding. I am confused, oh me, oh me. What happened to you? What is going on? I am burning with thoughts of you. There is nothing to hold on to. Why are you hurting me? Even today, I am thinking of you. You are watching me from a distance. You are taking me away.",
+      "What happened to you? What is going on?",
+      "Like a little fish, you are playful. The light has been set, and it shines bright. Are you not able to walk in the sunlight? I am standing on the ground without understanding. I am confused, oh me, oh me.",
+      ""
+    ]
+  }
 }

@@ -64,5 +64,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:34.735Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "kaavalan",
+      "benny dayal",
+      "megha",
+      "vidyasagar",
+      "viveka",
+      "energetic",
+      "dance",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a lively and energetic vibe, encouraging listeners to step up and enjoy life.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Kaavalan</em>, this song is a fun dance number that showcases the characters' joyful moments.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Benny Dayal</strong> and <strong>Megha</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Step Step Step it up</strong> was composed by <strong>Vidyasagar</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>December 8, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Step Step Step it up</strong>, the characters in <em>Kaavalan</em> celebrate life with a vibrant dance number that radiates joy and energy. The upbeat tempo and catchy lyrics invite everyone to join in the fun, making it a perfect party anthem. The song captures the essence of youthful exuberance and the thrill of living in the moment. With its lively beats and engaging vocals, it evokes feelings of happiness and celebration.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Step Step Step it up</strong> from <em>Kaavalan</em> is an electrifying anthem that gets you moving with its infectious beats. The dynamic collaboration between <strong>Benny Dayal</strong> and <strong>Megha</strong> brings a vibrant energy that is hard to resist. With <strong>Vidyasagar</strong>'s masterful composition and <strong>Viveka</strong>'s catchy lyrics, this song is perfect for any celebration!",
+    "stanzaMeanings": [
+      "",
+      "You there, come on let's do this, yeah step it up, 1 2 3 ...",
+      "Step Step Step It Up, calling out the energy, step it up, the heart is racing, step it up, step it up.",
+      "Step Step Step It Up, wake up the lightning in you, keep it up until the peak, step it up.",
+      "In the world of the living, beauty dances, that's what gives life, forgetting you, the dance becomes a bond.",
+      "Ho..Ho.. [1 2 3 4 ... Yaa-mambo Yaamambo 5 6 7 8 ... Yaa-mambo Yaamambo]",
+      "Step Step Step It Up, calling out the energy, step it up, the heart is racing, step it up, step it up.",
+      "With the feet on the ground, let's move together, joining with friends, now let's move forward, fresh and new, let's go.",
+      "In the dance of the river, the fish swim, in the breeze, the deer leap, everywhere, look at me.",
+      "New style, new speed, it's all about the new person.",
+      "[1 2 3 4 ... Yaa-mambo Yaamambo 5 6 7 8 ... Yaa-mambo Yaamambo]",
+      "Step Step Step It Up, calling out the energy, step it up, the heart is racing, step it up, step it up.",
+      "The nearby ones are smiling, the ones who are rocking are not afraid, the girls are like fire, they are the queens.",
+      "No one is like me, I am not like before, look at my atom, no one is like me.",
+      "Dun Dun Dun Dun, with the rhythm, let's dance together, just a little with me, with me.",
+      "Holding hands, joining together, let's bring life and dance.",
+      "[1 2 3 4 ... Yaa-mambo Yaamambo 5 6 7 8 ... Yaa-mambo Yaamambo]"
+    ]
+  }
 }

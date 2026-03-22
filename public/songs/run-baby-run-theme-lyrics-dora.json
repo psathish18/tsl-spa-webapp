@@ -73,5 +73,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijAnaq5S6ij4l1LtzvPXJaprx3UVZF6-Sp3xVASHtKU6ArlfQaKqSaoI2SVBJmxWz_mYRhK6WPQNMfLCD2TnsTe2jVYy28lm2DSGcpFhk57p60yJQE5jCAddPpiGchk8eX6DB1GN-hp8w/s400-c/Capture6.JPG",
   "generatedAt": "2026-01-18T12:46:56.468Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "theme",
+      "bgm"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "dora",
+      "run baby run",
+      "mc akram",
+      "mc rude",
+      "vivek mervin",
+      "energetic",
+      "theme",
+      "2017"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a sense of urgency and excitement, urging listeners to take action and embrace challenges.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <strong>Dora</strong>, the song underscores moments of thrill and adventure, enhancing the film's energetic narrative.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The song features the talents of <strong>Mc Akram</strong> and <strong>MC Rude</strong>, with music composed by <strong>Vivek – Mervin</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Run Baby Run Theme</strong> was released on February 15, 2017.</p></div></div>",
+    "summary": "The <strong>Run Baby Run Theme</strong> from <em>Dora</em> serves as a high-energy backdrop to the film's adventurous spirit. The song's lyrics reflect a sense of urgency and determination, encouraging listeners to embrace challenges head-on. With its infectious beats and engaging delivery by Mc Akram and MC Rude, it evokes feelings of excitement and motivation. This track is perfect for energizing any party or workout session, making it a standout piece in the film's soundtrack.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Run Baby Run Theme</strong> from <em>Dora</em> is an electrifying anthem that perfectly captures the thrill of adventure. With the dynamic collaboration of Mc Akram and MC Rude, this track is sure to get your adrenaline pumping. Experience the fusion of catchy beats and engaging lyrics that make this song a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "",
+      "Run Baby Run, what should I do? There is no way to escape, what should I do?",
+      "There is no place to hide, what should I do? There is no way to escape.",
+      "No matter what comes, I will keep coming back. What are you going to do now? Run Baby Run.",
+      "Run Run Run baby Run (6) Run Run, let Dora go, let her go, let her go, let her go, let her go, let her go.",
+      "What should I do? What should I do? What should I do? What should I do?",
+      "Run baby Run, Run baby Run, Run baby Run, Run baby Run, let Dora go, let her go, let her go, let her go, let her go, let her go.",
+      ""
+    ]
+  }
 }

@@ -39,5 +39,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:03.352Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "vamanan",
+      "yedho seigirai",
+      "javed ali",
+      "sowmya raoh",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "2009"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yedho Seigirai'?</h4><p>The song conveys feelings of love and longing, expressing deep emotions associated with romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Vamanan'?</h4><p>'Yedho Seigirai' plays a significant role in showcasing the romantic dynamics between the lead characters in <strong>Vamanan</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the melodious voices of <strong>Javed Ali</strong> and <strong>Sowmya Raoh</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Yedho Seigirai'?</h4><p>The music for this beautiful track was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Yedho Seigirai' released?</h4><p>The song was released on <strong>June 20, 2009</strong>.</p></div></div>",
+    "summary": "In 'Yedho Seigirai', the protagonists express their deep emotional connection through heartfelt lyrics and soothing melodies. The song encapsulates the essence of romance, portraying moments of longing and affection. As part of the movie <em>Vamanan</em>, it enhances the narrative by highlighting the characters' emotional struggles. The collaboration of Javed Ali and Sowmya Raoh, under Yuvan's musical direction, creates a captivating listening experience that resonates with anyone who has experienced love.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Yedho Seigirai</strong> from the movie <em>Vamanan</em> beautifully captures the essence of love and longing. With the enchanting voices of Javed Ali and Sowmya Raoh, this duet is a melodic journey that resonates with the heart. Yuvan's masterful composition adds a unique charm, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "Something is happening, you are doing something to me... You are making me aware of something... Something is happening, you are doing something to me... You are making me aware of something...",
+      "When you speak, lightning strikes in my heart... In the mirror, my eyes show you... Girl, this dream is real, I am asking for you!",
+      "My love... this moment is sinking into my heart... Oh... this intensity feels like a dream... Because of you, this world is revealing everything to me...",
+      "Girl, my heart doesn't want to hear anything, I can't stay still after seeing you! Until now, my heart hasn't spoken to anyone, you have created a magic, and I am not here!",
+      "What is this, what is this, I can't see my shadow... It came after you, and it hasn't returned yet. I ask where it is, your footsteps are showing me!",
+      "My love... this moment is sinking into my heart... Oh... this intensity feels like a dream... Because of you, this world is revealing everything to me...",
+      "Words are not needed for a love-filled heart, there are no words to express the desires within... Until now, I haven't lived like this, this is a new beginning, nothing else has started.",
+      "Until yesterday, there was no change in the sky, today I have met my door with the sky. In just one day, I have lived my whole life!",
+      "My love... this moment is sinking into my heart... Oh... this intensity feels like a dream... Because of you, this world is revealing everything to me...",
+      "Something is happening, you are doing something to me... You are making me aware of something... Something is happening, you are doing something to me... You are making me aware of something..."
+    ]
+  }
 }

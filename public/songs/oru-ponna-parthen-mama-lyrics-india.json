@@ -61,5 +61,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4u1SbNtdzQUv0FrMUuQWGEXbNvzqK2qhKwpkNmjF0EUtQK4KWTrAT1tpSeT1DmmVg00mmBEzoWaa9U4xt-pDUCdjKvQv5EQiCo5WgNaQADdO1zWkjmHuvQvwZyG8PQg1fuO35mqGnjvM/s400-c/India-Pakistan-Movie-Poster-1.jpg",
   "generatedAt": "2026-01-18T12:56:31.505Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "peppy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "india pakistan",
+      "spb charan",
+      "dheena devarajan",
+      "romantic",
+      "happy",
+      "2014",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses the playful and romantic feelings of a young man who is enamored by a girl, highlighting the excitement of love.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie?</h4><p><em>India Pakistan</em> revolves around themes of love and cultural differences, with this song capturing a light-hearted moment in the narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>SPB Charan</strong> and composed by <strong>Dheena Devarajan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>December 20, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Ponna Parthen Mama</strong>, the protagonist expresses his infatuation with a girl, blending humor and romance seamlessly. The song's upbeat tempo and playful lyrics evoke feelings of joy and excitement, making it a perfect fit for celebratory occasions. It captures the essence of youthful love and the anticipation that comes with it. The vibrant music and engaging vocals further enhance the overall charm of this delightful track.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Oru Ponna Parthen Mama</strong> from <em>India Pakistan</em> is a delightful blend of catchy melodies and playful lyrics, showcasing the charm of love in a light-hearted manner. With the enchanting voice of SPB Charan and the vibrant music by Dheena Devarajan, this song captures the essence of youthful romance. Dive into this musical treat that promises to uplift your spirits and bring a smile to your face!",
+    "stanzaMeanings": [
+      "",
+      "I saw a girl, uncle. She has no qualities, but she has beautiful eyes.",
+      "She has a homely look, uncle. She is a family girl, uncle. Is she someone I can hope to marry, uncle?",
+      "When I sleep, she comes into my dreams and disturbs me. She makes me upset by doing high jumps in my mind.",
+      "Because of that girl, I lost my sleep. What should I do?",
+      "I saw a girl, uncle.",
+      "How did I become like this? Why did she change me? If she continues like this, how will I be in the future?",
+      "I was like a pizza, cut into pieces. I lay down and let my heart race like a scooter.",
+      "She is a little girl, a charming girl. Like a magician, she casts a spell on me and makes my heart race. If I get distracted, I ride my cycle over the waves.",
+      "That girl is gigantic, her style is amazing, uncle. I fell for her like an Antarctic creature.",
+      "When the low hipster comes, the roads are all traffic. She comes with lipstick and her eyes are like tonic.",
+      "Her shoes are high, her jeans are tight, her smile is bright. She mixes her beauty with red wine. She catches fish and is like a silver queen; no one can resist her charm.",
+      "I saw a girl, uncle. She has no qualities, but she has beautiful eyes.",
+      "She has a homely look, uncle. She is a family girl, uncle. Is she someone I can hope to marry, uncle?",
+      "When I sleep, she comes into my dreams and disturbs me. She makes me upset by doing high jumps in my mind.",
+      "Because of that girl, I lost my sleep. What should I do?"
+    ]
+  }
 }

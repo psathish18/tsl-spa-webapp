@@ -90,5 +90,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpafMv0HMmqi6fpTgcDMSDvEsA3958cuLPv9Yfs_Fi-uQZTcZuoIIl4sk1PS1AJCJwIlN7ltOxeIeV-8EgIQ5dimU19h7AQI4e_jWJPlklMicNd5vecRenr8uBBHzu1MR0SKgXJcWxPnU/s400-c/Pori+Pathi+Vizhum.JPG",
   "generatedAt": "2026-01-18T12:49:14.306Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "rum",
+      "anirudh",
+      "simbu",
+      "divine",
+      "energetic",
+      "dance",
+      "2016",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of celebration and joy, emphasizing the excitement of life and relationships.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In the movie <em>Rum</em>, the song plays during a lively party scene, enhancing the festive atmosphere.</p></div><div class=\"faq-item\"><h4>Who are the artists involved in this song?</h4><p>The song features vocals by <strong>Anirudh</strong> and <strong>Simbu</strong>, with lyrics by <strong>Divine</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Pori Pathi Vizhum</strong> was released on November 3, 2016.</p></div></div>",
+    "summary": "In <strong>Pori Pathi Vizhum</strong>, the lively beats and engaging lyrics create an atmosphere of joy and celebration. The song captures the essence of youthful exuberance, making it a perfect fit for party scenes in the movie <em>Rum</em>. It conveys a sense of freedom and excitement, encouraging listeners to embrace life's moments. The collaboration between Anirudh and Simbu adds a unique flair, making this track a memorable highlight.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Pori Pathi Vizhum</strong> is a vibrant anthem that perfectly captures the essence of celebration and energy. The unique collaboration between <strong>Anirudh</strong> and <strong>Simbu</strong> brings an electrifying vibe that is hard to resist. With its catchy beats and lively lyrics, this track from the movie <em>Rum</em> is sure to get you on your feet!",
+    "stanzaMeanings": [
+      "",
+      "You took everything with your hands, you stole it all and brought it here.",
+      "In this world where everything is calm, you are the one who has caused the chaos.",
+      "Is everything today a gift? That world is now in front of you.",
+      "You took everything with your hands, you stole it all and brought it here.",
+      "The dance now falls, the dance now falls, the dance now falls.",
+      "The hunt is now here, hunger is coming, hunger is coming, hunger is coming.",
+      "",
+      "You took everything with your hands, you stole it all and brought it here.",
+      "In this world where everything is calm, you are the one who has caused the chaos.",
+      "You took everything with your hands, you stole it all and brought it here.",
+      "The dance now falls, the dance now falls, the dance now falls.",
+      "The hunt is now here, hunger is coming, hunger is coming, hunger is coming.",
+      "",
+      ""
+    ]
+  }
 }

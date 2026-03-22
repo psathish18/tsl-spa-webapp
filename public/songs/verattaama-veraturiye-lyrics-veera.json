@@ -78,5 +78,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQmAbvlgfKMF1kZpXFfi-4mK7rAo47HmXhYkvdmCcOxzNcDsejwN8zwvePbvIYyZFgHsddety3FMnGc1H6kRTbb_Ya82UGi-jEbuvCsmg3lOZXVeKDtzMDt7XGm2aV605llmua8E9ntQU/s400-c/Verattaama+Veratturiye+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:46:52.376Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "veera",
+      "verattaama veraturiye",
+      "neeti mohan",
+      "sid sriram",
+      "ko sesha",
+      "leon james",
+      "romantic",
+      "2017"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In the movie <em>Veera</em>, the song <strong>Verattaama Veraturiye</strong> captures the essence of love and longing. It portrays the emotions of a lover searching for their beloved, expressing deep affection and desire. The melodic interplay between Neeti Mohan and Sid Sriram enhances the romantic atmosphere, making it a perfect fit for weddings and celebrations. The heartfelt lyrics evoke a sense of nostalgia and joy, resonating with anyone who has experienced love.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Verattaama Veraturiye</strong> from <em>Veera</em> is a captivating duet that beautifully blends the soulful voices of Neeti Mohan and Sid Sriram. The enchanting lyrics by Ko Sesha and the melodious composition by Leon James create an unforgettable romantic vibe. This song is sure to resonate with anyone who has experienced the magic of love.",
+    "stanzaMeanings": [
+      "",
+      "You are not letting go, I have searched everywhere for you and I will keep searching.",
+      "Even if you are not mine, I will still hold on to your thoughts.",
+      "You are what I need to live, you are the one I want to see, I will give my life for you, you are everything to me now.",
+      "When I am in trouble, my heart feels like lightning strikes.",
+      "Love has started, and I have lost my sleep.",
+      "Don't leave my hand, don't go away, your gaze is slowly pulling me in.",
+      "You are what I need to live, you are the one I want to see, I will give my life for you, you are everything to me now.",
+      "",
+      "",
+      "You are what I need to live, you are the one I want to see, I will give my life for you, you are everything to me now.",
+      ""
+    ]
+  }
 }

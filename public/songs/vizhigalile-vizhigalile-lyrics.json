@@ -54,5 +54,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRXa3RRvAsBmI8keK6-TE3AWfNzW5qt7x6QjPFNbnTWq3jLoUFRb9ldZei4Dl0veFu9H4VX9auNAnyEhni7U_9PR3RG1kCYg9jPu7FTN3hqvTIuJXSkdiHNcdx4jV50Fs8a4A6WkTSXYs/s400-c/Kullanari-Koottam.jpg",
   "generatedAt": "2026-01-18T13:10:57.546Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "kullanari koottam",
+      "vizhigalile",
+      "chinmayi",
+      "karthik",
+      "na muthukumar",
+      "selvaganesh",
+      "romantic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Vizhigalile Vizhigalile</strong>, the lyrics express a deep sense of love and connection between two individuals. The song beautifully portrays the emotions of longing and affection, making it a perfect fit for romantic occasions. Set against the backdrop of <em>Kullanari Koottam</em>, it enhances the narrative of love and relationships within the film. The soothing melody and heartfelt vocals evoke a sense of nostalgia and warmth, making it a cherished piece for listeners.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Vizhigalile Vizhigalile</strong> from <em>Kullanari Koottam</em> is a mesmerizing duet that beautifully captures the essence of romance. With the enchanting voices of Chinmayi and Karthik, this song weaves a magical atmosphere that resonates with love and longing. The collaboration of talented lyricist Na Muthukumar and music director Selvaganesh adds a unique charm to this melodic gem.",
+    "stanzaMeanings": [
+      "",
+      "In the eyes, new dreams come, who brings them? In the surroundings, new hopes come, who brings them? In the moment I spend with you, my heart never stops. In the eyes...",
+      "What kind of joy is this? What kind of joy is this? As I walk, my mind is restless. What kind of pain is this? I have never felt anything like this before. In the heart's path, dreams are not like yours. It feels new to me too.",
+      "In the moment I spend with you, my heart never stops. In the eyes...",
+      "What kind of bond is this? Is it a gift from God? What kind of relationship is this? I can't explain it, I understand a little. What kind of dream is this? Who can I ask about it? What kind of day is this? The moon is near, the sun's light is shining.",
+      "In the moment I spend with you, my heart never stops. In the eyes...",
+      "In the eyes, new dreams come, who brings them? In the surroundings, new hopes come, who brings them? In the moment I spend with you, my heart never stops. In the eyes..."
+    ]
+  }
 }

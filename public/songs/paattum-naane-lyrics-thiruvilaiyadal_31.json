@@ -40,5 +40,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsn6_yQTiycyi37AgKrLRIoZ3eb7mhGfR1bnqZkIAfC0GSV7smmvauk_tlZFLfO9lHz_tJEGsg0al98KwiOOpSUGz48deHEi2yub-rHzwesIyu3qX6SoH6Dlf1IaxgXuzPt7W5gTRXSaU/s400-c/Paattum+Naane+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:21:22.114Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "nostalgic"
+    ],
+    "songType": [
+      "classic",
+      "devotional"
+    ],
+    "occasions": [
+      "relaxation",
+      "festivals"
+    ],
+    "keywords": [
+      "paattum naane",
+      "thiruvilaiyadal",
+      "devotional",
+      "nostalgic",
+      "1970",
+      "tamil song",
+      "classic",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Paattum Naane'?</h4><p>The song conveys themes of devotion and love, highlighting the connection between the singer and the divine.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Thiruvilaiyadal'?</h4><p>In the movie, the song reflects the protagonist's emotional journey and spiritual awakening.</p></div><div class=\"faq-item\"><h4>Who are the singer and music director of 'Paattum Naane'?</h4><p>The details of the singer and music director are currently unknown.</p></div><div class=\"faq-item\"><h4>When was 'Paattum Naane' released?</h4><p>'Paattum Naane' was released in the year <strong>1970</strong>.</p></div></div>",
+    "summary": "The song 'Paattum Naane' from the movie 'Thiruvilaiyadal' is a beautiful expression of devotion and love. It evokes a sense of nostalgia and spiritual connection, making it a cherished classic. The lyrics emphasize the singer's deep feelings and the divine presence in their life. This song resonates with listeners, transporting them to a place of peace and reflection.",
+    "releaseYear": "1970",
+    "high_ctr_intro": "<strong>Paattum Naane</strong> from <em>Thiruvilaiyadal</em> is a timeless classic that resonates with the soul. Its soothing melodies and profound lyrics create an atmosphere of devotion and nostalgia. Experience the magic of this song that beautifully captures the essence of love and spirituality.",
+    "stanzaMeanings": [
+      "",
+      "I am the song, I am the feeling; I have made you sing.",
+      "I am the song, I am the feeling; I have made you sing.",
+      "I am the song, I am the feeling.",
+      "Have you come to tell me the story of the music and the gathering?",
+      "I am the song, I am the feeling; I have made you sing.",
+      "I am the song, I am the feeling.",
+      "In desires and in things, I am the music.",
+      "In desires and in things, I am the music. I am the leader in the dance.",
+      "I am the movement in everything.",
+      "I am the movement in everything; if my music is strong, the world will stop.",
+      "If I desire, everything will be fulfilled.",
+      "The wise man is your greatness. If I desire, everything will be fulfilled.",
+      "The wise man is your greatness. Even if the singer comes to sing, he will close his mouth now.",
+      "I am the song, I am the feeling; I have made you sing.",
+      "I am the song, I am the feeling.",
+      ""
+    ]
+  }
 }

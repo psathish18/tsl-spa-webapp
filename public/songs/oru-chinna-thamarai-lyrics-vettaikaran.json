@@ -39,5 +39,42 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:48.979Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "vettaikaran",
+      "oru chinna thamarai",
+      "happy",
+      "energetic",
+      "dance number",
+      "2009",
+      "tamil song",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru Chinna Thamarai</strong> conveys themes of youthful exuberance and the joy of living in the moment.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Vettaikaran</em>, the song reflects the carefree spirit of the protagonist, showcasing his vibrant personality.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The details about the <strong>singer</strong> and <strong>music director</strong> are currently unknown.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru Chinna Thamarai</strong> was released on <strong>October 27, 2009</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Chinna Thamarai</strong>, the protagonist expresses his carefree and lively spirit, making it a perfect fit for celebratory moments in <em>Vettaikaran</em>. The upbeat tempo and playful lyrics evoke feelings of happiness and energy, encouraging listeners to embrace life with enthusiasm. The song serves as a reminder to enjoy the little moments and celebrate youth. Its infectious rhythm makes it a favorite for parties and gatherings.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Oru Chinna Thamarai</strong> from <em>Vettaikaran</em> is a vibrant celebration of youthful energy and joy. The song captures the essence of fun and excitement, making it a perfect anthem for parties. With its catchy beats and lively lyrics, this track is sure to get you moving and grooving!",
+    "stanzaMeanings": [
+      "A small lotus has bloomed in my eyes, those lightning words are searching my heart. This is not the truth, it's just a lie. My whole body is filled with a bright light. My journey is going on, your smile is shining. On my path, you are like a flower, I have blossomed with your presence, my life.",
+      "A small lotus has bloomed in my eyes, those lightning words are searching my heart. You gotta keep moving if you out with your drama. This is many of the ? you wanna get with me mama. You can see me bowling by looking at me sneakers. And my credit card got really good features. Let's do this! When they call your name, flowers bloom at the feet. All the words that come from your feet turn into poems. When I see your name, my eyes get lost. In my life, everything is about you, all my joys are because of you.",
+      "A small lotus has bloomed in my eyes, those lightning words are searching my heart. When I hear your voice, even the cuckoos sing. In your silence, only the breeze whispers. When I ask for permission, your eyes also respond. How many days have I written in my heart? Your hands cannot be separated from my journey. If you come, my troubles will be solved.",
+      "A small lotus has bloomed in my eyes, those lightning words are searching my heart. This is not the truth, it's just a lie. My whole body is filled with a bright light. My journey is going on, your smile is shining. On my path, you are like a flower, I have blossomed with your presence, my life.",
+      "A small lotus has bloomed in my eyes, those lightning words are searching my heart. You gotta keep moving if you out with your drama. This is many of the ? you wanna get with me mama. You can see me bowling by looking at me sneakers. And my credit card got really good features."
+    ]
+  }
 }

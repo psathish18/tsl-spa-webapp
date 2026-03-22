@@ -53,5 +53,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpvvEI5_BlxFtT4UvOI-a-4Wx19eA2AUB3Z4HdrHMO5xFWVQC-OTJ2vvA2-FsfkVlUCVYNCY7Gw8U_mlsS3RkzdDFti32EaobILSoctWhdx7gnVdOnQPxmz6MoHfBq240zg6_bbCWCLQ/s400-c/Naan+Appatakkar+Song+Lyrics+Pei+Pasi.jpeg",
   "generatedAt": "2026-02-01T13:04:51.824Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "pei pasi",
+      "vijaysethupathi",
+      "sofia ashraf",
+      "upbeat",
+      "dance",
+      "2018",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Naan Appatakkar'?</h4><p>The song conveys a playful attitude towards social interactions, emphasizing confidence and individuality.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'PeiPasi'?</h4><p>This song captures a fun and lively moment, reflecting the character's carefree spirit and charm.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Naan Appatakkar'?</h4><p>The song is sung by the talented Vijaysethupathi, who brings his unique style to the track.</p></div><div class=\"faq-item\"><h4>When was 'Naan Appatakkar' released?</h4><p>The song was released on July 26, 2018.</p></div></div>",
+    "summary": "In <strong>Naan Appatakkar</strong>, the upbeat tempo and lively lyrics reflect a carefree attitude towards life and social interactions. The song serves as a celebration of individuality, encouraging listeners to embrace their unique selves. Set against the backdrop of <em>PeiPasi</em>, it evokes feelings of joy and confidence, making it perfect for parties and celebrations. With Vijaysethupathi's engaging performance, this track is sure to uplift spirits and get everyone dancing.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Naan Appatakkar</strong> from the movie <em>PeiPasi</em> is a vibrant anthem that showcases Vijaysethupathi's unique flair. With catchy lyrics by Sofia Ashraf, this song is bound to get you moving and grooving. Experience the infectious energy that makes this track a must-listen for any celebration!",
+    "stanzaMeanings": [
+      "Boys don't send friend requests due to market risks, but girls can always send them.",
+      "Enough!!!",
+      "I walk with international style, I am a big deal.",
+      "Even if I am a little crazy, I still get up, oh my!",
+      "Mysore king's son, Jhansi queen's warrior, Lord Labakdas is my father's son.",
+      "I am a big deal!!",
+      "On Mount Road, I spend money. I hit up YouTube. In the morning, I mix foreign whisky in my coffee.",
+      "I will give you an autograph, I will take a selfie, but sorry, on my Facebook....",
+      "I am a big deal!! I am a big deal!! International big deal, big deal, big deal.."
+    ]
+  }
 }

@@ -56,5 +56,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXKTHU4ShrygkDbUGcpH8YVfjSw8PMzdgTLmvL9OIvrKdzpkun1kVnnula7j7bUDhbhpjcSmgC1wWz-_vWVStG_dJQ8Rj7SX-H-OGHIzcm44oMNfm5Y-XqEx3mGQyHGTQyHugHN7PGGco/s400-c/Rsaathi+Nenja+Lyrics+7up+madras+gig+s2+yuvan.jpeg",
   "generatedAt": "2026-01-18T12:42:35.851Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "rasathi nenje",
+      "yuvan",
+      "dharan kumar",
+      "upbeat",
+      "dance number",
+      "2019",
+      "music",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of joy and celebration, capturing the essence of youthful love and energy.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The song is part of the album titled '7UP Madras Gig', and does not belong to a specific movie.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Yuvan</strong> and composed by <strong>Dharan Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 3, 2019</strong>.</p></div></div>",
+    "summary": "The song <strong>Rasathi Nenje</strong> is a lively track that encapsulates the spirit of celebration and joy. It features a catchy melody that invites listeners to dance and enjoy life. The lyrics reflect a carefree attitude, making it perfect for parties and festive occasions. Overall, the song evokes feelings of happiness and energy, making it a delightful addition to any celebration.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Rasathi Nenje</strong> is a vibrant anthem that captures the essence of youthful exuberance and celebration. With <strong>Yuvan's</strong> electrifying vocals and <strong>Dharan Kumar's</strong> infectious beats, this track is sure to get you on your feet. Experience the magic of this unique collaboration that brings a fresh sound to the Tamil music scene!",
+    "stanzaMeanings": [
+      "The eyes that look at me are like a knife, they turn and spin with their gaze.",
+      "I haven't seen anyone like you, my heart is troubled and restless inside.",
+      "Is your beautiful heart okay? You seem to be calm, but you have captured my attention.",
+      "I can't bear the pain, it's like a blow to my heart, you have made me feel weak.",
+      "You come every day like a lightning strike, making noise inside. I feel like I'm losing my mind because of you.",
+      "With your head held high, I see you in my dreams. It's not fair that you close your eyes and dance away.",
+      "With your heart's flow, I understand you through your actions.",
+      "In your words, I find my breath, I feel like I've lost my age with you, I am overwhelmed...",
+      "When I call your name, my heart trembles, does this happen to you too?",
+      "It's all mixed up because of you... I can't sleep, what should I say if you leave without looking back?",
+      "You can't just leave me like this, what will I do? Every day in my thoughts, I feel like I'm losing something.",
+      "With your heart's flow, I understand you through your actions.",
+      "In your words, I find my breath, I feel like I've lost my age with you, I am overwhelmed...",
+      "sa sa sa sa ni sa sa ni",
+      ""
+    ]
+  }
 }

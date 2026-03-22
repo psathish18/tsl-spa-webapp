@@ -57,5 +57,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:23.263Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number",
+      "folk"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "aadukalam",
+      "velmurugan",
+      "yegathasi",
+      "gv prakashkumar",
+      "energetic",
+      "dance",
+      "2011",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Otha Sollaala</strong>, the protagonist expresses a carefree and joyful attitude towards life, celebrating the little pleasures and the thrill of living in the moment. The song is set against the backdrop of the movie <em>Aadukalam</em>, where it reflects the vibrant culture and festive spirit of the characters. With its catchy rhythm and lively lyrics, it evokes feelings of happiness and energy, making it perfect for celebrations and parties.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Otha Sollaala</strong> from <em>Aadukalam</em> is a vibrant celebration of life and joy, brought to life by the energetic vocals of Velmurugan. With GV Prakash Kumar's infectious beats and Yegathasi's clever lyrics, this song captures the essence of festive spirit. It's a must-listen for anyone looking to uplift their mood and dance along!",
+    "stanzaMeanings": [
+      "",
+      "Hey, don't say anything, my life is in trouble. What can I eat with these two eyes? Like green water, I have poured it into a pot. Drinking it daily is killing me.",
+      "In this place, the rain has fallen and people are running away. That song has taken away my peace, like a thief. I am troubled by my eyes, which have taken away my happiness. Something is wrong with my heart.",
+      "What has happened to this situation? That mirror has also become a problem. I have fallen into trouble. Without saying anything, my life is in danger. Today, my mind has become like sugar.",
+      "Hey, don't say anything, my life is in trouble. What can I eat with these two eyes? Like green water, I have poured it into a pot. Drinking it daily is killing me.",
+      "That vehicle has come and stopped. She is looking beautiful. That food has come and stopped. She is looking lovely. The old red color is still there. I am not able to bear her beauty.",
+      "Hey, don't say anything, my life is in trouble. What can I eat with these two eyes? Like green water, I have poured it into a pot. Drinking it daily is killing me.",
+      "What name should I put on the ration card? I will change it in a day. I will tell everyone in this town. I will only tell her in love. If I eat something, it will be a big deal.",
+      "Hey, don't say anything, my life is in trouble. What can I eat with these two eyes? Like green water, I have poured it into a pot. Drinking it daily is killing me.",
+      "In this place, the rain has fallen and people are running away. That song has taken away my peace, like a thief. I am troubled by my eyes, which have taken away my happiness. Something is wrong with my heart.",
+      ""
+    ]
+  }
 }

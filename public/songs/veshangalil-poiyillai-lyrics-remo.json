@@ -112,5 +112,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-s-rbWejAwFEXzWl2bgcyO-xnQFIirTzKYuLmyy2Fdq2uYXt-QwMoiVbwt6sMouQCgCWQLhyphenhyphenu4jHkipTWSID0etVKcDAgXLSZ1qBoXHVLyb5_4XOxq_ZX4cycIPYLfJ5fSqBKe-i_kp0/s400-c/Veshangaliil+Poyillai.jpg",
   "generatedAt": "2026-02-01T13:02:19.418Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "sad"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "removeshangalilpoiyillai",
+      "anirudh",
+      "harish",
+      "melancholic",
+      "sad",
+      "2016",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Veshangalil Poiyillai</strong> conveys feelings of heartbreak and the struggles of love, reflecting on the absence of truth in relationships.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie <em>Remo</em>?</h4><p>The song plays during a pivotal moment in <em>Remo</em>, highlighting the protagonist's emotional turmoil and longing.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Anirudh</strong>, who is also the <strong>music director</strong>, showcasing his versatility.</p></div><div class=\"faq-item\"><h4>When was <strong>Veshangalil Poiyillai</strong> released?</h4><p>The song was released on <strong>October 17, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Veshangalil Poiyillai</strong>, Anirudh's haunting vocals bring to life the pain of lost love, making it a standout track in <em>Remo</em>. The lyrics delve into themes of heartbreak and emotional struggle, resonating with anyone who has faced similar feelings. The song's melancholic tone evokes a sense of nostalgia and longing, perfectly complementing the film's narrative. Overall, it serves as a poignant reminder of the complexities of love and relationships.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Veshangalil Poiyillai</strong> from <em>Remo</em> captures the essence of heartbreak with Anirudh's soulful rendition. The poignant lyrics by Harish resonate deeply, making it a must-listen for anyone who has experienced love's trials. Dive into this emotional journey that beautifully blends melody and sentiment.",
+    "stanzaMeanings": [
+      "",
+      "With closed eyes, searching for life, there is no deception in the appearances, there is no truth in your presence, I am not there, my dear.",
+      "Crossing the pain,",
+      "Half of my dreams are in me.",
+      ""
+    ]
+  }
 }

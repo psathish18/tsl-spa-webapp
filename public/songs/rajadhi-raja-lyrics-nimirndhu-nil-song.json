@@ -60,5 +60,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7E-sAmjQYSG9A467DhVJnRpkoEf4A3M2BKX14uPicyc2aMwOgTV3n5t1gauTZ84j-5dcMcgysCyV_I30Z1EWh_zri2ZuECtjJcE-KFgXcSS-3TFzmFtpW6qV55GheZRdFJqBOqL5Qu3g/s400-c/nimirndhunil.jpg",
   "generatedAt": "2026-01-18T13:01:52.948Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "nimirndhu nil",
+      "rajadhi raja",
+      "hemachandran",
+      "kabilan",
+      "gv prakash",
+      "energetic",
+      "dance",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Rajadhi Raja'?</h4><p>The song 'Rajadhi Raja' conveys themes of empowerment and celebration, encouraging listeners to embrace their strength and joy.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Nimirndhu Nil'?</h4><p>In <em>Nimirndhu Nil</em>, the song plays during a pivotal moment that emphasizes the protagonist's journey and determination.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Rajadhi Raja'?</h4><p>The song is sung by <strong>Hemachandran</strong> and composed by <strong>GV Prakash</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Rajadhi Raja' released?</h4><p>'Rajadhi Raja' was released on <strong>December 12, 2013</strong>.</p></div></div>",
+    "summary": "The song 'Rajadhi Raja' from the movie <em>Nimirndhu Nil</em> is a vibrant and energetic track that inspires listeners to embrace their inner strength. With powerful lyrics by Kabilan and an upbeat composition by GV Prakash, it serves as a motivational anthem. The song's lively rhythm and engaging vocals by Hemachandran evoke feelings of joy and celebration. It perfectly encapsulates the spirit of triumph and resilience, making it a standout number in the film.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Rajadhi Raja</strong> from <em>Nimirndhu Nil</em> is an electrifying anthem that captures the essence of celebration and motivation. With Hemachandran's powerful vocals and GV Prakash's dynamic composition, this song is sure to get you moving. Experience the vibrant energy and uplifting lyrics that make this track a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "",
+      "Hey king of kings, it's me. Today and forever, I am the brave one. The sky is my boundary, and this joyful land is my home.",
+      "Don't just come and go without notice. Put in effort for a meaningful life. Let's gather and sing together. Let's dance like a strong performance.",
+      "Hey king of kings, it's me. Today and forever, I am the brave one. Living without faith is not right. It's not good to be careless and indifferent."
+    ]
+  }
 }

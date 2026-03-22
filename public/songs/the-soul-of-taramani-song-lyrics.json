@@ -96,5 +96,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlejyoyFGO7fnDRzqq-I3tRoc3bwfEHii8D7hoJijw3U0GoXZy94NELyp9U0lEJ24acdg9u-pYfwDf0wXPiNGs3qHCSEm68tBpenfZ18osDQ00sqAxhahMyzAbs9VgRX3r7RJrzAImwuk/s400-c/Tharamani.jpg",
   "generatedAt": "2026-02-01T14:34:07.298Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "sad"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "taramani",
+      "andrea jeremiah",
+      "melancholic",
+      "romantic",
+      "2014",
+      "tamil song",
+      "soul of taramani",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>The Soul of Taramani</strong> explores themes of heartbreak and the struggle to maintain friendships after a romantic relationship ends.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Taramani</em>, the song reflects the protagonist's emotional journey and the complexities of love and friendship.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the talented <strong>Andrea Jeremiah</strong>, known for her expressive vocal style.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>The Soul of Taramani</strong> was released on February 10, 2014.</p></div></div>",
+    "summary": "In <strong>The Soul of Taramani</strong>, Andrea Jeremiah delivers a heartfelt performance that resonates with anyone who has experienced the pain of a breakup. The song's lyrics delve into the complexities of love, expressing a desire to maintain a connection despite the emotional turmoil. Set against the backdrop of the film <em>Taramani</em>, it evokes a sense of nostalgia and longing, making it a poignant addition to the soundtrack. The melancholic melody and introspective lyrics create an atmosphere that lingers long after the song ends.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>The Soul of Taramani</strong> captures the essence of longing and heartbreak with Andrea Jeremiah's soulful voice. The song beautifully encapsulates the emotional turmoil of relationships, making it a standout track from the film <em>Taramani</em>. Dive into this poignant melody that resonates with anyone who has faced the complexities of love.",
+    "stanzaMeanings": [
+      "",
+      "After it's over, I would like to be friends. Am I being foolish? Or is this really the end?",
+      "You could have told me what you were thinking. Please don't leave me because I won't be able to handle it.",
+      "After it's over, things won't be the same. So let's keep pretending that nothing has changed.",
+      "It doesn't matter what you've done. This can't be the end; we just can't let it be.",
+      "I would like to leave you, but where would I go? I don't want to trust you, but what do I really know?",
+      "After it's over, I'll smile again. Am I being foolish? Or is this really the end?",
+      "",
+      ""
+    ]
+  }
 }

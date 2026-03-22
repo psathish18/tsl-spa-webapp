@@ -70,5 +70,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNEYg4YHOuUTBN_a9nppGSdZm3RwTZ2DSOcdJA_sdZCD5RrR7Ai9QpjjF48upeN2QdsFesUh0K3s4_wKQvQwaZTpizuerJkcxqGrY-ewluPNSDUNELoceAAQz9Fh-8BydP-01cUzfETg/s400-c/Othaiyadi+Pathaiyila+Lyrics+From+Kanaa+Movie.jpeg",
   "generatedAt": "2026-01-18T12:43:29.303Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "workout"
+    ],
+    "keywords": [
+      "kanaa",
+      "anirudh",
+      "arunraja kamaraj",
+      "dhibu ninan",
+      "energetic",
+      "motivational",
+      "2018",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of perseverance and joy, celebrating the journey of life.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Kanaa</em>, the song reflects the protagonist's determination to overcome challenges and achieve their dreams.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the talented <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music is composed by <strong>Dhibu Ninan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 24, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Othaiyadi Pathaiyile</strong>, the protagonist expresses a vibrant sense of hope and determination, perfectly encapsulating the spirit of the film <em>Kanaa</em>. The song's energetic beats and uplifting lyrics inspire listeners to chase their dreams relentlessly. It serves as a motivational anthem, resonating with anyone facing challenges in life. The combination of Anirudh's powerful vocals and Dhibu Ninan's engaging composition makes this track a memorable highlight of the movie.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Othaiyadi Pathaiyile</strong> from <em>Kanaa</em> is a vibrant anthem that captures the essence of determination and joy. With Anirudh's captivating vocals and Dhibu Ninan's dynamic composition, this song is sure to uplift your spirits. Experience the perfect blend of motivation and melody that makes this track a must-listen!",
+    "stanzaMeanings": [
+      "I run on the path of the river, searching for the flower that has fallen.",
+      "The fragrance of sandalwood fills the air. It feels like my bird is flying with a chain.",
+      "The sweetness of sugar is spreading, will the uncle come to change the garland? Oh mother...",
+      "You are the one who blooms on the path. You are the flower that blooms in my sight.",
+      "Oh my flower, you will forget the worries of the mother. Beautiful, beautiful girl, you walk gracefully in the world.",
+      "I came running after the shadow, look at me for a moment.",
+      "I run on the path of the river, searching for the flower that has fallen.",
+      "You went without looking at the fruit. I became a burden on you. I have given my life to you, yet I am scared.",
+      "Oh life, oh my life, you are the world. Come, oh life... in my heart, do not hide the feelings.",
+      "I run on the path of the river, searching for the flower that has fallen.",
+      "Oh... the heart is filled with the fragrance of love. The beautiful eyes speak, it is the essence of love.",
+      "Like a bird, will you come flying to join me?",
+      "Oh my beloved... come to me...",
+      ""
+    ]
+  }
 }

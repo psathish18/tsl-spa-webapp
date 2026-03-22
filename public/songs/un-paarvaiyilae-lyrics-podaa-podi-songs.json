@@ -85,5 +85,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-rWS7u3YvQO9U5M3wWGA5UpWoB5NFoPhkAFLtu9csm4LkH0YMaroWu8G83JxxdmJL5BpzdTSL0vJFTTMAE-TppItL06snJjgtBjwet4OxGAD2mVgVaiHc3nZyf2Mv8kb_Wuwj3a5aeM/s400-c/poda-podi+lyrics.jpg",
   "generatedAt": "2026-02-01T14:34:16.719Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "poda podi",
+      "un paarvaiyilae",
+      "moonisha",
+      "pradeep",
+      "sindhu",
+      "vignesh shivan",
+      "dharan kumar",
+      "romantic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Un Paarvaiyilae'?</h4><p>The song expresses deep feelings of love and admiration, highlighting the beauty of seeing one's beloved.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Poda Podi'?</h4><p>This song is a romantic highlight in the film, showcasing the blossoming relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Un Paarvaiyilae'?</h4><p>The song features the talented voices of Moonisha, Pradeep, and Sindhu.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Un Paarvaiyilae'?</h4><p>The music for this beautiful track was composed by Dharan Kumar.</p></div><div class=\"faq-item\"><h4>When was 'Un Paarvaiyilae' released?</h4><p>The song was released on October 12, 2012.</p></div></div>",
+    "summary": "In 'Un Paarvaiyilae', the characters express their love and admiration for each other through heartfelt lyrics and melodious tunes. The song serves as a pivotal moment in <em>Poda Podi</em>, encapsulating the joy and excitement of new love. With its romantic vibe, it evokes feelings of happiness and nostalgia, making it a perfect choice for celebrations and special occasions. The collaboration of talented singers and the skilled music direction adds to the song's charm, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Un Paarvaiyilae</strong> from <em>Poda Podi</em> is a delightful romantic melody that captures the essence of love in its purest form. With enchanting vocals by Moonisha, Pradeep, and Sindhu, this song beautifully blends heartfelt lyrics by Vignesh Shivan with the captivating music of Dharan Kumar. Experience the magic of this collaboration that resonates with every lover's heart.",
+    "stanzaMeanings": [
+      "I have fallen in love with your gaze. I sang about you. Until now, I haven't seen anyone like you.",
+      "I have fallen in love because of your gaze. I have become enchanted by your words. Until now, I haven't seen anyone like you.",
+      "I have fallen in love because of your smile. Looking into your eyes, I feel a fever. Until now, I haven't seen anyone like you."
+    ]
+  }
 }

@@ -32,5 +32,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxEVLcyIHIy6owb7o69RgZrWdatNei1PyLnysXjr_wtIq-zjNB7up3rDtt0mDHKnGpytFw_NWf0qOm3QZMlRn9QmG3H8xjV4sTVhjmAhCQhfQOVoRHBHZyA3gZ-T07CW7almFs5CJWRlI/s400-c/Sattapadi%2BKutram.jpg",
   "generatedAt": "2026-01-18T13:10:48.500Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "sattapadi kutram",
+      "vijay antony",
+      "romantic",
+      "melody",
+      "2011",
+      "tamil song",
+      "music",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yededho Yededho'?</h4><p>The song expresses feelings of love and longing, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>What is the plot context of 'Yededho Yededho' in the movie?</h4><p>In <em>Sattapadi Kutram</em>, the song reflects the protagonist's emotional journey and romantic experiences.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung and composed by <strong>Vijay Antony</strong>, showcasing his talent in both singing and music direction.</p></div><div class=\"faq-item\"><h4>When was 'Yededho Yededho' released?</h4><p>The song was released on <strong>March 30, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Yededho Yededho</strong>, the protagonist navigates the complexities of love, reflecting on cherished memories and emotional connections. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia, making it a perfect backdrop for romantic moments. As the narrative unfolds in <em>Sattapadi Kutram</em>, this track beautifully encapsulates the essence of longing and affection. With Vijay Antony's captivating voice, listeners are drawn into a world of love and emotion.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Yededho Yededho</strong> from the <em>Sattapadi Kutram</em> soundtrack is a mesmerizing melody that captures the essence of love and longing. With Vijay Antony's soulful voice and heartfelt lyrics, this song resonates deeply with anyone who's experienced the beauty of romance. Dive into this enchanting track that beautifully blends emotion and melody, making it a must-listen for every music lover.",
+    "stanzaMeanings": [
+      "",
+      "Something has changed, a flower has bloomed, and my heart is troubled. What is this new pain? The heat comes to my body, and love rains down on me, love rains down on me.",
+      "In the evening, I want to steal a kiss. The words we share make me smile. You are in my thoughts at home, and you are in my heart.",
+      "The flowers on the street search for your hair. The road you walked on searches for your footsteps. In the coffee you drank, the taste lingers in my heart, and you are in my heart.",
+      "Truly, truly, my two hands have become wings. Truly, truly... ah... ah...",
+      ""
+    ]
+  }
 }

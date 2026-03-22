@@ -67,5 +67,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj99lyIfUDAE8HbwicsjG42CDx1jOxGYlAlt4Fr_s9NUWF_P8P-VczaMZmpiepJX4ADSeqEWeY8j2hh-cHK0dekclr1gCs07I0krT2wNHCx9X0uXYV-qOCviu91RHAKj83vhzcTIpShw/s400-c/Nee+Tholainthaaye+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:49:23.737Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "kavalai vendam",
+      "nee tholaindhaayo",
+      "sid sriram",
+      "leon james",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nee Tholaindhaayo'?</h4><p>The song expresses deep feelings of longing and heartache, reflecting the pain of separation from a loved one.</p></div><div class=\"faq-item\"><h4>What is the plot context of 'Kavalai Vendam' related to this song?</h4><p>In <em>Kavalai Vendam</em>, this song underscores the protagonist's emotional turmoil as he grapples with his feelings for someone he has lost.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Sid Sriram</strong> and composed by <strong>Leon James</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Nee Tholaindhaayo' released?</h4><p>The song was released on <strong>October 17, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Nee Tholaindhaayo</strong>, the protagonist expresses his deep yearning for a lost love, encapsulating the essence of heartbreak and nostalgia. The song's poignant lyrics and Sid Sriram's emotive vocals create a powerful atmosphere that resonates with anyone who has experienced love's pain. Set against the backdrop of <em>Kavalai Vendam</em>, this melody serves as a reflection of the character's inner struggles. The haunting composition by Leon James further enhances the emotional depth, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Nee Tholaindhaayo</strong> from <em>Kavalai Vendam</em> is a hauntingly beautiful melody that captures the essence of longing and love. Sid Sriram's soulful voice, combined with Leon James's evocative composition, creates an unforgettable listening experience. This song is perfect for those moments when you reminisce about lost love and cherished memories.",
+    "stanzaMeanings": [
+      "",
+      "If you leave my shadow, I see my life breaking apart; I notice your waves coming into my heart.",
+      "I will live, I will never forget you, my love.",
+      "Have you disappeared? I search and search for you; have you disappeared? I search for you.",
+      "If I am with you, my life is complete.",
+      "Every direction I look, your love comes to me; I think time is passing.",
+      "In my eyes, I only search for your smile.",
+      "When I close my eyes, I get lost in your gaze.",
+      "Have you disappeared? I search and search for you; have you disappeared? I search for you.",
+      "If I am with you, my life is complete.",
+      "Have you disappeared? I search and search for you; have you disappeared? I search for you.",
+      "If I am with you, my search will be fulfilled.",
+      ""
+    ]
+  }
 }

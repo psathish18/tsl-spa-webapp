@@ -81,5 +81,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0wYHq4vyn-6O6-irVW1tJiycDewVWo-gkh4X2FKw5ZY4sYl3_CTdPyfMjNBCSDsgSGvBek8_aj0pMKWPzplNhyaxWm0pbgJc8t5KLxoqdq_23B6ibCSWe-7-kxAQ8cHklF9zTC1-dfiM/s400-c/Irudhi+Suttru.jpg",
   "generatedAt": "2026-01-18T12:52:47.682Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "irudhi suttru",
+      "dhee",
+      "vivek",
+      "santhosh narayanan",
+      "romantic",
+      "happy",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of love and joy, highlighting the beauty of a romantic relationship.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Irudhi Suttru</em>, the song reflects the protagonist's emotional journey and connection with their partner.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Dhee</strong> and composed by <strong>Santhosh Narayanan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 7, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>En Sirippu Udanju</strong>, the protagonist expresses their deep affection and joy in a romantic relationship. The song's upbeat tempo and lively lyrics create a celebratory atmosphere, making it a perfect fit for joyous occasions. It beautifully conveys the emotions of love and happiness, resonating with anyone who has experienced the thrill of romance. Overall, this track stands out for its catchy melody and heartfelt message.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>En Sirippu Udanju</strong> from the movie <em>Irudhi Suttru</em> is a delightful blend of vibrant melodies and heartfelt lyrics. Sung by the talented Dhee, this song captures the essence of joy and romance, making it a perfect listen for any celebration. With Santhosh Narayanan's unique musical touch and Vivek's clever lyrics, this track is sure to resonate with listeners.",
+    "stanzaMeanings": [
+      "You are the breath of my life, why do you make my heart restless and leave me in despair?",
+      "Don't hide your face from me, don't turn away without showing your true self.",
+      "Without seeing me, you don't care about my feelings; I came here without you asking me to.",
+      "When my smile fades, when will you come to take it back?",
+      "In your thoughts, my heart is lost; please bring it back to me a little.",
+      "I searched for you in the direction where my heart's fragrance blows.",
+      "In the tangled mess of love, I searched for you, I searched for you, I searched for you.",
+      "Don't hide your face from me, don't turn away without showing your true self.",
+      "Without seeing me, you don't care about my feelings; I came here without you asking me to.",
+      "When my smile fades, when will you come to take it back?",
+      "In your thoughts, my heart is lost; please bring it back to me a little.",
+      ""
+    ]
+  }
 }

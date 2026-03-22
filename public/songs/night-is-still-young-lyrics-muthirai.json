@@ -57,5 +57,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:15.351Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday",
+      "night drive"
+    ],
+    "keywords": [
+      "muthirai",
+      "night is still young",
+      "benny dayal",
+      "krish",
+      "preethi",
+      "yuvan",
+      "pa vijay",
+      "2009"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a sense of joy and celebration, emphasizing the excitement of youth and living in the moment.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Muthirai</em>, this song is a lively number that showcases the characters enjoying life and having fun, reflecting the film's upbeat tone.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features vocals by <strong>Benny Dayal</strong>, <strong>Krish</strong>, and <strong>Preethi</strong>, with music composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Night Is Still Young</strong> was released on <strong>May 11, 2009</strong>.</p></div></div>",
+    "summary": "In <strong>Night Is Still Young</strong>, the characters of <em>Muthirai</em> embrace the thrill of youth and the joy of living in the moment. The upbeat tempo and lively lyrics create an atmosphere of celebration and happiness, making it a perfect party anthem. The song captures the essence of carefree nights filled with laughter and excitement. With its catchy melody and vibrant energy, it evokes feelings of nostalgia and joy, inviting listeners to dance along.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Night Is Still Young</strong> from <em>Muthirai</em> is a vibrant celebration of life and joy, featuring an electrifying collaboration between Benny Dayal, Krish, and Preethi. With Yuvan's dynamic composition and Pa Vijay's catchy lyrics, this song perfectly captures the essence of youthful exuberance. Get ready to groove to the infectious beats that promise to keep the night alive!",
+    "stanzaMeanings": [
+      "",
+      "Silicon is moving around, tissues are getting tangled.",
+      "Both sunshine and rain are with me. Only fear and shame can be found outside.",
+      "Everywhere, there is joy... Right here, right now, there is excitement....",
+      "Night Is Still Young The Night Is Still Young The Night Is Still Young The Night Is Still Young.......... The Night Is Still Young The Night Is Still Young",
+      "In the heart, in the heart, if you touch the heart, it won't speak or see, but if you touch the life, it will respond.",
+      "Running, gathering, mixing, whatever is done, singing and dancing, this music is created.",
+      "Ah, one half is opened, the other half is forgotten....",
+      "Inside me, inside me, ohhh, ohhh, whatever it is, it is there, ohhh, ohhh.",
+      "",
+      "Silicon is moving around, tissues are getting tangled.",
+      "Both sunshine and rain are with me. Only fear and shame can be found outside.",
+      "30 30 30 30 30, it blooms, blooms, blooms, blooms, for everyone.",
+      "Whatever is taken, given, split, or broken, this is how it is for the eyes. It splits, it shakes, this is how it is for the heart.",
+      "For a love, what can I say to you? There is no shortage, it is just a small path. The beginning is far away, the beginning is also me.",
+      "Silicon is moving around, tissues are getting tangled.",
+      "Both sunshine and rain are with me. Only fear and shame can be found outside.",
+      "Everywhere, there is joy... Right here, right now, there is excitement....",
+      "Night Is Still Young The Night Is Still Young The Night Is Still Young The Night Is Still Young.......... The Night Is Still Young The Night Is Still Young"
+    ]
+  }
 }

@@ -67,5 +67,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnsH8zQu7ewEPKM19Dxzxkm2ePCz6Lw-j0NzfeQQGeU6Y6FTr2qdTbuQa1AtAnqLFWgtzFERFI8P2uyap90k4bpZCWMYa8i5nogx3hsMc5fNA5IWmesHWY0PTyaF-vhyphenhyphen90mogcgFpRbOBFSCvNxDwtW1IjZPfpUgjh9O4lFfeR_8AfZOygpKoJVA3H1g/s400-c/24762.jpg",
   "generatedAt": "2026-02-12T08:10:47.222Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "youth",
+      "ken karunaas",
+      "gv prakash kumar",
+      "upbeat",
+      "dance number",
+      "2026",
+      "tamil song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Mutta Kalakki'?</h4><p>'Mutta Kalakki' is a lively song that celebrates youth and the joy of living, filled with playful lyrics and energetic beats.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Youth'?</h4><p>In <em>Youth</em>, this song reflects the carefree spirit of the characters as they navigate through their vibrant lives and relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Ken Karunaas</strong> and composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Mutta Kalakki' released?</h4><p>'Mutta Kalakki' was released on <strong>February 12, 2026</strong>.</p></div></div>",
+    "summary": "In 'Mutta Kalakki', the exuberance of youth is vividly portrayed through lively lyrics and an upbeat melody. The song captures the carefree spirit of the characters in <em>Youth</em>, celebrating their adventures and the joy of living. With its infectious rhythm, it evokes feelings of happiness and energy, making it perfect for parties and celebrations. This track is a testament to the vibrant essence of youth and the thrill of life.",
+    "releaseYear": "2026",
+    "high_ctr_intro": "<strong>Mutta Kalakki</strong> from <em>Youth</em> is a vibrant anthem that perfectly captures the essence of youthful exuberance. With Ken Karunaas's dynamic vocals and GV Prakash Kumar's infectious beats, this track is sure to get you on your feet. Dive into a world of fun and energy with this catchy tune that celebrates life and joy!",
+    "stanzaMeanings": [
+      "Hey, you are like a super salon, cooling like a watermelon. You are my beauty, my body is yours. Because of you, my life is enjoyable.",
+      "In my dreams at night, I think about you. I studied your face, and it makes me smile. No one else can make me cry like you do.",
+      "You are the one who makes my heart flutter. You are my joy, my beautiful one. It's hard to let you go, and I feel lost without you.",
+      "My heart is completely yours. I have changed because of you. I can't move on without you. Just say okay, and I will follow you.",
+      "Is this a new feeling that has come? Is my heart healing because of your smile? Is love calling me? What should I do with my left hand?",
+      "You are the one who makes my heart flutter. You are my joy, my beautiful one. It's hard to let you go, and I feel lost without you."
+    ]
+  }
 }

@@ -52,5 +52,43 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:06.986Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "theneer viduthi",
+      "mellanna siripalo",
+      "kousik",
+      "mirudula",
+      "murugan manthiram",
+      "ss kumaran",
+      "romantic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Mellanna Siripalo</strong>?</h4><p>The song <strong>Mellanna Siripalo</strong> expresses deep romantic feelings and the beauty of love, capturing the emotions of longing and connection.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie <em>Theneer Viduthi</em>?</h4><p>In <em>Theneer Viduthi</em>, the song plays during a pivotal moment that highlights the romantic relationship between the lead characters, enhancing the emotional depth of the narrative.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Mellanna Siripalo</strong>?</h4><p>The song is beautifully rendered by singers <strong>Kousik</strong> and <strong>Mirudula</strong>, whose voices complement each other perfectly.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Mellanna Siripalo</strong>?</h4><p>The music for <strong>Mellanna Siripalo</strong> was composed by <strong>SS Kumaran</strong>, known for his melodious tunes and engaging compositions.</p></div><div class=\"faq-item\"><h4>When was <strong>Mellanna Siripalo</strong> released?</h4><p>The song was released on <strong>February 19, 2011</strong>, as part of the <em>Theneer Viduthi</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Mellanna Siripalo</strong>, the romantic duet unfolds a tender narrative of love and longing, perfectly encapsulating the emotions of the lead characters in <em>Theneer Viduthi</em>. The soothing melody, crafted by <strong>SS Kumaran</strong>, enhances the heartfelt lyrics penned by <strong>Murugan Manthiram</strong>. As Kousik and Mirudula's voices intertwine, the song evokes a sense of nostalgia and warmth, making it a perfect fit for romantic occasions. This enchanting piece resonates with anyone who has experienced the beauty of love.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Mellanna Siripalo</strong> from the <em>Theneer Viduthi</em> movie is a captivating duet that beautifully captures the essence of romance. With the enchanting voices of Kousik and Mirudula, this song weaves a soothing melody that resonates with love and longing. Experience the magic of <strong>Mellanna Siripalo</strong> as it takes you on an emotional journey through its heartfelt lyrics and mesmerizing composition.",
+    "stanzaMeanings": [
+      "Mellanna Siripalo, in a beautiful way, my eyes are filled with joy. When they fall into my eyes, my heart desires something.",
+      "Mellanna Siripalo, in a beautiful way, my eyes are filled with joy.",
+      "The person who is not good at anything, just say three times and let it go...",
+      "Oh, what is this, you have gently touched my heart. Like a flame, you have come into my life. If the one who created you comes, I will thank him a thousand times. Without a reason, you have done something, and you have come to me. Beautiful girl, I have surrendered to you.",
+      "Mellanna Siripalo, in a beautiful way, my eyes are filled with joy. When they fall into my eyes, my heart desires something."
+    ]
+  }
 }

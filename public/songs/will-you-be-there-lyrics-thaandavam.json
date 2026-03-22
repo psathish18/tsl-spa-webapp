@@ -130,5 +130,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQw-uUIYK5yoziyPBadInVIlXf8EKMTwSf5LlfBNYI9ZWoqxylVJPydPBPC92diUdw9BJInxlagBkBdbpu5qpQOZU2nt4VfMNcrS5sFBJbpy41IWpQW51HIj_UNUHwCD_XdCbB-RD1vxc/s400-c/Thaandavam+Songs+Lyrics1.jpg",
   "generatedAt": "2026-01-18T13:06:34.279Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "thandavam",
+      "will you be there",
+      "alyssa",
+      "nithya maria",
+      "na muthukumar",
+      "gv prakashkumar",
+      "romantic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses a deep yearning for a loved one, asking if they will be there in times of need.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <strong>Thandavam</strong>, the song reflects the emotional struggles of the characters, highlighting themes of love and longing.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Alyssa</strong> and <strong>Nithya Maria</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Will You Be There</strong> was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>August 17, 2012</strong>.</p></div></div>",
+    "summary": "In <strong>Will You Be There</strong>, the heartfelt lyrics convey a deep sense of longing and emotional connection between lovers. The song serves as a poignant reminder of the need for companionship during challenging times. With its soothing melody and beautiful vocal performances, it evokes feelings of nostalgia and love. This track perfectly encapsulates the romantic essence of <em>Thandavam</em>, making it a memorable addition to Tamil cinema's musical landscape.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Will You Be There</strong> from <em>Thandavam</em> is a mesmerizing duet that beautifully captures the essence of longing and love. With the enchanting voices of Alyssa and Nithya Maria, paired with GV Prakash Kumar's soulful composition, this song resonates deeply with anyone who has ever yearned for a loved one. Experience the emotional depth and lyrical beauty that makes this track a standout in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "Will you be there when I need you? Will you be there when I want you? Oh, will you be there? I can feel you. Oh, will you be there? I love you.",
+      "Because of you, I have become beautiful; I have become a woman near you. Oh, in your smile, I have become something else.",
+      "This is not a big deal, who gave this to you?",
+      "What has happened is just a unique thought; will it happen again?",
+      "What has happened is just a unique thought; will it happen again?",
+      "When my hand touches your hand, it feels like we are one, hey...",
+      "Will you be there when I need you? Will you be there when I want you? Oh, will you be there? I can feel you. Oh, will you be there? I love you.",
+      "I want you, I want you. In love, I feel happiness. I lose myself in you every day.",
+      "In my thoughts, your fragrance comes and fills the air...",
+      "Will you be there when I need you? Will you be there when I want you? Oh, will you be there? I can feel you. Oh, will you be there? I love you.",
+      "Because of you, I have become beautiful; I have become a woman near you. Oh, in your smile, I have become something else."
+    ]
+  }
 }

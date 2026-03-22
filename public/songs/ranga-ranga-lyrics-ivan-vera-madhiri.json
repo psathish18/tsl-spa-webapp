@@ -73,5 +73,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMoaxRke_cxSerJLmfN_fWUrgIhHBxfEZ5bzEZDwxGqtqYIZTzCvJrGVbjUy5a5dn38GeObbMhOpFVARIicQeHy5E9r4sWHE43JFvdeb2yz1OtDEdGdJJLHHnujANF3GUou_lCrOP-3TM/s400-c/ivan+vera+madhiri.jpg",
   "generatedAt": "2026-02-01T13:17:44.941Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "ivan vera madhiri",
+      "ranga ranga",
+      "rita",
+      "mani amuthavan",
+      "sathya c",
+      "upbeat",
+      "dance number",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Ranga Ranga'?</h4><p>The song 'Ranga Ranga' conveys a sense of joy and celebration, reflecting the carefree spirit of youth.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Ivan Vera Madhiri'?</h4><p>'Ivan Vera Madhiri' revolves around themes of love and friendship, showcasing the ups and downs of relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Rita</strong> and composed by <strong>Sathya C</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Ranga Ranga' released?</h4><p>'Ranga Ranga' was released on <strong>November 9, 2013</strong>.</p></div></div>",
+    "summary": "In 'Ranga Ranga', the lively beats and catchy lyrics encapsulate the carefree moments of youth and celebration. The song plays a pivotal role in the movie <em>Ivan Vera Madhiri</em>, highlighting the joy and camaraderie among friends. With its upbeat tempo, it evokes feelings of happiness and excitement, making it a perfect anthem for parties and celebrations. Rita's energetic vocals combined with Sathya C's vibrant music create an unforgettable listening experience.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Ranga Ranga</strong> from <em>Ivan Vera Madhiri</em> is a vibrant and energetic track that perfectly captures the essence of youthful exuberance. With Rita's captivating vocals and Sathya C's infectious beats, this song is sure to get you moving. Dive into the lively world of this song that celebrates fun and friendship!",
+    "stanzaMeanings": [
+      "",
+      "Hey, hey, hey, where is the fun? Where is the tension? Standing here, feeling it all.",
+      "Our mom scolded him, he went somewhere. He has left us with a stomach ache.",
+      "Oh fun, fun, fun... hey fun, fun, fun... ah ring, ring, ring...",
+      "My pain, my bad pain, many boys have come and gone. What will happen to me? Who else will come?",
+      "What do I need? Is it here? Is it somewhere else?",
+      "Little boy, little boy - show me in my eyes, who is he? I am standing here, looking around with my friends.",
+      "I am vegetarian, not non-vegetarian. Don't scold me for asking about food. My mom is vegetarian, or else I would have had fish fritters.",
+      "In the sunlight, I am looking at the shadows, your eyes are like fish, a little strange.",
+      "Looking at the lamp, I see the dog, and if I look at the house, everything has changed. My life has changed, my situation has changed.",
+      "fun fun... ring ring..."
+    ]
+  }
 }

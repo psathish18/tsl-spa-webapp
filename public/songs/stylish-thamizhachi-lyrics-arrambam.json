@@ -86,5 +86,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB4HaxE0Uoe3e_bOkRpXZ8ZEBTA1SS-R3gqVOVuBAN3wsKNlSLP0tDxnh_zmv0qZwHpXA7-S8-c_cB1MeENyxco2oMROeDtkSMyTKbuEqiMp_XHLxaWdH9vDF9im-eIfgR90JaWXHP1CA/s400-c/arrambam.jpg",
   "generatedAt": "2026-02-01T14:33:55.663Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "arrambam",
+      "stylish thamizhachi",
+      "yuvan",
+      "manasi mm",
+      "psycho unit",
+      "rubba bend",
+      "energetic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Stylish Thamizhachi?</h4><p>The song celebrates the vibrant and stylish essence of Tamil culture, showcasing a lively and energetic vibe.</p></div><div class=\"faq-item\"><h4>How does Stylish Thamizhachi fit into the plot of Arrambam?</h4><p>This song adds a fun and celebratory element to the movie, highlighting the youthful spirit of the characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of Stylish Thamizhachi?</h4><p>The song features the voices of Manasi MM, Psycho Unit, and Rubba Bend.</p></div><div class=\"faq-item\"><h4>Who is the music director for this song?</h4><p>The music for Stylish Thamizhachi is composed by the talented Yuvan.</p></div><div class=\"faq-item\"><h4>When was Stylish Thamizhachi released?</h4><p>The song was released on September 18, 2013.</p></div></div>",
+    "summary": "In <strong>Stylish Thamizhachi</strong>, the vibrant energy of Tamil culture is brought to life through catchy beats and lively lyrics. The song serves as a celebration of youth and style, perfectly fitting the festive moments in <em>Arrambam</em>. It evokes feelings of joy and excitement, making it an ideal anthem for parties and celebrations. The collaboration between the talented singers and Yuvan's music creates an unforgettable listening experience.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Stylish Thamizhachi</strong> from <em>Arrambam</em> is a vibrant celebration of Tamil culture, blending catchy beats with lively lyrics. This unique collaboration features the dynamic voices of Manasi MM, Psycho Unit, and Rubba Bend, all under the masterful direction of Yuvan. Get ready to groove to this energetic anthem that perfectly captures the spirit of modern Tamil youth!",
+    "stanzaMeanings": [
+      "Stylish Tamil girl, in the dark, English Tamil style, with a Spanish color, girl, the wine is dripping like honey.",
+      "The fierce Tamil girl surrounds you like a dark curtain, I have placed some pearls in the light, I will touch you, it will be amazing, your height.",
+      "No one is above me, I cannot be stopped, in this world, I am the highest, I am the superstar, you know I will be rocking, I will come and shine.",
+      "",
+      ""
+    ]
+  }
 }

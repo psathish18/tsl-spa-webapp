@@ -33,5 +33,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5k2xXvtZ4gGbvkkZDbylBdNng7aD8k66Dexg5-z58iy6FShUKa4kaxG5YFeMEJRphrdN8oMb4vuq_SMSluyA-EDOxRzZcmWzOGd9BEJftZF6HjocDDcNOUe90nA_haBP3o0emvu3vOgc/s400-c/Oru+Paarvayil+Poo+Koduthai+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:13:29.378Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "siva manasula sakthi",
+      "orupaarvaiyilpoo",
+      "ranjith",
+      "yuvan",
+      "romantic",
+      "2009",
+      "tamil",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep romantic feelings and the beauty of love, portraying how love transforms one's life.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <strong>Siva Manasula Sakthi</strong>, the song highlights the protagonist's emotional connection with his love interest, enhancing the romantic narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Ranjith</strong> and composed by <strong>Yuvan Shankar Raja</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>February 13, 2009</strong>, coinciding with the romantic vibes of Valentine's season.</p></div></div>",
+    "summary": "In <strong>Oru Paarvaiyil Poo</strong>, the protagonist expresses his profound love and admiration for his partner, encapsulating the essence of romance. The song's soothing melody, paired with heartfelt lyrics, evokes a sense of nostalgia and warmth. It serves as a backdrop to pivotal moments in <em>Siva Manasula Sakthi</em>, enhancing the emotional depth of the narrative. Overall, the track beautifully conveys the transformative power of love.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Oru Paarvaiyil Poo</strong> from the film <em>Siva Manasula Sakthi</em> is a melodious romantic track that beautifully captures the essence of love. With Ranjith's soulful vocals and Yuvan's enchanting composition, this song resonates with anyone who has experienced the magic of romance. Dive into the heartfelt lyrics and let the soothing melody take you on a nostalgic journey.",
+    "stanzaMeanings": [
+      "",
+      "You gave me a flower in one glance, with one word you made my life beautiful, like a cloud you changed my world.",
+      "Like a shadow, I am rushing in the sky, I am calling out to you, while I see you from a distance, I am jumping with joy.",
+      "You are my life, and I am your life, at the moment when our hearts connect.",
+      "All the dreams I see are the dreams you see, we need to come together and look as one.",
+      "When you look at me, life begins to bloom with joy.",
+      "Completely, because of you, something will happen inside me."
+    ]
+  }
 }

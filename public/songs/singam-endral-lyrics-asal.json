@@ -52,5 +52,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:32.934Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "theme"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "workout"
+    ],
+    "keywords": [
+      "asal",
+      "singam endral",
+      "bharadwaj",
+      "energetic",
+      "motivational",
+      "tamil song",
+      "2010",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Singam Endral'?</h4><p>The song conveys themes of strength and pride, emphasizing the importance of one's roots and heritage.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Asal'?</h4><p>In <em>Asal</em>, the song highlights the protagonist's journey and his connection to his family and values.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Singam Endral'?</h4><p>The song is sung and composed by <strong>Bharadwaj</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Singam Endral' released?</h4><p>'Singam Endral' was released on <strong>February 5, 2010</strong>.</p></div></div>",
+    "summary": "In 'Singam Endral', Bharadwaj delivers a powerful performance that encapsulates the essence of strength and pride. The song serves as a motivational anthem, encouraging listeners to embrace their roots and heritage. Its energetic beats and uplifting lyrics make it a perfect fit for celebratory occasions. The song resonates deeply with the protagonist's journey in the movie, making it a memorable highlight of <em>Asal</em>.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Singam Endral</strong> from the movie <em>Asal</em> is a powerful anthem that resonates with strength and determination. Bharadwaj's dynamic vocals combined with his own vibrant music composition create an unforgettable listening experience. This song is perfect for anyone looking to boost their energy and motivation!",
+    "stanzaMeanings": [
+      "",
+      "The lion is my father. The wealth is my father.",
+      "If you sleep with your eyes closed, my father is my father.",
+      "He is the one who is respected by everyone.",
+      "He plays in the eyes of those who seek the skies, as he speaks.",
+      "Our group will bear his victory. If he is named, you will be at peace.",
+      "My father, who holds an unending life, you are always my mother.",
+      "He is called the son of bravery. He is said to walk with pride.",
+      "He is called a true man. They say you are the truth.",
+      "Some like you may take shape, but will your body be able to handle the desire?",
+      "Always, your army is unyielding. Whether you are here or there, you are the elephant.",
+      "Eyes are like kings, and the art is a form. Your fame is what brings wealth across the sea.",
+      "Even if the head is bowed, your words are the mantra that calls father, and they are my breath.",
+      "The lion is my father. The wealth is my father.",
+      "If you sleep with your eyes closed, my father is my father.",
+      "He is the one who is respected by everyone."
+    ]
+  }
 }

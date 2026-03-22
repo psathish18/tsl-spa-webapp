@@ -89,5 +89,62 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXoLJ9vgJbjujFIdUpZAroGN_0VG_9ZsKOFwBnpksMU6c4u2RIvLCdCqDzYU5of4ttXV9NUuK4DI2MYQ0GSqMWaTO2ZN-8EW0t1ObUKtvXnpl7toJvTTTFDwtfjmEmoGSHnC94N1UAPJg/s400-c/kappal+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:56:57.535Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "kappal",
+      "oru cup acid",
+      "deepak",
+      "karky",
+      "natarajan sankaran",
+      "upbeat",
+      "dance",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Cup Acid</strong>, the lyrics playfully explore themes of friendship and carefree moments, making it a perfect fit for celebratory occasions. The upbeat tempo and catchy melody evoke feelings of joy and excitement, resonating with the youthful spirit depicted in <em>Kappal</em>. As the characters indulge in light-hearted banter, the song encapsulates the essence of fun and camaraderie, inviting listeners to join in the revelry.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Oru Cup Acid</strong> from the movie <em>Kappal</em> is a vibrant anthem that perfectly captures the essence of youthful exuberance. With Deepak's lively vocals and Natarajan Sankaran's catchy composition, this song is bound to get you on your feet. Dive into the fun and frolic of this energetic track that celebrates friendship and joy!",
+    "stanzaMeanings": [
+      "",
+      "Is love just loneliness or is it happiness?",
+      "Are you drinking a cup of acid with ice?",
+      "Are you going to put your head on a transformer?",
+      "If you say it's a goat, will you be found in a money shop?",
+      "When love comes, life becomes a mess.",
+      "The love that has caught me is like a white elephant with wings.",
+      "The love that has captured me is like a cloud in a flower.",
+      "If you ask me why love, what is my breath, my friend?",
+      "Isn't it enough to just show love?",
+      "When love comes, life becomes a mess.",
+      "Did you ask me how I am, while lying in the bed?",
+      "Did you crush me like a road roller?",
+      "Did you buy a first-day, first-show ticket with a beep for the movie?",
+      "When love comes, life becomes a mess.",
+      "If there is no sky, there is no life.",
+      "If there is no love, there is no Tamil cinema.",
+      "If love is like broccoli, will it turn into a rose?",
+      "If love is like a bitter gourd, it will make you cry!",
+      "When love comes, life becomes a mess.",
+      "Are you drinking a cup of acid with ice?",
+      "Are you going to put your head on a transformer?",
+      "If you say it's a goat, will you be found in a money shop?",
+      "When love comes, life becomes a mess.",
+      ""
+    ]
+  }
 }

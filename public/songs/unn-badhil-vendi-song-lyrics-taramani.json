@@ -100,5 +100,56 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLsi8FgWcSHiLffiwQ9wDw-Hxch-3LrENNnclaldUGAdeRvzDAzfNgz2nlhmqXuf5oit3MwtOoAIPj4rGJR-ejEhxg11mYNEcEd6nJ_M2nrG5_3xeocrKMLqsFHv4EJPC62_BTCgVoTm4/s400-c/Taramani+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:47:53.789Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "taramani",
+      "unn badhil vendi",
+      "sruthi s",
+      "yuvan",
+      "na muthukumar",
+      "romantic",
+      "melancholic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Unn Badhil Vendi</strong>, the characters express their deep yearning for each other, reflecting the complexities of love and desire. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect fit for romantic moments. Set against the backdrop of <em>Taramani</em>, it enhances the emotional depth of the storyline, capturing the essence of relationships. The collaboration between Sruthi S and Yuvan adds a unique charm, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Unn Badhil Vendi</strong> from <em>Taramani</em> is a mesmerizing duet that beautifully captures the essence of longing and love. With the enchanting voices of Sruthi S and Yuvan, this song takes you on an emotional journey that resonates deeply. The lyrical brilliance of Na Muthukumar combined with Yuvan's soulful composition makes this track a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "Am I waiting with my thoughts, seeking your response?",
+      "Is it my fate to be lost in your gaze?",
+      "You come into my life like a shadow, and I ask you to show me the way.",
+      "You say it's enough to end the silence, but you keep flowing like a river.",
+      "For you, I will cross the sea and bring rain from the mountains.",
+      "I will weave a smile from the ocean's blue and my breath.",
+      "You tell stories that no one believes, but I will make them real, my dear.",
+      "Let's not look at a world where no one exists; we will live in the sky.",
+      "You come into my life like a shadow, and I ask you to show me the way.",
+      "You say it's enough to end the silence, but you keep flowing like a river.",
+      "In the wind that is coming, you have changed my path and created illusions.",
+      "Let go of everything you see ahead; what is true is what you hold in your hands.",
+      "Today, I went to search for fish in the water, like a fish searching for water.",
+      "You came here saying there are no flaws, and even the moon has its scars.",
+      "You come into my life like a shadow, and I ask you to show me the way.",
+      "On a day that will never dawn, you come like light in my sky, my life."
+    ]
+  }
 }

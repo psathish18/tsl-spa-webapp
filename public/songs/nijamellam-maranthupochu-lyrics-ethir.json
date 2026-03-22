@@ -92,5 +92,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrPXYhX6HqB3mG3oN7kSf_LwB9inoY4HuZmRfJTmCKUcKxShZttBwGtC0X4IbfWnGGMvMvQpH91RtK2pwSuqe5MWe91dleomvzKLa6cXBxeYeELW90YUVHNSq5uN0s6LV_X1fCZQQX-6Q/s400-c/ethir-neechal.jpg",
   "generatedAt": "2026-01-18T13:04:50.888Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "ethir neechal",
+      "nijamellam maranthupochu",
+      "anirudh",
+      "dhanush",
+      "lyrics",
+      "music",
+      "melancholic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nijamellam Maranthupochu'?</h4><p>The song reflects feelings of lost love and nostalgia, expressing how memories fade away.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Ethir Neechal'?</h4><p>In the movie, this song highlights the protagonist's emotional turmoil after a breakup.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The song features vocals by <strong>Anirudh</strong> and <strong>Dhanush</strong>, with lyrics penned by <strong>Dhanush</strong> himself.</p></div><div class=\"faq-item\"><h4>When was 'Nijamellam Maranthupochu' released?</h4><p>The song was released on <strong>December 30, 2012</strong>.</p></div></div>",
+    "summary": "In <strong>Nijamellam Maranthupochu</strong>, the emotional weight of lost love is poignantly conveyed through the heartfelt lyrics and melody. The song serves as a reflection of the protagonist's inner struggles and memories associated with a past relationship. With Dhanush's evocative singing and Anirudh's masterful composition, it evokes a sense of melancholy and nostalgia. This track beautifully encapsulates the theme of heartbreak, making it relatable to anyone who has faced similar emotions.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Nijamellam Maranthupochu</strong> from <em>Ethir Neechal</em> is a poignant duet that beautifully captures the essence of lost love. With Anirudh's soulful composition and Dhanush's heartfelt vocals, this track resonates deeply with anyone who has experienced heartbreak. The collaboration between these two musical talents creates a captivating atmosphere that lingers long after the song ends.",
+    "stanzaMeanings": [
+      "",
+      "Everything has been forgotten, girl, all my thoughts about you have become dreams. Girl, because of you, because of you.",
+      "Hey, if you don't look, it's enough. You can't bear the sights. You can't handle the thoughts. It's enough, it's enough... go.",
+      "don't give it.. don't give it.... don't give it...",
+      "Everyone is united, but I am alone! Is there something in my heart? Can't my thoughts come together? My home can't bear the weight of my thoughts? Whether it's good or bad, my heart can't take it?",
+      "The housefly is buzzing around, without understanding the situation, it flies away crying.",
+      "If you don't look, it's enough. You can't bear the sights. You can't handle the thoughts. It's enough, it's enough...",
+      "Everything has been forgotten, all my thoughts about you have become dreams. Because of you, girl...",
+      "don't give it.. don't give it.... don't give it..."
+    ]
+  }
 }

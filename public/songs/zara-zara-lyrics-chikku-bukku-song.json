@@ -35,5 +35,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:03.018Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "chikku bukku",
+      "zara zara",
+      "benny dayal",
+      "lavanya",
+      "pa vijay",
+      "pravin mani",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Zara Zara'?</h4><p>The song 'Zara Zara' expresses the feelings of love and affection, capturing the essence of romantic moments.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Chikku Bukku'?</h4><p>In <em>Chikku Bukku</em>, 'Zara Zara' plays during a romantic sequence, highlighting the chemistry between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Zara Zara'?</h4><p>The song is sung by <strong>Benny Dayal</strong> and <strong>Lavanya</strong>, whose voices blend beautifully to create a captivating duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Zara Zara'?</h4><p>The music for 'Zara Zara' was composed by <strong>Pravin Mani</strong>, known for his catchy and melodious tunes.</p></div><div class=\"faq-item\"><h4>When was 'Zara Zara' released?</h4><p>'Zara Zara' was released on <strong>August 18, 2010</strong>, as part of the <em>Chikku Bukku</em> soundtrack.</p></div></div>",
+    "summary": "In 'Zara Zara' from the movie <em>Chikku Bukku</em>, the vibrant energy of love is beautifully encapsulated through its catchy melody and heartfelt lyrics. The song showcases the blossoming romance between the lead characters, evoking feelings of joy and celebration. With its upbeat tempo and engaging vocals, it resonates with anyone who has experienced the thrill of love. This duet not only highlights the chemistry between the singers but also enhances the overall narrative of the film.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Zara Zara</strong> from the movie <em>Chikku Bukku</em> is a delightful romantic duet that captures the essence of love and joy. With the enchanting voices of Benny Dayal and Lavanya, this song radiates an upbeat vibe that makes it perfect for celebrations. The collaboration of Pa Vijay's lyrics and Pravin Mani's music creates a memorable experience that resonates with listeners.",
+    "stanzaMeanings": [
+      "",
+      "Wherever I go, I feel a little bit. Without any reason, I feel a little bit. I am flying, flying. I am getting lost a little bit. Oh, oh, I feel a little bit... (2 times)",
+      "Your touch makes me feel alive. Let’s go anywhere together. Let’s talk about our journeys. We need to continue this connection. I will ask for a hundred blessings to come down on you.",
+      "",
+      "In my dreams, your eyes come and meet me. In my solitude, your memories surround me.",
+      "There is no place like this earth and sky for us. My heart is newly awakened, nothing else matters now, it’s beautiful... Heyyyyyyyyyyi..",
+      "zara zara .. zara zara .. zara zara .. zara zara .."
+    ]
+  }
 }

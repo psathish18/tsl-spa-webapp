@@ -47,5 +47,60 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:49.189Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "muthal mariyathai",
+      "s janaki",
+      "ilaiyaraaja",
+      "romantic",
+      "melancholic",
+      "1985",
+      "tamil song",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, portraying the emotional connection between lovers.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Muthal Mariyathai</em>, the song reflects the protagonist's feelings towards their beloved, enhancing the romantic narrative of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>S Janaki</strong> and composed by <strong>Ilaiyaraaja</strong>, both legends in Tamil music.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Raasave Unna Nambi</strong> was released on <strong>August 15, 1985</strong>.</p></div></div>",
+    "summary": "In <strong>Raasave Unna Nambi</strong>, the listener is taken on an emotional journey through the lens of love and yearning. The song's soothing melody and poignant lyrics reflect the deep connection between the characters in <em>Muthal Mariyathai</em>. It evokes feelings of nostalgia and romance, making it a perfect choice for intimate moments. The heartfelt delivery by S Janaki, combined with Ilaiyaraaja's masterful composition, ensures this classic remains etched in the hearts of many.",
+    "releaseYear": "1985",
+    "high_ctr_intro": "<strong>Raasave Unna Nambi</strong> is a timeless melody that beautifully captures the essence of love and longing. With <em>Muthal Mariyathai</em> as its backdrop, this song showcases the enchanting vocals of S Janaki, paired with the masterful composition of Ilaiyaraaja. Dive into the emotional depths of this classic that resonates with every heart yearning for connection.",
+    "stanzaMeanings": [
+      "I trust you, my dear, this rose flower is here.",
+      "You said a word, it has come to life and is stirring.",
+      "The bond that comes without saying, it grows with the heart, is it not a mistake to write in water?",
+      "I trust you, my dear..",
+      "The heart of a sinner beats like a palasa tree.",
+      "You and I together, the town is singing a song.",
+      "Oh, for me, you are a rare treasure, oh king, you have crowned me.",
+      "If chaos comes, look, the moon is still big.",
+      "Oh, even in the madness, you are a brave warrior..",
+      "I trust you, my dear..",
+      "In the story, the fish is caught, in the eyes, it is poking and poking..",
+      "Like a thorn in the flower, my heart is spinning and spinning..",
+      "The season has changed, the rain has fallen, without knowing the reason, the heart has become entangled.",
+      "I have kept a nose for you, why has this fate come?",
+      "Oh, the eye is not a mouth, speaking within the town..",
+      "I trust you, my dear, this rose flower is here.",
+      "You said a word, it has come to life and is stirring.",
+      "The bond that comes without saying, it grows with the heart, is it not a mistake to write in water?",
+      "Dear..",
+      ""
+    ]
+  }
 }

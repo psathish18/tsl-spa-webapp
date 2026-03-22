@@ -76,5 +76,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpdw15qIp6xVlP183t7WnslKDKXYdDP-wwP2C9bqPhMJJe2REIN7OMHyTwHAYgc6LFXOm0qGqYGc6eNwAmqjnPQFIqh4K26n0ZxLKynOkHVSPw7sXoz92qCRB9sUunGY2pciY3jglDY8Q/s400-c/deiva-thirumagan-poster-2.jpg",
   "generatedAt": "2026-02-01T14:34:41.165Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "deiva thirumagal",
+      "gv prakash kumar",
+      "na muthukumar",
+      "romantic",
+      "melancholic",
+      "soothing",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, highlighting the significance of a beloved in one's life.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie?</h4><p>In <em>Deiva Thirumagal</em>, this song reflects the protagonist's feelings towards his love interest, enhancing the emotional depth of the narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>GV Prakash Kumar</strong>, who is also the <strong>music director</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 16, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Vennilave Vennilave</strong>, the listener is taken on a heartfelt journey through the emotions of love and yearning. The song beautifully encapsulates the protagonist's feelings as he reflects on the significance of his beloved in his life. With its soothing melody and poignant lyrics, it evokes a sense of nostalgia and romance. This track stands out as a memorable piece in the soundtrack of <em>Deiva Thirumagal</em>, resonating with anyone who has experienced love.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Vennilave Vennilave</strong> from <em>Deiva Thirumagal</em> is a mesmerizing melody that captures the essence of love and longing. With GV Prakash Kumar's soulful voice and Na Muthukumar's poignant lyrics, this song resonates deeply with anyone who has experienced the beauty of romance. Dive into this enchanting track that beautifully blends emotion and artistry, making it a must-listen for every music lover.",
+    "stanzaMeanings": [
+      "",
+      "Vennilave Vennilave, I am searching for you today in the moonlight. When you sleep in my dreams, your beautiful image fills my eyes with tears. Without you, there is no life, and without life, there is nothing. Because of you, my heart is alive and true. I think of you, I sing for you. I seek your presence in the air.",
+      "Vennilave Vennilave, I am searching for you today in the moonlight. Where are you, where are you? My eyes are searching for you everywhere. My love, I have understood your love. Day and night, I am longing to see you. I am searching for you everywhere, in every place. Life has no meaning here without you.",
+      "",
+      ""
+    ]
+  }
 }

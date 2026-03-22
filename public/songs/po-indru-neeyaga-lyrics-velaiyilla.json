@@ -125,5 +125,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirE44crBFQoL1GA5MF2YUA_WimUVhxpPQk_Xus0BYiK7Xxt8q4EMJVdc8rlzLcdO02iblyiA2BIWMuJJ3hgoUEzOHT0iweNgUNvsTfJxap92MEjSHiE-mKEHK4ZUQwJSaL7tfXYbNHSj8/s400-c/velaiyilla+pattathari.jpg",
   "generatedAt": "2026-01-18T13:00:40.648Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "velaiyilla pattathari",
+      "dhanush",
+      "anirudh",
+      "romantic",
+      "happy",
+      "2014",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Po Indru Neeyaga</strong> expresses the feelings of love and connection between two individuals, highlighting the beauty of togetherness.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Velaiyilla Pattathari</em>, the song plays during a pivotal moment that showcases the protagonist's romantic feelings, enhancing the emotional depth of the narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Dhanush</strong> and composed by <strong>Anirudh</strong>, both of whom are renowned figures in the Tamil music industry.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Po Indru Neeyaga</strong> was released on <strong>February 12, 2014</strong>, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "In <strong>Po Indru Neeyaga</strong>, Dhanush's enchanting voice brings to life the emotions of love and affection, making it a standout track in <em>Velaiyilla Pattathari</em>. The song beautifully conveys the joy and excitement of being in love, with lyrics that resonate deeply with listeners. Set against the backdrop of the film's romantic narrative, it enhances the connection between the characters. The upbeat melody and heartfelt lyrics evoke a sense of happiness, making it perfect for celebrations and romantic occasions.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Po Indru Neeyaga</strong> from <em>Velaiyilla Pattathari</em> is a delightful romantic number that captures the essence of love and longing. With Dhanush's soulful vocals and Anirudh's captivating music, this song is sure to resonate with anyone who's ever been in love. Experience the magic of this unique collaboration that brings together heartfelt lyrics and an infectious melody.",
+    "stanzaMeanings": [
+      "Go today as you are - The Love of Raghuvaran. Go today, tomorrow we will be together. Without seeing you, I can't say anything, I can't be with you, everything is a mess.",
+      "",
+      "Go today as you are, tomorrow we will be together.",
+      "Being alone has turned into anger. Because you came, my sorrow has gone away.",
+      "The big mustache has gone, the hot mustache has come. Your presence has caused a flood of emotions. When you speak softly, I feel good, I listen happily.",
+      "Your beauty is like a sight for us, it brings joy. la la la la... oh oh oh . mmmmmm ha ra ra ra ye.. la la la la... la oh oh oh . my heart mmmmmm girl ra ra ra ye..",
+      "Go today as you are, tomorrow we will be together. Without seeing you, I can't say anything, I can't be with you, everything is a mess. la la la..."
+    ]
+  }
 }

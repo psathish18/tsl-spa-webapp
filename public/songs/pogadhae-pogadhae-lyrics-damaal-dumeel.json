@@ -57,5 +57,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6e8R7YKDG55t5Hc5mBYRlxNxSZGkIEpWxtRvalxvRYhHJijJTfJ_uAf3ZuEDKk-bv6tFjPnuNSEHHFVNRv_auecBTiFkLkhknhxMUfnC7tiDppy7_JOT8AGG9qTTGEqowF7mMlcHUwCU/s400-c/damaal-dumeel-.jpg",
   "generatedAt": "2026-01-18T13:00:23.234Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "damaal dumeel",
+      "pogadhae pogadhae",
+      "ramya nambeesan",
+      "thamarai",
+      "thaman s",
+      "romantic",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Pogadhae Pogadhae</strong>?</h4><p>The song expresses deep feelings of love and longing, highlighting the emotional turmoil of separation.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in <strong>Damaal Dumeel</strong>?</h4><p>This song plays during a pivotal moment in the movie, reflecting the protagonist's emotional struggles and romantic aspirations.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Ramya Nambeesan</strong> and composed by <strong>Thaman S</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Pogadhae Pogadhae</strong> released?</h4><p>The song was released on <strong>February 27, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Pogadhae Pogadhae</strong>, the protagonist expresses heartfelt emotions of love and longing, beautifully encapsulated through Ramya Nambeesan's captivating voice. The song serves as a poignant reflection of the struggles faced in romantic relationships, making it relatable to many. With its soothing melody and evocative lyrics by Thamarai, it resonates deeply with listeners. This track not only enhances the narrative of <em>Damaal Dumeel</em> but also leaves a lasting impression of love's complexities.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Pogadhae Pogadhae</strong> from <em>Damaal Dumeel</em> is a mesmerizing romantic melody that captures the essence of longing and love. With Ramya Nambeesan's soulful vocals and Thaman S's enchanting music, this track is sure to tug at your heartstrings. Dive into the emotional depths of this beautiful song that resonates with anyone who's ever experienced love's bittersweet moments.",
+    "stanzaMeanings": [
+      "",
+      "Don't go, don't go, if you leave, my heart can't bear it. You, you have created a beautiful melody that blows in the wind.",
+      "You are leaving me, saying, saying, saying, my life is flying away, saying.",
+      "Don't go, don't go, if you leave, my heart can't bear it.",
+      "Your friend, friend, I will swing and dance, and I will forget everything in love.",
+      "I will make my path beautiful, and you will sleep peacefully, I will give you pearls.",
+      "The sounds that come in the wind, if they come to the heart, what should I do if you are not there in life?",
+      "Don't go, don't go, if you leave, my heart can't bear it.",
+      "Hey, you and I will not speak of dreams and will not mix them together.",
+      "When we gather jewels, pearls will shine, and the mistakes will be forgotten.",
+      "Don't go, don't go, if you leave, my heart can't bear it. I came to live like this, I gave you everything, and I forgot myself."
+    ]
+  }
 }

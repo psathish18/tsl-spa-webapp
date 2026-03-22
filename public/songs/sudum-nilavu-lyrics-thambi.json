@@ -48,5 +48,61 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:51.348Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "thambi",
+      "sudum nilavu",
+      "harini",
+      "unnikrishnan",
+      "vidyasagar",
+      "romantic",
+      "melancholic",
+      "2006"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Sudum Nilavu'?</h4><p>The song 'Sudum Nilavu' conveys themes of love and longing, reflecting the emotional struggles of the characters in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Thambi'?</h4><p>The movie 'Thambi' revolves around family relationships and the challenges faced by the protagonist, making the song's emotional depth relevant to the storyline.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Sudum Nilavu'?</h4><p>The song features the talented voices of <strong>Harini</strong> and <strong>Unnikrishnan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Sudum Nilavu'?</h4><p>The music for 'Sudum Nilavu' was composed by <strong>Vidyasagar</strong>, known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was 'Sudum Nilavu' released?</h4><p>'Sudum Nilavu' was released on <strong>February 22, 2006</strong>.</p></div></div>",
+    "summary": "In the movie <em>Thambi</em>, the song <strong>Sudum Nilavu</strong> serves as a poignant expression of love and yearning. It captures the emotional turmoil of the characters, highlighting their struggles and desires. The soothing melodies and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect fit for romantic occasions. This duet beautifully showcases the chemistry between the singers, leaving a lasting impression on the audience.",
+    "releaseYear": "2006",
+    "high_ctr_intro": "<strong>Sudum Nilavu</strong> from the movie <em>Thambi</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Harini and Unnikrishnan, paired with Vidyasagar's soulful composition, this song resonates deeply with listeners. Experience the emotional depth and lyrical beauty that makes this track a timeless favorite.",
+    "stanzaMeanings": [
+      "",
+      "The burning moon and the sun will shine together for a moment, bringing life and years.",
+      "Do we need everything, everything, everything?",
+      "Look at love, look at love.",
+      "Even if the heart beats with the beginning, the fragrance will remain in the paths.",
+      "Look at love, look at love.",
+      "In the middle of the body, rivers flow, and even if the river is there, the soul will awaken.",
+      "All mistakes will become clear, and all errors will become pure.",
+      "Green water will become a remedy, and the essence will become nectar.",
+      "The words that come to my mouth will become a kiss.",
+      "The burning moon and the sun will shine together for a moment, bringing life and years.",
+      "The raindrops will become our ocean, and all the oceans will flow as drops.",
+      "Look at love, look at love, look at love, look at love.",
+      "The true love will make the moonlight dance and melt.",
+      "The part that is touched will become a memory, while the rest will fade away.",
+      "God will be found, and the beast will become divine.",
+      "Finding one is life, and it will lead us forward.",
+      "The burning moon and the sun will shine together for a moment, bringing life and years.",
+      "Do we need everything, everything, everything?",
+      "Look at love, look at love.",
+      "",
+      ""
+    ]
+  }
 }

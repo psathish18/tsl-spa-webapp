@@ -76,5 +76,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiMzMcQPW9Yh8WgPFtcO4Duu6RN2ueH60sNdQ-LxPwzrA49nejOuMzqFvFzxkP3A-cZVCNXqiHvOQyFP-vVr2CpXcsQUdNDVJP5MsFQ2HaWs3gi0A06dWV8WvjPMDdGe7FTNpQm1mjLI/s400-c/amara-kaaviyam.jpg",
   "generatedAt": "2026-01-18T12:58:49.500Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "amara kaaviyam",
+      "thomson andrews",
+      "yazin",
+      "m ghibran",
+      "romantic",
+      "melancholic",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Saridhana Saridhana'?</h4><p>The song explores themes of love and longing, questioning the nature of relationships and emotional connections.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Amara Kaaviyam'?</h4><p>In <em>Amara Kaaviyam</em>, the song reflects the emotional struggles and romantic dilemmas faced by the characters, enhancing the narrative of the film.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented voices of <strong>Thomson Andrews</strong> and <strong>Yazin</strong>, with music composed by <strong>M Ghibran</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Saridhana Saridhana' released?</h4><p>The song was released on <strong>July 5, 2014</strong>.</p></div></div>",
+    "summary": "In 'Saridhana Saridhana', the characters navigate the complexities of love and emotional connection, making it a poignant addition to the soundtrack of <em>Amara Kaaviyam</em>. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing. It beautifully encapsulates the bittersweet moments of romance, making it relatable to anyone who has experienced love's ups and downs. With its enchanting duet, the song resonates deeply, leaving listeners with a lingering sense of emotion.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Saridhana Saridhana</strong> from <em>Amara Kaaviyam</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Thomson Andrews and Yazin, paired with M Ghibran's soulful composition, this song is sure to resonate with anyone who has experienced the bittersweet nature of romance. Dive into the emotional depths of this track and let it sweep you away!",
+    "stanzaMeanings": [
+      "",
+      "Before this, I was a boy. Now, am I a child in the middle of two? Are you real?",
+      "Before this, you were a friend. Now, are you a lover in the middle of two? Am I real?",
+      "Are shadows real? Is the magic that appears real?",
+      "Is this real? Is this me? Will I leave or rise? Am I still me?",
+      "Before this...",
+      "Everything is new. Everything is beautiful. Yesterday, did I hear a song in my heart? Is it different?",
+      "Is this real? Is this me? Will I leave or rise? Am I still me?",
+      "When the heart beats, is it this? When girls look, does the heart feel? Is there no friend, no lover? Is that the question?",
+      "I have beautiful dreams. I have no end. The streets are cool, and I have the breeze. Now, from now on...",
+      "Are shadows real? Is the magic that appears real?",
+      "(Is it real...?)"
+    ]
+  }
 }

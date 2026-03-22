@@ -119,5 +119,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM0x_wfXxjzZyiZBwBo3uKKpUYg6dMJDHC4lO3MMSL0Nm-vln6MX6VYC4MkwNdZzOWcUdhLOs-iOWH7P_8SlqqKLrPlL6s1w_OG4aSneHkGN0v4Qji2C_EuD-ZAkCWM82ZPVG2xjIaajI/s400-c/thaimai.jpg",
   "generatedAt": "2026-02-01T13:01:55.333Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "devotional"
+    ],
+    "occasions": [
+      "wedding",
+      "celebration",
+      "relaxation",
+      "festivals"
+    ],
+    "keywords": [
+      "theri",
+      "bombay jayashree",
+      "pulavar pulamaipithan",
+      "gv prakashkumar",
+      "devotional",
+      "soothing",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Thaimai?</h4><p>The song <strong>Thaimai</strong> expresses the deep emotional bond between a mother and her child, highlighting themes of love and nostalgia.</p></div><div class=\"faq-item\"><h4>What is the context of Thaimai in the movie Theri?</h4><p>In <em>Theri</em>, <strong>Thaimai</strong> plays during a poignant moment that emphasizes the protagonist's relationship with his mother, adding depth to the storyline.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of Thaimai?</h4><p>The song is sung by <strong>Bombay Jayashree</strong> and composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was Thaimai released?</h4><p><strong>Thaimai</strong> was released on March 20, 2016, as part of the <em>Theri</em> soundtrack.</p></div></div>",
+    "summary": "In the film <em>Theri</em>, <strong>Thaimai</strong> serves as a heartfelt tribute to motherhood, encapsulating the unconditional love and sacrifices made by mothers. The soothing melody, combined with Bombay Jayashree's soulful voice, evokes a sense of nostalgia and warmth. The lyrics, penned by Pulavar Pulamaipithan, beautifully articulate the emotions tied to cherished memories with a mother. This song resonates deeply with anyone who has experienced the profound bond of maternal love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Thaimai</strong> is a soul-stirring melody that beautifully captures the essence of motherhood, showcasing the unique collaboration of Bombay Jayashree's enchanting vocals and GV Prakash Kumar's heartfelt composition. This song from the film <em>Theri</em> resonates with emotions that tug at the heartstrings, making it a must-listen for anyone who cherishes the bond between a mother and child. Experience the magic of <strong>Thaimai</strong> as it transports you to a world filled with love and nostalgia.",
+    "stanzaMeanings": [
+      "",
+      "Motherhood is a beautiful language that speaks softly.",
+      "Golden hands hold precious things.",
+      "On this day, memories should never fade away.",
+      "Eyes speak in silence, what do they wish to convey?",
+      "Motherhood is a beautiful language.",
+      "Will the song not be sung?",
+      "On this special day, many good things are seen.",
+      "Every day, a melody should not be forgotten, dear heart.",
+      "The language of the eyes is the language of the world.",
+      "Many stories are told through the eyes.",
+      "",
+      ""
+    ]
+  }
 }

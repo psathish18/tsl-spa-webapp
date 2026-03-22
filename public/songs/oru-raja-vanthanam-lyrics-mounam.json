@@ -44,5 +44,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:27.783Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "mounam samatham",
+      "k.s.chitra",
+      "romantic",
+      "melody",
+      "1989",
+      "old songs",
+      "vaali",
+      "gangai amaran"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oru Raja Vanthanam'?</h4><p>The song expresses deep feelings of love and affection, symbolizing the desire for a beloved to bring joy and happiness.</p></div><div class=\"faq-item\"><h4>In which movie is 'Oru Raja Vanthanam' featured?</h4><p>'Oru Raja Vanthanam' is featured in the movie <em>Mounam Samatham</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Oru Raja Vanthanam'?</h4><p>The song is sung by the renowned playback singer <strong>K.S. Chitra</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Oru Raja Vanthanam' released?</h4><p>The song was released on <strong>January 14, 1989</strong>.</p></div></div>",
+    "summary": "In <em>Mounam Samatham</em>, 'Oru Raja Vanthanam' serves as a poignant expression of love, where the protagonist yearns for their beloved. The song's soothing melody, combined with K.S. Chitra's enchanting voice, evokes a sense of nostalgia and romance. It beautifully conveys the emotions of longing and affection, making it a cherished classic. This melody is perfect for moments of reflection and celebration of love.",
+    "releaseYear": "1989",
+    "high_ctr_intro": "<strong>Oru Raja Vanthanam</strong> is a timeless romantic melody that captures the essence of love and longing. Sung beautifully by K.S. Chitra, this song from the classic film <em>Mounam Samatham</em> resonates with heartfelt emotions. Its enchanting lyrics and soothing tune make it a perfect choice for any romantic occasion.",
+    "stanzaMeanings": [
+      "",
+      "A king has come, and he has given me a rose; oh, my beloved, your kiss is like a precious gem.",
+      "Don't speak about him or mention his name; don't let his desires go beyond.",
+      "",
+      "The month of Thai has arrived, bringing the festival of Pongal; flowers are blooming everywhere, and the fragrance has come.",
+      "Every house has decorations, and the entrance is adorned; with eyes full of joy, the happiness has spread.",
+      "A flower has bloomed, and it has blossomed; many days have passed since it opened.",
+      "Oh, dear girl, who has come to speak of this; the sweetness has arrived.",
+      "A king has come, and he has given me a rose; oh, my beloved, your kiss is like a precious gem.",
+      "The queen's crown should shine; my wealth should come like a golden chariot in the sky.",
+      "Everywhere, the flowers of the Kondrai tree bloom, and the sky sings songs of welcome.",
+      "Now, my kingdom will flourish; the day will come when all the villages will prosper.",
+      "The river water will turn sweet, and every day will become a holy day.",
+      "A king has come, and he has given me a rose; oh, my beloved, your kiss is like a precious gem.",
+      "Don't speak about him or mention his name; don't let his desires go beyond.",
+      ""
+    ]
+  }
 }

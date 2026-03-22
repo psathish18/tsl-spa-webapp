@@ -94,5 +94,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_ju3P0bwUP3Y5T8ncufUmXgIxaH1M34AstkNjv_z8z29cfgcqtkpAXKC5AvdcxAXaHT_IEkplxpKNVdQEX1yF74V7rZr7aN1OXRExxGDxhXhRc8m3s4US2MHUMelJlakGxVBC-9amxtw/s400-c/vanakkam-chennai.jpg",
   "generatedAt": "2026-01-18T13:03:18.811Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "vanakkam chennai",
+      "anirudh",
+      "pragathi",
+      "karky",
+      "romantic",
+      "upbeat",
+      "2013",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Osaka Osaka'?</h4><p>The song 'Osaka Osaka' conveys themes of love and joy, celebrating the playful aspects of romance.</p></div><div class=\"faq-item\"><h4>What is the plot context of 'Vanakkam Chennai'?</h4><p><strong>Vanakkam Chennai</strong> revolves around the lives of two individuals who navigate love and relationships in the vibrant city of Chennai.</p></div><div class=\"faq-item\"><h4>Who are the singers of the song?</h4><p>The song is sung by <strong>Anirudh</strong> and <strong>Pragathi</strong>, showcasing their unique vocal chemistry.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for 'Osaka Osaka'?</h4><p>The lyrics were penned by <strong>Karky</strong>, known for his creative and engaging songwriting.</p></div><div class=\"faq-item\"><h4>When was 'Osaka Osaka' released?</h4><p>'Osaka Osaka' was released on <strong>July 28, 2013</strong>.</p></div></div>",
+    "summary": "In the movie <em>Vanakkam Chennai</em>, the song <strong>Osaka Osaka</strong> serves as a delightful expression of youthful love and exuberance. The playful lyrics and upbeat melody create a lively atmosphere, perfectly capturing the essence of romance. As Anirudh and Pragathi's voices intertwine, they evoke feelings of joy and celebration, making it an ideal anthem for special occasions. This song not only enhances the film's narrative but also resonates with anyone who has experienced the thrill of love.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Osaka Osaka</strong> from <em>Vanakkam Chennai</em> is a vibrant celebration of love and joy, featuring the dynamic voices of Anirudh and Pragathi. This catchy duet encapsulates the essence of youthful romance with its upbeat tempo and playful lyrics. Dive into the infectious energy of this song that perfectly complements the film's lively spirit!",
+    "stanzaMeanings": [
+      "",
+      "Is the honey sweet? My heart is filled with it. When my heart is troubled, it shows on my face.",
+      "Without seeing the beauty, I sing poetry. Without knowing, I fly high like a kite.",
+      "Osaka, oh Osaka, I went to the sky and lost my way. Osaka, oh Osaka, the sinner's heart has been captured.",
+      "Oh AC, when I come in, I talk and joke. When I see the water, I feel like a fish. If I sleep, I forget everything, and the storm in my heart goes away.",
+      "Without seeing the beauty, I sing poetry. Without knowing, I fly high like a kite.",
+      "Osaka, oh Osaka, I went to the sky and lost my way. Osaka, oh Osaka, the sinner's heart has been captured.",
+      "Even if my eyes are closed, I can't escape. I can't understand my dreams. I have changed, sleeping under the flower's shade.",
+      "My eyes see far away. My eyes see far away, like a green leaf blown away, I feel lonely.",
+      "Is the honey sweet? My heart is filled with it. When my heart is troubled, it shows on my face.",
+      "Without seeing the beauty, I sing poetry. Without knowing, I fly high like a kite.",
+      "Osaka, oh Osaka, I went to the sky and lost my way. Osaka, oh Osaka, the sinner's heart has been captured."
+    ]
+  }
 }

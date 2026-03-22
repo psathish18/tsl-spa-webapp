@@ -117,5 +117,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNCBLs_mYOmH1ehrJ1Wm1xfWmA5naLvqLdmDigskTyw2Gzgzj_4W2AqqN43JQZMrLWka7Ur_mThXuwkWtzpMWI98QIE3mgUKKa4Jet7zoY0dpABjwmzRblL1dFbhpsQK62cT0fScDCtR8/s400-c/Nalla+Nanban.jpg",
   "generatedAt": "2026-01-18T13:08:28.813Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "nanban",
+      "nalla nanban",
+      "ramakrishnan murthy",
+      "na muthukumar",
+      "harrish jeyaraj",
+      "melancholic",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Nalla Nanban</strong>, the lyrics reflect a deep sense of longing and the value of friendship, making it a poignant piece in the <em>Nanban</em> movie. The song conveys emotions of nostalgia and melancholy, resonating with anyone who has experienced the complexities of relationships. It evokes feelings of yearning and introspection, beautifully complemented by RamaKrishnan Murthy's soulful voice. Overall, it serves as a reminder of the bonds we cherish and the memories we hold dear.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Nalla Nanban</strong> from the <em>Nanban</em> movie is a soulful melody that resonates with deep emotions and nostalgia. RamaKrishnan Murthy's heartfelt rendition, combined with Na Muthukumar's poignant lyrics, creates a captivating experience. This song beautifully captures the essence of friendship and longing, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "Is it true that death thinks we need a good friend? Are you gathering to say that you are the best?",
+      "Oh God, oh God, does this person need life? If we take his life, is that enough for you? Is he our rose, will death consume it? Is his voice that speaks with joy, something we need forever?",
+      "In the memories of the past, can you hear our voice a little? In the sky of our minds, do our thoughts not bloom?",
+      "Oh God, oh God, is there no mercy for you? After the mother cries, will she not sleep?",
+      "Come, friend, come, in the company of friends! I will always bear you in my life!",
+      "",
+      ""
+    ]
+  }
 }

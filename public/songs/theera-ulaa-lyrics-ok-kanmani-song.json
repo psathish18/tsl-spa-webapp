@@ -111,5 +111,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDDuU3Q8frv8kfi2j-6l0agxOcooiZOLi_9-fiXQPe-C_WH6pe4dq9pxSX2e657-r6tEsmek0yYpkLJa_FdMpzfLEc1sHat5iNL0Ra0Yfm_8SWrNfXWlnGJ4gTUFIz0eOjcD2-JL2sKVI/s400-c/Okay_Kanmani_film_poster.jpg",
   "generatedAt": "2026-01-18T12:55:33.625Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "ok kanmani",
+      "theera ulaa",
+      "ar rahman",
+      "darshana",
+      "nikita gandhi",
+      "romantic",
+      "soothing",
+      "2015"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Theera Ulaa</strong>?</h4><p>The song conveys deep emotions of love and longing, reflecting the romantic theme of the movie <strong>Ok Kanmani</strong>.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Ok Kanmani</em> related to this song?</h4><p>The song plays during a pivotal moment in the film, highlighting the connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Theera Ulaa</strong>?</h4><p>The song features the talented voices of <strong>AR Rahman</strong>, <strong>Darshana</strong>, and <strong>Nikita Gandhi</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Theera Ulaa</strong> released?</h4><p>The song was published on <strong>April 4, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Theera Ulaa</strong>, the soothing melodies and heartfelt lyrics encapsulate the essence of love and connection between the protagonists in <em>Ok Kanmani</em>. The song beautifully conveys emotions of longing and romance, making it a perfect fit for intimate moments. Its enchanting composition by AR Rahman, along with the captivating vocals, creates a serene atmosphere. This track not only enhances the film's narrative but also resonates deeply with listeners, evoking a sense of nostalgia and warmth.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Theera Ulaa</strong> from <em>Ok Kanmani</em> is a mesmerizing blend of soothing melodies and heartfelt lyrics that captures the essence of love. Featuring the unique collaboration of AR Rahman, Darshana, and Nikita Gandhi, this song takes listeners on an emotional journey. Experience the magic of this romantic track that beautifully complements the film's narrative.",
+    "stanzaMeanings": [
+      "",
+      "The shore calls, the shore sees, the shore.",
+      "Like music on the wind, like a bird in the sky.",
+      "As a gift, wonderfully, the wind is there, the sky is there, the wind is there a little.",
+      "The shore calls, the shore sees, the shore.",
+      "In a moment, I know my love, so I won't hide it.",
+      "I know beauty that flows away. I won't stop my joys.",
+      "The shore calls, the shore sees, the shore.",
+      "Like music on the wind, like a bird in the sky.",
+      "As a gift, wonderfully, the wind is there, the sky is there, the wind is there a little.",
+      "The shore calls, the shore sees, the shore."
+    ]
+  }
 }

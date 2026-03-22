@@ -43,5 +43,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:14.643Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "thooliyilae",
+      "chinna thambi",
+      "mano",
+      "vaali",
+      "ilaiyaraaja",
+      "romantic",
+      "old songs",
+      "1991"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Thooliyilae</strong>?</h4><p>The song conveys themes of love and beauty, reflecting the emotions of longing and affection.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie <em>Chinna Thambi</em>?</h4><p>The movie revolves around the life of a simple man and his romantic adventures, showcasing the ups and downs of love.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Thooliyilae</strong>?</h4><p>The song is sung by <strong>Mano</strong>, known for his melodious voice in Tamil cinema.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Chinna Thambi</em>?</h4><p>The music for the movie was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Thooliyilae</strong> released?</h4><p>The song was released on April 12, 1991.</p></div></div>",
+    "summary": "In <strong>Thooliyilae</strong>, the protagonist expresses his deep affection and admiration for his beloved, set against the backdrop of the movie <em>Chinna Thambi</em>. The song's melody, composed by <strong>Ilaiyaraaja</strong>, evokes a sense of nostalgia and warmth, making it a favorite among romantic ballads. The lyrics, penned by <strong>Vaali</strong>, beautifully articulate the emotions of love and longing. Overall, this song remains a cherished piece that resonates with anyone who has experienced the magic of love.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "<strong>Thooliyilae</strong> from the enchanting <em>Chinna Thambi</em> captures the essence of romance with its soothing melody and heartfelt lyrics. The collaboration of <strong>Mano</strong>'s soulful voice and <strong>Ilaiyaraaja</strong>'s masterful composition creates a timeless classic that resonates with listeners. Dive into this nostalgic journey that beautifully encapsulates love and longing.",
+    "stanzaMeanings": [
+      "In the cradle, the shining star has come, revealing a wonderful pearl-like wonder.",
+      "On the swing, a garland of pearls and colorful flowers plays, little brother, sing along.",
+      "In the cradle, the shining star has come, revealing a wonderful pearl-like wonder.",
+      "When I sing a song, the trees will sway, flowers will bloom, and water will flow.",
+      "What is melody, what is rhythm? I learned it, and I know how to play it well.",
+      "I learned the rules, who gave them? I didn't learn them from anyone; this earth is my witness.",
+      "On the swing, a garland of pearls and colorful flowers plays, little brother, sing along.",
+      "Food is served, is there yogurt? The mother will be there, that's why the temple is not golden.",
+      "Even if the mother hits, I won't cry; if I cry, will the mother stop crying immediately?",
+      "So, the child walks with a heart like a mother; in life, there are no obstacles.",
+      "On the swing, a garland of pearls and colorful flowers plays, little brother, sing along.",
+      "In the cradle, the shining star has come, revealing a wonderful pearl-like wonder.",
+      "On the swing, a garland of pearls and colorful flowers plays, little brother, sing along.",
+      ""
+    ]
+  }
 }

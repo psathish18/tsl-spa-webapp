@@ -85,5 +85,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMYqGIciel88OEg2W0VPTogPv3iH9Q1YM0EBQPGRsRo_IXYmVbbkdsZjqdgdU50qAU8Fs8t1t4eP1jmkekAJODh9XoaJcLo3YVh3RIoVwWJQMbU86SN6yaeUhVatyZYnVLYF0Flm-kCSo/s400-c/Thalaiva+Vijay+Stills.jpg",
   "generatedAt": "2026-02-01T14:34:03.383Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "thalaivaa",
+      "haricharan",
+      "pooja vaidyanath",
+      "gv prakash",
+      "energetic",
+      "dance",
+      "2013",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Thalaivaa Thalaivaa'?</h4><p>The song celebrates leadership and camaraderie, emphasizing the importance of unity and strength.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Thalaivaa'?</h4><p>The movie revolves around a man who becomes a leader in his community, facing challenges and fighting for justice.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Thalaivaa Thalaivaa'?</h4><p>The song features vocals by Haricharan, Pooja Vaidyanath, and zia ulhaq.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Thalaivaa'?</h4><p>The music for the movie was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Thalaivaa Thalaivaa' released?</h4><p>The song was released on June 19, 2013.</p></div></div>",
+    "summary": "In the movie <em>Thalaivaa</em>, the song <strong>Thalaivaa Thalaivaa</strong> serves as a powerful anthem that embodies the spirit of leadership and unity. It showcases the protagonist's journey and the support he receives from his community. The energetic beats and vibrant vocals evoke feelings of motivation and celebration, making it a perfect fit for festive occasions. Overall, the song conveys a message of strength and togetherness, resonating deeply with the audience.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Thalaivaa Thalaivaa</strong> is an electrifying anthem that perfectly captures the spirit of celebration and camaraderie. With the dynamic collaboration of Haricharan, Pooja Vaidyanath, and zia ulhaq, this track from the movie <em>Thalaivaa</em> is sure to get you on your feet. Experience the vibrant energy and infectious beats that make this song a must-listen for any festive occasion!",
+    "stanzaMeanings": [
+      "",
+      "Leader, leader, our leader. Leader, leader, you are always our leader.",
+      "Leader, leader, history is written. Leader, my life, I will give you my life. We will rise, we will rise, because of you we will rise. We will rise, we will rise, we will reach the peak. If we fall, we will rise again.",
+      ""
+    ]
+  }
 }

@@ -47,5 +47,45 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:55.958Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "va quarter cutting",
+      "unnai kan thedhudhe",
+      "gana ulaganathan",
+      "gv prakash kumar",
+      "kumararaja",
+      "dance",
+      "upbeat",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song captures the excitement and carefree spirit of youth, celebrating love and enjoyment.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Va Quarter Cutting</em>, the song reflects the fun and lively moments shared by the characters, enhancing the film's comedic elements.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the voices of <strong>Gana Ulaganathan</strong> and <strong>GV Prakash Kumar</strong>, with music composed by <strong>GV Prakash Kumar</strong> himself.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Unnai Kan Thedhudhe</strong> was released on <strong>September 3, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Unnai Kan Thedhudhe</strong>, the lively duet encapsulates the essence of youthful exuberance and carefree love. The song plays during a pivotal moment in <em>Va Quarter Cutting</em>, where the characters celebrate life and relationships. With its upbeat tempo and catchy lyrics, it evokes feelings of joy and excitement. The collaboration between Gana Ulaganathan and GV Prakash Kumar adds a unique charm, making it a memorable track for any celebration.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Unnai Kan Thedhudhe</strong> from <em>Va Quarter Cutting</em> is a vibrant celebration of youthful energy and fun. This catchy duet features the dynamic voices of Gana Ulaganathan and GV Prakash Kumar, perfectly complemented by GV Prakash's lively music. Get ready to groove to the infectious beats that make this song a party anthem!",
+    "stanzaMeanings": [
+      "",
+      "I am searching for you, my heart is restless. Without seeing you, I feel lost. I know about the drinking crowd... but I still like to drink.",
+      "I am searching for you, my heart is restless. Without seeing you, I feel lost.",
+      "There is no melody of love. It's all just chaos. There is no ritual for the gods. Even the flowers are tied with ribbons and thrown around.",
+      "There is no melody of love. There is no ritual for the gods. Humans just wander around aimlessly.",
+      "Hitting the ground and turning back, that's the way to heaven. A child is born, and a human is left behind. A wise person is caught. But I still like to drink.",
+      "I am searching for you, my heart is restless. Without seeing you, I feel lost. I know about the drinking crowd... but I still like to drink.",
+      "Quarter, quarter, quarter, quarter, quarter... Quarter, quarter, quarter, quarter, quarter..."
+    ]
+  }
 }

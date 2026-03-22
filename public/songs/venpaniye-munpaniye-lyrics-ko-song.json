@@ -75,5 +75,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:10:39.890Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "ko",
+      "venpaniye",
+      "bombay jayashree",
+      "sriram parthasarathy",
+      "pa vijay",
+      "romantic",
+      "melody",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys deep emotions of love and connection, emphasizing warmth and support in a relationship.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Ko</em>, the song reflects the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Bombay Jayashree</strong> and <strong>Sriram Parthasarathy</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by <strong>Pa Vijay</strong>, known for his poetic expressions in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 25, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Venpaniye Munpaniye</strong>, the soothing melodies create an atmosphere of love and intimacy, perfectly aligning with the romantic narrative of <em>Ko</em>. The song encapsulates the feelings of warmth and support between the characters, making it a memorable highlight in the film. With heartfelt lyrics by <strong>Pa Vijay</strong>, it evokes emotions that resonate with anyone who has experienced love. The collaboration between <strong>Bombay Jayashree</strong> and <strong>Sriram Parthasarathy</strong> adds a unique charm, making this song a timeless favorite.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Venpaniye Munpaniye</strong> is a mesmerizing duet that beautifully captures the essence of love and warmth. The unique collaboration between <strong>Bombay Jayashree</strong> and <strong>Sriram Parthasarathy</strong> brings a soothing vibe that resonates with listeners. Dive into the enchanting world of <em>Ko</em> and let the melodies wrap around you.",
+    "stanzaMeanings": [
+      "",
+      "Everything is chilled now, all is going to be alright. Oh, I'll be there for you. Everything is chilled now, frozen in love. Let's warm up and come close now.",
+      "White flower, bright flower, my work has begun. In the sky, I have lost my sight. Your shadows, your eyes, they don't burn my eyes. My work days, golden sunlight, they are not fading away because of you.",
+      "White flower, bright flower, my work has begun. In the sky, I have lost my sight. My shadows, my eyes, they don't burn my eyes. My work days, golden sunlight, they are not fading away because of you.",
+      "A cool breeze, a gentle light, I am sleeping within you. A flower of one kind, another kind blooms, I am feeling you within me.",
+      "Love has blossomed through love, through the five senses, it has become a connection.",
+      "White flower...",
+      "Everything is chilled now, all is going to be alright. Oh, I'll be there for you. Everything is chilled now, frozen in love. Let's warm up and come close now.",
+      "In the changes, in the two eyes, you have fallen into my heart, the first glance is death, the second glance is birth, within me, within me.",
+      "In youth, she is a beauty, the sound of her laughter is like a treasure, I see her everywhere.",
+      "White flower, bright flower, my work has begun. In the sky, I have lost my sight. Your shadows, your eyes, they don't burn my eyes. My work days, golden sunlight, they are not fading away because of you."
+    ]
+  }
 }

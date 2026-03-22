@@ -56,5 +56,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4u1SbNtdzQUv0FrMUuQWGEXbNvzqK2qhKwpkNmjF0EUtQK4KWTrAT1tpSeT1DmmVg00mmBEzoWaa9U4xt-pDUCdjKvQv5EQiCo5WgNaQADdO1zWkjmHuvQvwZyG8PQg1fuO35mqGnjvM/s400-c/India-Pakistan-Movie-Poster-1.jpg",
   "generatedAt": "2026-01-18T12:56:30.540Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "india pakistan",
+      "naan unnai dhinamum",
+      "abhay jodhpurkar",
+      "shweta mohan",
+      "dheena devarajan",
+      "romantic",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Naan Unnai Dhinamum'?</h4><p>The song expresses deep feelings of love and longing, highlighting the emotional connection between two individuals.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'India Pakistan'?</h4><p>This song plays a significant role in portraying the romantic relationship between the lead characters, enhancing the film's emotional depth.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song is sung by <strong>Abhay Jodhpurkar</strong> and <strong>Shweta Mohan</strong>, with music composed by <strong>Dheena Devarajan</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Naan Unnai Dhinamum' released?</h4><p>The song was released on <strong>December 20, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Naan Unnai Dhinamum</strong>, the protagonists express their unwavering love and the longing they feel for each other. The song beautifully encapsulates the emotions of romance and nostalgia, making it a perfect fit for intimate moments. With its heartfelt lyrics and melodious composition, it evokes a sense of warmth and connection. This enchanting duet serves as a reminder of the power of love, resonating deeply with listeners.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Naan Unnai Dhinamum</strong> from <em>India Pakistan</em> is a beautifully crafted romantic duet that captures the essence of love and longing. With the enchanting voices of Abhay Jodhpurkar and Shweta Mohan, this song resonates with heartfelt emotions and a nostalgic vibe. The melodious composition by Dheena Devarajan adds a unique charm, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "I think of you every day, even when you're close, I feel lost. Even though love is in my heart, I struggle to express the truth.",
+      "I talk about you every day. I forget what’s in front of you.",
+      "Without you, I think about the world... I feel the darkness everywhere.",
+      "I think of you every day, even when you're close, I feel lost. Even though love is in my heart, I struggle to express the truth.",
+      "You have entered my heart without me knowing. Why did you bring the colors of the rangoli into my tears?",
+      "I am going on a journey, why are you asking about my journey? Why do you block the entrance to see you?",
+      "I think of you every day, even when you're close, I feel lost. Even though love is in my heart, I struggle to express the truth.",
+      "The storm will erase your memories. The path will lead my love to you.",
+      "No one asks my name, but I mention yours. I also want to hear our names together."
+    ]
+  }
 }

@@ -23,8 +23,8 @@ const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr
 const HotPostOverlay = dynamic(() => import('../components/HotPostOverlay'), { ssr: false })
 
 export const metadata: Metadata = {
-  title: 'Tamil Song Lyrics - Latest Tamil Songs',
-  description: 'Discover the latest Tamil song lyrics with translations. Find your favorite Tamil songs, artists, and lyrics all in one place.',
+  title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
+  description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
   manifest: '/manifest.json',
   verification: {
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Tamil Song Lyrics',
-    title: 'Tamil Song Lyrics - Latest Tamil Songs',
-    description: 'Discover the latest Tamil song lyrics with translations. Find your favorite Tamil songs, artists, and lyrics all in one place.',
+    title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
+    description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
     url: 'https://www.tsonglyrics.com',
     images: [
       {
@@ -48,8 +48,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     site: '@tsongslyrics',
-    title: 'Tamil Song Lyrics - Latest Tamil Songs',
-    description: 'Discover the latest Tamil song lyrics with translations.',
+    title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
+    description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
   },
   icons: {
     icon: [

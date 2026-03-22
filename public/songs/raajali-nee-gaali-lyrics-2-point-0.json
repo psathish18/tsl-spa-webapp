@@ -66,5 +66,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKZLbb0tX9R-Waa0ZL51chG-HUdmezSkghyphenhyphen1398wltN1ftE0tHGvajCuwLh6WEHI5AW7O3SXk4VLUfMJpoZmHJcDlolk9db3McDhjnaQbu8wdDxkoQ6HZQhwozThRrrrIc1yxHJJV3pQ/s400-c/2.0.jpg",
   "generatedAt": "2026-01-18T12:45:15.430Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "2.0",
+      "raajali nee gaali",
+      "blaaze",
+      "sid sriram",
+      "ar rahman",
+      "karky",
+      "energetic",
+      "dance"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a lively and energetic vibe, celebrating the joy of life and connection.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>2.0</em>, the song enhances the energetic atmosphere, showcasing the characters' dynamic interactions.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Blaaze</strong> and <strong>Sid Sriram</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music is composed by the legendary <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Raajali Nee Gaali</strong> was released on October 29, 2017.</p></div></div>",
+    "summary": "In <strong>Raajali Nee Gaali</strong>, the vibrant energy of the song reflects the lively spirit of the characters in <em>2.0</em>. The upbeat tempo and catchy lyrics create an atmosphere of celebration and joy. This duet showcases the unique vocal styles of Blaaze and Sid Sriram, making it a memorable track. The song evokes feelings of excitement and positivity, perfect for any festive occasion.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Raajali Nee Gaali</strong> from <em>2.0</em> is a high-energy track that perfectly blends the unique styles of Blaaze and Sid Sriram. With AR Rahman's electrifying music and Karky's clever lyrics, this song is sure to get you moving. Experience the vibrant vibes and catchy beats that make this track a standout in Tamil cinema!",
+    "stanzaMeanings": [
+      "",
+      "You are the king today, it's a festival for us. You are the great feast for hell.",
+      "Dude, I am like a small insect that has been crushed. Boss, I am a dog that has been changed, man, you put me in a case.",
+      "I am a snake, I am here, you are the thorn. I am a snake, I have placed myself in your story.",
+      "I am a snake, I am colorful. I will give you a small piece, piece by piece, I will give you a nose piece. I will take your nose and make it mine.",
+      "You are the king today, it's a festival for us. You are the great feast for hell.",
+      "Dude, I am like a small insect that has been crushed. Boss, I am a dog that has been changed, man, you put me in a case.",
+      "Oh, dude, are you okay? Oh, oh. Did you get caught? Oh, oh. Did you get trapped? Oh, oh. Oh my, oh my, oh my, oh my.",
+      ""
+    ]
+  }
 }

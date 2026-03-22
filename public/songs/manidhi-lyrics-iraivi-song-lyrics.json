@@ -81,5 +81,56 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3MNYzZpby4-M7LfAjBSD6h_evVMjOeQXks3CsV5h2V_SdGXBviFqc-93pbTqAk_K6GGIkBSAAWoTb1KWwpQ_gei-EUvyBfzN1sXGBi_OiUJI6dJJlaHl_wglFxsSWos_cDMCvd8vmzoc/s400-c/Iraivi.jpg",
   "generatedAt": "2026-02-01T13:17:57.231Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "iraivi",
+      "manidhi",
+      "ananthu",
+      "brinda",
+      "vivek",
+      "santhosh narayanan",
+      "romantic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Manidhi'?</h4><p>The song 'Manidhi' explores themes of love and longing, conveying deep emotions through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Iraivi'?</h4><p>'Manidhi' plays a significant role in highlighting the romantic struggles of the characters in <strong>Iraivi</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Manidhi'?</h4><p>The song is sung by <strong>Ananthu</strong> and <strong>Brinda</strong>, whose voices complement each other beautifully.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Manidhi'?</h4><p>The music for 'Manidhi' was composed by <strong>Santhosh Narayanan</strong>, known for his innovative sound.</p></div><div class=\"faq-item\"><h4>When was 'Manidhi' released?</h4><p>'Manidhi' was released on <strong>April 16, 2016</strong>.</p></div></div>",
+    "summary": "In the movie <em>Iraivi</em>, the song <strong>Manidhi</strong> serves as a poignant reflection of love and emotional turmoil. The lyrics, penned by Vivek, evoke a sense of yearning and connection, beautifully expressed through the harmonious duet of Ananthu and Brinda. This melody captures the essence of romantic moments, making it a perfect fit for weddings and intimate settings. The soothing composition by Santhosh Narayanan enhances the overall emotional impact, leaving listeners with a lingering sense of nostalgia.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Manidhi</strong> from <em>Iraivi</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the soulful voices of Ananthu and Brinda, paired with Santhosh Narayanan's enchanting composition, this song resonates deeply with listeners. Experience the emotional depth and lyrical beauty that makes this track a standout in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "The world is yours, come out into the light, oh human.",
+      "Don't let the word 'human' fade away, oh girl.",
+      "If you rise high, you won't know how high you can go, come out and stand tall, oh girl.",
+      "Come out into the light, come out into the light, come out into the light.",
+      "Look at the bird, it spreads its wings, don't let anyone stop you.",
+      "Come out into the light, come out into the light, come out into the light, come out into the light.",
+      "Who will give freedom? You are not a slave, right?",
+      "Your freedom is in your hands, realize it and come out into the light.",
+      "You are the one who holds your chains, keep your right foot forward and come out into the light.",
+      "Come out into the light.",
+      "Don't let the word 'human' fade away, oh girl.",
+      "If you rise high, you won't know how high you can go, come out and stand tall, oh girl.",
+      "Come out into the light, come out into the light, come out into the light.",
+      "Look at the bird, it spreads its wings, don't let anyone stop you.",
+      "What is the reason for a girl of five years to suffer? Is that child also to be locked up? This is a world of freedom.",
+      "In the midst of the chaos, you will find your strength, my dear.",
+      ""
+    ]
+  }
 }

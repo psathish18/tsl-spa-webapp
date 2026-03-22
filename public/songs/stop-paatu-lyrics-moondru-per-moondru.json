@@ -93,5 +93,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7QMpFianB3dtDRj1kei1vuW2Ohe0D1Oe2xGS5HCO4InQaAw3OhUscMJQqN3YGsqcEgTQL48PkhraXZ6Fz_RhysT1qeB2fM0jCj9DxKNQYgpfp8KZJUaLICHVOJh518h25cniHJiATlv4/s400-c/moondru-per-moondru-kaadhal.jpg",
   "generatedAt": "2026-01-18T13:04:52.974Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "moondru per moondru kadhal",
+      "ramesh vinayagam",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Stop The Paatu</strong>, the protagonist expresses the pain of unrequited love and the desire to halt the emotional turmoil that comes with it. The song beautifully captures the essence of longing and nostalgia, making it relatable to anyone who has faced heartbreak. Set against the backdrop of <em>Moondru Per Moondru Kadhal</em>, it conveys a deep sense of vulnerability and yearning. The poignant lyrics by Na Muthukumar, combined with Ramesh Vinayagam's heartfelt rendition, evoke a strong emotional response, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Stop The Paatu</strong> from <em>Moondru Per Moondru Kadhal</em> is a beautifully crafted melody that captures the essence of first love and heartbreak. With Ramesh Vinayagam's soulful vocals and Yuvan's enchanting music, this song resonates deeply with anyone who has experienced the bittersweet moments of love. Dive into this emotional journey that perfectly blends poignant lyrics with a captivating tune.",
+    "stanzaMeanings": [
+      "Stop the song, I don't want to hear this song. First love memories are coming back, should I stop this song? I don't know, but I am searching for her in this song, tell me to let it go.",
+      "Let it go, let it go, I can't sing this song anymore. Let it go, let it go, I can't sing this song anymore.",
+      "In the night, tears come when I listen. Like the night, her love is free. Happiness or sadness, it doesn't matter, you are not here. This song is like a melody that brings back memories.",
+      "I cried in this song, I got lost in it.",
+      "Let it go, let it go, I can't sing this song anymore. Let it go, let it go, I can't sing this song anymore.",
+      "Someone said to express sorrow in music. Someone said to express what is in the heart through this song.",
+      "Without any doubt, who has captured your life? This is a magic that is being watched. Whether it was before or after, this song is heard everywhere.",
+      "I was born anew in this song, I got lost in it.",
+      "Let it go, let it go...",
+      "Stop the song....",
+      "Let it go, let it go..."
+    ]
+  }
 }

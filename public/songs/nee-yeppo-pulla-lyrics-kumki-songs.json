@@ -120,5 +120,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgnx9ak5c5MtN-e_Qzr2HZNr36RyQjmRw3pz82x3RQsWHy1Ny69O6GlsiZH03PpiMKil-ManED5UZlcfTNofww2vM_RdCEQ7y64vEKvRhnkwrJiUHulTueMGSZjukwwEi7JJ_rYo8AvOQ/s400-c/kumki-songs+(1).jpg",
   "generatedAt": "2026-01-18T13:06:25.552Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kumki",
+      "alphonse",
+      "yugabharathi",
+      "d imman",
+      "romantic",
+      "melancholic",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nee Yeppo Pulla'?</h4><p>The song expresses feelings of longing and the complexities of love, capturing the essence of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of 'Kumki' related to this song?</h4><p>The song plays during a pivotal moment in <strong>Kumki</strong>, highlighting the emotional struggles of the characters as they navigate their feelings.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Alphonse</strong> and composed by <strong>D Imman</strong>, known for their beautiful collaboration in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was 'Nee Yeppo Pulla' released?</h4><p>The song was released on <strong>August 28, 2012</strong>, as part of the <strong>Kumki</strong> soundtrack.</p></div></div>",
+    "summary": "In <strong>Nee Yeppo Pulla</strong>, the protagonist expresses deep emotions of longing and love, perfectly encapsulated in the soothing melody. The song serves as a backdrop to significant moments in <em>Kumki</em>, enhancing the narrative with its heartfelt lyrics and Alphonse's captivating voice. It evokes a sense of nostalgia and yearning, making it relatable to anyone who has loved and lost. The combination of D Imman's music and Yugabharathi's lyrics creates a memorable experience that resonates with listeners.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Nee Yeppo Pulla</strong> from <em>Kumki</em> is a mesmerizing melody that beautifully captures the essence of longing and romance. With Alphonse's soulful vocals and D Imman's enchanting composition, this song resonates deeply with anyone who has experienced love's bittersweet moments. Dive into this lyrical journey that perfectly blends emotion and artistry, making it a must-listen for Tamil music lovers.",
+    "stanzaMeanings": [
+      "",
+      "When will you tell me, if you do something wrong, you will be thrown away? When will you tell me?",
+      "You should slowly say a word, if you don't, you will be caught by me.",
+      "When will you... when will you tell me?",
+      "You are pretending to be innocent, but what happened yesterday in front of your eyes? There is no love in this, it’s all a show, what flower are you?",
+      "The thorny flower has a fragrance, if you keep it close, it will be bad... bad.",
+      "When will you... when will you tell me?",
+      "The silver moon and the betel leaf, my world is yours, I was here, what should I say? The love that came is not a mistake... no, in my eyes, there are no tears, I am slowly... slowly.",
+      "When will you... when will you tell me?",
+      "You should slowly say a word, if you don't, you will be caught by me.",
+      "When will you... when will you tell me?",
+      ""
+    ]
+  }
 }

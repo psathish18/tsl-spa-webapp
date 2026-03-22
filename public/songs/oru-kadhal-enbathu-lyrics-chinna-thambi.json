@@ -44,5 +44,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:34.862Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "celebration"
+    ],
+    "keywords": [
+      "oru kadhal enbathu",
+      "chinna thambi periya thambi",
+      "s. p. balasubrahmanyam",
+      "s. janaki",
+      "ilaiyaraaja",
+      "romantic",
+      "1987",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses the deep feelings of love and affection, highlighting the emotions that reside in one's heart.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Chinna Thambi Periya Thambi</em>, this song plays during a romantic moment, emphasizing the bond between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the legendary voices of <strong>S. P. Balasubrahmanyam</strong> and <strong>S. Janaki</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Oru Kadhal Enbathu</strong> was composed by the renowned <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This beautiful melody was released in <strong>1987</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Kadhal Enbathu</strong>, the heartfelt lyrics and soothing melody evoke a sense of nostalgia and romance. The song beautifully encapsulates the emotions of love, making it a perfect fit for romantic occasions like anniversaries and weddings. As the characters express their feelings, listeners are transported to a world of deep affection and longing. This timeless classic remains a favorite among fans of Tamil music, showcasing the brilliance of its singers and composer.",
+    "releaseYear": "1987",
+    "high_ctr_intro": "<strong>Oru Kadhal Enbathu</strong> from the movie <em>Chinna Thambi Periya Thambi</em> is a timeless romantic melody that beautifully captures the essence of love. With the enchanting voices of S. P. Balasubrahmanyam and S. Janaki, this song resonates with deep emotions and nostalgia. Experience the magic of Ilaiyaraaja's composition that continues to touch hearts across generations.",
+    "stanzaMeanings": [
+      "",
+      "A love is in your heart, it has come into your eyes.",
+      "Oh flower, speak sweetly, you should sing the love song.",
+      "A love is in your heart, it has come into your eyes.",
+      "The flower of your eyes should be cherished, I need kisses at the right time.",
+      "The jewels don't sing, your hair doesn't fall.",
+      "Oh my dear, your song has given me something special.",
+      "Your body is my home.",
+      "A love is in your heart, it has come into your eyes.",
+      "I haven't seen anyone like you, no one else has come close to you.",
+      "The flower will always bloom in the honey, it will always be a celebration.",
+      "Inside the flower, there is a treasure, it will always be my song.",
+      "A love is in your heart, it has come into your eyes.",
+      "A love is in your heart, it has come into your eyes.",
+      "Oh flower, speak sweetly, you should sing the love song.",
+      "A love is in your heart, it has come into your eyes."
+    ]
+  }
 }

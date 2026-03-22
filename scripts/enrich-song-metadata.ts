@@ -6,14 +6,17 @@
  *
  * Authentication — choose ONE of the following (in priority order):
  * ---------------------------------------------------------------
- * 1. GITHUB_TOKEN=ghp_...        → GitHub Models API (recommended; standard PAT works)
+ * 1. VERCEL_AI_GATEWAY_API_KEY=... → Vercel AI Gateway (uses Vercel credits/billing)
+ *       VERCEL_AI_GATEWAY_API_KEY=xxx ENRICHMENT_MODEL=openai/gpt-4o-mini TRANSLATION_MODEL=openai/gpt-4o-mini tsx scripts/enrich-song-metadata.ts
+ *
+ * 2. GITHUB_TOKEN=ghp_...        → GitHub Models API (recommended; standard PAT works)
  *       GITHUB_TOKEN=ghp_xxx tsx scripts/enrich-song-metadata.ts
  *       Same pattern as filter-with-ai.ts
  *
- * 2. OPENAI_API_KEY=sk-...       → OpenAI API
+ * 3. OPENAI_API_KEY=sk-...       → OpenAI API
  *       OPENAI_API_KEY=sk-xxx tsx scripts/enrich-song-metadata.ts
  *
- * 3. COPILOT_API_KEY=<oauth-token> → GitHub Copilot API
+ * 4. COPILOT_API_KEY=<oauth-token> → GitHub Copilot API
  *       Obtain with: gh auth token  (needs `gh` CLI logged in with Copilot access)
  *       NOTE: Standard PATs (ghp_...) are NOT supported by the Copilot endpoint.
  *
@@ -32,6 +35,7 @@
  *
  * Usage
  * -----
+ *   VERCEL_AI_GATEWAY_API_KEY=xxx ENRICHMENT_MODEL=openai/gpt-4o-mini TRANSLATION_MODEL=openai/gpt-4o-mini npm run enrich-song-metadata
  *   GITHUB_TOKEN=ghp_xxx npm run enrich-song-metadata
  *   GITHUB_TOKEN=ghp_xxx npm run enrich-song-metadata -- --force
  *   GITHUB_TOKEN=ghp_xxx npm run enrich-song-metadata -- --limit=50
@@ -49,8 +53,12 @@ import type { SongBlobData, EnrichedMetadata } from './types/song-blob.types'
 // ---------------------------------------------------------------------------
 
 const SONGS_DIR = path.join(__dirname, '../public/songs')
-const ENRICHMENT_MODEL = 'gpt-4o-mini'      // Use full model for metadata enrichment
-const TRANSLATION_MODEL = 'gpt-4o-mini' // Use mini model for translation (cost optimization)
+const USING_VERCEL_GATEWAY = Boolean(process.env.VERCEL_AI_GATEWAY_API_KEY)
+const ENRICHMENT_MODEL = (USING_VERCEL_GATEWAY ? 'openai/gpt-4o-mini' : 'gpt-4o-mini')
+const TRANSLATION_MODEL = (USING_VERCEL_GATEWAY ? 'openai/gpt-4o-mini' : 'gpt-4o-mini')
+
+/** Vercel AI Gateway OpenAI-compatible base URL */
+const VERCEL_AI_GATEWAY_ENDPOINT = 'https://ai-gateway.vercel.sh/v1'
 
 /** GitHub Models endpoint — accepts standard GITHUB_TOKEN (PAT). Same pattern as filter-with-ai.ts */
 const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com'
@@ -82,19 +90,32 @@ interface ApiClientConfig {
 
 /**
  * Priority order:
- *  1. GITHUB_TOKEN            → GitHub Models endpoint (models.inference.ai.azure.com)
- *                               Standard PATs (ghp_...) work here — same as filter-with-ai.ts
- *  2. OPENAI_API_KEY          → standard OpenAI endpoint (sk-... key)
- *  3. COPILOT_API_KEY         → GitHub Copilot endpoint (must be an OAuth token,
+ *  1. VERCEL_AI_GATEWAY_API_KEY → Vercel AI Gateway endpoint (ai-gateway.vercel.sh)
+ *                                 Uses Vercel credits/billing
+ *  2. GITHUB_TOKEN              → GitHub Models endpoint (models.inference.ai.azure.com)
+ *                                 Standard PATs (ghp_...) work here — same as filter-with-ai.ts
+ *  3. OPENAI_API_KEY            → standard OpenAI endpoint (sk-... key)
+ *  4. COPILOT_API_KEY           → GitHub Copilot endpoint (must be an OAuth token,
  *                               NOT a PAT — obtain via `gh auth token`)
- *  4. gh auth token (auto)    → fetches the OAuth token from the GitHub CLI and
+ *  5. gh auth token (auto)      → fetches the OAuth token from the GitHub CLI and
  *                               uses the Copilot endpoint automatically
  *
  * Standard GitHub PATs (ghp_...) are rejected by api.githubcopilot.com but work fine
  * with the GitHub Models endpoint — use GITHUB_TOKEN for the simplest setup.
  */
 function resolveApiClient(): ApiClientConfig {
-  // Option 1: GITHUB_TOKEN → GitHub Models (works with standard PAT)
+  // Option 1: Vercel AI Gateway
+  if (USING_VERCEL_GATEWAY) {
+    return {
+      client: new OpenAI({
+        baseURL: VERCEL_AI_GATEWAY_ENDPOINT,
+        apiKey: process.env.VERCEL_AI_GATEWAY_API_KEY,
+      }),
+      label: 'Vercel AI Gateway (VERCEL_AI_GATEWAY_API_KEY)',
+    }
+  }
+
+  // Option 2: GITHUB_TOKEN → GitHub Models (works with standard PAT)
   if (process.env.GITHUB_TOKEN) {
     return {
       client: new OpenAI({ baseURL: GITHUB_MODELS_ENDPOINT, apiKey: process.env.GITHUB_TOKEN }),
@@ -102,7 +123,7 @@ function resolveApiClient(): ApiClientConfig {
     }
   }
 
-  // Option 2: standard OpenAI key
+  // Option 3: standard OpenAI key
   if (process.env.OPENAI_API_KEY) {
     return {
       client: new OpenAI({ apiKey: process.env.OPENAI_API_KEY }),
@@ -110,7 +131,7 @@ function resolveApiClient(): ApiClientConfig {
     }
   }
 
-  // Option 3: explicit Copilot OAuth token
+  // Option 4: explicit Copilot OAuth token
   if (process.env.COPILOT_API_KEY) {
     return {
       client: new OpenAI({ apiKey: process.env.COPILOT_API_KEY, baseURL: COPILOT_BASE_URL }),
@@ -118,7 +139,7 @@ function resolveApiClient(): ApiClientConfig {
     }
   }
 
-  // Option 4: auto-fetch OAuth token via `gh auth token`
+  // Option 5: auto-fetch OAuth token via `gh auth token`
   try {
     const oauthToken = execSync('gh auth token', { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }).trim()
     // GitHub OAuth tokens start with 'gho_'; accept any non-empty token the CLI returns
@@ -137,11 +158,12 @@ function resolveApiClient(): ApiClientConfig {
   }
 
   console.error('❌  No API credentials found. Set one of:')
+  console.error('   VERCEL_AI_GATEWAY_API_KEY=...  (uses Vercel AI Gateway credits)')
   console.error('   GITHUB_TOKEN=ghp_...          (recommended — standard PAT, uses GitHub Models API)')
   console.error('   OPENAI_API_KEY=sk-...          (standard OpenAI key)')
   console.error('   COPILOT_API_KEY=<oauth-token>  (GitHub Copilot — run: gh auth token)')
   console.error('')
-  console.error('   Tip: GITHUB_TOKEN is the easiest option and works with any GitHub PAT.')
+  console.error('   Tip: with Vercel AI Gateway, use model ids like openai/gpt-4o-mini.')
   process.exit(1)
 }
 
@@ -576,7 +598,7 @@ async function main() {
       const faqComplete = !!song.enrichedMetadata?.faq
       const summaryComplete = !!song.enrichedMetadata?.summary
       const introComplete = !!song.enrichedMetadata?.high_ctr_intro
-      if (meaningsComplete && introComplete) {
+      if ((meaningsComplete && introComplete) || song.stanzas.length <=2) {
         stats.skipped++
         continue
       }
@@ -640,7 +662,7 @@ async function main() {
 
     let translatedMeanings: string[] | null = null
 
-    if (needsTranslation && song.stanzas.length > 0) {
+    if (needsTranslation && song.stanzas.length > 2) {
       // Brief pause between the two API calls made for the same song
       if (needsEnrichment) await sleep(INTRA_SONG_DELAY_MS)
       try {

@@ -45,5 +45,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:17:58.987Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "oru poiyavadhu sol kanna",
+      "jodi",
+      "hariharan",
+      "vairamuthu",
+      "a.r.rahman",
+      "romantic",
+      "1999",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, emphasizing the emotional connection between lovers.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is featured in the movie <em>Jodi</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Hariharan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>September 9, 1999</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Poiyavadhu Sol Kannae</strong>, the lyrics beautifully convey the emotions of love and yearning, making it a perfect romantic ballad. The song plays a significant role in the movie <em>Jodi</em>, highlighting the protagonist's deep feelings for their beloved. With its soothing melody and heartfelt lyrics, it evokes a sense of nostalgia and longing. The collaboration of Hariharan's vocals and A.R. Rahman's composition creates an enchanting experience for listeners.",
+    "releaseYear": "1999",
+    "high_ctr_intro": "<strong>Oru Poiyavadhu Sol Kannae</strong> from the <em>Jodi</em> movie is a timeless melody that captures the essence of love and longing. With Hariharan's soulful voice and A.R. Rahman's enchanting composition, this song resonates deeply with anyone who has experienced the beauty of romance. Dive into the lyrical magic of Vairamuthu that makes this track unforgettable.",
+    "stanzaMeanings": [
+      "I will live by saying that I am your lover, in that statement, in that statement.",
+      "I will live by saying that I am your lover, in that statement.",
+      "Can my heart bear this battle, when you are silent and your sound is in the flowers?",
+      "Femininity and masculinity are very close, if you see them, they are one and the same.",
+      "The colors of the earth and the stones are one, the eyes that see them are one, but they are different.",
+      "I will live by saying that I am your lover, in that statement.",
+      "Can the voice of the beloved be heard by the heart? Can the moonlight be heard by the eyes?",
+      "With the stars, the sky brings sweetness to the fingers, and the lightning brings a message.",
+      "The wind brings flowers to the age, and the gold is adorned with the flowers.",
+      "But has the heart of the girl been kept in the eyes? Has the heart of love been kept in the eyes?",
+      "I will live by saying that I am your lover, in that statement.",
+      "Taking the moonlight and showing it nearby, is it you who shows it nearby? The flower's face also says it is you.",
+      "Oh.. the wind, earth, and sky speak of love, who is the cloud that brings this message to me?",
+      "With the Ganges, the poems bring the Kaveri river to your hands.",
+      "But the girl has only closed her heart, love has only closed her heart.",
+      "I will live by saying that I am your lover, in that statement.",
+      "In that one, one, one, one statement, I will live by that one statement, that statement, that statement, that statement, that statement, I will live by that statement."
+    ]
+  }
 }

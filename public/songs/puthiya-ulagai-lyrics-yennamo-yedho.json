@@ -84,5 +84,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKJrIGR2TdfxIDXwPWtutCQNOSLC2gvPcOoRxp_eVlV3tEe0tMTz1XHEYF9mv5RStYiBtLntVVmM2PeThx_ui3Wl46Zlh2jQkD7DRaP0toEMg-hrYSbEzw9DIkC1fr0DrCztcTw7unu7M/s400-c/Yennamo+Yedho.jpg",
   "generatedAt": "2026-01-18T13:01:16.646Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "ennamo yedho",
+      "puthiya ulagai",
+      "vaikom vijayalakshmi",
+      "karky",
+      "d imman",
+      "romantic",
+      "melancholic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Puthiya Ulagai</strong>?</h4><p>The song conveys a sense of longing and the search for new experiences in love.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Ennamo Yedho</em> related to this song?</h4><p>This song reflects the emotional journey of the characters as they navigate their feelings and relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Vaikom Vijayalakshmi</strong> and composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Puthiya Ulagai</strong> released?</h4><p>The song was released on <strong>January 19, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Puthiya Ulagai</strong>, the protagonist expresses a deep yearning for a new world filled with love and emotions. The song beautifully encapsulates the theme of searching for meaning in relationships, evoking feelings of nostalgia and hope. With its soothing melody and heartfelt lyrics, it resonates with anyone who has ever felt the complexities of love. This track is a standout moment in <em>Ennamo Yedho</em>, showcasing the emotional depth of the characters.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Puthiya Ulagai</strong> from the movie <em>Ennamo Yedho</em> is a mesmerizing melody that captures the essence of longing and love. With Vaikom Vijayalakshmi's soulful voice and D Imman's enchanting composition, this song takes you on an emotional journey. Experience the beautiful lyrics by Karky that resonate with anyone searching for a new world of feelings.",
+    "stanzaMeanings": [
+      "",
+      "I am searching for a new world, leave me alone. I am running away with memories in the depths of my eyes, leave me alone.",
+      "I start from separation and end in separation. I am going further and living in a distant way.",
+      "",
+      "In the world of change, you have become a reason for my struggles. You have elevated me in my work. I say there is no beauty like your eyes in this world. I wonder where your tears have gone, flowing from your eyes. I always wish to see you standing before me...",
+      "I am searching for a new world, leave me alone.",
+      "No one can find the heart in these places. No one can see my tears in their laughter.",
+      "I say there is no peace in the sky like your mind. I wonder where your mind has gone today. Will other skies and other lives disturb me?",
+      "I am searching for a new world, leave me alone.",
+      "I start from separation and end in separation. I am going further and living in a distant way.",
+      "I am searching for a new world, leave me alone."
+    ]
+  }
 }

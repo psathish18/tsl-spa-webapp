@@ -41,5 +41,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:46.643Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "naaan pesa ninaipathellam",
+      "kj yesudas",
+      "sirpy",
+      "romantic",
+      "melody",
+      "1993",
+      "tamil song",
+      "old music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep romantic feelings and the longing for a beloved, encapsulating the essence of love.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>This song is from the movie <em>Naan Pesa Ninaipathellam</em>, which adds a rich context to its lyrics.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is beautifully sung by the legendary <strong>KJ Yesudas</strong>, known for his soulful voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Yalean Kiliyae</strong> was composed by <strong>Sirpy</strong>, who is known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>July 9, 1993</strong>, marking it as a classic in Tamil music.</p></div></div>",
+    "summary": "In <strong>Yalean Kiliyae</strong>, the listener is taken on a melodic journey filled with romantic sentiments. The song beautifully conveys the emotions of love and longing, making it a perfect fit for intimate moments. Its soothing melody and heartfelt lyrics evoke nostalgia, reminding us of cherished memories. This classic piece remains a favorite for weddings and anniversaries, celebrating the essence of love.",
+    "releaseYear": "1993",
+    "high_ctr_intro": "<strong>Yalean Kiliyae</strong> is a mesmerizing melody that captures the essence of romance and nostalgia. With the enchanting voice of <strong>KJ Yesudas</strong> and the soulful composition by <strong>Sirpy</strong>, this song resonates deeply with anyone who has experienced love. Dive into the beautiful lyrics and let the music take you on a heartfelt journey.",
+    "stanzaMeanings": [
+      "",
+      "O little bird, you sing the music that leads me. There is no day without you singing, oh dear one. There is no day without you singing.",
+      "I hear the song of the cuckoo. I want to sing it, but you are not here. Oh dear one, you are not here.",
+      "O little bird, you sing the music that leads me. There is no day without you singing, oh dear one. There is no day without you singing.",
+      "The cuckoo comes looking for me and brings new songs to sing.",
+      "The waves come rushing in and tell the melody. They will clear my worries.",
+      "The song that sings to me, even the breeze listens to it. Today, spring will come, and tomorrow my door will open.",
+      "O little bird, you sing the music that leads me. There is no day without you singing, oh dear one. There is no day without you singing.",
+      "Can you tell me a good news that will make all my sorrows go away? Can you tell me a good news?",
+      "With love, will this earth be filled with victory?",
+      "Tomorrow will bring a new day.",
+      "Everything will change tomorrow, and the moon will also come to the earth.",
+      "O little bird, you sing the music that leads me. There is no day without you singing, oh dear one. There is no day without you singing.",
+      "I hear the song of the cuckoo. I want to sing it, but you are not here. Oh dear one, you are not here.",
+      "O little bird..."
+    ]
+  }
 }

@@ -81,5 +81,56 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3MNYzZpby4-M7LfAjBSD6h_evVMjOeQXks3CsV5h2V_SdGXBviFqc-93pbTqAk_K6GGIkBSAAWoTb1KWwpQ_gei-EUvyBfzN1sXGBi_OiUJI6dJJlaHl_wglFxsSWos_cDMCvd8vmzoc/s400-c/Iraivi.jpg",
   "generatedAt": "2026-02-01T13:16:21.033Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "sad"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "iraivi",
+      "anthonydasan",
+      "mani amuthavan",
+      "santhosh narayanan",
+      "melancholic",
+      "sad",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Othayila</strong>?</h4><p>The song <strong>Othayila</strong> explores themes of longing and emotional turmoil, reflecting the struggles of love and heartbreak.</p></div><div class=\"faq-item\"><h4>How does <strong>Othayila</strong> fit into the plot of <em>Iraivi</em>?</h4><p>In <em>Iraivi</em>, <strong>Othayila</strong> serves as a poignant backdrop to the characters' emotional conflicts and relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Othayila</strong>?</h4><p>The song is sung by the talented <strong>Anthonydasan</strong>, known for his expressive vocal style.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Othayila</strong>?</h4><p>The music for <strong>Othayila</strong> was composed by <strong>Santhosh Narayanan</strong>, who is celebrated for his innovative soundscapes.</p></div><div class=\"faq-item\"><h4>When was <strong>Othayila</strong> released?</h4><p><strong>Othayila</strong> was released on April 16, 2016, as part of the <em>Iraivi</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Othayila</strong>, the listener is taken on an emotional journey through the lens of heartbreak and longing. The song beautifully encapsulates the turmoil of unrequited love, with lyrics that resonate deeply with anyone who has faced similar feelings. Set against the backdrop of <em>Iraivi</em>, it enhances the narrative of the characters' struggles and desires. Anthonydasan's soulful rendition, combined with Santhosh Narayanan's evocative composition, makes this track a memorable experience that lingers long after the last note.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Othayila</strong> from <em>Iraivi</em> is a hauntingly beautiful melody that captures the essence of longing and heartbreak. With Anthonydasan's soulful voice and Santhosh Narayanan's evocative composition, this song resonates deeply with anyone who has experienced love's complexities. Dive into the emotional depths of this track and let its poignant lyrics linger in your heart.",
+    "stanzaMeanings": [
+      "",
+      "You are stuck in my thoughts, deeply embedded.",
+      "Your beauty is so captivating that I can't understand your greatness.",
+      "I have realized and understood, but I can't grasp it fully.",
+      "I have lost my mind, unable to listen to your words.",
+      "You are stuck in my thoughts, deeply embedded.",
+      "I have lost track of time, forgetting everything as I wandered away.",
+      "I became lost without knowing, forgetting my surroundings and drifting away.",
+      "I have become a mess, but in my dreams, I still see you.",
+      "I can't find peace within myself; I often get angry.",
+      "In this cruel world where dogs and foxes roam, if I think about what you do, it brings me pain.",
+      "I have lost my mind, unable to listen to your words.",
+      "You are stuck in my thoughts, deeply embedded.",
+      "I have wandered here and there, searching for the right path, but I ended up lost.",
+      "I have seen the flowers blooming, but my eyes are only on you, and I have burned my heart with love.",
+      "In the golden light of dawn, I feel lonely.",
+      "Your thoughts have captured me completely, and I am lost in them.",
+      "I have lost my mind, unable to listen to your words.",
+      "You are stuck in my thoughts, deeply embedded.",
+      ""
+    ]
+  }
 }

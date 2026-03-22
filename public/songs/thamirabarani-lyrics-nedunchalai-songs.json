@@ -81,5 +81,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi06cKUzbIJbVVQCpyr79KR4zqY330YCkdfHg54Q6vpvCsIs71FNYFM94cQHm_XpQxSD06Ef2KIPSFb3MLtLgWv0p-UscOuaXAw-XK2yBFatw3fWCuGsmag6F1ES5Q7RxF7SdvtJLxRlxA/s400-c/nedunchalai.jpg",
   "generatedAt": "2026-01-18T13:03:27.210Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "nedunchalai",
+      "sathya c",
+      "karthik netha",
+      "melancholic",
+      "2013",
+      "tamil song",
+      "lyrics",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Thamirabarani</strong>?</h4><p>The song <strong>Thamirabarani</strong> conveys themes of longing and emotional depth, reflecting the struggles of love and heartache.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Nedunchalai</em> related to this song?</h4><p>This song plays a significant role in <em>Nedunchalai</em>, highlighting the protagonist's emotional journey and connection to their past.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of <strong>Thamirabarani</strong>?</h4><p>The song is sung and composed by <strong>Sathya C</strong>, showcasing his unique style and emotional delivery.</p></div><div class=\"faq-item\"><h4>When was <strong>Thamirabarani</strong> released?</h4><p><strong>Thamirabarani</strong> was released on July 7, 2013, as part of the movie <em>Nedunchalai</em>.</p></div></div>",
+    "summary": "In <strong>Thamirabarani</strong>, the protagonist reflects on lost love and the bittersweet memories that linger. The song's melancholic tone, paired with Sathya C's heartfelt rendition, evokes a sense of nostalgia and longing. Set against the backdrop of <em>Nedunchalai</em>, it beautifully encapsulates the emotional turmoil faced by the characters. This melody resonates with anyone who has experienced the pain of separation, making it a poignant addition to Tamil cinema's musical landscape.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Thamirabarani</strong> from <em>Nedunchalai</em> is a soulful melody that captures the essence of longing and nostalgia. With Sathya C's emotive vocals and Karthik Netha's poignant lyrics, this song resonates deeply with anyone who has experienced heartache. Dive into the rich musical landscape crafted by Sathya C, making this track a must-listen for Tamil music lovers.",
+    "stanzaMeanings": [
+      "I have come to the Thamirabarani river, like a dream that has come true. With a thousand visions, I have let go of my worries and come here. Like a dark cloud, I have come to this place, and I wonder why my heart feels heavy, like a burden on my mind.",
+      "I have seen two people and found my way. If they leave, I will be left behind.",
+      "I have only one drink left, and I have enjoyed it. If they laugh and leave, I will be left with nothing.",
+      "My heart is restless like a wandering spirit. It is beautiful, but it is consuming my life. Like a nightingale, it has rolled away from me.",
+      "Like a fruit that has fallen from the tree, I am left to eat my own flesh.",
+      "I will give you my heart, my dear, and my love.",
+      "In her heart, you are the one. If you look at me, I will become a treasure in your heart. If I see you, I will be filled with joy, like a cloud that brings rain.",
+      "You have come here to take away my heart, and I wonder if you will plant it in your own heart. Will you keep it safe, or will it be lost?"
+    ]
+  }
 }

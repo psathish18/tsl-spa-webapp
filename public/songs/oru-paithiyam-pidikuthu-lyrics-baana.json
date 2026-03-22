@@ -43,5 +43,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:17.880Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "baana kaathaadi",
+      "karthik",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru paithiyam pidikuthu</strong> expresses the feelings of love and the madness that comes with it, highlighting the joy and excitement of being in love.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Baana Kaathaadi</em>, this song reflects the protagonist's romantic journey and the emotional turmoil that accompanies love.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru paithiyam pidikuthu</strong> was released on <strong>May 18, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Oru paithiyam pidikuthu</strong>, the protagonist expresses the euphoric madness of love, capturing the essence of romantic emotions. The song's vibrant melody and heartfelt lyrics convey a sense of joy and longing, making it a perfect anthem for lovers. As the characters navigate their feelings, the music beautifully complements the narrative of <em>Baana Kaathaadi</em>. This track resonates deeply with anyone who has experienced the highs and lows of love.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Oru paithiyam pidikuthu</strong> from <em>Baana Kaathaadi</em> is a delightful romantic number that beautifully captures the essence of love's madness. With Karthik's soulful vocals and Yuvan's enchanting music, this song resonates with anyone who has ever been in love. Dive into the lyrical magic penned by Na Muthukumar and experience the heartfelt emotions it evokes.",
+    "stanzaMeanings": [
+      "",
+      "I have gone crazy, girl, that is my medicine. I smile softly, my heart speaks. Love's burden surrounds me, even if I walk, I feel good with you.",
+      "I have gone crazy, girl...",
+      "You came searching for something, but even after giving it, you made me lose myself. Without saying that you are everything, I have let go of everything. I stand before you with questions, but there is no answer to love. Without a friend, I cannot find my way. I will come and give you a word, I will open my eyes on the path, like a silence that speaks.",
+      "You are like a flower in my home, I live in your embrace. My happiness and sorrow, I express them all. I stand here without knowing which way to go, like a goddess. You have shaped my life and made it beautiful. I see you in my eyes every day, I feel you in my heart every moment. I live for you with my life.",
+      "I have gone crazy, girl..."
+    ]
+  }
 }

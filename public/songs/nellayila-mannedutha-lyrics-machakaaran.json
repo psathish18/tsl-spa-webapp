@@ -49,5 +49,61 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:15.619Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "machakaaran",
+      "roshini",
+      "pa vijay",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2007",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nellayila Mannedutha'?</h4><p>The song conveys themes of love and longing, beautifully expressed through its lyrics by <strong>Pa Vijay</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Machakaaran'?</h4><p>In <strong>Machakaaran</strong>, this song highlights the romantic moments between the lead characters, enhancing the emotional depth of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Roshini</strong> and composed by <strong>Yuvan Shankar Raja</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was 'Nellayila Mannedutha' released?</h4><p>The song was released on <strong>November 8, 2007</strong>, as part of the <strong>Machakaaran</strong> soundtrack.</p></div></div>",
+    "summary": "In 'Nellayila Mannedutha', the song encapsulates the romantic essence of the film <em>Machakaaran</em>. The lyrics beautifully express feelings of love and longing, creating a nostalgic atmosphere. Roshini's soulful rendition, combined with Yuvan's melodic composition, evokes a sense of happiness and warmth. This track is a perfect accompaniment for moments of celebration and reflection on love.",
+    "releaseYear": "2007",
+    "high_ctr_intro": "<strong>Nellayila Mannedutha</strong> from the <em>Machakaaran</em> movie is a delightful melody that captures the essence of romance and nostalgia. With Roshini's enchanting vocals paired with Yuvan's captivating music, this song is sure to resonate with listeners. Experience the magic of Tamil cinema through this beautiful track that evokes heartfelt emotions.",
+    "stanzaMeanings": [
+      "",
+      "In the temple of Ayyanar, the horse is dancing, and the lion has come to join the celebration.",
+      "When pride comes, it brings along a heart that gives life to the needs of the village.",
+      "The horse is jumping, and everything is in place; the face of the lord is blooming, and the dance is lively.",
+      "In Nellai, there is a celebration; in Madurai, there is a gathering; Machakaaran, Machakaaran.",
+      "In the festival, the chariot is moving; in the temple, it is in hand; Machakaaran, Machakaaran.",
+      "Hey, Sadaamudi, Sadaamudi, the one who has come; hey, Adaavadi, Thadaaladi, Machakaaran, in Nellai, there is a celebration; in Madurai, there is a gathering; Machakaaran, Machakaaran.",
+      "In the festival, the chariot is moving; in the temple, it is in hand; Machakaaran, Machakaaran.",
+      "The one who brings offerings to our village deity is the one who is true; hey, truly, in this world, Machakaaran.",
+      "In the house, two or three are jumping around; hey, the one who is the son-in-law, Machakaaran.",
+      "He brought the offering and said it was for the festival; he is the one who has come to us, Machakaaran.",
+      "The one who tied the bundle in the knife's grip has come; if the offering comes, Machakaaran will dance.",
+      "Hey, the one who is mischievous and playful; hey, the one who is clever and crafty, has come.",
+      "In Nellai, there is a celebration; in Madurai, there is a gathering; Machakaaran, Machakaaran.",
+      "In the festival, the chariot is moving; in the temple, it is in hand; Machakaaran, Machakaaran.",
+      "He came with nothing and made a mess; he is the one who has come to stir things up, Machakaaran.",
+      "If I say something, it becomes a law in the village; our lord is also Machakaaran.",
+      "Without tying the knot, he came to the council; he is the one who has come, Machakaaran.",
+      "How much money is there? He is the one who has come to take it all, Machakaaran.",
+      "In the flower basket, he has come; he is the one who brings joy, Machakaaran.",
+      "In Nellai, there is a celebration; in Madurai, there is a gathering; Machakaaran, Machakaaran.",
+      "In the festival, the chariot is moving; in the temple, it is in hand; Machakaaran, Machakaaran."
+    ]
+  }
 }

@@ -48,5 +48,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:49:54.651Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "wedding"
+    ],
+    "keywords": [
+      "mai potta kannala",
+      "dheeran",
+      "surendran ej",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song",
+      "album"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of longing and love, reflecting on moments shared with a loved one.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>The movie context is currently <strong>unknown</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Dheeran</strong> and <strong>Surendran EJ</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>September 16, 2016</strong>.</p></div></div>",
+    "summary": "The song 'Mai Potta Kannala' beautifully encapsulates the emotions of love and longing, making it a poignant piece for romantic moments. The lyrics reflect a deep yearning for connection, as the singer reminisces about cherished memories with a loved one. The melodic composition enhances the heartfelt sentiments conveyed in the song. Overall, it evokes a sense of nostalgia and emotional depth, making it relatable for anyone who has experienced love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Mai Potta Kannala</strong> is a beautifully crafted melody that captures the essence of longing and romance. The unique collaboration between singers Dheeran and Surendran EJ brings a heartfelt vibe that resonates deeply with listeners. This song is sure to evoke emotions and memories, making it a perfect addition to any romantic playlist.",
+    "stanzaMeanings": [
+      "",
+      "With your eyes closed, you are going away. On the path you take, you are going with a heavy heart.",
+      "Why did you leave me, the one who was born for you? I was waiting for you, did you not know that?",
+      "When did you come into my eyes? After seeing you, I too lost my way.",
+      "Your eyes are like a dream, you are a little bit teasing, my confusion is becoming clearer.",
+      "The path you take is filled with sorrow. My cries are like a sound that you cannot hear.",
+      "You have taken away my heart, breaking it into pieces. My mind is restless and shattered.",
+      "There is no one else like you, I will live for you, only for your memory.",
+      "",
+      "With your eyes closed, you are going away. On the path you take, you are going with a heavy heart.",
+      "Why did you leave me, the one who was born for you? I was waiting for you, did you not know that?",
+      "Your eyes are like a dream, you are a little bit teasing, my confusion is becoming clearer.",
+      "The path you take is filled with sorrow. My cries are like a sound that you cannot hear.",
+      "You have taken away my heart, breaking it into pieces. My mind is restless and shattered.",
+      "There is no one else like you, I will live for you, only for your memory.",
+      "Once, in the morning, I saw you and drank water. My heart was a little troubled. The thirst in my heart is still not quenched. Don't say you don't want me. I won't ask for love from you. I won't ask for anything else.",
+      "The thoughts that come to my mind will fade away when I think of you. My heart will let go of everything.",
+      "Today, the thoughts you give me make my heart ache. I can't forget you, my heart is still thirsty for you. With your closed eyes, you are taking away my heart, and I am asking for words without speaking. I am not asking for anything from you.",
+      "With your eyes closed, you are going away. On the path you take, you are going with a heavy heart.",
+      "When did you come into my eyes? After seeing you, I too lost my way.",
+      "Your eyes are like a dream, you are a little bit teasing, my confusion is becoming clearer.",
+      "The path you take is filled with sorrow. My cries are like a sound that you cannot hear."
+    ]
+  }
 }

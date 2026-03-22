@@ -107,5 +107,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyQiv6vxj2luxmyyj86Ab9Z5LcQnc_R38v7PdOxctEzCU_bhYk_8fM4E2mag6EqK8e6T_GCQ_GvpNiBut9-WNwLV7llpwEeKHkrFCP9Hrjy7wZ_mbRNwRw1aFocqVzst3BT8wbwJv_skE/s400-c/Mariyaan1.jpg",
   "generatedAt": "2026-01-18T13:04:04.381Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "mariyaan",
+      "netru aval",
+      "chinmayi",
+      "vijay prakash",
+      "vaali",
+      "ar rahman",
+      "romantic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Netru Aval'?</h4><p>The song 'Netru Aval' expresses themes of love and nostalgia, reflecting on past relationships and cherished memories.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie 'Mariyaan'?</h4><p>In 'Mariyaan', the song plays during a pivotal moment that highlights the protagonist's emotional journey and connection to love.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Netru Aval'?</h4><p>The song features the talented voices of <strong>Chinmayi</strong> and <strong>Vijay Prakash</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Netru Aval'?</h4><p>The music for 'Netru Aval' was composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Netru Aval' released?</h4><p>'Netru Aval' was released on <strong>May 14, 2013</strong>.</p></div></div>",
+    "summary": "In 'Netru Aval', the protagonists reminisce about their past love, evoking a sense of nostalgia and longing. The song's soothing melody, crafted by AR Rahman, beautifully complements the heartfelt lyrics by Vaali. As Chinmayi and Vijay Prakash's voices intertwine, listeners are transported to a world of cherished memories and emotional connections. This romantic duet captures the essence of love, making it perfect for intimate moments and celebrations.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Netru Aval</strong> from <em>Mariyaan</em> beautifully captures the essence of love and longing, showcasing the enchanting voices of Chinmayi and Vijay Prakash. With AR Rahman's mesmerizing composition, this song takes listeners on a nostalgic journey filled with heartfelt emotions. Experience the magic of this unique collaboration that resonates deeply with anyone who has loved and lost.",
+    "stanzaMeanings": [
+      "",
+      "Yesterday she was there, I was there with her, oh Mariyaan, come.",
+      "Yesterday she was there, I was there with her, I was there....",
+      "Yesterday she was there, I was there with her, in the sky, a hundred stars were there, and the blue sky was flying there.",
+      "In the breeze, she was like honey, her voice was sweet, she blossomed like a flower.",
+      "Yesterday she was there, I was there with her, in the sky, a hundred stars were there, and the blue sky was flying there.",
+      "In the breeze, she was like honey, her voice was sweet, she blossomed like a flower.",
+      "Oh.. yesterday, in any moment, your love was not there.",
+      "Yesterday, in any house, there was no sorrow to speak of.",
+      "Yesterday, whatever was played by the hand, was all for you. Oh sky, come with those eyes.",
+      "Yesterday she was there, I was there with her, we were there together.",
+      "Yesterday she was there, I was there with her, in the blue sky, flying there.",
+      "Where are all your tears, saying... the shore came and you stood there.",
+      "Yesterday she was there, I was there with her, in the sky, a hundred stars were there, and the blue sky was flying there.",
+      "In the breeze, she was like honey, her voice was sweet, she blossomed like a flower."
+    ]
+  }
 }

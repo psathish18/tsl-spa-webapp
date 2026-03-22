@@ -97,5 +97,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:45:28.400Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "mersal",
+      "neethane neethane",
+      "ar rahman",
+      "shreya ghoshal",
+      "vivek",
+      "romantic",
+      "melody",
+      "2017"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Neethane Neethane</strong>?</h4><p>The song expresses deep emotions of love and longing, capturing the essence of a romantic relationship.</p></div><div class=\"faq-item\"><h4>How does <strong>Neethane Neethane</strong> fit into the plot of <em>Mersal</em>?</h4><p>In <em>Mersal</em>, the song highlights the romantic moments between the lead characters, enhancing the emotional depth of the story.</p></div><div class=\"faq-item\"><h4>Who are the artists behind <strong>Neethane Neethane</strong>?</h4><p>The song is sung by renowned artists AR Rahman and Shreya Ghoshal, with lyrics penned by Vivek.</p></div><div class=\"faq-item\"><h4>When was <strong>Neethane Neethane</strong> released?</h4><p>The song was released on August 17, 2017.</p></div></div>",
+    "summary": "In <strong>Neethane Neethane</strong> from <em>Mersal</em>, the audience is treated to a heartfelt melody that beautifully encapsulates the emotions of love and desire. The song serves as a pivotal moment in the film, showcasing the romantic connection between the protagonists. With its soothing tunes and poetic lyrics, it evokes a sense of nostalgia and warmth. The collaboration between AR Rahman and Shreya Ghoshal adds a unique charm, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Neethane Neethane</strong> from the blockbuster <em>Mersal</em>, a beautiful melody that showcases the magical collaboration between AR Rahman and Shreya Ghoshal. This song captures the essence of love and longing, making it a perfect addition to any romantic playlist. Dive into the lyrical beauty and musical brilliance that this track offers!",
+    "stanzaMeanings": [
+      "Neethane Neethane Lyrics in Tamil From Mersal Movie. A beautiful melody sung by Ar Rahman and Shreya Ghoshal after quite some time. Mersal: Neethane Neethane Lyrics in Tamil.",
+      "You are the sound that touches my heart beautifully, you are the meaning. My sky is completely covered in darkness, is this a poem just for us?",
+      "You are the one... you are the joy my eyes seek, in the film of life, your sweetness is the backdrop.",
+      "In the breeze of our love, it will touch the sky, we will change it in our hands as the golden moon falls.",
+      "There is a drop of sweetness.",
+      "She has a center of attraction.",
+      "You are the sound that touches my heart beautifully, you are the meaning.",
+      "My sky is completely covered in darkness, is this a poem just for us?",
+      "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, tell your desire.",
+      "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, beauty, don't go away.",
+      "You are the sound that touches my heart beautifully, you are the meaning.",
+      "My sky is completely covered in darkness, is this a poem just for us?",
+      "You are the one... you are the one..."
+    ]
+  }
 }

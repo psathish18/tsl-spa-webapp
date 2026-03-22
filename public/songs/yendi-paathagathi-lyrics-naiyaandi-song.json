@@ -52,5 +52,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfF3c8PGnwBT2fGr1GtJ1qRz5atZQsg3ep5khBrLBcbD5jHRh8y-Q3mdWT4KnR3EeZIzNRbW8uj9N6cEamohGdFM1cdjK2K-ENpt8H_SJBgbs9ky_qLZHfrN1l3SZ7ya1AJkwu3pyCXdM/s400-c/Naiyaandiposter.jpg",
   "generatedAt": "2026-01-18T13:02:48.602Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "naiyaandi",
+      "gold devaraj",
+      "devendran",
+      "m ghibran",
+      "romantic",
+      "melancholic",
+      "2013",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yendi paathagathi'?</h4><p>The song conveys themes of love and longing, expressing deep emotional sentiments through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Naiyaandi?</h4><p>In <strong>Naiyaandi</strong>, the song reflects the protagonist's feelings of love and heartache, enhancing the emotional depth of the storyline.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Gold Devaraj</strong> and composed by <strong>M Ghibran</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Yendi paathagathi' released?</h4><p>The song was released on <strong>September 20, 2013</strong>.</p></div></div>",
+    "summary": "In 'Yendi paathagathi', the protagonist expresses a deep sense of longing and emotional turmoil, beautifully portrayed through the poignant lyrics by Devendran. The song serves as a reflective moment in the film <em>Naiyaandi</em>, where love and heartbreak intertwine. Gold Devaraj's soulful rendition, combined with M Ghibran's melodic composition, evokes a sense of nostalgia and yearning. This track resonates with anyone who has experienced the complexities of love.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Yendi paathagathi</strong> from <em>Naiyaandi</em> is a soulful melody that captures the essence of love and longing. With Gold Devaraj's captivating vocals and M Ghibran's enchanting composition, this song resonates deeply with listeners. Dive into the emotional journey of this track that beautifully blends heartfelt lyrics with a soothing tune.",
+    "stanzaMeanings": [
+      "What is this nonsense you are talking? You are the one who has brought life and trouble.",
+      "Is this how you think of me? What are your thoughts about me?",
+      "What nonsense is this?",
+      "With your silly eyes, you have broken my heart. It feels like everything is lost, and peace has been shattered.",
+      "Everything about me is bad, there is no happiness anymore.",
+      "What nonsense is this?"
+    ]
+  }
 }

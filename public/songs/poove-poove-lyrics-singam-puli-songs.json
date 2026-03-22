@@ -38,5 +38,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:32.790Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "singam puli",
+      "poove poove",
+      "rahul nambiar",
+      "viveka",
+      "mani sharma",
+      "romantic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Poove Poove'?</h4><p>The song 'Poove Poove' expresses deep emotions of love and longing, highlighting the beauty of romantic connections.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Singam Puli'?</h4><p>In <em>Singam Puli</em>, the song plays during a romantic sequence, emphasizing the protagonist's feelings for his love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Poove Poove'?</h4><p>The song is sung by <strong>Rahul Nambiar</strong> and composed by <strong>Mani Sharma</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Poove Poove' released?</h4><p>'Poove Poove' was released on <strong>December 11, 2010</strong>.</p></div></div>",
+    "summary": "In 'Poove Poove', the protagonist expresses his heartfelt emotions towards his beloved, encapsulating the essence of love and yearning. The soothing melody, combined with Rahul Nambiar's captivating voice, creates a romantic atmosphere that resonates with listeners. The lyrics by Viveka beautifully convey the depth of affection, making it a memorable piece in the film <em>Singam Puli</em>. This song evokes feelings of nostalgia and warmth, perfect for romantic occasions.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Poove Poove</strong> from the movie <em>Singam Puli</em> is a mesmerizing melody that captures the essence of love and longing. With Rahul Nambiar's soulful vocals and Viveka's poignant lyrics, this song resonates deeply with anyone who has experienced the beauty of romance. Mani Sharma's enchanting composition adds a unique charm, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "Flower... Flower, flower, flower, A flower that brings joy, Poor thing, look at it, When I see you, my eyes are filled, You seem to be doing something, like lightning, I am becoming warm inside.",
+      "The whole world is crying, Day and night are weeping, I searched for you, but there is no beauty like you...",
+      "Like a plow that digs deep, From your body, new things emerge, I desire to take them...",
+      "Like a leaf, your body is delicate, I need to be cherished. I will eat the blessings of the goddess, The soil that has your footprints. I have fallen beautifully, beautifully, yes, yes, yes.",
+      "When I see you, my eyes are filled, You seem to be doing something, like lightning, I am becoming warm inside.",
+      "Flower... Flower, flower, flower, A flower that brings joy, Poor thing, look at it.",
+      "The one who brings out feelings, Is the one who helps me see, The door of youth is open...",
+      "In the middle, beauty grows, I look up at the moon, Until the taste is complete, there is no patience...",
+      "Just a glance is enough, it doesn't need to be life-consuming... Your presence is enough, it gives me a thrill... I have lost myself in the sea, yes, yes, yes...",
+      "When I see you, my eyes are filled, You seem to be doing something, like lightning, I am becoming warm inside."
+    ]
+  }
 }

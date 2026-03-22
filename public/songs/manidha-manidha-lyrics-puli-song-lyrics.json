@@ -98,5 +98,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidQ-s9ODyEcjqZOXCmTKYiSyHkvX8aEPb03Fq6CRk05Qtpifv-IfqIFtssOpYjxMJXFWd19ChFLOP1w9OXU3Hj3IPz7R_DrZm0KlqSsrZiCeybkrLvQxCkpGR0JSBPLzRVWLWCtJvDXAI/s400-c/Puli+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:53:49.596Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "puli",
+      "tipu",
+      "devi sri prasad",
+      "energetic",
+      "dance number",
+      "2015",
+      "tamil song",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Manidha Manidha'?</h4><p>The song conveys themes of vitality and the essence of being human, celebrating life and its experiences.</p></div><div class=\"faq-item\"><h4>In which movie is 'Manidha Manidha' featured?</h4><p>'Manidha Manidha' is featured in the movie <strong>Puli</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Manidha Manidha'?</h4><p>The song is sung by <strong>Tipu</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Manidha Manidha'?</h4><p>The music for the song is composed by <strong>Devi Sri Prasad</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Manidha Manidha' released?</h4><p>The song was released on <strong>September 30, 2015</strong>.</p></div></div>",
+    "summary": "In the movie <em>Puli</em>, 'Manidha Manidha' serves as an energetic anthem that embodies the spirit of celebration and vitality. The song's upbeat tempo and lively lyrics encourage listeners to embrace life with enthusiasm. It evokes feelings of joy and excitement, making it a perfect fit for festive occasions. Through Tipu's dynamic performance and Devi Sri Prasad's vibrant composition, the song resonates with the audience, inspiring them to dance and celebrate.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Manidha Manidha</strong> from <em>Puli</em> is an electrifying anthem that showcases Tipu's powerful vocals paired with Devi Sri Prasad's vibrant composition. This song captures the essence of celebration and energy, making it a perfect addition to any party playlist. Get ready to groove to the infectious beats and uplifting lyrics that resonate with the spirit of life!",
+    "stanzaMeanings": [
+      "",
+      "Human, human, true human, rise like a storm and sing, human.",
+      "Human, human, true human, rise like a storm and sing, human.",
+      "The children of the wind, you all have the right to this land, no one is a slave here, everything is free.",
+      "Human, human, true human, rise like a storm and sing, human.",
+      "We were born in this wind, we have found our way.",
+      "With the songs of the birds, we have come here and found our way, we have grown together.",
+      "In the circle of deceit, our lives have been lost in the end.",
+      "The light rises, the light rises, the lights rise, the conclusion is Tamil, everywhere, everywhere, let it be known, let it be revealed, the journey is like a tiger.",
+      "Human, human, true human, rise like a storm and sing, human.",
+      "Oh children of the earth, let us change the earth together.",
+      "Weapons are not needed, just give a few thousand hands.",
+      "Living is just one way, dying is just one way, it happens only once.",
+      "To live in a way, some heads must be sacrificed, do not fear.",
+      "Rules and regulations must be broken, let go of the pain, give freedom, let it be bright, let it be bright, if it is true, let it break the sky.",
+      "Human, human, true human, rise like a storm and sing, human."
+    ]
+  }
 }

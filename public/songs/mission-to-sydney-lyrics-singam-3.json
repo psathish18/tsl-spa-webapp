@@ -102,5 +102,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAeUflegMi9ZQqX5qxbL0zSmVi2ZVVF0TNMyGlox8IEvwNFCql25xhHQLDsGm4lXSkTJ3vfmQknmdcJGhVvTyi1W-rez1YpU3pBfzMh1I-ww2hv8IMmDreZtqW_u2LMtWOMfYu32iMQqw/s400-c/MIssion+to+Syndey+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:48:41.749Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "singam 3",
+      "lady kash",
+      "harrish jeyaraj",
+      "energetic",
+      "dance",
+      "2016",
+      "tamil music",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Mission to Sydney</strong> conveys themes of adventure and confidence, reflecting the protagonist's fearless spirit.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie plot?</h4><p>The song underscores key moments in <em>Singam 3</em>, highlighting the hero's journey and challenges.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director?</h4><p>The song is performed by <strong>Lady Kash</strong> and composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Mission to Sydney</strong> was released on November 27, 2016.</p></div></div>",
+    "summary": "In <strong>Mission to Sydney</strong>, the vibrant energy of Lady Kash's rap complements the thrilling narrative of <em>Singam 3</em>. The song encapsulates the protagonist's fearless attitude and determination, making it a motivational anthem for listeners. With its catchy beats and dynamic lyrics, it evokes feelings of excitement and empowerment. This track serves as a perfect backdrop for moments of celebration and high-energy activities.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Mission to Sydney</strong> from <em>Singam 3</em> is an electrifying anthem that showcases Lady Kash's dynamic rap skills paired with Harrish Jeyaraj's pulsating beats. This track captures the essence of adventure and determination, making it a perfect fit for high-energy moments. Dive into the world of roaring lions and daring escapades with this unforgettable song!",
+    "stanzaMeanings": [
+      "",
+      "I will smack up the competition, he will match up, no more traps, just hip hop.",
+      "We got up together.",
+      "Roaring lion, daring lion, soaring lion, rocking lion.",
+      "I want to go higher, going to fire, got to be near, never fear.",
+      "The Sydney mission is my own decision, I have the vision for the nation.",
+      "Crossing the sea, I have come, I will confirm my success at the right time.",
+      "I am the roaring lion, now I am the daring lion, no more soaring, I am the rocking lion.",
+      "Reloading, big bad boss, boom, bullet zooming into Sydney, a new direction.",
+      "I have it all locked down, no questions, dig deeper if you know who can do it solo, whatever it takes.",
+      "I will leave a mark in New South Wales, kangaroo kick, this man will flee.",
+      "",
+      ""
+    ]
+  }
 }

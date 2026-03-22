@@ -51,5 +51,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA_Tfmyn7yOvs4VaMc2Mz-0m0vONE2cm2RQQZJfKzr4-ctymJg2S3cja9MUtQuEB1CmLnRvNRnIiVnPWitvpn9-mRagSA46vIMU2jJ5Xe6YCVIXSTzFv8M2WJcdcYC3htq-QAbOISkKA/s400-c/Periyar+Kuthu+Album+Song+Lyrics.jpeg",
   "generatedAt": "2026-01-18T12:42:42.555Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "periyar kuthu",
+      "simbu",
+      "karky",
+      "energetic",
+      "dance",
+      "album",
+      "2018",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Periyar Kuthu</strong>?</h4><p>The song conveys a lively and energetic vibe, celebrating life and its various aspects.</p></div><div class=\"faq-item\"><h4>Is there a movie associated with <strong>Periyar Kuthu</strong>?</h4><p>This song is part of an album and does not belong to a specific movie.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Periyar Kuthu</strong>?</h4><p>The song is sung by the popular artist <strong>Simbu</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Periyar Kuthu</strong> released?</h4><p>The song was released on <strong>December 14, 2018</strong>.</p></div></div>",
+    "summary": "The song <strong>Periyar Kuthu</strong> is a vibrant and energetic track that captures the essence of celebration and joy. With Simbu's dynamic vocals and Karky's engaging lyrics, it evokes feelings of excitement and positivity. The lively beats make it perfect for parties and celebrations, encouraging listeners to dance and enjoy life. Overall, the song is a delightful addition to any upbeat playlist.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Periyar Kuthu</strong> is an electrifying track that showcases Simbu's vibrant energy and unique style. This song, penned by the talented Karky, is sure to get you moving with its catchy beats and lively lyrics. Dive into the rhythm and let the music elevate your spirits!",
+    "stanzaMeanings": [
+      "Life is like a rocket, moving forward; those who succeed are the ones who search for answers on Google.",
+      "If I say a word, it becomes a storm; it lifts your pride and makes you feel powerful.",
+      "When we talk, you have no other work; why this excitement in your eyes?",
+      "(No translation needed)",
+      "People should live well, rise up, and fight against injustice. We should unite and stand strong together.",
+      "With the strength of the people, I will win against you; I will take what belongs to them, my dear.",
+      "Without a heart, you all just fight; I will close my mouth and go away from here, my dear, my dear.",
+      "(No translation needed)",
+      "The big ones are all here; who is the one causing trouble? The big ones are causing trouble.",
+      "For the vote, the leader and the note must be in sync; we must shout and make our voices heard.",
+      "The clever ones will always find a way; they will twist and turn, just like the old fire that burns bright.",
+      "The true dog will find its place; the one that comes in disguise will lose its pride and respect, oh my dear...",
+      ""
+    ]
+  }
 }

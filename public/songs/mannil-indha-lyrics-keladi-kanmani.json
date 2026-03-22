@@ -37,5 +37,47 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:20.204Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "mannil indha",
+      "keladi kanmani",
+      "ilaiyaraaja",
+      "s p balasubrahmanyam",
+      "romantic",
+      "melancholic",
+      "1990",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Mannil Indha'?</h4><p>The song explores themes of love and emotional connection, reflecting on the beauty of relationships.</p></div><div class=\"faq-item\"><h4>In which movie does 'Mannil Indha' appear?</h4><p>'Mannil Indha' is featured in the movie <em>Keladi Kanmani</em>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by the legendary S. P. Balasubrahmanyam.</p></div><div class=\"faq-item\"><h4>When was 'Mannil Indha' released?</h4><p>The song was released on July 27, 1990.</p></div></div>",
+    "summary": "In the movie <em>Keladi Kanmani</em>, 'Mannil Indha' serves as a poignant reflection on love and the complexities of human emotions. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect backdrop for romantic moments. It beautifully conveys the message that love is essential for a fulfilling life. The collaboration of S. P. Balasubrahmanyam's soulful voice and Ilaiyaraaja's masterful composition creates an unforgettable listening experience.",
+    "releaseYear": "1990",
+    "high_ctr_intro": "<strong>Mannil Indha</strong> is a timeless melody that beautifully captures the essence of love and longing. With the enchanting voices of S. P. Balasubrahmanyam and the masterful composition by Ilaiyaraaja, this song from <em>Keladi Kanmani</em> resonates deeply with listeners. Experience the soothing vibes and emotional depth that make this track a classic in Tamil cinema.",
+    "stanzaMeanings": [
+      "Is there anyone who can live without this love in the world?",
+      "Can a pure girl sing without her heart? What joy can there be in the world without femininity? Closing the eyes, a person lives in dreams.",
+      "The moonlight and the golden river bring comfort here, without the companionship of a maiden. The joy of femininity brings happiness, and the spring season brings forth sweetness and nourishment.",
+      "If a maiden is near, there will be sweetness. If the companion is lost, everything will be troubled. In the eyes, in the words, in the walk, in the body, there is a wonderful joy that is born.",
+      "Is there anyone who can live without this love in the world? Pearls, rubies, and the beautiful flowers are all delightful.",
+      "The gentle touch, the small fingers, the bow, and the beautiful eyes will create lovely words.",
+      "If all these are forgotten, what is the purpose of life? If they are lost, the beginning of the end will bring forth all the joys and celebrations, isn't she?",
+      "Is there anyone who can live without this love in the world?",
+      "Can a pure girl sing without her heart? What joy can there be in the world without femininity? Closing the eyes, a person lives in dreams."
+    ]
+  }
 }

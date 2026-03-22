@@ -69,5 +69,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBlf9IEuOJEgwXkt9nsbRyLe8khEAJ6qJAuzDwDLb2gzMLI1nwSEoHzpIPF4pjKgWqvCiCn-TkbcszIMVJARpNiedQLGU1rkrjr7A_JN2nSAYcZq8Y4Z-WfiVqhnPnkhx3aJJMFCTSy4w/s400-c/Haridas+Songs+Lyrics.jpg",
   "generatedAt": "2026-01-18T13:05:27.429Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "haridas",
+      "vellakuthira",
+      "ramaniyammal",
+      "vijay antony",
+      "na muthukumar",
+      "happy",
+      "dance",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Vellakuthira?</h4><p>The song <strong>Vellakuthira</strong> celebrates joy and the carefree spirit of life, reflecting themes of happiness and festivity.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie Haridas?</h4><p>In <em>Haridas</em>, the song is featured during a lively celebration, highlighting the protagonist's joyful moments.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of Vellakuthira?</h4><p>The song is sung by <strong>Ramaniyammal</strong> and composed by <strong>Vijay Antony</strong>.</p></div><div class=\"faq-item\"><h4>When was Vellakuthira released?</h4><p><strong>Vellakuthira</strong> was released on December 3, 2012.</p></div></div>",
+    "summary": "In <strong>Vellakuthira</strong>, the lively beats and vibrant lyrics encapsulate the essence of celebration and joy. The song plays a pivotal role in <em>Haridas</em>, enhancing the festive atmosphere and showcasing the protagonist's carefree spirit. With its energetic rhythm and catchy melody, it evokes feelings of happiness and encourages listeners to embrace life's joyful moments. The collaboration between Ramaniyammal's enchanting voice and Vijay Antony's dynamic music creates an unforgettable experience.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Vellakuthira</strong> from <em>Haridas</em> is a vibrant celebration of life, showcasing the unique blend of Ramaniyammal's captivating vocals and Vijay Antony's dynamic composition. This song perfectly captures the joyous spirit of festivities, making it a must-listen for anyone looking to uplift their mood. Dive into the rhythmic beats and let the energy of <strong>Vellakuthira</strong> take you on a delightful journey!",
+    "stanzaMeanings": [
+      "The white horse is being discussed, and the old lady who comes with it is not able to do anything.",
+      "Oh king, the horse toy is in your hands, and the time for you to rule is not far away.",
+      "Four legs will run in eight directions, and the rulers of the land will believe in your strength.",
+      "With the sound of the drum, the storm will rise, and it will lead to victory in the battles ahead.",
+      "If you hold the sky in your hands, it will come down, and if you hold the earth, you will win."
+    ]
+  }
 }

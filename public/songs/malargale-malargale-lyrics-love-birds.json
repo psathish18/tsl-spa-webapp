@@ -61,5 +61,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:15.963Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "love birds",
+      "malargale malargale",
+      "hariharan",
+      "k.s.chitra",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "1996"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Malargale Malargale'?</h4><p>The song expresses deep feelings of love and longing, beautifully conveyed through its lyrics by <strong>Vairamuthu</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Love Birds'?</h4><p>In <strong>Love Birds</strong>, this song highlights the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Malargale Malargale'?</h4><p>The song features the melodious voices of <strong>Hariharan</strong> and <strong>K.S. Chitra</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Malargale Malargale' was composed by the legendary <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Malargale Malargale' released?</h4><p>The song was released on <strong>January 15, 1996</strong>.</p></div></div>",
+    "summary": "In the movie <em>Love Birds</em>, the song <strong>Malargale Malargale</strong> serves as a poignant expression of love between the protagonists. The soothing melody, crafted by A.R. Rahman, combined with the heartfelt lyrics of Vairamuthu, evokes a sense of nostalgia and romance. Hariharan and K.S. Chitra's enchanting voices bring the emotions to life, making it a perfect fit for romantic occasions. This song beautifully encapsulates the essence of love, longing, and the joy of togetherness.",
+    "releaseYear": "1996",
+    "high_ctr_intro": "<strong>Malargale Malargale</strong> from <em>Love Birds</em> is a mesmerizing duet that beautifully captures the essence of love. With the enchanting voices of Hariharan and K.S. Chitra, paired with A.R. Rahman's magical composition, this song transports listeners to a world of romance and nostalgia. Experience the lyrical brilliance of Vairamuthu as he weaves a tale of longing and affection through this timeless classic.",
+    "stanzaMeanings": [
+      "Flowers, flowers, what is this vision? Mountains, flowers, what is this thought?",
+      "My heart is melting, growing within me. All my sights are you, you are my thoughts.",
+      "Flowers, flowers...",
+      "The clouds have opened up and come down to the earth, come and embrace me.",
+      "Embracing in the clouds, the arrow of love will come, will it come to embrace?",
+      "Will my curls wake the sleeping God? In the flower-filled mouth, will I be forgotten?",
+      "There is no time to think, love is a river. Just saying your name is enough to make me forget my way.",
+      "My breath is in your lips, your words are my life. Let's live together for five hundred years, come into my life.",
+      "Flowers, flowers...",
+      "If we are in the flower, when the wind opens its mouth, love will speak, saying love, love.",
+      "If the moon knows Tamil, if it knows the waves, it will write poetry on us.",
+      "Life is a growing tree, oh beautiful moon, like the blue sky, it has embraced my world.",
+      "Even in the time of awakening, your dreams are like my life, they are intertwined with you.",
+      "Don't forget your melody, my body lives for you, come, my life, come.",
+      "(Flowers)",
+      "Flowers, flowers, what is this vision? Mountains, flowers, what is this thought?",
+      "My heart is melting, growing within me. All my sights are you, you are my thoughts.",
+      ""
+    ]
+  }
 }

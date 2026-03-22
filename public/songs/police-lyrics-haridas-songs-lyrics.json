@@ -79,5 +79,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBlf9IEuOJEgwXkt9nsbRyLe8khEAJ6qJAuzDwDLb2gzMLI1nwSEoHzpIPF4pjKgWqvCiCn-TkbcszIMVJARpNiedQLGU1rkrjr7A_JN2nSAYcZq8Y4Z-WfiVqhnPnkhx3aJJMFCTSy4w/s400-c/Haridas+Songs+Lyrics.jpg",
   "generatedAt": "2026-01-18T13:05:24.683Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "haridas",
+      "prabhu pandala",
+      "annamalai",
+      "vijay antony",
+      "energetic",
+      "dance",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Police'?</h4><p>The song 'Police' conveys a lively and energetic vibe, celebrating the spirit of fun and camaraderie.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Haridas'?</h4><p>In <em>Haridas</em>, the song is a vibrant number that highlights moments of joy and celebration among the characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Prabhu Pandala</strong> and composed by <strong>Vijay Antony</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Police' released?</h4><p>'Police' was released on <strong>December 3, 2012</strong>.</p></div></div>",
+    "summary": "The song 'Police' from the movie <em>Haridas</em> is a high-energy track that encapsulates the joy and excitement of celebration. With its catchy beats and lively lyrics, it evokes feelings of happiness and enthusiasm, making it perfect for parties. The vibrant performance by Prabhu Pandala adds to the song's appeal, inviting listeners to dance along. Overall, it serves as a reminder of the fun moments in life, resonating with audiences looking for an upbeat experience.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Police</strong> from <em>Haridas</em> is an electrifying track that showcases Prabhu Pandala's dynamic vocals paired with Vijay Antony's vibrant music. This song captures the essence of celebration and energy, making it a perfect anthem for parties. Dive into the rhythm and let the beats take over your spirit!",
+    "stanzaMeanings": [
+      "",
+      "Your heart is only for me, thinking of you makes everything feel good.",
+      "Even the trees speak of you, touching my eyes reveals everything about you.",
+      "In the heat, we are working hard, police, we are thinking about the troubles in our lives... police.",
+      "We live our lives, we survive, this police officer's life is like a vehicle that keeps moving.",
+      "In college, students are getting caught, they are taking buses and trains, moving around the town.",
+      "The rowdies are coming, they are catching crows, and they say they are watching us.",
+      "People adjust and leave, while the important people take charge, everyone is gathered here, but we are just left out.",
+      "In the heat, we are working hard, police.",
+      "The police officer knows everything about your eyes, who understands all our troubles?",
+      "Even the thief lives happily, but this police officer's life is just a burden in the heat.",
+      "Day and night duty, the wife is scolding, the family is struggling with the kids.",
+      "When you say police, the name is very big, but without my purse, it's the last month.",
+      "In the heat, we are working hard, police, we are thinking about the troubles in our lives... police.",
+      "We live our lives, we survive, even the thief in our neighborhood is causing trouble."
+    ]
+  }
 }

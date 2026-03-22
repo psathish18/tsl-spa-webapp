@@ -114,5 +114,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYLJOjBGuYJUS00GlOjVJVZRZqWlDlwupMk18LAh0_7GHxDTk-kpHblc1fjXz8YtZIxw15tCF6X1AmmWdllBN-7kMrafc18SJXeq8TdeEJ7z8cc192dS7UWq0F7qLX9R5JadPsHdlTHAw/s400-c/Iandam+Ulagam.jpg",
   "generatedAt": "2026-01-18T13:02:10.201Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "irandam ulagam",
+      "anirudh",
+      "vairamuthu",
+      "romantic",
+      "melancholic",
+      "2013",
+      "tamil song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, portraying the emotional turmoil of the protagonist.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Irandam Ulagam</em>?</h4><p>This song highlights a pivotal moment in the movie where the characters confront their feelings for each other.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Anirudh</strong>, who is also the music director.</p></div><div class=\"faq-item\"><h4>When was <strong>Penne Naan Enna Solla</strong> released?</h4><p>The song was released on November 18, 2013.</p></div></div>",
+    "summary": "In <strong>Penne Naan Enna Solla</strong>, the protagonist grapples with intense emotions of love and vulnerability. The song serves as a heartfelt expression of longing, beautifully portrayed through Anirudh's captivating vocals. Set against the backdrop of <em>Irandam Ulagam</em>, it encapsulates the essence of romantic relationships and the complexities they entail. The poignant lyrics by Vairamuthu further enhance the emotional depth, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Penne Naan Enna Solla</strong> is a mesmerizing romantic track that beautifully encapsulates the essence of love and longing. With <strong>Anirudh's</strong> soulful vocals and <strong>Vairamuthu's</strong> poignant lyrics, this song from the movie <em>Irandam Ulagam</em> resonates deeply with anyone who has experienced the magic of love. Dive into this enchanting melody that perfectly blends emotion and artistry, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "Oh girl, what should I say? Love is the only thing that should not take my life away.",
+      "Your eyes are the ones that can trap me, slowly and gently they pull me in.",
+      "Oh girl, what should I say? Love is the only thing that should not take my life away.",
+      "Your eyes are the ones that can trap me, slowly and gently they pull me in."
+    ]
+  }
 }

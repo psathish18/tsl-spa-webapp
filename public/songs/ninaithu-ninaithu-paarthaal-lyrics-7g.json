@@ -64,5 +64,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:15:34.045Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "7g rainbow colony",
+      "shreya ghoshal",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2004",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Ninaithu Ninaithu</strong> expresses deep feelings of love and longing, reflecting the emotional turmoil of the protagonist.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>7G Rainbow Colony</em>?</h4><p>The song plays during a pivotal moment in the movie, highlighting the protagonist's romantic struggles and aspirations.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Shreya Ghoshal</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Ninaithu Ninaithu</strong> was released on <strong>May 21, 2004</strong>.</p></div></div>",
+    "summary": "In <strong>Ninaithu Ninaithu</strong>, the protagonist expresses his heartfelt emotions as he navigates the complexities of love. The song's soothing melody and poignant lyrics evoke a sense of nostalgia and longing, perfectly capturing the essence of romance. As part of the film <em>7G Rainbow Colony</em>, it serves as a backdrop to the character's emotional journey, making it a memorable piece. Shreya Ghoshal's captivating voice adds depth to the song, leaving listeners enchanted.",
+    "releaseYear": "2004",
+    "high_ctr_intro": "<strong>Ninaithu Ninaithu</strong> from <em>7G Rainbow Colony</em> is a mesmerizing melody that captures the essence of love and longing. Shreya Ghoshal's enchanting vocals, combined with Yuvan's soulful composition, create a magical experience for listeners. This song beautifully encapsulates the bittersweet emotions of romance, making it a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "Thinking of you, I will come close to you. I live because of you. Today, I look at you..",
+      "Before finishing what I started, I will take the message that comes to you, my dear.",
+      "I live because of you. Today, I look at you.",
+      "The shadows of trees that speak softly tell our story and time will say.",
+      "After blooming, will the flower's fragrance remain? Oh oh oh..",
+      "The sound of the bell that speaks of the past will tell everything. The color of the broken ring will come back..",
+      "In your hands, there are fingers that will bring heat.",
+      "Working hard to tell stories is not in our fate..",
+      "The first dream is enough, my love. The eyes will open..",
+      "All the words spoken will blend into your speech.",
+      "Will the world change? Will the form change?",
+      "All the moments that have passed will always be with you, day and night.",
+      "Will your eyes forget me?",
+      "The shadow that came will bring happiness, coming and going.",
+      "Even if the lost time is there, I will return too.",
+      "What is this love in my youth? I live because of you.",
+      "Thinking of you, thinking of you.."
+    ]
+  }
 }

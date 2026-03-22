@@ -106,5 +106,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5Ut0kVVgnMYMgcy-Imyv2bUjs1vTvJiEbt9TkIexVomVwWZr0Rpm7Pzs1D7H3UfUSVXxBEjv7LIgQBpy9-SVOwlFM5IqhSWNpPSLWl0wHTvnc9vhDQAYPqocp0w7103sekXy1FdIMJ4o/s400-c/Naan.jpg",
   "generatedAt": "2026-02-01T14:34:13.964Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "naaan",
+      "vijay antony",
+      "annamalai",
+      "melancholic",
+      "motivational",
+      "2012",
+      "tamil",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Ulaginil Miga Uyaram</strong> reflects on the struggles and emotional turmoil faced by individuals, conveying a sense of hope amidst despair.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie plot?</h4><p>The song plays a crucial role in <em>Naan</em>, highlighting the protagonist's internal conflicts and journey towards self-discovery.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Vijay Antony</strong>, who is also the music director, showcasing his multifaceted talent.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Ulaginil Miga Uyaram</strong> was released on <strong>August 4, 2012</strong>.</p></div></div>",
+    "summary": "In <strong>Ulaginil Miga Uyaram</strong>, Vijay Antony delivers a poignant performance that resonates with the listener's heart. The song encapsulates the struggles of life, portraying a journey filled with emotional highs and lows. Its soothing melody and thoughtful lyrics evoke a sense of nostalgia and motivation, making it a perfect companion during moments of reflection. This track from <em>Naan</em> beautifully conveys the message of resilience and hope.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Ulaginil Miga Uyaram</strong> is a soul-stirring melody that showcases the unique artistry of <strong>Vijay Antony</strong>. With heartfelt lyrics penned by <strong>Annamalai</strong>, this song captures the essence of human emotions beautifully. Experience the depth of this track from the movie <em>Naan</em> that resonates with anyone who has faced life's challenges.",
+    "stanzaMeanings": [
+      "",
+      "In this world, the heart of a person is small, but many thoughts come to mind. What will happen in reality?",
+      "In the direction where the rivers flow, do not go astray. In the direction where the river goes, you run.",
+      "The troubles that come to you will be many. Cross over a hundred obstacles and move forward.",
+      "In this world, the heart of a person is small.",
+      "Why do you need to mix with the waves of the sea? Life will flow with love.",
+      "There are connections for you in this world. There are some stones that can bear the paths.",
+      "The tears will flow and cross the sea. Only the drops of water will give you the strength to move forward.",
+      "From darkness, light will always emerge. In this world, the heart of a person is small.",
+      "What is the use of dreams, my heart? There is a path for you; start walking.",
+      "After the troubles, let the journey happen. Let the path be clear in life.",
+      "The pain will always be there, but it will not break you. The heart that holds on will always move forward.",
+      "Whatever you think will happen, it will always happen.",
+      "In this world, the heart of a person is small, but many thoughts come to mind. What will happen in reality?",
+      "In the direction where the rivers flow, do not go astray. In the direction where the river goes, you run.",
+      "The troubles that come to you will be many. Cross over a hundred obstacles and move forward.",
+      ""
+    ]
+  }
 }

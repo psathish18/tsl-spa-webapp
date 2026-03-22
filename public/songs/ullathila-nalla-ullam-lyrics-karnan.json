@@ -34,5 +34,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj676Sru6P26ylXOMen2b6Ztf_iyrNchNc6BhMKks1LGKj-p4mo4Q-3O9e6hFcqoLj7JKVi-Zt_6sgrXGVP4IkXCFSyzHcal8jve7iSbKj3zp4972kctfLeOErkhzhT-qcVLdkUA5Gd8fs/s400-c/Ullathil+Nalla+Ullam+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:21:28.175Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "classical"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning",
+      "night drive"
+    ],
+    "keywords": [
+      "karnan",
+      "sirkazhi govindarajan",
+      "kannadasan",
+      "viswanathan ramamoorthy",
+      "nostalgic",
+      "melancholic",
+      "1970",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song reflects themes of longing and emotional depth, capturing the essence of human relationships.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p><strong>Ullathila Nalla Ullam</strong> is featured in the movie <strong>Karnan</strong>, which is known for its dramatic narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the legendary <strong>Sirkazhi Govindarajan</strong>, known for his soulful voice.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by the renowned lyricist <strong>Kannadasan</strong>, celebrated for his poetic expressions.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released in <strong>1970</strong>, marking it as a classic in Tamil cinema.</p></div></div>",
+    "summary": "In <strong>Ullathila Nalla Ullam</strong>, the protagonist expresses deep emotions of longing and connection, reflecting the struggles of love and relationships. The song's poignant lyrics by Kannadasan, combined with Sirkazhi Govindarajan's soulful voice, evoke a sense of nostalgia. Set against the backdrop of the film <em>Karnan</em>, it enhances the emotional depth of the narrative. This classic piece resonates with listeners, making it a cherished memory in Tamil music history.",
+    "releaseYear": "1970",
+    "high_ctr_intro": "<strong>Ullathila Nalla Ullam</strong> from the epic film <em>Karnan</em> is a timeless classic that resonates with deep emotions. The soulful rendition by Sirkazhi Govindarajan, paired with Kannadasan's poignant lyrics, creates a captivating atmosphere. This song beautifully encapsulates the essence of longing and nostalgia, making it a must-listen for fans of old Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "In the heart, a good heart does not sleep; is it the one who is strong that brings this?",
+      "You are not a son to the family, nor a brother to the younger one. Have you brought shame to the town? I too have fallen into your trap, I too have fallen into your trap.",
+      "The king's work is to be done, and the eyes are to be used; is it your work that is being done? The king has come to bless you.",
+      "You have fallen into a place where you cannot escape from the debts you have created; is it the deceiver's eyes that have led you here? Is it the deceiver's eyes that have led you here?",
+      ""
+    ]
+  }
 }

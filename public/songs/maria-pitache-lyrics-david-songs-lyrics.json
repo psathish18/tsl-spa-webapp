@@ -84,5 +84,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjme_dIe9sCpRfwZ8Cek8UQ0r1PEteiGFRrX5uE9JjSb6RrUl6dzSN2RRouiVT0qZkyIpCyb_cayU-1UTU2MxVlwmBgZeuEQzode4lbpi6mjxI877UeX_rT1hw69QWmz1eXewmbebu13jI/s400-c/David_tamil.jpg",
   "generatedAt": "2026-01-18T13:04:48.000Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "david",
+      "maria pitache",
+      "remo fernandes",
+      "vikram",
+      "upbeat",
+      "dance",
+      "2013",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Maria Pitache'?</h4><p>'Maria Pitache' is a lively song that captures the essence of celebration and joy, making it a perfect dance number.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'David'?</h4><p>In <em>David</em>, this song showcases a festive moment, highlighting the characters' joy and camaraderie.</p></div><div class=\"faq-item\"><h4>Who are the artists behind 'Maria Pitache'?</h4><p>The song features the talented vocals of <strong>Vikram</strong> and <strong>Remo Fernandes</strong>, who also composed the music.</p></div><div class=\"faq-item\"><h4>When was 'Maria Pitache' released?</h4><p>'Maria Pitache' was released on <strong>January 3, 2013</strong>.</p></div></div>",
+    "summary": "In the movie <em>David</em>, 'Maria Pitache' serves as a vibrant expression of joy and celebration, perfectly encapsulating the festive spirit of the characters. The upbeat tempo and catchy lyrics evoke feelings of happiness and excitement, making it an ideal dance number for gatherings. The collaboration between Vikram and Remo Fernandes adds a unique flavor to the song, enhancing its appeal. Overall, it conveys a sense of togetherness and merriment, inviting listeners to join in the fun.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Maria Pitache</strong> from <em>David</em> is a vibrant celebration of life and joy, featuring an electrifying collaboration between the dynamic vocals of Vikram and the unique style of Remo Fernandes. This catchy tune is sure to get you on your feet, making it a perfect addition to any festive playlist. Dive into the infectious energy of this song that beautifully blends Tamil music with a peppy vibe!",
+    "stanzaMeanings": [
+      "",
+      "Oh Maria Pitache, Oh Maria Pitache, Oh Maria Pitache, hey, Oh Maria Pitache.",
+      "Oh Maria Pitache, Oh Maria Pitache, Oh Maria Pitache, ha, Ho Maria Pitache.",
+      "Life is fun when there's a wife, it's all jolly. When there's a wife on top, it's all fun.",
+      "Hey, look at the girl walking, check out her eyes and her mobile.",
+      "Oh Maria Pitache, Oh Maria Pitache, Oh Maria Pitache, hey, Oh Maria Pitache.",
+      "Putting a comma on top of a comma, it's a gathering. Putting a chicken on top of a chicken, it's a figure.",
+      "Why do we need all this? We have drinks here. If you open a bottle, it will kick. If you open a figure, it will become a mouse.",
+      "Oh Maria Pitache, Oh Maria Pitache, Oh Maria Pitache, hey, Oh Maria Pitache."
+    ]
+  }
 }

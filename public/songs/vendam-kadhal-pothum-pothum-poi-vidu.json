@@ -58,5 +58,65 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:34:38.468Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "vendam kadhal pothum pothum poi vidu",
+      "jhangri",
+      "romantic",
+      "melancholic",
+      "2018",
+      "tamil song",
+      "lyrics",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song explores themes of love and heartbreak, expressing the emotional turmoil associated with relationships.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The movie for this song is currently <strong>unknown</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer or music director of this song?</h4><p>The singer and music director for <strong>Vendam Kadhal Pothum Pothum Poi Vidu</strong> are <strong>unknown</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>July 4, 2018</strong>.</p></div></div>",
+    "summary": "The song <strong>Vendam Kadhal Pothum Pothum Poi Vidu</strong> delves into the complexities of love, portraying a sense of yearning and emotional struggle. Its lyrics reflect a deep introspection about relationships, making it relatable for anyone who has experienced love's highs and lows. The soothing melody complements the melancholic theme, evoking feelings of nostalgia and reflection. This track serves as a poignant reminder of the bittersweet nature of love.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Vendam Kadhal Pothum Pothum Poi Vidu</strong> is a poignant melody that beautifully captures the essence of love and longing. The song's heartfelt lyrics resonate deeply, making it a perfect companion for those reflective moments. Experience the emotional depth of this track that speaks to the soul, inviting listeners to explore the nuances of love and heartbreak.",
+    "stanzaMeanings": [
+      "",
+      "I don't want to take love; it's enough to let it go.",
+      "I am going away, love is taking my breath away, this pain is enough.",
+      "I too am running away, and you said those words, girl, I thought of you, where is my life going?",
+      "Is all this love just an illusion? Should I forget this love that brings tears like a flower?",
+      "In your sorrow, the one who has pushed me away is now drinking joyfully here.",
+      "I have done everything with love, and you are living well.",
+      "Girl, there is no love here, nowhere in this world. If our hearts unite, then there is no love either.",
+      "I can forget you, but I can't ignore my feelings. Even if I see you, my love won't change.",
+      "I am here for you, don't forget me. You are everything to me, give me a little of your heart.",
+      "I don't want to take love; it's enough to let it go.",
+      "I walk alone on the path where the stones fall.",
+      "When I look ahead, some tears fall from my eyes. With love, I am wandering on the street.",
+      "Like a question without an answer, my love remains. Even if I say one word, my life will be ruined.",
+      "Don't go without saying anything, my tears won't dry. Without seeing you, my heart has changed.",
+      "In your sorrow, the one who has pushed me away is now drinking joyfully here.",
+      "I have done everything with love, and you are living well.",
+      "Girl, there is no love here, nowhere in this world. If our hearts unite, then there is no love either.",
+      "I am here for you, don't forget me. You are everything to me, give me a little of your heart.",
+      "I don't want to take love; it's enough to let it go again, that pain is enough.",
+      "A love that is a burden, no one can forget. My heart is aching to do anything for you.",
+      "I desire everything, but I am suffering in my mind.",
+      "For you, I have no place in my heart anymore.",
+      "In your sorrow, the one who has pushed me away is now drinking joyfully here.",
+      "I have done everything with love, and you are living well.",
+      "Girl, there is no love here, nowhere in this world. If our hearts unite, then there is no love either.",
+      "I am here for you, don't forget me. You are everything to me, give me a little of your heart.",
+      "I don't want to take love; it's enough to let it go."
+    ]
+  }
 }

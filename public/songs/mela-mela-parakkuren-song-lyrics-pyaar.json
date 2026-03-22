@@ -37,5 +37,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:30:47.717Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "melody",
+      "dance number"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "pyaar prema kadhal",
+      "mela mela parakkuren",
+      "yuvan",
+      "romantic",
+      "2018",
+      "tamil",
+      "music",
+      "dance"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses the joy and excitement of being in love, highlighting the feelings of closeness and affection.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Pyaar Prema Kadhal</em>, this song captures a pivotal moment of romance between the lead characters, showcasing their chemistry.</p></div><div class=\"faq-item\"><h4>Who is the music director of this song?</h4><p>The music for <strong>Mela Mela Parakkuren</strong> is composed by <strong>Yuvan Shankar Raja</strong>, known for his unique style and catchy tunes.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Mela Mela Parakkuren</strong> was released on July 23, 2018.</p></div></div>",
+    "summary": "In <strong>Mela Mela Parakkuren</strong>, the song beautifully encapsulates the thrill of young love, as portrayed in the movie <em>Pyaar Prema Kadhal</em>. The upbeat melody and romantic lyrics evoke feelings of joy and excitement, making it a perfect anthem for celebrations. It conveys the emotions of closeness and affection, resonating with anyone who has experienced the magic of love. This track is not just a song; it's an experience that elevates the spirit of romance.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Mela Mela Parakkuren</strong> from the movie <em>Pyaar Prema Kadhal</em> is a vibrant celebration of love that captures the essence of youthful romance. With Yuvan's signature sound, this track perfectly blends catchy beats and heartfelt lyrics, making it a must-listen for any romantic occasion. Dive into the enchanting vibes of this song and let it elevate your mood!",
+    "stanzaMeanings": [
+      "",
+      "I am flying high because of your love, my heart is racing.",
+      "I am losing myself beneath your gaze.",
+      "hold me now, hold me a little closer..",
+      "",
+      ""
+    ]
+  }
 }

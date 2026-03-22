@@ -129,5 +129,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:09.245Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "enai nokki paayum thotta",
+      "sid sriram",
+      "thamarai",
+      "darbuka siva",
+      "romantic",
+      "melancholic",
+      "2018",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Maruvarthai Pesathe</strong>?</h4><p>The song conveys emotions of love and longing, urging the beloved not to speak again about parting.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <strong>Enai Nokki Paayum Thotta</strong>?</h4><p>In the movie, this song reflects the protagonist's emotional turmoil and deep feelings for his love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Maruvarthai Pesathe</strong>?</h4><p>The song is sung by the talented <strong>Sid Sriram</strong>, known for his soulful voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Maruvarthai Pesathe</strong>?</h4><p>The music is composed by <strong>Darbuka Siva</strong>, who has a unique style that blends various musical elements.</p></div><div class=\"faq-item\"><h4>When was <strong>Maruvarthai Pesathe</strong> released?</h4><p>The song was released on <strong>July 17, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Maruvarthai Pesathe</strong>, the protagonist expresses his deep emotional struggles through a poignant melody that resonates with anyone who has experienced love and loss. The song's soothing composition and heartfelt lyrics evoke a sense of nostalgia and longing, making it a standout piece in the film <em>Enai Nokki Paayum Thotta</em>. Sid Sriram's soulful rendition adds layers of emotion, capturing the essence of the character's turmoil. Overall, this song beautifully encapsulates the complexities of love, making it relatable and memorable.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Maruvarthai Pesathe</strong> from <em>Enai Nokki Paayum Thotta</em> is a mesmerizing blend of heartfelt lyrics and soulful melodies. Sid Sriram's enchanting voice, combined with Thamarai's poetic brilliance and Darbuka Siva's captivating composition, creates an unforgettable listening experience. This song beautifully captures the essence of love and longing, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "",
+      "Like a peacock's feather, my fingers will touch you, and our conversation will flow like a melody. I gathered tears like drops, not wanting to blink, and I made them into an ocean with my eyes.",
+      "Even if I forget, there isn't a day I don't think of you. Even if we are apart, my love will never be false. In the endless nights that don't end, the drops of tears that don't separate, the moments that don't part, we understood the bond that ties us. Even if the heart bends, it will still come back to you. You are the beginning and the end, the essence and the universe. Even if you go far away, you are still close to my eyes. You blended with my life before, sending letters with the flower called lips. I will also respond before you dream. Holding on stubbornly, our anger has faded. We have lost our beauty, but now it’s the rainy season! Don't speak again, sleep on my lap, and like a blink, I will protect you, and you will change into a dream.",
+      "Like a peacock's feather, my fingers will touch you, and our conversation will flow like a melody. I gathered tears like drops, not wanting to blink, and I made them into an ocean with my eyes.",
+      "Even if I forget, there isn't a day I don't think of you. Even if we are apart, my love will never be false.",
+      "",
+      "",
+      "Even if I forget, there isn't a day I don't think of you. Even if we are apart, my love will never be false.",
+      ""
+    ]
+  }
 }

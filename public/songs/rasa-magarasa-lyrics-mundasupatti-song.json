@@ -82,5 +82,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipD3wgMtQeZ4TlUHHtoj4kCpxeB9yozMJB4qFg_o8Es1So2tIf887aNt4P-l0wErt1LwMrzza3Cb7AlkByiaBDIk9Gh7CPsWOPCZNX7mxR2tPrkdFr1mwoIAQxgVhwf9_HIvqoIJmxrLs/s400-c/mundasupatti.jpg",
   "generatedAt": "2026-01-18T12:59:22.293Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "mundasupatti",
+      "rasa magarasa",
+      "anthonydasan",
+      "rita",
+      "sean roldan",
+      "romantic",
+      "2014",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Rasa Magarasa'?</h4><p>The song conveys themes of love and affection, expressing deep emotional connections between the characters.</p></div><div class=\"faq-item\"><h4>How does 'Rasa Magarasa' fit into the plot of <em>Mundasupatti</em>?</h4><p>This song highlights the romantic moments between the lead characters, enhancing the overall narrative of the film.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features the talented voices of Anthonydasan and Rita, with music composed by Sean Roldan.</p></div><div class=\"faq-item\"><h4>When was 'Rasa Magarasa' released?</h4><p>The song was released on May 18, 2014.</p></div></div>",
+    "summary": "In <strong>Rasa Magarasa</strong>, the characters express their love and longing through melodious verses, creating a romantic atmosphere. The upbeat tempo and lively vocals evoke feelings of joy and celebration, making it a perfect addition to any wedding or festive occasion. The song beautifully captures the essence of youthful love, resonating with listeners and leaving a lasting impression. Overall, it serves as a delightful musical interlude in the film <em>Mundasupatti</em>, enhancing the emotional depth of the story.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Rasa Magarasa</strong> from <em>Mundasupatti</em> is a vibrant duet that beautifully captures the essence of romance and joy. With the enchanting voices of Anthonydasan and Rita, complemented by Sean Roldan's captivating music, this song is sure to uplift your spirits. Dive into this melodious journey that celebrates love and connection!",
+    "stanzaMeanings": [
+      "",
+      "The taste of your essence has reached us. If you are there with your eyes, my heart has soared. You are my rose.",
+      "The queen has become the artist, and my nights have become beautiful. I expressed my desire to you, queen, you are my sweetness.",
+      "Did you say something? Are you connected to us? Oh my dear, will you not stay with me? Taste, taste, taste...",
+      "I want you to come for me, you need to give me a place in your heart. One word from you can change my life, you and I can unite.",
+      "What is morning, what is evening, what is the time to wait? What is the time to waste, to hold on and to let go?",
+      "Poets have come and stopped, but there is no need to say anything here. There is nothing to find.",
+      "Even if it hurts to touch, if it leaves, it won't go away. What kind of love is this that binds the land and the heart?"
+    ]
+  }
 }

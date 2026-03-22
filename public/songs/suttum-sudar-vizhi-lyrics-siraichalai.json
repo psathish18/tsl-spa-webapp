@@ -59,5 +59,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:01:43.552Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "classical"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "siraichalai",
+      "k.s.chitra",
+      "ilaiyaraaja",
+      "romantic",
+      "melancholic",
+      "1996",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Suttum Sudar Vizhi</strong> conveys themes of love and longing, expressing deep emotions associated with romantic connections.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Siraichalai</em>, the song reflects the protagonist's feelings of love and desire, enhancing the emotional depth of the storyline.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by the talented <strong>K.S. Chitra</strong> and composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Suttum Sudar Vizhi</strong> was released on March 5, 1996.</p></div></div>",
+    "summary": "In <strong>Suttum Sudar Vizhi</strong>, the protagonist expresses profound emotions of love and longing, beautifully captured through K.S. Chitra's soulful rendition. The song plays a pivotal role in <em>Siraichalai</em>, enhancing the narrative by showcasing the depth of romantic feelings. With Ilaiyaraaja's exquisite composition, it evokes a sense of nostalgia and tenderness. This timeless melody resonates with anyone who has experienced the complexities of love.",
+    "releaseYear": "1996",
+    "high_ctr_intro": "<strong>Suttum Sudar Vizhi</strong> from <em>Siraichalai</em> is a mesmerizing melody that captures the essence of love and longing. With K.S. Chitra's enchanting vocals and Ilaiyaraaja's masterful composition, this song creates an ethereal atmosphere that resonates deeply with listeners. Experience the magic of this timeless classic that beautifully intertwines emotion and artistry.",
+    "stanzaMeanings": [
+      "",
+      "In your beautiful eyes, the goddess comes and crosses the waves of the sea, bringing your essence with her.",
+      "I will wait for you, standing close with the moon and the pearl necklace.",
+      "Can we think of coming near the flower? Can we push away the king and give it to you?",
+      "In your beautiful eyes, the goddess comes and crosses the waves of the sea, bringing your essence with her.",
+      "Your name is a spell, I will chant it, searching for our memories in the twinkling stars.",
+      "In the silence of the gatherings, the stillness becomes a longing. The king's face appears like a light in the eyes.",
+      "Today, I will sing for you, my life, my dear, like a melody.",
+      "In your beautiful eyes, don't sleep all day, my dear.",
+      "I have come to sing for the golden moon, my dear.",
+      "In two eyes, life flows silently, silently. The flower in the heart has fallen sadly, sadly.",
+      "Is the universe burning? Will the full moon endure? Will my sun sleep in this morning?",
+      "In dreams, I want to join you, if I spread my wings, will they become a symbol here?",
+      "In your beautiful eyes, the goddess comes and crosses the waves of the sea, bringing your essence with her.",
+      "I will wait for you, standing close with the moon and the pearl necklace.",
+      "In your beautiful eyes, the goddess comes and crosses the waves of the sea, bringing your essence with her."
+    ]
+  }
 }

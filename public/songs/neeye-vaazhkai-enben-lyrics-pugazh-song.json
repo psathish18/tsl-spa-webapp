@@ -103,5 +103,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:54:18.912Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pugazh",
+      "arijit singh",
+      "na. muthukumar",
+      "vivek – mervin",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and devotion, emphasizing how essential the beloved is to life.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Pugazh</em>, this song highlights the protagonist's emotional journey and his connection with his love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Arijit Singh</strong> and composed by <strong>Vivek – Mervin</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on <strong>August 12, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Neeye Vaazhkai Enben</strong>, the protagonist expresses his profound love and reliance on his partner, making it a quintessential romantic ballad. The song's soothing melody and heartfelt lyrics evoke a sense of longing and devotion, perfectly encapsulating the emotions of love. As it unfolds in the movie <em>Pugazh</em>, it serves as a poignant reminder of the significance of love in one's life. The combination of Arijit Singh's emotive singing and the evocative composition creates a lasting impact on the listener.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Neeye Vaazhkai Enben</strong> from the <em>Pugazh</em> movie is a heartfelt melody that beautifully captures the essence of love and longing. With Arijit Singh's soulful voice and the poignant lyrics by Na. Muthukumar, this song resonates deeply with anyone who has experienced love. The collaboration between Vivek – Mervin's music and Arijit's vocals creates an unforgettable listening experience.",
+    "stanzaMeanings": [
+      "You are my life, I will say this. From now on, every day I live is enough for me, my world is you.",
+      "You are my love, I will say this. From now on, my life will live because of you, my world is you.",
+      "I am smiling a little, I am feeling a bit shy. Even if I understand, oh, I am lost in the hands of love.",
+      "You are my life, I will say this. From now on, every day I live is enough for me, my world is you.",
+      "I am searching for a word to say. The moment I see you, why do I feel drawn to you?",
+      "Because of your gaze, I am getting lost. Ah, at this moment, I am also getting lost in thoughts.",
+      "If love is a swing, then give me a swing. I will dance like your hair. I will change like your beauty.",
+      "You are my life, I will say this. From now on, every day I live is enough for me, my world is you.",
+      "You are my love, I will say this. From now on, my life will live because of you, my world is you.",
+      "I am smiling a little, I am feeling a bit shy. Even if I understand, oh, I am lost in the hands of love.",
+      "You are my life, I will say this. You are enough for me, my world is you."
+    ]
+  }
 }

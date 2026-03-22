@@ -43,5 +43,41 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:55.010Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "va quarter cutting",
+      "andrea jeremiah",
+      "kumararaja",
+      "gv prakashkumar",
+      "upbeat",
+      "dance",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Thediyae Thediyae</strong> conveys a sense of joy and celebration, reflecting the carefree spirit of youth.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song is featured in <em>Va Quarter Cutting</em>, highlighting moments of fun and camaraderie among friends.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Andrea Jeremiah</strong> and composed by <strong>GV PrakashKumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Thediyae Thediyae</strong> was released on <strong>September 3, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Thediyae Thediyae</strong>, the upbeat rhythm and playful lyrics encapsulate the carefree moments of youth, making it a perfect anthem for celebrations. The song showcases the vibrant energy of friendship and joy, resonating with anyone looking to have a good time. Set against the backdrop of <em>Va Quarter Cutting</em>, it enhances the film's lighthearted narrative. Andrea Jeremiah's captivating vocals combined with GV PrakashKumar's lively composition create an infectious vibe that uplifts the spirit.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Thediyae Thediyae</strong> from <em>Va Quarter Cutting</em> is a vibrant celebration of life and joy, brought to life by the enchanting voice of Andrea Jeremiah. With GV PrakashKumar's catchy music and Kumararaja's clever lyrics, this song captures the essence of youthful exuberance. It's the perfect track to elevate any party atmosphere and keep spirits high!",
+    "stanzaMeanings": [
+      "The eyes are searching for something, like a light that guides us. Our dreams are like a spark in the sky, shining brightly in the right moment.",
+      "The eyes are searching for something, like a light that guides us. Our dreams are like a spark in the sky, shining brightly in the right moment.",
+      "My life is moving like a wave, dancing like a child. Things come and go without notice, like everything is just a game. My luck is also changing.",
+      "I have found what I was looking for, like a light in my eyes. Our dreams are living like a spark, shining brightly in my life, like stars in the sky.",
+      "Oh... Happiness spreads everywhere, like a child playing on a swing. Things come and go in front of me, and when I see them, they seem to be just a game. My joy will also be fulfilled."
+    ]
+  }
 }
