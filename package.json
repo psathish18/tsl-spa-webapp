@@ -11,6 +11,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "analyze": "ANALYZE=true npm run build",
+    "generate-sitemap": "tsx scripts/generate-sitemap.ts",
     "generate-song-json": "tsx scripts/generate-song-json.ts",
     "generate-song-json:test": "tsx scripts/generate-song-json.ts --test-one",
     "generate-song-json:ai": "tsx scripts/generate-song-json.ts --use-ai",

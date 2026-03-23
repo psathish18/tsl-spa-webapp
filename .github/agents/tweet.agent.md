@@ -20,7 +20,7 @@ When I use these keywords, execute the corresponding logic:
 ## 🛠 Analysis Logic
 1. **Persona Mapping:** - If `singerName` includes "Anirudh", "Vishal Mishra", or "Vijay" -> Use **MASS/HYPE** tone (🔥, 🦁, 🥁).
    - If `singerName` includes "Sid Sriram", "Chinmayi", or "ARR" -> Use **SOULFUL/POETIC** tone (✨, ❤️, 🌊).
-2. **Link Engine:** - Construct every link as: `https://www.tsonglyrics.com/[slug].html` (Slug MUST be pulled from the JSON).
+2. **Link Engine:** - Construct every link as: `https://tsonglyrics.com/[slug].html` (Slug MUST be pulled from the JSON).
 
 ## 📝 Content Guidelines
 ### 1. The X (Twitter) Hook

@@ -142,7 +142,7 @@ Creating post 1/3...
   🎨 Generating OG image...
   ✅ Generated inline SVG
   💾 Saved locally: og-lyrics-romantic-abc123.png
-  https://www.tsonglyrics.com/og-images/og-lyrics-romantic-abc123.png
+  https://tsonglyrics.com/og-images/og-lyrics-romantic-abc123.png
 ```
 
 ### Local Development (With GCS)

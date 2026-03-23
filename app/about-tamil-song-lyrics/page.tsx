@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Learn about Tamil Song Lyrics (tsonglyrics.com) — a fan-created website dedicated to sharing Tamil movie and independent song lyrics since 2010. Meet the team and our mission.',
   keywords: 'about Tamil Song Lyrics, tsonglyrics, Tamil lyrics website, Tamil music fan site',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/about-tamil-song-lyrics',
+    canonical: 'https://tsonglyrics.com/about-tamil-song-lyrics',
   },
 }
 

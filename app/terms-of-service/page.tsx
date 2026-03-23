@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Terms of service for tsonglyrics.com. Read our terms and conditions for using the Tamil Song Lyrics website.',
   keywords: 'terms of service, terms and conditions, Tamil song lyrics, usage policy',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/terms-of-service',
+    canonical: 'https://tsonglyrics.com/terms-of-service',
   },
 }
 
@@ -148,7 +148,7 @@ export default function TermsOfServicePage() {
           </p>
           <ul className="list-none text-gray-700 space-y-2">
             <li>📧 <strong>Email:</strong> <a href="mailto:admin@tsonglyrics.com" className="text-blue-600 hover:underline">admin@tsonglyrics.com</a></li>
-            <li>🌐 <strong>Website:</strong> <a href="https://www.tsonglyrics.com" className="text-blue-600 hover:underline">www.tsonglyrics.com</a></li>
+            <li>🌐 <strong>Website:</strong> <a href="https://tsonglyrics.com" className="text-blue-600 hover:underline">tsonglyrics.com</a></li>
           </ul>
         </section>
       </article>

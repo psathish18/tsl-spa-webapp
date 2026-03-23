@@ -3,7 +3,7 @@ import { getAllSongs } from '@/lib/songCache'
 import { REVALIDATE_SITEMAP } from '@/lib/cacheConfig'
 import { getSlugFromSong } from '@/lib/slugUtils'
 
-const BASE_URL = 'https://www.tsonglyrics.com'
+const BASE_URL = 'https://tsonglyrics.com'
 const ITEMS_PER_SITEMAP = 1000
 
 // Static pages (included in sitemap 0 only)

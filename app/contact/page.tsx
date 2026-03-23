@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Get in touch with Tamil Song Lyrics. Contact us for copyright concerns, song requests, feedback, or any queries about our Tamil lyrics website.',
   keywords: 'contact, Tamil song lyrics, feedback, copyright, song request',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/contact',
+    canonical: 'https://tsonglyrics.com/contact',
   },
 }
 

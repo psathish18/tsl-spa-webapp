@@ -198,7 +198,7 @@ function parseModelJson(raw: string): LyricistEnriched | null {
 
 function buildHtmlPageUrl(slug: string): string {
   const cleanSlug = slug.replace(/\.html$/, '');
-  return `https://www.tsonglyrics.com/${cleanSlug}.html`;
+  return `https://tsonglyrics.com/${cleanSlug}.html`;
 }
 
 function normalizeTitleForMatch(title: string): string {

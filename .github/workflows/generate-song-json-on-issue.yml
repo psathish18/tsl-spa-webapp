@@ -110,8 +110,8 @@ jobs:
             exit 0
           fi
           
-          # Assuming the domain is tsonglyrics.com, adjust if needed
-          DOMAIN="https://www.tsonglyrics.com"
+          # Keep revalidation aligned with the apex canonical domain.
+          DOMAIN="https://tsonglyrics.com"
           
           echo "Revalidating song pages after blob upload..."
           

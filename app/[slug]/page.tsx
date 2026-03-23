@@ -50,6 +50,8 @@ const StanzaMeaningToggle = dynamic(() => import('../../components/StanzaMeaning
 // Related songs component
 import RelatedSongs from '@/components/RelatedSongs'
 
+const SITE_URL = 'https://tsonglyrics.com'
+
 // Enable ISR for song pages - revalidate every 30 days
 // Extended to reduce CPU usage on free tier
 // Use manual revalidation API for immediate updates: /api/revalidate?path=/song-slug.html
@@ -70,7 +72,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   // If data is from blob, use the optimized SEO metadata
   if (fromBlob && blobData) {
     const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
-    const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+    const canonicalUrl = `${SITE_URL}/${canonicalSlug}`
     
     return {
       title: blobData.seo.title,
@@ -132,7 +134,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   // console.log("description", description)
   // Ensure slug has .html extension for canonical URL
   const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
-  const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+  const canonicalUrl = `${SITE_URL}/${canonicalSlug}`
   
   // Build keywords from categories
   
@@ -772,7 +774,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 {
                   "@type": "MusicRecording",
                   "name": cleanTitle,
-                  "url": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`,
+                  "url": `${SITE_URL}/${params.slug.replace('.html', '')}.html`,
                   "description": structuredDescription,
                   "keywords": (() => {
                     const baseKeywords = generateKeywords(song, metadata);
@@ -838,7 +840,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   "publisher": {
                     "@type": "Organization",
                     "name": "Tamil Song Lyrics",
-                    "url": "https://www.tsonglyrics.com"
+                    "url": SITE_URL
                   },
                   // Add occasion context for better search understanding
                   ...(blobData?.enrichedMetadata?.occasions?.length && {
@@ -859,7 +861,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                     "item": {
                       "@type": "MusicRecording",
                       "name": relatedSong.title,
-                      "url": `https://www.tsonglyrics.com/${relatedSong.slug}.html`,
+                      "url": `${SITE_URL}/${relatedSong.slug}.html`,
                       ...(relatedSong.movieName && {
                         "inAlbum": {
                           "@type": "MusicAlbum",
@@ -882,19 +884,19 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                       "@type": "ListItem",
                       "position": 1,
                       "name": "Home",
-                      "item": "https://www.tsonglyrics.com"
+                      "item": SITE_URL
                     },
                     ...(movieName ? [{
                       "@type": "ListItem",
                       "position": 2,
                       "name": movieName,
-                      "item": `https://www.tsonglyrics.com/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
+                      "item": `${SITE_URL}/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
                     }] : []),
                     {
                       "@type": "ListItem",
                       "position": movieName ? 3 : 2,
                       "name": cleanTitle,
-                      "item": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`
+                      "item": `${SITE_URL}/${params.slug.replace('.html', '')}.html`
                     }
                   ]
                 },
@@ -1054,7 +1056,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 // Build snippet and share URLs using utility functions
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
-                const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                const pageWithPath = `${SITE_URL}/${params.slug.replace('.html','')}.html`;
                 // const label = getStanzaLabel(idx, tamilStanzas.length);
                 
                 const twitterHref = buildTwitterShareUrl({
@@ -1113,7 +1115,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   // Build snippet and share URLs using utility functions
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
-                  const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                  const pageWithPath = `${SITE_URL}/${params.slug.replace('.html','')}.html`;
                   // const label = getStanzaLabel(idx, stanzas.length);
                   
                   const twitterHref = buildTwitterShareUrl({

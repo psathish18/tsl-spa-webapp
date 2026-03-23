@@ -6,6 +6,8 @@ import { AdBanner } from '@/components/GoogleAdsense'
 import OneSignalSubscriptionCard from '@/components/OneSignalSubscriptionCard'
 import { REVALIDATE_HOMEPAGE, REVALIDATE_BLOGGER_FETCH } from '@/lib/cacheConfig'
 
+const SITE_URL = 'https://tsonglyrics.com'
+
 // Advanced revalidation config
 // Extended to 30 days to reduce CPU usage on free tier
 // Use manual revalidation API for immediate updates: /api/revalidate?path=/
@@ -89,17 +91,17 @@ export const metadata: Metadata = {
   description: 'Explore newly added Tamil song lyrics with movie, singer and lyricist credits. Read meanings, find short share-ready lyrics snippets, and post them on WhatsApp and social media.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/',
+    canonical: `${SITE_URL}/`,
   },
   openGraph: {
     title: 'Latest Tamil Song Lyrics | WhatsApp Status Snippets and Meanings',
     description: 'Explore newly added Tamil song lyrics with movie, singer and lyricist credits. Read meanings, find short share-ready lyrics snippets, and post them on WhatsApp and social media.',
     type: 'website',
-    url: 'https://www.tsonglyrics.com/',
+    url: `${SITE_URL}/`,
     siteName: 'Tamil Song Lyrics',
     images: [
       {
-        url: 'https://www.tsonglyrics.com/android-chrome-192x192.png',
+        url: `${SITE_URL}/android-chrome-192x192.png`,
         width: 192,
         height: 192,
         alt: 'Tamil Song Lyrics',
@@ -249,11 +251,11 @@ export default async function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebPage',
-            '@id': 'https://www.tsonglyrics.com/#webpage',
-            'url': 'https://www.tsonglyrics.com/',
+            '@id': `${SITE_URL}/#webpage`,
+            'url': `${SITE_URL}/`,
             'name': 'Tamil Song Lyrics - Latest Songs & Lyrics',
             'description': 'Discover the latest Tamil song lyrics, movie songs, and popular music.',
-            'isPartOf': { '@id': 'https://www.tsonglyrics.com/#website' },
+            'isPartOf': { '@id': `${SITE_URL}/#website` },
             'about': {
               '@type': 'Thing',
               'name': 'Tamil Song Lyrics',

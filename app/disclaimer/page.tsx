@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Disclaimer for tsonglyrics.com. Learn about content ownership, copyright policies, fair use, and usage terms for the Tamil Song Lyrics website.',
   keywords: 'disclaimer, Tamil song lyrics, copyright, content policy, fair use',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/disclaimer',
+    canonical: 'https://tsonglyrics.com/disclaimer',
   },
 }
 

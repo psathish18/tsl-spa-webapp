@@ -21,11 +21,15 @@ const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 const GAClient = dynamic(() => import('../components/GAClient'), { ssr: false })
 const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr: false })
 const HotPostOverlay = dynamic(() => import('../components/HotPostOverlay'), { ssr: false })
+const SITE_URL = 'https://tsonglyrics.com'
 
 export const metadata: Metadata = {
   title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
   description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
+  other: {
+    'google-adsense-account': 'ca-pub-4937682453427895',
+  },
   manifest: '/manifest.json',
   verification: {
     google: '844c4581a035ef16',
@@ -35,10 +39,10 @@ export const metadata: Metadata = {
     siteName: 'Tamil Song Lyrics',
     title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
     description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
-    url: 'https://www.tsonglyrics.com',
+    url: SITE_URL,
     images: [
       {
-        url: 'https://www.tsonglyrics.com/android-chrome-192x192.png',
+        url: `${SITE_URL}/android-chrome-192x192.png`,
         width: 192,
         height: 192,
         alt: 'Tamil Song Lyrics',
@@ -73,8 +77,8 @@ const siteStructuredData = {
   '@graph': [
     {
       '@type': 'WebSite',
-      '@id': 'https://www.tsonglyrics.com/#website',
-      'url': 'https://www.tsonglyrics.com',
+      '@id': `${SITE_URL}/#website`,
+      'url': SITE_URL,
       'name': 'Tamil Song Lyrics',
       'description': 'Latest Tamil movie song lyrics in Tanglish, Tamil script, and English meaning',
       'inLanguage': ['ta', 'en'],
@@ -82,19 +86,19 @@ const siteStructuredData = {
         '@type': 'SearchAction',
         'target': {
           '@type': 'EntryPoint',
-          'urlTemplate': 'https://www.tsonglyrics.com/search?q={search_term_string}',
+          'urlTemplate': `${SITE_URL}/search?q={search_term_string}`,
         },
         'query-input': 'required name=search_term_string',
       },
     },
     {
       '@type': 'Organization',
-      '@id': 'https://www.tsonglyrics.com/#organization',
+      '@id': `${SITE_URL}/#organization`,
       'name': 'Tamil Song Lyrics',
-      'url': 'https://www.tsonglyrics.com',
+      'url': SITE_URL,
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://www.tsonglyrics.com/android-chrome-192x192.png',
+        'url': `${SITE_URL}/android-chrome-192x192.png`,
         'width': 192,
         'height': 192,
       },
