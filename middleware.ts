@@ -2,14 +2,6 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-
-  // Redirect non-www to www (301 permanent redirect for SEO)
-  const hostname = request.headers.get('host') || '';
-  if (hostname === 'tsonglyrics.com' || hostname.startsWith('tsonglyrics.com:')) {
-    const newUrl = request.nextUrl.clone();
-    newUrl.host = 'www.' + hostname;
-    return NextResponse.redirect(newUrl, 301);
-  }
   
   // Block non-essential bot crawlers to save edge requests
   // These bots don't provide SEO value and consume ~30-40% of edge quota
@@ -111,12 +103,12 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico, robots.txt, sitemap.xml (legitimate static files)
-     * - ads.txt / app-ads.txt (IAB/AdSense publisher file - MUST be served without any redirect)
+    * - ads.txt / app-ads.txt (IAB/AdSense publisher file - MUST be served without any redirect)
      * - manifest.json (PWA manifest)
      *
-     * IMPORTANT: ads.txt must bypass middleware so the non-www→www redirect does NOT apply.
-     * IAB spec forbids following redirects to a subdomain for ads.txt; www is treated as
-     * a subdomain, so tsonglyrics.com/ads.txt → www.tsonglyrics.com/ads.txt causes "Not found".
+    * IMPORTANT: ads.txt must bypass middleware so app-level URL normalization never touches it.
+    * IAB spec forbids following redirects to a subdomain for ads.txt; www is treated as
+    * a subdomain, so tsonglyrics.com/ads.txt → www.tsonglyrics.com/ads.txt causes "Not found".
      *
      * Everything else goes through middleware for validation
      */
