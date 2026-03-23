@@ -41,5 +41,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:18:22.538Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "ninaivirukkum varai",
+      "oothikinnu kadichikkava",
+      "deva",
+      "krishnaraj",
+      "palani bharathi",
+      "romantic",
+      "melody",
+      "1999"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions related to love and longing, capturing the essence of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Ninaivirukkum Varai</em>, the song plays during a pivotal moment that highlights the characters' emotional connection.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented voices of <strong>Deva</strong> and <strong>Krishnaraj</strong>, with music composed by <strong>Deva</strong> himself.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oothikinnu Kadichikkava</strong> was released on February 5, 1999.</p></div></div>",
+    "summary": "In <strong>Oothikinnu Kadichikkava</strong>, the heartfelt lyrics and melodious composition create a romantic atmosphere that resonates with listeners. The song reflects the emotions of love and longing, making it a perfect fit for moments of celebration and connection. As the characters navigate their feelings, the music enhances the narrative, evoking nostalgia and warmth. This timeless piece remains a cherished favorite among fans of Tamil cinema.",
+    "releaseYear": "1999",
+    "high_ctr_intro": "<strong>Oothikinnu Kadichikkava</strong> from <em>Ninaivirukkum Varai</em> is a mesmerizing duet that beautifully captures the essence of love and nostalgia. With the enchanting voices of Deva and Krishnaraj, this song takes listeners on an emotional journey. The unique collaboration of heartfelt lyrics by Palani Bharathi and Deva's soulful composition makes it a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "When it gets stuck, it gets released; when it gets released, it gets stuck. We can sing when it gets stuck, and we can sing when it gets released.",
+      "It is getting stuck, it is getting stuck; the city is getting stuck. Look at our country, it is getting stuck; many people are dancing.",
+      "When it gets stuck, it gets released; when it gets released, it gets stuck. We can sing when it gets stuck, and we can sing when it gets released.",
+      "Look at the light, see the light; the light shines like the day. Look at the light, it will hit the road like a heavy vehicle.",
+      "Look at the crowd, see the crowd; it shows colors. Look at the eyes, see the sight; it will earn money. Look at the bill, it will charge you.",
+      "",
+      "Think about it, think about it; touch your heart and think about it. Look at the crowd, see the body that is in a good shape.",
+      "Look at the head that has gone; see the leg that has gone. Look at the eyes that have rolled; see the one that has fallen down.",
+      "Poor thing, they made him say he is hungry!!",
+      ""
+    ]
+  }
 }

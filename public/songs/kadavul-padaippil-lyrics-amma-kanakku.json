@@ -68,5 +68,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjow4I8q2Lu60GJdKA4lo62sFc8rDypUWQ_g9B9AL574miGYANbbcppLqle401k00AJvQrhzoJ5rJBkn-MowK7uOJttMEd2p4X5XG31nn8C3VpUfWhedX5nR2uV_3UtNF9GisBiHS2AZvE/s400-c/Amma+Kanakku.jpg",
   "generatedAt": "2026-02-01T13:01:04.075Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "soothing",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "amma kanakku",
+      "haricharan",
+      "ilaiyaraaja",
+      "devotional",
+      "soothing",
+      "2016",
+      "tamil song",
+      "melody",
+      "theme",
+      "motivational"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadavul Padaippil</strong>?</h4><p>The song celebrates the divine creation and the unique bond between a mother and her child.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Amma Kanakku</em>?</h4><p>The music for <em>Amma Kanakku</em> was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kadavul Padaippil</strong>?</h4><p>The song is sung by the talented <strong>Haricharan</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Amma Kanakku</em> released?</h4><p>The movie <em>Amma Kanakku</em> was released in <strong>2016</strong>.</p></div></div>",
+    "summary": "<strong>Kadavul Padaippil</strong> is a poignant song from the movie <em>Amma Kanakku</em>, highlighting the wonders of creation and the special role of a mother. The lyrics, penned by Ilaiyaraaja, evoke a sense of awe and gratitude towards the divine. Haricharan's soulful rendition adds depth to the song, making it a soothing and motivational piece. The song beautifully conveys the message of love and reverence for motherhood, resonating with listeners on a deep emotional level.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Kadavul Padaippil</strong> from the movie <em>Amma Kanakku</em> is a soul-stirring melody that beautifully captures the essence of creation and motherhood. Sung by Haricharan with music by the legendary Ilaiyaraaja, this song is a heartfelt tribute to the divine bond between a mother and child. Experience the soothing and motivational vibes that make this track a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "In God's creation, there are many wonders, each one a beautiful miracle for every living being.",
+      "In general, everything here is given for the sake of humanity, and a mother was created and given.",
+      "The highest among living beings is this human birth.",
+      "Even higher than that is our mother. There is nothing like a mother here, and if you realize that, nothing compares to it.",
+      ""
+    ]
+  }
 }

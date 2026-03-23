@@ -68,5 +68,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj306VZzuxYJhcb8eVEdaG-17ahINZwLne0ZwVw-hj6s6_Fzagd2ky03SD1fQk3vSR1caGxMi5VeEOTlLOKh7mKtAQOVnLclOl_2miaI1UfwLnDLwmYOQYpBnvZe3g5PakehSyVFxMCDJQ/s400-c/Thirumanam-Enum-Nikkah.jpg",
   "generatedAt": "2026-01-18T13:01:33.048Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "wedding",
+      "anniversary",
+      "valentine's day"
+    ],
+    "keywords": [
+      "thirumanam ennum nikkah",
+      "kannukkul pothivaippen",
+      "charulatha mani",
+      "sadhana sargam",
+      "vijay prakash",
+      "m ghibran",
+      "parvathi",
+      "romantic",
+      "melody",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannukkul Pothivaippen</strong>?</h4><p>The song is a romantic melody that expresses deep affection and longing.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Thirumanam Ennum Nikkah</em>?</h4><p>The music was composed by <strong>M Ghibran</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the song?</h4><p>The song was released in <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of the song?</h4><p>The song is sung by <strong>Charulatha Mani</strong>, <strong>Sadhana Sargam</strong>, and <strong>Vijay Prakash</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song is set in a romantic context, highlighting the blossoming love between the lead characters.</p></div></div>",
+    "summary": "The song <strong>Kannukkul Pothivaippen</strong> from the movie <em>Thirumanam Ennum Nikkah</em> is a romantic melody that beautifully captures the essence of love and longing. Sung by Charulatha Mani, Sadhana Sargam, and Vijay Prakash, the song conveys deep emotions through its soothing melody and heartfelt lyrics by Parvathi. M Ghibran's composition enhances the romantic feel, making it perfect for weddings and anniversaries. The song evokes a sense of warmth and affection, making it a favorite among couples.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Kannukkul Pothivaippen</strong> from <em>Thirumanam Ennum Nikkah</em> is a mesmerizing melody that beautifully captures the essence of romance. With the enchanting voices of Charulatha Mani, Sadhana Sargam, and Vijay Prakash, combined with M Ghibran's soulful composition, this song is a treat for the senses. Dive into a world of love and emotion with this captivating track.",
+    "stanzaMeanings": [
+      "",
+      "I will keep you in my eyes, my dear, come. Let's dance together in rhythm.",
+      "I often want to hold you, my dear. Come, show me your hand. Come, my mischievous dear.",
+      "I will keep you in my eyes, my dear, come. Let's dance together in rhythm.",
+      "I often want to hold you, my dear. Come, show me your hand. Come, my mischievous dear.",
+      "A small spark of love turns into a big ocean. Every drop fills the space, searching for the heart's flutter. Why this playful teasing?",
+      "Moon, without saying, you tell me. Your words are in my heart. I think of you. I wish to walk holding your hand.",
+      "The soul searches for something, the mind follows it. Alone, they run on the same path. Lies face each other, truths become whatever they are and pass by.",
+      "Like a mirror's edge, thoughts are sharp. Without you, everything seems different. I endure because of you.",
+      "In the joy of your smile, I tie flowers to the tree of happiness.",
+      ""
+    ]
+  }
 }

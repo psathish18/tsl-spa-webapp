@@ -90,5 +90,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje67JsFkDmpgGy34r2tiDUDIZQHcXhfr2R8i1HTAcpYtwAeiiQGwbWqQDYjCSPoXZcoNin3t-SmJI6GlfUQ0oXuxsh9Hnp3GSHu7bpjWOxqD6wGepyw2_n0TWgGPYh27wfWFxpYJ00-g/s400-c/Sarkar+Oru+Viral+Puratchi+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:43:00.618Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "theme"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "festivals"
+    ],
+    "keywords": [
+      "sarkar",
+      "ar rahman",
+      "vivek",
+      "energetic",
+      "motivational",
+      "2018",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru Viral Puratchi</strong> conveys themes of empowerment and social change, encouraging listeners to take action and make a difference.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Sarkar</em>, the song serves as a rallying cry for the protagonist, highlighting his mission to challenge the status quo.</p></div><div class=\"faq-item\"><h4>Who is the singer and lyricist of the song?</h4><p>The song is sung by <strong>AR Rahman</strong> and the lyrics are penned by <strong>Vivek</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru Viral Puratchi</strong> was released on <strong>September 30, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Viral Puratchi</strong>, the protagonist's journey towards social reform is encapsulated through an energetic and motivational melody. The song's vibrant beats and powerful lyrics inspire listeners to embrace change and take action. It serves as a pivotal moment in <em>Sarkar</em>, reflecting the film's core themes of empowerment and activism. The emotions conveyed through AR Rahman's composition resonate deeply, making it a memorable anthem for celebrations.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Oru Viral Puratchi</strong> from <em>Sarkar</em> is an electrifying anthem that captures the spirit of change and empowerment. With AR Rahman's dynamic composition and Vivek's impactful lyrics, this song resonates with anyone seeking motivation. Experience the powerful vibes that make this track a must-listen for every celebration!",
+    "stanzaMeanings": [
+      "Yesterday was a struggle, today is the beginning of a fight.",
+      "",
+      "Is there a revolution happening? Is there awareness?",
+      "Don't let the truth be hidden; is your growth based on ignorance?",
+      "There is a fire ready to strike back. The blackness shines in the light of the revolution.",
+      "Why are you sleeping? After gaining wealth, where have you gone? What have you lost your dignity for?",
+      "Is there a revolution happening? Is there awareness?",
+      "When we ask questions together, don't let your hands stop there.",
+      "A new world begins with the writing of a brave person.",
+      "There are statues at the shores. Our voices and blood have a price. Here, only pain remains. Rise up, oh birds!",
+      "I will take justice silently. In the land of dreams, I have closed the stories.",
+      "Where is the rule of the people? We have crossed the borders and seen the truth.",
+      "In the streets, the struggles are visible. We celebrate with tears in our eyes.",
+      "Is there a revolution happening? Is there awareness?",
+      "Don't let the truth be hidden; is your growth based on ignorance?",
+      "What have you lost your dignity for? You have fought against the future.",
+      "",
+      ""
+    ]
+  }
 }

@@ -68,5 +68,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:18:31.659Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "classical"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "uyire",
+      "s janaki",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melancholic",
+      "1998",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Nenjinilae Nenjinilae</strong> expresses deep feelings of love and longing, beautifully capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Uyire</em>, this song reflects the protagonist's emotional journey and connection with their beloved, enhancing the film's romantic narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the legendary <strong>S Janaki</strong>, known for her soulful voice and emotive singing style.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Nenjinilae Nenjinilae</strong> was composed by the acclaimed <strong>AR Rahman</strong>, who is renowned for his innovative musical style.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 21, 1998</strong>, as part of the film <em>Uyire</em>.</p></div></div>",
+    "summary": "In <strong>Nenjinilae Nenjinilae</strong>, the protagonist's yearning for love is beautifully articulated through S Janaki's soulful rendition. The song serves as a poignant backdrop in <em>Uyire</em>, highlighting the emotional depth of the characters' relationship. With AR Rahman's enchanting composition and Vairamuthu's evocative lyrics, it evokes feelings of nostalgia and romance. This melody is a timeless classic that resonates with anyone who has experienced the beauty of love.",
+    "releaseYear": "1998",
+    "high_ctr_intro": "<strong>Nenjinilae Nenjinilae</strong> from <em>Uyire</em> is a mesmerizing melody that captures the essence of love and longing. With the enchanting voice of S Janaki and the magical composition by AR Rahman, this song transcends time and evokes deep emotions. Experience the lyrical beauty penned by Vairamuthu that resonates with every heart.",
+    "stanzaMeanings": [
+      "",
+      "In my heart, in my heart",
+      "In my heart, in my heart, I see dreams in my eyes.",
+      "In my heart, in my heart, I see dreams in my eyes. My dreams of marriage are blooming in my mind.",
+      "In my heart, I see dreams.",
+      "The gaze will blow like a breeze, and life will shine brightly. When the right time comes, will the gold melt?",
+      "When the world's sound fades, will the sound of life begin? I will also write clouds in the sky.",
+      "In my heart, in my heart, I see dreams in my eyes. My dreams of marriage are blooming in my mind.",
+      "In my heart, I see dreams.",
+      "Why did I wear the saffron? It is only for the pearl. Why did I let go of the veil? It is only for the time of separation.",
+      "Why do flowers wither on the bed? We seek new meanings in the lights.",
+      "In my heart, in my heart, I see dreams in my eyes. My dreams of marriage are blooming in my mind.",
+      "In my heart, I see dreams.",
+      "In my heart, in my heart, in my heart."
+    ]
+  }
 }

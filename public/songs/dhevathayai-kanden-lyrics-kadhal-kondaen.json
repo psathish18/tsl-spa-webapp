@@ -46,5 +46,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:15:59.251Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak"
+    ],
+    "keywords": [
+      "kadhal kondaen",
+      "harish ragavendra",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2003",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Dhevathayai Kanden'?</h4><p>The song expresses deep feelings of love and longing, portraying the emotions of a lover who feels connected to their beloved.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Kadhal Kondaen'?</h4><p>This song plays during a pivotal moment in the film, highlighting the protagonist's emotional turmoil and affection for their partner.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Harish Ragavendra</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Dhevathayai Kanden' released?</h4><p>The song was released on <strong>July 4, 2003</strong>.</p></div></div>",
+    "summary": "In 'Dhevathayai Kanden', the protagonist expresses profound love and yearning, encapsulating the essence of romantic emotions. The song's soothing melody and heartfelt lyrics create a nostalgic atmosphere, resonating with anyone who has experienced love. It beautifully conveys the struggles and joys of being in love, making it a perfect fit for moments of reflection and connection. This enchanting track remains a favorite for romantic occasions, evoking deep feelings in listeners.",
+    "releaseYear": "2003",
+    "high_ctr_intro": "<strong>Dhevathayai Kanden</strong> from the movie <em>Kadhal Kondaen</em> is a mesmerizing melody that captures the essence of love and longing. With Harish Ragavendra's soulful voice and Yuvan's enchanting composition, this song takes listeners on an emotional journey. The heartfelt lyrics by Na Muthukumar beautifully express the depths of romance, making it a timeless classic.",
+    "stanzaMeanings": [
+      "I saw a goddess and fell in love, if my life merges with hers.",
+      "If my heart is tied up and filled, if my face changes because of it.",
+      "A colored butterfly came searching for my path, only its colors remain with my finger today.",
+      "I placed my finger in the fire, I built a house with the sand.",
+      "I saw a goddess...",
+      "Goddess, goddess, goddess, goddess, she is a goddess, goddess, goddess, goddess, goddess.",
+      "With my eyes, a drop of water flows, my love, if you understand, that is enough.",
+      "Without losing, a memory flows, what is the reason, if your presence blows near, my breath will be taken away.",
+      "On the seashore, flowers bloom, the waves do not come together, how much love, how much desire, do not change, do not change, the earth's dream is breaking apart.",
+      "I saw a goddess...",
+      "Oh friend, at one moment, you are a disaster in my life, my heart will fade away.",
+      "By speaking, you have surrounded me, by changing directions, you have become blind to my love.",
+      "In the wind, the leaves fall, the anger does not go away, your anger is here, if I take it, where will I go, my life and my downfall are all about you.",
+      "I saw a goddess and fell in love, if my life merges with hers.",
+      "If my heart is tied up and filled, if my face changes because of it.",
+      "A colored butterfly came searching for my path, only its colors remain with my finger today.",
+      "I placed my finger in the fire, I built a house with the sand.",
+      "I saw a goddess and fell in love, if my life merges with hers.",
+      "If my heart is tied up and filled, if my face changes because of it."
+    ]
+  }
 }

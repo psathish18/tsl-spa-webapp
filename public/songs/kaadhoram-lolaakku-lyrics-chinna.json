@@ -51,5 +51,61 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:53.504Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "chinna maappillai",
+      "prabhu",
+      "vaali",
+      "ilaiyaraaja",
+      "mano",
+      "s janaki",
+      "romantic",
+      "1993",
+      "tamil cinema",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaadhoram Lolaakku</strong>?</h4><p>The song is a lively and romantic duet that captures the playful essence of love.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Mano</strong> and <strong>S. Janaki</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Chinna Maappillai</em>?</h4><p>The music was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>What is the significance of the song in the movie?</h4><p>The song adds a joyful and romantic element to the film, enhancing the chemistry between the lead characters.</p></div></div>",
+    "summary": "Set in the vibrant backdrop of the movie <em>Chinna Maappillai</em>, <strong>Kaadhoram Lolaakku</strong> is a delightful romantic duet that showcases the playful dynamics of love. Sung by the talented duo Mano and S. Janaki, the song is enriched by Ilaiyaraaja's melodious composition and Vaali's engaging lyrics. It captures the essence of youthful romance and joy, making it a memorable piece in Tamil cinema. The song's lively rhythm and charming lyrics evoke a sense of nostalgia and happiness, perfect for celebrations and joyous occasions.",
+    "releaseYear": "1993",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Kaadhoram Lolaakku</strong> from the movie <em>Chinna Maappillai</em>. This delightful duet, featuring the magical voices of Mano and S. Janaki, is brought to life by Ilaiyaraaja's enchanting music. Dive into a nostalgic journey with Vaali's captivating lyrics that perfectly complement the song's lively rhythm.",
+    "stanzaMeanings": [
+      "The bell at the door is telling a story, the wind is blowing behind you.",
+      "The bell at the door is telling a story, the wind is blowing behind you.",
+      "When I looked at your face, I forgot my own.",
+      "The bell at the door is telling a story, the bell at the door.",
+      "I waited for days for the groom I love.",
+      "You came, and I found my match at the doorstep.",
+      "Your playful street has no mirrors in our town.",
+      "The girl who fell in love came searching for the boy.",
+      "I was born to touch you, and I grew up every day.",
+      "The bell at the door is telling a story, the wind is blowing behind you.",
+      "The bell at the door is telling a story, the bell at the door.",
+      "The rainbow gives light, and there is money to be earned.",
+      "Without a beautiful girl like you, I would be poor.",
+      "I will always be your property, tied as you wish.",
+      "Touch me up and down, beat me like a drum.",
+      "I waited for you, watching for your arrival.",
+      "The bell at the door is telling a story, the wind is blowing behind you.",
+      "When I looked at your face, I forgot my own.",
+      "The bell at the door is telling a story, the wind is blowing behind you.",
+      "The bell at the door is telling a story, the wind is blowing behind you.",
+      ""
+    ]
+  }
 }

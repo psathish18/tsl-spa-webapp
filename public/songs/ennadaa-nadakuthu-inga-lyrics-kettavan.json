@@ -49,5 +49,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7eVNRurSSY6qeSj7EA5_UK9Ir2rZHcxYrC2P1-rnFyGCNXliHcskD5UZw57MmfdInlFs1FNTVe_kgsFGJScLu834hZQWnczMR18ue2t8nCC3Kwn4Ih4FeyUnnsZhWI7b0dN38vxVrjMs/s400-c/kettavan-mp3-tamil+-+Copy.jpg",
   "generatedAt": "2026-02-01T13:06:01.327Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "wedding"
+    ],
+    "keywords": [
+      "kettavan",
+      "simbu",
+      "ennadaa nadakuthu inga",
+      "romantic",
+      "melancholic",
+      "2011",
+      "lyrics",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Ennadaa Nadakuthu Inga</strong> expresses feelings of love and longing, reflecting the emotional turmoil of a romantic relationship.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Kettavan</em>, the song plays during a pivotal moment that highlights the protagonist's struggles with love and separation.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Simbu</strong>, who is also the lyricist. The music director is currently unknown.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Ennadaa Nadakuthu Inga</strong> was released on <strong>August 14, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Ennadaa Nadakuthu Inga</strong>, the protagonist grapples with the complexities of love and heartbreak, making it a poignant addition to the soundtrack of <em>Kettavan</em>. The song's melancholic tone and heartfelt lyrics evoke a deep sense of longing and emotional vulnerability. Simbu's soulful rendition enhances the song's impact, making it relatable to anyone who has experienced love's ups and downs. Overall, this melody beautifully encapsulates the essence of romantic turmoil.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Ennadaa Nadakuthu Inga</strong> from <em>Kettavan</em> is a soulful melody that beautifully captures the essence of love and longing. Simbu's heartfelt vocals combined with poignant lyrics create a captivating experience that resonates with anyone who has loved deeply. This song is a must-listen for fans of romantic Tamil music, showcasing Simbu's unique artistry.",
+    "stanzaMeanings": [
+      "",
+      "What is happening here? Are you with me? What is happening here? Are you with me?",
+      "I nurtured love as if it was my own, if it goes away, it will live on, that's how it is. I fought with love, I searched for it too...",
+      "I became a love that is abandoned, I left without being seen. I became a love that is abandoned, I left without being seen.",
+      ""
+    ]
+  }
 }

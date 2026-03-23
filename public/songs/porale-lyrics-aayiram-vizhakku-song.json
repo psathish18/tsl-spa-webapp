@@ -47,5 +47,42 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:31:26.355Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "aayiram vilakku",
+      "porale",
+      "karthik",
+      "vairamuthu",
+      "srikanth deva",
+      "romantic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Porale'?</h4><p>'Porale' conveys deep emotions of love and longing, beautifully expressed through Vairamuthu's lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Aayiram Vilakku</em>, the song reflects the protagonist's feelings of affection and connection with their beloved.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Srikanth Deva</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Porale' released?</h4><p>'Porale' was released on <strong>August 22, 2010</strong>.</p></div></div>",
+    "summary": "The song 'Porale' from <em>Aayiram Vilakku</em> beautifully encapsulates the emotions of love and longing. With Karthik's soulful rendition, the track evokes a sense of nostalgia and happiness. The lyrics by Vairamuthu add depth to the romantic theme, making it a perfect fit for celebrations and special occasions. Overall, the song resonates with listeners, leaving a lasting impression of heartfelt affection.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Porale</strong> from the movie <em>Aayiram Vilakku</em> is a delightful melody that captures the essence of love and nostalgia. Sung beautifully by Karthik, this song showcases the poetic brilliance of Vairamuthu and the enchanting music of Srikanth Deva. Experience the magic of this romantic track that resonates with heartfelt emotions and timeless charm.",
+    "stanzaMeanings": [
+      "",
+      "Little one, my heart is fluttering, fluttering, fluttering. Little one, come here, my heart is trembling, trembling, trembling. ",
+      "Like a little one going away, what has come and gone around? Like a hen that has been caught, it has come and gone near. There is no need to catch someone like you."
+    ]
+  }
 }

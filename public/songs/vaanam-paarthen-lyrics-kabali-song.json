@@ -98,5 +98,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRem3rMMgSNtyVH5-QoqnT2FeI49dvo72T7KD5rS81nBhWi07AN6Wr47rj1fKJtZ_bBVfTq82Ldf6Fci98VEPnnHdHkbUYHDmDgf-EfpGtvqshe2YNygSg0OkLxEmCB0AF6tTBf_jPSvg/s400-c/IMG_20160610_094551.jpg",
   "generatedAt": "2026-01-18T12:50:47.388Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kabali",
+      "pradeep kumar",
+      "kabilan",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Vaanam Paarthen</strong>, the protagonist expresses a deep sense of longing and emotional turmoil, reflecting on love and separation. The song's lyrics, penned by Kabilan, evoke feelings of nostalgia and heartache, making it a perfect fit for moments of reflection. Set against the backdrop of the movie <em>Kabali</em>, this track enhances the narrative of love lost and the yearning that follows. The soothing melody, sung by Pradeep Kumar, adds to the emotional weight, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Vaanam Paarthen</strong> from <em>Kabali</em> is a mesmerizing melody that beautifully captures the essence of longing and love. With Pradeep Kumar's soulful voice and Kabilan's poignant lyrics, this song resonates deeply with anyone who has experienced the bittersweet nature of romance. Dive into the emotional depths of this track and let it take you on a journey of heartfelt memories.",
+    "stanzaMeanings": [
+      "",
+      "Every day, I run like a river, searching for the sea.",
+      "Is there no end to this loneliness? After the breeze passes, will I live?",
+      "In my restless heart, you are the one who is unending.",
+      "I have seen the sky, the fallen stars are here, my heart is aching.",
+      "I feel like you have gone far away today.",
+      "The heart that beats here is like a song, where have you gone?",
+      "I am asking for a place to rest without closing my eyes.",
+      "I sang to the earth, looking at the clouds without seeing the rain.",
+      "You are not here, but I have become the shadow searching for the truth.",
+      "I have seen the sky, the fallen stars are here, my heart is aching.",
+      "I have seen you everywhere, in my dreams and thoughts, will you come back again?",
+      "Every day, I run like a river, searching for the sea.",
+      "Is there no end to this loneliness? I am like a fish caught in thorns.",
+      "Let there be no more time, let us hold hands.",
+      "I have seen the sky, the fallen stars are here, my heart is aching.",
+      ""
+    ]
+  }
 }

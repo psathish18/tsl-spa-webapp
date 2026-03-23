@@ -90,5 +90,37 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:25.120Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "kaala",
+      "kaala kannamma",
+      "english meaning",
+      "2018",
+      "romantic",
+      "melody",
+      "tamil song",
+      "movie kaala",
+      "lyrics translation",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of <strong>Kaala Kannamma</strong>?</h4><p>The song explores themes of love and longing, with lyrics that express deep emotions and affection.</p></div><div class=\"faq-item\"><h4>In which movie does the song <strong>Kaala Kannamma</strong> appear?</h4><p>The song is featured in the movie <em>Kaala</em>.</p></div><div class=\"faq-item\"><h4>Who are the singer and music director of <strong>Kaala Kannamma</strong>?</h4><p>The singer and music director are currently unknown.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Kaala Kannamma</strong> released?</h4><p>The song was released in 2018.</p></div></div>",
+    "summary": "<strong>Kaala Kannamma</strong> is a captivating melody from the film <em>Kaala</em>, reflecting themes of love and yearning. The song's lyrics convey a deep sense of longing and affection, making it resonate with anyone who has experienced profound emotions. Its soothing composition and heartfelt delivery create an atmosphere of romance and introspection. This track beautifully complements the film's narrative, adding depth to the emotional journey of the characters.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Kaala Kannamma</strong> from the movie <em>Kaala</em> is a soul-stirring melody that beautifully captures the essence of love and longing. The song's poignant lyrics and soothing tune make it a perfect backdrop for moments of reflection and romance. Dive into the emotional depth of this track and experience the magic it brings to the film's narrative."
+  }
 }

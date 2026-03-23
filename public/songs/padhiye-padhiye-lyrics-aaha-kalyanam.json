@@ -99,5 +99,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM_NX44RBjfxX448FUEJEwVaafSIYaU5ILpKkHQFD484-z_TXIxJKAE5i0XV5c7a0lP-61S4eKlhWmfDiHgHUPxLfna374_M2-nDVVmBY0ENeP5JsI4PRUQyt06t0oDiZ-CGR47JAqTiM/s400-c/aaha-kalyanam.jpg",
   "generatedAt": "2026-02-01T13:05:58.578Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration"
+    ],
+    "keywords": [
+      "aaha kalyanam",
+      "padhiye padhiye",
+      "abhay jodhpurkar",
+      "shakthisree gopalan",
+      "karky",
+      "dharan kumar",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Padhiye Padhiye'?</h4><p>The song expresses deep romantic feelings and longing, highlighting the emotions of love and connection.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Aaha Kalyanam'?</h4><p>In <em>Aaha Kalyanam</em>, the song plays during a romantic sequence, showcasing the chemistry between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Padhiye Padhiye'?</h4><p>The song is sung by <strong>Abhay Jodhpurkar</strong> and <strong>Shakthisree Gopalan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Padhiye Padhiye' was composed by <strong>Dharan Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Padhiye Padhiye' released?</h4><p>The song was released on <strong>January 22, 2014</strong>.</p></div></div>",
+    "summary": "In 'Padhiye Padhiye', the romantic duet beautifully encapsulates the emotions of love and longing between the lead characters in <em>Aaha Kalyanam</em>. The song's lyrics, penned by Karky, convey a heartfelt message of connection and desire. With the melodious voices of Abhay Jodhpurkar and Shakthisree Gopalan, it evokes feelings of joy and happiness. This enchanting track is perfect for celebrating love on special occasions.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Padhiye Padhiye</strong> from the movie <em>Aaha Kalyanam</em> is a captivating duet that beautifully captures the essence of romance. With the enchanting voices of Abhay Jodhpurkar and Shakthisree Gopalan, this song is a melodic journey through love's tender moments. The collaboration of Karky's heartfelt lyrics and Dharan Kumar's vibrant composition makes this track a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "Why have you come into my life? I am going away under half a shadow, searching for you with my eyes.",
+      "You are here, I feel you in my thoughts. Your fragrance stays in my hands, and I will shed tears for you.",
+      "",
+      "I am like a wave, hiding my pain like a flower. I lose my face, and I will search for you in my thoughts.",
+      "You are not here, I feel you in my thoughts. Your fragrance stays in my hands, and I will shed tears for you.",
+      "Why have you come into my life? I am going away under half a shadow, searching for you with my eyes.",
+      "You are here, I feel you in my thoughts. Your fragrance stays in my hands, and I will shed tears for you.",
+      "Why have you come into my life?"
+    ]
+  }
 }

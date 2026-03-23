@@ -49,5 +49,59 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzASi-3nTt_y6gbaA57L3D25rWU6szqMOlpNWcF7LH6IGBn69vD3laEDQ6edsDT9r0x_Te5pqyWSd6HN-nY2M-_npUlvBS67hk3veHNRHTLNM-jl_01xjMAcy3W3hxCc9Fw-Aek552lqo/s400-c/Leelai+-+Oru+Kili+Oru+Kili+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:12:55.831Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "leelai",
+      "oru kili oru kili",
+      "satish chakravarthy",
+      "shreya ghoshal",
+      "romantic",
+      "melody",
+      "2009",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Kili Oru Kili</strong>, the lyrics express a deep sense of love and longing, perfectly encapsulating the emotions of the characters in <em>Leelai</em>. The song serves as a romantic backdrop, highlighting the beauty of connection and affection. With its soothing melody, it evokes feelings of warmth and tenderness, making it ideal for intimate moments. The collaboration between the singers adds a rich layer of emotion, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Oru Kili Oru Kili</strong> from <em>Leelai</em> beautifully captures the essence of romance with its enchanting melodies. The unique collaboration between <strong>Satish Chakravarthy</strong> and the melodious <strong>Shreya Ghoshal</strong> creates an unforgettable listening experience. Dive into this soothing duet that perfectly complements the film's romantic narrative.",
+    "stanzaMeanings": [
+      "",
+      "A small bird, a small bird, I seek your permission to touch you.",
+      "A small drop, a small drop, a small drop flows from the eyes.",
+      "I live within you, I reveal the details, I reveal them.",
+      "I realize that I am not me, but only for you.",
+      "I extend like a shadow.",
+      "",
+      "A small bird, a small bird, I seek your permission to touch you.",
+      "A small drop, a small drop, a small drop flows from the eyes.",
+      "This is not just an eye, this finger is a sign of life, not just a sleep for you.",
+      "In the midst of illusions, I will avoid the deception. If you come in my sight, I will stop you.",
+      "Even if I have to say something, it won't come out.",
+      "Time will pass, just like the sky will change its appearance.",
+      "A small bird, a small bird, I seek your permission to touch you. A small drop, a small drop, a small drop flows from the eyes.",
+      "Like a distant cloud, I have come searching for you like a bird. I have come here looking for you.",
+      "Like a pond, your gaze has captured me. I am lost in your hands.",
+      "My friend, your touch is like a gentle breeze.",
+      "My friend, your hands are my pride.",
+      "A small bird, a small bird, I seek your permission to touch you. A small drop, a small drop, a small drop flows from the eyes.",
+      "I live within you, I reveal the details, I reveal them.",
+      "I realize that I am not me, but only for you.",
+      "I extend like a shadow."
+    ]
+  }
 }

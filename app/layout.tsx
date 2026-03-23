@@ -21,12 +21,40 @@ const GTM_ID = process.env.NEXT_PUBLIC_GA_ID;
 const GAClient = dynamic(() => import('../components/GAClient'), { ssr: false })
 const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr: false })
 const HotPostOverlay = dynamic(() => import('../components/HotPostOverlay'), { ssr: false })
+const SITE_URL = 'https://tsonglyrics.com'
 
 export const metadata: Metadata = {
-  title: 'Tamil Song Lyrics - Latest Tamil Songs',
-  description: 'Discover the latest Tamil song lyrics with translations. Find your favorite Tamil songs, artists, and lyrics all in one place.',
+  title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
+  description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
+  other: {
+    'google-adsense-account': 'ca-pub-4937682453427895',
+  },
   manifest: '/manifest.json',
+  verification: {
+    google: '844c4581a035ef16',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'Tamil Song Lyrics',
+    title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
+    description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
+    url: SITE_URL,
+    images: [
+      {
+        url: `${SITE_URL}/android-chrome-192x192.png`,
+        width: 192,
+        height: 192,
+        alt: 'Tamil Song Lyrics',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@tsongslyrics',
+    title: 'Tamil Song Lyrics in Tamil, Tanglish and English Meaning | Shareable Snippets',
+    description: 'Read latest Tamil song lyrics in Tamil script, Tanglish and English meaning. Discover short lyrics snippets you can share on WhatsApp status and social media.',
+  },
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -43,6 +71,50 @@ export const metadata: Metadata = {
   },
 }
 
+// Site-wide JSON-LD structured data (WebSite + Organization)
+const siteStructuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      'url': SITE_URL,
+      'name': 'Tamil Song Lyrics',
+      'description': 'Latest Tamil movie song lyrics in Tanglish, Tamil script, and English meaning',
+      'inLanguage': ['ta', 'en'],
+      'potentialAction': {
+        '@type': 'SearchAction',
+        'target': {
+          '@type': 'EntryPoint',
+          'urlTemplate': `${SITE_URL}/search?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      'name': 'Tamil Song Lyrics',
+      'url': SITE_URL,
+      'logo': {
+        '@type': 'ImageObject',
+        'url': `${SITE_URL}/android-chrome-192x192.png`,
+        'width': 192,
+        'height': 192,
+      },
+      'sameAs': [
+        'https://twitter.com/tsongslyrics',
+        'https://tsonglyricsapp.blogspot.com',
+      ],
+      'contactPoint': {
+        '@type': 'ContactPoint',
+        'email': 'admin@tsonglyrics.com',
+        'contactType': 'customer support',
+      },
+    },
+  ],
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -52,6 +124,22 @@ export default function RootLayout({
     <html lang="en"> 
       {/* Google Tag Manager and Google Analytics (in <head>) */}
       <head>
+        {/* Theme initialization script - runs before page render to prevent FOUC */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var theme = localStorage.getItem('theme') || 'blue';
+                  document.documentElement.classList.add('theme-' + theme);
+                } catch (e) {
+                  document.documentElement.classList.add('theme-blue');
+                }
+              })();
+            `,
+          }}
+        />
+        
         {/* Preconnect to critical domains */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
@@ -64,6 +152,12 @@ export default function RootLayout({
             crossOrigin="anonymous"
           />
         )}
+
+        {/* Site-wide structured data: WebSite + Organization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteStructuredData) }}
+        />
       </head>
   <body className="min-h-screen" style={{ backgroundColor: 'var(--bg)' }}>
         {/* Header */}
@@ -118,26 +212,29 @@ export default function RootLayout({
                 <ul className="space-y-2">
                   <li><a href="/" className="header-link transition-colors">Home</a></li>
                   <li>
-                <a href="/tamil-song-lyrics-in-english.html">
-                  Tamil Songs Lyrics With English Meaning
-                </a>
-              </li>
+                    <a href="/tamil-song-lyrics-in-english.html" className="header-link transition-colors">
+                      Tamil Songs With English Meaning
+                    </a>
+                  </li>
+                  <li><a href="/contact" className="header-link transition-colors">Contact Us</a></li>
                 </ul>
               </div>
 
-              {/* Support */}
+              {/* Legal */}
               <div>
-                <h3 className="font-semibold text-lg mb-4">Support</h3>
+                <h3 className="font-semibold text-lg mb-4">Legal</h3>
                 <ul className="space-y-2">
-                  <li><a href="/about" className="header-link transition-colors">About Us</a></li>
-                  <li><a href="/privacy" className="header-link transition-colors">Privacy Policy</a></li>
-                  <li><a href="/terms" className="header-link transition-colors">Terms of Service</a></li>
+                  <li><a href="/about-tamil-song-lyrics" className="header-link transition-colors">About Us</a></li>
+                  <li><a href="/privacy-policy-tamil-song-lyrics-app" className="header-link transition-colors">Privacy Policy</a></li>
+                  <li><a href="/terms-of-service" className="header-link transition-colors">Terms of Service</a></li>
+                  <li><a href="/disclaimer" className="header-link transition-colors">Disclaimer</a></li>
                 </ul>
               </div>
             </div>
 
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2026 Tamil Song Lyrics. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Tamil Song Lyrics (tsonglyrics.com). All rights reserved.</p>
+              <p className="text-sm mt-1">Lyrics are the property of their respective owners and are provided for educational and informational purposes only.</p>
             </div>
           </div>
         </footer>

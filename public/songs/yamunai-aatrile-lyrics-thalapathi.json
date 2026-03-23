@@ -31,5 +31,42 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:09.109Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "yamunai aatrile",
+      "thalapathi",
+      "mitali banerjee bhawmik",
+      "ilayaraja",
+      "vaali",
+      "romantic",
+      "1991",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yamunai Aatrile'?</h4><p>The song conveys themes of love and longing, depicting a romantic connection through beautiful imagery.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Thalapathi'?</h4><p>In <strong>Thalapathi</strong>, the song reflects the emotional bond between the characters, enhancing the narrative of love and sacrifice.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Yamunai Aatrile'?</h4><p>The song is sung by <strong>Mitali Banerjee Bhawmik</strong> and composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Yamunai Aatrile' released?</h4><p>The song was released on <strong>November 5, 1991</strong>.</p></div></div>",
+    "summary": "In <strong>Yamunai Aatrile</strong>, the lyrical beauty unfolds a tale of love set against the backdrop of the river Yamuna. The song encapsulates the emotions of yearning and affection, resonating deeply with listeners. It serves as a poignant reminder of the bonds we cherish, making it a timeless classic. The soothing melody and heartfelt lyrics create an atmosphere of nostalgia, inviting listeners to reflect on their own experiences of love.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "<strong>Yamunai Aatrile</strong> from <em>Thalapathi</em> is a mesmerizing melody that captures the essence of love and longing. With the enchanting voice of Mitali Banerjee Bhawmik and the masterful composition by Ilaiyaraaja, this song transports listeners to a world of romantic nostalgia. Experience the magic of this classic that beautifully intertwines heartfelt lyrics and soulful music.",
+    "stanzaMeanings": [
+      "In the flow of the Yamuna, in the breeze, Krishna dances. Look at the path where the flower blooms, is Radha singing?",
+      "Night and day pass, even without a king. The young girl is not hidden, she is found everywhere.",
+      "Is Krishna not in the cowherd's song? Is love not a longing? Is Krishna not in the cowherd's song? Is love not a longing? Poor Radha...",
+      "In the flow of the Yamuna, in the breeze, Krishna dances. Look at the path where the flower blooms, is Radha singing?"
+    ]
+  }
 }

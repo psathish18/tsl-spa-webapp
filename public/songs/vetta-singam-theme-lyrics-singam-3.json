@@ -97,5 +97,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwHV9tZjK-w6fetLA3uRXggaRivxxudZEQq7K50jHnBvfaT_qz6sefJZuNGGvYb9zsPHUbeudy6kcfPk5IIzmHQet2S2L62RVynRIUiih7PUY4NBMJmj3ANFx1X0S43oelGOsBztdWfcI/s400-c/Capture1.JPG",
   "generatedAt": "2026-01-18T12:48:43.583Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "theme",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "singam 3",
+      "mc vicky",
+      "harrish jeyaraj",
+      "energetic",
+      "motivational",
+      "theme",
+      "2016",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Vetta?</h4><p>The song <strong>Vetta</strong> conveys themes of strength and determination, reflecting the protagonist's journey in <strong>Singam 3</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <strong>Singam 3</strong>, the song serves as a powerful theme that underscores the hero's resolve and action-packed moments.</p></div><div class=\"faq-item\"><h4>Who is the singer of Vetta?</h4><p>The song is sung by <strong>MC Vicky</strong>, known for his energetic performances.</p></div><div class=\"faq-item\"><h4>Who composed the music for Singam 3?</h4><p>The music for <strong>Singam 3</strong> was composed by <strong>Harrish Jeyaraj</strong>, who is renowned for his impactful soundtracks.</p></div><div class=\"faq-item\"><h4>When was Vetta released?</h4><p><strong>Vetta</strong> was released on <strong>November 27, 2016</strong>.</p></div></div>",
+    "summary": "The song <strong>Vetta (Singam Theme)</strong> from <em>Singam 3</em> serves as a powerful anthem that embodies the spirit of the film's protagonist. With its energetic beats and motivational lyrics, it evokes feelings of strength and determination. The song plays a crucial role in highlighting the hero's journey and challenges throughout the movie. Its dynamic composition by Harrish Jeyaraj and compelling vocals by MC Vicky make it a standout track that resonates with fans.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Vetta (Singam Theme)</strong> from <em>Singam 3</em> is an electrifying anthem that captures the essence of determination and strength. With MC Vicky's powerful vocals and Harrish Jeyaraj's dynamic composition, this track is sure to pump you up. Experience the thrill of the Singam saga through this unforgettable theme song!",
+    "stanzaMeanings": [
+      "",
+      "Come, come, come, come, a little bit, a little bit, a little bit, a little bit",
+      "Come, come, crow, come, a little bit, a little bit, a little bit",
+      "Lion, lion, Durai lion, the pride is everywhere",
+      "Come, come, come, come",
+      "Lion, lion, Durai lion, the pride is everywhere",
+      "Come, come, come, come"
+    ]
+  }
 }

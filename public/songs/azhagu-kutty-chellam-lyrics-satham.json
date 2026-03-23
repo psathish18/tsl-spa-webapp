@@ -49,5 +49,61 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:24.682Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "satham podathey",
+      "azhagu kutty chellam",
+      "shankar mahadevan",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2007"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep affection and the emotional connection between loved ones, highlighting moments of joy and nostalgia.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Satham Podathey</em>, the song reflects the protagonist's feelings towards his beloved, capturing the essence of their relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Shankar Mahadevan</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>June 14, 2007</strong>.</p></div></div>",
+    "summary": "In <strong>azhagu kutty chellam</strong>, the protagonist expresses his love and longing through heartfelt lyrics and a soothing melody. The song encapsulates the joy and warmth of romantic moments, making it a perfect fit for celebrations like weddings and anniversaries. With its nostalgic vibe, it evokes emotions that resonate deeply with listeners, reminding them of their cherished memories. The collaboration between Shankar Mahadevan's powerful voice and Yuvan's captivating music creates an unforgettable experience.",
+    "releaseYear": "2007",
+    "high_ctr_intro": "<strong>azhagu kutty chellam</strong> from <em>Satham Podathey</em> is a heartwarming melody that beautifully captures the essence of love and nostalgia. With Shankar Mahadevan's soulful vocals and Yuvan's enchanting composition, this song resonates with anyone who has cherished moments with their loved ones. Dive into the lyrical magic penned by Na Muthukumar that makes this track a timeless classic.",
+    "stanzaMeanings": [
+      "Beautiful little darling, when you sleep, your tiny fingers touch me and my heart breaks apart.",
+      "I got lost in the smile of your eyes, and I won't turn back now.",
+      "You are my doll, you are my treasure, you are my little one.",
+      "In the language you know, I can't speak; I don't know how to talk in the language you understand.",
+      "What is this new talk among us? Why does the heart speak with such curiosity?",
+      "Beautiful little darling, when you sleep, your tiny fingers touch me and my heart breaks apart.",
+      "I got lost in the smile of your eyes, and I won't turn back now.",
+      "With two hands holding a rose, the story speaks; your beauty tells tales of the full moon.",
+      "When will this unending sorrow end? What is this bond that always brings me back to you?",
+      "Which country has he taken over? This is a royal entrance, a royal entrance.",
+      "Beautiful little darling, when you sleep, your tiny fingers touch me and my heart breaks apart.",
+      "I got lost in the smile of your eyes, and I won't turn back now.",
+      "If you join the earth, we can build a home; if you sing a song, we can create music.",
+      "Without a dance, you will leave; like a god without worries, you will go away.",
+      "Show me the way, my dear, with your smile, my king.",
+      "Beautiful little darling, when you sleep, your tiny fingers touch me and my heart breaks apart.",
+      "I got lost in the smile of your eyes, and I won't turn back now.",
+      "You are my doll, you are my treasure, you are my little one.",
+      "In the language you know, I can't speak; I don't know how to talk in the language you understand.",
+      "What is this new talk among us? Why does the heart speak with such curiosity?",
+      "Beautiful little darling, when you sleep, your tiny fingers touch me and my heart breaks apart.",
+      "I got lost in the smile of your eyes, and I won't turn back now."
+    ]
+  }
 }

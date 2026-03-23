@@ -42,5 +42,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJp-xeihPm00kq9qK9JAuNndkQ20JDuNmsifjGDkk11bFLqrga7BXy2S02cK8nn1ZZV4Z6gBQs8OEAeKWPWqdBaTeR_o4__uPjWgUGGT_d2TINNGbZN0jsQGIbu5ZclGXFNisM7P7KdPQ/s400-c/Enna+Vittu+Pogadaiyya+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:59:07.616Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "enna vittu pogadaiyya",
+      "pragathi",
+      "adithi deborah chakravarthy",
+      "augustine rajendran",
+      "romantic",
+      "melancholic",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Enna Vittu Pogadaiyya'?</h4><p>The song expresses feelings of longing and love, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The movie for this song is currently unknown.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Enna Vittu Pogadaiyya'?</h4><p>The song is sung by <strong>Pragathi</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by <strong>Augustine Rajendran</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Enna Vittu Pogadaiyya' released?</h4><p>The song was released on <strong>June 19, 2014</strong>.</p></div></div>",
+    "summary": "The song 'Enna Vittu Pogadaiyya' is a heartfelt expression of love and longing, beautifully rendered by Pragathi. It evokes a sense of nostalgia and melancholy, making it perfect for romantic occasions. The lyrics convey deep emotions, reflecting the struggles and joys of love. With its soothing melody, this song is ideal for moments of relaxation and reflection.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Enna Vittu Pogadaiyya</strong> is a mesmerizing melody that beautifully captures the essence of longing and love. With Pragathi's soulful vocals and Augustine Rajendran's enchanting music, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. Dive into the emotional depths of this track and let its soothing vibes transport you to a world of heartfelt emotions.",
+    "stanzaMeanings": [
+      "",
+      "What have I lost, tell me, is it just my body that has been taken away?",
+      "You always give me kisses in my dreams!",
+      "Tell me, is the time I spent holding your hand not enough?",
+      "When I share my work with you, is there no love in it?",
+      "Is the love we have for each other real?",
+      "What have I lost, tell me, is it just my body?",
+      "I cried in front of that god. Did I not express my love?",
+      "You always give me kisses in my dreams!",
+      "Tell me, is the time I spent holding your hand not enough?",
+      "When I share my work with you, is there no love in it?",
+      "Is the love we have for each other real?",
+      "What have I lost, tell me, is it just my body?",
+      ""
+    ]
+  }
 }

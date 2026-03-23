@@ -84,5 +84,60 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXoLJ9vgJbjujFIdUpZAroGN_0VG_9ZsKOFwBnpksMU6c4u2RIvLCdCqDzYU5of4ttXV9NUuK4DI2MYQ0GSqMWaTO2ZN-8EW0t1ObUKtvXnpl7toJvTTTFDwtfjmEmoGSHnC94N1UAPJg/s400-c/kappal+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:56:54.621Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "kappal",
+      "saindhavi",
+      "sathya prakash",
+      "yuki praveen",
+      "natarajan shankaran",
+      "romantic",
+      "peppy",
+      "2014",
+      "tamil",
+      "movie song",
+      "kaadhal cassata"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaadhal Cassata</strong>?</h4><p>The song is a romantic and peppy number that celebrates love with a playful tone.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kaadhal Cassata</strong>?</h4><p>The song is sung by <strong>Saindhavi</strong>, <strong>Sathya Prakash</strong>, and <strong>Yuki Praveen</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Kappal</em>?</h4><p>The music for the movie <em>Kappal</em> was composed by <strong>Natarajan Shankaran</strong>.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Kaadhal Cassata</strong> released?</h4><p>The song was released on November 24, 2014.</p></div></div>",
+    "summary": "In the movie <em>Kappal</em>, <strong>Kaadhal Cassata</strong> captures the essence of youthful romance with its lively and playful lyrics. The song's upbeat tempo and catchy melody make it a favorite for celebrations and parties. It conveys the sweetness of love with a light-hearted and joyous tone. The combination of Saindhavi, Sathya Prakash, and Yuki Praveen's vocals with Natarajan Shankaran's music creates an infectious energy that resonates with listeners.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "Experience the delightful charm of <strong>Kaadhal Cassata</strong> from the movie <em>Kappal</em>. With the enchanting voices of Saindhavi, Sathya Prakash, and Yuki Praveen, this song brings a peppy and romantic vibe. Natarajan Shankaran's music adds a unique flavor that makes it irresistible.",
+    "stanzaMeanings": [
+      "",
+      "Is love like a cassata sweet in the heart?",
+      "You cast a sweet look like basundi. You spoke words like soft sponge cake.",
+      "Gulfi Barbie, don't touch my cheeks with your nose.",
+      "Don't tease me by placing almond sweets everywhere.",
+      "You cast a sweet look like basundi.",
+      "Is love like a cassata sweet in the heart?",
+      "Your fingers play on me like candy crush. Like ants in a candy shop, I dissolve in you. You are sweet like jamun and colorful like flowers.",
+      "Is love like a cassata sweet in the heart?",
+      "Yes. Your smile always makes me happy, but separation always hurts me. Looking into your eyes, I turn into an ice cube.",
+      "The sweet stall is sweet just by looking. Your glance pulls me in. Thinking of you makes my hormones sweet. When you come close, I feel cared for.",
+      "Sweet stall. Pulls me in, thinking of you, feeling cared for.",
+      "You ask for a chocolate kiss, but hesitate like a fly. You look at me, but hesitate to speak. Let the milk sweet overflow.",
+      "Why, like burfi, are you killing me?",
+      "Love is like a cassata sweet in the heart.",
+      "Gulfi, don't touch my cheeks with your nose.",
+      "Don't tease me by placing almond sweets everywhere.",
+      "You cast a sweet look like basundi. You spoke words like soft sponge cake.",
+      "There is no one like you, maybe there is, but I don't care."
+    ]
+  }
 }

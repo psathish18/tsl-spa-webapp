@@ -81,5 +81,39 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:25.951Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "96 movie",
+      "anthaathi",
+      "romantic",
+      "melancholic",
+      "2018",
+      "lyrics",
+      "english meaning",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Anthaathi?</h4><p>The song <strong>Anthaathi</strong> explores themes of love and longing, conveying deep emotions through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 96?</h4><p>In <em>96</em>, the song reflects the protagonist's memories and feelings towards a past love, enhancing the film's emotional depth.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of Anthaathi?</h4><p>The details about the singer and music director for <strong>Anthaathi</strong> are currently unknown.</p></div><div class=\"faq-item\"><h4>When was Anthaathi released?</h4><p><strong>Anthaathi</strong> was released on August 27, 2018.</p></div></div>",
+    "summary": "Anthaathi is a soulful melody that encapsulates the bittersweet essence of love and nostalgia. In the context of the movie <em>96</em>, it serves as a poignant reminder of cherished memories and unfulfilled desires. The song's lyrics evoke a deep emotional response, resonating with anyone who has experienced love's complexities. With its beautiful composition, Anthaathi stands out as a memorable piece that enhances the film's narrative.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Anthaathi</strong> captures the essence of love and longing, beautifully intertwining emotions that resonate deeply with listeners. The song's poignant lyrics and soulful melody evoke a sense of nostalgia, making it a perfect fit for romantic moments. Experience the magic of <em>96</em> as it takes you on a heartfelt journey through love's complexities.",
+    "stanzaMeanings": [
+      "The song expresses the essence of love, describing it as a behavior that is endless and filled with different shades. It emphasizes the search for love, which is present everywhere, and how it becomes everything we see. Love is portrayed as a sacrifice, and even when we can't find it, it remains unchanged and manifests in various ways. The lyrics metaphorically compare life to building a house in fire, swings in a forest, and living in water, highlighting the complexities of love. Love is depicted as tears, stars, and truths, and the song concludes with an invitation to embrace love until the end of life."
+    ]
+  }
 }

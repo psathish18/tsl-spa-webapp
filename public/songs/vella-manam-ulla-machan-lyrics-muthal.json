@@ -44,5 +44,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:04.141Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "muthal seethanam",
+      "vella manam ulla machan",
+      "malaysia vasudevan",
+      "nostalgic",
+      "melancholic",
+      "1992",
+      "old songs",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of longing and nostalgia, reflecting on past memories and emotions.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>This song is featured in the movie <strong>Muthal Seethanam</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Malaysia Vasudevan</strong>.</p></div><div class=\"faq-item\"><h4>What year was the song released?</h4><p>The song was released in <strong>1992</strong>.</p></div></div>",
+    "summary": "In <strong>Vella Manam Ulla Machan</strong>, the lyrics evoke a deep sense of nostalgia and longing, perfectly encapsulating the emotional turmoil of the characters in <em>Muthal Seethanam</em>. The song's soothing melody, paired with Malaysia Vasudevan's soulful voice, creates an atmosphere of reflection and melancholy. It conveys the bittersweet nature of memories, making it relatable to anyone who has experienced love and loss. This timeless piece continues to resonate with listeners, reminding them of the beauty and pain of cherished moments.",
+    "releaseYear": "1992",
+    "high_ctr_intro": "<strong>Vella Manam Ulla Machan</strong> is a haunting melody that resonates with the soul, capturing the essence of longing and nostalgia. This timeless classic from the <em>Muthal Seethanam</em> movie showcases the unparalleled vocal prowess of Malaysia Vasudevan, making it a must-listen for fans of old Tamil music. Dive into the emotional depths of this song and experience its captivating charm.",
+    "stanzaMeanings": [
+      "Vella Manam Ulla Machan Lyrics Muthal Seethanam",
+      "What is the feeling when I see you, my friend?",
+      "If I am nearby and you are resting, when will the time come?",
+      "What is the feeling when I see you, my friend?",
+      "A heart of stone pricks like a thorn, it falls into tears.",
+      "If I am beautiful nearby and you are beautiful, the time is now.",
+      "A heart of stone pricks like a thorn, it falls into tears.",
+      "I forgot the red flower and got caught in the thorn. Even in flowers, there is a snake, and that is the house for both.",
+      "If you think of the stone and the flower, everything will go away, but no one is here, not even Raman.",
+      "What is the feeling when I see you, my friend? It has come like a game.",
+      "If you are nearby, I will be in heaven. But I will still join you.",
+      "What is the feeling when I see you, my friend? It has come like a game.",
+      "When the bird leaves the nest, it joins with another. Will the pair of birds find happiness together?",
+      "Like a smile, I have mixed honey with the morning. A boy has come to our place, let’s enjoy a little more.",
+      "What is the feeling when I see you, my friend? It has come like a game.",
+      "If you are nearby, I will be in heaven. But I will still join you.",
+      "What is the feeling when I see you, my friend? It has come like a game.",
+      ""
+    ]
+  }
 }

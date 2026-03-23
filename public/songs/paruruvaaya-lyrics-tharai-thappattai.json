@@ -74,5 +74,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS_Z1H96k-3xD3E13LfF3NT6b6WT2wbT5tFfehDI4x9oyhTKVhIomHCsVA8iyEMWZIIeEo71OX5mcTVTYlrcY7FvpCBVH8TiZ7Cuoo-gUdOQ8WLFNPXQFPIL17b-CrrVHXO8UhHwJVQrQ/s400-c/Tharai+thappattai.jpg",
   "generatedAt": "2026-01-18T12:53:13.422Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "classical"
+    ],
+    "occasions": [
+      "relaxation",
+      "festivals"
+    ],
+    "keywords": [
+      "thaarai thappattai",
+      "paruruvaaya",
+      "sathya prakash",
+      "surmukhi",
+      "thiruvasagam",
+      "ilaiyaraaja",
+      "devotional",
+      "2015"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Paruruvaaya</strong>?</h4><p>The song conveys themes of devotion and the longing for divine connection, reflecting the spiritual essence of the lyrics.</p></div><div class=\"faq-item\"><h4>How does <strong>Paruruvaaya</strong> fit into the plot of <em>Thaarai Thappattai</em>?</h4><p>This song is pivotal in expressing the emotional and spiritual journey of the characters, enhancing the narrative's depth.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Paruruvaaya</strong>?</h4><p>The song is beautifully rendered by <strong>Sathya Prakash</strong> and <strong>Surmukhi</strong>, whose voices complement each other perfectly.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Paruruvaaya</strong>?</h4><p>The legendary <strong>Ilaiyaraaja</strong> composed the music, bringing his unique touch to this devotional piece.</p></div><div class=\"faq-item\"><h4>When was <strong>Paruruvaaya</strong> released?</h4><p>The song was released on <strong>December 28, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Paruruvaaya</strong>, the characters in <em>Thaarai Thappattai</em> express their deep spiritual yearnings through a blend of haunting melodies and profound lyrics. The song encapsulates themes of devotion, longing, and the quest for divine connection, evoking a sense of peace and reflection. With its soothing composition by Ilaiyaraaja, it resonates with listeners, inviting them into a world of tranquility and introspection. The harmonious collaboration of Sathya Prakash and Surmukhi further enhances the song's emotional depth.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Paruruvaaya</strong> from <em>Thaarai Thappattai</em> is a mesmerizing blend of soulful melodies and profound lyrics. With the enchanting voices of Sathya Prakash and Surmukhi, this song captures the essence of devotion and spirituality. Experience the magic of Ilaiyaraaja's composition that resonates deeply with the listener's heart.",
+    "stanzaMeanings": [
+      "",
+      "I need to be born again, I need to have faith.",
+      "Oh Lord with a pure heart, like a red flower, please bless me with your nectar in the midst of your devotees.",
+      "Please show your divine grace and uplift me, uplift me.",
+      "I need to be born again, I need to have faith.",
+      "With your great qualities, I can see everything.",
+      "Whether I am crazy or foolish, you are my Lord.",
+      "Oh Lord, you are the one who is precious and valuable.",
+      "Oh Lord, you are the one who is precious and valuable. You are the leader, and I have come to you; I will not be separated from you anymore, I will not be separated from you anymore."
+    ]
+  }
 }

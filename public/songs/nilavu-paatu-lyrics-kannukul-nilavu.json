@@ -44,5 +44,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:17:46.062Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classical"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "nilavu paatu",
+      "kannukul nilavu",
+      "hariharan",
+      "ilaiyaraaja",
+      "romantic",
+      "nostalgic",
+      "2000",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Nilavu Paatu</strong>?</h4><p>The song conveys deep emotions of love and nostalgia, reflecting on cherished memories.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Kannukul Nilavu</em>?</h4><p>In the movie, the song plays during a pivotal moment that highlights the romantic connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Nilavu Paatu</strong>?</h4><p>The song is sung by the talented <strong>Hariharan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Nilavu Paatu</strong>?</h4><p>The music for this beautiful song was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Nilavu Paatu</strong> released?</h4><p>The song was released on <strong>January 14, 2000</strong>.</p></div></div>",
+    "summary": "In <strong>Nilavu Paatu</strong>, the listener is enveloped in a soothing melody that beautifully expresses the feelings of love and nostalgia. The song serves as a backdrop to a significant moment in <em>Kannukul Nilavu</em>, where the characters reflect on their emotions and memories. With its heartfelt lyrics and enchanting composition, it evokes a sense of longing and tranquility. This timeless piece resonates with anyone who has experienced the sweetness of love.",
+    "releaseYear": "2000",
+    "high_ctr_intro": "<strong>Nilavu Paatu</strong> from <em>Kannukul Nilavu</em> is a mesmerizing melody that captures the essence of romance and nostalgia. With Hariharan's soulful voice and Ilaiyaraaja's enchanting composition, this song transports listeners to a world of serene emotions. Experience the magic of this timeless classic that resonates with love and longing.",
+    "stanzaMeanings": [
+      "",
+      "The moonlight song, I heard it one day in the bamboo grove.",
+      "The secret of that music is understood by two souls, but who here knows it?",
+      "In music, the blend and harmony are not seen in the daughter of music.",
+      "The moonlight song, I heard it one day in the bamboo grove.",
+      "Do dreams come from the desires of the eyes? Do poems come from the desires of the poet?",
+      "The place of the cuckoos can be known through music. The fragrance of blooming flowers cannot be expressed.",
+      "Cuckoos and flowers, their wonders are dreams, poems, and secrets.",
+      "The moonlight song, I heard it one day in the bamboo grove.",
+      "The moon has moved in the mind's paths. The rain has fallen, and the music is in the waves.",
+      "Who is that deity in the songs? Who is that lotus in the eyes?",
+      "This is a new kind of flight, music is always a wonder.",
+      "The moonlight song, I heard it one day in the bamboo grove.",
+      "The secret of that music is understood by two souls, but who here knows it?",
+      "In music, the blend and harmony are not seen in the daughter of music.",
+      "The moonlight song, I heard it one day in the bamboo grove.",
+      ""
+    ]
+  }
 }

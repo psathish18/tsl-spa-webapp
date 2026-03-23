@@ -98,5 +98,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg792ywhOIfyaNsoC69DEbE9uCuxEPzO4Gzu_1AWZNVn_nspSQyYxadqqyXlnrlh6pyr2lwTPsHGZ2HFzMw7rKFOLJJ-ZJoahdVHoxp8XghYeiQolZt5Id-mnpCWokkIIwrWpazJYPG448/s400-c/raja_rani.jpg",
   "generatedAt": "2026-01-18T13:03:06.807Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "raja rani",
+      "gv prakash kumar",
+      "shakthisree gopalan",
+      "pa vijay",
+      "romantic",
+      "melancholic",
+      "2013",
+      "tamil movie",
+      "tamil song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Imaye Imaye</strong>?</h4><p>The song explores themes of love, longing, and emotional separation.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Imaye Imaye</strong>?</h4><p>The song is sung by <strong>GV Prakash Kumar</strong> and <strong>Shakthisree Gopalan</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Raja Rani</em>?</h4><p>The song reflects the emotional journey of the characters as they navigate love and heartbreak.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Imaye Imaye</strong>?</h4><p>The lyrics were penned by <strong>Pa Vijay</strong>.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Imaye Imaye</strong> released?</h4><p>The song was released in <strong>2013</strong>.</p></div></div>",
+    "summary": "The song <strong>Imaye Imaye</strong> from the movie <em>Raja Rani</em> beautifully captures the emotions of love and longing. Sung by GV Prakash Kumar and Shakthisree Gopalan, the melody evokes a sense of melancholy and romance. The lyrics by Pa Vijay delve into the complexities of relationships and the pain of separation. This song plays a crucial role in the film, highlighting the emotional struggles of the characters and their journey towards understanding and acceptance.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the soulful blend of <strong>Imaye Imaye</strong> from the movie <em>Raja Rani</em>, where GV Prakash Kumar's mesmerizing composition meets the enchanting vocals of Shakthisree Gopalan. This romantic melody captures the essence of love and longing, making it a timeless favorite. Dive into the emotional depths of this song and let its soothing tunes transport you to another world.",
+    "stanzaMeanings": [
+      "Imaye Imaye, the eyelids move away, eyes, eyes separate. What is you, what is me, in the heart, in that moment, the sadness of separation is understood.",
+      "Will the sun shine on the path covered in mist? Will the words spoken by the heart reach your ears?",
+      "You have descended into my heart, blending with every part of me.",
+      "Imaye Imaye, the eyelids move away, eyes, eyes separate. What is you, what is me, in the heart, in that moment, the sadness of separation is understood.",
+      "When the wings spread, the sky looks like rain. What did the colors drawn by the wind do, my dear?",
+      ""
+    ]
+  }
 }

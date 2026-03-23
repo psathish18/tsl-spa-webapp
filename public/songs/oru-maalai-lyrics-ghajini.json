@@ -70,5 +70,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm5NhNPmLYZHPV27xhfNPUs8WPfs0irquoZB2ju0-6w8qXOrKGNDRiRfvqhrprinJbaR4RCzsnuVHS4VkdY0bOsgPWlhTZwPRH-8bCDmYPlfUg2UeFJGc4wtDsxbq4p1DrusSSV06Bbg/s400-c/Oru-Maalai.jpg",
   "generatedAt": "2026-02-01T13:00:08.567Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "ghajini",
+      "karthik",
+      "harrish jeyaraj",
+      "romantic",
+      "melancholic",
+      "2005",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Maalai</strong>, the protagonist reflects on the beauty of love and the fleeting moments that define it. The song encapsulates the emotions of longing and nostalgia, portraying a deep connection with a loved one. Set against the backdrop of <em>Ghajini</em>, it highlights the character's yearning and the impact of memories. The soothing melody and heartfelt lyrics evoke a sense of warmth and melancholy, making it a timeless romantic piece.",
+    "releaseYear": "2005",
+    "high_ctr_intro": "<strong>Oru Maalai</strong> from <em>Ghajini</em> is a mesmerizing melody that captures the essence of love and longing. With Karthik's soulful voice and Harrish Jeyaraj's enchanting composition, this song resonates deeply with anyone who has experienced the bittersweet moments of romance. Dive into the emotional depths of this beautiful track that perfectly complements the film's narrative.",
+    "stanzaMeanings": [
+      "A beautiful time in the sunlight without a garland.",
+      "A beautiful time in the sunlight without a garland; I saw her face in the midst of the chaos, and I lost myself.",
+      "She is like a sweet memory, and I stand here listening to the laughter of the past.",
+      "A young girl who speaks stands as a sweet moment in my life.",
+      "I have seen the essence of her beauty, I have seen it...",
+      "",
+      "A garland...",
+      "If I change my way of living over the four days that have passed,",
+      "If I buy and eat the food from the streets, it will show my attitude.",
+      "With a smile, she holds the light of life; I have changed myself for her.",
+      "That garland...",
+      "Listening to her beautiful words, I have spent the whole day enjoying.",
+      "Looking at her beauty, I have spent every night awake.",
+      "If I touch her face in the cold, tears will flow down. Oh, when I see her, I feel like I am lost.",
+      "I saw her face in the midst of the chaos, and I lost myself.",
+      "She is like a sweet memory, and I stand here listening to the laughter of the past.",
+      "A young girl who speaks stands as a sweet moment in my life.",
+      "I have seen the essence of her beauty, I have seen it...",
+      ""
+    ]
+  }
 }

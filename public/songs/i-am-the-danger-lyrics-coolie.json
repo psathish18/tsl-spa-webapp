@@ -78,5 +78,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLNpEHlKMxvirSsB3dtBYA6uEXgIPgrPMrQFxFa5rUZKi7GWkrbU2SZcd7rJbN3AiCBGBygmuFk9SmAQMCXYvlBvtIT2eA1uTtRizb4YGyVGNqv4F3FPFUYnaGPI8Z3_6v24uHp188mZUbVQbHvSjE30cM-vFJUQXCuC07k4YBcKsj5olJ1XJJwWSdKw/s400-c/KingPin on the floor.jpeg",
   "generatedAt": "2026-02-01T13:16:52.239Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive",
+      "workout"
+    ],
+    "keywords": [
+      "coolie",
+      "siddharth basrur",
+      "heisenberg",
+      "anirudh",
+      "energetic",
+      "dance number",
+      "2025"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a sense of confidence and bravado, with the protagonist asserting their dominance and fearlessness.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>This track likely accompanies a pivotal moment in <em>Coolie</em>, highlighting themes of power and excitement.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Siddharth Basrur</strong> and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on August 16, 2025.</p></div></div>",
+    "summary": "In <strong>I am the Danger</strong>, the protagonist embraces a bold and fearless persona, reflecting the high-stakes world depicted in <em>Coolie</em>. The energetic beats and catchy lyrics create an atmosphere of excitement and confidence, making it a perfect anthem for parties and celebrations. The song's theme revolves around asserting one's strength and charisma, evoking feelings of empowerment and thrill. Overall, it captures the essence of living life on the edge.",
+    "releaseYear": "2025",
+    "high_ctr_intro": "<strong>I am the Danger</strong> from <em>Coolie</em> is an electrifying anthem that showcases Siddharth Basrur's dynamic vocals paired with Anirudh's pulsating beats. This song captures the essence of thrill and excitement, making it perfect for any high-energy occasion. Get ready to feel the adrenaline rush as you dive into this captivating track!",
+    "stanzaMeanings": [
+      "All you mobsters, listen up.",
+      "We have 16, 24, 48 years. Put your hands up in the air and say cheers. We have girls available 24/7. Having guns and cocaine feels better than heaven. I'm just a smooth-talking guy, cool and a certified player. Stop talking nonsense because I'm not in danger; I am the danger.",
+      "All you mobsters, listen up. I have a big house by the sea, a lot of gold, champagne, and Hennessy. My money talks loudly, while yours barely makes a sound. I came from nothing, and now we own these streets. I'm just a smooth-talking professional, cool and a certified player.",
+      "Stop talking nonsense because I'm not in danger; I am the danger.",
+      "Kingpin on the floor, stop talking. Kingpin on the floor, don't speak anymore. Simon says, pour some more. Kingpin on the floor, stop talking. Simon says, light it up. Kingpin on the floor, stop talking. Simon says, pour some more. Kingpin on the floor, don't speak anymore. Simon says, light it up.",
+      "We talk quietly, but we're still certified players. Stop talking nonsense because I'm not in danger. All you mobsters.",
+      ""
+    ]
+  }
 }

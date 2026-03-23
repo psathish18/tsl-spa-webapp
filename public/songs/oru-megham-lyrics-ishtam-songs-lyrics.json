@@ -48,5 +48,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUPD81LKY01cVREbvZGZmIJ-wTppb85UOMJwQbjaMxC9pwI7nX5jrWqPF824amR-TXGPIoA4n6uanJb_gSwm3i7epxBno7EAwlW-Zg3uHonU_tF2CsDJH3wSDMfvF3vuCNY5g36VcwjO4/s400-c/Ishtam+TMS.jpg",
   "generatedAt": "2026-02-01T13:06:29.876Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "ishtam",
+      "oru megham",
+      "divya",
+      "mlr karthikeyan",
+      "thaman s",
+      "romantic",
+      "melancholic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oru Megham'?</h4><p>The song 'Oru Megham' conveys feelings of longing and emotional connection, reflecting on love and memories.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie 'Ishtam'?</h4><p>In the movie 'Ishtam', the song plays during a pivotal moment that highlights the protagonists' emotional journey and their relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Oru Megham'?</h4><p>The song is sung by <strong>Divya</strong> and <strong>MLR Karthikeyan</strong>, whose voices blend beautifully to create a romantic atmosphere.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Oru Megham'?</h4><p>The music for 'Oru Megham' was composed by <strong>Thaman S</strong>, known for his captivating melodies.</p></div><div class=\"faq-item\"><h4>When was 'Oru Megham' released?</h4><p>'Oru Megham' was released on <strong>April 27, 2012</strong>.</p></div></div>",
+    "summary": "In 'Oru Megham', the protagonists express their deep emotions and longing through a heartfelt duet. The song encapsulates the essence of love, portraying the bittersweet moments of reminiscence. With soothing melodies and poignant lyrics, it evokes a sense of nostalgia and warmth. The collaboration between Divya and MLR Karthikeyan, under Thaman S's direction, creates a memorable musical experience that resonates with listeners.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Oru Megham</strong> from the movie <em>Ishtam</em> beautifully captures the essence of longing and love. With the enchanting voices of Divya and MLR Karthikeyan, this duet is a soothing melody that resonates with the heart. Thaman S's musical composition elevates the emotional depth, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "I am not myself today, I ask why. The days without you, I say they are lost.",
+      "Without a cloud, without a drizzle, I feel my body completely. Life dances in the wind.",
+      "Without a word, without a sound, I have come singing a song. This is half heaven, half hell.",
+      "I have learned to lie, I cannot speak like a fool today.",
+      "Without a word, without a sound, I have come singing a song. This is half heaven, half hell.",
+      "In a sweet water, I cannot see the taste, I remember your name. Seeing you, I have made my song right, what a wonder that is.",
+      "Like something that is lost, I will sleep. I close my eyes and wonder what is happening.",
+      "Today, I am going into the depths of the sea. But still, I hear some music in my heart.",
+      "Without a word, without a sound, I have come singing a song. This is half heaven, half hell.",
+      "Like a child who does not know the way, I walk without understanding the words. Is this it or that, I do not know and I stand still.",
+      "Here, the honey drops fall on the need. The distance comes close and kisses me. With a hundred new things, today is different from yesterday.",
+      "Dheemthana naagerey dheem dheem thana naagerey",
+      "This is half heaven, half hell."
+    ]
+  }
 }

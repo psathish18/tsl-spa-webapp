@@ -40,5 +40,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:57.286Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "agni sakshi",
+      "kana kaanum kangal",
+      "sp balasubrahmanyam",
+      "saritha",
+      "ms viswanathan",
+      "romantic",
+      "melody",
+      "1982",
+      "tamil classic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kana Kaanum Kangal</strong>?</h4><p>The song is a romantic melody that evokes feelings of love and nostalgia.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is beautifully sung by <strong>S. P. Balasubrahmanyam</strong> and <strong>Saritha</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Agni Sakshi</em>?</h4><p>The music was composed by the legendary <strong>M. S. Viswanathan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Kana Kaanum Kangal</strong> released?</h4><p>The song was released on November 14, 1982.</p></div></div>",
+    "summary": "The song <strong>Kana Kaanum Kangal</strong> from the movie <em>Agni Sakshi</em> is a beautiful romantic duet that captures the essence of love and longing. Sung by the iconic duo S. P. Balasubrahmanyam and Saritha, the melody is soothing and timeless. The lyrics convey a sense of dreamy romance, making it perfect for moments of reflection and nostalgia. M. S. Viswanathan's composition enhances the emotional depth, creating a classic that resonates with listeners even today.",
+    "releaseYear": "1982",
+    "high_ctr_intro": "Experience the timeless charm of <strong>Kana Kaanum Kangal</strong> from the classic film <em>Agni Sakshi</em>. This enchanting melody, brought to life by the legendary voices of S. P. Balasubrahmanyam and Saritha, is a testament to the musical genius of M. S. Viswanathan. Let the soothing tunes and romantic lyrics transport you to a world of nostalgia and love.",
+    "stanzaMeanings": [
+      "",
+      "The eyes that dream don't sleep easily, as the moon sings a song. When the clouds roam around, dear.",
+      "The eyes that dream don't sleep easily, as the moon sings a song. When the clouds roam around, dear, when the clouds roam around, dear.",
+      "The form of a young girl and the heart of a child, both are a magic that is you. Resting in the lap of the leader, you sleep in the form of a woman.",
+      "In a moment, the colors change every day. The goddess's gift is not found, and questions remain. Even if a lamp is lit, the truth appears like a shadow, the truth appears like a shadow.",
+      "I love your truth, but I worship your shadow. That's why I even take the soil where your shadow falls and apply it on my forehead like sacred ash.",
+      "The eyes that dream don't sleep easily, as the moon sings a song.",
+      "Oh cuckoo that writes new poetry, what is the pain in your heart? What is the sin of memories bathing in fire?",
+      "The sky will not stay without the east lighting up. I too wait for the dawn to come.",
+      "The present says that the future will be happy, dear. The present says so, dear.",
+      "The eyes that dream don't sleep easily, as the moon sings a song. When the clouds roam around, dear.",
+      ""
+    ]
+  }
 }

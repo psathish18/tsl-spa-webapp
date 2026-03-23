@@ -45,5 +45,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip01fqcAhc94WrMMHc29Dz26J5iIGGj45LkAVgCeKIFC-nMaOjqE4sg9YrJ5dEzmsIE3-ndlrrbHIzSa2lnmAk3z_xsb6yVJ8eqsJi2IB2t2hJmu_REpqFK_LO-5zZIyXEwrB4Co54uPs/s400-c/Avatharam-+Thendral+Vanthu+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:19:18.769Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classical"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning",
+      "night drive"
+    ],
+    "keywords": [
+      "avatharam",
+      "ilayaraja",
+      "sjanaki",
+      "nostalgic",
+      "melancholic",
+      "soothing",
+      "1995",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of longing and the beauty of nature, reflecting on how emotions change with the seasons.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>This song is featured in the movie <em>Avatharam</em>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by the legendary <strong>Ilaiyaraaja</strong> and <strong>S. Janaki</strong>.</p></div><div class=\"faq-item\"><h4>What year was this song released?</h4><p>This song was released in <strong>1995</strong>.</p></div></div>",
+    "summary": "In <strong>Thendral Vanthu Theendum Pothu</strong>, the lyrics beautifully convey a sense of yearning and connection to nature, encapsulating the emotions of the characters in <em>Avatharam</em>. The soothing melody, composed by Ilaiyaraaja, paired with S. Janaki's heartfelt rendition, evokes a deep sense of nostalgia. This song serves as a poignant reminder of the transient nature of feelings and seasons. Its timeless appeal continues to resonate with audiences, making it a cherished classic.",
+    "releaseYear": "1995",
+    "high_ctr_intro": "<strong>Thendral Vanthu Theendum Pothu</strong> is a timeless melody that captures the essence of longing and nostalgia. With <em>Avatharam</em> as its backdrop, this song showcases the enchanting collaboration of Ilaiyaraaja's masterful composition and S. Janaki's soulful vocals. Experience the emotional depth of this classic that resonates with listeners even today.",
+    "stanzaMeanings": [
+      "When the breeze comes, what color does it bring to my heart?",
+      "When the moon comes, what color does it bring to my thoughts?",
+      "It keeps coming and going, everything feels like a color, mother.",
+      "As it is for us, everything will change, mother.",
+      "What is true is within me, I told you, my little one..",
+      "The breeze comes..",
+      "Without anyone saying anything, the flowers bloom. Without any connections, the heart speaks something.",
+      "Without anyone saying anything, the cuckoo sings sweetly. Without anything, the heart feels sweet now.",
+      "Like the water flows, this beauty flows too, just like that time flows.",
+      "The paddy doesn't stay, the moments that come in thoughts, when the breeze comes, what color does it bring..",
+      "When the tears fall, everything blooms on the earth, love is born, and the body feels a certain joy.",
+      "When the world wakes up, desires swing like a swing, beauty flows like waves..",
+      "Oh cuckoo, is that music calling? Oh parrot, is that story speaking?",
+      "Is it a story or a revelation? It is love, after all.",
+      "When the breeze comes, what color does it bring to my heart? When the moon comes, what color does it bring to my thoughts?",
+      "It keeps coming and going, everything feels like a color, mother. As it is for us, everything will change, mother.",
+      "What is true is within me, what are my dreams, what are they.. the breeze comes.."
+    ]
+  }
 }

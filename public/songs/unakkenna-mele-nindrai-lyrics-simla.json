@@ -40,5 +40,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSN4_ONeZ7SQmgZgZlxrkx3ilgPJgkQliKUQH0z9_MsFQ_8VmAlWG4CNBO2ZEEuHmFImdOjmLw6Y3DYM_YiXsll5I9Q8oGRu3-X0kMk_VNraZbK62uGW65nxu9gjWwLhWPId4sYTkqMAM/s400-c/Unakkenna+Mele+Nindrai+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:20:59.812Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "simla special",
+      "s p balasubrahmanyam",
+      "ms viswanathan",
+      "romantic",
+      "melody",
+      "1982",
+      "old songs",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, capturing the essence of romance.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie Simla Special?</h4><p>The movie revolves around themes of love and relationships, with this song highlighting the emotional connection between the characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of Unakkenna Mele Nindrai?</h4><p>The song is sung by the legendary S. P. Balasubrahmanyam.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music was composed by the renowned M. S. Viswanathan.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on April 14, 1982.</p></div></div>",
+    "summary": "In <strong>Unakkenna Mele Nindrai</strong>, the protagonist expresses heartfelt emotions of love and devotion, making it a quintessential romantic ballad. The soothing melody and poignant lyrics evoke a sense of nostalgia, transporting listeners to a simpler time of romance. This song beautifully encapsulates the essence of love, making it perfect for special occasions like anniversaries and weddings. Its timeless appeal continues to resonate with fans of Tamil music, showcasing the brilliance of S. P. Balasubrahmanyam's voice and M. S. Viswanathan's composition.",
+    "releaseYear": "1982",
+    "high_ctr_intro": "<strong>Unakkenna Mele Nindrai</strong> from <em>Simla Special</em> is a timeless romantic melody that captures the essence of love and longing. With the enchanting voice of S. P. Balasubrahmanyam and the masterful composition by M. S. Viswanathan, this song resonates deeply with listeners. Experience the nostalgia and emotional depth that makes this track a cherished classic in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "You are standing above me, oh beloved.",
+      "You are standing above me, oh beloved. I am singing about you for a long time.",
+      "You are standing above me, oh beloved.",
+      "We were born in the lap of our mother, grew up in Tamil, and blossomed as actors, blending into the world.",
+      "There is no stage to dance on, no disguise to wear. There are no tears to think about, and no money for laughter. A child dances with a thread and a doll.",
+      "A child dances with a thread and a doll. You tell that thread in your hand, oh beloved.",
+      "Does anyone have a heart that calls them a friend? I stand today without understanding the jasmine flower that blooms. There is a connection like milk and stone, both are one.",
+      "There is a connection like milk and stone, both are one. What am I, tell me, oh beloved.",
+      "There is a connection like milk and stone, both are one.",
+      "You are standing above me, oh beloved. I am singing about you for a long time.",
+      "We have taken and given, we have taken and given, we have taken and given.",
+      "You are standing above me, oh beloved."
+    ]
+  }
 }

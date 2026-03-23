@@ -46,5 +46,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:24.725Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "bale pandiya",
+      "kangalae kamalalayam",
+      "devan ekambaram",
+      "mrinalini",
+      "unnikrishnan",
+      "thamarai",
+      "melancholic",
+      "soothing",
+      "2010",
+      "tamil melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kangalae Kamalalayam</strong>?</h4><p>The song explores themes of longing and nostalgia, capturing the emotional journey of the characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kangalae Kamalalayam</strong>?</h4><p>The song is sung by <strong>Devan Ekambaram</strong>, <strong>Mrinalini</strong>, and <strong>Unnikrishnan</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kangalae Kamalalayam</strong>?</h4><p>The lyrics were penned by the talented <strong>Thamarai</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Bale Pandiya</em>?</h4><p>The song reflects the inner emotions and dreams of the characters, adding depth to the storyline.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Bale Pandiya</em> released?</h4><p>The movie was released in <strong>2010</strong>.</p></div></div>",
+    "summary": "The song <strong>Kangalae Kamalalayam</strong> from the movie <em>Bale Pandiya</em> is a melodious duet that delves into themes of longing and nostalgia. Sung by Devan Ekambaram, Mrinalini, and Unnikrishnan, the song beautifully captures the emotional turmoil and dreams of the characters. Thamarai's poignant lyrics add depth to the soothing melody, making it a perfect choice for moments of reflection and relaxation. The song evokes a sense of yearning, making it resonate with anyone who has experienced the bittersweet nature of dreams and memories.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "Experience the soulful melody of <strong>Kangalae Kamalalayam</strong> from the movie <em>Bale Pandiya</em>. This enchanting duet, penned by Thamarai, beautifully captures the essence of longing and nostalgia. Let the harmonious voices of Devan Ekambaram, Mrinalini, and Unnikrishnan transport you to a world of dreams.",
+    "stanzaMeanings": [
+      "",
+      "Dreams come here like waves.",
+      "I floated on the waves, losing myself bit by bit. The lost times push me away, while sweet times embrace me.",
+      "What should I do, what should I do? Eyes that dazzle like a lotus.",
+      "I woke up after seeing dreams. I fell after touching your eyes.",
+      "I thought of saying it, but ended up saying no, then yes.",
+      "The sweet moonlight refuses to leave even after night ends.",
+      "I walked away from the moonlight. I stumbled over thoughts of you.",
+      "Who else will I think of but you? Where will I hide my melting heart?",
+      "The sweet dream refuses to leave even after morning comes.",
+      "Dreams come here like waves, eyes that dazzle like a lotus.",
+      "Dreams come here like waves, eyes that dazzle like a lotus.",
+      "Will this happen? Will it cross the shore? Isn't this a wave that the sea pulls?",
+      "Let the sea pull, let it soak the body.",
+      "Even after getting wet, the eyes that dazzle like a lotus will still be dizzy.",
+      "Dreams come here like waves.",
+      "I floated on the waves, losing myself bit by bit. The lost times push me away, while sweet times embrace me.",
+      "What should I do, what should I do? Eyes that dazzle like a lotus."
+    ]
+  }
 }

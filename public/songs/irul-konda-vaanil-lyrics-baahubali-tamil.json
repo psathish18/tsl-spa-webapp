@@ -93,5 +93,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjWWCeQumHJylIPEyenXAhzWgJ8v8O5KJPmWgMmadwb6-ODHhoF1D9JkQBA-0zQIoozCOf969BOGv-SMoN_tVSUF_k0T5O00lAbQ2oLX9eSn0col-dnvL7hjQqUz5KUkK_wNLoz948RKQ/s400-c/Irul+Konda+Vaanil.JPG",
   "generatedAt": "2026-01-18T12:54:56.656Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "motivational",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "baahubali",
+      "deepika",
+      "karky",
+      "mm keeravani",
+      "2015",
+      "melancholic",
+      "motivational",
+      "soothing",
+      "theme",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Irul Konda Vaanil</strong>?</h4><p>The song explores themes of mystery and hope, reflecting the epic narrative of <em>Baahubali</em>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Irul Konda Vaanil</strong>?</h4><p>The music was composed by <strong>MM Keeravani</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie <em>Baahubali</em>?</h4><p>The song underscores pivotal moments, enhancing the film's emotional depth.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Irul Konda Vaanil</strong>?</h4><p>The lyrics were penned by <strong>Karky</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Irul Konda Vaanil</strong> released?</h4><p>The song was released in <strong>2015</strong>.</p></div></div>",
+    "summary": "<strong>Irul Konda Vaanil</strong> is a hauntingly beautiful song from the movie <em>Baahubali</em>, capturing the essence of mystery and hope. Sung by Deepika, the lyrics by Karky weave a narrative of light emerging from darkness, much like the film's epic storyline. MM Keeravani's composition enhances the emotional depth, making it a memorable melody. The song evokes a sense of introspection and inspiration, perfectly complementing the grandeur of the movie.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Irul Konda Vaanil</strong> from the epic movie <em>Baahubali</em> is a mesmerizing melody that captures the essence of mystery and hope. Sung by Deepika with lyrics by Karky, this song is beautifully composed by MM Keeravani. Dive into the enchanting world of <em>Baahubali</em> with this soul-stirring track that resonates with deep emotions.",
+    "stanzaMeanings": [
+      "",
+      "In the sky covered with darkness, she is the light, she is the moon that rises, Baahubali.",
+      "In this ocean of stories, there are sweet words.",
+      "The moon shines happily in the sky, and the sun is Baahubali.",
+      "Our leader Baahubali will wear crowns of victory.",
+      "In this ocean of stories, there are sweet words.",
+      "The arrow never missed its mark. Hunger never went unsatisfied. The end never retreated, and thus the army was formed.",
+      "He calls his mother a goddess, his brother a friend, and says the land is his own.",
+      "Whatever the command, it is like Shiva's word. In one eye, I saw the nation, in the other, I saw love.",
+      "In this ocean of stories, there are sweet words.",
+      ""
+    ]
+  }
 }

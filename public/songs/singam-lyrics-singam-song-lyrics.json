@@ -66,5 +66,45 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:20.654Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "dance number",
+      "theme"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "singam",
+      "megha",
+      "devi sri prasad",
+      "motivational",
+      "dance number",
+      "2010",
+      "tamil",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Singam</strong>?</h4><p>The song <strong>Singam</strong> conveys themes of strength and determination, portraying the protagonist as a powerful figure on a mission.</p></div><div class=\"faq-item\"><h4>How does <strong>Singam</strong> fit into the movie's plot?</h4><p>In <em>Singam</em>, the song serves as a motivational anthem that highlights the hero's journey and his relentless pursuit of justice.</p></div><div class=\"faq-item\"><h4>Who are the artists behind <strong>Singam</strong>?</h4><p>The song features vocals by <strong>Megha</strong> and <strong>Devi Sri Prasad</strong>, who is also the music director.</p></div><div class=\"faq-item\"><h4>When was <strong>Singam</strong> released?</h4><p><strong>Singam</strong> was released on May 17, 2010.</p></div></div>",
+    "summary": "The song <strong>Singam</strong> is a high-energy anthem that embodies the spirit of the protagonist in the movie <em>Singam</em>. It showcases themes of strength, determination, and resilience, making it a perfect motivational track. The powerful vocals of Megha combined with Devi Sri Prasad's dynamic music create an electrifying experience. This song evokes feelings of excitement and empowerment, making it ideal for celebrations and workouts.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Singam</strong> is an electrifying anthem that perfectly captures the essence of determination and strength. With a unique collaboration between Megha's powerful vocals and Devi Sri Prasad's dynamic composition, this song is sure to get your adrenaline pumping. Dive into the world of <em>Singam</em> and experience the thrill of its infectious energy!",
+    "stanzaMeanings": [
+      "Everybody listen, make way for the king. Just watch how he moves... Alright.",
+      "Hey, the one who brings light, the one who controls the wind, the one who is like fire, when he grabs, water will boil. He is that person.",
+      "Everybody listen, he is on a mission. You can never stop him; he is like a human tornado. Everybody listen, he has made the right choice. You cannot mess with him, not even with his shadow.",
+      "Singam, singam, he is Durai Singam. He is enough to make the land bow down. Hey..! Singam, singam, he is Durai Singam. All the spirits will bow down to him.",
+      "Hey! The kingdoms of the fierce will be in battle... The protective walls will be broken. The bravery that wins... Is this the way? Is it the end? Who is he? Let's see... Is he a trickster? Look, he will protect... He will remove the fear of being alone...",
+      "Singam, singam, he is Durai Singam...",
+      "He can hunt you and make you shiver. You can try to catch him, but you will lose; you can't. He is a leading power...",
+      "Oh, oh, oh, those who make mistakes will face consequences. He knows, he knows. He will bring great things without fail. He will shine brightly. Is he a warrior? Is it true?",
+      "Singam, singam, he is Durai Singam..."
+    ]
+  }
 }

@@ -37,5 +37,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:08.960Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "narthagi",
+      "chinnanchiru idhayathil",
+      "prashanthini",
+      "vijay prakash",
+      "na muthukumar",
+      "gv prakashkumar",
+      "romantic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Chinnanchiru Idhayathil</strong> explores themes of love and emotional connection, portraying the beauty of relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Narthagi</em>, the song is set during a romantic moment, highlighting the bond between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented voices of <strong>Prashanthini</strong> and <strong>Vijay Prakash</strong>, with music composed by <strong>GV PrakashKumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Chinnanchiru Idhayathil</strong> was released on February 19, 2011.</p></div></div>",
+    "summary": "In <strong>Chinnanchiru Idhayathil</strong>, the song beautifully conveys the emotions of love and longing, set against the backdrop of the film <em>Narthagi</em>. The soothing melody, brought to life by the harmonious voices of Prashanthini and Vijay Prakash, evokes a sense of warmth and tenderness. As the characters navigate their feelings, the lyrics reflect the deep connections that bind them. This romantic duet is perfect for moments of celebration and intimacy, making it a memorable addition to the film's soundtrack.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Chinnanchiru Idhayathil</strong> from <em>Narthagi</em> is a beautifully crafted romantic duet that captures the essence of love and connection. With the enchanting voices of Prashanthini and Vijay Prakash, paired with GV PrakashKumar's melodious composition, this song is sure to resonate with anyone who has experienced the magic of romance. Dive into this soothing melody that perfectly encapsulates heartfelt emotions and tender moments.",
+    "stanzaMeanings": [
+      "",
+      "In this small heart, raindrops are falling. What is this bond, I keep looking at it closely. The raindrops falling will be known to the earth. Who knows where the human heart will unite?",
+      "Is this flowing like a river, or is it just salty?",
+      "When flowers bloom on the ground, they will spread to the town. The flower will bloom in the heart of a girl. The love in the heart, like a vine, will grow and grow a little higher.",
+      "This is a sweet pain, which I hold on to. Every day, my mind is filled with love.",
+      "In this small heart, raindrops are falling. What is this bond, I keep looking at it closely.",
+      "In every age, everyone has their dreams. Life's dream is said to be an illusion. When we hold hands in unity and move forward, see how love unites the town.",
+      "Some will leave without knowing, some will leave after understanding. Who can say what the future will be?",
+      "In this small heart, raindrops are falling. What is this bond, I keep looking at it closely. The raindrops falling will be known to the earth. Who knows where the human heart will unite? Is this flowing like a river, or is it just salty?"
+    ]
+  }
 }

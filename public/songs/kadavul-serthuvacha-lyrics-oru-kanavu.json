@@ -42,5 +42,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:46:58.607Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "wedding",
+      "anniversary",
+      "valentine's day",
+      "celebration"
+    ],
+    "keywords": [
+      "oru kanavu pola",
+      "haricharan",
+      "romantic",
+      "melody",
+      "2017",
+      "tamil song",
+      "wedding",
+      "anniversary",
+      "soothing",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadavul Serthuvacha</strong>?</h4><p>The song celebrates love and togetherness, capturing the essence of a romantic journey.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kadavul Serthuvacha</strong>?</h4><p>The song is sung by <strong>Haricharan</strong>, known for his soulful voice.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Oru Kanavu Pola</em> released?</h4><p>The movie was released in <strong>2017</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does the song evoke?</h4><p>The song evokes feelings of happiness, love, and serenity.</p></div></div>",
+    "summary": "The song <strong>Kadavul Serthuvacha</strong> from <em>Oru Kanavu Pola</em> is a romantic melody that beautifully captures the essence of love and companionship. Sung by Haricharan, the song's soothing tunes and heartfelt lyrics create a serene atmosphere, perfect for weddings and anniversaries. It conveys the joy of togetherness and the promise of a shared future. The melody evokes emotions of happiness and contentment, making it a cherished addition to any romantic playlist.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kadavul Serthuvacha</strong> from the movie <em>Oru Kanavu Pola</em>, beautifully rendered by Haricharan. This romantic tune captures the essence of love and togetherness, making it a perfect choice for special occasions. Dive into a world of soothing rhythms and heartfelt lyrics that promise to leave a lasting impression.",
+    "stanzaMeanings": [
+      "",
+      "The pair brought together by God, may they live until the waves of the sea stop.",
+      "From now on, the two should walk hand in hand, and in the tenth month, a new arrival should be near.",
+      "When all the dreams in the heart come true, there's no need for sorrow or even heaven.",
+      "What is permanent here, no one understands, but even if you give away, love doesn't decrease.",
+      "This life is like a dream, it can disappear, but love, friendship, and affection are where God can be seen.",
+      "If we have a heart to live for us, life is bliss, and even the sky will bend for us.",
+      "The pair brought together by God, may they live until the waves of the sea stop.",
+      "From now on, the two should walk hand in hand, and in the tenth month, a new arrival should be near.",
+      "Life is a one-time experience, live it and fill it with love and relationships.",
+      "The heart should get used to enduring anything and push away sadness by leaning on shoulders.",
+      "In the name of a wife, you get a mother here, and in the bond of a husband, there's a father.",
+      "This journey goes along the river of time, it's a boat that swims with the wedding veil.",
+      "",
+      "Who measured from the top to the feet?",
+      "There are gods who write the fate of this world.",
+      ""
+    ]
+  }
 }

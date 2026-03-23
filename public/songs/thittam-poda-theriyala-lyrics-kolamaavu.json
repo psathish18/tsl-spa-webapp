@@ -86,5 +86,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:03:38.400Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "kolamaavu kokila",
+      "anirudh",
+      "vignesh shivan",
+      "energetic",
+      "dance number",
+      "2018",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a sense of carefree living and the struggles of finding one's path, reflecting the protagonist's journey in the movie.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Kolamaavu Kokila</em>, this song highlights the protagonist's vibrant personality and her approach to life's challenges.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Anirudh</strong>, who is also the <strong>music director</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on July 19, 2018.</p></div></div>",
+    "summary": "In <strong>Thittam Poda Theriyala</strong>, the protagonist expresses her carefree attitude towards life amidst challenges. The upbeat tempo and lively lyrics create a sense of joy and celebration, making it a perfect party anthem. This song encapsulates the essence of youthful spirit and determination, resonating with anyone facing life's uncertainties. Overall, it evokes feelings of happiness and motivation, encouraging listeners to embrace their journey.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Thittam Poda Theriyala</strong> from <em>Kolamaavu Kokila</em> is a vibrant anthem that captures the essence of youthful exuberance. Anirudh's infectious energy combined with catchy lyrics by Vignesh Shivan makes this track a must-listen. Get ready to groove as this song sets the perfect mood for any celebration!",
+    "stanzaMeanings": [
+      "",
+      "I can't be scared of the plan, even if I know it's dangerous, I can't let it go.",
+      "I don't know any other way, I can't find a good path, for her, there's nothing wrong, nothing is wrong.",
+      "Dreams don't come true, why? I can't close my eyes, God doesn't seem to understand my struggles.",
+      "",
+      "",
+      ""
+    ]
+  }
 }

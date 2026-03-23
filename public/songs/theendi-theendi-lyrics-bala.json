@@ -45,5 +45,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:16:23.553Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "bala",
+      "theendi theendi",
+      "sujatha mohan",
+      "unnikrishnan",
+      "pa vijay",
+      "yuvan",
+      "romantic",
+      "2002"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Theendi Theendi</strong>?</h4><p>The song conveys themes of love and longing, expressing deep emotional connections.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie <strong>Bala</strong>?</h4><p>In <strong>Bala</strong>, the song reflects the protagonist's emotional journey and romantic struggles.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Theendi Theendi</strong>?</h4><p>The song is sung by <strong>Sujatha Mohan</strong> and <strong>Unnikrishnan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Theendi Theendi</strong>?</h4><p>The music was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Theendi Theendi</strong> released?</h4><p>The song was released on <strong>October 20, 2002</strong>.</p></div></div>",
+    "summary": "In <strong>Theendi Theendi</strong>, the lyrical beauty penned by Pa Vijay complements the haunting melodies crafted by Yuvan. This duet encapsulates the essence of love, portraying the emotional turmoil and yearning of the characters in <em>Bala</em>. The soothing voices of Sujatha Mohan and Unnikrishnan elevate the song, making it a poignant reflection of romantic feelings. The song evokes a sense of nostalgia and deep emotional connection, resonating with anyone who has experienced love's complexities.",
+    "releaseYear": "2002",
+    "high_ctr_intro": "<strong>Theendi Theendi</strong> from the <em>Bala</em> movie is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Sujatha Mohan and Unnikrishnan, paired with Yuvan's soulful composition, this song resonates deeply with listeners. Experience the emotional depth and lyrical beauty that makes this track a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "You are making the honey flow, gathering the sweetness.",
+      "You are the love, the world of poetry, the weapon of intense love.",
+      "You are making the honey flow, gathering the sweetness.",
+      "You are the love, the world of poetry, the weapon of intense love.",
+      "You are starting with these places, making the sounds of laughter.",
+      "What is this body, a shelter for anger? When it falls, desire comes.",
+      "The little ones do not fall, the fallen do not know. Hands are true, true are the sounds.",
+      "You are making the honey flow, gathering the sweetness.",
+      "You are the love, the world of poetry, the weapon of intense love.",
+      "You are making the honey flow, gathering the sweetness.",
+      "The two of them watch the performance, the stage is a joyful festival.",
+      "When you sing, you gather the curls, just enough to hear.",
+      "Without losing the effort, the first storm cannot be avoided. Desire is lost in the effort.",
+      "You are making the honey flow, gathering the sweetness.",
+      "You are the love, the world of poetry, the weapon of intense love.",
+      "You are making the honey flow, gathering the sweetness."
+    ]
+  }
 }

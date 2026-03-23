@@ -81,5 +81,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:42:46.881Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "petta",
+      "anirudh",
+      "dhanush",
+      "ilamai thirumbuthe",
+      "energetic",
+      "2018",
+      "tamil cinema",
+      "dance number",
+      "rajini",
+      "lyrics",
+      "solo"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Ilamai Thirumbuthe</strong>?</h4><p>The song celebrates the return of youthful energy and the joy of reliving vibrant moments.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Ilamai Thirumbuthe</strong>?</h4><p>The lyrics were penned by <strong>Dhanush</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Ilamai Thirumbuthe</strong>?</h4><p>The song is sung by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Petta</em>?</h4><p>The movie was released in <strong>2018</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Petta</em>?</h4><p>The song is featured in a sequence that highlights the protagonist's youthful spirit and charisma.</p></div></div>",
+    "summary": "In the movie <em>Petta</em>, <strong>Ilamai Thirumbuthe</strong> is a lively track that captures the essence of youthful exuberance. Sung by Anirudh with lyrics by Dhanush, the song evokes a sense of nostalgia while celebrating the joy of reliving one's youthful days. It is set against a backdrop of vibrant visuals, enhancing the energetic and happy mood. The song's catchy beats and engaging lyrics make it a favorite for parties and celebrations.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Ilamai Thirumbuthe</strong> from <em>Petta</em> is a vibrant celebration of youth and energy. Anirudh's electrifying vocals combined with Dhanush's catchy lyrics create an unforgettable musical experience. This song captures the essence of reliving youthful moments with a nostalgic yet energetic vibe.",
+    "stanzaMeanings": [
+      "Youth is returning, it's an unsolvable mystery. In the heartbeat, the cold air feels warm.",
+      "Hey, the heart is jumping around, sleep doesn't come. It fears that tomorrow will come, the first season is back.",
+      "Hands are searching for a shell, eyes are searching for you, dear. Days are passing slowly, love is gently touching.",
+      "Youth is returning, it's an unsolvable mystery. In the heartbeat, the cold air feels warm.",
+      "Life is meant to be lived, come my dear, let's see how it goes. Shall we paint the sky?",
+      "In the shade, I need a shoulder, I'm a lonely tree, you are the garden.",
+      "At the edge of life, the jasmine at the doorstep, let's go as far as we can, what's the mistake?",
+      "As the town looks at us, there's some joy, dear. Feet are drawing patterns on the ground, love is gently touching.",
+      "Youth is returning, it's an unsolvable mystery. In the heartbeat, the cold air feels warm.",
+      "Hey, the heart is jumping around, sleep doesn't come. It fears that tomorrow will come, the first season is back.",
+      "Hands are searching for a shell, eyes are searching for you, dear. Days are passing slowly, love is gently touching.",
+      "Youth is returning, it's an unsolvable mystery. In the heartbeat, the cold air feels warm.",
+      ""
+    ]
+  }
 }

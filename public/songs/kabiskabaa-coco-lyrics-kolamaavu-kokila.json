@@ -78,5 +78,45 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:13.018Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "song",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "kolamaavu kokila",
+      "arunraja kamaraj",
+      "kabiskabaa coco",
+      "tamil movie",
+      "2018",
+      "energetic",
+      "peppy",
+      "dance number",
+      "lyrics",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kabiskabaa Coco</strong>?</h4><p>The song is a playful and energetic number with catchy beats and gibberish lyrics, adding a fun element to the movie.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kabiskabaa Coco</strong>?</h4><p>The song is sung by <strong>Arunraja Kamaraj</strong>, who also penned the lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Kolamaavu Kokila</em>?</h4><p>The song adds a lively and humorous touch to the film, enhancing its quirky narrative.</p></div><div class=\"faq-item\"><h4>When was <strong>Kabiskabaa Coco</strong> released?</h4><p>The song was released in 2018 as part of the movie <em>Kolamaavu Kokila</em>.</p></div></div>",
+    "summary": "Kabiskabaa Coco is a lively and energetic song from the movie Kolamaavu Kokila, featuring playful gibberish lyrics and catchy beats. Sung and written by Arunraja Kamaraj, the song adds a humorous and vibrant touch to the film's narrative. It captures the quirky essence of the movie, making it a memorable and fun experience for the audience. The track is perfect for parties and celebrations, bringing a burst of energy and joy.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Kabiskabaa Coco</strong> from the movie <em>Kolamaavu Kokila</em>. Sung and penned by Arunraja Kamaraj, this track is a rhythmic explosion of catchy beats and playful lyrics. Dive into the lively world of CoCo and let the music take over!",
+    "stanzaMeanings": [
+      "",
+      "Jubu jubu jubu jubu jubaa jubu jubu jubu jubu jubaa jubu jubu ju jubu jubu ju jubaakilaa pilaakilaa po jubaakilaa pilaakilaa po (2) Kabiskabaa Kabiskabaa Kabiskabaa Coco Kabiskabaa Kabiskabaa Kabiskabaa Coco (2)",
+      "",
+      "Jigakku jaa jigakku jaa coco jigakku jaa jigakku jaa coco",
+      "",
+      ""
+    ]
+  }
 }

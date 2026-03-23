@@ -66,5 +66,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxqVYb4Rk2qEtSudYM6I350N7Udv30ofIO9qIIvIOW_rbYXfhNlz7y-tVruf2VgDZpy5jVYhsmdzrg7W0Ox1oZFI9kd1aS-KFXpFZOr-q-SQJ6gA76kP9o3W3vcp6Oqf93ufmRLsmh6lY/s400-c/Manasukkul+Oru+puyal+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:17:04.537Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "star",
+      "manasukkul oru puyal",
+      "sadhana sargam",
+      "spb",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "2001"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Manasukkul Oru Puyal'?</h4><p>The song conveys the feelings of love and the emotional turmoil that comes with it, likening love to a storm within the heart.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Star'?</h4><p>In the movie, this song reflects the protagonist's inner feelings and struggles related to love and relationships.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the melodious voices of <strong>Sadhana Sargam</strong> and <strong>SPB</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Manasukkul Oru Puyal'?</h4><p>The music for this beautiful song was composed by the legendary <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>July 17, 2001</strong>.</p></div></div>",
+    "summary": "In 'Manasukkul Oru Puyal', the song encapsulates the emotional journey of love, portraying the turbulence and beauty that comes with it. The lyrics, penned by Vairamuthu, evoke a sense of longing and introspection, making it relatable to anyone who has experienced love's highs and lows. The harmonious blend of Sadhana Sargam and SPB's voices, coupled with AR Rahman's soulful composition, creates a soothing atmosphere. This song is a perfect choice for romantic occasions, resonating deeply with listeners and leaving a lasting impression.",
+    "releaseYear": "2001",
+    "high_ctr_intro": "<strong>Manasukkul Oru Puyal</strong> from <em>Star</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Sadhana Sargam and SPB, paired with AR Rahman's magical composition, this song is sure to tug at your heartstrings. Experience the emotional depth and lyrical brilliance that makes this track a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "In my heart, there is a storm, what does it mean?",
+      "They say love is called a storm, what does it mean for the next moon?",
+      "If this storm crosses the shore today, what will happen, what will happen?",
+      "The universe is in the flower, the universe is in the flower.",
+      "In my heart, there is a storm, what does it mean?",
+      "If this storm crosses the shore today, what will happen, what will happen?",
+      "I have forgotten to open my eyes.",
+      "I have forgotten to open my eyes, there is no name for me, my love, my body is not here, where is my life, my life?",
+      "What a new surprise, in my left eye, is it real in my right eye?",
+      "Like a breeze that breaks through the bamboo, I have become a poet who speaks in your lap, may your golden lap flourish.",
+      "Let our true love live.",
+      "In my heart, there is a storm, what does it mean?",
+      "If this storm crosses the shore today, what will happen, what will happen?",
+      "A bird that has flown away, a bird that has flown away, in May, a virgin girl will come to me, this is what the song says.",
+      "What a surprise, that song, before my eyes, I saw you.",
+      "In the spring, I saw a flower bloom, in the autumn, I saw another flower bloom.",
+      "In your heart, I need a place to live.",
+      "Let our true love live."
+    ]
+  }
 }

@@ -44,5 +44,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:06.012Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "kadhal desam",
+      "thendrale thendrale",
+      "mano",
+      "unnikrishnan",
+      "a.r.rahman",
+      "romantic",
+      "melody",
+      "1996"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Thendrale Thendrale'?</h4><p>The song expresses deep romantic feelings, portraying a dreamy dialogue between lovers.</p></div><div class=\"faq-item\"><h4>In which movie is 'Thendrale Thendrale' featured?</h4><p>'Thendrale Thendrale' is featured in the movie <strong>Kadhal Desam</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Mano</strong> and <strong>Unnikrishnan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Thendrale Thendrale'?</h4><p>The music for this song was composed by <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Thendrale Thendrale' released?</h4><p>The song was released on <strong>August 23, 1996</strong>.</p></div></div>",
+    "summary": "In <strong>Thendrale Thendrale</strong>, the characters express their love through poetic lyrics and soothing melodies, perfectly encapsulating the essence of romance. The song plays a pivotal role in <em>Kadhal Desam</em>, enhancing the emotional depth of the narrative. With its gentle rhythm and heartfelt delivery, it evokes feelings of nostalgia and longing. This timeless piece remains a favorite among fans, celebrating the beauty of love and connection.",
+    "releaseYear": "1996",
+    "high_ctr_intro": "<strong>Thendrale Thendrale</strong> from <em>Kadhal Desam</em> is a mesmerizing melody that captures the essence of romance and nostalgia. With the enchanting voices of Mano and Unnikrishnan, this song transports listeners to a dreamy world of love and longing. A.R. Rahman's magical composition elevates the experience, making it a timeless classic that resonates with hearts across generations.",
+    "stanzaMeanings": [
+      "",
+      "Gentle breeze, gently blow. Speak softly like a flower.",
+      "In the shade of the shore, the river sleeps, forgetting its worries and resting.",
+      "In the embrace of dreams, the world sleeps, resting in sweet dreams.",
+      "Gentle breeze, gently blow. Speak softly like a flower.",
+      "If love brings worry, then tears are the pain in my eyes; I am your life.",
+      "Will the full moon that shines in the night come only for me? Will you come to me?",
+      "Will you call me without sleep, oh moon that puts others to sleep?",
+      "Gentle breeze, gently blow. Speak softly like a flower.",
+      "When the evening sky is filled with light, the earth will also sleep; will you not sleep like a flower?",
+      "The love of the flower knows the pain of love; does my heart know love?",
+      "When I see you, I forget my silence; why should I sing without sleep? I have sung without rest.",
+      "Gentle breeze, gently blow. Speak softly like a flower.",
+      "In the shade of the shore, the river sleeps, forgetting its worries and resting.",
+      "In the embrace of dreams, the world sleeps, resting in sweet dreams.",
+      "Gentle breeze, gently blow. Speak softly like a flower."
+    ]
+  }
 }

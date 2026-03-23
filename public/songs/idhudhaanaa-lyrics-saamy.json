@@ -62,5 +62,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:16:07.425Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration"
+    ],
+    "keywords": [
+      "saamy",
+      "kschitra",
+      "thamarai",
+      "harrishjeyaraj",
+      "romantic",
+      "melody",
+      "2003",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Idhudhaanaa'?</h4><p>The song 'Idhudhaanaa' expresses deep feelings of love and affection, portraying the emotions of a romantic relationship.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Saamy'?</h4><p>In the movie <strong>Saamy</strong>, this song highlights the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Idhudhaanaa'?</h4><p>The song is sung by the talented K.S. Chitra, known for her melodious voice and emotional delivery.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Idhudhaanaa'?</h4><p>The music for <strong>Idhudhaanaa</strong> was composed by Harrish Jeyaraj, who is celebrated for his catchy and soulful tunes.</p></div><div class=\"faq-item\"><h4>When was 'Idhudhaanaa' released?</h4><p>'Idhudhaanaa' was released on May 1, 2003, as part of the <strong>Saamy</strong> soundtrack.</p></div></div>",
+    "summary": "The song 'Idhudhaanaa' from the movie <em>Saamy</em> beautifully encapsulates the feelings of love and commitment. It portrays the protagonist's deep affection and dreams of a future with their beloved. The soothing melody, combined with K.S. Chitra's enchanting voice, evokes a sense of joy and romance. This song is perfect for weddings and celebrations, making it a timeless classic in Tamil cinema.",
+    "releaseYear": "2003",
+    "high_ctr_intro": "<strong>Idhudhaanaa</strong> from <em>Saamy</em> is a mesmerizing melody that captures the essence of love and longing. With K.S. Chitra's enchanting vocals and Harrish Jeyaraj's soulful composition, this song is sure to tug at your heartstrings. Experience the magic of romance through its beautiful lyrics penned by Thamarai.",
+    "stanzaMeanings": [
+      "Is this the one? Is this the day I was waiting for? Is he the one? Is he the groom who will wear the garland?",
+      "The dreams I saw in the day have come true. I am yours, I am yours.",
+      "Counting the days to the wedding, my days pass by. I am a happy burden. Without breaking my lips, without raising my voice, I will sing a song for myself.",
+      "Is this the one?",
+      "From now on, the daily drama at home will be sweet.",
+      "My shadow hides, searching for your eyes, wandering around.",
+      "You will find me in the curve of the balcony, pretending not to see, you will act special.",
+      "Will you turn around and trap my waist, holding me at the foot of the stairs?",
+      "Fears will hide away, thoughts will escape and hide.",
+      "Is this the one?",
+      "On Sunday afternoon, you will cook with love.",
+      "Telling me to watch the show, you will wash the clothes.",
+      "In the town, everyone will tremble seeing you, but at home, you will smile like a child.",
+      "In pride, my face still shines. The world of two will shrink into two. In happiness, my heart will bloom.",
+      "Will my height grow a little more?",
+      ""
+    ]
+  }
 }

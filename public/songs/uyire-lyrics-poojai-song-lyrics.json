@@ -56,5 +56,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ5rHaXj8rv93jkPSFj4qzKdz_0Vd8FprOivnKh4XJv5qz8cADsN2v8L56zBy3fVRrRqS6-tavaEJkRmKa3akhkGpZbScUhP0l5Og2BiMxscf_fyj8MMk2quewC6neIc3G47vvf_OjG7c/s400-c/poojai.jpg",
   "generatedAt": "2026-01-18T12:57:35.716Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "poojai",
+      "yuvan",
+      "na muthukumar",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Uyire'?</h4><p>'Uyire' expresses deep love and devotion, portraying the lengths one would go for their beloved.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Poojai?</h4><p>In <em>Poojai</em>, the song reflects the protagonist's feelings towards their love interest, highlighting the emotional connection between them.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Uyire'?</h4><p>The song is sung and composed by <strong>Yuvan Shankar Raja</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was 'Uyire' released?</h4><p>'Uyire' was released on <strong>October 5, 2014</strong>, as part of the movie <em>Poojai</em>.</p></div></div>",
+    "summary": "In the movie <em>Poojai</em>, the song <strong>Uyire</strong> serves as a heartfelt declaration of love, where the protagonist expresses unwavering devotion to their beloved. The soothing melody, crafted by Yuvan Shankar Raja, evokes a sense of tranquility and romance. The lyrics, penned by Na Muthukumar, beautifully convey the emotions of longing and commitment. This song resonates with anyone who has experienced the profound feelings of love, making it a timeless piece in Tamil cinema.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Uyire</strong> from <em>Poojai</em> captures the essence of love with its soothing melody and heartfelt lyrics. Yuvan Shankar Raja's enchanting vocals combined with Na Muthukumar's poetic brilliance create a mesmerizing experience. This song is a perfect ode to romance that resonates deeply with listeners.",
+    "stanzaMeanings": [
+      "",
+      "My life, my life, I will be here for you. Even if the world comes, I will wait for you.",
+      "I will protect you from the sorrow in my eyes, my dear, and I will face the world that seeks you.",
+      "I will cross a thousand obstacles, I will walk through them, just me, just me.",
+      "",
+      "My life, my life, I will be here for you. Even if the world comes, I will wait for you.",
+      "I have seen and enjoyed, I have felt in my heart. I will always be with you no matter what...",
+      "I will be your friend, I will give you my friendship, I will always be with you.",
+      "Even if the sky falls, my love will endure. If the world comes, I will protect you like a flower.",
+      "My life, my life, I will be here for you. Even if the world comes, I will wait for you.",
+      ""
+    ]
+  }
 }

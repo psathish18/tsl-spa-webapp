@@ -62,5 +62,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:24.299Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "siruthai",
+      "raanith",
+      "na muthukumar",
+      "vidyasagar",
+      "energetic",
+      "dance number",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Naan Romba Romba?</h4><p>The song <strong>Naan Romba Romba</strong> conveys a playful and energetic vibe, celebrating friendship and fun.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Siruthai?</h4><p>In <em>Siruthai</em>, this song highlights the carefree and lively moments among friends, adding to the film's overall entertainment.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Ranjith</strong> and composed by <strong>Vidyasagar</strong>.</p></div><div class=\"faq-item\"><h4>When was Naan Romba Romba released?</h4><p><strong>Naan Romba Romba</strong> was released on January 3, 2011.</p></div></div>",
+    "summary": "In <strong>Naan Romba Romba</strong>, the lively beats and catchy lyrics create an atmosphere of joy and celebration. The song encapsulates the spirit of friendship and fun, making it a perfect anthem for parties and gatherings. Ranjith's energetic performance, combined with Vidyasagar's vibrant composition, evokes feelings of happiness and excitement. This track is a delightful addition to the soundtrack of <em>Siruthai</em>, resonating with audiences who enjoy upbeat and peppy music.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Naan Romba Romba</strong> from <em>Siruthai</em> is an electrifying track that perfectly captures the essence of celebration and joy. With Ranjith's vibrant vocals and Vidyasagar's catchy composition, this song is bound to get you on your feet. Dive into the infectious energy of this dance number that showcases the fun side of Tamil cinema!",
+    "stanzaMeanings": [
+      "",
+      "Jintha-tha jintha jintha jintha tha tha Jintha-tha jintha jintha jintha tha tha",
+      "I am really, really good. Not just good, but really good. I am not a bad person. I am really, really good. Not just good, but really good. I am not a bad person.",
+      "Friends are like thieves, we don't have a permanent place. There is no one to take care of us, no time for fun, no one to share feelings, and no sentiment at all.",
+      "King, King, I am Rock King, yes King, King, Rocket King.",
+      "I am really, really good. Not just good, but really good. I am not a bad person. I am really, really good. Not just good, but really good. I am not a bad person.",
+      "When I was in 5th grade, I was a troublemaker. In 6th grade, I was a fighter. I stole the headmaster's bike and ended up in jail 100 times.",
+      "Whatever happens, I will take care of everything. I will take everything that is said as a lie and keep it in my pocket. I will take it all, I will take it all.",
+      "King, King, I am Rock King, yes King, King, Rocket King.",
+      "I am really, really good. Not just good, but really good. I am not a bad person. I am really, really good. Not just good, but really good. I am not a bad person.",
+      "If you think about it, I was like a kid who learned to count. At 4 years old, I was like a genius. I took the name of a troublemaker who was a bad boy.",
+      "My route is a unique route, my bet is that everything said is a lie. I will take everything that is said and keep it in my pocket. I will take it all, I will take it all.",
+      "King, King, you are Rock King, yes King, King, Rocket King.",
+      "I am really, really good. Not just good, but really good. I am not a bad person. I am really, really good. Not just good, but really good. I am not a bad person.",
+      "Friends are like thieves, we don't have a permanent place. There is no one to take care of us, no time for fun, no one to share feelings, and no sentiment at all.",
+      "King, King, okay, I am Rock King, yes King, King, yeah, Rocket King."
+    ]
+  }
 }

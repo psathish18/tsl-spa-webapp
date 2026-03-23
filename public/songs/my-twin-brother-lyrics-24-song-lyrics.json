@@ -84,5 +84,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuVqtHqPo4P311n6Hm5i7syQH677_QnUI9YA0ky6EKTd73N3BVi_EkKfJ9XQIoh1Amzmf7-cytD2iEl-pMNZu6fw0QbNnRdrzYpDCHQACdJp6lm-yeCJwlzwh16Z4Yskjx9iJn5Jt3BMc/s400-c/24+song+lyrics.jpg",
   "generatedAt": "2026-01-18T12:51:16.741Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "birthday"
+    ],
+    "keywords": [
+      "24",
+      "ar rahman",
+      "my twin brother",
+      "srinivas krishnan",
+      "hriday gattani",
+      "energetic",
+      "happy",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'My Twin Brother'?</h4><p>The song conveys themes of joy and celebration, reflecting the bond between siblings.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie '24'?</h4><p>In <em>24</em>, the song enhances the emotional connection between characters, emphasizing their relationships.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'My Twin Brother'?</h4><p>The song features talented singers <strong>Srinivas Krishnan</strong> and <strong>Hriday Gattani</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'My Twin Brother' was composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'My Twin Brother' released?</h4><p>The song was released on <strong>April 11, 2016</strong>.</p></div></div>",
+    "summary": "In 'My Twin Brother', the vibrant energy of the song perfectly complements the themes of sibling bonds and celebration. The lively beats and engaging lyrics evoke feelings of happiness and togetherness, making it a standout track in the film <em>24</em>. This song serves as a reminder of the joy found in familial relationships, capturing the essence of life's special moments. With its catchy melody and uplifting vibe, it resonates with audiences, making it a memorable addition to the movie's soundtrack.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>My Twin Brother</strong> from <em>24</em> is an electrifying track that showcases the unique collaboration of talented singers Srinivas Krishnan and Hriday Gattani. With AR Rahman's signature sound, this song captures the essence of joy and celebration, making it a perfect addition to any festive playlist. Dive into the vibrant beats and uplifting lyrics that will surely resonate with listeners of all ages!",
+    "stanzaMeanings": [
+      "My Twin Brother",
+      "May you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life, may you have a long life.",
+      "",
+      ""
+    ]
+  }
 }

@@ -78,5 +78,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s400-c/Lingaa.jpg",
   "generatedAt": "2026-01-18T12:57:07.295Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "devotional"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "lingaa",
+      "haricharan",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melancholic",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Unmai Oru Naal Vellum</strong> conveys themes of love and truth, reflecting on the emotional journey of the characters in <em>Lingaa</em>.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Lingaa</em>, this song plays during a pivotal moment that highlights the protagonist's feelings and relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Haricharan</strong> and composed by <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Unmai Oru Naal Vellum</strong> was released on November 16, 2014.</p></div></div>",
+    "summary": "In <strong>Unmai Oru Naal Vellum</strong>, the protagonist reflects on the complexities of love and truth, set against the backdrop of <em>Lingaa</em>. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing. Haricharan's emotive singing, combined with AR Rahman's masterful composition, creates a captivating listening experience. This track beautifully encapsulates the emotional essence of the film, making it a memorable piece for romantic moments.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Unmai Oru Naal Vellum</strong> from the movie <em>Lingaa</em> is a mesmerizing melody that beautifully captures the essence of love and truth. With Haricharan's soulful vocals and AR Rahman's enchanting composition, this song resonates deeply with listeners. The poignant lyrics by Vairamuthu elevate the emotional experience, making it a must-listen for any romantic occasion.",
+    "stanzaMeanings": [
+      "",
+      "Truth will prevail one day. This world will speak your name. This place will praise you. You are the one, you are the one.",
+      "Even if the winds blow, the truth will speak. You are the one who will shine in life. Don't be afraid, don't be afraid. Don't be afraid, don't be afraid.",
+      "Even Raman cried, even Dharma cried. You don't cry. You have no worries.",
+      "There are laughing lions. There are tigers for the flowers. There are stones that drink life.",
+      "The golden dress is thrown away. You are left behind. The flower is blooming.",
+      "In the palace, there is an elephant. Even if it roams, it cannot forget its heart.",
+      "Truth will prevail one day. This world will speak your name. This place will praise you. You are the one, you are the one.",
+      "Even if the winds blow, the truth will speak. You are the one who will shine in life. Don't be afraid, don't be afraid. Don't be afraid, don't be afraid.",
+      "Even if it burns, the conch remains white. All the people are the same.",
+      "Even if we are scolded, our leader is always a king. Even if we roam, we are still generous.",
+      "Even if gold goes to the earth, it cannot take away its beauty.",
+      "Truth will prevail one day."
+    ]
+  }
 }

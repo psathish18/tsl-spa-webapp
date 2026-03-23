@@ -1,12 +1,18 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import OpenAI from 'openai';
+import type { EnrichedMetadata } from '../types/song-blob.types';
 
 const SONGS_DIR = path.join(process.cwd(), 'public', 'songs');
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const COPILOT_MODEL = 'gpt-4o';
 const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com';
 
+/**
+ * Reflects the actual on-disk JSON structure written by enrich-song-metadata.ts
+ * and generate-song-json.ts. Enriched fields are nested under enrichedMetadata
+ * per the EnrichedMetadata interface in song-blob.types.ts.
+ */
 interface SongData {
   slug: string;
   title: string;
@@ -14,15 +20,10 @@ interface SongData {
   singerName?: string;
   lyricistName?: string;
   musicName?: string;
+  /** Raw actor name sourced from Blogger API. AI-enriched version is in enrichedMetadata.actorName */
   actorName?: string;
-  actressName?: string;
   published?: string;
-  // Enriched metadata (if available)
-  mood?: string[];
-  songType?: string[];
-  keywords?: string[];
-  occasions?: string[];
-  releaseYear?: string;
+  enrichedMetadata?: EnrichedMetadata;
 }
 
 interface SearchResult {
@@ -62,6 +63,15 @@ function fieldMatches(field: string | undefined, keyword: string): boolean {
 function arrayFieldMatches(field: string[] | undefined, keyword: string): boolean {
   if (!field || !Array.isArray(field)) return false;
   return field.some(item => normalize(item).includes(normalize(keyword)));
+}
+
+/**
+ * Print a labelled array field if it has values
+ */
+function logArrayField(label: string, values: string[] | undefined, limit?: number): void {
+  if (!values?.length) return;
+  const display = limit ? values.slice(0, limit) : values;
+  console.log(`   ${label}: ${display.join(', ')}`);
 }
 
 /**
@@ -204,6 +214,7 @@ async function searchSongsWithFilters(keyword: string, filters: SearchFilter[]):
     try {
       const filePath = path.join(SONGS_DIR, file);
       const songData: SongData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      const em = songData.enrichedMetadata;
       const matchedFields: string[] = [];
       let allFiltersMatch = true;
 
@@ -215,13 +226,14 @@ async function searchSongsWithFilters(keyword: string, filters: SearchFilter[]):
           // Field-specific search
           switch (filter.field) {
             case 'actor':
-              if (fieldMatches(songData.actorName, filter.value)) {
+              // Prefer AI-enriched actorName; fall back to top-level actorName from Blogger
+              if (fieldMatches(em?.actorName ?? songData.actorName, filter.value)) {
                 matchedFields.push('actorName');
                 filterMatched = true;
               }
               break;
             case 'actress':
-              if (fieldMatches(songData.actressName, filter.value)) {
+              if (fieldMatches(em?.actressName, filter.value)) {
                 matchedFields.push('actressName');
                 filterMatched = true;
               }
@@ -251,25 +263,25 @@ async function searchSongsWithFilters(keyword: string, filters: SearchFilter[]):
               }
               break;
             case 'year':
-              if (fieldMatches(songData.releaseYear, filter.value)) {
+              if (fieldMatches(em?.releaseYear, filter.value)) {
                 matchedFields.push('releaseYear');
                 filterMatched = true;
               }
               break;
             case 'mood':
-              if (arrayFieldMatches(songData.mood, filter.value)) {
+              if (arrayFieldMatches(em?.mood, filter.value)) {
                 matchedFields.push('mood');
                 filterMatched = true;
               }
               break;
             case 'type':
-              if (arrayFieldMatches(songData.songType, filter.value)) {
+              if (arrayFieldMatches(em?.songType, filter.value)) {
                 matchedFields.push('songType');
                 filterMatched = true;
               }
               break;
             case 'occasion':
-              if (arrayFieldMatches(songData.occasions, filter.value)) {
+              if (arrayFieldMatches(em?.occasions, filter.value)) {
                 matchedFields.push('occasions');
                 filterMatched = true;
               }
@@ -279,17 +291,17 @@ async function searchSongsWithFilters(keyword: string, filters: SearchFilter[]):
           // Search in all fields (any match counts)
           if (fieldMatches(songData.title, filter.value)) { matchedFields.push('title'); filterMatched = true; }
           if (fieldMatches(songData.movieName, filter.value)) { matchedFields.push('movieName'); filterMatched = true; }
-          if (fieldMatches(songData.actorName, filter.value)) { matchedFields.push('actorName'); filterMatched = true; }
-          if (fieldMatches(songData.actressName, filter.value)) { matchedFields.push('actressName'); filterMatched = true; }
+          if (fieldMatches(em?.actorName ?? songData.actorName, filter.value)) { matchedFields.push('actorName'); filterMatched = true; }
+          if (fieldMatches(em?.actressName, filter.value)) { matchedFields.push('actressName'); filterMatched = true; }
           if (fieldMatches(songData.singerName, filter.value)) { matchedFields.push('singerName'); filterMatched = true; }
           if (fieldMatches(songData.lyricistName, filter.value)) { matchedFields.push('lyricistName'); filterMatched = true; }
           if (fieldMatches(songData.musicName, filter.value)) { matchedFields.push('musicName'); filterMatched = true; }
           if (fieldMatches(songData.slug, filter.value)) { matchedFields.push('slug'); filterMatched = true; }
-          if (fieldMatches(songData.releaseYear, filter.value)) { matchedFields.push('releaseYear'); filterMatched = true; }
-          if (arrayFieldMatches(songData.mood, filter.value)) { matchedFields.push('mood'); filterMatched = true; }
-          if (arrayFieldMatches(songData.songType, filter.value)) { matchedFields.push('songType'); filterMatched = true; }
-          if (arrayFieldMatches(songData.keywords, filter.value)) { matchedFields.push('keywords'); filterMatched = true; }
-          if (arrayFieldMatches(songData.occasions, filter.value)) { matchedFields.push('occasions'); filterMatched = true; }
+          if (fieldMatches(em?.releaseYear, filter.value)) { matchedFields.push('releaseYear'); filterMatched = true; }
+          if (arrayFieldMatches(em?.mood, filter.value)) { matchedFields.push('mood'); filterMatched = true; }
+          if (arrayFieldMatches(em?.songType, filter.value)) { matchedFields.push('songType'); filterMatched = true; }
+          if (arrayFieldMatches(em?.keywords, filter.value)) { matchedFields.push('keywords'); filterMatched = true; }
+          if (arrayFieldMatches(em?.occasions, filter.value)) { matchedFields.push('occasions'); filterMatched = true; }
         }
         
         // If this filter didn't match, the song doesn't qualify
@@ -325,23 +337,20 @@ function displayResults(keyword: string, results: SearchResult[]): void {
   }
 
   results.forEach((result, index) => {
+    const em = result.song.enrichedMetadata;
     console.log(`${index + 1}. ${result.song.title || 'Untitled'}`);
     console.log(`   File: ${result.filename}`);
     if (result.song.movieName) console.log(`   Movie: ${result.song.movieName}`);
-    if (result.song.actorName) console.log(`   Actor: ${result.song.actorName}`);
-    if (result.song.actressName) console.log(`   Actress: ${result.song.actressName}`);
+    if (em?.actorName ?? result.song.actorName) console.log(`   Actor: ${em?.actorName ?? result.song.actorName}`);
+    if (em?.actressName) console.log(`   Actress: ${em.actressName}`);
     if (result.song.singerName) console.log(`   Singer: ${result.song.singerName}`);
-    if (result.song.musicDirector) console.log(`   Music: ${result.song.musicDirector}`);
-    if (result.song.lyricist) console.log(`   Lyricist: ${result.song.lyricist}`);
-    if (result.song.releaseYear) console.log(`   Year: ${result.song.releaseYear}`);
-    if (result.song.mood) console.log(`   Mood: ${result.song.mood}`);
-    if (result.song.songType) console.log(`   Type: ${result.song.songType}`);
-    if (result.song.occasions && result.song.occasions.length > 0) {
-      console.log(`   Occasions: ${result.song.occasions.join(', ')}`);
-    }
-    if (result.song.keywords && result.song.keywords.length > 0) {
-      console.log(`   Keywords: ${result.song.keywords.slice(0, 5).join(', ')}`);
-    }
+    if (result.song.musicName) console.log(`   Music: ${result.song.musicName}`);
+    if (result.song.lyricistName) console.log(`   Lyricist: ${result.song.lyricistName}`);
+    if (em?.releaseYear) console.log(`   Year: ${em.releaseYear}`);
+    logArrayField('Mood', em?.mood);
+    logArrayField('Type', em?.songType);
+    logArrayField('Occasions', em?.occasions);
+    logArrayField('Keywords', em?.keywords, 5);
     console.log('');
   });
 }
@@ -367,16 +376,22 @@ function getStats(): void {
     try {
       const filePath = path.join(SONGS_DIR, file);
       const songData: SongData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      const em = songData.enrichedMetadata;
       
-      if (songData.mood || songData.songType || songData.keywords) {
+      // A song is considered enriched when enrich-song-metadata.ts has run on it.
+      // high_ctr_intro is the canonical marker (added in the latest enrichment pass);
+      // falling back to mood/keywords catches files enriched before high_ctr_intro was added.
+      if (em?.high_ctr_intro || em?.mood?.length || em?.keywords?.length) {
         enrichedCount++;
       }
       
-      if (songData.actorName) actors.add(songData.actorName);
-      if (songData.actressName) actresses.add(songData.actressName);
+      // Prefer AI-enriched actorName; fall back to top-level actorName
+      const actorName = em?.actorName ?? songData.actorName;
+      if (actorName) actors.add(actorName);
+      if (em?.actressName) actresses.add(em.actressName);
       if (songData.movieName) movies.add(songData.movieName);
       if (songData.singerName) singers.add(songData.singerName);
-      if (songData.occasions) songData.occasions.forEach(o => occasions.add(o));
+      if (em?.occasions) em.occasions.forEach(o => occasions.add(o));
     } catch {
       continue;
     }

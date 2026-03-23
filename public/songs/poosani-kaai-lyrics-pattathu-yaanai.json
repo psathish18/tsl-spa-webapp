@@ -65,5 +65,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJW5wQC3KFcuPpIU3tVRpPYrS2xQ_OOQiltQL7OM7mJAJcXcAaCAuVnGZjgL8-7PsGSFLGJteKtQjGtYKJk7dB0dWZ80phHCb2ZdDv9opjROk9AbkvAX33mwEDBtm9_aP3Duku5CWLi4/s400-c/pattathu_yaanai.jpg",
   "generatedAt": "2026-02-01T14:31:23.557Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "pattathu yaanai",
+      "poosani kaai",
+      "gaana bala",
+      "na muthukumar",
+      "thaman s",
+      "romantic",
+      "dance",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Poosani Kaai'?</h4><p>The song 'Poosani Kaai' expresses playful and romantic sentiments, highlighting the joy and excitement of love.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Pattathu Yaanai'?</h4><p>In <em>Pattathu Yaanai</em>, the song captures a light-hearted moment that showcases the chemistry between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Poosani Kaai'?</h4><p>The song is sung by the talented Gaana Bala, known for his energetic and engaging performances.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Poosani Kaai' was composed by Thaman S, who is renowned for his catchy and vibrant tunes.</p></div><div class=\"faq-item\"><h4>When was 'Poosani Kaai' released?</h4><p>'Poosani Kaai' was released on June 24, 2013, as part of the <em>Pattathu Yaanai</em> soundtrack.</p></div></div>",
+    "summary": "In 'Poosani Kaai', the playful lyrics and upbeat music create a lively atmosphere that reflects the joy of love. The song serves as a celebration of romance, showcasing the fun and flirtation between the characters in <em>Pattathu Yaanai</em>. Gaana Bala's energetic rendition, combined with Thaman S's catchy composition, makes it a perfect choice for festive occasions. The vibrant mood and engaging beats evoke feelings of happiness and excitement, making it a memorable track.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Poosani Kaai</strong> from the movie <em>Pattathu Yaanai</em> is a vibrant celebration of love, brought to life by the energetic vocals of Gaana Bala. The catchy beats crafted by Thaman S perfectly complement the playful lyrics penned by Na Muthukumar. This song is sure to get you dancing and feeling the romance in the air!",
+    "stanzaMeanings": [
+      "The pumpkin is hidden in the sound, you should open your heart and speak. In the house, if you talk like a flower, will it grow with your own touch?",
+      "Love has come, but there are no words. Even if the sea is in front, it cannot be crossed.",
+      "In the central area, I can't sleep peacefully. In my dreams, she comes and goes, but she doesn't speak. Like love, there is no sorrow."
+    ]
+  }
 }

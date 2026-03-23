@@ -9,7 +9,7 @@
   "actorName": "",
   "published": "2013-04-04T01:02:00.000+05:30",
   "stanzas": [
-    "<div><table><tbody><tr>  <td><table><tbody><tr><td>Movie: Udhayam NH4<br />Singer: Bela Shende &amp; S.P.Charan<br />Music: GV Prakash Kumar<br />Lyrics: La. Rajkumar</td></tr></tbody></table></td>  <td><br />Other Songs Lyrics<br /><a href=\"http://www.tsonglyrics.com/2013/04/ora-kannaala-lyrics-udhayam-nh4-songs.html\" target=\"_blank\">Ora Kannala</a><br /><a href=\"http://www.tsonglyrics.com/2013/03/yaaro-ivan-lyrics-udhayam-nh4-songs.html\" target=\"_blank\">Yaaro Ivan</a><br /><a href=\"http://www.tsonglyrics.com/2013/04/maali-pon-maalai-lyics-udhayam-nh4.html\" target=\"_blank\">Maalai Pon Maalai</a></td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbnt2k4nikii4Z3gMkqQHoWuKVgq_AnVDpHdrvMrk_dU9lz3KqHvXGyFPPn9qJkYcVZUdRku_KVaImnxjv_A30NKyXXfJn-rDlaLR05He88hDv8cW0UALxEYvS3uhIkx0_WIIn3MOy-qc/s1600/Udhayam+NH4.jpg\"></a></td> </tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words",
+    "<div><table><tbody><tr>  <td><table><tbody><tr><td>Movie: Udhayam NH4<br />Singer: Bela Shende &amp; S.P.Charan<br />Music: GV Prakash Kumar<br />Lyrics: La. Rajkumar</td></tr></tbody></table></td>  <td><br />Other Songs Lyrics<br /><a href=\"https://tsonglyrics.com/ora-kannaala-lyrics-udhayam-nh4-songs.html\" target=\"_blank\">Ora Kannala</a><br /><a href=\"https://tsonglyrics.com/yaaro-ivan-lyrics-udhayam-nh4-songs.html\" target=\"_blank\">Yaaro Ivan</a><br /><a href=\"https://tsonglyrics.com/maali-pon-maalai-lyics-udhayam-nh4.html\" target=\"_blank\">Maalai Pon Maalai</a></td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbnt2k4nikii4Z3gMkqQHoWuKVgq_AnVDpHdrvMrk_dU9lz3KqHvXGyFPPn9qJkYcVZUdRku_KVaImnxjv_A30NKyXXfJn-rDlaLR05He88hDv8cW0UALxEYvS3uhIkx0_WIIn3MOy-qc/s1600/Udhayam+NH4.jpg\"></a></td> </tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words",
     "<span>Maali Pon Maalai</span> <br />Naam pogindra saalaiyellaam<br />Magaradham vaan thoovudhey (2)",
     "Madimeedhu unnai vaithu<br />maarbodu annaipeney<br />imai moodum iraviniley adiyee",
     "paal veedhi payanamvali<br />nam thedal nadakudhadi<br />vinmeengal velichathiley adiye",
@@ -76,5 +76,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbnt2k4nikii4Z3gMkqQHoWuKVgq_AnVDpHdrvMrk_dU9lz3KqHvXGyFPPn9qJkYcVZUdRku_KVaImnxjv_A30NKyXXfJn-rDlaLR05He88hDv8cW0UALxEYvS3uhIkx0_WIIn3MOy-qc/s400-c/Udhayam+NH4.jpg",
   "generatedAt": "2026-01-18T13:04:15.503Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "udhayan nh4",
+      "maali pon maalai",
+      "bela shende",
+      "s.p.charan",
+      "gv prakashkumar",
+      "la. rajkumar",
+      "romantic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Maali Pon Maalai</strong> expresses themes of love and longing, capturing the emotions of a romantic journey.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Udhayam NH4</em>, this song plays during a pivotal moment that highlights the romantic relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Bela Shende</strong> and <strong>S.P. Charan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Maali Pon Maalai</strong> was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>April 4, 2013</strong>.</p></div></div>",
+    "summary": "In <strong>Maali Pon Maalai</strong>, the heartfelt lyrics and soothing melody create a romantic atmosphere that resonates deeply with listeners. The song beautifully conveys the emotions of love and longing, making it a perfect fit for intimate moments. As the characters navigate their feelings, the music enhances the emotional depth of their journey. This duet is a testament to the power of love, leaving a lasting impression on anyone who hears it.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Maali Pon Maalai</strong> from <em>Udhayam NH4</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the soulful voices of Bela Shende and S.P. Charan, paired with GV Prakash Kumar's enchanting music, this song is sure to tug at your heartstrings. Experience the magic of this collaboration that resonates with every romantic soul.",
+    "stanzaMeanings": [
+      "",
+      "The path we are going on is filled with the fragrance of flowers.",
+      "When I hold you close, my heart feels like it is in a dream.",
+      "The journey on the milk road is where we search for our destiny, shining in the sky.",
+      "In the flow of the river, there are many colors, oh blue sky, in my dreams.",
+      "",
+      "The path we are going on is filled with the fragrance of flowers.",
+      "In the heights of the evening, your presence is a blessing, bringing life and joy.",
+      "You are like honey droplets, I am the flower that blooms in your presence, bringing joy to the world.",
+      "My window opens to the sky, revealing a beautiful flower in the middle.",
+      "The path we are going on is filled with the fragrance of flowers.",
+      "Oh, in the fields, there is a sweet fragrance, like a beautiful light in the darkness.",
+      "With eyes meeting and hands joining, we look at the round moon in the sky, feeling united.",
+      "In a gathering of memories, we can bloom like flowers in a garden.",
+      "The path we are going on is filled with the fragrance of flowers.",
+      "The path we are going on is filled with the fragrance of flowers.",
+      "When I hold you close, my heart feels like it is in a dream.",
+      "The journey on the milk road is where we search for our destiny, shining in the sky.",
+      "In the flow of the river, there are many colors, oh blue sky, in my dreams.",
+      "The path we are going on is filled with the fragrance of flowers.",
+      ""
+    ]
+  }
 }

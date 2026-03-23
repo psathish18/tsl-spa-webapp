@@ -78,5 +78,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTJ-d-4833GcnoJtneGxLA1MOxsX4Rdhxk7Hc6Fo-jppyjPFjZa_5B2XpwPAo2PQCiC4xFmpmKbLQA7J_tK7mht3RF-EQG_0KE7QpTVXdXF73piWDNiiZaW5gOplH_Z8nCs1wdkllS1zM/s400-c/Capture8.JPG",
   "generatedAt": "2026-01-18T12:47:17.774Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday",
+      "workout"
+    ],
+    "keywords": [
+      "dora",
+      "anirudh",
+      "ku karthik",
+      "vivek mervin",
+      "energetic",
+      "dance",
+      "2017",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Ra Ra Ra</strong> conveys a sense of excitement and celebration, encouraging listeners to embrace joy and energy.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie <em>Dora</em>?</h4><p><em>Dora</em> revolves around a young woman who embarks on a thrilling adventure, and this song reflects the lively moments in her journey.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the talented <strong>Anirudh</strong>, known for his catchy and energetic tracks in Tamil cinema.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Dora</em>?</h4><p>The music for <em>Dora</em> was composed by the duo <strong>Vivek – Mervin</strong>, who are known for their vibrant and engaging soundtracks.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Ra Ra Ra</strong> was released on February 4, 2017, and quickly became a favorite among fans.</p></div></div>",
+    "summary": "In the movie <em>Dora</em>, the song <strong>Ra Ra Ra</strong> serves as a vibrant celebration of life and adventure. The upbeat tempo and lively lyrics evoke feelings of joy and excitement, making it perfect for festive occasions. It captures the essence of the protagonist's journey, encouraging listeners to embrace happiness and energy. Overall, the song is a delightful anthem that resonates with the spirit of celebration.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Ra Ra Ra</strong> from <em>Dora</em> is an electrifying anthem that perfectly captures the spirit of celebration and joy. With Anirudh's vibrant vocals and the dynamic beats crafted by Vivek and Mervin, this track is sure to get you moving. Dive into the infectious energy of this song and let it elevate your mood!",
+    "stanzaMeanings": [
+      "",
+      "Are you coming to find the old calculation?",
+      "Are you coming to run, showing speed, not wanting to stop?",
+      "It's not just two, look ahead, the mirror will come, then you will be caught.",
+      "Make it two lights, brighten the night a bit, then you will be caught.",
+      "Look at the style, it's a show, come without stopping.",
+      "Are you here to find me? Come ahead.",
+      "Look at the style, it's a show, come without stopping.",
+      "Are you here to find me? Come ahead.",
+      "Are you coming to find the old calculation?",
+      "Are you coming to run, showing speed, not wanting to stop?",
+      "It's not just two, look ahead, the mirror will come, then you will be caught.",
+      "Make it two lights, brighten the night a bit, then you will be caught.",
+      ""
+    ]
+  }
 }

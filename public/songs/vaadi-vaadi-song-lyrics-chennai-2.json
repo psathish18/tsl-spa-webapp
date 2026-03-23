@@ -38,5 +38,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFyK_HT3HfmKxSxh-ZP_Pyx4NffTAML7H-a83xgKuwXJsjKbXJTEyj83d23S-udtyB4vy51vps9ceEP_P3o10SZn1DRskwnpLlDdWvMy5CXrie7UHEi2KE8XoqA64lF2MF4gNRLPhjGNg/s400-c/Vaadi+Vaadi+Lyrics+Chennai+2+Singapore.JPG",
   "generatedAt": "2026-01-18T12:48:00.570Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "chennai 2 singapore",
+      "rajan chelliah",
+      "soundara rajan",
+      "upbeat",
+      "dance number",
+      "2016",
+      "tamil song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Vaadi Vaadi</strong>, the lyrics reflect a playful and energetic vibe, making it a perfect dance number for celebrations. The song captures the essence of youthful exuberance and the joy of living in the moment. It resonates with themes of fun and spontaneity, inviting listeners to let loose and enjoy life. Set against the backdrop of <em>Chennai 2 Singapore</em>, it enhances the film's lively spirit and adds to its overall charm.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Vaadi Vaadi</strong> from <em>Chennai 2 Singapore</em> is an electrifying track that perfectly captures the vibrant energy of the film. With Rajan Chelliah's dynamic vocals and catchy lyrics by Soundara Rajan, this song is sure to get you moving. Experience the infectious rhythm that makes it a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "",
+      "Are you coming to talk to me from your heart, or are you just saying things without meaning?",
+      "Don't take me lightly, come closer, come closer, my little one.",
+      "There is no connection to life, no truth in the shadow; I am waiting to hold your hand, come closer, oh come closer, my little one.",
+      "Come closer, come closer, come closer, my little one; come closer, come closer... let my thoughts come to you, oh, bring your red flower to me.",
+      "I am confused, on the edge of a dilemma; come closer... searching for you, let’s unite and spread.",
+      "Are you coming to talk to me from your heart...",
+      "There is no essence in the water, no truth in the shadow; I am waiting to hold your hand, come closer, oh come closer, my little one.",
+      "Come closer, come closer, come closer, my little one; come closer, come closer, oh...",
+      "Because only you can make me feel this way, only you can make me feel this way; come closer, come closer, come closer...",
+      ""
+    ]
+  }
 }

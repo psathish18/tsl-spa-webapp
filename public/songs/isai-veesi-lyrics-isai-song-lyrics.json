@@ -60,5 +60,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd-4ccRHaH6hYmK4FVoww3qqbnvFLZhfqP5oAEa8yz6XmpzuNyVBGyhcTjknMhebqMXHJ_KI0RW0IAVeno_WjLCSUH2pt6i0g4ilDyJbecg_Lzc-f6-VExWinLsyCIaaoc7pfghHEZzo4/s400-c/Isai.jpg",
   "generatedAt": "2026-01-18T12:57:09.196Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "anniversary"
+    ],
+    "keywords": [
+      "isai",
+      "chinmayi",
+      "sj surya",
+      "2014",
+      "romantic",
+      "melody",
+      "tamil",
+      "movie",
+      "karky",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Isai Veesi</strong>?</h4><p>The song captures themes of romance and longing, beautifully expressed through its soothing melody.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Isai</em>?</h4><p>The music for the movie <em>Isai</em> was composed by <strong>SJ Surya</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Isai Veesi</strong>?</h4><p>The song is sung by the talented <strong>Chinmayi</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Isai</em> released?</h4><p>The movie <em>Isai</em> was released in the year <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does <strong>Isai Veesi</strong> evoke?</h4><p>The song evokes emotions of love, longing, and tranquility.</p></div></div>",
+    "summary": "<strong>Isai Veesi</strong> is a captivating melody from the movie <em>Isai</em>, sung by Chinmayi. The song beautifully conveys themes of romance and longing, set against a soothing musical backdrop by SJ Surya. It evokes a sense of tranquility and deep emotional connection, making it perfect for moments of reflection and relaxation. The lyrics, penned by Karky, add depth to the song's emotional resonance, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Isai Veesi</strong> from the movie <em>Isai</em> is a mesmerizing melody that captures the essence of romance and longing. Chinmayi's soulful voice combined with SJ Surya's evocative music creates an unforgettable experience. Dive into this enchanting track that beautifully blends emotions with musical brilliance.",
+    "stanzaMeanings": [
+      "Music blows, changing directions. Without desire, I watch the world.",
+      "You stand like a single leaf, without blinking, I watch, pulling a little life.",
+      "A thousand crore desires here, gathering a thousand joys in the heart.",
+      "",
+      "Why, for what reason, a new dizziness. I completely lost myself at first sight.",
+      "You stand like a single leaf, without blinking, I watch, pulling a little life.",
+      "In the stream of the mind, scattering drops, I sang with your music.",
+      "To clear dreams, to clarify drops, I ran searching for clouds.",
+      "",
+      "The moment you removed the veil of shame, you untangled the threads of the heart.",
+      "You covered my bare heart with a look.",
+      "Blocking the fire, calling the heart, you stole it.",
+      "",
+      "Holding the threads that open flowers, you caught her heartbeat.",
+      "In the spread of wings, you scattered music, you scattered her smile."
+    ]
+  }
 }

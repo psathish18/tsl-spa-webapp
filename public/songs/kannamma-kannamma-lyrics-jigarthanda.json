@@ -67,5 +67,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqMzXD1yrgXE4hnnEUb66HITB10PJhZUnhHw4M5k2Lrh4UXipUxsp-VO1PKSt4JJk9vWirx5BhwcyUYLyRBMFlCozvCdpfEKLTzKIub9J9fTmoxI6ln5ZbSXrhLC388_rC3klFayIhms0/s400-c/jigarthanda.jpg",
   "generatedAt": "2026-01-18T13:00:17.472Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "folk"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "jigarthanda",
+      "anthonydasan",
+      "rita",
+      "santhosh narayanan",
+      "romantic",
+      "folk",
+      "2014",
+      "tamil",
+      "movie song",
+      "duet"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannamma Kannamma</strong>?</h4><p>The song blends romantic and energetic folk elements, capturing the essence of love and excitement.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Anthonydasan</strong> and <strong>Rita</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Jigarthanda</em>?</h4><p>The music for the movie was composed by <strong>Santhosh Narayanan</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song is set in a vibrant and lively scene, enhancing the film's narrative with its energetic beats.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in <strong>2014</strong>.</p></div></div>",
+    "summary": "<strong>Kannamma Kannamma</strong> is a vibrant and energetic song from the movie <em>Jigarthanda</em>, capturing the essence of romance with a folk twist. Sung by Anthonydasan and Rita, the track is infused with Santhosh Narayanan's signature musical style. The song plays during a lively scene in the film, adding depth to the narrative with its catchy rhythm and romantic lyrics. It evokes feelings of excitement and love, making it a memorable addition to the movie's soundtrack.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Kannamma Kannamma</strong> from the movie <em>Jigarthanda</em> is a captivating blend of folk rhythms and romantic vibes. Sung by Anthonydasan and Rita, this track showcases Santhosh Narayanan's unique musical style that perfectly complements the film's intense narrative. Dive into this energetic and romantic number that adds a vibrant touch to the movie's soundtrack.",
+    "stanzaMeanings": [
+      "",
+      "Kannamma, Kannamma, love is like a blindfold. As time goes by, it becomes like a bullfight.",
+      "Lonely parrot, the tiger that spread sparks, got caught.",
+      "He planted a seed of pain in the heart, yes, he raised it with care, yes. Time will pass, this love is like a maze, if you step wrong, it will collapse, yes.",
+      "Kannamma, Kannamma, love is like a blindfold. As time goes by, it becomes like a bullfight.",
+      "The noble king who watches closely, yes, standing on one leg like a red hibiscus, yes. A drama unfolds in maturity, yes, waiting to ripen.",
+      "He got caught, got caught, like a thread in a saree, he danced like a flower.",
+      "Kannamma, Kannamma, love is like a blindfold. As time goes by, it becomes like a bullfight.",
+      "Kannamma, Kannamma, yes, I got caught.",
+      "Inside the heart, a bird is flying, yes, even the fire walks carefully, yes. Inside the heart, a bird is flying, yes, even the fire walks carefully, yes.",
+      "Lonely parrot, the tiger that spread sparks, got caught.",
+      "Kannamma.."
+    ]
+  }
 }

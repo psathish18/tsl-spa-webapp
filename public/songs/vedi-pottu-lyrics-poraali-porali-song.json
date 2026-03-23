@@ -46,5 +46,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7A5OBGPhY0HuUF8RrjUXyHtWKPoCV15996CSu1ggoz_pX_2wQUXvQUkrps_MV3pWbM7GERV4rwgcAaezXViIs9uXfw_EF1KA8hjM_2N13PmdsCFU4FmgmViWsUCL5Pqv5vhrv-rAd0lk/s400-c/Poraali-songs.jpg",
   "generatedAt": "2026-01-18T13:08:55.220Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy",
+      "peppy"
+    ],
+    "songType": [
+      "duet",
+      "dance number",
+      "folk"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "poraali",
+      "vedi pottu",
+      "thanjai selvi",
+      "velmurugan",
+      "kabilan",
+      "sundar c babu",
+      "energetic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Vedi Pottu'?</h4><p>'Vedi Pottu' conveys a sense of celebration and joy, encouraging listeners to embrace life with enthusiasm.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Poraali?</h4><p>In <em>Poraali</em>, this song represents a festive moment where characters come together to celebrate, reflecting the film's overall theme of unity and joy.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of 'Vedi Pottu'?</h4><p>The song features the talented voices of Thanjai Selvi and Velmurugan, with music composed by Sundar C Babu.</p></div><div class=\"faq-item\"><h4>When was 'Vedi Pottu' released?</h4><p>'Vedi Pottu' was released on November 18, 2011.</p></div></div>",
+    "summary": "'Vedi Pottu' is an energetic duet that encapsulates the spirit of celebration and joy in the movie <em>Poraali</em>. The lively lyrics by Kabilan and the vibrant music by Sundar C Babu create an infectious atmosphere that invites listeners to dance and rejoice. This song reflects the camaraderie and festive spirit among the characters, making it a highlight of the film. With its upbeat tempo and catchy melody, it evokes feelings of happiness and togetherness.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Vedi Pottu</strong> from <em>Poraali</em> is a vibrant celebration of life and joy, featuring the dynamic vocals of Thanjai Selvi and Velmurugan. The infectious beats crafted by Sundar C Babu perfectly complement the lively lyrics penned by Kabilan, making it a must-listen for any festive occasion. Dive into this energetic track that promises to uplift your spirits and get you dancing!",
+    "stanzaMeanings": [
+      "",
+      "Sing with the fire, dance with the beat. Without drinking, come and enjoy. The girl is like a parrot, her eyes shining. Look at the night of the festival...",
+      "The fragrance of the flower brings joy, the heart is like a restless breeze. When the little ones smile, it feels like a dream has come true.",
+      "Don't say your child is a burden, don't think of it as a shame. Like a mother singing lullabies to her child, trust in the tree that grows strong. Don't let the blood tie you down, sing out loud for our village... (Sing with the fire...)",
+      "The eyes are filled with desires, but they won't die easily. What I touch will slip away. Inside, there is no blood left. You are the one who shines like a green gem.",
+      "The path leads you forward, come quickly and enjoy...",
+      "Let it go..."
+    ]
+  }
 }

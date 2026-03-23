@@ -87,5 +87,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP4nLuTjN6YF31cFBZ_SsReEDWB-ly5kgMdcb5GyAbB5anqQOw-MR3e8WVqJAqdVQX-sMHJDAauitLAyGzS6J7QzGhyphenhyphen8gLhihyphenhyphenWb72al4-nbOZbnFr2BzqBrt-C52hsabp-ZIig3kd5Vo/s400-c/Aariro+Lyrics+Deiva+Thirumagal.jpg",
   "generatedAt": "2026-02-01T13:03:53.265Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "lullaby",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning"
+    ],
+    "keywords": [
+      "aariro aariro",
+      "deiva thirumagal",
+      "vikram",
+      "anushka shetty",
+      "gv prakashkumar",
+      "na muthukumar",
+      "haricharan",
+      "tamil lullaby",
+      "2011 tamil songs",
+      "soothing music",
+      "melancholic melody",
+      "tamil cinema",
+      "tamil movie songs",
+      "tamil lyrics",
+      "tamil music"
+    ],
+    "actorName": "Vikram",
+    "actressName": "Anushka Shetty",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Aariro Aariro</strong>, a mesmerizing lullaby from the heartwarming movie <em>Deiva Thirumagal</em>, captures the essence of parental love and emotional depth. Composed by the talented GV Prakash Kumar and beautifully sung by Haricharan, this song is a testament to the power of music in storytelling. Dive into this soulful melody and experience the tender emotions it evokes.",
+    "stanzaMeanings": [
+      "Lullaby, lullaby, this is a father's lullaby. The earth feels new, hearing her baby talk.",
+      "A father becomes a mother, a new epic is written. In his scribbles, her life is a masterpiece.",
+      "Two lives unite to become one here. Even without a womb, he feels the burden of carrying.",
+      "Tears well up at the corner of the eyes, seeking solace.",
+      "Lullaby, lullaby, this is a father's lullaby. The earth feels new, hearing her baby talk.",
+      "A new bond formed, like rain that has started. When the rain stops, the tree still sheds its leaves.",
+      "Though grown in age, he remains a child at heart. Though she is a child, she is like a mother.",
+      "There is no greater joy than this. Two hearts unite here, speaking in silence.",
+      "A voice asks if a moment is enough. Tears well up at the corner of the eyes, seeking solace.",
+      "Lullaby, lullaby, this is a father's lullaby. The earth feels new, hearing her baby talk.",
+      "She showed the reflection in the mirror. She played music to a song that couldn't be heard.",
+      "Oh, the divine has come here, playing beautifully at home.",
+      "The seed of love has grown into a tree here.",
+      "He has not seen God, but his eyes reveal it. Before love, worldly knowledge fades. Tears well up at the corner of the eyes, seeking solace.",
+      "Lullaby, lullaby, this is a father's lullaby. The earth feels new, hearing her baby talk.",
+      ""
+    ]
+  }
 }

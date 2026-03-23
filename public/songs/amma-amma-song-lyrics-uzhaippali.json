@@ -41,5 +41,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid93MbVldU_953vkWk5Nk9exzes-gota_iLc0YtUaEtaWV-t2ZRWXF4dJHFrH6qMT8cE0xj-FhJEL7WvZQl_epMGSElDG49HIubR4anja_Kg-ALbANTXbC0hk4loZv0upURMoQ1Qz-RvM/s400-c/Uzhaippali+Lyrics+Amma+Amma.JPG",
   "generatedAt": "2026-01-18T13:19:47.147Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "emotional"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "relaxation",
+      "reflection"
+    ],
+    "keywords": [
+      "amma amma",
+      "uzhaippali",
+      "rajinikanth",
+      "roji",
+      "ilaiyaraaja",
+      "vaali",
+      "spb",
+      "1993",
+      "tamil song",
+      "melody",
+      "devotional",
+      "emotional"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who composed the music for the song <strong>Amma Amma</strong>?</h4><p>The music for the song was composed by the legendary composer <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Which movie features the song <strong>Amma Amma</strong>?</h4><p>The song is featured in the Tamil movie <em>Uzhaippali</em>, released in 1993.</p></div><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>Uzhaippali</em>?</h4><p>The lead roles in the movie were portrayed by <strong>Rajinikanth</strong> and <strong>Roji</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Amma Amma</strong>?</h4><p>The song expresses deep emotional reverence and love, often associated with maternal affection.</p></div><div class=\"faq-item\"><h4>Who penned the lyrics for the song <strong>Amma Amma</strong>?</h4><p>The lyrics were written by the renowned lyricist <strong>Vaali</strong>.</p></div></div>",
+    "summary": "The song <strong>Amma Amma</strong> from the Tamil movie <em>Uzhaippali</em> (1993) is a heartfelt melody that celebrates the unconditional love and sacrifice of a mother. Featuring the iconic performances of Rajinikanth and Roji, the song is beautifully composed by Ilaiyaraaja with lyrics by Vaali. Sung by the legendary S. P. Balasubrahmanyam, it evokes deep emotions and resonates with listeners of all ages. This song remains a timeless tribute to maternal love and devotion.",
+    "actorName": "Rajinikanth",
+    "actressName": "Roji",
+    "releaseYear": "1993",
+    "high_ctr_intro": "Experience the heartfelt emotions of the <strong>Amma Amma</strong> song from the movie <em>Uzhaippali</em>. This touching melody, composed by the legendary Ilaiyaraaja and sung by the iconic S. P. Balasubrahmanyam, beautifully captures the essence of love and reverence. Immerse yourself in this timeless classic that continues to resonate with audiences.",
+    "stanzaMeanings": [
+      "Mother, mother, you are my life, my precious jewel. You are my god, oh oh oh..",
+      "Mother, mother, you are my life, you and I are one soul. My precious jewel, oh oh.. You are my god, oh oh..",
+      "Mother, mother, you are my life.",
+      "If you shed a tear, my heart cannot bear it.",
+      "Even if your golden face frowns a little, I will not feel sad.",
+      "In the tenth month, a song is sung, and a child is born to bring wealth into the hands.",
+      "You are the mother, you have endured hardships, oh mother, you are the one who nurtures me.",
+      "Mother, mother, you are my life, you and I are one soul.",
+      "The paths change, but the mother’s love remains here.",
+      "If a little bird flies out of the nest, will the mother bird not come back?",
+      "I knew you would be born in a good time, I sang here as your eyes opened.",
+      "It is enough, enough, to be separated, oh mother, you are the one who nurtures me.",
+      ""
+    ]
+  }
 }

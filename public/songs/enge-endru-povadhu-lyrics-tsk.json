@@ -97,5 +97,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:45:02.497Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "thaana serndha koottam",
+      "anirudh",
+      "thamarai",
+      "melancholic",
+      "2018",
+      "tamil",
+      "song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song explores themes of longing and emotional pain, reflecting on the complexities of relationships.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Thaana Serndha Koottam</em>, this song underscores a pivotal moment of introspection for the protagonist, highlighting their emotional struggles.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Anirudh</strong>, who is also the music director, showcasing his versatility and talent.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Enge Endru Povadhu</strong> was released on January 4, 2018.</p></div></div>",
+    "summary": "In <strong>Enge Endru Povadhu</strong>, the listener is taken on an emotional journey through the lens of heartbreak and nostalgia. The song beautifully captures the protagonist's feelings of loss and longing, making it a poignant moment in the film <em>Thaana Serndha Koottam</em>. With Anirudh's soulful voice and Thamarai's evocative lyrics, it resonates with anyone who has faced similar emotions. The melancholic tone of the song evokes a sense of reflection, inviting listeners to connect with their own experiences.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Enge Endru Povadhu</strong> is a hauntingly beautiful melody that captures the essence of longing and introspection. With <strong>Anirudh's</strong> soulful rendition and <strong>Thamarai's</strong> poignant lyrics, this track from the movie <em>Thaana Serndha Koottam</em> resonates deeply with anyone who has experienced heartache. Dive into this emotional journey and let the music take you to a place of reflection.",
+    "stanzaMeanings": [
+      "Who can say where we are going? It feels like something is living, but it is fading away slowly.",
+      "This is a ghost that drinks blood, turning night into day. There is no escape, it is all around us.",
+      "In a land where being born is like being a child, there is no good, and the rain falls on the wrong days.",
+      "In the midst of chaos, there is a life. What is the price of just tears?",
+      "Every day, you and I see dreams that will slowly fade away.",
+      "If there is a talent, should we not seek a place? This world is filled with words that do not mean anything!",
+      "We are searching for a way, growing up alone, turning upside down without knowing the direction.",
+      "Can we change the rules? Can we change the sights? Can we change the circles? Can we change the surroundings?",
+      "Now we must create a path, and we must run forward, facing whatever comes our way.",
+      "Is this a big gathering or a new battle?",
+      "This is not a gathering of seekers, but a gathering of those who have come together...",
+      "In a place where good and bad coexist, if the time comes when we must work together, what can we do?",
+      "This is a gathering of those who have come together... this is a gathering of those who have come together...",
+      "This is not a gathering of seekers, but a gathering of those who have come together...",
+      "Is this a big gathering or a new battle?",
+      "This is not a gathering of seekers, but a gathering of those who have come together.",
+      "Gathering..."
+    ]
+  }
 }

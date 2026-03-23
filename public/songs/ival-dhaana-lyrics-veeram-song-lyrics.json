@@ -108,5 +108,56 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzuMdaAQyd8s-YJZ_DfCpuls1RGzGD5ac7fJaHYGWjphf6tpD64Oe31gCOXFrtCH8bj9VA5qEpDAIb5gDY6qD8ZCAEBQxjNh2h_PNTiqEyFBDyjAyp1bGsUEDhQaIHA7sH4z4h293wJtw/s400-c/veeram.jpg",
   "generatedAt": "2026-01-18T13:01:41.530Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding"
+    ],
+    "keywords": [
+      "veeram",
+      "sagar",
+      "shreya ghoshal",
+      "viveka",
+      "devi sri prasad",
+      "romantic",
+      "melody",
+      "2013",
+      "tamil",
+      "song",
+      "lyrics",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Ival Dhaana</strong>?</h4><p>The song explores themes of love and longing, capturing the emotions of a romantic relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p><strong>Sagar</strong> and <strong>Shreya Ghoshal</strong> lend their voices to this beautiful duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Veeram</em>?</h4><p>The music for <em>Veeram</em> was composed by <strong>Devi Sri Prasad</strong>.</p></div><div class=\"faq-item\"><h4>What is the significance of the song in the movie?</h4><p>The song is pivotal in expressing the romantic tension and emotional depth between the lead characters.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in <strong>2013</strong>.</p></div></div>",
+    "summary": "<strong>Ival Dhaana</strong> is a melodious duet from the movie <em>Veeram</em>, capturing the essence of romance and longing. Sung by Sagar and Shreya Ghoshal, the song beautifully conveys the emotions of love and the anticipation of being with a loved one. Viveka's poignant lyrics, combined with Devi Sri Prasad's soulful composition, create a memorable musical experience. The song plays a significant role in the film, highlighting the emotional connection between the lead characters.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Ival Dhaana</strong> from the movie <em>Veeram</em> is a captivating duet that beautifully blends the soulful voices of Sagar and Shreya Ghoshal with Devi Sri Prasad's enchanting music. The song's romantic and slightly melancholic tone makes it perfect for intimate moments. Experience the magic of Viveka's lyrics as they weave a tale of love and longing.",
+    "stanzaMeanings": [
+      "",
+      "Eyes shyly look away, crossing the line of shyness, no one is around, oh what will happen.",
+      "The heart is pounding with fear, unable to express a word, oh what will happen.",
+      "She came like a half moon in the sky, is it her? Oh, is it her?",
+      "Like lightning and rain, casting spells, he conquered my dreams, is it him? Is it him?",
+      "Competing, my eyes move forward to see you. Even the eyelids become burdens when they come in front.",
+      "Is it her? Oh, is it her?",
+      "Eyes shyly look away, crossing the line of shyness, no one is around, oh what will happen.",
+      "The heart is pounding with fear, unable to express a word, oh what will happen.",
+      "Thousands of questions, all answers in your eyes. When questions end, love begins.",
+      "Walking alone on the street is a grand sight. Like a thread with a flower, the street recognizes it.",
+      "Fever comes and goes, I have changed. Is it him? Is it him?",
+      "Holding an umbrella, I watch the rain. Without her, life feels like a child.",
+      "Oh, your eye movements and your smile. Instantly, my life stirs, a name moves within my body.",
+      "Like a pattern blown away by the wind, I forget yesterday.",
+      "Is it her? Oh, is it her?"
+    ]
+  }
 }

@@ -40,5 +40,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:05.874Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "nizhalgal",
+      "s. p. balasubrahmanyam",
+      "vairamuthu",
+      "ilaiyaraaja",
+      "romantic",
+      "melody",
+      "1980",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep romantic feelings and the beauty of love, capturing the essence of longing and connection.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is featured in the movie <em>Nizhalgal</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the legendary <strong>S. P. Balasubrahmanyam</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by the iconic <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on November 6, 1980.</p></div></div>",
+    "summary": "In <strong>Idhu Oru Ponmaalai Poludhu</strong>, the listener is taken on a melodic journey that beautifully encapsulates the feelings of love and nostalgia. The song's lyrics evoke a sense of longing, perfectly complemented by the soothing music composed by <strong>Ilaiyaraaja</strong>. As it plays in the backdrop of <em>Nizhalgal</em>, it enhances the emotional depth of the scenes, making it a memorable piece. The heartfelt rendition by <strong>S. P. Balasubrahmanyam</strong> adds to its timeless charm, making it a favorite among fans of classic Tamil music.",
+    "releaseYear": "1980",
+    "high_ctr_intro": "<strong>Idhu Oru Ponmaalai Poludhu</strong> is a timeless melody that captures the essence of romance and nostalgia. With the enchanting voice of <strong>S. P. Balasubrahmanyam</strong> and the masterful composition by <strong>Ilaiyaraaja</strong>, this song transports listeners to a world of beautiful memories. Experience the magic of <em>Nizhalgal</em> through its poetic lyrics by <strong>Vairamuthu</strong>.",
+    "stanzaMeanings": [
+      "This is a golden flower.",
+      "The daughter of the sky is shining, this is a golden flower.",
+      "A thousand colors fill the night at the doorway.",
+      "The sky has a bridge for the night, and the singing birds are resting.",
+      "Do flowers bloom on the trees...?",
+      "This is a golden flower, the daughter of the sky is shining, this is a golden flower.",
+      "The sky gives me a tree that will always provide me with news.",
+      "One day, the world will seek justice, and on that great day, it will come looking for you.",
+      "With questions, I will create answers. This is a golden flower.",
+      "The daughter of the sky is shining, this is a golden flower.",
+      ""
+    ]
+  }
 }

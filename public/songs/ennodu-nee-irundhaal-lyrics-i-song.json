@@ -85,5 +85,38 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf6_ei9eped7uxl42LbEhlKlGeJHzodg4xr_VUSYdlfEbFcgQMYFfZc1SqGtJL7_f9Y9KEX_6M1lETDn2lOTbrJ93lnOAfG89zAds_gJlwvBr88-K-TQaG8zVKh04pO2aazlKwexVYKZY/s400-c/I.jpg",
   "generatedAt": "2026-01-18T12:57:50.663Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "ennodu nee irundhaal",
+      "i",
+      "sid sriram",
+      "sunitha sarathy",
+      "kabilan",
+      "ar rahman",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Ennodu Nee Irundhaal</strong> expresses deep feelings of love and connection, emphasizing the importance of being together with a loved one.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is featured in the movie <em>I</em>, which showcases a unique love story intertwined with action and drama.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by the talented <strong>Sid Sriram</strong> and <strong>Sunitha Sarathy</strong>, both of whom bring a beautiful emotional depth to the track.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Ennodu Nee Irundhaal</strong> was composed by the legendary <strong>AR Rahman</strong>, known for his innovative and captivating soundtracks.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on <strong>September 13, 2014</strong>, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "In the movie <em>I</em>, the song <strong>Ennodu Nee Irundhaal</strong> serves as a poignant expression of love and devotion. It encapsulates the emotions of longing and connection between the lead characters, making it a perfect backdrop for romantic moments. The soothing melodies and heartfelt lyrics evoke a sense of tranquility and warmth, resonating deeply with listeners. This duet not only highlights the vocal prowess of Sid Sriram and Sunitha Sarathy but also showcases AR Rahman's exceptional musical composition.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Ennodu Nee Irundhaal</strong> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Sid Sriram and Sunitha Sarathy, combined with AR Rahman's magical composition, this song creates an unforgettable experience. Dive into the romantic vibes of <em>I</em> and let the soothing melodies sweep you off your feet.",
+    "stanzaMeanings": [
+      "If you are with me, I will live with my soul. Without you, I cannot live in this world."
+    ]
+  }
 }

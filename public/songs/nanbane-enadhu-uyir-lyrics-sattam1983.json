@@ -42,5 +42,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF_cwgwAkEYA2UZd2DK_4lr8pDSdfNS_ulEQUhPeZu6aLEkX6KnQ6H45taMEGJ_wEqODRQNNOBEOKUYwHBZAVQk4kd3MpjMuHa6r-5BtqlOS3pODUpglgUc22-UjPUtVc_gcDqL2pwmrI/s400-c/Sattam+1983.JPG",
   "generatedAt": "2026-01-18T13:20:55.770Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak"
+    ],
+    "keywords": [
+      "sattam",
+      "nanbane enadhu uyir",
+      "malaysia vasudevan",
+      "sp balasubrahmanyam",
+      "gangai amaran",
+      "romantic",
+      "1983",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nanbane Enadhu Uyir'?</h4><p>The song expresses deep feelings of love and connection, emphasizing the bond between two souls.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Sattam?</h4><p>In <strong>Sattam</strong>, the song highlights the romantic relationship between the lead characters, showcasing their emotional journey.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the melodious voices of <strong>Malaysia Vasudevan</strong> and <strong>S. P. Balasubrahmanyam</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Nanbane Enadhu Uyir' was composed by <strong>Gangai Amaran</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released in <strong>1983</strong>.</p></div></div>",
+    "summary": "In 'Nanbane Enadhu Uyir', the heartfelt lyrics and melodious composition create a beautiful portrayal of love and companionship. The song captures the essence of two souls intertwined, expressing a longing for togetherness. Its nostalgic vibe evokes emotions that resonate deeply with listeners, making it a cherished classic. The collaboration of renowned singers adds to its timeless appeal, ensuring its place in the hearts of fans.",
+    "releaseYear": "1983",
+    "high_ctr_intro": "<strong>Nanbane Enadhu Uyir</strong> from <em>Sattam</em> is a timeless melody that beautifully encapsulates the essence of love and companionship. With the enchanting voices of Malaysia Vasudevan and S. P. Balasubrahmanyam, this song resonates with deep emotions and nostalgia. Experience the magic of this classic that continues to touch hearts across generations.",
+    "stanzaMeanings": [
+      "",
+      "My friend, my life, my friend, the days we spent together will continue like this.",
+      "In a swing on a branch, both flowers, you and I, dance together.",
+      "We can be together without separation.",
+      "If one eye is closed, the other will shed tears.",
+      "For you, I am for you.",
+      "Two hands will hold each other, this sweet sound must always be heard, that is my desire.",
+      "My friend, my life, my friend, the days we spent together will continue like this.",
+      "If anyone claims you as their own, I will not let that happen.",
+      "If anyone tries to steal you, I will stand guard for you.",
+      "My heart and my thoughts belong to you.",
+      "What do we have to see apart, two hearts...",
+      "My friend, my life, my friend, the days we spent together will continue like this.",
+      ""
+    ]
+  }
 }

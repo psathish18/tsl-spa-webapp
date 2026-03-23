@@ -70,5 +70,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFpR-oic98wnVDQ_mBzNAQyDowJBX-Fe1BhYxZaHszggOCy-zua3OZ4cT4r61EP4MjC7CSOL5-6ARPInxF4yJFSuk0O7NNjur42ck5S4s5oPWqC5_Hu5Xp9QmeGF-ja64lhLqBefimK2Y/s400-c/yatchan.jpg",
   "generatedAt": "2026-01-18T12:54:29.864Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "yatchan",
+      "yuvan",
+      "pa vijay",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil song",
+      "yuvan shankar raja",
+      "lyrics",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Innum Enna Azhage</strong>?</h4><p>The song explores themes of love and longing, capturing the emotions of a lover yearning for connection.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Yatchan</em>?</h4><p><strong>Yuvan Shankar Raja</strong> composed the music for the movie <em>Yatchan</em>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie?</h4><p>The song reflects the inner emotions of the characters, adding depth to their romantic journey.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Innum Enna Azhage</strong>?</h4><p>The lyrics were penned by <strong>Pa Vijay</strong>.</p></div><div class=\"faq-item\"><h4>When was <em>Yatchan</em> released?</h4><p>The movie <em>Yatchan</em> was released in 2015.</p></div></div>",
+    "summary": "In the movie <em>Yatchan</em>, the song <strong>Innum Enna Azhage</strong> beautifully captures the essence of romantic longing. Sung by Yuvan Shankar Raja, the melody conveys a deep sense of yearning and love. The lyrics by Pa Vijay add a poetic touch, enhancing the emotional depth of the song. This track is perfect for moments of reflection and connection, evoking a soothing and melancholic vibe.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Innum Enna Azhage</strong> from the movie <em>Yatchan</em>, where Yuvan Shankar Raja's soulful voice meets Pa Vijay's poetic lyrics. This romantic track beautifully captures the essence of longing and love. Dive into the soothing tunes that make this song a timeless favorite.",
+    "stanzaMeanings": [
+      "",
+      "Is there still no place for me in your heart, beautiful? Even a small smile is enough. Am I not truly within you?",
+      "You are not alone, I am with you. There are unspoken connections outside. Will love for me ever come to you? I will see it in your eyes.",
+      "Every day you walk along the path with me. Suddenly you disappeared somewhere. Will our hands join again, fingers like waves?",
+      "Is there still no place for me in your heart, beautiful?",
+      "Is there still no place for me in your heart, beautiful?"
+    ]
+  }
 }

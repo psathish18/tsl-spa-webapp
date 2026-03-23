@@ -83,5 +83,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHk0HNv21YiQ1yrV9GWL6BU4D60WGUCGXkcFB1o6XGM2DDz4QSORAKDPkDnSi10Qd4ERI9XqrLOlvBSj5PYfcRod8lhYxqvGF2S9aaqAETXs4IlOJE5Gt5LB3Z5ryd6NzfEBiJ4azHbFI/s400-c/Eetti+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:53:55.609Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "valentine's day",
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "eetti",
+      "k.g.ranjith",
+      "vandhana srinivasan",
+      "na muthukumar",
+      "gv prakashkumar",
+      "romantic",
+      "peppy",
+      "2015",
+      "tamil",
+      "duet",
+      "dance"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kuiyyo Muiyyo</strong>?</h4><p>The song is a lively and romantic number that captures the playful essence of young love.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kuiyyo Muiyyo</strong>?</h4><p>The song is sung by <strong>K.G. Ranjith</strong> and <strong>Vandhana Srinivasan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Eetti</em>?</h4><p>The music for the movie <em>Eetti</em> was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song appears in a sequence that highlights the blossoming romance between the lead characters.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Eetti</em> released?</h4><p>The movie <em>Eetti</em> was released in the year <strong>2015</strong>.</p></div></div>",
+    "summary": "The song <strong>Kuiyyo Muiyyo</strong> from the movie <em>Eetti</em> is a vibrant and romantic duet that showcases the playful dynamics of young love. Sung by K.G. Ranjith and Vandhana Srinivasan, the song is set to the energetic beats of GV Prakash Kumar's composition. The lyrics by Na Muthukumar add a poetic charm, making it a perfect fit for romantic and celebratory occasions. The song captures the joy and excitement of a budding romance, leaving listeners with a sense of happiness and enthusiasm.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Kuiyyo Muiyyo</strong> from the movie <em>Eetti</em>, where GV Prakash Kumar's lively composition meets the dynamic vocals of K.G. Ranjith and Vandhana Srinivasan. This peppy duet captures the essence of youthful romance and joy. Dive into the rhythmic beats and let the music take you on a delightful journey.",
+    "stanzaMeanings": [
+      "",
+      "Running, running, my heart is running. By myself, behind you. Beating, jumping, calling out sweetly. By myself, through your eyes. Where is it going, where is it taking my life? It's all because of you.",
+      "Like a child, love is playing. Oh no, oh no, your eyes are making me sway.",
+      "Running, running, my heart is running. By myself, behind you. Beating, jumping, calling out sweetly. By myself, through your eyes.",
+      "You smile like a doll. Can I give you the key? Will you accept it? Can I touch you a little? A kiss is ready, give it now. After checking the calendar, give me a high five. Oh, one day feels so new. When you look at me, I sweat.",
+      "Like a child, love is playing. Oh no, oh no, your eyes are making me sway.",
+      "You tease with your look. You beg when you are angry. Like the Pakistan army, you cross the border. Until it becomes a mirror, I can't guard it. When you sleep, I can't sleep. Oh, what is this sound in my heart? When I see you, it trembles.",
+      "Running, running, my heart is running. By myself, behind you. Beating, jumping, calling out sweetly. By myself, through your eyes. Where is it going, where is it taking my life? It's all because of you.",
+      "Like a child, love is playing. Oh no, oh no, your eyes are making me sway."
+    ]
+  }
 }

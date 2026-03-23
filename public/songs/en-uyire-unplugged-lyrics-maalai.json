@@ -66,5 +66,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgADUfvWQ_YdSDx3KkdwQk37WoTYcw-4kZdixX2QDsUz3Fd-DrLrX34hh3jjjdpejnr1Kutkguw8AR5vcvFGcbTgtOmTqTUpOuhiWqQY0iNh89tQpPGpTQg5uI1dohBodKnpkCMHv13xA/s400-c/Maalai+Pozhudhin+Mayakathilaey+1+.jpg",
   "generatedAt": "2026-01-18T13:08:04.147Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "maalai pozhudhin mayakathilaey",
+      "bombay jayashree",
+      "rohini",
+      "achu",
+      "romantic",
+      "melancholic",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>En Uyire</strong> expresses deep emotions of love and longing, reflecting the complexities of relationships.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <strong>Maalai Pozhudhin Mayakathilaey</strong>, the song plays during a pivotal moment that highlights the protagonist's feelings for their love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Bombay Jayashree</strong> and composed by <strong>Achu</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>En Uyire</strong> was released on February 15, 2012.</p></div></div>",
+    "summary": "The song <strong>En Uyire (unplugged)</strong> from <em>Maalai Pozhudhin Mayakathilaey</em> beautifully encapsulates the feelings of love and yearning. It showcases the protagonist's emotional turmoil as they navigate their affections. The soothing melody and heartfelt lyrics evoke a sense of nostalgia and romance, making it a perfect backdrop for intimate moments. This song resonates deeply with anyone who has experienced the highs and lows of love.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>En Uyire (unplugged)</strong> from <em>Maalai Pozhudhin Mayakathilaey</em> is a mesmerizing melody that captures the essence of love and longing. With Bombay Jayashree's soulful voice and Achu's enchanting composition, this song takes listeners on an emotional journey. The heartfelt lyrics by Rohini add depth, making it a perfect choice for romantic moments.",
+    "stanzaMeanings": [
+      "",
+      "My life..... My life..... Come close... Oh my life.....",
+      "Why does my heart feel like it's searching for you, only you?",
+      "The wind has blended, the sight has vanished, what kind of magic is this if you are here?",
+      "My life..... My life..... Come close... Oh my life.....",
+      "Because of you, my love, because of you, don't let me go away from you.",
+      "The thirst that brought me here, my heart is like a shining moon.",
+      "The small raindrops will come like a drizzle, this silence will pull me in, my love, you are my life....",
+      "Why does my heart feel like it's searching for you, only you?",
+      "The wind has blended, the sight has vanished, what kind of magic is this if you are here?",
+      "My life....."
+    ]
+  }
 }

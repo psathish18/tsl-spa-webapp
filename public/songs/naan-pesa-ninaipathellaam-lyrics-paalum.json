@@ -41,5 +41,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlMaGXo0x2281uLdBLQinEMxZv3ih24bHAstqM3zcMmRtOHQzuyxwfa6Ldltpn7YL3hMkB6ixorfPArS3zPgZF7l2CfpUSyl55FOwxBjT3mP6EuZeUZu0IP2QYnmAZZm4h__TWdjwsdQI/s400-c/Paalum-Pazhamum.jpg",
   "generatedAt": "2026-01-18T13:21:18.508Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "paalum pazhamum",
+      "p. susheela",
+      "kannadasan",
+      "viswanathan–ramamoorthy",
+      "romantic",
+      "nostalgic",
+      "1970",
+      "tms"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses the deep yearning for connection and the importance of communication in a relationship.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Paalum Pazhamum</em>, the song reflects the emotional struggles of the characters as they navigate their feelings for each other.</p></div><div class=\"faq-item\"><h4>Who are the artists involved in this song?</h4><p>The song features the melodious voice of <strong>P. Susheela</strong> and the lyrics by <strong>Kannadasan</strong>, with music composed by <strong>Viswanathan–Ramamoorthy</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Naan Pesa Ninaipathellaam</strong> was released in <strong>1970</strong>.</p></div></div>",
+    "summary": "In <strong>Naan Pesa Ninaipathellaam</strong>, the characters express their longing for each other through heartfelt lyrics and a soothing melody. The song encapsulates the essence of love, emphasizing the need for communication and connection. Its nostalgic vibe resonates with listeners, evoking memories of cherished moments. The collaboration of P. Susheela's voice and Kannadasan's poignant lyrics creates an emotional depth that lingers long after the song ends.",
+    "releaseYear": "1970",
+    "high_ctr_intro": "<strong>Naan Pesa Ninaipathellaam</strong> from <em>Paalum Pazhamum</em> is a timeless classic that beautifully captures the essence of love and longing. With the enchanting vocals of P. Susheela and the poetic brilliance of Kannadasan, this song evokes a deep sense of nostalgia. The melodious composition by Viswanathan–Ramamoorthy adds a unique charm, making it a must-listen for any music lover.",
+    "stanzaMeanings": [
+      "",
+      "I want to speak, you need to speak, we need to have a connection, we need to have a connection.",
+      "We see worlds, you need to see, you need to see.",
+      "Whatever you see, I should become that, I should become that.",
+      "Every fruit and milk should be for you, should be for you.",
+      "Looking at your face, I should feel happy, I should feel happy.",
+      "In my mind and thoughts, I should become like a mother, I should become that.",
+      "On the bed, you should play, you should become that.",
+      "Words spoken and language have no meaning, have no meaning.",
+      "There is no value in unspoken words, no value in unspoken words.",
+      "One becomes one, life merges, life merges.",
+      "There is nothing else in this world besides us, nothing else besides us.",
+      "I want to speak, you need to speak, we need to have a connection, we need to have a connection."
+    ]
+  }
 }

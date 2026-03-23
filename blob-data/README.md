@@ -64,7 +64,7 @@ When adding a new song to Blogger:
 3. Upload to Vercel Blob (see upload script in scripts/upload-to-blob.ts)
 4. Optional: Revalidate song page
    ```bash
-   curl https://www.tsonglyrics.com/api/revalidate?path=/new-song.html
+   curl https://tsonglyrics.com/api/revalidate?path=/new-song.html
    ```
 
 ## Schema Version

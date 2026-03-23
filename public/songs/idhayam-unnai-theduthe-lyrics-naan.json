@@ -80,5 +80,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH5Q5TzPdiyNWsblnpHie-unVYj1HaPSvV4YRH2TVFVOSEhPRYGnDh6-MUsfU9UCwlXoXgrIY19TGzp6UY4xyaNeyWFMEqqaG5bf2F0wIVY9AuXcFksgiLusWPCUfSmeh-AQDuL4Yc4TY/s400-c/NSM1.jpg",
   "generatedAt": "2026-01-18T13:00:07.839Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "naan sigappu manithan",
+      "gv prakash kumar",
+      "saindhavi",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, portraying the emotional connection between two lovers.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Naan Sigappu Manithan</em>, this song highlights the romantic moments between the lead characters, emphasizing their emotional bond.</p></div><div class=\"faq-item\"><h4>Who are the singers of the song?</h4><p>The song features the talented voices of <strong>GV Prakash Kumar</strong> and <strong>Saindhavi</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Idhayam Unnai Theduthe</strong> was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on March 13, 2014.</p></div></div>",
+    "summary": "In <strong>Idhayam Unnai Theduthe</strong>, the heartfelt lyrics and soothing melody create a romantic atmosphere that resonates with listeners. The song captures the essence of yearning and love, making it a perfect fit for intimate moments. As the characters in <em>Naan Sigappu Manithan</em> navigate their emotional journey, this track serves as a poignant reminder of their connection. The collaboration between <strong>GV Prakash Kumar</strong> and <strong>Saindhavi</strong> adds a unique charm, evoking a sense of nostalgia and warmth.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Idhayam Unnai Theduthe</strong> is a mesmerizing duet that beautifully captures the essence of love and longing. With <strong>GV Prakash Kumar</strong> and <strong>Saindhavi</strong> lending their enchanting voices, this track from the movie <em>Naan Sigappu Manithan</em> resonates with deep emotions. The soulful composition by <strong>GV Prakash Kumar</strong> elevates the romantic vibe, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "You have captured my heart in the golden clouds, dear, with your smile, it's like a drizzle.",
+      "In my eyes, a home has been built, and when you come there, it feels like a temple.",
+      "My heart searches for you, my life seeks you, I chase after you, the life of my life.",
+      "My thoughts also search for you, my reality seeks you, I chase after you, the life of my life.",
+      "Oh dear, even if it's just for a moment in your embrace, I will come and give my life.",
+      "Just one glance from you is enough, and I will rise again in this world.",
+      "You have captured my heart in the golden clouds, dear, with your smile, it's like a drizzle.",
+      "In my eyes, a home has been built, and when you come there, it feels like a temple.",
+      "My heart searches for you, my life seeks you, I chase after you, the life of my life.",
+      "Oh dear, even if it's just for a moment in your embrace, I will come and give my life.",
+      "Just one glance from you is enough, and I will rise again in this world.",
+      "",
+      ""
+    ]
+  }
 }

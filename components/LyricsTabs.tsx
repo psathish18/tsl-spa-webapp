@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface LyricsTabsProps {
   tamilContent: React.ReactNode
@@ -11,7 +11,23 @@ interface LyricsTabsProps {
 }
 
 export default function LyricsTabs({ tamilContent, tanglishContent, hasTamilLyrics, englishContent, hasEnglishLyrics }: LyricsTabsProps) {
-  const [activeTab, setActiveTab] = useState<'tamil' | 'tanglish' | 'english'>('tamil')
+  // Default to Tamil if available, otherwise Tanglish
+  const [activeTab, setActiveTab] = useState<'tamil' | 'tanglish' | 'english'>(
+    hasTamilLyrics ? 'tamil' : 'tanglish'
+  )
+
+  // Update active tab when hasTamilLyrics changes (e.g., navigating between songs)
+  useEffect(() => {
+    // If current tab is Tamil but Tamil lyrics are no longer available, switch to Tanglish
+    if (activeTab === 'tamil' && !hasTamilLyrics) {
+      setActiveTab('tanglish')
+    }
+    // If Tamil lyrics become available and we're on Tanglish, optionally switch to Tamil
+    // (commented out to preserve user's tab selection when possible)
+    // if (activeTab === 'tanglish' && hasTamilLyrics) {
+    //   setActiveTab('tamil')
+    // }
+  }, [hasTamilLyrics, activeTab])
 
   // Determine if we should show tabs at all
   const hasMultipleVersions = hasTamilLyrics || hasEnglishLyrics;

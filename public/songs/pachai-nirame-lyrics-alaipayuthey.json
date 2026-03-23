@@ -72,5 +72,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:17:43.094Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "alaipayuthey",
+      "pachai nirame",
+      "clinton cerejo",
+      "hariharan",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "2000"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Pachai Nirame'?</h4><p>'Pachai Nirame' translates to 'Green Colors' and symbolizes the freshness and vibrancy of love, reflecting the emotions of the characters in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of 'Pachai Nirame' in the movie?</h4><p>This song is a pivotal moment in <em>Alaipayuthey</em>, showcasing the blossoming romance between the lead characters, filled with joy and affection.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features the talented voices of Clinton Cerejo and Hariharan, with music composed by the legendary AR Rahman.</p></div><div class=\"faq-item\"><h4>When was 'Pachai Nirame' released?</h4><p>'Pachai Nirame' was released on March 14, 2000, as part of the <em>Alaipayuthey</em> soundtrack.</p></div></div>",
+    "summary": "In <strong>Pachai Nirame</strong>, the characters express their love through vibrant imagery and heartfelt lyrics, encapsulating the joy and beauty of romance. The song's soothing melody, crafted by AR Rahman, complements the emotional depth conveyed by the singers. As the narrative unfolds in <em>Alaipayuthey</em>, this track serves as a celebration of love's colors and the happiness it brings. It evokes feelings of warmth and nostalgia, making it a timeless favorite for romantic occasions.",
+    "releaseYear": "2000",
+    "high_ctr_intro": "<strong>Pachai Nirame</strong> from <em>Alaipayuthey</em> is a mesmerizing duet that beautifully captures the essence of love. With the enchanting voices of Clinton Cerejo and Hariharan, paired with AR Rahman's magical composition, this song creates an unforgettable romantic atmosphere. Dive into the soothing melodies and vibrant lyrics that celebrate the colors of love.",
+    "stanzaMeanings": [
+      "There is a color in love, my friend.",
+      "There is a color for you, my dear.",
+      "Green color brings wishes, and the smile of flowers gives me peace.",
+      "Green color represents youth, and your beauty gives me peace.",
+      "The parrot's beak is seen in the branches, and the girl is like a fresh flower.",
+      "All your anger is red.",
+      "The evening sky hides, and the yellow fire blooms with golden flowers.",
+      "The moonlight and emerald green, all reside in your heart.",
+      "There is a color in love, my friend.",
+      "There is a color for you, my dear.",
+      "The colorless sky has no clouds, and the peacock lives in the color of the rain.",
+      "Everything combines and shines in your eyes.",
+      "Everything combines and shines in your eyes.",
+      "The color of the night, the color of the sky, the color of the crow's wings, the color of the beauty that sings in the sunlight.",
+      "Everything combines in your curls, the color of your curls.",
+      "There is a color in love, my friend.",
+      "There is a color for you, my dear. The white color in the rain and the color in your eyes brings peace to your heart."
+    ]
+  }
 }

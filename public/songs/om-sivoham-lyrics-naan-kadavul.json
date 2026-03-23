@@ -63,5 +63,63 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:31.500Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "devotional",
+      "theme"
+    ],
+    "occasions": [
+      "relaxation",
+      "festivals"
+    ],
+    "keywords": [
+      "naan kadavul",
+      "vijay prakash",
+      "vaali",
+      "ilaiyaraaja",
+      "devotional",
+      "2009",
+      "tamil song",
+      "spiritual"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Om Sivoham'?</h4><p>'Om Sivoham' is a devotional song that praises Lord Shiva, invoking his blessings and spiritual energy.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of 'Naan Kadavul'?</h4><p>The song reflects the protagonist's spiritual journey and connection with the divine, highlighting themes of faith and devotion.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Vijay Prakash</strong> and composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Om Sivoham' released?</h4><p>The song was released on <strong>February 6, 2009</strong>.</p></div></div>",
+    "summary": "In 'Om Sivoham', the protagonist expresses deep devotion and reverence towards Lord Shiva, encapsulating the essence of spirituality. The song's soothing melody and powerful lyrics evoke a sense of peace and connection with the divine. It serves as a pivotal moment in the film <em>Naan Kadavul</em>, illustrating the character's spiritual awakening. The heartfelt rendition by Vijay Prakash, combined with Ilaiyaraaja's masterful composition, creates an uplifting experience for listeners.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Om Sivoham</strong> from <em>Naan Kadavul</em> is a mesmerizing devotional track that resonates with spiritual energy. With Vijay Prakash's powerful vocals and Ilaiyaraaja's enchanting composition, this song elevates the soul to divine heights. Experience the magic of this collaboration that beautifully captures the essence of devotion and reverence.",
+    "stanzaMeanings": [
+      "",
+      " ",
+      "We chant the name of Rudra, we chant the name of Rudra.",
+      "To the brave Bhadraya, with fiery eyes, we offer our respect.",
+      "To all worlds and all beings, we seek the truth and realization.",
+      "We call upon Sambo, the auspicious one, Sankara.",
+      "We chant the name of Rudra, we chant the name of Rudra.",
+      "",
+      " ",
+      "To the creator of the universe, who maintains everything, we offer our respect.",
+      "The essence of the Vedas, the purpose of sacrifices, we seek protection from evil across the seven worlds.",
+      "To the moon, sun, and fire, who rides the white bull, with a trident in hand, we offer our respect.",
+      "To the one with matted hair, the great warrior, with five faces and an axe, we bow down.",
+      "We chant the name of Rudra, we chant the name of Rudra.",
+      "We chant the name of Rudra, we chant the name of Rudra.",
+      "To the one who sees all times, with three eyes and a trident, we offer our respect.",
+      "The truth flows, divine light manifests, we seek the essence of the mantra.",
+      "Free from impurities, I am complete, I am eternal, I am the ultimate reality.",
+      "The essence of existence, I am, I am, I am Brahman.",
+      "",
+      " ",
+      "We chant the name of Rudra, we chant the name of Rudra.",
+      "We chant the name of Rudra, we chant the name of Rudra.",
+      "To the brave Bhadraya, with fiery eyes, we offer our respect.",
+      "To all worlds and all beings, we seek the truth and realization.",
+      "We call upon Sambo, the auspicious one, Sankara.",
+      "We chant the name of Rudra, we chant the name of Rudra."
+    ]
+  }
 }

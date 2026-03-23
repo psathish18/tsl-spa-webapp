@@ -54,5 +54,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:06.896Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "masilamani",
+      "shaan",
+      "pa vijay",
+      "d imman",
+      "romantic",
+      "melody",
+      "2009",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'O divya O divya'?</h4><p>The song expresses deep feelings of love and admiration, portraying the beauty of the beloved.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Masilamani?</h4><p>In <em>Masilamani</em>, this song highlights the romantic moments between the lead characters, showcasing their emotional connection.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Shaan</strong> and composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'O divya O divya' released?</h4><p>The song was released on June 4, 2009.</p></div></div>",
+    "summary": "In the film <em>Masilamani</em>, <strong>O divya O divya</strong> serves as a heartfelt expression of love, beautifully encapsulating the emotions of the lead characters. The song's soothing melody and romantic lyrics evoke a sense of longing and admiration. It conveys the essence of cherishing moments spent with a loved one, making it perfect for romantic occasions. With Shaan's captivating vocals and D Imman's masterful composition, this song remains a favorite for many.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>O divya O divya</strong> is a mesmerizing melody that captures the essence of romance and longing. With <strong>Shaan's</strong> soulful voice and <strong>D Imman's</strong> enchanting composition, this song from the film <em>Masilamani</em> is sure to tug at your heartstrings. Experience the magic of love through its beautiful lyrics penned by <strong>Pa Vijay</strong>.",
+    "stanzaMeanings": [
+      "",
+      "Oh divine one, oh divine one, you walk like a river, dancing in my heart. Oh divine one, oh divine one, you sing like a new moon. Is your word a sacred scripture?",
+      "My eyes have come to rest in my life, standing still. Each day brings blessings, oh divine one. The sound of your footsteps makes me long to hear it. Show your face and protect my life.",
+      "Oh divine one, oh divine one, you walk like a river, dancing in my heart. Oh divine one, oh divine one, you sing like a new moon. Is your word a sacred scripture?",
+      "You came thinking about me. You changed me beautifully. You sculpted me, living like a mere stone. You made me a small thread, weaving me into a net. When you speak, I unknowingly mention your name. Like a dream, your love pulls me in.",
+      "Oh divine one, oh divine one, you walk like a river, dancing in my heart. Oh divine one, oh divine one, you sing like a new moon. Is your word a sacred scripture?",
+      "In the first glance, the spark has not yet come. You cannot look back at it again. Your desire, the blessings, and life are all intertwined. My flower of life is there, my eyes are drawn to it. I live for you, like a letter sent across centuries, my heart opens for you.",
+      "Oh divine one, oh divine one, you walk like a river, dancing in my heart. Oh divine one, oh divine one, you sing like a new moon. Is your word a sacred scripture?"
+    ]
+  }
 }

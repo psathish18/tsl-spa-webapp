@@ -106,5 +106,59 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2hshzBzEb0gY7umYbmM-a95xwe6qjDDsdYo-MTX9Ag4itEkaaDV1RRNq6CfOnZ5W3Mca-879eqjSOiNf7tGYW5-csME40H7SAiAMuU7kp2dpDQA5imUs5kmYUx_sTorALKjeyKk5hsA/s400-c/Uyire+Velaikaran.jpg",
   "generatedAt": "2026-01-18T12:45:13.456Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "motivational",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "heartbreak",
+      "motivation",
+      "relaxation"
+    ],
+    "keywords": [
+      "velaikaran",
+      "anirudh",
+      "jonita gandhi",
+      "viveka",
+      "iraiva",
+      "devotional",
+      "melody",
+      "2017",
+      "tamil song",
+      "motivational"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Iraiva</strong>?</h4><p>The song revolves around seeking divine guidance and introspection during challenging times.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Iraiva</strong>?</h4><p>The song is sung by <strong>Anirudh</strong> and <strong>Jonita Gandhi</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Velaikkaran</em>?</h4><p>The music for <em>Velaikkaran</em> was composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Velaikkaran</em>?</h4><p>The movie <em>Velaikkaran</em> was released in <strong>2017</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song appears during a moment of reflection and inner conflict faced by the protagonist.</p></div></div>",
+    "summary": "The song <strong>Iraiva</strong> from the movie <em>Velaikkaran</em> is a poignant melody that delves into themes of divine intervention and self-reflection. Sung by Anirudh and Jonita Gandhi, it captures the emotional turmoil of the protagonist as he seeks guidance. The lyrics by Viveka add depth to the song, making it a powerful anthem for those in search of motivation and solace. The music, composed by Anirudh, enhances the song's introspective and devotional mood, leaving a lasting impact on listeners.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Iraiva</strong> from <em>Velaikkaran</em> is a soul-stirring melody that beautifully blends Anirudh's emotive composition with Jonita Gandhi's haunting vocals. This song captures the essence of seeking divine intervention and introspection. Experience the powerful collaboration of Anirudh and Jonita in this unforgettable track.",
+    "stanzaMeanings": [
+      "Oh God, my God, my heart is searching and has become a battlefield.",
+      "Oh God, my God, my legs are following the path.",
+      "You are the one who created me, right? You are the one who nurtured my life, right? You are the one who cursed me, right? If life burns, I can't bear it.",
+      "You are the one who cursed me, right? If life burns, I can't bear it. Should I live or should I fall? You tell me.",
+      "Oh God, come, come, come, come, come.",
+      "My life, my connection, leaving you is the same as dying.",
+      "Oh night, my day, in the coming days, it's only in front of your eyes.",
+      "Without touching the sorrow called mistake, my love will be there as support.",
+      "Without looking at any rules, my refuge is in your chest.",
+      "",
+      "Until life leaves, I'm with you. If I leave you, my body becomes dust.",
+      "Am I just me? You must come running with me.",
+      "We can cross forests and mountains, our legs may get wounded, but we can go as deep as pure love.",
+      "The golden cage I desire, you desire to decorate me, my wings.",
+      "Oh, nothing is permanent, these moments don't have a tomorrow.",
+      "As long as we exist, we can fight, we can swim in the volcano.",
+      "Until life leaves, I'm with you. If I leave you, my body becomes dust.",
+      "Am I just me? You must come running with me.",
+      "Am I just me? You must come running with me."
+    ]
+  }
 }

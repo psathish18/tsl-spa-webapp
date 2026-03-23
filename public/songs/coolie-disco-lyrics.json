@@ -68,5 +68,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPBdSaOPrWDJskj7573QblUVIntUM12QpEeZv3wmSQ3utE7qcDx7VyAfeRhxjI_Q7hN1C2-XMAJnRmZu9O3ifkd9F6rb5LNf92XT9syS806XqoSOEkOWpLcYQbnAHTWDeh2_Y9hQtN0jHj-TzBHxoE-bJO4tOc0n5quLYwE3PZ-_hiChhjTzvwKR_nBQ/s400-c/Coolie Disco Lyrics.jpeg",
   "generatedAt": "2026-01-18T12:41:33.080Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "coolie",
+      "anirudh",
+      "disco",
+      "2024",
+      "upbeat",
+      "dance",
+      "item number",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song celebrates the joy of dancing and having fun, emphasizing a carefree attitude.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>This song is likely to be featured in a lively party scene, showcasing the characters enjoying themselves.</p></div><div class=\"faq-item\"><h4>Who is the music director of the song?</h4><p>The music for this song is composed by the talented <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on April 26, 2024.</p></div></div>",
+    "summary": "The <strong>Coolie DISCO Lyrics Teaser</strong> brings an energetic vibe that sets the stage for a lively celebration in the upcoming movie <em>Coolie</em>. With its catchy chorus and upbeat rhythm, the song invites listeners to let loose and enjoy the moment. The lyrics reflect a playful spirit, making it perfect for parties and festive occasions. Overall, it evokes feelings of joy and excitement, promising a fun experience for all.",
+    "releaseYear": "2024",
+    "high_ctr_intro": "<strong>Coolie DISCO Lyrics Teaser</strong> is set to electrify the dance floors with its infectious beats and catchy lyrics. Anirudh's vibrant composition perfectly captures the essence of celebration and fun, making it a must-listen for party enthusiasts. Get ready to groove as this teaser hints at a spectacular musical journey in <em>Coolie</em>!",
+    "stanzaMeanings": [
+      "",
+      "Father and grandfather have come and gone, but it doesn't matter, they always play.",
+      "They say 'father' but don't think about it, no matter what happens, the joy doesn't fade away.",
+      "",
+      "D...I ...S ...C...O disco disco. D...I ...S ...C...O disco disco. D...I ...S ...C...O disco disco. D...I ...S ...C...O disco disco.",
+      "There is food, there is happiness, there is sweetness, there is fragrance, which means there is a place in heaven.",
+      "It's not over... D...I ...S ...C...O disco disco."
+    ]
+  }
 }

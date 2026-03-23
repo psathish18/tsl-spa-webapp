@@ -62,5 +62,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyJxHrFiOvedpzq9JapZeWGNv92MCxGZuvYguBHtA4AKl8YRrk54_8X6ITDZ7zUPqzl7epTbCE42V1kTSB3RNbEf5SYRycXJCnGz10RTi1xBdhX2C0IhyNt7-cE15gocASkPtJG3FRsMI/s400-c/Ambikapathy.jpg",
   "generatedAt": "2026-01-18T13:03:42.565Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "ambikapathy",
+      "paarkaadhey",
+      "ar rahman",
+      "vairamuthu",
+      "romantic",
+      "melody",
+      "2013",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Paarkaadhey'?</h4><p>The song 'Paarkaadhey' expresses deep romantic feelings and longing, beautifully articulated through <strong>Vairamuthu</strong>'s lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Ambikapathy'?</h4><p>In <strong>Ambikapathy</strong>, 'Paarkaadhey' plays during a pivotal moment that highlights the protagonist's emotional journey and love.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Paarkaadhey'?</h4><p>The song is sung by <strong>AR Rahman</strong>, who is also the music director, showcasing his exceptional talent in both singing and composing.</p></div><div class=\"faq-item\"><h4>When was 'Paarkaadhey' released?</h4><p>'Paarkaadhey' was released on June 23, 2013, as part of the <strong>Ambikapathy</strong> soundtrack.</p></div></div>",
+    "summary": "In 'Paarkaadhey', the protagonist expresses his deep feelings of love and longing, encapsulated in the soothing melody. The song serves as a backdrop to a significant moment in the movie <em>Ambikapathy</em>, where emotions run high. With <strong>AR Rahman's</strong> soulful rendition and <strong>Vairamuthu's</strong> evocative lyrics, it evokes a sense of nostalgia and romance. This beautiful composition resonates with anyone who has experienced the complexities of love.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Paarkaadhey</strong> from the movie <em>Ambikapathy</em> is a mesmerizing melody that captures the essence of romance and longing. With the enchanting voice of <strong>AR Rahman</strong> and the poetic lyrics by <strong>Vairamuthu</strong>, this song takes listeners on an emotional journey. Experience the magic of this collaboration that beautifully blends heartfelt emotions with captivating music.",
+    "stanzaMeanings": [
+      "Look at me like this, just once (2) I have been watching until now, like this (2)",
+      "Look at me like this, just once (2)",
+      "I heard the pearls in the moonlight. Oh great queen, I heard your beauty. Oh, I heard about half of life. A flower's smile is all I heard.",
+      "Look at me like this, just once (2)",
+      "In the palace, I cried tears. Searching for that, you found a diamond. Oh love, you burned in the fire. A diamond shines in the sky, and I am lost in joy.",
+      "Look at me like this, just once (2) I have been watching until now, like this (2) I have been looking until now, like this (2)",
+      "Look at me like this, just once (2)"
+    ]
+  }
 }

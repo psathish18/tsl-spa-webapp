@@ -63,5 +63,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT4kppBMsAUJQY2qdHOCOYba6nCaAa_20aM3s4elMvtS_N_HZg7rFxn4Bv4gfOJ9zXt2PATlsqaunOrd4poELtacSZdJQRMu_ZpNu_w61QXh6Q8QE0gOTpimJ-AkxYpIXzRIdmCUgfWw/s400-c/pathinaaru.jpg",
   "generatedAt": "2026-01-18T13:11:26.231Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "motivational",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning",
+      "night drive"
+    ],
+    "keywords": [
+      "pathinaaru",
+      "karthik raja",
+      "snehan",
+      "yuvan",
+      "nostalgic",
+      "motivational",
+      "melody",
+      "2010",
+      "tamil song",
+      "lyrics",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaattu Chedikku</strong>?</h4><p>The song captures themes of nostalgia and motivation, reflecting on past experiences and personal growth.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Pathinaaru</em>?</h4><p>The music for <em>Pathinaaru</em> was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kaattu Chedikku</strong>?</h4><p>The song is sung by <strong>Karthik Raja</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Pathinaaru</em>?</h4><p>The movie <em>Pathinaaru</em> was released in <strong>2010</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie?</h4><p>The song plays a significant role in conveying the protagonist's journey and emotional growth.</p></div></div>",
+    "summary": "The song <strong>Kaattu Chedikku</strong> from the movie <em>Pathinaaru</em> is a soothing melody that evokes nostalgia and motivation. Sung by Karthik Raja, it beautifully captures the essence of personal growth and reflection. The lyrics by Snehan delve into themes of love and self-discovery, set against Yuvan's enchanting musical backdrop. This song serves as a pivotal moment in the film, highlighting the protagonist's emotional journey and inner transformation.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "Experience the soothing melody of <strong>Kaattu Chedikku</strong> from the movie <em>Pathinaaru</em>, where Yuvan's enchanting music meets Karthik Raja's soulful voice. This song beautifully captures the essence of nostalgia and motivation, making it a timeless piece. Dive into the lyrical brilliance penned by Snehan and let the music transport you to a serene world.",
+    "stanzaMeanings": [
+      "",
+      "The forest plant got protection, learned lessons in the wild. The old world now seems new. What name to give this ancient blood? It's love, what else?",
+      "The forest plant got protection, learned lessons in the wild.",
+      "The heart is like cotton, age is like fresh water. Knows nothing but affection. A world without lies, the heart gets used to no competition. No place for violence. When carrying a salt sack and looking around the town, the journey continues without any mistakes.",
+      "The ancient mind drinks drop by drop, gaining wisdom, flying like the wind every day.",
+      "The school lessons don't teach us about life. That lesson is happening here. Love is the only divine calculation. What compares to it? Giving and taking, people succeed. Even when sharing a single piece, the heart divides and enjoys. A heart that rejoices in love without love.",
+      "The ancient pair shyly smiles, flying beyond limits with happiness.",
+      "The forest plant got protection, learned lessons in the wild."
+    ]
+  }
 }

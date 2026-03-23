@@ -47,5 +47,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:10.424Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "peppy"
+    ],
+    "songType": [
+      "folk",
+      "duet"
+    ],
+    "occasions": [
+      "festivals",
+      "celebration"
+    ],
+    "keywords": [
+      "16 vayathinilae",
+      "kamal haasan",
+      "sridevi",
+      "ilaiyaraaja",
+      "kannadasan",
+      "malaysia vasudevan",
+      "s janaki",
+      "folk",
+      "nostalgic",
+      "1977",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>16 Vayathinilae</em>?</h4><p>The lead actors are <strong>Kamal Haasan</strong> and <strong>Sridevi</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for the song <strong>Aattukutti Muttayittu</strong>?</h4><p>The music was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of this song?</h4><p>The song portrays the vibrant and rustic lifestyle of rural Tamil Nadu.</p></div><div class=\"faq-item\"><h4>When was the movie <em>16 Vayathinilae</em> released?</h4><p>The movie was released in the year <strong>1977</strong>.</p></div><div class=\"faq-item\"><h4>Who penned the lyrics for this song?</h4><p>The lyrics were written by the renowned poet <strong>Kannadasan</strong>.</p></div></div>",
+    "summary": "The song <strong>Aattukutti Muttayittu</strong> from the movie <em>16 Vayathinilae</em> (1977) is a lively folk number that captures the essence of rural Tamil Nadu. Featuring the performances of Kamal Haasan and Sridevi, the song is composed by Ilaiyaraaja with lyrics by Kannadasan. Sung by Malaysia Vasudevan and S. Janaki, it showcases the vibrant cultural backdrop of the storyline. The song's rhythm and lyrics evoke a sense of nostalgia and celebration, making it a cherished classic in Tamil cinema.",
+    "actorName": "Kamal Haasan",
+    "actressName": "Sridevi",
+    "releaseYear": "1977",
+    "high_ctr_intro": "<strong>Aattukutti Muttayittu</strong>, a vibrant folk song from the classic Tamil movie <em>16 Vayathinilae</em>, showcases the musical brilliance of Ilaiyaraaja and the lyrical depth of Kannadasan. Sung by Malaysia Vasudevan and S. Janaki, this song captures the rustic charm and cultural essence of Tamil Nadu. Its lively rhythm and engaging lyrics make it a timeless favorite.",
+    "stanzaMeanings": [
+      "The goat laid an egg, and the chick came out, the baby elephant heard and said, 'This is not a story, Lord, now the earth is visible, is this all that remains, Lord?'",
+      "The stage is set for the dance, and the king has two hundred wives.",
+      "The two hundred wives laid eggs with difficulty.",
+      "The queen of the palace has eighteen children, and all eighteen are twenty-six years old, making a total of twenty-six.",
+      "On the small children, the elephant is placed; on the new clothes, the elephant is placed.",
+      "This is in Valluvar's book, it is in the ancestral song, and in the story of the great queen.",
+      "In the land without crows, in the windy meadows, a little girl sang a song and ran away.",
+      "I went to the market, and you came as a witness; is it peace that you want, or is it peace for you?",
+      "In the land without crows, in the land without crows, in the windy meadows, I kept the crow and waited for the right time, my dear.",
+      "I am going to the market, you come as a witness, to make peace, I need your consent.",
+      "Hey, look this way, listen to my maiden words.",
+      "Hey, why are you asking me to come here? Is it because of old memories, old memories?",
+      "I heard Kittappa's song, and I saw Chinnappa in person.",
+      "The music is coming in waves, and the melody is increasing.",
+      "When I went to the stage, there was no equal to me; when I sang, I was number one in the competition. Shall I show my talent? Shall I play two tunes?",
+      "Thatha thatharina thatharina thatharina thatharina.",
+      ""
+    ]
+  }
 }

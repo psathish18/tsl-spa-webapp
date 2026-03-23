@@ -67,5 +67,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrcC4hCgm3z1aEIBeNzWn9WF96S5sJgIGRfW1koYrAfHfiYOMEqS9lvCtWgZn6nIbp942GMLCLX_ymc8rzaFJcboddC2uTD6z9i_IdazGtolRqCHl8QXPtyzoo1fdWkUQKUaBK9CNMALA/s400-c/Tamizha+Tamizha+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:20:02.150Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "devotional",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "celebration",
+      "festivals",
+      "relaxation"
+    ],
+    "keywords": [
+      "roja",
+      "hariharan",
+      "vairamuthu",
+      "ar rahman",
+      "nostalgic",
+      "devotional",
+      "1992",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song celebrates Tamil culture and identity, emphasizing pride in being Tamil.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Roja</em>, the song reflects the protagonist's connection to her homeland amidst turmoil.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Hariharan</strong>, known for his powerful and emotive voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music is composed by <strong>AR Rahman</strong>, marking his debut in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 14, 1992</strong>.</p></div></div>",
+    "summary": "In <em>Roja</em>, <strong>Tamizha Tamizha Naalai</strong> serves as a poignant reminder of Tamil heritage and pride. The song's uplifting melody and heartfelt lyrics evoke a sense of nostalgia and devotion. It encapsulates the protagonist's longing for her homeland, making it a significant moment in the film. The collaboration between <strong>Hariharan</strong> and <strong>AR Rahman</strong> creates an emotional depth that resonates with audiences, celebrating the beauty of Tamil culture.",
+    "releaseYear": "1992",
+    "high_ctr_intro": "<strong>Tamizha Tamizha Naalai</strong> from <em>Roja</em> is a powerful anthem that resonates with Tamil pride and identity. With <strong>Hariharan's</strong> soulful vocals and <strong>AR Rahman's</strong> mesmerizing composition, this song captures the essence of cultural celebration. Experience the vibrant energy and emotional depth that makes this track a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "Tamil, Tamil, our tomorrow; Tamil, Tamil, our land.",
+      "My home is Tamil Nadu, that's what I say; my name will always be Indian.",
+      "Tamil, Tamil, our tomorrow; Tamil, Tamil, our land.",
+      "Colors can change, but the essence remains the same; the earth remains one.",
+      "Languages can change, but the essence remains one; the struggle remains one.",
+      "Directions can change, but the earth remains one; music can change, but the language remains one.",
+      "Our India is one; come...",
+      "Tamil, Tamil, don't let your eyes wander; let your heart not be confused.",
+      "Is there no blood of India in you? Isn't there a single Bharat that protects you?",
+      "Tamil, Tamil, our tomorrow; Tamil, Tamil, our land.",
+      "This new Bharat is formed by many efforts; it will rise with many struggles, and because of that, it will endure through the ages."
+    ]
+  }
 }

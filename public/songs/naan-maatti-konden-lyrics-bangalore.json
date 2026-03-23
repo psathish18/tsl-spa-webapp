@@ -101,5 +101,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinPqBrqB-F_Ur2Jt9Mw6jphPM6FbA5TLTuC99SH34PfoQyc5HLs5l1UkhQVyfOVIw9VyGgAnOS7q0ParP_UnMIFAUJhrvfq6GHbs5UO9FgTDkxQL7h05deLHZ8QEuAe_Cpblc4uaOZuJI/s400-c/Bangalore_Naatkal.jpg",
   "generatedAt": "2026-01-18T12:52:26.510Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "bangalore naatkal",
+      "karthik",
+      "karky",
+      "gopi sundar",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Naan Maatti Konden'?</h4><p>The song expresses themes of love and emotional connection, highlighting the feelings of longing and attachment.</p></div><div class=\"faq-item\"><h4>How does 'Naan Maatti Konden' fit into the plot of <em>Bangalore Naatkal</em>?</h4><p>This song reflects the emotional journey of the characters, emphasizing their romantic struggles and aspirations.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Gopi Sundar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Naan Maatti Konden' released?</h4><p>The song was released on <strong>January 24, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Naan Maatti Konden</strong>, the protagonist expresses deep emotions of love and longing, beautifully encapsulated through Karthik's heartfelt rendition. The song serves as a poignant backdrop in <em>Bangalore Naatkal</em>, illustrating the complexities of relationships. With its soothing melody and evocative lyrics by Karky, it resonates with anyone who has faced the trials of love. The composition by Gopi Sundar further enhances the emotional depth, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Naan Maatti Konden</strong> from the movie <em>Bangalore Naatkal</em> is a beautifully crafted melody that captures the essence of love and longing. With Karthik's soulful vocals and Karky's poignant lyrics, this song resonates deeply with anyone who has experienced the complexities of relationships. Gopi Sundar's enchanting composition adds a unique flavor, making it a must-listen for Tamil music lovers.",
+    "stanzaMeanings": [
+      "",
+      "I have changed for you, like a soul in a body, I have changed for you.",
+      "I have changed for you, like your voice now, I have changed for you.",
+      "In that dark place, I lose myself with your sweet words.",
+      "I have found myself in you, in your words in the air.",
+      "I have changed for you, like a lesson in Tamil, I have changed for you.",
+      "I have changed for you, like a poem that has a flaw, I have changed for you.",
+      "In every little moment, I feel your heart beating without touching your hands.",
+      "You are filled with music, pure and complete, and you are sweet and delightful.",
+      "I still can't hold you, even if I praise you!",
+      "My heart here is not calling you to dance, don't let my feet fall in love!",
+      "I have changed for you, like a temple's sacred space, I have changed for you.",
+      "I have changed for you, like a child in a cradle, I have changed for you.",
+      "In that dark place, I lose myself with your sweet words.",
+      "I have found myself in you, in your words in the air.",
+      "I have changed for you, like a song in a lullaby, I have changed for you.",
+      "I have changed for you, like a desire that is longing, I have changed for you.",
+      ""
+    ]
+  }
 }

@@ -6,6 +6,8 @@ import { AdBanner } from '@/components/GoogleAdsense'
 import OneSignalSubscriptionCard from '@/components/OneSignalSubscriptionCard'
 import { REVALIDATE_HOMEPAGE, REVALIDATE_BLOGGER_FETCH } from '@/lib/cacheConfig'
 
+const SITE_URL = 'https://tsonglyrics.com'
+
 // Advanced revalidation config
 // Extended to 30 days to reduce CPU usage on free tier
 // Use manual revalidation API for immediate updates: /api/revalidate?path=/
@@ -85,16 +87,32 @@ async function getSongs(): Promise<Song[]> {
 }
 
 export const metadata: Metadata = {
-  title: 'Tamil Song Lyrics - Latest Songs & Lyrics',
-  description: 'Discover the latest Tamil song lyrics, movie songs, and popular music. Read and enjoy beautiful Tamil poetry and lyrics from your favorite movies and artists.',
+  title: 'Latest Tamil Song Lyrics | WhatsApp Status Snippets and Meanings',
+  description: 'Explore newly added Tamil song lyrics with movie, singer and lyricist credits. Read meanings, find short share-ready lyrics snippets, and post them on WhatsApp and social media.',
   keywords: 'Tamil songs, Tamil lyrics, song lyrics, Tamil music, latest Tamil songs, Tamil movie songs',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/',
+    canonical: `${SITE_URL}/`,
   },
   openGraph: {
-    title: 'Tamil Song Lyrics - Latest Songs & Lyrics',
-    description: 'Discover the latest Tamil song lyrics, movie songs, and popular music.',
+    title: 'Latest Tamil Song Lyrics | WhatsApp Status Snippets and Meanings',
+    description: 'Explore newly added Tamil song lyrics with movie, singer and lyricist credits. Read meanings, find short share-ready lyrics snippets, and post them on WhatsApp and social media.',
     type: 'website',
+    url: `${SITE_URL}/`,
+    siteName: 'Tamil Song Lyrics',
+    images: [
+      {
+        url: `${SITE_URL}/android-chrome-192x192.png`,
+        width: 192,
+        height: 192,
+        alt: 'Tamil Song Lyrics',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@tsongslyrics',
+    title: 'Latest Tamil Song Lyrics | WhatsApp Status Snippets and Meanings',
+    description: 'Explore newly added Tamil song lyrics with movie, singer and lyricist credits. Read meanings, find short share-ready lyrics snippets, and post them on WhatsApp and social media.',
   },
 }
 
@@ -226,8 +244,44 @@ export default async function HomePage() {
   }
   return (
     <div className="min-h-screen">
+      {/* HomePage WebPage structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            '@id': `${SITE_URL}/#webpage`,
+            'url': `${SITE_URL}/`,
+            'name': 'Tamil Song Lyrics - Latest Songs & Lyrics',
+            'description': 'Discover the latest Tamil song lyrics, movie songs, and popular music.',
+            'isPartOf': { '@id': `${SITE_URL}/#website` },
+            'about': {
+              '@type': 'Thing',
+              'name': 'Tamil Song Lyrics',
+            },
+            'inLanguage': ['ta', 'en'],
+          }),
+        }}
+      />
+
+      {/* Site Introduction - Helps AdSense understand content value */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
+        <div className="homepage-intro-card">
+          <h1 className="text-3xl font-bold mb-3">Lyrics Of Tamil Songs</h1>
+          <p className="leading-relaxed max-w-3xl">
+            Your go-to destination for <strong>Tamil movie song lyrics</strong> — in Tanglish, Tamil script,
+            and English meaning. We manually curate and publish lyrics for the latest Tamil film releases
+            and independent music, with full credits for singers, lyricists, and music directors.
+          </p>
+          <p className="homepage-intro-sub mt-2 text-sm">
+            Over <strong>3,000 Tamil songs</strong> and counting.
+          </p>
+        </div>
+      </div>
+
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-3">
@@ -249,27 +303,29 @@ export default async function HomePage() {
                     const publishedDate = song.published?.$t || song.published || ''
                     const thumbnail = getThumbnail(song)
                     const slug = getSongSlug(song)
+                    const songHref = `/${encodeURIComponent(slug)}.html`
                     
                     // Get enhanced metadata
                     const movieName = song.movieName || ''
                     const singerName = song.singerName || ''
                     const lyricistName = song.lyricistName || ''
+                    const movieTerm = song.category?.find((cat: any) => cat.term?.startsWith('Movie:'))?.term || ''
+                    const singerTerm = song.category?.find((cat: any) => cat.term?.startsWith('Singer:'))?.term || ''
+                    const lyricistTerm = song.category?.find((cat: any) => cat.term?.startsWith('Lyrics:'))?.term || ''
                     
                     return (
-                      <Link
+                      <div
                         key={song.id?.$t || index}
-                        href={`/${encodeURIComponent(slug)}.html`}
-                        prefetch={false}
                         className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden"
                       >
                         <article className="relative h-full">
-                        <div className="relative h-48 overflow-hidden rounded-t-lg image-fallback">
+                        <Link href={songHref} prefetch={false} className="block relative h-48 overflow-hidden rounded-t-lg image-fallback">
                           {thumbnail ? (
                             <Image 
                               src={thumbnail} 
                               alt={songTitle}
                               fill
-                              className="object-cover transition-all duration-500 hover:scale-105"
+                              className="object-cover transition-all duration-500 group-hover:scale-105"
                               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               priority={index < 6} // Prioritize first 6 images for above-the-fold loading
                             />
@@ -282,13 +338,12 @@ export default async function HomePage() {
                                   </svg>
                                 </div>
                                 <span className="text-blue-600 text-sm font-medium">Tamil Song Lyrics</span>
-                                
                               </div>
                             </div>
                           )}
                           
                           {/* Overlay for better readability */}
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300">
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="absolute bottom-4 left-4 text-white">
                               <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -297,7 +352,7 @@ export default async function HomePage() {
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </Link>
                         
                         <div className="p-6">
                           <div className="flex items-center justify-start text-sm text-gray-500 mb-3">
@@ -306,9 +361,11 @@ export default async function HomePage() {
                             </time>
                           </div>
                           
-                            <h3 className="font-semibold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                          <h3 className="font-semibold text-lg text-gray-900 mb-2 transition-colors">
+                            <Link href={songHref} prefetch={false} className="hover:text-blue-600 group-hover:text-blue-600">
                               {songTitle}
-                            </h3>
+                            </Link>
+                          </h3>
                           
                           {/* Show movie, singer, and lyricist info if available */}
                           {(movieName || singerName || lyricistName) && (
@@ -316,19 +373,37 @@ export default async function HomePage() {
                               {movieName && (
                                 <div className="flex items-center">
                                   <span className="font-medium text-gray-800">Movie:</span>
-                                  <span className="ml-1">{movieName}</span>
+                                  <Link
+                                    href={`/category?category=${encodeURIComponent(movieTerm)}`}
+                                    prefetch={false}
+                                    className="ml-1 text-blue-600 hover:text-blue-700 hover:underline"
+                                  >
+                                    {movieName}
+                                  </Link>
                                 </div>
                               )}
                               {singerName && (
                                 <div className="flex items-center">
                                   <span className="font-medium text-gray-800">Singer:</span>
-                                  <span className="ml-1">{singerName}</span>
+                                  <Link
+                                    href={`/category?category=${encodeURIComponent(singerTerm)}`}
+                                    prefetch={false}
+                                    className="ml-1 text-blue-600 hover:text-blue-700 hover:underline"
+                                  >
+                                    {singerName}
+                                  </Link>
                                 </div>
                               )}
                               {lyricistName && (
                                 <div className="flex items-center">
                                   <span className="font-medium text-gray-800">Lyrics:</span>
-                                  <span className="ml-1">{lyricistName}</span>
+                                  <Link
+                                    href={`/category?category=${encodeURIComponent(lyricistTerm)}`}
+                                    prefetch={false}
+                                    className="ml-1 text-blue-600 hover:text-blue-700 hover:underline"
+                                  >
+                                    {lyricistName}
+                                  </Link>
                                 </div>
                               )}
                             </div>
@@ -337,11 +412,9 @@ export default async function HomePage() {
                           <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                             {extractDescription(songContent)}
                           </p>
-                          
-                          {/* Intentionally removed explicit "Read Lyrics" text to make the whole card clickable */}
                         </div>
                         </article>
-                      </Link>
+                      </div>
                     )
                   })}
                 </div>

@@ -38,5 +38,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:53.981Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "nagaram",
+      "thiki thiki vandhu",
+      "megha",
+      "ranjith",
+      "vairamuthu",
+      "thaman s",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Thiki Thiki Vandhu'?</h4><p>The song conveys the emotions of love and affection, expressing how love can bring joy and excitement into one's life.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Nagaram'?</h4><p>'Thiki Thiki Vandhu' is featured in a romantic sequence that highlights the blossoming relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Thiki Thiki Vandhu'?</h4><p>The song is beautifully sung by Megha and Ranjith, whose voices complement each other perfectly.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Thiki Thiki Vandhu'?</h4><p>The music for this song was composed by Thaman S, known for his catchy and melodious tunes.</p></div><div class=\"faq-item\"><h4>When was 'Thiki Thiki Vandhu' released?</h4><p>The song was released on September 10, 2010, as part of the movie 'Nagaram'.</p></div></div>",
+    "summary": "In 'Thiki Thiki Vandhu', the characters express their love and affection through playful and romantic lyrics. The song beautifully captures the essence of young love, filled with joy and excitement. With its melodious composition by Thaman S and heartfelt vocals by Megha and Ranjith, it evokes a sense of happiness and warmth. This track stands out as a celebration of love, making it a perfect fit for romantic occasions.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Thiki Thiki Vandhu</strong> from the movie <em>Nagaram</em> is a delightful romantic duet that captures the essence of love with its enchanting lyrics and melodious tunes. The collaboration between singers Megha and Ranjith, under the masterful composition of Thaman S, creates a vibrant atmosphere that resonates with listeners. This song is sure to evoke feelings of joy and affection, making it a perfect addition to any romantic playlist.",
+    "stanzaMeanings": [
+      "",
+      "Coming here, the earth is still, The city is alive every day. Let's create a beautiful pattern with our fingers, Your love is what I call true.",
+      "In one word, you say many things, Your gaze drives me crazy. Your words bring healing to me.",
+      "There is no one to oppose, my heart is free. Your desires speak and touch my heart. My pride is now gone.",
+      "[You say your love is true, It has taken flight. My heart has crossed the sky and the stars. Where is it flying to?] (2) Oh my love, oh my love...",
+      "In Chennai, the songs that play, Will they write your name? (2) I will climb the tower at the central station, Will they call your name? Will they express love through tears and smiles? Will they bury the sands of your footsteps?",
+      "The color of the sea changes, The color of the body changes, But love and affection never fade away.",
+      "[You say your love is true, It has taken flight. My heart has crossed the sky and the stars. Where is it flying to?]",
+      "The bond of love is sweet, It is a blessing for the innocent. If your hair is like jasmine, It will attract everyone. Who has written this poem? Life is beautiful today, I will also write a poem for you, It will give you joy.",
+      "I want comfort, I need a companion, I want to become a lover, I want to become a lover."
+    ]
+  }
 }

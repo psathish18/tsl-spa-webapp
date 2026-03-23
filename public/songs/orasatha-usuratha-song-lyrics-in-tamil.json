@@ -39,5 +39,47 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:10.162Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak"
+    ],
+    "keywords": [
+      "orasatha usuratha",
+      "mervin solomon",
+      "vivek solomon",
+      "ku karthik",
+      "vivek mervin",
+      "romantic",
+      "melancholic",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Orasatha Usuratha</strong>?</h4><p>The song conveys themes of love and longing, expressing deep emotional connections between lovers.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The movie is currently <strong>unknown</strong>, but the song stands out as a popular track in its own right.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Mervin Solomon</strong> and <strong>Vivek Solomon</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Orasatha Usuratha</strong>?</h4><p>The music is composed by the duo <strong>Vivek – Mervin</strong>, who have created a captivating melody.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>July 15, 2018</strong>.</p></div></div>",
+    "summary": "The song <strong>Orasatha Usuratha</strong> beautifully encapsulates the feelings of love and yearning, making it a perfect fit for romantic occasions. With its heartfelt lyrics and melodious composition, it evokes a sense of nostalgia and emotional depth. The collaboration between Mervin and Vivek Solomon adds a unique charm to the track, making it memorable for listeners. This song resonates with anyone who has experienced the complexities of love and longing.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Orasatha Usuratha</strong> is a beautifully crafted romantic duet that captures the essence of longing and love. With the unique collaboration of Mervin and Vivek Solomon, this song brings forth a soothing melody that resonates deeply with listeners. Experience the enchanting lyrics penned by Ku Karthik that elevate the emotional depth of this track.",
+    "stanzaMeanings": [
+      "Once, look at me and speak with one eye.",
+      "When you come close, the scent of love fills my whole being, talking about you.",
+      "The heart that doesn't break is not disturbed; my shirt gets torn and my heart flies out.",
+      "Don't hate me, all dreams don't smile; the confused heart won't leave you, it keeps searching for you... oh my... oh my...",
+      "The shadow that was close now wanders behind you; your hair is like a hundred needles piercing down.",
+      "Even the brave warrior's love calms down when it comes. In my little heart, there's a tunnel where you dig! If you leave, the blue sky will shed tears; don't go without talking, you are the one who doesn't play tricks.",
+      "Honestly, in your thoughts, my breath is stuck; don't get angry and don't eat too much. The heart that doesn't break is not disturbed; my shirt gets torn and my heart flies out.",
+      "Don't hate me, all dreams don't smile; the confused heart won't leave you, it keeps searching for you.",
+      "Oh my... oh my...",
+      ""
+    ]
+  }
 }

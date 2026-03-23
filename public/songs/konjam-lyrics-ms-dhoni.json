@@ -46,5 +46,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF8_nsW89t0myfnmRchvnBiVrKPu3Ynx_ZeyKycL0Tq7tvqspCDomJJG8fphuyA5deSw3G6DGlD8mh_ELpKuJKpBlAzi2wCZlGf18FupaGiWl2WDFwD16xL0Fe8Q4zVewBG684sB9bcMw/s400-c/MS+Dhoni+-+Konjam.JPG",
   "generatedAt": "2026-01-18T12:49:55.577Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "ms dhoni",
+      "armaan malik",
+      "pa vijay",
+      "amaal mallik",
+      "romantic",
+      "melody",
+      "2016",
+      "tamil song",
+      "love song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Konjam</strong>?</h4><p>The song <strong>Konjam</strong> is a romantic melody that expresses love and longing.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Konjam</strong>?</h4><p>The song is sung by <strong>Armaan Malik</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>MS Dhoni</em>?</h4><p>The music for <em>MS Dhoni</em> was composed by <strong>Amaal Mallik</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>MS Dhoni</em>?</h4><p>The movie <em>MS Dhoni</em> was released in <strong>2016</strong>.</p></div></div>",
+    "summary": "The song <strong>Konjam</strong> from the movie <em>MS Dhoni</em> is a romantic melody that beautifully captures the emotions of love and longing. Sung by Armaan Malik, the song features soothing music composed by Amaal Mallik and heartfelt lyrics by Pa Vijay. It evokes a sense of warmth and affection, making it perfect for romantic occasions. The song's gentle rhythm and soulful rendition make it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "Experience the soothing romance of <strong>Konjam</strong> from the movie <em>MS Dhoni</em>, where Armaan Malik's soulful voice meets Amaal Mallik's enchanting music. This song beautifully captures the essence of love and longing, making it a perfect melody for romantic moments. Dive into the heartfelt lyrics penned by Pa Vijay and let the magic unfold.",
+    "stanzaMeanings": [
+      "",
+      "With a little of your love, make my heart beat.",
+      "With a few of your words, make my love dance.",
+      "Stay with me, do you need to go away? Walk with me, do you need to leave?",
+      "Come to me, life is changing to be yours, becoming like breath.",
+      "Today, you are touching my life, we can't see the world, we have become like birds.",
+      "Gently wiping the dew drops from your eyes.",
+      "In your smile alone, I forget myself.",
+      "Stay with me, do you need to go away? Walk with me, do you need to leave?"
+    ]
+  }
 }

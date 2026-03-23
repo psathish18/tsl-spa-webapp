@@ -87,5 +87,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIi7D9URMcesMiJmeatVsz34B43HolauhqZDTKGDYUN8ZRncp5O29bL6Rzq-TXFQRTRuOtO72AhGfBpYKftswnF_BSeVZUTdOymXU8KjyGaEc0cJWPKSvcUziN-7TmRHHlX7dE_fVYF-c/s400-c/Baahubali.JPG",
   "generatedAt": "2026-01-18T12:54:57.652Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "motivational",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "baahubali",
+      "geetha madhuri",
+      "karky",
+      "mm keeravani",
+      "2015",
+      "melancholic",
+      "motivational",
+      "theme",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Jeeva Nadhi</strong>?</h4><p>The song <strong>Jeeva Nadhi</strong> revolves around themes of resilience and hope, capturing the emotional journey of the characters in <em>Baahubali</em>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Baahubali</em>?</h4><p>The music for <em>Baahubali</em> was composed by <strong>MM Keeravani</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie <em>Baahubali</em>?</h4><p>The song underscores pivotal moments in the film, enhancing the emotional depth and narrative of <em>Baahubali</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Jeeva Nadhi</strong>?</h4><p><strong>Geetha Madhuri</strong> is the singer of the song <strong>Jeeva Nadhi</strong>.</p></div><div class=\"faq-item\"><h4>When was <em>Baahubali</em> released?</h4><p><em>Baahubali</em> was released in the year <strong>2015</strong>.</p></div></div>",
+    "summary": "<strong>Jeeva Nadhi</strong> is a poignant melody from the film <em>Baahubali</em>, reflecting the inner turmoil and strength of its characters. The song's lyrics, penned by Karky, speak of overcoming challenges and finding hope amidst adversity. Geetha Madhuri's soulful rendition, combined with MM Keeravani's haunting composition, evokes a sense of melancholy and motivation. This track beautifully complements the epic narrative of <em>Baahubali</em>, enhancing its emotional impact.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Jeeva Nadhi</strong> from the epic film <em>Baahubali</em> is a soul-stirring melody that captures the essence of resilience and hope. Sung by the talented Geetha Madhuri, the song's haunting lyrics by Karky and MM Keeravani's evocative music create a powerful emotional journey. Experience the magic of this unforgettable track that beautifully complements the grandeur of <em>Baahubali</em>.",
+    "stanzaMeanings": [
+      "",
+      "In the past, we faced battles, holding the dreams of the future in our hearts, life flows like a river.",
+      "Today, there is no stability, the heart is breaking along the path of life, life flows like a river.",
+      "We blocked mountains, split the sky, our legs don't stop, life flows like a river.",
+      ""
+    ]
+  }
 }

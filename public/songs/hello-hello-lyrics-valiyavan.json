@@ -63,5 +63,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:56:13.162Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "birthday",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "valiyavan",
+      "papon",
+      "d imman",
+      "viveka",
+      "happy",
+      "upbeat",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Hello Hello</strong> celebrates joy and happiness, particularly in the context of birthdays.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie <em>Valiyavan</em>?</h4><p><em>Valiyavan</em> is a romantic action film that revolves around love and adventure, with this song highlighting celebratory moments.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the talented <strong>Papon</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Hello Hello</strong>?</h4><p>The music for the song was composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 9, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Hello Hello</strong>, the mood is light and festive, making it a perfect anthem for birthday celebrations. The song captures the essence of joy and togetherness, inviting everyone to join in the fun. With catchy lyrics and an upbeat tune, it evokes feelings of happiness and excitement. This track is a delightful addition to any party playlist, ensuring that the spirit of celebration is always alive.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Hello Hello</strong> from <em>Valiyavan</em> is a vibrant celebration of joy and happiness, perfectly encapsulating the essence of birthdays. With Papon's captivating vocals and D Imman's lively composition, this song is sure to get everyone on their feet. Experience the infectious energy and let the good vibes flow as you groove to this delightful track!",
+    "stanzaMeanings": [
+      "",
+      "Hello hello, on the day you were born, let there be a lot of happiness.",
+      "Yellow yellow flower, may you go without any thorns or troubles.",
+      "Oh oh, I am dancing with alcohol, oh oh, I am searching for the one below.",
+      "happy happy birthday happy happy birthday happy happy birthday to you (2)",
+      "Whatever you want, I will get it for you. At this moment, that God is with us.",
+      "The sky is asking for the stars, but don't ask for them.",
+      "I poured the water without mixing it, today I won't lie about it.",
+      "happy happy birthday happy happy birthday happy happy birthday to you",
+      "Hello hello, on the day you were born, let there be a lot of happiness.",
+      "Yellow yellow flower, may you go without any thorns or troubles.",
+      "Oh oh, I am dancing with alcohol, oh oh, I am searching for the one below.",
+      "happy happy birthday happy happy birthday happy happy birthday to you (2)",
+      "I am jumping and dancing with joy, I saw a new height with this happiness.",
+      "In front of my eyes, I saw a swarm of bees coming and going.",
+      "Like the rain, give us happiness. Because of this, I can't understand you.",
+      "Hello hello, on the day you were born, let there be a lot of happiness.",
+      "Yellow yellow flower, may you go without any thorns or troubles."
+    ]
+  }
 }

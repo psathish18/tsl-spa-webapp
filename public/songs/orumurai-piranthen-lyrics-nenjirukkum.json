@@ -44,5 +44,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:36.016Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "nenjirukkum varai",
+      "orumurai piranthen",
+      "hariharan",
+      "sadhana sargam",
+      "srikanth deva",
+      "romantic",
+      "melancholic",
+      "2006"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and devotion, highlighting the willingness to give one's life for a loved one.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Nenjirukkum Varai</em>, the song plays during a pivotal moment that emphasizes the characters' emotional connection and commitment to each other.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Hariharan</strong> and <strong>Sadhana Sargam</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Orumurai Piranthen</strong> was composed by <strong>Srikanth Deva</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>December 15, 2006</strong>.</p></div></div>",
+    "summary": "In <strong>Orumurai Piranthen</strong>, the heartfelt lyrics and melodious tune encapsulate the essence of love and sacrifice. The song unfolds during a significant moment in <em>Nenjirukkum Varai</em>, where the protagonists express their deep emotional bond. With its soothing melody and romantic vibe, it evokes feelings of nostalgia and longing. This duet beautifully showcases the chemistry between the singers, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2006",
+    "high_ctr_intro": "<strong>Orumurai Piranthen</strong> from <em>Nenjirukkum Varai</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the soulful voices of Hariharan and Sadhana Sargam, this song takes listeners on an emotional journey. The enchanting composition by Srikanth Deva adds a unique charm, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "I have given my life to you, just as I have given my heart.",
+      "In my heart, because of your presence, I live beyond death.",
+      "I will see you in my eyes. For a moment, I got lost in forgetting you.",
+      "You are my heart, you are my life.",
+      "Will the dew fall on your eyes? Will your heart be able to bear this little burden?",
+      "You will not let go of the tears in your eyes. You will not let go of your shadow as it walks on the ground.",
+      "One body, one life, one heart, all are sweet in my thoughts.",
+      "You are my heart, you are my life.",
+      "In the breeze, I must walk on the shore... the light must change direction.",
+      "The eyes that shine with light will show the way, but if there is no heart, is that a fault?",
+      "I kept you in my heart and let go of my life.",
+      "You are my heart, you are my life.",
+      "I have given my life to you, just as I have given my heart.",
+      "In my heart, because of your presence, I live beyond death.",
+      "I will see you in my eyes. For a moment, I got lost in forgetting you.",
+      "You are my heart, you are my life."
+    ]
+  }
 }

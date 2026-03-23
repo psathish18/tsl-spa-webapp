@@ -48,5 +48,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaauvkLsMpI7zAoGY4RhK8d-D7nB5DubFLIX59o43C_MNHPok9pfC4gG7puh10-1iR424vmxza3iK578tWfjbJjL-zjQKRiZ2AKM4LIN-2YVP_oSGNEzEXhvIRO3Kx5xLwb8C8uKeL0w/s400-c/prakash_raj_dhoni.jpg",
   "generatedAt": "2026-01-18T13:08:06.991Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "dhoni",
+      "shreya ghoshal",
+      "na muthukumar",
+      "ilaiyaraaja",
+      "romantic",
+      "melody",
+      "2012",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Vilayaattaa Padagotty'?</h4><p>The song conveys themes of love and nostalgia, reflecting on the beauty of relationships and life's fleeting moments.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Dhoni'?</h4><p>The movie revolves around the life of a young man and his aspirations, with the song highlighting his emotional journey.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Shreya Ghoshal</strong> and composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Vilayaattaa Padagotty' released?</h4><p>The song was released on <strong>February 5, 2012</strong>.</p></div></div>",
+    "summary": "In <strong>Vilayaattaa Padagotty</strong>, the protagonist reflects on love and the passage of time, beautifully encapsulated through the soothing vocals of <strong>Shreya Ghoshal</strong>. The song serves as a poignant reminder of cherished memories and emotional connections. Set against the backdrop of the movie <em>Dhoni</em>, it enhances the narrative of longing and romance. The melodic composition by <strong>Ilaiyaraaja</strong> further elevates the emotional depth, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Vilayaattaa Padagotty</strong> from <em>Dhoni</em> is a mesmerizing romantic melody that beautifully captures the essence of love and longing. With the enchanting voice of <strong>Shreya Ghoshal</strong> and the masterful composition by <strong>Ilaiyaraaja</strong>, this song transports listeners to a world of nostalgia and emotion. Experience the magic of this collaboration that resonates deeply with every heart.",
+    "stanzaMeanings": [
+      "",
+      "",
+      "In the playful season of life, we are like a true flowing stream.",
+      "You and I are like waves on the restless sea, looking at the horizon. No matter what, life is always about moving forward.",
+      "When the water dances and swirls, it doesn't just flow to the shore.",
+      "In the storm, we find patience in the rain, and the distance we leave behind becomes a path ahead.",
+      "Is there any true support other than one's own path? All nations will find a way, and that way is always for you, flowing like a river.",
+      "With the burden of a fallen tree, we create a new form and come to the sea to find our way.",
+      "In the bright sunlight, we find our place in the world, looking at the vast sky.",
+      "Even if we dive into the sea, the waves do not recognize us. The sea and river will always flow back, never ending, never finishing.",
+      "You and I are like waves on the restless sea, looking at the horizon. No matter what, life is always about moving forward."
+    ]
+  }
 }

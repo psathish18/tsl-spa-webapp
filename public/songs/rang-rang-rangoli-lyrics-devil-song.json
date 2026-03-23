@@ -78,5 +78,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCCezgFISufay48qJ5-ihSqcmwxAmDbjbzez5SVYB4kYRbraJANLCJBnAbTyy0d_0Ag0vvNhkX-WY8AWBJcKYt_Gtvzhx6zzkQnykHArYDlxMj6I1X8MwZYkqsA-FeypA23h3uQ92lcGY/s400-c/Devi+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:49:43.504Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding",
+      "festivals"
+    ],
+    "keywords": [
+      "devi",
+      "shreya goshal",
+      "upbeat",
+      "dance number",
+      "2016",
+      "tamil song",
+      "rang rang rangoli",
+      "movie music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Rang Rang Rangoli</strong> celebrates joy and festivity, using vibrant imagery to evoke a sense of happiness and celebration.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Devi(l)</em>, this song is a lively number that enhances the festive atmosphere, showcasing the characters' joy and excitement.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented vocals of <strong>Shreya Goshal</strong> and <strong>Vishal Mishra</strong>.</p></div><div class=\"faq-item\"><h4>Who is the music director for this song?</h4><p>The music director for <strong>Rang Rang Rangoli</strong> is currently unknown.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Rang Rang Rangoli</strong> was released on <strong>September 27, 2016</strong>.</p></div></div>",
+    "summary": "The song <strong>Rang Rang Rangoli</strong> from <em>Devi(l)</em> is a lively and colorful celebration that encapsulates the essence of joy and festivity. With its upbeat tempo and engaging lyrics, it invites listeners to immerse themselves in a world of happiness and celebration. The vibrant imagery and energetic vocals evoke feelings of excitement and togetherness, making it perfect for festive occasions. This track not only enhances the movie's atmosphere but also resonates with anyone looking to uplift their spirits.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Rang Rang Rangoli</strong> from <em>Devi(l)</em> is a vibrant celebration of life and joy, featuring the enchanting vocals of Shreya Goshal. This upbeat track perfectly captures the festive spirit, making it a must-listen for any celebration. Dive into the colorful world of this song and let its infectious energy uplift your mood!",
+    "stanzaMeanings": [
+      "",
+      "I am the sky's river, the sister of the universe, don't be afraid, the beautiful one is here, both are shining.",
+      "Until the day I live, there is no more sorrow, I will cross the sky and bring you joy.",
+      "What has opened is a beautiful flower, my flag is a colorful rangoli that fills the sky.",
+      "Colorful, colorful rangoli, colorful, colorful rangoli, colorful, colorful rangoli, rang... colorful, colorful rangoli, colorful, colorful rangoli, rang..",
+      "I am the sky's river.",
+      "The moon listens to my sweet words. The sun hears my name.",
+      "This is the only way to live on earth, what sorrow is there, it blows away far away.",
+      "Dreams come together in thousands, my flag is a colorful rangoli that fills the sky.",
+      "Colorful, colorful rangoli, colorful, colorful rangoli, colorful, colorful rangoli, rang... colorful, colorful rangoli, colorful, colorful rangoli, rang..",
+      "I am the sky's river.",
+      "I am the sky's river, the sister of the universe, don't be afraid, the beautiful one is here, both are shining.",
+      "Until the day I live, there is no more sorrow, I will cross the sky and bring you joy.",
+      "What has opened is a beautiful flower, my flag is a colorful rangoli that fills the sky.",
+      "Colorful, colorful rangoli, rang... ...",
+      ""
+    ]
+  }
 }

@@ -3,7 +3,7 @@ import { getAllSongs } from '@/lib/songCache'
 import { REVALIDATE_SITEMAP } from '@/lib/cacheConfig'
 import { getSlugFromSong } from '@/lib/slugUtils'
 
-const BASE_URL = 'https://www.tsonglyrics.com'
+const BASE_URL = 'https://tsonglyrics.com'
 const ITEMS_PER_SITEMAP = 1000
 
 // Static pages (included in sitemap 0 only)
@@ -16,22 +16,34 @@ function getStaticPages() {
       priority: 1.0,
     },
     {
-      url: `${BASE_URL}/about-tamil-song-lyrics.html`,
+      url: `${BASE_URL}/about-tamil-song-lyrics`,
       lastModified: new Date().toISOString(),
       changefreq: 'monthly',
       priority: 0.6,
     },
     {
-      url: `${BASE_URL}/privacy-policy-tamil-song-lyrics-app.html`,
+      url: `${BASE_URL}/privacy-policy-tamil-song-lyrics-app`,
       lastModified: new Date().toISOString(),
       changefreq: 'yearly',
       priority: 0.3,
     },
     {
-      url: `${BASE_URL}/disclaimer.html`,
+      url: `${BASE_URL}/disclaimer`,
       lastModified: new Date().toISOString(),
       changefreq: 'yearly',
       priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/terms-of-service`,
+      lastModified: new Date().toISOString(),
+      changefreq: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/contact`,
+      lastModified: new Date().toISOString(),
+      changefreq: 'monthly',
+      priority: 0.4,
     },
     {
       url: `${BASE_URL}/tamil-song-lyrics-in-english.html`,

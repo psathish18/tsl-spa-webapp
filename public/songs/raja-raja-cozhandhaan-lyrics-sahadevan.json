@@ -48,5 +48,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:28.289Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "folk"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "festivals"
+    ],
+    "keywords": [
+      "raja raja cozhandhaan",
+      "sahadevan mahadevan",
+      "manoj",
+      "prabhakaran",
+      "nostalgic",
+      "folk",
+      "1988",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Raja Raja Cozhandhaan</strong> celebrates the spirit of joy and community, reflecting on the changes in society over time.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The movie for <strong>Raja Raja Cozhandhaan</strong> is currently unknown.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features renowned singers <strong>Mano</strong> and <strong>Prabhakaran</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Raja Raja Cozhandhaan</strong> was released on November 14, 1988.</p></div></div>",
+    "summary": "In <strong>Raja Raja Cozhandhaan</strong>, the lively lyrics and upbeat tempo create an atmosphere of celebration and nostalgia. The song reflects on the changes in society while maintaining a sense of joy and community spirit. It evokes emotions of happiness and togetherness, making it a perfect fit for festive occasions. The energetic performance by the singers adds to the charm, ensuring its place as a beloved classic.",
+    "releaseYear": "1988",
+    "high_ctr_intro": "<strong>Raja Raja Cozhandhaan</strong> is a vibrant folk number that captures the essence of celebration and nostalgia. The unique collaboration of talented singers brings life to this classic tune, making it a timeless favorite. Dive into the rhythmic beats and lively lyrics that evoke memories of joyous gatherings and festivities.",
+    "stanzaMeanings": [
+      "This is the road where the king's rule was established, and now a bus is running on it.",
+      "The king's rule has changed here, and the rule of the people has come for a long time.",
+      "The rule has changed, but the road itself hasn't changed.",
+      "This is the king's rule.",
+      "Who has broken the statue of the artist here? A monkey has taken a garland in its hand.",
+      "It's only us who have completely taken over the streets.",
+      "The past has moved forward, but is there any pain left?",
+      "Hey, who is going to the market now?",
+      "You and I can start a party and gather wealth.",
+      "If we can't find work, then we can see.",
+      "This is the king's rule.",
+      "In the country, how many parties are there? It's just a handful of people.",
+      "No one knows which small party is there; it can't survive in court.",
+      "Why has the party here become two or three?",
+      "If it comes, the greedy will lose their grip.",
+      "Can you and I learn the song of the country? Can we survive like dogs?",
+      "This is the road where the king's rule was established, and now a bus is running on it.",
+      "The king's rule has changed here, and the rule of the people has come for a long time.",
+      "The rule has changed, but the road itself hasn't changed.",
+      ""
+    ]
+  }
 }

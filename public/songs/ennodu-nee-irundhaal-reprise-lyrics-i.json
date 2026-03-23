@@ -85,5 +85,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf6_ei9eped7uxl42LbEhlKlGeJHzodg4xr_VUSYdlfEbFcgQMYFfZc1SqGtJL7_f9Y9KEX_6M1lETDn2lOTbrJ93lnOAfG89zAds_gJlwvBr88-K-TQaG8zVKh04pO2aazlKwexVYKZY/s400-c/I.jpg",
   "generatedAt": "2026-01-18T12:57:38.794Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "ennodu nee irundhaal",
+      "i",
+      "chinmayi",
+      "sid sriram",
+      "kabilan",
+      "ar rahman",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Ennodu Nee Irundhaal</strong> expresses deep feelings of love and connection, emphasizing the idea of being together with a loved one.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie plot?</h4><p>In the movie <em>I</em>, this song reflects the romantic moments between the lead characters, showcasing their emotional bond.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Chinmayi</strong> and <strong>Sid Sriram</strong>, who bring the lyrics to life with their soulful rendition.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Ennodu Nee Irundhaal</strong> is composed by the legendary <strong>AR Rahman</strong>, known for his innovative soundscapes.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This beautiful song was released on <strong>September 19, 2014</strong>.</p></div></div>",
+    "summary": "<strong>Ennodu Nee Irundhaal (Reprise)</strong> is a heartfelt duet that encapsulates the essence of love and longing in the movie <em>I</em>. The song's soothing melodies and poignant lyrics evoke a deep emotional connection, making it a perfect fit for romantic occasions. As the characters navigate their feelings, this track serves as a backdrop to their journey, highlighting the beauty of companionship. The collaboration between Chinmayi and Sid Sriram, under the masterful direction of AR Rahman, creates a memorable listening experience that resonates with anyone who has experienced love.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Ennodu Nee Irundhaal (Reprise)</strong>, a mesmerizing duet that beautifully captures the essence of love and longing. With the soulful voices of Chinmayi and Sid Sriram, combined with AR Rahman's magical composition, this song is sure to tug at your heartstrings. Dive into the emotional depths of <em>I</em> and let the music take you on a journey of romance.",
+    "stanzaMeanings": [
+      "If you are with me, I will live with my soul. Who are true lovers? I will tell you and me. If we both are a lie, I will destroy love. I will stitch your hair and my mustache with a needle and thread, holding you in my heart like water in a coconut. I am born from the stem of a flower, and I will always revolve around you. I will sleep with your mind as my blanket. I will be within you like a soul in a body. If you are with me, I will live with my soul."
+    ]
+  }
 }

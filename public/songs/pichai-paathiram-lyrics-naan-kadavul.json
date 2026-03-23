@@ -54,5 +54,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:32.416Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "devotional",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "devotional"
+    ],
+    "occasions": [
+      "relaxation",
+      "festivals"
+    ],
+    "keywords": [
+      "naan kadavul",
+      "pichai paathiram",
+      "madhu balakrishnan",
+      "ilaiyaraaja",
+      "melancholic",
+      "devotional",
+      "2009",
+      "tamil music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Pichai Paathiram</strong>, the lyrics reflect a deep sense of yearning and devotion, encapsulating the struggles and aspirations of the protagonist in <em>Naan Kadavul</em>. The song conveys a poignant message about the human condition, evoking feelings of melancholy and hope. It serves as a soulful reminder of the spiritual journey one undertakes in life. The soothing melody, combined with Madhu Balakrishnan's heartfelt rendition, creates an immersive experience that resonates with the audience.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Pichai Paathiram</strong> from <em>Naan Kadavul</em> is a soul-stirring melody that beautifully captures the essence of devotion and longing. With the enchanting voice of Madhu Balakrishnan and the masterful composition by Ilaiyaraaja, this song resonates deeply with listeners. Experience the profound emotions woven into this timeless piece that transcends mere words.",
+    "stanzaMeanings": [
+      "I have come as a vessel of charity, oh my Lord, my Lord.",
+      "The body is a vessel, with bones and flesh, it is a body that is bound.",
+      "I have come as a vessel of charity, oh my Lord, my Lord.",
+      "The body is a vessel, with bones and flesh, it is a body that is bound.",
+      "I have come as a vessel of charity, oh my Lord, my Lord.",
+      "There is no mother or father, the fate of the beginning is entangled.",
+      "I do not know this present, I do not know this present, awaken the truth in the small doll's position.",
+      "I have come as a vessel of charity, oh my Lord, my Lord.",
+      "All that wealth is in your presence, I am a vessel for charity, where is it? It is just a vessel in my place, will it flow in your presence?",
+      "Once, twice, many times, you have made me take many births.",
+      "New grace, old grace, every moment you have made me suffer.",
+      "Life that is bound by material things is a burden.",
+      "Today, the heart that calls out for your grace is troubled.",
+      "With your grace, looking at me, the flower blooms, your holy hand embraces me, your grace calls me.",
+      "I have come as a vessel of charity, oh my Lord, my Lord.",
+      "The body is a vessel, with bones and flesh, it is a body that is bound.",
+      "I have come as a vessel of charity, oh my Lord, my Lord."
+    ]
+  }
 }

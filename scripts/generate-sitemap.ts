@@ -8,7 +8,7 @@ import path from 'path'
 import { getAllSongs } from '../lib/songCache'
 import { getSlugFromSong } from '../lib/slugUtils'
 
-const BASE_URL = 'https://www.tsonglyrics.com'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://tsonglyrics.com'
 const ITEMS_PER_SITEMAP = 1000
 const PUBLIC_DIR = path.join(process.cwd(), 'public')
 
@@ -48,22 +48,34 @@ function getStaticPages() {
       priority: 1.0,
     },
     {
-      url: `${BASE_URL}/about-tamil-song-lyrics.html`,
+      url: `${BASE_URL}/about-tamil-song-lyrics`,
       lastModified: new Date().toISOString(),
       changefreq: 'monthly',
       priority: 0.6,
     },
     {
-      url: `${BASE_URL}/privacy-policy-tamil-song-lyrics-app.html`,
+      url: `${BASE_URL}/privacy-policy-tamil-song-lyrics-app`,
       lastModified: new Date().toISOString(),
       changefreq: 'yearly',
       priority: 0.3,
     },
     {
-      url: `${BASE_URL}/disclaimer.html`,
+      url: `${BASE_URL}/disclaimer`,
       lastModified: new Date().toISOString(),
       changefreq: 'yearly',
       priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/terms-of-service`,
+      lastModified: new Date().toISOString(),
+      changefreq: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/contact`,
+      lastModified: new Date().toISOString(),
+      changefreq: 'monthly',
+      priority: 0.4,
     },
     {
       url: `${BASE_URL}/tamil-song-lyrics-in-english.html`,
@@ -160,7 +172,8 @@ async function generateSitemaps() {
     console.log('Sorted songs by publication date (most recent first)')
 
     // Calculate number of sitemap pages needed
-    const staticPagesCount = getStaticPages().length
+    const staticPages = getStaticPages()
+    const staticPagesCount = staticPages.length
     const songsPerFirstPage = ITEMS_PER_SITEMAP - staticPagesCount
     const remainingSongs = sortedSongs.length - songsPerFirstPage
     const additionalPages = Math.ceil(remainingSongs / ITEMS_PER_SITEMAP)
@@ -169,6 +182,7 @@ async function generateSitemaps() {
     console.log(`Generating ${totalPages} sitemap pages...`)
     console.log(`- sitemap/0.xml: ${staticPagesCount} static pages + ${songsPerFirstPage} most recent songs`)
     console.log(`- sitemap/1.xml+: ${remainingSongs} older songs across ${additionalPages} files`)
+    console.log(`Using sitemap base URL: ${BASE_URL}`)
 
     // Generate each sitemap page
     for (let page = 0; page < totalPages; page++) {

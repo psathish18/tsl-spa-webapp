@@ -144,5 +144,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:00:38.720Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "emotional"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "amma amma",
+      "velaiyilla pattathari",
+      "dhanush",
+      "amala paul",
+      "anirudh",
+      "s janaki",
+      "2014",
+      "melancholic",
+      "emotional",
+      "theme song",
+      "tamil cinema",
+      "kollywood"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Amma Amma</strong>?</h4><p>The song portrays the deep emotional bond and longing for a mother, emphasizing themes of love and loss.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Amma Amma</strong>?</h4><p>The song is sung by <strong>S Janaki</strong> and <strong>Dhanush</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Velaiyilla Pattathari</em>?</h4><p>The music for the movie was composed by <strong>Anirudh Ravichander</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Velaiyilla Pattathari</em>?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>Who are the lead actors in <em>Velaiyilla Pattathari</em>?</h4><p>The lead roles are played by <strong>Dhanush</strong> and <strong>Amala Paul</strong>.</p></div></div>",
+    "summary": "The song <strong>Amma Amma</strong> from the movie <em>Velaiyilla Pattathari</em>, released in 2014, is a deeply emotional melody that captures the essence of a son's love and longing for his mother. Featuring the soulful voices of S Janaki and Dhanush, the song is composed by Anirudh Ravichander with heartfelt lyrics penned by Dhanush himself. The lead roles in the movie are portrayed by Dhanush and Amala Paul, adding depth to the narrative. This song resonates with listeners through its poignant theme and touching musical composition, making it a memorable piece in Tamil cinema.",
+    "actorName": "Dhanush",
+    "actressName": "Amala Paul",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Amma Amma</strong> from the movie <em>Velaiyilla Pattathari</em> is a soulful melody that resonates deeply with the audience. Composed by Anirudh and sung by S Janaki and Dhanush, this song beautifully captures the emotions of love and loss. Its heartfelt lyrics and poignant music make it an unforgettable piece in Tamil cinema.",
+    "stanzaMeanings": [
+      "Mother, mother, where is our mother? I searched for you, mother, why did you leave me? Why is your eye closed? Come out, you are outside.",
+      "Mother, you have separated from life and left me alone. I need to sleep for the song you sing. For the song I sing, mother, just opening your eyes is enough.",
+      "Mother, mother, where is our mother? I searched for you, mother.",
+      "Before I sleep, you have gone away, mother. Why are you angry with me? My dear daughter, you must remove the fault from your eyes.",
+      "Oh no, why is this curse upon me? I am the one who has done wrong.",
+      "Day and night, do not be afraid, mother, darkness is without support. Half of life has been lost, mother, it is a state of loneliness.",
+      "Mother, mother, where is our mother? I searched for you, mother.",
+      "Even after I leave, you must live on, my dear. There is something in your eyes too. In every sky, in every flower, I live in a world where there are gods.",
+      "You are the boundary of my love, your father will call you a child. Do not get lost in the village, my dear, the world plays with your eyes.",
+      "Even if time passes, I will still be your child.",
+      "Mother, mother, where is our mother? I searched for you, mother.",
+      "Even if I go, I will return, look in the mirror, I will also know.",
+      "Mother, you have separated from life, my dear, you are my life. Today, for the song you sing, I need to sleep. For the lullaby I sing, you must sleep and listen."
+    ]
+  }
 }

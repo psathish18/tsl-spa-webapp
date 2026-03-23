@@ -40,5 +40,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:38.450Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "thodara",
+      "chinmayi",
+      "sbi mohan",
+      "romantic",
+      "melancholic",
+      "2018",
+      "tamil song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru Kadhal Kalavani</strong> explores themes of love and heartbreak, expressing the pain of separation and longing.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song plays during a pivotal moment in <em>Thodara</em>, highlighting the emotional turmoil of the characters involved.</p></div><div class=\"faq-item\"><h4>Who is the singer and lyricist of the song?</h4><p>The song is sung by <strong>Chinmayi</strong> and the lyrics are penned by <strong>SBI Mohan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru Kadhal Kalavani</strong> was released on <strong>March 14, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Kadhal Kalavani</strong>, the protagonist reflects on the bittersweet nature of love, expressing feelings of longing and heartache. The song's soothing melody and heartfelt lyrics create an emotional atmosphere that resonates with anyone who has experienced love's complexities. It serves as a poignant reminder of the joys and sorrows intertwined in romantic relationships. As part of <em>Thodara</em>, this track beautifully encapsulates the essence of the film's narrative.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Oru Kadhal Kalavani</strong> from <em>Thodara</em> is a beautifully crafted romantic melody that captures the essence of love and longing. Sung by the talented Chinmayi, this song weaves a tale of heartache and desire that resonates deeply with listeners. The poignant lyrics by SBI Mohan add a unique depth, making it a must-listen for anyone who appreciates heartfelt music.",
+    "stanzaMeanings": [
+      "A love thief has come and stolen my heart, speaking lies and hiding my feelings.",
+      "He needs to change his attitude. I will go away from him, leaving him behind.",
+      "A love that is not true cannot take me away. The unspoken sadness is troubling my heart.",
+      "A love thief has come and stolen my heart.",
+      "A girl who has captured my heart, with a garland around her neck, has come to my mind.",
+      "The auspicious thread has been given, and she has adorned herself with a flower garland.",
+      "I am searching for you like a bird that has been waiting, and I am watching you like a snake.",
+      "In my dreams, I see you every day. Even when I speak softly, I become like a child.",
+      "I have changed here to be a garden for you. If I can't see you, I will become a ruin.",
+      "I was born here to be with you. From now on, I will live here and return.",
+      "You come and stand here, tell me that you want me.",
+      "A love thief has come and stolen my heart, speaking lies and hiding my feelings.",
+      "He needs to change his attitude. I will go away from him, leaving him behind.",
+      "A love that is not true cannot take me away. The unspoken sadness is troubling my heart."
+    ]
+  }
 }

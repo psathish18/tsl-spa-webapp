@@ -13,6 +13,18 @@ Disallow: /admin/
 Disallow: /search?*
 Disallow: /*?nxtP*
 
+# Google AdSense & Ad Network Crawlers - must always access ads.txt
+# These are explicitly allowed to bypass any other rules
+User-agent: AdsBot-Google
+Allow: /ads.txt
+Allow: /app-ads.txt
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /ads.txt
+Allow: /app-ads.txt
+Allow: /
+
 # Friendly bots - faster crawl
 User-agent: Googlebot
 Crawl-delay: 1

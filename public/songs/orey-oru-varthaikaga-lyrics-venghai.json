@@ -83,5 +83,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKGLv6tLU4TSQCjFAg5mFjb3gn9jT-QoL7WY4dM-QsEQ94AACnMEz2A7uulSwJqYvvwVULA-taZLbNeifjgBq_UPRYdRgDbioDmu8wLAmfKXgDveeGZXzPQzLw0YMB2aCFMkRSN6P2P0c/s400-c/05vengai_thumb.jpg",
   "generatedAt": "2026-01-18T13:10:30.090Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "venghai",
+      "orey oru varthaikaga",
+      "harini",
+      "tipu",
+      "viveka",
+      "devi sri prasad",
+      "romantic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys deep emotions of love and longing, expressing how one cherishes their beloved.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <strong>Venghai</strong>, this song highlights the romantic moments between the lead characters, showcasing their emotional connection.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Harini</strong> and <strong>Tipu</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Orey Oru Varthaikaga</strong> was composed by <strong>Devi Sri Prasad</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>June 12, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Orey Oru Varthaikaga</strong>, the characters express their heartfelt emotions through a beautiful melody that encapsulates the essence of love. The song serves as a backdrop to pivotal romantic moments in <em>Venghai</em>, highlighting the longing and affection between the leads. With its soothing lyrics and captivating composition, it evokes feelings of nostalgia and happiness. This duet not only showcases the vocal talents of Harini and Tipu but also leaves a lasting impression on the audience.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Orey Oru Varthaikaga</strong> from <em>Venghai</em> is a melodious duet that beautifully captures the essence of love and longing. With the enchanting voices of Harini and Tipu, combined with Devi Sri Prasad's captivating composition, this song resonates with anyone who has experienced the magic of romance. Dive into this lyrical journey that promises to tug at your heartstrings!",
+    "stanzaMeanings": [
+      "",
+      "Someone is feeling something deep inside, and I walk alone while you stay silent.",
+      "For one word, I will wait without moving, and for one glance, I will endure no matter what.",
+      "With just one look, I will live for you, and I will give my life to you.",
+      "With just one word, my heart is breaking, and with just one glance, my heart is aching.",
+      "Someone is feeling something deep inside, and I walk alone while you stay silent.",
+      "With just one word, my heart is breaking.",
+      "With a heart that is torn apart, it can break and hurt, and with a heart that is split, it can also heal.",
+      "Love, like a child, is crying, and thinking of you, my heart is now fighting.",
+      "Hearing just one word, my heart is burning, and with just one glance, it feels like a storm has hit.",
+      "Why are you smiling when there are thorns inside? Love is just a word, but you are hurting me.",
+      "Thinking of you, this is my fate, and I am a test for the god who gave me life.",
+      "With just one word, I cannot speak, and there is no peace in my heart to bear this betrayal.",
+      "Someone is feeling something deep inside, and I walk alone while you stay silent."
+    ]
+  }
 }

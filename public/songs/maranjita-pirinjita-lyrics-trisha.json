@@ -43,5 +43,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1wcE6xHRzB80XQ9ClE9TI07gWJ56CYDp2aN8pcW7Dg62RaMwcwu7v0X_46ltOtCKxz4AonsPuYHI2of3tlGSe03yd9J3laJkuSs7xMw6wtOtUoX1Idul3f-owA9noZIqP-bwGjK3h7LI/s400-c/Trisha+Illana+Nayanthara+-+Maranjita+Pirinjita+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:54:09.484Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "celebration"
+    ],
+    "keywords": [
+      "trisha illana nayanthara",
+      "gv prakash kumar",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil song",
+      "movie",
+      "love"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Maranthuta Pirinjita</strong> explores themes of love and longing, expressing the emotional turmoil of a relationship.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Trisha Illana Nayanthara</em>, the song reflects the protagonist's feelings towards love and the complexities of relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>GV Prakash Kumar</strong>, who is also the music director.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Maranthuta Pirinjita</strong> was released on September 17, 2015.</p></div></div>",
+    "summary": "In <strong>Maranthuta Pirinjita</strong>, the protagonist expresses deep feelings of love and the bittersweet nature of relationships. The song encapsulates the emotional journey of longing and connection, making it relatable to anyone who has experienced love. With GV Prakash Kumar's melodious voice, the track evokes a sense of nostalgia and warmth. It serves as a perfect backdrop for romantic moments, enhancing the overall narrative of <em>Trisha Illana Nayanthara</em>.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Maranthuta Pirinjita</strong> from <em>Trisha Illana Nayanthara</em> is a captivating melody that beautifully captures the essence of love and longing. With GV Prakash Kumar's soulful voice, the song resonates with heartfelt emotions, making it a perfect listen for romantic occasions. Dive into the enchanting world of this track that perfectly blends melody and sentiment.",
+    "stanzaMeanings": [
+      "",
+      "You told me a lie, what happened? I cried in my heart, your words have made my love disappear.",
+      "I believed in love after falling for you, but you didn't take it seriously; you just spoke simply without sincerity.",
+      "I was just joking, but I got carried away because of you, my love.",
+      "Did you forget my love?",
+      "You left without saying goodbye, and I'm confused; without you, I feel like I'm in hell.",
+      ""
+    ]
+  }
 }

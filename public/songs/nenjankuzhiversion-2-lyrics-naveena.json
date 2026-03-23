@@ -78,5 +78,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvtnvkTXDl9GkvZhyphenhyphenpauAtkhOqWDaZyjekYgtx5Ou3_jFxUAF4iAMnljNbBEwPsbXPif-5uKxGcCUgdWOwIv07qzU6ZxGBpQg5mKWRhhovWZV8hdbZJdWv_0TmVSj0_zJzMr0_9hYAoZc/s400-c/Naveena-Saraswathi-Sabatham-Audio-From-Today.jpg",
   "generatedAt": "2026-01-18T13:02:02.505Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "naveena saraswathi sabatham",
+      "nenjankuzhi",
+      "karthik",
+      "pooja vaidyanath",
+      "vairamuthu",
+      "prem kumar",
+      "romantic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Nenjankuzhi?</h4><p><strong>Nenjankuzhi</strong> conveys deep emotions of love and longing, reflecting the complexities of relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Naveena Saraswathi Sabatham?</h4><p>The song plays during a pivotal moment in <em>Naveena Saraswathi Sabatham</em>, highlighting the romantic tension between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of Nenjankuzhi?</h4><p>The song features the talented voices of <strong>Karthik</strong> and <strong>Pooja Vaidyanath</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Nenjankuzhi</strong> was composed by <strong>Prem Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was Nenjankuzhi released?</h4><p><strong>Nenjankuzhi</strong> was released on November 29, 2013.</p></div></div>",
+    "summary": "In <strong>Nenjankuzhi</strong>, the heartfelt duet beautifully encapsulates the emotions of love and yearning. The song unfolds during a crucial moment in <em>Naveena Saraswathi Sabatham</em>, where the characters express their innermost feelings. With its soothing melody and poetic lyrics by Vairamuthu, it evokes a sense of nostalgia and romance. The harmonious collaboration between Karthik and Pooja Vaidyanath adds depth to the song, making it a memorable piece for any romantic occasion.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Nenjankuzhi</strong> from the film <em>Naveena Saraswathi Sabatham</em>, a beautiful duet that captures the essence of love and longing. With the soulful voices of Karthik and Pooja Vaidyanath, this track is a melodic journey that resonates with every romantic heart. Let the poetic lyrics by Vairamuthu and the captivating composition by Prem Kumar sweep you off your feet!",
+    "stanzaMeanings": [
+      "",
+      "The heart's treasure is where it belongs, and it is lost when the eyes close in sleep.",
+      "Your presence is in my heart, and it brings joy. Tears flow from both our eyes.",
+      "If I leave you, my path will go away - beautiful one, if you forget me, your gaze will also fade away.",
+      "Every moment, I think of you, and my heart feels the distance as it stretches out.",
+      "It holds you in my heart, and I want to catch a small thread of life.",
+      "Look at the one who is not afraid to speak. Like colorful little birds, they will talk about you.",
+      "There, here, it happens; it makes me feel. Tears flow in this world, and if you think of the sky, I will go.",
+      "It holds you in my heart, and I want to catch a small thread of life.",
+      "The heart's treasure is where it belongs, and it is lost when the eyes close in sleep.",
+      "In a small, beautiful world, life cannot be lost. Can I dance with a flame that has caught me?",
+      "What is in my heart is your breath, and it is sent here. My life is in it, and you are there while I am here.",
+      "Oh, the spark that is on you is in my life. You will come to my thoughts, and my life will flourish."
+    ]
+  }
 }

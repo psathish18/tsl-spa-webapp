@@ -32,5 +32,41 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:36.438Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "titanic",
+      "yaazhini",
+      "vijay prakash",
+      "karky",
+      "nivas k prasanna",
+      "romantic",
+      "2018",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, beautifully encapsulated through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In the movie <em>Titanic</em>, the song plays during a pivotal romantic moment, enhancing the emotional depth of the scene.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the talented Vijay Prakash, known for his powerful and emotive vocal delivery.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Yaazhini En Yaazhini</strong> was composed by Nivas K Prasanna, who is known for his melodious compositions.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on August 20, 2018.</p></div></div>",
+    "summary": "In <strong>Yaazhini En Yaazhini</strong>, the protagonist expresses heartfelt emotions of love and yearning, beautifully portrayed through the lyrics. The song serves as a backdrop to a significant romantic moment in the <em>Titanic</em> movie, enhancing the emotional connection between the characters. With its soothing melody and Vijay Prakash's captivating vocals, it evokes a sense of nostalgia and warmth. Overall, the song encapsulates the essence of romance, making it a perfect choice for special occasions.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Yaazhini En Yaazhini</strong> from the <em>Titanic</em> Tamil movie is a mesmerizing romantic melody that captures the essence of love and longing. With Vijay Prakash's soulful voice and Karky's poignant lyrics, this song creates an enchanting atmosphere that resonates with listeners. The collaboration with music director Nivas K Prasanna adds a unique flavor, making it a must-listen for all music lovers.",
+    "stanzaMeanings": [
+      "",
+      "Where did the first drop fall? Did my heart get lost in it?",
+      "Oh Yaazhini, you are my day now. Oh Yaazhini, you are my life.",
+      ""
+    ]
+  }
 }

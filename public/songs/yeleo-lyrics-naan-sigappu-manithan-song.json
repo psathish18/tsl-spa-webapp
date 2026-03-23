@@ -87,5 +87,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH5Q5TzPdiyNWsblnpHie-unVYj1HaPSvV4YRH2TVFVOSEhPRYGnDh6-MUsfU9UCwlXoXgrIY19TGzp6UY4xyaNeyWFMEqqaG5bf2F0wIVY9AuXcFksgiLusWPCUfSmeh-AQDuL4Yc4TY/s400-c/NSM1.jpg",
   "generatedAt": "2026-02-01T13:02:42.368Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "naansigappumanithan",
+      "gvprakashkumar",
+      "megha",
+      "upbeat",
+      "dance",
+      "2014",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yeleo'?</h4><p>'Yeleo' conveys themes of joy and celebration, reflecting the carefree spirit of life.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Naan Sigappu Manithan</em>, the song captures a lively moment that emphasizes happiness and togetherness.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of 'Yeleo'?</h4><p>The song is sung by <strong>GV Prakash Kumar</strong> and <strong>Megha</strong>, with music composed by <strong>GV Prakash Kumar</strong> himself.</p></div><div class=\"faq-item\"><h4>When was 'Yeleo' released?</h4><p>'Yeleo' was released on <strong>March 15, 2014</strong>.</p></div></div>",
+    "summary": "The song 'Yeleo' from the movie <em>Naan Sigappu Manithan</em> is a lively duet that encapsulates the essence of joy and celebration. With its upbeat tempo and catchy lyrics, it invites listeners to embrace happiness and dance along. The collaboration between GV Prakash Kumar and Megha adds a unique charm, making it a delightful experience. This song perfectly complements the festive moments in the film, evoking feelings of excitement and togetherness.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Yeleo</strong> from <em>Naan Sigappu Manithan</em> is a vibrant celebration of life and joy, brought to life by the dynamic voices of GV Prakash Kumar and Megha. The infectious beats and lively lyrics create an atmosphere that's perfect for any festive occasion. Experience the energy and excitement that makes this song a must-listen for all Tamil music lovers!",
+    "stanzaMeanings": [
+      "",
+      "Hey, the mind is flying as if it has come to a new place, opening the door and feeling the breeze.",
+      "Even if it falls or rises, it will still gain something from the fall.",
+      "Even if you walk tomorrow, it will still be a lie if you fall. Luck comes and knocks on the door.",
+      "Who gave life to the sleeping doll? It stretches its hand and dances with time.",
+      "You have a good time ahead, but what will change? I am wondering what is holding me.",
+      "I was like a knot, but now I will untie it. I feel like I can walk now.",
+      "If I was there, I would dance, but now I feel like I can cross the clouds.",
+      "When the cage breaks, it hits a six. Should I salute the direction of happiness?",
+      "What is the value of the moon? What is the value of the sun? I am buying everything, listen to me.",
+      "Hey, the mind is flying as if it has come to a new place.",
+      "The rain is falling, and the mind is wandering, sleeping with a face like a tree.",
+      "The bird that flew has now fallen, and the kite is now starting to fly.",
+      "All the pain is just a memory, and it is still there, my friend, it is a way of life.",
+      "Even if it is a little, the bird next to it will also get a share.",
+      "Hey, the mind is flying as if it has come to a new place."
+    ]
+  }
 }

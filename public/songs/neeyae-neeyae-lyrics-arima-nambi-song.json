@@ -76,5 +76,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9YJYfDsP-pF9gaJlRAuCZHzZjRtsEB9mYCwxo1cWGtljtFfJgdBExakVW2HvT5c9sEskiEZl4JDNyLqjuBzyrSthdHUOqII8_7IM_7sxGffhYMbm-DzS1QFgYYtF3pDFcGFIaiN8RX2U/s400-c/Arima-Nambi.jpg",
   "generatedAt": "2026-02-01T13:18:06.270Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "arima nambi",
+      "shreya ghoshal",
+      "sivamani",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Neeyae Neeyae</strong>, the protagonist expresses deep feelings of love and longing, reflecting on the emotional connection with their beloved. The song beautifully encapsulates the essence of romance, making it a perfect fit for intimate moments. The soothing melody, paired with Shreya Ghoshal's captivating voice, evokes a sense of nostalgia and warmth. Set against the backdrop of <em>Arima Nambi</em>, this song enhances the narrative of love and desire, leaving listeners enchanted.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Neeyae Neeyae</strong> from <em>Arima Nambi</em> is a mesmerizing melody that beautifully captures the essence of love and longing. Shreya Ghoshal's enchanting vocals combined with Sivamani's exquisite composition create an unforgettable listening experience. Dive into this romantic ballad that resonates with every heartbeat and emotion.",
+    "stanzaMeanings": [
+      "",
+      "You are the one who blooms in the mist. You, you, are the one who has come to my eyes. You are the huntress.",
+      "You have come to me like a shining star, I have seen you as a part of me, who else, who else, is you, my life.",
+      "Yesterday, I was nobody, lying in darkness. You became my mother and I ended my life.",
+      "You are me, I was born again. Like a puppet, I have fallen down.",
+      "Oh, you will also have your time. I see you as my life, in the moonlight, I am holding your hand, oh.. I have seen the rain."
+    ]
+  }
 }

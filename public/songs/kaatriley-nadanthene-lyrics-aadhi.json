@@ -91,5 +91,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvgNs7eQIQUYt4RPd4iIqZk_FkChcb3SUNz4zukHSEkhKcvzSf0AHSAzqqY9x4bcgi8nlGpTHp-v2yjw1sUYDlT4TuXWLh8xKMSg5JcxPNkX2j5zVr9SjJwNa-txty12w_A8Fshz8YU-8/s400-c/adhi+bhagavan+songs+lyrics.jpg",
   "generatedAt": "2026-01-18T13:06:00.528Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "aadhi bhagavan",
+      "kaatriley nadanthene",
+      "shweta pandit",
+      "udit narayan",
+      "yuvan",
+      "arivumathi",
+      "romantic",
+      "melancholic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaatriley Nadanthene</strong>?</h4><p>The song explores themes of love and longing, capturing the emotional journey of the characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p><strong>Shweta Pandit</strong> and <strong>Udit Narayan</strong> lend their voices to this beautiful duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Aadhi Bhagavan</em>?</h4><p>The music for the movie was composed by <strong>Yuvan</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song reflects the emotional turmoil and romantic tension between the lead characters.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in <strong>2012</strong>.</p></div></div>",
+    "summary": "<strong>Kaatriley Nadanthene</strong> is a soulful melody from the movie <em>Aadhi Bhagavan</em>, capturing the essence of love and longing. The song beautifully portrays the emotional journey of the characters, with Shweta Pandit and Udit Narayan's voices adding depth to the poignant lyrics by Arivumathi. Yuvan's composition enhances the melancholic yet romantic mood, making it a perfect track for moments of reflection and emotional introspection. This duet resonates with anyone who has experienced the complexities of love.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Kaatriley Nadanthene</strong> from the movie <em>Aadhi Bhagavan</em> is a mesmerizing duet that beautifully captures the essence of love and longing. Sung by the talented duo Shweta Pandit and Udit Narayan, this song is enriched by Yuvan's soulful composition. Dive into the emotional depth of this track and experience the magic of Arivumathi's poignant lyrics.",
+    "stanzaMeanings": [
+      "I walked in the breeze, measured love, you flew away, I was amazed by myself.",
+      "Oh no, oh no, like a cloud, I keep fading away. I can't tell if it's true or false. I became a fan and a poet, climbed on a star's back, crossed a hundred continents, and drowned in you.",
+      "Oh life, oh life, it's the second time. Youth is breaking and hurting. The rock is melting and flowing, and the eyes are celebrating.",
+      "The sky is tapping my head, words are forming poetry within me. Without us asking, we became one.",
+      "You entered the air I breathe, opened the doors of breath. Who are you? I searched for your address.",
+      "My mouth is shy, only saying your name. In the drizzle, I see your eyes. Silently, I search for your words.",
+      "I searched for the poet in you, drowned in you. Lightning struck my back, and I crossed continents.",
+      "I walked in the breeze, measured love, you flew away, I was amazed by myself."
+    ]
+  }
 }

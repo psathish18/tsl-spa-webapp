@@ -73,5 +73,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJAIBshJ5iT2Ce1Pey8URV9pvkQ8eK9S4fYn4tYNS8BGAyPdZpM9kwyW5hJx8EXEuJ1nLRxcmxNPEWz61zK95cJiCK2-yCrwSxCyUltniOyBD-tKYiyAbYLt39ag2VGvKszsQpHEP5_zasU8oVuPdIdrubQUWsreGJkWiVJMu2X-7GrPLWpBFzg7Mw8w/s400-c/Screen Shot 2024-04-06 at 2.34.45 PM.png",
   "generatedAt": "2026-01-18T13:12:25.770Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "paiyaa",
+      "yuvan",
+      "na muthukumar",
+      "romantic",
+      "melancholic",
+      "2010",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yedho Ondru Ennai'?</h4><p>The song expresses deep emotions of love and longing, capturing the essence of a romantic relationship.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Paiyaa'?</h4><p>In the movie, the song reflects the protagonist's feelings of love and connection with the lead character.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Yuvan</strong>, who is also the <strong>music director</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Yedho Ondru Ennai' released?</h4><p>The song was released on <strong>April 10, 2010</strong>.</p></div></div>",
+    "summary": "In the song <strong>Yedho Ondru Ennai</strong> from <em>Paiyaa</em>, the protagonist expresses his deep feelings of love and longing. The lyrics beautifully convey the emotional turmoil of separation and the desire to be with a loved one. With Yuvan's soulful rendition, the song evokes a sense of nostalgia and romantic yearning. It serves as a poignant reminder of the complexities of love and relationships.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Yedho Ondru Ennai</strong> from the <em>Paiyaa</em> soundtrack is a mesmerizing blend of heartfelt lyrics and Yuvan's soulful voice. This romantic ballad captures the essence of longing and love, making it a perfect listen for those reflective moments. Experience the magic of Yuvan's music and Na Muthukumar's poignant words that resonate deeply with every listener.",
+    "stanzaMeanings": [
+      "Someone is like you, wandering around to see me. How should I act in this drama?",
+      "I have kept my dreams in my eyes, and I am trying to catch the fading light in my hands.",
+      "Girl, I have kept your memories in my heart. I cannot let you go; my heart is attached here.",
+      "I am leaving you, but there is nothing with me. Where will I go? Who will I ask? Every path is with you.",
+      "In my life, both my nights and days have come to you. This separation has made my heart lonely.",
+      "Inside, I hear your voice calling me, giving me life. Where am I going? How am I moving? I am...",
+      "Girl, I have kept your memories... Something is there for me... Girl, I have kept your memories..."
+    ]
+  }
 }

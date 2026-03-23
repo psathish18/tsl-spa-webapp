@@ -65,5 +65,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:59:48.155Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "manjapai",
+      "spb",
+      "yugabharathi",
+      "n. r. raghunanthan",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song"
+    ],
+    "actorName": "Vimal",
+    "actressName": "Lakshmi Menon",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Aagaasa Nilavu Dhaan</strong> from the movie <em>Manjapai</em> is a melodious track that beautifully captures the essence of love and serenity. Sung by the legendary SPB, with lyrics penned by Yugabharathi and music composed by N. R. Raghunanthan, this song resonates deeply with its heartfelt emotions. Experience the magic of Tamil cinema's musical brilliance through this timeless piece.",
+    "stanzaMeanings": [
+      "The moon in the sky is beautiful, but it doesn't know how beautiful it is. Just like a pearl, it doesn't know its own beauty. In this world, there is nothing as beautiful as you, who holds all the beauty within you.",
+      "The blessing given by God, you are the one I need. I want to live and show it in this world, it's very important.",
+      "The moon in the sky is beautiful, but it doesn't know how beautiful it is, just like a pearl, it doesn't know its own beauty.",
+      "Listen to the sun, I will bring you the news. I will come with the news, you bring the sea. I will tell you about the little lotus that comes forward. I will bring the lion with me and tell you. Even if the world is lost, I will protect you. I will see you in my glory.",
+      "The moon in the sky is beautiful, but it doesn't know how beautiful it is. Just like a pearl, it doesn't know its own beauty.",
+      "You are always my soul. I need to take many things from you. I will tell you that there is no comfort in this world without you. I will think of you like a gem and hold you in my hands. I will tell you everything for you. I will leave everything behind and go away.",
+      "The moon in the sky is beautiful, but it doesn't know how beautiful it is, just like a pearl, it doesn't know its own beauty.",
+      "There is nothing as beautiful as you in this world, who holds all the beauty within you.",
+      "The blessing given by God, you are the one I need. I want to live and show it in this world, it's very important.",
+      "The blessing given by God, you are the one I need. I want to live and show it in this world, it's very important."
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Aagaasa Nilavu Dhaan?</h4><p>The song expresses the beauty of love and the emotions associated with it, using metaphors of nature to convey deep feelings.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie Manjapai?</h4><p>In <strong>Manjapai</strong>, this song highlights the romantic moments between the lead characters, showcasing their affection and connection.</p></div><div class=\"faq-item\"><h4>Who is the singer of Aagaasa Nilavu Dhaan?</h4><p>The song is sung by the legendary <strong>SPB</strong>, known for his timeless voice and emotional delivery.</p></div><div class=\"faq-item\"><h4>Who composed the music for the movie Manjapai?</h4><p>The music for <strong>Manjapai</strong> was composed by <strong>N. R. Raghunanthan</strong>, who is known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was Aagaasa Nilavu Dhaan released?</h4><p>The song was released on <strong>April 8, 2014</strong>, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "In the enchanting song <strong>Aagaasa Nilavu Dhaan</strong> from the movie <em>Manjapai</em>, lead actor Vimal expresses his heartfelt emotions towards his love interest, portrayed by Shriya Saran. Released in 2014, this romantic melody beautifully captures the essence of love and longing, evoking feelings of joy and serenity. The lyrics, penned by Yugabharathi, complement SPB's soulful rendition, making it a memorable listening experience. The song's soothing vibe makes it perfect for romantic occasions and celebrations."
+  }
 }

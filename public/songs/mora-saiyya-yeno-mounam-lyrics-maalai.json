@@ -61,5 +61,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBJqc9fZqBHIWXWmcRJqBIiR99znF49g2H9oSyyoloGXJWYHC0Eb0WUOeZYYeEFpDDiDYC6dceefwaAj5f23-Asm1hyp1xOXhJ2HhZS5C_6sxpwR6uL4KOE7Sm1AVcF8gxJkaHXNvrgug/s400-c/Maalai+Nerathu+Mayakkam.jpg",
   "generatedAt": "2026-01-18T12:52:55.711Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "maalai nerathu mayakkam",
+      "yeno mounam",
+      "shakthisree gopalan",
+      "vijay prakash",
+      "amrit",
+      "romantic",
+      "melancholic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of love and longing, capturing the essence of silence and emotional depth.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Maalai Nerathu Mayakkam</em>, the song reflects the protagonist's emotional journey and connection with their love interest.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Shakthisree Gopalan</strong> and <strong>Vijay Prakash</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Mora Saiyya (Yeno Mounam)</strong> was composed by <strong>Amrit</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 5, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Mora Saiyya (Yeno Mounam)</strong>, the soothing melody encapsulates the feelings of love and introspection experienced by the characters in <em>Maalai Nerathu Mayakkam</em>. The song's lyrics delve into the depths of silence and emotional turmoil, making it a poignant moment in the film. With the harmonious blend of <strong>Shakthisree Gopalan</strong> and <strong>Vijay Prakash</strong>'s voices, it evokes a sense of nostalgia and longing. This duet not only enhances the narrative but also resonates with anyone who has experienced the complexities of love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Mora Saiyya (Yeno Mounam)</strong> from the <em>Maalai Nerathu Mayakkam</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of <strong>Shakthisree Gopalan</strong> and <strong>Vijay Prakash</strong>, this song weaves a soothing melody that resonates deeply with the heart. Experience the magic of <strong>Amrit's</strong> composition that elevates the emotional depth of the film.",
+    "stanzaMeanings": [
+      "",
+      "Why is there silence in this melody, my sorrow cannot be understood, can you feel it?",
+      "Why is there silence in this melody, my sorrow?",
+      "Oh my beloved, oh my beloved.",
+      "My joys, my sorrows, who knows the changes?",
+      "Will the moments we see, the times we experience, ever come again?",
+      "The time that has passed will fade away, will the spring season come again? It will come again.",
+      "Oh my beloved, oh my beloved.",
+      "Come to me, your kiss, now you are my own, why this hesitation?",
+      "Together as one, we will forget our troubles.",
+      "Don't hold back, this is not right, this relationship has no meaning, it is not true.",
+      "Oh my beloved, oh my beloved.",
+      "Why is there silence in this melody, my sorrow cannot be understood, can you feel it?",
+      "Why is there silence in this melody, my sorrow?",
+      "Oh my beloved, oh my beloved."
+    ]
+  }
 }

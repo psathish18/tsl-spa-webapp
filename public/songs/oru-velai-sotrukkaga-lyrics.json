@@ -95,5 +95,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRv79-ZTxqCwWRbEDRam7Qn0EeV4mW5zTyBLCJK5pxclPGxnJvO0rcI6cEqIcUkvxWzjL9SKugJpWTW9Q1aQHjR26_9fqhenKgdYPyrXMgN5SAqTXa291B0_AkG0-geo4raTpiFbemOfk/s400-c/Pichaikkaran.jpg",
   "generatedAt": "2026-01-18T12:52:50.582Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "workout"
+    ],
+    "keywords": [
+      "pichaikkaran",
+      "yasin",
+      "vijay antony",
+      "energetic",
+      "motivational",
+      "2016",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru Velai Sotrukkaga</strong> conveys themes of perseverance and hope, encouraging listeners to overcome obstacles.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Pichaikkaran</em>, this song reflects the protagonist's struggles and determination to succeed against all odds.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Yasin</strong>, known for his energetic performances.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music is composed by <strong>Vijay Antony</strong>, who is renowned for his unique sound in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru Velai Sotrukkaga</strong> was released on <strong>January 7, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Velai Sotrukkaga</strong>, the protagonist's journey is encapsulated through a powerful melody that resonates with the struggles of life. The song's upbeat tempo and motivational lyrics inspire listeners to push through challenges and embrace hope. It serves as a pivotal moment in <em>Pichaikkaran</em>, highlighting the character's determination. The energetic delivery by Yasin adds depth to the emotional narrative, making it a memorable anthem for anyone facing adversity.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Oru Velai Sotrukkaga</strong> from <em>Pichaikkaran</em> is a vibrant anthem that captures the essence of determination and resilience. With Yasin's powerful vocals and Vijay Antony's captivating music, this song is sure to uplift your spirits. Dive into the rhythmic beats and let the energy of this track inspire you to conquer your challenges!",
+    "stanzaMeanings": [
+      "",
+      "For a white job, we are working hard to live.",
+      "In the fire of hunger, it becomes a burden.",
+      "Where is human goodness? It has disappeared here.",
+      "The one who is present has no help, there is no support.",
+      "Look, open your eyes and see, everyone is your child.",
+      "",
+      "For a white job, we are working hard to live.",
+      "In life, we are searching for something that doesn't exist.",
+      "Every born human is a beggar in this world.",
+      "In the life that connects to the one who is not born.",
+      "All the hunger is only protected by God.",
+      "Even if you find something, if you lose it without getting it,",
+      "Disgrace and change will follow you wherever you go.",
+      "Even if you don't have a temple, if you lie on the street,",
+      "Don't be afraid, in this world, he will always be there.",
+      "",
+      "For a white job, we are working hard to live.",
+      "In the fire of hunger, it becomes a burden.",
+      "Where is human goodness? It has disappeared here.",
+      "The one who is present has no help, there is no support.",
+      "Look, open your eyes and see, everyone is your child."
+    ]
+  }
 }

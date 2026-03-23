@@ -40,5 +40,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipN0O6Wsw_pE0llP478ELuhklzlrpC67fJ_GX_VJrLnlYyF_hsRjJu-97yUa1h04NmcqMz21ComopsfFpoOwaJ4kb5IfX7LSGq3AmhaVlH9ftMn1P2aB0t2qWAFtUtJAtN9EFsPV7ISLc/s400-c/Kadhali+Kadhali+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:19:03.218Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "duet",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak"
+    ],
+    "keywords": [
+      "avvai shanmughi",
+      "kadhali kadhali",
+      "hariharan",
+      "vaali",
+      "deva",
+      "romantic",
+      "melody",
+      "1996",
+      "tamil cinema",
+      "classic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kadhali Kadhali</strong>?</h4><p>The song revolves around themes of love and longing, capturing the emotional turmoil of a lover.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Avvai Shanmughi</em>?</h4><p>The music for <em>Avvai Shanmughi</em> was composed by <strong>Deva</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kadhali Kadhali</strong>?</h4><p>The song is beautifully sung by <strong>Hariharan</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Avvai Shanmughi</em>?</h4><p>The movie <em>Avvai Shanmughi</em> was released in <strong>1996</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kadhali Kadhali</strong>?</h4><p>The lyrics were penned by the renowned lyricist <strong>Vaali</strong>.</p></div></div>",
+    "summary": "The song <strong>Kadhali Kadhali</strong> from <em>Avvai Shanmughi</em> is a poignant exploration of love and yearning. Sung by Hariharan, the melody captures the emotional depth of a lover's plea. Vaali's evocative lyrics, combined with Deva's soulful composition, create a timeless classic that resonates with anyone who has experienced the pangs of love. The song beautifully conveys the heartache and longing of being separated from a beloved, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "1996",
+    "high_ctr_intro": "Experience the timeless charm of <strong>Kadhali Kadhali</strong> from the movie <em>Avvai Shanmughi</em>. This enchanting melody, penned by Vaali and brought to life by Hariharan's soulful voice, captures the essence of love and longing. Dive into the nostalgic vibes of Deva's classic composition that continues to resonate with hearts even today.",
+    "stanzaMeanings": [
+      "",
+      "Dear, dear, I am suffering in love, so come, come, my dear, I am calling you.",
+      "Listen to the breeze that blows every day, it tells my pain.",
+      "Without leaving, it stays in my heart, your memory remains.",
+      "Lonely like a small bird, suffering, tears fall like rain.",
+      "Will this wetness ever change?",
+      "Dear, dear, I am suffering in love, so come, come, my dear, I am calling you.",
+      "When the unending heat comes, the heart doesn't suffer.",
+      "Even if the town sleeps, I won't sleep, the bed feels like fire.",
+      "Everything that happened seems like dreams, forget it today.",
+      "Will the bond of birth break away?",
+      "Dear, dear, I am suffering in love, so come, come, my dear, I am calling you."
+    ]
+  }
 }

@@ -45,5 +45,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:06:42.919Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "theme"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "workout"
+    ],
+    "keywords": [
+      "marvel",
+      "anthem",
+      "ar rahman",
+      "energetic",
+      "motivational",
+      "2025",
+      "music",
+      "tamil"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of heroism and unity, celebrating the spirit of overcoming challenges.</p></div><div class=\"faq-item\"><h4>Is this song part of a movie?</h4><p>The song is titled <strong>Marvel Anthem</strong> and is associated with the Marvel franchise, but it does not belong to a specific movie.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 11, 2025</strong>.</p></div></div>",
+    "summary": "The <strong>Marvel Anthem Tamil Lyrics</strong> is a powerful tribute to the heroes of the Marvel universe, encapsulating the essence of bravery and resilience. With its energetic beats and motivational lyrics, the song inspires listeners to embrace their inner strength. The composition by <strong>AR Rahman</strong> elevates the anthem, making it a perfect fit for celebrations and gatherings. This song not only resonates with fans but also evokes a sense of unity and hope.",
+    "releaseYear": "2025",
+    "high_ctr_intro": "<strong>Marvel Anthem Tamil Lyrics</strong> is an electrifying composition by the legendary <strong>AR Rahman</strong> that captures the spirit of heroism and unity. This anthem resonates with fans of the Marvel universe, blending powerful lyrics with Rahman's signature sound. Experience the thrill of this unique collaboration that celebrates courage and determination in a way only Rahman can deliver.",
+    "stanzaMeanings": [
+      "In the sky, in the sky, brave one, you will protect all the people on this earth with your strength and courage.",
+      "Now, who will take us down? Now, who will defeat us?",
+      "Hey, justice is in our hearts, and our eyes are filled with fire, so let’s not back down.",
+      "Even if fear comes, truth will stand with us and will not leave us.",
+      "There is fear, there is fear, we need to achieve victory, and with that fear, we will overcome.",
+      "That great storm is not just for one person, it is for everyone... let it flow.",
+      "Rise up, brave one... we will shine, and as a leader, we will protect the earth.",
+      "Now, who will take us down? Now, who will defeat us?",
+      "We are united, we are united, our sacrifice will be rewarded. Oh oh ho... we are united, we are united.",
+      "Rise up, brave one... we will shine, and as a leader, we will protect our lives.",
+      "Rise up, brave one... we will shine, and as a leader, we will protect the earth.",
+      "Now, who will take us down? Now, who will defeat us?"
+    ]
+  }
 }

@@ -93,5 +93,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhatFrAlWr4T_-40MDOz3TkyXsW_eWTlLLY7L39-FB7VA_blIiIiScf3nApmR8NGpVCbKk69Cc-gWoreuX1k7oB9bd-Tb4on2B_-tZAo4_XINqqqs_kMrWiB3mLEjT6Br19uejAOP206ew/s400-c/Oxygen+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:47:08.245Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "kavan",
+      "oxygen",
+      "hip hop tamizha",
+      "melancholic",
+      "2017",
+      "tamil song",
+      "movie",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oxygen'?</h4><p>The song 'Oxygen' conveys feelings of longing and emotional depth, reflecting on the essence of love and loss.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie Kavan?</h4><p>The movie <em>Kavan</em> revolves around social issues and the struggles faced by the protagonist, making the song's themes resonate with the narrative.</p></div><div class=\"faq-item\"><h4>Who is the music director of the song?</h4><p>The music director of 'Oxygen' is <strong>Hip Hop Tamizha</strong>, known for their unique blend of contemporary and traditional sounds.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>'Oxygen' was released on <strong>February 9, 2017</strong>.</p></div></div>",
+    "summary": "The song 'Oxygen' from <em>Kavan</em> beautifully encapsulates the feelings of longing and nostalgia, making it a poignant piece in the film's narrative. It reflects the emotional struggles of the characters, evoking a sense of melancholy that resonates with the audience. The lyrics, combined with the soothing melody by Hip Hop Tamizha, create an atmosphere of introspection and depth. This song serves as a reminder of the complexities of love and the impact of memories.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Oxygen</strong> from the movie <em>Kavan</em> is a hauntingly beautiful melody that captures the essence of longing and nostalgia. With the unique musical style of Hip Hop Tamizha, this song resonates deeply with listeners, evoking a sense of emotional depth. Dive into the lyrical journey that speaks to the heart and soul of every listener.",
+    "stanzaMeanings": [
+      "",
+      "Oxygen has stolen the breath of the past moments, how did it happen?",
+      "Like leaves in a flowing river, days are passing by. The moonlight on the leaves is fading away.",
+      "You have become my art, like a rain cloud, you have become a mistake.",
+      "You have become a wall at my door, again a group has come to disturb me.",
+      "Oxygen has stolen the breath of the past moments, how did it happen? How did it happen? How did it happen?",
+      "In this world of illusions, your presence will always hurt me.",
+      "Like a rabbit in the middle of the screen, all the small joys have come to me, are they just a distraction?",
+      "I saw the round face of the sky everywhere, I saw it, in my heart, there is a war of love.",
+      "When the time ends, love will still live, I have captured the dream of my beloved on the path.",
+      "",
+      "Your true essence is your shadow, my pride is with you.",
+      "It is not a material thing, but a thought that cannot be erased from the heart, it is like the depth of a mountain.",
+      "Even in the midst of chaos, your heart is unaware of the beauty, my heart writes words.",
+      "If silence stands still, there is no burden in the mind, again, there is no passion in the eyes to love.",
+      "Oxygen has stolen the breath of the past moments, how did it happen?",
+      "Like leaves in a flowing river, days are passing by. The moonlight on the leaves is fading away.",
+      "You have become my art, like a rain cloud, you have become a mistake.",
+      "You have become a wall at my door, again a group has come to disturb me."
+    ]
+  }
 }

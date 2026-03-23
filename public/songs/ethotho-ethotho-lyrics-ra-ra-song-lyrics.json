@@ -39,5 +39,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp95Y7dMJUNHpFhZiZhqFx4xlpN-KhsqAVQFHPgiLszF8pNNLMkghC8sOniB3h5H3yHL0wsEM_kWoBN_BKoDozDEKUDKkPc84Gh24_J_2hCDcSnFcdR4S063Y0nJL_ZZEfGjcALZBmI3w/s400-c/T0003075.jpg",
   "generatedAt": "2026-01-18T13:10:17.569Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "ra ra",
+      "ethotho ethotho",
+      "haricharan",
+      "na muthukumar",
+      "srikanth deva",
+      "romantic",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Ethotho Ethotho'?</h4><p>The song conveys feelings of love and affection, expressing the emotions associated with romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Ra Ra'?</h4><p>This song is featured in a romantic setting, highlighting the chemistry between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Ethotho Ethotho'?</h4><p>The song is sung by the talented Haricharan, known for his melodious voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Ethotho Ethotho'?</h4><p>The music for this song was composed by Srikanth Deva, who is known for his catchy tunes.</p></div><div class=\"faq-item\"><h4>When was 'Ethotho Ethotho' released?</h4><p>The song was released on July 12, 2011, as part of the movie <em>Ra Ra</em>.</p></div></div>",
+    "summary": "In the movie <em>Ra Ra</em>, the song <strong>Ethotho Ethotho</strong> serves as a heartfelt expression of love between the protagonists. The lyrics beautifully articulate the emotions of affection and connection, making it a memorable romantic number. With Haricharan's soulful rendition and Srikanth Deva's captivating composition, the song evokes feelings of joy and nostalgia. It perfectly encapsulates the essence of young love, making it a favorite among listeners.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Ethotho Ethotho</strong> from the movie <em>Ra Ra</em> is a delightful romantic melody that captures the essence of love and longing. Sung beautifully by Haricharan, this song features enchanting lyrics by Na Muthukumar and captivating music by Srikanth Deva. Its soothing vibe makes it a perfect choice for celebrating love and special moments.",
+    "stanzaMeanings": [
+      "",
+      "You are giving me a vision. It brings chaos within me. You are giving me a vision. It brings chaos within me.",
+      "This is a friendship, a love friendship that is spinning around. It is lifting me up without wings. This is a friendship, a love friendship that is spinning around. A girl has come into my life and is blooming.",
+      "Everything is happening, all the events are unfolding. Even if it is here or there, my heart remains silent with my heart.",
+      "You are giving me a vision. It brings chaos within me. This is a friendship, a love friendship that is spinning around. A girl has come into my life and is blooming.",
+      "Even if I stand far away, I can feel you nearby. Even if I stand close, I can feel you far away. Sometimes in my heart, storms arise. Even if storms come, they will not leave the heat behind.",
+      "What should I say, girl? This is some new connection. I lost my sleep for a few days.",
+      "You are giving me a vision. This is a love friendship, a love friendship...",
+      "Even at home, my heart is tangled. Even if I go outside, you come back inside me. Like the sweetness of honey, it is stirring in my heart. Even if it spins, it brings a thrill to my heart.",
+      "Like a spinning top, there is a weight on the rhythm. Like a gathering of friends, sometimes it feels heavy.",
+      "You are giving me a vision. It brings chaos within me. This is a friendship, a love friendship... This is a friendship, a love friendship....",
+      "You are giving me a vision..."
+    ]
+  }
 }

@@ -149,5 +149,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8kS5BM1IArQ8YiEycNFUsFsiod7p49H_IMyzjbvZnn1pe-4D333kw20N30zoIZecb7Rwag84gTMcv_4dWLRt-5md_lXJ28GEtMi8EuteK-1o1irBolLFGswbcQO_3Cdg66O7uv9hOk3Q/s400-c/Maruvarthai+Pesathe+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:47:50.840Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "enai nokki paayum thotta",
+      "sid sriram",
+      "thamarai",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Maruvarthai Pesathe</strong> conveys deep emotions of love and longing, reflecting the pain of separation and the desire to stay connected.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Enai Nokki Paayum Thotta</em>, the song plays during a pivotal moment that highlights the protagonist's emotional turmoil and longing for their loved one.</p></div><div class=\"faq-item\"><h4>Who is the singer and lyricist of the song?</h4><p>The song is sung by <strong>Sid Sriram</strong> and the lyrics are penned by <strong>Thamarai</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Maruvarthai Pesathe</strong> was released on <strong>December 30, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Maruvarthai Pesathe</strong>, the protagonist expresses a deep sense of longing and emotional pain due to separation from their beloved. The song's soothing melody, coupled with Sid Sriram's heartfelt rendition, evokes a melancholic yet romantic atmosphere. It beautifully captures the essence of love that transcends distance, making it relatable to anyone who has experienced heartbreak. The poignant lyrics by Thamarai further enhance the emotional depth, making this song a memorable piece in the film's narrative.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Maruvarthai Pesathe</strong> from <em>Enai Nokki Paayum Thotta</em> is a soul-stirring melody that captures the essence of love and longing. Sid Sriram's enchanting vocals combined with Thamarai's poignant lyrics create an unforgettable listening experience. This song beautifully encapsulates the bittersweet emotions of separation, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "Don't speak of separation, sleep on my lap like a child, you are my dream that never fades away.",
+      "Like a peacock's feather, your touch brings joy, speaking softly brings life to my heart.",
+      "Your eyes are like water, I can't bear to be apart from you, I have joined with you like a drop of rain.",
+      "Even if I forget, there won't be a day I don't think of you; even if we part, my love will never be false.",
+      "In the endless time, in the unending moments, the paths we take will never separate us.",
+      "We know the pain that comes with separation; we will understand it only after we feel it.",
+      "Even if my heart forgets, you are the beginning and the end; you are the light and the shadow.",
+      "Even if you lose your way, even if you wander, you are the one who has merged with my life.",
+      "With this flower called 'love', you have brought messages; I too will give you dreams before you leave.",
+      "We have held on to anger and sorrow, but now we will embrace the beauty of the future.",
+      "Don't speak of separation, sleep on my lap like a child, you are my dream that never fades away.",
+      "Like a peacock's feather, your touch brings joy, speaking softly brings life to my heart.",
+      "Your eyes are like water, I can't bear to be apart from you, I have joined with you like a drop of rain.",
+      "Even if I forget, there won't be a day I don't think of you; even if we part, my love will never be false.",
+      "Don't speak of separation, sleep on my lap like a child.",
+      ""
+    ]
+  }
 }

@@ -40,5 +40,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrI28mVNfvAknPhi-FqqHpEBB9PcHVeAtxAOeb6ymZIwGN2ktQYLK05EFd4EU3cUIcGP74si1-3ktyxmvjEJRzGELQUti44T2PVGc9QH5Gkbypw1MoZG6QtGQl5xJ5nYyuimJyBKt2Alk/s400-c/Neethaana+Neethaana+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:18:24.590Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "unnai thedi",
+      "neethana neethana",
+      "hariharan",
+      "sujatha mohan",
+      "deva",
+      "romantic",
+      "1999",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Neethana Neethana</strong>, the protagonists express their deep love and longing for each other, encapsulating the essence of romance. The song serves as a pivotal moment in <em>Unnai Thedi</em>, highlighting the emotional connection between the characters. With its soothing melody and heartfelt lyrics, it evokes feelings of nostalgia and warmth. The collaboration between Hariharan and Sujatha Mohan adds a unique charm, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "1999",
+    "high_ctr_intro": "<strong>Neethana Neethana</strong> from the movie <em>Unnai Thedi</em> is a mesmerizing duet that beautifully captures the essence of love. With the enchanting voices of Hariharan and Sujatha Mohan, this song weaves a romantic tapestry that resonates with the heart. Experience the magic of Deva's composition that elevates this track to a timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "You are my love, I see you in my eyes.",
+      "You came to my door, stole my heart, took my mind, my love is a poem, you touched my life, I am you.",
+      "You are my love, I see you in my eyes.",
+      "You are in me, my heart is filled with you, you are the one who gives me comfort.",
+      "You brought me shame, my eyes are red, sweetness is in my heart, you are everything to me.",
+      "My love is a haiku, you read it, I learned to write poetry from the goddess.",
+      "You are my love, I see you in my eyes.",
+      "The cool breeze brings fire, water quenches the fire, you are the one who makes me sleep in my life.",
+      "The moonlight shines, the statue glimmers, my smiling flower is you.",
+      "In my heart, you are the one who placed a mark, I feel crazy, laughing alone is you.",
+      "You are my love, I see you in my eyes.",
+      "You came to my door, stole my heart, took my mind, my love is a poem, you touched my life, I am you."
+    ]
+  }
 }

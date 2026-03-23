@@ -41,5 +41,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:30.847Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "sottusottakadhal",
+      "lyrics",
+      "romantic",
+      "melancholic",
+      "2010",
+      "album",
+      "tamil",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song explores themes of love and longing, expressing deep emotional connections.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The movie for this song is currently <strong>unknown</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singer and music director?</h4><p>The singer and music director for this song are <strong>unknown</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in <strong>2010</strong>.</p></div></div>",
+    "summary": "The song <strong>Sottu Sotta Kadhal</strong> beautifully encapsulates the feelings of love and yearning. Its soothing melody and heartfelt lyrics create an atmosphere of romance, making it perfect for intimate moments. The song conveys a sense of nostalgia and emotional depth, resonating with anyone who has loved deeply. Overall, it evokes a blend of melancholy and warmth, inviting listeners to reflect on their own experiences of love.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Sottu Sotta Kadhal</strong> is a mesmerizing melody that captures the essence of love and longing. With its soothing lyrics and heartfelt emotions, this song resonates deeply with anyone who has experienced the beauty of romance. Dive into the enchanting world of <em>unknown</em> and let the music sweep you off your feet.",
+    "stanzaMeanings": [
+      "",
+      "Love is like poison, it hurts.",
+      "I will give you my heart, just listen to me.",
+      "My love's thread can wrap around the earth, coming back twice.",
+      "I will give you my heart, just listen to me.",
+      "Love is like poison, it hurts.",
+      "I will give you my heart, just listen to me.",
+      "In the water, I went to find a pearl, and I took a kiss from my beloved.",
+      "I understood the wonders of love, and I sought peace in its embrace.",
+      "After my birth, why did I get separated?",
+      "Oh, my dear, after my birth, why did I get separated?",
+      "I will give you my heart, just listen to me.",
+      "Love is like poison, it hurts.",
+      "I will give you my heart, just listen to me.",
+      "After my birth, why did I get separated?",
+      "My love's thread can wrap around the earth, coming back twice.",
+      "I will give you my heart, just listen to me."
+    ]
+  }
 }

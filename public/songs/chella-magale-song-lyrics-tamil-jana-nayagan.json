@@ -89,5 +89,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS114vApZ2mSF1gUw_1t02r2rXX6ZnGDqkf-4T-ynrkOYH8OQar6P9WDnI3y-SWd8ARvQ9fMydSQhbbtQFTzg8Qqphyphenhyphen8kPoKAfk-_hUauQcHnOGqxP4r33201uFchIryrNCvKp-xYYIPugRBYllpjK2322OZ7E5hKvD2mh0f4gv5AY8B8KKt84YHP3wg/s400-c/Chella Magale Tamil Lyrics.jpeg",
   "generatedAt": "2026-02-01T08:24:21.287Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "jana nayagan",
+      "vijay",
+      "anirudh",
+      "romantic",
+      "melody",
+      "2025",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Chella Magale'?</h4><p>The song conveys deep affection and admiration, celebrating love and the beauty of relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Jana Nayagan'?</h4><p>The song is a romantic number that highlights the protagonist's feelings towards his beloved, enhancing the emotional depth of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Vijay</strong> and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Chella Magale' released?</h4><p>The song was released in <strong>2025</strong>.</p></div></div>",
+    "summary": "In <strong>Chella Magale</strong>, the protagonist expresses his heartfelt emotions towards his beloved, creating a romantic atmosphere that resonates with listeners. The song's melody, crafted by Anirudh, complements Vijay's soulful singing, making it a perfect addition to any celebration of love. The lyrics beautifully articulate the joy and warmth of affection, evoking feelings of happiness and nostalgia. Overall, this track is a celebration of love, making it ideal for weddings and special occasions.",
+    "releaseYear": "2025",
+    "high_ctr_intro": "<strong>Chella Magale</strong> is a delightful romantic track that beautifully showcases Vijay's captivating vocals paired with Anirudh's enchanting music. The song radiates happiness and love, making it perfect for special occasions. Dive into the melodious world of <em>Jana Nayagan</em> and feel the emotions unfold!",
+    "stanzaMeanings": [
+      "The beautiful flags of the moon will come, bringing lovely poems. Without any gifts, I am just a little boy. The small smiles are telling me to live.",
+      "Oh my dear, my precious one, you are the flower in my hands. You live in my heart, you are my life.",
+      "You are everything to me, my dear little girl.",
+      "Oh my dear, my precious one, you are the flower in my hands.",
+      "You are not just my feet, you are my strength. With your small eyes, you need to tell stories. Together, you and I will open the door to the world. Without asking, you give me life.",
+      "Oh my dear, my precious one, you are the flower in my hands. You live in my heart, you are my life.",
+      "You are everything to me, my dear little girl. Oh my dear, my precious one, you are the flower in my hands."
+    ]
+  }
 }

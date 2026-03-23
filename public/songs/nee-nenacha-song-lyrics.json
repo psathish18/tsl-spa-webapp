@@ -65,5 +65,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpphUNp_58KxDxw3PZln_uHWzlV2A_zI6ZGrQyw5YXcW6PclhXr8MNhCHAdEJvBf3aXvE7-czx6n_dfo6ifnVBYxuOcwYKj2RpWHl5iLj5lYPVWZY8UEV3zMVv8myUz9w7QN3nPsgz74I/s400-c/Ne+Nenacha+Lyrics++in+Tamil.jpg",
   "generatedAt": "2026-01-18T12:42:26.710Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "mr local",
+      "nee nenacha",
+      "sid sriram",
+      "hip hop tamizha",
+      "romantic",
+      "upbeat",
+      "2019",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nee Nenacha'?</h4><p>The song conveys a message of love and commitment, expressing how the singer is willing to go to great lengths for their beloved.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie 'Mr Local'?</h4><p>In <em>Mr Local</em>, the song highlights the romantic feelings between the lead characters, showcasing their playful chemistry.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Sid Sriram</strong> and composed by <strong>Hip Hop Tamizha</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Nee Nenacha' released?</h4><p>The song was released on <strong>May 13, 2019</strong>.</p></div></div>",
+    "summary": "In <strong>Nee Nenacha</strong>, the protagonist expresses deep affection and commitment to their beloved, promising to overcome any obstacles for love. The upbeat and romantic vibe of the song perfectly complements the playful and lighthearted moments in <em>Mr Local</em>. The catchy melody and heartfelt lyrics evoke feelings of joy and celebration, making it an ideal track for romantic occasions. This song encapsulates the essence of youthful love, making it relatable and enjoyable for listeners.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Nee Nenacha</strong> from <em>Mr Local</em> is a vibrant and romantic track that showcases Sid Sriram's soulful vocals paired with Hip Hop Tamizha's catchy beats. This song perfectly captures the essence of love and joy, making it a must-listen for any celebration. Dive into the enchanting world of this melody that promises to uplift your spirits!",
+    "stanzaMeanings": [
+      "If you think of me and hold my hand, I will also come crossing the world.",
+      "If you smile and love me, I will give my life for you.",
+      "One day, one day, one day, the state of our life will change, but everything will be alright.",
+      "Oh .... If you think of me and hold my hand, I will also come crossing the world.",
+      "I don't know where I'm going; if you come behind me, I can't handle it.",
+      "Oh no, I can't say anything, but I will live slowly without anyone knowing.",
+      "If you are sad, my heart will break; I have come to take the burden of my life.",
+      "Oh .... If you think of me and hold my hand, I will also come crossing the world.",
+      "If you smile and love me, I will give my life for you.",
+      "Even if the dark clouds surround my eyes and I lose my way, I will not be afraid.",
+      "I will not be afraid of the storm; if you are there, that is enough; all the burdens in our life will be alright from now on.",
+      "If you think of me and hold my hand, I will also come crossing the world.",
+      "If you smile and love me, I will give my life for you.",
+      "One day, one day, one day, the state of our life will change, but everything will be alright.",
+      ""
+    ]
+  }
 }

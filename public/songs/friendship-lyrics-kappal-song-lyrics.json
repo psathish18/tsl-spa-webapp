@@ -77,5 +77,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXoLJ9vgJbjujFIdUpZAroGN_0VG_9ZsKOFwBnpksMU6c4u2RIvLCdCqDzYU5of4ttXV9NUuK4DI2MYQ0GSqMWaTO2ZN-8EW0t1ObUKtvXnpl7toJvTTTFDwtfjmEmoGSHnC94N1UAPJg/s400-c/kappal+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:56:55.597Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "kappal",
+      "friendship",
+      "anthonydasan",
+      "kabilan",
+      "natarajan shankaran",
+      "upbeat",
+      "happy",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Friendship'?</h4><p>The song 'Friendship' conveys the joy and fun of friendship, highlighting the unique bond between friends through playful lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Kappal?</h4><p>In <em>Kappal</em>, the song is a light-hearted celebration of friendship, showcasing the characters' camaraderie and their adventures together.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Anthonydasan</strong> and composed by <strong>Natarajan Shankaran</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>November 24, 2014</strong>.</p></div></div>",
+    "summary": "The song 'Friendship' from the movie <em>Kappal</em> is a lively and upbeat track that celebrates the joy of friendship. It features playful lyrics that resonate with the carefree spirit of youth and the fun moments shared among friends. The vibrant energy of Anthonydasan's voice brings the lyrics to life, making it a perfect anthem for celebrations and parties. Overall, the song evokes feelings of happiness and camaraderie, making it a delightful addition to any playlist.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Friendship</strong> from <em>Kappal</em> is a vibrant celebration of camaraderie that resonates with joy and laughter. With Anthonydasan's lively vocals and Kabilan's witty lyrics, this song captures the essence of friendship in a fun and relatable way. Experience the infectious energy that makes this track a must-listen for anyone who cherishes their friends!",
+    "stanzaMeanings": [
+      "",
+      "Friendship and love are like a one-way street. When both come together, it brings sadness.",
+      "What does she have that is so special? It's like a rotten tomato.",
+      "It's like a snake that twists around. Oh mother, my heart is broken.",
+      "Friendship and love are like a one-way street. When both come together, it brings sadness.",
+      "What does she have that is so special? It's like a rotten tomato.",
+      "If memories are lost, is love also lost? Love is half in the song and half in the body.",
+      "I am struggling in a beautiful cradle, in a state of confusion.",
+      "Friendship and love are ...",
+      "Like the wind, my hands are tied, my friend. When love comes, it quenches the thirst of the eyes.",
+      "Is the road of the night a useful path?",
+      "Friendship and love are like a one-way street. When both come together, it brings sadness.",
+      "What does she have that is so special? It's like a rotten tomato."
+    ]
+  }
 }

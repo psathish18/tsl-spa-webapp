@@ -48,5 +48,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpXJXkgHSruAhDLxaApx4ElxZAs3pHNXw5u-JKWz4rseiA-gsvZDuXoNFq0Xc_XxVv8Xpf-nHNVEk5UWDqxgMfygNIHOJEcncGoQOdttEGkvEB6XOH0s7OflMk-K47hN2mPmrVupjAtNs/s400-c/Achamillai+Lyrics+Bagavathi.JPG",
   "generatedAt": "2026-01-18T13:16:20.467Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "motivational",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "theme"
+    ],
+    "occasions": [
+      "workout",
+      "celebration"
+    ],
+    "keywords": [
+      "bagavathi",
+      "vijay",
+      "reemma sen",
+      "deva",
+      "shankar mahadevan",
+      "motivational",
+      "energetic",
+      "2002",
+      "tamil cinema",
+      "theme song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who is the lead actor in the movie <em>Bagavathi</em>?</h4><p>The lead actor in the movie is <strong>Vijay</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Achamillai Achamillai</strong>?</h4><p>The song emphasizes courage and determination, inspiring listeners to face challenges fearlessly.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music was composed by <strong>Deva</strong>, a renowned music director in Tamil cinema.</p></div><div class=\"faq-item\"><h4>What year was the movie <em>Bagavathi</em> released?</h4><p>The movie was released in the year <strong>2002</strong>.</p></div><div class=\"faq-item\"><h4>Who performed the vocals for the song?</h4><p>The song was sung by the talented playback singer <strong>Shankar Mahadevan</strong>.</p></div></div>",
+    "summary": "The song <strong>Achamillai Achamillai</strong> from the 2002 Tamil movie <em>Bagavathi</em>, starring Vijay and Reemma Sen, is a motivational anthem composed by Deva and sung by Shankar Mahadevan. It portrays themes of courage and determination, encouraging listeners to overcome obstacles. The energetic beats and powerful lyrics make it a standout track in Tamil cinema. This song resonates with anyone seeking inspiration and strength in challenging times.",
+    "actorName": "Vijay",
+    "actressName": "Reemma Sen",
+    "releaseYear": "2002",
+    "high_ctr_intro": "<strong>Achamillai Achamillai</strong>, a powerful and motivational track from the movie <em>Bagavathi</em>, showcases the dynamic collaboration between Shankar Mahadevan's robust vocals and Deva's inspiring composition. This song, featuring Vijay in the lead role, resonates with themes of courage and determination. Its energetic beats and uplifting lyrics make it a timeless anthem for overcoming challenges.",
+    "stanzaMeanings": [
+      "No fear, no fear, oh mind, the lyrics of the song from Bagavathi.",
+      "No fear, no fear, oh mind, all victories are now his; do not oppose him! Do not oppose him!",
+      "No fear, no fear, oh mind, all victories are now his.",
+      "If it's soil, it will be as tall as Everest; if it's a tree, it will have strong roots.",
+      "The direction he walks becomes the east; the decisions he makes become the verdict.",
+      "When he rises, the sound of thunder is heard; when he walks, his opponents sweat in fear.",
+      "The one who was like a flower has now turned into a thorn.",
+      "Place the sun within your eyes; transform the moon into the sun.",
+      "A small drop can break a mountain; after piercing, the bamboo produces music.",
+      "This earth lies open for you, awaiting something new.",
+      "Appear as yourself... emerge as fire.",
+      "No fear, no fear, oh mind, all victories are now his; do not oppose him! The determined one will not retreat! Do not oppose him!"
+    ]
+  }
 }

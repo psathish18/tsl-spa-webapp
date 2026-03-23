@@ -39,5 +39,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtgXZUucHLsuvhOGUfzi8Ae_iDHlpXCM4EjGIQ3uFvftvGKSnkXH032l1Rn7AVIlxe_dBgdtkvHdypIFCw_N-nWWZsoqZGy7cNpJ28dX47VWQOh-Z-Fn87gVxwnL3MW4ojXLaQEr-DtMo/s400-c/Lesa+Lesa+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:16:05.381Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "lesa lesa",
+      "anuradha sriram",
+      "vaali",
+      "harrish jeyaraj",
+      "romantic",
+      "melody",
+      "tamil",
+      "2003",
+      "movie",
+      "lyrics",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the <strong>Lesa Lesa</strong> song?</h4><p>The song captures themes of love, longing, and nostalgia, beautifully expressed through its soothing melody.</p></div><div class=\"faq-item\"><h4>Who is the singer of the <strong>Lesa Lesa</strong> song?</h4><p>The song is sung by the talented <strong>Anuradha Sriram</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for the movie <em>Lesa Lesa</em>?</h4><p>The music was composed by <strong>Harrish Jeyaraj</strong>, known for his melodious compositions.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie <em>Lesa Lesa</em>?</h4><p>The song highlights the emotional journey of the characters, emphasizing themes of love and separation.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Lesa Lesa</strong> released?</h4><p>The song was released in the year <strong>2003</strong>.</p></div></div>",
+    "summary": "The song \"Lesa Lesa\" from the movie \"Lesa Lesa\" is a beautiful melody that explores themes of love and longing. Sung by Anuradha Sriram, the song's soothing tune and heartfelt lyrics by Vaali evoke a sense of nostalgia and romance. Harrish Jeyaraj's composition perfectly complements the emotional depth of the song. It captures the essence of the characters' emotional journey, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2003",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Lesa Lesa</strong> from the movie <em>Lesa Lesa</em>, where Anuradha Sriram's soulful voice meets Harrish Jeyaraj's mesmerizing music. This song beautifully captures the essence of love and longing, penned by the legendary lyricist Vaali. Dive into a world of romance and nostalgia with this timeless classic.",
+    "stanzaMeanings": [
+      "",
+      "Life feels less without you, the long-lasting bond feels less.",
+      "The temple of love is coming quickly, colorful dreams are for you, born in this world for you.",
+      "I slept and the day passed, all days are wasted, killing me without taking me.",
+      "Without saying, the longing is breaking me.",
+      "In my eyes, I see Krishna's colors, it breaks, in loneliness, it burns.",
+      "The cold night is pouring fiery rain.",
+      "",
+      "Even if I live with others, I'm not different. The air I breathe is yours, the blood in my body is yours.",
+      "If you are there, I am there. In relationships, in knowing people, one by one, life melts, write life with lips.",
+      "Life feels less without you, the long-lasting bond feels less.",
+      "Born in this world for you."
+    ]
+  }
 }

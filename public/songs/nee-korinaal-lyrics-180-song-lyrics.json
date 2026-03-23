@@ -36,5 +36,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqhAWvngNAK7K_solHm_TeyJqOlyTCnwxVG65dHoT-lTcY8WfY7rdO3250nWbCaF7UwAB8DLaO9Lzk7GWe3J8UBHlr1Wp5v55FMQZbslt51rf6E7Lx8dCaC083jJakCJO5k8y3IP5OgQk/s400-c/180.jpg",
   "generatedAt": "2026-01-18T13:10:16.502Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "180",
+      "karthik",
+      "shweta mohan",
+      "karky",
+      "shareth",
+      "romantic",
+      "melancholic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nee Korinaal'?</h4><p>The song 'Nee Korinaal' expresses deep emotions of love and longing, capturing the essence of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie '180'?</h4><p>The movie <strong>180</strong> revolves around the complexities of love and relationships, showcasing different perspectives on romance.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Karthik</strong> and <strong>Shweta Mohan</strong>.</p></div><div class=\"faq-item\"><h4>Who is the music director for 'Nee Korinaal'?</h4><p>The music for 'Nee Korinaal' is composed by <strong>Shareth</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Nee Korinaal' released?</h4><p>'Nee Korinaal' was released on <strong>July 12, 2011</strong>.</p></div></div>",
+    "summary": "In the movie <em>180</em>, the song <strong>Nee Korinaal</strong> serves as a poignant reflection of love's complexities. It beautifully conveys the emotions of yearning and connection between lovers, making it a perfect backdrop for romantic moments. The soothing melody and heartfelt lyrics evoke a sense of nostalgia and warmth, resonating with anyone who has experienced love. This duet encapsulates the essence of romance, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Nee Korinaal</strong> from the movie <em>180</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With Karthik and Shweta Mohan's enchanting vocals paired with Shareth's soulful composition, this song resonates deeply with anyone who has experienced the highs and lows of romance. Dive into this melodic journey that perfectly blends emotion and artistry.",
+    "stanzaMeanings": [
+      "",
+      "Every day, the sky changes because of you, the clouds don't disappear at the shore.",
+      "Oh, my love, you have captured my heart, don't let it go, my dear. The beauty of your desires is like a melody that flows.",
+      "",
+      "I have seen the light, I am a wanderer. My sweet flower, don't let the song fade away.",
+      "In the town of dreams, on the edge of this world, run away.",
+      "",
+      "Every day, the sky changes because of you, the clouds don't disappear at the shore. (repeated)",
+      ""
+    ]
+  }
 }

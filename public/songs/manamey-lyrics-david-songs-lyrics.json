@@ -9,7 +9,7 @@
   "actorName": "",
   "published": "2013-01-04T00:15:00.000+05:30",
   "stanzas": [
-    "<div><table><tbody><tr>  <td><br />Song: Manamey<br />Singer: Karthik<br />Lyrics: Mohan Rajan<br />Music: Prashant Pillai (feat. Tao Issaro)<br />Movie: David</td><td>Other Songs Lyrics<br />1. <a href=\"http://www.tsonglyrics.com/2013/01/vazhkaiye-lyrics-david-songs-lyrics.html\" target=\"_blank\">Vaazhkaye </a> <br />2. <a href=\"http://www.tsonglyrics.com/2013/01/maria-pitache-lyrics-david-songs-lyrics.html\" target=\"_blank\">Maria Pitache</a><br />3. <a href=\"http://www.tsonglyrics.com/2013/01/kanave-kanave-lyrics-david-songs-lyrics.html\" target=\"_blank\">Kanave Kanave</a><br />4.<a href=\"http://www.tsonglyrics.com/2013/01/manamey-lyrics-david-songs-lyrics.html\" target=\"_blank\">Mannamey</a><br />5. <a href=\"http://www.tsonglyrics.com/2013/01/iruvanil-ulavavaa-lyrics-david-songs.html\" target=\"_blank\">Iruvanil Ulavavaa </a></td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjme_dIe9sCpRfwZ8Cek8UQ0r1PEteiGFRrX5uE9JjSb6RrUl6dzSN2RRouiVT0qZkyIpCyb_cayU-1UTU2MxVlwmBgZeuEQzode4lbpi6mjxI877UeX_rT1hw69QWmz1eXewmbebu13jI/s1600/David_tamil.jpg\"></a></td> </tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words <br />Oh Manamey oh manamey<br />oh manamey theeyai theendu<br />oh ranamey oh ranamey<br />oh ranamey valiyai thaandu",
+    "<div><table><tbody><tr>  <td><br />Song: Manamey<br />Singer: Karthik<br />Lyrics: Mohan Rajan<br />Music: Prashant Pillai (feat. Tao Issaro)<br />Movie: David</td><td>Other Songs Lyrics<br />1. <a href=\"https://tsonglyrics.com/vazhkaiye-lyrics-david-songs-lyrics.html\" target=\"_blank\">Vaazhkaye </a> <br />2. <a href=\"https://tsonglyrics.com/maria-pitache-lyrics-david-songs-lyrics.html\" target=\"_blank\">Maria Pitache</a><br />3. <a href=\"https://tsonglyrics.com/kanave-kanave-lyrics-david-songs-lyrics.html\" target=\"_blank\">Kanave Kanave</a><br />4.<a href=\"https://tsonglyrics.com/manamey-lyrics-david-songs-lyrics.html\" target=\"_blank\">Mannamey</a><br />5. <a href=\"https://tsonglyrics.com/iruvanil-ulavavaa-lyrics-david-songs.html\" target=\"_blank\">Iruvanil Ulavavaa </a></td>  <td><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjme_dIe9sCpRfwZ8Cek8UQ0r1PEteiGFRrX5uE9JjSb6RrUl6dzSN2RRouiVT0qZkyIpCyb_cayU-1UTU2MxVlwmBgZeuEQzode4lbpi6mjxI877UeX_rT1hw69QWmz1eXewmbebu13jI/s1600/David_tamil.jpg\"></a></td> </tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words <br />Oh Manamey oh manamey<br />oh manamey theeyai theendu<br />oh ranamey oh ranamey<br />oh ranamey valiyai thaandu",
     "yutham enbadhu ratham endbadhu<br />dharmam thaanada<br />kaayam aarinaal niyaayam maaridum<br />udaney thodangada",
     "vettai thodangida vetkai theerndhida<br />vegam kollada<br />maayam purindhadhum<br />vazhkai kasandhidum<br />unmai thaanda",
     "Oh Manamey oh manamey<br />oh manameytheeyai theendu<br />oh ranamey oh ranamey<br />oh ranamey valiyai thaandu",
@@ -89,5 +89,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjme_dIe9sCpRfwZ8Cek8UQ0r1PEteiGFRrX5uE9JjSb6RrUl6dzSN2RRouiVT0qZkyIpCyb_cayU-1UTU2MxVlwmBgZeuEQzode4lbpi6mjxI877UeX_rT1hw69QWmz1eXewmbebu13jI/s400-c/David_tamil.jpg",
   "generatedAt": "2026-01-18T13:04:45.267Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "david",
+      "manamey",
+      "karthik",
+      "mohan rajan",
+      "prashant pillai",
+      "romantic",
+      "melancholic",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Manamey</strong>?</h4><p>The song <strong>Manamey</strong> expresses deep emotions of love and longing, reflecting the inner thoughts of the protagonist.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie <em>David</em>?</h4><p><em>David</em> intertwines the lives of three men named David, exploring themes of love, revenge, and destiny.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Manamey</strong>?</h4><p>The song is sung by the talented singer <strong>Karthik</strong>, known for his melodious voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Manamey</strong>?</h4><p>The music for <strong>Manamey</strong> was composed by <strong>Prashant Pillai</strong>, who is known for his unique soundscapes.</p></div><div class=\"faq-item\"><h4>When was <strong>Manamey</strong> released?</h4><p><strong>Manamey</strong> was released on January 4, 2013.</p></div></div>",
+    "summary": "In the movie <em>David</em>, the song <strong>Manamey</strong> serves as a poignant expression of love and yearning. It beautifully encapsulates the emotional turmoil faced by the characters, resonating with anyone who has experienced deep affection. The soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect fit for romantic occasions. Karthik's soulful voice adds depth to the song, enhancing its emotional impact.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Manamey</strong> from <em>David</em> is a beautifully crafted melody that captures the essence of longing and love. Karthik's soulful rendition, combined with Prashant Pillai's enchanting music, creates an atmosphere that resonates deeply with listeners. This song is a must-listen for anyone who appreciates heartfelt Tamil music.",
+    "stanzaMeanings": [
+      "Oh mind! oh mind! oh mind! touch the fire. Oh wound! oh wound! oh wound! jump over the pain.",
+      "War and blood are both justice, friend. If the wound heals, justice will change, start now, friend.",
+      "With hunt and passion, have the speed, friend. When illusion is understood, life will be bitter, it's a truth, friend.",
+      "Oh mind! oh mind! oh mind! touch the fire. Oh wound! oh wound! oh wound! jump over the pain.",
+      "Nothing is a sin, so change the path. Justice, law, everything is a market thing.",
+      "World to bow, you have anger, friend. Ghost and god, both are humans' fear, friend.",
+      "When you change the path, have no fear. When Ponvannan denied, Buddha formed there.",
+      "Oh mind! oh mind! oh mind! touch the fire. Oh wound! oh wound! oh wound! jump over the pain.",
+      "Oh mind! oh mind! oh mind! touch the fire. Oh wound! oh wound! oh wound! jump over the pain.",
+      "War and blood are both justice, friend. If the wound heals, justice will change, start now, friend.",
+      "With hunt and passion, have the speed, friend. When illusion is understood, life will be bitter, it's a truth, friend.",
+      "Oh mind! oh mind! oh mind! touch the fire. Oh wound! oh wound! oh wound! jump over the pain.",
+      "Nothing is a sin, so change the path. Justice, law, everything is a market thing.",
+      "World to bow, you have anger, friend. Ghost and god, both are humans' fear, friend.",
+      "When you change the path, have no fear. When Ponvannan denied, Buddha formed there.",
+      "Oh mind! oh mind! oh mind! touch the fire. Oh wound! oh wound! oh wound! jump over the pain."
+    ]
+  }
 }

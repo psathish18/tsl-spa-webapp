@@ -65,5 +65,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQuovQdcNbxbXRb_tdf0tLekqfx4N_7VHgr-TKRjT-aU0y0RHgLNTHzTEadeWJhPX-Z6W_kfMzsSP9dY3XgHqctBXnHBkgL6adn8utVf_5kRVcwMP5mGK0_MiaqPjgFwDfM1EqOCCE9TE/s400-c/singam-2.jpg",
   "generatedAt": "2026-01-18T13:03:49.737Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy",
+      "romantic"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "valentine's day",
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "singam 2",
+      "singam dance",
+      "devi sri prasad",
+      "baba sehgal",
+      "viveka",
+      "upbeat",
+      "dance number",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Singam Dance</strong> celebrates love and romance, making it a perfect fit for Valentine's Day.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>The song captures the festive spirit and energy of the characters, enhancing the romantic themes of <em>Singam 2</em>.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features vocals by <strong>Baba Sehgal</strong> and <strong>Devi Sri Prasad</strong>, with music composed by <strong>Devi Sri Prasad</strong> himself.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Singam Dance</strong> was released on June 2, 2013.</p></div></div>",
+    "summary": "In <strong>Singam Dance</strong>, the vibrant energy of the song perfectly encapsulates the celebratory spirit of love and romance. Featured in <em>Singam 2</em>, it invites everyone to join in the fun and dance, making it an ideal choice for festive occasions. The upbeat tempo and catchy lyrics evoke feelings of joy and excitement, encouraging listeners to embrace the moment. This track is not just a song; it's an experience that brings people together in celebration.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Singam Dance</strong> from <em>Singam 2</em> is an electrifying anthem that gets everyone on their feet! With a unique collaboration between the dynamic vocals of Baba Sehgal and the vibrant beats of Devi Sri Prasad, this track is perfect for any celebration. Get ready to pump up the energy and embrace the romance of the day!",
+    "stanzaMeanings": [
+      "Yo, this is the chance, let's do the Singam dance. Everybody put your hands up and say welcome to Valentine's Day. Pump up the beat on the floor and say repeat.",
+      "Everybody put your hands up and say welcome to Valentine's Day. This is the day for romance, baby, so let's sing and dance. It's the Singam dance.",
+      "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.",
+      "I want a Valentine's Day every week. Love has captured me, making me happy. Love is everywhere in writing.",
+      "Let's sing and dance. It's the Singam dance. (2) Let's sing and dance.",
+      "Summer, Winter, Spring, and Autumn, every place will change. Love blooms in every season and every place.",
+      "The ice has melted, and my heart has melted too. I came searching for you, saying I love you.",
+      "Let's sing and dance. It's the Singam dance. (2) Let's sing and dance.",
+      "Everybody put your hands up and say welcome to Valentine's Day. Pump up the beat on the floor and say repeat."
+    ]
+  }
 }

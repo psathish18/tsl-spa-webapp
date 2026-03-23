@@ -79,5 +79,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibOk5Vl1LRKl5oJmlXTWqp0wdtdXpjYBGkjpI88bF7DBTF5N-Qblk_7YoR9HKF_E29hw1V8RBUysNpAh4s8CcOz2PFy5bZLzblnm8Jy5bPL8lGjNaa6rhNeTLBiI4eNJ-a1ViuHqb3JAY/s400-c/Capture1.JPG",
   "generatedAt": "2026-01-18T12:45:44.892Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "peppy",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "saravanan irukka bayamaen",
+      "langu langu",
+      "praniti",
+      "d imman",
+      "2017",
+      "peppy",
+      "energetic",
+      "happy",
+      "tamil movie",
+      "dance number"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Langu Langu</strong>?</h4><p>The song is a peppy and energetic track that adds a fun element to the movie.</p></div><div class=\"faq-item\"><h4>Who is the music director of <strong>Langu Langu</strong>?</h4><p>The music director is <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in <em>Saravanan Irukka Bayamaen</em>?</h4><p>The song adds a lively and entertaining moment in the film, enhancing the celebratory mood.</p></div><div class=\"faq-item\"><h4>Who performed the vocals for <strong>Langu Langu</strong>?</h4><p>The song is sung by <strong>Praniti</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Langu Langu</strong> released?</h4><p>The song was released on March 31, 2017.</p></div></div>",
+    "summary": "<strong>Langu Langu</strong> is a lively and upbeat song from the movie <em>Saravanan Irukka Bayamaen</em>, composed by D Imman. Sung by Praniti, the track is filled with energetic beats and catchy lyrics, making it a perfect fit for party scenes in the film. The song captures a sense of fun and celebration, reflecting the joyous moments in the storyline. Its vibrant rhythm and playful tone make it a memorable addition to the movie's soundtrack.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Langu Langu</strong> from the movie <em>Saravanan Irukka Bayamaen</em> is a vibrant and energetic track that will get you moving. With <strong>D Imman's</strong> catchy beats and <strong>Praniti's</strong> lively vocals, this song is a perfect party anthem. Dive into the fun and peppy vibe that makes this track a standout in the film's soundtrack.",
+    "stanzaMeanings": [
+      "",
+      "Scooter is running noisily. Look around, the tractor is making noise.",
+      "You're like a monkey with rice overflowing from a pot. Don't mess with me, or I'll deal with you.",
+      "You're stuffing rice in a bowl without a lid. You talk nonsense and cause trouble.",
+      "I'll roll you out like dough and make you into a chapati. I'll fry you in oil, dear.",
+      "Scooter is running noisily. Look around, the tractor is making noise.",
+      "The egg from the chicken is not an eye, it's a treat. I'll make an omelette and eat you up.",
+      "Don't compete now, don't act smart. If you dance fast, you'll become tired.",
+      "Let go of your arrogance, you're like a dried bean. If I make you into a curry, can you handle it?",
+      "The bird has grown, and your intelligence is gone. The pocket is missing in your torn trousers.",
+      "Scooter is running noisily. Look around, the tractor is making noise.",
+      "You're like a monkey with rice overflowing from a pot. Don't mess with me, or I'll deal with you.",
+      "You're stuffing rice in a bowl without a lid. You talk nonsense and cause trouble.",
+      "I'll roll you out like dough and make you into a chapati. I'll fry you in oil, dear.",
+      "Scooter is running noisily. Look around, the tractor is making noise.",
+      ""
+    ]
+  }
 }

@@ -40,5 +40,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9sSXmuUZ3zEPtAHSHC40QSYqhjihtUKCdbIQrcw0dwdNAQBPF1Gxx0P3FrLW2jhOlFgp6CRz9amKRrvL-Z0539q-kLS7q5-9FMiIWW8Qzq8-oD5Ulr4UdvTbG2bhXZWEMz4uqRjSZTk/s400-c/Kanne+Kanne+7up+Madras+Gig+Lyrics.jpeg",
   "generatedAt": "2026-01-18T12:43:27.976Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "party",
+      "celebration",
+      "night drive"
+    ],
+    "keywords": [
+      "kanne kanne",
+      "7up madras gig",
+      "jonita gandhi",
+      "leon james",
+      "ko sesha",
+      "romantic",
+      "peppy",
+      "2018",
+      "duet",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kanne Kanne</strong>?</h4><p>The song is a romantic and peppy number that celebrates love and joy.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kanne Kanne</strong>?</h4><p>The song is sung by <strong>Jonita Gandhi</strong> and <strong>Leon James</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Kanne Kanne</strong>?</h4><p>The music was composed by <strong>Leon James</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kanne Kanne</strong>?</h4><p>The lyrics were penned by <strong>Ko Sesha</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Kanne Kanne</strong> released?</h4><p>The song was released on August 25, 2018.</p></div></div>",
+    "summary": "The song <strong>Kanne Kanne</strong> from the <em>7Up Madras Gig</em> is a lively and romantic duet that captures the essence of young love. Sung by Jonita Gandhi and Leon James, it features upbeat music and catchy lyrics by Ko Sesha. The song conveys a sense of joy and celebration, making it perfect for parties and romantic occasions. Its vibrant energy and engaging melody evoke happiness and excitement, inviting listeners to enjoy the rhythm and romance.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Kanne Kanne</strong> from the <em>7Up Madras Gig</em> as Jonita Gandhi and Leon James deliver a captivating duet. With Leon James' lively composition and Ko Sesha's engaging lyrics, this song is a delightful blend of romance and rhythm. Dive into the peppy beats and let the music take you on a joyous ride.",
+    "stanzaMeanings": [
+      "In the love ticket, I won the lottery, and in the weak wicket, I achieved victory. Will you give me a kiss on the empty street at night?",
+      "I drank the love liquors to the bottom. I enjoyed keeping your ticket close.",
+      "Girl, do you know that I will hide you in my eyes?",
+      "You are the reason for the frequent lightning strikes in my heart. You are the reason for the constant thoughts in my mind.",
+      "Dear, you are the song my heart sings. Dear, you are all the happiness I own.",
+      "You are my lucky charm, you are my whole life, you are my only hope. Even if I say more, it's not a lie, dear.",
+      "I was single for a long time, but I fell for you, a scoundrel. Because of you, dear girl, I have to go to cooking class now.",
+      "We don't need money or air conditioning, we don't need a penthouse in Poes Garden. We'll just be cozy in a small house with an air conditioner.",
+      "You are the reason for the frequent lightning strikes in my heart. You are the reason for the constant thoughts in my mind.",
+      "Dear, you are the song my heart sings. Dear, you are all the happiness I own.",
+      "You are my lucky charm, you are my whole life, you are my only hope. Even if I say more, it's not a lie, dear.",
+      "Dear, dear... my heart is full of love for you, dear. Until the end, I will come, no worries, dear, dear, my heart is full of love for you, dear."
+    ]
+  }
 }

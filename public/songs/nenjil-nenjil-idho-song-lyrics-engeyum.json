@@ -78,5 +78,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:44.951Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "engeyum kadhal",
+      "nenjil nenjil idho",
+      "chinmayi",
+      "harish ragavendra",
+      "karky",
+      "harrish jeyaraj",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Nenjil Nenjil Idho</strong> expresses deep romantic feelings and the beauty of love, capturing the essence of longing and affection.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Engeyum Kadhal</em>?</h4><p>This song highlights the romantic moments between the lead characters, enhancing the emotional depth of their relationship in the film.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song is sung by <strong>Chinmayi</strong> and <strong>Harish Ragavendra</strong>, with music composed by <strong>Harrish Jeyaraj</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Nenjil Nenjil Idho</strong> was released on <strong>November 12, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Nenjil Nenjil Idho</strong>, the romantic essence of love is beautifully portrayed through the soulful voices of Chinmayi and Harish Ragavendra. The song encapsulates the emotions of longing and affection, making it a perfect fit for romantic occasions. Set against the backdrop of <em>Engeyum Kadhal</em>, it enhances the narrative of love and connection between the characters. The soothing melody and heartfelt lyrics create a captivating experience that resonates with listeners.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Nenjil Nenjil Idho</strong> from the movie <em>Engeyum Kadhal</em> is a mesmerizing duet that beautifully captures the essence of romance. With the enchanting voices of Chinmayi and Harish Ragavendra, this song is a perfect blend of heartfelt lyrics and melodious composition by Harrish Jeyaraj. Dive into the soothing vibes of this track that perfectly complements the film's love story.",
+    "stanzaMeanings": [
+      "",
+      "In the heart, there is love, love that has blossomed. In the gentle breeze, it has spread a little. The evening flower has shown its beauty. My heart is like the sky, filled with joy.",
+      "In my dreams, there is a gentle breeze. In my dreams, your presence brings happiness.",
+      "In the heart, there is love, love that has blossomed. In the gentle breeze, it has spread a little. The evening flower has shown its beauty. My heart is like the sky, filled with joy.",
+      "A silence spreads like a small love. In the eyes and in the words, everything is poetry. In the desires and in the music, there is no end to happiness.",
+      "In the depths of my heart, your gaze is captivating. In the new dawn, I find my strength. In a gentle touch, I feel everything.",
+      "Oh, my life, you are melting away. Don't let your love be hidden. Crossing the sky, you have come to me.",
+      "In the heart, there is love, love that has blossomed...",
+      "With hunger and thirst, with fingers and eyes, everything is intertwined. In the essence of life, there is no separation.",
+      "Like a white wave, you have opened your heart. A small, small thief steals the night. In the dawn, fingers and thirst are intertwined.",
+      "In the night that doesn't end, in the dream that can't be fulfilled, you still have a little time to love, love, and begin again.",
+      "In the heart, there is love, love that has blossomed...",
+      "In my dreams, there is a gentle breeze. In my dreams, your presence brings happiness."
+    ]
+  }
 }

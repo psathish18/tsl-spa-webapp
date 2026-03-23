@@ -74,5 +74,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdi_XC1fIJxnYFnlvKQ0FaQhraHGbnPHsbSXz4gvFR95MFbVQ6RNcBIqYTQX9TT2yBku5kMhjSApkbfnK8lVVOVAK-Bh59RB3iYAvVEe3q5f26La1B8abpDV3sHYbNUBt-01z1n2pFWaI/s400-c/Pencil-Lyrics.jpg",
   "generatedAt": "2026-02-01T13:07:39.013Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "pencil",
+      "gv prakash kumar",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil song",
+      "movie",
+      "music director"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of love and connection, highlighting the joy of being together.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Pencil</em>, the song reflects the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by <strong>GV Prakash Kumar</strong>, showcasing his talent in both areas.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Yaarai Polum Illa Neeyum</strong> was released on <strong>February 20, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Yaarai Polum Illa Neeyum</strong>, the listener is taken on a melodic journey that encapsulates the innocence and joy of young love. The song beautifully conveys the emotions of connection and longing, making it a memorable piece in the film <em>Pencil</em>. With GV Prakash Kumar's soulful rendition, it evokes feelings of nostalgia and happiness. This track serves as a perfect backdrop for romantic moments, resonating with anyone who has experienced love.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Yaarai Polum Illa Neeyum</strong> from <em>Pencil</em> captures the essence of youthful romance with GV Prakash Kumar's enchanting vocals. The song's melodic charm and heartfelt lyrics resonate deeply, making it a perfect anthem for love. Dive into this beautiful track that beautifully blends emotion and melody, leaving listeners yearning for more.",
+    "stanzaMeanings": [
+      "",
+      "We are all alone, and we have met on a day when everyone is together. Why did we lose that?",
+      "I saw you going far away, but did you see me next to you?",
+      "We are watching and smiling together, moving along. All those sights are beautiful dreams.",
+      "The street where you went, I have stood there many days. Your head that won't return will bring some flowers.",
+      "I started with the clouds, I searched for you, and I got lost.",
+      "The eyes that shine brightly are dancing in dreams. You are...",
+      "In the time when you are not here, my thorny heart is restless. Looking at me, even a single word is enough.",
+      "I long for the days of freedom. I need to see you every day...",
+      "Will you forget what you saw just once?",
+      "We are all alone, and we have met on a day when everyone is together. Why did we lose that?",
+      "I saw you going far away, but did you see me next to you?",
+      "We are watching and smiling together, moving along. All those sights are beautiful dreams."
+    ]
+  }
 }

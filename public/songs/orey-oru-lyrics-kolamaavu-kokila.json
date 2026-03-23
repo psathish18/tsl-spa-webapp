@@ -90,5 +90,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:19.157Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "kolamaavu kokila",
+      "anirudh",
+      "jonita gandhi",
+      "vignesh shivan",
+      "upbeat",
+      "2018",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of community and celebration, highlighting the joy of living together in harmony.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Kolamaavu Kokila</em>, the song reflects the protagonist's vibrant life and her interactions with the people around her.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The song features vocals by <strong>Anirudh</strong> and <strong>Jonita Gandhi</strong>, with music composed by <strong>Anirudh</strong> himself.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on June 17, 2018.</p></div></div>",
+    "summary": "In <strong>Orey Oru Ooril Oru Veedu</strong>, the lively beats and engaging lyrics create an atmosphere of joy and celebration. The song encapsulates the essence of community living, where every moment is cherished. It evokes feelings of happiness and togetherness, making it a perfect anthem for parties and celebrations. The collaboration between Anirudh and Jonita Gandhi adds a unique charm, making it a memorable track from <em>Kolamaavu Kokila</em>.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Orey Oru Ooril Oru Veedu</strong> from <em>Kolamaavu Kokila</em> is a vibrant celebration of life and community, brought to life by the dynamic collaboration of Anirudh and Jonita Gandhi. The infectious energy of the song perfectly captures the essence of joy and togetherness, making it a must-listen. Dive into this catchy tune that resonates with the spirit of fun and festivity!",
+    "stanzaMeanings": [
+      "In one town, there is one house... it cannot withstand even one blow, nor can it fall in the night, the house cannot be built in one moment.",
+      "But in one stream, there is one flow, and one wave comes and strikes it.",
+      "In one group, there is one gathering, and due to a broken branch, the story has ended.",
+      "Will everything that has ended open again, and will everything that is needed happen again?",
+      "My voice is one, my dream is one, they are one. If one lives beautifully, that is enough, enough...",
+      "I have cried completely here, will everything change into a battle?",
+      "I have finished everything today, will I become something else?",
+      "I have become pitiful, a new twist is circling around me.",
+      "I have become angry, many secrets are searching for me.",
+      "A cloud of rain has not yet arrived today, a group of rabbits is wandering in the storm.",
+      "Will everything that has ended bloom again, and will everything that is sought ever be found?",
+      "My voice is one, my dream is one, they are one. If one lives beautifully, that is enough.",
+      "Will everything that has ended open again, and will everything that is needed happen again?",
+      "My voice is one, my dream is one, they are one. If one lives beautifully, that is enough, enough..."
+    ]
+  }
 }

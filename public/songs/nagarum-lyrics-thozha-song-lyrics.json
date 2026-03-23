@@ -92,5 +92,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW3MGCx4k-g3E7rR5qmOtI5v4t7i_7btMlLfX8UdYUBh0RtKI3_AiyTFjYK5r4GFHTuKFiJ6z3hF1mHdmpNSV9mpIqZq1C_xpsGmfAICF0pbsGc1aRtlzfr-n0vufFazmoBFc-ZRQyHOo/s400-c/Thozha+Song+Lyrics.jpg",
   "generatedAt": "2026-02-01T13:03:09.339Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "thozha",
+      "karthik",
+      "gopi sundar",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song",
+      "nagarum"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nagarum'?</h4><p>The song 'Nagarum' explores themes of love, connection, and the emotional struggles that come with relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Thozha'?</h4><p>In 'Thozha', the song reflects the emotional journey of the characters as they navigate their relationships and personal challenges.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Nagarum'?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Gopi Sundar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Nagarum' released?</h4><p>'Nagarum' was released on <strong>March 26, 2016</strong>.</p></div></div>",
+    "summary": "In 'Nagarum', the protagonist reflects on the complexities of love and connection, evoking a sense of nostalgia and longing. The soothing melody, paired with Karthik's heartfelt vocals, creates an emotional atmosphere that resonates with listeners. The song beautifully encapsulates the struggles and joys of relationships, making it a perfect fit for romantic occasions. Its melancholic yet soothing vibe invites listeners to immerse themselves in their own memories of love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Nagarum</strong> from <em>Thozha</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With Karthik's soulful vocals and Gopi Sundar's enchanting composition, this song resonates deeply with anyone who has experienced the complexities of relationships. Dive into the emotional depth of this track that perfectly blends romance and melancholy.",
+    "stanzaMeanings": [
+      "",
+      "Why does the city and time speak to us, and why does the heart express it later? Why is that? Why is that?",
+      "The flower and the bond are your truth, and the separation is also yours. The melody of the heart is yours. Why is that? Why is that?",
+      "If you come, who are you? If you go, who am I?",
+      "Why does the city and time speak to us, and why does the heart express it later? Why is that? Why is that?",
+      "You forget a place that was yours, and why does it arise in my heart? Why does it arise in my heart?",
+      "A new path is being created, but my heart is forgetting what it found. Why is that, my friend? Why is that?",
+      "Why does the city and time speak to us, and why does the heart express it later? Why is that? Why is that?",
+      "The joys of memories are lost, and the connections are broken. Why does my heart feel this? Why does my heart feel this?",
+      "Without thoughts, there is emptiness in the heart, and in loneliness, there is suffering. Why does my heart feel this? Why does my heart feel this? Why is that, my friend? Why is that?",
+      "The flower and the bond are your truth, and the separation is also yours. The melody of the heart is yours. Why is that? Why is that?",
+      "If you come, who are you? If you go, who am I?",
+      ""
+    ]
+  }
 }

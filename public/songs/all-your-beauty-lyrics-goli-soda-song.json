@@ -58,5 +58,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt15zINhk919gb1MTQiSFsRteDT3kvXWxslthoGT-KRzsBfH2Nf9Z7j6kALA9XI9sGPWhsb8cDpx38DOMkdhTtqjMWK6x58REn4s2FTDP6PLbPju52HiOw78fCX5ZY1Ev07nkmr9EeQdY/s400-c/goli-soda.jpg",
   "generatedAt": "2026-01-18T13:01:24.134Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "solo",
+      "folk"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "goli soda",
+      "gaana bala",
+      "sn arunagiri",
+      "2014",
+      "tamil song",
+      "motivational",
+      "folk",
+      "energetic",
+      "movie song",
+      "lyrics",
+      "kollywood"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who is the singer of the song <strong>All Your Beauty</strong>?</h4><p>The song is sung by the talented <strong>Gaana Bala</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the movie <em>Goli Soda</em>?</h4><p>The movie portrays the struggles and triumphs of a group of young individuals striving to establish their identity.</p></div><div class=\"faq-item\"><h4>Who composed the music for the song?</h4><p>The music was composed by <strong>SN Arunagiri</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Goli Soda</em> released?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>What is the mood of the song <strong>All Your Beauty</strong>?</h4><p>The song has an energetic and motivational vibe.</p></div></div>",
+    "summary": "The song <strong>All Your Beauty</strong> from the 2014 Tamil movie <em>Goli Soda</em> is a lively and energetic track that reflects the youthful spirit and determination of its characters. Sung by Gaana Bala and composed by SN Arunagiri, the song features a unique blend of folk and motivational elements. The lyrics, penned by Gaana Bala and Mani Amuthavan, convey a message of self-confidence and resilience. This track is a perfect representation of the movie's theme of overcoming challenges and finding one's identity.",
+    "actorName": "Sree Raam",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>All Your Beauty</strong>, a vibrant and energetic track from the movie <em>Goli Soda</em>, showcases the unique vocal style of Gaana Bala combined with the dynamic composition of SN Arunagiri. This song captures the essence of youthful exuberance and the spirit of resilience. Dive into this captivating number that resonates with the lively and motivational themes of the film.",
+    "stanzaMeanings": [
+      "All your beauty",
+      "All your beauty, beautiful mirror. All your beauty, beautiful mirror. Look at your fine qualities and personality. I am like an English paper, I came with fairness and loveliness, like a super man.",
+      "Come and see me at Koyambedu market, I am a big guy, but what about me?",
+      "Life goes up and down, I can't go without you, even with my father.",
+      "You are the one who gives life and energy, now tell me, do you really mean it?",
+      "All your beauty, beautiful mirror. All your beauty, beautiful mirror. Look at your fine qualities and personality.",
+      "When I see you, it feels like love has come. When I look at you, I say yes to your gaze.",
+      "Like a white flower, it shines brightly. It feels like a drop of water has come to me.",
+      "Everything is in a mess, but in that, the beautiful words are what I want to express.",
+      "Your heart has been stolen by a thief, and I am scared of what your father will do to me.",
+      "All your beauty, beautiful mirror. All your beauty, beautiful mirror. Look at your fine qualities and personality. I am like an English paper, I came with fairness and loveliness, like a super man."
+    ]
+  }
 }

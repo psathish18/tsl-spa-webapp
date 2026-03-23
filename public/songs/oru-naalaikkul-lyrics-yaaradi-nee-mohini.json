@@ -81,5 +81,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEginyJ1lv5kCxPPmMeO0eapCfDyE4GrbG7Qkq2dc2LJGi9yM7x81zGPXTlo80JtwpuEBfA5smzm9o_RuSe-Wj5A_lAgKklcmK28Y0OjeeNYZKYopE-i4BOFnYp3aatOwEEXGyzYAfp3CeE/s400-c/Oru+Naalukul+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:14:04.723Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "yaaradi nee mohini",
+      "karthik",
+      "rita",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2008"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Naalaikkul</strong>, the protagonists express their dreams and desires through a poetic lens, reflecting the beauty of love and connection. The song plays a pivotal role in <em>Yaaradi Nee Mohini</em>, enhancing the romantic narrative between the lead characters. With its soothing melody and heartfelt lyrics, it evokes feelings of nostalgia and longing. The collaboration between Karthik and Rita adds a unique charm, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2008",
+    "high_ctr_intro": "<strong>Oru Naalaikkul</strong> from <em>Yaaradi Nee Mohini</em> is a mesmerizing duet that beautifully captures the essence of romance. With Karthik's soulful voice complemented by Rita's enchanting vocals, this song creates an ethereal atmosphere that resonates with love. Yuvan's magical composition and Na Muthukumar's heartfelt lyrics make this track a timeless favorite for couples.",
+    "stanzaMeanings": [
+      "In a day, how many dreams are reflected in your eyes, the moment that touches the sky is your feeling.",
+      "In a moment, how much intoxication is there, and how much relief does this intoxication bring?",
+      "Even in this intoxication, if there is a path, the feet will still move.",
+      "In a day, how many dreams are reflected in your eyes, the moment that touches the sky is your feeling.",
+      "You changed the way I walk, and you gave me the words to speak.",
+      "You are neither a goddess nor a devil; I passed by without understanding.",
+      "If anyone calls out, I will turn back thinking it is you.",
+      "Every day, I will sleep without resting near you.",
+      "This feeling is something; when it is understood, it will rain like a drizzle, and a gentle rain will make you smile.",
+      "In a day, how many dreams are reflected in your eyes, the moment that touches the sky is your feeling.",
+      "Do the trees that bloom by the river know about love? Do they understand the dreams that are hidden?",
+      "If a girl is given for you, if she also desires you, you can fly; you cannot forget, the doors that do not open will open.",
+      "The fragrance of the flower is unknown; it is seen by the eyes, but it cannot be understood until later; until then, it will continue to happen.",
+      ""
+    ]
+  }
 }

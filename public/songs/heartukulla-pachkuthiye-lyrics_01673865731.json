@@ -88,5 +88,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:50.742Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "gulebagavali",
+      "nakash aziz",
+      "sanjana divaker",
+      "vivek mervin",
+      "upbeat",
+      "dance number",
+      "2018",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Heartukulla Pachkuthiye</strong> conveys a playful and joyful expression of love, emphasizing the fun and light-hearted aspects of romance.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Gulebagavali</em>, this song is featured during a lively sequence that showcases the characters celebrating love and happiness.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song is sung by <strong>Nakash Aziz</strong> and <strong>Sanjana Divaker</strong>, with music composed by <strong>Vivek – Mervin</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Heartukulla Pachkuthiye</strong> was released on January 21, 2018.</p></div></div>",
+    "summary": "In <strong>Heartukulla Pachkuthiye</strong>, the lively beats and catchy lyrics create an atmosphere of celebration and joy. The song captures the essence of youthful love, filled with playful banter and excitement. As the characters dance and revel in their feelings, the upbeat tempo and vibrant vocals evoke a sense of happiness and togetherness. This track is perfect for any festive occasion, making it a delightful addition to the soundtrack of <em>Gulebagavali</em>.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Heartukulla Pachkuthiye</strong> from <em>Gulebagavali</em> is a vibrant celebration of love and joy, brought to life by the dynamic voices of Nakash Aziz and Sanjana Divaker. With the energetic beats crafted by the talented duo Vivek – Mervin, this song is sure to get you on your feet. Experience the infectious vibe that makes this track a must-listen for any festive occasion!",
+    "stanzaMeanings": [
+      "Heartukulla Pachkuthiye Lyrics From Gulebagavali Movie. Song is Composed by Vivek Mervin and sung by Nakash Aziz, Sanjana Diwakar Here is Heartukulla Pachkuthiye Lyrics",
+      "Is your mind loose or light? Can you tell me?",
+      "Don't let my green feelings go away, my green girl, without talking, show me a little green, green, green.",
+      "My green girl, my green, green, green.",
+      "Will you be my honey bunny? People think I am really funny. I will give you whatever you want, honey bunny.",
+      "In my first look, I lost my breath, best friend, I lost everything.",
+      "Oh no, I feel bad, I am not doing anything, I am just thinking and saying.",
+      "Oh my dear, what is this? Hot water is what is flowing in my heart.",
+      "Oh my dear, feelings are not just love, do we really need to look for logic?",
+      "Heartukulla Pachkuthiye Lyrics From Gulebagavali Movie. Song is Composed by Vivek Mervin and sung by Nakash Aziz, Sanjana Diwakar Here is Heartukulla Pachkuthiye Lyrics",
+      "Is your mind loose or light? Can you tell me?",
+      "Don't let my green feelings go away, my green girl, without talking, show me a little green, green, green. My green, green, green.",
+      "Will you be my honey bunny? People think I am really funny. I will give you whatever you want, honey bunny.",
+      "My green, green, green."
+    ]
+  }
 }

@@ -52,5 +52,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:11.931Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "naan mahaan alla",
+      "va va nilava pudichi",
+      "rahul nambiar",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Va Va Nilava Pudichi</strong> expresses the joy and beauty of love, portraying a romantic atmosphere that resonates with listeners.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Naan Mahaan Alla</em>, this song highlights the protagonist's romantic journey, enhancing the emotional depth of the narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Rahul Nambiar</strong> and composed by <strong>Yuvan Shankar Raja</strong>, known for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Va Va Nilava Pudichi</strong> was released on <strong>July 19, 2010</strong>, as part of the movie's soundtrack.</p></div></div>",
+    "summary": "In <strong>Va Va Nilava Pudichi</strong>, the protagonist expresses his deep affection through a lively and romantic melody. The song's upbeat tempo and joyful lyrics create a celebratory atmosphere, making it perfect for moments of love and happiness. It beautifully conveys the emotions of longing and joy, resonating with anyone who has experienced love. This track stands out as a highlight in <em>Naan Mahaan Alla</em>, showcasing the charm of romance through music.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Va Va Nilava Pudichi</strong> from <em>Naan Mahaan Alla</em> is a vibrant celebration of love, beautifully rendered by Rahul Nambiar. With Yuvan's enchanting composition and Na Muthukumar's heartfelt lyrics, this song captures the essence of romance and joy. Dive into this melodic journey that promises to uplift your spirits and resonate with your heart.",
+    "stanzaMeanings": [
+      "Come, come, the moon is shining brightly, it will give light like a silver doll. Oh, when the light fades away, it will be lost, so let’s hold on to the beauty. Come, come, the moon is shining brightly, let’s hold on to the beauty. In the sky, the clouds will gather and bring rain.",
+      "Come, come, let’s learn about love... Come, come, the moon is shining brightly, let’s hold on to the beauty.",
+      "Worries will make us weak, but in the fire of life, there will be light. The river that flows will worship itself and will rise. Even the rain will turn into a blessing. Life will flow like a circle, with no doors or visions. There is no beginning or end, and understanding brings no sorrow.",
+      "Come, come, let’s learn about love... Come, come, the moon is shining brightly, let’s hold on to the beauty.",
+      "Ah, looking at the night, the heart feels lost and restless. If there are no nights, the beauty of the moon will not be known. In dreams, when you walk, it feels like a journey. In dreams, the flowers cannot be held in hand. Relationships will come like the sky, and the clouds will come every day. When it comes, it will create a new form again.",
+      "Come, come, let’s learn about love..."
+    ]
+  }
 }

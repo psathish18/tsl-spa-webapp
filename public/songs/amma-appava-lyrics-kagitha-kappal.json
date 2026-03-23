@@ -46,5 +46,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSAMg3FUkA_a1pJlL73i_SxtflzW7Ab6SrwncibvPOq0W-7a83hVhqRn-4adIOf8aw0AEsRG7a1zpgiKvkSsuc12hvxjORQTbiX5qJvIxkZPLuzWSCPB52XIIS8UlazsIueE0NAhX9QDk/s400-c/Kagitha+Kappal.jpeg",
   "generatedAt": "2026-02-01T13:18:13.377Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "motivational",
+      "emotional"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "family gathering",
+      "relaxation"
+    ],
+    "keywords": [
+      "kagitha kappal",
+      "amma appava",
+      "gana vinoth",
+      "kalai kumar",
+      "nishant",
+      "tamil cinema",
+      "2016",
+      "motivational song",
+      "family",
+      "emotional"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who is the singer of the song <strong>Amma Appava</strong>?</h4><p>The song is sung by <strong>Gana Vinoth</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song?</h4><p>The song emphasizes the importance of family values and love.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music was composed by <strong>Nishant</strong>.</p></div><div class=\"faq-item\"><h4>Which movie features this song?</h4><p>The song is featured in the Tamil movie <em>Kagitha Kappal</em>.</p></div><div class=\"faq-item\"><h4>What year was the movie <em>Kagitha Kappal</em> released?</h4><p>The movie was released in the year <strong>2016</strong>.</p></div></div>",
+    "summary": "The song 'Amma Appava' from the 2016 Tamil movie 'Kagitha Kappal' features the lead actor Vivek and actress Sathvika Appaiah. Sung by Gana Vinoth and composed by Nishant, the song conveys a heartfelt message about the significance of familial love and values. Its soothing melody and meaningful lyrics resonate deeply with listeners, evoking emotions of warmth and nostalgia. This song is a beautiful representation of the bond between family members, making it a cherished piece in Tamil cinema.",
+    "actorName": "Vivek",
+    "actressName": "Sathvika Appaiah",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Amma Appava</strong>, a heartfelt melody from the movie <em>Kagitha Kappal</em>, resonates deeply with its emotional lyrics and soothing tune. Sung by Gana Vinoth, with music composed by Nishant, this song beautifully captures the essence of familial love and values. Its profound message and melodious composition make it a timeless piece in Tamil cinema.",
+    "stanzaMeanings": [
+      "Look at the family, the father is the cinema star.",
+      "Who said that? It's the leader himself. This is the true heart.",
+      "What is the use of all the wealth? If there is love, that is enough for me.",
+      "Who said that? It's the leader himself. This is the true heart.",
+      "The mechanic starts when he gets a spanner, and the banner will be put up until the festival comes.",
+      "The growth with the head brings happiness to this world.",
+      "When the head writes, it shines like a star.",
+      "When you say the leader's name, even stones can break. In heavy rain, even camphor will burn.",
+      "It's only for the leader that there are a hundred crores of earnings.",
+      "When you say the leader's name, the children whistle. The children whistle. The children whistle.",
+      "This is given by itself, it is given by itself.",
+      ""
+    ]
+  }
 }

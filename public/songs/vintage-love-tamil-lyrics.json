@@ -45,5 +45,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTZO4jDku0SXtw2yvxfC89peCvyxffFi1axbaeq1DtjS3gvlbhFocD0YLeyHUlL3a8K7ibnuIx0bBrdy5uVZR7y_h3KrbnKM_h7QyJPlAAjPd7N7nJrhTMneL603Sl5Tdc4dn524YqGS_52H2yy0T_Zp_qTBcOhyphenhyphenwsINnjq2uHu3d6vYcxEin9NPAsrA/s400-c/20240401_122022.jpg",
   "generatedAt": "2026-01-18T12:41:39.331Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "vintage love",
+      "yuvan",
+      "kabilan",
+      "romantic",
+      "melancholic",
+      "2024",
+      "tamil song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Vintage Love'?</h4><p>'Vintage Love' explores themes of nostalgia and longing in love, capturing the essence of cherished memories.</p></div><div class=\"faq-item\"><h4>Is there a movie associated with this song?</h4><p>The song is currently listed as being from an <strong>unknown</strong> movie.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Vintage Love'?</h4><p>The song is sung and composed by <strong>Yuvan</strong>, showcasing his unique musical style.</p></div><div class=\"faq-item\"><h4>When was 'Vintage Love' released?</h4><p>'Vintage Love' was released on <strong>April 4, 2024</strong>.</p></div></div>",
+    "summary": "In 'Vintage Love', Yuvan's soulful voice brings to life a poignant narrative of love and longing. The lyrics by Kabilan evoke deep emotions, painting a vivid picture of cherished memories and heartfelt connections. This melody serves as a beautiful reminder of the bittersweet nature of love, making it perfect for moments of reflection. The song's romantic and melancholic vibe resonates with anyone who has experienced the complexities of love.",
+    "releaseYear": "2024",
+    "high_ctr_intro": "<strong>Vintage Love</strong> is a soul-stirring melody that captures the essence of longing and romance, beautifully rendered by the talented Yuvan. With Kabilan's poignant lyrics, this song takes listeners on an emotional journey that resonates deeply. Experience the magic of <em>Vintage Love</em> as it unfolds the tale of love and nostalgia, making it a must-listen for every romantic at heart.",
+    "stanzaMeanings": [
+      "I was waiting on this path, wondering if this is a dream. I worshipped the moon that lifted me, but there are no dreams in my eyes.",
+      "In the gathering of flowers, you turned like a flower, and I forgot everything in my world.",
+      "Is there anyone who feels joy like this? I became a flower on a wall, and you smiled at me, while I held onto the memories of our past.",
+      "Will everything that happens one day not return? Even if you are here, do not desire anything.",
+      "The white moonlight spills because of you, and with your eyes, I have stolen everything.",
+      "When I see you alone, it feels like the sky has come down to my head. There are no words to describe this light.",
+      "Everything returns in a strange way, and my thoughts are filled with your memories, which are like music in my heart.",
+      "I will never forget your touch. Until the day I live, I will keep looking at you, like a butterfly circling around you, and your gaze is my guide."
+    ]
+  }
 }

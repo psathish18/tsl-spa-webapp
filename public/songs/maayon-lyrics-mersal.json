@@ -90,5 +90,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD_WeIZZakli8J5FGLM33-s7uLxGhESqYUR0sOD62ERdhy85X4B9D7HRfovox1c7xaj8IoEm8VZ8Y4BQqS93wf7XCVsetM-YkHx8HNbcP4x3rq-RbTameJfZ8SbHvI3wy9e4XjVCYN_lg/s400-c/Mersal+Maayon.jpg",
   "generatedAt": "2026-01-18T12:45:19.429Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "theme",
+      "dance number"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "festivals"
+    ],
+    "keywords": [
+      "mersal",
+      "maayon",
+      "ar rahman",
+      "vivek",
+      "energetic",
+      "motivational",
+      "2017",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Maayon?</h4><p><strong>Maayon</strong> conveys themes of strength and resilience, celebrating the spirit of overcoming challenges.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Mersal?</h4><p>In <em>Mersal</em>, <strong>Maayon</strong> plays during a pivotal moment that emphasizes the protagonist's journey and determination.</p></div><div class=\"faq-item\"><h4>Who composed the music for Maayon?</h4><p>The music for <strong>Maayon</strong> was composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was Maayon released?</h4><p><strong>Maayon</strong> was released on October 10, 2017.</p></div></div>",
+    "summary": "The song <strong>Maayon</strong> from <em>Mersal</em> is a vibrant celebration of strength and motivation, perfectly encapsulating the film's themes of resilience. With its energetic beats and powerful lyrics by Vivek, the song inspires listeners to embrace their inner strength. The lively composition by AR Rahman adds to the song's uplifting vibe, making it a favorite for celebrations and parties. Overall, <strong>Maayon</strong> evokes feelings of joy and determination, resonating deeply with audiences.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Maayon</strong> from <em>Mersal</em> is an electrifying anthem that captures the essence of celebration and motivation. With AR Rahman's masterful composition and Vivek's impactful lyrics, this song resonates with energy and enthusiasm. It's a perfect blend of traditional and contemporary sounds that will get you moving!",
+    "stanzaMeanings": [
+      "",
+      "The one who catches the fish without a net comes with a great force, not to be seen by the eyes. If you think about it, two will come.",
+      "The heights of the world are not just for show; they are not mere illusions. The audience gathers, and the dreamer shows the way and walks on it.",
+      ""
+    ]
+  }
 }

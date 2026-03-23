@@ -60,5 +60,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxP6zYIfxo2HxSprMJ2Sw-LsEv4fJxY5JM2Lm51QbJppmsdpVAYy-x2qQidGvZPKhrncoGtDTu5-sCyIFNdmh6YZOGre3tO8kYj5TDG_SI6t3goCqRsfKMdqKPuatOsRWLSzMOCyAJXsU/s400-c/Silva+Vaarama+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:46:27.494Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pandigai",
+      "karthik",
+      "vikram rh",
+      "romantic",
+      "melancholic",
+      "2017",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Sila Vaaramaa</strong>?</h4><p>The song conveys feelings of love and longing, reflecting the emotional turmoil of relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Pandigai</em> related to this song?</h4><p>This song is featured in a romantic context within the movie, highlighting the protagonist's emotional journey.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Vikram RH</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Sila Vaaramaa</strong> released?</h4><p>The song was released on <strong>February 28, 2017</strong>.</p></div></div>",
+    "summary": "In <strong>Sila Vaaramaa</strong>, the protagonist expresses deep emotions tied to love and longing, making it a poignant addition to the soundtrack of <em>Pandigai</em>. The song beautifully captures the essence of romantic relationships, evoking feelings of nostalgia and heartache. With Karthik's captivating vocals and Vikram RH's melodic composition, it resonates with anyone who has experienced the complexities of love. This track serves as a perfect backdrop for moments of reflection and emotional connection.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Sila Vaaramaa</strong> from <em>Pandigai</em> is a mesmerizing melody that captures the essence of love and longing. With Karthik's soulful voice and Vikram RH's enchanting composition, this song resonates deeply with anyone who has experienced the highs and lows of romance. Dive into the emotional depths of this beautiful track and let it sweep you away.",
+    "stanzaMeanings": [
+      "",
+      "Some moments are like a celebration, when I see her, I feel like I'm celebrating, and I enjoy it.",
+      "In her words, I feel a breeze, and I am lost in that feeling.",
+      "Love has given me a flower, and I am blooming in its shade, why should I be pulled away?",
+      "In love, I rise and fall, and when I breathe, I feel like I'm disappearing without a trace.",
+      "I feel good, and I have been knocked out by happiness.",
+      "Oh my heart, you know the bitter taste, and you burn with understanding.",
+      "Oh my heart, you have opened up, and you have realized the truth.",
+      "In love, there is no game without effort, you should not give up.",
+      "Without love, you are stuck in a deadlock.",
+      "When I pull you close, she smiles, and I feel like I'm celebrating.",
+      "In her words, I feel a breeze, and I am lost in that feeling.",
+      "Love has given me a flower, and I am resting in its shade, will it ever end?",
+      "In love, when you fall, you should not let go of your thoughts, you should not lose your way.",
+      "I am slightly lost in love."
+    ]
+  }
 }

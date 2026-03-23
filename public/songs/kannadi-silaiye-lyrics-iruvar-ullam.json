@@ -38,5 +38,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:55:26.583Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "iruvar ullam",
+      "kannadi silaiye",
+      "romantic",
+      "melancholic",
+      "tamil song",
+      "2015",
+      "movie song",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannadi Silaiye</strong>?</h4><p>The song explores themes of love, longing, and introspection.</p></div><div class=\"faq-item\"><h4>In what context does the song appear in <em>Iruvar Ullam</em>?</h4><p>The song is featured in a romantic setting, highlighting the emotional connection between the characters.</p></div><div class=\"faq-item\"><h4>Who are the artists behind <strong>Kannadi Silaiye</strong>?</h4><p>The singer, lyricist, and music director are currently unknown.</p></div><div class=\"faq-item\"><h4>When was <em>Iruvar Ullam</em> released?</h4><p>The movie was released in 2015.</p></div></div>",
+    "summary": "The song <strong>Kannadi Silaiye</strong> from <em>Iruvar Ullam</em> is a poignant melody that delves into the depths of love and introspection. It captures the essence of a romantic encounter, where the protagonist is mesmerized by their beloved. The lyrics convey a sense of longing and emotional vulnerability, evoking a soothing yet melancholic mood. This song is perfect for moments of reflection and emotional connection.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kannadi Silaiye</strong> from the movie <em>Iruvar Ullam</em>. This song beautifully captures the essence of love and longing, making it a timeless piece. Dive into the soothing rhythms and let the emotions wash over you.",
+    "stanzaMeanings": [
+      "",
+      "Oh mirror statue, oh mirror statue, you stood in front of me, I saw your face.",
+      "Oh electric rain, oh electric rain, you poured inside me, I was overwhelmed.",
+      "When your gaze touched me, I forgot my father and mother. When you touched me, I lost myself.",
+      "Oh mirror statue, oh mirror statue, you stood in front of me, I saw your face.",
+      "Oh electric rain, oh electric rain, you poured inside me, I was overwhelmed.",
+      "How did you come to the side of my heart, close enough to touch?",
+      "The moon in the sky doesn't decorate itself, like that, you are my beauty on earth.",
+      "Is this a dream in my mind or a dream in reality? Is this pain or pleasure? I don't understand.",
+      "Oh mirror statue, oh mirror statue, you stood in front of me, I saw your face.",
+      "Oh electric rain, oh electric rain, you poured inside me, I was overwhelmed.",
+      "I haven't seen God, but I saw your face. When I saw your magical eyes, I fell into a trance.",
+      "In this world, I will think of you just once every moment. In my life, I will carry your life every day.",
+      "Is this a dream in my mind or a dream in reality? Is this pain or pleasure? I don't understand."
+    ]
+  }
 }

@@ -49,5 +49,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:50:17.628Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "meendum oru kadhal kadhai",
+      "sathya prakash",
+      "gv prakashkumar",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Mohini</strong>?</h4><p>The song <strong>Mohini</strong> expresses themes of love and longing, reflecting the emotional turmoil of the characters in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of <em>Meendum Oru Kadhal Kadhai</em>?</h4><p><em>Meendum Oru Kadhal Kadhai</em> revolves around the complexities of love and relationships, showcasing how past experiences shape present emotions.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Mohini</strong>?</h4><p>The singer of <strong>Mohini</strong> is <strong>Sathya Prakash</strong>, known for his soulful renditions in Tamil cinema.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Mohini</strong>?</h4><p>The music for <strong>Mohini</strong> was composed by <strong>GV Prakash Kumar</strong>, a prominent figure in the Tamil music industry.</p></div><div class=\"faq-item\"><h4>When was <strong>Mohini</strong> released?</h4><p><strong>Mohini</strong> was released on August 26, 2016.</p></div></div>",
+    "summary": "In <strong>Mohini</strong>, the protagonist grapples with feelings of love and nostalgia, encapsulated beautifully through Sathya Prakash's heartfelt vocals. The song serves as a poignant reminder of past relationships and the emotions that linger. With its soothing melody and romantic undertones, it evokes a sense of longing and reflection. This track is a significant moment in <em>Meendum Oru Kadhal Kadhai</em>, enhancing the film's exploration of love's complexities.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Mohini</strong> from <em>Meendum Oru Kadhal Kadhai</em> captures the essence of love and longing with its enchanting melody. Sathya Prakash's soulful vocals, combined with GV Prakash Kumar's masterful composition, create a mesmerizing experience that resonates deeply. This song is a perfect blend of romance and emotion, making it a must-listen for any music lover.",
+    "stanzaMeanings": [
+      "",
+      "What is Mohini doing coming into this world? Is she taking away the hearts everywhere?",
+      "Even if I see the honey droplets, they will still be valuable to me.",
+      "I have lived in this moment; I will not ask for life anymore.",
+      "There is no sleep on a night where the moonlight fills my heart, completely remembering your face.",
+      "Everything seems like a dream, as if time is standing still.",
+      "I saw this, and after that, I became lost in it.",
+      "Like something hidden in the clouds, will the world sleep when the day comes?",
+      "Come, come, for you, my heart is completely yours.",
+      "Burning, burning, like an unquenchable fire, you are my divine messenger.",
+      "",
+      "Even if I see the honey droplets, they will still be valuable to me.",
+      "I have lived in this moment; I will not ask for life anymore."
+    ]
+  }
 }

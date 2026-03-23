@@ -75,5 +75,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXYPD1kOJ4bDqmP8ND2YWbeTn3kD6BrGaXFHvThL9oqTwLYc4-_g8Mf6CjRr8baw54FEaz2mIECz0LgNml4gTYEMbSe2wzJo9zjgwuTTQKY9hx5Spft-oPejIFKNOJnD7WIIXNIoMyifE/s400-c/kakka-muttai-Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:55:17.137Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "heartbreak"
+    ],
+    "keywords": [
+      "kaakka muttai",
+      "gv prakash kumar",
+      "melancholic",
+      "2015",
+      "tamil song",
+      "movie",
+      "music",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Edhai Ninaithom'?</h4><p>The song conveys feelings of longing and the struggles of life, reflecting on unfulfilled desires.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie 'Kaakka Muttai'?</h4><p>In the movie, the song highlights the emotional journey of the characters as they navigate their dreams and realities.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>GV Prakash Kumar</strong>, who is also the <strong>music director</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Edhai Ninaithom' released?</h4><p>The song was released on <strong>May 8, 2015</strong>.</p></div></div>",
+    "summary": "In 'Edhai Ninaithom', GV Prakash Kumar delivers a haunting melody that resonates with the theme of unfulfilled dreams and nostalgia. The song reflects the struggles and aspirations of the characters in <em>Kaakka Muttai</em>, evoking a sense of longing and melancholy. Its poignant lyrics and soulful composition create an emotional atmosphere that lingers with the listener. This track stands out as a heartfelt expression of life's complexities and desires.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Edhai Ninaithom</strong> from <em>Kaakka Muttai</em> captures the essence of longing and nostalgia with GV Prakash Kumar's soulful rendition. The song beautifully intertwines heartfelt lyrics with a poignant melody, making it a memorable piece in Tamil cinema. Experience the emotional depth of this track that resonates with anyone who has ever yearned for something lost.",
+    "stanzaMeanings": [
+      "",
+      "We thought about something and we found it, after that we realized the truth.",
+      "There are no limits to desires. If we pursue them, life will be lost.",
+      "There is no one who desires only. Today, that is what you understood, dear.",
+      "New new efforts will arise. Day by day, sleep will be taken away.",
+      "Opening the mind, it will enjoy what is present.",
+      "We thought about something and we found it, after that we realized the truth.",
+      "We go up in desire to the clouds. We become crows over the cuckoo's egg.",
+      "If we enjoy the dew on the grass, the illusion of lightning will fade away.",
+      "If we think about what we have received and enjoy life, a new light will blow through the door of heaven.",
+      "We thought about something and we found it, after that we realized the truth.",
+      "There are no limits to desires. If we pursue them, life will be lost."
+    ]
+  }
 }

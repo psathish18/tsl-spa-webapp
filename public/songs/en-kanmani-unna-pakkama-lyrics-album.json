@@ -38,5 +38,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:08:46.266Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "en kanmani unna pakkama",
+      "album",
+      "romantic",
+      "melancholic",
+      "2018",
+      "song",
+      "lyrics",
+      "unknown"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, highlighting the emotional connection between two individuals.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>The movie for this song is currently <strong>unknown</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singer and music director of this song?</h4><p>The singer and music director for <strong>En Kanmani Unna Pakkama</strong> are currently <strong>unknown</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>June 29, 2018</strong>.</p></div></div>",
+    "summary": "The song <strong>En Kanmani Unna Pakkama</strong> beautifully encapsulates the feelings of love and longing, making it a perfect fit for romantic occasions. Its soothing melody and heartfelt lyrics evoke a sense of nostalgia and emotional depth. The song conveys the essence of cherishing moments spent with a loved one, resonating with anyone who has experienced love. It serves as a reminder of the beauty and complexity of relationships.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>En Kanmani Unna Pakkama</strong> is a beautifully crafted melody that captures the essence of longing and love. The soothing lyrics and heartfelt emotions resonate deeply, making it a perfect listen for romantic moments. Experience the magic of this song that speaks to the soul and evokes cherished memories.",
+    "stanzaMeanings": [
+      "My dear, I can't see you, even seeing you doesn't bring life to me, I have come to live here without you.",
+      "Seeing you makes my eyes lose focus. I too become loose here. You too can't leave me, girl.",
+      "For many days, I have seen you like this, when I open my eyes, you seem to have gone somewhere.",
+      "Where is my moon? It has fallen somewhere, where is my night? It has gone somewhere.",
+      "My dreams are searching for you somewhere, my dreams are looking for it here. It won't go away until dawn.",
+      "One day, I saw you, my love, to bring you into my life...",
+      ""
+    ]
+  }
 }

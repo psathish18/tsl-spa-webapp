@@ -96,5 +96,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQJ23LY3is733v4-hUiEIUKf8YJ_hvNJz8tLs_LEe-Sk_5Qt6SGTuZoC4ICdvB36RoMefYhuW-G75veBFzlBrpuxv7qVADZSGl2agVbmyoRKWPByQVCM03ha8T8uLohpuAQ6eqd17latc/s400-c/Nee+Yaro+Yaro.JPG",
   "generatedAt": "2026-01-18T13:02:45.884Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "raja rani",
+      "gv prakashkumar",
+      "romantic",
+      "melancholic",
+      "2013",
+      "tamil song",
+      "nee yaro yaro",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of longing and emotional connection, reflecting on love and relationships.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie?</h4><p>In <em>Raja Rani</em>, the song underscores pivotal moments of love and emotional turmoil between the characters.</p></div><div class=\"faq-item\"><h4>Who is the music director of this song?</h4><p>The music for <strong>Nee Yaro Yaro</strong> is composed by <strong>GV PrakashKumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>September 27, 2013</strong>.</p></div></div>",
+    "summary": "In <strong>Nee Yaro Yaro</strong>, the protagonist reflects on the complexities of love and the emotions tied to it. The song's soothing melody and poignant lyrics evoke a sense of nostalgia and longing, making it relatable for anyone who has faced heartbreak. Set against the backdrop of <em>Raja Rani</em>, it serves as a musical expression of the characters' inner struggles. The heartfelt delivery and composition create an atmosphere that resonates deeply with the audience.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Nee Yaro Yaro</strong> from <em>Raja Rani</em> captures the essence of longing and love with its haunting melody. The composition by GV PrakashKumar beautifully complements the emotional depth of the lyrics, making it a standout track. This song resonates with anyone who has experienced the bittersweet pangs of love, inviting listeners to immerse themselves in its heartfelt vibe.",
+    "stanzaMeanings": [
+      "",
+      "Who are you, who am I? Right now, I am in you.",
+      "Without understanding, without saying, you and I lived some kind of life yesterday.",
+      "I saw the day I would live again, I realized I lost something precious.",
+      "Now, your loneliness will decrease, and the meaning of life will become clear.",
+      "",
+      "Who are you, who am I? Right now, I am in you.",
+      "Without understanding, without saying, you and I lived some kind of life yesterday."
+    ]
+  }
 }

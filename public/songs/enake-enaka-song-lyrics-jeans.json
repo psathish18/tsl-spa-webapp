@@ -100,5 +100,73 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:18:36.356Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "jeans",
+      "enake enaka",
+      "pallavai",
+      "unnikrishnan",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "1998"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Enake Enaka</strong>?</h4><p>The song <strong>Enake Enaka</strong> expresses themes of love and affection, capturing the emotions of longing and desire.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie <em>Jeans</em>?</h4><p>In <em>Jeans</em>, the song is a romantic number that showcases the blossoming love between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of the song?</h4><p>The song features the talented voices of <strong>Pallavai</strong> and <strong>Unnikrishnan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Enake Enaka</strong>?</h4><p>The music for <strong>Enake Enaka</strong> was composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 24, 1998</strong>.</p></div></div>",
+    "summary": "In the film <em>Jeans</em>, the song <strong>Enake Enaka</strong> serves as a beautiful expression of love, highlighting the chemistry between the protagonists. The enchanting melody, composed by AR Rahman, combined with Vairamuthu's evocative lyrics, creates a romantic atmosphere that resonates with listeners. The duet by Pallavai and Unnikrishnan adds a layer of charm, making it a perfect fit for weddings and celebrations. This song captures the essence of youthful love and the joy it brings, evoking feelings of happiness and nostalgia.",
+    "releaseYear": "1998",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Enake Enaka</strong> from the film <em>Jeans</em>, where the melodious voices of Pallavai and Unnikrishnan blend seamlessly with AR Rahman's captivating composition. This romantic duet captures the essence of love and longing, making it a timeless classic. Dive into the lyrical beauty crafted by Vairamuthu that resonates with every heart.",
+    "stanzaMeanings": [
+      "",
+      "enake enakkaa enake enakaa madhumithaa madhumithaa",
+      "hairaa haira hairabaa",
+      "hairaa haira hairabaa hairaa haira hairabaa",
+      "fifty Kg Tajmahal is for me, a paradise that came on a flight for me",
+      "hairaa haira hairabaa hairaa haira hairabaa",
+      "in pocket size, moonlight is for me, a poem that came by fax for me",
+      "can we catch the raindrops in our hearts, can we sweep them away with our hair",
+      "can we take you and send you away, can we sing on the roof, can we give a boon with a flower in our hands",
+      "hairaa haira hairabaa hairaa haira hairabaa",
+      "fifty Kg Tajmahal is for me, a paradise that came on a flight for me",
+      "my love, we will come to America as a couple, spreading a blanket over the sea, we will enter this world",
+      "we will sing our love, we will erase the thief of the heart",
+      "you are drinking in the open sky, what is it that you are doing with me, is it a game or a dance",
+      "in the heat of love, you are burning, is it a child's heart or something else",
+      "the age of the wind has come, the age of the earth has come",
+      "even if the age of the world passes, love will never age",
+      "hairaa haira hairabaa hairaa haira hairabaa",
+      "fifty Kg Tajmahal is for me, a paradise that came on a flight for me",
+      "hairaa haira hairabaa hairaa haira hairabaa",
+      "the wind that steals cherry blossoms said I LOVE YOU",
+      "the birds on the Cyprus trees said I LOVE YOU",
+      "your love that you spoke of, the breeze and the birds, did not get lost in love's embrace",
+      "in one leg, flowers bloom, it is only in your hair that the garland rests",
+      "the raindrops fall on the earth, the reflection in your eyes is where I will kiss you",
+      "even if the heart beats, in a moment, life will exist for both of us",
+      "my love, if you leave me, my life cannot survive",
+      "hairaa haira hairabaa hairaa haira hairabaa",
+      "fifty Kg Tajmahal is for me, a paradise that came on a flight for me",
+      "hairaa haira hairabaa hairaa haira hairabaa",
+      "in pocket size, moonlight is for you, a poem that came by fax for you",
+      "can we take you and send you away, can we sing on the roof",
+      "can we catch the raindrops in our hearts, can we sweep them away with our hair",
+      "can we give a boon with a flower in our hands",
+      "hairaa haira hairabaa hairaa haira hairabaa"
+    ]
+  }
 }

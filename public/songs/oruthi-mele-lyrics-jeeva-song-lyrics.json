@@ -95,5 +95,60 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyFGcLbpzlthTAtw8v32XN_7f0dHTVxUzKIpEee7Sh4nF9XeCaLuOjnsfHBP9x27vxMcj0E_JKevvMedJCwBB0FgSZlCkmtqHErAL-e_PMqtCh9aB3WMTsermcLLJOlzrmIiJeNzDLdLU/s400-c/Jeeva+.jpg",
   "generatedAt": "2026-01-18T12:57:56.448Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "jeeva",
+      "abhay jodhpurkar",
+      "d imman",
+      "romantic",
+      "soothing",
+      "2014",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oruthi Mele</strong>, the lyrics convey a deep sense of love and connection, reflecting the emotions of the characters in <em>Jeeva</em>. The song's soothing melody and heartfelt vocals create an atmosphere of romance and longing. It encapsulates the beauty of relationships, making it perfect for intimate moments. The collaboration between Abhay Jodhpurkar and the El Fé Choir adds a unique charm, enhancing the overall experience.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Oruthi Mele</strong> from <em>Jeeva</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Abhay Jodhpurkar and the El Fé Choir, this song creates a soothing atmosphere that resonates with the heart. D Imman's soulful composition elevates the emotional depth, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "I have fallen in love with someone again, my friend, please send a message.",
+      "I have fallen in love with someone again, my friend, please send a message.",
+      "Hey, if you cross the obstacles, you will find a place to stay.",
+      "If you speak without hesitation, you can bring me along.",
+      "I have fallen in love with someone again, my friend, please send a message.",
+      "I have fallen in love with someone again, my friend, please send a message.",
+      "You are beautiful, but you also have limitations. However, you are still precious.",
+      "Your pride and beauty are excessive. Is it okay to say that?",
+      "I gave you pearls, but they were taken away as a punishment.",
+      "When I ask for something again, I only get silence in return.",
+      "Come with my kiss.",
+      "",
+      "Don't let her be lost in her own thoughts and forget to shine.",
+      "Don't let her heart be burdened by the past.",
+      "Even if you go and ask, love will not be spoken of.",
+      "Even if you hear it in your dreams, it will not take us away.",
+      "You are my love, don't forget that.",
+      "I have fallen in love with someone again, and I don't want anyone to take it away.",
+      "Don't say anything that would spoil my desire.",
+      "Hey, if you cross the obstacles, I have embraced love.",
+      "If you speak your heart, I will also live a little longer."
+    ]
+  }
 }

@@ -45,5 +45,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:01.300Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "aayirathil oruvan",
+      "maalai neram",
+      "andrea jeremiah",
+      "gv prakash kumar",
+      "yuvan",
+      "romantic",
+      "melody",
+      "2009"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Maalai Neram</strong> beautifully expresses themes of love and connection, evoking deep emotions through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Aayirathil Oruvan</em>, the song plays during a pivotal moment that highlights the romantic relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Andrea Jeremiah</strong> and <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Maalai Neram</strong> was composed by the renowned <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Maalai Neram</strong> was released on July 24, 2009.</p></div></div>",
+    "summary": "In <strong>Maalai Neram</strong>, the song encapsulates the tender emotions of love and longing, set against the backdrop of <em>Aayirathil Oruvan</em>. The lyrics convey a sense of nostalgia and connection, making it a perfect melody for romantic occasions. The soothing voices of Andrea Jeremiah and GV Prakash Kumar enhance the emotional depth of the song. Overall, it evokes feelings of warmth and affection, making it a cherished piece in Tamil cinema.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Maalai Neram</strong> from <em>Aayirathil Oruvan</em> is a beautifully crafted duet that captures the essence of love and longing. With the enchanting voices of Andrea Jeremiah and GV Prakash Kumar, paired with Yuvan's mesmerizing composition, this song takes you on an emotional journey. Experience the magic of this romantic melody that resonates with every heartbeat.",
+    "stanzaMeanings": [
+      "Evening time, the rain is pouring, I am standing by my window.",
+      "You and I are like a small cloud in a big sky, memories flow like rivers, and paths change with experiences.",
+      "Is this life? A companion is needed, my heart is asking me something.",
+      "Oh, love has risen here, a poem has come to an end, searching for what was lost, my dear.",
+      "This is sorrow, but also a comfort, it spreads within my heart, our past times give us joy, my dear.",
+      "In your hands, there are a thousand memories, in your other hand, there are a hundred memories.",
+      "In love, a fallen heart cannot be repaired, the truths lost in dreams cannot be regained.",
+      "In a moment, if you are not there, my heart cannot find peace, even if we are separated, I feel like I have lost myself.",
+      "Oh, love has risen here, a poem has come to an end, searching for what was lost, my dear.",
+      "This is sorrow, but also a comfort, it spreads within my heart, our past times give us joy, my dear.",
+      "Hey hey, this will give us joy, oh.",
+      "If you come to my door once, what will I say if I hear your words? If two hearts unite, what will happen if they have flaws? If two directions meet in the sky, what will happen?",
+      "Without you, my searches are in vain, my dreams are lost, if we melt in each other's gaze, what will happen?",
+      "Evening time, the rain is pouring, I am standing by my window.",
+      "You and I are like a small cloud in a big sky, memories flow like rivers, and paths change with experiences.",
+      "Is this life? A companion is needed, my heart is asking me something.",
+      "Oh, love has risen here, a poem has come to an end, searching for what was lost, my dear.",
+      "This is sorrow, but also a comfort, it spreads within my heart, our past times give us joy, my dear, this will give us joy, this will give us joy."
+    ]
+  }
 }

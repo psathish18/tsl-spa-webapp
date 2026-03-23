@@ -72,5 +72,37 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:16.644Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "sad"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "chekka chivantha vaanam",
+      "bhoomi bhoomi",
+      "melancholic",
+      "sad",
+      "2018",
+      "song meaning",
+      "lyrics translation",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Bhoomi Bhoomi?</h4><p>The song <strong>Bhoomi Bhoomi</strong> explores themes of separation and emotional pain in relationships.</p></div><div class=\"faq-item\"><h4>In which movie does the song Bhoomi Bhoomi appear?</h4><p>The song is featured in the movie <strong>Chekka Chivantha Vaanam</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of Bhoomi Bhoomi?</h4><p>The singer of <strong>Bhoomi Bhoomi</strong> is currently unknown.</p></div><div class=\"faq-item\"><h4>What year was Bhoomi Bhoomi released?</h4><p><strong>Bhoomi Bhoomi</strong> was released in the year <strong>2018</strong>.</p></div></div>",
+    "summary": "The song <strong>Bhoomi Bhoomi</strong> from <em>Chekka Chivantha Vaanam</em> delves into the emotional struggles of separation, capturing the essence of heartbreak. Its melancholic tone and poignant lyrics reflect the pain of lost relationships, making it relatable to many. The song serves as a reminder of the emotional weight carried in moments of parting. Through its haunting melody, it evokes feelings of nostalgia and sadness, resonating deeply with listeners.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Bhoomi Bhoomi</strong> from <em>Chekka Chivantha Vaanam</em> encapsulates the deep emotional turmoil of separation, resonating with anyone who has faced heartbreak. The poignant lyrics and haunting melody create a reflective atmosphere, making it a standout piece in the film's soundtrack. Experience the raw emotions as the song beautifully translates the pain of lost connections.",
+    "stanzaMeanings": [
+      "Which is the beginning? Which is the end? Will the endless sky end somewhere? Can’t it end? Like the body, does the soul die? The spirit of the body may break. Hey, screaming mind, don’t you bother. When the leaf falls, the tree doesn’t die. Live every day neutrally because the world is not stable. Oh, the sound of the rotating earth. The sound of the seashore. The sound of wars by humans. In these sounds, how will we hear the bird’s voice? If a fish cries in the sea, will its cry be heard on the seashore? Can the heart bear it? Can the heart bear it? Can the heart bear it? Hey heart, can the heart bear it? Can the heart bear it? Can the heart bear it? Is it bearable? Is it bearable? Is it bearable? Oh, the sound of the rotating earth. The sound of the seashore. The sound of wars by humans. In these sounds, how will we hear the bird’s voice? If a fish cries in the sea, will it be heard from the seashore?"
+    ]
+  }
 }

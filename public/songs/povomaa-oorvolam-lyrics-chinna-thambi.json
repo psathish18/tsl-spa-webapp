@@ -52,5 +52,62 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:14.137Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "celebration"
+    ],
+    "keywords": [
+      "povomaa oorvolam",
+      "chinna thambi",
+      "s. p. balasubrahmanyam",
+      "swarnalatha",
+      "ilayaraja",
+      "gangai amaran",
+      "nostalgic",
+      "romantic",
+      "1991"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Povomaa Oorvolam</strong>, the protagonists express their longing for a beautiful life together, reflecting on the joys and wonders of love. The song beautifully encapsulates the emotions of hope and happiness, making it a perfect fit for romantic occasions. Set against the backdrop of <em>Chinna Thambi</em>, it enhances the narrative of love and companionship. The soothing melody and heartfelt lyrics evoke a sense of nostalgia, making it a cherished classic.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "<strong>Povomaa Oorvolam</strong> from the timeless movie <em>Chinna Thambi</em> is a melodious duet that captures the essence of love and nostalgia. With the enchanting voices of S. P. Balasubrahmanyam and Swarnalatha, this song resonates deeply with listeners, evoking cherished memories. The masterful composition by Ilaiyaraaja adds a unique charm, making it a classic in Tamil cinema.",
+    "stanzaMeanings": [
+      "We will go to the world, everywhere in the universe.",
+      "The sound of the flute and the song of the birds, at all times, brings happiness and joy.",
+      "We will go to the world, everywhere in the universe.",
+      "Will the gentle breeze walk on the path? Will it come to the kitchen?",
+      "Will the coolness in the shade and the warmth in the sun bring comfort?",
+      "In the small, cozy place, will the little things be cherished?",
+      "Will the gentle breeze here touch and reach there?",
+      "Like a flower, your home is a beautiful place.",
+      "Look, I will fly over the fields and come back.",
+      "I have come searching for a wonderful new joy.",
+      "We will go to the world, everywhere in the universe.",
+      "The sound of the flute and the song of the birds, at all times, brings happiness and joy.",
+      "We will go to the world, everywhere in the universe.",
+      "The sharp knife cuts, and the little bird sings, oh what a wonder!",
+      "In dreams, I find joy and savor what I see, what a pleasure this is!",
+      "The gems shine, the pearls sparkle, flowing in the river.",
+      "The high peaks are calling, and I am lost inside, I can't understand anything.",
+      "The singing river joins with the flowing waves, even if a hundred elephants dance, it won't stop.",
+      "Enough, enough, I will go, I will leave now.",
+      "We will go to the world, everywhere in the universe.",
+      "The sound of the flute and the song of the birds, at all times, brings happiness and joy.",
+      "We will go to the world, everywhere in the universe."
+    ]
+  }
 }

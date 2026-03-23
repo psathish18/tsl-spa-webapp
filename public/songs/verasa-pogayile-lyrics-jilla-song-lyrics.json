@@ -108,5 +108,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCqzz84nK1B_iqhLS9TN4O7VR82ZqssmG9c8EWqU-F1hc2RUGg76A4nZHK_71hq0ohZygDMqwntD2FZXIcrG_CqM1y7cmJm1F8JcOvDgsDZQA1MheZEwBjgI6lmTCgnWNT10dLwkxWEVo/s400-c/Jilla.jpg",
   "generatedAt": "2026-01-18T13:01:45.224Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "jilla",
+      "d imman",
+      "parvathi",
+      "verasa pogayile",
+      "happy",
+      "energetic",
+      "2013",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Verasa Pogayile</strong>?</h4><p>The song conveys themes of joy and celebration, reflecting the excitement of new experiences.</p></div><div class=\"faq-item\"><h4>How does <strong>Verasa Pogayile</strong> fit into the plot of <em>Jilla</em>?</h4><p>This song highlights moments of happiness and camaraderie among the characters, enhancing the film's overall festive atmosphere.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of <strong>Verasa Pogayile</strong>?</h4><p>The song is sung by <strong>D Imman</strong>, who also composed the music for the film.</p></div><div class=\"faq-item\"><h4>When was <strong>Verasa Pogayile</strong> released?</h4><p>The song was released on <strong>December 17, 2013</strong>.</p></div></div>",
+    "summary": "In <strong>Verasa Pogayile</strong>, the vibrant energy of the song encapsulates the joy of living life to the fullest. Set against the backdrop of <em>Jilla</em>, it portrays moments of celebration and happiness among the characters. The catchy melody and engaging lyrics evoke feelings of excitement and positivity. This track serves as a reminder to embrace new experiences and cherish joyful moments.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Verasa Pogayile</strong> from the <em>Jilla</em> movie is a vibrant celebration of life and joy, brought to life by the melodious voice of D Imman. This track perfectly captures the essence of youthful exuberance and the thrill of new beginnings. With its catchy beats and engaging lyrics, it's a must-listen for anyone looking to uplift their spirits!",
+    "stanzaMeanings": [
+      "",
+      "In this new place, there’s a coolness that I can feel. Her smile is unique, and my words are visible through my eyes.",
+      "What is this for me? There are many new doubts arising. In this situation, whether to eat or not, I feel like I’m stuck between two choices.",
+      "I always walk this path, but now it feels like my heart is stuck without moving.",
+      "",
+      "In this new place, there’s a coolness that I can feel. Her smile is unique, and my words are visible through my eyes.",
+      "It’s a good situation, but I feel crazy about your presence. All the stories that were once told are now just tales from the past.",
+      "You and I are different, but right now, you’re speaking to my heart, and I’m half of what you are.",
+      "In this new place, there’s a coolness that I can feel. Her smile is unique, and my words are visible through my eyes."
+    ]
+  }
 }

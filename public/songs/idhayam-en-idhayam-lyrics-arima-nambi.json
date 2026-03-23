@@ -74,5 +74,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9YJYfDsP-pF9gaJlRAuCZHzZjRtsEB9mYCwxo1cWGtljtFfJgdBExakVW2HvT5c9sEskiEZl4JDNyLqjuBzyrSthdHUOqII8_7IM_7sxGffhYMbm-DzS1QFgYYtF3pDFcGFIaiN8RX2U/s400-c/Arima-Nambi.jpg",
   "generatedAt": "2026-01-18T12:58:52.358Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "idhayam en idhayam",
+      "arima nambi",
+      "javed ali",
+      "sivamani",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Idhayam En Idhayam'?</h4><p>The song expresses deep romantic feelings and the connection between two lovers, highlighting the emotions of love and longing.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Arima Nambi'?</h4><p>In <em>Arima Nambi</em>, the song plays during a pivotal moment that showcases the protagonist's feelings for his love interest, enhancing the romantic narrative of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Javed Ali</strong> and composed by <strong>Sivamani</strong>, known for their exceptional contributions to Tamil music.</p></div><div class=\"faq-item\"><h4>When was 'Idhayam En Idhayam' released?</h4><p>The song was released on <strong>July 5, 2014</strong>, as part of the movie <em>Arima Nambi</em>.</p></div></div>",
+    "summary": "In 'Idhayam En Idhayam', the protagonist expresses his heartfelt emotions towards his beloved, encapsulating the essence of romantic love. The song's soothing melody and Javed Ali's captivating vocals create an intimate atmosphere that resonates with listeners. It conveys a sense of longing and connection, making it perfect for romantic occasions. This track beautifully enhances the narrative of <em>Arima Nambi</em>, leaving a lasting impression on the audience.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Idhayam En Idhayam</strong> from the movie <em>Arima Nambi</em> is a mesmerizing romantic melody that beautifully captures the essence of love. With Javed Ali's soulful voice and Sivamani's enchanting music, this song creates an atmosphere of deep emotional connection. Experience the magic of love through this captivating track that resonates with every heartbeat.",
+    "stanzaMeanings": [
+      "",
+      "My heart has come to you, what about your heart coming to me? I have come into your eyes, dear, now everything is behind you.",
+      "What is this magic? You touched me, but there is no reality.",
+      "My heart has come to you...",
+      "Love is that, dear, the world is a book, and both the images are a story. I read poems, and I forgot myself a thousand times. I looked up to the sky and called out, but there is nothing here, dear, with me.",
+      "What is this magic? You touched me, but there is no reality.",
+      "My heart has come to you...",
+      "My heart has come to you, what about your heart coming to me?",
+      "Love has come in the body, in sleep, your name is called. Oh, in life, rain and sunshine are both given. I have lost something, I have gained something, what else can I ask? I need a place in your heart.",
+      "What is this magic? You touched me, but there is no reality.",
+      "My heart has come to you, what about your heart coming to me? I have come into your eyes, dear, now everything is behind you.",
+      "What is this magic? You touched me, but there is no reality."
+    ]
+  }
 }

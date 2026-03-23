@@ -112,5 +112,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQMkKdwLMKuOT21hLoDKFAIep6odhfx4t24Pnw7sHoiVbqXMxwD_6AbJ06dM_dzlLVIKsdVh-hqVHGSUyHivzpOD2lT7hufjNFX5YVzXCLLLzy-X3YFtq2Qnspogz8-U3zHcMR6i8Qkw/s400-c/rajinikanth.jpg",
   "generatedAt": "2026-01-18T12:44:28.395Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "motivational",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "theme"
+    ],
+    "occasions": [
+      "workout",
+      "motivation",
+      "celebration"
+    ],
+    "keywords": [
+      "kaala",
+      "arunraja kamaraj",
+      "santhosh narayanan",
+      "motivational",
+      "energetic",
+      "2018",
+      "tamil",
+      "movie",
+      "lyrics",
+      "theme"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Katravai Patravai</strong>?</h4><p>The song is a motivational anthem encouraging empowerment and action.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Kaala</em>?</h4><p><strong>Santhosh Narayanan</strong> composed the music for the movie.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie <em>Kaala</em>?</h4><p>The song serves as a rallying cry for the protagonist's fight against oppression.</p></div><div class=\"faq-item\"><h4>Who wrote and performed <strong>Katravai Patravai</strong>?</h4><p><strong>Arunraja Kamaraj</strong> both wrote and performed the song.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released in 2018.</p></div></div>",
+    "summary": "<strong>Katravai Patravai</strong> is a stirring motivational song from the movie <em>Kaala</em>, performed and penned by Arunraja Kamaraj. The song is set against the backdrop of the protagonist's struggle for justice and empowerment. With its energetic beats and powerful lyrics, it inspires listeners to rise against adversity. Santhosh Narayanan's music amplifies the revolutionary spirit, making it a perfect anthem for those seeking motivation and strength.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Katravai Patravai</strong> from the movie <em>Kaala</em> is a powerful anthem that channels the raw energy and motivational spirit of Arunraja Kamaraj's vocals. With Santhosh Narayanan's intense musical backdrop, this song is a call to action and empowerment. Dive into the revolutionary vibe that makes this track a standout in Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "The ten-headed Ravana stands tall, come and take everything from Delhi.",
+      "Turn your struggles into a revolution, turn boundaries into fields, cure the disease of poverty, and let slavery end.",
+      "Come, in the dusty hearts, let the hidden dirt be washed away, let the people unite and stand strong.",
+      "Come, search for what you don't have, find it, and let unity grow in your heart.",
+      "Reveal the truth or sacrifice it.",
+      "Go! Come, conquer yourself and the land, bring an endless need, a thousand years are enough, change and unite.",
+      "",
+      "The ten-headed Ravana stands tall.",
+      "Trying to bring me down for nothing. Let me tell you something that I ain't going down without a fight being afraid of the dark black night.",
+      "Let no enemy break you, crush them in a moment, let some foxes run away now.",
+      "Come, conquer yourself and the land, bring an endless need, a thousand years are enough, change and unite.",
+      "Hold on to what you learn.",
+      ""
+    ]
+  }
 }

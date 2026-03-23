@@ -95,5 +95,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhptZJPJLfsBZQb7wBM1zRIvkpCPaWLA_yOlNoLGJONbPMF47Om-rEeKEjjmDTiDh-BAP_D24RoCsKZuUSy6sVyCHKcvRdXMpHGWtiEwa_cP6rPZQioMbNKwmJMpqC3NYO88qizhISStI/s400-c/Taramani+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:47:56.532Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation"
+    ],
+    "keywords": [
+      "taramani",
+      "yuvan",
+      "na muthukumar",
+      "melancholic",
+      "2016",
+      "tamil",
+      "song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song reflects themes of longing and heartbreak, capturing the emotional turmoil of the characters in <em>Taramani</em>.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Taramani</em>, the song underscores pivotal moments of emotional conflict, enhancing the narrative's depth.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Yuvan Shankar Raja</strong>, who is also the music director.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Yaaro Ucchikilai Meley</strong> was released on December 30, 2016.</p></div></div>",
+    "summary": "In <strong>Yaaro Ucchikilai Meley</strong>, the listener is taken on an emotional journey that reflects the struggles of love and loss. The song's melancholic tone, paired with Yuvan's expressive vocals, evokes a sense of nostalgia and longing. It beautifully encapsulates the essence of the characters' experiences in <em>Taramani</em>, making it a poignant addition to the film's soundtrack. The lyrics by Na Muthukumar further enhance the emotional depth, resonating with anyone who has faced heartache.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Yaaro Ucchikilai Meley</strong> from <em>Taramani</em> is a hauntingly beautiful melody that captures the essence of longing and nostalgia. With Yuvan's soulful voice and Na Muthukumar's poignant lyrics, this song resonates deeply with anyone who has experienced heartache. Dive into the emotional depths of this track that perfectly complements the film's narrative.",
+    "stanzaMeanings": [
+      "",
+      "Someone has taken the umbrella, and it will open up the heavy rain.",
+      "There is no one here, this land has no living souls.",
+      "The beginning of the world is given to me, I am myself.",
+      "The wind touches and opens it, I am myself.",
+      "The sky has come down to the earth, I am myself.",
+      "Now the time of the stars is given to me, I am myself.",
+      "In the forest, a small bird is chirping softly.",
+      "In the wind, the sound of its movement is not being heard.",
+      "That time will return, as time goes by, the experiences of past lives will come back.",
+      "When tears fall, you will come.",
+      "When I sleep in your embrace, you are my mother.",
+      ""
+    ]
+  }
 }

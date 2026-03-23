@@ -48,5 +48,59 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:30.312Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "idhu namma aalu",
+      "s.janaki",
+      "vaali",
+      "k.bhagyaraj",
+      "romantic",
+      "melody",
+      "1988",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep romantic feelings and the complexities of love, highlighting emotions that resonate with many.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Idhu Namma Aalu</em>, the song reflects the protagonist's romantic journey and emotional struggles.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the legendary S. Janaki, known for her soulful voice and emotive singing style.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by the renowned lyricist Vaali, who is celebrated for his poetic expressions in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on August 5, 1988, as part of the movie <em>Idhu Namma Aalu</em>.</p></div></div>",
+    "summary": "In <strong>Naan Aalana Thamarai</strong>, the protagonist navigates the complexities of love, expressing heartfelt emotions that resonate with listeners. The song's soothing melody, paired with S. Janaki's captivating vocals, creates a nostalgic atmosphere that transports the audience back to cherished memories. It beautifully encapsulates the essence of romance, making it a perfect choice for intimate occasions. The lyrics by Vaali add depth to the song, enhancing its emotional impact and making it a timeless classic.",
+    "releaseYear": "1988",
+    "high_ctr_intro": "<strong>Naan Aalana Thamarai</strong> from the movie <em>Idhu Namma Aalu</em> is a timeless classic that beautifully captures the essence of romance and nostalgia. With the enchanting voice of S. Janaki and the poignant lyrics by Vaali, this song resonates deeply with anyone who has experienced love. Dive into the melodious world of this 1988 gem and relive the emotions it evokes.",
+    "stanzaMeanings": [
+      "",
+      "I have been awake for many days, I have been awake for many days.",
+      "Even if I try, I can't understand anything, that worried look doesn't make sense.",
+      "If I touch you, what will you do? Come here and give me a kiss.",
+      "I have been awake for many days.",
+      "I have understood your desires and needs by observing you closely.",
+      "Today, if I push away my feelings, my body won't bear it.",
+      "Your eyes can't sleep because of me.",
+      "Your anger and frustration won't let me rest, will you give me a place to stay?",
+      "My heart is troubled, what is this trouble?",
+      "Let's go...",
+      "I have been awake for many days.",
+      "Even if I try, I can't understand anything, that worried look doesn't make sense.",
+      "If I touch you, what will you do? Come here and give me a kiss.",
+      "Yesterday was cold, now it's been three weeks since it has been chilly.",
+      "If there are no blessings, we will all suffer, I will come and bring the truth.",
+      "Your anger and frustration won't let me rest, will you give me a place to stay?",
+      "I am saying, I am saying, I am saying, stop.",
+      "I have been awake for many days.",
+      "Even if I try, I can't understand anything, that worried look doesn't make sense.",
+      "If I touch you, what will you do? Come here and give me a kiss."
+    ]
+  }
 }

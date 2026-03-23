@@ -73,5 +73,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaozxV-f7Xxra5t3QJqqV39lb_Mz9i7hlDkohtgFDjuVOEntq-IYwbM-jUBNnl_731iYV1ZEJHs-K7p1kN2nvi_cMgN5I3dIOk23RafQZRmrjyXSUpYZ659nX-lstpMWTAKEhTrC8W1qo/s400-c/Raja+Mandhiri+Song+Lyrics.jpg",
   "generatedAt": "2026-02-01T14:29:17.199Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "raja mandhiri",
+      "chinna ponnu",
+      "justin prabhakaran",
+      "dance number",
+      "upbeat",
+      "energetic",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Bam Bam Bam Bambaram</strong> is a lively dance number that celebrates joy and togetherness, encouraging listeners to enjoy life and festivities.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>The song is featured in <em>Raja Mandhiri</em>, where it highlights a festive gathering, showcasing the characters' camaraderie and celebration.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Chinna Ponnu</strong> and composed by <strong>Justin Prabhakaran</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Bam Bam Bam Bambaram</strong> was released on April 7, 2016.</p></div></div>",
+    "summary": "In <strong>Bam Bam Bam Bambaram</strong>, the lively beats and catchy lyrics create an atmosphere of celebration and joy. The song encapsulates the essence of togetherness, inviting everyone to join in the fun and festivities. It evokes feelings of happiness and energy, making it a perfect addition to any party or wedding. The vibrant performance by Chinna Ponnu adds to the song's charm, ensuring it resonates with audiences.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Bam Bam Bam Bambaram</strong> is a vibrant and energetic track that perfectly captures the festive spirit of <em>Raja Mandhiri</em>. With Chinna Ponnu's lively vocals and Justin Prabhakaran's catchy composition, this song is sure to get everyone on their feet. Experience the joy and excitement that this dance number brings to any celebration!",
+    "stanzaMeanings": [
+      "",
+      "Bam Bam Bam Bambaram, a rhythm that brings joy and celebration.",
+      "Hey Ram, Bam Bam Bam Bambaram, the rhythm brings happiness, and we can dance without any worries.",
+      "Come on, we are a united group, and no one can come in; we won't let anyone go, this is a rule we follow.",
+      "There are no good kids here, just leave; you are the one who is everything.",
+      "These mischievous ones are taking away the life of the village, this is what is happening.",
+      "No matter how much you hit or like, if a fight comes, there is no love left. This brother is not from this place.",
+      "Bam Bam Bam Bambaram, a rhythm that brings joy and celebration.",
+      "If this brother hears the story, he will get angry with you.",
+      "As we go around the village, tears will come from the heart when we return home.",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
 }

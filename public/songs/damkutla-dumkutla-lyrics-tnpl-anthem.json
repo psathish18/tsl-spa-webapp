@@ -39,5 +39,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ1H2Xs1rlVhScClg3qmttWn9BiQ7C_RTStnhyphenhyphenNwIr9VsGuULbfyxuC8gJEE1FAuJJ6zbqoo-emKL0o1x2cevusXdB9dTRDiMOoUgWtKgCEVLJh9YpmdqZlx6qRXD8axxhT3W69C-dmk0/s400-c/TNPL+Theme+Song.JPG",
   "generatedAt": "2026-01-18T12:50:22.384Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "theme",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "tnpl anthem",
+      "anirudh",
+      "shabareesh varma",
+      "g rokesh",
+      "energetic",
+      "dance number",
+      "2016",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Damkutla Dumkutla</strong> celebrates the spirit of sports and camaraderie, encouraging listeners to join in the fun and excitement.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is part of the <strong>TNPL Anthem</strong> and does not belong to a specific movie.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Anirudh</strong> and <strong>Shabareesh Varma</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this anthem?</h4><p>The music for <strong>Damkutla Dumkutla</strong> was composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 18, 2016</strong>.</p></div></div>",
+    "summary": "The song <strong>Damkutla Dumkutla</strong> serves as the vibrant anthem for the TNPL, encapsulating the thrill and excitement of cricket. Its upbeat tempo and energetic lyrics evoke feelings of joy and celebration, making it perfect for festive occasions. The collaboration between <strong>Anirudh</strong> and <strong>Shabareesh Varma</strong> brings a lively spirit that resonates with fans and players alike. This anthem encourages unity and enthusiasm, making it a staple for any celebration.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Damkutla Dumkutla</strong> is an electrifying anthem that captures the spirit of celebration and excitement. With <strong>Anirudh's</strong> vibrant beats and <strong>Shabareesh Varma's</strong> dynamic vocals, this song is sure to get everyone on their feet. Experience the infectious energy of this anthem that perfectly embodies the essence of the TNPL!",
+    "stanzaMeanings": [
+      "",
+      "We will not change our ways, we will stand strong and proud for our team.",
+      "We will not change our ways, we will unite and fight together with three goals in mind.",
+      "We are strong, we will give our best, who is coming here to challenge us?",
+      "When they come, they must face us, they must be ready to compete and fight.",
+      "",
+      "We will not change our ways, we will stand strong and proud for our team.",
+      "We will not change our ways, we will unite and fight together with three goals in mind.",
+      "This is our place, this is our pride.",
+      "With a little effort, we will achieve great things, this is our TNPL legacy."
+    ]
+  }
 }

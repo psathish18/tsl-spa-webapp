@@ -83,5 +83,56 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-S3ftr-4DO0wvLz3iks3aO52h6nZuNargAIzbp9rvZRvS0cHF-qL8lfEPK8rsJMZhHo726-LKqo6gtKv45tLZrW3f1FH263RNVb0c4KhEb-iR_2AiMCVRHCEd1ykpSO-XIcI4-HvMpgI/s400-c/Thaana+Serndha+Kootam+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:45:30.300Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "thaana serndha koottam",
+      "anirudh",
+      "vignesh shivan",
+      "upbeat",
+      "dance",
+      "2017",
+      "tamil song",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a sense of joy and celebration, reflecting the carefree spirit of youth.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <strong>Thaana Serndha Koottam</strong>, this song is a lively number that showcases the protagonist's fun-loving nature.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Anirudh</strong>, who is also the music director, showcasing his versatility.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 4, 2017</strong>.</p></div></div>",
+    "summary": "In <strong>Naana Thaana Veena Ponaa</strong>, the vibrant beats and catchy lyrics create an atmosphere of joy and celebration. The song captures the carefree spirit of the characters in <em>Thaana Serndha Koottam</em>, making it a perfect anthem for parties and festivities. Anirudh's energetic vocals elevate the mood, inviting listeners to dance along. Overall, it evokes feelings of happiness and excitement, making it a memorable track.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Naana Thaana Veena Ponaa</strong> from <em>Thaana Serndha Koottam</em> is a vibrant anthem that perfectly captures the essence of celebration and joy. With Anirudh's electrifying vocals and catchy beats, this track is sure to get you on your feet. Experience the magic of this unique collaboration that blends energetic rhythms with playful lyrics!",
+    "stanzaMeanings": [
+      "Look at that butterfly, it's flying far away.",
+      "Hey, am I going or not? Is it right or wrong? There's no way to see it now.",
+      "A small-sized bus stops in the sky, making someone stop in their heart.",
+      "Look at that butterfly, it's flying far away.",
+      "Only a stubborn person can stop a guilty heart.",
+      "Now, should I come inside or go out? Is there a way for someone?",
+      "Don't look at the one in front, look at the one behind; don't miss the beauty in those eyes.",
+      "Hey, am I going or not? Is it right or wrong? There's no way to see it now.",
+      "I’m feeling a bit dizzy, I’m coming down slowly, and I’m losing my balance a bit.",
+      "I’m feeling a bit dizzy, I’m looking at the fields and the beauty, and I’m losing my balance a bit.",
+      "I’m just smiling, I’m just smiling; I’m flying high, forgetting my real age.",
+      "I’m just walking around, feeling angry, but my heart is forgetting.",
+      "Don't look at the one in front, look at the one behind; don't miss the beauty in those eyes.",
+      "Hey, am I going or not? Is it right or wrong? There's no way to see it now.",
+      "A small-sized bus stops in the sky, making someone stop in their heart.",
+      "Look at that butterfly, it's flying far away.",
+      "Only a stubborn person can stop a guilty heart.",
+      "Now, should I come inside or go out? Is there a way for someone?",
+      "Don't look at the one in front, look at the one behind; don't miss the beauty in those eyes."
+    ]
+  }
 }

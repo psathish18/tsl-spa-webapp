@@ -138,5 +138,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-QCrFMVYwizIkds9WfVHYdqP9ZHgoGWVlCgIA2ycNBjqQYKNZxAYiEWziQROJk572ezBDlcK8_aSuLad8azzZX_ozRrWvj_kTeGW_AV818VnVSavfxyVPLxsIOhOCXSw0k03M0gIsIaY/s400-c/Adadaa+Naana+Lyrics+ENPT.jpg",
   "generatedAt": "2026-01-18T12:42:13.473Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "adada naana",
+      "enai nokki paayum thotta",
+      "dhanush",
+      "megha akash",
+      "darbuka siva",
+      "thamizhanangu",
+      "romantic",
+      "melody",
+      "2019",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who is the lead actor in the movie <em>Enai Nokki Paayum Thotta</em>?</h4><p>The lead actor in the movie is <strong>Dhanush</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for the song <strong>Adada Naana</strong>?</h4><p>The music for this song was composed by <strong>Darbuka Siva</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Adada Naana</strong>?</h4><p>The song explores themes of love and emotional connection.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Enai Nokki Paayum Thotta</em> released?</h4><p>The movie was released in the year <strong>2019</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for the song <strong>Adada Naana</strong>?</h4><p>The lyrics were penned by <strong>Thamizhanangu</strong>.</p></div></div>",
+    "summary": "The song <strong>Adada Naana</strong> from the movie <em>Enai Nokki Paayum Thotta</em>, released in 2019, is a soulful melody that captures the essence of love and longing. Featuring the talented Dhanush and Megha Akash, the song is beautifully composed by Darbuka Siva with heartfelt lyrics by Thamizhanangu. It portrays the emotional depth of a romantic connection, resonating deeply with listeners. The soothing tune and evocative lyrics make it a memorable addition to Tamil cinema's musical repertoire.",
+    "actorName": "Dhanush",
+    "actressName": "Megha Akash",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Adada Naana</strong>, a mesmerizing melody from the movie <em>Enai Nokki Paayum Thotta</em>, captivates listeners with its heartfelt lyrics by Thamizhanangu and soulful composition by Darbuka Siva. The song beautifully portrays the emotional depth of love and longing, resonating deeply with its audience. Featuring the stellar performances of Dhanush and Megha Akash, this track is a timeless addition to Tamil cinema's musical legacy.",
+    "stanzaMeanings": [
+      "Oh, I shattered into a hundred pieces in a moment; beauty, you reside within my heart.",
+      "Bright breeze, don't drift away; I smile here, yet I feel overwhelmed.",
+      "The attire I wore turned into a rain of sweat, and I too became drenched.",
+      "Is it the beginning or the end? Tell me the truth; is it real or just a shadow?",
+      "You gave a little honey-like water at the edge of your lips; naturally, seeing you stirs me without mercy.",
+      "Yesterday, today, and everything seems to have passed; tomorrow morning, I feel I need you. This path spreads with comfort and joy.",
+      "Is it the beginning or the end? Tell me the truth; is it real or just a shadow?",
+      "Oh, I shattered into a hundred pieces in a moment; beauty, you reside within my heart.",
+      "Bright breeze, don't drift away; I smile here, yet I feel overwhelmed.",
+      "The attire I wore turned into a rain of sweat, and I too became drenched.",
+      "Is it the beginning or the end? Tell me the truth; is it real or just a shadow?",
+      ""
+    ]
+  }
 }

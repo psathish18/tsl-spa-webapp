@@ -25,6 +25,6 @@ For every JSON file processed, generate the following:
 - **Target:** Fans who love the song but want to understand the depth of the lyrics.
 
 ## Strict Requirements
-1. **Link Construction:** https://www.tsonglyrics.com/[slug].html (Always pull 'slug' from JSON).
+1. **Link Construction:** https://tsonglyrics.com/[slug].html (Always pull 'slug' from JSON).
 2. **Call to Action:** Always end with a clear CTA (e.g., "Read the full English meaning here 👇").
 3. **No Hallucinations:** Only use the stanzas and facts provided in the JSON.

@@ -56,5 +56,42 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:31:08.991Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kadhal solla vandhen",
+      "udit narayan",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, portraying the beauty of romantic feelings.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Kadhal Solla Vandhen</em>, this song highlights the protagonist's feelings for their love interest, showcasing their emotional journey.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Udit Narayan</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>June 27, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Vaanavillin Pakkathilae</strong>, the protagonist expresses their heartfelt emotions of love and longing, beautifully encapsulated through Udit Narayan's soulful rendition. The song serves as a poignant backdrop in <em>Kadhal Solla Vandhen</em>, enhancing the romantic narrative of the film. With Yuvan's captivating music and Na Muthukumar's evocative lyrics, it evokes a sense of nostalgia and deep affection. This melody resonates with anyone who has experienced the joys and sorrows of love.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Oru Vaanavillin Pakkathilae</strong> from the movie <em>Kadhal Solla Vandhen</em> is a mesmerizing romantic melody that beautifully captures the essence of love and longing. Udit Narayan's soulful voice, combined with Yuvan's enchanting composition, creates an unforgettable listening experience. This song is a perfect blend of heartfelt lyrics and soothing music, making it a must-listen for any romantic occasion.",
+    "stanzaMeanings": [
+      "I am living beside a heavenly being. I only look at my home, and I see it like rain. You have made my heart cry and feel pain. I am falling like a beautiful flower in the river. You are my support, and you have brought love into my life.",
+      "Until yesterday, I was not happy even with the wind blowing. I did not feel the fire that gives warmth. If I touch and speak, I become someone else. I drift away a little when I leave you. I am searching for the clouds and trying to catch the sky. I am getting lost in the joy of being close to you. This is all about you, this is all about a heavenly being.",
+      "This is all about you, this is all about you. Why am I smiling? I forget to celebrate. I wonder if the rain will come from the clouds. I have been sleeping near my father until now. Today, I want to embrace my loneliness. What will happen to my heart that is burning with love? This is all about you, this is all about a heavenly being."
+    ]
+  }
 }

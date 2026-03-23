@@ -57,7 +57,7 @@ This will:
 
 **Note:** Images use URLs like:
 - Local: `http://localhost:3000/og-images/filename.png`
-- Production: `https://www.tsonglyrics.com/og-images/filename.png`
+- Production: `https://tsonglyrics.com/og-images/filename.png`
 
 ## How It Works
 
@@ -76,7 +76,7 @@ fs.writeFileSync('public/og-images/filename.png', imageBuffer);
 ### 3. Use in Blogger Posts
 ```html
 <!-- Image is accessible via public URL -->
-<img src="https://www.tsonglyrics.com/og-images/filename.png" />
+<img src="https://tsonglyrics.com/og-images/filename.png" />
 ```
 
 ## File Structure
@@ -197,7 +197,7 @@ npm install
 ### Issue: Blogger post has broken image
 **Fix:** Use production URL, not localhost:
 - ❌ `http://localhost:3000/og-images/...`
-- ✅ `https://www.tsonglyrics.com/og-images/...`
+- ✅ `https://tsonglyrics.com/og-images/...`
 
 ## Benefits
 

@@ -48,5 +48,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:35.962Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "asal",
+      "sunitha menon",
+      "vairamuthu",
+      "energetic",
+      "dance number",
+      "2010",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Thala pola varuma'?</h4><p>The song conveys a sense of celebration and joy, reflecting the spirit of the movie <strong>Asal</strong>.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Asal'?</h4><p><strong>Asal</strong> revolves around themes of loyalty and betrayal, showcasing the protagonist's journey through challenges.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by the talented <strong>Sunitha Menon</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for 'Thala pola varuma'?</h4><p>The lyrics were penned by the renowned lyricist <strong>Vairamuthu</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 13, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Thala pola varuma</strong>, the vibrant energy of the song perfectly complements the celebratory moments in the movie <em>Asal</em>. The lyrics, crafted by Vairamuthu, evoke a sense of joy and excitement, making it an anthem for parties and celebrations. Sunitha Menon's powerful vocals add to the uplifting vibe, encouraging listeners to embrace the festive spirit. This track is a delightful representation of the film's themes, resonating with audiences through its infectious rhythm and lively essence.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Thala pola varuma</strong> from <em>Asal</em> is an electrifying track that captures the essence of celebration and joy. Sung by the talented Sunitha Menon, this song is a perfect blend of catchy lyrics and vibrant beats that will get you moving. Experience the magic of Vairamuthu's words as they elevate the mood to new heights!",
+    "stanzaMeanings": [
+      "Listen to the wind, hear the waves, this is what is called the truth.",
+      "In doing duties, he is like a king, God is his companion. He is a hero in gratitude.",
+      "Is it coming like a leader? Chorus: Is it coming like a leader? Is it coming like a leader? Is it coming like a leader?",
+      "In the wind, he is a good man, even if he is a craftsman, he will win against any opponent and give a treat to the deserving.",
+      "He will smile like a friend, he will shine like a cloud. He will make friends laugh and will be a good friend to all.",
+      "When the village speaks, the storm will blow. On one side of the earth, the truth will be revealed. Even in the gardens, he will search for the flowers. He will help the workers and will be like a magician... like a sorcerer...",
+      "Chorus: Is it coming like a leader? Is it coming like a leader? Is it coming like a leader? Is it coming like a leader?",
+      "Every day, every moment, he is a king in his own way. He has no peace in his heart, and every place he sleeps is like heaven, but he lives like a lion without any dreams in his eyes.",
+      "Trusting the village, he will live a life that is worth living. Trusting you, he will speak of a life that is high. He will give the light of truth and will provide the path of righteousness.",
+      "Chorus: Is it coming like a leader? Is it coming like a leader? Is it coming like a leader? Is it coming like a leader?",
+      "Is it coming like a leader? Is it coming like a leader? Is it coming like a leader? Is it coming like a leader?",
+      ""
+    ]
+  }
 }

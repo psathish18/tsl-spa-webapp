@@ -46,5 +46,59 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:40.918Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "devotional",
+      "melancholic"
+    ],
+    "songType": [
+      "lullaby",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "festivals"
+    ],
+    "keywords": [
+      "sippikul muthu",
+      "ilaiyaraaja",
+      "p susheela",
+      "lullaby",
+      "classic",
+      "1986",
+      "soothing",
+      "devotional",
+      "melancholic",
+      "old tamil songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Laali Laali</strong>?</h4><p>The song is a soothing lullaby that conveys a sense of devotion and tranquility.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Sippikul Muthu</em>?</h4><p>The music was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Laali Laali</strong>?</h4><p>The song is beautifully sung by <strong>P. Susheela</strong>.</p></div><div class=\"faq-item\"><h4>When was <em>Sippikul Muthu</em> released?</h4><p>The movie was released in <strong>1986</strong>.</p></div></div>",
+    "summary": "The song <strong>Laali Laali</strong> from the movie <em>Sippikul Muthu</em> is a soothing lullaby that evokes feelings of peace and devotion. Sung by the renowned P. Susheela, the song is a classic example of Ilaiyaraaja's mastery in creating melodies that touch the soul. The lyrics, filled with warmth and affection, make it a perfect lullaby for children. The song's gentle rhythm and heartfelt rendition create a serene atmosphere, making it a timeless piece in Tamil cinema.",
+    "releaseYear": "1986",
+    "high_ctr_intro": "Experience the soothing embrace of <strong>Laali Laali</strong> from the timeless classic <em>Sippikul Muthu</em>. This enchanting lullaby, composed by the legendary Ilaiyaraaja, captures the essence of devotion and tranquility. Let P. Susheela's melodious voice transport you to a world of peace and nostalgia.",
+    "stanzaMeanings": [
+      "",
+      "A perfect lullaby for the blessed child, a sweet lullaby for the king of kings.",
+      "A sweet lullaby for the mischievous Kannan, a fitting lullaby for the god praised by the world.",
+      "A perfect lullaby for the blessed child, a sweet lullaby for the king of kings.",
+      "",
+      "I am Kowsalya for the wedding Rama, I am Yasodha for the heroic lineage.",
+      "I am the mother of the elephant-faced god, I am the mother of the elephant-faced god.",
+      "I am Parvathi for Murugan praised by the world.",
+      "A perfect lullaby for the blessed child, a sweet lullaby for the king of kings.",
+      "A perfect lullaby for the blessed child, a sweet lullaby for the king of kings.",
+      "",
+      "I am the Alvar for the endless Kannan.",
+      "I am Kamban for the forest-venturing Srirama.",
+      "I am Valmiki for the king Rama, I am Thiyagaraja for the beautiful one.",
+      "A perfect lullaby for the blessed child, a sweet lullaby for the king of kings.",
+      "A sweet lullaby for the mischievous Kannan, a fitting lullaby for the god praised by the world.",
+      "",
+      "",
+      ""
+    ]
+  }
 }

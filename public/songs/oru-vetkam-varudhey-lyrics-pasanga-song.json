@@ -49,5 +49,60 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:07.937Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "pasanga",
+      "oru vetkam varudhey",
+      "naresh iyer",
+      "shreya goshal",
+      "thamarai",
+      "romantic",
+      "nostalgic",
+      "2009"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Vetkam Varudhey</strong>, the lyrics beautifully express the innocence and joy of young love, capturing the essence of carefree moments. The song plays a significant role in the movie <em>Pasanga</em>, highlighting the emotional journey of the characters. With its soothing melody and heartfelt lyrics by <strong>Thamarai</strong>, it evokes feelings of nostalgia and happiness. The collaboration between <strong>Naresh Iyer</strong> and <strong>Shreya Goshal</strong> adds a unique charm, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Oru Vetkam Varudhey</strong> from <em>Pasanga</em> is a delightful duet that captures the essence of youthful romance and nostalgia. The enchanting voices of <strong>Naresh Iyer</strong> and <strong>Shreya Goshal</strong> blend beautifully, creating a melody that resonates with the heart. This song is a perfect reflection of the carefree moments of love and joy, making it a must-listen for fans of Tamil music.",
+    "stanzaMeanings": [
+      "",
+      "A little fear comes today, my heart is feeling light. What is this first ending? Now my life will find new joy.",
+      "Let the feet move as they wish, let the heart speak freely. This is the first experience, and it will continue. This will bring comfort.",
+      "Will it come today? Will it bring a little coolness? It will fulfill my dreams.",
+      "What is this first ending? Now my life will find new joy.",
+      "The pain that comes will be taken away, and the joy will be embraced.",
+      "In some moments, I will take care of you. If you don't like my head on your lap, I will sleep.",
+      "Half of my heart is with you, and it is beating for you.",
+      "You say one thing, I say another. The love poem that is written will be heard by everyone one day.",
+      "Will the rain come today? Will it bring a little coolness? It will fulfill my dreams.",
+      "What is this first ending? Now my life will find new joy.",
+      "Oh, the pain that comes will be taken away, and the joy will be embraced.",
+      "This is the first experience, and it will continue.",
+      "It will bring comfort, oh, oh. Blending in the wind, you are blooming in my face, and if you stay among the flowers, you will shine upon me.",
+      "I have no time to send you. I think of you only when I want to see you.",
+      "Until now, we have been together, and the time is changing, your beauty is changing.",
+      "A little fear comes today, my heart is feeling light.",
+      "What is this first ending? Now my life will find new joy.",
+      "Oh, let the feet move as they wish.",
+      "Let the heart speak freely.",
+      "This is the first experience,",
+      "It will bring comfort, oh, oh."
+    ]
+  }
 }

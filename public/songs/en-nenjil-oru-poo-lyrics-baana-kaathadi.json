@@ -45,5 +45,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5hk2sE5eUFphcrVpRVyADqUDk0uykbkZUalHnz_8EXvGLk0jo_qF5PrlLaEgwLt3SkReky5cfI8zGb-YG2FD0CBha-YGRoleNUj7B4DWkLtuTkJMbgjd4lRXPX0oIeEjf_X749G-zr6o/s400-c/En+nenjil+oru+poo+lyrics.JPG",
   "generatedAt": "2026-01-18T13:12:23.711Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "baana kaathadi",
+      "sadhana sargam",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, reflecting the feelings of the protagonist.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Baana Kaathadi</em>, this song plays during a pivotal moment that highlights the romantic connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the talented <strong>Sadhana Sargam</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 30, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>En Nenjil Oru Poo</strong>, the protagonist expresses the profound emotions of love and yearning, beautifully encapsulated through heartfelt lyrics. The song serves as a backdrop to a significant romantic moment in <em>Baana Kaathadi</em>, enhancing the emotional depth of the narrative. With its soothing melody and Sadhana Sargam's captivating voice, it evokes feelings of nostalgia and warmth. This track is a perfect representation of the complexities of love, making it relatable to many listeners.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>En Nenjil Oru Poo</strong> from <em>Baana Kaathadi</em> is a mesmerizing romantic melody that beautifully captures the essence of love and longing. With Sadhana Sargam's enchanting vocals and Yuvan's soulful composition, this song resonates deeply with anyone who has experienced the magic of love. Dive into the emotional depths of this track and let it sweep you off your feet!",
+    "stanzaMeanings": [
+      "",
+      "A flower has bloomed in my heart, that's what I call it.",
+      "Fire has come into my eyes, that's what I call it.",
+      "What I heard from the words is that love is my life, that's what I heard.",
+      "A name has come into my name, that's what I call it.",
+      "A foot has come into my heart, that's what I call that person.",
+      "My heart said that love has melted in you, that's what I call it.",
+      "In the rainy season, our sights are always missed, and in the rain, the light appears.",
+      "Even if I give my heart, it doesn't understand, I feel sad with you.",
+      "You have changed me, you have colored everything, I have no heart left with me.",
+      "",
+      "A flower has bloomed in my heart, that's what I call it.",
+      "Fire has come into my eyes, that's what I call it.",
+      "Seeing you, love has not come into my heart, today I have waited like a cloud in the wind.",
+      "There is no sleep at night, there is no light in the day, love brings a certain happiness.",
+      "Today I understood why I looked at you completely.",
+      "A flower has bloomed in my heart, that's what I call it.",
+      "Fire has come into my eyes, that's what I call it.",
+      "What I heard from the words is that love is my life, that's what I heard."
+    ]
+  }
 }

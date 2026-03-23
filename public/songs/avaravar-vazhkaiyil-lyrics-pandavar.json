@@ -59,5 +59,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:16:58.532Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "relaxation",
+      "heartbreak",
+      "celebration"
+    ],
+    "keywords": [
+      "pandavar bhoomi",
+      "avaravar vazhkaiyil",
+      "bharadwaj",
+      "snehan",
+      "melancholic",
+      "nostalgic",
+      "2001",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song reflects on the various phases of life and the memories associated with them, evoking a sense of nostalgia.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <strong>Pandavar Bhoomi</strong>, this song captures the emotional journey of the characters, highlighting their struggles and memories.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Bharadwaj</strong>, who is also the music director, showcasing his talent in both areas.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Avaravar Vazhkaiyil</strong> was released on September 21, 2001.</p></div></div>",
+    "summary": "In <strong>Avaravar Vazhkaiyil</strong>, the listener is taken on a reflective journey through the ups and downs of life. The song's melancholic tone and nostalgic lyrics evoke deep emotions, making it a poignant piece in the film <em>Pandavar Bhoomi</em>. It beautifully conveys the essence of memories and the passage of time, resonating with anyone who has experienced life's changes. Bharadwaj's soulful rendition adds to the song's emotional depth, making it a memorable experience.",
+    "releaseYear": "2001",
+    "high_ctr_intro": "<strong>Avaravar Vazhkaiyil</strong> from <em>Pandavar Bhoomi</em> is a beautifully crafted melody that resonates with the soul. Bharadwaj's soothing vocals combined with Snehan's poignant lyrics create a nostalgic atmosphere that lingers long after the song ends. This track is a perfect reflection of life's myriad emotions, making it a must-listen for any Tamil music lover.",
+    "stanzaMeanings": [
+      "",
+      "In everyone's life, there are countless changes, and those memories keep coming back to the heart.",
+      "It is a beautiful moonlit time that will slowly fade away in dreams.",
+      "The moons come together to live on this earth; it is a time of prosperity.",
+      "In everyone's life, there are countless changes, and those memories keep coming back to the heart.",
+      "The wind also seeks a place to rest in our hearts. Even the raindrops find a place in my mother's lap every day.",
+      "When the water from the river flows, it will quench our thirst.",
+      "We have come to live like poems of the sea and the shore.",
+      "In the lap of the mother, we will rise again in the morning.",
+      "In dreams, we will speak words and laugh happily every day.",
+      "If I keep a new language in my mother's heart, will my mother know? Brothers and sisters, we have all loved this Tamil land.",
+      "The moons come together to live on this earth; it is a time of prosperity.",
+      "",
+      "In the mother's embrace, we have forgotten hunger for our entire lives.",
+      "When the eyes are struck, we see pain in ten eyes.",
+      "The school does not teach love; we have not told the stories of our lives.",
+      "We have not seen the tears in our eyes; they do not know how to cry, and they have not been washed away until now.",
+      "There is no need for anything to be prepared for the future; there have been no obstacles for him or for us.",
+      "The moons come together to live on this earth; it is a time of prosperity.",
+      "In everyone's life, there are countless changes, and those memories keep coming back to the heart.",
+      "It is a beautiful moonlit time that will slowly fade away in dreams.",
+      "The moons come together to live on this earth; it is a time of prosperity."
+    ]
+  }
 }

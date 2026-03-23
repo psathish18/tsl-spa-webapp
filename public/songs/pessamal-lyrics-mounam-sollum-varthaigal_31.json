@@ -43,5 +43,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:47:04.521Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pessamal",
+      "mounam sollum varthaigal",
+      "romantic",
+      "melancholic",
+      "2017",
+      "tamil song",
+      "lyrics",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Pessamal</strong>?</h4><p>The song <strong>Pessamal</strong> explores themes of love and unexpressed feelings, conveying deep emotional connections.</p></div><div class=\"faq-item\"><h4>In which movie does the song <strong>Pessamal</strong> appear?</h4><p>The movie for the song <strong>Pessamal</strong> is currently unknown.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Pessamal</strong>?</h4><p>The singer for <strong>Pessamal</strong> is not specified.</p></div><div class=\"faq-item\"><h4>When was <strong>Pessamal</strong> released?</h4><p><strong>Pessamal</strong> was released on February 11, 2017.</p></div></div>",
+    "summary": "The song <strong>Pessamal</strong> beautifully encapsulates the feelings of love and longing, making it a poignant addition to any romantic playlist. Its lyrics delve into the nuances of unexpressed emotions, creating a soothing atmosphere that resonates with listeners. The melody evokes a sense of nostalgia and warmth, perfect for moments of reflection. Overall, it serves as a heartfelt reminder of the power of love and connection.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Pessamal</strong> is a beautifully crafted melody that resonates with the depths of love and longing. The song captures the essence of unspoken emotions, making it a perfect companion for romantic moments. With its soothing lyrics and heartfelt delivery, it stands out as a gem in the Tamil music landscape.",
+    "stanzaMeanings": [
+      "",
+      "Your silence is weaving the net of love in my heart.",
+      "Your silence is like a flower, spreading the fragrance of love everywhere I see.",
+      "Oh river, don't mix with the sea. Oh rain, don't drown my heart.",
+      "Your silence is weaving the net of love in my heart.",
+      "Your silence is like a flower, spreading the fragrance of love everywhere I see.",
+      "Without seeing, I looked at you and saw your eyes pushing me away.",
+      "If I sing, the sky will change. Is it you who is my sky?",
+      "The gentle breeze blows softly, and you smile. Are you my life?",
+      "Your silence... Your silence... Your silence is weaving the net of love in my heart.",
+      "Your silence is like a flower, spreading the fragrance of love everywhere I see.",
+      "Without speaking, I see you in my eyes. Is it possible that I am silent because of you?",
+      "If you look into my eyes, love will change the sky and the clouds will appear.",
+      "Oh poet, if you look at me, a new melody will start to sing.",
+      "Your silence... Your silence...",
+      "Your silence... Your silence...",
+      "Your silence is weaving the net of love in my heart.",
+      "Your silence is like a flower, spreading the fragrance of love everywhere I see.",
+      ""
+    ]
+  }
 }

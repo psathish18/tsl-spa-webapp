@@ -76,5 +76,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOEfbg52WbDEroEeN-xJjeWKSfdPfzf86hXnUV5aoAAIoeTNbS6na_QQvKNf12gM9IrdQcdzUeDBumRi4rPkwVH8qb-kr-BrJWHLNAAYi18j-uR9yqvJOvGirqOTtVe4QSMTbM-h6K99o/s400-c/haridas.jpg",
   "generatedAt": "2026-01-18T13:05:25.577Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "motivational",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "birthday",
+      "party",
+      "relaxation"
+    ],
+    "keywords": [
+      "haridas",
+      "maalavika manoj",
+      "na muthukumar",
+      "vijay antony",
+      "happy",
+      "motivational",
+      "upbeat",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Vazhkaiye'?</h4><p>The song 'Vazhkaiye' conveys a message about embracing life and taking it easy, encouraging listeners to enjoy every moment.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Haridas'?</h4><p>In <em>Haridas</em>, 'Vazhkaiye' reflects the protagonist's journey and his outlook on life, emphasizing positivity and resilience.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Vazhkaiye'?</h4><p>The song is sung by <strong>Maalavika Manoj</strong> and composed by <strong>Vijay Antony</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Vazhkaiye' released?</h4><p>'Vazhkaiye' was released on December 3, 2012.</p></div></div>",
+    "summary": "'Vazhkaiye' is a lively and uplifting song that encourages listeners to embrace life with a positive attitude. Featured in the movie <em>Haridas</em>, it serves as a motivational anthem that resonates with themes of joy and celebration. The song's catchy melody and vibrant lyrics evoke feelings of happiness and inspire a carefree spirit. Maalavika Manoj's soulful rendition, combined with Vijay Antony's dynamic composition, makes this track a memorable addition to the film's soundtrack.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Vazhkaiye</strong> from the movie <em>Haridas</em> is a vibrant anthem that encapsulates the essence of living life to the fullest. With Maalavika Manoj's enchanting vocals and Vijay Antony's captivating music, this song radiates positivity and joy. Dive into the uplifting vibes of <strong>Vazhkaiye</strong> and let it inspire your day!",
+    "stanzaMeanings": [
+      "",
+      "Life is now in your hands, this world is in our control, think about tomorrow, everybody take it easy.",
+      "",
+      "Life is now in your hands, this world is in our control, think about tomorrow, everybody take it easy.",
+      "",
+      "Why are you looking outside? The world is there, if you know how to live, there are paths to take, there are ways to live.",
+      "",
+      "Life is now in your hands, this world is in our control, think about tomorrow, everybody take it easy.",
+      "Close your eyes to see dreams, your beauty is a match for me, a b c d, let’s dance together.",
+      "",
+      "Life is now in your hands, this world is in our control, think about tomorrow, everybody take it easy.",
+      ""
+    ]
+  }
 }

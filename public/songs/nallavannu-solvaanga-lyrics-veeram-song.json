@@ -107,5 +107,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzuMdaAQyd8s-YJZ_DfCpuls1RGzGD5ac7fJaHYGWjphf6tpD64Oe31gCOXFrtCH8bj9VA5qEpDAIb5gDY6qD8ZCAEBQxjNh2h_PNTiqEyFBDyjAyp1bGsUEDhQaIHA7sH4z4h293wJtw/s400-c/veeram.jpg",
   "generatedAt": "2026-01-18T13:01:42.419Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy",
+      "peppy"
+    ],
+    "songType": [
+      "dance number",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "veeram",
+      "devi sri prasad",
+      "viveka",
+      "energetic",
+      "dance number",
+      "2013",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a message of confidence and celebration, encouraging listeners to embrace their individuality.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Veeram</em>, this song is played during a lively celebration, showcasing the protagonist's charismatic personality.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Devi Sri Prasad</strong>, who is also the music director, bringing his unique style to the track.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Nallavannu Solvaanga</strong> was released on December 17, 2013.</p></div></div>",
+    "summary": "In <strong>Nallavannu Solvaanga</strong>, the vibrant energy of the song perfectly complements the celebratory atmosphere of <em>Veeram</em>. The lyrics, penned by Viveka, encourage listeners to embrace their uniqueness and enjoy life to the fullest. With its catchy beats and lively rhythm, the song evokes feelings of happiness and excitement, making it ideal for parties and celebrations. This track stands out as a testament to Devi Sri Prasad's musical prowess and ability to create infectious tunes.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Nallavannu Solvaanga</strong> from <em>Veeram</em> is a vibrant anthem that captures the essence of celebration and joy. With <strong>Devi Sri Prasad's</strong> electrifying beats and engaging lyrics by <strong>Viveka</strong>, this song is sure to get everyone on their feet. Experience the infectious energy that makes this track a must-listen for any party!",
+    "stanzaMeanings": [
+      "",
+      "Everyone wants to scream, shout, and cheer; all the people in the house are excited.",
+      "Hey, here comes the man with a new style; he's going to make everyone excited.",
+      "People say we are good, don't doubt us; even if someone calls us bad, don't scold them; even if they say we are worthless, don't listen to them; even if they say we are a burden, don't be bothered.",
+      "In the game, there are two buttons; our sound will be there; the rhythm will always be strong; justice will always be on our side.",
+      "One, two, three, four, five, no way; we drive on the wrong side.",
+      "Mind, mind, mind; no winning, no losing; we will make a big impact, yes.",
+      "Many, many, many things; we will only care about the important matters, not the trivial ones.",
+      "Look at our town; it's full of energy; no matter who the hero is, we are the real stars.",
+      "One, two, three, four, five, no way; we drive on the wrong side.",
+      "Hey, don't worry today; listen to what I say, no need to be upset.",
+      "Gather, gather, gather; day and night we will dance; we will take the lead and make things happen.",
+      "Small, small, small things; big, big, big actions; we will create a form out of hunger and need.",
+      "Those kids are sweet, but the ones who are spoiled are troublesome; we will tell the black crows to listen to us.",
+      "One, two, three, four, five, no way; we drive on the wrong side.",
+      "What am I saying?"
+    ]
+  }
 }

@@ -127,5 +127,64 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:31.300Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational",
+      "peppy"
+    ],
+    "songType": [
+      "dance number",
+      "theme"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "kaala",
+      "semma weightu",
+      "hariharasudhan",
+      "santhosh narayanan",
+      "arunraja kamaraj",
+      "energetic",
+      "dance number",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Semma Weightu'?</h4><p>The song conveys themes of strength and resilience, celebrating the spirit of the underdog.</p></div><div class=\"faq-item\"><h4>How does 'Semma Weightu' fit into the plot of <em>Kaala</em>?</h4><p>This song serves as an anthem for the protagonist's fight against oppression and injustice in the film.</p></div><div class=\"faq-item\"><h4>Who are the artists behind 'Semma Weightu'?</h4><p>The song features vocals by <strong>Hariharasudhan</strong> and is composed by <strong>Santhosh Narayanan</strong>, with lyrics by <strong>Arunraja Kamaraj</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Semma Weightu' released?</h4><p>The song was released on <strong>May 3, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Semma Weightu</strong>, the vibrant energy of the song reflects the protagonist's determination and fighting spirit in <em>Kaala</em>. The upbeat tempo and catchy lyrics create an atmosphere of celebration and motivation, making it a perfect anthem for those facing challenges. The collaboration between Hariharasudhan's powerful vocals and Santhosh Narayanan's dynamic composition elevates the song's impact. Overall, it evokes a sense of pride and resilience, resonating deeply with the film's themes.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Semma Weightu</strong> from <em>Kaala</em> is an electrifying anthem that perfectly captures the spirit of resilience and strength. With the dynamic vocals of Hariharasudhan and the innovative beats by Santhosh Narayanan, this track is sure to get you moving. Experience the powerful lyrics by Arunraja Kamaraj that resonate with the essence of the film's narrative.",
+    "stanzaMeanings": [
+      "",
+      "Who is the one who brings light and takes care of the future?",
+      "The mind doesn't stop, it doesn't let go, it keeps pushing forward with strength.",
+      "In our black town, black diamonds and kind-hearted protectors are here.",
+      "Bro, your home won't change, it's our place.",
+      "No matter who comes, we will stay on our path.",
+      "Be careful, this is the time to watch out for who has come before you.",
+      "Hey, from now on, you stay behind us.",
+      "We won't let go of our dreams, we won't stop flying, even if obstacles come, we will overcome them without fear.",
+      "It's a big deal, we will take our time.",
+      "",
+      "At the crossroads, T-junction, sixty feet, ninety feet, we won't let anyone disturb us.",
+      "",
+      "We will always be united, greeting each other with respect.",
+      "Take care of your life style when you come here.",
+      "Even if we are in a bad place, we will still be here. Even if we are down, we will still smile through the pain.",
+      "Speak up, don't sleep, let's not lose our rights.",
+      "Holding hands, we have lost time, everything has gone up in the sky.",
+      "In Dharavi, who else has come before them?",
+      "We will take our time, we will take our time.",
+      "We will take our time, we will take our time, we will take our time, we will take our time.",
+      "It's important to take care of our children, they are our pride.",
+      "If we think about art, we won't change it, if we think about destruction, we will destroy it.",
+      "We will take our time, we will take our time.",
+      "Who else has come before them?",
+      "We will take our time, we will take our time.",
+      "Black, black, black, black, we will take our time."
+    ]
+  }
 }

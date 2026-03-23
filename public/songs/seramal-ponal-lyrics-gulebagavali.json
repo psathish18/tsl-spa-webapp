@@ -87,5 +87,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:53.729Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "gulebagavali",
+      "seramal ponal",
+      "mervin solomon",
+      "sameera bharadwaj",
+      "ko shesha",
+      "vivek mervin",
+      "romantic",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Seramal Ponal'?</h4><p>'Seramal Ponal' conveys deep emotions of love and longing, beautifully expressed through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Gulebaghavali</em>, the song plays during a romantic moment, highlighting the connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song is sung by <strong>Mervin Solomon</strong> and <strong>Sameera Bharadwaj</strong>, with music composed by <strong>Vivek – Mervin</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Seramal Ponal' released?</h4><p>The song was released on <strong>January 13, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Seramal Ponal</strong>, the soothing melody encapsulates the tender emotions of love, making it a perfect romantic ballad. The song unfolds during a pivotal moment in <em>Gulebaghavali</em>, where the characters express their feelings for each other. With heartfelt lyrics by Ko. Shesha, it evokes a sense of nostalgia and warmth. The harmonious blend of Mervin Solomon and Sameera Bharadwaj's voices creates an enchanting experience for the listeners.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Seramal Ponal</strong> from <em>Gulebaghavali</em> is a mesmerizing melody that beautifully captures the essence of romance. With the enchanting voices of Mervin Solomon and Sameera Bharadwaj, this song is a delightful treat for music lovers. The unique collaboration of Vivek and Mervin in the composition adds a fresh vibe that resonates deeply with listeners.",
+    "stanzaMeanings": [
+      "",
+      "When it rains, we should wait under an umbrella, and our dreams should not be lost.",
+      "Just giving one blessing is enough; the troubles will end, and I will remain in my place.",
+      "You are my star; don't let me lose you with your eyes; don't let go of my hand.",
+      "If I go without seeing you, I will leave without living; if you don't see me, I will fade away like a flower.",
+      "In the midday sun, will you be hidden by the sea shore?",
+      "In the night, will you be remembered in the rain on the street?",
+      "Will you be remembered when lightning strikes through the window?",
+      "Will you be remembered in the morning until the rooster crows?",
+      "Without you, I am nothing; without me, you are nothing; what is life, my love, if you don't say anything?",
+      "If the sky is without water and the water is without sky, then what is this world, girl? Understand this.",
+      "If I go without seeing you, I will leave without living; if you don't see me, I will fade away like a flower. If I go without seeing you, I will leave without living; if you don't see me, I will fade away like a flower."
+    ]
+  }
 }

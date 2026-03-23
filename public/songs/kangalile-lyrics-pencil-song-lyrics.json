@@ -70,5 +70,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdi_XC1fIJxnYFnlvKQ0FaQhraHGbnPHsbSXz4gvFR95MFbVQ6RNcBIqYTQX9TT2yBku5kMhjSApkbfnK8lVVOVAK-Bh59RB3iYAvVEe3q5f26La1B8abpDV3sHYbNUBt-01z1n2pFWaI/s400-c/Pencil-Lyrics.jpg",
   "generatedAt": "2026-01-18T12:56:02.420Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "pencil",
+      "javed ali",
+      "shreya ghoshal",
+      "gv prakashkumar",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil song",
+      "movie song",
+      "duet",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kangalile</strong>?</h4><p>The song <strong>Kangalile</strong> is a romantic melody that explores the emotions of love and longing.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Kangalile</strong>?</h4><p>The song is sung by <strong>Javed Ali</strong> and <strong>Shreya Ghoshal</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for the movie <em>Pencil</em>?</h4><p>The music for <em>Pencil</em> was composed by <strong>GV Prakash Kumar</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Pencil</em>?</h4><p>The movie <em>Pencil</em> was released in the year <strong>2015</strong>.</p></div></div>",
+    "summary": "<strong>Kangalile</strong> is a romantic duet from the movie <em>Pencil</em>, capturing the tender emotions of young love. Sung by Javed Ali and Shreya Ghoshal, the song's soothing melody and heartfelt lyrics evoke a sense of longing and affection. GV Prakash Kumar's music beautifully complements the singers' voices, creating an enchanting atmosphere. The song reflects the innocence and intensity of first love, making it a favorite for romantic occasions.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Kangalile</strong> from the movie <em>Pencil</em> is a mesmerizing duet that beautifully captures the essence of young love. Sung by the melodious voices of Javed Ali and Shreya Ghoshal, this song is a perfect blend of romance and soothing melodies. With GV Prakash Kumar's enchanting music, it promises to transport listeners to a world of emotions.",
+    "stanzaMeanings": [
+      "",
+      "In the eyes, in the eyes, a moment is revealed. On me, on me, your mischievous glance falls.",
+      "Without knowing it, I lost myself bit by bit.",
+      "You jumped into the pond and made ripples in my heart. Oh, wanting to walk away, you came closer.",
+      "From the beginning, I thought of you as my destination. I made a good decision.",
+      "Will the veil touch... ...will it sing? Will the fingertips touch? Will the toenails sing?",
+      "Without clothes, without a dot, even if you stand, will anyone come like you?",
+      "In the eyes, in the eyes, a moment is revealed. On me, on me, your mischievous glance falls.",
+      "When you come in colorful clothes, my mind gets disturbed, girl. Even if you hide me, you reveal it, dear.",
+      "You on one side, me on the other, who is in between? See how shyness stops it.",
+      "Wherever I go, even in my song, why did you come with your eyes? Why did you leave without speaking?",
+      "Like the winter season today, a musical word. Even if you blow it, it's not enough for me.",
+      "In the eyes, in the eyes, a moment is revealed. On me, on me, your mischievous glance falls.",
+      "Without knowing it, I lost myself bit by bit.",
+      ""
+    ]
+  }
 }

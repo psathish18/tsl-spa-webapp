@@ -94,5 +94,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnXpOfYEUas1b5aJ_OIGdtWbPnwwBvGXDlNyRqdbBvAnaRfN8TtjqGsGo2D-l-HgBWBU78RsWo0ufEZL7mITtNjziT-_FWzLAKEWMBoIWVAZ4j4GqR-HrppbSX7ndlFzfyyhehwDtIv4/s400-c/maan-karate.jpg",
   "generatedAt": "2026-01-18T13:00:01.408Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "peppy",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "maan karate",
+      "open the tasmac",
+      "anirudh",
+      "deva",
+      "gaana bala",
+      "dance number",
+      "energetic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Open The Tasmac</strong>, the characters celebrate life and the joy of togetherness, reflecting the carefree spirit of youth. The upbeat tempo and catchy lyrics create an atmosphere of festivity, making it a perfect party anthem. The song conveys a sense of freedom and enjoyment, resonating with the audience's desire to celebrate moments with friends. Overall, it encapsulates the vibrant energy of the movie <em>Maan Karate</em> and leaves listeners feeling uplifted.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Open The Tasmac</strong> is a vibrant anthem that perfectly captures the essence of celebration and joy. With <strong>Anirudh's</strong> infectious beats and <strong>Deva's</strong> lively vocals, this track from the movie <em>Maan Karate</em> is sure to get everyone on their feet. Experience the electrifying energy that makes this song a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "",
+      "thanniyadicha thappaamaa thittraama goppaama, yema.?",
+      "thanniyadicha thappaamaa thittraama goppaama, ammaa ?",
+      "My mind, my life, I can't change the things in my hands, I can't change the things in my hands, show me with one eye.",
+      "Open the Tasmac, open the Tasmac, open the Tasmac.",
+      "Don't close the Tasmac, at least open the back door.",
+      "Oh, I feel like a superstar, I have a great figure.",
+      "Can you show your face a little? Without hiding, it seems like you are passing by, is it a pass?",
+      "I put on high text and changed her mind, I watched a movie in Inox theater.",
+      "I am flying in the sky, I am soaring in the world. I am standing tall in the country.",
+      "My building is very strong, but the basement is very weak.",
+      "No, the basement is very strong, but the building is very weak.",
+      "Open the Tasmac, open the Tasmac, open the Tasmac.",
+      "Don't close the Tasmac, at least open the back door.",
+      "Start, start... start the music. Sexy baby, come and touch me, just for you, you and me, let's not waste time, come to me. Come, come, come.",
+      "Open the Tasmac, don't close the Tasmac, open the Tasmac, don't close the Tasmac.",
+      "Don't close the Tasmac, please open all the time.",
+      "I am very happy... happy happy happy..."
+    ]
+  }
 }

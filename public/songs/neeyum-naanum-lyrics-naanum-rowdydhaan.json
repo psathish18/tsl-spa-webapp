@@ -107,5 +107,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyMo6xkvgl2pCz2GQTVO7C-ySRELxNAUSDEaTdIPtyXnFld1WFNobT-wdQtbq5wJJ2FusPd_cuZrNnCoDdDbbUrSZoaJCmIu66ytDxZSfdSx0meLcBZeHAOP3bmwv5wlEQHOLOitjL61o/s400-c/Neeyum+Naanum+Lyrics+Naanum+Rowdydhaan.jpg",
   "generatedAt": "2026-01-18T12:53:54.572Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "naanum rowdydhaan",
+      "neeti mohan",
+      "thamarai",
+      "anirudh",
+      "romantic",
+      "happy",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Neeyum Naanum</strong> conveys the essence of love and unity, celebrating the bond between two individuals.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Naanum Rowdydhaan</em>, this song highlights the romantic relationship between the lead characters, showcasing their journey together.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Neeti Mohan</strong> and composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Neeyum Naanum</strong> was released on <strong>September 28, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Neeyum Naanum</strong>, the song beautifully captures the essence of love and companionship, making it a perfect anthem for romantic moments. The lyrics express deep emotions and the joy of being together, resonating with anyone who has experienced love. Set against the backdrop of <em>Naanum Rowdydhaan</em>, this melody enhances the narrative of the film, showcasing the chemistry between the lead characters. With its upbeat rhythm and heartfelt delivery, the song evokes happiness and warmth, making it a favorite among fans.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Neeyum Naanum</strong> from <em>Naanum Rowdydhaan</em> is a vibrant celebration of love and togetherness, beautifully rendered by Neeti Mohan. With Anirudh's captivating music and Thamarai's heartfelt lyrics, this song perfectly encapsulates the joy of companionship. Dive into this melodic journey that promises to uplift your spirits and resonate with your emotions.",
+    "stanzaMeanings": [
+      "You and I together, in this moment. There is no blue sky anywhere, only white clouds everywhere.",
+      "As we go, something seems to be missing. When the clouds come, a little rain might fall.",
+      "All my fears and desires will fade away. All my happiness and sorrow will be connected to you.",
+      "I am the day and night, you are the shining moon. In the sunlight, your umbrella is beautiful.",
+      "I am the day and night, [the flower with thorns]. You are the shining moon, [the one who is beautiful]. In my dreams, [not just a dream], you are the first dream [that has come].",
+      "First, tell me what the zodiac sign is. What should I do with the pearl? [The flower that has come].",
+      "You are needed, no matter the situation. You are enough for me.",
+      "In a world without sound, you are the music. You blew in the wind and spoke in love.",
+      "In silence without words, you spoke through your eyes. You spoke through your eyes.",
+      "For a hundred years, I want to live with you. You are the girl who completes my home.",
+      "I am the day and night, you are the shining moon. In the sunlight, your umbrella is beautiful.",
+      "I am the day and night, [the flower with thorns]. You are the shining moon, [the one who is beautiful]. In my dreams, [not just a dream], you are the first dream [that has come].",
+      "First, tell me what the zodiac sign is. What should I do with the pearl? [The flower that has come].",
+      "You are needed to overcome this life. You are enough for me.",
+      "[The flower with thorns], [the one who is beautiful]. [Not just a dream], [the flower that has come].",
+      "First, tell me what the zodiac sign is. What should I do with the pearl? [The flower that has come]."
+    ]
+  }
 }

@@ -82,5 +82,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhapaufmjerE17FgjdxSEFUnhYTSjhewsTmzHnGTthxD-h45Ft_ozYvF9D5qVHDsij43sja9_GdiTbHwXSKU5pTP9GfaMvSbr7uiSYCzSnGK8Q2BG3VVvaiQizJrlpAX51DQL2SO-ogv-o/s400-c/Madras+song+lyrics.jpg",
   "generatedAt": "2026-01-18T12:59:02.854Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "madras",
+      "hariharasudhan",
+      "meenakshi iyer",
+      "kabilan",
+      "santhosh narayanan",
+      "energetic",
+      "nostalgic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song celebrates the spirit of Chennai, highlighting its culture and pride through energetic lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Madras</em>, the song reflects the protagonist's connection to the city and its vibrant life.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Hariharasudhan</strong> and <strong>Meenakshi Iyer</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music was composed by <strong>Santhosh Narayanan</strong>, known for his innovative sound.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>June 24, 2014</strong>.</p></div></div>",
+    "summary": "The song <strong>Chennai Vada Chennai</strong> from the movie <em>Madras</em> is a lively tribute to the city of Chennai, encapsulating its vibrant culture and spirit. It evokes feelings of nostalgia and pride among listeners, making it a perfect anthem for celebrations. The energetic duet by Hariharasudhan and Meenakshi Iyer, combined with Kabilan's impactful lyrics, creates a memorable experience. This song not only entertains but also connects deeply with the audience's love for their city.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Chennai Vada Chennai</strong> from <em>Madras</em> is a vibrant anthem that captures the essence of the city with its infectious energy. The unique collaboration of Hariharasudhan and Meenakshi Iyer, under the masterful direction of Santhosh Narayanan, brings a fresh sound that resonates with every Tamilian. This song is not just a melody; it's a celebration of culture and pride.",
+    "stanzaMeanings": [
+      "",
+      "Chennai, oh Chennai, this black Tamil land, who sings here, Chennai, oh Chennai, do we have any other hopes?",
+      "Our town is Madras, this is our address. (2) Chennai, oh Chennai, this black Tamil land.",
+      "Even if a crow comes into a thorny bush, we will drink like kids in a school.",
+      "Like a thorny tree that we touch, we all live together as one.",
+      "The ribbon building and the high court, not just the buildings, our blood is mixed in them.",
+      "By putting up a barricade, you have built a wall, we will raise our voices like a loud shout.",
+      "We will be there with a worry, we will fly from this place.",
+      "Our town is Madras, this is our address. (2)",
+      "When the Kamarukattu girl leaves with pride, it is a celebration of love told to the sky.",
+      "When the time comes, we will show our bravery with our fights and cars.",
+      "With the sound of the band, the sound of the tape, we will sing and live together, all of us united.",
+      "The group that puts up posters and banners, we will all come together and make our mark.",
+      "One day, hard work will conquer the world. If we call out, that day will surely come. (2)",
+      "Our town is Madras, this is our address. (2)",
+      "Chennai, oh Chennai, this black Tamil land, who sings here, Chennai, oh Chennai, do we have any other hopes?",
+      "Our town is Madras, this is our address. (2)"
+    ]
+  }
 }

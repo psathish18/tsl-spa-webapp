@@ -45,5 +45,39 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTh6IfhAhyPjSfw-inKZyOpr6-6-IqDht9HyaSd6TFywUPwjUzn9v_PnErzVvvkPOA_nw9wExoJdE3wTtB9WhUb0Ckv_u0wcn6p0Zk1W-Ve0UOUzBjkJX_ErSnf2SNWwKdI_-gnnp96Q/s400-c/96+Songs+Teaser+Lyrics.jpeg",
   "generatedAt": "2026-01-18T12:43:48.275Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "theme",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "96",
+      "kadhale kadhale",
+      "romantic",
+      "melancholic",
+      "tamil",
+      "2018",
+      "melody",
+      "theme",
+      "love",
+      "nostalgic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadhale Kadhale</strong>?</h4><p>The song explores themes of love and nostalgia, capturing the essence of a deep emotional connection.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>96</em>?</h4><p>The song reflects the protagonist's memories and emotions related to a past love.</p></div><div class=\"faq-item\"><h4>Who are the artists behind <strong>Kadhale Kadhale</strong>?</h4><p>The specific singer, lyricist, and music director are not mentioned in the provided details.</p></div><div class=\"faq-item\"><h4>When was the movie <em>96</em> released?</h4><p>The movie was released in 2018.</p></div></div>",
+    "summary": "The song <strong>Kadhale Kadhale</strong> from the movie <em>96</em> beautifully encapsulates the emotions of love and nostalgia. It serves as a poignant reminder of the protagonist's past romance, evoking a sense of longing and melancholy. The lyrics and melody together create a soothing yet powerful experience, resonating deeply with anyone who has experienced love. This song is a perfect blend of heartfelt emotions and musical brilliance, making it a timeless piece in Tamil cinema.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the profound emotions of love and nostalgia with <strong>Kadhale Kadhale</strong> from the film <em>96</em>. This enchanting melody captures the essence of timeless romance, making it a favorite among listeners. Dive into the heartfelt lyrics and let the music transport you to a world of love and longing."
+  }
 }

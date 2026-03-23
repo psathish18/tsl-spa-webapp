@@ -38,5 +38,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:02.656Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "muthal seethanam",
+      "pattu vanna selaithan",
+      "nostalgic",
+      "romantic",
+      "1992",
+      "old music",
+      "tamil song",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Pattu Vanna Selaithan</strong> conveys themes of love and longing, beautifully illustrated through its poetic lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Muthal Seethanam</em>, the song reflects the emotional journey of the characters, enhancing the romantic narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer or music director of this song?</h4><p>The details about the <strong>singer</strong> and <strong>music director</strong> are currently unknown.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Pattu Vanna Selaithan</strong> was released on <strong>August 14, 1992</strong>.</p></div></div>",
+    "summary": "The song <strong>Pattu Vanna Selaithan</strong> from the movie <em>Muthal Seethanam</em> is a beautiful expression of love and longing. Its soothing melody and poetic lyrics evoke a sense of nostalgia, making it a cherished classic. The song captures the essence of romantic moments, transporting listeners to a serene emotional landscape. Through its enchanting composition, it resonates deeply with anyone who has experienced love.",
+    "releaseYear": "1992",
+    "high_ctr_intro": "<strong>Pattu Vanna Selaithan</strong> from <em>Muthal Seethanam</em> is a timeless melody that captures the essence of love and nostalgia. The enchanting lyrics and soothing composition create a serene atmosphere, making it a perfect listen for romantic moments. Experience the magic of this classic song that resonates with the heart and soul.",
+    "stanzaMeanings": [
+      "",
+      "The colorful song is like a pearl necklace, tying together a hundred chariots.",
+      "If she dreams, the rainy season will come. With that joy, flowers will bloom.",
+      "The peacocks will be amazed, and in her walk, the cuckoos will find some peace in her voice.",
+      "Her face is like a lotus, and this is a beautiful sight; she is like a rain of flowers.",
+      "Until now, I have seen many beautiful girls, but none like her.",
+      "Oh beautiful flower, may you grow like the moonlight.",
+      "The colorful song is like a pearl necklace.",
+      "The creator and the one who nurtures, this day’s moon brings a cool breeze, and I have come to celebrate.",
+      "Beauty needs a definition, and it should have a crown.",
+      "With a smile that captivates, may she bring joy every day.",
+      "Oh beautiful flower, may you grow like the moonlight.",
+      ""
+    ]
+  }
 }

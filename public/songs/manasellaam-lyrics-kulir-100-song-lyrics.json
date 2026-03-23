@@ -37,5 +37,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:04.404Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "kulir 100",
+      "simbu",
+      "bobo shashi",
+      "romantic",
+      "melancholic",
+      "2009",
+      "tamil song",
+      "manasellaam"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'manasellaam'?</h4><p>The song 'manasellaam' expresses deep feelings of love and longing, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Kulir 100'?</h4><p>In <strong>Kulir 100</strong>, this song plays during a pivotal moment that highlights the protagonist's emotional connection with their love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'manasellaam'?</h4><p>The song is sung by <strong>Simbu</strong> and composed by <strong>Bobo Shashi</strong>.</p></div><div class=\"faq-item\"><h4>When was 'manasellaam' released?</h4><p>'manasellaam' was released on June 10, 2009.</p></div></div>",
+    "summary": "The song 'manasellaam' from the movie <em>Kulir 100</em> beautifully encapsulates the feelings of love and nostalgia. It portrays the protagonist's deep emotional connection with their beloved, evoking a sense of longing and affection. The soothing melody, combined with Simbu's heartfelt rendition, creates an intimate atmosphere perfect for romantic occasions. This song resonates with anyone who has experienced the bittersweet emotions of love.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>manasellaam</strong> from <em>Kulir 100</em> is a mesmerizing romantic melody that captures the essence of longing and affection. With Simbu's soulful voice and Bobo Shashi's enchanting composition, this song takes you on an emotional journey. Perfect for intimate moments, it beautifully expresses the feelings of love and nostalgia.",
+    "stanzaMeanings": [
+      "Thinking of you in my heart",
+      "Thinking of you in my heart makes me feel sad, friend. In the time of memories, I thought of you as the sky, but you have become hidden in my life, ending my journey.",
+      "When my eyes are closed, you are the darkness that I see. When I speak, you come as words. When my eyes are closed, you are the darkness that I see. When I speak, you come as words.",
+      "Thinking of you in my heart makes me feel sad, friend. In the time of memories, I thought of you as the sky.",
+      "show me the meaning of being lonely Tell me why I cant be there where you are There is something missing in my heart - out",
+      "Thoughts are like waves crashing on the shore, smoking cigarettes tells stories. Like water mixing, the playful moments that have gone by are now just illusions. Here, I have nothing left, my home is empty, and now I cry thinking of you, friend.",
+      "When my eyes are closed, you are the darkness that I see. When I speak, you come as words.",
+      "I had only one friend who is no longer here, I can't find anyone to go to school with now. When my eyes are closed, you are the darkness that I see. When I speak, you come as words.",
+      "When my eyes are closed, you are the darkness that I see. When I speak, you come as words.",
+      "When my eyes are closed, you are the darkness that I see. When I speak, you come as words.",
+      "Thinking of you in my heart."
+    ]
+  }
 }

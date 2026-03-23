@@ -42,5 +42,57 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:17:06.507Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "devotional"
+    ],
+    "songType": [
+      "melody",
+      "devotional"
+    ],
+    "occasions": [
+      "wedding",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "gokulathu radhai vanthalo",
+      "aanandham",
+      "romantic",
+      "devotional",
+      "2001",
+      "tamil song",
+      "melody",
+      "wedding song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses themes of love and devotion, celebrating the arrival of a beloved.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>This song is featured in the movie <em>Aanandham</em>.</p></div><div class=\"faq-item\"><h4>Who are the artists behind this song?</h4><p>The singer, lyricist, and music director for this song are currently unknown.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on May 25, 2001.</p></div></div>",
+    "summary": "The song <strong>Gokulathu Radhai Vanthalo</strong> from the movie <em>Aanandham</em> beautifully encapsulates the emotions of love and devotion. It portrays the arrival of a beloved, evoking feelings of joy and celebration. The soothing melody and heartfelt lyrics make it an ideal choice for weddings and festive occasions. This song resonates deeply with listeners, creating a sense of nostalgia and warmth.",
+    "releaseYear": "2001",
+    "high_ctr_intro": "<strong>Gokulathu Radhai Vanthalo</strong> is a mesmerizing melody that captures the essence of love and devotion. This enchanting song from <em>Aanandham</em> beautifully intertwines heartfelt lyrics with soothing music, making it a perfect choice for weddings and celebrations. Experience the magic of this timeless classic that resonates with emotions and spirituality.",
+    "stanzaMeanings": [
+      "",
+      "Come, beautiful one, with your radiant charm, like a flower in bloom, bringing joy and happiness, like a shining moon, come to us, oh lovely one, with your sweet presence, like a beautiful garland, come to us, oh lovely one, with your sweet presence.",
+      "In this wedding chariot from Gokul, the bride has arrived from Mithilainagar, let her stay with us in this house, let her stay with us in this house.",
+      "If the fish from the sweet Madurai comes, it will bring love in its hands, like a mother.",
+      "In this wedding chariot from Gokul, the bride has arrived from Mithilainagar, let her stay with us in this house, let her stay with us in this house.",
+      "Bring the bride and set up a grand home for her.",
+      "For the golden groom, you are the one. Give him ten more gifts.",
+      "In the heart of the golden groom, there is a motherly love that will win over our daughter.",
+      "Three flowers, jasmine and a little sweetness are enough. Any girl will be enchanted by the heart of a man.",
+      "Your groom is like a Thanjavur doll, he will dance for you, where is your horse, oh king of the land?",
+      "Hey, our daughter will not be wronged, she will weave a magical spell that will bind the groom.",
+      "Let’s put everything together, this is for us, it’s a good match, look at the sweet Meenakshi, she is beautiful.",
+      "In the silver rain, the jasmine blooms in the garden. A new jasmine has bloomed.",
+      "The cuckoo sings in the yellow flowered fields, bringing good fortune every day.",
+      "Now, in our hearts, the festival of lights shines, our little moon brings brightness to the sky.",
+      "Is the breeze of love blowing in our affection?",
+      "Has a goddess come to our home as a breeze?",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
 }

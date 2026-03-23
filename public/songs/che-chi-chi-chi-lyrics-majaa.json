@@ -75,5 +75,64 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDsQRVHBwcVVBiI8BVvSmaNJHjYX3yRLe2uAJeGJjHvvWPTYySyh8y7yXCwCfUw9jOFxqQJv5G3V_aqvrrC0rVpF0Ne6tqjJ454mnyDQiONK4EsSHN88g7sWpFr5JOEInPpL2VzM9iixY/s400-c/Majaa+-+Chi+Chi+Chi+Song+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:15:02.510Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "majaa",
+      "che chi chi chi",
+      "harini",
+      "shankar mahadevan",
+      "vidyasagar",
+      "yugabharathi",
+      "upbeat",
+      "2005"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Che Chi Chi Chi'?</h4><p>The song 'Che Chi Chi Chi' conveys a playful and energetic vibe, celebrating fun and joy in relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie Majaa?</h4><p>In <strong>Majaa</strong>, this song is featured during a lively celebration scene, showcasing the characters' carefree and joyful moments.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features talented singers including <strong>Harini</strong>, <strong>Savitha</strong>, <strong>Shankar Mahadevan</strong>, and <strong>Viji</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Che Chi Chi Chi'?</h4><p>The music for this energetic track was composed by <strong>Vidyasagar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>'Che Chi Chi Chi' was released on <strong>November 2, 2005</strong>.</p></div></div>",
+    "summary": "The song 'Che Chi Chi Chi' from the movie *Majaa* is a lively and upbeat track that encapsulates the essence of joy and celebration. It features a playful interaction among the singers, bringing a sense of fun and energy to the listeners. The lyrics reflect a carefree attitude, making it perfect for festive occasions. This song evokes feelings of happiness and excitement, encouraging everyone to join in the celebration.",
+    "releaseYear": "2005",
+    "high_ctr_intro": "<strong>Che Chi Chi Chi</strong> from <em>Majaa</em> is a vibrant celebration of joy and energy, featuring a stellar collaboration of voices from Harini, Savitha, Shankar Mahadevan, and Viji. The infectious beats crafted by Vidyasagar perfectly complement the playful lyrics by Yugabharathi, making it a must-listen for anyone looking to uplift their spirits. Dive into this lively track that promises to get you dancing!",
+    "stanzaMeanings": [
+      "What kind of habit is this, like a little child?",
+      "It's crazy, it has been disturbed.",
+      "Che chi chi chi chi",
+      "You will tease, you will tease, you always do this a lot.",
+      "You will make a fuss, fuss fuss, you touch here and there and make mistakes.",
+      "What will I do now, what will I do? I will do whatever I want, what will I do?",
+      "Che chi chi chi chi",
+      "My desire is to touch and play, your desire is to let go, our desire is to keep it alive.",
+      "My body wants to sleep, your body wants to give a response, our body wants to be awake.",
+      "Like your anklet, I will keep ringing and ringing.",
+      "At my age of fifteen, you mix and drink honey.",
+      "You stay there, I will give you a little bird, in the end, you will get sleepy and close your eyes.",
+      "Che chi chi chi chi",
+      "It's a good time, the moon is shining, the flower of happiness comes and goes, you also come and take my life away.",
+      "On one side, the head is sleepy, on the other side, the heart is heavy, I will give you a little bit of everything, take that too.",
+      "Your beauty is like silk, I will take away all my youth.",
+      "Your smile, when you laugh, takes away all my beauty.",
+      "You take away yourself, I take away myself, like two people coming together and separating.",
+      "Che chi chi chi chi",
+      "What kind of habit is this, like a little child?",
+      "It's crazy, it has been disturbed.",
+      "Che chi chi chi chi",
+      "You will tease, you will tease, you always do this a lot.",
+      "You will make a fuss, fuss fuss, you touch here and there and make mistakes.",
+      "What will I do now, what will I do? I will do whatever I want, what will I do?",
+      "Che chi chi chi chi",
+      ""
+    ]
+  }
 }

@@ -35,5 +35,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4BTuDMbTVK1F_saxCq0VNaYzfXtsCytncrvuPxS_KzWMUkMRytNLwA3WBRddVXkaEuWbFcCqCHiygeVVUFu-h9l1hn6tWQYQVZg41g_-6uFQg_-3L1c7WgcxIdsUYLkMRg8D4ZU5bofs/s400-c/Angadi-theru.jpg",
   "generatedAt": "2026-01-18T13:12:29.819Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "angadi theru",
+      "un perai sollum pothe",
+      "haricharan",
+      "naresh iyer",
+      "shreya ghoshal",
+      "na muthukumar",
+      "gv prakashkumar",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Un Perai Sollum pothe'?</h4><p>The song expresses deep feelings of love and longing, highlighting the emotional connection between lovers.</p></div><div class=\"faq-item\"><h4>In which movie is this song featured?</h4><p>This song is featured in the movie <strong>Angadi Theru</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by <strong>Haricharan</strong>, <strong>Naresh Iyer</strong>, and <strong>Shreya Ghoshal</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Un Perai Sollum pothe'?</h4><p>The music for this song was composed by <strong>GV PrakashKumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>April 2, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Un Perai Sollum pothe</strong>, the protagonists express their love and the joy it brings, set against the backdrop of the movie <em>Angadi Theru</em>. The song's melody and heartfelt lyrics evoke a sense of nostalgia and happiness, making it a perfect fit for romantic occasions. The collaboration of talented singers enhances the emotional depth of the song, making it resonate with listeners. Overall, it beautifully captures the essence of love and connection.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Un Perai Sollum pothe</strong> from the movie <em>Angadi Theru</em> is a mesmerizing romantic duet that captures the essence of love and longing. With the enchanting voices of Haricharan, Naresh Iyer, and Shreya Ghoshal, this song beautifully blends heartfelt lyrics by Na Muthukumar and the captivating music of GV PrakashKumar. Experience the magic of this collaboration that resonates with every lover's heart.",
+    "stanzaMeanings": [
+      "When I say your name, my heart dances. Living with you is a struggle for life. When you look at me, rain falls. If you are not here, what will happen to me? I need the earth with fire.",
+      "When I say your name, my heart dances. Living with you is a struggle for life. If you are not here, what will happen to me? I need the earth with fire.",
+      "You walk like a beautiful one, and when I see your eyes, I get caught. You made me understand the meaning of being born a girl. You gave me the unexplainable feelings. My world is not lonely because you came with flowers and dreams. If you are not here, what will happen to me? I need the earth with fire.",
+      "When I say your name...",
+      "Your dark curls are like a flute that plays in my heart. Your words are soothing. Your transformation ends my life. That enchantment is enough to connect with my heart. Without your love, I have nothing in my hands, and nothing else matters. If you are not here, what will happen to me? I need the earth with fire.",
+      "When I say your name..."
+    ]
+  }
 }

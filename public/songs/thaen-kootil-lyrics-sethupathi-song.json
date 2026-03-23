@@ -83,5 +83,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuNqmA75MZISbzcN2Zr_1lOyTeo8c3Httoq_cJvYK1FTjH88uR7X5JvGply-1FK0unJq18tf3rXnhA8Fxg5uD2DPVOPRbezLD-bJPGqE7XU_SiSmAAniUUfsZk4AqoZ1VZ_f2YS9Mi-Xw/s400-c/Sethupathi.jpg",
   "generatedAt": "2026-01-18T12:52:30.935Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "sethupathi",
+      "thaen kootil",
+      "mahalingam",
+      "na muthukumar",
+      "nivas k prasanna",
+      "romantic",
+      "melancholic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Thaen Kootil'?</h4><p>'Thaen Kootil' conveys themes of love and longing, reflecting the emotional journey of the characters in the movie.</p></div><div class=\"faq-item\"><h4>How does 'Thaen Kootil' fit into the plot of the movie Sethupathi?</h4><p>The song plays during a pivotal moment, highlighting the romantic connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Thaen Kootil'?</h4><p>The song is sung by <strong>Mahalingam</strong>, whose voice adds depth to the emotional narrative.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Thaen Kootil'?</h4><p>The music is composed by <strong>Nivas K Prasanna</strong>, known for his melodic and engaging compositions.</p></div><div class=\"faq-item\"><h4>When was 'Thaen Kootil' released?</h4><p>'Thaen Kootil' was released on <strong>January 20, 2016</strong>.</p></div></div>",
+    "summary": "In the movie <em>Sethupathi</em>, the song <strong>Thaen Kootil</strong> serves as a heartfelt expression of love and yearning. It beautifully encapsulates the emotions of the characters as they navigate their romantic journey. The soothing melody, combined with Na Muthukumar's evocative lyrics, evokes a sense of nostalgia and warmth. This track is a perfect accompaniment for moments of reflection and romance.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Thaen Kootil</strong> from <em>Sethupathi</em> is a mesmerizing melody that beautifully captures the essence of love and longing. With Mahalingam's soulful voice and Na Muthukumar's poignant lyrics, this song resonates deeply with listeners. Experience the enchanting vibes that make this track a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "Who has put the honey in the fire and made it burn?",
+      "Who has left the sweet little pig on the street?",
+      "Who has spoken nonsense in the words of the wise?",
+      "Who has made fate work in a way that is not right?",
+      "On the path you take, the cold will hide your eyes.",
+      "If the sky opens up, the way will immediately be revealed.",
+      "Don't lose your calm, my dear... never let the truth sleep.... sleep....",
+      "Who is it, who is it, who is it, who is it, let it be, let it be?",
+      "Let it be, who is it?"
+    ]
+  }
 }

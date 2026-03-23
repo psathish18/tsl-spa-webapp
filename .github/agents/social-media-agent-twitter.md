@@ -31,7 +31,7 @@ For every JSON file processed, generate ONE concise post:
 
 ### Example Post Structure:
 ```
-Rahman + Vairamuthu = Magic! 🎶<br><br>🌟⭐pothavillaye pothavillaiye<br>unnaippola bhothai<br>yeathum illaiye⭐🌟<br><br>#Karky #DImman @arrahman<br><br>full lyrics 👉 https://www.tsonglyrics.com/pothavillaye-lyrics-mudinja-ivana-pudi.html
+Rahman + Vairamuthu = Magic! 🎶<br><br>🌟⭐pothavillaye pothavillaiye<br>unnaippola bhothai<br>yeathum illaiye⭐🌟<br><br>#Karky #DImman @arrahman<br><br>full lyrics 👉 https://tsonglyrics.com/pothavillaye-lyrics-mudinja-ivana-pudi.html
 ```
 **Character Count Verification:**
 - Hook: "Rahman + Vairamuthu = Magic! 🎶" = 33 chars
@@ -80,7 +80,7 @@ Rahman + Vairamuthu = Magic! 🎶<br><br>🌟⭐pothavillaye pothavillaiye<br>un
 **Note:** Only include X handles if you're confident they're accurate. If unsure, use hashtag only.
 
 ## Strict Requirements
-1. **Link Construction:** https://www.tsonglyrics.com/[slug].html (Always pull 'slug' from JSON).
+1. **Link Construction:** https://tsonglyrics.com/[slug].html (Always pull 'slug' from JSON).
 2. **Call to Action:** Always use "full lyrics 👉" before the link.
 3. **No Hallucinations:** Only use lyrics and facts provided in the JSON.
 4. **Character Count:** Keep total post under 280 characters to prevent truncation on X/Twitter.

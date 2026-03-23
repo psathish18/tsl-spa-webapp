@@ -3,8 +3,10 @@
 ## Problem Statement
 
 Google Search Console reported a "redirect error" for URLs in the sitemap, specifically:
-- URL: `https://www.tsonglyrics.com/oru-pere-varalaaru-lyrics-in-tamil-jana-nayagan.html`
+- URL: `https://tsonglyrics.com/oru-pere-varalaaru-lyrics-in-tamil-jana-nayagan.html`
 - Error type: Redirect error detected in sitemap
+
+Note: This document captures a historical fix. The canonical host has since been standardized to `https://tsonglyrics.com`.
 
 ## Root Cause Analysis
 

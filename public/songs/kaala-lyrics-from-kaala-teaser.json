@@ -21,7 +21,7 @@
     "kaalaa ... thee...",
     "kattravai pattravai",
     "Source: <a href=\"https://www.youtube.com/watch?v=Wm_vSSlVsV4\" target=\"_blank\" rel=\"noopener noreferrer\">Youtube</a>",
-    "<a href=\"https://www.tsonglyrics.com/wp-content/uploads/2018/03/1.jpeg\"></a>"
+    "<a href=\"https://tsonglyrics.com/wp-content/uploads/2018/03/1.jpeg\"></a>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
@@ -39,5 +39,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:16:27.118Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "motivational",
+      "energetic"
+    ],
+    "songType": [
+      "theme",
+      "song"
+    ],
+    "occasions": [
+      "workout",
+      "night drive"
+    ],
+    "keywords": [
+      "kaala",
+      "teaser",
+      "tamil",
+      "lyrics",
+      "2018",
+      "motivational",
+      "energetic",
+      "theme",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the release year of the <strong>Kaala Teaser</strong> song?</h4><p>The song was released in 2018.</p></div><div class=\"faq-item\"><h4>What mood does the <strong>Kaala Teaser</strong> song convey?</h4><p>The song conveys a motivational and energetic mood.</p></div><div class=\"faq-item\"><h4>What is the theme of the <strong>Kaala Teaser</strong> song?</h4><p>The theme revolves around power, resilience, and overcoming challenges.</p></div></div>",
+    "summary": "The <strong>Kaala Lyrics From Kaala Teaser</strong> is a powerful anthem that embodies themes of strength and determination. The lyrics urge the listener to rise above challenges and conquer obstacles, resonating with a sense of empowerment. The song's energetic and motivational tone makes it perfect for moments requiring a boost of confidence. It sets the stage for the movie's narrative, highlighting the protagonist's journey and struggles.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Kaala Lyrics From Kaala Teaser</strong> captures the essence of power and resilience, setting the stage for a gripping narrative. The song's intense energy and motivational vibe make it a standout piece. Experience the raw emotion and strength conveyed through this teaser from the movie <em>Kaala</em>.",
+    "stanzaMeanings": [
+      "Come, conquer yourself and the land - bring an unending desire - a hundred thousand years are enough - become one and roar",
+      "Kaala ... fire ...",
+      "What is learned, what is held",
+      "Come, conquer yourself and the land - bring an unending desire - a hundred thousand years are enough - become one and roar",
+      "Kaala ... fire ...",
+      "What is learned, what is held",
+      "",
+      ""
+    ]
+  }
 }

@@ -9,7 +9,7 @@
   "actorName": "",
   "published": "2013-03-10T15:41:00.000+05:30",
   "stanzas": [
-    "<div><table><tbody><tr>  <td><span>Song</span><span>: Kanjum Kili</span><br /><span>Music</span><span>: Yuvan</span><br /><span>Movie</span><span>: Kedi Billa Killadi Ranga</span><br /><span>Lyrics</span><span>: Yugabharathi</span><br /><span>Singers</span><span>:Velmurugan</span></td>  <td><br />Other Songs Lyrics:<br /><a href=\"http://www.tsonglyrics.com/2013/02/konjum-kili-lyrics-kedi-billa-killadi.html\" target=\"_blank\">Konjum Killi</a><a href=\"http://www.tsonglyrics.com/2013/03/oru-porambokku-lyrics-kedi-billa.html\" target=\"_blank\">Oru Porambokku</a><a href=\"http://www.tsonglyrics.com/2013/03/sudasuda-thooral-lyrics-kedi-billa.html\" target=\"_blank\">Sudasuda Thooral</a><a href=\"http://www.tsonglyrics.com/2013/03/dheivangal-ellam-lyrics-kedi-billa.html\" target=\"_blank\">Dheivangal Ellam</a></td>  <td><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRXPiUpTGZ8c_V6BdEyKOP0I8vmGUeZZzxlbs4boOQEN8fInIz0h0yoqaG0ee6nQ1zGa_2ygz-8MVnOfs_vK3188RusHDVd-99qNCtZOKNO0_lQjpHifx6AqcBJJ2FaMsJ6Vg9CVPyqCA/s1600/kbkr.jpeg\"></a></div></td> </tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words <br /><span>Konjum kili</span> paada vechaa<br />kummaalamum poda vechaa<br />veedhiyila aada vechaa da",
+    "<div><table><tbody><tr>  <td><span>Song</span><span>: Kanjum Kili</span><br /><span>Music</span><span>: Yuvan</span><br /><span>Movie</span><span>: Kedi Billa Killadi Ranga</span><br /><span>Lyrics</span><span>: Yugabharathi</span><br /><span>Singers</span><span>:Velmurugan</span></td>  <td><br />Other Songs Lyrics:<br /><a href=\"https://tsonglyrics.com/konjum-kili-lyrics-kedi-billa-killadi.html\" target=\"_blank\">Konjum Killi</a><a href=\"https://tsonglyrics.com/oru-porambokku-lyrics-kedi-billa.html\" target=\"_blank\">Oru Porambokku</a><a href=\"https://tsonglyrics.com/sudasuda-thooral-lyrics-kedi-billa.html\" target=\"_blank\">Sudasuda Thooral</a><a href=\"https://tsonglyrics.com/dheivangal-ellam-lyrics-kedi-billa.html\" target=\"_blank\">Dheivangal Ellam</a></td>  <td><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRXPiUpTGZ8c_V6BdEyKOP0I8vmGUeZZzxlbs4boOQEN8fInIz0h0yoqaG0ee6nQ1zGa_2ygz-8MVnOfs_vK3188RusHDVd-99qNCtZOKNO0_lQjpHifx6AqcBJJ2FaMsJ6Vg9CVPyqCA/s1600/kbkr.jpeg\"></a></div></td> </tr></tbody></table><table><tbody><tr> <td>Lyrics in Thanglish  <br />Exact translation of tamil words <br /><span>Konjum kili</span> paada vechaa<br />kummaalamum poda vechaa<br />veedhiyila aada vechaa da",
     "Koyilila soodam vechaa<br />kondayila poovum vechaa<br />paarvaiyila kaandham vechaa da",
     "Vekkam adha thalli vechaa<br />villangamaa pulli vechaa<br />athanaiyum solli vechaa da<br />andha pullai yedhum appadiye<br />pulli vechaa da",
     "Oodhupathi pola enna<br />vaasam veesa vechaa<br />thananthaniyaga ennna thaaney pesa vechaa<br />Suriyana pola ava kannulaadhan<br />paarvayila soora thaengaa aanenda",
@@ -94,5 +94,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRXPiUpTGZ8c_V6BdEyKOP0I8vmGUeZZzxlbs4boOQEN8fInIz0h0yoqaG0ee6nQ1zGa_2ygz-8MVnOfs_vK3188RusHDVd-99qNCtZOKNO0_lQjpHifx6AqcBJJ2FaMsJ6Vg9CVPyqCA/s400-c/kbkr.jpeg",
   "generatedAt": "2026-01-18T13:04:25.091Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "folk",
+      "song"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "kedi billa killadi ranga",
+      "velmurugan",
+      "yugabharathi",
+      "yuvan",
+      "2013",
+      "upbeat",
+      "folk",
+      "energetic",
+      "happy",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Konjum Kili</strong>?</h4><p>The song is upbeat and energetic, celebrating joy and festivity.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Kedi Billa Killadi Ranga</em>?</h4><p>The music was composed by <strong>Yuvan</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Konjum Kili</strong>?</h4><p>The song is sung by <strong>Velmurugan</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Kedi Billa Killadi Ranga</em>?</h4><p>The movie was released in <strong>2013</strong>.</p></div></div>",
+    "summary": "The song <strong>Konjum Kili</strong> from the movie <em>Kedi Billa Killadi Ranga</em> is a lively and energetic track that captures the essence of celebration and joy. Set against a backdrop of festivity, the song features vibrant folk elements that are both engaging and infectious. Velmurugan's spirited vocals combined with Yuvan's dynamic composition create a mood of happiness and excitement. The song is perfect for parties and festive occasions, bringing people together in a shared sense of joy.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Konjum Kili</strong> from the movie <em>Kedi Billa Killadi Ranga</em>. With Yuvan's dynamic music and Velmurugan's spirited vocals, this song is a celebration of life and joy. Dive into the lively beats and let the rhythm take over your senses!",
+    "stanzaMeanings": [
+      "",
+      "If you place a lamp in the temple, if you put a flower in the hair, if you add charm to the eyes.",
+      "If you push aside shyness, if you mark a spot, if you say everything, that spot remains the same.",
+      "If you make the fragrance spread like incense, if you make me speak alone, her eyes are like the sun, her gaze is strong.",
+      "If you tie a flower and put it in the hair, I also went along with the scent.",
+      "The double parrot matchbox has struck my heart, I don't need anything else.",
+      "For that girl, just one is enough, live loudly and don't die.",
+      "",
+      "In the smoke, that girl blooms like a flower, in her smile, pearls appear, in her anklet, silver shines, who is like her, who is like her, love blooms like a flower.",
+      "In the scorching sun, if you fan, that girl speaks coolly.",
+      "In the drink, if you add something, seeing that girl, the path changes suddenly.",
+      "I became a king because of that girl, I became a god, that's me."
+    ]
+  }
 }

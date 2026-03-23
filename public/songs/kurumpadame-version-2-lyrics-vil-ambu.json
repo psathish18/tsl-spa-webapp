@@ -72,5 +72,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0mdYLUCPOY4upgZCOBgIhhYA4znGxEfuGRfBl9LNSt6cg0buU2Nnsu_o4DLMVIrUe0w5oDe4wbtpBOciBiOlfDh20oejce8hUysgzifbTYZz6CcaeRQzpfiGfrXhjdAwHYcVGnyjAR18/s400-c/Villu+Ambu.jpg",
   "generatedAt": "2026-01-18T12:53:52.637Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "vil ambu",
+      "gv prakash kumar",
+      "vandhana srinivasan",
+      "navin",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song",
+      "movie song",
+      "duet",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kurumpadame (version 2)</strong>?</h4><p>The song explores themes of love and longing, capturing the emotions of a romantic relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p><strong>GV Prakash Kumar</strong> and <strong>Vandhana Srinivasan</strong> lend their voices to this beautiful duet.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Vil Ambu</em>?</h4><p>The music for the movie was composed by <strong>Navin</strong>.</p></div><div class=\"faq-item\"><h4>When was <em>Vil Ambu</em> released?</h4><p>The movie was released in the year <strong>2015</strong>.</p></div></div>",
+    "summary": "<strong>Kurumpadame (version 2)</strong> is a poignant song from the movie <em>Vil Ambu</em>, highlighting the tender emotions of love and longing between the protagonists. Sung by GV Prakash Kumar and Vandhana Srinivasan, the song's lyrics convey a deep sense of connection and yearning. Navin's melodious composition enhances the romantic and melancholic mood, making it a perfect track for moments of reflection and emotional introspection. The song beautifully captures the essence of love, making it relatable to anyone who has experienced the joys and sorrows of a romantic relationship.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Kurumpadame (version 2)</strong> from the movie <em>Vil Ambu</em> is a mesmerizing duet that beautifully captures the essence of romance and longing. With the soulful voices of GV Prakash Kumar and Vandhana Srinivasan, this song is a heartfelt expression of love. Navin's music direction adds a soothing yet emotional layer, making it a must-listen for fans of Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "You live as a short film, jumping out of the screen, coming closer, giving illusions.",
+      "You slip through waves of light, you see with your eyes, you mesmerize the world, you move my heart.",
+      "Girl, girl, after you came, I changed a little. Love, love, after you came, I understood love.",
+      "You live as a short film, jumping out of the screen, coming closer, giving illusions.",
+      "Still, still, what beauty is this earth? Your eyes change it. Oh, you are the center of attraction, this love changes. In my thorny path, flowers are blooming. In your eyes, I see my love. Don't close them!",
+      "You live as a short film, jumping out of the screen, coming closer, giving illusions.",
+      "Girl, girl, after you came, I changed a little. Love, love, after you came, I understood love."
+    ]
+  }
 }

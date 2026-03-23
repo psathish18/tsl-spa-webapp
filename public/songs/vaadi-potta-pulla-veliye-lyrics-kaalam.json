@@ -41,5 +41,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:11.604Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "kaalam maari pochu",
+      "vadivelu",
+      "upbeat",
+      "dance number",
+      "1996",
+      "tamil song",
+      "item number",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Vaadi Potta Pulla Veliye</strong> conveys a playful and humorous take on love and relationships, reflecting the light-hearted nature of the movie.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Kaalam Maari Pochu</em>, this song is performed during a lively scene that emphasizes celebration and fun, aligning with the movie's comedic tone.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the talented <strong>Vadivelu</strong>, known for his unique style and comedic timing.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Vaadi Potta Pulla Veliye</strong> was released on April 3, 1996, as part of the film's soundtrack.</p></div></div>",
+    "summary": "In <strong>Vaadi Potta Pulla Veliye</strong>, the lively atmosphere of <em>Kaalam Maari Pochu</em> is brought to life through Vadivelu's energetic performance. The song captures the essence of joy and celebration, making it a perfect fit for festive occasions. With its catchy lyrics and upbeat rhythm, it evokes feelings of happiness and fun. This track stands out as a memorable highlight in the film, showcasing the playful side of love and relationships.",
+    "releaseYear": "1996",
+    "high_ctr_intro": "<strong>Vaadi Potta Pulla Veliye</strong> from <em>Kaalam Maari Pochu</em> is a vibrant and energetic track that showcases Vadivelu's unique comedic flair. This song perfectly captures the essence of celebration and joy, making it a timeless favorite for parties. With its catchy beats and playful lyrics, it's sure to get everyone on their feet!",
+    "stanzaMeanings": [
+      "You are a girl who has been spoiled, my life has been troubled by you, my dear.",
+      "Are you going to leave me or stay? You came into my life on the very first night.",
+      "You are a girl who has been spoiled, my life has been troubled by you, my dear.",
+      "After tying the knot, it shouldn't be broken; it shouldn't be loosened, it shouldn't be ignored... do you understand?",
+      "After the wedding, it shouldn't be delayed; it shouldn't be changed; it shouldn't be ignored...",
+      "Is it that night when you gave milk? Is that you, my beautiful?",
+      "The last night ended, and everything got wet in the water.",
+      "The last night ended, and I cried in the water.",
+      "You are a girl who has been spoiled, my life has been troubled by you, my dear.",
+      "I swear on the water, I won't let you go; I won't let you go without tying you up. I promise...",
+      "In the month of August, I won't eat without you, I won't be scared anymore.",
+      "If I see someone, I will think of you, and I will cry at your door.",
+      "The bottle is empty, I have become a drunkard... if the whole bottle is empty, I have become a fool...",
+      "You are a girl who has been spoiled, my life has been troubled by you, my dear.",
+      "Are you going to leave me or stay? You came into my life on the very first night.",
+      "You are a girl who has been spoiled, my life has been troubled by you, my dear."
+    ]
+  }
 }

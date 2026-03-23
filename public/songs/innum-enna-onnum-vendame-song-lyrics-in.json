@@ -44,5 +44,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:41.837Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "geetha govindam",
+      "inkem inkem",
+      "tamil lyrics",
+      "romantic",
+      "melody",
+      "2018",
+      "soothing",
+      "love song",
+      "translation",
+      "unofficial",
+      "tamil version"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Innum Enna Onnum Vendame</strong>?</h4><p>The song revolves around themes of love and longing, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>Is <strong>Innum Enna Onnum Vendame</strong> an official Tamil song?</h4><p>No, it is an unofficial Tamil version of the Telugu song <strong>Inkem Inkem</strong> from the movie <em>Geetha Govindam</em>.</p></div><div class=\"faq-item\"><h4>What emotions does the song evoke?</h4><p>The song evokes feelings of romance, nostalgia, and a soothing sense of longing.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Geetha Govindam</em> released?</h4><p>The movie <em>Geetha Govindam</em> was released in 2018.</p></div></div>",
+    "summary": "The song <strong>Innum Enna Onnum Vendame</strong> is a Tamil adaptation of the popular Telugu song <strong>Inkem Inkem</strong> from the movie <em>Geetha Govindam</em>. It beautifully captures the essence of love and longing, resonating with those who appreciate romantic melodies. The soothing tune and heartfelt lyrics make it perfect for moments of reflection and romance. Although unofficial, this version has gained popularity for its emotional depth and connection to the original film's narrative.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Innum Enna Onnum Vendame</strong>, a Tamil rendition of the beloved Telugu hit. This unofficial version captures the essence of romance and longing, beautifully intertwined with the narrative of <em>Geetha Govindam</em>. Dive into the soothing vibes and heartfelt emotions that make this song a timeless favorite.",
+    "stanzaMeanings": [
+      "",
+      "This is not official lyrics, I just tried my own for the love of this song. Innum Enna Onnum Vendame: Inkem Inkem Song Lyrics in Tamil. I don't need anything else, this is enough, you came close to me, from now on it's a festival.",
+      "You made my heart beat faster. You spread many colors inside the house.",
+      "What else do I need if you are near me? Every moment feels like a year. I will be born and die again.. I will.",
+      "What else, what else do I need? This is enough, you came close to me, from now on it's a festival.",
+      "A form beyond imagination, won't you leave my breath? Do you know what's in my mind?",
+      "The light in your eyes dims my age, it feels like a dream..",
+      "I must come and see you immediately, as soon as I see you, I will fly in the sky...",
+      "I don't need anything else, this is enough, you came close to me, from now on it's a festival.",
+      ""
+    ]
+  }
 }

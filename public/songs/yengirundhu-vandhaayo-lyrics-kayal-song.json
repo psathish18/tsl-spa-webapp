@@ -93,5 +93,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQZNTSET8bT8Zv5rWhhyphenhyphentNgQpUjLRK_YJY-_Q-UygUDI2akuTX2nJvReTmipUlDYXhigclrpwBN34n8P9qZZesdaskqa65OBhw-sDAbBFNDvIEq0beg19BSkYh3Vtgc7lOnHoRm-vCeRc/s400-c/Kayal-Movie-First-Look.jpg",
   "generatedAt": "2026-01-18T12:57:13.875Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kayal",
+      "shreya ghoshal",
+      "yugabharathi",
+      "d imman",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Yengirundhu Vandhaayo?</h4><p>The song expresses feelings of love and longing, reflecting on the emotions tied to relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Kayal?</h4><p>In <em>Kayal</em>, this song plays during a pivotal moment that highlights the romantic connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Shreya Ghoshal</strong> and composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was Yengirundhu Vandhaayo released?</h4><p>The song was released on <strong>November 13, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Yengirundhu Vandhaayo</strong>, the protagonist expresses deep emotions of love and yearning, beautifully conveyed through Shreya Ghoshal's captivating voice. The song serves as a backdrop to a significant moment in <em>Kayal</em>, where the characters reflect on their feelings for each other. The soothing melody and heartfelt lyrics create an atmosphere of romance and nostalgia. This track resonates with anyone who has experienced the complexities of love, making it a memorable addition to Tamil cinema.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Yengirundhu Vandhaayo</strong> from <em>Kayal</em> is a mesmerizing romantic melody that captures the essence of love and longing. With Shreya Ghoshal's enchanting vocals and D Imman's soulful composition, this song takes listeners on an emotional journey. Experience the magic of this beautiful collaboration that resonates with every heartbeat.",
+    "stanzaMeanings": [
+      "",
+      "Where have you come from, what is the reason for your arrival? You seem to have spoken a story, but I know you have forgotten it. You have slowly blended into the breeze.",
+      "You have come to the place of thoughts, and you are thinking. In the stormy waves, you are like a living being.",
+      "Like a fish caught in a net, you are lost in memories. Like a stone thrown into the water, my heart is troubled.",
+      "You have forgotten, and you have slowly blended into the breeze.",
+      "",
+      "Where have you come from, what is the reason for your arrival?",
+      "While walking, you seem to have lost your way, even in the middle of the path, you are getting lost in the thoughts.",
+      "In my eyes, there is no heart to let you go. Inside, there is no way to escape from you.",
+      "You have forgotten, and you have slowly blended into the breeze.",
+      "Where have you come from, what is the reason for your arrival?",
+      "You have merged with life."
+    ]
+  }
 }

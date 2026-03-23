@@ -57,5 +57,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:11.668Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "masilamani",
+      "benny dayal",
+      "rita",
+      "na muthukumar",
+      "d imman",
+      "upbeat",
+      "dance",
+      "2009"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Nacka Romba Nacka</strong> conveys the playful and joyful aspects of love, highlighting the excitement and fun in romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Masilamani</em>, this song is a lively expression of the protagonist's feelings, showcasing the light-hearted moments in his romantic journey.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented voices of <strong>Benny Dayal</strong> and <strong>Rita</strong>, with music composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Nacka Romba Nacka</strong> was released on <strong>May 23, 2009</strong>.</p></div></div>",
+    "summary": "In <strong>Nacka Romba Nacka</strong>, the lively duet captures the essence of youthful love and exuberance, making it a standout track in <em>Masilamani</em>. The playful lyrics and upbeat rhythm evoke feelings of joy and celebration, perfectly aligning with the film's light-hearted narrative. As Benny Dayal and Rita harmonize, listeners are drawn into a world of romance and fun. This song is sure to resonate with anyone looking to celebrate love and happiness.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Nacka Romba Nacka</strong> from <em>Masilamani</em> is a vibrant celebration of love and joy, featuring the dynamic voices of Benny Dayal and Rita. This catchy duet, composed by D Imman, perfectly captures the essence of youthful exuberance and romance. Get ready to dance along to its infectious beats and playful lyrics that will surely lift your spirits!",
+    "stanzaMeanings": [
+      "",
+      "N/A",
+      "A lot of sadness comes when love is given, and that sadness is very deep. When love is given, it brings a lot of sorrow.",
+      "Love is like a small child. It grows until the end. If love is there, no one can see it, like a flower that blooms without being noticed. Na na na, sadness, sadness.",
+      "A lot of sadness comes when love is given, and that sadness is very deep. When love is given, it brings a lot of sorrow.",
+      "Everywhere, my heart melts slowly. Even in the midst of excitement, it is in a state of worship. I say this is the condition. Oh, this journey is crazy about love. Like a night without sleep, love doesn't end, you know... It doesn't go away without a trace...",
+      "A lot of sadness comes when love is given, and that sadness is very deep. When love is given, it brings a lot of sorrow.",
+      "If someone comes here to take away the hearts, if anyone cries here, it can bear the pain. Oh dear, without asking you, I have drawn a picture in my heart. Even if I close my eyes, I can touch you in my dreams. Flowers are given everywhere... My heart is standing still...",
+      "A lot of sadness comes when love is given, and that sadness is very deep. When love is given, it brings a lot of sorrow.",
+      "Love is like a small child. It grows until the end. If love is like a mirror, what happens if it breaks? Na na na, na na na, na na na."
+    ]
+  }
 }

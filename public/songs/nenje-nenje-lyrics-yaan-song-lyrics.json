@@ -91,5 +91,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKWcx2StjLSVKc9N_87DPTnVLFxjMLv5aF0dUi0msMLh0PK952gRanA4e8P52NaHibZQ5vOhN_wBGbwiF-09m7SoeKFOKvG4F1T3UoYoUY6EeEa_3t362yxkr7KMsmeLCwRBTr-lfpOTo/s400-c/yaan.jpg",
   "generatedAt": "2026-02-01T13:06:38.980Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "yaan",
+      "nenje nenje",
+      "chinmayi",
+      "unnikrishnan",
+      "kabilan",
+      "harrish jeyaraj",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Nenje Nenje'?</h4><p>The song 'Nenje Nenje' expresses deep emotions of love and longing, reflecting the feelings of the protagonists in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Yaan'?</h4><p>The movie 'Yaan' revolves around a love story intertwined with action and adventure, showcasing the journey of the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Nenje Nenje'?</h4><p>The song is sung by the talented Chinmayi and Unnikrishnan, whose voices complement each other beautifully.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Nenje Nenje'?</h4><p>The music for 'Nenje Nenje' was composed by Harrish Jeyaraj, known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was 'Nenje Nenje' released?</h4><p>'Nenje Nenje' was released on May 12, 2014, as part of the movie 'Yaan'.</p></div></div>",
+    "summary": "In the movie <em>Yaan</em>, the song <strong>Nenje Nenje</strong> serves as a poignant expression of love and yearning between the lead characters. The lyrics, penned by Kabilan, beautifully articulate the complexities of romance, evoking a sense of nostalgia and emotional depth. With its soothing melody and heartfelt performances by Chinmayi and Unnikrishnan, the song resonates with anyone who has experienced the highs and lows of love. Overall, it encapsulates the essence of longing and connection, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Nenje Nenje</strong> from the movie <em>Yaan</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Chinmayi and Unnikrishnan, paired with Harrish Jeyaraj's soulful composition, this song is sure to tug at your heartstrings. Experience the magic of this romantic ballad that resonates with every lover's heart.",
+    "stanzaMeanings": [
+      "",
+      "My heart, my heart, you are my love, what have you done to me? Here is the earth, there is the cloud, where is the mist that brings them together?",
+      "Don't stay away from me, don't say that other flowers are different. There is no love, so how can I understand this pain, my mind?",
+      "I forgot you, I forgot you. I will come back one day.",
+      "My heart, my heart, you are my love, what have you done to me?",
+      "Even if the flower comes and goes, don't let go of my hand. Will your heart forget me, or will forgetting bring pain?",
+      "Close your eyes and sleep, dear, beautiful lullaby. When love's eyes close, the flower is your new dress, friend.",
+      "I left you, but it was my own fault. I became like a fish in water because of you. There is no way to speak, no words, I have lost my way.",
+      "Love is a dream, I have made it a crescent moon.",
+      "My heart, my heart, you are my love, what have you done to me? Here is the earth, there is the cloud, where is the mist that brings them together?"
+    ]
+  }
 }

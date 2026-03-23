@@ -42,5 +42,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:15:47.319Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "pithamagan",
+      "sriram parthasarathy",
+      "palani bharathi",
+      "ilaiyaraaja",
+      "romantic",
+      "melody",
+      "2003",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Elangaathu Veesudhey</strong>?</h4><p>The song conveys themes of love and longing, using nature as a metaphor for emotions.</p></div><div class=\"faq-item\"><h4>In which movie is the song <strong>Elangaathu Veesudhey</strong> featured?</h4><p>The song is featured in the movie <em>Pithamagan</em>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Elangaathu Veesudhey</strong>?</h4><p>The song is sung by <strong>Sriram Parthasarathy</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Elangaathu Veesudhey</strong>?</h4><p>The music for the song was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Elangaathu Veesudhey</strong> released?</h4><p>The song was released on <strong>October 24, 2003</strong>.</p></div></div>",
+    "summary": "In <strong>Elangaathu Veesudhey</strong>, the protagonist expresses deep emotions of love and yearning, beautifully encapsulated through poetic lyrics and a soothing melody. The song plays a pivotal role in <em>Pithamagan</em>, enhancing the romantic atmosphere of the film. With its enchanting composition by Ilaiyaraaja and heartfelt rendition by Sriram Parthasarathy, it evokes a sense of nostalgia and warmth. This melody is perfect for moments of reflection and connection, making it a timeless piece in Tamil cinema.",
+    "releaseYear": "2003",
+    "high_ctr_intro": "<strong>Elangaathu Veesudhey</strong> from <em>Pithamagan</em> is a mesmerizing melody that captures the essence of romance and longing. With Sriram Parthasarathy's soulful vocals and Ilaiyaraaja's enchanting composition, this song creates a soothing atmosphere that resonates deeply with listeners. Experience the magic of this beautiful collaboration that brings forth emotions like never before.",
+    "stanzaMeanings": [
+      "The breeze flows like music, speaking softly, the melody dances in the bamboo, the clouds burst and listen.",
+      "In the heart of the dark valley, the peacock spreads its feathers, the rain's fragrance is revealed, the path outside blooms, and the rainbow is embraced.",
+      "Listening to the sound of the gem, the mind opens the door, a new rhythm is set, and the body sways in the breeze.",
+      "The breeze flows like music, speaking softly, the melody dances in the bamboo, the clouds burst and listen.",
+      "Sister, sister, with the small leaf, my heart is like a colorful cloth, it is tied to you, all relationships are tied together.",
+      "Some have a heart like this earth, the world is like a moon shining in it.",
+      "Yesterday, loneliness came, there is no one to support. If someone comes to help, there is no connection at all.",
+      "Nothing in the world is alone, like the melody in the flute, it has merged with the flower's fragrance.",
+      "The breeze flows like music, speaking softly, the melody dances in the bamboo, the clouds burst and listen.",
+      "What is the sky in the mind? Every day it brings new secrets, who knows them? Who understands the wonders?",
+      "The hand that creates the Vedas is like a flower, every day it blooms, who picked the flower from the river?",
+      "In the world of dreams, the swinging parrot is all quiet, every story softly sings, like a river searching for its mother.",
+      "In the heart of the dark valley, the peacock spreads its feathers, the rain's fragrance is revealed, the path outside blooms, and the rainbow is embraced.",
+      "Listening to the sound of the gem, the mind opens the door, a new rhythm is set, and the body sways in the breeze.",
+      ""
+    ]
+  }
 }

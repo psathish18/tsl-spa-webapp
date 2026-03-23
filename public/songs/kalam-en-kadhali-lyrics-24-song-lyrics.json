@@ -84,5 +84,36 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhqbpQQd-2Nhj7p1nA7_QR0lTLhYdhc0Gx4zMdZhCtYXxZFeAK9rhnzCmj-V255Rj5NZogZ6RtvaPqfZ1_1hKrxa84cJO5fL2wGGFiIdBluemPnJGVvuC55VLl2tzvGy3SgZAAc9LUXLs/s400-c/Kaalam+en+Kadhali.jpg",
   "generatedAt": "2026-01-18T12:51:48.610Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "24",
+      "benny dayal",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melancholic",
+      "soothing",
+      "2016",
+      "tamil",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kalam En Kadhali</strong>?</h4><p>The song explores themes of love and the passage of time, with a romantic and melancholic tone.</p></div><div class=\"faq-item\"><h4>Who composed the music for the movie <em>24</em>?</h4><p><strong>AR Rahman</strong> composed the music for the movie <em>24</em>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kalam En Kadhali</strong>?</h4><p>The lyrics were penned by the renowned lyricist <strong>Vairamuthu</strong>.</p></div><div class=\"faq-item\"><h4>When was the song <strong>Kalam En Kadhali</strong> released?</h4><p>The song was released in the year <strong>2016</strong>.</p></div></div>",
+    "summary": "<strong>Kalam En Kadhali</strong> is a captivating song from the movie <em>24</em>, featuring the enchanting voice of Benny Dayal. The lyrics, crafted by Vairamuthu, delve into the themes of love and the enigmatic nature of time. AR Rahman's composition adds a soothing and melancholic layer, making it perfect for moments of reflection. The song evokes emotions of longing and romance, capturing the listener's heart with its poetic beauty.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Kalam En Kadhali</strong> from the movie <em>24</em> is a mesmerizing melody that beautifully blends Benny Dayal's soulful voice with AR Rahman's magical composition. The song's poetic lyrics by Vairamuthu add depth to its romantic and melancholic vibe. Experience a unique musical journey that captures the essence of time and love."
+  }
 }

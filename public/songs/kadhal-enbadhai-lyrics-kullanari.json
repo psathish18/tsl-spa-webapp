@@ -52,5 +52,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRXa3RRvAsBmI8keK6-TE3AWfNzW5qt7x6QjPFNbnTWq3jLoUFRb9ldZei4Dl0veFu9H4VX9auNAnyEhni7U_9PR3RG1kCYg9jPu7FTN3hqvTIuJXSkdiHNcdx4jV50Fs8a4A6WkTSXYs/s400-c/Kullanari-Koottam.jpg",
   "generatedAt": "2026-01-18T13:10:58.478Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "kullanari koottam",
+      "hariharan",
+      "suryaprabhakar",
+      "selvaganesh",
+      "romantic",
+      "melody",
+      "2011",
+      "tamil song",
+      "love song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadhal Enbadhai</strong>?</h4><p>The song revolves around the theme of love and the emotions it evokes.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kadhal Enbadhai</strong>?</h4><p>The song is sung by the renowned playback singer <strong>Hariharan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Kullanari Koottam</em>?</h4><p>The music for the movie was composed by <strong>Selvaganesh</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Kullanari Koottam</em>?</h4><p>The movie was released in the year <strong>2011</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does <strong>Kadhal Enbadhai</strong> convey?</h4><p>The song conveys emotions of love, happiness, and serenity.</p></div></div>",
+    "summary": "The song <strong>Kadhal Enbadhai</strong> from the movie <em>Kullanari Koottam</em> is a beautiful romantic melody that captures the essence of love. Sung by Hariharan, the song's soothing tune and heartfelt lyrics by Suryaprabhakar evoke feelings of joy and affection. It portrays the magic of love through poetic expressions and serene music. The song is perfect for moments of reflection and romance, making it a favorite for lovers and dreamers alike.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Kadhal Enbadhai</strong> from the movie <em>Kullanari Koottam</em>. With Hariharan's soulful voice and Selvaganesh's captivating music, this song beautifully captures the essence of love. Dive into a world of romance and emotion with this unforgettable track.",
+    "stanzaMeanings": [
+      "",
+      "Love is something you gave through a kiss. Love is something you expressed in silence. When I think of you, my heart becomes a flower. Even the life inside me belongs to you. You gave me your breath to live on this earth. Just this is enough for me to call the sky. There is some happiness in my heart. What a wonder, only life moves.",
+      "Love is something you gave through a kiss. Love is something you expressed in silence.",
+      "The path you walked, my feet search for it. Wherever I look, my eyes see you. You thought of leaving but stayed without parting. From a distance, you touched and embraced me. You thought of leaving but stayed without parting. From a distance, you touched and embraced me. There is some happiness in my heart. What a wonder, only life moves.",
+      "Love is something you gave through a kiss.",
+      "The distance of fire ends with water. The distance of sound ends with air. The distance of air ends on earth. The distance of my love ends within you. The distance of air ends on earth. The distance of my love ends within you. There is some happiness in my heart. What a wonder, only life moves."
+    ]
+  }
 }

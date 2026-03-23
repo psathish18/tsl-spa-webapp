@@ -73,5 +73,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ0cqLmBI0p6a2tQFaVzOTxZiIGS2fZUoEQ12fxnhfKMJMKASR1IxN10dQYWM5aGgSdL983q0SP9GqlqaJg6pTA_oXuq8Kn8wdOHSG7Zqe4r9a1nWMdRtMdztGX0gXwP19v4YaYewn2PU/s400-c/Kathakali.jpg",
   "generatedAt": "2026-01-18T12:52:59.070Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "kathakali",
+      "anthonydasan",
+      "hip hop tamizha",
+      "energetic",
+      "dance number",
+      "2015",
+      "tamil song",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Erangi Vandhu'?</h4><p>The song conveys themes of love and longing, capturing the emotional turmoil of relationships.</p></div><div class=\"faq-item\"><h4>How does 'Erangi Vandhu' fit into the plot of the movie Kathakali?</h4><p>This song is a celebration of love and joy, reflecting the characters' emotions during a pivotal moment in the film.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features vocals by <strong>Anthonydasan</strong> and <strong>Hip Hop Tamizha</strong>, with music composed by <strong>Hip Hop Tamizha</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Erangi Vandhu' released?</h4><p>The song was released on <strong>December 31, 2015</strong>.</p></div></div>",
+    "summary": "In 'Erangi Vandhu', the vibrant energy of the song reflects the joyous moments shared between the characters in the movie <em>Kathakali</em>. The upbeat tempo and catchy lyrics evoke feelings of celebration and excitement, making it a perfect dance number. The collaboration between Anthonydasan and Hip Hop Tamizha brings a fresh and lively vibe to the track. Overall, the song encapsulates the essence of youthful exuberance and the thrill of love.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Erangi Vandhu</strong> from <em>Kathakali</em> is a vibrant and energetic track that showcases the unique collaboration between Anthonydasan and Hip Hop Tamizha. With its infectious beats and catchy lyrics, this song is sure to get you on your feet and dancing. Experience the lively spirit of Tamil cinema through this dynamic musical piece!",
+    "stanzaMeanings": [
+      "",
+      "That street is like a necklace, shining in the light of the night.",
+      "You and I walk together, holding hands, as you move ahead.",
+      "If you walk away from me, my heart will not understand the fear.",
+      "If you hold my hands, it will bring comfort to my heart.",
+      "In your embrace, I need to live for a hundred years.",
+      "In your lap, I want to be born again and again.",
+      "If you are beautiful, the world will desire you.",
+      "Your essence is my food, that is my true desire.",
+      "Like a golden flower in the garden, you are the shining star that comes to me.",
+      "I will wait, looking at the eyes that gather pearls.",
+      "Do not leave me in despair, do not let me go away.",
+      "Even if I search, my love will always be full moon.",
+      "In love, there should be no regrets, even if I touch, my love will not fade.",
+      "In your lap, I want to be born for a hundred years.",
+      "In your embrace, I want to be born again and again.",
+      "If you are beautiful, the world will desire you.",
+      "Your essence is my food, that is my true desire."
+    ]
+  }
 }

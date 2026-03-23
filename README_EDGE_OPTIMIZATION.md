@@ -51,7 +51,7 @@
 Check these after deployment:
 
 **Day 1:** Immediate verification
-- ✅ Website loads: https://www.tsonglyrics.com
+- ✅ Website loads: https://tsonglyrics.com
 - ✅ Fonts look good (system fonts)
 - ✅ Search works
 - ✅ Song pages load

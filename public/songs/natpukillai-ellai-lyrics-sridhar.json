@@ -30,5 +30,42 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:09:14.208Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "sridhar",
+      "simbu",
+      "rahul raj",
+      "romantic",
+      "melody",
+      "2011",
+      "tamil song",
+      "nostalgic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Natpukillai Ellai'?</h4><p>The song conveys deep emotions about friendship and love, reflecting on the bonds that connect people.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Sridhar'?</h4><p>The movie explores themes of love and relationships, making this song a poignant moment in the narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Simbu</strong> and composed by <strong>Rahul Raj</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Natpukillai Ellai' released?</h4><p>The song was released on <strong>October 15, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Natpukillai Ellai</strong>, the lyrics explore the beauty of friendship and love, encapsulating the emotions that arise from deep connections. The soothing melody, paired with <strong>Simbu's</strong> heartfelt rendition, evokes a sense of nostalgia and warmth. This song serves as a pivotal moment in the movie <em>Sridhar</em>, highlighting the significance of relationships. It resonates with anyone who cherishes the bonds they share with loved ones.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Natpukillai Ellai</strong> is a mesmerizing melody that beautifully captures the essence of love and nostalgia. With <strong>Simbu's</strong> soulful voice and <strong>Rahul Raj's</strong> enchanting composition, this song transports listeners to a realm of heartfelt emotions. Dive into the lyrical depth of <em>Sridhar</em> and experience a musical journey like no other.",
+    "stanzaMeanings": [
+      "Like a bright cloud that comes after the rain, you came into my life bringing joy.",
+      "Holding your hand, I feel like I'm in heaven, as I walk with you, my love.",
+      "Oh sky, let's talk about our friendship; come, come, our friendship is like a mother, it is essential even for the gods.",
+      ""
+    ]
+  }
 }

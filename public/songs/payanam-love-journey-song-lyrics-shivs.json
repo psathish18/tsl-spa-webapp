@@ -44,5 +44,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/a/AVvXsEhKJSaCdHO5WrWuIyYSLVpqypHBVFGs1C8YZKKbcIlEc9m3VwCau8Eh_5T6iv5alLYOt8pB8uyLdrp59IdTBuE6lDHv16jV7BfXEEpEG7u4sEipbhaYfAwXkaP4bwmBafn4CCNoqGAQPTj4QivJvQ9d27ScayexkrojudHXi2piHuwOQ42qj_2j4XIR-w=s72-c",
   "generatedAt": "2026-01-26T15:03:53.360Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "payanam",
+      "shivs narayan",
+      "nithyashree venkataramanan",
+      "romantic",
+      "soothing",
+      "melody",
+      "2026",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, capturing the essence of a romantic journey.</p></div><div class=\"faq-item\"><h4>Is there a movie associated with this song?</h4><p>The song is from the album <em>Payanam - A Love Journey</em>, and the movie is currently unknown.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by <strong>Shivs Narayan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 25, 2026</strong>.</p></div></div>",
+    "summary": "In <strong>Payanam A Love Journey</strong>, the lyrics convey a heartfelt narrative of love and connection. The soothing melody enhances the romantic theme, making it perfect for intimate moments. This song evokes feelings of nostalgia and warmth, inviting listeners to reflect on their own love stories. With its beautiful composition and emotive delivery, it stands out as a touching tribute to love.",
+    "releaseYear": "2026",
+    "high_ctr_intro": "<strong>Payanam A Love Journey</strong> is a mesmerizing melody that beautifully captures the essence of romance and longing. With <strong>Shivs Narayan</strong>'s soulful voice and heartfelt lyrics, this song promises to take listeners on an emotional journey. Experience the magic of love through this enchanting track that resonates with every heartbeat.",
+    "stanzaMeanings": [
+      "The light that comes in the morning is you, I am the small wave in the flag. Every day I smile because of you, you give the shores of the sea. I am the small coral in the shore, because of you I am lost and found.",
+      "Until now, I have not held on to anything. Because of your gaze, I have lost my way. I am going like a flower, I say that I have no one with me.",
+      "You are my journey, now we can blend together. We can fly with our hands in the wind. We can forget the time and lose ourselves. Day and night can fade away here.",
+      "The breeze blows softly, cooling the air. You stand nearby, and I am going away. My heart feels like a child, it changes. I am asking you, not in a possessive way.",
+      "Love stories were just paper for me, but you have changed that. You have made me feel things I didn't know before.",
+      "Now we can blend together. We can fly with our hands in the wind. We can forget the time and lose ourselves. Day and night can fade away here.",
+      "The light that comes in the morning is you, I am the small wave in the flag. Every day I smile because of you, you give the shores of the sea. I am the small coral in the shore, because of you I am lost and found.",
+      "The world is awakening, something is alive today. Something is saying that you are my journey."
+    ]
+  }
 }

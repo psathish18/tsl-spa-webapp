@@ -50,5 +50,60 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:57.792Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "duet"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "ilamai idho idho",
+      "sakala kala vallavan",
+      "kamal haasan",
+      "ilaiyaraaja",
+      "vaali",
+      "s p balasubrahmanyam",
+      "1982",
+      "energetic",
+      "dance number",
+      "tamil cinema"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Ilamai Idho Idho</strong>?</h4><p>The song celebrates youth and the joy of life, capturing the essence of being young and carefree.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Sakala Kala Vallavan</em>?</h4><p>The music for <em>Sakala Kala Vallavan</em> was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Who sang <strong>Ilamai Idho Idho</strong>?</h4><p>The song was sung by the renowned playback singer <strong>S. P. Balasubrahmanyam</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Sakala Kala Vallavan</em>?</h4><p>The movie <em>Sakala Kala Vallavan</em> was released in <strong>1982</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song is set in a festive and celebratory context, highlighting the protagonist's youthful spirit and charisma.</p></div></div>",
+    "summary": "The song <strong>Ilamai Idho Idho</strong> from the movie <em>Sakala Kala Vallavan</em> is a celebration of youth and vitality. It features Kamal Haasan in a lively and energetic performance, capturing the essence of being young and full of life. The music by Ilaiyaraaja and vocals by S. P. Balasubrahmanyam create an infectious rhythm that makes it a timeless dance number. The song conveys joy, excitement, and the carefree nature of college life, making it a favorite for parties and celebrations.",
+    "releaseYear": "1982",
+    "high_ctr_intro": "Experience the vibrant energy of <strong>Ilamai Idho Idho</strong> from the iconic movie <em>Sakala Kala Vallavan</em>. This classic dance number brings together the legendary voice of S. P. Balasubrahmanyam with Ilaiyaraaja's unforgettable music. Dive into the youthful exuberance and timeless charm that has captivated audiences since 1982.",
+    "stanzaMeanings": [
+      "hai everybody wish you a happy new year!!!!",
+      "Youth is here, sweetness is here, college teenage girls, everyone looks at me.",
+      "Youth is here, sweetness is here.",
+      "In youth, the king of romantic acts, at night, the moon, the favorite of fans.",
+      "Watch the dance I perform, tell me what you think.",
+      "Listen to the song I sing, clap your hands.",
+      "Praised by the town, I earn a name, I am the master of all arts.",
+      "Youth is here, sweetness is here, college teenage girls, everyone looks at me.",
+      "Youth is here, sweetness is here.",
+      "I will sing in Hindi too, I will walk the path of success, just for you, my half.",
+      "For me, there is longing, oh dear Kannamma from Kalathoor.",
+      "For you, the groom who lives, the groom of the wedding.",
+      "Every day I will change, I am the master of all arts.",
+      "Youth is here, sweetness is here, college teenage girls, everyone looks at me.",
+      "Youth is here, sweetness is here.",
+      "I will dance with a stick, I will fight with a knife, I am a hero in stabbing, I am a hero in happiness.",
+      "If anyone aims at me, it won't happen, that is not allowed.",
+      "No one can defeat me, who is the opponent?",
+      "I will place flowers in anyone's ear, I am the master of all arts.",
+      "Youth is here, sweetness is here, college teenage girls, everyone looks at me.",
+      "Youth is here, sweetness is here."
+    ]
+  }
 }

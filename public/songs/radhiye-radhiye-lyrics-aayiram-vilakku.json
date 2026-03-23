@@ -86,5 +86,80 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:04:14.643Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "aayiram vilakku",
+      "radhiye radhiye",
+      "chinmayi",
+      "harish ragavendra",
+      "srikanth deva",
+      "romantic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Radhiye Radhiye'?</h4><p>The song expresses deep romantic feelings and the joy of love, making it a perfect choice for couples.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Aayiram Vilakku'?</h4><p>This song plays during a pivotal romantic moment, enhancing the emotional depth of the film's narrative.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Radhiye Radhiye'?</h4><p>The song features the talented voices of <strong>Chinmayi</strong> and <strong>Harish Ragavendra</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Radhiye Radhiye' was composed by <strong>Srikanth Deva</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Radhiye Radhiye' released?</h4><p>The song was released on <strong>August 21, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Radhiye Radhiye</strong>, the romantic duet unfolds a beautiful narrative of love and longing, perfectly encapsulating the emotions of the lead characters in <em>Aayiram Vilakku</em>. The harmonious blend of Chinmayi and Harish Ragavendra's voices creates a soothing atmosphere that resonates with listeners. The song's melody and lyrics evoke feelings of joy and affection, making it an ideal choice for romantic occasions. Overall, it serves as a heartfelt expression of love that enhances the film's emotional landscape.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Radhiye Radhiye</strong> from <em>Aayiram Vilakku</em> is a captivating duet that beautifully captures the essence of romance. With the enchanting voices of Chinmayi and Harish Ragavendra, this song is sure to tug at your heartstrings. Experience the magic of Srikanth Deva's composition that makes this track a must-listen for lovebirds.",
+    "stanzaMeanings": [
+      "",
+      "Radhiye Radhiye",
+      "Movie: Aayiram Vilakku",
+      "Lyrics by Vairamuthu",
+      "Radhi, my Radhi, are you not?",
+      "Sagi, my Sagi, I am all yours.. (2)",
+      "You are making a sound like a bell",
+      "You are slowly killing me",
+      "Before I see you, I told God to go away",
+      "After seeing your eyes, I feel God exists",
+      "Radhi, my Radhi, are you not?",
+      "Sagi, my Sagi, I am all yours.. (2)",
+      "You are the one who brings love, you are the one who brings joy",
+      "You are the one who brings happiness",
+      "You are a boat for the night",
+      "You are a thief, you are strong in every way",
+      "You are the villain of my heart",
+      "You are the honey in my dress",
+      "Your love will spread like a flower",
+      "Your love will bloom like a flower",
+      "You are the artist that poets talk about",
+      "You are the one who brings knowledge to the world",
+      "I become a Buddha when I see your face",
+      "I lose my mind when I see your beauty, I lose it...",
+      "When you see me, a small flower blooms in the world",
+      "It brings honey to the bees",
+      "It will take away my shyness...",
+      "When you see me, the world will be filled with joy",
+      "The age will be filled with happiness",
+      "The skies will change",
+      "Two flowers are needed, they say",
+      "The garden will take care of everything",
+      "When the sky is filled with clouds, it is enough",
+      "When the sun sets, it is enough",
+      "I see the beauty in the clouds",
+      "I see that beauty in every moment, I see it...",
+      "Radhi, my Radhi, are you not?",
+      "Sagi, my Sagi, I am all yours.. (2)",
+      "You are making a sound like a bell",
+      "You are slowly killing me",
+      "Before I see you, I told God to go away",
+      "After seeing your eyes, I feel God exists"
+    ]
+  }
 }

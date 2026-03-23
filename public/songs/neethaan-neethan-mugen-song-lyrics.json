@@ -45,5 +45,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvm02gwphS4cTQ6NP3zggJz3zyULpRriSs3k3SnR9sFE8k2JoMn2mlbOIPvRqcFy0QUwrpYDcOxdXYPjbEkHikcR40grCntjUFEziIhpnA2RsgGkuTk-kDDw0MKL3g3uemJqrIwrdrU9w/s400-c/Neethaan+Neethaan+Lyrics+Megen+Rao+.jpeg",
   "generatedAt": "2026-01-18T12:42:01.040Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "neethan neethan",
+      "mugen rao",
+      "romantic",
+      "melancholic",
+      "2019",
+      "tamil song",
+      "lyrics",
+      "album"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Neethan Neethan</strong> expresses deep emotions of love and longing, highlighting the beauty of romantic connections.</p></div><div class=\"faq-item\"><h4>Is there a movie associated with this song?</h4><p>The song is from an <strong>unknown movie</strong>, but it stands out as a solo piece by Mugen Rao.</p></div><div class=\"faq-item\"><h4>Who is the singer and lyricist of the song?</h4><p>The song is sung and written by <strong>Mugen Rao</strong>, showcasing his talent in both singing and songwriting.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Neethan Neethan</strong> was released on <strong>October 2, 2019</strong>.</p></div></div>",
+    "summary": "In <strong>Neethan Neethan</strong>, Mugen Rao delivers a heartfelt performance that encapsulates the essence of love and longing. The song's lyrics reflect a deep emotional connection, making it perfect for romantic occasions. With its soothing melody, it evokes feelings of nostalgia and warmth, inviting listeners to reminisce about their own love stories. This track is a beautiful expression of affection, making it a must-listen for anyone in love.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Neethan Neethan</strong> is a captivating melody that beautifully captures the essence of love and longing. With Mugen Rao's soulful vocals and heartfelt lyrics, this song resonates deeply with anyone who has experienced the highs and lows of romance. Dive into the enchanting world of <em>Neethan Neethan</em> and let its charm sweep you off your feet.",
+    "stanzaMeanings": [
+      "Your eyes are shining, and it makes me smile. Your tears are deep within my heart.",
+      "You were born beautiful, and the world knows your charm. The moonlight in my life is changing my path.",
+      "You are the one, you are the one, you are everything to me, my child.",
+      "Honestly, I tell you, your gaze lifts me up. Honestly, I am also living for you, as life should be.",
+      "Your playful nature is like a written song. You changed my desires, and I showed them to you.",
+      "Two fish in a stream, your love is my poem, holding your hand.",
+      "Did you forget? Did you forget? Honestly, I fell for you.",
+      "You are the one, you are the one, you are everything to me, my child.",
+      ""
+    ]
+  }
 }

@@ -27,16 +27,30 @@ import {
   hasEnglishTranslationContent,
   generateKeywords
 } from '@/lib/seoUtils'
+import { getLyricistBioByName } from '@/lib/lyricistBios'
 import { fetchFromBlob } from '@/lib/blobStorage'
 import type { SongBlobData } from '@/scripts/types/song-blob.types'
+import {
+  getStanzaLabel,
+  generateAutoFAQ,
+} from '@/lib/songContentUtils'
+import MoodTags from '@/components/MoodTags'
+import SongIntro from '@/components/SongIntro'
 // Client-side enhancer that attaches GA events to share anchors (keeps server render fast/SEO-friendly)
 const ShareEnhancer = dynamic(() => import('../../components/ShareEnhancer').then(mod => mod.default), { ssr: false });
+const NativeShareButton = dynamic(() => import('../../components/NativeShareButton').then(mod => mod.default), { ssr: false });
 // Client stanza renderer (client-only, interactive share buttons)
 const StanzaShareClient = dynamic(() => import('../../components/StanzaShareClient').then(mod => mod.default), { ssr: false });
 // Tab component for switching between Tamil and Tanglish lyrics
 const LyricsTabs = dynamic(() => import('../../components/LyricsTabs').then(mod => mod.default), { ssr: false });
+// Copy / meaning toggle (interactive, client-only)
+const CopyButton = dynamic(() => import('../../components/CopyButton').then(mod => mod.default), { ssr: false });
+const CopyAllLyricsButton = dynamic(() => import('../../components/CopyAllLyricsButton').then(mod => mod.default), { ssr: false });
+const StanzaMeaningToggle = dynamic(() => import('../../components/StanzaMeaningToggle').then(mod => mod.default), { ssr: false });
 // Related songs component
 import RelatedSongs from '@/components/RelatedSongs'
+
+const SITE_URL = 'https://tsonglyrics.com'
 
 // Enable ISR for song pages - revalidate every 30 days
 // Extended to reduce CPU usage on free tier
@@ -58,7 +72,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   // If data is from blob, use the optimized SEO metadata
   if (fromBlob && blobData) {
     const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
-    const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+    const canonicalUrl = `${SITE_URL}/${canonicalSlug}`
     
     return {
       title: blobData.seo.title,
@@ -120,7 +134,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   // console.log("description", description)
   // Ensure slug has .html extension for canonical URL
   const canonicalSlug = params.slug.endsWith('.html') ? params.slug : `${params.slug}.html`
-  const canonicalUrl = `https://www.tsonglyrics.com/${canonicalSlug}`
+  const canonicalUrl = `${SITE_URL}/${canonicalSlug}`
   
   // Build keywords from categories
   
@@ -494,8 +508,70 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   let tamilStanzas: string[] = [];
     // Fetch English lyrics with timeout - don't block page render for English lyrics
   let englishStanzas: string[] = [];
+  let englishStanzasEnriched: string[] = [];
 
-  // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
+  // Extract clean data for display - use shared title function
+  const fullTitle = getSongTitle(song)
+  const cleanTitle = fullTitle
+  const content = song.content?.$t || ''
+  const publishedDate = song.published?.$t ? new Date(song.published.$t) : null
+
+  const safeContent = stripImagesFromHtml(content)
+  
+  // Extract meaningful labels for structured data (same as metadata)
+  const metadata = extractSongMetadata(song.category, song.title.$t)
+  const movieName = metadata.movieName || song.movieName || ''
+  const singerName = metadata.singerName || song.singerName || ''
+  const lyricistName = metadata.lyricistName || song.lyricistName || ''
+  const musicName = metadata.musicName || ''
+  const songName = metadata.songTitle || cleanTitle
+  const lyricistBio = lyricistName ? await getLyricistBioByName(lyricistName) : null
+  
+  // Get lyrics snippet for structured data description (same as metadata)
+  const lyricsSnippet = extractSnippet(safeContent, SONG_DESCRIPTION_SNIPPET_LENGTH)
+  
+  // Generate SEO-optimized description for structured data
+  const structuredDescription = generateSongDescription({
+    entry: song,
+    title: cleanTitle,
+    snippet: lyricsSnippet,
+    movie: movieName,
+    singer: singerName,
+    lyricist: lyricistName,
+    music: musicName,
+    actor: metadata.actorName
+  })
+
+  // Check if song has EnglishTranslation category - skip stanza splitting if true
+  const hasEnglishTranslation = hasEnglishTranslationContent(song.category || []);
+
+  // Parse content into sections (intro, easter-egg, lyrics, faq, summary)
+  let contentSections: ContentSections = { intro: '', easterEgg: '', lyrics: '', faq: '', summary: '' };
+  let stanzas: string[] = []
+  
+  if (fromBlob && blobData) {
+    // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
+    stanzas = blobData.stanzas
+    // Use sections from blob if present, otherwise set empty
+    contentSections = {
+      intro: blobData.sections?.intro || blobData.enrichedMetadata?.high_ctr_intro || '',
+      easterEgg: blobData.sections?.easterEgg || '',
+      lyrics: '',  // Lyrics are stored as stanzas in blob, not in sections
+      faq: blobData.sections?.faq || blobData.enrichedMetadata?.faq || '',
+      summary: blobData.enrichedMetadata?.summary || '',
+    };
+  } else {
+    // Fallback: Parse and split content from Blogger
+    // First, parse the content into sections
+    contentSections = splitAndSanitizeSections(safeContent, sanitizeHtml);
+    
+    // Then split only the lyrics section into stanzas
+    if (contentSections.lyrics) {
+      stanzas = splitAndSanitizeStanzas(contentSections.lyrics, sanitizeHtml, hasEnglishTranslation);
+    }
+  }
+
+    // If data is from blob, use the pre-processed Tamil stanzas (no API call needed)
   // Note: Trust blob data even if tamilStanzas is empty - don't fall back to API
   if (fromBlob && blobData) {
     tamilStanzas = blobData.tamilStanzas || []
@@ -503,9 +579,25 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
       console.log(`✅ Using ${tamilStanzas.length} Tamil lyrics from blob (no API call)`)
     }
 
-    englishStanzas = blobData.englishStanzas || []
+    englishStanzas = blobData.englishStanzas  || []
+    
     if (englishStanzas.length > 0) {
       console.log(`✅ Using ${englishStanzas.length} English lyrics from blob (no API call)`)
+    }else{
+// || blobData.enrichedMetadata?.stanzaMeanings || []
+      englishStanzasEnriched = blobData.enrichedMetadata?.stanzaMeanings || []
+      if( englishStanzasEnriched.length > 0) {
+        console.log(`✅ Using enriched stanza meanings from blob (no API call)`)
+        // If enriched meanings are available, join thanglish stanzas with enriched meanings to single array but thanglish stanza, fllowed by meaning, followed by next thanglish stanza and meaning and so on. This allows us to render enriched meanings in the UI without needing a separate toggle or tab.
+        const combinedStanzas: string[] = []
+        for (let i = 0; i < stanzas.length; i++) {
+          combinedStanzas.push(stanzas[i])
+          if (englishStanzasEnriched[i]) {
+            combinedStanzas.push("<p>" + englishStanzasEnriched[i] + "</p>")
+          }
+        }
+        englishStanzas = combinedStanzas
+    }
     }
 
     // No else - if empty, we trust blob data and don't fetch from API
@@ -531,65 +623,6 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
     // }
   }
 
-
-  // Extract clean data for display - use shared title function
-  const fullTitle = getSongTitle(song)
-  const cleanTitle = fullTitle
-  const content = song.content?.$t || ''
-  const publishedDate = song.published?.$t ? new Date(song.published.$t) : null
-
-  const safeContent = stripImagesFromHtml(content)
-  
-  // Extract meaningful labels for structured data (same as metadata)
-  const metadata = extractSongMetadata(song.category, song.title.$t)
-  const movieName = metadata.movieName || song.movieName || ''
-  const singerName = metadata.singerName || song.singerName || ''
-  const lyricistName = metadata.lyricistName || song.lyricistName || ''
-  const musicName = metadata.musicName || ''
-  const songName = metadata.songTitle || cleanTitle
-  
-  // Get lyrics snippet for structured data description (same as metadata)
-  const lyricsSnippet = extractSnippet(safeContent, SONG_DESCRIPTION_SNIPPET_LENGTH)
-  
-  // Generate SEO-optimized description for structured data
-  const structuredDescription = generateSongDescription({
-    entry: song,
-    title: cleanTitle,
-    snippet: lyricsSnippet,
-    movie: movieName,
-    singer: singerName,
-    lyricist: lyricistName,
-    music: musicName,
-    actor: metadata.actorName
-  })
-
-  // Check if song has EnglishTranslation category - skip stanza splitting if true
-  const hasEnglishTranslation = hasEnglishTranslationContent(song.category || []);
-
-  // Parse content into sections (intro, easter-egg, lyrics, faq)
-  let contentSections: ContentSections = { intro: '', easterEgg: '', lyrics: '', faq: '' };
-  let stanzas: string[] = []
-  
-  if (fromBlob && blobData) {
-    // console.log(`✅ Using stanzas from blob: ${blobData.stanzas.length} stanzas`)
-    stanzas = blobData.stanzas
-    // Use sections from blob if present, otherwise set empty
-    contentSections = {
-      intro: blobData.sections?.intro || '',
-      easterEgg: blobData.sections?.easterEgg || '',
-      lyrics: '',  // Lyrics are stored as stanzas in blob, not in sections
-      faq: blobData.sections?.faq || ''
-    };
-  } else {
-    // Fallback: Parse and split content from Blogger
-    // First, parse the content into sections
-    contentSections = splitAndSanitizeSections(safeContent, sanitizeHtml);
-    
-    // Then split only the lyrics section into stanzas
-    if (contentSections.lyrics) {
-      stanzas = splitAndSanitizeStanzas(contentSections.lyrics, sanitizeHtml, hasEnglishTranslation);
-    }
-  }
   // // Debugging: log sizes to help identify empty content issues in production builds
   // try {
   //   console.log('DEBUG: safeContent length =', (safeContent || '').length)
@@ -609,6 +642,27 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
   // Prepare related songs for structured data (ItemList)
   // Use blob data if available, otherwise we'll fetch them later but won't include in structured data
   const relatedSongsForSEO = fromBlob && blobData ? blobData.relatedSongs : [];
+  const introRelatedSongs = fromBlob && blobData?.relatedSongs?.length
+    ? blobData.relatedSongs.slice(0, 3)
+    : [];
+
+  // Auto-generated FAQ items (#11) — derived entirely from existing metadata
+  const autoFAQItems = generateAutoFAQ({
+    songName,
+    movieName,
+    singerName: singerName !== 'Unknown Artist' ? singerName : undefined,
+    lyricistName,
+    musicName,
+    actorName: metadata.actorName,
+    hasTamilLyrics: tamilStanzas.length > 0,
+    hasEnglishLyrics: englishStanzas.length > 0,
+  });
+
+  // Plain-text versions of each stanza for clipboard copy (#7, #8)
+  const stanzaPlainTexts = stanzas ? stanzas.map(s => htmlToPlainText(s)) : [];
+  const allLyricsText = stanzaPlainTexts.join('\n\n');
+ const stanzaPlainTextsTamil = tamilStanzas ? tamilStanzas.map(s => htmlToPlainText(s)) : [];
+  const allLyricsTextTamil = stanzaPlainTextsTamil.join('\n\n');
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -643,7 +697,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           </ol>
         </nav>
 
-        <header className="mb-8">
+        <header className="mb-4">
           {/* SEO-optimized H1 with consistent title */}
           <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
             {fullTitle}
@@ -689,7 +743,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 }
                 
                 // Only skip Song: categories as they're song-specific, not useful for filtering
-                if (term.startsWith('Song:')) {
+                if (term.startsWith('Song:') || term.startsWith('OldSong:') || term.startsWith('Movie:')) {
                   return null;
                 }
                 
@@ -705,6 +759,8 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 );
               })}
             </div>
+            {/* Mood tags – auto-detected from title / singer / music director */}
+            {/* <MoodTags title={songName} singerName={singerName} musicName={musicName} tags={blobData?.enrichedMetadata?.mood} /> */}
           </div>
         </header>
         
@@ -718,9 +774,26 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 {
                   "@type": "MusicRecording",
                   "name": cleanTitle,
-                  "url": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`,
+                  "url": `${SITE_URL}/${params.slug.replace('.html', '')}.html`,
                   "description": structuredDescription,
-                  "keywords": generateKeywords(song, metadata),
+                  "keywords": (() => {
+                    const baseKeywords = generateKeywords(song, metadata);
+                    const enrichedKeywords: string[] = [];
+                    
+                    // Add songType to keywords
+                    if (blobData?.enrichedMetadata?.songType?.length) {
+                      enrichedKeywords.push(...blobData.enrichedMetadata.songType);
+                    }
+                    
+                    // Add occasions to keywords
+                    if (blobData?.enrichedMetadata?.occasions?.length) {
+                      enrichedKeywords.push(...blobData.enrichedMetadata.occasions);
+                    }
+                    
+                    return enrichedKeywords.length > 0 
+                      ? `${baseKeywords}, ${enrichedKeywords.join(', ')}`
+                      : baseKeywords;
+                  })(),
                   ...(singerName && singerName !== 'Unknown Artist' && {
                     "byArtist": {
                       "@type": "Person",
@@ -755,13 +828,27 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                     }
                   },
                   "inLanguage": "ta",
-                  "genre": "Tamil Music",
+                  "genre": (() => {
+                    const genres = ["Tamil Music"];
+                    // Add mood tags as genre classifications
+                    if (blobData?.enrichedMetadata?.mood?.length) {
+                      genres.push(...blobData.enrichedMetadata.mood);
+                    }
+                    return genres;
+                  })(),
                   "datePublished": song.published?.$t,
                   "publisher": {
                     "@type": "Organization",
                     "name": "Tamil Song Lyrics",
-                    "url": "https://www.tsonglyrics.com"
-                  }
+                    "url": SITE_URL
+                  },
+                  // Add occasion context for better search understanding
+                  ...(blobData?.enrichedMetadata?.occasions?.length && {
+                    "about": blobData.enrichedMetadata.occasions.map(occasion => ({
+                      "@type": "Thing",
+                      "name": occasion
+                    }))
+                  })
                 },
                 ...(relatedSongsForSEO.length > 0 ? [{
                   "@type": "ItemList",
@@ -774,7 +861,7 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                     "item": {
                       "@type": "MusicRecording",
                       "name": relatedSong.title,
-                      "url": `https://www.tsonglyrics.com/${relatedSong.slug}.html`,
+                      "url": `${SITE_URL}/${relatedSong.slug}.html`,
                       ...(relatedSong.movieName && {
                         "inAlbum": {
                           "@type": "MusicAlbum",
@@ -797,22 +884,33 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                       "@type": "ListItem",
                       "position": 1,
                       "name": "Home",
-                      "item": "https://www.tsonglyrics.com"
+                      "item": SITE_URL
                     },
                     ...(movieName ? [{
                       "@type": "ListItem",
                       "position": 2,
                       "name": movieName,
-                      "item": `https://www.tsonglyrics.com/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
+                      "item": `${SITE_URL}/category?category=${encodeURIComponent(song.category?.find(cat => cat.term.startsWith('Movie:'))?.term || '')}`
                     }] : []),
                     {
                       "@type": "ListItem",
                       "position": movieName ? 3 : 2,
                       "name": cleanTitle,
-                      "item": `https://www.tsonglyrics.com/${params.slug.replace('.html', '')}.html`
+                      "item": `${SITE_URL}/${params.slug.replace('.html', '')}.html`
                     }
                   ]
-                }
+                },
+                ...(autoFAQItems.length > 0 ? [{
+                  "@type": "FAQPage",
+                  "mainEntity": autoFAQItems.map(faq => ({
+                    "@type": "Question",
+                    "name": faq.question,
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": faq.answer
+                    }
+                  }))
+                }] : [])
               ]
             })
           }}
@@ -841,12 +939,94 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           />
         </div> */}
         
+        {/* Song metadata summary - adds editorial value and context for readers */}
+        {/* {(movieName || singerName || lyricistName || musicName) && (
+          <div className="song-info-card mb-8 bg-gray-50 rounded-lg p-5 border border-gray-200">
+            <h2 className="text-lg font-semibold text-gray-800 mb-3">About This Song</h2>
+            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+              {movieName && (
+                <>
+                  <dt className="font-medium text-gray-600">Movie / Album</dt>
+                  <dd className="text-gray-800">{movieName}</dd>
+                </>
+              )}
+              {singerName && singerName !== 'Unknown Artist' && (
+                <>
+                  <dt className="font-medium text-gray-600">Singer(s)</dt>
+                  <dd className="text-gray-800">{singerName}</dd>
+                </>
+              )}
+              {lyricistName && (
+                <>
+                  <dt className="font-medium text-gray-600">Lyrics by</dt>
+                  <dd className="text-gray-800">{lyricistName}</dd>
+                </>
+              )}
+              {musicName && (
+                <>
+                  <dt className="font-medium text-gray-600">Music by</dt>
+                  <dd className="text-gray-800">{musicName}</dd>
+                </>
+              )}
+              {metadata.actorName && (
+                <>
+                  <dt className="font-medium text-gray-600">Starring</dt>
+                  <dd className="text-gray-800">{metadata.actorName}</dd>
+                </>
+              )}
+              {publishedDate && (
+                <>
+                  <dt className="font-medium text-gray-600">Published</dt>
+                  <dd className="text-gray-800">
+                    <time dateTime={song.published?.$t}>
+                      {publishedDate.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}
+                    </time>
+                  </dd>
+                </>
+              )}
+            </dl>
+          </div>
+        )} */}
+
         {/* Intro section - if present */}
         {contentSections.intro && (
-          <div 
-            className="intro-section mb-8 prose prose-lg max-w-none text-gray-700"
-            dangerouslySetInnerHTML={{ __html: contentSections.intro }}
-          />
+          <section className="intro-content-section mb-6" aria-labelledby="lyrics-overview-heading">
+            <div className="intro-content-card">
+              <div className="intro-content-header">
+                <h2 id="lyrics-overview-heading" className="text-xl font-semibold mb-2">
+                  {songName} Lyrics Overview
+                </h2>
+                <p className="text-sm">
+                  Explore the meaning, mood, and background of {songName}{movieName ? ` from ${movieName}` : ''} before reading the full lyrics.
+                </p>
+              </div>
+              <div className="intro-content-body">
+                <SongIntro 
+                  intro={contentSections.intro}
+                  enrichedMetadata={blobData?.enrichedMetadata}
+                />
+                {introRelatedSongs.length > 0 && (
+                  <div className="intro-related-links mt-3">
+                    <span className="intro-related-links-label">
+                      {movieName ? `More ${movieName} song lyrics:` : 'More song lyrics:'}
+                    </span>{' '}
+                    {introRelatedSongs.map((relatedSong, index) => (
+                      <span key={relatedSong.slug}>
+                        <Link
+                          href={`/${relatedSong.slug}.html`}
+                          prefetch={false}
+                          className="intro-related-link"
+                        >
+                          {relatedSong.title}
+                        </Link>
+                        {index < introRelatedSongs.length - 1 ? ', ' : ''}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
         )}
 
         {/* Easter-egg section - if present */}
@@ -867,11 +1047,17 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               style={{ lineHeight: '2', fontSize: '1.1rem' }}
               data-server-stanzas-count={String(tamilStanzas.length)}
             >
+              
+              {/* #8 Copy all lyrics button */}
+              {tamilStanzas && tamilStanzas.length > 0 && (
+                <CopyAllLyricsButton plainText={allLyricsTextTamil} songTitle={songName} />
+              )}
               {tamilStanzas.map((stanzaHtml, idx) => {
                 // Build snippet and share URLs using utility functions
                 const plainText = htmlToPlainText(stanzaHtml);
                 const snippetWithStars = formatSnippetWithStars(plainText);
-                const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                const pageWithPath = `${SITE_URL}/${params.slug.replace('.html','')}.html`;
+                // const label = getStanzaLabel(idx, tamilStanzas.length);
                 
                 const twitterHref = buildTwitterShareUrl({
                   snippet: snippetWithStars,
@@ -887,10 +1073,26 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                 
                 return (
                   <div key={idx} className="mb-6">
+                    {/* #6 Stanza label */}
+                    {/* <span className="stanza-label">{label}</span> */}
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
-                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
-                      <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
-                      <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
+                    <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600 flex-wrap">
+                      {/* #7 Copy stanza */}
+                      {/* <CopyButton text={plainText} label="Copy stanza" /> */}
+                      <a href={twitterHref} target="_blank" rel="noopener noreferrer" aria-label="Share stanza on X" title="Share stanza on X" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill icon-only twitter">
+                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+                          <path d="M18.244 2H21l-6.02 6.879L22 22h-5.486l-4.297-8.02L5.2 22H2.442l6.44-7.36L2 2h5.625l3.884 7.255L18.244 2Zm-.967 18.348h1.527L6.795 3.566H5.156l12.121 16.782Z" />
+                        </svg>
+                        <span className="sr-only">Share stanza on X</span>
+                      </a>
+                      <a href={whatsappHref} target="_blank" rel="noopener noreferrer" aria-label="Share stanza on WhatsApp" title="Share stanza on WhatsApp" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill icon-only whatsapp">
+                        <svg aria-hidden="true" viewBox="0 0 32 32" fill="currentColor" className="h-4 w-4">
+                          <path d="M19.11 17.21c-.29-.14-1.7-.84-1.97-.93-.26-.1-.45-.14-.65.15-.19.29-.74.93-.9 1.12-.17.2-.33.22-.62.08-.29-.15-1.2-.44-2.29-1.41-.85-.76-1.42-1.7-1.59-1.98-.17-.29-.02-.44.12-.58.13-.13.29-.33.43-.49.14-.17.19-.29.29-.48.09-.2.05-.37-.02-.52-.08-.14-.65-1.57-.89-2.15-.24-.57-.48-.49-.65-.49h-.55c-.2 0-.52.07-.79.37-.26.29-1.03 1.01-1.03 2.45s1.06 2.84 1.21 3.03c.14.2 2.08 3.18 5.03 4.45.7.3 1.25.48 1.68.61.71.22 1.36.19 1.87.11.57-.08 1.7-.7 1.94-1.38.24-.68.24-1.26.17-1.38-.07-.11-.26-.18-.55-.32Z" />
+                          <path d="M27.27 4.69A15.8 15.8 0 0 0 16.03 0C7.31 0 .21 7.1.21 15.82c0 2.78.73 5.5 2.11 7.9L0 32l8.49-2.23a15.8 15.8 0 0 0 7.54 1.92h.01c8.72 0 15.82-7.1 15.82-15.82 0-4.22-1.64-8.18-4.6-11.18Zm-11.23 24.3h-.01a13.13 13.13 0 0 1-6.69-1.84l-.48-.29-5.04 1.32 1.35-4.92-.31-.5a13.09 13.09 0 0 1-2.02-6.94C2.84 8.56 8.77 2.63 16.04 2.63c3.51 0 6.82 1.37 9.3 3.85a13.08 13.08 0 0 1 3.86 9.31c0 7.26-5.92 13.19-13.16 13.2Z" />
+                        </svg>
+                        <span className="sr-only">Share stanza on WhatsApp</span>
+                      </a>
+                      <NativeShareButton title={songName} snippet={snippetWithStars} hashtags={hashtagsStr} pageUrl={pageWithPath} itemCat={itemCat} className="native-share-only share-pill icon-only native-share" />
                     </div>
                   </div>
                 );
@@ -904,12 +1106,17 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               style={{ lineHeight: '2' }}
               data-server-stanzas-count={stanzas ? String(stanzas.length) : '0'}
             >
+              {/* #8 Copy all lyrics button */}
+              {stanzas && stanzas.length > 0 && (
+                <CopyAllLyricsButton plainText={allLyricsText} songTitle={songName} />
+              )}
               {stanzas && stanzas.length > 0 ? (
                 stanzas.map((stanzaHtml, idx) => {
                   // Build snippet and share URLs using utility functions
                   const plainText = htmlToPlainText(stanzaHtml);
                   const snippetWithStars = formatSnippetWithStars(plainText);
-                  const pageWithPath = `https://www.tsonglyrics.com/${params.slug.replace('.html','')}.html`;
+                  const pageWithPath = `${SITE_URL}/${params.slug.replace('.html','')}.html`;
+                  // const label = getStanzaLabel(idx, stanzas.length);
                   
                   const twitterHref = buildTwitterShareUrl({
                     snippet: snippetWithStars,
@@ -925,10 +1132,30 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
                   
                   return (
                     <div key={idx} className="mb-6">
+                      {/* #6 Stanza label */}
+                      {/* <span className="stanza-label">{label}</span> */}
                       <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
-                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600">
-                        <a href={twitterHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill twitter">Tweet !!!</a>
-                          <a href={whatsappHref} target="_blank" rel="noopener noreferrer" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill whatsapp">WhatsApp !!!</a>
+                      {/* #2 Inline English meaning toggle (shown only when English stanzas exist) */}
+                      {/* {englishStanzasEnriched[idx] && (
+                        <StanzaMeaningToggle meaningHtml={englishStanzasEnriched[idx]} />
+                      )} */}
+                      <div className="mt-3 flex justify-end items-center gap-3 text-sm text-gray-600 flex-wrap">
+                        {/* #7 Copy stanza */}
+                        {/* <CopyButton text={plainText} label="Copy stanza" /> */}
+                        <a href={twitterHref} target="_blank" rel="noopener noreferrer" aria-label="Share stanza on X" title="Share stanza on X" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="share-pill icon-only twitter">
+                          <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+                            <path d="M18.244 2H21l-6.02 6.879L22 22h-5.486l-4.297-8.02L5.2 22H2.442l6.44-7.36L2 2h5.625l3.884 7.255L18.244 2Zm-.967 18.348h1.527L6.795 3.566H5.156l12.121 16.782Z" />
+                          </svg>
+                          <span className="sr-only">Share stanza on X</span>
+                        </a>
+                        <a href={whatsappHref} target="_blank" rel="noopener noreferrer" aria-label="Share stanza on WhatsApp" title="Share stanza on WhatsApp" data-snippet={snippetWithStars} data-hashtags={hashtagsStr} data-itemcat={itemCat} className="whatsapp-only share-pill icon-only whatsapp">
+                          <svg aria-hidden="true" viewBox="0 0 32 32" fill="currentColor" className="h-4 w-4">
+                            <path d="M19.11 17.21c-.29-.14-1.7-.84-1.97-.93-.26-.1-.45-.14-.65.15-.19.29-.74.93-.9 1.12-.17.2-.33.22-.62.08-.29-.15-1.2-.44-2.29-1.41-.85-.76-1.42-1.7-1.59-1.98-.17-.29-.02-.44.12-.58.13-.13.29-.33.43-.49.14-.17.19-.29.29-.48.09-.2.05-.37-.02-.52-.08-.14-.65-1.57-.89-2.15-.24-.57-.48-.49-.65-.49h-.55c-.2 0-.52.07-.79.37-.26.29-1.03 1.01-1.03 2.45s1.06 2.84 1.21 3.03c.14.2 2.08 3.18 5.03 4.45.7.3 1.25.48 1.68.61.71.22 1.36.19 1.87.11.57-.08 1.7-.7 1.94-1.38.24-.68.24-1.26.17-1.38-.07-.11-.26-.18-.55-.32Z" />
+                            <path d="M27.27 4.69A15.8 15.8 0 0 0 16.03 0C7.31 0 .21 7.1.21 15.82c0 2.78.73 5.5 2.11 7.9L0 32l8.49-2.23a15.8 15.8 0 0 0 7.54 1.92h.01c8.72 0 15.82-7.1 15.82-15.82 0-4.22-1.64-8.18-4.6-11.18Zm-11.23 24.3h-.01a13.13 13.13 0 0 1-6.69-1.84l-.48-.29-5.04 1.32 1.35-4.92-.31-.5a13.09 13.09 0 0 1-2.02-6.94C2.84 8.56 8.77 2.63 16.04 2.63c3.51 0 6.82 1.37 9.3 3.85a13.08 13.08 0 0 1 3.86 9.31c0 7.26-5.92 13.19-13.16 13.2Z" />
+                          </svg>
+                          <span className="sr-only">Share stanza on WhatsApp</span>
+                        </a>
+                        <NativeShareButton title={songName} snippet={snippetWithStars} hashtags={hashtagsStr} pageUrl={pageWithPath} itemCat={itemCat} className="native-share-only share-pill icon-only native-share" />
                       </div>
                     </div>
                   );
@@ -946,8 +1173,11 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
               data-server-stanzas-count={String(englishStanzas.length)}
             >
               {englishStanzas.map((stanzaHtml, idx) => {
+                // const label = getStanzaLabel(idx, englishStanzas.length);
                 return (
                   <div key={idx} className="mb-6">
+                    {/* #6 Stanza label */}
+                    {/* <span className="stanza-label">{label}</span> */}
                     <div dangerouslySetInnerHTML={{ __html: stanzaHtml }} />
                   </div>
                 );
@@ -957,12 +1187,78 @@ export default async function SongDetailsPage({ params }: { params: { slug: stri
           }
         />
 
+{/* FAQ section - if present */}
+        {contentSections.summary && (
+          <div className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200">
+            <h2 className="text-lg font-semibold pt-1 pb-3 border-b border-gray-200 text-gray-700">
+              {songName} Lyrics Meaning and Summary
+            </h2>
+            <p className="text-sm text-gray-600 pt-3 pb-2">
+              Read a short summary of {songName}{movieName ? ` from ${movieName}` : ''}, including the meaning, mood, and context behind the lyrics.
+            </p>
+            <div 
+            dangerouslySetInnerHTML={{ __html: contentSections.summary }}
+          />
+          </div>
+        )}
+
+ {/* Lyricist mini bio section - direct name match from lib/data/lyricists-mini-bios.json */}
+        {lyricistBio && (
+          <section className="lyricist-bio-section mt-8 mb-8" aria-label="Lyricist mini bio">
+            <h2 className="lyricist-bio-title">
+              About Lyricist {lyricistBio.name}
+            </h2>
+            <p className="lyricist-bio-description">
+              {lyricistBio.description}
+            </p>
+
+            {lyricistBio.topSongs.length > 0 && (
+              <div className="pt-2">
+                <h3 className="lyricist-bio-subtitle">Popular Lyrics by {lyricistBio.name}</h3>
+                <ul className="lyricist-bio-list">
+                  {lyricistBio.topSongs.slice(0, 10).map((song, index) => (
+                    <li key={`${song.htmlPageUrl}-${index}`} className="lyricist-bio-list-item">
+                      <a
+                        href={song.htmlPageUrl}
+                        className="lyricist-bio-link"
+                      >
+                        {song.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </section>
+        )}
+
+        
+
+       
+
+
         {/* FAQ section - if present */}
         {contentSections.faq && (
           <div 
             className="faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200"
             dangerouslySetInnerHTML={{ __html: contentSections.faq }}
           />
+        )}
+        {/* Auto-generated FAQ (#11) — adds unique editorial Q&A content for every song */}
+        {!contentSections.faq && autoFAQItems.length > 0 && (
+          <div className="auto-faq-section mt-8 mb-8 bg-blue-50 p-6 rounded-lg border border-blue-200">
+            <h2 className="text-lg font-semibold pt-1 pb-3 border-b border-blue-200 text-gray-700">
+              Frequently Asked Questions
+            </h2>
+            <div>
+              {autoFAQItems.map((faq, i) => (
+                <div key={i} className="auto-faq-item">
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* Google AdSense - After lyrics before related songs */}

@@ -44,5 +44,45 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:57.024Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "boss engira baskaran",
+      "yaar intha penthan",
+      "haricharan",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yaar intha Penthan'?</h4><p>The song expresses feelings of love and admiration, portraying the emotions of someone infatuated with a special person.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of 'Boss Engira Baskaran'?</h4><p>This song highlights the romantic moments in the film, showcasing the protagonist's feelings towards his love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Haricharan</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Yaar intha Penthan' released?</h4><p>The song was released on <strong>August 29, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Yaar intha Penthan</strong>, the protagonist expresses his deep affection for his beloved, capturing the essence of young love. The song beautifully conveys the excitement and nervousness of infatuation, making it a perfect fit for romantic occasions. With its melodious tune and heartfelt lyrics, it evokes feelings of joy and warmth. This enchanting track is a highlight of the film <em>Boss Engira Baskaran</em>, resonating with anyone who has experienced the thrill of love.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Yaar intha Penthan</strong> from <em>Boss Engira Baskaran</em> is a delightful romantic melody that captures the essence of love and longing. With Haricharan's soulful vocals and Yuvan's enchanting composition, this song is sure to tug at your heartstrings. Dive into the beautiful lyrics penned by Na Muthukumar that perfectly express the emotions of infatuation and admiration.",
+    "stanzaMeanings": [
+      "",
+      "I asked who this girl is, and I realized she is my other half. She looks at me and seems to be everywhere, smiling with her eyes, making my heart tremble. Even when she is in a crowd, she stands out like a flower blooming in a garden. If she does something to me...",
+      "I asked who this girl is, and I realized she is my other half.",
+      "In my house, I heard that she always comes to the corner. I saw her dancing in the group, singing with a rhythm that shines like the sun. Holding my hand like a mirror, I feel like I am born again. My heart is mixed with her heart, and I will not let go of this story. I will not let my eyes forget this life. If she does something to me...",
+      "I asked who this girl is, and I realized she is my other half.",
+      "If I look at her for a moment, I feel like I am lost in time. When she smiles at me, it feels like everything is a lie. No one knows the truth about my heart. Even when my heart beats, it doesn't matter. When my mind is troubled, I will speak the first words. If she does something to me...",
+      "I asked who this girl is, and I realized she is my other half."
+    ]
+  }
 }

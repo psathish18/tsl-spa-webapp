@@ -64,5 +64,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6L03IFW7sUZpd5GJ4O4fTvLxa1ckCdF2NuOZKG6IR38Y5dDOuTZg5XJB88TT_R3qzla0t4xTMXKWB0l3ra4o_x3s8yTJojzPJj89JrXHtCfRKjc7dNMkSeWtZiTaXQNUJUt8FsfuMmOI/s400-c/Vallavanukku-Pullum-Aayudham.jpg",
   "generatedAt": "2026-02-01T13:16:30.952Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "vallavanukku pullum aayudham",
+      "otradi devathai",
+      "karthik",
+      "karky",
+      "siddharth vipin",
+      "romantic",
+      "happy",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Otrai Devathai</strong>, the protagonist expresses his admiration and affection towards a beloved, highlighting the beauty of love and connection. The song's upbeat and romantic vibe perfectly complements the light-hearted moments in <em>Vallavanukku Pullum Aayudham</em>. It conveys emotions of joy and celebration, making it a perfect fit for occasions like birthdays and parties. The catchy melody and engaging lyrics create a memorable experience for listeners, evoking feelings of happiness and warmth.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Otrai Devathai</strong> from <em>Vallavanukku Pullum Aayudham</em> is a delightful melody that captures the essence of love and joy. With Karthik's enchanting vocals and Siddharth Vipin's vibrant composition, this song is sure to uplift your spirits. Dive into the world of romance and celebration with this captivating track!",
+    "stanzaMeanings": [
+      "",
+      "Look around the earth and the sky, who is this divine being? Don't miss seeing her.",
+      "Her gaze is like a light, her words are like a melody, this will blossom, her smile is a blessing for your life.",
+      "In the garden of the one who is sweet, there is a unique flower. Only Tamil speaks in this place, look at it.",
+      "Even if she comes alone, she is the beauty of the world.",
+      "In this world where beautiful flowers bloom, who is this divine being? Don't miss seeing her.",
+      "Her gaze is like a light, her words are like a melody, this will blossom, her smile is a blessing for your life.",
+      "If you have a desire in your heart, it will be shown on paper.",
+      "If the earth, water, fire, and wind all come together, they will unite as one.",
+      "If she holds this earth in her hands, your life will blossom with color.",
+      "Her gaze is like a light, her words are like a melody, this will blossom, her smile is a blessing for your life."
+    ]
+  }
 }

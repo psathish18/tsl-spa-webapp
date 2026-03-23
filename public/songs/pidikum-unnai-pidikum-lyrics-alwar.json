@@ -44,5 +44,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:31:11.292Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "alwar",
+      "madhusree",
+      "vaali",
+      "srikanth deva",
+      "romantic",
+      "melody",
+      "2007",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep affection and admiration, celebrating beauty and love.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Alwar</em>, the song highlights a romantic moment between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Madhusree</strong> and composed by <strong>Srikanth Deva</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 12, 2007</strong>.</p></div></div>",
+    "summary": "In <strong>Pidikum Unnai Pidikum</strong>, the lyrics beautifully convey the emotions of love and admiration, making it a perfect romantic anthem. The song plays a significant role in <em>Alwar</em>, where it underscores the blossoming relationship between the protagonists. With its soothing melody and heartfelt lyrics, it evokes feelings of joy and warmth. This enchanting track is sure to resonate with anyone who has experienced the magic of love.",
+    "releaseYear": "2007",
+    "high_ctr_intro": "<strong>Pidikum Unnai Pidikum</strong> from <em>Alwar</em> is a delightful romantic melody that captures the essence of love and beauty. With Madhusree's enchanting vocals and Vaali's poetic lyrics, this song creates a mesmerizing atmosphere that resonates with listeners. Experience the magic of this collaboration that beautifully intertwines heartfelt emotions with captivating music.",
+    "stanzaMeanings": [
+      "I like you, I like your beauty, I like the moonlight that shines on you, I really like you.",
+      "I like your beauty, I like the smile that brings joy to the world, I like the beauty of your Tamil language, I like you, I like your beauty, I like it for the world.",
+      "I like you, I like your beauty, I like the moonlight that shines on you, I really like you.",
+      "I like the eyes that capture the beauty of Kashmir apples, I like the beauty of the rose flower, I like your speed that races ahead, I like your pace that moves swiftly.",
+      "I like your shoulders that are like a support, I like your golden skin that shines like gold, I like your gaze, I like everything about your words.",
+      "I like the heart of a little child, I like the playful words you say sometimes, I like the mischief you do, I like the troubles you face there.",
+      "I like the actions done with the eyes, I like the solid actions that bring pain.",
+      "I like the conflicts that arise, I like the resolutions that come together after the conflicts.",
+      "I like you, I like your beauty, I like the moonlight that shines on you, I really like you.",
+      "I like, I like, I like, I like, I like."
+    ]
+  }
 }

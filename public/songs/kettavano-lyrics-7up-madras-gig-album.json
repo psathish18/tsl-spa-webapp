@@ -39,5 +39,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimPhAlS51g2hne-ciTNGNbg7k2FRt_a5aySEhOEiFstSNs7ZBMNAwdCpuh9A-ochnhqwaP1ghG6jYts8gWmwldfBnbhHRDyi8pxpzqsAzy8XKjC-Ey5HUzW1vboVNfPh7G0mBJu_J9HA/s400-c/Kettavano+Song+Lyrics+7Up+Gig+Album.jpeg",
   "generatedAt": "2026-01-18T12:43:26.953Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "heartbreak"
+    ],
+    "keywords": [
+      "kettavano",
+      "7up madras gig",
+      "anirudh",
+      "sajith satya",
+      "2018",
+      "romantic",
+      "melody",
+      "tamil album"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kettavano</strong>?</h4><p>The song explores themes of longing and introspection, with a soothing melody that evokes deep emotions.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kettavano</strong>?</h4><p>The song is sung by the popular artist <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Kettavano</strong>?</h4><p>The music for the song was composed by <strong>Sajith Satya</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Kettavano</strong> released?</h4><p>The song was released on August 25, 2018.</p></div></div>",
+    "summary": "The song <strong>Kettavano</strong> from the <em>7UP Madras Gig</em> album is a soothing melody that delves into themes of longing and introspection. Anirudh's soulful voice combined with Sajith Satya's captivating music creates a profound emotional experience. The lyrics convey a sense of yearning and reflection, making it perfect for moments of relaxation or introspective night drives. Its heartfelt composition and soothing rhythm resonate deeply with listeners, evoking a blend of romantic and melancholic emotions.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the soulful melody of <strong>Kettavano</strong> from the <em>7UP Madras Gig</em>, where Anirudh's enchanting voice meets Sajith Satya's mesmerizing music. This song beautifully captures the essence of longing and introspection. Dive into the soothing rhythms and heartfelt lyrics that make it a standout track.",
+    "stanzaMeanings": [
+      "I need a little space in your heart, both in dreams and thoughts.",
+      "My time should come a long way, both in day and night.",
+      "Even if the clouds pour rain, they give moisture.",
+      "Are you good, or am I bad? I asked myself. When you came close, something made my body wither.",
+      "In the drops of mist, in the breeze, I saw you.",
+      "I need a little space in your heart, both in dreams and thoughts.",
+      "When searching for life, the heart gets entangled if it reaches.",
+      "Time runs, shyness is conquered, standing in thoughts.",
+      "Are you good, or am I bad? I asked myself.",
+      "In the drops of mist, in the breeze, I saw you. Somehow, you touched and reached me. Even if the clouds pour rain, they give moisture.",
+      "When you came close, something made my body wither. Are you good, or am I bad? I asked myself.",
+      "In the drops of mist, in the breeze, I saw you.",
+      ""
+    ]
+  }
 }

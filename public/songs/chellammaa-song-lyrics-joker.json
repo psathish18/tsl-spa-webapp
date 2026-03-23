@@ -55,5 +55,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:50:24.472Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "melody",
+      "folk"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "wedding"
+    ],
+    "keywords": [
+      "joker",
+      "chellammaa",
+      "ramesh vaidya",
+      "sean roldan",
+      "happy",
+      "upbeat",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Chellammaa?</h4><p>The song <strong>Chellammaa</strong> expresses joy and affection, celebrating the beauty of life and relationships.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie Joker?</h4><p>In <em>Joker</em>, the song plays during a light-hearted moment, highlighting the protagonist's carefree spirit.</p></div><div class=\"faq-item\"><h4>Who is the music director of Chellammaa?</h4><p>The music for <strong>Chellammaa</strong> is composed by <strong>Sean Roldan</strong>, known for his innovative sound.</p></div><div class=\"faq-item\"><h4>When was the song Chellammaa released?</h4><p><strong>Chellammaa</strong> was released on August 12, 2016.</p></div></div>",
+    "summary": "The song <strong>Chellammaa</strong> from the movie <em>Joker</em> captures a light-hearted and joyful essence, making it perfect for celebrations. Its upbeat melody and playful lyrics evoke feelings of happiness and togetherness. The song reflects the carefree spirit of the characters, inviting listeners to join in the fun. With its folk influences, <strong>Chellammaa</strong> stands out as a memorable track that resonates with audiences.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Chellammaa</strong> from <em>Joker</em> is a vibrant and catchy melody that brings a joyful vibe to any celebration. With its unique blend of folk elements and playful lyrics, this song is sure to lift your spirits. Experience the magic of Sean Roldan's composition paired with Ramesh Vaidya's delightful lyrics in this unforgettable track.",
+    "stanzaMeanings": [
+      "",
+      "In the storm, flowers bloom, what will happen? Little little things, the cuckoo sings.",
+      "Oh mother, oh mother, the stories are many, oh mother, the stories are many.",
+      "In this small land, don't let the money go away, oh mother, don't let the money go away, oh mother, oh mother, oh mother, oh mother.",
+      "In the hot sun, if you put a little child, your thoughts will rise, your smile will come, and it will bring joy to you.",
+      "The moon is shining brightly, your face is glowing, oh mother, oh mother, oh mother, oh mother.",
+      "In the blue flower garden, you and I see all the little things flying, the song is sweet, and everything is for the mother.",
+      "The story is told, but the end is not known, the night will not end, oh mother, oh mother, oh mother, oh mother.",
+      "In this small land, don't let the money go away, oh mother, don't let the money go away, oh mother, oh mother, oh mother, oh mother.",
+      ""
+    ]
+  }
 }

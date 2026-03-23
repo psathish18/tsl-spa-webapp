@@ -72,5 +72,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1sCrf0TG9ngBQgC6fbnyjnt_rbU-ayRY6-Fg6vT5e_gDNbYk99YY49rts5vIHFbSOQ1oczkL8hBORCMWbTasDZn_GGNCVCEvb5IvLqx0_ujraw6LU9Chka4vsIQnSQQ9MuSg1lvUCMu4/s400-c/Orange+Mittai+1.jpg",
   "generatedAt": "2026-01-18T12:54:39.949Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "orange mittai",
+      "vijay ananth",
+      "vijay sethupathi",
+      "justin prabhakaran",
+      "upbeat",
+      "happy",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Straight Ah Poyee</strong> conveys a sense of carefree adventure and spontaneity, reflecting the fun moments in life.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Orange Mittai</em>?</h4><p>The song captures the light-hearted and humorous moments in the film, enhancing the overall vibe of the narrative.</p></div><div class=\"faq-item\"><h4>Who are the artists involved in this song?</h4><p>The song features vocals by <strong>Vijay Ananth</strong> and lyrics by <strong>Vijay Sethupathi</strong>, with music composed by <strong>Justin Prabhakaran</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Straight Ah Poyee</strong> was released on <strong>August 1, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Straight Ah Poyee</strong>, the upbeat tempo and playful lyrics reflect the carefree spirit of youth. The song serves as a backdrop to moments of joy and celebration in the film <em>Orange Mittai</em>, encapsulating the essence of friendship and fun. With its catchy melody, it evokes feelings of happiness and spontaneity, making it a perfect anthem for parties and celebrations. The collaboration between Vijay Ananth and Justin Prabhakaran brings a unique energy that resonates with listeners.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Straight Ah Poyee</strong> from <em>Orange Mittai</em> is a vibrant and catchy tune that perfectly captures the essence of youthful exuberance. With Vijay Ananth's lively vocals and Justin Prabhakaran's engaging composition, this song is sure to get you moving. Dive into the fun-filled world of this track that celebrates spontaneity and joy!",
+    "stanzaMeanings": [
+      "",
+      "Then.. go straight, take a left, and if you go right, there's a height of a pillar. After that, go straight and you'll see a temple from there, near the theatre.",
+      "Go straight, take a left, and if you go right, there's a height of a pillar. After that, go straight and you'll see a temple from there, near the theatre.",
+      "Wow!!!",
+      "Listen well. Life is a story told by a fool, full of noise and anger but meaning nothing.",
+      "Go straight, take a left, and if you go right, there's a height of a pillar. After that, go straight and you'll see a temple from there, near the theatre.",
+      "I am a person who was mistakenly born, always making mistakes. I never miss opportunities.",
+      "Then there's some thought.. Thought... Ha Ha Ha"
+    ]
+  }
 }

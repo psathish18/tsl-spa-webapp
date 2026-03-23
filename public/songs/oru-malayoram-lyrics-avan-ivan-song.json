@@ -59,5 +59,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEal-BgGret6FA1NXzHPowPriISwDB3MClf5UwzbVsMl1DKSDjsjkTkXtntE-hR_V0TiO8Z2VK96UAqpYXz4T8zwegoW-0WyNyDipjXvWnP0VANRytOsEdeRMsAUXCa9WN9VrHj5swypU/s400-c/Avan-Ivan-Tamil-Movie-Posters-2.jpg",
   "generatedAt": "2026-01-18T13:10:41.847Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "avan ivan",
+      "oru malayoram",
+      "vijay yesudas",
+      "yuvan",
+      "na muthukumar",
+      "romantic",
+      "2011",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Malayoram</strong>, the singers express a longing for love and connection, beautifully encapsulating the emotions of youth and romance. The song plays a significant role in <em>Avan Ivan</em>, highlighting moments of affection and desire between characters. With its soothing melody and heartfelt lyrics by Na Muthukumar, it evokes feelings of nostalgia and happiness. The collaboration of talented voices adds depth to the song, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Oru Malayoram</strong> from <em>Avan Ivan</em> is a delightful melody that captures the essence of youthful romance. Featuring a unique collaboration of talented singers like Vijay Yesudas and Baby Nithiyashree, this song is sure to tug at your heartstrings. With Yuvan's enchanting music and Na Muthukumar's heartfelt lyrics, it creates a nostalgic vibe that resonates with listeners.",
+    "stanzaMeanings": [
+      "",
+      "A small cloud in a mountain, that is a home for me. Your hand is my guide, I need my nest there.",
+      "My dear, when you speak, my heart melts. That moment is enough, it will end this life.",
+      "A small cloud in a mountain, that is a home for me. Your hand is my guide, I need my nest there.",
+      "The first time with you, I live near you, let go of the past. I am lost in thoughts. What is this feeling in my heart? Is this just a change? Will my work show in front of you?",
+      "Don't say anything, silence speaks a thousand words. You speak from my heart, what else can I say? This confusion is enough, I still need clarity.",
+      "A small cloud in a mountain, that is a home for me.",
+      "Until I see you, I will praise you in my dreams. I see you, my dear, I live in your thoughts.",
+      "My loneliness has come to me now. When my mother speaks, it brings me comfort. In your love...",
+      "My heart is like a flame, no one can hide it. I am here, where am I to hide? This word is enough, my life will change, dear."
+    ]
+  }
 }

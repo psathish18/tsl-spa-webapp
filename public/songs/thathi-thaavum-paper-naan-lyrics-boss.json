@@ -46,5 +46,45 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:57.894Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "boss engira baskaran",
+      "karthik",
+      "na muthukumar",
+      "yuvan",
+      "upbeat",
+      "dance",
+      "2010",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a playful and carefree attitude, celebrating life's joyful moments.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <strong>Boss Engira Baskaran</strong>, this song highlights the protagonist's fun-loving nature and his interactions with friends.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 29, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Thathi Thaavum Paper Naan</strong>, the protagonist expresses a carefree and joyous attitude, reflecting the lighthearted moments in <em>Boss Engira Baskaran</em>. The upbeat tempo and catchy lyrics evoke feelings of happiness and celebration, making it a perfect anthem for parties. The song showcases the vibrant energy of youth and friendship, resonating with anyone looking to enjoy life. Overall, it encapsulates the essence of fun and camaraderie, leaving listeners with a smile.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Thathi Thaavum Paper Naan</strong> from <em>Boss Engira Baskaran</em> is a vibrant and energetic track that perfectly captures the essence of celebration and joy. With Karthik's lively vocals and Yuvan's catchy composition, this song is bound to get you on your feet. Dive into the fun and carefree vibe that makes this song a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "I am like a paper that flutters in the wind. When I kick, it feels like I'm being hit. When I go to a girl, I pour out wine. It feels like I'm being marked. Slowly, I run away.",
+      "What am I singing, what am I saying? I don't understand. Where am I going, what am I doing? I don't know.",
+      "You are my love, I am yours. My mom is my aunt. My sister and my brother too. I will live like this, come on.",
+      "Putting a cigarette in a packet, changing it to a heart. Without selling it, just keeping it close.",
+      "The hero drives a Honda, just like a hero. He gives a zero next to him. It feels like a joke.",
+      "When I go to college, I don't know anything. I don't know anything about knowledge. No need to get married right away.",
+      "I am like a paper that flutters in the wind. When I kick, it feels like I'm being hit. When I go to a girl, I pour out wine. It feels like I'm being marked. Slowly, I run away. If you buy a ticket on the bus in town, it might turn into a lottery ticket.",
+      "When I go to England, I feel like I can speak English. I can recognize ABCD. Incoming calls cost money, and outgoing calls too. Except for your number, I don't talk to anyone. No need to come right away.",
+      "I am like a paper that flutters in the wind..."
+    ]
+  }
 }

@@ -38,5 +38,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:18:25.095Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "thulladha manamum thullum",
+      "rajesh krishnan",
+      "s.a.rajkumar",
+      "romantic",
+      "1999",
+      "tamil song",
+      "old music",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, highlighting the emotional connection between lovers.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Thulladha Manamum Thullum</em>, the song reflects the protagonist's feelings as he searches for his beloved under the moonlight.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Rajesh Krishnan</strong>, known for his melodious voice in Tamil cinema.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by <strong>S.A. Rajkumar</strong>, a prominent music director in the Tamil film industry.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 29, 1999</strong>.</p></div></div>",
+    "summary": "In <strong>Megamaai Vandhu Pogiren</strong>, the protagonist expresses his yearning for his beloved, beautifully encapsulating the emotions of love and desire. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia, making it a favorite among romantic ballads. As the character searches for his love under the moonlit sky, the song conveys the depth of his feelings and the joy of love. This timeless piece resonates with anyone who has experienced the bittersweet nature of romance.",
+    "releaseYear": "1999",
+    "high_ctr_intro": "<strong>Megamaai Vandhu Pogiren</strong> is a soul-stirring melody that captures the essence of love and longing. With its enchanting lyrics and heartfelt delivery, this song from <em>Thulladha Manamum Thullum</em> resonates deeply with anyone who has experienced the beauty of romance. The collaboration of Rajesh Krishnan's soothing vocals and S.A. Rajkumar's captivating composition makes this track a timeless classic.",
+    "stanzaMeanings": [
+      "I have come beautifully, searching for you in the moonlight.",
+      "I have come beautifully, searching for you in the moonlight. Who will I tell this to? I want to be with you.",
+      "My dear... my dear... I have come beautifully, searching for you in the moonlight.",
+      "Is this the beginning of something that will come without sleep? Will the heart not be at peace? Is there happiness in it?",
+      "Is love beautiful or is it knowledgeable? Is love sweet or is it just a burden?",
+      "My dear... my dear...",
+      "I have come beautifully, searching for you in the moonlight (2).",
+      "When you come, the rain comes, bringing joy to my heart.",
+      "When you speak, in my words, there is fragrance. My love will bring happiness on that day, and I will breathe it in.",
+      "My dear... my dear...",
+      "I have come beautifully, searching for you in the moonlight (2). Who will I tell this to? I want to be with you.",
+      "My dear... my dear..."
+    ]
+  }
 }

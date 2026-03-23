@@ -61,5 +61,40 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOjI0XH-ygOWLcNi9z-dO9W1S0bvW3WN4HAkB50N15t4Rqmq955Jk0Hy3QFn24WX1vppJRTphRRD4sAKqYyabE5HeV1VnUNYJDfxpIVxuuhEk4jz_V4mgDMatS3wsivlUv0UN9hPMpbw/s400-c/Thaipalum+Thanneerum+Song+Lyrics+Chandi+Veeran.jpeg",
   "generatedAt": "2026-01-18T12:43:45.021Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "folk",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning",
+      "night drive"
+    ],
+    "keywords": [
+      "chandi veeran",
+      "thaipalum thanneerum",
+      "2018",
+      "nostalgic",
+      "melancholic",
+      "folk",
+      "movie",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song reflects on nostalgia and the changes in life, emphasizing the importance of remembering one's roots.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie?</h4><p>In <em>Chandi Veeran</em>, the song underscores the protagonist's journey and his connection to his hometown.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The singer and music director for <strong>Thaipalum Thanneerum</strong> are currently unknown.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Thaipalum Thanneerum</strong> was released on August 2, 2018.</p></div></div>",
+    "summary": "In <strong>Thaipalum Thanneerum</strong>, the lyrics delve into themes of nostalgia and the passage of time, reflecting the protagonist's longing for his roots. The song evokes a sense of melancholy, inviting listeners to reminisce about their own past experiences. Its folk melody adds a unique charm, making it a memorable piece within the context of <em>Chandi Veeran</em>. Overall, the song beautifully captures the essence of home and the emotional ties that bind us.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Thaipalum Thanneerum</strong> from the movie <em>Chandi Veeran</em> captures a deep sense of nostalgia and reflection. The song's poignant lyrics resonate with listeners, evoking memories of simpler times. Its unique folk melody makes it a standout piece that beautifully complements the film's themes.",
+    "stanzaMeanings": [
+      "Water and soil have always been together, without any work they have mixed, but now everything has changed and gone down.",
+      "In the nearby area, the village has formed and is talking about the past. Is it only the village that remains, or is there something else to see? I don't know where the place has gone.",
+      "We search for water in the moonlight, we are ready to rock. We are doing business on this earth.",
+      ""
+    ]
+  }
 }

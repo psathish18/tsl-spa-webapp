@@ -38,5 +38,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilGZNJ0t3fxhBcbi0EfgWUZyh3JapfH8I_C7vcuYKFNL0rhL_W6u_XEVpSbPLSZCZMwigLCoxPtglDc2eVkxD_wgsjX6F7xJKdIrSwLL0gOOJ4R97iBQH4RAB8OqJyttLOyUrfSZ51k0s/s400-c/Isakki.jpg",
   "generatedAt": "2026-01-18T13:03:55.542Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "isakki",
+      "shreya ghoshal",
+      "pa vijay",
+      "romantic",
+      "melody",
+      "2013",
+      "tamil song",
+      "happy"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'En Chella Kutti'?</h4><p>The song expresses deep affection and love, portraying the emotions of a person towards their beloved.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Isakki'?</h4><p>The movie revolves around themes of love and relationships, showcasing the journey of the characters as they navigate their emotions.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'En Chella Kutti'?</h4><p>The song is sung by the talented Shreya Ghoshal, known for her melodious voice and emotional delivery.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by the renowned lyricist Pa Vijay, who is known for his poetic expressions in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was 'En Chella Kutti' released?</h4><p>The song was released on May 27, 2013, as part of the movie <em>Isakki</em>.</p></div></div>",
+    "summary": "In 'En Chella Kutti', the protagonist expresses their heartfelt emotions towards their beloved, encapsulating the joy and warmth of love. The song's soothing melody and Shreya Ghoshal's captivating voice create an enchanting experience for listeners. It beautifully conveys the feelings of affection and longing, making it a perfect choice for romantic occasions. The lyrics reflect a deep connection, evoking nostalgia and happiness in the hearts of those who listen.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>En Chella Kutti</strong> from <em>Isakki</em> is a heartwarming melody that beautifully captures the essence of love and affection. Shreya Ghoshal's enchanting vocals bring life to the lyrics penned by Pa Vijay, creating a soothing atmosphere that resonates with listeners. This song is perfect for celebrating special moments and expressing deep emotions.",
+    "stanzaMeanings": [
+      "My dear little one, what should I say? There is no one to match your closeness.",
+      "Like the earth, a new beginning comes around, my dear, you should live a hundred lives with me. You came into my heart, you became my life.",
+      "My dear little one, what should I say? There is no one to match your closeness.",
+      "Oh.. yesterday, there was no one in my heart, now I cannot come to you, God, there is no one...",
+      "In the sleep, in the eyes, crossing the dreams, mixing in the heart.",
+      "For you and me to be one, let us live together for a hundred years.",
+      "My dear little one, what should I say? There is no one to match your closeness.",
+      "The sky will shower cool rain, your hands will become my umbrella.",
+      "Now, I will be close to you, holding your hand, I will come as your support. I will always be your life, my words will always be about you.",
+      "My dear little one, what should I say? There is no one to match your closeness.",
+      "",
+      ""
+    ]
+  }
 }

@@ -39,5 +39,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:14.466Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation"
+    ],
+    "keywords": [
+      "velli vizha",
+      "gemini",
+      "vaali",
+      "kumar v",
+      "l.r.eeswari",
+      "romantic",
+      "melody",
+      "1972",
+      "classic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kaadhodu Thaan Naan Paaduven</strong>?</h4><p>The song is a romantic melody that expresses love and longing.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the renowned singer <strong>L.R. Eeswari</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Velli Vizha</em>?</h4><p>The music was composed by <strong>Kumar V</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Velli Vizha</em>?</h4><p>The movie was released in the year <strong>1972</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by the legendary lyricist <strong>Vaali</strong>.</p></div></div>",
+    "summary": "The song <strong>Kaadhodu Thaan Naan Paaduven</strong> from the movie <em>Velli Vizha</em> is a classic romantic melody that beautifully captures the essence of love and longing. Sung by L.R. Eeswari, the song's soothing tunes and poetic lyrics by Vaali evoke a sense of nostalgia and warmth. The music, composed by Kumar V, complements the tender emotions conveyed through the lyrics. This song remains a timeless favorite, perfect for moments of reflection and romance.",
+    "releaseYear": "1972",
+    "high_ctr_intro": "Experience the timeless charm of <strong>Kaadhodu Thaan Naan Paaduven</strong> from the classic film <em>Velli Vizha</em>. This enchanting melody, beautifully rendered by L.R. Eeswari, captures the essence of romance and nostalgia. Dive into the soothing tunes crafted by Kumar V and the poetic brilliance of Vaali.",
+    "stanzaMeanings": [
+      "I will sing with the wind, I will speak with the heart, I will play with the eyes, I will close my eyes on your lap.",
+      "Even if I grow up, I am still a little child.",
+      "Even if I know, you have to tell me.",
+      "Change me to be your companion.",
+      "Come to show the pain of changing into a family lamp.",
+      "I will sing with the wind.",
+      "A child is calling, and another child is enjoying the song.",
+      "Two hearts are beating for me.",
+      "Who is listening and finishing my song?",
+      "I will sing with the wind, I will speak with the heart, I will play with the eyes, I will close my eyes on your lap."
+    ]
+  }
 }

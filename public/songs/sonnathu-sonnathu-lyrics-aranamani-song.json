@@ -68,5 +68,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyvscqjKXGmNB9pl2Ex25Nhx0wlo7K3DpuVpdfMBmKfC2MuaByYSIwTGLcu-cdxX-CBhyphenhypheneVEfeX5_ZR_Nyt_EmDyx0RqiBLlGL2xzY0Zh4eBWPjxWtgs4Mriw6kCJh-KZBaQrU0IHcb78/s400-c/Aranmanai-Movie.jpg",
   "generatedAt": "2026-01-18T12:58:02.317Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "aranmanai",
+      "harini",
+      "bharadwaj",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Sonnathu Sonnathu'?</h4><p>The song conveys deep emotions of love and longing, expressing the feelings of being intertwined with a loved one.</p></div><div class=\"faq-item\"><h4>How does 'Sonnathu Sonnathu' fit into the plot of <em>Aranmanai</em>?</h4><p>This song captures a romantic moment between the lead characters, enhancing the emotional depth of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Harini</strong> and composed by <strong>Bharadwaj</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Sonnathu Sonnathu' released?</h4><p>The song was released on <strong>September 5, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Sonnathu Sonnathu</strong>, the protagonist expresses profound feelings of love and connection, beautifully captured through Harini's soothing vocals. The song plays a pivotal role in <em>Aranmanai</em>, enhancing the romantic atmosphere and showcasing the emotional bond between the characters. With its melodic composition by Bharadwaj, it evokes a sense of nostalgia and warmth. This track is perfect for moments of reflection and celebration of love.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Sonnathu Sonnathu</strong> from the movie <em>Aranmanai</em> is a captivating romantic melody that beautifully showcases Harini's enchanting vocals. With Bharadwaj's masterful composition, this song resonates with heartfelt emotions and a soothing vibe. Dive into the world of love and longing with this mesmerizing track that will surely tug at your heartstrings.",
+    "stanzaMeanings": [
+      "",
+      "You are the only one who speaks, and everything I think happens because of love.",
+      "Even if I am a stranger, I blend with your breath. Even if I am a dream, I wait for you.",
+      "What happened to me? What happened to you? Has love come to us?",
+      "You are the only one who speaks, and everything I think happens because of love.",
+      "When the swing is placed on the tree, the love comes and the parrot will burn.",
+      "In the blooming flower garden, I will come and burn near the pearl.",
+      "My beloved, with your love, I will be in the heart of the dance, while you are in the heart of the crowd, smiling like you.",
+      "Desire, the flag, will enter my mind, and every day, the temple door in my dreams will become the light of my home.",
+      "Your memory will never leave this life; if you leave, that is enough, nothing else is needed here.",
+      "What happened to me? What happened to you? Has love come to us?",
+      "You are the only one who speaks, and everything I think happens because of love.",
+      "Even if I am a stranger, I blend with your breath. Even if I am a dream, I wait for you.",
+      "What happened to me? What happened to you? Has love come to us?"
+    ]
+  }
 }

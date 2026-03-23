@@ -62,5 +62,69 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:12.622Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "nostalgic"
+    ],
+    "songType": [
+      "dance number",
+      "classic"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "thalapathi",
+      "rakkamaa kaiyya thattu",
+      "s. p. balasubrahmanyam",
+      "swarnalatha",
+      "vaali",
+      "ilaiyaraaja",
+      "energetic",
+      "1991"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Rakkamaa Kaiyya Thattu</strong> celebrates joy and the spirit of festivity, inviting listeners to embrace life with enthusiasm.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Thalapathi</em>, this song reflects the vibrant and lively moments that define the characters' relationships and their connection to the community.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the legendary voices of <strong>S. P. Balasubrahmanyam</strong> and <strong>Swarnalatha</strong>, with music composed by <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Rakkamaa Kaiyya Thattu</strong> was released on November 5, 1991.</p></div></div>",
+    "summary": "In <strong>Rakkamaa Kaiyya Thattu</strong>, the exuberance of life is beautifully captured through lively beats and captivating lyrics. The song serves as a celebration of joy and community, resonating with the audience's spirit. It evokes feelings of nostalgia and happiness, making it a perfect anthem for festive occasions. The collaboration of talented artists and the masterful composition by Ilaiyaraaja further elevate its charm.",
+    "releaseYear": "1991",
+    "high_ctr_intro": "<strong>Rakkamaa Kaiyya Thattu</strong> from the iconic <em>Thalapathi</em> is a vibrant celebration of life and energy. With the legendary voices of S. P. Balasubrahmanyam and Swarnalatha, this song captures the essence of joy and festivity. Experience the magic of Ilaiyaraaja's music that resonates through generations, making it a timeless classic.",
+    "stanzaMeanings": [
+      "Hey Rakkamma, clap your hands, create a new rhythm.",
+      "Hey Raakkodi, play the drums, touch the heart of this king.",
+      "Oh king, in the village, create a new rose garland.",
+      "Oh queen, set the rhythm daily, let the whole world dance.",
+      "This is a guard, this is not to be ignored, let’s create a sound for this.",
+      "Jangoo jakku chajakku chakku jangoo jakku chaa ..",
+      "Hey Rakkamma, clap your hands, create a new rhythm.",
+      "Oh king, in the village, create a new rose garland.",
+      "Even on the boat, and on the day of the festival, why is it here?",
+      "In this town, everything is united, there’s no trouble, just look.",
+      "The sound of the crowd is loud, everyone is together, brother, let’s enjoy together.",
+      "The sky above is beautiful, let’s enjoy it, brother, directly.",
+      "Oh brother, see the rhythm, it’s all about the beat.",
+      "Oh dear, kisses are like pearls, they come every day.",
+      "Let’s create a new song with the flower garland.",
+      "Hey Rakkamma, clap your hands, create a new rhythm.",
+      "Oh king, in the village, create a new rose garland.",
+      "Just like you, I’m also here, let’s join together, this is different.",
+      "Jangoo jakku chajakku chakku jangoo jakku chaa ..",
+      "Hey Rakkamma, clap your hands, create a new rhythm.",
+      "Oh king, in the village, create a new rose garland.",
+      "Just like you, I’m also here, let’s join together, this is different.",
+      "Jangoo jakku chajakku chakku jangoo jakku chaa ..",
+      "Hey Rakkamma, clap your hands, create a new rhythm.",
+      "Oh king, in the village, create a new rose garland.",
+      "This day is good, just like today and yesterday.",
+      "Oh dear, touching your eyes, is it sweet or just a little?",
+      "Let’s create a new song with the flower garland.",
+      "Hey Rakkamma, clap your hands, create a new rhythm.",
+      "Oh king, in the village, create a new rose garland.",
+      "Just like you, I’m also here, let’s join together, this is different.",
+      "Jangoo jakku chajakku chakku jangoo jakku chaa .."
+    ]
+  }
 }

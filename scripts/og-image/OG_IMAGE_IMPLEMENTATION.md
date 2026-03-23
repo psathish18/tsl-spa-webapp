@@ -36,19 +36,19 @@ GitHub Actions → Generate Posts → Extract Snippet → Generate OG Image URL
 
 **Social Media Post:**
 ```
-Rahman + Vairamuthu = Magic! 🎶<br><br>🌟⭐pothavillaye pothavillaiye<br>unnaippola bhothai<br>yeathum illaiye⭐🌟<br><br>#Karky #DImman @arrahman<br><br>full lyrics 👉 https://www.tsonglyrics.com/pothavillaye-lyrics-mudinja-ivana-pudi.html
+Rahman + Vairamuthu = Magic! 🎶<br><br>🌟⭐pothavillaye pothavillaiye<br>unnaippola bhothai<br>yeathum illaiye⭐🌟<br><br>#Karky #DImman @arrahman<br><br>full lyrics 👉 https://tsonglyrics.com/pothavillaye-lyrics-mudinja-ivana-pudi.html
 ```
 
 **Generated OG Image URL:**
 ```
-https://www.tsonglyrics.com/api/og-lyrics?lyrics=pothavillaye+pothavillaiye%0Aunnaippola+bhothai%0Ayeathum+illaiye&artist=Karky+%2B+DImman&theme=gradient
+https://tsonglyrics.com/api/og-lyrics?lyrics=pothavillaye+pothavillaiye%0Aunnaippola+bhothai%0Ayeathum+illaiye&artist=Karky+%2B+DImman&theme=gradient
 ```
 
 **Result in Blogger Post:**
 ```html
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://www.tsonglyrics.com/api/og-lyrics?lyrics=...">
-<img border="0" src="https://www.tsonglyrics.com/api/og-lyrics?lyrics=..." width="600" alt="Tamil Song Lyrics Snippet" />
+<a href="https://tsonglyrics.com/api/og-lyrics?lyrics=...">
+<img border="0" src="https://tsonglyrics.com/api/og-lyrics?lyrics=..." width="600" alt="Tamil Song Lyrics Snippet" />
 </a>
 </div>
 ```
@@ -103,17 +103,17 @@ After deployment to Vercel:
 
 **Gradient Theme:**
 ```
-https://www.tsonglyrics.com/api/og-lyrics?lyrics=pothavillaye%20pothavillaiye%0Aunnaippola%20bhothai&artist=AR%20Rahman%20%2B%20Vairamuthu&theme=gradient
+https://tsonglyrics.com/api/og-lyrics?lyrics=pothavillaye%20pothavillaiye%0Aunnaippola%20bhothai&artist=AR%20Rahman%20%2B%20Vairamuthu&theme=gradient
 ```
 
 **Romantic Theme:**
 ```
-https://www.tsonglyrics.com/api/og-lyrics?lyrics=kadhal%20kaditham%20theettave%0Amegam%20ellaam%20kaagitham&artist=AR%20Rahman&theme=romantic
+https://tsonglyrics.com/api/og-lyrics?lyrics=kadhal%20kaditham%20theettave%0Amegam%20ellaam%20kaagitham&artist=AR%20Rahman&theme=romantic
 ```
 
 **Mass Theme:**
 ```
-https://www.tsonglyrics.com/api/og-lyrics?lyrics=vaathi%20coming%0Avaathi%20raid%0Avaathi%20loot%20all&artist=Anirudh&theme=mass
+https://tsonglyrics.com/api/og-lyrics?lyrics=vaathi%20coming%0Avaathi%20raid%0Avaathi%20loot%20all&artist=Anirudh&theme=mass
 ```
 
 ## Tracking

@@ -76,5 +76,64 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:03:16.179Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "7g rainbow colony",
+      "karthik",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2004",
+      "tamil melody",
+      "classic song",
+      "solo"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kan Pesum Vaarthaigal</strong>?</h4><p>The song explores themes of unspoken emotions and longing, capturing the essence of romantic melancholy.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p><strong>Karthik</strong> is the singer of <strong>Kan Pesum Vaarthaigal</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>7G Rainbow Colony</em>?</h4><p>The music for <em>7G Rainbow Colony</em> was composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>The song reflects the protagonist's inner turmoil and unexpressed feelings towards his love interest.</p></div><div class=\"faq-item\"><h4>When was <em>7G Rainbow Colony</em> released?</h4><p>The movie <em>7G Rainbow Colony</em> was released in <strong>2004</strong>.</p></div></div>",
+    "summary": "In the movie <em>7G Rainbow Colony</em>, <strong>Kan Pesum Vaarthaigal</strong> is a poignant melody that delves into the protagonist's unspoken emotions and longing for his love interest. The song beautifully captures the essence of romantic melancholy, with Karthik's soulful rendition bringing out the depth of Na Muthukumar's lyrics. Yuvan's haunting composition adds to the emotional weight, making it a timeless classic. This song evokes feelings of nostalgia and heartache, resonating with anyone who has experienced unexpressed love.",
+    "releaseYear": "2004",
+    "high_ctr_intro": "Experience the soulful melody of <strong>Kan Pesum Vaarthaigal</strong> from the movie <em>7G Rainbow Colony</em>. Karthik's mesmerizing voice combined with Yuvan's haunting music creates a timeless classic. Dive into the emotional depth of this song that beautifully captures the essence of unspoken words and longing.",
+    "stanzaMeanings": [
+      "",
+      "The words spoken by the eyes are not understood. The girl I waited for is not kind.",
+      "If one face disappears, another face is not visible. The heart is not a mirror. Love does not hide by closing hands.",
+      "Even after seeing a hundred wounds, the heart does not forget you.",
+      "The pain that comes from a single glance, she does not understand.",
+      "Even in dreams and daily thoughts, I am fading away, but my heart does not understand.",
+      "",
+      "No one is here to see the moon burning in the forest. Love does not come here with the permission of the eyes.",
+      "The light seen from afar does not belong to the path. The firefly does not understand the lightning's light.",
+      "The eyes belong to you, but the sorrows belong to me.",
+      "After crossing the shore, only the foam belongs to the shore.",
+      "",
+      "In the world, there are many women, but the heart celebrates only one.",
+      "Once it lives, it dances, leaping between two lives.",
+      "When the dew drops hit, even the thorn here breaks.",
+      "All the lies on earth are wrapped up and made into a woman.",
+      "When the storm hits, the tree stands, but the flowers disappear.",
+      "Laughter comes, tears come, both are mixed in love.",
+      "The pain that comes from a single glance, she does not understand.",
+      "Even in dreams and daily thoughts, I am fading away, but my heart does not understand.",
+      "",
+      "Even after the leaves fly in the forest, the branches do not break.",
+      "Even after seeing a hundred wounds, the heart does not forget you."
+    ]
+  }
 }

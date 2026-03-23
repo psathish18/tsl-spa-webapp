@@ -51,5 +51,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt15zINhk919gb1MTQiSFsRteDT3kvXWxslthoGT-KRzsBfH2Nf9Z7j6kALA9XI9sGPWhsb8cDpx38DOMkdhTtqjMWK6x58REn4s2FTDP6PLbPju52HiOw78fCX5ZY1Ev07nkmr9EeQdY/s400-c/goli-soda.jpg",
   "generatedAt": "2026-01-18T13:01:23.209Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "folk",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "goli soda",
+      "aaru adi veedu",
+      "gaana bala",
+      "sn arunagiri",
+      "tamil song",
+      "2014",
+      "folk",
+      "energetic",
+      "motivational",
+      "movie song",
+      "lyrics"
+    ],
+    "actorName": "Sree Raam",
+    "actressName": "Chandini Tamilarasan",
+    "releaseYear": "2014",
+    "high_ctr_intro": "Experience the raw energy and vibrant beats of <strong>Aaru Adi Veedu</strong>, a standout track from the film <em>Goli Soda</em>. Sung and penned by the talented Gaana Bala with music composed by SN Arunagiri, this song captures the essence of resilience and determination. Dive into this electrifying number that resonates with the spirit of Tamil cinema.",
+    "stanzaMeanings": [
+      "Song: Aaru Adi Veedu Singer: Gana Bala Music: SN Arunagiri Lyrics: Gaana Bala",
+      "The six-foot house, its name is the graveyard. Once you go there, you cannot return. Its location is unknown for a while. Once you go there, you cannot return. Its location is unknown for a while. The six-foot house...",
+      "All the dances that were never danced, we will dance them here. The six feet of earth is eternal for us here.",
+      "Even that six feet is not eternal on this earth for us. Someone will come to rest upon you; calculate and see. Someone will come to rest upon you; calculate and see.",
+      "The six-foot house, its name is the graveyard. Once you go there, you cannot return. Its location is unknown for a while. Once you go there, you cannot return. Its location is unknown for a while. The six-foot house..."
+    ]
+  }
 }

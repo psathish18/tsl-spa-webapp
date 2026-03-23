@@ -64,5 +64,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3m37nJW1JKlH5dj0dnhX2G0n9rt8WWK9rWqZQ5uNbQM2nJq-H4bwyjpSXLntk6nTI0ADUnXSlMgzTnUYgUJ0xtK-8xshbpZWAQrbXQ9jaJa0EMwIM11EFY3e9GIi0HuxoZtvuNpIq9ZY/s400-c/Oththa+Mazhayila+Lyrics.JPG",
   "generatedAt": "2026-02-01T13:17:31.107Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "kadalai",
+      "oththa mazhayila",
+      "hariharan",
+      "sam cs",
+      "romantic",
+      "2016",
+      "tamil",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oththa Mazhayila'?</h4><p>The song 'Oththa Mazhayila' expresses deep romantic feelings and the beauty of love, using nature as a metaphor.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie Kadalai?</h4><p>The movie <em>Kadalai</em> revolves around themes of love and relationships, showcasing the emotional journey of its characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Hariharan</strong> and composed by <strong>Sam CS</strong>, who also wrote the lyrics.</p></div><div class=\"faq-item\"><h4>When was 'Oththa Mazhayila' released?</h4><p>'Oththa Mazhayila' was released on <strong>October 23, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Oththa Mazhayila</strong>, the protagonist expresses his heartfelt emotions through poetic lyrics that reflect the beauty of love. The song serves as a backdrop to pivotal moments in <em>Kadalai</em>, enhancing the romantic atmosphere. With its soothing melody and Hariharan's captivating voice, it evokes feelings of nostalgia and warmth. This track is a perfect representation of the film's theme, making it a memorable listening experience.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Oththa Mazhayila</strong> from <em>Kadalai</em> is a mesmerizing romantic track that beautifully captures the essence of love. With Hariharan's soulful vocals and Sam CS's enchanting composition, this song is sure to tug at your heartstrings. Experience the magic of love through this melodious journey that resonates with every listener.",
+    "stanzaMeanings": [
+      "",
+      "In the single rain, touching the shore, we let go, like a flower that blooms anew, our love is like that.",
+      "I come for you, I come for you, I come for you.",
+      "You are like a drop of rain that has come to me, flowing like a river, why did you cross my path?",
+      "Your embrace is my life, I will come from afar, I will come.",
+      "I will live many lives for you, I will come.",
+      "Hey, my beloved, I will give you my pain, I have entered your heart like a thread.",
+      "I will come to you with all my heart, I will come.",
+      "I will live my life for you, I will give you everything.",
+      "In the single rain, touching the shore, we let go, like a flower that blooms anew, our love is like that.",
+      "",
+      ""
+    ]
+  }
 }

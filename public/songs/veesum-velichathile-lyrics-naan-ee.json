@@ -96,5 +96,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5UbsLV8tV33Kl1EUx_AVxclyTOs_SWIOfNTlbwIlgidDJ9WZyh1T70Ja3zuCgltXGnjdrDZoKHjfF_WV2lHY-BUSJYRMLV7XmLKb_hU00lQ75boyPVd_IsaOlfFrXtHzloB701TbX8w8/s400-c/Naan+ee+konjam+konjam.jpg",
   "generatedAt": "2026-02-01T13:05:22.382Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "naane",
+      "ee",
+      "veesum",
+      "velichathile",
+      "karthik",
+      "shaithi",
+      "karky",
+      "maragatha mani",
+      "romantic",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Veesum Velichathile</strong> expresses the joy and excitement of love, portraying a romantic connection between the characters.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Naan Ee</em>, the song highlights the emotional bond between the protagonists, enhancing the romantic theme of the film.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features the talented voices of <strong>Karthik</strong> and <strong>Shaithi</strong>, with music composed by <strong>Maragatha Mani</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Veesum Velichathile</strong> was released on July 25, 2012.</p></div></div>",
+    "summary": "In <strong>Veesum Velichathile</strong>, the vibrant melodies and heartfelt lyrics encapsulate the essence of love and joy. The song serves as a beautiful backdrop to the romantic moments in <em>Naan Ee</em>, showcasing the deep connection between the characters. With its upbeat rhythm and engaging vocals, it evokes feelings of happiness and celebration. This duet is a perfect anthem for lovers and those celebrating special moments.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Veesum Velichathile</strong> from <em>Naan Ee</em> is a delightful romantic duet that captures the essence of love with its enchanting melodies. The collaboration between <strong>Karthik</strong> and <strong>Shaithi</strong> brings a vibrant energy that resonates with listeners. With <strong>Maragatha Mani</strong>'s captivating composition and <strong>Karky</strong>'s poetic lyrics, this song is sure to uplift your spirits.",
+    "stanzaMeanings": [
+      "",
+      "In the shining light, I will come like a star and speak to you, I will give you light, oh oh..",
+      "The golden statue made by the artist, the pencil that draws the girl, can you see my state? oh oh..",
+      "Have you seen me once, have you heard my heart's words? Have you seen me again, does love speak through your eyes? oh oh..",
+      "You don't need a mirror to see my love, just a glance is enough. No need for jewels, just a moment of your gaze is enough to ignite anger and desire, look at me in some way.",
+      "Have you seen me once, have you heard my heart's words? Have you seen me again, does love speak through your eyes? oh oh.."
+    ]
+  }
 }

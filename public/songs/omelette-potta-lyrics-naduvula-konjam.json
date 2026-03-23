@@ -75,5 +75,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF3NWdLlaG-c2degphh5QnFuxWxAGkprmWPC53Yd_orpHApIt-0Utt_PJQR9Vk2jsDVkW3g9vC44u_ATLfXCzsdTnyIrHLQzJN-Ug5SfCnRhyphenhyphencCyj4xTb-YlGh1rVrt-h3qLmtwX5o2Zk/s400-c/naduvula_konjam_pakkatha_kaanom_movie_posters_7013.jpg",
   "generatedAt": "2026-02-01T13:07:24.400Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "upbeat",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "naduvula konjam pakkatha kanom",
+      "omelette potta",
+      "ved shankar",
+      "sugavanam",
+      "happy",
+      "upbeat",
+      "dance number",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Omelette Potta'?</h4><p>The song 'Omelette Potta' is a playful and humorous take on everyday life, reflecting the light-hearted moments in the movie.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Naduvula Konjam Pakkatha Kanom'?</h4><p>The movie revolves around a group of friends and their comedic adventures, with the song adding to the fun atmosphere of the film.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented singers <strong>Sugavanam</strong> and <strong>Ved Shankar</strong>, with music composed by <strong>Ved Shankar</strong> himself.</p></div><div class=\"faq-item\"><h4>When was 'Omelette Potta' released?</h4><p>'Omelette Potta' was released on <strong>July 21, 2012</strong>.</p></div></div>",
+    "summary": "In 'Omelette Potta', the lively beats and catchy lyrics encapsulate the carefree spirit of youth and friendship. The song serves as a delightful interlude in <em>Naduvula Konjam Pakkatha Kanom</em>, enhancing the film's comedic narrative. With its upbeat tempo, it evokes feelings of joy and celebration, making it a perfect anthem for parties. The collaboration between Sugavanam and Ved Shankar brings an infectious energy that resonates with listeners.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Omelette Potta</strong> from <em>Naduvula Konjam Pakkatha Kanom</em> is a vibrant and catchy track that perfectly captures the essence of fun and celebration. With the unique collaboration of singers Sugavanam and Ved Shankar, this song is sure to get you on your feet. Dive into the infectious energy and playful lyrics that make this number a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "Omelette made, looking for a way to see something in between.",
+      "Movie: Naduvula Konjam Pakkatha Kanom (2012) Music: Ved Shankar",
+      "Omelette made, looking for something in between.",
+      "The door opened, looking for something in between.",
+      "No height, looking for something in between.",
+      "I saw everything at night, looking for something in between.",
+      "In-between something is missing. In-between .. missing.",
+      "If the drink is poured, there is fear looking for something in between.",
+      "Here is where I placed it, looking for something in between.",
+      "If the phone is put down, there is balance looking for something in between.",
+      "Beginning is there, ending is there, looking for something in between.",
+      "In-between something is missing. In-between something is missing. In-between something is missing. missing ..missing..missing..."
+    ]
+  }
 }

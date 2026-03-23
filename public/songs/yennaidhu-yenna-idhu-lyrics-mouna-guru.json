@@ -22,7 +22,7 @@
     "Yennaidhuvo?  Yennaidhuvo?<br />ennavendru ayyo theriyaadha<br />Thirumba thirumba maatik kollum<br />thandhirathaal nejjam thullaadha?",
     "Yeno? Yeno? yeno? yeno ?",
     "<span>Other Mouna Guru Song Lyrics</span>",
-    "1.  <a href=\"http://the-blog-that-shares.blogspot.com/2011/11/anaamika-lyrics-mouna-guru-songs-lyrics.html\">Annamika Lyrics</a></div>"
+    "1.  <a href=\"https://tsonglyrics.com/anaamika-lyrics-mouna-guru-songs-lyrics.html\">Annamika Lyrics</a></div>"
   ],
   "hasTamilLyrics": false,
   "tamilStanzas": [],
@@ -63,5 +63,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtnidK90LueL0A46_GLagFgXeJpwrozMyaynnH-SvMskUkBSGROHwV7pDSf10Rx0qdDDIYrZuTX6hT7VRnnDxkS5ervkWgebCydFvwVeuXZ99fssONZEANv4AA26jvO_a0G2YY2iFmug0/s400-c/mouna_guru.jpg",
   "generatedAt": "2026-01-18T13:08:54.214Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "sad",
+      "romantic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "mouna guru",
+      "yennaidhu",
+      "rahul nambiar",
+      "ramya",
+      "ranjith",
+      "rita",
+      "na muthukumar",
+      "thaman s",
+      "melancholic",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yennaidhu'?</h4><p>'Yennaidhu' explores themes of longing and emotional turmoil, reflecting the inner struggles of the characters in <strong>Mouna Guru</strong>.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>The song plays during a pivotal moment in <strong>Mouna Guru</strong>, highlighting the protagonist's feelings of isolation and heartache.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Yennaidhu'?</h4><p>The song features a collaboration of talented artists including <strong>Rahul Nambiar</strong>, <strong>Ramya</strong>, <strong>Ranjith</strong>, and <strong>Rita</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Yennaidhu' was composed by <strong>Thaman S</strong>, known for his ability to blend emotions with melody.</p></div><div class=\"faq-item\"><h4>When was 'Yennaidhu' released?</h4><p>'Yennaidhu' was released on <strong>November 18, 2011</strong>, as part of the <strong>Mouna Guru</strong> soundtrack.</p></div></div>",
+    "summary": "'Yennaidhu' is a poignant melody that encapsulates the feelings of despair and longing experienced by the characters in <em>Mouna Guru</em>. The song's lyrics, crafted by Na Muthukumar, delve into the depths of emotional isolation, while the harmonious blend of voices from the singers adds to its haunting quality. The music composed by Thaman S enhances the overall mood, making it a reflective piece that resonates with listeners. This song serves as a perfect backdrop for moments of introspection and heartache.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Yennaidhu</strong> from the <em>Mouna Guru</em> soundtrack is a hauntingly beautiful melody that captures the essence of longing and introspection. With a unique collaboration of voices from Rahul Nambiar, Ramya, Ranjith, and Rita, this song resonates deeply with anyone who has experienced heartache. The masterful composition by Thaman S elevates the emotional weight of the lyrics penned by Na Muthukumar, making it a must-listen for fans of soulful music.",
+    "stanzaMeanings": [
+      "",
+      "What is this? My heart is not with me. Silence has come and is whispering something, what is it?",
+      "The time is not coming, and it is not coming with you. The eyes are not closing, what is it? What is it?",
+      "In your solitude, is there a face that speaks first in this world? In your dreams, does your head bloom like a flower?",
+      "Your walk and your feelings, are new changes coming everywhere? A gentle flower comes and brings pain inside the eyes?",
+      "What is this? Oh... What is this? What is this? What is this? Why can't I understand? When I see you, my heart doesn't speak?",
+      "What is this? What is this? Why can't I understand? Everything is mixed up, and the truth is not clear? What is it? What is it? (What is this?)",
+      "Until the time comes, my heart is burning with a hundred flames. Is this something? Oh? When you look at me, is it something simple? Is this something? Oh... oh.",
+      "When you look at me, does it speak of something? Oh, when you look at me again, does it hurt? What is this? Is it something? Are we connected?",
+      "What is this? What is this? Why can't I understand? When it comes, it doesn't speak to the heart?",
+      "What is this? What is this? Why can't I understand? Turning back and forth, does the magic not work?",
+      "What is it? What is it? What is it? What is it?",
+      "",
+      ""
+    ]
+  }
 }

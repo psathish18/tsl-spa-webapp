@@ -75,5 +75,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX0cDKDDi8aQm8jeZz2wGwCB2c6rpEKAJauGhptp9fVFup6x5dvGb58PqfR0VRwumKajSeXXiMpoxw7q_jpHOWTdgS0_7pKIh21tyVOBNqXy8Vk1EbE2BWCgMGv59_B35izXtckfEIlUs/s400-c/8+Thottakkal1.JPG",
   "generatedAt": "2026-01-18T12:45:58.304Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "8 thottakkal",
+      "mannipaya ena kekathe",
+      "aparna balamurali",
+      "udhaya kannan",
+      "sri ganesh",
+      "sundaramurthy ks",
+      "romantic",
+      "2017"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and the pain of separation, highlighting the emotional turmoil of the characters.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <strong>8 Thottakkal</strong>, this song plays during a pivotal moment that showcases the protagonists' emotional struggles and their bond.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Aparna Balamurali</strong> and <strong>Udhay Kannan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Mannipaya Ena Kekathe</strong> was composed by <strong>Sundaramurthy KS</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>March 20, 2017</strong>.</p></div></div>",
+    "summary": "In <strong>Mannipaya Ena Kekathe</strong>, the characters express their heartfelt emotions through a poignant melody that resonates with anyone who has experienced love and loss. The song beautifully captures the essence of longing and the desire to stay connected despite challenges. Its soothing composition and heartfelt lyrics evoke a sense of nostalgia and deep emotional connection. This duet is a standout moment in <em>8 Thottakkal</em>, making it a memorable piece for romantic occasions.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Mannipaya Ena Kekathe</strong> from <em>8 Thottakkal</em> is a beautifully crafted duet that captures the essence of love and longing. Featuring the soulful voices of Aparna Balamurali and Udhay Kannan, this song is a perfect blend of emotion and melody. With Sundaramurthy KS's enchanting composition, it's a must-listen for anyone who cherishes romantic tunes.",
+    "stanzaMeanings": [
+      "",
+      "Don't ask me to surrender, never leave me.",
+      "I too will melt like the evening breeze, I will blend into the air.",
+      "Don't bring your anger, my heart can't bear it, love should never fade, don't leave me.",
+      "Don't ask me to surrender, never leave me, never leave me, never leave me.",
+      "Time will always come together, your hands will give me strength.",
+      "Time will change but won't change everything, I will endure, give me your support.",
+      "Will there be days without you? Will my life be complete without you?",
+      "We can see the sky every day, we can talk without limits, we can live with love.",
+      "",
+      "Don't ask me to surrender, never leave me."
+    ]
+  }
 }

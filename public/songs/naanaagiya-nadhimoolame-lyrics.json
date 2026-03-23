@@ -49,5 +49,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQzYXecLSR5Qz5Wh1NfMH4hlkwabX3xYd21gCKIRpLgS1x2r9mHy-9J1jec-obTR7ZgvgT4ehEtExgvsGnBMssIVcRbbDflj_53xgs7NsNGqkk3ZtT0Piuo3PyKQ8jXxtqBOvV22h3rg/s400-c/naanaagiya+lyrics.jpg",
   "generatedAt": "2026-01-18T12:44:13.977Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "devotional"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "vishwaroopam 2",
+      "kamal haasan",
+      "m ghibran",
+      "romantic",
+      "melancholic",
+      "devotional",
+      "2018",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Naanagiya Nadhimoolame</strong> expresses deep emotions of love and longing, reflecting the complexities of relationships.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Vishwaroopam 2</em>?</h4><p>The song captures a significant emotional moment in the film, highlighting the protagonist's inner struggles and connections.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Kamal Haasan</strong> and composed by <strong>M Ghibran</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Naanagiya Nadhimoolame</strong> was released on July 1, 2018.</p></div></div>",
+    "summary": "In <strong>Naanagiya Nadhimoolame</strong>, Kamal Haasan's soulful rendition evokes a profound sense of love and yearning. The song serves as a poignant reflection of the protagonist's emotional journey in <em>Vishwaroopam 2</em>. With its rich lyrical content and M Ghibran's captivating music, it beautifully conveys the struggles of love and connection. This melody resonates deeply, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Naanagiya Nadhimoolame</strong> from <em>Vishwaroopam 2</em> is a soul-stirring melody that showcases Kamal Haasan's captivating vocals. With M Ghibran's enchanting composition, this song beautifully blends emotion and artistry, making it a must-listen for fans of Tamil cinema. Experience the depth of love and longing through its poignant lyrics and mesmerizing tune.",
+    "stanzaMeanings": [
+      "",
+      "I am the root of existence, the foundation of life that supports me, there is no escape from this situation.",
+      "I think of you every day (2)",
+      "Like you, my life is also a woman, and I am also a mother.",
+      "You are the great journey I was born into, the great greatness that has been realized.",
+      "I think of you every day (2)",
+      "",
+      "I think of you every day (2)",
+      "I searched for the essence of truth in the world, I see the old things with new eyes.",
+      "Will the old memories return, will the day come when I can rest in the past?",
+      "pa ni sa ga ga ri sa ni ni pa ma ga pa ni sa ga ri pa sa ni sa ni",
+      "I am the root of existence, the foundation of life that supports me, there is no escape from this situation.",
+      "I think of you every day (2)"
+    ]
+  }
 }

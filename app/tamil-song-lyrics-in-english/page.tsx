@@ -2,13 +2,14 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { cachedBloggerFetch } from '@/lib/dateBasedCache'
 import { REVALIDATE_30_DAYS } from '@/lib/cacheConfig'
+import { AdBanner } from '@/components/GoogleAdsense'
 
 export const metadata: Metadata = {
   title: '100+ Tamil Song Lyrics with English Meaning | Translation',
   description: 'Discover 100+ amazing Tamil songs with English lyrics translation. Simple English meanings to help you understand beautiful Tamil songs easily.',
   keywords: 'Tamil songs English translation, Tamil lyrics English meaning, Tamil songs with English subtitles, Tamil to English lyrics',
   alternates: {
-    canonical: 'https://www.tsonglyrics.com/tamil-song-lyrics-in-english.html',
+    canonical: 'https://tsonglyrics.com/tamil-song-lyrics-in-english.html',
   },
 }
 
@@ -164,10 +165,9 @@ export default async function TamilSongsEnglishPage() {
           )}
         </section>
 
-        {/* Ad placeholder */}
-        <div className="my-8 bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
-          <div className="text-gray-500 text-sm mb-2">Advertisement</div>
-          <div className="text-gray-400 text-xs">In-Article Ad</div>
+        {/* In-article Ad */}
+        <div className="my-8">
+          <AdBanner slot="in-article-english" className="" />
         </div>
 
         {/* All Songs Section */}

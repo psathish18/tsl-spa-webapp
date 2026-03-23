@@ -51,5 +51,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:57.504Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "aanai",
+      "chinnajiru kiliye",
+      "aanath",
+      "d imman",
+      "romantic",
+      "melody",
+      "2005",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Chinnajiru Kiliye</strong>?</h4><p>The song expresses deep affection and the beauty of love, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie <em>Aanai</em>?</h4><p>In <em>Aanai</em>, the song reflects the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Chinnajiru Kiliye</strong>?</h4><p>The song is sung by <strong>Aanath</strong>, whose voice adds a unique charm to the melody.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Chinnajiru Kiliye</strong>?</h4><p>The music for this beautiful track was composed by <strong>D Imman</strong>, known for his melodious tunes in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was <strong>Chinnajiru Kiliye</strong> released?</h4><p>The song was released on December 2, 2005.</p></div></div>",
+    "summary": "In <strong>Chinnajiru Kiliye</strong>, the listener is taken on a melodic journey that encapsulates the tender feelings of love and affection. The song serves as a backdrop to pivotal romantic moments in the movie <em>Aanai</em>, enhancing the emotional connection between the characters. With its soothing melody and heartfelt lyrics, it evokes a sense of nostalgia and warmth. This track is perfect for anyone looking to celebrate love and cherish beautiful memories.",
+    "releaseYear": "2005",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>Chinnajiru Kiliye</strong> from the movie <em>Aanai</em>, where Aanath's soulful voice beautifully captures the essence of love. With D Imman's melodious composition, this song is sure to resonate with anyone who has ever felt the magic of romance. Dive into this musical journey that perfectly blends heartfelt lyrics and captivating melodies.",
+    "stanzaMeanings": [
+      "Little bird",
+      "Little bird, my dear, little bird, my dear, you are a treasure.",
+      "You have come to this world to remove my sorrows.",
+      "Little bird, my dear, little bird, my dear, you are a treasure.",
+      "When you come running, my dear, my heart feels cool; if I see you dancing, my soul embraces you.",
+      "When the pride rises high, it grows and flourishes.",
+      "When you are praised by the people, it makes you feel shy.",
+      "If I kiss you on the eyes, my heart will be filled with joy.",
+      "If I embrace you, my dear, it will become my reality.",
+      "When tears flow from your eyes, my heart will be filled with pain.",
+      "Is my eye a goddess? My life is in your hands, in your hands, in your hands.",
+      "Little bird, my dear, you are a treasure.",
+      "You have come to this world to remove my sorrows.",
+      "Little bird.",
+      ""
+    ]
+  }
 }

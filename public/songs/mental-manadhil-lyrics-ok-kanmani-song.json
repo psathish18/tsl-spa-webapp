@@ -114,5 +114,48 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMZpbyc59zpSg9cxcynLo1zdsAEo5J_b3TFCxhUiF2gYpOJ08hC8sjVQJXomBYVDH7IwzN_z5mhiDc33Areg3U4dZ3_93aSZ_n6XS2JOZ2yljsxeUzfBaPt737c9MMKJPY5twRdEn7l7w/s400-c/Mental+Manadhil.jpg",
   "generatedAt": "2026-01-18T12:55:42.982Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "party",
+      "wedding"
+    ],
+    "keywords": [
+      "ok kanmani",
+      "ar rahman",
+      "manirathanm",
+      "romantic",
+      "happy",
+      "2015",
+      "tamil song",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Mental Manadhil'?</h4><p>'Mental Manadhil' expresses the playful and joyous feelings of love, capturing the essence of young romance.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of 'Ok Kanmani'?</h4><p>The song reflects the carefree and romantic relationship between the lead characters, enhancing the film's theme of love and commitment.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by the talented <strong>AR Rahman</strong>, who is also the <strong>music director</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Mental Manadhil' released?</h4><p>The song was released on <strong>March 15, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Mental Manadhil</strong>, the vibrant energy of love is beautifully captured through AR Rahman's soulful voice and catchy lyrics. The song plays a pivotal role in <em>Ok Kanmani</em>, showcasing the playful dynamics between the lead characters. It evokes feelings of joy and excitement, making it a perfect anthem for romantic occasions. With its upbeat tempo and engaging melody, this track resonates with anyone who has experienced the thrill of love.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Mental Manadhil</strong> from <em>Ok Kanmani</em> is a vibrant celebration of love that perfectly captures the essence of youthful romance. With AR Rahman's enchanting vocals and catchy lyrics by Manirathanm, this song is sure to lift your spirits. Dive into the melodic world where every beat resonates with joy and affection!",
+    "stanzaMeanings": [
+      "",
+      "In my mind, there's a mental state. In a beautiful age, there's a lovely song in my heart.",
+      "Yesterday is not here, tomorrow is what I think about. Today, my love is like a king and queen.",
+      "In my mind, there's a mental state. In a beautiful age, there's a lovely song in my heart.",
+      "",
+      "Don't take away my eyes, don't speak without meaning, even if you touch, don't let go.",
+      "Marriage, music, relationships, children, oh my dear.",
+      "In my mind, there's a mental state. In a beautiful age, there's a lovely song in my heart.",
+      "Yesterday is not here, tomorrow is what I think about. Today, my love is like a king and queen.",
+      "In my mind, there's a mental state."
+    ]
+  }
 }

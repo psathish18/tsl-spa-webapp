@@ -44,5 +44,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:54:15.789Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "party"
+    ],
+    "keywords": [
+      "jigina",
+      "rosapoo ravikkaikari",
+      "hariharasudhan",
+      "john peters",
+      "romantic",
+      "upbeat",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>Rosapoo Ravikkaikari</strong> expresses themes of love and romance, showcasing the playful dynamics between lovers.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Jigina</em>, this song highlights a pivotal moment of joy and connection between the lead characters, enhancing the romantic narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Hariharasudhan</strong> and composed by <strong>John Peters</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Rosapoo Ravikkaikari</strong> was released on <strong>August 21, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Rosapoo Ravikkaikari</strong>, the vibrant energy of the song reflects the playful and romantic interactions between the characters in <em>Jigina</em>. The lyrics convey a sense of youthful exuberance and affection, making it a perfect anthem for celebrations of love. With its catchy melody and lively beats, the song evokes feelings of joy and nostalgia. This track stands out as a delightful addition to the film's soundtrack, encapsulating the essence of romance.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Rosapoo Ravikkaikari</strong> from <em>Jigina</em> is a vibrant celebration of love that captures the essence of youthful romance. With Hariharasudhan's captivating vocals and John Peters' lively composition, this song is sure to uplift your spirits. Dive into the colorful world of this track and let its infectious energy take you on a joyful ride!",
+    "stanzaMeanings": [
+      "",
+      "The rose flower is blooming, and my beloved Stella Mary is saying sorry to me.",
+      "I understood the colorful poetry, and the hero is changing. When my morning comes, this is my story.",
+      "She is looking at me, and I am living like Kamaraja. Later, she shows her father, who is a god.",
+      "I have understood in the end; now, they want love.",
+      "The rose flower is blooming, and my beloved Stella Mary is saying sorry to me.",
+      "When I bought the chain of the two-headed snake, it started to move when I touched it.",
+      "When I heard about the beauty and love, I wanted to buy it. When I heard about the single stone earring, I wanted to buy it too.",
+      "Whatever she asked, I gave it all. After she smiled, I was lost in her laughter.",
+      "I have understood in the end; the girls are showing off.",
+      "The rose flower is blooming, and my beloved Stella Mary is saying sorry to me.",
+      "When I heard about the cuticura powder, I wanted to buy it. When I heard about the perfume, I wanted to buy it too.",
+      "When I heard about the Anarkali dress, I wanted to buy it. When I heard about the Kanchipuram saree, I wanted to buy it too.",
+      "Whatever she showed me, I was captivated. If she was upset, I would clean the street where she was.",
+      "I have understood in the end; the girls are at four twenty.",
+      "The rose flower is blooming, and my beloved Stella Mary is saying sorry to me.",
+      "I understood the colorful poetry, and the hero is changing. When my morning comes, this is my story.",
+      ""
+    ]
+  }
 }

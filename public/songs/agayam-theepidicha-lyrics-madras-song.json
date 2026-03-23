@@ -66,5 +66,43 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhapaufmjerE17FgjdxSEFUnhYTSjhewsTmzHnGTthxD-h45Ft_ozYvF9D5qVHDsij43sja9_GdiTbHwXSKU5pTP9GfaMvSbr7uiSYCzSnGK8Q2BG3VVvaiQizJrlpAX51DQL2SO-ogv-o/s400-c/Madras+song+lyrics.jpg",
   "generatedAt": "2026-01-18T12:59:04.775Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "madras",
+      "karthi",
+      "catherine tresa",
+      "pradeep kumar",
+      "kabilan",
+      "santhosh narayanan",
+      "melancholic",
+      "solo",
+      "2014",
+      "tamil cinema",
+      "movie song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who is the lead actor in the movie <em>Madras</em>?</h4><p>The lead actor is <strong>Karthi</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song <strong>Agayam Theepidicha</strong>?</h4><p>The song explores themes of longing and emotional introspection.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Madras</em>?</h4><p>The music was composed by <strong>Santhosh Narayanan</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Madras</em> released?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>Who penned the lyrics for the song <strong>Agayam Theepidicha</strong>?</h4><p>The lyrics were written by <strong>Kabilan</strong>.</p></div></div>",
+    "summary": "The song <strong>Agayam Theepidicha</strong> from the 2014 Tamil movie <em>Madras</em>, starring Karthi and Catherine Tresa, is a poignant melody that delves into themes of longing and emotional depth. Sung by Pradeep Kumar with music composed by Santhosh Narayanan, the song's evocative lyrics by Kabilan beautifully reflect the narrative's emotional undertones. It captures the essence of introspection and resonates with listeners through its soulful composition. This track is a testament to the film's impactful storytelling and musical brilliance.",
+    "actorName": "Karthi",
+    "actressName": "Catherine Tresa",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Agayam Theepidicha</strong> from <em>Madras</em> is a soul-stirring melody that captures the essence of longing and introspection. With Pradeep Kumar's heartfelt rendition and Santhosh Narayanan's evocative composition, this song resonates deeply with its listeners. Experience the poignant lyrics by Kabilan that beautifully complement the film's narrative.",
+    "stanzaMeanings": [
+      "If the sky catches fire, the moon cannot sleep. When you are not near me, my heart cannot bear the loneliness. There is no connection to the toy left in the cornfield. If love leaves my hand, my palm will be empty. Look at the tear in my eyes like the sea. Come and join me."
+    ]
+  }
 }

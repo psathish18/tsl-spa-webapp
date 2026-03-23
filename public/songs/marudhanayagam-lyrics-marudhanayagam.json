@@ -41,5 +41,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9nigNKcsGeNg6z2vLQUj7ffKCTEwAV414tIdkusouRYc17aKDisqN7RYkztLLxHfTPCDSH4zKyVsOfibgNg24n8CuE6TapZI79Sw3ZUPW1KzlHqRzFvZYBis0nx_zEfJi0zeudyhZdzs/s400-c/marudhanayagam+.jpg",
   "generatedAt": "2026-01-18T12:51:36.476Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "theme"
+    ],
+    "occasions": [
+      "celebration",
+      "festivals"
+    ],
+    "keywords": [
+      "marudhanayagam",
+      "ilaiyaraaja",
+      "kamal haasan",
+      "energetic",
+      "nostalgic",
+      "2016",
+      "tamil",
+      "movie"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Marudhanayagam</strong>?</h4><p>The song reflects themes of bravery and historical significance, celebrating the legacy of Marudhanayagam.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie <em>Marudhanayagam</em>?</h4><p>The movie revolves around the life of a legendary warrior and his struggles against colonial powers.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Marudhanayagam</strong> released?</h4><p>The song was released on March 29, 2016.</p></div></div>",
+    "summary": "In <strong>Marudhanayagam</strong>, the song serves as a powerful tribute to the valor and spirit of its titular character. The energetic composition by Ilaiyaraaja, combined with Kamal Haasan's evocative lyrics, creates a nostalgic atmosphere that resonates with audiences. It captures the essence of adventure and the rich historical backdrop of the film. The song evokes a sense of pride and motivation, making it a memorable piece in Tamil cinema.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Marudhanayagam</strong> is a captivating anthem that showcases the powerful vocals of Ilaiyaraaja, paired with the brilliant lyrics of Kamal Haasan. This song encapsulates the spirit of adventure and valor, making it a timeless piece in Tamil cinema. Experience the magic of <em>Marudhanayagam</em> as it transports you to a world of rich history and emotion.",
+    "stanzaMeanings": [
+      "",
+      "Pondering and repeating the same words over and over.",
+      "Born in Panaiyuru, Marudhanayagam is one among the greats.",
+      "What has grown with enmity is now beginning to unfold, history is starting anew.",
+      "With a belief that has come, humanity is now losing its way, justice is getting confused, and this land is filled with blood and chaos.",
+      "Born in Panaiyuru, Marudhanayagam is one among the greats.",
+      "Even if the past is gone, it still affects me here.",
+      "The time to achieve has been declared, will it speak the truth at the right moment?",
+      "From this place, the strong winds have come and shaken the land.",
+      "In a land where tears do not fall, will anyone show it in their eyes? Will that time come?",
+      "With a belief that has come, humanity is now losing its way.",
+      "Justice is getting confused, and this land is filled with blood and chaos.",
+      "",
+      ""
+    ]
+  }
 }

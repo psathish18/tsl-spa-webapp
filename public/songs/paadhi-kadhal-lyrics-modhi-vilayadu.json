@@ -38,5 +38,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:13:02.327Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "modhi vilayadu",
+      "paadhi kadhal",
+      "bombay jayashree",
+      "sunitha sarathy",
+      "colonial cousins",
+      "romantic",
+      "2009",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Paadhi Kadhal'?</h4><p>'Paadhi Kadhal' expresses the emotions of love and affection, highlighting the joy and beauty of romantic moments.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Modhi Vilayadu</em>, the song plays during a romantic sequence, showcasing the deep connection between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song is sung by <strong>Bombay Jayashree</strong> and <strong>Sunitha Sarathy</strong>, with music composed by <strong>Colonial Cousins</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Paadhi Kadhal' released?</h4><p>'Paadhi Kadhal' was released on <strong>July 24, 2009</strong>.</p></div></div>",
+    "summary": "In <strong>Paadhi Kadhal</strong>, the romantic essence of love is beautifully portrayed through the heartfelt lyrics and melodious voices of the singers. The song encapsulates the joy and excitement of love, making it a perfect fit for romantic occasions. It evokes feelings of happiness and nostalgia, resonating with anyone who has experienced love. The enchanting composition by Colonial Cousins further enhances the emotional depth of the song.",
+    "releaseYear": "2009",
+    "high_ctr_intro": "<strong>Paadhi Kadhal</strong> from <em>Modhi Vilayadu</em> is a mesmerizing duet that beautifully captures the essence of love. With the enchanting voices of Bombay Jayashree and Sunitha Sarathy, this song is a delightful blend of romance and melody. The unique collaboration with Colonial Cousins' music adds a refreshing vibe that resonates with listeners.",
+    "stanzaMeanings": [
+      "",
+      "Half love, half kisses, let it go, oh, the kisses on the forehead, let them be, will my girl burn with passion?",
+      "Half love, half kisses, let it go, oh, the kisses on the forehead, let them be, will my girl burn with passion?",
+      "When the fire rises, life melts, when the time of love comes, will you be taken away?",
+      "A beautiful dream comes again and again, oh, I want to catch that dream, will it bring me white light?",
+      "Giving a flying kiss makes me want to fly, oh, love, will you call me when hunger arises?",
+      "Love, make me love, I have set the guard, like a cat, there will be a trap inside, I showed the direction, scared, I let my heart go and flew high.",
+      "A beautiful dream comes again and again, oh, again and again, oh, oh.",
+      "The fragrance of the rose flower, where is it in this heart? All the joys of being a woman, where are they in my body? If I read the scriptures, I will see heaven, I am the one who will see it.",
+      "Half love, half kisses, let it go, oh, the kisses on the forehead, let them be, will my girl burn with passion?",
+      "When the fire rises, life melts, when the time of love comes, will you be taken away?"
+    ]
+  }
 }

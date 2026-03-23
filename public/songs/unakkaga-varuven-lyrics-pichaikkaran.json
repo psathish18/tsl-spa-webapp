@@ -91,5 +91,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRv79-ZTxqCwWRbEDRam7Qn0EeV4mW5zTyBLCJK5pxclPGxnJvO0rcI6cEqIcUkvxWzjL9SKugJpWTW9Q1aQHjR26_9fqhenKgdYPyrXMgN5SAqTXa291B0_AkG0-geo4raTpiFbemOfk/s400-c/Pichaikkaran.jpg",
   "generatedAt": "2026-01-18T12:52:51.429Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pichaikkaran",
+      "unakkaga varuven",
+      "janaki iyer",
+      "vijay antony",
+      "romantic",
+      "melody",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep love and commitment, emphasizing the lengths one would go to for their beloved.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <strong>Pichaikkaran</strong>, the song highlights the protagonist's feelings towards his love interest, showcasing their emotional bond.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p>The song is sung by <strong>Janaki Iyer</strong>, known for her melodious voice that adds depth to the track.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Unakkaga Varuven</strong> is composed by <strong>Vijay Antony</strong>, who is celebrated for his unique musical style.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>January 7, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Unakkaga Varuven</strong>, the protagonist expresses his unwavering love and commitment to his beloved, making it a quintessential romantic ballad. The soothing melody, combined with Janaki Iyer's heartfelt rendition, evokes a sense of nostalgia and longing. This song plays a pivotal role in <em>Pichaikkaran</em>, encapsulating the emotional depth of the characters' relationship. It beautifully conveys the message of love transcending challenges, making it a perfect choice for romantic occasions.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Unakkaga Varuven</strong> from <em>Pichaikkaran</em> is a heartwarming melody that beautifully captures the essence of love and devotion. With Janaki Iyer's soulful vocals and Vijay Antony's enchanting composition, this song resonates deeply with anyone who has experienced true affection. Dive into the emotional journey of this track that promises to tug at your heartstrings.",
+    "stanzaMeanings": [
+      "",
+      "I will give my life for you.",
+      "Just one glance from you is enough, I will do anything for you.",
+      "All my memories are filled with you, I will always be your shadow.",
+      "No matter who you are, I will always seek you.",
+      "If you leave me, in that moment, I will disappear.",
+      "I will give my life for you.",
+      "No matter who says what, even if I die today, I have understood your half.",
+      "Even if anyone comes, if they speak against you, I will stand firm.",
+      "This love for you will never fade away.",
+      "Even if life goes away, it will not leave me.",
+      "I will give my life for you.",
+      "Just one glance from you is enough, I will do anything for you.",
+      "All my memories are filled with you, I will always be your shadow.",
+      "No matter who you are, I will always seek you.",
+      "If you leave me, in that moment, I will disappear."
+    ]
+  }
 }

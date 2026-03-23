@@ -52,5 +52,58 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQGw6kGTvWIj9o8QeieXvByw9ulx1GHegpfa9UUehyZ2BUVyayF6CNGH9en9ntOAhDTJDsGOXMtaIG_clRO_Q8nkoASitt1NJ83bgeRHvYUTJItU3wdihlq-z5s9wlB5m7thiJKQiezQ/s400-c/Kannil+Mazhai+Lyrics.jpeg",
   "generatedAt": "2026-02-01T13:02:23.440Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "breakup",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "kannil mazhai",
+      "sid sriram",
+      "subu",
+      "prasanna b",
+      "melancholic",
+      "romantic",
+      "2018",
+      "tamil album",
+      "lyrics",
+      "solo",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannil Mazhai</strong>?</h4><p>The song explores themes of love, longing, and nostalgia, capturing the emotional turmoil of a romantic relationship.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kannil Mazhai</strong>?</h4><p>The song is sung by the renowned playback singer <strong>Sid Sriram</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Kannil Mazhai</strong>?</h4><p>The music for the song was composed by <strong>Prasanna B</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Kannil Mazhai</strong> released?</h4><p>The song was released on July 17, 2018.</p></div></div>",
+    "summary": "<strong>Kannil Mazhai</strong> is a soulful melody that delves into the depths of love and the pain of separation. The lyrics by <strong>Subu</strong> paint a vivid picture of memories and emotions that linger long after a relationship ends. Sid Sriram's emotive voice adds a layer of melancholy, making it a perfect track for moments of introspection. The music by <strong>Prasanna B</strong> complements the lyrical depth, creating a hauntingly beautiful experience.",
+    "high_ctr_intro": "<strong>Kannil Mazhai</strong> is a mesmerizing track that beautifully captures the essence of love and longing. Sung by the soulful <strong>Sid Sriram</strong>, this song is a perfect blend of emotional depth and melodic richness. With lyrics by <strong>Subu</strong> and music by <strong>Prasanna B</strong>, it promises to take you on a nostalgic journey through the corridors of your heart.",
+    "stanzaMeanings": [
+      "Rain in the eyes, thunder in the heart, memories appear everywhere. What should I do?",
+      "We threw stones on the mirror, a piece of our love spoke in the morning.",
+      "When lies became truth, did it hide the truth of love?",
+      "The picture stretches like a mark on the shore of our days. Will the deep wound ever heal?",
+      "Rain in the eyes, thunder in the heart, lightning strikes.",
+      "Time, moments, and moisture are not enough for those days.",
+      "Life has no friend to ask for those days again.",
+      "Pain... light... in pain, love lasts until death.",
+      "Light, shadow of light, shining somewhere.",
+      "We threw stones on the mirror.",
+      "Truth became a lie.",
+      "Do colors heal the wound?",
+      "Love swings today like a doll dancing on a string.",
+      "Rain in the eyes, thunder in the heart, memories appear everywhere. What should I do?",
+      "Words, shadow of words, don't fade away.",
+      "Rain, disappear, the mistake of disappearing, forgotten and hidden.",
+      "Rain in the eyes, thunder in the heart, lightning strikes.",
+      ""
+    ]
+  }
 }

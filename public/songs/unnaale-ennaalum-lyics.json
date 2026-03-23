@@ -126,5 +126,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:42:04.906Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "theri",
+      "unnaale ennaalum",
+      "hariharan",
+      "saindhavi",
+      "gv prakashkumar",
+      "romantic",
+      "melody",
+      "2019"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Unnaale Ennaalum'?</h4><p>The song expresses deep love and the significance of a beloved in one's life, highlighting emotions of longing and connection.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie 'Theri'?</h4><p>In <em>Theri</em>, the song reflects the protagonist's romantic feelings and the emotional depth of his relationships, enhancing the narrative.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features the talented voices of <strong>Hariharan</strong> and <strong>Saindhavi</strong>, with music composed by <strong>GV PrakashKumar</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Unnaale Ennaalum' released?</h4><p>The song was released on <strong>September 20, 2019</strong>.</p></div></div>",
+    "summary": "In <strong>Unnaale Ennaalum</strong>, the heartfelt lyrics and soothing melody create a romantic atmosphere that perfectly complements the film's narrative. The song conveys the deep emotional bond between the lovers, emphasizing how their lives are intertwined. With its captivating composition by GV PrakashKumar, it evokes feelings of love and nostalgia. This duet is a beautiful expression of affection, making it a memorable piece in the movie <em>Theri</em>.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Unnaale Ennaalum</strong> from the movie <em>Theri</em> beautifully captures the essence of love and longing. With the enchanting voices of Hariharan and Saindhavi, this duet is a melodic journey that resonates with the heart. The masterful composition by GV PrakashKumar adds a unique charm, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "Because of you, my life is alive. Without saying, your breath has entered my soul.",
+      "When your hands touch, my eyes fill with tears. I feel like I am melting in your embrace.",
+      "Because of you, my life is alive. Without saying, your breath has entered my soul.",
+      "Even if it ends, the sky must be covered in darkness. I must lie down and tell stories on the bed.",
+      "You must open your eyes that cannot be closed. I need your presence on me all the time.",
+      "We will go wherever happiness takes us, but you must keep looking; love is growing.",
+      "Because of you, my life is alive. Without saying, your breath has entered my soul.",
+      "Desires arise in my heart, and for that, many lives are needed to express them.",
+      "In this life, I must live with you as one.",
+      "Even if time ends, will our love end? You must keep looking; love is growing.",
+      "Because of you, my life is alive. Without saying, your breath has entered my soul.",
+      "When your hands touch, my eyes fill with tears. I feel like I am melting in your embrace.",
+      ""
+    ]
+  }
 }

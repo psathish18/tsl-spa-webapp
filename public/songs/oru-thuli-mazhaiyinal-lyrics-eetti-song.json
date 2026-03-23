@@ -80,5 +80,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHk0HNv21YiQ1yrV9GWL6BU4D60WGUCGXkcFB1o6XGM2DDz4QSORAKDPkDnSi10Qd4ERI9XqrLOlvBSj5PYfcRod8lhYxqvGF2S9aaqAETXs4IlOJE5Gt5LB3Z5ryd6NzfEBiJ4azHbFI/s400-c/Eetti+Song+Lyrics.jpg",
   "generatedAt": "2026-01-18T12:53:57.512Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "eetti",
+      "sidharth mahadevan",
+      "annamalai",
+      "gv prakashkumar",
+      "romantic",
+      "melody",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of love and longing, beautifully expressed through its lyrics.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Eetti</em>, this song reflects the emotional connection between the lead characters, enhancing the romantic narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Sidharth Mahadevan</strong>, known for his expressive vocal style.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music is composed by <strong>GV PrakashKumar</strong>, a prominent figure in Tamil cinema music.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>September 26, 2015</strong>.</p></div></div>",
+    "summary": "In <strong>Oru Thuli Mazhaiyinal</strong>, the melody beautifully encapsulates the tender emotions of love and longing. Set against the backdrop of <em>Eetti</em>, the song serves as a poignant reminder of the deep connections between the characters. The soothing composition by GV PrakashKumar, paired with Annamalai's heartfelt lyrics, evokes a sense of nostalgia and warmth. This track is perfect for romantic occasions, making it a timeless addition to any playlist.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Oru Thuli Mazhaiyinal</strong> from <em>Eetti</em> is a mesmerizing melody that captures the essence of romance and nostalgia. With Sidharth Mahadevan's soulful voice and GV PrakashKumar's enchanting composition, this song is sure to tug at your heartstrings. Dive into the lyrical beauty crafted by Annamalai and experience a musical journey like no other.",
+    "stanzaMeanings": [
+      "",
+      "With a gentle rain, it begins, just like a big storm. You hold my first devotion. Keep going, keep going, keep going. You are the one who brings the breeze. Like a fragrant flower, you stand still. You run far away, bringing victory.",
+      "With a gentle rain, it begins, just like a big storm. You hold my first devotion.",
+      "With a target in mind, victory will come. Don't let anything go wrong. The earth will be beneath you until it comes. In this world, it will fight every day. Your fingers will bloom, and your body will shine. Don't lose your way. There is no one like you in this world. Wherever you go, the path will change.",
+      "Get up after falling down. Get back up again. There is no mistake here. Until the crescent moon appears, there is no shortage for the moon. The hungry tiger aims for the deer, and it won't miss. You must cross the sky. The garland in the heavens is for you. Wherever you go, the path will change.",
+      "With a gentle rain, it begins, just like a big storm. You hold my first devotion. Keep going, keep going, keep going. You are the one who brings the breeze. Like a fragrant flower, you stand still. You run far away, bringing victory.",
+      "With a gentle rain, it begins, just like a big storm. You hold my first devotion."
+    ]
+  }
 }

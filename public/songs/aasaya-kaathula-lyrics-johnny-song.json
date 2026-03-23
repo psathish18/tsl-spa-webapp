@@ -42,5 +42,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:06.379Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "duet"
+    ],
+    "occasions": [
+      "valentine's day",
+      "relaxation",
+      "wedding"
+    ],
+    "keywords": [
+      "aasaya kaathula",
+      "johnny",
+      "rajinikanth",
+      "sridevi",
+      "ilaiyaraaja",
+      "gangai amaran",
+      "s.p.shailaja",
+      "tamil melody",
+      "1980",
+      "romantic song"
+    ],
+    "actorName": "Rajinikanth",
+    "actressName": "Sridevi",
+    "releaseYear": "1980",
+    "high_ctr_intro": "Experience the timeless charm of the classic Tamil song <strong>Aasaya Kaathula</strong> from the movie <em>Johnny</em>. Featuring the legendary Rajinikanth and Sridevi, this melodious track, composed by the maestro Ilaiyaraaja, captures the essence of love and longing. Let the soothing tunes and heartfelt lyrics transport you to a world of pure emotion.",
+    "stanzaMeanings": [
+      "Sending a message in the breeze of desire, the flower that danced has withered.",
+      "Upon hearing the news, a slight touch of pride sings a song, a cuckoo listens to the tune.",
+      "Sending a message in the breeze of desire, the flower that danced has withered.",
+      "The fragrance of flowers, the love of youthful days, the month of Thai, the scent of jasmine blooms.",
+      "In the fragrance of love, truth sings, searching for light, the tender shoots wither in the breeze.",
+      "A slight pride is shown, the gaze seeks connection on the stage.",
+      "Sending a message in the breeze of desire, the flower that danced has withered.",
+      "Honey, pure honey, a drop of nectar was sought by me.",
+      "Am I the golden deer that touched the honeycomb?",
+      "Running to find you, searching for rhythm, leaping among flowers, thirst rises in the breeze of desire.",
+      "While looking, the longing doesn't end, the body withers without speaking.",
+      "Sending a message in the breeze of desire, the flower that danced has withered.",
+      "Upon hearing the news, a slight touch of pride sings a song, a cuckoo listens to the tune."
+    ]
+  }
 }

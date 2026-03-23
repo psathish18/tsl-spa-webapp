@@ -10,7 +10,7 @@
   "published": "2014-08-19T10:26:00.000+05:30",
   "stanzas": [
     "<div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiGOmU8hx1tRTE5I1hL5HOMdRbodLTXucjpMN1mWbuRE6CQpbfVMQq45D2hZbaiCYDbu8IdQoiEyTlvkaTkhDI-GO2SuSdbQEn4XCRIH77gW-aXuXnRyPKzCTQxuAQz8u3k23im_s20oU/s1600/Kaviya-Thalaivanjpg.jpg\"></a><br />Song: Yaarumilla<br />Singer(s): Shweta Mohan, Srinivas<br />Music:  AR Rahman<br />Movie: Kaaviya Thalaivan<br />Lyrics : Pa Vijay",
-    "<a href=\"http://www.tsonglyrics.com/2014/12/yaarumilla-thanirangail-english-meaning.html\">click here for English Meaning</a>",
+    "<a href=\"https://tsonglyrics.com/yaarumilla-thanirangail-english-meaning.html\">click here for English Meaning</a>",
     "Yaarumilla Thaniyarangil <br />oru kural polae<br />nee enakkulle.<br />yengo irundhu nee<br />ennai isaikkiraai<br />ippadikku un idhayam",
     "Enna solluvaen<br />idhayathidam<br />unnai dhinamum thaedum<br />En pechai ketkaamal<br />unnai thaedum.",
     "Yaarumilla Thaniyarangil <br />oru kural polae<br />nee enakkulle.<br />yengo irundhu nee<br />ennai isaikkiraai<br />ippadikku un idhayam",
@@ -107,5 +107,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiGOmU8hx1tRTE5I1hL5HOMdRbodLTXucjpMN1mWbuRE6CQpbfVMQq45D2hZbaiCYDbu8IdQoiEyTlvkaTkhDI-GO2SuSdbQEn4XCRIH77gW-aXuXnRyPKzCTQxuAQz8u3k23im_s20oU/s400-c/Kaviya-Thalaivanjpg.jpg",
   "generatedAt": "2026-01-18T12:58:16.312Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kaaviya thalaivan",
+      "yaarumilla",
+      "shweta mohan",
+      "srinivas",
+      "pa vijay",
+      "ar rahman",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Yaarumilla?</h4><p>The song <strong>Yaarumilla</strong> expresses feelings of love and longing, highlighting the emotional connection between the singers.</p></div><div class=\"faq-item\"><h4>How does Yaarumilla fit into the plot of Kaaviya Thalaivan?</h4><p>In <em>Kaaviya Thalaivan</em>, <strong>Yaarumilla</strong> reflects the protagonist's inner turmoil and romantic aspirations, enhancing the film's emotional depth.</p></div><div class=\"faq-item\"><h4>Who are the singers of Yaarumilla?</h4><p>The song is beautifully rendered by <strong>Shweta Mohan</strong> and <strong>Srinivas</strong>, whose voices complement each other perfectly.</p></div><div class=\"faq-item\"><h4>Who composed the music for Yaarumilla?</h4><p>The music for <strong>Yaarumilla</strong> was composed by the legendary <strong>AR Rahman</strong>, known for his innovative soundscapes.</p></div><div class=\"faq-item\"><h4>When was Yaarumilla released?</h4><p><strong>Yaarumilla</strong> was released on <strong>August 19, 2014</strong>, as part of the film's soundtrack.</p></div></div>",
+    "summary": "In <strong>Yaarumilla</strong>, the characters express their deep emotional connection through poignant lyrics and a soulful melody. The song encapsulates the essence of love and longing, making it a perfect fit for romantic occasions. With AR Rahman's enchanting composition and the heartfelt performances by Shweta Mohan and Srinivas, it evokes a sense of nostalgia and yearning. This track stands out as a beautiful representation of the themes explored in <em>Kaaviya Thalaivan</em>.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Yaarumilla</strong> from <em>Kaaviya Thalaivan</em> is a mesmerizing duet that beautifully captures the essence of longing and love. With the enchanting voices of Shweta Mohan and Srinivas, paired with AR Rahman's magical composition, this song is sure to resonate with anyone who has experienced deep emotions. Dive into this lyrical masterpiece that showcases the brilliance of Pa Vijay's words and the soulful melodies that define Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "",
+      "No one else is there, like a voice in solitude, you are within me. From where do you sing to me, your heart is here now.",
+      "What can I say, my heart searches for you every day. I seek you without hearing your words.",
+      "No one else is there, like a voice in solitude, you are within me. From where do you sing to me, your heart is here now.",
+      "With music, we will be the only ones in this world.",
+      "In a dream, we have a home, and we are always truly there.",
+      "Oh.. that is a time of joy, a time when you embraced me. In this path of love, it has melted into the essence of love.",
+      "No one else is there, like a voice in solitude, you are within me. From where do you sing to me, your heart is here now.",
+      "What can I say, my heart searches for you every day. I seek you without hearing your words.",
+      "No one else is there in solitude.",
+      "Words are not needed, just seeing is enough, can a lonely dove not be a man?",
+      "Like a sculpture, you have shaped me, you are the one who has made me. Why do you think of deceiving me again?",
+      "No one else is there, like a voice in solitude, you are within me. From where do you sing to me, your heart is here now.",
+      "What can I say, my heart searches for you every day. I seek you without hearing your words."
+    ]
+  }
 }

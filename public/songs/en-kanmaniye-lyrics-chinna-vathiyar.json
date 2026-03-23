@@ -62,5 +62,69 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:21.532Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "en kanmaniye",
+      "chinna vathiyar",
+      "rohini",
+      "s p balasubramaniyam",
+      "vaali",
+      "ilaiyaraaja",
+      "romantic",
+      "1995"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>En Kanmaniye</strong> expresses deep feelings of love and longing, reflecting the emotional turmoil of the protagonist.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Chinna Vathiyar</em>, this song plays during a pivotal moment that highlights the romantic struggles of the characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the melodious voices of <strong>Rohini</strong> and <strong>S. P. Balasubramaniyam</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>En Kanmaniye</strong> was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>En Kanmaniye</strong> was released on <strong>May 11, 1995</strong>.</p></div></div>",
+    "summary": "In <strong>En Kanmaniye</strong>, the protagonist expresses a deep yearning for love, encapsulating the bittersweet emotions of romance. The song's soothing melody, crafted by Ilaiyaraaja, complements the heartfelt lyrics by Vaali, making it a classic. It resonates with anyone who has experienced love's joys and sorrows, evoking a sense of nostalgia. This timeless piece remains a favorite for romantic occasions and moments of reflection.",
+    "releaseYear": "1995",
+    "high_ctr_intro": "<strong>En Kanmaniye</strong> is a timeless melody that beautifully captures the essence of love and longing. With <em>Chinna Vathiyar</em> as its backdrop, this song features the enchanting voices of Rohini and S. P. Balasubramaniyam, bringing a unique blend of emotion and nostalgia. Experience the magic of Ilaiyaraaja's composition that resonates deeply with listeners even today.",
+    "stanzaMeanings": [
+      "Oh my dear, listen to what I say.",
+      "shutup dont talk to me",
+      "If my beloved gets angry, it will be like a blooming flower.",
+      "How many people have put flowers in their hearts, go and tell her.",
+      "Thinking and thinking, the pearl mountain will go away.",
+      "Oh my poet king, what a mess!",
+      "Your golden body will be filled with pain.",
+      "Ah, oh, I have become a fool and cried.",
+      "I am angry, oh poor me.",
+      "I love you I love you, you will always speak and leave me.",
+      "Oh my dear, listen to what I say.",
+      "If my beloved gets angry, it will be like a blooming flower.",
+      "Slowly, slowly, looking around, who is searching for the flower?",
+      "(The flower is looking for an auto, looking for a taxi, even looking for another person.)",
+      "Why do you say this, my mother, it's a drama?",
+      "(Yes, the drama is about Thirunavukkarasar.)",
+      "Every day, coming around me, putting me in a circle, has my sorrow ended?",
+      "(Yes, it has ended, I am empty, I am wandering, will you come?)",
+      "Oh, my dear, what is this magic?",
+      "(This magic is just sitting, the stomach is burning like a fire engine.)",
+      "Without you, I am my flower (yes, yes, yes...)",
+      "I am here, why are you?",
+      "Oh, my flower, my wealth.",
+      "I love you I love you, you will always speak and leave me.",
+      "Oh my dear, listen to what I say.",
+      "If my beloved gets angry, it will be like a blooming flower.",
+      "(In this cinema, saying all these dialogues, isn't it boring?)",
+      "I am angry, oh poor me.",
+      "(Poor me, my foot.)",
+      "I love you I love you, you will always speak and leave me.",
+      "Oh my dear, listen to what I say.",
+      "If my beloved gets angry, it will be like a blooming flower."
+    ]
+  }
 }

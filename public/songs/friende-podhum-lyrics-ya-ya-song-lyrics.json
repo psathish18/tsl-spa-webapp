@@ -54,5 +54,38 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixkXC_foJycs1EzT_VNxj5ZMG81XcaCYOosnKkN2K-0BG-qfAyrAM4NZoxZwQxCGaWdTqOTE1uIbc8vepCiGe_jmHtusA6SbWTE8mZruszVUjPC8bHu2LoxlsQWtLv-dtKuQ4zU0EQQdQ/s400-c/Ya_Ya_poster1.jpg",
   "generatedAt": "2026-02-01T13:00:43.941Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "ya ya",
+      "friende podhum",
+      "ranjith",
+      "steevevatz",
+      "vijay ebenezer",
+      "upbeat",
+      "dance number",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Friende Podhum'?</h4><p>The song celebrates friendship and the carefree spirit of youth, encouraging listeners to enjoy life without worries.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie 'Ya Ya'?</h4><p>In <strong>Ya Ya</strong>, the song highlights the bond between friends and their adventures, emphasizing the importance of friendship in their lives.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Friende Podhum'?</h4><p>The song is sung by <strong>Ranjith</strong> and <strong>Steevevatz</strong>, both of whom bring a lively energy to the track.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Friende Podhum'?</h4><p>The music for the song was composed by <strong>Vijay Ebenezer</strong>, known for his catchy and vibrant compositions.</p></div><div class=\"faq-item\"><h4>When was 'Friende Podhum' released?</h4><p>The song was released on <strong>September 18, 2013</strong>.</p></div></div>",
+    "summary": "In 'Friende Podhum', the lively beats and catchy lyrics encapsulate the essence of youthful friendship. The song serves as an anthem for celebrations, encouraging listeners to embrace joy and camaraderie. It evokes feelings of happiness and energy, making it perfect for parties and gatherings. The vibrant collaboration between Ranjith and Steevevatz adds a unique charm, making this track a memorable highlight of the movie.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Friende Podhum</strong> from <em>Ya Ya</em> is a vibrant celebration of friendship that perfectly captures the youthful spirit of camaraderie. With Ranjith and Steevevatz's dynamic vocals, this track is a delightful blend of catchy beats and lively lyrics. Experience the joy and energy that makes this song a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "We don't need to be present every day, we don't need to see a figure. We shouldn't forget to enjoy life in the hills. We don't need to talk about everything. We don't need anything, just friends is enough. Oh.. even in dreams, a rainbow appears. (2) Yes, we are stylish and youthful. Yes, but friendship is our home. Yes, life is like a 20-20 match. Yes, here everything is a six. We don't need anything, just friends is enough. Oh.. even in dreams, a rainbow appears. (2)"
+    ]
+  }
 }

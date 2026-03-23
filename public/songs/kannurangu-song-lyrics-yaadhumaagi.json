@@ -78,5 +78,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkckZN0QCSxySypgpviyui8ahSDsr6eKiXNyAp7umuK3FFFGZ6PQVnlHqest0gUXCRpFfynT7g_sBBQxWj_cxFwCF2JoD3wnk2JlfqHrX7pdOsdmz9hyphenhyphenB4Po6T1dNeVA-5fVeU6nQ6qFg/s400-c/Yaadhumaagi+NIndraai.JPG",
   "generatedAt": "2026-01-18T12:46:45.023Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "lullaby",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive",
+      "morning"
+    ],
+    "keywords": [
+      "yaadhumaagi nindraai",
+      "shakthisree gopalan",
+      "achu",
+      "2017",
+      "soothing",
+      "melancholic",
+      "lullaby",
+      "tamil song",
+      "lyrics",
+      "kannurangu"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kannurangu</strong>?</h4><p>The song captures themes of longing and nostalgia, with a soothing melody that evokes deep emotions.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kannurangu</strong>?</h4><p>The song is sung by the talented <strong>Shakthisree Gopalan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Yaadhumaagi Nindraai</em>?</h4><p>The music for the movie was composed by <strong>Achu</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Yaadhumaagi Nindraai</em>?</h4><p>The movie was released in the year <strong>2017</strong>.</p></div></div>",
+    "summary": "<strong>Kannurangu</strong> is a soothing lullaby from the movie <em>Yaadhumaagi Nindraai</em>, sung by Shakthisree Gopalan. The song's gentle melody and heartfelt lyrics by Achu evoke a sense of nostalgia and longing. It beautifully portrays the emotions of a mother singing to her child, creating a comforting and serene atmosphere. The track is perfect for moments of relaxation, allowing listeners to immerse themselves in its calming vibes.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Kannurangu</strong> from the movie <em>Yaadhumaagi Nindraai</em> is a soothing melody that beautifully captures the essence of longing and nostalgia. Sung by the enchanting Shakthisree Gopalan, the song is a perfect blend of Achu's soulful music and heartfelt lyrics. Dive into this mesmerizing track and let its gentle rhythm transport you to a world of serene emotions.",
+    "stanzaMeanings": [
+      "",
+      "Lullaby, lullaby, lullaby, aariraaro aariraaro lullaby",
+      "My mother, my dear one, if you hold me close, I will understand myself. My pearl, my diamond, you nurture me with love. Without you, I am nothing.",
+      "I am singing a lullaby, mother, you sleep peacefully.",
+      ""
+    ]
+  }
 }

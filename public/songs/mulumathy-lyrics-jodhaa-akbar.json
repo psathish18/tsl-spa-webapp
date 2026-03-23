@@ -60,5 +60,60 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:14:08.598Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "jodhaa akbar",
+      "srinivas",
+      "vaali",
+      "ar rahman",
+      "romantic",
+      "melody",
+      "2008",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Mulumathy?</h4><p>The song <strong>Mulumathy</strong> expresses deep romantic feelings and admiration, highlighting the beauty of the beloved.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of Jodhaa Akbar?</h4><p>In <em>Jodhaa Akbar</em>, the song reflects the emotional connection between the lead characters, showcasing their love story.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Srinivas</strong> and composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was Mulumathy released?</h4><p><strong>Mulumathy</strong> was released on January 18, 2008.</p></div></div>",
+    "summary": "In <strong>Mulumathy</strong>, the lyrical beauty and melodic charm come together to create a heartfelt expression of love. The song plays a significant role in <em>Jodhaa Akbar</em>, encapsulating the emotions of the characters as they navigate their romantic journey. With Srinivas's captivating vocals and AR Rahman's masterful composition, it evokes feelings of nostalgia and longing. The poetic lyrics by Vaali further enhance the song's romantic essence, making it a cherished piece in Tamil cinema.",
+    "releaseYear": "2008",
+    "high_ctr_intro": "<strong>Mulumathy</strong> from <em>Jodhaa Akbar</em> is a mesmerizing romantic melody that beautifully captures the essence of love. With Srinivas's soulful voice and AR Rahman's enchanting composition, this song transports listeners to a world of deep emotions and longing. The poetic lyrics by Vaali add a layer of depth, making it a timeless classic for lovers everywhere.",
+    "stanzaMeanings": [
+      "Her face is like a jasmine flower, her heart is like a beautiful place, her eyes are like lightning, and her silence is like a sweet voice.",
+      "In the month of Maargali, she is like the cool breeze.",
+      "In the beautiful forest, she walks gracefully.",
+      "The day I saw her, I prayed for my heart to be given to me.",
+      "If I receive that, it will immediately come to me.",
+      "Her face is like a jasmine flower, her heart is like a beautiful place.",
+      "In the month of Maargali, she is like the cool breeze.",
+      "In the beautiful forest, she walks gracefully.",
+      "Time does not wait, the sea shore is where it ends, and I have been left behind like a flower in the sand.",
+      "What I heard will not be forgotten, like a soft melody, I stand in silence understanding its essence.",
+      "I am like a shore, she is like a river, in this space of solitude, I flow like a river.",
+      "If I reach the water, will I find the pearl? If I think of it, will it end in a moment? In the middle of time, I see the path.",
+      "Her face is like a jasmine flower, her heart is like a beautiful place.",
+      "In the month of Maargali, she is like the cool breeze.",
+      "In the beautiful forest, she walks gracefully.",
+      "With peace, when she comes, I hold her hands, and I see many rainbows as the journey continues.",
+      "Sleep has come, the head is like a tree, I opened my eyes, and she is not there, the moment has passed.",
+      "If she is near, for a moment, if she disappears, in a moment, she runs like a hidden treasure in my eyes.",
+      "Between her and me, we found a connection, if her face is revealed, will my face also be revealed?",
+      "Her face is like a jasmine flower, her heart is like a beautiful place.",
+      "In the month of Maargali, she is like the cool breeze.",
+      "In the beautiful forest, she walks gracefully.",
+      ""
+    ]
+  }
 }

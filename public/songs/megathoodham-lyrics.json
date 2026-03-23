@@ -40,5 +40,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:42:36.776Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "heartbreak"
+    ],
+    "keywords": [
+      "megathoodham",
+      "aira",
+      "padmapriya raghavan",
+      "thamarai",
+      "sundaramurthy ks",
+      "melancholic",
+      "2019",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Megathoodham?</h4><p>The song <strong>Megathoodham</strong> explores themes of dreams and longing, reflecting deep emotional sentiments.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Airaa?</h4><p>In <em>Airaa</em>, the song captures a pivotal moment of introspection and emotional turmoil for the characters.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of Megathoodham?</h4><p>The song is sung by <strong>Padmapriya Raghavan</strong> and composed by <strong>Sundaramurthy KS</strong>.</p></div><div class=\"faq-item\"><h4>When was Megathoodham released?</h4><p><strong>Megathoodham</strong> was released on February 5, 2019.</p></div></div>",
+    "summary": "In the song <strong>Megathoodham</strong>, the listener is taken on an emotional journey through dreams and aspirations. The soothing melody, combined with poignant lyrics by <strong>Thamarai</strong>, evokes a sense of longing and introspection. As it plays in the backdrop of <em>Airaa</em>, it highlights the characters' struggles and desires. The heartfelt rendition by <strong>Padmapriya Raghavan</strong> adds depth to the song, making it a memorable experience.",
+    "releaseYear": "2019",
+    "high_ctr_intro": "<strong>Megathoodham</strong> is a hauntingly beautiful melody that captures the essence of longing and dreams. With <strong>Padmapriya Raghavan</strong>'s soulful voice and <strong>Thamarai</strong>'s poignant lyrics, this track from the movie <em>Airaa</em> resonates deeply with listeners. Experience the magic of <strong>Sundaramurthy KS</strong>'s composition that perfectly complements the emotional depth of the song.",
+    "stanzaMeanings": [
+      "The great cloud must sing a great song.",
+      "Will the dream of the dark sky be fulfilled? Will the moon of the rainy season bring light in the darkness of loneliness?",
+      "This too is a dream that will fade away, I fear it will come to my heart day by day.",
+      "This too is a dream that will fade away, I fear it will come to my heart day by day.",
+      "The great cloud must sing a great song, the rain must fall on the mountain, the king must be seen, the rainbow will return in life.",
+      "The great cloud must sing a great song.",
+      "You and I write the time, a drama blown by the wind. That wind will again bring the stage for the epic.",
+      "The flower of the divine blooms in the garden. It is the boundary of my home.",
+      "Do not forget me, even in the stormy wind, my beloved.",
+      "The great cloud must sing a great song, the rain must fall on the mountain, the king must be seen, the rainbow will return in life.",
+      "Like a flower, I see your pure beauty. I wonder what tomorrow will bring for all of us.",
+      "When this word is heard, the tears will flow, the cloud of sorrow will not settle on the eyes of the innocent.",
+      "Will the dream of the dark sky be fulfilled? Will the moon of the rainy season bring light in the darkness of loneliness?",
+      "This too is a dream that will fade away, I fear it will come to my heart day by day."
+    ]
+  }
 }

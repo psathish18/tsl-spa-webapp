@@ -112,5 +112,37 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrAxqUSIZRvGHychOfpFbwg_CmLOoUSYoCfwQq0ygYUJvvqw1_6-IhtyGKS7DVCjNDnnsPpVfnHZkhIIywrZOZM4z2pueZIRmRLmteb0tLTOeUgMdvHlSSANMKtEAf9CCGxtFH199Ypw/s400-c/En+frienda+pola+yaaru+machan.jpg",
   "generatedAt": "2026-01-18T13:08:17.461Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "nanban",
+      "en frienda pola",
+      "krish",
+      "suchith suresan",
+      "viveka",
+      "harrish jeyaraj",
+      "happy",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In the movie <em>Nanban</em>, <strong>En Frienda Pola</strong> serves as an anthem of friendship and camaraderie among the characters. The song conveys a sense of joy and celebration, highlighting the bonds that tie friends together. With its upbeat tempo and catchy lyrics, it evokes feelings of happiness and nostalgia. The lively performance by Krish and Suchith Suresan enhances the overall vibe, making it a perfect fit for festive occasions.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>En Frienda Pola</strong> from <em>Nanban</em> is a vibrant celebration of friendship that perfectly captures the essence of youthful exuberance. With the melodious voices of Krish and Suchith Suresan, this duet brings a delightful energy that resonates with listeners. The collaboration of talented lyricist Viveka and music director Harrish Jeyaraj adds a unique charm to this unforgettable track.",
+    "stanzaMeanings": [
+      "No one is like my friend. He changed all the trends. Where did you go, my friend? We are longing for you, my friend. He joined our hearts with friendship and made us cry."
+    ]
+  }
 }

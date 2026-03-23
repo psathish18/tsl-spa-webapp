@@ -54,5 +54,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:14.973Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pesu",
+      "yuvan",
+      "r cyril",
+      "romantic",
+      "melody",
+      "2011",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Vennira Iravugal</strong> explores themes of love and dreams, reflecting on the beauty of romantic connections.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Pesu</em>, this song highlights the emotional journey of the characters as they navigate their feelings for each other.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by <strong>Yuvan Shankar Raja</strong>, who is also the music director, showcasing his unique style and talent.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Vennira Iravugal</strong> was released on <strong>February 2, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Vennira Iravugal</strong>, the song beautifully encapsulates the essence of love and dreams, resonating with listeners through its heartfelt lyrics and soothing melody. The track serves as a pivotal moment in <em>Pesu</em>, where the characters reflect on their emotions and aspirations. Yuvan's enchanting vocals elevate the song, making it a perfect fit for romantic occasions. The nostalgic vibe evokes a sense of longing and hope, leaving a lasting impression on the audience.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Vennira Iravugal</strong> from <em>Pesu</em> is a mesmerizing melody that captures the essence of love and dreams. Yuvan's soulful voice, combined with R Cyril's poignant lyrics, creates an unforgettable listening experience. Dive into this romantic journey and let the music take you away!",
+    "stanzaMeanings": [
+      "",
+      "White nights are the silences of love, like colorful dreams. Our love is the melody of white nights. White nights are the silences of love, like colorful dreams. Our love is the melody of white nights.",
+      "I have a dream, will love become love? I have a dream, will the earth bloom with affection? I have a dream, oh oh.. in the streets of Rome. I have a dream, oh oh.. will love unite us?",
+      "I searched everywhere, I sang about love. Whoever asks me, I came to sing a good song. Will love conquer the world? Will we hear the question of whether we need answers?",
+      "I have a dream, will love become love? I have a dream, will the earth overflow with affection? I have a dream, oh oh.. in the streets of Rome. I have a dream, I have a dream, I have a dream.",
+      "In the paths where rivers flow, love is everywhere. A call will bloom on the shore. Love creates magic. Love writes poems that touch hearts. Love will tell us in our hearts. Love will give us dreams.",
+      "I have a dream, will love become love? I have a dream, will the earth bloom with affection? I have a dream, oh oh.. in the streets of Rome. I have a dream, hey.. will love unite us?",
+      "I have a dream, will love become love? I have a dream, will the earth bloom with affection? I have a dream, oh oh.. in the streets of Rome. I have a dream, I have a dream, I have a dream."
+    ]
+  }
 }

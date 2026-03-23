@@ -39,5 +39,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:33.993Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "thambikku indha ooru",
+      "mudhal pen niyae",
+      "javed ali",
+      "sindhu",
+      "kabilan",
+      "dharan kumar",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Mudhal Pen Niyae</strong> expresses deep feelings of love and longing, portraying the emotional connection between lovers.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Thambikku Indha Ooru</em>, the song plays during a pivotal moment that highlights the romantic relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Javed Ali</strong> and <strong>Sindhu</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Mudhal Pen Niyae</strong> was composed by <strong>Dharan Kumar</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p><strong>Mudhal Pen Niyae</strong> was released on <strong>January 31, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Mudhal Pen Niyae</strong>, the romantic essence of love is beautifully portrayed through the heartfelt lyrics and soothing melody. The song captures the emotions of longing and affection, making it a perfect backdrop for romantic moments in <em>Thambikku Indha Ooru</em>. As Javed Ali and Sindhu's voices intertwine, listeners are taken on a journey through the complexities of love. This enchanting duet resonates with anyone who has experienced the joys and sorrows of romance.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Mudhal Pen Niyae</strong> from <em>Thambikku Indha Ooru</em> is a mesmerizing romantic duet that beautifully captures the essence of love. With the enchanting voices of Javed Ali and Sindhu, this song weaves a tale of longing and affection. The collaboration of Kabilan's heartfelt lyrics and Dharan Kumar's melodious composition makes it a must-listen for any romantic occasion.",
+    "stanzaMeanings": [
+      "",
+      "Thambikku Indha Ooru",
+      "The first girl, I have seen her and made her mine, that's why it's called love. When she smiles, I feel joy. I wonder if I have captured her somehow.",
+      "Like the rain of a star, she has poured over me. My heart is troubled because of you. Your eyes are not like anyone else's, you don't look at me and say anything. Your eyes are not like anyone else's, you don't look at me and say anything.",
+      "The first girl, I have seen her...",
+      "You are my life, you are my everything. When love comes, it feels like a flower blooming. In the eyes, there is a fire that burns. Like a rain cloud, I sleep in the coolness of my heart, but my desires are not fulfilled.",
+      "Your eyes are not like anyone else's, you don't look at me and say anything.",
+      "The first girl, I have seen her...",
+      "Your kiss will be my food, your eyes will be my dream. My anger will vanish when I see you. All my memories are filled with your love song.",
+      "I will embrace you like a life. You will live in my heart, my own home.",
+      "The first girl, I have seen her... Like the rain of a star..."
+    ]
+  }
 }

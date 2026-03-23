@@ -43,5 +43,52 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:01.701Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "nostalgic",
+      "happy"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "celebration",
+      "party",
+      "relaxation"
+    ],
+    "keywords": [
+      "natchathira bangala",
+      "nesam",
+      "subha",
+      "deva",
+      "old songs",
+      "1997",
+      "tamil music",
+      "nostalgic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Natchathira Bangala'?</h4><p>The song conveys themes of joy and togetherness, celebrating familial bonds and happiness.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Nesam'?</h4><p>In the movie, the song reflects moments of celebration and unity among family members.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Subha</strong> and composed by <strong>Deva</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Natchathira Bangala' released?</h4><p>The song was released on <strong>January 14, 1997</strong>.</p></div></div>",
+    "summary": "The song 'Natchathira Bangala' from the movie *Nesam* encapsulates the warmth of familial love and celebration. Its lively melody and engaging lyrics evoke feelings of nostalgia and happiness, making it a perfect fit for joyous occasions. The song paints a vivid picture of togetherness, inviting listeners to reminisce about cherished moments with loved ones. Overall, it serves as a beautiful reminder of the bonds that unite families.",
+    "releaseYear": "1997",
+    "high_ctr_intro": "<strong>Natchathira Bangala</strong> is a delightful melody that captures the essence of nostalgia and joy. This enchanting song from the <em>movie Nesam</em> resonates with listeners, thanks to its captivating lyrics and memorable tune. Experience the magic of this classic as it transports you back to cherished moments of celebration and happiness.",
+    "stanzaMeanings": [
+      "",
+      "Don't stay single in the star house.",
+      "It's all about the way you tie your hair, the way you cut your face, and how you look. If you have sweetness in your heart, look at me.",
+      "In our house, everyone is welcome at the door, the family is coming.",
+      "Your body is like spicy chicken, and he likes it. He can't resist it.",
+      "You are the one who brings joy to our lives, like a battery for our life.",
+      "Oh, the music is playing, and I am your happiness.",
+      "Don't stay single in the star house.",
+      "I don't need a license now, I will give you what you want.",
+      "Hey, start with a kiss, and it will last until morning. Sleep well.",
+      "Oh no, what will happen if I blow you away? Let's see what happens in room number.",
+      "Now that you are here, my heart blooms like a rose.",
+      "Don't stay single in the star house.",
+      "It's all about the way you tie your hair, the way you cut your face, and how you look. If you have sweetness in your heart, look at me.",
+      "Don't stay single in the star house.",
+      ""
+    ]
+  }
 }

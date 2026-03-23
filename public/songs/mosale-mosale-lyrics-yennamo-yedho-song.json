@@ -93,5 +93,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKJrIGR2TdfxIDXwPWtutCQNOSLC2gvPcOoRxp_eVlV3tEe0tMTz1XHEYF9mv5RStYiBtLntVVmM2PeThx_ui3Wl46Zlh2jQkD7DRaP0toEMg-hrYSbEzw9DIkC1fr0DrCztcTw7unu7M/s400-c/Yennamo+Yedho.jpg",
   "generatedAt": "2026-02-01T13:01:39.602Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "party",
+      "birthday"
+    ],
+    "keywords": [
+      "ennamo yedho",
+      "mosale mosale",
+      "av pooja",
+      "deepak",
+      "karky",
+      "d imman",
+      "romantic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Mosale Mosale'?</h4><p>The song 'Mosale Mosale' conveys a playful and romantic vibe, expressing feelings of love and affection.</p></div><div class=\"faq-item\"><h4>What is the plot context of the movie 'Ennamo Yedho'?</h4><p><strong>Ennamo Yedho</strong> revolves around themes of love and relationships, showcasing the ups and downs of romance.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features the talented singers <strong>AV Pooja</strong> and <strong>Deepak</strong>, with music composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Mosale Mosale' released?</h4><p>'Mosale Mosale' was released on <strong>January 19, 2014</strong>.</p></div></div>",
+    "summary": "In the song 'Mosale Mosale' from the movie <em>Ennamo Yedho</em>, the playful lyrics and upbeat melody create a lively atmosphere that resonates with the joy of young love. The duet by AV Pooja and Deepak captures the essence of romance, making it a perfect fit for celebrations and special occasions. The song conveys a sense of happiness and excitement, inviting listeners to revel in the bliss of love. Overall, it serves as a delightful reminder of the carefree moments shared between lovers.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Mosale Mosale</strong> from the movie <em>Ennamo Yedho</em> is a vibrant duet that perfectly captures the essence of youthful romance. With the enchanting voices of AV Pooja and Deepak, paired with D Imman's catchy composition, this song is sure to uplift your spirits. Dive into the playful lyrics and infectious rhythm that make it a must-listen for any celebration!",
+    "stanzaMeanings": [
+      "",
+      "In my heart, you are deeply embedded. In my life, you are always present.",
+      "The world is swaying, your soft feet are dancing. In the rhythm, my heart is lost.",
+      "Now, both day and night are just like a carrot.",
+      "In my heart, you are always present.",
+      "After the end, you will see with your eyes, when he expresses his heart's desire. When you speak, don't say anything that will burn everything down.",
+      "In my life, you are deeply embedded.",
+      "I will search for you in the future. What will you eat, my dear?",
+      "Like the month that will pass, I need a hundred like you. That's how it is, my dear.",
+      "",
+      "In my heart, you are deeply embedded. In my life, you are always present.",
+      "The world is swaying, your soft feet are dancing. In the rhythm, my heart is lost.",
+      "Now, both day and night are just like a carrot."
+    ]
+  }
 }

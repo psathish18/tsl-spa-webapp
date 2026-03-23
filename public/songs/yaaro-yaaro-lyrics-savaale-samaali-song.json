@@ -85,5 +85,55 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwx1tlqxRphJ0q1t8V6yB1E18275ufsecnbBwLsz7q5X1YiV5mUEsHyBXq2i4pEb_EzrL2KlfS_SDE3BBkl2M7cZqjuozi4HEKVzoeLAYeWiwA44Kbl2efy7tnOr7YCDHevz_orARCHeI/s400-c/Savaale+Samaali.jpg",
   "generatedAt": "2026-02-01T13:00:14.660Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "savaale samaali",
+      "yaaro yaaro",
+      "manasi mm",
+      "thaman s",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yaaro Yaaro'?</h4><p>The song conveys themes of love and longing, expressing the emotions of yearning for a beloved.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Savaale Samaali'?</h4><p>This song plays during a pivotal moment in the film, highlighting the protagonist's feelings towards their love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer of 'Yaaro Yaaro'?</h4><p>The song is sung by the talented Manasi MM, known for her soulful voice.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for 'Yaaro Yaaro' was composed by Thaman S, a prominent music director in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was 'Yaaro Yaaro' released?</h4><p>The song was released on March 28, 2015, as part of the movie <em>Savaale Samaali</em>.</p></div></div>",
+    "summary": "In 'Yaaro Yaaro', the protagonist expresses deep emotions of love and longing, beautifully encapsulated through the soothing melody. The song serves as a backdrop to a significant moment in the film, where feelings of affection and desire come to the forefront. With heartfelt lyrics and a captivating tune, it evokes a sense of nostalgia and romance. This enchanting piece resonates with anyone who has experienced the bittersweet nature of love.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Yaaro Yaaro</strong> from <em>Savaale Samaali</em> is a mesmerizing melody that beautifully captures the essence of longing and love. With Manasi MM's enchanting vocals and Thaman S's captivating music, this song creates an emotional landscape that resonates deeply. Dive into this romantic ballad that perfectly blends heartfelt lyrics with a soothing tune, making it a must-listen for any music lover.",
+    "stanzaMeanings": [
+      "",
+      "Who are you? Every day, who is the thief? When I see you, my heart feels like it's jumping around.",
+      "Like a god standing on the earth, who are you? Will you give me your face?",
+      "You have made me stand still, pouring petrol on me. If you leave, where will I go wrong?",
+      "You have pushed me away like a thorn. You seem to have thought of me like rain, why?",
+      "You have fought beautifully and created a storm. You have taken me away like a wave.",
+      "Like a god standing on the earth, who are you? Will you give me your face?",
+      "Even the universe cannot push me away. It has blown away the flowers.",
+      "Even the heart does not desire anything. The gaze has turned into a burden.",
+      "With your beautiful eyes, you are tearing me apart. You are making me feel like a dog.",
+      "",
+      "When I see you, I feel like I have received a fortune, but there is no one like you.",
+      "When I see you, I feel like I have faced many troubles, but no one can look like you.",
+      "Did God think of taking me with your beauty? No, I just said to live for you.",
+      "",
+      "Who are you? Every day, who is the thief? When I see you, my heart feels like it's jumping around."
+    ]
+  }
 }

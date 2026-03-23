@@ -38,5 +38,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:13.855Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "relaxation"
+    ],
+    "keywords": [
+      "moscowin kaveri",
+      "gore gore gogore",
+      "karthik",
+      "suchitra",
+      "vairamuthu",
+      "thaman s",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses the beauty of love and the joy it brings, using vivid imagery and romantic metaphors.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Moscowin Kaveri</em>, the song plays during a romantic sequence, highlighting the blossoming relationship between the lead characters.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and <strong>Suchitra</strong>, with music composed by <strong>Thaman S</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Gore Gore Gogore</strong> was released on July 18, 2010.</p></div></div>",
+    "summary": "In <strong>Gore Gore Gogore</strong>, the vibrant duet sung by Karthik and Suchitra encapsulates the essence of romance and joy. The song is set against a backdrop of blossoming love in <em>Moscowin Kaveri</em>, where the lyrics beautifully convey the emotions of affection and admiration. With its catchy melody and heartfelt lyrics by Vairamuthu, the song evokes feelings of happiness and nostalgia. It's a perfect choice for weddings and celebrations, making it a timeless romantic anthem.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Gore Gore Gogore</strong> from <em>Moscowin Kaveri</em> is a delightful romantic duet that captures the essence of love and joy. With the enchanting voices of Karthik and Suchitra, this song brings a vibrant energy that resonates with listeners. The lyrical brilliance of Vairamuthu combined with Thaman S's melodious composition makes this track a must-listen for any romantic occasion.",
+    "stanzaMeanings": [
+      "",
+      "You, the flower that blooms, have brought rain to my eyes. In the April sun, you have placed my words.",
+      "Inside, the water and outside, the fire have come together, oh woman. If the fire is there, the sweetness will be pushed away. Oh dear, I have come to you like a golden treasure.",
+      "Gore Gogore Gogore Gore Gogore Gogore Gore Gore Gogore Gore Gore Gogore ..Gogore",
+      "The first kiss was given here. The first word was spoken here. If love is told correctly, it is not wrong; if it is said wrongly, it is a lie.",
+      "This is a song that has fallen from the sky, it has fallen into the eyes. In the rush, two or three greetings have formed a kiss.",
+      "Gore Gogore Gogore Gore Gogore Gogore Gore Gore Gogore Gore Gore Gogore ..Gogore",
+      "The first time I saw you, which day was it? The first finger touched you here. If love is told correctly, it is not wrong; if it is said wrongly, it is a lie.",
+      "On the day of October 7, I looked at the desires. The first finger touched you here, and I know the songs.",
+      "Gore Gogore Gogore Gore Gogore Gogore Gore Gore Gogore Gore Gore Gogore ..Gogore"
+    ]
+  }
 }

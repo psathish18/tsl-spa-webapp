@@ -62,5 +62,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyMcwHGUZoWlLZ88TviZh4tq3DlKI9NE10bv7iswhZyXaRrcTom9mZdeOxIqbewkOz7sXty6hcb7x_DbyJkeTM0_5N9JWSfZ5kkpCXxiAPDuoD19oQx5E38zMcM59seo3eaRvd5WK9FM8/s400-c/Stole+my+heart+lyrics.JPG",
   "generatedAt": "2026-01-18T13:12:16.830Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "singam",
+      "shaan",
+      "devi sri prasad",
+      "romantic",
+      "2010",
+      "tamil",
+      "movie",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>She Stole My Heart</strong> expresses the feelings of love and admiration, capturing the essence of romantic attraction.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie plot?</h4><p>In <em>Singam</em>, the song highlights the protagonist's romantic interest, adding depth to his character and the storyline.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Shaan</strong> and composed by <strong>Devi Sri Prasad</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>May 28, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>She Stole My Heart</strong>, the protagonist expresses his deep feelings of love and admiration for his romantic interest. The song's upbeat and cheerful melody, composed by Devi Sri Prasad, perfectly complements the joyous emotions of falling in love. It serves as a pivotal moment in <em>Singam</em>, showcasing the lighter, romantic side of the otherwise action-packed narrative. This track resonates with anyone who has experienced the thrill of love, making it a memorable addition to the film's soundtrack.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>She Stole My Heart</strong> from <em>Singam</em> is a captivating romantic track that perfectly captures the essence of love and attraction. With Shaan's melodious voice and Devi Sri Prasad's vibrant composition, this song is sure to steal your heart. Dive into the enchanting world of this musical gem that resonates with every lover's dream.",
+    "stanzaMeanings": [
+      "She Stole My Heart Lyrics Singam",
+      "With one word, you captured me, you captured me.",
+      "With one glance, you caught me, you caught me.",
+      "With one word, you captured me, you captured me.",
+      "With one glance, you caught me, you caught me.",
+      "Like a lightning strike, you shocked me, you shocked me.",
+      "With a love so strong, you did something to me.",
+      "she stole my heart she stole my heart she stole my little little heart"
+    ]
+  }
 }

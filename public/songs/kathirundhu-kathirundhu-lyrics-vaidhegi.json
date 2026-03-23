@@ -44,5 +44,56 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:54.255Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "classic",
+      "duet"
+    ],
+    "occasions": [
+      "anniversary",
+      "wedding",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "vaidhegi kaathirundhaal",
+      "vijayakanth",
+      "vaali",
+      "ilaiyaraaja",
+      "p jayachandran",
+      "romantic",
+      "melody",
+      "1984",
+      "tamil classic",
+      "nostalgic"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kathirundhu Kathirundhu</strong>?</h4><p>The song captures the emotions of longing and anticipation in a romantic context.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Vaidhegi Kaathirundhaal</em>?</h4><p>The music was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by the renowned lyricist <strong>Vaali</strong>.</p></div><div class=\"faq-item\"><h4>Who sang <strong>Kathirundhu Kathirundhu</strong>?</h4><p>The song was sung by <strong>P. Jayachandran</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Vaidhegi Kaathirundhaal</em> released?</h4><p>The movie was released in <strong>1984</strong>.</p></div></div>",
+    "summary": "The song <strong>Kathirundhu Kathirundhu</strong> from <em>Vaidhegi Kaathirundhaal</em> beautifully portrays the feelings of waiting and yearning in a romantic relationship. Set against Ilaiyaraaja's mesmerizing composition, the lyrics by Vaali evoke a sense of nostalgia and deep emotion. P. Jayachandran's soulful rendition adds to the song's timeless appeal, making it a cherished classic. The song conveys the universal theme of love and longing, resonating with listeners across generations.",
+    "releaseYear": "1984",
+    "high_ctr_intro": "Experience the timeless charm of <strong>Kathirundhu Kathirundhu</strong> from the movie <em>Vaidhegi Kaathirundhaal</em>. This classic melody, composed by Ilaiyaraaja and penned by Vaali, captures the essence of longing and love. Let the soulful voice of P. Jayachandran transport you to a world of romance and nostalgia.",
+    "stanzaMeanings": [
+      "Waiting and waiting, the times have passed, the eyes filled with flowers are hurting.",
+      "The dreams I saved for tomorrow are rushing, if you are here, I will find peace.",
+      "Waiting and waiting, the times have passed, the eyes filled with flowers are hurting.",
+      "The pearl I carved, you are the sculptor, I kept the pearl safely in my heart.",
+      "What I kept is now missing, I search for it, singing tunes without sleeping at night.",
+      "My love that I study, my creation, the cup filled with honey, the sweet flower.",
+      "What happened to my eyes, they are filled with tears.",
+      "Waiting and waiting, the times have passed, the eyes filled with flowers are hurting.",
+      "Even if I look in all four directions, everything there and here is you.",
+      "You are the one who flows in my heart without leaving, you are the one who dries up the river.",
+      "The red sugarcane I planted is swaying, my heart dances, I send a message to your heart.",
+      "The heart is hurt, the reason is known.",
+      "Waiting and waiting, the times have passed, the eyes filled with flowers are hurting.",
+      "The dreams I saved for tomorrow are rushing, if you are here, I will find peace.",
+      "Waiting and waiting..."
+    ]
+  }
 }

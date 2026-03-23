@@ -79,5 +79,42 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHtT1gxvhov9NLe3KIN_07ywTvH7gwMzj3MX266xG3X8w6rR6ZK5Hht-crCitEU2B0M7Fqfk3CNtq58iRE6NfhG3JNjXOfMC2nTRzXQ2sOccc8hER8PgtIAGPPNijv_qY7xlSvlK_frpM/s400-c/Vedalam+.jpg",
   "generatedAt": "2026-01-18T12:53:31.762Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "songType": [
+      "theme",
+      "bgm"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "vedalam",
+      "anirudh",
+      "siva",
+      "theme",
+      "energetic",
+      "2015",
+      "tamil",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of The Theri Theme?</h4><p>The song embodies the essence of strength and determination, reflecting the protagonist's journey in the movie.</p></div><div class=\"faq-item\"><h4>How does The Theri Theme fit into the plot of Vedalam?</h4><p>This theme plays during pivotal moments, enhancing the emotional and action-packed sequences of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Anirudh</strong> and composed by <strong>Anirudh</strong> himself, showcasing his dual talent.</p></div><div class=\"faq-item\"><h4>When was The Theri Theme released?</h4><p>The song was released on <strong>October 16, 2015</strong>.</p></div></div>",
+    "summary": "The Theri Theme from the movie Vedalam serves as a powerful anthem that captures the essence of heroism and resilience. It plays a crucial role in the film, amplifying the emotional stakes and energizing the audience. With Anirudh's dynamic composition and Siva's impactful lyrics, the song evokes feelings of motivation and excitement. This theme not only enhances the cinematic experience but also stands out as a memorable piece of music in Tamil cinema.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>The Theri Theme</strong> from <em>Vedalam</em> is an electrifying composition that showcases Anirudh's mastery in creating high-energy tracks. With powerful lyrics by Siva, this theme resonates with the spirit of the film, making it a perfect anthem for fans. Experience the adrenaline rush as the beats and melodies come together to elevate your mood!",
+    "stanzaMeanings": [
+      "The Theri Theme Singer: Anirudh Lyrics: Siva",
+      "Theri Theri Theri Theri",
+      "The angry elephant is roaring loudly.",
+      "Theri Theri Theri Theri",
+      "The angry elephant is roaring loudly.",
+      "Theri tha tha tha THERI"
+    ]
+  }
 }

@@ -78,5 +78,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgFFlYoQNr47D32XdfC_vJ04YWVYe4y_ikIyoxtyoZHBRPwXw6PBX_3HMXl22hDKiV1yuT1_JFmdW7jYhrM1qWAd4hfxoxjjMUbXmV8jNaBX7oNjqmr3VAUpOFwFW76wtu_2FPpczSemA/s400-c/Pesamal+Pesi+Parthen+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:49:41.534Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "devi",
+      "karthik",
+      "na muthukumar",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song",
+      "pesamal pesi parthen"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Devi</em>, the song reflects the protagonist's feelings towards their beloved, highlighting the emotional turmoil of love.</p></div><div class=\"faq-item\"><h4>Who is the singer and lyricist of the song?</h4><p>The song is sung by <strong>Karthik</strong> and the lyrics are penned by <strong>Na Muthukumar</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>September 27, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Pesamal Pesi Parthen</strong>, the protagonist expresses a deep yearning for their beloved, encapsulating the emotional highs and lows of love. The soothing melody and Karthik's soulful voice create an atmosphere of nostalgia and longing. The lyrics by Na Muthukumar beautifully convey the complexities of romantic feelings, making it a relatable anthem for lovers. This song serves as a poignant reminder of the beauty and pain intertwined in love.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Pesamal Pesi Parthen</strong> from <em>Devi</em> is a heartfelt melody that beautifully captures the essence of love and longing. Sung by the talented Karthik, this song resonates with anyone who has ever experienced the bittersweet nature of romance. With poignant lyrics by Na Muthukumar, it’s a must-listen for those who cherish soulful tunes.",
+    "stanzaMeanings": [
+      "",
+      "I spoke without saying anything, I looked again without seeing, I let flowers bloom in this place, without understanding, I listened to my heart.",
+      "Love is a lonely thing, it told me to come searching for you.",
+      "Oh my love, you want me, please take me a little more.",
+      "I spoke without saying anything, I looked again without seeing.",
+      "All day turns into night, all dreams change into food, I look at the new world in the sky.",
+      "Where have my friends gone? Little puppy, is this how I hear love?",
+      "Before I see you, it's just a glance, after seeing you, it's a wonder.",
+      "Oh my love, you want me, please take me a little more.",
+      "I spoke without saying anything, I looked again without seeing.",
+      "When love comes, sleep goes away, even if it comes, sleep won't leave.",
+      "Looking at you, I speak, but you look at me from somewhere else, a new feeling has begun.",
+      "In your hands, I hold my hands, in this moment, I live.",
+      "Oh my love, you want me, please take me a little more.",
+      "I spoke without saying anything, I looked again without seeing."
+    ]
+  }
 }

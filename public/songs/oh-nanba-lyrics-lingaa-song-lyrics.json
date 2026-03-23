@@ -81,5 +81,53 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIYoOxMERkrrJGpj-o9E4E8vMVVT4-6gYm9wYjuV5f1rYz6_q67yVCg_rbaBEBsrNrMzfJbrkzBbHqDlRUwKHBmBv37CHs8TZ8LMXqeh6pgEEVLUSr4eckDK5iF4zWLNCmCOEPxbwcCV4/s400-c/Lingaa.jpg",
   "generatedAt": "2026-01-18T12:57:06.261Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "lingaa",
+      "oh nanba",
+      "dinesh kanakaratnam",
+      "spb",
+      "vairamuthu",
+      "upbeat",
+      "dance",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oh Nanba'?</h4><p>'Oh Nanba' celebrates friendship and the joy of togetherness, encouraging listeners to embrace life with enthusiasm.</p></div><div class=\"faq-item\"><h4>How does 'Oh Nanba' fit into the plot of the movie Lingaa?</h4><p>The song is a lively number that showcases the camaraderie among characters, adding a festive touch to the narrative of <strong>Lingaa</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Oh Nanba'?</h4><p>The song features the talented voices of <strong>Dinesh Kanakaratnam</strong> and the iconic <strong>SPB</strong>.</p></div><div class=\"faq-item\"><h4>What year was 'Oh Nanba' released?</h4><p>'Oh Nanba' was released in <strong>2014</strong>.</p></div></div>",
+    "summary": "'Oh Nanba' is a lively duet that encapsulates the essence of friendship and celebration, making it a perfect fit for festive occasions. The song's upbeat tempo and catchy lyrics evoke feelings of joy and togetherness, inviting listeners to dance along. Set against the backdrop of <em>Lingaa</em>, it enhances the film's vibrant atmosphere and showcases the bond between characters. With the powerful vocals of Dinesh Kanakaratnam and SPB, this track leaves a lasting impression of happiness and camaraderie.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Oh Nanba</strong> from <em>Lingaa</em> is a vibrant celebration of friendship and joy, featuring the enchanting voices of Dinesh Kanakaratnam and the legendary SPB. This upbeat track, infused with catchy rhythms, invites listeners to revel in the spirit of togetherness. Experience the magic of this unique collaboration that perfectly captures the essence of festive moments!",
+    "stanzaMeanings": [
+      "",
+      "Oh friend, come here. Hey friend, let's open the sky.",
+      "If there is desire, friend, it will open the gates of heaven. We will also fulfill our desires, friend.",
+      "The sky is in our hands, and our life is in our hands.",
+      "Oh friend, come here. Hey friend, let's open the sky.",
+      "",
+      "Love is not just for enjoyment... it's not just for fun. Don't go beyond the limit.",
+      "If you know your limits, you won't lose. Don't let your tears fall.",
+      "Take all your wealth with you, friend. Look ahead and listen to what others say. If you don't listen, you will fall behind.",
+      "Oh friend, come here..",
+      "Oh joy, is it happiness? Oh joy, is it a game? Oh joy, is it a dance? Oh joy, is it a celebration? Oh joy, is it a surprise?",
+      "Happiness in the world is natural. Pain is also natural. Don't sleep with your head in the thorns.",
+      "After giving three joys, you should not close your eyes, my dear.",
+      "Live with a clear heart. Happiness will grow. Everyone will give you love. The world will become yours.",
+      "Oh friend, come here. Hey friend, let's open the sky.",
+      "If there is desire, friend, it will open the gates of heaven. We will also fulfill our desires, friend.",
+      "The sky is in our hands, and our life is in our hands."
+    ]
+  }
 }

@@ -63,5 +63,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:14.665Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy",
+      "peppy"
+    ],
+    "songType": [
+      "dance number",
+      "solo"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "seema raja",
+      "d imman",
+      "yugabharathi",
+      "energetic",
+      "dance number",
+      "2018",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Varum Aana Varaathu</strong> conveys a lively and carefree attitude, celebrating the joy of living in the moment.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Seema Raja</em>?</h4><p>This song highlights the festive and energetic moments in the film, showcasing the protagonist's vibrant personality.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung and composed by <strong>D Imman</strong>, a well-known figure in Tamil music.</p></div><div class=\"faq-item\"><h4>When was <strong>Varum Aana Varaathu</strong> released?</h4><p>The song was released on <strong>September 12, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Varum Aana Varaathu</strong>, the protagonist expresses a carefree and joyous spirit, reflecting the vibrant atmosphere of <em>Seema Raja</em>. The song's upbeat tempo and catchy lyrics evoke feelings of happiness and celebration, making it perfect for festive occasions. It captures the essence of youthful exuberance and the thrill of living life to the fullest. Overall, this track serves as a delightful anthem that resonates with audiences seeking joy and energy.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Varum Aana Varaathu</strong> from <em>Seema Raja</em> is a vibrant celebration of life and joy, perfectly encapsulating the upbeat spirit of the film. With D Imman's infectious energy and catchy beats, this song is sure to get you on your feet. Experience the lively essence of Tamil cinema through this delightful track that resonates with every party vibe!",
+    "stanzaMeanings": [
+      "Here is the song 'Varum Aana Varaathu' from the movie Seema Raja. The song is composed and sung by D. Imman, with lyrics written by Yugabharathi. The lyrics talk about various themes and emotions.",
+      "In the playful mood, beauty is being compared to a flower, and the pain of love is expressed. The singer feels a rush of love like a train, and the girl is described as a queen.",
+      "Girls are running around playfully, and there is a lively atmosphere.",
+      "Girls are of different types, and when one smiles, it brings rain to the heart.",
+      "The beauty of a person is compared to a lovely statue, and the heart feels like a green parrot. But it won't come easily.",
+      "Thinking about her makes me feel weak and lost. I am moving around in a confused state.",
+      "The dance is lively, and the sweet treat is being enjoyed.",
+      "If they play around, it will be fun, and there are many tricks to enjoy.",
+      "When I see her, love touches me. It feels like love is coming.",
+      "In the playful mood, beauty is being compared to a flower, and the pain of love is expressed.",
+      "Beauty is being compared to a flower, and the girl is described as playful.",
+      "The girl is beautiful, and she is making the atmosphere lively.",
+      "The love inside me flows like a train, and she is like a queen.",
+      "She is like a rose, and I want to touch her hand.",
+      "Love is coming, but it won't come easily.",
+      "",
+      ""
+    ]
+  }
 }

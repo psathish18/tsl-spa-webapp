@@ -48,5 +48,60 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:45.125Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "thiruda thiruda",
+      "a.r.rahman",
+      "anupama",
+      "suresh peters",
+      "1993",
+      "romantic",
+      "melody",
+      "classic",
+      "soothing",
+      "old tamil songs",
+      "konjam nilavu",
+      "chandhralekha"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Konjam Nilavu Chandhralekha</strong>?</h4><p>The song explores themes of romance and desire, blending soothing melodies with poetic lyrics.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Thiruda Thiruda</em>?</h4><p>The music for <em>Thiruda Thiruda</em> was composed by <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Thiruda Thiruda</em>?</h4><p>The movie <em>Thiruda Thiruda</em> was released in <strong>1993</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Konjam Nilavu Chandhralekha</strong>?</h4><p>The song is sung by <strong>Anupama</strong> and <strong>Suresh Peters</strong>.</p></div></div>",
+    "summary": "<strong>Konjam Nilavu Chandhralekha</strong> is a captivating song from the movie <em>Thiruda Thiruda</em>, composed by A.R. Rahman. The song beautifully intertwines elements of romance and mystery, creating a soothing yet intriguing atmosphere. The lyrics convey a sense of longing and desire, enhanced by the soulful voices of Anupama and Suresh Peters. This classic melody evokes emotions of love and introspection, making it perfect for relaxation and night drives.",
+    "releaseYear": "1993",
+    "high_ctr_intro": "<strong>Konjam Nilavu Chandhralekha</strong> from the movie <em>Thiruda Thiruda</em> is a mesmerizing blend of romance and mystery. Composed by the legendary A.R. Rahman, this song beautifully captures the essence of longing and desire. The unique combination of Anupama and Suresh Peters' vocals adds an enchanting layer to this classic melody.",
+    "stanzaMeanings": [
+      "",
+      "A little moonlight, a little fire, when combined, is like my body.",
+      "A little poison, a little nectar, when combined, is like my eyes.",
+      "A little animal, a little god, when combined, is like my heart.",
+      "Chandralekha aaahh... Chandralekha aaahh... Chandralekha aaahh... Chandralekha aaahh...",
+      "A little moonlight, a little fire, when combined, is like my body.",
+      "In my dream, someone appears as light in my night, falls like rain from the sky, and stays until I wake up.",
+      "She gave me her lips, it's magical. Now, the waves in the sea never stop.",
+      "The question of why I was born on this earth doesn't come. If you are here, there is no defeat.",
+      "Girl, if your feet touch the ground, it's not just soil. On your white body, sweat is not just salt.",
+      "For the red flower, having a thorn is not a flaw. Even with a thorn, it doesn't affect the gold.",
+      "A little moonlight, a little fire, when combined, is like my body.",
+      "A little poison, a little nectar, when combined, is like my eyes.",
+      "A little animal, a little god, when combined, is like my heart.",
+      "Chandralekha aaahh... Chandralekha aaahh... Chandralekha aaahh... Chandralekha aaahh...",
+      "Girl, with your eyes, the crescent moon will rise. The fish in the sky will dance.",
+      "A little moonlight, a little fire, when combined, is like my body.",
+      "A little poison, a little nectar, when combined, is like my eyes.",
+      "A little animal, a little god, when combined, is like my heart.",
+      "Chandralekha aaahh... Chandralekha aaahh... Chandralekha aaahh... Chandralekha aaahh..."
+    ]
+  }
 }

@@ -96,5 +96,63 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhumfiWML2BkmAzLF4w8DWERCy95oGBXKLjNyiV8GOqzXRAyRKUMQ751OgAmZSprf1V5HzUiN4pobq-C43x5nlw2Shju3fhWYonr9z-ycQBypIi48MZrYx4h3OYOPzs1vFYP_j-mKmyb7o/s400-c/Manithan+Song+Lyrics.jpg",
   "generatedAt": "2026-02-01T14:29:11.594Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "manithan",
+      "aval",
+      "pradeep",
+      "priya himesh",
+      "vivek",
+      "santhosh narayanan",
+      "romantic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Aval'?</h4><p>'Aval' expresses deep emotions of love and longing, portraying the beauty and complexities of a romantic relationship.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie 'Manithan'?</h4><p>The song plays a pivotal role in showcasing the romantic moments between the lead characters, enhancing the emotional depth of the film.</p></div><div class=\"faq-item\"><h4>Who are the singers of 'Aval'?</h4><p>The song features the talented voices of <strong>Pradeep</strong> and <strong>Priya Himesh</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for 'Aval'?</h4><p>The music for 'Aval' was composed by <strong>Santhosh Narayanan</strong>, known for his innovative soundscapes.</p></div><div class=\"faq-item\"><h4>When was 'Aval' released?</h4><p>'Aval' was released on <strong>April 8, 2016</strong>.</p></div></div>",
+    "summary": "The song 'Aval' from the movie *Manithan* beautifully encapsulates the feelings of love and longing. It features a duet by Pradeep and Priya Himesh, whose voices blend harmoniously to convey deep emotions. The lyrics by Vivek add a poetic touch, enhancing the romantic theme of the song. Overall, 'Aval' evokes a sense of nostalgia and warmth, making it a perfect choice for romantic occasions.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Aval</strong> from <em>Manithan</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the soulful voices of Pradeep and Priya Himesh, complemented by Santhosh Narayanan's enchanting composition, this song is sure to resonate with anyone who has experienced the magic of romance. Dive into the lyrical depth crafted by Vivek, and let the emotions sweep you away.",
+    "stanzaMeanings": [
+      "",
+      "When she calls, it makes me feel alive, and when she touches me, it brings me to life.",
+      "She fills the air with rain, and if it rains, it shows me the way, and it spins me around.",
+      "She is beautiful, like a divine presence, giving life and form.",
+      "She is sweet and gentle, her eyes are full of knowledge.",
+      "You are mine, will you come to me...?",
+      "If I know and do something, will it not be forgiven?",
+      "What if I suddenly lose my way, is that right?",
+      "From now on, I and my life are alone!!",
+      "My happiness, my face, where have you gone?",
+      "My fortune, my essence, where have you disappeared?",
+      "Time is passing, the clock is ticking, when will it change you?",
+      "If I argue, will I be caught? I am the one who is wrong.",
+      "With my eyes, I will change a little bit of your gaze.",
+      "Don't let your heart wander, I will hold your hand tightly.",
+      "My happiness, my face, where have you gone?",
+      "My fortune, my essence, where have you disappeared?",
+      "She is beautiful, like a divine presence, giving life and form.",
+      "She is sweet and gentle, her eyes are full of knowledge.",
+      "What if I suddenly lose my way, is that right?",
+      "From now on, I and my life are alone!!",
+      "My happiness, my face, where have you gone?",
+      "My fortune, my essence, where have you disappeared?",
+      "",
+      ""
+    ]
+  }
 }

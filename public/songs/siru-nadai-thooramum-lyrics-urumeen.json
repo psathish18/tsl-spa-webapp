@@ -36,5 +36,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ1gE-JTAiddNafdLoI8-GPGa2LINQD3yuhIApVBaPIhAReUxCAenf1kZf0Hah49d2O9wmUUUqEstdWRBDORNcu4l73sTjoUiAzeve6gCH4GuZ3TVQNhHkZ1mTC3A7TeScmQm1k9NE6g/s400-c/Siru+Nadai+Lyrics.JPG",
   "generatedAt": "2026-01-18T12:53:17.992Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "urumeen",
+      "karthik",
+      "kavin",
+      "achu rajamani",
+      "romantic",
+      "melancholic",
+      "2015",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of longing and love, highlighting the emotional distance between lovers.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of the movie?</h4><p>In <em>Urumeen</em>, the song reflects the protagonist's emotional struggles and yearning for connection.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Achu Rajamani</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Siru Nadai Thooramum</strong> was released on December 4, 2015.</p></div></div>",
+    "summary": "In <strong>Siru Nadai Thooramum</strong>, the protagonist navigates the complexities of love and separation, beautifully portrayed through Karthik's emotive vocals. The song's lyrics, penned by Kavin, evoke a sense of nostalgia and longing, making it relatable to anyone who has faced heartache. The soothing melody composed by Achu Rajamani enhances the emotional depth, creating a captivating listening experience. This track stands out as a poignant reflection of love's trials within the narrative of <em>Urumeen</em>.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Siru Nadai Thooramum</strong> from <em>Urumeen</em> is a beautifully crafted melody that captures the essence of longing and love. With Karthik's soulful voice and Kavin's poignant lyrics, this song resonates deeply with anyone who has experienced the bittersweet nature of relationships. The collaboration with Achu Rajamani's enchanting music makes it a must-listen for fans of Tamil cinema.",
+    "stanzaMeanings": [
+      "",
+      "I have come to you from a distance, waiting to see your beautiful gaze.",
+      "You are so beautiful, my love, what will I do without you?",
+      "Oh, how far I have come alone, why this silence, my dear?",
+      "With your hand in mine, I need you as my support.",
+      "In a moment, my love, I have crossed this distance, I have placed my life in your connection.",
+      "How will I say that I belong to you? I will find you, my love.",
+      "Oh, how far I have come alone, why this silence, my dear?",
+      "With your hand in mine, I need you as my support."
+    ]
+  }
 }

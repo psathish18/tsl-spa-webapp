@@ -60,5 +60,45 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPSq4ldTuJOrU4AjN1ef6XFfKGtc245IbskCsO0DfkyxjOSg_K2RwLM9QZPN4DRCU5mS5AqhgF_zMPqt-3257ImKFKv7QBshQr8L88pkMkH68oQoYDoEBV_LUMJ52EaqX5TFEhe9nWRrE/s400-c/vithagan_audio_launch_1602.jpg",
   "generatedAt": "2026-01-18T13:09:08.713Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "heartbreak"
+    ],
+    "keywords": [
+      "vithagan",
+      "chinmayi",
+      "parthiban",
+      "joshua sridhar",
+      "romantic",
+      "melody",
+      "2011",
+      "tamil song",
+      "lyrics",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadalirandu Thuliyirandaai</strong>?</h4><p>The song explores themes of love and longing, capturing the emotional depth of romantic relationships.</p></div><div class=\"faq-item\"><h4>Who is the singer of the song?</h4><p><strong>Chinmayi</strong> is the talented singer who lends her voice to this beautiful melody.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Vithagan</em>?</h4><p>The music for the movie was composed by <strong>Joshua Sridhar</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of the movie <em>Vithagan</em>?</h4><p>The movie was released in the year <strong>2011</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie?</h4><p>The song adds emotional depth to the movie, highlighting the romantic and introspective moments between the characters.</p></div></div>",
+    "summary": "The song <strong>Kadalirandu Thuliyirandaai</strong> from <em>Vithagan</em> is a romantic melody that beautifully captures the essence of love and longing. Sung by Chinmayi, the song's soothing tune and heartfelt lyrics by Parthiban evoke a sense of melancholy and introspection. Joshua Sridhar's music complements the emotional depth, making it a memorable piece in the film. The song reflects the inner emotions of the characters, adding a layer of emotional complexity to the narrative.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "Experience the soulful melody of <strong>Kadalirandu Thuliyirandaai</strong> from the movie <em>Vithagan</em>. Chinmayi's enchanting voice combined with Joshua Sridhar's soothing music creates a romantic and melancholic atmosphere. Dive into the lyrical beauty crafted by Parthiban that captures the essence of love and longing.",
+    "stanzaMeanings": [
+      "",
+      "You became two drops in the ocean, in my eyes. Is it because our bodies separated that it hurts? Feeling your presence is love. I live as your hidden soul.",
+      "Within the hidden, the mind blooms like a flower with joy. In a moment, we crossed years quickly.",
+      "In the strength of spreading wings, you made it happen quickly and permanently. In your eyes, I found salvation completely.",
+      "You became two drops in the ocean, in my eyes. Is it because our bodies separated that it hurts? Feeling your presence is love. I live as your hidden soul."
+    ]
+  }
 }

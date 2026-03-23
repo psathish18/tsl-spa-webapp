@@ -84,5 +84,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcwyWm0PhKo9w0dGmPdQkrHZBQn1bg87YrqTpLsTjUFZ4NKHz4t8wLRVmyZ0HkV_U7INYh6Eif1Ey-m8JrzOHq4FBKKzHvMHsqNEiJoe4mxydC-28Cq2qgo2yiN8q2Q7NgsqY6Ao201Pk/s400-c/vpvs.jpg",
   "generatedAt": "2026-01-18T13:03:25.256Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "peppy",
+      "energetic"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration"
+    ],
+    "keywords": [
+      "varuthapadatha valibar sangam",
+      "indha ponnugale",
+      "jayamoorthy",
+      "yugabharathi",
+      "d imman",
+      "2013",
+      "happy",
+      "peppy",
+      "tamil song",
+      "movie song",
+      "dance number"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Indha Ponnugale</strong>?</h4><p>The song celebrates youthful energy and the playful nature of young love.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Varuthapadatha Valibar Sangam</em>?</h4><p>The music was composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>What role does the song play in the movie?</h4><p>It adds a lively and entertaining element, reflecting the carefree spirit of the characters.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Indha Ponnugale</strong>?</h4><p>The lyrics were penned by <strong>Yugabharathi</strong>.</p></div><div class=\"faq-item\"><h4>When was <em>Varuthapadatha Valibar Sangam</em> released?</h4><p>The movie was released in <strong>2013</strong>.</p></div></div>",
+    "summary": "<strong>Indha Ponnugale</strong> is a lively and energetic song from the movie <em>Varuthapadatha Valibar Sangam</em>, capturing the playful and carefree spirit of youth. Sung by Jayamoorthy, the song is composed by D Imman with lyrics by Yugabharathi. It is set in a context of celebration and fun, reflecting the joyous moments of the characters. The song's upbeat tempo and catchy lyrics make it a favorite for parties and festive occasions, evoking feelings of happiness and excitement.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Indha Ponnugale</strong> from the movie <em>Varuthapadatha Valibar Sangam</em> is a vibrant and energetic track that captures the essence of youthful exuberance. With D Imman's catchy composition and Jayamoorthy's lively vocals, this song is a celebration of fun and joy. The collaboration with lyricist Yugabharathi adds a playful charm, making it a must-listen for party enthusiasts.",
+    "stanzaMeanings": [
+      "These girls have understood it like this. Their eyes have recognized our color.",
+      "They make us run around and act crazy. They promise things that don't exist and make us dream.",
+      "These girls have understood it like this. Their eyes have recognized our color.",
+      "We buy them earrings, write poems for them, buy them phones, and even recharge them.",
+      "We even give them love in portions, and we buy their household rations.",
+      "They take everything we give and then cause us pain. Tell me, is there any justice or honesty in this?",
+      "These girls have understood it like this. Their eyes have recognized our color.",
+      "We forget the house entrance, forget shame and anger, forget to sleep well, and even forget our friends.",
+      "We even forget to wake up at four in the morning, but we remember everything about them.",
+      "They remember everything we forget, and they forget everything in their own way. Tell me, how can I forget my sorrow?",
+      ""
+    ]
+  }
 }

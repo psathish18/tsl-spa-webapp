@@ -36,5 +36,48 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:19:22.037Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "malarae mounamaa",
+      "karnaa",
+      "s. p. balasubrahmanyam",
+      "s. janaki",
+      "vidyasagar",
+      "romantic",
+      "1995",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep emotions of love and longing, reflecting the beauty of romantic relationships.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>The song is from the movie <em>Karna</em>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the legendary voices of <strong>S. P. Balasubrahmanyam</strong> and <strong>S. Janaki</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Malarae Mounamaa</strong> was composed by <strong>Vidyasagar</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This beautiful song was released on April 14, 1995.</p></div></div>",
+    "summary": "In the movie <em>Karna</em>, <strong>Malarae Mounamaa</strong> serves as a poignant expression of love and emotional connection between the characters. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and longing, making it a perfect fit for romantic moments. It captures the essence of yearning and the beauty of unspoken feelings, resonating deeply with listeners. The collaboration of S. P. Balasubrahmanyam and S. Janaki adds a timeless quality that enhances its emotional impact.",
+    "releaseYear": "1995",
+    "high_ctr_intro": "<strong>Malarae Mounamaa</strong> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of <strong>S. P. Balasubrahmanyam</strong> and <strong>S. Janaki</strong>, this song is a timeless classic that resonates with the heart. The soothing melodies crafted by <em>Vidyasagar</em> elevate the emotional depth, making it a must-listen for any romantic occasion.",
+    "stanzaMeanings": [
+      "Oh flower, are you silent? Do flowers speak? If they do, will they cry out love?",
+      "Oh flower, are you silent? Do flowers speak? If they do, will they cry out?",
+      "Half of my life has come with a body, and when I see you, my life comes alive.",
+      "Is there some happiness inside? Why does the heart not settle?",
+      "When fingers touch, will the feast be given? Will the eyes close with the touch?",
+      "Oh flower, are you silent? Do flowers speak? If they do, will they cry out?",
+      "Having seen the dream, my eyes closed and I lay down, like the wind, my eyes slowly opened.",
+      "Wind, do not leave me, oh flower, do not push me away.",
+      "Oh dear one, you are the life of my life, you have given me a new life."
+    ]
+  }
 }

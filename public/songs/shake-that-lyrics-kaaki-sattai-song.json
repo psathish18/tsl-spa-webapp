@@ -94,5 +94,44 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTEV4t52F0k0Ia9EKAuQYjAnDZrGBVQ4Ld9mosVouNYI8WSqV6THJf6d5463W8GytPuMIq_2v9MWe8l1OiD3P1tHC2jQo5GUHh_tLNYs9Pp9CaIxr7Drbwmv2hyTi8D9YvxlHO44Q8GFI/s400-c/maxresdefault.jpg",
   "generatedAt": "2026-02-01T13:17:37.879Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "upbeat",
+      "peppy"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "workout"
+    ],
+    "keywords": [
+      "kaaki sattai",
+      "shake that",
+      "anirudh",
+      "energetic",
+      "dance number",
+      "2015",
+      "tamil music",
+      "upbeat"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a lively and energetic vibe, encouraging listeners to enjoy and celebrate life.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Kaaki Sattai</em>, the song is featured during a lively sequence that showcases celebration and dance.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung by Anirudh, who is also the music director for <em>Kaaki Sattai</em>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Shake That</strong> was released on January 3, 2015.</p></div></div>",
+    "summary": "In <strong>Shake That</strong>, the vibrant energy of the song reflects the celebratory spirit of <em>Kaaki Sattai</em>. The lyrics encourage listeners to let loose and enjoy the moment, making it a perfect fit for party scenes in the film. With Anirudh's catchy composition, the song evokes feelings of joy and excitement. It's a dance number that resonates with anyone looking to uplift their mood and celebrate life.",
+    "releaseYear": "2015",
+    "high_ctr_intro": "<strong>Shake That</strong> from <em>Kaaki Sattai</em> is a vibrant anthem that perfectly captures the essence of celebration and energy. With Anirudh's infectious beats, this track is sure to get everyone on their feet. Experience the electrifying vibe that makes this song a must-listen for any party playlist!",
+    "stanzaMeanings": [
+      "",
+      "Will this struggle end? When this fight is over, all obstacles will be easily removed.",
+      "False truths shouldn't be spoken, and bad words shouldn't be said. We shouldn't seek out falsehoods or be afraid of the truth.",
+      "Still, nothing can be hidden. It's always good to stay awake and not let anything go unnoticed or ignored.",
+      "Bring it down now, shake that. In my heart, it's pure. Shake that. All my friends, shake that. This is the sound of victory.",
+      "Shake that. In my heart, it's pure. Shake that. All my friends, shake that. This is the sound of victory.",
+      "Turn it up like this, shake that, shake that, shake that. This is the sound of victory."
+    ]
+  }
 }

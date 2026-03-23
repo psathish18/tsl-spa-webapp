@@ -36,5 +36,49 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnyqAc0vBnM1HG-zPOwi-XQ9_4-jAOITCjroxJh7Xa7E3QXUlyLP0VbumjJqTAYHL2MoWWNk20rQi0UKlTIl374ldbxOOE6ZGc0XPocswzM2S_LhWBh_omxjg8VYzVbn6pg2YOE5g5VQ/s400-c/Kannurangu+Lyrics+Tamil+Album+Song+By+SathyaPrakash+%281%29.jpeg",
   "generatedAt": "2026-01-18T12:43:39.750Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "devotional",
+      "soothing",
+      "melancholic"
+    ],
+    "songType": [
+      "lullaby",
+      "melody",
+      "devotional"
+    ],
+    "occasions": [
+      "relaxation",
+      "morning",
+      "night drive"
+    ],
+    "keywords": [
+      "kannurangu",
+      "sathyaprakash",
+      "siddharth",
+      "aashik sridhar",
+      "devotional",
+      "lullaby",
+      "melody",
+      "2018",
+      "tamil album"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannurangu</strong>?</h4><p>The song <strong>Kannurangu</strong> is a devotional and soothing lullaby that evokes a sense of peace and reflection.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kannurangu</strong>?</h4><p>The song is beautifully sung by <strong>Sathya Prakash</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Kannurangu</strong>?</h4><p>The music for <strong>Kannurangu</strong> was composed by <strong>Aashik Sridhar</strong>.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for <strong>Kannurangu</strong>?</h4><p>The lyrics were penned by <strong>Siddharth</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Kannurangu</strong> released?</h4><p>The song was released on August 18, 2018.</p></div></div>",
+    "summary": "The song <strong>Kannurangu</strong> is a soothing and devotional lullaby that conveys a deep sense of peace and maternal love. Sung by Sathya Prakash, the lyrics by Siddharth beautifully express themes of sacrifice and tranquility. Aashik Sridhar's composition enhances the emotional depth, making it a perfect track for relaxation and reflection. The song's gentle melody and heartfelt words create a calming atmosphere, ideal for moments of introspection.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the soothing embrace of <strong>Kannurangu</strong>, a heartfelt melody by <em>Sathya Prakash</em> that captures the essence of devotion and tranquility. With Siddharth's poignant lyrics and Aashik Sridhar's soulful composition, this song is a serene lullaby that resonates with deep emotions. Let the calming notes of this track guide you to a place of peace and reflection.",
+    "stanzaMeanings": [
+      "A thousand words come to mind, mother, sacrifice is the only word, mother.",
+      "I will buy and place a sandalwood garland. I am the fading cloud, you followed me, you are my life, you make me sleep.",
+      "Lullaby, lullaby, my mother, you sleep. The earth is yours, your son is here, you sleep.",
+      "",
+      "",
+      "Even in darkness, I lived because of you. You changed and began to live differently.",
+      "The god I carried in my womb, you and I wished for a life here.",
+      "You became a selfless person, I am the fading cloud, you followed me, you are my life, you make me sleep.",
+      "Lullaby, lullaby, my mother, you sleep. The earth is yours, your son is here, you sleep.",
+      ""
+    ]
+  }
 }

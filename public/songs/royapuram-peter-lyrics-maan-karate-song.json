@@ -90,5 +90,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnXpOfYEUas1b5aJ_OIGdtWbPnwwBvGXDlNyRqdbBvAnaRfN8TtjqGsGo2D-l-HgBWBU78RsWo0ufEZL7mITtNjziT-_FWzLAKEWMBoIWVAZ4j4GqR-HrppbSX7ndlFzfyyhehwDtIv4/s400-c/maan-karate.jpg",
   "generatedAt": "2026-01-18T13:00:00.448Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "energetic",
+      "happy",
+      "peppy"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday",
+      "festivals"
+    ],
+    "keywords": [
+      "maan karate",
+      "royapuram peter",
+      "siva karthikeyan",
+      "paravai muniyamma",
+      "anirudh",
+      "rd raja",
+      "energetic",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Royapuram Peter'?</h4><p>The song 'Royapuram Peter' celebrates the lively spirit of the protagonist, showcasing his confidence and charm in a fun and energetic manner.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of 'Maan Karate'?</h4><p>This song highlights the carefree and adventurous nature of the main character, reflecting the film's overall theme of youth and ambition.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of this song?</h4><p>The song features vocals by <strong>Paravai Muniyamma</strong> and <strong>Siva Karthikeyan</strong>, with music composed by <strong>Anirudh</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Royapuram Peter' released?</h4><p>'Royapuram Peter' was released on <strong>March 16, 2014</strong>.</p></div></div>",
+    "summary": "In 'Royapuram Peter', the vibrant energy of the song encapsulates the carefree spirit of youth, making it a perfect anthem for celebrations. The lively beats and catchy lyrics evoke feelings of joy and excitement, encouraging listeners to let loose and enjoy life. This song serves as a backdrop to key moments in <em>Maan Karate</em>, emphasizing the protagonist's adventurous journey. With its infectious rhythm, it resonates with anyone looking to celebrate special occasions.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Royapuram Peter</strong> from <em>Maan Karate</em> is a vibrant celebration of life and energy, featuring the unique collaboration of Paravai Muniyamma and Siva Karthikeyan. With Anirudh's infectious beats, this song is sure to get everyone on their feet. Dive into the lively world of this track that perfectly captures the essence of youthful exuberance!",
+    "stanzaMeanings": [
+      "",
+      "This Royapuram Peter is all about rounds and matters (hey sound).",
+      "In this house, we don't know how to fight.",
+      "Come on, come on, come on.",
+      "I say I'm not from your house, I'm from my house. We all are the cool kids of Chennai.",
+      "Eating good food all the time, roaming around like a lion.",
+      "Among friends, I am the one who stands out with style.",
+      "Here and there, Peter is everywhere, everywhere, everywhere.",
+      "In this one place, two mangoes are going to be hit, Peter has bought a bulb and has become a joker.",
+      "No need for school, no need for college, just learning is enough for life.",
+      "No need for work, no need for money, just friendship is enough, only listening to dance songs is enough.",
+      "No need for rum, no need for money, just love is enough for one girl.",
+      "I say I'm not from your house, I'm from my house. We all are the cool kids of Chennai.",
+      "Eating good food all the time, roaming around like a lion.",
+      "Among friends, I am the one who stands out with style.",
+      "I am indeed Royapuram Peter."
+    ]
+  }
 }

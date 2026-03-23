@@ -17,7 +17,7 @@
 **Check These Immediately After Deployment:**
 
 1. **Website Functionality**
-   - Visit: https://www.tsonglyrics.com
+   - Visit: https://tsonglyrics.com
    - Check homepage loads
    - Click on a song, verify it opens
    - Verify fonts look good (system fonts)

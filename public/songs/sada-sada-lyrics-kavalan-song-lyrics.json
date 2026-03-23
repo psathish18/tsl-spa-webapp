@@ -62,5 +62,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:33.865Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "kaavalan",
+      "sada sada",
+      "karthik",
+      "yugabharathi",
+      "vidyasagar",
+      "romantic",
+      "happy",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Sada Sada'?</h4><p>'Sada Sada' conveys feelings of love and joy, expressing the excitement and nervousness that come with romance.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie 'Kaavalan'?</h4><p>In <strong>Kaavalan</strong>, the song illustrates the protagonist's feelings towards his love interest, showcasing their budding romance.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of 'Sada Sada'?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Vidyasagar</strong>, known for their remarkable collaboration in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was 'Sada Sada' released?</h4><p>'Sada Sada' was released on <strong>December 11, 2010</strong>, as part of the movie <strong>Kaavalan</strong>.</p></div></div>",
+    "summary": "In <strong>Sada Sada</strong>, the protagonist expresses his feelings of love and excitement, perfectly encapsulating the emotions of romance. The song's upbeat tempo and joyful lyrics create a vibrant atmosphere, making it a favorite among listeners. Set against the backdrop of <em>Kaavalan</em>, it highlights the playful and tender moments between the lead characters. The combination of Karthik's melodious voice and Vidyasagar's engaging composition evokes a sense of happiness and warmth.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Sada Sada</strong> from <em>Kaavalan</em> is a delightful melody that captures the essence of romance and joy. With Karthik's enchanting vocals and Vidyasagar's captivating composition, this song is sure to uplift your spirits. Experience the magic of love through this beautifully crafted piece that resonates with every listener.",
+    "stanzaMeanings": [
+      "",
+      "Always, always, a little rain, a little sunshine, my heart beats a bit faster, a little happiness, a little fear.",
+      "Always, always, a little rain, a little sunshine, my heart beats a bit faster, a little happiness, a little fear.",
+      "She will come at the right time... Will not let go... When I see her, she smiles like milk... Will give me what I ask... Will not refuse... Will slowly make love...",
+      "Always, always, a little rain... a little fear...",
+      "Without a guide, my heart thinks of you, everywhere I go, I feel the rhythm.",
+      "Without words, Tamil phrases leave me behind, hitting me hard in the process.",
+      "In the street, what a beautiful sound... In your thoughts, even the shadow shines bright.",
+      "In my voice, I have a home, your memories hit me hard...",
+      "Always, always, a little rain... a little fear...",
+      "The river flows gently, carrying me to the shore.",
+      "A little child is resting on a step, waiting for a dream to come true.",
+      "You are in front of me, you must come in my dreams, you will come in reality, your face is in my dreams.",
+      "The thorns that grow beautifully will make me see you, oh, how lovely...",
+      "Always, always, a little rain... a little fear...",
+      "She will come at the right time... Will not let go... When I see her, she smiles like milk... Will give me what I ask... Will not refuse... Will slowly make love..."
+    ]
+  }
 }

@@ -81,5 +81,54 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:43:30.193Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "motivational",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "celebration",
+      "workout",
+      "party"
+    ],
+    "keywords": [
+      "kanaa",
+      "sid sriram",
+      "niranjana ramanan",
+      "mohan rajan",
+      "dhibu ninan",
+      "motivational",
+      "energetic",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys themes of motivation and the pursuit of dreams, encouraging listeners to overcome obstacles.</p></div><div class=\"faq-item\"><h4>How does this song fit into the plot of <em>Kanaa</em>?</h4><p>In <em>Kanaa</em>, the song reflects the protagonist's journey and determination to achieve her goals in sports.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Sid Sriram</strong> and <strong>Niranjana Ramanan</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Unnai Vittal Unnai Vella</strong> was composed by <strong>Dhibu Ninan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>August 24, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Unnai Vittal Unnai Vella</strong>, the characters express their aspirations and the importance of perseverance in the face of challenges. The song serves as a motivational anthem, encouraging listeners to chase their dreams with unwavering determination. Its upbeat melody and inspiring lyrics evoke feelings of joy and hope. This track beautifully encapsulates the essence of the film <em>Kanaa</em>, making it a memorable addition to the soundtrack.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Unnai Vittal Unnai Vella</strong> from <em>Kanaa</em> is a vibrant anthem that perfectly captures the spirit of determination and hope. Featuring the soulful voices of Sid Sriram and Niranjana Ramanan, this song is a celebration of dreams and aspirations. With Dhibu Ninan's captivating composition, it's a must-listen for anyone looking to uplift their mood!",
+    "stanzaMeanings": [
+      "",
+      "If you leave, no one else will succeed in this world, so come today. Abdul Kalam said that one must see a dream and strive for it, so come with that truth.",
+      "To achieve, a good dream is needed. To search, one must have a purpose. Questions will become answers, and needs will be fulfilled.",
+      "In challenges, one must work hard; in victories, one must stand strong. Come, come, there are no limits for you.",
+      "You should be there as yourself. Burn bright like fire. I will run away from fear today.",
+      "",
+      "Come, come, come, let it be. (3) Come, let it be.",
+      "dream...",
+      "When the eyes that have closed open, they should not remain closed. They should look far and not stay without support, that is the dream.",
+      "Until the end, it should not fade away. If you say it, it will happen, and it will be fulfilled when the time comes.",
+      "Here, I will do for you, I will search for you within you, I will make you shine like a diamond, my dear.",
+      "Is it enough to change here? Is it enough to change you? You tell me, will everything change in your dreams and actions?",
+      "You, you, you are the tears. Don't let your brightness fade away. The past will become a barrier... wear it...",
+      "If you leave, no one else will succeed in this world, so come today. Abdul Kalam said that one must see a dream and strive for it, so come with that truth.",
+      "To achieve, a good dream is needed. To search, one must have a purpose. Questions will become answers, and needs will be fulfilled.",
+      "In challenges, one must work hard; in victories, one must stand strong. Come, come, there are no limits for you.",
+      "Come, come, come, let it be. (3) Come, let it be."
+    ]
+  }
 }

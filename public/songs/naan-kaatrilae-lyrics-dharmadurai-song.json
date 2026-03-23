@@ -80,5 +80,52 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhny7gPPYBct25RP2J_faXOQ-faJUO2WoSOiJdw28rqFcqHWvOBvmDO6Bag7En4t5RhejTcDaQ8rhPdWyFZblUFjsU-a_2fSIqmva0siRsL6srti8EDxw8KvHw0gK5j6s2Soh7wKfGWiKk/s400-c/Darmadurai.jpg",
   "generatedAt": "2026-01-18T12:50:29.257Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "relaxation",
+      "heartbreak"
+    ],
+    "keywords": [
+      "dharmadurai",
+      "karthik",
+      "yuvan",
+      "melancholic",
+      "soothing",
+      "2016",
+      "tamil",
+      "song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Naan Kaatrilae</strong> conveys themes of longing and introspection, reflecting the emotional struggles of the characters in <em>Dharmadurai</em>.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>This song captures a pivotal moment in <em>Dharmadurai</em>, highlighting the protagonist's inner turmoil and emotional journey.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Karthik</strong> and composed by <strong>Yuvan Shankar Raja</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Naan Kaatrilae</strong> was released on <strong>August 4, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Naan Kaatrilae</strong>, the protagonist expresses deep feelings of longing and introspection, perfectly encapsulating the emotional essence of <em>Dharmadurai</em>. The soothing melody, paired with Karthik's heartfelt vocals, evokes a sense of melancholy that resonates with listeners. This song serves as a reflection of the character's struggles and aspirations, making it a poignant moment in the film. Overall, it beautifully conveys the complexities of love and life.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Naan Kaatrilae</strong> from <em>Dharmadurai</em> is a beautifully crafted melody that resonates with deep emotions. Karthik's soulful voice combined with Yuvan's enchanting music creates a captivating experience. This song is perfect for those reflective moments, making it a must-listen for any Tamil music lover.",
+    "stanzaMeanings": [
+      "",
+      "I am like a paper that flows in the wind, I am a poem in the hands of God.",
+      "Always, my smile is my strength.",
+      "In life, flowers bloom, and peace is always peace.",
+      "I am like a paper that flows in the wind...",
+      "My birth is there, my knowledge is here.",
+      "I have come here not just for songs but to live life.",
+      "We will open the hidden body and see the truth.",
+      "The heart that hides will not know how to see.",
+      "I am like a paper that flows in the wind, I am a poem in the hands of God.",
+      "Here, there is first love and some third love too.",
+      "Here, the body we have taken is not just a right.",
+      "If you ask what my last wish is, I will tell you.",
+      "In the old age, I will again walk this path.",
+      "I am a human, a healing human, I will support those who are in need, the one who resolves God's mistakes will protect.",
+      "I am a human, a healing human.",
+      ""
+    ]
+  }
 }

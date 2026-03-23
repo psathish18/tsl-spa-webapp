@@ -83,5 +83,41 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn0e1t8ij6pI2kPlSG_dJohWbOXBPfQ-kq-Vhmrgt_OtMxCEgZr8YZOmheSBmD7aB6GktzN7WXQWPZLwppu4a8Riiq2AnUYg2wQsl3cle6rs9RykWchd5CbDd-iBX4RP7LVLaNJ9-jng/s400-c/Pyaar+Prema+Kaadhal+Songs+Lyrics.jpeg",
   "generatedAt": "2026-02-01T14:30:50.611Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "pyaar prema kadhal",
+      "yuvan",
+      "elan",
+      "romantic",
+      "melancholic",
+      "2018",
+      "tamil song",
+      "lyrics"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of longing and love, highlighting the emotional connection between the characters.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Pyaar Prema Kaadhal</em>, the song reflects the protagonist's feelings of missing someone special, adding depth to the romantic narrative.</p></div><div class=\"faq-item\"><h4>Who is the singer and lyricist of the song?</h4><p>The song is sung by <strong>Yuvan</strong> and the lyrics are penned by <strong>Elan</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>July 31, 2018</strong>.</p></div></div>",
+    "summary": "In <strong>Miss You Papa Hey penne</strong>, the protagonist expresses a profound sense of longing for a loved one, beautifully encapsulated through Yuvan's emotive singing. The song serves as a poignant reminder of love's enduring nature, even in absence. It resonates with anyone who has experienced the bittersweet pangs of separation, making it a relatable and heartfelt melody. The lyrical depth and soulful composition elevate the emotional experience, making it a standout track in <em>Pyaar Prema Kaadhal</em>.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Miss You Papa Hey penne</strong> from <em>Pyaar Prema Kaadhal</em> captures the essence of longing and love with Yuvan's soulful voice. The heartfelt lyrics by Elan resonate deeply, making it a perfect anthem for those missing their loved ones. Dive into this emotional journey that beautifully blends melody and sentiment.",
+    "stanzaMeanings": [
+      "Hey girl, you carry my heart with you, even if you are lost, you always stay strong.",
+      "Don't say anything, my dear, I have seen my lover's dreams mixed with yours.",
+      "Love, affection, romance, love, affection, romance.",
+      ""
+    ]
+  }
 }

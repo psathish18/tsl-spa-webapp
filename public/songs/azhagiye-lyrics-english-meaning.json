@@ -117,5 +117,38 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjciD7q8iP1V6zvonJaCl8BgIelAhd3C3cSA212eCY8ImkQ2TllEf9w-1LvsiuPfpz3DS05lnpYOV8fK0ytBHVLxgMtNhcxYmkMUKnofdXXeFc-JmvsMrdBko-BIbcWJYA_7z2C5dAl-OuJ/s400-c/tsllogo-large1.png",
   "generatedAt": "2026-01-18T12:47:20.841Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kaatru veliyidai",
+      "azhagiyem",
+      "romantic",
+      "melancholic",
+      "2017",
+      "tamil song",
+      "lyrics",
+      "music"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Azhagiye?</h4><p>The song <strong>Azhagiye</strong> expresses themes of love and longing, capturing the emotions of waiting and desire.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Kaatru Veliyidai?</h4><p>In <strong>Kaatru Veliyidai</strong>, the song reflects the protagonist's feelings of love and yearning for his partner.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of Azhagiye?</h4><p>The details about the <strong>singer</strong> and <strong>music director</strong> are currently unknown.</p></div><div class=\"faq-item\"><h4>When was Azhagiye released?</h4><p><strong>Azhagiye</strong> was released on February 2, 2017.</p></div></div>",
+    "summary": "The song <strong>Azhagiye</strong> from <em>Kaatru Veliyidai</em> beautifully encapsulates the feelings of love and longing experienced by the protagonist. Its romantic and melancholic tones evoke a sense of yearning, making it a perfect fit for intimate moments. The lyrics convey deep emotions, reflecting the complexities of love and desire. Overall, the song serves as a poignant reminder of the beauty and pain of romantic relationships.",
+    "releaseYear": "2017",
+    "high_ctr_intro": "<strong>Azhagiye</strong> from <em>Kaatru Veliyidai</em> captures the essence of longing and romance with its soulful melody. The song's enchanting lyrics and emotional depth resonate beautifully, making it a perfect backdrop for love stories. Experience the magic of this heartfelt track that speaks to the soul and evokes deep emotions.",
+    "stanzaMeanings": [
+      "Oh ho .. oh ho ... Waiting for your smiling face, just smile. I've lost my heartbeat, you're a thief. I'm a poet, a spoiled poet after seeing you. Should I speak honestly? Or is this enough?"
+    ]
+  }
 }

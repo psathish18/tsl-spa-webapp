@@ -101,5 +101,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQZNTSET8bT8Zv5rWhhyphenhyphentNgQpUjLRK_YJY-_Q-UygUDI2akuTX2nJvReTmipUlDYXhigclrpwBN34n8P9qZZesdaskqa65OBhw-sDAbBFNDvIEq0beg19BSkYh3Vtgc7lOnHoRm-vCeRc/s400-c/Kayal-Movie-First-Look.jpg",
   "generatedAt": "2026-02-01T13:16:44.323Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "kayal",
+      "balram",
+      "yugabharathi",
+      "d imman",
+      "romantic",
+      "melody",
+      "2014",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yenga Pulla Irukka'?</h4><p>The song expresses feelings of longing and affection, capturing the essence of romantic relationships.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie Kayal?</h4><p>In <em>Kayal</em>, the song reflects the protagonist's emotional journey and connection with their love interest.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Balram</strong> and composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Yenga Pulla Irukka' released?</h4><p>The song was released on <strong>November 14, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Yenga Pulla Irukka</strong>, the protagonist expresses a deep sense of longing and affection, beautifully captured through Balram's soulful rendition. The song plays a pivotal role in <em>Kayal</em>, highlighting the emotional nuances of love and connection. With D Imman's melodic composition and Yugabharathi's poignant lyrics, it evokes a nostalgic feeling that resonates with listeners. This heartfelt melody is perfect for romantic occasions, making it a cherished addition to Tamil cinema's musical landscape.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Yenga Pulla Irukka</strong> from <em>Kayal</em> is a soulful melody that captures the essence of longing and romance. With Balram's enchanting vocals and D Imman's captivating composition, this song resonates deeply with anyone who has experienced love. Dive into the heartfelt lyrics penned by Yugabharathi that beautifully express the emotions of yearning and connection.",
+    "stanzaMeanings": [
+      "",
+      "Are you there, my girl? Please tell me. Just stay a little in front of me.",
+      "I am feeling restless and uneasy. I don't know why, oh my.",
+      "You have come to me as something I can't understand, and I have lost it without being able to hold on. You have given me a new breath, and you are the one who has written it like a story.",
+      "Your thoughts have been thrown away like a book. My mind has been spinning around since last night.",
+      "I don't know why, oh my.",
+      "Are you there, my girl? Please tell me. Just stay a little in front of me.",
+      "You have come to me like a blessing, but I received it without understanding. Even now, I can't live without you, and I will search for you even if it takes two lifetimes.",
+      "This person has eyes that seem to have captured you. I feel like you would treat me the same way.",
+      "I don't know why, oh my.",
+      "Are you there, my girl? Please tell me. Just stay a little in front of me.",
+      "I am feeling restless and uneasy. I don't know why, oh my."
+    ]
+  }
 }

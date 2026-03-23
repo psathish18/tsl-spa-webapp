@@ -10,7 +10,7 @@
   "published": "2012-11-25T21:52:00.000+05:30",
   "stanzas": [
     "<div><table><tbody><tr>  <td><br />Singer: Gana Bala<br />Song: Thannai Thaane<br />Movie: Paradesi<br />Music: GV Prakash<br />Lyrics Vairamuthu</td>  <td>",
-    "Other Songs Lyrics<br />1. <a href=\"http://www.tsonglyrics.com/2012/11/thannai-thaane-lyrics-paradesi-songs.html\" target=\"_blank\">Thannai Thaane</a><br />2. <a href=\"http://www.tsonglyrics.com/2012/11/avatha-paiyan-lyrics-paradesi-songs.html\" target=\"_blank\">Avatha Paiyan</a><br />3. <a href=\"http://www.tsonglyrics.com/2012/11/or-mirugam-lyrics-paradesi-songs-lyrics.html\" target=\"_blank\">Or Mirugam</a> -- <a href=\"http://www.tsonglyrics.com/2012/11/or-mirugam-lyrics-in-tamil-paradesi.html\" target=\"_blank\">in Tamil</a><br />4. <a href=\"http://www.tsonglyrics.com/2012/11/senneer-thaana-lyrics-paradesi-songs.html\" target=\"_blank\">Senneer Thaana</a> --<a href=\"http://www.tsonglyrics.com/2012/11/senneer-thaana-lyrics-in-tamil-paradesi.html\" target=\"_blank\"> in Tamil</a>",
+    "Other Songs Lyrics<br />1. <a href=\"https://tsonglyrics.com/thannai-thaane-lyrics-paradesi-songs.html\" target=\"_blank\">Thannai Thaane</a><br />2. <a href=\"https://tsonglyrics.com/avatha-paiyan-lyrics-paradesi-songs.html\" target=\"_blank\">Avatha Paiyan</a><br />3. <a href=\"https://tsonglyrics.com/or-mirugam-lyrics-paradesi-songs-lyrics.html\" target=\"_blank\">Or Mirugam</a> -- <a href=\"https://tsonglyrics.com/or-mirugam-lyrics-in-tamil-paradesi.html\" target=\"_blank\">in Tamil</a><br />4. <a href=\"https://tsonglyrics.com/senneer-thaana-lyrics-paradesi-songs.html\" target=\"_blank\">Senneer Thaana</a> --<a href=\"https://tsonglyrics.com/senneer-thaana-lyrics-in-tamil-paradesi.html\" target=\"_blank\"> in Tamil</a>",
     "</td>  <td><div><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQVrHMC8jn5KVIIHhlRe30498cKaFj-7gr5jMyWDf_MN_olXgTfQ-C_rCZdcAwiE-iwnytaFi_MdAntbqVTMC00Uxzcrd935VzVntrmVxnjUarWwl47RbL2JVmTAJLmKz4DjshkAkPEpc/s1600/Paradesi1.jpg\"></a></div></td> </tr></tbody></table><table><tbody><tr><td>Lyrics in Thanglish  <br />Exact translation of tamil words <br /><span>Thannai Thaane</span><br />namakkaaga thandhaaney<br />Mannai kaakka oliyaaga vandhaaney",
     "Maatu tholuva pootu thirandha<br />dheva thoodhanaam<br />aatu mandhayai oti chellum<br />nalla aayanaam",
     "kaatil valiyil paadhai kaatum<br />kanni maindhaney<br />paatu paadi aatam aadi<br />aarparippomey",
@@ -92,5 +92,46 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQVrHMC8jn5KVIIHhlRe30498cKaFj-7gr5jMyWDf_MN_olXgTfQ-C_rCZdcAwiE-iwnytaFi_MdAntbqVTMC00Uxzcrd935VzVntrmVxnjUarWwl47RbL2JVmTAJLmKz4DjshkAkPEpc/s400-c/Paradesi1.jpg",
   "generatedAt": "2026-01-18T13:05:38.274Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "devotional",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "wedding"
+    ],
+    "keywords": [
+      "paradesi",
+      "thannai thaane",
+      "gaana bala",
+      "vairamuthu",
+      "gv prakash",
+      "melancholic",
+      "devotional",
+      "2012"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Thannai Thaane</strong>, the protagonist expresses deep emotions of longing and devotion, reflecting the struggles faced in the movie <em>Paradesi</em>. The lyrics, penned by Vairamuthu, beautifully convey the essence of sacrifice and love. The soothing melody composed by GV Prakash enhances the emotional depth, making it a poignant piece. This song resonates with anyone who has experienced heartache, evoking a sense of nostalgia and reflection.",
+    "releaseYear": "2012",
+    "high_ctr_intro": "<strong>Thannai Thaane</strong> from <em>Paradesi</em> is a soul-stirring melody that captures the essence of longing and devotion. Gaana Bala's enchanting vocals combined with GV Prakash's evocative composition create a mesmerizing experience. This song is a perfect blend of heartfelt lyrics by Vairamuthu and a hauntingly beautiful tune that resonates deeply with listeners.",
+    "stanzaMeanings": [
+      "",
+      "",
+      "You have given us for our sake, coming like a light to protect the land.",
+      "The divine messenger has opened the door, and the good one will take away the foolishness.",
+      "On the path of the forest, the young boy shows the way, singing and dancing, we will enjoy.",
+      "We will praise the one who has given us, and we will call out to the one who has come to protect the land.",
+      "With laughter and a great flood, tell the one who has given the change to the young ones.",
+      "In the flow of the river, let everyone speak, the only God has come to end the life of the sinners.",
+      "Amen, amen, amen, we will say..."
+    ]
+  }
 }

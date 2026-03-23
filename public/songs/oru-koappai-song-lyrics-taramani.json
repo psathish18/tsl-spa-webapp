@@ -101,5 +101,56 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1Z7Ucq8et0wC8sp68-8eCw20blyI19T3Xe-EOxZFf7ewzI6fCWJWwmL-Mro-_8G7I35Zv4d14YawX8T-F-Gy62GFaQ20U9lN_5gMIXLvxlCx10VooYmWs_M1OWbO2hzVxYLkPfuxMJcI/s400-c/Oru+Koappai+Lyrics+Taramani.JPG",
   "generatedAt": "2026-01-18T12:47:57.524Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "taramani",
+      "andrea jeremiah",
+      "na muthukumar",
+      "yuvan",
+      "romantic",
+      "melancholic",
+      "2016",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oru Koappai</strong>, the lyrics explore themes of longing and desire, encapsulating the emotional turmoil of love. Set against the backdrop of <em>Taramani</em>, the song reflects the protagonist's yearning for connection and understanding. Andrea Jeremiah's soulful rendition, combined with Yuvan's evocative composition, creates a soothing atmosphere that resonates deeply with listeners. The song serves as a poignant reminder of the complexities of relationships and the emotions they evoke.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Oru Koappai</strong> from <em>Taramani</em> is a mesmerizing blend of heartfelt lyrics and soothing melodies, brought to life by the enchanting voice of Andrea Jeremiah. With Yuvan's unique musical touch and Na Muthukumar's poignant words, this song captures the essence of longing and love. Dive into the emotional depths of this beautiful track that resonates with anyone who has ever yearned for connection.",
+    "stanzaMeanings": [
+      "",
+      "Hey!! I need a hug, come here.",
+      "Oh God, this world is like a honey pot that spins around.",
+      "When a boy is born and a girl is born, they are both born together.",
+      "Her eyes are like tears, but they don't fall.",
+      "Is love in a girl's gaze just a trick?",
+      "My hands are tied, unable to speak or act.",
+      "My eyes are awake, your eyes are awake, but today you have left me in the city.",
+      "A death will come, and I will be reborn from it.",
+      "Hey!! I need a hug, come here.",
+      "Hey!! In that, let the death be embraced and come here.",
+      "In my loneliness, you are the white flower that protects my death.",
+      "I have always been in your thoughts, but now I have forgotten.",
+      "I have taken love without asking, without killing.",
+      "Without stopping, the earth runs, where has the death gone?",
+      "Even if all the pain in a girl's heart is gathered, it won't disappear.",
+      "Hey!! I need a hug, come here.",
+      "Hey!! In that, let the death be embraced and come here.",
+      ""
+    ]
+  }
 }

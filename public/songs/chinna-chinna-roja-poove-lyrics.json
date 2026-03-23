@@ -42,5 +42,50 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:35.368Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "songType": [
+      "melody",
+      "solo"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "poovizhi vasalile",
+      "k.j.yesudhas",
+      "muthulingam",
+      "ilaiyaraaja",
+      "romantic",
+      "melody",
+      "1987",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep romantic feelings and longing, beautifully capturing the essence of love.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Poovizhi Vasalile</em>, the song reflects the protagonist's emotions and romantic aspirations.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the legendary <strong>K.J. Yesudhas</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by the renowned <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>January 14, 1987</strong>.</p></div></div>",
+    "summary": "In <strong>Chinna Chinna Roja Poove</strong>, the protagonist expresses his heartfelt emotions and desires through a beautiful melody. The song captures the essence of romance, evoking feelings of nostalgia and longing. Set against the backdrop of <em>Poovizhi Vasalile</em>, it enhances the emotional depth of the narrative. The soothing composition by Ilaiyaraaja and the soulful rendition by K.J. Yesudhas make this song a cherished classic in Tamil cinema.",
+    "releaseYear": "1987",
+    "high_ctr_intro": "<strong>Chinna Chinna Roja Poove</strong> from <em>Poovizhi Vasalile</em> is a timeless melody that captures the essence of romance and nostalgia. With the enchanting voice of K.J. Yesudhas and the masterful composition by Ilaiyaraaja, this song takes listeners on a heartfelt journey. Experience the magic of this classic that continues to resonate with audiences even today.",
+    "stanzaMeanings": [
+      "Little little rose flower, dear one, who are you? Who is the mother who gave birth to this beautiful statue?",
+      "There is no one to speak, there is no one to tell, why is there no test? There is only pain in the heart.",
+      "Little little rose flower, dear one, who are you?",
+      "In this little heart, what desires do I have? If the God who closed my heart comes, will He tell me?",
+      "There is no place, no one to tell the truth. You and I are just one life.",
+      "Like a parrot in the garden, my work is to dance. This is a painting, and in it, there is a thousand sorrows.",
+      "Little little rose flower, dear one, who are you? Who is the mother who gave birth to this beautiful statue?",
+      "When I see you in my eyes, where does my mind go? If I am a child who has gone away, I am here, and I sing praises of your beauty.",
+      "If you are the river, then I am the shore. If I am the sky, then you are the shining moon.",
+      "In my life, peace is your presence.",
+      "Little little rose flower, dear one, who are you? Who is the mother who gave birth to this beautiful statue?",
+      "There is no one to speak, there is no one to tell, why is there no test? There is only pain in the heart.",
+      ""
+    ]
+  }
 }

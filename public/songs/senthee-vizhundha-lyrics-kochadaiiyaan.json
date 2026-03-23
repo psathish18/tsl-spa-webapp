@@ -129,5 +129,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNQhTFdXnhhABRyeCJyt0q7zrvEwIZowXn-f5RwcO_fH7BV_dZ3TuBQiaADdSk9acKFqaNTgcUREBwEvMPObwQe64zULnpxjdvirBti9Ayxpx09FDf5v8robZtcYeJA9LPtaNagUlkZkY/s400-c/kochadaiyaan.jpg",
   "generatedAt": "2026-01-18T13:00:13.465Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "relaxation"
+    ],
+    "keywords": [
+      "kochadaiiyaan",
+      "chinmayi",
+      "srinivas",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melody",
+      "2014"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>Senthee Vizhundha</strong>?</h4><p>The song conveys deep emotions of love and longing, beautifully illustrated through its poetic lyrics by <strong>Vairamuthu</strong>.</p></div><div class=\"faq-item\"><h4>In which movie is <strong>Senthee Vizhundha</strong> featured?</h4><p>This song is featured in the movie <em>Kochadaiiyaan</em>, which is known for its unique animation and storytelling.</p></div><div class=\"faq-item\"><h4>Who are the singers of <strong>Senthee Vizhundha</strong>?</h4><p>The song is sung by <strong>Chinmayi</strong> and <strong>Srinivas</strong>, both of whom bring a magical quality to the track.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>Senthee Vizhundha</strong>?</h4><p>The music for this beautiful song was composed by the renowned <strong>AR Rahman</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>Senthee Vizhundha</strong> released?</h4><p>The song was released on <strong>March 8, 2014</strong>.</p></div></div>",
+    "summary": "In <strong>Senthee Vizhundha</strong>, the characters express their deep affection and yearning for each other, set against the backdrop of the epic tale in <em>Kochadaiiyaan</em>. The song's soothing melody and heartfelt lyrics evoke a sense of nostalgia and romance. With the enchanting voices of Chinmayi and Srinivas, it beautifully captures the essence of love. The composition by AR Rahman adds an ethereal quality, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Senthee Vizhundha</strong> from <em>Kochadaiiyaan</em> is a mesmerizing duet that beautifully captures the essence of love and longing. With the enchanting voices of Chinmayi and Srinivas, paired with AR Rahman's magical composition, this song is sure to tug at your heartstrings. Experience the lyrical brilliance of Vairamuthu as it transports you to a world of romance and emotion.",
+    "stanzaMeanings": [
+      "The fallen flower lies on the ground, like a peacock's egg. A flower that fell from the good tree, resting on the white soil.",
+      "The heart is wandering, going here and there... What to say, what to say, what to say, what to say?",
+      "The heart is forgetting, losing its direction... What to say, what to say, what to say, what to say?",
+      "The flowers have forgotten their fragrance, the smile has forgotten its brightness, the lightning has forgotten its flash, the forest has forgotten its song.",
+      "I cannot forget you, I cannot forget you, I cannot forget you.",
+      "The heart is wandering, going here and there... What to say, what to say, what to say, what to say?",
+      "The red earth separates from the sea, the cries separate from the wind, the beauty separates from the art.",
+      "",
+      "I cannot separate from you, I cannot separate from you, I cannot separate from you, I cannot separate from you.",
+      "The small fruit falls down, your life is small, but in the forest, it is big."
+    ]
+  }
 }

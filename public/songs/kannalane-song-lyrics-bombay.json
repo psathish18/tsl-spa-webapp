@@ -91,5 +91,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtronKyXpex1mry_btzvFgf1NVRm2mpTYF6J7hcu7HjySnj_xflAOmQY2X3cXx34udZ9J24EhkI0TovV7aMaXj6v2_ylQWG1f5g1h6HWGGFRoMHHtPBrNlSd4MnKLBKbIVHyXlTQKLUkU/s400-c/Bombay+-+Kannalane+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:19:24.361Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "bombay",
+      "ks chitra",
+      "vairamuthu",
+      "ar rahman",
+      "romantic",
+      "melody",
+      "1995",
+      "tamil",
+      "classic",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of the song <strong>Kannalane</strong>?</h4><p>The song <strong>Kannalane</strong> explores themes of love and longing, capturing the emotional depth of a romantic relationship.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Bombay</em>?</h4><p>The music for <em>Bombay</em> was composed by the legendary <strong>A.R. Rahman</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Bombay</em>?</h4><p>In <em>Bombay</em>, the song <strong>Kannalane</strong> reflects the protagonist's deep emotional connection and yearning for their beloved.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kannalane</strong>?</h4><p>The song <strong>Kannalane</strong> is sung by the renowned playback singer <strong>K.S. Chitra</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Bombay</em> released?</h4><p>The movie <em>Bombay</em> was released in the year <strong>1995</strong>.</p></div></div>",
+    "summary": "The song <strong>Kannalane</strong> from the movie <em>Bombay</em> is a poignant melody that delves into the depths of love and longing. Sung by K.S.Chitra, the song beautifully conveys the emotions of yearning and connection between lovers. A.R. Rahman's composition, combined with Vairamuthu's poetic lyrics, creates an unforgettable experience that resonates with anyone who has ever been in love. The song's soothing and melancholic tones make it a timeless classic, perfect for moments of reflection and romance.",
+    "releaseYear": "1995",
+    "high_ctr_intro": "Experience the timeless magic of <strong>Kannalane</strong> from the movie <em>Bombay</em>, where K.S.Chitra's soulful voice meets A.R. Rahman's enchanting melodies. This song beautifully captures the essence of love and longing, penned by the legendary Vairamuthu. Dive into a world of emotions with this unforgettable classic.",
+    "stanzaMeanings": [
+      "",
+      "With my eyes, I couldn't see you face to face. Even though you took my eyes, why haven't you spoken yet?",
+      "Without knowing an important message, I call out like a little child. Why do our hearts switch places without knowing your name or mine?",
+      "There's no way to speak, what is the way to end this pain?",
+      "",
+      "When your shawl fell, my heart trembled and got scarred.",
+      "When my dress flew, I saw a glimpse of the crescent moon.",
+      "Like boiling blood, like water bubbling in a pot, my heart beats like a leaf facing a storm.",
+      "What can a drop of dew do when fire falls in a bamboo forest? Even if it becomes bamboo, it's still honey.",
+      "",
+      "",
+      "The speed of an electric glance, I saw it with you.",
+      "The pain that arises with a woman, I experienced it with myself.",
+      "I forgot myself, I'm not in this world. Without you, there's no honey in any flower.",
+      "Is this a dream or reality? I realized the truth when I saw you, and I forgot my mother tongue.",
+      ""
+    ]
+  }
 }

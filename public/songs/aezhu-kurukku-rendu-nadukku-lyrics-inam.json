@@ -53,5 +53,47 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTW4QB4xnq-0IZ5LIFjTF76CwJrLkFcbefsugjZLHYUoWlfrSvaLIB5YX10MjgnkL2IV4XgNTqpzRzgqW8U1FFcH4BsKbBFCmi6gQQDXYmgKPxMJQY6NqCa-57hpveXz8kx5l0NTBl5P8/s400-c/inam.jpg",
   "generatedAt": "2026-01-18T12:59:53.760Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "theme"
+    ],
+    "occasions": [
+      "relaxation",
+      "contemplation"
+    ],
+    "keywords": [
+      "inam",
+      "vishal c",
+      "charukesh",
+      "2014",
+      "melancholic",
+      "soothing",
+      "tamil cinema",
+      "yezhu kurukku rendu nadukku",
+      "resmi sateesh",
+      "movie soundtrack"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>Who composed the music for the song <strong>Aezhu Kurukku Rendu Nadukku</strong>?</h4><p>The music was composed by <strong>Vishal C</strong>.</p></div><div class=\"faq-item\"><h4>What is the theme of the song?</h4><p>The song conveys themes of resilience and hope amidst challenges.</p></div><div class=\"faq-item\"><h4>Who wrote the lyrics for this song?</h4><p>The lyrics were penned by <strong>Charukesh</strong>.</p></div><div class=\"faq-item\"><h4>Who are the lead actors in the movie <em>Inam</em>?</h4><p>The lead roles were portrayed by <strong>S. Karan</strong> and <strong>Sugandha Ram</strong>.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Inam</em> released?</h4><p>The movie was released in the year <strong>2014</strong>.</p></div></div>",
+    "summary": "The song <strong>Aezhu Kurukku Rendu Nadukku</strong> from the movie <em>Inam</em> (2014) is a melodious and emotional piece composed by Vishal C with lyrics by Charukesh. Featuring the voices of Resmi Sateesh, the song reflects themes of resilience and hope amidst adversity. The movie, starring S. Karan and Sugandha Ram, portrays the struggles and aspirations of its characters. This song is a testament to the power of music in conveying profound emotions.",
+    "actorName": "S. Karan",
+    "actressName": "Sugandha Ram",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Aezhu Kurukku Rendu Nadukku</strong>, a poignant melody from the movie <em>Inam</em>, captures the essence of emotional resilience and hope. Composed by Vishal C with lyrics by Charukesh, this song resonates deeply with its soothing tune and heartfelt lyrics. Experience the profound emotions conveyed through this masterpiece.",
+    "stanzaMeanings": [
+      "Yezhu kurukku Rendu Nadukku",
+      "Seven paths, two directions, four people are traveling. Both you and I should go our own way, and we should live happily.",
+      "Seven paths, two directions, four people are traveling.",
+      "The reason for the four sides is the song. We too should go towards the north.",
+      "The way we go is the same for everyone. The way we go is the same for everyone. Wherever we go, we will have our own land.",
+      "Listen to what I say.. this is the truth. Listen to what I say.. this is the truth.",
+      "Seven paths, two directions, four people are traveling. Both you and I should go our own way, and we should live happily, even if we have to part ways.",
+      "Seven paths, two directions, four people are traveling."
+    ]
+  }
 }

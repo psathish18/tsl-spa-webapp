@@ -54,5 +54,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:05.009Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "celebration",
+      "birthday",
+      "party"
+    ],
+    "keywords": [
+      "kadhal solla vandhen",
+      "yuvan",
+      "na muthukumar",
+      "romantic",
+      "2010",
+      "tamil song",
+      "music",
+      "melody"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Oh shala shala'?</h4><p>The song expresses the joy and excitement of young love, capturing the feelings of infatuation and happiness.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>In <em>Kadhal Solla Vandhen</em>, the song showcases the protagonist's feelings as he navigates the complexities of love and attraction.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of the song?</h4><p>The song is sung and composed by <strong>Yuvan Shankar Raja</strong>, a renowned figure in Tamil music.</p></div><div class=\"faq-item\"><h4>When was 'Oh shala shala' released?</h4><p>The song was released on <strong>August 15, 2010</strong>.</p></div></div>",
+    "summary": "In <strong>Oh shala shala</strong>, the protagonist expresses his exuberant feelings of love and attraction, making it a quintessential romantic anthem. The song's upbeat tempo and catchy lyrics evoke a sense of joy and celebration, perfectly aligning with the youthful spirit of the movie. As Yuvan's voice resonates, listeners are taken on a melodic journey that encapsulates the thrill of new love. This track not only enhances the narrative of <em>Kadhal Solla Vandhen</em> but also leaves a lasting impression on its audience.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Oh shala shala</strong> from <em>Kadhal Solla Vandhen</em> is a vibrant celebration of love that captures the essence of youthful romance. With Yuvan's enchanting vocals and his own dynamic music composition, this track is sure to uplift your spirits. Dive into the melodic journey that perfectly encapsulates the joy of falling in love!",
+    "stanzaMeanings": [
+      "",
+      "Oh Shala, Oh Shala, I hear the lullaby of love. Oh Shala, Oh Shala, I see life as a friend.",
+      "In the college temple, the divine presence is there. Your breath has caught me. My legs feel like they are floating. Oh, I jumped joyfully like a flower on the earth. The sea and sky are all around. I look at you without desire, like a statue that has bloomed without being sculpted. I too am like that.",
+      "She goes as a question and comes back as an answer. In the college days, I must live with you for three years. Oh.. Leyley Leyley Leyley, the first rain will bring life. A hundred lives will come from it. The next rain will be like a dog barking. She will eat on the table, and I will become a shadow. Is there a way to achieve this?",
+      "Oh Shala, Oh Shala, I hear the lullaby of love. Oh Shala, Oh Shala, I see life as a friend.",
+      "You are the one who has become the cure, telling stories softly. You are the essence of life, and you are the one who will die.",
+      "You are a beautiful companion, and together we will go far. You will become a great deity of joy.",
+      "The great fruit will bloom, and the flowers will change. The excitement will rise and rise, like a cloud that changes. Leyley Leyley Leyley."
+    ]
+  }
 }

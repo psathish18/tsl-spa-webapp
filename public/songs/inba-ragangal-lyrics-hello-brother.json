@@ -40,5 +40,55 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:17:58.483Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy",
+      "soothing"
+    ],
+    "songType": [
+      "melody",
+      "song"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "celebration",
+      "relaxation"
+    ],
+    "keywords": [
+      "hello brother",
+      "inba ragangal",
+      "1999",
+      "tamil movie",
+      "romantic",
+      "melody",
+      "song",
+      "happy",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Inba Ragangal</strong>?</h4><p>The theme of the song revolves around romance and the joy of love.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie <em>Hello Brother</em>?</h4><p>The song is set in a romantic context, highlighting the emotions of love and happiness between the characters.</p></div><div class=\"faq-item\"><h4>Who are the singer and music director of <strong>Inba Ragangal</strong>?</h4><p>The singer and music director of the song are unknown.</p></div><div class=\"faq-item\"><h4>When was the movie <em>Hello Brother</em> released?</h4><p>The movie was released on September 10, 1999.</p></div></div>",
+    "summary": "The song <strong>Inba Ragangal</strong> from the movie <em>Hello Brother</em> is a melodious track that captures the essence of romance and joy. It conveys the emotions of love and happiness, making it perfect for romantic occasions. The soothing melody and heartfelt lyrics create a captivating atmosphere, inviting listeners to immerse themselves in the beauty of the music. This song remains a cherished piece for those who appreciate romantic melodies.",
+    "releaseYear": "1999",
+    "high_ctr_intro": "Experience the enchanting melody of <strong>Inba Ragangal</strong> from the movie <em>Hello Brother</em>. This song beautifully captures the essence of romance and joy, making it a timeless classic. Dive into the soothing tunes and let the music transport you to a world of love and happiness.",
+    "stanzaMeanings": [
+      "",
+      "The sweet tunes are rising in my heart. Your songs are telling me to love.",
+      "The drums beat with my eyes, the rhythm matches my heart. Let's celebrate the youthful week together.",
+      "The sweet tunes are rising in my heart. Your songs are telling me to love.",
+      "In the garden, the cuckoo sings a song. You are the notes, and I am the lyrics.",
+      "In the love that plays the harp of youth, you are the melody, and I am the rhythm.",
+      "I saw the future in my eyes. How did I find myself in you?",
+      "Your gaze is enough, your words are like a song.",
+      "The sweet tunes are rising in my heart. Your songs are telling me to love.",
+      "The god of love and the goddess want the same art in love, the same pleasure.",
+      "In the time that gives taste to youth, the mango ripens inside. What joy has grown?",
+      "When I see you, dear girl, the moonlight comes in my eyes.",
+      "Oh king, oh gentle breeze, come here. We need fresh milk and fruit here.",
+      "The sweet tunes are rising in my heart. Your songs are telling me to love.",
+      "The drums beat with my eyes, the rhythm matches my heart. Let's celebrate the youthful week together.",
+      "The sweet tunes are rising in my heart. Your songs are telling me to love."
+    ]
+  }
 }

@@ -96,7 +96,7 @@ Each post result now includes:
   - URL: `https://storage.googleapis.com/{bucket}/og-images/{filename}`
   - Cache: 1 year (`max-age=31536000`)
 - **Fallback**: Local public folder
-  - URL: `https://www.tsonglyrics.com/og-images/{filename}`
+  - URL: `https://tsonglyrics.com/og-images/{filename}`
 
 ## Console Output
 ```

@@ -63,5 +63,50 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhhbRGidSEzN2AefibLvX_A2gPRY4p9Di20mO1ALgfzp_GoAq8KEih4kgFNYCtun0J5wmasbk2F7h8HUmKWo5mBN22UizkywpT13B-fHSSL1QtkUXBfJItXzsXS_EFHPT00IDAxVmGpgM/s400-c/Sathuranga-Vettai.jpg",
   "generatedAt": "2026-02-01T13:06:33.007Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "heartbreak",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "sathuranga vettai",
+      "kadhala kadhala",
+      "kalyani nair",
+      "sean roldan",
+      "romantic",
+      "melancholic",
+      "2014",
+      "tamil movie",
+      "melody",
+      "soothing"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kadhala Kadhala</strong>?</h4><p>The song explores themes of love and longing, capturing the emotional turmoil of the heart.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Sathuranga Vettai</em>?</h4><p>The music for <em>Sathuranga Vettai</em> was composed by <strong>Sean Roldan</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kadhala Kadhala</strong>?</h4><p>The song is sung by <strong>Kalyani Nair</strong>.</p></div><div class=\"faq-item\"><h4>What is the release year of <em>Sathuranga Vettai</em>?</h4><p>The movie <em>Sathuranga Vettai</em> was released in <strong>2014</strong>.</p></div><div class=\"faq-item\"><h4>What emotions does <strong>Kadhala Kadhala</strong> evoke?</h4><p>The song evokes emotions of romance and melancholy, creating a soothing yet poignant experience.</p></div></div>",
+    "summary": "<strong>Kadhala Kadhala</strong> is a soulful melody from the movie <em>Sathuranga Vettai</em>, capturing the essence of love and longing. Sung by Kalyani Nair, the song's soothing tune and heartfelt lyrics convey the emotional turmoil of unspoken feelings. Sean Roldan's composition enhances the melancholic yet romantic mood, making it perfect for moments of introspection. The song beautifully portrays the complexities of love, leaving a lasting impact on the listener.",
+    "releaseYear": "2014",
+    "high_ctr_intro": "<strong>Kadhala Kadhala</strong> from the movie <em>Sathuranga Vettai</em> is a mesmerizing melody that beautifully captures the essence of love and longing. Sung by Kalyani Nair and composed by Sean Roldan, this song weaves a soothing yet melancholic atmosphere. Dive into the soulful experience of this track that stands out with its heartfelt lyrics and enchanting music.",
+    "stanzaMeanings": [
+      "",
+      "Oh love, oh love, what can I say about this? In the wind, who will find the answers and tell them?",
+      "Oh heart, what can change and make you forget? If you open your heart, trouble will come.",
+      "In my eyes, I see only you. In my ears, I hear only your words. Is this a change?",
+      "A spark on my chest, a waterfall on my back, in a moment, both things happen.",
+      "The waves of the sea speak like a message. My eyes speak as if they are my message, oh life.",
+      "On the mountain peak, I called your name. In the echo that came back, I heard my name.",
+      "From here, I reach out to touch the moon's rays. Even when he is near, my hands tremble and let go.",
+      "Oh, like a thief, my love is with me. In this stolen love, there is a little desire, oh dear.",
+      "Oh love, oh love, what can I say about this? In the wind, who will find the answers and tell them?",
+      "Oh heart, what can change and make you forget? If you open your heart, trouble will come."
+    ]
+  }
 }

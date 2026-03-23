@@ -50,5 +50,51 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLtMmhsCDCYCwCJ2gU8jjHeTaEhnyTOdu2CSf9-NHRay6io2cE25gOa4BVRSa-J2dkVtJ2EJ0PYJjitYg9ELK0YB_XYt4srpKqjwOQKa0F0Q9Rbaqw8gmD46W3xCd82LyUlhRUzk-kpo4/s400-c/Wagah.jpg",
   "generatedAt": "2026-01-18T12:51:07.495Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "wagah",
+      "yedho mayam saeigirai",
+      "jithin raj",
+      "mohan raj",
+      "d imman",
+      "romantic",
+      "melancholic",
+      "2016"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song 'Yedho Mayam Saeigirai'?</h4><p>The song expresses deep emotions of love and longing, reflecting the complexities of relationships.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie Wagah?</h4><p>In <em>Wagah</em>, the song highlights the protagonist's feelings towards his love interest, enhancing the romantic narrative of the film.</p></div><div class=\"faq-item\"><h4>Who is the singer and music director of this song?</h4><p>The song is sung by <strong>Jithin Raj</strong> and composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>When was 'Yedho Mayam Saeigirai' released?</h4><p>The song was released on <strong>April 21, 2016</strong>.</p></div></div>",
+    "summary": "In <strong>Yedho Mayam Saeigirai</strong>, the protagonist navigates the emotional landscape of love, beautifully portrayed through the lyrics and melody. The song encapsulates feelings of yearning and affection, resonating with anyone who has experienced love's complexities. Its soothing composition by D Imman, paired with Jithin Raj's heartfelt vocals, creates an atmosphere of nostalgia and romance. This track is a perfect accompaniment to moments of reflection and connection.",
+    "releaseYear": "2016",
+    "high_ctr_intro": "<strong>Yedho Mayam Saeigirai</strong> from <em>Wagah</em> is a mesmerizing melody that captures the essence of love and longing. With Jithin Raj's soulful vocals and D Imman's enchanting composition, this song takes listeners on an emotional journey. Dive into the lyrical beauty crafted by Mohan Raj, making it a must-listen for romantic souls.",
+    "stanzaMeanings": [
+      "",
+      "Something is happening inside me, my heart is feeling it deeply.",
+      "All the directions are filled with my footsteps, I have crossed the barriers and moved forward in a way that I have never done before.",
+      "In your presence, you have left me behind.",
+      "Something is happening (repeated four times).",
+      "Who are you? Am I just me? Are we together? Can we unite as one?",
+      "Here, I will stay, I will give my life, I will love you, I will win with love.",
+      "I will think of you, I will wait for your face, will this also pass? Will my heart be able to handle it?",
+      "Something is happening (repeated four times).",
+      "This is the day, this is me, I must start living, just like this, I must walk with you.",
+      "You will take me to the place where I can breathe, and you will see me as a wall in your home.",
+      "Will this also pass? Will my heart be able to handle it?",
+      "Something is happening (repeated four times)."
+    ]
+  }
 }

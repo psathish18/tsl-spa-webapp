@@ -88,5 +88,54 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcwyWm0PhKo9w0dGmPdQkrHZBQn1bg87YrqTpLsTjUFZ4NKHz4t8wLRVmyZ0HkV_U7INYh6Eif1Ey-m8JrzOHq4FBKKzHvMHsqNEiJoe4mxydC-28Cq2qgo2yiN8q2Q7NgsqY6Ao201Pk/s400-c/vpvs.jpg",
   "generatedAt": "2026-01-18T13:02:22.743Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "energetic",
+      "peppy"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "birthday",
+      "festivals"
+    ],
+    "keywords": [
+      "varuthapadatha valibar sangam",
+      "oodha kalaru",
+      "hariharasudhan",
+      "d imman",
+      "yugabharathi",
+      "happy",
+      "dance",
+      "2013"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song ",
+    "summary": "In <strong>Oodha Kalaru</strong>, the lively beats and playful lyrics reflect the joyous atmosphere of the movie <em>Varuthapadatha Valibar Sangam</em>. The song showcases a light-hearted celebration, emphasizing fun and camaraderie among friends. It evokes feelings of happiness and excitement, making it a perfect anthem for parties and festive occasions. The catchy tune and energetic delivery by Hariharasudhan add to its charm, making it a memorable track from the film.",
+    "releaseYear": "2013",
+    "high_ctr_intro": "<strong>Oodha Kalaru</strong> from <em>Varuthapadatha Valibar Sangam</em> is a vibrant and energetic track that perfectly captures the festive spirit of celebration. With Hariharasudhan's lively vocals and D Imman's catchy composition, this song is sure to get you on your feet. Dive into the fun and colorful world of this delightful number that resonates with joy and excitement!",
+    "stanzaMeanings": [
+      "",
+      "Who is the one for you with the colorful ribbon?",
+      "Who is the one for you with the colorful ribbon? I should salute him, I should salute him.",
+      "Who is the one for you with the red doll? I should praise her, I should praise her.",
+      "",
+      "If others walk by, it's just a street. If you walk by, give me the news.",
+      "If I see others smiling, it's just okay. But when you talk, I feel something special.",
+      "Among all the beauties, there’s a bore. Your beauty is the only one that stands out.",
+      "",
+      "If others pass by, it's just a breeze. But if you pass by, it's a strong wind.",
+      "If others pass by, it's just a cool breeze from the AC window.",
+      "All the eyes are on you, you are the one. You always give me love, you are the one.",
+      "",
+      "Who is the one for you with the colorful ribbon? I should salute him, I should salute him.",
+      "",
+      ""
+    ]
+  }
 }

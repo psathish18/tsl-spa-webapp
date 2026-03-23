@@ -34,5 +34,44 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:12:28.786Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "happy"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "celebration",
+      "birthday"
+    ],
+    "keywords": [
+      "sura",
+      "sura siragadikkum nilavu",
+      "karthik",
+      "reeta",
+      "kabilan",
+      "mani sharma",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Sura Siragadikkum Nilavu</strong> conveys themes of love and longing, expressing deep emotional connections between the characters.</p></div><div class=\"faq-item\"><h4>What is the context of this song in the movie?</h4><p>In <em>Sura</em>, this song highlights the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director of the song?</h4><p>The song features the talented voices of <strong>Karthik</strong> and <strong>Reeta</strong>, with music composed by <strong>Mani Sharma</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Sura Siragadikkum Nilavu</strong> was released on April 2, 2010.</p></div></div>",
+    "summary": "In <strong>Sura Siragadikkum Nilavu</strong>, the song captures the essence of romance through its heartfelt lyrics and melodious tune. It reflects the emotions of love and longing, making it a perfect backdrop for romantic moments in the film. The collaboration between Karthik and Reeta adds a unique charm, bringing the lyrics to life. This song resonates with anyone who has experienced the beauty of love, making it a memorable piece in the movie <em>Sura</em>.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "<strong>Sura Siragadikkum Nilavu</strong> is a captivating romantic duet that beautifully showcases the enchanting voices of Karthik and Reeta. With the melodious composition by Mani Sharma, this song perfectly encapsulates the essence of love and longing. Experience the magic of <em>Sura</em> as it takes you on an emotional journey through its heartfelt lyrics and soothing melody.",
+    "stanzaMeanings": [
+      "The moon that shines brightly has caught me. I have given you to me, and I have taken you. We need a land just for the two of us. Love is needed for protection.",
+      "",
+      "In my house, every corner is your presence. In my house, every corner is your presence. Sometimes, you come into me by listening to someone. My legs move behind you alone. My heart rests on your path. You are the jasmine that outshines the sun. You are the one who makes the moon work.",
+      "",
+      "My heart is now thinking of the sky. My heart is now thinking of the sky. You even like to make beautiful mistakes. My mind is restless like a child who doesn't understand. It keeps asking for something. I will write the song of the village; I am the only one needed.",
+      ""
+    ]
+  }
 }

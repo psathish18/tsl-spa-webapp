@@ -92,5 +92,58 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T14:30:03.512Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "energetic",
+      "happy"
+    ],
+    "songType": [
+      "dance number",
+      "item number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "guleba",
+      "gulebagavali",
+      "anirudh",
+      "ku karthik",
+      "vivek mervin",
+      "upbeat",
+      "dance number",
+      "2018"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song Guleba?</h4><p>The song <strong>Guleba</strong> is a lively and energetic track that celebrates joy and festivity, often associated with dance and celebration.</p></div><div class=\"faq-item\"><h4>What is the plot context of Gulebagavali?</h4><p>The movie <em>Gulebagavali</em> revolves around a comedic storyline where the protagonist gets involved in a series of humorous events, and the song reflects the fun and lively spirit of the film.</p></div><div class=\"faq-item\"><h4>Who are the artists behind the song?</h4><p>The song is sung by <strong>Anirudh</strong> and features music composed by <strong>Vivek – Mervin</strong>, with lyrics penned by <strong>Ku Karthik</strong>.</p></div><div class=\"faq-item\"><h4>When was Guleba released?</h4><p><strong>Guleba</strong> was released on January 6, 2018, as part of the movie <em>Gulebagavali</em>.</p></div></div>",
+    "summary": "The song <strong>Guleba</strong> from <em>Gulebagavali</em> is a vibrant and energetic dance number that encapsulates the spirit of celebration and joy. With Anirudh's captivating vocals and the catchy beats from Vivek and Mervin, the song invites listeners to let loose and enjoy the moment. It perfectly complements the comedic and lively atmosphere of the movie, making it a standout track. The lyrics and rhythm evoke feelings of happiness and excitement, making it ideal for parties and celebrations.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Get ready to groove with <strong>Guleba</strong> from the movie <em>Gulebagavali</em>, a vibrant track that perfectly blends Anirudh's electrifying vocals with the dynamic beats of Vivek and Mervin. This song captures the essence of celebration and joy, making it a must-listen for any party. With its catchy lyrics and infectious rhythm, <strong>Guleba</strong> is sure to get everyone on their feet!",
+    "stanzaMeanings": [
+      "Here is wonderful Guleba Song Lyrics From Gulebagavali Movie.",
+      "Guleba Song is composed by Vivek-Mervin and sung by Anirudh Ravichander and Mervin Solomon. When nice lyrics, music, correct signer is chosen along with Prabhudeva's dance performance. What to say... refreshing song. Here is Guleba Song Lyrics Guleba ...",
+      "hey, is it fun, is it fun, hey, in the jolly place, is it a fun song, hey mama, shall we go and party?",
+      "Is it fun, hey, scene, shall we sing a song? You come, let’s enjoy the whole night.",
+      "Rocking song, is it a hit? Let’s repeat it and enjoy.",
+      "Is it a song that is not good? Let’s not get stuck in it.",
+      "Guleba, Guleba",
+      "Is it fun, hey, is it fun, hey, in the jolly place, is it a fun song, hey mama, shall we go and party?",
+      "Is it fun, hey, scene, shall we sing a song? You come, let’s enjoy the whole night.",
+      "When the fun comes, don’t drink alone, let’s enjoy together, don’t get stuck in it.",
+      "Hey mama, let’s go to the fight, shall we avoid it? Be smart, show them a little bit.",
+      "Repeat, share a little love, sweet, you are the one who is the best.",
+      "Google, Google, even if I try, it doesn’t work, my dear.",
+      "In the cycle, hiding for a game of hide and seek, shall we play?",
+      "Bubble, bubble, bubble, is it a fun song?",
+      "Guleba..",
+      "When the fun comes, don’t drink alone, let’s enjoy together, don’t get stuck in it.",
+      "Is it fun, hey, is it fun, hey, in the jolly place, is it a fun song, hey mama, shall we go and party?",
+      "Is it fun, hey, scene, shall we sing a song? You come, let’s enjoy the whole night.",
+      "When the fun comes, don’t drink alone, let’s enjoy together, don’t get stuck in it.",
+      ""
+    ]
+  }
 }

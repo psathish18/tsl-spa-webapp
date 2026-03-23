@@ -67,5 +67,49 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:11:02.168Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "happy",
+      "energetic",
+      "upbeat"
+    ],
+    "songType": [
+      "solo",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "mappillai",
+      "ennoda rasi nalla raasi",
+      "ranjith",
+      "gangai amaran",
+      "mani sharma",
+      "happy",
+      "dance",
+      "2011"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song conveys a joyful and celebratory mood, emphasizing good fortune and happiness.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Mappillai</em>, the song is performed during a festive celebration, highlighting the protagonist's joyful moments.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by <strong>Ranjith</strong>, known for his energetic performances.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music is composed by <strong>Mani Sharma</strong>, a renowned music director in Tamil cinema.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p>The song was released on <strong>March 13, 2011</strong>.</p></div></div>",
+    "summary": "In <strong>Ennoda Rasi Nalla Raasi</strong>, the protagonist expresses joy and excitement, celebrating the good fortune that comes with love and relationships. The upbeat tempo and lively rhythm make it a perfect fit for wedding festivities and parties. The song's catchy lyrics and energetic performance evoke feelings of happiness and celebration. Overall, it encapsulates the essence of joyous moments in life, making it a memorable track from <em>Mappillai</em>.",
+    "releaseYear": "2011",
+    "high_ctr_intro": "<strong>Ennoda Rasi Nalla Raasi</strong> from the movie <em>Mappillai</em> is a vibrant dance number that perfectly captures the celebratory spirit of weddings and parties. With Ranjith's energetic vocals and Mani Sharma's catchy composition, this song is sure to get everyone on their feet. The remix of an old classic adds a nostalgic touch while keeping the vibe fresh and lively.",
+    "stanzaMeanings": [
+      "",
+      "My zodiac is a good zodiac - it is always favored by great people. That is a good zodiac, it is praised all over the town. That is a good zodiac, it is praised all over the town. My zodiac is a good zodiac - it is always favored by great people.",
+      "[With the zodiac, success will come, money will come. Only with hard work will success come.] (2)",
+      "When the time comes, this town will sing for you, peace will come to the heart. Love will grow, and the bond will strengthen.",
+      "For one person, the zodiac is high, and no flaws will come to him. Whatever comes or goes, he will remain steady.",
+      "My zodiac is a good zodiac ......",
+      "Groom, groom, living in the curry leaves... Groom, groom, living in the curry leaves... Ghosts will chase the people, the ghosts will chase the people, but they will not smile, who will enjoy them?",
+      "aiii deya danga deya danga deya danga thandhana",
+      "[The town speaks nonsense, it will tell the truth. Every day, it will lie in a hundred ways.] (2)",
+      "Keep it low, what is your problem, dear? This place is not good, I said one word and it hit like a ghost.",
+      "If the heart of the queen is good, it will bring goodness, if good words are heard, the house will prosper. That authority has gone mad, will you not tell all the seeds?",
+      "My zodiac is a good zodiac... That is a good zodiac... My zodiac is a good zodiac..."
+    ]
+  }
 }

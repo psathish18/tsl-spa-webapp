@@ -44,5 +44,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyRB8prYK58w4hv3wdGc_EVsvM-rhiHvmu5iUJtnRqbcCiDKSxT3cf4Za8z0Pzf4_IfHzCUyQUhjqljF3ywGx6_RbO6OcSMuUZ014B1y60PMcq6jRdVLjtAwrQigw315Cg8aEvzpb7rYU/s400-c/Chinna+-+Yaar+Yaaro+Lyrics.JPG",
   "generatedAt": "2026-01-18T13:15:07.640Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "nostalgic"
+    ],
+    "songType": [
+      "solo",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "chinna",
+      "spb",
+      "d imman",
+      "romantic",
+      "melancholic",
+      "2005",
+      "tamil song",
+      "movie song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses feelings of longing and love, highlighting the emotional connection between two individuals.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Chinna</em>, the song reflects the protagonist's emotional struggles and romantic aspirations.</p></div><div class=\"faq-item\"><h4>Who is the singer of this song?</h4><p>The song is sung by the legendary <strong>SPB</strong>, known for his soulful voice and impactful performances.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>Yaar Yaaro Naan Parthaen</strong> was composed by <strong>D Imman</strong>, who is known for his melodious tunes.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>The song was released on <strong>July 15, 2005</strong>.</p></div></div>",
+    "summary": "In <strong>Yaar Yaaro Naan Parthaen</strong>, the protagonist navigates the complexities of love and longing, beautifully portrayed through SPB's emotive singing. The song encapsulates the essence of romantic yearning, making it a perfect fit for moments of reflection and nostalgia. With its soothing melody and heartfelt lyrics, it evokes a sense of deep emotional connection. This track stands out as a memorable piece in the film <em>Chinna</em>, resonating with anyone who has experienced the highs and lows of love.",
+    "releaseYear": "2005",
+    "high_ctr_intro": "<strong>Yaar Yaaro Naan Parthaen</strong> from the movie <em>Chinna</em> is a soulful melody that captures the essence of longing and love. With the legendary SPB's enchanting vocals and D Imman's captivating composition, this song resonates deeply with anyone who has experienced the bittersweet pangs of romance. Dive into this emotional journey that beautifully intertwines heartfelt lyrics with a mesmerizing tune.",
+    "stanzaMeanings": [
+      "",
+      "Who is it that I have seen? No one is with me. You came into my life, and I am also alone.",
+      "I am formed from tears, I am shaped from ocean water. Because of you, I have life; I have become you.",
+      "Who is it that I have seen? No one is with me.",
+      "You are a good person who can let go of your mother. I have seen God in you.",
+      "In the place where I speak, I have hidden myself within you.",
+      "If someone asks about me, I will just say one word: it is you.",
+      "If they ask about my face, I will just say your name.",
+      "Even if God comes and asks you, I will not give a reply; I will not give a reply.",
+      "Who is it that I have seen? No one is with me.",
+      "In the anger of the heart, you are like a fallen flower. I was the fire that burned, and you are the light that rises.",
+      "Until now, I thought this was enough for me.",
+      "You made me understand the taste of life, and I was born again.",
+      "I will hold you in my heart; I will not let you go outside; I will not let you go outside.",
+      "Who is it that I have seen? No one is with me. You came into my life, and I am also alone.",
+      "I am formed from tears, I am shaped from ocean water. Because of you, I have life; I have become you.",
+      "Who is it that I have seen?",
+      ""
+    ]
+  }
 }

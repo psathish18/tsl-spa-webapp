@@ -70,5 +70,46 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-02-01T13:06:45.630Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "melancholic",
+      "soothing"
+    ],
+    "songType": [
+      "duet",
+      "melody"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "singam",
+      "en idhayam ithuvarai",
+      "suchitra",
+      "tipu",
+      "na muthukumar",
+      "devi sri prasad",
+      "romantic",
+      "2010"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song <strong>En Idhayam Ithuvarai</strong> expresses deep emotions of love and longing, reflecting the inner feelings of the characters in the movie.</p></div><div class=\"faq-item\"><h4>How does this song fit into the movie's plot?</h4><p>In <em>Singam</em>, this song highlights the romantic moments between the lead characters, enhancing the emotional depth of their relationship.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song features the talented voices of <strong>Suchitra</strong> and <strong>Tipu</strong>, who bring the lyrics to life with their soulful rendition.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for <strong>En Idhayam Ithuvarai</strong> was composed by <strong>Devi Sri Prasad</strong>, known for his catchy and melodious tunes.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This beautiful track was released on <strong>May 17, 2010</strong>.</p></div></div>",
+    "summary": "In the movie <em>Singam</em>, the song <strong>En Idhayam Ithuvarai</strong> serves as a poignant expression of love and yearning. The lyrics beautifully convey the emotions of the characters, encapsulating their struggles and desires. With a soothing melody composed by Devi Sri Prasad, the song evokes a sense of nostalgia and romance. This duet by Suchitra and Tipu adds depth to the narrative, making it a memorable piece in the film's soundtrack.",
+    "releaseYear": "2010",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>En Idhayam Ithuvarai</strong> from the blockbuster <em>Singam</em>, where the melodious voices of Suchitra and Tipu blend seamlessly with Devi Sri Prasad's captivating composition. This romantic duet captures the essence of love and longing, making it a timeless favorite. Dive into the heartfelt lyrics that resonate with anyone who's ever experienced the beauty of love.",
+    "stanzaMeanings": [
+      "",
+      "My heart has not started beating until now, but now it is starting. My mind has not flown until now, but now it is soaring. I do not know how much this is, so I am holding on to it. This is not completely clear, just a little comfort and a little pain are mixing together.",
+      "My heart has not started beating...",
+      "Even if you are in a crowd, I search for you. Even if my eyes are closed, I walk with you. My feet are not afraid, my heart is not confused. I came to you without any hesitation. The sound of your name echoes in my heart, and I write a hundred beats for you.",
+      "My heart... Heart, heart, heart, heart... My heart has not started beating...",
+      "With you, I always want to share my rights. But every day, I lose a little bit of it. Until now, there has been nothing in my heart. I saw you for two days and was amazed. I have been awake for these many days, thinking of you... I have not seen you for two days, but I woke up seeing you.",
+      "My heart... My heart... My heart has not started beating..."
+    ]
+  }
 }

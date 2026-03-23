@@ -52,5 +52,63 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:20:49.695Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "muthal mariyathai",
+      "ilaiyaraaja",
+      "k. s. chithra",
+      "vairamuthu",
+      "romantic",
+      "melody",
+      "1985",
+      "old songs"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p>The song expresses deep feelings of love and longing, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>In which movie does this song appear?</h4><p>This song is featured in the classic film <strong>Muthal Mariyathai</strong>.</p></div><div class=\"faq-item\"><h4>Who are the singers of this song?</h4><p>The song is sung by the renowned <strong>Ilaiyaraaja</strong> and <strong>K. S. Chithra</strong>.</p></div><div class=\"faq-item\"><h4>Who composed the music for this song?</h4><p>The music for this song was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was this song released?</h4><p>This song was released on <strong>August 15, 1985</strong>.</p></div></div>",
+    "summary": "In <strong>Andha Nilavathaan Kayyila Pudichaen</strong>, the lyrics beautifully convey the feelings of love and yearning, making it a quintessential romantic ballad. The song's soothing melody, composed by <strong>Ilaiyaraaja</strong>, enhances the emotional depth, allowing listeners to connect with the sentiments expressed. Featured in the film <em>Muthal Mariyathai</em>, it evokes nostalgia and warmth, making it perfect for intimate moments. This classic track remains a beloved choice for celebrations of love and affection.",
+    "releaseYear": "1985",
+    "high_ctr_intro": "<strong>Andha Nilavathaan Kayyila Pudichaen</strong> is a timeless melody that captures the essence of love and longing, beautifully rendered by the legendary <strong>Ilaiyaraaja</strong> and <strong>K. S. Chithra</strong>. This enchanting song from the classic film <em>Muthal Mariyathai</em> resonates with deep emotions, making it a favorite for romantic occasions. Experience the magic of this soulful track that continues to touch hearts across generations.",
+    "stanzaMeanings": [
+      "I have held that moon in my hands.. for my beloved.",
+      "I have held that moon in my hands.. for my beloved.",
+      "I am looking here and there, closing my eyes a little to show.",
+      "I have held that moon in my hands.. for my beloved.",
+      "There is a net made of palm leaves, and it is catching something.",
+      "Holding the beautiful one, the net is coming to catch the kiss.",
+      "In the month of Margazhi, it has become cool, what a surprise, it cannot be found.",
+      "The sorrow has bloomed like a flower in the temple.",
+      "If a flower is plucked, it will come later.",
+      "No mistakes should be made, hmm mmm..",
+      "I have held that moon in my hands.. for my beloved.",
+      "I am looking here and there, closing my eyes a little to show.",
+      "I have held that moon in my hands.. for my beloved.",
+      "Should I place the blood as a kiss, should I go to the city and place it with the lawyer?",
+      "Should I place the waste as a sacrifice, should I place it in the pot?",
+      "Running away, let’s stop beside, with a sweet touch.",
+      "In a month, three or four should be enough.",
+      "If it is cut, it cannot be tolerated, the jasmine will change.",
+      "I don’t want to be a guard for the hand, oh brave one.",
+      "That’s it, all the kids are trouble.",
+      "I have held that moon in my hands.. for my beloved.",
+      "I am looking here and there, closing my eyes a little to show.",
+      "I have held that moon in my hands.. for my beloved."
+    ]
+  }
 }

@@ -71,5 +71,53 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T12:44:35.259Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "upbeat",
+      "happy",
+      "energetic"
+    ],
+    "songType": [
+      "duet",
+      "dance number"
+    ],
+    "occasions": [
+      "party",
+      "celebration",
+      "wedding"
+    ],
+    "keywords": [
+      "kalakalappu 2",
+      "gana vinoth",
+      "saravedi saran",
+      "hip hop tamizha",
+      "upbeat",
+      "dance",
+      "2018",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song?</h4><p><strong>Oru Kuchi Oru Kulfi</strong> celebrates love and the joy of capturing moments, particularly in a wedding context.</p></div><div class=\"faq-item\"><h4>What is the plot context of the song in the movie?</h4><p>The song is featured during a lively wedding scene in <em>Kalakalappu 2</em>, enhancing the festive atmosphere.</p></div><div class=\"faq-item\"><h4>Who are the singers and music director?</h4><p>The song is sung by <strong>Gana Vinoth</strong> and <strong>Saravedi Saran</strong>, with music composed by <strong>Hip Hop Tamizha</strong>.</p></div><div class=\"faq-item\"><h4>When was the song released?</h4><p><strong>Oru Kuchi Oru Kulfi</strong> was released on March 19, 2018.</p></div></div>",
+    "summary": "In <strong>Oru Kuchi Oru Kulfi</strong>, the lively beats and playful lyrics create an atmosphere of celebration, making it a perfect fit for wedding festivities in <em>Kalakalappu 2</em>. The song conveys a sense of joy and excitement, inviting listeners to join in the fun. With its catchy tune and energetic performances, it evokes feelings of happiness and togetherness. This track is not just a song; it's an anthem for joyous moments shared with loved ones.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "<strong>Oru Kuchi Oru Kulfi</strong> from <em>Kalakalappu 2</em> is a vibrant celebration of love and joy, perfectly encapsulating the spirit of a wedding party. With the infectious energy of Gana Vinoth and Saravedi Saran, this track is sure to get everyone on their feet. Hip Hop Tamizha's catchy beats make this song a must-listen for any festive occasion!",
+    "stanzaMeanings": [
+      "A little ice cream has come, let's take a selfie.",
+      "I liked your photo, I'll touch it and send it to you on the phone during our honeymoon.",
+      "Don't push me away, stay here, we can plan our wedding.",
+      "You came like a goddess, because of you, I feel like a star overnight.",
+      "Who is the elder brother? Who is the elder brother? The superstar of the place.",
+      "When I see you, you are like a quiet white tube light, shining bright.",
+      "I saw you at a young age, you look nice, like plastic rice.",
+      "A little ice cream is a big deal, why have biryani when you can have pizza?",
+      "From nearby, I see you, I have built a cloud in my heart.",
+      "Jingiliyaa, jinukaa, is there a god like us in this town?",
+      "A little ice cream has come, let's take a selfie.",
+      "I liked your photo, I'll touch it and send it to you on the phone during our honeymoon.",
+      "Don't push me away, stay here, we can plan our wedding.",
+      "You came like a goddess, because of you, I feel like a star overnight.",
+      "A little ice cream has come, let's take a selfie.",
+      "Who is the elder brother? Who is the elder brother? The superstar of the place."
+    ]
+  }
 }

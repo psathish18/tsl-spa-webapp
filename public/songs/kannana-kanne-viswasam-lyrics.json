@@ -67,5 +67,57 @@
   },
   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbKMS4fAuJQ-kiDRgz6M38eZ4vwo8HnbJWJ5L-ON8l5-ePeBosDhvTrfzDdvVUPIiuuCdPwynR3cH2F90su-i-buclAe3pcd15TLlsCNRRH1TqN6S7fAuXK_aWDqvxpmBzs9fUltDoYw/s400-c/kannana+kanne+viswasam+lyrics.jpg",
   "generatedAt": "2026-01-18T12:42:40.664Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "soothing",
+      "romantic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "lullaby"
+    ],
+    "occasions": [
+      "anniversary",
+      "wedding",
+      "relaxation",
+      "night drive"
+    ],
+    "keywords": [
+      "viswasam",
+      "sid sriram",
+      "thamarai",
+      "d imman",
+      "kannana kanne",
+      "melody",
+      "2018",
+      "romantic",
+      "soothing",
+      "tamil song"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the theme of <strong>Kannana Kanne</strong>?</h4><p>The song beautifully captures themes of love, longing, and emotional connection.</p></div><div class=\"faq-item\"><h4>Who composed the music for <em>Viswasam</em>?</h4><p>The music for <em>Viswasam</em> was composed by <strong>D Imman</strong>.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>Kannana Kanne</strong>?</h4><p>The song is sung by the talented <strong>Sid Sriram</strong>.</p></div><div class=\"faq-item\"><h4>What is the context of the song in the movie?</h4><p>In <em>Viswasam</em>, the song reflects the protagonist's deep affection and emotional bond with his loved one.</p></div><div class=\"faq-item\"><h4>When was <strong>Kannana Kanne</strong> released?</h4><p>The song was released on December 18, 2018.</p></div></div>",
+    "summary": "In the movie <em>Viswasam</em>, <strong>Kannana Kanne</strong> is a heartfelt melody that expresses deep love and longing. Sung by Sid Sriram, the song's soothing tune and poignant lyrics by Thamarai evoke emotions of warmth and tenderness. D Imman's composition beautifully complements the emotional depth of the song, making it a favorite for romantic occasions. The song captures the essence of a loving relationship, resonating with anyone who has experienced profound affection.",
+    "releaseYear": "2018",
+    "high_ctr_intro": "Experience the soulful magic of <strong>Kannana Kanne</strong> from the movie <em>Viswasam</em>, where Sid Sriram's mesmerizing voice meets D Imman's enchanting composition. This beautiful melody, penned by Thamarai, captures the essence of love and longing. Dive into the emotional depth of this song that has touched countless hearts.",
+    "stanzaMeanings": [
+      "Dear child, dear child, come and be my shade. With your golden hands, touch my heart like a flower.",
+      "I waited patiently, will my longing end with time? I watched, will my lightning appear in the golden sky?",
+      "Will the clouds that pour tears change into a rainbow?",
+      "aaraariraarao raaro raaro aaraariraarao. aaraariraarao raaro raaro aaraariraarao",
+      "Dear child, dear child, come and be my shade. With your golden hands, touch my heart like a flower.",
+      "In the middle of the ocean waves, I wandered alone like a boat, I looked at you, dear.",
+      "I fell into the sand and lay buried, your smile lifted me up.",
+      "A big swing dances with the sky and earth in my heart. There is some fear as the thread seems to break.",
+      "I see a peacock, I danced like the rain. This excitement feels enough to die in this moment.",
+      "Dear child, dear child, come and be my shade. With your golden hands, touch my heart like a flower.",
+      "When you sleep, I should place kisses on your forehead. I should guard you without letting the curtains fall.",
+      "When everyone sleeps, you and I should speak in silence.",
+      "aaraariraarao raaro raaro aaraariraarao. aaraariraarao raaro raaro aaraariraarao",
+      "Dear child, dear child",
+      "",
+      ""
+    ]
+  }
 }

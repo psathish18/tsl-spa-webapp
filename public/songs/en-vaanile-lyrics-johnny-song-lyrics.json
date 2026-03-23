@@ -40,5 +40,51 @@
   },
   "thumbnail": null,
   "generatedAt": "2026-01-18T13:21:06.882Z",
-  "version": 1
+  "version": 1,
+  "enrichedMetadata": {
+    "mood": [
+      "romantic",
+      "nostalgic",
+      "melancholic"
+    ],
+    "songType": [
+      "melody",
+      "solo",
+      "classic"
+    ],
+    "occasions": [
+      "valentine's day",
+      "anniversary",
+      "wedding",
+      "heartbreak",
+      "relaxation"
+    ],
+    "keywords": [
+      "en vaanile",
+      "johnny",
+      "jency",
+      "kannadhasan",
+      "ilaiyaraaja",
+      "romantic",
+      "nostalgic",
+      "1980"
+    ],
+    "faq": "<div class=\"faq-section\"><h3>Frequently Asked Questions</h3><div class=\"faq-item\"><h4>What is the meaning of the song <strong>En Vaanile</strong>?</h4><p>The song expresses deep feelings of love and longing, capturing the essence of romantic emotions.</p></div><div class=\"faq-item\"><h4>In which movie does <strong>En Vaanile</strong> appear?</h4><p>The song is featured in the movie <em>Johnny</em>, which is known for its engaging storyline.</p></div><div class=\"faq-item\"><h4>Who is the singer of <strong>En Vaanile</strong>?</h4><p>The song is sung by <strong>Jency</strong>, whose voice adds a unique charm to the melody.</p></div><div class=\"faq-item\"><h4>Who composed the music for <strong>En Vaanile</strong>?</h4><p>The music for this classic song was composed by the legendary <strong>Ilaiyaraaja</strong>.</p></div><div class=\"faq-item\"><h4>When was <strong>En Vaanile</strong> released?</h4><p>The song was released on <strong>August 15, 1980</strong>.</p></div></div>",
+    "summary": "<strong>En Vaanile</strong> is a poignant melody that beautifully encapsulates the feelings of love and longing experienced by the characters in <em>Johnny</em>. The song's lyrics, penned by the legendary Kannadhasan, evoke a sense of nostalgia and romance, making it a timeless classic. With Jency's soulful rendition and Ilaiyaraaja's masterful composition, the song resonates deeply with listeners, transporting them to a world of heartfelt emotions. Its soothing melody and heartfelt lyrics make it perfect for romantic occasions and moments of reflection.",
+    "releaseYear": "1980",
+    "high_ctr_intro": "Experience the enchanting vibes of <strong>En Vaanile</strong>, a timeless melody that captures the essence of love and longing. This classic song from the film <em>Johnny</em> showcases the soulful voice of Jency, paired with the brilliant composition of Ilaiyaraaja. Dive into a world of nostalgia and romance with this unforgettable track that resonates with every listener.",
+    "stanzaMeanings": [
+      "In my sky, there is only one moon.",
+      "Love is like clouds, poetry is like stars, and the world is like a journey.",
+      "In my sky, there is only one moon.",
+      "Like water, is my girl, she has come to me, my heart.",
+      "In the smiling eyes, is there a need for words that can enchant? Ah...",
+      "In my sky, there is only one moon.",
+      "The colors you create are the melodies my heart sings.",
+      "From the rivers, waves come, is it just one shore? Ah... Ah...",
+      "In my sky, there is only one moon.",
+      "Love is like clouds, poetry is like stars, and the world is like a journey.",
+      "In my sky, there is only one moon."
+    ]
+  }
 }
