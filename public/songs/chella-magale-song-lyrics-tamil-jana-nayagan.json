@@ -92,7 +92,6 @@
   "version": 1,
   "enrichedMetadata": {
     "mood": [
-      "romantic",
       "happy"
     ],
     "songType": [
@@ -100,8 +99,6 @@
       "melody"
     ],
     "occasions": [
-      "valentine's day",
-      "wedding",
       "celebration",
       "birthday"
     ],
