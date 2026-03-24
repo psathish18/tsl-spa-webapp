@@ -5,10 +5,14 @@ name: Generate Lyrics from Missing Keywords
 # "missing-lyrics" validation issue that was created by the google-trends
 # workflow.
 #
+# These songs are NOT on the Blogger blog yet, so we use GitHub Copilot AI
+# to generate the full lyrics JSON directly from the validated metadata.
+#
 # Flow:
 #   1. Parse the enriched JSON from the issue body (```json … ``` block).
-#   2. For each entry with "validated": true, run generate-song-json with the
-#      Blogger "Song:" category to fetch and build the lyrics JSON file.
+#   2. For each entry with "validated": true, use AI to generate full song
+#      lyrics JSON (stanzas, Tamil Unicode, SEO, enrichedMetadata, etc.)
+#      and save to blob-data/<slug>.json.
 #   3. Upload newly created files to Vercel Blob Storage.
 #   4. Revalidate the song pages on tsonglyrics.com.
 #   5. Open a PR against blob-data-temp with the new public/songs files.
@@ -93,58 +97,42 @@ jobs:
             core.setOutput('has_validated', 'true');
             core.setOutput('count', String(validated.length));
 
-      # ── Step 2: Generate lyrics JSON for each validated song ───────────────
-      - name: Generate lyrics JSON files
+      # ── Step 2: Generate full lyrics JSON with AI (no Blogger fetch needed) ──
+      - name: Generate lyrics JSON files using AI
         id: generate
         if: steps.extract.outputs.has_validated == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "🎵 Generating lyrics JSON for validated songs..."
+          echo "🎵 Using AI to generate full song lyrics JSON for validated songs..."
+          echo "   (songs are NOT on Blogger yet — AI generates stanzas, Tamil Unicode, SEO, FAQ from scratch)"
+          echo ""
 
-          GENERATED=0
-          FAILED=0
+          # Run the AI lyrics generation script
+          npm run generate-lyrics-from-keywords
+          EXIT_CODE=$?
+
+          # Read counts from the summary file written by the TypeScript script
+          SUMMARY="blob-data/_generation-summary.json"
+          if [ -f "$SUMMARY" ]; then
+            GENERATED=$(jq '.generated' "$SUMMARY" 2>/dev/null || echo "0")
+            FAILED=$(jq '.failed' "$SUMMARY" 2>/dev/null || echo "0")
+          else
+            GENERATED=0
+            FAILED=$(jq 'length' validated-keywords.json 2>/dev/null || echo "0")
+          fi
+
+          # Capture slugs for logging (skip internal summary file)
           GENERATED_SLUGS=""
-
-          # Ensure blob-data directory exists
-          mkdir -p blob-data
-
-          while IFS= read -r line; do
-            CATEGORY=$(echo "$line" | jq -r '.bloggerSongCategory // empty')
-            KEYWORD=$(echo "$line" | jq -r '.keyword // empty')
-
-            if [ -z "$CATEGORY" ]; then
-              echo "⚠️  Skipping '$KEYWORD' — no bloggerSongCategory set."
-              FAILED=$((FAILED + 1))
-              continue
+          for f in blob-data/*.json; do
+            if [ -f "$f" ] && [ "$(basename "$f")" != "_generation-summary.json" ]; then
+              SLUG=$(jq -r '.slug // empty' "$f" 2>/dev/null)
+              if [ -n "$SLUG" ]; then
+                GENERATED_SLUGS="$GENERATED_SLUGS $SLUG"
+                echo "  ✅ Generated: $SLUG"
+              fi
             fi
-
-            echo ""
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            echo "📖 Generating: $KEYWORD"
-            echo "   Blogger category: Song:$CATEGORY"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-
-            if npm run generate-song-json -- --category="Song:$CATEGORY"; then
-              echo "✅ Successfully generated JSON for: $KEYWORD"
-              GENERATED=$((GENERATED + 1))
-
-              # Capture the slug(s) of generated files for revalidation
-              for f in blob-data/*.json; do
-                SLUG=$(jq -r '.slug // empty' "$f" 2>/dev/null)
-                if [ -n "$SLUG" ]; then
-                  GENERATED_SLUGS="$GENERATED_SLUGS $SLUG"
-                fi
-              done
-            else
-              echo "❌ Failed to generate JSON for: $KEYWORD (category: Song:$CATEGORY)"
-              FAILED=$((FAILED + 1))
-            fi
-
-            # Rate limiting between songs
-            sleep 1
-
-          done < <(jq -c '.[]' validated-keywords.json)
+          done
 
           echo ""
           echo "📊 Summary: $GENERATED generated, $FAILED failed"
@@ -161,6 +149,10 @@ jobs:
           for file in blob-data/*.json; do
             if [ -f "$file" ]; then
               filename=$(basename "$file")
+              # Skip the internal summary file
+              if [ "$filename" = "_generation-summary.json" ]; then
+                continue
+              fi
               if [ ! -f "public/songs/$filename" ]; then
                 FILES_MISSING=true
                 echo "New file to upload: $filename"
@@ -196,6 +188,10 @@ jobs:
 
           for file in blob-data/*.json; do
             if [ -f "$file" ]; then
+              # Skip the internal summary file
+              if [ "$(basename "$file")" = "_generation-summary.json" ]; then
+                continue
+              fi
               slug=$(jq -r '.slug' "$file" 2>/dev/null)
               if [ -n "$slug" ] && [ "$slug" != "null" ]; then
                 path="/${slug}.html"
@@ -224,10 +220,13 @@ jobs:
           BRANCH_NAME="missing-lyrics-$(date +%s)"
           git checkout -b "$BRANCH_NAME"
 
-          # Copy generated files to public/songs
-          if ls blob-data/*.json 1>/dev/null 2>&1; then
-            cp blob-data/*.json public/songs/
-          fi
+          # Copy generated files to public/songs (exclude the summary file)
+          for f in blob-data/*.json; do
+            fname=$(basename "$f")
+            if [ "$fname" != "_generation-summary.json" ] && [ -f "$f" ]; then
+              cp "$f" "public/songs/$fname"
+            fi
+          done
 
           # Only proceed if there are actual changes
           if git diff --quiet public/songs/; then
@@ -283,6 +282,9 @@ jobs:
               lines.push('');
               lines.push('Files uploaded to Vercel Blob Storage and song pages revalidated.');
               lines.push('A PR has been created against the `blob-data-temp` branch with the new `public/songs/` files.');
+              lines.push('');
+              lines.push('Note: These lyrics were generated by AI. Please review the PR and verify the lyrics are accurate before merging.');
+              lines.push('You should also create the corresponding post on your Blogger blog for content consistency.');
             }
             if (failed > 0) {
               lines.push('');
@@ -337,8 +339,9 @@ jobs:
               'The workflow encountered an error. Check the [workflow logs](../../actions/workflows/generate-lyrics-from-missing.yml) for details.',
               '',
               'Common fixes:',
-              '- Ensure `bloggerSongCategory` matches the exact `Song:` category on Blogger',
+              '- Ensure all required fields are set in the JSON: `singerName`, `lyricistName`, `musicDirectorName`, `bloggerSongCategory`',
               '- Verify the JSON in the issue body is valid (no trailing commas, proper quoting)',
+              '- Ensure `GITHUB_TOKEN` has access to GitHub Copilot models',
               '- Re-comment `/generate-lyrics` to retry',
             ];
             await github.rest.issues.createComment({

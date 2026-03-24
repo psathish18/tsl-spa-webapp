@@ -27,6 +27,7 @@
     "trends": "tsx scripts/fetch-google-trends.ts",
     "trends-ai": "tsx scripts/filter-with-ai.ts",
     "enrich-missing": "tsx scripts/enrich-missing-keywords.ts",
+    "generate-lyrics-from-keywords": "tsx scripts/generate-lyrics-from-keywords.ts",
     "setup-blogger-auth": "node scripts/setup-blogger-auth.js",
     "get-github-secrets": "node scripts/get-secrets-for-github.js",
     "post-social-media": "node scripts/post-social-media-to-blogger.js",
