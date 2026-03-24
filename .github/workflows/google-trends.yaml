@@ -13,6 +13,7 @@ jobs:
     permissions:
       contents: read
       models: read
+      issues: write
     steps:
       - uses: actions/checkout@v4
 
@@ -72,3 +73,59 @@ jobs:
             filtered-keywords.json
             missing-keywords.json
           retention-days: 30
+
+      # ── Stage 2: Enrich missing keywords & request human validation ────────
+      - name: Enrich Missing Keywords with AI
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔍 Enriching missing keywords with AI metadata..."
+          npm run enrich-missing || echo "⚠️  Enrichment step completed with warnings"
+
+      - name: Upload Enriched Missing Keywords
+        if: success() || failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: missing-keywords-enriched
+          path: missing-keywords-enriched.json
+          retention-days: 30
+
+      - name: Create GitHub Issue for Missing Keywords Validation
+        if: success()
+        uses: actions/github-script@v7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          script: |
+            const fs = require('fs');
+            const enrichedPath = 'missing-keywords-enriched.json';
+            const issueBodyPath = 'missing-keywords-issue-body.md';
+
+            if (!fs.existsSync(enrichedPath)) {
+              console.log('No missing-keywords-enriched.json found — skipping issue creation.');
+              return;
+            }
+
+            const enriched = JSON.parse(fs.readFileSync(enrichedPath, 'utf8'));
+            if (!enriched || enriched.length === 0) {
+              console.log('No missing keywords to validate — skipping issue creation.');
+              return;
+            }
+
+            const issueBody = fs.existsSync(issueBodyPath)
+              ? fs.readFileSync(issueBodyPath, 'utf8')
+              : JSON.stringify(enriched, null, 2);
+
+            const movies = [...new Set(enriched.map(e => e.movie))].join(', ');
+            const today = new Date().toISOString().slice(0, 10);
+
+            const { data: issue } = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🎵 Missing Lyrics Validation: ${movies} [${today}]`,
+              body: issueBody,
+              labels: ['missing-lyrics', 'validation-required'],
+            });
+
+            console.log(`✅ Created issue #${issue.number}: ${issue.html_url}`);

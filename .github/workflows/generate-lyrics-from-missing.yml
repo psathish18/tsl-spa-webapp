@@ -1,0 +1,349 @@
+name: Generate Lyrics from Missing Keywords
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Triggered when a collaborator comments "/generate-lyrics" on a
+# "missing-lyrics" validation issue that was created by the google-trends
+# workflow.
+#
+# Flow:
+#   1. Parse the enriched JSON from the issue body (```json … ``` block).
+#   2. For each entry with "validated": true, run generate-song-json with the
+#      Blogger "Song:" category to fetch and build the lyrics JSON file.
+#   3. Upload newly created files to Vercel Blob Storage.
+#   4. Revalidate the song pages on tsonglyrics.com.
+#   5. Open a PR against blob-data-temp with the new public/songs files.
+#   6. Comment the results back on the issue.
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  generate-lyrics:
+    # Only run when:
+    #   - the comment is on an issue (not a PR)
+    #   - the comment body is exactly "/generate-lyrics"
+    #   - the issue has the "missing-lyrics" label
+    if: |
+      github.event.issue.pull_request == null &&
+      contains(github.event.comment.body, '/generate-lyrics') &&
+      contains(github.event.issue.labels.*.name, 'missing-lyrics')
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ── Step 1: Extract validated JSON from the issue body ─────────────────
+      - name: Extract and save validated keywords
+        id: extract
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueBody = context.payload.issue.body || '';
+
+            // Extract the first ```json … ``` code block from the issue body
+            const match = issueBody.match(/```json\s*([\s\S]*?)```/);
+            if (!match) {
+              core.setFailed('❌ No JSON block found in the issue body. Please ensure the enriched JSON is inside a ```json ... ``` block.');
+              return;
+            }
+
+            let enriched;
+            try {
+              enriched = JSON.parse(match[1].trim());
+            } catch (e) {
+              core.setFailed(`❌ Failed to parse JSON from issue body: ${e.message}`);
+              return;
+            }
+
+            if (!Array.isArray(enriched) || enriched.length === 0) {
+              core.setFailed('❌ The JSON block must be a non-empty array of enriched keyword objects.');
+              return;
+            }
+
+            const validated = enriched.filter(e => e.validated === true);
+            if (validated.length === 0) {
+              core.warning('⚠️  No entries have "validated": true. Set validated to true for songs you want to generate.');
+              core.setOutput('has_validated', 'false');
+              return;
+            }
+
+            const fs = require('fs');
+            fs.writeFileSync('validated-keywords.json', JSON.stringify(validated, null, 2), 'utf8');
+            console.log(`✅ Extracted ${validated.length} validated keyword(s):`);
+            validated.forEach(v => console.log(`   • [${v.movie}] ${v.keyword} → category: "${v.bloggerSongCategory}"`));
+
+            core.setOutput('has_validated', 'true');
+            core.setOutput('count', String(validated.length));
+
+      # ── Step 2: Generate lyrics JSON for each validated song ───────────────
+      - name: Generate lyrics JSON files
+        id: generate
+        if: steps.extract.outputs.has_validated == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🎵 Generating lyrics JSON for validated songs..."
+
+          GENERATED=0
+          FAILED=0
+          GENERATED_SLUGS=""
+
+          # Ensure blob-data directory exists
+          mkdir -p blob-data
+
+          while IFS= read -r line; do
+            CATEGORY=$(echo "$line" | jq -r '.bloggerSongCategory // empty')
+            KEYWORD=$(echo "$line" | jq -r '.keyword // empty')
+
+            if [ -z "$CATEGORY" ]; then
+              echo "⚠️  Skipping '$KEYWORD' — no bloggerSongCategory set."
+              FAILED=$((FAILED + 1))
+              continue
+            fi
+
+            echo ""
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "📖 Generating: $KEYWORD"
+            echo "   Blogger category: Song:$CATEGORY"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+            if npm run generate-song-json -- --category="Song:$CATEGORY"; then
+              echo "✅ Successfully generated JSON for: $KEYWORD"
+              GENERATED=$((GENERATED + 1))
+
+              # Capture the slug(s) of generated files for revalidation
+              for f in blob-data/*.json; do
+                SLUG=$(jq -r '.slug // empty' "$f" 2>/dev/null)
+                if [ -n "$SLUG" ]; then
+                  GENERATED_SLUGS="$GENERATED_SLUGS $SLUG"
+                fi
+              done
+            else
+              echo "❌ Failed to generate JSON for: $KEYWORD (category: Song:$CATEGORY)"
+              FAILED=$((FAILED + 1))
+            fi
+
+            # Rate limiting between songs
+            sleep 1
+
+          done < <(jq -c '.[]' validated-keywords.json)
+
+          echo ""
+          echo "📊 Summary: $GENERATED generated, $FAILED failed"
+          echo "generated=$GENERATED" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+          echo "generated_slugs=$GENERATED_SLUGS" >> $GITHUB_OUTPUT
+
+      # ── Step 3: Upload to Vercel Blob Storage ──────────────────────────────
+      - name: Check for new files to upload
+        id: check_files
+        if: steps.generate.outputs.generated != '0'
+        run: |
+          FILES_MISSING=false
+          for file in blob-data/*.json; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              if [ ! -f "public/songs/$filename" ]; then
+                FILES_MISSING=true
+                echo "New file to upload: $filename"
+              fi
+            fi
+          done
+          echo "files_missing=$FILES_MISSING" >> $GITHUB_OUTPUT
+
+      - name: Upload to Vercel Blob Storage
+        if: steps.generate.outputs.generated != '0' && steps.check_files.outputs.files_missing == 'true'
+        env:
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+        run: |
+          if [ -z "$BLOB_READ_WRITE_TOKEN" ]; then
+            echo "❌ BLOB_READ_WRITE_TOKEN secret not configured — skipping blob upload."
+            exit 0
+          fi
+          echo "📤 Uploading generated files to Vercel Blob Storage..."
+          npm run upload-to-blob
+
+      # ── Step 4: Revalidate song pages ──────────────────────────────────────
+      - name: Revalidate song pages
+        if: steps.generate.outputs.generated != '0' && steps.check_files.outputs.files_missing == 'true'
+        env:
+          REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+        run: |
+          if [ -z "$REVALIDATE_SECRET" ]; then
+            echo "⚠️ REVALIDATE_SECRET not configured — skipping revalidation."
+            exit 0
+          fi
+
+          DOMAIN="https://tsonglyrics.com"
+
+          for file in blob-data/*.json; do
+            if [ -f "$file" ]; then
+              slug=$(jq -r '.slug' "$file" 2>/dev/null)
+              if [ -n "$slug" ] && [ "$slug" != "null" ]; then
+                path="/${slug}.html"
+                echo "Revalidating: $path"
+                response=$(curl -s -X POST "$DOMAIN/api/revalidate" \
+                  -H "Content-Type: application/json" \
+                  -d "{\"path\": \"$path\", \"secret\": \"$REVALIDATE_SECRET\"}")
+                if echo "$response" | jq -e '.revalidated' >/dev/null 2>&1; then
+                  echo "✅ Revalidated: $path"
+                else
+                  echo "❌ Failed to revalidate: $path — $response"
+                fi
+              fi
+            fi
+          done
+
+      # ── Step 5: Create PR with the new public/songs files ─────────────────
+      - name: Create PR with new song files
+        if: steps.generate.outputs.generated != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          BRANCH_NAME="missing-lyrics-$(date +%s)"
+          git checkout -b "$BRANCH_NAME"
+
+          # Copy generated files to public/songs
+          if ls blob-data/*.json 1>/dev/null 2>&1; then
+            cp blob-data/*.json public/songs/
+          fi
+
+          # Only proceed if there are actual changes
+          if git diff --quiet public/songs/; then
+            echo "No new files added to public/songs — skipping PR."
+            exit 0
+          fi
+
+          git add public/songs/
+          git commit -m "feat: add missing lyrics for trending songs (issue #${{ github.event.issue.number }})"
+
+          # Ensure blob-data-temp branch exists
+          if ! git ls-remote --exit-code --heads origin blob-data-temp >/dev/null 2>&1; then
+            git fetch origin main
+            git checkout main
+            git checkout -b blob-data-temp
+            git push origin blob-data-temp
+            git checkout "$BRANCH_NAME"
+          fi
+
+          git push origin "$BRANCH_NAME"
+
+          ISSUE_NUM="${{ github.event.issue.number }}"
+          GENERATED="${{ steps.generate.outputs.generated }}"
+          FAILED="${{ steps.generate.outputs.failed }}"
+          COMMENTER="${{ github.event.comment.user.login }}"
+
+          gh pr create \
+            --base blob-data-temp \
+            --head "$BRANCH_NAME" \
+            --title "feat: add missing lyrics from trending songs (issue #${ISSUE_NUM})" \
+            --body "Lyrics JSON files generated from validated missing keywords in issue #${ISSUE_NUM}. Generated: ${GENERATED} song(s), Failed: ${FAILED} song(s). Triggered by: Issue #${ISSUE_NUM} - comment by @${COMMENTER}. Workflow: generate-lyrics-from-missing.yml" \
+            --label "automated-pr,missing-lyrics"
+
+      # ── Step 6: Comment results back on the issue ──────────────────────────
+      - name: Comment success on issue
+        if: success() && steps.extract.outputs.has_validated == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const generated = parseInt('${{ steps.generate.outputs.generated }}' || '0');
+            const failed    = parseInt('${{ steps.generate.outputs.failed }}'    || '0');
+
+            const lines = [
+              '### Lyrics Generation Complete',
+              '',
+              '| Result | Count |',
+              '|--------|-------|',
+              '| Generated | ' + generated + ' |',
+              '| Failed    | ' + failed + ' |',
+            ];
+
+            if (generated > 0) {
+              lines.push('');
+              lines.push('Files uploaded to Vercel Blob Storage and song pages revalidated.');
+              lines.push('A PR has been created against the `blob-data-temp` branch with the new `public/songs/` files.');
+            }
+            if (failed > 0) {
+              lines.push('');
+              lines.push(failed + ' song(s) failed. Check the [workflow logs](../../actions/workflows/generate-lyrics-from-missing.yml) for details.');
+              lines.push('Common causes: `bloggerSongCategory` mismatch or song not yet published on Blogger.');
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: lines.join('\n')
+            });
+
+            if (generated > 0 && failed === 0) {
+              await github.rest.issues.update({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'closed',
+                state_reason: 'completed'
+              });
+            }
+
+      - name: Comment no-validated on issue
+        if: success() && steps.extract.outputs.has_validated == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const lines = [
+              '### No Validated Songs Found',
+              '',
+              'Please update the JSON block in the issue body and set `"validated": true` for confirmed songs, then comment `/generate-lyrics` again.',
+              '',
+              'Tip: Only edit the JSON inside the triple-backtick json code block in the issue body.',
+            ];
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: lines.join('\n')
+            });
+
+      - name: Comment failure on issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const lines = [
+              '### Lyrics Generation Failed',
+              '',
+              'The workflow encountered an error. Check the [workflow logs](../../actions/workflows/generate-lyrics-from-missing.yml) for details.',
+              '',
+              'Common fixes:',
+              '- Ensure `bloggerSongCategory` matches the exact `Song:` category on Blogger',
+              '- Verify the JSON in the issue body is valid (no trailing commas, proper quoting)',
+              '- Re-comment `/generate-lyrics` to retry',
+            ];
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: lines.join('\n')
+            });
