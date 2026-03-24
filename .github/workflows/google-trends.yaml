@@ -6,6 +6,22 @@ on:
     # For IST (6 PM = 12:30 PM UTC), use: '30 12 * * *'
     - cron: '30 12 * * *'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run — skip Blogger posting and GitHub Issue creation (safe for branch testing)'
+        required: false
+        default: 'false'
+        type: boolean
+      max_keywords:
+        description: 'Max missing keywords to enrich (1–10). Default is 5.'
+        required: false
+        default: '5'
+        type: string
+      skip_blogger:
+        description: 'Skip Blogger posting step (fetch trends + AI enrichment only)'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   fetch-trends:
@@ -43,6 +59,7 @@ jobs:
           cat social-media-posts.json || echo "No social-media-posts.json found"
 
       - name: Setup Blogger Authentication
+        if: inputs.dry_run != 'true' && inputs.skip_blogger != 'true'
         env:
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_TOKENS: ${{ secrets.BLOGGER_TOKENS }}
@@ -55,6 +72,7 @@ jobs:
           echo "✅ Authentication files created"
 
       - name: Post Social Media Content to Blogger
+        if: inputs.dry_run != 'true' && inputs.skip_blogger != 'true'
         env:
           GCS_BUCKET_NAME: ${{ secrets.GCS_BUCKET_NAME }}
           GCS_PROJECT_ID: ${{ secrets.GCS_PROJECT_ID }}
@@ -76,11 +94,12 @@ jobs:
 
       # ── Stage 2: Enrich missing keywords & request human validation ────────
       - name: Enrich Missing Keywords with AI
-        if: success()
+        if: success() || (inputs.dry_run == 'true') || (inputs.skip_blogger == 'true')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_KEYWORDS: ${{ inputs.max_keywords || '5' }}
         run: |
-          echo "🔍 Enriching missing keywords with AI metadata..."
+          echo "🔍 Enriching missing keywords with AI metadata (max: ${MAX_KEYWORDS})..."
           npm run enrich-missing || echo "⚠️  Enrichment step completed with warnings"
 
       - name: Upload Enriched Missing Keywords
@@ -92,7 +111,7 @@ jobs:
           retention-days: 30
 
       - name: Create GitHub Issue for Missing Keywords Validation
-        if: success()
+        if: success() && inputs.dry_run != 'true'
         uses: actions/github-script@v7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

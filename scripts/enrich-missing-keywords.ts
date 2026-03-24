@@ -16,8 +16,8 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const COPILOT_MODEL = 'gpt-4o';
 const GITHUB_MODELS_ENDPOINT = 'https://models.inference.ai.azure.com';
 
-/** Maximum number of missing keywords to process */
-const TOP_N = 5;
+/** Maximum number of missing keywords to process — overridable via MAX_KEYWORDS env var */
+const TOP_N = Math.min(10, Math.max(1, parseInt(process.env.MAX_KEYWORDS ?? '5', 10) || 5));
 
 export interface MissingKeyword {
   keyword: string;
